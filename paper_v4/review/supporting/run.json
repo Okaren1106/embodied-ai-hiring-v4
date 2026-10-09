@@ -1,0 +1,86 @@
+{
+  "schema_version": "0.4",
+  "review_id": "ijm-upgrade-intake-20260926",
+  "paper_title": "Technology Mentions and Direct Qualification Expressions in Embodied AI Recruitment",
+  "assessment_date": "2026-09-26",
+  "status": "draft",
+  "mode": "quick",
+  "requested_mode": "quick",
+  "delivered_mode": "quick",
+  "mode_transition": "none",
+  "target": {
+    "venue": "International Journal of Manpower",
+    "tier": "standard-field"
+  },
+  "paper_family": "descriptive-measurement",
+  "designs": [
+    "purposive-cross-section",
+    "partial-identification",
+    "relational-text-coding"
+  ],
+  "requested_addons": [
+    "journal_fit"
+  ],
+  "identity_handling": "identity_minimized",
+  "assessment_boundary": {
+    "sources": [
+      {
+        "source_id": "SRC-01",
+        "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\analysis_E_english_v3_0\\release\\English_Manuscript_IJM.md",
+        "status": "fully_read",
+        "sha256": "73c4d08945666a211579c4e7f5bbc205bf2055bab092ef87484fc2693e368394",
+        "notes": "Source Markdown read; visual delivery not yet rechecked in this upgrade."
+      },
+      {
+        "source_id": "SRC-02",
+        "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\analysis_E_english_v3_0\\release\\Supplementary_Material.md",
+        "status": "fully_read",
+        "sha256": "30237942986d613ba394d2bfc01899a3426caa122c17022c0c732cfb9b0f15c9",
+        "notes": "Source Markdown read; visual delivery not yet rechecked in this upgrade."
+      }
+    ],
+    "figures": "captions_only",
+    "equations": "source_preserved",
+    "appendix": "fully_read",
+    "notes": "Initial contribution/design audit; not an exhaustive final referee report. New analyses run separately from immutable v3 sources."
+  },
+  "capabilities": {
+    "live_literature_search": true,
+    "replication_code": "static_only"
+  },
+  "comment_policy": {
+    "minimum_target": 0,
+    "maximum": null,
+    "substance_maximum": 100,
+    "writing_maximum": 30,
+    "exhaustive": false
+  },
+  "stage_status": {
+    "intake": "passed",
+    "reconstruction": "in_progress",
+    "frontier": "in_progress",
+    "audit": "in_progress",
+    "counterargument": "pending",
+    "synthesis": "pending",
+    "verification": "pending",
+    "delivery": "pending"
+  },
+  "gates_loaded": [],
+  "counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0,
+    "info": 0,
+    "essential": 0
+  },
+  "verification_passed": false,
+  "telemetry": {
+    "passes": [
+      "v3 main and supplement reconstruction"
+    ],
+    "agents_spawned": 3,
+    "wall_clock_seconds": null,
+    "input_tokens": null,
+    "output_tokens": null
+  }
+}

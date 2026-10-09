@@ -1,0 +1,161 @@
+"""First-pass adjudication for ML coding_order 49-56. Reader: grok4.6."""
+from register_Q_decisions import register
+
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0646":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"VLA_INTERN_DATA_AND_FINETUNE_SUPPORT",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"参与VLA（视觉-语言-动作）大模型相关研发，协助开展机器人多模态数据处理、数据清洗与标注工作；",
+ "new":{"1":O+"EDP开发平台为公司产品背景，未单列冻结项。"},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"协助进行模型微调、实验设计、训练日志分析","description":"协助微调是泛称，不自动记后训练目录。"}],
+ "notes":"实习协助VLA研发与数据。PyTorch/TensorFlow至少一种。公司宣传中的全栈自研不计入本人任务。"
+},
+"N0628":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"RL_BIPED_LOCOMOTION_SIM2REAL",
+ "secondary_task":"",
+ "task_evidence":"基于PPO、SAC等强化学习算法，研发双足机器人步态运动策略，实现行走、转向、平衡、抗扰动及复杂地形自适应运动能力。",
+ "new":{
+  "1":[["V2_SIM2REAL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_SIM2REAL","GENERAL","UNCONDITIONAL"]],
+  "3":R+"Python/C++不是C语言；斜线保持未解。"
+ },
+ "old_overrides":{
+  "O4":{"metric":"GENERAL","branch":"UNCONDITIONAL","relation":"EXPERIENCE_REQUIREMENT","reason":"掌握MuJoCo、Isaac Gym，二者并列掌握而非斜线任选。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"量化运动性能指标，持续迭代优化算法。","description":"量化指标不是模型量化压缩。PPO/SAC为算法示例。"}],
+ "notes":"主责双足RL运控与Sim2Real。候选把量化指标误触发压缩，已拒绝。"
+},
+"N0159":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"OTHER_MODEL",
+ "fine_task":"ROBOT_PERCEPTION_DETECTION_POSE",
+ "secondary_task":"",
+ "task_evidence":"负责机器人在各种场景下的常用感知任务的开发与实现，包括但不限于目标检测、语义/实例分割、物体位姿估计等任务。",
+ "new":{
+  "1":R+"轻量化模型不是量化蒸馏裁剪的充分证据。",
+  "2":[["V2_PCL","GENERAL","CHOICE_AND_EXAMPLE"],["V2_OPEN3D","GENERAL","CHOICE_AND_EXAMPLE"]],
+  "3":"DUPLICATE:N0159:2","4":"DUPLICATE:N0159:2",
+  "5":R+"C++不是C语言。",
+  "6":O+"Ubuntu操作系统未单列冻结项。",
+  "7":R+"轻量化模型不是量化蒸馏裁剪的充分证据。"
+ },
+ "old_overrides":{
+  "O13":{"metric":"DUTY_OWN_DEVELOP","branch":"EXAMPLE","relation":"OWN_DEVELOP","reason":"拓扑地图与3D视觉感知并列研发对象，不自动等于SLAM主责。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"YOLO系列、SAM系列、FoundationPose、SAM-6D等","description":"检测/位姿模型家族示例保留目录外。"}],
+ "notes":"感知模型服务导航与双臂规划，不是机器人动作策略主责。C++、Python分列，不记C。"
+},
+"N0038":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"INDUSTRIAL_VLA_WORLD_PRETRAIN_POSTTRAIN",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"深度参与具身大模型（VLA / 世界模型）从预训练、后训练对齐到操作策略部署的完整研发闭环",
+ "new":{
+  "1":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNRESOLVED"],["V2_POSTTRAINING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_POSTTRAINING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNRESOLVED"]],
+  "4":[["V2_POSTTRAINING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "5":[["V2_SIM2REAL","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_DOMAIN_RANDOMIZATION","DUTY_OWN_DEVELOP","EXAMPLE"]],
+  "6":[["V2_TELEOP","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "7":[["V2_MODEL_COMPRESSION","DUTY_OWN_DEVELOP","EXAMPLE"]],
+  "8":R+"LoRA/MoE不是模型压缩目录的充分证据。",
+  "9":[["V2_SAPIEN","GENERAL","CHOICE_AND_EXAMPLE"]],
+  "10":"DUPLICATE:N0038:9",
+  "11":[["V2_POSTTRAINING","PREFERRED","CHOICE"]],
+  "12":[["V2_SIM2REAL","PREFERRED","CHOICE"]],
+  "13":[["V2_ONNX","PREFERRED","UNRESOLVED"],["V2_TENSORRT","PREFERRED","UNRESOLVED"],["V2_MODEL_COMPRESSION","PREFERRED","EXAMPLE"]],
+  "14":"DUPLICATE:N0038:13","15":"DUPLICATE:N0038:13"
+ },
+ "old_overrides":{
+  "O11":{"metric":"DUTY_OWN_DEVELOP","branch":"EXAMPLE","relation":"OWN_DEVELOP","reason":"从感知到控制是端到端策略对象，不是独立感知岗。"},
+  "O12":{"metric":"DUTY_OWN_DEVELOP","branch":"EXAMPLE","relation":"OWN_DEVELOP","reason":"同一端到端策略句中的控制。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"复现或改进过 OpenVLA、RT 系列、Pi 系列等具身模型","description":"开源模型家族示例；不把π系列写成OpenPi训练框架。"}],
+ "notes":"VLA/世界模型斜线未解。知识蒸馏/量化/剪枝才记压缩。遥操作出现在数据飞轮采集步骤。"
+},
+"N0148":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"TRAIN_INFER_INFRA",
+ "fine_task":"INDUSTRIAL_VLA_INFER_COMPRESS_AND_DATA",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"实现并优化VLA模型在机器人控制中的推理接口，完成模型压缩与加速。",
+ "new":{},
+ "old_overrides":{
+  "O3":{"metric":"GENERAL","branch":"CHOICE","relation":"EXPERIENCE_REQUIREMENT","reason":"PyTorch/Jax斜线未解。"},
+  "O4":{"metric":"GENERAL","branch":"CHOICE","relation":"EXPERIENCE_REQUIREMENT","reason":"同一斜线。"},
+  "O7":{"metric":"DUTY_OWN_USE","branch":"UNCONDITIONAL","relation":"OWN_USE","reason":"数据采集清洗标注评估服务工业具身大模型，不是本人架构预训练主责。"}
+ },
+ "additions":[
+  {"code":"V2_MODEL_COMPRESSION","metric":"DUTY_OWN_DEVELOP","branch":"UNCONDITIONAL","quote":"实现并优化VLA模型在机器人控制中的推理接口，完成模型压缩与加速。","reason":"职责句明确模型压缩与加速。"}
+ ],
+ "outside_extra":[{"quote":"熟悉VLM，VLA，WAM核心原理与架构","description":"WAM未展开，不按世界模型改写。"}],
+ "notes":"候选队列为空。主责VLA推理接口与压缩，数据与合成数据为并列职责。π系列保留目录外。"
+},
+"N0090":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"INDUSTRIAL_VLA_WORLD_PRETRAIN",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"负责具身大模型（VLA / 世界模型）的预训练研发，围绕工业场景需求，设计并实现Transformer与Diffusion相结合的具身操作策略架构",
+ "new":{
+  "1":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNRESOLVED"]],
+  "2":R+"KV Cache/LoRA/Adapter不是模型压缩目录的充分证据。",
+  "3":[["V2_POSTTRAINING","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_WORLD_MODEL","GENERAL","UNRESOLVED"]],
+  "5":[["V2_SIM2REAL","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_TELEOP","PREFERRED","EXAMPLE"]],
+  "7":[["V2_SAPIEN","PREFERRED","EXAMPLE"]],
+  "8":"DUPLICATE:N0090:7"
+ },
+ "old_overrides":{
+  "O11":{"metric":"DUTY_OWN_DEVELOP","branch":"EXAMPLE","relation":"OWN_DEVELOP","reason":"从感知到控制是端到端策略对象。"},
+  "O12":{"metric":"DUTY_OWN_DEVELOP","branch":"EXAMPLE","relation":"OWN_DEVELOP","reason":"同一端到端策略句。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"如OpenVLA、Pi系列、RT系列等","description":"开源具身模型示例；不把Pi系列写成OpenPi。"}],
+ "notes":"主责工业预训练。后训练对齐写在任职完整项目经验，不是本岗主责。VLA/世界模型斜线未解。"
+},
+"N0070":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"DEXTEROUS_IL_RL_SIM2REAL",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"研究可泛化的灵巧操作算法，基于模仿学习、强化学习、大模型等技术，增强操作算法的场景泛化性、任务通用性、对象多样性、动态稳定性等；",
+ "new":{
+  "1":[["V2_SIM2REAL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_HABITAT","PREFERRED","EXAMPLE"]],
+  "3":"DUPLICATE:N0070:2"
+ },
+ "old_overrides":{
+  "O9":{"metric":"DUTY_OWN_USE","branch":"UNCONDITIONAL","relation":"OWN_USE","reason":"虚实迁移使用仿真到真机，不是开发仿真器。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"有AI Habitat、Issac Gym、Issac Lab等具身智能仿真环境的使用开发经验","description":"Issac为原文拼写。"}],
+ "notes":"主责灵巧操作算法与数据采集系统。大模型是技术之一，不改操作策略主任务。"
+},
+"N0160":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"EMBODIED_APP_TRAINING_AND_INTERFACE",
+ "secondary_task":"",
+ "task_evidence":"针对零售、工业等真实应用场景，参与具身智能算法方案开发、模型训练、性能调优，推动具身智能机器人商业化落地",
+ "new":{"1":R+"Python和C++并列，不是C语言。"},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"应用向算法训练与机器人端接口。成长型表述不改当前任务。"
+}
+}
+if __name__=='__main__':
+ register('RF_ML_AI_ENGINEERING', decisions, reader='grok4.6')

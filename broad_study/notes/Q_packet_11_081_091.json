@@ -1,0 +1,3197 @@
+[
+  {
+    "coding_order": 81,
+    "reading_id": "E0519",
+    "company_id": "US_FIGURE",
+    "title": "Mechanical Engineer - All Levels",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4410831006|dfe41da0132051c85b17052469b4b2df4be3196f894780beca4e5d222894cdf7",
+    "already_coded": false,
+    "fields": {
+      "duties": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.\nBuild prototypes to test assembly, range of motion, wire routing.\nGenerate accurate 2D drawings using GD&T per ASME Y14.5.\nWork with our GSM team to pick a supplier and order parts.\nInspect first articles, build test stands, and continuously support part on robot development platforms.",
+      "requirements": "3+ years of experience in mechanical engineering\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field\nExpert in using 3D CAD software to design parts with complex geometry\nExperience designing and building prototypes\nExperienced with simulation and analysis methodology (FEA, MATLAB etc.)\nAbility to write and maintain clean documentation for design processes.\nExperience with actuators, including strain-wave, planetary, or cycloidal\nExperience with electromechanical integration, such as sensors, motors, motor drivers, wire harnesses, and communication buses.\nBonus Qualifications:\nExperience with high volume manufacturing processes.\nExperience working with contract manufacturers.\nCATIA V6 Experience\nWire harness design experience\nThe US base salary range for this full-time position is between $120,000 - $250,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is headquartered in San Jose, CA.\nWe are looking for Mechanical Engineers to design, test, and implement key hardware components for our humanoid.\nResponsibilities:\nDesign parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.\nBuild prototypes to test assembly, range of motion, wire routing.\nGenerate accurate 2D drawings using GD&T per ASME Y14.5.\nWork with our GSM team to pick a supplier and order parts.\nInspect first articles, build test stands, and continuously support part on robot development platforms.\nRequirements:\n3+ years of experience in mechanical engineering\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field\nExpert in using 3D CAD software to design parts with complex geometry\nExperience designing and building prototypes\nExperienced with simulation and analysis methodology (FEA, MATLAB etc.)\nAbility to write and maintain clean documentation for design processes.\nExperience with actuators, including strain-wave, planetary, or cycloidal\nExperience with electromechanical integration, such as sensors, motors, motor drivers, wire harnesses, and communication buses.\nBonus Qualifications:\nExperience with high volume manufacturing processes.\nExperience working with contract manufacturers.\nCATIA V6 Experience\nWire harness design experience\nThe US base salary range for this full-time position is between $120,000 - $250,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 0,
+        "end": 22,
+        "quote": "Design parts in 3D CAD",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GD_T",
+        "name": "几何尺寸与公差",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 179,
+        "end": 235,
+        "quote": "Generate accurate 2D drawings using GD&T per ASME Y14.5.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 166,
+        "end": 181,
+        "quote": "3D CAD software",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 319,
+        "end": 322,
+        "quote": "FEA",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_MATLAB",
+        "name": "MATLAB",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 324,
+        "end": 330,
+        "quote": "MATLAB",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 734,
+        "end": 742,
+        "quote": "CATIA V6",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 0,
+        "end": 51,
+        "quote": "Design parts in 3D CAD that satisfy load conditions",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 88,
+        "end": 111,
+        "quote": "durability requirements",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 113,
+        "end": 178,
+        "quote": "Build prototypes to test assembly, range of motion, wire routing.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 282,
+        "end": 317,
+        "quote": "simulation and analysis methodology",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 425,
+        "end": 434,
+        "quote": "actuators",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 547,
+        "end": 553,
+        "quote": "motors",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_POWER_ELECTRONICS",
+        "name": "电力电子",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 555,
+        "end": 568,
+        "quote": "motor drivers",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 446,
+        "end": 457,
+        "quote": "strain-wave",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 459,
+        "end": 468,
+        "quote": "planetary",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 473,
+        "end": 482,
+        "quote": "cycloidal",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0519:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.",
+        "quote": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.",
+        "field": "full_description",
+        "start": 434,
+        "end": 546
+      },
+      {
+        "id": "2",
+        "review_id": "E0519:2",
+        "codes": [
+          "V2_GD_STANDARD"
+        ],
+        "names": [
+          "尺寸公差标准"
+        ],
+        "surface": "Generate accurate 2D drawings using GD&T per ASME Y14.5.",
+        "quote": "Generate accurate 2D drawings using GD&T per ASME Y14.5.",
+        "field": "full_description",
+        "start": 613,
+        "end": 669
+      }
+    ]
+  },
+  {
+    "coding_order": 82,
+    "reading_id": "E0554",
+    "company_id": "US_FIGURE",
+    "title": "Senior Mechanical Engineer, Charging Systems",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4432449006|99717653594df9d837f61db425987d52c5880c2ff8312810b7504a1f1375ace1",
+    "already_coded": false,
+    "fields": {
+      "duties": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.\nConcept to production ownership of the mechanical and thermal components.\nWork with our electrical engineering team to ensure the electrical systems meet mechanical and reliability requirements.\nWork with our compliance team to ensure the design meets UL and other certification requirements\nBuild prototypes to test assembly, wire routing, and performance.\nGenerate accurate 2D drawings using GD&T per ASME Y14.5.",
+      "requirements": "3+ years of experience in mechanical engineering\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field\nExperience using 3D CAD software to design parts with complex geometry\nExperience designing and building prototypes\nFamiliar with simulation and analysis methodology\nAbility to write and maintain clean documentation for your design process.\nBonus Qualifications:\nExperience with power electronics, chargers, or other electromechanical assemblies.\nExperience with design for manufacturing and design for assembly principles.\nThe US base salary range for this full-time position is between $160,000 - $240,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended",
+      "full_description": "Figure is an AI Robotics company developing a general purpose humanoid. Our humanoid robot, Figure 02, is designed for commercial tasks and the home. We are based in San Jose, CA. It’s time to build.\nWe are looking for a Senior Mechanical Engineer to design, test, and implement a charging system for our humanoid robot.\nResponsibilities:\nDesign parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.\nConcept to production ownership of the mechanical and thermal components.\nWork with our electrical engineering team to ensure the electrical systems meet mechanical and reliability requirements.\nWork with our compliance team to ensure the design meets UL and other certification requirements\nBuild prototypes to test assembly, wire routing, and performance.\nGenerate accurate 2D drawings using GD&T per ASME Y14.5.\nRequirements:\n3+ years of experience in mechanical engineering\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field\nExperience using 3D CAD software to design parts with complex geometry\nExperience designing and building prototypes\nFamiliar with simulation and analysis methodology\nAbility to write and maintain clean documentation for your design process.\nBonus Qualifications:\nExperience with power electronics, chargers, or other electromechanical assemblies.\nExperience with design for manufacturing and design for assembly principles.\nThe US base salary range for this full-time position is between $160,000 - $240,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 0,
+        "end": 22,
+        "quote": "Design parts in 3D CAD",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GD_T",
+        "name": "几何尺寸与公差",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 471,
+        "end": 511,
+        "quote": "Generate accurate 2D drawings using GD&T",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 167,
+        "end": 182,
+        "quote": "3D CAD software",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 113,
+        "end": 186,
+        "quote": "Concept to production ownership of the mechanical and thermal components.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "name": "热管理与热设计",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 152,
+        "end": 185,
+        "quote": "mechanical and thermal components",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 232,
+        "end": 306,
+        "quote": "ensure the electrical systems meet mechanical and reliability requirements",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 308,
+        "end": 404,
+        "quote": "Work with our compliance team to ensure the design meets UL and other certification requirements",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 405,
+        "end": 470,
+        "quote": "Build prototypes to test assembly, wire routing, and performance.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 280,
+        "end": 315,
+        "quote": "simulation and analysis methodology",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_POWER_ELECTRONICS",
+        "name": "电力电子",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 429,
+        "end": 446,
+        "quote": "power electronics",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_POWER_ELECTRONICS",
+        "name": "电力电子",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 448,
+        "end": 456,
+        "quote": "chargers",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0554:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.",
+        "quote": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.",
+        "field": "full_description",
+        "start": 339,
+        "end": 451
+      },
+      {
+        "id": "2",
+        "review_id": "E0554:2",
+        "codes": [
+          "V2_GD_STANDARD"
+        ],
+        "names": [
+          "尺寸公差标准"
+        ],
+        "surface": "Generate accurate 2D drawings using GD&T per ASME Y14.5.",
+        "quote": "Generate accurate 2D drawings using GD&T per ASME Y14.5.",
+        "field": "full_description",
+        "start": 810,
+        "end": 866
+      }
+    ]
+  },
+  {
+    "coding_order": 83,
+    "reading_id": "E0523",
+    "company_id": "US_FIGURE",
+    "title": "Mechanical Engineer, Robot Ecosystem",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4596418006|3c5da349ce8b4c6ad8b93f0fdf0d6166e89d9bcd6f06c1abaf8ca8a29b6eed47",
+    "already_coded": false,
+    "fields": {
+      "duties": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.\nBuild prototypes to test assembly, range of motion, and wire routing.\nGenerate accurate 2D drawings using GD&T per ASME Y14.5.\nWork with our GSM team to select a supplier and order parts.\nInspect first articles, build test stands, and provide continuous support for parts on robot development platforms.",
+      "requirements": "2+ years of experience in mechanical engineering.\nBachelor’s or Master’s degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field.\nExpert in using 3D CAD software to design parts with complex geometry.\nExperience designing and building prototypes.\nExperienced with simulation and analysis methodology (FEA, MATLAB, etc.).\nAbility to write and maintain clean documentation for design processes.\nExperience with electromechanical integration, such as sensors, motors, motor drivers, wire harnesses, and communication buses.\nBonus Qualifications:\nExperience with high volume manufacturing processes.\nExperience working with contract manufacturers.\nCATIA V6 Experience.\nWire harness design experience.\nThe US base salary range for this full-time position is between $120,000 - $180,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is headquartered in San Jose, CA.\nWe are looking for a Mechanical Engineer to design, test, and implement key hardware components that are part of the robot ecosystem.\nResponsibilities:\nDesign parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.\nBuild prototypes to test assembly, range of motion, and wire routing.\nGenerate accurate 2D drawings using GD&T per ASME Y14.5.\nWork with our GSM team to select a supplier and order parts.\nInspect first articles, build test stands, and provide continuous support for parts on robot development platforms.\nRequirements:\n2+ years of experience in mechanical engineering.\nBachelor’s or Master’s degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field.\nExpert in using 3D CAD software to design parts with complex geometry.\nExperience designing and building prototypes.\nExperienced with simulation and analysis methodology (FEA, MATLAB, etc.).\nAbility to write and maintain clean documentation for design processes.\nExperience with electromechanical integration, such as sensors, motors, motor drivers, wire harnesses, and communication buses.\nBonus Qualifications:\nExperience with high volume manufacturing processes.\nExperience working with contract manufacturers.\nCATIA V6 Experience.\nWire harness design experience.\nThe US base salary range for this full-time position is between $120,000 - $180,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 0,
+        "end": 22,
+        "quote": "Design parts in 3D CAD",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GD_T",
+        "name": "几何尺寸与公差",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 183,
+        "end": 239,
+        "quote": "Generate accurate 2D drawings using GD&T per ASME Y14.5.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 168,
+        "end": 183,
+        "quote": "3D CAD software",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 323,
+        "end": 326,
+        "quote": "FEA",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_MATLAB",
+        "name": "MATLAB",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 328,
+        "end": 334,
+        "quote": "MATLAB",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 666,
+        "end": 674,
+        "quote": "CATIA V6",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 0,
+        "end": 51,
+        "quote": "Design parts in 3D CAD that satisfy load conditions",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 88,
+        "end": 111,
+        "quote": "durability requirements",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 113,
+        "end": 182,
+        "quote": "Build prototypes to test assembly, range of motion, and wire routing.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 286,
+        "end": 321,
+        "quote": "simulation and analysis methodology",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 479,
+        "end": 485,
+        "quote": "motors",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_POWER_ELECTRONICS",
+        "name": "电力电子",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 487,
+        "end": 500,
+        "quote": "motor drivers",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0523:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.",
+        "quote": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.",
+        "field": "full_description",
+        "start": 455,
+        "end": 567
+      },
+      {
+        "id": "2",
+        "review_id": "E0523:2",
+        "codes": [
+          "V2_GD_STANDARD"
+        ],
+        "names": [
+          "尺寸公差标准"
+        ],
+        "surface": "Generate accurate 2D drawings using GD&T per ASME Y14.5.",
+        "quote": "Generate accurate 2D drawings using GD&T per ASME Y14.5.",
+        "field": "full_description",
+        "start": 638,
+        "end": 694
+      }
+    ]
+  },
+  {
+    "coding_order": 84,
+    "reading_id": "E0524",
+    "company_id": "US_FIGURE",
+    "title": "Mechanical Engineer, Softgoods/Plastics",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4596421006|acd1ad43a2937c3f8e7d3377962a55373b589baf637bac3b1a439d3c61a6e2f9",
+    "already_coded": false,
+    "fields": {
+      "duties": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.\nWork closely with industrial designer to execute on the vision and form of the system\nOwn the industrial design robot buck, keep up to date with latest files from our engineers and communicate with suppliers\nDesign injection molded plastic parts with Class A surfaces\nGenerate accurate 2D drawings using GD&T per ASME Y14.5.\nInspect first articles, build test stands, and continuously support part on robot development platforms.",
+      "requirements": "5+ years of experience in mechanical engineering\nExperience working with industrial design departments\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field\nExpert in using 3D CAD software to design parts with complex geometry\nExperience with high volume manufacturing processes specifically injection molding and die cutting\nExperience designing and building prototypes\nAbility to write and maintain clean documentation for design processes.\nBonus Qualifications:\nExperienced with simulation and analysis methodology (FEA, MATLAB etc.)\nExperience working with contract manufacturers.\nExperience with fabric manufacturing\nCATIA V6 Experience\nThe US base salary range for this full-time position is between $120,000 - $180,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company building general-purpose humanoid robots with human-level intelligence. Our robots are engineered to perform a wide range of tasks in commercial and industrial environments. We are based in San Jose, CA and require 5 days/week in-office collaboration. It's time to build.\nWe are looking for a Mechanical Engineer to own softgoods and plastic parts.\nResponsibilities:\nDesign parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.\nWork closely with industrial designer to execute on the vision and form of the system\nOwn the industrial design robot buck, keep up to date with latest files from our engineers and communicate with suppliers\nDesign injection molded plastic parts with Class A surfaces\nGenerate accurate 2D drawings using GD&T per ASME Y14.5.\nInspect first articles, build test stands, and continuously support part on robot development platforms.\nRequirements:\n5+ years of experience in mechanical engineering\nExperience working with industrial design departments\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field\nExpert in using 3D CAD software to design parts with complex geometry\nExperience with high volume manufacturing processes specifically injection molding and die cutting\nExperience designing and building prototypes\nAbility to write and maintain clean documentation for design processes.\nBonus Qualifications:\nExperienced with simulation and analysis methodology (FEA, MATLAB etc.)\nExperience working with contract manufacturers.\nExperience with fabric manufacturing\nCATIA V6 Experience\nThe US base salary range for this full-time position is between $120,000 - $180,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 0,
+        "end": 22,
+        "quote": "Design parts in 3D CAD",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GD_T",
+        "name": "几何尺寸与公差",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 381,
+        "end": 421,
+        "quote": "Generate accurate 2D drawings using GD&T",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 220,
+        "end": 235,
+        "quote": "3D CAD software",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 566,
+        "end": 569,
+        "quote": "FEA",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_MATLAB",
+        "name": "MATLAB",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 571,
+        "end": 577,
+        "quote": "MATLAB",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 669,
+        "end": 677,
+        "quote": "CATIA V6",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 321,
+        "end": 380,
+        "quote": "Design injection molded plastic parts with Class A surfaces",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 88,
+        "end": 111,
+        "quote": "durability requirements",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 438,
+        "end": 479,
+        "quote": "Inspect first articles, build test stands",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 529,
+        "end": 564,
+        "quote": "simulation and analysis methodology",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0524:1",
+        "codes": [
+          "V2_OFFICE"
+        ],
+        "names": [
+          "Microsoft Office"
+        ],
+        "surface": "Figure is an AI robotics company building general-purpose humanoid robots with human-level intelligence. Our robots are engineered to perform a wide range of tasks in commercial and industrial environments. We are based in San Jose, CA and require 5 days/week in-office collaboration. It's time to build.",
+        "quote": "Figure is an AI robotics company building general-purpose humanoid robots with human-level intelligence. Our robots are engineered to perform a wide range of tasks in commercial and industrial environments. We are based in San Jose, CA and require 5 days/week in-office collaboration. It's time to build.",
+        "field": "full_description",
+        "start": 0,
+        "end": 304
+      },
+      {
+        "id": "2",
+        "review_id": "E0524:2",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.",
+        "quote": "Design parts in 3D CAD that satisfy load conditions, industrial design form factor, and durability requirements.",
+        "field": "full_description",
+        "start": 400,
+        "end": 512
+      },
+      {
+        "id": "3",
+        "review_id": "E0524:3",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Own the industrial design robot buck, keep up to date with latest files from our engineers and communicate with suppliers",
+        "quote": "Own the industrial design robot buck, keep up to date with latest files from our engineers and communicate with suppliers",
+        "field": "full_description",
+        "start": 599,
+        "end": 720
+      },
+      {
+        "id": "4",
+        "review_id": "E0524:4",
+        "codes": [
+          "V2_GD_STANDARD"
+        ],
+        "names": [
+          "尺寸公差标准"
+        ],
+        "surface": "Generate accurate 2D drawings using GD&T per ASME Y14.5.",
+        "quote": "Generate accurate 2D drawings using GD&T per ASME Y14.5.",
+        "field": "full_description",
+        "start": 781,
+        "end": 837
+      },
+      {
+        "id": "5",
+        "review_id": "E0524:5",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Experience working with industrial design departments",
+        "quote": "Experience working with industrial design departments",
+        "field": "full_description",
+        "start": 1006,
+        "end": 1059
+      },
+      {
+        "id": "6",
+        "review_id": "E0524:6",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "Experience with high volume manufacturing processes specifically injection molding and die cutting",
+        "quote": "Experience with high volume manufacturing processes specifically injection molding and die cutting",
+        "field": "full_description",
+        "start": 1231,
+        "end": 1329
+      }
+    ]
+  },
+  {
+    "coding_order": 85,
+    "reading_id": "E0520",
+    "company_id": "US_FIGURE",
+    "title": "Mechanical Engineer - Hands",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4643612006|a6f9a00b3f2a0a3e121060ece4d78222688393a7d4062ec9d8d5cde9ac0544df",
+    "already_coded": false,
+    "fields": {
+      "duties": "Design mechanical parts and assemblies in 3D CAD that meet structural, durability, manufacturability, and industrial design requirements\nGenerate accurate 2D drawings using GD&T in accordance with ASME Y14.5\nPerform tolerance stack-ups and review quality and inspection reports to ensure design intent is met\nPrototype, build, and test components / systems to validate performance, reliability, and lifetime requirements\nLead and support testing / validation efforts at the component, module, and system level\nCollaborate closely with electrical engineers and systems/integration teams on electromechanical designs\nPartner with supply chain, contract manufacturers, manufacturing engineers, and quality teams to drive designs through NPI and into production\nOwn and drive Failure Analysis & Corrective Actions (FA/CA) for complex issues discovered during manufacturing, testing, or field use\nInspect first articles, support build readiness, and continuously support hardware on development platforms",
+      "requirements": "3+ years of experience in mechanical engineering\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field\nExpert in using 3D CAD software to design parts with complex geometry\nExperience owning and designing complex mechanical systems/modules end-to-end, including requirements definition, design tradeoffs, build, and validation\nExperience working across multiple disciplines with competing and strict technical requirements\nExperience with engineering analysis and simulation tools (e.g., FEA, MATLAB, or equivalent)\nStrong understanding of statistical analysis methods (e.g., Cp/Cpk, Design of Experiments (DOE), variance and sensitivity studies) for component- and system-level characterization, validation, and manufacturing readiness\nExperience shipping hardware at scale, working with contract manufacturers, supporting NPI builds, and driving complex Failure Analysis & Corrective Actions\nFamiliarity with electromechanical integration, including sensors, motors, motor drivers, wire harnesses, and communication interfaces\nBonus Qualifications:\n5+ years of experience\nExperience in controls, integration, and validation\nCATIA V6 Experience\nThe US base salary range for this\nfull\n-time position is between $120,000 - $250,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.\nWe are looking for a Mechanical Design Engineer with experience owning complex mechanical modules from concept through production. The ideal candidate has operated in a high-tech, fast-paced environment, is comfortable driving across multiple stakeholders, and has a strong background in design, testing, validation, and scaling hardware to production. Robotics experience is not required.\nResponsibilities:\nDesign mechanical parts and assemblies in 3D CAD that meet structural, durability, manufacturability, and industrial design requirements\nGenerate accurate 2D drawings using GD&T in accordance with ASME Y14.5\nPerform tolerance stack-ups and review quality and inspection reports to ensure design intent is met\nPrototype, build, and test components / systems to validate performance, reliability, and lifetime requirements\nLead and support testing / validation efforts at the component, module, and system level\nCollaborate closely with electrical engineers and systems/integration teams on electromechanical designs\nPartner with supply chain, contract manufacturers, manufacturing engineers, and quality teams to drive designs through NPI and into production\nOwn and drive Failure Analysis & Corrective Actions (FA/CA) for complex issues discovered during manufacturing, testing, or field use\nInspect first articles, support build readiness, and continuously support hardware on development platforms\nRequirements:\n3+ years of experience in mechanical engineering\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field\nExpert in using 3D CAD software to design parts with complex geometry\nExperience owning and designing complex mechanical systems/modules end-to-end, including requirements definition, design tradeoffs, build, and validation\nExperience working across multiple disciplines with competing and strict technical requirements\nExperience with engineering analysis and simulation tools (e.g., FEA, MATLAB, or equivalent)\nStrong understanding of statistical analysis methods (e.g., Cp/Cpk, Design of Experiments (DOE), variance and sensitivity studies) for component- and system-level characterization, validation, and manufacturing readiness\nExperience shipping hardware at scale, working with contract manufacturers, supporting NPI builds, and driving complex Failure Analysis & Corrective Actions\nFamiliarity with electromechanical integration, including sensors, motors, motor drivers, wire harnesses, and communication interfaces\nBonus Qualifications:\n5+ years of experience\nExperience in controls, integration, and validation\nCATIA V6 Experience\nThe US base salary range for this\nfull\n-time position is between $120,000 - $250,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 0,
+        "end": 48,
+        "quote": "Design mechanical parts and assemblies in 3D CAD",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GD_T",
+        "name": "几何尺寸与公差",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 137,
+        "end": 207,
+        "quote": "Generate accurate 2D drawings using GD&T in accordance with ASME Y14.5",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 166,
+        "end": 181,
+        "quote": "3D CAD software",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 535,
+        "end": 538,
+        "quote": "FEA",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_MATLAB",
+        "name": "MATLAB",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 540,
+        "end": 546,
+        "quote": "MATLAB",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1173,
+        "end": 1181,
+        "quote": "CATIA V6",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 0,
+        "end": 38,
+        "quote": "Design mechanical parts and assemblies",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 309,
+        "end": 420,
+        "quote": "Prototype, build, and test components / systems to validate performance, reliability, and lifetime requirements",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 382,
+        "end": 420,
+        "quote": "reliability, and lifetime requirements",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 448,
+        "end": 458,
+        "quote": "validation",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 511,
+        "end": 527,
+        "quote": "simulation tools",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 698,
+        "end": 783,
+        "quote": "component- and system-level characterization, validation, and manufacturing readiness",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1008,
+        "end": 1014,
+        "quote": "motors",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_POWER_ELECTRONICS",
+        "name": "电力电子",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1016,
+        "end": 1029,
+        "quote": "motor drivers",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1135,
+        "end": 1143,
+        "quote": "controls",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 448,
+        "end": 458,
+        "quote": "validation",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 252,
+        "end": 278,
+        "quote": "complex mechanical systems",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 279,
+        "end": 286,
+        "quote": "modules",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0520:1",
+        "codes": [
+          "V2_OFFICE"
+        ],
+        "names": [
+          "Microsoft Office"
+        ],
+        "surface": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.",
+        "quote": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.",
+        "field": "full_description",
+        "start": 0,
+        "end": 343
+      },
+      {
+        "id": "2",
+        "review_id": "E0520:2",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Design mechanical parts and assemblies in 3D CAD that meet structural, durability, manufacturability, and industrial design requirements",
+        "quote": "Design mechanical parts and assemblies in 3D CAD that meet structural, durability, manufacturability, and industrial design requirements",
+        "field": "full_description",
+        "start": 752,
+        "end": 888
+      },
+      {
+        "id": "3",
+        "review_id": "E0520:3",
+        "codes": [
+          "V2_GD_STANDARD"
+        ],
+        "names": [
+          "尺寸公差标准"
+        ],
+        "surface": "Generate accurate 2D drawings using GD&T in accordance with ASME Y14.5",
+        "quote": "Generate accurate 2D drawings using GD&T in accordance with ASME Y14.5",
+        "field": "full_description",
+        "start": 889,
+        "end": 959
+      },
+      {
+        "id": "4",
+        "review_id": "E0520:4",
+        "codes": [
+          "V2_DOE_MSA"
+        ],
+        "names": [
+          "试验设计与测量系统分析"
+        ],
+        "surface": "Strong understanding of statistical analysis methods (e.g., Cp/Cpk, Design of Experiments (DOE), variance and sensitivity studies) for component- and system-level characterization, validation, and manufacturing readiness",
+        "quote": "Strong understanding of statistical analysis methods (e.g., Cp/Cpk, Design of Experiments (DOE), variance and sensitivity studies) for component- and system-level characterization, validation, and manufacturing readiness",
+        "field": "full_description",
+        "start": 2329,
+        "end": 2549
+      },
+      {
+        "id": "5",
+        "review_id": "E0520:5",
+        "codes": [
+          "V2_DOE_MSA"
+        ],
+        "names": [
+          "试验设计与测量系统分析"
+        ],
+        "surface": "DOE / Cp/Cpk",
+        "quote": "Cp/Cpk, Design of Experiments (DOE)",
+        "field": "requirements",
+        "start": 623,
+        "end": 658
+      }
+    ]
+  },
+  {
+    "coding_order": 86,
+    "reading_id": "E0522",
+    "company_id": "US_FIGURE",
+    "title": "Mechanical Engineer - Integration & Test",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4672013006|7f472d9ec6ec7a3cddd99be52adf3dde4c11a20f062ab3051a5549960856b82a",
+    "already_coded": false,
+    "fields": {
+      "duties": "Design and build prototype robot components to validate hardware to real-world loading and failure conditions\nCradle to grave ownership of prototype integration and test equipment\nDevelop dynos for actuator testing, validation and integration\nGenerate accurate 2D drawings using GD&T per ASME Y14.5 to ensure tight tolerances and proper fits\nCollaborate with mechanical engineering and systems integration teams on hands-on testing",
+      "requirements": "2+ years of experience in mechanical engineering\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field\nExperience in using 3D CAD software to design parts with complex geometry\nExperience designing and building prototypes\nAbility to write and maintain clean documentation for design processes.\nBonus Qualifications:\nExperience with CATIA V6\nFamiliarity with manufacturing processes and first article inspection\nExperience with actuators, including strain-wave, planetary, or cycloidal\nExposure to sensors, motors, or electromechanical systems\nExperience with FEA, simulation tools, or basic programming (Python, MATLAB)\nThe US base salary range for this full-time position is between $120,000-175,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI Robotics company autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. We are based in North San Jose, CA and require 5 days/week in-office collaboration. It’s time to build.\nWe are looking for a\nMechanical Engineer\nto support the test infrastructure team to design, and build prototype hardware across our integration and test teams.\nKey Responsibilities:\nDesign and build prototype robot components to validate hardware to real-world loading and failure conditions\nCradle to grave ownership of prototype integration and test equipment\nDevelop dynos for actuator testing, validation and integration\nGenerate accurate 2D drawings using GD&T per ASME Y14.5 to ensure tight tolerances and proper fits\nCollaborate with mechanical engineering and systems integration teams on hands-on testing\nRequirements:\n2+ years of experience in mechanical engineering\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Robotics, Mechatronics, or similar field\nExperience in using 3D CAD software to design parts with complex geometry\nExperience designing and building prototypes\nAbility to write and maintain clean documentation for design processes.\nBonus Qualifications:\nExperience with CATIA V6\nFamiliarity with manufacturing processes and first article inspection\nExperience with actuators, including strain-wave, planetary, or cycloidal\nExposure to sensors, motors, or electromechanical systems\nExperience with FEA, simulation tools, or basic programming (Python, MATLAB)\nThe US base salary range for this full-time position is between $120,000-175,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_GD_T",
+        "name": "几何尺寸与公差",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 243,
+        "end": 298,
+        "quote": "Generate accurate 2D drawings using GD&T per ASME Y14.5",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 170,
+        "end": 185,
+        "quote": "3D CAD software",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 379,
+        "end": 387,
+        "quote": "CATIA V6",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 606,
+        "end": 609,
+        "quote": "FEA",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 651,
+        "end": 657,
+        "quote": "Python",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_MATLAB",
+        "name": "MATLAB",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 659,
+        "end": 665,
+        "quote": "MATLAB",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 0,
+        "end": 43,
+        "quote": "Design and build prototype robot components",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 180,
+        "end": 242,
+        "quote": "Develop dynos for actuator testing, validation and integration",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 198,
+        "end": 242,
+        "quote": "actuator testing, validation and integration",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 474,
+        "end": 483,
+        "quote": "actuators",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 553,
+        "end": 559,
+        "quote": "motors",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 611,
+        "end": 627,
+        "quote": "simulation tools",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 495,
+        "end": 506,
+        "quote": "strain-wave",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 508,
+        "end": 517,
+        "quote": "planetary",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 522,
+        "end": 531,
+        "quote": "cycloidal",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0522:1",
+        "codes": [
+          "V2_OFFICE"
+        ],
+        "names": [
+          "Microsoft Office"
+        ],
+        "surface": "Figure is an AI Robotics company autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. We are based in North San Jose, CA and require 5 days/week in-office collaboration. It’s time to build.",
+        "quote": "Figure is an AI Robotics company autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. We are based in North San Jose, CA and require 5 days/week in-office collaboration. It’s time to build.",
+        "field": "full_description",
+        "start": 0,
+        "end": 354
+      },
+      {
+        "id": "2",
+        "review_id": "E0522:2",
+        "codes": [
+          "V2_GD_STANDARD"
+        ],
+        "names": [
+          "尺寸公差标准"
+        ],
+        "surface": "Generate accurate 2D drawings using GD&T per ASME Y14.5 to ensure tight tolerances and proper fits",
+        "quote": "Generate accurate 2D drawings using GD&T per ASME Y14.5 to ensure tight tolerances and proper fits",
+        "field": "full_description",
+        "start": 780,
+        "end": 878
+      }
+    ]
+  },
+  {
+    "coding_order": 87,
+    "reading_id": "E0525",
+    "company_id": "US_FIGURE",
+    "title": "Mechanical Engineer, Structures - Robot Hands",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4679601006|889dab80605f7ea1270287acfece6253cbbeec628967634b08917a130355e1b7",
+    "already_coded": false,
+    "fields": {
+      "duties": "Design structural parts and assemblies in 3D CAD that meet load, durability, manufacturability, and packaging requirements within a tightly constrained envelope\nCollaborate closely with actuator, sensing, and electronics teams to integrate subsystems into a unified hand structure\nPerform structural analysis, tolerance stack-ups, and FEA to validate design intent\nGenerate accurate 2D drawings using GD&T in accordance with ASME Y14.5\nPrototype, build, and test components to validate structural performance and reliability\nPartner with supply chain, contract manufacturers, and manufacturing engineers to drive designs through NPI and into production\nOwn and drive Failure Analysis & Corrective Actions (FA/CA) for issues discovered during manufacturing, testing, or field use\nCommunicate clearly and proactively across a small, fast-moving team — structure touches every subsystem and requires constant cross-functional coordination\nSome international travel",
+      "requirements": "2+ years of meaningful experience in structural or mechanical engineering at a high-tech company (consumer electronics, EV, aerospace, or similar)\nBachelor's or Master's Degree in Mechanical Engineering or related field\nExpert in 3D CAD (CATIA preferred; NX, SolidWorks, or equivalent accepted)\nExperience owning structural design end-to-end: requirements, tradeoffs, build, and validation\nStrong understanding of structural analysis, FEA, and material selection\nExperience shipping hardware at scale, including working with contract manufacturers and supporting NPI builds\nExcellent cross-functional communication and collaboration skills — ability to work across actuator, sensing, and electronics teams in a fast-paced, flat organization\nComfortable operating in a high-ambiguity environment without rigid process frameworks\nBonus Qualifications:\n5+ years of experience\nExperience with body-in-white or body structures in consumer electronics or EV programs\nProduction engineering experience with high-volume manufacturing\nThe US base salary range for this full-time position is between $120,000 - $250,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.\nWe are looking for a Mechanical Design Engineer with experience owning complex mechanical modules from concept through production. The ideal candidate has operated in a high-tech, fast-paced environment, is comfortable driving across multiple stakeholders, and has a strong background in design, testing, validation, and scaling hardware to production. Robotics experience is not required.\nResponsibilities:\nDesign structural parts and assemblies in 3D CAD that meet load, durability, manufacturability, and packaging requirements within a tightly constrained envelope\nCollaborate closely with actuator, sensing, and electronics teams to integrate subsystems into a unified hand structure\nPerform structural analysis, tolerance stack-ups, and FEA to validate design intent\nGenerate accurate 2D drawings using GD&T in accordance with ASME Y14.5\nPrototype, build, and test components to validate structural performance and reliability\nPartner with supply chain, contract manufacturers, and manufacturing engineers to drive designs through NPI and into production\nOwn and drive Failure Analysis & Corrective Actions (FA/CA) for issues discovered during manufacturing, testing, or field use\nCommunicate clearly and proactively across a small, fast-moving team — structure touches every subsystem and requires constant cross-functional coordination\nSome international travel\nRequirements:\n2+ years of meaningful experience in structural or mechanical engineering at a high-tech company (consumer electronics, EV, aerospace, or similar)\nBachelor's or Master's Degree in Mechanical Engineering or related field\nExpert in 3D CAD (CATIA preferred; NX, SolidWorks, or equivalent accepted)\nExperience owning structural design end-to-end: requirements, tradeoffs, build, and validation\nStrong understanding of structural analysis, FEA, and material selection\nExperience shipping hardware at scale, including working with contract manufacturers and supporting NPI builds\nExcellent cross-functional communication and collaboration skills — ability to work across actuator, sensing, and electronics teams in a fast-paced, flat organization\nComfortable operating in a high-ambiguity environment without rigid process frameworks\nBonus Qualifications:\n5+ years of experience\nExperience with body-in-white or body structures in consumer electronics or EV programs\nProduction engineering experience with high-volume manufacturing\nThe US base salary range for this full-time position is between $120,000 - $250,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 0,
+        "end": 48,
+        "quote": "Design structural parts and assemblies in 3D CAD",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 281,
+        "end": 338,
+        "quote": "Perform structural analysis, tolerance stack-ups, and FEA",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_GD_T",
+        "name": "几何尺寸与公差",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 365,
+        "end": 405,
+        "quote": "Generate accurate 2D drawings using GD&T",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 42,
+        "end": 48,
+        "quote": "3D CAD",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 238,
+        "end": 243,
+        "quote": "CATIA",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_NX",
+        "name": "Siemens NX",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 255,
+        "end": 257,
+        "quote": "NX",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 259,
+        "end": 269,
+        "quote": "SolidWorks",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 335,
+        "end": 338,
+        "quote": "FEA",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 0,
+        "end": 38,
+        "quote": "Design structural parts and assemblies",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 458,
+        "end": 524,
+        "quote": "test components to validate structural performance and reliability",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 281,
+        "end": 364,
+        "quote": "Perform structural analysis, tolerance stack-ups, and FEA to validate design intent",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 161,
+        "end": 226,
+        "quote": "Collaborate closely with actuator, sensing, and electronics teams",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 313,
+        "end": 330,
+        "quote": "structural design",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 379,
+        "end": 389,
+        "quote": "validation",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 289,
+        "end": 308,
+        "quote": "structural analysis",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 186,
+        "end": 194,
+        "quote": "actuator",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 889,
+        "end": 902,
+        "quote": "body-in-white",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 906,
+        "end": 921,
+        "quote": "body structures",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0525:1",
+        "codes": [
+          "V2_OFFICE"
+        ],
+        "names": [
+          "Microsoft Office"
+        ],
+        "surface": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.",
+        "quote": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.",
+        "field": "full_description",
+        "start": 0,
+        "end": 343
+      },
+      {
+        "id": "2",
+        "review_id": "E0525:2",
+        "codes": [
+          "V2_GD_STANDARD"
+        ],
+        "names": [
+          "尺寸公差标准"
+        ],
+        "surface": "Generate accurate 2D drawings using GD&T in accordance with ASME Y14.5",
+        "quote": "Generate accurate 2D drawings using GD&T in accordance with ASME Y14.5",
+        "field": "full_description",
+        "start": 1117,
+        "end": 1187
+      }
+    ]
+  },
+  {
+    "coding_order": 88,
+    "reading_id": "E0521",
+    "company_id": "US_FIGURE",
+    "title": "Mechanical Engineer - Hands (Compliant Elements)",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4685814006|afd58ed23285752a850c8bde4ee23a61e143445c18ba6d111286b749144c62cf",
+    "already_coded": false,
+    "fields": {
+      "duties": "Design mechanical parts and assemblies in 3D CAD that meet structural, durability, manufacturability, and industrial design requirements—with a specific focus on flexible substrates, overmolding, and skin/grip interfaces.\nGenerate accurate 2D drawings using GD&T in accordance with ASME Y14.5.\nPerform tolerance stack-ups and review quality and inspection reports to ensure design intent is met for both rigid and elastomeric/molded parts.\nPrototype, build, and test components / systems to validate tactile performance, material durability, reliability, and lifetime requirements.\nLead and support testing / validation efforts at the component, module, and system level.\nCollaborate closely with electrical engineers and systems/integration teams on electromechanical designs, routing, and environmental sealing.\nPartner with supply chain, contract manufacturers, toolmakers, and quality teams to drive softgoods and plastic designs through NPI and into high-volume production.\nOwn and drive Failure Analysis & Corrective Actions (FA/CA) for complex material, molding, or mechanical issues discovered during manufacturing, testing, or field use.\nInspect first articles (including mold trials and T1 samples), support build readiness, and continuously support hardware on development platforms.",
+      "requirements": "3+ years of experience in mechanical engineering with a proven track record in softgoods, plastics, or elastomer product design.\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Material Science, Robotics, Mechatronics, or a similar field.\nExpert in using 3D CAD software to design parts with complex geometry, surface modeling, and variable material interfaces.\nExtensive experience designing for injection molding, including shipping complex injection molded parts with variable materials and complex tooling (e.g., side actions, lifters, overmolding).\nDirect experience working with elastomers, silicones, or flexible polymers (material selection, durometer trade-offs, and tactile/friction optimization).\nFamiliarity with alternative specialized plastics manufacturing processes such as blow molding and plastic dipping.\nExperience owning and designing complex mechanical systems/modules end-to-end, including requirements definition, design tradeoffs, build, and validation.\nExperience with engineering analysis and simulation tools (e.g., FEA for non-linear materials/elastomers, MATLAB, or equivalent).\nStrong understanding of statistical analysis methods (e.g., Cp/Cpk, Design of Experiments (DOE), variance and sensitivity studies) for component- and system-level characterization, validation, and manufacturing readiness.\nExperience shipping hardware at scale, working with contract manufacturers/molders, supporting NPI builds, and driving complex Failure Analysis.\nFamiliarity with electromechanical integration, including sensors, motors, wire harnesses, and communication interfaces.\nBonus Qualifications:\n5+ years of experience.\nExperience with waterproofing, ingress protection (IP-rating) design, and environmental sealing techniques for moving assemblies.\nExperience in controls, integration, and validation.\nCATIA V6 experience.\nThe US base salary range for this\nfull\n-time position is between $120,000 - $250,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.\nWe are looking for a Mechanical Design Engineer with specific expertise in softgoods, elastomers, and complex plastics to join our Hands team. In this role, you will own the development of advanced robotic hand components and interfaces from concept through production. The ideal candidate has operated in a high-tech, fast-paced environment, is comfortable driving across multiple stakeholders, and has a strong background in materials characterization, complex injection molding, and validation of flexible systems. Robotics experience is not required.\nResponsibilities:\nDesign mechanical parts and assemblies in 3D CAD that meet structural, durability, manufacturability, and industrial design requirements—with a specific focus on flexible substrates, overmolding, and skin/grip interfaces.\nGenerate accurate 2D drawings using GD&T in accordance with ASME Y14.5.\nPerform tolerance stack-ups and review quality and inspection reports to ensure design intent is met for both rigid and elastomeric/molded parts.\nPrototype, build, and test components / systems to validate tactile performance, material durability, reliability, and lifetime requirements.\nLead and support testing / validation efforts at the component, module, and system level.\nCollaborate closely with electrical engineers and systems/integration teams on electromechanical designs, routing, and environmental sealing.\nPartner with supply chain, contract manufacturers, toolmakers, and quality teams to drive softgoods and plastic designs through NPI and into high-volume production.\nOwn and drive Failure Analysis & Corrective Actions (FA/CA) for complex material, molding, or mechanical issues discovered during manufacturing, testing, or field use.\nInspect first articles (including mold trials and T1 samples), support build readiness, and continuously support hardware on development platforms.\nRequirements:\n3+ years of experience in mechanical engineering with a proven track record in softgoods, plastics, or elastomer product design.\nBachelor’s or Master’s Degree in Mechanical, Biomechanical, Material Science, Robotics, Mechatronics, or a similar field.\nExpert in using 3D CAD software to design parts with complex geometry, surface modeling, and variable material interfaces.\nExtensive experience designing for injection molding, including shipping complex injection molded parts with variable materials and complex tooling (e.g., side actions, lifters, overmolding).\nDirect experience working with elastomers, silicones, or flexible polymers (material selection, durometer trade-offs, and tactile/friction optimization).\nFamiliarity with alternative specialized plastics manufacturing processes such as blow molding and plastic dipping.\nExperience owning and designing complex mechanical systems/modules end-to-end, including requirements definition, design tradeoffs, build, and validation.\nExperience with engineering analysis and simulation tools (e.g., FEA for non-linear materials/elastomers, MATLAB, or equivalent).\nStrong understanding of statistical analysis methods (e.g., Cp/Cpk, Design of Experiments (DOE), variance and sensitivity studies) for component- and system-level characterization, validation, and manufacturing readiness.\nExperience shipping hardware at scale, working with contract manufacturers/molders, supporting NPI builds, and driving complex Failure Analysis.\nFamiliarity with electromechanical integration, including sensors, motors, wire harnesses, and communication interfaces.\nBonus Qualifications:\n5+ years of experience.\nExperience with waterproofing, ingress protection (IP-rating) design, and environmental sealing techniques for moving assemblies.\nExperience in controls, integration, and validation.\nCATIA V6 experience.\nThe US base salary range for this\nfull\n-time position is between $120,000 - $250,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 0,
+        "end": 48,
+        "quote": "Design mechanical parts and assemblies in 3D CAD",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GD_T",
+        "name": "几何尺寸与公差",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 222,
+        "end": 262,
+        "quote": "Generate accurate 2D drawings using GD&T",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 267,
+        "end": 282,
+        "quote": "3D CAD software",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1056,
+        "end": 1095,
+        "quote": "FEA for non-linear materials/elastomers",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_MATLAB",
+        "name": "MATLAB",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1097,
+        "end": 1103,
+        "quote": "MATLAB",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1838,
+        "end": 1846,
+        "quote": "CATIA V6",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 0,
+        "end": 38,
+        "quote": "Design mechanical parts and assemblies",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 440,
+        "end": 581,
+        "quote": "Prototype, build, and test components / systems to validate tactile performance, material durability, reliability, and lifetime requirements.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 521,
+        "end": 580,
+        "quote": "material durability, reliability, and lifetime requirements",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 609,
+        "end": 619,
+        "quote": "validation",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1032,
+        "end": 1048,
+        "quote": "simulation tools",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1256,
+        "end": 1341,
+        "quote": "component- and system-level characterization, validation, and manufacturing readiness",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1555,
+        "end": 1561,
+        "quote": "motors",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1799,
+        "end": 1807,
+        "quote": "controls",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 609,
+        "end": 619,
+        "quote": "validation",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 868,
+        "end": 894,
+        "quote": "complex mechanical systems",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 895,
+        "end": 902,
+        "quote": "modules",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0521:1",
+        "codes": [
+          "V2_OFFICE"
+        ],
+        "names": [
+          "Microsoft Office"
+        ],
+        "surface": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.",
+        "quote": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.",
+        "field": "full_description",
+        "start": 0,
+        "end": 343
+      },
+      {
+        "id": "2",
+        "review_id": "E0521:2",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "We are looking for a Mechanical Design Engineer with specific expertise in softgoods, elastomers, and complex plastics to join our Hands team. In this role, you will own the development of advanced robotic hand components and interfaces from concept through production. The ideal candidate has operated in a high-tech, fast-paced environment, is comfortable driving across multiple stakeholders, and has a strong background in materials characterization, complex injection molding, and validation of flexible systems. Robotics experience is not required.",
+        "quote": "We are looking for a Mechanical Design Engineer with specific expertise in softgoods, elastomers, and complex plastics to join our Hands team. In this role, you will own the development of advanced robotic hand components and interfaces from concept through production. The ideal candidate has operated in a high-tech, fast-paced environment, is comfortable driving across multiple stakeholders, and has a strong background in materials characterization, complex injection molding, and validation of flexible systems. Robotics experience is not required.",
+        "field": "full_description",
+        "start": 344,
+        "end": 898
+      },
+      {
+        "id": "3",
+        "review_id": "E0521:3",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Design mechanical parts and assemblies in 3D CAD that meet structural, durability, manufacturability, and industrial design requirements—with a specific focus on flexible substrates, overmolding, and skin/grip interfaces.",
+        "quote": "Design mechanical parts and assemblies in 3D CAD that meet structural, durability, manufacturability, and industrial design requirements—with a specific focus on flexible substrates, overmolding, and skin/grip interfaces.",
+        "field": "full_description",
+        "start": 917,
+        "end": 1138
+      },
+      {
+        "id": "4",
+        "review_id": "E0521:4",
+        "codes": [
+          "V2_GD_STANDARD"
+        ],
+        "names": [
+          "尺寸公差标准"
+        ],
+        "surface": "Generate accurate 2D drawings using GD&T in accordance with ASME Y14.5.",
+        "quote": "Generate accurate 2D drawings using GD&T in accordance with ASME Y14.5.",
+        "field": "full_description",
+        "start": 1139,
+        "end": 1210
+      },
+      {
+        "id": "5",
+        "review_id": "E0521:5",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "Extensive experience designing for injection molding, including shipping complex injection molded parts with variable materials and complex tooling (e.g., side actions, lifters, overmolding).",
+        "quote": "Extensive experience designing for injection molding, including shipping complex injection molded parts with variable materials and complex tooling (e.g., side actions, lifters, overmolding).",
+        "field": "full_description",
+        "start": 2600,
+        "end": 2791
+      },
+      {
+        "id": "6",
+        "review_id": "E0521:6",
+        "codes": [
+          "V2_LINEAR"
+        ],
+        "names": [
+          "Linear"
+        ],
+        "surface": "Experience with engineering analysis and simulation tools (e.g., FEA for non-linear materials/elastomers, MATLAB, or equivalent).",
+        "quote": "Experience with engineering analysis and simulation tools (e.g., FEA for non-linear materials/elastomers, MATLAB, or equivalent).",
+        "field": "full_description",
+        "start": 3217,
+        "end": 3346
+      },
+      {
+        "id": "7",
+        "review_id": "E0521:7",
+        "codes": [
+          "V2_DOE_MSA"
+        ],
+        "names": [
+          "试验设计与测量系统分析"
+        ],
+        "surface": "Strong understanding of statistical analysis methods (e.g., Cp/Cpk, Design of Experiments (DOE), variance and sensitivity studies) for component- and system-level characterization, validation, and manufacturing readiness.",
+        "quote": "Strong understanding of statistical analysis methods (e.g., Cp/Cpk, Design of Experiments (DOE), variance and sensitivity studies) for component- and system-level characterization, validation, and manufacturing readiness.",
+        "field": "full_description",
+        "start": 3347,
+        "end": 3568
+      },
+      {
+        "id": "8",
+        "review_id": "E0521:8",
+        "codes": [
+          "V2_DOE_MSA"
+        ],
+        "names": [
+          "试验设计与测量系统分析"
+        ],
+        "surface": "DOE / Cp/Cpk",
+        "quote": "Cp/Cpk, Design of Experiments (DOE)",
+        "field": "requirements",
+        "start": 1181,
+        "end": 1216
+      }
+    ]
+  },
+  {
+    "coding_order": 89,
+    "reading_id": "E0552",
+    "company_id": "US_FIGURE",
+    "title": "Senior Gear Design Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4705588006|64cd70d9f68491c9ef686cc66d8bf3f48a11e0edf068775ce4b9c615607810e7",
+    "already_coded": false,
+    "fields": {
+      "duties": "Own gear design end-to-end: system-level sizing, macro and micro geometry definition, rating and life analysis, prototyping, validation, and ramp to mass production.\nPerform gear sizing, contact/bending stress analysis, and micro-geometry optimization (profile and lead modifications) in KISSsoft to meet efficiency, durability, backlash, and NVH targets.\nDesign gears, shafts, and transmission assemblies in 3D CAD (CATIA) that satisfy extreme packaging, load, and durability requirements of a high-DOF robotic hand.\nDefine gear manufacturing strategy — cutting, grinding, powder metal, MIM, or plastics — and drive DFM with suppliers from first articles through high-volume production.\nGenerate accurate 2D drawings with gear data tables and GD&T per ASME Y14.5, and define inspection and metrology plans for incoming quality.\nBuild and run test rigs to characterize efficiency, backlash, wear, and fatigue life; correlate test data back to analytical models.\nCollaborate closely with actuator, structures, EE, and manufacturing teams — proactively identifying risks, driving decisions, and unblocking the program without waiting to be asked.",
+      "requirements": "7+ years of experience designing gears and geared transmissions\nBachelor's or Master's Degree in Mechanical Engineering, Robotics, Mechatronics, or similar field\nDemonstrated ownership of complete gear designs from initial sizing through mass manufacturing\nProficiency in KISSsoft (or equivalent) for gear rating, contact analysis, and micro-geometry optimization\nProficiency in CATIA (or equivalent high-end 3D CAD) for complex geometry and large assemblies\nWorking knowledge of AGMA/ISO gear rating standards, gear metrology, and tolerancing\nExperience with gear manufacturing processes (hobbing, shaping, skiving, grinding, powder metal, MIM, or injection molding) and supplier development\nA strong team player with a high sense of agency — you take ownership of outcomes, communicate openly, and elevate the people around you\nBonus Qualifications:\nExperience with small-module, high-ratio, or high-power-density gearing (planetary, cycloidal, or strain wave)\nExperience in robotics, surgical devices, aerospace actuation, or automotive e-drive transmissions\nFamiliarity with lubrication selection, grease DOE, and tribology for compact gearboxes\nExperience with fatigue modeling, bearing life characterization, and accelerated life testing\nExperience taking a product through NPI builds (EVT/DVT/PVT) and FATP at volume\nThe US base salary range for this\nfull\n-time position is between $160,000 - $250,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.\nWe are looking for a Senior Gear Design Engineer to own gear and transmission design for our humanoid robot's hands — some of the most power-dense, space-constrained actuators in the world. You will take gear trains from first-principles sizing through validation and into mass manufacturing, defining how our robot grasps and manipulates the world.\nResponsibilities:\nOwn gear design end-to-end: system-level sizing, macro and micro geometry definition, rating and life analysis, prototyping, validation, and ramp to mass production.\nPerform gear sizing, contact/bending stress analysis, and micro-geometry optimization (profile and lead modifications) in KISSsoft to meet efficiency, durability, backlash, and NVH targets.\nDesign gears, shafts, and transmission assemblies in 3D CAD (CATIA) that satisfy extreme packaging, load, and durability requirements of a high-DOF robotic hand.\nDefine gear manufacturing strategy — cutting, grinding, powder metal, MIM, or plastics — and drive DFM with suppliers from first articles through high-volume production.\nGenerate accurate 2D drawings with gear data tables and GD&T per ASME Y14.5, and define inspection and metrology plans for incoming quality.\nBuild and run test rigs to characterize efficiency, backlash, wear, and fatigue life; correlate test data back to analytical models.\nCollaborate closely with actuator, structures, EE, and manufacturing teams — proactively identifying risks, driving decisions, and unblocking the program without waiting to be asked.\nRequirements:\n7+ years of experience designing gears and geared transmissions\nBachelor's or Master's Degree in Mechanical Engineering, Robotics, Mechatronics, or similar field\nDemonstrated ownership of complete gear designs from initial sizing through mass manufacturing\nProficiency in KISSsoft (or equivalent) for gear rating, contact analysis, and micro-geometry optimization\nProficiency in CATIA (or equivalent high-end 3D CAD) for complex geometry and large assemblies\nWorking knowledge of AGMA/ISO gear rating standards, gear metrology, and tolerancing\nExperience with gear manufacturing processes (hobbing, shaping, skiving, grinding, powder metal, MIM, or injection molding) and supplier development\nA strong team player with a high sense of agency — you take ownership of outcomes, communicate openly, and elevate the people around you\nBonus Qualifications:\nExperience with small-module, high-ratio, or high-power-density gearing (planetary, cycloidal, or strain wave)\nExperience in robotics, surgical devices, aerospace actuation, or automotive e-drive transmissions\nFamiliarity with lubrication selection, grease DOE, and tribology for compact gearboxes\nExperience with fatigue modeling, bearing life characterization, and accelerated life testing\nExperience taking a product through NPI builds (EVT/DVT/PVT) and FATP at volume\nThe US base salary range for this\nfull\n-time position is between $160,000 - $250,000 annually.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 409,
+        "end": 423,
+        "quote": "3D CAD (CATIA)",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 409,
+        "end": 423,
+        "quote": "3D CAD (CATIA)",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_GD_T",
+        "name": "几何尺寸与公差",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 744,
+        "end": 763,
+        "quote": "GD&T per ASME Y14.5",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 417,
+        "end": 422,
+        "quote": "CATIA",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 389,
+        "end": 415,
+        "quote": "equivalent high-end 3D CAD",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 356,
+        "end": 405,
+        "quote": "Design gears, shafts, and transmission assemblies",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 396,
+        "end": 519,
+        "quote": "own gear and transmission design for our humanoid robot's hands — some of the most power-dense, space-constrained actuators",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "PRODUCT_DEFINITION_OBJECT",
+        "field": "full_description",
+        "start": 637,
+        "end": 692,
+        "quote": "defining how our robot grasps and manipulates the world",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 86,
+        "end": 110,
+        "quote": "rating and life analysis",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 829,
+        "end": 913,
+        "quote": "Build and run test rigs to characterize efficiency, backlash, wear, and fatigue life",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 33,
+        "end": 63,
+        "quote": "gears and geared transmissions",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 188,
+        "end": 209,
+        "quote": "complete gear designs",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 512,
+        "end": 526,
+        "quote": "gear metrology",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 489,
+        "end": 510,
+        "quote": "gear rating standards",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1005,
+        "end": 1024,
+        "quote": "aerospace actuation",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1029,
+        "end": 1061,
+        "quote": "automotive e-drive transmissions",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1132,
+        "end": 1149,
+        "quote": "compact gearboxes",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1166,
+        "end": 1182,
+        "quote": "fatigue modeling",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O19",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1184,
+        "end": 1243,
+        "quote": "bearing life characterization, and accelerated life testing",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O20",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1184,
+        "end": 1243,
+        "quote": "bearing life characterization, and accelerated life testing",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O21",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 868,
+        "end": 880,
+        "quote": "small-module",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O22",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 882,
+        "end": 892,
+        "quote": "high-ratio",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O23",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 897,
+        "end": 923,
+        "quote": "high-power-density gearing",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0552:1",
+        "codes": [
+          "V2_OFFICE"
+        ],
+        "names": [
+          "Microsoft Office"
+        ],
+        "surface": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.",
+        "quote": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is based in San Jose, CA and requires 5 days/week in-office collaboration.",
+        "field": "full_description",
+        "start": 0,
+        "end": 343
+      },
+      {
+        "id": "2",
+        "review_id": "E0552:2",
+        "codes": [
+          "V2_KISSSOFT"
+        ],
+        "names": [
+          "KISSsoft"
+        ],
+        "surface": "Perform gear sizing, contact/bending stress analysis, and micro-geometry optimization (profile and lead modifications) in KISSsoft to meet efficiency, durability, backlash, and NVH targets.",
+        "quote": "Perform gear sizing, contact/bending stress analysis, and micro-geometry optimization (profile and lead modifications) in KISSsoft to meet efficiency, durability, backlash, and NVH targets.",
+        "field": "full_description",
+        "start": 878,
+        "end": 1067
+      },
+      {
+        "id": "3",
+        "review_id": "E0552:3",
+        "codes": [
+          "V2_DFM"
+        ],
+        "names": [
+          "可制造与可装配设计"
+        ],
+        "surface": "Define gear manufacturing strategy — cutting, grinding, powder metal, MIM, or plastics — and drive DFM with suppliers from first articles through high-volume production.",
+        "quote": "Define gear manufacturing strategy — cutting, grinding, powder metal, MIM, or plastics — and drive DFM with suppliers from first articles through high-volume production.",
+        "field": "full_description",
+        "start": 1230,
+        "end": 1399
+      },
+      {
+        "id": "4",
+        "review_id": "E0552:4",
+        "codes": [
+          "V2_GD_STANDARD"
+        ],
+        "names": [
+          "尺寸公差标准"
+        ],
+        "surface": "Generate accurate 2D drawings with gear data tables and GD&T per ASME Y14.5, and define inspection and metrology plans for incoming quality.",
+        "quote": "Generate accurate 2D drawings with gear data tables and GD&T per ASME Y14.5, and define inspection and metrology plans for incoming quality.",
+        "field": "full_description",
+        "start": 1400,
+        "end": 1540
+      },
+      {
+        "id": "5",
+        "review_id": "E0552:5",
+        "codes": [
+          "V2_KISSSOFT"
+        ],
+        "names": [
+          "KISSsoft"
+        ],
+        "surface": "Proficiency in KISSsoft (or equivalent) for gear rating, contact analysis, and micro-geometry optimization",
+        "quote": "Proficiency in KISSsoft (or equivalent) for gear rating, contact analysis, and micro-geometry optimization",
+        "field": "full_description",
+        "start": 2128,
+        "end": 2234
+      },
+      {
+        "id": "6",
+        "review_id": "E0552:6",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "Experience with gear manufacturing processes (hobbing, shaping, skiving, grinding, powder metal, MIM, or injection molding) and supplier development",
+        "quote": "Experience with gear manufacturing processes (hobbing, shaping, skiving, grinding, powder metal, MIM, or injection molding) and supplier development",
+        "field": "full_description",
+        "start": 2415,
+        "end": 2563
+      },
+      {
+        "id": "7",
+        "review_id": "E0552:7",
+        "codes": [
+          "V2_DOE_MSA"
+        ],
+        "names": [
+          "试验设计与测量系统分析"
+        ],
+        "surface": "Familiarity with lubrication selection, grease DOE, and tribology for compact gearboxes",
+        "quote": "Familiarity with lubrication selection, grease DOE, and tribology for compact gearboxes",
+        "field": "full_description",
+        "start": 2933,
+        "end": 3020
+      },
+      {
+        "id": "8",
+        "review_id": "E0552:8",
+        "codes": [
+          "V2_KISSSOFT"
+        ],
+        "names": [
+          "KISSsoft"
+        ],
+        "surface": "KISSsoft",
+        "quote": "Proficiency in KISSsoft (or equivalent)",
+        "field": "requirements",
+        "start": 257,
+        "end": 296
+      }
+    ]
+  },
+  {
+    "coding_order": 90,
+    "reading_id": "E0606",
+    "company_id": "US_PHYSICAL_INTELLIGENCE",
+    "title": "Prototype Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|17107519-0e50-430a-b742-200f08388d29|49aa879a6f6496d9785424926d2cec0e6b7eaca829e40c0c5319d7b3e1bf437d",
+    "already_coded": false,
+    "fields": {
+      "duties": "- Rapidly design and fabricate mechanical, electrical, and sensor prototypes to support research experiments and engineering development.\n\n - Partner directly with researchers to understand experimental requirements and translate them into buildable hardware systems.\n\n - Build end-to-end prototype systems: from concept sketches through CAD, fabrication, wiring, sensor integration, and validation.\n\n - Develop quick-turn PCBs, wiring harnesses, and cable assemblies for prototype electronics.\n\n - Evaluate and select sensors, actuators, and off-the-shelf components for integration into prototype systems.\n\n - Design and iterate on fixtures, jigs, test rigs, and custom tooling to enable research workflows.\n\n - Perform hands-on assembly, troubleshooting, and debugging of electromechanical and robotic systems.\n\n - Collaborate with electrical and robot software engineers to integrate hardware with control systems, firmware, and runtime software.\n\n - Identify and address failure modes specific to hardware operating in unstructured, real-world environments (contact forces, wear, thermal effects, cable management, etc.).\n\n - Document designs, test results, and build procedures to support knowledge transfer and design iteration.",
+      "requirements": "- Bachelor's degree in Mechanical, Electrical or Mechatronics Engineering, or a related field.\n\n - 2-5 years of experience in prototyping, R&D engineering, or hardware development, ideally preferably in robotics, automotive, consumer electronics, or research lab environments.\n\n - Proficiency in CAD software (Onshape, SolidWorks, or Fusion 360) with strong 3D modeling and drafting skills.\n\n - Working knowledge of PCB design, electronics and comfortable soldering, wiring, reading schematics, and integrating sensors (force/torque, IMUs, cameras, encoders, etc.).\n\n - Hands-on expertise with rapid prototyping methods: 3D printing (FDM/SLA), laser cutting, CNC machining, sheet metal fabrication, and manual machining.\n\n - Familiarity with the robotics domain, with an understanding of kinematics, actuation, compliant mechanisms, and the challenges of hardware interacting with unstructured real-world environments.\n\n - Ability to build full first-pass systems end-to-end, from mechanical structure through electrical integration to basic software scripting.\n\n - Strong communication skills, with the ability to speak the language of both researchers and engineers. Translating abstract research needs or engineering requests into tangible concepts.\n\n - Comfort working in a fast-paced, ambiguous environment where requirements evolve quickly and scrappiness is valued.\n\n - Experience with basic scripting (Python) for test automation, data collection, or hardware interfacing is a plus.",
+      "full_description": "Physical Intelligence is bringing general-purpose AI into the physical world. We are a group of engineers, scientists, roboticists, and company builders developing foundation models and learning algorithms to power the robots of today and the physically-actuated devices of the future.\n\nWe're looking for a Prototype Engineer, an engineering generalist who sits at the intersection of enabling research and deloying into real-world applications. You'll work closely with our research and engineering teams to rapidly design, build, and iterate on concept mechanical, electrical, and sensor prototypes that push the boundaries of what our robots can do.\n\nThis role is uniquely positioned between R&D and hardware engineering. You'll translate research ideas into physical systems, build end-to-end prototypes from scratch, and ensure our hardware performs reliably when interacting with real-world objects. You're the person both the hardware team and researchers come to when they need something built and rapidly iterated on. When successful, you'll be responsible for turning these into scalable solutions that support multiple hardware platforms in our fleet.\n\nIn this role you will\n\n - Rapidly design and fabricate mechanical, electrical, and sensor prototypes to support research experiments and engineering development.\n\n - Partner directly with researchers to understand experimental requirements and translate them into buildable hardware systems.\n\n - Build end-to-end prototype systems: from concept sketches through CAD, fabrication, wiring, sensor integration, and validation.\n\n - Develop quick-turn PCBs, wiring harnesses, and cable assemblies for prototype electronics.\n\n - Evaluate and select sensors, actuators, and off-the-shelf components for integration into prototype systems.\n\n - Design and iterate on fixtures, jigs, test rigs, and custom tooling to enable research workflows.\n\n - Perform hands-on assembly, troubleshooting, and debugging of electromechanical and robotic systems.\n\n - Collaborate with electrical and robot software engineers to integrate hardware with control systems, firmware, and runtime software.\n\n - Identify and address failure modes specific to hardware operating in unstructured, real-world environments (contact forces, wear, thermal effects, cable management, etc.).\n\n - Document designs, test results, and build procedures to support knowledge transfer and design iteration.\n\nWhat we hope you'll bring\n\n - Bachelor's degree in Mechanical, Electrical or Mechatronics Engineering, or a related field.\n\n - 2-5 years of experience in prototyping, R&D engineering, or hardware development, ideally preferably in robotics, automotive, consumer electronics, or research lab environments.\n\n - Proficiency in CAD software (Onshape, SolidWorks, or Fusion 360) with strong 3D modeling and drafting skills.\n\n - Working knowledge of PCB design, electronics and comfortable soldering, wiring, reading schematics, and integrating sensors (force/torque, IMUs, cameras, encoders, etc.).\n\n - Hands-on expertise with rapid prototyping methods: 3D printing (FDM/SLA), laser cutting, CNC machining, sheet metal fabrication, and manual machining.\n\n - Familiarity with the robotics domain, with an understanding of kinematics, actuation, compliant mechanisms, and the challenges of hardware interacting with unstructured real-world environments.\n\n - Ability to build full first-pass systems end-to-end, from mechanical structure through electrical integration to basic software scripting.\n\n - Strong communication skills, with the ability to speak the language of both researchers and engineers. Translating abstract research needs or engineering requests into tangible concepts.\n\n - Comfort working in a fast-paced, ambiguous environment where requirements evolve quickly and scrappiness is valued.\n\n - Experience with basic scripting (Python) for test automation, data collection, or hardware interfacing is a plus.\n\n\n\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 308,
+        "end": 354,
+        "quote": "from concept sketches through CAD, fabrication",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PCB",
+        "name": "PCB设计",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 404,
+        "end": 427,
+        "quote": "Develop quick-turn PCBs",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 296,
+        "end": 308,
+        "quote": "CAD software",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 319,
+        "end": 329,
+        "quote": "SolidWorks",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_PCB",
+        "name": "PCB设计",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 416,
+        "end": 426,
+        "quote": "PCB design",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1410,
+        "end": 1416,
+        "quote": "Python",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 153,
+        "end": 205,
+        "quote": "developing foundation models and learning algorithms",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 2,
+        "end": 76,
+        "quote": "Rapidly design and fabricate mechanical, electrical, and sensor prototypes",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 499,
+        "end": 537,
+        "quote": "Evaluate and select sensors, actuators",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 878,
+        "end": 949,
+        "quote": "integrate hardware with control systems, firmware, and runtime software",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 878,
+        "end": 949,
+        "quote": "integrate hardware with control systems, firmware, and runtime software",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 1131,
+        "end": 1183,
+        "quote": "Document designs, test results, and build procedures",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 826,
+        "end": 863,
+        "quote": "ensure our hardware performs reliably",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "name": "热管理与热设计",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 955,
+        "end": 1126,
+        "quote": "Identify and address failure modes specific to hardware operating in unstructured, real-world environments (contact forces, wear, thermal effects, cable management, etc.).",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 800,
+        "end": 809,
+        "quote": "actuation",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 811,
+        "end": 831,
+        "quote": "compliant mechanisms",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 981,
+        "end": 1001,
+        "quote": "mechanical structure",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1422,
+        "end": 1437,
+        "quote": "test automation",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0606:1",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "We're looking for a Prototype Engineer, an engineering generalist who sits at the intersection of enabling research and deloying into real-world applications. You'll work closely with our research and engineering teams to rapidly design, build, and iterate on concept mechanical, electrical, and sensor prototypes that push the boundaries of what our robots can do.",
+        "quote": "We're looking for a Prototype Engineer, an engineering generalist who sits at the intersection of enabling research and deloying into real-world applications. You'll work closely with our research and engineering teams to rapidly design, build, and iterate on concept mechanical, electrical, and sensor prototypes that push the boundaries of what our robots can do.",
+        "field": "full_description",
+        "start": 287,
+        "end": 652
+      },
+      {
+        "id": "2",
+        "review_id": "E0606:2",
+        "codes": [
+          "V2_INCIDENT_SUPPORT"
+        ],
+        "names": [
+          "运行排障与事件升级"
+        ],
+        "surface": " - Perform hands-on assembly, troubleshooting, and debugging of electromechanical and robotic systems.",
+        "quote": " - Perform hands-on assembly, troubleshooting, and debugging of electromechanical and robotic systems.",
+        "field": "full_description",
+        "start": 1899,
+        "end": 2001
+      },
+      {
+        "id": "3",
+        "review_id": "E0606:3",
+        "codes": [
+          "V2_ONSHAPE",
+          "V2_FUSION360"
+        ],
+        "names": [
+          "Onshape",
+          "Fusion 360"
+        ],
+        "surface": " - Proficiency in CAD software (Onshape, SolidWorks, or Fusion 360) with strong 3D modeling and drafting skills.",
+        "quote": " - Proficiency in CAD software (Onshape, SolidWorks, or Fusion 360) with strong 3D modeling and drafting skills.",
+        "field": "full_description",
+        "start": 2731,
+        "end": 2843
+      },
+      {
+        "id": "4",
+        "review_id": "E0606:4",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": " - Hands-on expertise with rapid prototyping methods: 3D printing (FDM/SLA), laser cutting, CNC machining, sheet metal fabrication, and manual machining.",
+        "quote": " - Hands-on expertise with rapid prototyping methods: 3D printing (FDM/SLA), laser cutting, CNC machining, sheet metal fabrication, and manual machining.",
+        "field": "full_description",
+        "start": 3020,
+        "end": 3173
+      }
+    ]
+  },
+  {
+    "coding_order": 91,
+    "reading_id": "N0677",
+    "company_id": "US_SKILD",
+    "title": "Mechanical Design Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4910803008|a681f9e4b82f64eba5d01ec5afaff603391f5ade49d2a1b57577de0af912c821",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are looking for Mechanical Design Engineers to create and fabricate robotic systems for teleoperation, human-robot interaction and data collection. You will be responsible for designing, developing, and testing electro-mechanical hardware systems that include haptic devices, exoskeletons, and others. You will work closely with cross-functional teams to ensure our products achieve the highest standards of performance, reliability, and efficiency.\nResponsibilities\nDesign, prototype, and test hardware systems for human-robot interaction\nCreate detailed CAD models and drawings for jigs, fixtures, and tools using CAD software for mechanical components.\nUtilize 3D printing and rapid prototyping techniques to develop and test hardware prototypes.\nCollaborate with software engineers, mechanical engineers, and other team members to integrate hardware with software and mechanical designs.\nConduct tests and simulations to ensure the functionality and reliability of hardware systems.\nTroubleshoot and resolve hardware issues and provide technical support during the product development lifecycle.\nPrepare documentation for hardware designs, specifications, and test procedures.\nPreferred Qualifications\nBS, MS or higher degree in Mechanical engineering or a related field, or equivalent practical experience.\nProven experience in hardware design and prototyping, including both electrical and mechanical components.\nProficiency in CAD software for mechanical design (Solidworks, Onshape, or other).\nExperience with Arduino or similar platforms for electronic prototyping and control systems.\nFamiliarity with 3D printing and rapid prototyping techniques.\nStrong understanding of electronic components, circuit design, and signal processing.\nExperience with testing and debugging hardware systems.\nBonus qualifications:\nExperience with robotics, teleoperation, or digital twin systems\nExperience with human-centered considerations for robot design\nExperience with actuator and sensor design for high performance haptic devices\nExperience working with high-speed control systems, including low-level firmware\nBase Salary Range\n$100,000\n—\n$300,000 USD",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are looking for Mechanical Design Engineers to create and fabricate robotic systems for teleoperation, human-robot interaction and data collection. You will be responsible for designing, developing, and testing electro-mechanical hardware systems that include haptic devices, exoskeletons, and others. You will work closely with cross-functional teams to ensure our products achieve the highest standards of performance, reliability, and efficiency.\nResponsibilities\nDesign, prototype, and test hardware systems for human-robot interaction\nCreate detailed CAD models and drawings for jigs, fixtures, and tools using CAD software for mechanical components.\nUtilize 3D printing and rapid prototyping techniques to develop and test hardware prototypes.\nCollaborate with software engineers, mechanical engineers, and other team members to integrate hardware with software and mechanical designs.\nConduct tests and simulations to ensure the functionality and reliability of hardware systems.\nTroubleshoot and resolve hardware issues and provide technical support during the product development lifecycle.\nPrepare documentation for hardware designs, specifications, and test procedures.\nPreferred Qualifications\nBS, MS or higher degree in Mechanical engineering or a related field, or equivalent practical experience.\nProven experience in hardware design and prototyping, including both electrical and mechanical components.\nProficiency in CAD software for mechanical design (Solidworks, Onshape, or other).\nExperience with Arduino or similar platforms for electronic prototyping and control systems.\nFamiliarity with 3D printing and rapid prototyping techniques.\nStrong understanding of electronic components, circuit design, and signal processing.\nExperience with testing and debugging hardware systems.\nBonus qualifications:\nExperience with robotics, teleoperation, or digital twin systems\nExperience with human-centered considerations for robot design\nExperience with actuator and sensor design for high performance haptic devices\nExperience working with high-speed control systems, including low-level firmware\nBase Salary Range\n$100,000\n—\n$300,000 USD"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1248,
+        "end": 1363,
+        "quote": "Create detailed CAD models and drawings for jigs, fixtures, and tools using CAD software for mechanical components.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2142,
+        "end": 2154,
+        "quote": "CAD software",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2178,
+        "end": 2188,
+        "quote": "Solidworks",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 175,
+        "end": 225,
+        "quote": "massive scale through data-driven machine learning",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 884,
+        "end": 1009,
+        "quote": "designing, developing, and testing electro-mechanical hardware systems that include haptic devices, exoskeletons, and others.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1600,
+        "end": 1694,
+        "quote": "Conduct tests and simulations to ensure the functionality and reliability of hardware systems.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1600,
+        "end": 1694,
+        "quote": "Conduct tests and simulations to ensure the functionality and reliability of hardware systems.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1600,
+        "end": 1694,
+        "quote": "Conduct tests and simulations to ensure the functionality and reliability of hardware systems.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2104,
+        "end": 2125,
+        "quote": "mechanical components",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2226,
+        "end": 2233,
+        "quote": "Arduino",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2286,
+        "end": 2301,
+        "quote": "control systems",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2468,
+        "end": 2506,
+        "quote": "testing and debugging hardware systems",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2574,
+        "end": 2594,
+        "quote": "digital twin systems",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2674,
+        "end": 2682,
+        "quote": "actuator",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2761,
+        "end": 2787,
+        "quote": "high-speed control systems",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2799,
+        "end": 2817,
+        "quote": "low-level firmware",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 64,
+        "end": 162,
+        "quote": "general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0677:1",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "We are looking for Mechanical Design Engineers to create and fabricate robotic systems for teleoperation, human-robot interaction and data collection. You will be responsible for designing, developing, and testing electro-mechanical hardware systems that include haptic devices, exoskeletons, and others. You will work closely with cross-functional teams to ensure our products achieve the highest standards of performance, reliability, and efficiency.",
+        "quote": "We are looking for Mechanical Design Engineers to create and fabricate robotic systems for teleoperation, human-robot interaction and data collection. You will be responsible for designing, developing, and testing electro-mechanical hardware systems that include haptic devices, exoskeletons, and others. You will work closely with cross-functional teams to ensure our products achieve the highest standards of performance, reliability, and efficiency.",
+        "field": "full_description",
+        "start": 705,
+        "end": 1157
+      },
+      {
+        "id": "2",
+        "review_id": "N0677:2",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "Utilize 3D printing and rapid prototyping techniques to develop and test hardware prototypes.",
+        "quote": "Utilize 3D printing and rapid prototyping techniques to develop and test hardware prototypes.",
+        "field": "full_description",
+        "start": 1364,
+        "end": 1457
+      },
+      {
+        "id": "3",
+        "review_id": "N0677:3",
+        "codes": [
+          "V2_ONSHAPE"
+        ],
+        "names": [
+          "Onshape"
+        ],
+        "surface": "Proficiency in CAD software for mechanical design (Solidworks, Onshape, or other).",
+        "quote": "Proficiency in CAD software for mechanical design (Solidworks, Onshape, or other).",
+        "field": "full_description",
+        "start": 2127,
+        "end": 2209
+      },
+      {
+        "id": "4",
+        "review_id": "N0677:4",
+        "codes": [
+          "V2_ONSHAPE"
+        ],
+        "names": [
+          "Onshape"
+        ],
+        "surface": "Onshape",
+        "quote": "Onshape",
+        "field": "full_description",
+        "start": 2190,
+        "end": 2197
+      },
+      {
+        "id": "5",
+        "review_id": "N0677:5",
+        "codes": [],
+        "names": [],
+        "surface": "Arduino",
+        "quote": "Arduino",
+        "field": "full_description",
+        "start": 2226,
+        "end": 2233
+      },
+      {
+        "id": "6",
+        "review_id": "N0677:6",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "Familiarity with 3D printing and rapid prototyping techniques.",
+        "quote": "Familiarity with 3D printing and rapid prototyping techniques.",
+        "field": "full_description",
+        "start": 2303,
+        "end": 2365
+      },
+      {
+        "id": "7",
+        "review_id": "N0677:7",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "Experience with robotics, teleoperation, or digital twin systems",
+        "quote": "Experience with robotics, teleoperation, or digital twin systems",
+        "field": "full_description",
+        "start": 2530,
+        "end": 2594
+      },
+      {
+        "id": "8",
+        "review_id": "N0677:8",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$300,000 USD",
+        "quote": "$300,000 USD",
+        "field": "full_description",
+        "start": 2847,
+        "end": 2859
+      }
+    ]
+  }
+]

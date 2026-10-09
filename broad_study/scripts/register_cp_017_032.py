@@ -1,0 +1,269 @@
+"""First-pass adjudication for control-planning coding_order 17-32. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0983":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MANIPULATION","fine_task":"SPOT_MANIPULATION","secondary_task":"",
+ "task_evidence":"Experience with kinematic path planning and trajectory optimization.",
+ "new":{
+  "1":R+"C++ is not the C language.",
+  "2":R+"C++ is not the C language.",
+  "3":[["V2_PATH_SEARCH","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"Spot操作。C++拒收C。"
+},
+"N0939":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"NAV_PLANNING","fine_task":"AMR_NAV","secondary_task":"",
+ "task_evidence":"Experience with graph search methods for planning, such as A*, RRT, and/or PRM is required.",
+ "new":{
+  "1":R+"C++ is a plus, not the C language.",
+  "2":[["V2_PATH_SEARCH","REQUIRED","UNCONDITIONAL"]],
+  "3":"DUPLICATE:N0939:2",
+  "4":"DUPLICATE:N0939:2",
+  "5":"DUPLICATE:N0939:2",
+  "6":[["V2_PATH_SEARCH","PREFERRED","UNCONDITIONAL"]],
+  "7":[["V2_CLASSICAL_CONTROL","REQUIRED","UNCONDITIONAL"]],
+  "8":"DUPLICATE:N0939:7",
+  "9":O+"Pure Pursuit未单列冻结项。",
+  "10":"DUPLICATE:N0939:7",
+  "11":[["V2_PROJECT_METHOD","PREFERRED","UNCONDITIONAL"]],
+  "12":"DUPLICATE:N0939:11",
+  "13":R+"Office location is not Microsoft Office."
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"Pickle导航。A*/RRT/PRM/PID保留。办公室地点拒收Office。"
+},
+"E0097":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LOCOMOTION_WBC","fine_task":"LEGGED_CONTROL","secondary_task":"",
+ "task_evidence":"负责足式机器人的运动控制算法的开发、调试和测试",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"足式运控。无新候选。"
+},
+"N0624":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LOCOMOTION_WBC","fine_task":"WHEELED_HUMANOID_WBC","secondary_task":"MANIPULATION",
+ "task_evidence":"负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器",
+ "new":{
+  "1":[["V2_CLASSICAL_CONTROL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":R+"C++不是C语言。",
+  "3":[["V2_OCS2","GENERAL","EXAMPLE"]],
+  "4":"DUPLICATE:N0624:3",
+  "5":[["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"全身运控高级。ocs2保留。"
+},
+"N0476":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CONTROL_RUNTIME","fine_task":"MOTOR_FOC","secondary_task":"",
+ "task_evidence":"负责机器人平台电机控制算法（FOC/无感估算）的开发、优化与维护",
+ "new":{
+  "1":[["V2_CLASSICAL_CONTROL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":O+"ST MCU平台未单列冻结项。",
+  "3":[["V2_C","GENERAL","UNRESOLVED"]],
+  "4":"DUPLICATE:N0476:3",
+  "5":[["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"电机控制。C/C++按C未解。"
+},
+"N0648":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LOCOMOTION_WBC","fine_task":"WHEELED_HUMANOID_INTERN","secondary_task":"",
+ "task_evidence":"负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器",
+ "new":{
+  "1":O+"VLA基础模型与EDP开发平台未在本职能作为广告工具项使用。",
+  "2":[["V2_CLASSICAL_CONTROL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":R+"C++不是C语言。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"运控实习。VLA为背景产品。"
+},
+"N0623":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"NAV_PLANNING","fine_task":"LIDAR_NAV","secondary_task":"",
+ "task_evidence":"负责基于激光雷达点云的全局路径规划算法（A* / Dijkstra / Hybrid A* / RRT* 等）开发与持续优化",
+ "new":{
+  "1":[["V2_PATH_SEARCH","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_CLASSICAL_CONTROL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_NAV2","GENERAL","UNCONDITIONAL"]],
+  "4":"DUPLICATE:N0623:3",
+  "5":O+"Move Base未单列冻结项。",
+  "6":R+"C++不是C语言。",
+  "7":O+"Cartographer未单列冻结项。",
+  "8":O+"GMapping未单列冻结项。",
+  "9":O+"LIO-SAM未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"导航算法。Nav2保留。"
+},
+"N0167":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"NAV_PLANNING","fine_task":"WHOLE_BODY_PLANNING","secondary_task":"",
+ "task_evidence":"负责机器人整身规划软件的框架设计及开发",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"]],
+  "2":"DUPLICATE:N0167:1",
+  "3":O+"Webots未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"全身规划。C/C++/Python按C未解。"
+},
+"N0146":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MANIPULATION","fine_task":"FORCE_INDUSTRIAL","secondary_task":"",
+ "task_evidence":"实现基于力/触觉的柔顺控制，完成装配、插拔、打磨等精密操作。",
+ "new":{
+  "1":[["V2_MOVEIT","GENERAL","EXAMPLE"],["V2_OMPL","GENERAL","EXAMPLE"]],
+  "2":"DUPLICATE:N0146:1",
+  "3":"DUPLICATE:N0146:1",
+  "4":[["V2_TELEOP","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"力控操作。C++/Python不记C。MoveIt/OMPL保留。"
+},
+"N0139":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LOCOMOTION_WBC","fine_task":"WBC_MPC","secondary_task":"",
+ "task_evidence":"主导或参与基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试。",
+ "new":{
+  "1":[["V2_CLASSICAL_CONTROL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0139:1",
+  "3":"DUPLICATE:N0139:1",
+  "4":[["V2_CLASSICAL_CONTROL","REQUIRED","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0139:4",
+  "6":"DUPLICATE:N0139:4",
+  "7":R+"C++不是C语言。",
+  "8":O+"Linux开发环境未单列冻结项。",
+  "9":O+"RBDL未单列冻结项。",
+  "10":[["V2_OSQP","GENERAL","CHOICE"],["V2_QPOASES","GENERAL","CHOICE"]],
+  "11":"DUPLICATE:N0139:10",
+  "12":O+"Acados未单列冻结项。",
+  "13":"DUPLICATE:N0139:10",
+  "14":O+"Preempt-RT未单列冻结项。",
+  "15":O+"泛称RTOS未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"双足WBC/MPC。OSQP/qpOASES保留。"
+},
+"N0055":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"NAV_PLANNING","fine_task":"PLANNING_INTERN","secondary_task":"CONTROL_RUNTIME",
+ "task_evidence":"参与机器人规划与控制软件的架构设计与代码实现，负责具体模块的开发",
+ "new":{
+  "1":[["V2_SIM2REAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CALIBRATION","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_PATH_SEARCH","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_OSQP","GENERAL","EXAMPLE"],["V2_QPOASES","GENERAL","EXAMPLE"],["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"]],
+  "6":"DUPLICATE:N0055:5",
+  "7":"DUPLICATE:N0055:5",
+  "8":[["V2_C","GENERAL","UNRESOLVED"]],
+  "9":"DUPLICATE:N0055:8",
+  "10":[["V2_GIT","GENERAL","UNCONDITIONAL"],["V2_CMAKE","GENERAL","UNCONDITIONAL"],["V2_GDB","GENERAL","UNCONDITIONAL"]],
+  "11":"DUPLICATE:N0055:10",
+  "12":"DUPLICATE:N0055:10",
+  "13":"DUPLICATE:N0055:10",
+  "14":O+"RBDL未单列冻结项。",
+  "15":[["V2_BULLET","GENERAL","CHOICE"]],
+  "16":"DUPLICATE:N0055:15"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"规控实习。C/C++按C未解。Git/CMake/GDB保留。"
+},
+"N0129":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CONTROL_RUNTIME","fine_task":"MOTOR_DEV","secondary_task":"",
+ "task_evidence":"负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试",
+ "new":{
+  "1":[["V2_CLASSICAL_CONTROL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0129:1",
+  "3":[["V2_CLASSICAL_CONTROL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":"DUPLICATE:N0129:3",
+  "5":O+"TI C2000未单列冻结项。",
+  "6":O+"STM32 MCU未单列冻结项。",
+  "7":O+"PLECS未单列冻结项。",
+  "8":[["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"]],
+  "9":"DUPLICATE:N0129:8",
+  "10":O+"DTC/SVPWM作为未单列别名出现。",
+  "11":"DUPLICATE:N0129:10",
+  "12":[["V2_CAN","GENERAL","EXAMPLE"],["V2_ETHERCAT","GENERAL","EXAMPLE"]],
+  "13":"DUPLICATE:N0129:12",
+  "14":O+"485总线未进入本职能冻结目录。",
+  "15":"DUPLICATE:N0129:12"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"电机开发。RS485不在控制职能目录。"
+},
+"N0043":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"NAV_PLANNING","fine_task":"WHOLE_BODY_INTERN","secondary_task":"",
+ "task_evidence":"参与机器人整身规划软件的框架设计及开发",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"]],
+  "2":"DUPLICATE:N0043:1",
+  "3":O+"Webots未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"规划控制实习。C/C++/Python按C未解。"
+},
+"N0164":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MANIPULATION","fine_task":"MOBILE_MANIP","secondary_task":"NAV_PLANNING",
+ "task_evidence":"参与机器人与人工智能算法研发，应用于室内移动操作平台的决策、规划与控制",
+ "new":{
+  "1":R+"C++不是C语言。",
+  "2":[["V2_SAPIEN","PREFERRED","CHOICE"]],
+  "3":"DUPLICATE:N0164:2",
+  "4":O+"iGibson未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"移动操作。Sapien保留。"
+},
+"N0077":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MANIPULATION","fine_task":"HRI_MOTION","secondary_task":"",
+ "task_evidence":"将数字人动作生成逻辑转化为机器人可执行的关节轨迹/行为指令，兼顾运动学约束与交互自然性。",
+ "new":{
+  "1":R+"量化评估交互自然度不是模型压缩量化。",
+  "2":O+"SMPL未单列冻结项。",
+  "3":O+"SMPL-X未单列冻结项。",
+  "4":O+"FLAME未单列冻结项。",
+  "5":[["V2_BLENDER","GENERAL","CHOICE"],["V2_UNITY","GENERAL","CHOICE"],["V2_UNREAL","GENERAL","CHOICE"]],
+  "6":"DUPLICATE:N0077:5",
+  "7":"DUPLICATE:N0077:5",
+  "8":"DUPLICATE:N0077:5",
+  "9":O+"PyTorch3D未单列冻结项。",
+  "10":[["V2_SIM2REAL","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"人机交互。量化评估拒收压缩。Unity/Unreal/Blender保留。"
+},
+"N0063":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LOCOMOTION_WBC","fine_task":"RETARGETING","secondary_task":"",
+ "task_evidence":"负责人体/人形机器人动作生成（motion generation）与重定向（retargeting）算法的设计、开发与优化",
+ "new":{
+  "1":[["V2_MOCAP","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":O+"GMR未单列冻结项。",
+  "3":O+"omniretarget未单列冻结项。",
+  "4":[["V2_BLENDER","GENERAL","CHOICE"],["V2_UNITY","GENERAL","CHOICE"]],
+  "5":"DUPLICATE:N0063:4",
+  "6":"DUPLICATE:N0063:4",
+  "7":R+"Python或C++不是C语言。",
+  "8":[["V2_MOCAP","GENERAL","UNCONDITIONAL"]],
+  "9":O+"BVH未单列冻结项。",
+  "10":O+"FBX未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"重定向实习。动捕保留。"
+}
+}
+if __name__=='__main__':
+ register('RF_CONTROL_PLANNING', decisions, reader='grok4.6')

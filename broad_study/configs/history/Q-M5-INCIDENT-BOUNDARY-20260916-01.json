@@ -1,0 +1,2428 @@
+{
+  "revision_id": "Q-M5-INCIDENT-BOUNDARY-20260916-01",
+  "reviewer": "Astra",
+  "kind": "TARGETED_FIRST_PASS_BOUNDARY_REVIEW_NOT_FULL_SECOND_PASS",
+  "frozen_definition_unchanged": true,
+  "source": "configs/Q_catalog_v2_frozen.json#V2_INCIDENT_SUPPORT",
+  "before_config_sha256": "dc68a02a524b3f6fefcc4cb23e506c99cb41904551e55c82972b5dde287206ab",
+  "after_config_sha256": "0f71844938de67d2fddf03866928a7b10f18416b61863603ef53cdea6d2a6fa0",
+  "records": [
+    {
+      "reading_id": "N0888",
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "PRODUCTION_TEST",
+        "task_evidence": "Create, validate, and maintain production test protocols and gating criteria from incoming inspection through final test and shipment.",
+        "inherited": "REVIEWED_ACCEPT",
+        "old_overrides": {},
+        "new": {
+          "1": [
+            [
+              "V2_RCA",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "3": [
+            [
+              "V2_CALIBRATION",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_PYTEST",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_LABVIEW",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "5": [
+            [
+              "V2_CI_CD",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "6": "DUPLICATE:N0888:4",
+          "7": "DUPLICATE:N0888:4"
+        },
+        "notes": "RCA heading supported by following full sentence lead root-cause analysis. Calibration/test is one preferred sensor-testing knowledge clause; ROS or equivalent is separate choice. CI for embedded systems is explicit continuous integration context. Framework list is illustrative, not simultaneous mandatory skills.",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DILIGENT|greenhouse|7829784003|5949516e82e5373a461a786afdc8a9125ad089cb1a78cedfbb5dee6838782243",
+        "company_id": "US_DILIGENT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 17,
+        "reviewed_candidate_count": 7,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 769,
+          "end": 903,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Create, validate, and maintain production test protocols and gating criteria from incoming inspection through final test and shipment."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5949516e82e5373a461a786afdc8a9125ad089cb1a78cedfbb5dee6838782243",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:26:42.841344+00:00"
+      },
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "PRODUCTION_TEST",
+        "task_evidence": "Create, validate, and maintain production test protocols and gating criteria from incoming inspection through final test and shipment.",
+        "inherited": "REVIEWED_ACCEPT",
+        "old_overrides": {},
+        "new": {
+          "1": [
+            [
+              "V2_RCA",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "3": [
+            [
+              "V2_CALIBRATION",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_PYTEST",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_LABVIEW",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "5": [
+            [
+              "V2_CI_CD",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "6": "DUPLICATE:N0888:4",
+          "7": "DUPLICATE:N0888:4"
+        },
+        "notes": "RCA heading supported by following full sentence lead root-cause analysis. Calibration/test is one preferred sensor-testing knowledge clause; ROS or equivalent is separate choice. CI for embedded systems is explicit continuous integration context. Framework list is illustrative, not simultaneous mandatory skills. 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DILIGENT|greenhouse|7829784003|5949516e82e5373a461a786afdc8a9125ad089cb1a78cedfbb5dee6838782243",
+        "company_id": "US_DILIGENT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 17,
+        "reviewed_candidate_count": 7,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 769,
+          "end": 903,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Create, validate, and maintain production test protocols and gating criteria from incoming inspection through final test and shipment."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5949516e82e5373a461a786afdc8a9125ad089cb1a78cedfbb5dee6838782243",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "changes": [
+        {
+          "review_id": "N0888:2",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "Excellent debugging skills across hardware, firmware, and system software; able to triage complex cross-domain failures.",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        }
+      ]
+    },
+    {
+      "reading_id": "N0678",
+      "before": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "PROTOTYPE_BUILD_LAB",
+        "task_evidence": "Build and test prototypes, sub-assemblies, and feasibility units under engineering guidance.",
+        "inherited": "REVIEWED_ACCEPT",
+        "old_overrides": {},
+        "new": {
+          "1": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_IPC_STANDARDS",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "3": [
+            [
+              "V2_IPC_STANDARDS",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": "REJECT:USD为薪资币种"
+        },
+        "additions": [
+          {
+            "code": "V2_PROCUREMENT",
+            "metric": "DUTY_OWN_USE",
+            "branch": "CONDITIONAL",
+            "quote": "procure and source components as needed.",
+            "reason": "Explicit as-needed procurement, not unconditional main duty"
+          }
+        ],
+        "notes": "IPC means electronics assembly standards here. All experience qualifications headed Preferred. Procurement conditional retained outside main unconditional duty slice.",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5218361008|4e75da57ddc2f21f668ede44e08b7698ad035805307ec8dbf22b799f929906ee",
+        "company_id": "US_SKILD",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 8,
+        "reviewed_candidate_count": 4,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 1271,
+          "end": 1363,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Build and test prototypes, sub-assemblies, and feasibility units under engineering guidance."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "4e75da57ddc2f21f668ede44e08b7698ad035805307ec8dbf22b799f929906ee",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:28:41.834205+00:00"
+      },
+      "after": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "PROTOTYPE_BUILD_LAB",
+        "task_evidence": "Build and test prototypes, sub-assemblies, and feasibility units under engineering guidance.",
+        "inherited": "REVIEWED_ACCEPT",
+        "old_overrides": {},
+        "new": {
+          "1": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "2": [
+            [
+              "V2_IPC_STANDARDS",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "3": [
+            [
+              "V2_IPC_STANDARDS",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": "REJECT:USD为薪资币种"
+        },
+        "additions": [
+          {
+            "code": "V2_PROCUREMENT",
+            "metric": "DUTY_OWN_USE",
+            "branch": "CONDITIONAL",
+            "quote": "procure and source components as needed.",
+            "reason": "Explicit as-needed procurement, not unconditional main duty"
+          }
+        ],
+        "notes": "IPC means electronics assembly standards here. All experience qualifications headed Preferred. Procurement conditional retained outside main unconditional duty slice. 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5218361008|4e75da57ddc2f21f668ede44e08b7698ad035805307ec8dbf22b799f929906ee",
+        "company_id": "US_SKILD",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 8,
+        "reviewed_candidate_count": 4,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 1271,
+          "end": 1363,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Build and test prototypes, sub-assemblies, and feasibility units under engineering guidance."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "4e75da57ddc2f21f668ede44e08b7698ad035805307ec8dbf22b799f929906ee",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "changes": [
+        {
+          "review_id": "N0678:1",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "Interpret schematics, diagrams, and layouts to perform testing, checkout, troubleshooting, and rework of PCBAs and harnesses.",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        }
+      ]
+    },
+    {
+      "reading_id": "N0786",
+      "before": {
+        "task": "SOFTWARE_DATA_TEST",
+        "fine_task": "SOFTWARE_DATA_TEST",
+        "task_evidence": "Conduct comprehensive manual testing and engineer automated testing frameworks",
+        "inherited": "REVIEWED_ACCEPT",
+        "old_overrides": {},
+        "new": {
+          "1": [
+            [
+              "V2_JIRA",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": "DUPLICATE:N0786:1",
+          "3": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": "OUTSIDE:TestComplete命名测试工具不在初版有限目录",
+          "5": "OUTSIDE:Selenium命名测试工具不在初版有限目录",
+          "6": "OUTSIDE:PostHog命名分析工具不在初版有限目录",
+          "7": "OUTSIDE:BIM建筑信息模型知识未在初版设单项；不是机器人基础模型",
+          "8": [
+            [
+              "V2_JAVASCRIPT",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_INCIDENT_SUPPORT",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "9": "DUPLICATE:N0786:8",
+          "10": "OUTSIDE:HTML前端语言未设单项，不归JavaScript",
+          "11": "OUTSIDE:CSS样式语言未设单项，不归JavaScript",
+          "12": [
+            [
+              "V2_SHELL",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "13": "DUPLICATE:N0786:12",
+          "14": [
+            [
+              "V2_CI_CD",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "15": "DUPLICATE:N0786:14"
+        },
+        "notes": "New Jira e.g. duty separated as EXAMPLE even though prior unmapped suggestion was unconditional. Troubleshooting own QA workflows differs from customer field repair. Software systems OR data pipelines leaves troubleshooting competency common to both, not choice of whether to troubleshoot.",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|bbb7838b-7eb5-4899-ac38-f2d95285a84d|0856ccda0e03f821d4ad367a1fa06a5dccf5310e94caa6a1f171dd9276f1f0b6",
+        "company_id": "US_FIELD_AI",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 21,
+        "reviewed_candidate_count": 15,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 1354,
+          "end": 1432,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Conduct comprehensive manual testing and engineer automated testing frameworks"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "0856ccda0e03f821d4ad367a1fa06a5dccf5310e94caa6a1f171dd9276f1f0b6",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:28:41.834205+00:00"
+      },
+      "after": {
+        "task": "SOFTWARE_DATA_TEST",
+        "fine_task": "SOFTWARE_DATA_TEST",
+        "task_evidence": "Conduct comprehensive manual testing and engineer automated testing frameworks",
+        "inherited": "REVIEWED_ACCEPT",
+        "old_overrides": {},
+        "new": {
+          "1": [
+            [
+              "V2_JIRA",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "2": "DUPLICATE:N0786:1",
+          "3": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "4": "OUTSIDE:TestComplete命名测试工具不在初版有限目录",
+          "5": "OUTSIDE:Selenium命名测试工具不在初版有限目录",
+          "6": "OUTSIDE:PostHog命名分析工具不在初版有限目录",
+          "7": "OUTSIDE:BIM建筑信息模型知识未在初版设单项；不是机器人基础模型",
+          "8": [
+            [
+              "V2_JAVASCRIPT",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "9": "DUPLICATE:N0786:8",
+          "10": "OUTSIDE:HTML前端语言未设单项，不归JavaScript",
+          "11": "OUTSIDE:CSS样式语言未设单项，不归JavaScript",
+          "12": [
+            [
+              "V2_SHELL",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "13": "DUPLICATE:N0786:12",
+          "14": [
+            [
+              "V2_CI_CD",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "15": "DUPLICATE:N0786:14"
+        },
+        "notes": "New Jira e.g. duty separated as EXAMPLE even though prior unmapped suggestion was unconditional. Troubleshooting own QA workflows differs from customer field repair. Software systems OR data pipelines leaves troubleshooting competency common to both, not choice of whether to troubleshoot. 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|bbb7838b-7eb5-4899-ac38-f2d95285a84d|0856ccda0e03f821d4ad367a1fa06a5dccf5310e94caa6a1f171dd9276f1f0b6",
+        "company_id": "US_FIELD_AI",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 21,
+        "reviewed_candidate_count": 15,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 1354,
+          "end": 1432,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Conduct comprehensive manual testing and engineer automated testing frameworks"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "0856ccda0e03f821d4ad367a1fa06a5dccf5310e94caa6a1f171dd9276f1f0b6",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "outside_extra": [
+          {
+            "quote": "Identify, meticulously document, and triage software defects in issue-tracking systems (e.g., Jira), providing engineering teams with reproducible test cases and precise context.",
+            "description": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+          },
+          {
+            "quote": "Familiarity with foundational software development languages (e.g., JavaScript, HTML, CSS) to facilitate deeper technical troubleshooting and defect localization.",
+            "description": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+          }
+        ],
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "changes": [
+        {
+          "review_id": "N0786:1",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [
+            [
+              "V2_JIRA",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "quote": "Identify, meticulously document, and triage software defects in issue-tracking systems (e.g., Jira), providing engineering teams with reproducible test cases and precise context.",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        },
+        {
+          "review_id": "N0786:3",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "Demonstrated experience testing, troubleshooting, and validating complex software systems or data processing pipelines.",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        },
+        {
+          "review_id": "N0786:8",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [
+            [
+              "V2_JAVASCRIPT",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "quote": "Familiarity with foundational software development languages (e.g., JavaScript, HTML, CSS) to facilitate deeper technical troubleshooting and defect localization.",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        }
+      ]
+    },
+    {
+      "reading_id": "E0593",
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "ROBOT_SYSTEM_TEST",
+        "task_evidence": "Execute on functional and technical performance tests",
+        "inherited": "REVIEWED_ACCEPT",
+        "old_overrides": {},
+        "new": {
+          "1": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "3": [
+            [
+              "V2_PLC",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": "DUPLICATE:E0593:3"
+        },
+        "notes": "PLC experience explicit; does not establish PLC programming. Integration/test technicians perform basic troubleshooting under fleet engineers; role remains manufacturing/test as accepted.",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|a32cf6ed-b81c-4ee6-8785-d5895cf39ffb|0470d7cb47fa4aab4e9bfb27776a9d13a69c212a14aba926687a782faf64432e",
+        "company_id": "US_PHYSICAL_INTELLIGENCE",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 7,
+        "reviewed_candidate_count": 4,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 330,
+          "end": 383,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Execute on functional and technical performance tests"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "0470d7cb47fa4aab4e9bfb27776a9d13a69c212a14aba926687a782faf64432e",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:28:41.834205+00:00"
+      },
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "ROBOT_SYSTEM_TEST",
+        "task_evidence": "Execute on functional and technical performance tests",
+        "inherited": "REVIEWED_ACCEPT",
+        "old_overrides": {},
+        "new": {
+          "1": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "2": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "3": [
+            [
+              "V2_PLC",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": "DUPLICATE:E0593:3"
+        },
+        "notes": "PLC experience explicit; does not establish PLC programming. Integration/test technicians perform basic troubleshooting under fleet engineers; role remains manufacturing/test as accepted. 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|a32cf6ed-b81c-4ee6-8785-d5895cf39ffb|0470d7cb47fa4aab4e9bfb27776a9d13a69c212a14aba926687a782faf64432e",
+        "company_id": "US_PHYSICAL_INTELLIGENCE",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 7,
+        "reviewed_candidate_count": 4,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 330,
+          "end": 383,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Execute on functional and technical performance tests"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "0470d7cb47fa4aab4e9bfb27776a9d13a69c212a14aba926687a782faf64432e",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "changes": [
+        {
+          "review_id": "E0593:1",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "Robot Test and Integration Technicians collaborate closely with robot fleet team engineers to test and integrate new robot platforms into the fleet. In this role you will use skills with setting up/provisioning, testing, and light troubleshooting for new robot platforms. These technicians are part of the robot fleet team within the PI Hardware Organization.",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        },
+        {
+          "review_id": "E0593:2",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "- Perform Basic Troubleshooting: Identify and document mechanical, electrical, or software faults in robots and peripheral equipment.",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        }
+      ]
+    },
+    {
+      "reading_id": "N0977",
+      "before": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "MANUFACTURING_PROCESS",
+        "task_evidence": "Lead continuous improvement initiatives, applying Lean Manufacturing and Six Sigma methodologies",
+        "inherited": "REVIEWED_ACCEPT_WITH_RETAINED_UNKNOWN",
+        "old_overrides": {},
+        "new": {
+          "1": "REJECT:can是英语情态动词，不是CAN总线",
+          "2": [
+            [
+              "V2_DFM",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "3": [
+            [
+              "V2_SOP_OPERATION",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "5": [
+            [
+              "V2_LEAN",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "6": "DUPLICATE:N0977:5",
+          "7": "DUPLICATE:N0977:5",
+          "8": [
+            [
+              "V2_DFM",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "9": [
+            [
+              "V2_LEAN",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_RCA",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "10": "DUPLICATE:N0977:9",
+          "11": "DUPLICATE:N0977:9",
+          "12": [
+            [
+              "V2_PLM",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "13": "DUPLICATE:N0977:12",
+          "14": "OUTSIDE:Arena为PLM示例产品；保留泛PLM类别，具体产品未单列",
+          "15": "OUTSIDE:Enovia为PLM示例产品；不归Windchill或Teamcenter",
+          "16": [
+            [
+              "V2_MES",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "17": "DUPLICATE:N0977:16",
+          "18": "OUTSIDE:Tulip为MES示例产品，具体产品不在有限目录",
+          "19": "OUTSIDE:Delmia为MES示例产品，具体产品不在有限目录",
+          "20": [
+            [
+              "V2_DFM",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "21": [
+            [
+              "V2_RCA",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "22": "DUPLICATE:N0977:21",
+          "23": "REJECT:招聘反诈骗说明，不是本人HR职责"
+        },
+        "additions": [
+          {
+            "code": "V2_RCA",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "identifying root causes, and driving corrective actions",
+            "reason": "Explicit root cause practice within hands-on production build support"
+          }
+        ],
+        "notes": "PLM and MES are preferred category-level experience; e.g. applies to named brands, not to the category itself. Original actuator relation unknown retained: tooling for actuator assembly/test does not establish actuator development ownership.",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|3ef9f35e94f81001fdc1f4f4bcbf0000|5467c9c81faeea088880a61e84f0cb784d98438dcb3e4de9a5d3616522510444",
+        "company_id": "US_BOSTON_DYNAMICS",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 13,
+        "reviewed_candidate_count": 23,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 2189,
+          "end": 2285,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Lead continuous improvement initiatives, applying Lean Manufacturing and Six Sigma methodologies"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5467c9c81faeea088880a61e84f0cb784d98438dcb3e4de9a5d3616522510444",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:29:56.537987+00:00"
+      },
+      "after": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "MANUFACTURING_PROCESS",
+        "task_evidence": "Lead continuous improvement initiatives, applying Lean Manufacturing and Six Sigma methodologies",
+        "inherited": "REVIEWED_ACCEPT_WITH_RETAINED_UNKNOWN",
+        "old_overrides": {},
+        "new": {
+          "1": "REJECT:can是英语情态动词，不是CAN总线",
+          "2": [
+            [
+              "V2_DFM",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "3": [
+            [
+              "V2_SOP_OPERATION",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "5": [
+            [
+              "V2_LEAN",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "6": "DUPLICATE:N0977:5",
+          "7": "DUPLICATE:N0977:5",
+          "8": [
+            [
+              "V2_DFM",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "9": [
+            [
+              "V2_LEAN",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_RCA",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "10": "DUPLICATE:N0977:9",
+          "11": "DUPLICATE:N0977:9",
+          "12": [
+            [
+              "V2_PLM",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "13": "DUPLICATE:N0977:12",
+          "14": "OUTSIDE:Arena为PLM示例产品；保留泛PLM类别，具体产品未单列",
+          "15": "OUTSIDE:Enovia为PLM示例产品；不归Windchill或Teamcenter",
+          "16": [
+            [
+              "V2_MES",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "17": "DUPLICATE:N0977:16",
+          "18": "OUTSIDE:Tulip为MES示例产品，具体产品不在有限目录",
+          "19": "OUTSIDE:Delmia为MES示例产品，具体产品不在有限目录",
+          "20": [
+            [
+              "V2_DFM",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "21": [
+            [
+              "V2_RCA",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "22": "DUPLICATE:N0977:21",
+          "23": "REJECT:招聘反诈骗说明，不是本人HR职责"
+        },
+        "additions": [
+          {
+            "code": "V2_RCA",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "identifying root causes, and driving corrective actions",
+            "reason": "Explicit root cause practice within hands-on production build support"
+          }
+        ],
+        "notes": "PLM and MES are preferred category-level experience; e.g. applies to named brands, not to the category itself. Original actuator relation unknown retained: tooling for actuator assembly/test does not establish actuator development ownership. 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|3ef9f35e94f81001fdc1f4f4bcbf0000|5467c9c81faeea088880a61e84f0cb784d98438dcb3e4de9a5d3616522510444",
+        "company_id": "US_BOSTON_DYNAMICS",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 13,
+        "reviewed_candidate_count": 23,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 2189,
+          "end": 2285,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Lead continuous improvement initiatives, applying Lean Manufacturing and Six Sigma methodologies"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5467c9c81faeea088880a61e84f0cb784d98438dcb3e4de9a5d3616522510444",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "changes": [
+        {
+          "review_id": "N0977:4",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "Support prototype builds in a hands-on capacity, troubleshooting assembly issues, identifying root causes, and driving corrective actions to improve processes and product designs.",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        }
+      ]
+    },
+    {
+      "reading_id": "N0948",
+      "before": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "PROTOTYPE_BUILD_LAB",
+        "task_evidence": "Assemble & integrate robotic hardware",
+        "inherited": "REVIEWED_ACCEPT_WITH_RETAINED_UNKNOWN",
+        "old_overrides": {},
+        "new": {
+          "1": [
+            [
+              "V2_DFM",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "3": [
+            [
+              "V2_HIL",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_DFM",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "5": "REJECT:can为情态动词，公司研究背景不代表总线要求",
+          "6": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_RCA",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "7": "OUTSIDE:signal analyzers仅泛称信号分析仪，不指定频谱仪或逻辑分析仪",
+          "8": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "9": "DUPLICATE:N0948:8",
+          "10": "DUPLICATE:N0948:8",
+          "11": "DUPLICATE:N0948:8",
+          "12": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "13": [
+            [
+              "V2_HIL",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "14": "DUPLICATE:N0948:13",
+          "15": "REJECT:通用申请地合规说明中的customer service，不是本岗专业客户服务任务证据",
+          "16": "REJECT:联系Recruiting Partner的投递说明，不是本岗人力工作"
+        },
+        "notes": "DFx ownership plus own simple design and manufacturability responsibilities supports method use in first clause; later team-feedback paragraph separately collaborative. Troubleshooting guide authoring is method/document development, not software coding. FAR stays team-only in whole-company analysis.",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AMAZON_FTR|amazon|10426076|45d8477934a3a1a3a3731b00dff4fe6ed236092289daa890803d3ce75bf453a1",
+        "company_id": "US_AMAZON_FTR",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 29,
+        "reviewed_candidate_count": 16,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 702,
+          "end": 739,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Assemble & integrate robotic hardware"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "45d8477934a3a1a3a3731b00dff4fe6ed236092289daa890803d3ce75bf453a1",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:32:42.109493+00:00"
+      },
+      "after": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "PROTOTYPE_BUILD_LAB",
+        "task_evidence": "Assemble & integrate robotic hardware",
+        "inherited": "REVIEWED_ACCEPT_WITH_RETAINED_UNKNOWN",
+        "old_overrides": {},
+        "new": {
+          "1": [
+            [
+              "V2_DFM",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "3": [
+            [
+              "V2_HIL",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_DFM",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "5": "REJECT:can为情态动词，公司研究背景不代表总线要求",
+          "6": [
+            [
+              "V2_RCA",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "7": "OUTSIDE:signal analyzers仅泛称信号分析仪，不指定频谱仪或逻辑分析仪",
+          "8": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "9": "DUPLICATE:N0948:8",
+          "10": "DUPLICATE:N0948:8",
+          "11": "DUPLICATE:N0948:8",
+          "12": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "13": [
+            [
+              "V2_HIL",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "14": "DUPLICATE:N0948:13",
+          "15": "REJECT:通用申请地合规说明中的customer service，不是本岗专业客户服务任务证据",
+          "16": "REJECT:联系Recruiting Partner的投递说明，不是本岗人力工作"
+        },
+        "notes": "DFx ownership plus own simple design and manufacturability responsibilities supports method use in first clause; later team-feedback paragraph separately collaborative. Troubleshooting guide authoring is method/document development, not software coding. FAR stays team-only in whole-company analysis. 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AMAZON_FTR|amazon|10426076|45d8477934a3a1a3a3731b00dff4fe6ed236092289daa890803d3ce75bf453a1",
+        "company_id": "US_AMAZON_FTR",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 29,
+        "reviewed_candidate_count": 16,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 702,
+          "end": 739,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Assemble & integrate robotic hardware"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "45d8477934a3a1a3a3731b00dff4fe6ed236092289daa890803d3ce75bf453a1",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "outside_extra": [
+          {
+            "quote": "- Proficiency with hardware troubleshooting and root cause analysis using diagnostic equipment (oscilloscopes, logic analyzers, multimeters, signal analyzers)",
+            "description": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+          }
+        ],
+        "additions": [
+          {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "PREFERRED",
+            "branch": "UNCONDITIONAL",
+            "quote": "Operational experience with robotic control systems, including performance monitoring, hardware health diagnostics, and data-driven analysis of robotic system behavior during testing and deployment",
+            "reason": "另一个优先条件明确运行经验与硬件健康诊断；与设计集成调试句分开，具有运行对象证据。"
+          }
+        ],
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "changes": [
+        {
+          "review_id": "N0948:2",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "- Own lab technical documentation — Own documentation & quality - author runbooks, FA reports, assembly guides and troubleshooting guides; mentor the team to maintain consistent standards.",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        },
+        {
+          "review_id": "N0948:6",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [
+            [
+              "V2_RCA",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "quote": "- Proficiency with hardware troubleshooting and root cause analysis using diagnostic equipment (oscilloscopes, logic analyzers, multimeters, signal analyzers)",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        },
+        {
+          "review_id": "N0948:12",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "- Extensive experience designing, integrating, and troubleshooting high degree of freedom robotic systems, including actuators, force/torque sensors, inertial measurement units, encoders, vision systems, and associated control hardware",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        },
+        {
+          "added": {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "PREFERRED",
+            "branch": "UNCONDITIONAL",
+            "quote": "Operational experience with robotic control systems, including performance monitoring, hardware health diagnostics, and data-driven analysis of robotic system behavior during testing and deployment",
+            "reason": "另一个优先条件明确运行经验与硬件健康诊断；与设计集成调试句分开，具有运行对象证据。"
+          }
+        }
+      ]
+    },
+    {
+      "reading_id": "E0038",
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "MOTOR_DRIVE_MATCHING_PRODUCTION_VALIDATION",
+        "secondary_task": "PROCESS_BUILD",
+        "task_evidence": "2. 整机测试与质量管控：负责伺服驱动全维度可靠性测试，同时开展电机性能标定、力矩/效率/温升性能测试；定位电机本体、驱动器、软硬件、算法及机电匹配问题，闭环整改复测，保障整套运动系统稳定性。",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES",
+        "old_overrides": {
+          "O2": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "relation": "OWN_USE",
+            "reason": "开展标定和性能测试是实施测试，不仅凭该句判方法开发；下线规范另列开发证据。"
+          },
+          "O3": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "relation": "OWN_USE",
+            "reason": "负责可靠性测试未写研发可靠性技术。"
+          }
+        },
+        "new": {
+          "1": [
+            [
+              "V2_CALIBRATION",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_SOP_OPERATION",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "3": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_CLASSICAL_CONTROL",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "5": [
+            [
+              "V2_SPI",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ]
+        },
+        "additions": [
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "1. 需求规格把控&电机选型：拆解机器人整机运动工况，完成关节/底盘电机选型匹配，梳理电机及伺服驱动器全域技术指标，输出完整技术规格书，负责电机+驱动整套运动部件顶层需求定义。",
+            "reason": "运动系统规格分解顶层需求。"
+          },
+          {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "4. 全链路问题闭环迭代：牵头整机联调、量产及终端现场故障定位，覆盖电机本体故障、驱动器故障双向排查；联动软硬件、算法团队完成问题根治，持续复盘优化电机匹配方案与驱动设计，提升整机运动性能与耐用度。",
+            "reason": "终端现场故障定位明确。"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "3. 量产工艺落地：编制电机与驱动器配套装配SOP、产线下线测试规范，制定整机出厂合格判据，搭建产线不良品拦截体系，兼顾装配效率与出厂质量，支撑电机+驱动整套部件稳定量产。",
+            "reason": "本人制定下线测试规范及判据明确方法交付。"
+          }
+        ],
+        "notes": "电机驱动标题但主职能沿用认可测试制造；规格、测试执行、工艺标准和现场问题分开。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7657885560800299310|74e58269ff51ba48862e0430a7a91b6f5b07e8dd3b5b055ad7672949a52ea25a",
+        "company_id": "CN_SPIRITAI",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 8,
+        "reviewed_candidate_count": 5,
+        "task_evidence_location": {
+          "field": "full_description",
+          "start": 94,
+          "end": 190,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "2. 整机测试与质量管控：负责伺服驱动全维度可靠性测试，同时开展电机性能标定、力矩/效率/温升性能测试；定位电机本体、驱动器、软硬件、算法及机电匹配问题，闭环整改复测，保障整套运动系统稳定性。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "74e58269ff51ba48862e0430a7a91b6f5b07e8dd3b5b055ad7672949a52ea25a",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:07:49.775632+00:00"
+      },
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "MOTOR_DRIVE_MATCHING_PRODUCTION_VALIDATION",
+        "secondary_task": "PROCESS_BUILD",
+        "task_evidence": "2. 整机测试与质量管控：负责伺服驱动全维度可靠性测试，同时开展电机性能标定、力矩/效率/温升性能测试；定位电机本体、驱动器、软硬件、算法及机电匹配问题，闭环整改复测，保障整套运动系统稳定性。",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES",
+        "old_overrides": {
+          "O2": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "relation": "OWN_USE",
+            "reason": "开展标定和性能测试是实施测试，不仅凭该句判方法开发；下线规范另列开发证据。"
+          },
+          "O3": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "relation": "OWN_USE",
+            "reason": "负责可靠性测试未写研发可靠性技术。"
+          }
+        },
+        "new": {
+          "1": [
+            [
+              "V2_CALIBRATION",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_SOP_OPERATION",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "3": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "4": [
+            [
+              "V2_CLASSICAL_CONTROL",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "5": [
+            [
+              "V2_SPI",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ]
+        },
+        "additions": [
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "1. 需求规格把控&电机选型：拆解机器人整机运动工况，完成关节/底盘电机选型匹配，梳理电机及伺服驱动器全域技术指标，输出完整技术规格书，负责电机+驱动整套运动部件顶层需求定义。",
+            "reason": "运动系统规格分解顶层需求。"
+          },
+          {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "4. 全链路问题闭环迭代：牵头整机联调、量产及终端现场故障定位，覆盖电机本体故障、驱动器故障双向排查；联动软硬件、算法团队完成问题根治，持续复盘优化电机匹配方案与驱动设计，提升整机运动性能与耐用度。",
+            "reason": "终端现场故障定位明确。"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "3. 量产工艺落地：编制电机与驱动器配套装配SOP、产线下线测试规范，制定整机出厂合格判据，搭建产线不良品拦截体系，兼顾装配效率与出厂质量，支撑电机+驱动整套部件稳定量产。",
+            "reason": "本人制定下线测试规范及判据明确方法交付。"
+          }
+        ],
+        "notes": "电机驱动标题但主职能沿用认可测试制造；规格、测试执行、工艺标准和现场问题分开。 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7657885560800299310|74e58269ff51ba48862e0430a7a91b6f5b07e8dd3b5b055ad7672949a52ea25a",
+        "company_id": "CN_SPIRITAI",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 8,
+        "reviewed_candidate_count": 5,
+        "task_evidence_location": {
+          "field": "full_description",
+          "start": 94,
+          "end": 190,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "2. 整机测试与质量管控：负责伺服驱动全维度可靠性测试，同时开展电机性能标定、力矩/效率/温升性能测试；定位电机本体、驱动器、软硬件、算法及机电匹配问题，闭环整改复测，保障整套运动系统稳定性。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "74e58269ff51ba48862e0430a7a91b6f5b07e8dd3b5b055ad7672949a52ea25a",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "changes": [
+        {
+          "review_id": "E0038:3",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "2. 熟悉电机驱动功率电路及MOSFET/IGBT功率器件，具备硬件故障排查能力；",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        }
+      ]
+    },
+    {
+      "reading_id": "E0367",
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "HUMANOID_SYSTEM_VERIFICATION_VALIDATION",
+        "task_evidence": "Develop and execute system-level V&V test plans for fully integrated humanoid robots",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_SIM2REAL",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "2": [
+            [
+              "V2_SAFETY_ANALYSIS",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "3": [
+            [
+              "V2_SAFETY_STANDARDS",
+              "REQUIRED",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "4": [
+            [
+              "V2_HIL",
+              "REQUIRED",
+              "CHOICE"
+            ],
+            [
+              "V2_REQUIREMENTS_ENGINEERING",
+              "REQUIRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "5": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "REQUIRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "6": "REJECT:USD是薪酬币种，不是三维场景格式。",
+          "7": "REJECT:招聘机构投递声明，不是HR能力。",
+          "8": "OUTSIDE:Webots仿真平台，冻结目录外。"
+        },
+        "notes": "Required Qualifications统摄Experience和Technical Skills，Preferred另起；第4候选SIL为Software-in-the-Loop，不是功能安全等级。",
+        "old_overrides": {
+          "O8": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "including所引测试场景例项。"
+          },
+          "O10": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "Support功能安全验证为协助关系；另一整机测试责任中安全系统保留单独例项证据。"
+          },
+          "O12": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧要求指到职责；重新定位Required Experience。",
+            "quote": "10+ years of system-level verification and validation experience"
+          },
+          "O14": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧要求regression testing指职责；定位Required Experience。",
+            "quote": "Hands-on experience using robot simulation environments to develop and execute test cases, generate synthetic test scenarios, and support regression testing at scale."
+          },
+          "O15": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "testing短语重复未定位，取完整要求。",
+            "quote": "Experience testing complex robotic or electromechanical systems including manipulation, locomotion, or similar multi-DOF systems"
+          },
+          "O16": {
+            "metric": "REQUIRED",
+            "branch": "CHOICE_AND_EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧标签指职责；要求中的including和or同时保留。",
+            "quote": "Experience testing complex robotic or electromechanical systems including manipulation, locomotion, or similar multi-DOF systems"
+          }
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and execute system-level V&V test plans",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "TC_SAFETY",
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "quote": "including full-body manipulation and locomotion, human-robot interaction, safety systems, environmental and operational scenarios.",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "translate requirements into testable validation criteria with clear pass/fail metrics and traceability",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "V2_DAQ",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "contribute to test infrastructure including fixtures, instrumentation, and data acquisition systems",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "V2_DAQ",
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "quote": "Hands-on experience with test fixtures, instrumentation, and data acquisition systems",
+            "reason": "全文补入明确方法/要求"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|5833376004|d721d4a8eb851c49fb10f0019b2649dd0d5c29554dc17a267aac38e1a38a7b66",
+        "company_id": "US_AGILITY",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 24,
+        "reviewed_candidate_count": 8,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 0,
+          "end": 84,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Develop and execute system-level V&V test plans for fully integrated humanoid robots"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "d721d4a8eb851c49fb10f0019b2649dd0d5c29554dc17a267aac38e1a38a7b66",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:21:48.458457+00:00"
+      },
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "HUMANOID_SYSTEM_VERIFICATION_VALIDATION",
+        "task_evidence": "Develop and execute system-level V&V test plans for fully integrated humanoid robots",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_SIM2REAL",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "2": [
+            [
+              "V2_SAFETY_ANALYSIS",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "3": [
+            [
+              "V2_SAFETY_STANDARDS",
+              "REQUIRED",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "4": [
+            [
+              "V2_HIL",
+              "REQUIRED",
+              "CHOICE"
+            ],
+            [
+              "V2_REQUIREMENTS_ENGINEERING",
+              "REQUIRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "5": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "6": "REJECT:USD是薪酬币种，不是三维场景格式。",
+          "7": "REJECT:招聘机构投递声明，不是HR能力。",
+          "8": "OUTSIDE:Webots仿真平台，冻结目录外。"
+        },
+        "notes": "Required Qualifications统摄Experience和Technical Skills，Preferred另起；第4候选SIL为Software-in-the-Loop，不是功能安全等级。 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "old_overrides": {
+          "O8": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "including所引测试场景例项。"
+          },
+          "O10": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "Support功能安全验证为协助关系；另一整机测试责任中安全系统保留单独例项证据。"
+          },
+          "O12": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧要求指到职责；重新定位Required Experience。",
+            "quote": "10+ years of system-level verification and validation experience"
+          },
+          "O14": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧要求regression testing指职责；定位Required Experience。",
+            "quote": "Hands-on experience using robot simulation environments to develop and execute test cases, generate synthetic test scenarios, and support regression testing at scale."
+          },
+          "O15": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "testing短语重复未定位，取完整要求。",
+            "quote": "Experience testing complex robotic or electromechanical systems including manipulation, locomotion, or similar multi-DOF systems"
+          },
+          "O16": {
+            "metric": "REQUIRED",
+            "branch": "CHOICE_AND_EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧标签指职责；要求中的including和or同时保留。",
+            "quote": "Experience testing complex robotic or electromechanical systems including manipulation, locomotion, or similar multi-DOF systems"
+          }
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and execute system-level V&V test plans",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "TC_SAFETY",
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "quote": "including full-body manipulation and locomotion, human-robot interaction, safety systems, environmental and operational scenarios.",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "translate requirements into testable validation criteria with clear pass/fail metrics and traceability",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "V2_DAQ",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "contribute to test infrastructure including fixtures, instrumentation, and data acquisition systems",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "V2_DAQ",
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "quote": "Hands-on experience with test fixtures, instrumentation, and data acquisition systems",
+            "reason": "全文补入明确方法/要求"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|5833376004|d721d4a8eb851c49fb10f0019b2649dd0d5c29554dc17a267aac38e1a38a7b66",
+        "company_id": "US_AGILITY",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 24,
+        "reviewed_candidate_count": 8,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 0,
+          "end": 84,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Develop and execute system-level V&V test plans for fully integrated humanoid robots"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "d721d4a8eb851c49fb10f0019b2649dd0d5c29554dc17a267aac38e1a38a7b66",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "changes": [
+        {
+          "review_id": "E0367:5",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "REQUIRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "Troubleshooting: Strong debugging skills across hardware-software integration issues in complex systems",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        }
+      ]
+    },
+    {
+      "reading_id": "E0331",
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "TORSO_ELECTRICAL_DESIGN_VERIFICATION",
+        "task_evidence": "Develop and execute subsystem-level characterization and design verification testing for torso electronics",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_ETHERCAT",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_EMC_SIPI",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "2": [
+            [
+              "V2_DAQ",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_POWER_SUPPLY",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "3": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": "REJECT:office指工作地点。",
+          "5": "REJECT:USD是币种。",
+          "6": "REJECT:招聘机构说明，不是候选人HR要求。"
+        },
+        "notes": "躯干电气子系统验证；Minimum经验句为硬性要求，其三个备选均属评价类别，类别层面无条件。其他Qualifications无Required标题仍为一般要求，strong preference单独计优先。",
+        "old_overrides": {
+          "O12": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "Minimum of 5 years为硬下限，三个经验备选均属测试验证类别。"
+          },
+          "O13": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "同句三个备选均属于测试验证类别。"
+          },
+          "O14": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "同句三个备选均属于测试验证类别。"
+          },
+          "O16": {
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧battery要求误指角色介绍职责；恢复资格原句。",
+            "quote": "Experience validating battery systems, power distribution, and safety-critical electrical subsystems"
+          },
+          "O17": {
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧power distribution要求误指职责；恢复资格原句。",
+            "quote": "Experience validating battery systems, power distribution, and safety-critical electrical subsystems"
+          }
+        },
+        "additions": [
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Maintain clear end-to-end traceability from subsystem requirements through test execution and results",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "V2_RCA",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Lead investigation of verification test failures and nonconformances, driving root cause identification and corrective actions in partnership with design teams",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and execute subsystem-level characterization and design verification testing for torso electronics",
+            "reason": "全文补入明确方法/要求"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6002917004|112ac0164594f39ebe51ef7b5f7de56d71f9227982267d8ec73a5a541348dcf2",
+        "company_id": "US_AGILITY",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 20,
+        "reviewed_candidate_count": 6,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 1161,
+          "end": 1267,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Develop and execute subsystem-level characterization and design verification testing for torso electronics"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "112ac0164594f39ebe51ef7b5f7de56d71f9227982267d8ec73a5a541348dcf2",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:21:48.458457+00:00"
+      },
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "TORSO_ELECTRICAL_DESIGN_VERIFICATION",
+        "task_evidence": "Develop and execute subsystem-level characterization and design verification testing for torso electronics",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_ETHERCAT",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_EMC_SIPI",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "2": [
+            [
+              "V2_DAQ",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_POWER_SUPPLY",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "3": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "4": "REJECT:office指工作地点。",
+          "5": "REJECT:USD是币种。",
+          "6": "REJECT:招聘机构说明，不是候选人HR要求。"
+        },
+        "notes": "躯干电气子系统验证；Minimum经验句为硬性要求，其三个备选均属评价类别，类别层面无条件。其他Qualifications无Required标题仍为一般要求，strong preference单独计优先。 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "old_overrides": {
+          "O12": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "Minimum of 5 years为硬下限，三个经验备选均属测试验证类别。"
+          },
+          "O13": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "同句三个备选均属于测试验证类别。"
+          },
+          "O14": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "同句三个备选均属于测试验证类别。"
+          },
+          "O16": {
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧battery要求误指角色介绍职责；恢复资格原句。",
+            "quote": "Experience validating battery systems, power distribution, and safety-critical electrical subsystems"
+          },
+          "O17": {
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧power distribution要求误指职责；恢复资格原句。",
+            "quote": "Experience validating battery systems, power distribution, and safety-critical electrical subsystems"
+          }
+        },
+        "additions": [
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Maintain clear end-to-end traceability from subsystem requirements through test execution and results",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "V2_RCA",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Lead investigation of verification test failures and nonconformances, driving root cause identification and corrective actions in partnership with design teams",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and execute subsystem-level characterization and design verification testing for torso electronics",
+            "reason": "全文补入明确方法/要求"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6002917004|112ac0164594f39ebe51ef7b5f7de56d71f9227982267d8ec73a5a541348dcf2",
+        "company_id": "US_AGILITY",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 20,
+        "reviewed_candidate_count": 6,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 1161,
+          "end": 1267,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Develop and execute subsystem-level characterization and design verification testing for torso electronics"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "112ac0164594f39ebe51ef7b5f7de56d71f9227982267d8ec73a5a541348dcf2",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "changes": [
+        {
+          "review_id": "E0331:3",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "Strong analytical and troubleshooting skills, with the ability to translate test results into clear design feedback",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        }
+      ]
+    },
+    {
+      "reading_id": "E0330",
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "ARM_SUBSYSTEM_DESIGN_VERIFICATION",
+        "task_evidence": "Own the design verification strategy for the arm subsystem",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_ETHERCAT",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_DAQ",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_POWER_SUPPLY",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "3": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": "REJECT:office地点。",
+          "5": "REJECT:USD币种。",
+          "6": "REJECT:招聘机构投递说明。"
+        },
+        "notes": "岗位聚焦机械臂子系统，但原广告重复躯干测试执行句，保留原文矛盾不自行改数据；Minimum经验句按硬性、其它About You按一般、strong preference按优先。",
+        "old_overrides": {
+          "O6": {
+            "metric": "SEPARATE",
+            "branch": "BACKGROUND",
+            "relation": "BACKGROUND",
+            "reason": "旧背景标签误指要求；还原公司介绍的硬件背景原句。",
+            "quote": "advanced hardware systems, including actuators, motor controllers"
+          },
+          "O11": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "Minimum of 5 years；三种备选经验全属测试验证类别。"
+          },
+          "O12": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "Minimum句同类别备选无需类别任选。"
+          },
+          "O13": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "Minimum句同类别备选无需类别任选。"
+          },
+          "O14": {
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧verification testing要求误指职责；改为About You完整要求。",
+            "quote": "Deep understanding of mechatronics verification testing"
+          },
+          "O15": {
+            "metric": "GENERAL",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "including所引电机控制器是测试专业知识例项。"
+          }
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and execute subsystem-level characterization and design verification testing for torso electronics",
+            "reason": "全文判读补入明确表达"
+          },
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Maintain clear end-to-end traceability from subsystem requirements through test execution and results",
+            "reason": "全文判读补入明确表达"
+          },
+          {
+            "code": "V2_RCA",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Lead investigation of verification test failures and nonconformances, driving root cause identification and corrective actions in partnership with design teams",
+            "reason": "全文判读补入明确表达"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6019178004|c9748eba21ac34300bb5d74f8c0b50d1d73a77f7b1d7c691d62c94430891e48b",
+        "company_id": "US_AGILITY",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 20,
+        "reviewed_candidate_count": 6,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 0,
+          "end": 58,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Own the design verification strategy for the arm subsystem"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "c9748eba21ac34300bb5d74f8c0b50d1d73a77f7b1d7c691d62c94430891e48b",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:23:22.893384+00:00"
+      },
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "ARM_SUBSYSTEM_DESIGN_VERIFICATION",
+        "task_evidence": "Own the design verification strategy for the arm subsystem",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_ETHERCAT",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_DAQ",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_POWER_SUPPLY",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "3": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "4": "REJECT:office地点。",
+          "5": "REJECT:USD币种。",
+          "6": "REJECT:招聘机构投递说明。"
+        },
+        "notes": "岗位聚焦机械臂子系统，但原广告重复躯干测试执行句，保留原文矛盾不自行改数据；Minimum经验句按硬性、其它About You按一般、strong preference按优先。 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "old_overrides": {
+          "O6": {
+            "metric": "SEPARATE",
+            "branch": "BACKGROUND",
+            "relation": "BACKGROUND",
+            "reason": "旧背景标签误指要求；还原公司介绍的硬件背景原句。",
+            "quote": "advanced hardware systems, including actuators, motor controllers"
+          },
+          "O11": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "Minimum of 5 years；三种备选经验全属测试验证类别。"
+          },
+          "O12": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "Minimum句同类别备选无需类别任选。"
+          },
+          "O13": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "Minimum句同类别备选无需类别任选。"
+          },
+          "O14": {
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧verification testing要求误指职责；改为About You完整要求。",
+            "quote": "Deep understanding of mechatronics verification testing"
+          },
+          "O15": {
+            "metric": "GENERAL",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "including所引电机控制器是测试专业知识例项。"
+          }
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and execute subsystem-level characterization and design verification testing for torso electronics",
+            "reason": "全文判读补入明确表达"
+          },
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Maintain clear end-to-end traceability from subsystem requirements through test execution and results",
+            "reason": "全文判读补入明确表达"
+          },
+          {
+            "code": "V2_RCA",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Lead investigation of verification test failures and nonconformances, driving root cause identification and corrective actions in partnership with design teams",
+            "reason": "全文判读补入明确表达"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6019178004|c9748eba21ac34300bb5d74f8c0b50d1d73a77f7b1d7c691d62c94430891e48b",
+        "company_id": "US_AGILITY",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 20,
+        "reviewed_candidate_count": 6,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 0,
+          "end": 58,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Own the design verification strategy for the arm subsystem"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "c9748eba21ac34300bb5d74f8c0b50d1d73a77f7b1d7c691d62c94430891e48b",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "changes": [
+        {
+          "review_id": "E0330:3",
+          "removed": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "remaining": [],
+          "quote": "Strong analytical and troubleshooting skills, with the ability to translate test results into clear design feedback",
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        }
+      ]
+    },
+    {
+      "reading_id": "E0312",
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "ENGINEERING_TEST_AND_ELECTRONICS_SUPPORT",
+        "task_evidence": "Execute test plans as directed by Engineering",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": "REJECT:can-do团队描述，不是CAN总线。",
+          "2": "REJECT:project goals普通项目目标，不是Microsoft Project。",
+          "3": [
+            [
+              "V2_POWER_SUPPLY",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "4": [
+            [
+              "V2_JIRA",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_CONFLUENCE",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "5": "REJECT:office地点。",
+          "6": "REJECT:USD币种。",
+          "7": "REJECT:招聘机构声明。",
+          "8": "DUPLICATE:E0312:4"
+        },
+        "notes": "技术支持岗位既有独立执行测试/修改环境，也有May/Assist任务；May设计搭建保留条件语境，不能无条件化。",
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "Modifies test environments to support development initiatives.",
+            "reason": "阅读全文补充原文明确表达"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "CONDITIONAL",
+            "quote": "May Design, Build and validate Test Set-ups to facilitate testing",
+            "reason": "阅读全文补充原文明确表达"
+          },
+          {
+            "code": "V2_RCA",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "Assist in the diagnosis and documentation Failure Modes and Root causes",
+            "reason": "阅读全文补充原文明确表达"
+          },
+          {
+            "code": "V2_RCA",
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "quote": "Failure mode and root cause investigations of complex systems",
+            "reason": "阅读全文补充原文明确表达"
+          },
+          {
+            "code": "V2_SOP_OPERATION",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "May assist in the creation of assembly, test procedures, and work instructions.",
+            "reason": "阅读全文补充原文明确表达"
+          },
+          {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "quote": "Ability to troubleshoot and diagnose complex electro-mechanical systems.",
+            "reason": "阅读全文补充原文明确表达"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6126850004|0a867b5d325b25bc0462f7be2d8b588042634c0e961fd8d5cba0c9bb97221017",
+        "company_id": "US_AGILITY",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 7,
+        "reviewed_candidate_count": 8,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 170,
+          "end": 215,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Execute test plans as directed by Engineering"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "0a867b5d325b25bc0462f7be2d8b588042634c0e961fd8d5cba0c9bb97221017",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:24:56.498913+00:00"
+      },
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "ENGINEERING_TEST_AND_ELECTRONICS_SUPPORT",
+        "task_evidence": "Execute test plans as directed by Engineering",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": "REJECT:can-do团队描述，不是CAN总线。",
+          "2": "REJECT:project goals普通项目目标，不是Microsoft Project。",
+          "3": [
+            [
+              "V2_POWER_SUPPLY",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "4": [
+            [
+              "V2_JIRA",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_CONFLUENCE",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "5": "REJECT:office地点。",
+          "6": "REJECT:USD币种。",
+          "7": "REJECT:招聘机构声明。",
+          "8": "DUPLICATE:E0312:4"
+        },
+        "notes": "技术支持岗位既有独立执行测试/修改环境，也有May/Assist任务；May设计搭建保留条件语境，不能无条件化。 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "Modifies test environments to support development initiatives.",
+            "reason": "阅读全文补充原文明确表达"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "CONDITIONAL",
+            "quote": "May Design, Build and validate Test Set-ups to facilitate testing",
+            "reason": "阅读全文补充原文明确表达"
+          },
+          {
+            "code": "V2_RCA",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "Assist in the diagnosis and documentation Failure Modes and Root causes",
+            "reason": "阅读全文补充原文明确表达"
+          },
+          {
+            "code": "V2_RCA",
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "quote": "Failure mode and root cause investigations of complex systems",
+            "reason": "阅读全文补充原文明确表达"
+          },
+          {
+            "code": "V2_SOP_OPERATION",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "May assist in the creation of assembly, test procedures, and work instructions.",
+            "reason": "阅读全文补充原文明确表达"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6126850004|0a867b5d325b25bc0462f7be2d8b588042634c0e961fd8d5cba0c9bb97221017",
+        "company_id": "US_AGILITY",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 7,
+        "reviewed_candidate_count": 8,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 170,
+          "end": 215,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Execute test plans as directed by Engineering"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "0a867b5d325b25bc0462f7be2d8b588042634c0e961fd8d5cba0c9bb97221017",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "outside_extra": [
+          {
+            "quote": "Ability to troubleshoot and diagnose complex electro-mechanical systems.",
+            "description": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+          }
+        ],
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "changes": [
+        {
+          "removed_addition": {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "quote": "Ability to troubleshoot and diagnose complex electro-mechanical systems.",
+            "reason": "阅读全文补充原文明确表达"
+          },
+          "reason": "冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。"
+        }
+      ]
+    }
+  ],
+  "retained_runtime_examples": [
+    "N0196:产线运行、升级回退和现场异常处理",
+    "E0038:终端现场故障定位职责补录",
+    "E0188:CNC日常维护排故",
+    "E0163:线上故障治理",
+    "E0332:现场升级与客户停机处置"
+  ],
+  "constraints": "一般调试未分对象时不因岗位另含现场任务而回填为运行维护要求；未把研发调试改成客户现场维护。"
+}

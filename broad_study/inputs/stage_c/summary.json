@@ -1,0 +1,82 @@
+{
+  "n_ads": 1654,
+  "n_companies": 24,
+  "n_whole_company_ads": 1630,
+  "primary_counts": {
+    "RF_SYSTEMS_ENGINEERING_INTEGRATION": 31,
+    "AMBIGUOUS": 15,
+    "RF_CONTROL_PLANNING": 75,
+    "RF_ML_AI_ENGINEERING": 159,
+    "RF_SIMULATION_EVALUATION": 62,
+    "RF_MECHANICAL_MECHATRONICS": 91,
+    "RF_HARDWARE_ELECTRICAL": 126,
+    "RF_ROBOTICS_SOFTWARE": 181,
+    "RF_PRODUCT_PROGRAM": 106,
+    "RF_DATA_INFRA_OPERATIONS": 72,
+    "RF_MANUFACTURING_QUALITY_SUPPLY": 215,
+    "RF_COMMERCIAL_CUSTOMER": 117,
+    "RF_CORPORATE_SUPPORT": 132,
+    "RF_RESEARCH_SCIENCE": 32,
+    "RF_ALTERNATIVE_DIRECTIONS": 11,
+    "RF_PERCEPTION": 47,
+    "SOURCE_UNASSESSABLE": 31,
+    "RF_DEPLOYMENT_FIELD_SERVICE": 85,
+    "RF_INDUSTRIAL_EXPERIENCE_DESIGN": 23,
+    "RF_COMPOSITE_FUNCTION": 19,
+    "UNMAPPED": 2,
+    "RF_ROBOT_OPERATIONS": 22
+  },
+  "activity_status": {
+    "CODED": 1618,
+    "SOURCE_UNASSESSABLE": 31,
+    "NOT_MENTIONED": 5
+  },
+  "activity_items": 3236,
+  "activity_relations": {
+    "OWNED": 2609,
+    "PARTICIPATES": 627
+  },
+  "structures": 30,
+  "structure_roots": {
+    "OR": 11,
+    "ALL": 19
+  },
+  "mixed_structures": 1,
+  "structure_nodes": 118,
+  "structure_role_nodes": 87,
+  "q2_roles": {
+    "RF_ML_AI_ENGINEERING": 159,
+    "RF_ROBOTICS_SOFTWARE": 181
+  },
+  "q2_label_pairs": 115,
+  "q2_main_label_pairs": 35,
+  "q2_item_rows": 5547,
+  "q2_positive_unknown_rows": 5466,
+  "q2_company_cells": 38640,
+  "q2_aggregate_cells": 14490,
+  "q2_loo_rows": 21084,
+  "table_rows": {
+    "T1_company_sample.csv": 24,
+    "T2_ad_lineage.csv": 1654,
+    "T2_aggregates.csv": 308,
+    "T2_company_primary_roles.csv": 528,
+    "T3_aggregates.csv": 14490,
+    "T3_all_item_semantics.csv": 5547,
+    "T3_base_admission.csv": 680,
+    "T3_company_context.csv": 38640,
+    "T3_leave_one_company_out.csv": 21084,
+    "T3_positive_unknown_lineage.csv": 5466,
+    "T3_scope_sensitivity.csv": 1960,
+    "T3_selected_role_unmapped_mentions.csv": 1424,
+    "T3_separate_context_mentions.csv": 155,
+    "T4_activity_admission.csv": 1654,
+    "T4_activity_aggregates.csv": 48,
+    "T4_activity_company.csv": 576,
+    "T4_activity_lineage.csv": 3236,
+    "T4_primary_activity_cross.csv": 352,
+    "T4_role_structures.csv": 30,
+    "T4_role_structure_company.csv": 24,
+    "T4_role_structure_nodes.csv": 118,
+    "T4_structure_function_appearances.csv": 18
+  }
+}

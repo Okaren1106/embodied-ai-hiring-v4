@@ -1,0 +1,191 @@
+"""First-pass adjudication for commercial coding_order 65-80. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+def mk_mkt(rid, evidence, n, notes='公关传播。', start_gen=4):
+ new={str(i):[["V2_MARKETING","DUTY_OWN_USE" if i<start_gen else "GENERAL","UNCONDITIONAL"]] for i in range(1,n+1)}
+ return {
+  "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN","task":"MARKETING","fine_task":"PR","secondary_task":"",
+  "task_evidence":evidence,"new":new,"old_overrides":{},"additions":[],"outside_extra":[],"notes":notes
+ }
+decisions={
+"N0550":mk_mkt("N0550","根据上市公司品牌传播目标，进行新闻内容的策划，公关稿件撰写及发布",6,start_gen=5),
+"N0549":mk_mkt("N0549","独立策划具备破圈潜力的核心传播话题、品牌事件及整合营销项目，打造差异化品牌传播内容。",7,start_gen=5),
+"N0548":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"PR","secondary_task":"",
+ "task_evidence":"搭建并深度维护央媒、党媒、垂直科技媒体、财经产业媒体、行业KOL资源网络",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"公关媒介专家。"
+},
+"N0545":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"TELEOP_SOLUTIONS","secondary_task":"",
+ "task_evidence":"对接客户VLA/遥操作相关技术咨询，清晰讲解产品能力、技术方案与应用场景",
+ "new":{
+  "1":[["V2_TELEOP","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_TELEOP","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_TELEOP","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_TELEOP","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":R+"C++不是C语言。",
+  "6":[["V2_CUSTOMER_SERVICE","GENERAL","UNCONDITIONAL"]],
+  "7":[["V2_TELEOP","GENERAL","UNCONDITIONAL"]],
+  "8":[["V2_TELEOP","PREFERRED","UNCONDITIONAL"]],
+  "9":O+"Diffusion Policy未在本职能作为广告工具项使用。",
+  "10":O+"π未单列冻结项。","11":O+"GR00T未单列冻结项。","12":O+"UR未单列冻结项。",
+  "13":O+"Franka未单列冻结项。","14":O+"遨博未单列冻结项。","15":O+"越疆未单列冻结项。",
+  "16":[["V2_TELEOP","SEPARATE","BACKGROUND"]],
+  "17":R+"薪酬待遇不是人力资源专业职责。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"遥操作解决方案售前。C++拒收C。"
+},
+"N0537":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"SOLUTION_PM","secondary_task":"",
+ "task_evidence":"为销售团队提供售前技术支持，包括客户需求沟通、技术方案宣讲、POC 演示及招投标文件编制。",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","SEPARATE","BACKGROUND"]],
+  "3":[["V2_FIGMA","GENERAL","UNCONDITIONAL"]],
+  "4":"DUPLICATE:N0537:3"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"解决方案产品经理。Figma保留。"
+},
+"N0532":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"REGIONAL_SALES","secondary_task":"",
+ "task_evidence":"开拓指定区域高校、科研院所、政企单位机器人应用项目",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "4":R+"熟悉客户采购流程不是本人采购职责。",
+  "5":[["V2_SALES_CRM","PREFERRED","EXAMPLE"]],
+  "6":[["V2_SALES_CRM","PREFERRED","EXAMPLE"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"国内销售经理。"
+},
+"N0530":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"SHOWROOM","secondary_task":"CUSTOMER_SUCCESS",
+ "task_evidence":"接待到店访客，提供专业的产品讲解与互动体验引导，展示公司人形机器人产品及技术实力",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_CUSTOMER_SERVICE","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"展示门店店员。与店长同类证据按本广告定位。"
+},
+"N0524":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"PRE_SALES","secondary_task":"ECOSYSTEM",
+ "task_evidence":"定期与经销售、集成商等生态伙伴开展产品培训、技术交流等活动",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":R+"C++不是C语言。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"韩国技术工程师/售前。"
+},
+"E0013":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"UNIV_BD","secondary_task":"",
+ "task_evidence":"负责公司人形机器人、仿生机器人等产品在高校市场的销售推广工作",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":R+"熟悉高校采购流程不是本人采购职责。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"直销商务BD。"
+},
+"N0247":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"STRATEGY","fine_task":"STRATEGIC_RESEARCH","secondary_task":"",
+ "task_evidence":"持续研究全球市场需求、产业趋势、技术演进及竞争格局，识别战略机会与潜在风险",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"战略研究。无新候选。"
+},
+"N0270":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"TECH_SALES_RESEARCH","secondary_task":"",
+ "task_evidence":"直接参与到一线、与客户进行沟通、并进行技术支持",
+ "new":{
+  "1":[["V2_CUSTOMER_SERVICE","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"技术销售研究员。"
+},
+"N0336":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"DATA_PRODUCT_GTM","secondary_task":"MARKETING",
+ "task_evidence":"负责具身数据产品GTM全链路商业化落地，联动研发、销售、市场、交付团队",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"具身数据产品经理GTM。"
+},
+"N0286":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"REGIONAL_DIRECTOR","secondary_task":"",
+ "task_evidence":"负责制定并实施符合华东与华中区域市场特点的季度/年度销售战略、业务计划",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "5":[["V2_MARKETING","SEPARATE","BACKGROUND"]],
+  "6":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"华东销售总监。"
+},
+"N0292":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ECOSYSTEM","fine_task":"OVERSEAS_GOVREL","secondary_task":"STRATEGY",
+ "task_evidence":"建立并维护与目标国家政府部门（如科技部、工业部、自贸区管理局）的沟通渠道，推动政府间合作项目、试点示范及政策支持。",
+ "new":{
+  "1":[["V2_MARKETING","SEPARATE","BACKGROUND"]],
+  "2":[["V2_LEGAL","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"海外拓展。法律合规意识记法律一般要求。"
+},
+"E0074":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"RESEARCH_BD","secondary_task":"",
+ "task_evidence":"负责人形机器人产品在科研机构、高校、重点实验室等B端客户的市场拓展,独立开发新客户并建立长期合作关系",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"教育科研销售BD。"
+},
+"E0063":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"SOLUTIONS","secondary_task":"",
+ "task_evidence":"深入对接KA客户,系统梳理客户在具身智能领域的业务痛点与模型应用需求",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"具身智能解决方案经理。无新候选。"
+}
+}
+if __name__=='__main__':
+ register('RF_COMMERCIAL_CUSTOMER', decisions, reader='grok4.6')

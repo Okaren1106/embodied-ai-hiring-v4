@@ -1,0 +1,198 @@
+#65 N0587 | Agent 系统算法工程师 | nI=21 empty=-
+DUTY - Agent 系统架构设计：设计人形机器人的 Agent 运行时架构，包括任务理解、多步规划、执行监控、异常恢复等核心流程，定义 Agent 与底层控制系统的交互协议
+  1|V2_AGENT_WORKFLOW|- 工具调用与接口层：定义 Agent 调用外部能力（视觉感知、语音交互、云端推理等）的标准化工具接|- 工具调用与接口层：定义 Agent 调用外部能力（视觉感知、语音交互、云端推理等）的标准化工具接口，类似 function calling 在机器人领域的实现
+  2|V2_REACT|- 对 Agent 系统有深入理解，熟悉 Agent 架构范式（ReAct、Plan-and-Exe|- 对 Agent 系统有深入理解，熟悉 Agent 架构范式（ReAct、Plan-and-Execute、分层状态机、行为树等），了解 LLM-based Agent 的能力边
+  3|-|PDDL|熟悉机器人任务规划方法（TAMP、HTN、PDDL 等）或有相关研究经验
+  4|V2_C|- 精通 Python，熟练使用 C++；有 ROS/ROS2 系统开发经验|- 精通 Python，熟练使用 C++；有 ROS/ROS2 系统开发经验
+  5|V2_AGENT_WORKFLOW|- 熟悉 LLM/VLM 的工程化部署与 function calling / tool use 机|- 熟悉 LLM/VLM 的工程化部署与 function calling / tool use 机制
+  6|V2_AGENT_WORKFLOW|- 有 Agent 框架（LangChain/LangGraph、AutoGen、OpenClaw/|- 有 Agent 框架（LangChain/LangGraph、AutoGen、OpenClaw/ClawBody、ROS Action/BehaviorTree 等）的开发或深
+  7|V2_AGENT_WORKFLOW|LangChain|有 Agent 框架（LangChain/LangGraph、AutoGen、OpenClaw/ClawBody、ROS Action/BehaviorTree 等）的开发或深度定
+  8|V2_AGENT_WORKFLOW|LangGraph|有 Agent 框架（LangChain/LangGraph、AutoGen、OpenClaw/ClawBody、ROS Action/BehaviorTree 等）的开发或深度定
+  9|-|AutoGen|有 Agent 框架（LangChain/LangGraph、AutoGen、OpenClaw/ClawBody、ROS Action/BehaviorTree 等）的开发或深度定
+  10|-|OpenClaw|有 Agent 框架（LangChain/LangGraph、AutoGen、OpenClaw/ClawBody、ROS Action/BehaviorTree 等）的开发或深度定
+  11|-|ClawBody|有 Agent 框架（LangChain/LangGraph、AutoGen、OpenClaw/ClawBody、ROS Action/BehaviorTree 等）的开发或深度定
+  12|SK_ROS|ROS Action|有 Agent 框架（LangChain/LangGraph、AutoGen、OpenClaw/ClawBody、ROS Action/BehaviorTree 等）的开发或深度定
+  13|-|BehaviorTree|有 Agent 框架（LangChain/LangGraph、AutoGen、OpenClaw/ClawBody、ROS Action/BehaviorTree 等）的开发或深度定
+  14|V2_MOVEIT|- 有大型机器人软件栈（如 MoveIt、Drake、Isaac）的开发经验|- 有大型机器人软件栈（如 MoveIt、Drake、Isaac）的开发经验
+  15|V2_MOVEIT|MoveIt|有大型机器人软件栈（如 MoveIt、Drake、Isaac）的开发经验
+
+#66 N0584 | 全栈工程师（Go 后端方向） | nI=12 empty=-
+DUTY 负责 App 后台核心业务模块的设计与开发，使用 Go 构建支撑移动端的高性能、高可用微服务系统；
+  1|V2_SQL_MYSQL,V2_POSTGRESQL,V2_REDIS|熟练使用 MySQL / PostgreSQL、Redis，了解其底层原理与调优手段；|熟练使用 MySQL / PostgreSQL、Redis，了解其底层原理与调优手段；
+  2|V2_SQL_MYSQL|MySQL|熟练使用 MySQL / PostgreSQL、Redis，了解其底层原理与调优手段；
+  3|V2_POSTGRESQL|PostgreSQL|熟练使用 MySQL / PostgreSQL、Redis，了解其底层原理与调优手段；
+  4|V2_REDIS|Redis|熟练使用 MySQL / PostgreSQL、Redis，了解其底层原理与调优手段；
+  5|-|Helm|熟悉 Helm 或 Kustomize 进行应用部署管理；
+  6|-|Kustomize|熟悉 Helm 或 Kustomize 进行应用部署管理；
+  7|-|Istio|了解 Service Mesh（如 Istio / Linkerd）者优先；
+  8|-|Linkerd|了解 Service Mesh（如 Istio / Linkerd）者优先；
+  9|V2_GIT,V2_GITHUB_ACTIONS,V2_GITLAB_CI,V2_CI_CD|有 CI/CD 流水线搭建经验（GitLab CI、GitHub Actions、ArgoCD 等）|有 CI/CD 流水线搭建经验（GitLab CI、GitHub Actions、ArgoCD 等）。
+  10|V2_GIT,V2_GITLAB_CI|GitLab CI|有 CI/CD 流水线搭建经验（GitLab CI、GitHub Actions、ArgoCD 等）。
+  11|V2_GIT,V2_GITHUB_ACTIONS|GitHub Actions|有 CI/CD 流水线搭建经验（GitLab CI、GitHub Actions、ArgoCD 等）。
+  12|-|ArgoCD|有 CI/CD 流水线搭建经验（GitLab CI、GitHub Actions、ArgoCD 等）。
+  13|-|Mediasoup|有 Mediasoup、Pion、Janus 等开源媒体服务器使用或二次开发经验者优先。
+  14|-|Pion|有 Mediasoup、Pion、Janus 等开源媒体服务器使用或二次开发经验者优先。
+  15|-|Janus|有 Mediasoup、Pion、Janus 等开源媒体服务器使用或二次开发经验者优先。
+  16|-|eBPF|有 eBPF 网络可观测或性能分析经验；
+  17|V2_C|熟悉 Rust 或 C++ 者加分（音视频底层场景）。|熟悉 Rust 或 C++ 者加分（音视频底层场景）。
+
+#67 N0580 | 多模态交互算法工程师 | nI=15 empty=-
+DUTY 1. 多模态交互核心研发：负责机器人多模态交互功能的开发，包括语音识别（ASR）、自然语言理解（NLU）、语音合成（TTS）、视觉感知（CV）及触觉反馈，打造自然流畅的人机对话体验。
+  1|-|任务规划（Task Planning）|基于大语言模型（LLM）构建机器人的**任务规划（Task Planning）**系统
+  2|V2_SIM2REAL,V2_MODEL_COMPRESSION|5. 端侧部署与具身落地：负责端侧AI模型（包括多模态大模型、规划模型）的量化、剪枝与部署，确保在机|5. 端侧部署与具身落地：负责端侧AI模型（包括多模态大模型、规划模型）的量化、剪枝与部署，确保在机器人嵌入式平台上的低延迟实时响应；配合硬件团队完成Sim-to-Real（仿真到
+  3|V2_C|2. 编程与工程能力：精通Python，熟悉C++，具备良好的代码规范和工程落地能力。熟悉ROS/R|2. 编程与工程能力：精通Python，熟悉C++，具备良好的代码规范和工程落地能力。熟悉ROS/ROS2机器人操作系统，有实际的机器人开发调试经验者优先。
+  4|V2_AGENT_WORKFLOW|3. 有AI Agent（智能体）开发经验，熟悉LangChain、LlamaIndex等框架，或有|3. 有AI Agent（智能体）开发经验，熟悉LangChain、LlamaIndex等框架，或有任务规划（Task Planning）、工具调用（Tool Learning）相
+  5|V2_AGENT_WORKFLOW|LangChain|LangChain
+  6|-|LlamaIndex|LlamaIndex
+
+#68 N0561 | 自主导航系统算法工程师｜数据闭环方向 | nI=39 empty=-
+DUTY 1. 负责导航系统架构设计、算法集成和产品化落地。
+  1|V2_NAV2|3. 熟悉 ROS Navigation、Nav2 或自研导航框架。|3. 熟悉 ROS Navigation、Nav2 或自研导航框架。
+  2|SK_ROS|ROS Navigation|熟悉 ROS Navigation、Nav2 或自研导航框架。
+  3|V2_NAV2|Nav2|熟悉 ROS Navigation、Nav2 或自研导航框架。
+  4|V2_C|6. 熟练使用 C++，熟悉 Python、ROS/ROS 2、TF、时间同步和 Linux。|6. 熟练使用 C++，熟悉 Python、ROS/ROS 2、TF、时间同步和 Linux。
+  5|-|TF|熟练使用 C++，熟悉 Python、ROS/ROS 2、TF、时间同步和 Linux。
+  6|V2_NAV2|- 熟悉 Nav2、行为树、Costmap 和导航恢复机制。|- 熟悉 Nav2、行为树、Costmap 和导航恢复机制。
+  7|V2_NAV2|Nav2|熟悉 Nav2、行为树、Costmap 和导航恢复机制。
+  8|-|Costmap|熟悉 Nav2、行为树、Costmap 和导航恢复机制。
+
+#69 N0554 | ERP实施与集成专家/工程师（财务方向） | nI=7 empty=-
+DUTY 一、财务信息化建设与系统运维
+  1|V2_FEISHU,V2_CRM|3. 统筹 ERP 与CRM、费控系统、 飞书、银企直联、开票系统等接口集成与数据打通，解决业务断点|3. 统筹 ERP 与CRM、费控系统、 飞书、银企直联、开票系统等接口集成与数据打通，解决业务断点，实现端到端流程数字化。
+  2|V2_CRM|CRM|3. 统筹 ERP 与CRM、费控系统、 飞书、银企直联、开票系统等接口集成与数据打通，解决业务断点，实现端到端流程数字化。
+  3|V2_FEISHU|飞书|3. 统筹 ERP 与CRM、费控系统、 飞书、银企直联、开票系统等接口集成与数据打通，解决业务断点，实现端到端流程数字化。
+  4|-|银企直联|3. 统筹 ERP 与CRM、费控系统、 飞书、银企直联、开票系统等接口集成与数据打通，解决业务断点，实现端到端流程数字化。
+  5|-|开票系统|3. 统筹 ERP 与CRM、费控系统、 飞书、银企直联、开票系统等接口集成与数据打通，解决业务断点，实现端到端流程数字化。
+  6|V2_ACCOUNTING|1、统招本科及以上学历,信息管理与信息系统、会计学、财务管理、计算机科学与技术等相关专业|1、统招本科及以上学历,信息管理与信息系统、会计学、财务管理、计算机科学与技术等相关专业
+  7|V2_KINGDEE|2、具备完整的 ERP 项目主导实施经验，精通 金蝶等主流 ERP 系统，熟悉制造企业生产、供应链、|2、具备完整的 ERP 项目主导实施经验，精通 金蝶等主流 ERP 系统，熟悉制造企业生产、供应链、财务业务流程。
+  8|V2_KINGDEE|金蝶|金蝶
+
+#70 N0539 | 应用软件开发工程师（合肥） | nI=4 empty=-
+DUTY - 负责机器人导览应用层功能的设计与开发，包括人机交互界面、语音对话、业务逻辑等模块。
+  1|V2_C|- 熟练掌握 Python 或 C++，有实际项目开发经验。|- 熟练掌握 Python 或 C++，有实际项目开发经验。
+  2|-|HTTP|HTTP
+  3|-|WebSocket|WebSocket
+  4|V2_GIT|- 熟练使用 Git，具备良好的代码管理习惯。|- 熟练使用 Git，具备良好的代码管理习惯。
+  5|V2_GIT|Git|- 熟练使用 Git，具备良好的代码管理习惯。
+
+#71 N0525 | 机器人Agent系统研发实习生 | nI=5 empty=-
+DUTY 1、参与机器人大脑Agent系统模块开发，承接业务需求，负责系统维护与稳定性保障。
+  1|-|Prompt工程|3、参与系统效果优化，通过工程手段（Prompt工程、工具链路调优、数据闭环等）持续提升Agent实际表现。
+  2|V2_C,V2_JAVASCRIPT|6、至少熟悉以下一种语言：Java、JavaScript、Python、Rust、C/C++。|6、至少熟悉以下一种语言：Java、JavaScript、Python、Rust、C/C++。
+  3|V2_JAVASCRIPT|JavaScript|JavaScript
+  4|V2_C|C|C
+
+#72 N0239 | 全栈工程师 | nI=4 empty=-
+DUTY - 负责后端服务、内部系统及通用平台能力的设计、开发与维护。
+  1|V2_SQL_MYSQL,V2_REDIS,V2_MONGODB|- 熟悉 MySQL / MongoDB / Redis 等常用数据库及中间件，具备数据库建模、查询|- 熟悉 MySQL / MongoDB / Redis 等常用数据库及中间件，具备数据库建模、查询优化和性能调优经验。
+  2|V2_SQL_MYSQL|MySQL|MySQL
+  3|V2_MONGODB|MongoDB|MongoDB
+  4|V2_REDIS|Redis|Redis
+  5|V2_JAVASCRIPT,V2_TYPESCRIPT,V2_NODEJS|- 对 Node.js / TypeScript 技术栈有兴趣，愿意在实际项目中学习和使用；有相关项|- 对 Node.js / TypeScript 技术栈有兴趣，愿意在实际项目中学习和使用；有相关项目经验者优先。
+  6|V2_JAVASCRIPT,V2_NODEJS|Node.js|Node.js
+  7|V2_TYPESCRIPT|TypeScript|TypeScript
+  8|V2_CURSOR,V2_CODEX,V2_CLAUDE_CODE|- 有实际 AI Coding 使用经验，熟悉 Cursor、Codex、Claude Code 或|- 有实际 AI Coding 使用经验，熟悉 Cursor、Codex、Claude Code 或类似工具，并能有效用于提升开发效率与代码质量。
+  9|V2_CURSOR|Cursor|Cursor
+  10|V2_CODEX|Codex|Codex
+  11|V2_CLAUDE_CODE|Claude Code|Claude Code
+
+#73 N0238 | IT运维 | nI=2 empty=-
+DUTY 1.负责服务器、网络及存储等IT基础设施的日常监控、维护与故障排查。
+  1|V2_INCIDENT_SUPPORT|1.负责服务器、网络及存储等IT基础设施的日常监控、维护与故障排查。|1.负责服务器、网络及存储等IT基础设施的日常监控、维护与故障排查。
+  2|V2_PROCUREMENT|3.负责IT资产全生命周期管理（采购、配置、分发、报废）。|3.负责IT资产全生命周期管理（采购、配置、分发、报废）。
+  3|V2_SOP_OPERATION|5.编写并更新运维SOP及故障处理文档。|5.编写并更新运维SOP及故障处理文档。
+  4|V2_TCPIP|2.精通Windows/Linux系统，熟悉Windows域管理及TCP/IP路由交换技术。|2.精通Windows/Linux系统，熟悉Windows域管理及TCP/IP路由交换技术。
+  5|-|Windows|Windows
+  6|-|Windows|Windows域管理
+  7|V2_TCPIP|TCP/IP|TCP/IP路由交换技术
+
+#74 N0347 | 软件开发工程师（运控控制) | nI=8 empty=-
+DUTY • 负责机器⼈运动控制软件的整体架构设计、核⼼模块开发与维护，提升系统的灵活性、扩展性与可维护性，⽀持复杂任务编排 。
+  1|V2_CI_CD|• 构建⾃动化测试与持续集成框架，保障系统在迭代过程中的可靠性与代码质量 。|• 构建⾃动化测试与持续集成框架，保障系统在迭代过程中的可靠性与代码质量 。
+  2|V2_C|• 精通C++编程。熟悉Python，ROS2 优先考虑，有良好的编码规范和质量意识|• 精通C++编程。熟悉Python，ROS2 优先考虑，有良好的编码规范和质量意识
+  3|V2_QNX|• 了解操作系统，不限 Linux、QNX、Android；了解系统调度策略、线程、同步和并⾏计算；|• 了解操作系统，不限 Linux、QNX、Android；了解系统调度策略、线程、同步和并⾏计算；
+  4|V2_QNX|QNX|QNX
+  5|-|Android|Android
+  6|V2_INCIDENT_SUPPORT|• 具备良好的分析解决问题和故障排查能⼒|• 具备良好的分析解决问题和故障排查能⼒
+
+#75 N0320 | linux 嵌入式开发 | nI=17 empty=-
+DUTY 1. 负责BSP的开发和维护，编写ARM平台各类外设的驱动程序，配合硬件团队完成新平台的评估和调试。
+  1|V2_C,V2_GIT,V2_GDB|2. 熟悉C/C++程序设计和常用的开发工具（GCC/GDB/Makefile/Git等），具备良好|2. 熟悉C/C++程序设计和常用的开发工具（GCC/GDB/Makefile/Git等），具备良好的编程习惯。
+  2|V2_C|C|C
+  3|-|GCC|GCC
+  4|V2_GDB|GDB|GDB
+  5|-|Makefile|Makefile
+  6|V2_GIT|Git|Git
+  7|V2_YOCTO,V2_BUILDROOT|6. 熟悉嵌入式Linux构建框架（Buildroot/Yocto/Openwrt等）。|6. 熟悉嵌入式Linux构建框架（Buildroot/Yocto/Openwrt等）。
+  8|V2_BUILDROOT|Buildroot|Buildroot
+  9|V2_YOCTO|Yocto|Yocto
+  10|-|Openwrt|Openwrt
+
+#76 N0301 | 机器人软件开发工程师 | nI=11 empty=-
+DUTY 1、负责机器⼈核⼼功能模块设计、开发与单元测试，包括但不限于数据采集与处理、通信中间件节点开发、算法优化、上层业务逻辑实现等。
+  1|V2_C| 2、精通C++/Python，熟悉现代C++特性，熟练掌握STL、多线程编程。 | 2、精通C++/Python，熟悉现代C++特性，熟练掌握STL、多线程编程。 
+  2|-|STL|STL
+
+#77 N0345 | 机器人系统架构师 | nI=4 empty=-
+DUTY 1.负责机器人等系统架构设计，功能设计与实现
+  1|V2_INCIDENT_SUPPORT|2.熟悉软件架构设计方法和工具，具备良好的分析解决问题和故障排查能力|2.熟悉软件架构设计方法和工具，具备良好的分析解决问题和故障排查能力
+  2|V2_C|3. 精通C++、Python编程语言。熟悉ROS 优先考虑|3. 精通C++、Python编程语言。熟悉ROS 优先考虑
+
+#78 N0348 | 软件开发工程师（灵巧手） | nI=11 empty=-
+DUTY 1、负责机器⼈核⼼功能模块设计、开发与单元测试，包括但不限于数据采集与处理、通信中间件节点开发、算法优化、上层业务逻辑实现等。
+  1|V2_C|2、精通C++/Python，熟悉现代C++特性，熟练掌握STL、多线程编程。|2、精通C++/Python，熟悉现代C++特性，熟练掌握STL、多线程编程。
+  2|-|STL|熟悉现代C++特性，熟练掌握STL、多线程编程
+
+#79 N0306 | 服务运维工程师 | nI=4 empty=-
+DUTY 1.负责公司服务器资源池的规划、建设与运维管理，包括服务器上架、网络规划及链路聚合配置：
+  1|-|PVE|3.负责虚拟化平台（如PVE、ESXi)与存储系统（如Ceph)的部署、日常维护、性能调优及容量扩容；
+  2|-|ESXi|3.负责虚拟化平台（如PVE、ESXi)与存储系统（如Ceph)的部署、日常维护、性能调优及容量扩容；
+  3|-|Ceph|3.负责虚拟化平台（如PVE、ESXi)与存储系统（如Ceph)的部署、日常维护、性能调优及容量扩容；
+  4|-|Ubuntu|Ubuntu
+  5|-|CentOS|CentOS
+  6|-|Windows|Windows
+  7|-|PXE|PXE
+  8|V2_SHELL|4.熟练掌握Shell和Python脚本语言，能编写高效的运维自动化脚本；|4.熟练掌握Shell和Python脚本语言，能编写高效的运维自动化脚本；
+  9|V2_SHELL|Shell|Shell
+  10|V2_ANSIBLE|5.熟练使用Ansible进行批量配置与管理；|5.熟练使用Ansible进行批量配置与管理；
+  11|V2_ANSIBLE|Ansible|5.熟练使用Ansible进行批量配置与管理；
+  12|V2_SQL_MYSQL,V2_REDIS|6.熟练掌握MySQL、Redis、Nginx、HAProxy、Keepalived等中间件与数据库|6.熟练掌握MySQL、Redis、Nginx、HAProxy、Keepalived等中间件与数据库的部署、配置、优化及高可用方案；
+  13|V2_SQL_MYSQL|MySQL|MySQL
+  14|V2_REDIS|Redis|Redis
+  15|-|Nginx|Nginx
+  16|-|HAProxy|HAProxy
+  17|-|Keepalived|Keepalived
+  18|V2_PROMETHEUS|7.熟悉Zabbiⅸ、Prometheus等主流监控系统的部署、运维与调优，具备构建完善监控告警体系|7.熟悉Zabbiⅸ、Prometheus等主流监控系统的部署、运维与调优，具备构建完善监控告警体系的能力；
+  19|-|Zabbiⅸ|Zabbiⅸ
+  20|V2_PROMETHEUS|Prometheus|Prometheus
+  21|-|PVE|PVE
+  22|-|ESXi|ESXi
+
+#80 N0242 | Node.js 全栈工程师 | nI=5 empty=-
+DUTY 1.负责基于 Node.js / TypeScript 的后端服务、内部系统及相关平台能力的设计、开发与维护。
+  1|V2_JAVASCRIPT,V2_TYPESCRIPT,V2_NODEJS|1.负责基于 Node.js / TypeScript 的后端服务、内部系统及相关平台能力的设计、开|1.负责基于 Node.js / TypeScript 的后端服务、内部系统及相关平台能力的设计、开发与维护。
+  2|V2_JAVASCRIPT,V2_NODEJS|Node.js|1.负责基于 Node.js / TypeScript 的后端服务、内部系统及相关平台能力的设计、开发与维护。
+  3|V2_TYPESCRIPT|TypeScript|1.负责基于 Node.js / TypeScript 的后端服务、内部系统及相关平台能力的设计、开发与维护。
+  4|V2_JAVASCRIPT,V2_NODEJS|1.全日制本科及以上学历，3 年及以上 Node.js 方向开发经验，具备完整项目落地经验。|1.全日制本科及以上学历，3 年及以上 Node.js 方向开发经验，具备完整项目落地经验。
+  5|V2_JAVASCRIPT,V2_NODEJS|Node.js|1.全日制本科及以上学历，3 年及以上 Node.js 方向开发经验，具备完整项目落地经验。
+  6|V2_TYPESCRIPT|2.熟练使用 TypeScript，具备良好的代码风格、工程规范和抽象设计能力。|2.熟练使用 TypeScript，具备良好的代码风格、工程规范和抽象设计能力。
+  7|V2_TYPESCRIPT|TypeScript|2.熟练使用 TypeScript，具备良好的代码风格、工程规范和抽象设计能力。
+  8|V2_JAVASCRIPT,V2_NODEJS|3.熟悉 Node.js 常用技术栈，理解高并发、异步编程、网络通信及常见服务端架构设计。|3.熟悉 Node.js 常用技术栈，理解高并发、异步编程、网络通信及常见服务端架构设计。
+  9|V2_REACT,V2_VUE|4.具备全栈开发能力，熟悉至少一种主流前端框架（如 React、Vue 等），能够独立完成前后端联调|4.具备全栈开发能力，熟悉至少一种主流前端框架（如 React、Vue 等），能够独立完成前后端联调与交付。
+  10|V2_REACT|React|React
+  11|V2_VUE|Vue|Vue
+  12|V2_REDIS,V2_MONGODB|5.熟悉 MongoDB / Mongoose、Redis 等常用中间件，具备数据库建模、查询优化和|5.熟悉 MongoDB / Mongoose、Redis 等常用中间件，具备数据库建模、查询优化和性能调优经验。
+  13|V2_MONGODB|MongoDB|MongoDB
+  14|-|Mongoose|Mongoose
+  15|V2_REDIS|Redis|Redis
+  16|V2_CURSOR,V2_CODEX,V2_CLAUDE_CODE|7.有实际 AI Coding 使用经验，熟悉如 Cursor、Codex、Claude Code |7.有实际 AI Coding 使用经验，熟悉如 Cursor、Codex、Claude Code 或类似工具，并能将其有效用于提升开发效率与代码质量。
+  17|V2_CURSOR|Cursor|Cursor
+  18|V2_CODEX|Codex|Codex
+  19|V2_CLAUDE_CODE|Claude Code|Claude Code
+  20|V2_JAVASCRIPT|1.熟悉 NestJS、Next.js 等框架，有中大型项目实践经验。|1.熟悉 NestJS、Next.js 等框架，有中大型项目实践经验。
+  21|-|NestJS|NestJS
+  22|V2_JAVASCRIPT|Next.js|Next.js
+  23|V2_CI_CD|2.熟悉 Docker、CI/CD、服务部署流程及基本云服务使用经验。|2.熟悉 Docker、CI/CD、服务部署流程及基本云服务使用经验。
+  24|V2_CI_CD|CI/CD|2.熟悉 Docker、CI/CD、服务部署流程及基本云服务使用经验。
+  25|V2_C,V2_JAVASCRIPT,V2_NODEJS|3.有 Node.js C++ Addon、性能优化或底层能力开发经验。|3.有 Node.js C++ Addon、性能优化或底层能力开发经验。
+  26|SK_CPP,V2_C,V2_JAVASCRIPT,V2_NODEJS|Node.js C++ Addon|Node.js C++ Addon

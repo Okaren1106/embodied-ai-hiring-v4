@@ -1,0 +1,71 @@
+{
+  "status": "FROZEN_V3_U_REVIEW_COMPLETE",
+  "current_U_pairs_reviewed": 46,
+  "distinct_ads_full_captured_body_read": 44,
+  "subsequent_adoption": "All five proposals are adopted separately in data/v4_source_corrections.json; verify_v4_overlay_independent.py checks their propagation. This module preserves the original review frame.",
+  "target_occurrences_in_all_fields_verified": 101,
+  "retain_U_pairs": 41,
+  "proposed_U_to_Z_pairs": 5,
+  "proposed_by_target": {
+    "SK_PYTORCH": 1,
+    "SK_CPP": 4
+  },
+  "proposed_by_modifier": {
+    "EXAMPLE": 2,
+    "CHOICE": 3
+  },
+  "N0508_N0486_all_captured_body_fields_identical": {
+    "duties": true,
+    "requirements": true,
+    "full_description": true
+  },
+  "original_input_sha256": {
+    "current_states": "a515edcae1fc6aec9520feffbdcf3578483995376db4a735e4bb045b95337b37",
+    "source_records": "c3bf940e3cf39fabeea2d3ae25684577f8cd6fc1e71450b9a5a60a19ab743acb"
+  },
+  "proposed_identity_keys": [
+    {
+      "review_id": "UREV_002",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|3e4c2387-4458-4b6f-a19c-f30efc7dcd8d|fa3ae951c64a2eccb531674abf23a7d1ec24f9fd7c47fad6d2d76691a90a633e",
+      "reading_id": "N0508",
+      "label_code": "SK_PYTORCH",
+      "governing_modifier_if_corrected": "EXAMPLE"
+    },
+    {
+      "review_id": "UREV_004",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|01de9cb5-764a-46b7-a7da-d9dba47e4a89|4d4579d3f706d58875bab80cc3a4b914cf4750c610db5bd790b977f5f19cd834",
+      "reading_id": "N0634",
+      "label_code": "SK_CPP",
+      "governing_modifier_if_corrected": "CHOICE"
+    },
+    {
+      "review_id": "UREV_028",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7582838800151316772|745eddbd9aba24741841cbd043c3b25acbc613697c77022e39f377612e4d5c75",
+      "reading_id": "E0071",
+      "label_code": "SK_CPP",
+      "governing_modifier_if_corrected": "EXAMPLE"
+    },
+    {
+      "review_id": "UREV_045",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4620050006|8f4ebdb40f6cf944322d788835146a1dbc0a7606c5e6da734fcf02d49c66f680",
+      "reading_id": "E0549",
+      "label_code": "SK_CPP",
+      "governing_modifier_if_corrected": "CHOICE"
+    },
+    {
+      "review_id": "UREV_046",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4690871006|6a364b0a2e375248bc101f6b0bf93eee236a50e41b294d03cea0a174c5f8da37",
+      "reading_id": "E0560",
+      "label_code": "SK_CPP",
+      "governing_modifier_if_corrected": "CHOICE"
+    }
+  ],
+  "hypothetical_if_all_adopted": {
+    "Q_P": 170,
+    "Q_Z": 285,
+    "Q_U": 41
+  },
+  "existing_resolved_analogue_occurrences": 8,
+  "scope_limit": "Complete review of current unresolved pairs for explicit modifier and duplicate-adjudication consistency; not revalidation of all resolved states.",
+  "review_type": "Model source review after an inconsistency was discovered; not independent human coding."
+}

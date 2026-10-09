@@ -1,0 +1,572 @@
+{
+  "n_facts": 680,
+  "n_evidence": 111,
+  "n_links": 457,
+  "n_capital_rows": 24,
+  "n_gap_rows": 307,
+  "fact_by_time_applicability": {
+    "DATE_UNKNOWN": 390,
+    "USABLE_AT_OBSERVATION": 237,
+    "NOT_TIME_SENSITIVE": 50,
+    "DATE_IMPRECISE_SPANS_OBS": 3
+  },
+  "fact_by_value_status": {
+    "NOT_YET_SEARCHED": 202,
+    "COMPANY_SELF_REPORT": 143,
+    "MEDIA_STATEMENT": 134,
+    "NOT_APPLICABLE": 50,
+    "INHERITED_UNVERIFIED": 49,
+    "COUNTERPARTY_CONFIRMATION": 35,
+    "SUPPORTED_EXTERNAL": 34,
+    "SEARCHED_NOT_FOUND": 20,
+    "MIXED_SEE_EVIDENCE": 5,
+    "DATE_UNKNOWN": 3,
+    "DATE_IMPRECISE_SPANS_OBS": 1,
+    "CONFLICT_RESOLVED_BY_SEPARATION": 1,
+    "MEDIA_AND_THIRD_PARTY_RECORD": 1,
+    "CONFLICT": 1,
+    "PARENT_CONTEXT_ONLY": 1
+  },
+  "link_by_relation": {
+    "SUPPORTS": 431,
+    "CONTEXT_ONLY": 24,
+    "ACCESS_NOTE": 2
+  },
+  "gap_by_status": {
+    "RESOLVED_FOUND": 162,
+    "NOT_YET_SEARCHED": 88,
+    "RESOLVED_PARTIAL": 37,
+    "NOT_FOUND_NOT_DEFINITE": 14,
+    "RESOLVED_NOT_APPLICABLE": 4,
+    "RESOLVED_BY_SEPARATION_RULE": 1,
+    "DEFERRED_TO_STAGE_B_BATCH_2": 1
+  },
+  "source_upgrade_corrections": [
+    {
+      "fact_id": "F_CN_ASTRIBOT__capital_event_astribot_series_b",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_DEEPROBOTICS__legal_entity_name",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_DEEPROBOTICS__own_listing_status",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_DEEPROBOTICS__named_customers_or_partners",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_DEEPROBOTICS__deployment_status_actual",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_DEEPROBOTICS__evidence_internal_test",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_DEEPROBOTICS__evidence_external_pilot",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_DEEPROBOTICS__evidence_customer_delivery",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_DEEPROBOTICS__evidence_paid",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_FOURIER__hq_or_team_location",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [],
+      "reason": "无直接支持证据（仅有背景或访问记录关系），按自述/背景记录，不标为外部确认"
+    },
+    {
+      "fact_id": "F_CN_FOURIER__hiring_board_channel",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_CN_FOURIER__capital_event_fourier_e",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_GALAXEA__capital_event_galaxea_series_b",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_GALAXEA__capital_event_galaxea_series_b_plus",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_GALBOT__deployment_status_actual",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_PAXINI__capital_event_paxini_series",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_SPIRITAI__capital_event_spiritai_series",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_UNITREE__legal_entity_name",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_UNITREE__research_subject",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_UNITREE__own_listing_status",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_UNITREE__delivery_form",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_UNITREE__evidence_internal_test",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_UNITREE__latest_financing_disclosed",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_UNITREE__latest_financing_at_observation",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_UNITREE__capital_event_unitree_ipo",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_CN_XSQUARE__research_subject",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_CN_XSQUARE__hiring_board_channel",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_CN_XSQUARE__capital_event_x2_angel",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_CN_XSQUARE__capital_event_x2_pre_a",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_CN_XSQUARE__capital_event_x2_a_round",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_CN_XSQUARE__capital_event_x2_a_plus_plus",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_US_AGILITY__capital_event_agility_c",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_US_AGILITY__capital_event_agility_spac",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_US_AMAZON_FTR__research_subject",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_US_AMAZON_FTR__parent_relationship",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_US_AMAZON_FTR__hq_or_team_location",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_US_AMAZON_FTR__hiring_board_channel",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_US_AMAZON_FTR__evidence_internal_test",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [],
+      "reason": "无直接支持证据（仅有背景或访问记录关系），按自述/背景记录，不标为外部确认"
+    },
+    {
+      "fact_id": "F_US_DILIGENT__research_subject",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_US_FIGURE__capital_event_figure_series_b",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "MEDIA_STATEMENT",
+      "supporting_natures": [
+        "MEDIA_STATEMENT"
+      ],
+      "reason": "仅有媒体报道支持，按媒体陈述记录"
+    },
+    {
+      "fact_id": "F_US_FIGURE__capital_event_figure_series_c",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_US_NIMBLE__capital_event_nimble_raise",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    },
+    {
+      "fact_id": "F_US_PICKLE__capital_event_pickle_series_b",
+      "from": "SUPPORTED_EXTERNAL",
+      "to": "COMPANY_SELF_REPORT",
+      "supporting_natures": [
+        "COMPANY_SELF_REPORT"
+      ],
+      "reason": "仅有公司自述材料支持，按自述记录，不升级为外部确认（返修：原送审版本此类字段标为 SUPPORTED_EXTERNAL）"
+    }
+  ],
+  "gap_by_company_status": {
+    "CN_AGIBOT": {
+      "RESOLVED_FOUND": 6,
+      "NOT_YET_SEARCHED": 4,
+      "RESOLVED_PARTIAL": 1
+    },
+    "CN_ASTRIBOT": {
+      "RESOLVED_FOUND": 8,
+      "NOT_YET_SEARCHED": 3,
+      "RESOLVED_PARTIAL": 2
+    },
+    "CN_DEEPROBOTICS": {
+      "RESOLVED_FOUND": 13,
+      "RESOLVED_PARTIAL": 2,
+      "NOT_YET_SEARCHED": 1
+    },
+    "CN_FOURIER": {
+      "RESOLVED_FOUND": 10,
+      "RESOLVED_PARTIAL": 2,
+      "NOT_YET_SEARCHED": 1,
+      "NOT_FOUND_NOT_DEFINITE": 1
+    },
+    "CN_GALAXEA": {
+      "NOT_YET_SEARCHED": 7,
+      "RESOLVED_FOUND": 5,
+      "RESOLVED_PARTIAL": 2
+    },
+    "CN_GALBOT": {
+      "RESOLVED_FOUND": 9,
+      "NOT_YET_SEARCHED": 3,
+      "RESOLVED_PARTIAL": 2
+    },
+    "CN_LIMX": {
+      "RESOLVED_FOUND": 10,
+      "NOT_YET_SEARCHED": 3,
+      "RESOLVED_PARTIAL": 2
+    },
+    "CN_NOETIX": {
+      "RESOLVED_FOUND": 6,
+      "NOT_YET_SEARCHED": 5,
+      "NOT_FOUND_NOT_DEFINITE": 2,
+      "RESOLVED_PARTIAL": 2
+    },
+    "CN_PAXINI": {
+      "RESOLVED_FOUND": 7,
+      "NOT_YET_SEARCHED": 5,
+      "RESOLVED_PARTIAL": 2
+    },
+    "CN_SPIRITAI": {
+      "RESOLVED_FOUND": 7,
+      "NOT_YET_SEARCHED": 4,
+      "RESOLVED_PARTIAL": 2
+    },
+    "CN_UNITREE": {
+      "NOT_YET_SEARCHED": 7,
+      "RESOLVED_FOUND": 6,
+      "RESOLVED_PARTIAL": 2
+    },
+    "CN_XSQUARE": {
+      "RESOLVED_FOUND": 8,
+      "NOT_FOUND_NOT_DEFINITE": 3,
+      "RESOLVED_PARTIAL": 2
+    },
+    "US_AGILITY": {
+      "RESOLVED_FOUND": 9,
+      "RESOLVED_PARTIAL": 1
+    },
+    "US_AMAZON_FTR": {
+      "NOT_FOUND_NOT_DEFINITE": 6,
+      "RESOLVED_FOUND": 4,
+      "RESOLVED_NOT_APPLICABLE": 3,
+      "RESOLVED_PARTIAL": 2,
+      "RESOLVED_BY_SEPARATION_RULE": 1
+    },
+    "US_APPTRONIK": {
+      "RESOLVED_FOUND": 5,
+      "NOT_YET_SEARCHED": 5,
+      "RESOLVED_PARTIAL": 1
+    },
+    "US_BOSTON_DYNAMICS": {
+      "RESOLVED_FOUND": 8,
+      "NOT_YET_SEARCHED": 2,
+      "RESOLVED_PARTIAL": 1
+    },
+    "US_DEXTERITY": {
+      "RESOLVED_FOUND": 9,
+      "NOT_YET_SEARCHED": 4,
+      "RESOLVED_PARTIAL": 2
+    },
+    "US_DILIGENT": {
+      "RESOLVED_FOUND": 4,
+      "NOT_YET_SEARCHED": 4,
+      "RESOLVED_NOT_APPLICABLE": 1,
+      "RESOLVED_PARTIAL": 1,
+      "DEFERRED_TO_STAGE_B_BATCH_2": 1
+    },
+    "US_FIELD_AI": {
+      "NOT_YET_SEARCHED": 6,
+      "RESOLVED_FOUND": 4,
+      "RESOLVED_PARTIAL": 1
+    },
+    "US_FIGURE": {
+      "RESOLVED_FOUND": 7,
+      "NOT_YET_SEARCHED": 3,
+      "RESOLVED_PARTIAL": 1
+    },
+    "US_NIMBLE": {
+      "NOT_YET_SEARCHED": 6,
+      "RESOLVED_FOUND": 4,
+      "RESOLVED_PARTIAL": 1
+    },
+    "US_PHYSICAL_INTELLIGENCE": {
+      "NOT_YET_SEARCHED": 5,
+      "RESOLVED_FOUND": 3,
+      "NOT_FOUND_NOT_DEFINITE": 2,
+      "RESOLVED_PARTIAL": 1
+    },
+    "US_PICKLE": {
+      "RESOLVED_FOUND": 6,
+      "NOT_YET_SEARCHED": 4,
+      "RESOLVED_PARTIAL": 1
+    },
+    "US_SKILD": {
+      "NOT_YET_SEARCHED": 6,
+      "RESOLVED_FOUND": 4,
+      "RESOLVED_PARTIAL": 1
+    }
+  },
+  "self_check": {
+    "relations_declared": 457,
+    "links_qualifying_date": 431,
+    "links_background": 26,
+    "facts_usable_at_observation": 237,
+    "facts_without_qualifying_evidence": [
+      "F_CN_AGIBOT__hiring_board_channel",
+      "F_CN_AGIBOT__latest_financing_at_observation",
+      "F_CN_DEEPROBOTICS__latest_financing_at_observation",
+      "F_CN_FOURIER__hq_or_team_location",
+      "F_CN_NOETIX__latest_financing_at_observation",
+      "F_US_AMAZON_FTR__evidence_internal_test",
+      "F_US_NIMBLE__latest_financing_at_observation"
+    ]
+  }
+}

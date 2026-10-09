@@ -1,0 +1,462 @@
+{
+  "company_id": "US_SKILD",
+  "observation_date": "2026-09-11",
+  "observation_waves": [
+    "2026-09-11"
+  ],
+  "research_subject": "Skild AI, Inc.（整公司）",
+  "entity_note": "扩展批次（第七批之一）。研究主体为 Skild AI 整公司；产品为 Skild Brain 机器人基础模型与安全／巡检机器人平台。",
+  "company_name_en": "Skild AI",
+  "company_name_cn": "",
+  "country": "United States",
+  "website": "https://www.skild.ai/",
+  "founded_year_inherited": "2023",
+  "headquarters_inherited": "Pittsburgh PA",
+  "hiring_source_url": "",
+  "ats_provider": "greenhouse",
+  "n_ads_inherited": 62,
+  "inherited_evidence_ids": [
+    "E_US_025",
+    "E_US_026"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "B_US_SKILD_001",
+      "record_kind": "STAGE_B_NEW",
+      "field": "commercialization / deployment_status（官方博客）",
+      "claim": "公司官方博客：Skild AI 在首次商业部署后十个月突破 1 亿美元 ARR，并扩展至 60 家以上付费客户，覆盖搬运货物、配送、场地巡检、安保、食品制备等场景；与 NVIDIA 和富士康合作在双臂机械手上部署 Skild Brain 用于 NVIDIA Blackwell 系统的高精度装配；与三井物产（Mitsui & Co.，其供应链在日本每天服务 140 万份餐食）在商用厨房试点由 S1 驱动的通用机器人",
+      "quote": "Skild AI crossed $100 million in ARR, ten months after our first commercial deployment. … In ten months, we've scaled to 60+ paying customers across moving goods, making deliveries, inspecting sites, providing security, preparing food, as well as o… Together with NVIDIA and Foxconn, we are deploying the Skild Brain on dual-arm manipulators for high-precision assembly of NVIDIA Blackwell systems … With Mitsui & Co., whose supply chains serve 1.4 million meals a day across Japan, we are piloting general-purpose robots powered by S1 in commercial kitchens.",
+      "quote_locator": "正文第 2—4 段",
+      "source_title": "The Hidden Pillar of Robotics",
+      "publisher": "Skild AI（公司官方博客）",
+      "source_nature": "OFFICIAL_COMPANY",
+      "url": "https://www.skild.ai/blogs/skild-crosses-100m-arr",
+      "publication_date": "",
+      "event_date": "",
+      "event_date_precision": "NONE",
+      "retrieved_at": "2026-09-14",
+      "date_precision": "NONE",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "access_status": "OK",
+      "snapshot_id": "skild_arr_blog",
+      "linked_inherited_evidence": [
+        "E_US_025"
+      ],
+      "relation_to_inherited": "RESOLVES_INHERITED_UNKNOWN",
+      "note": "公司自述的 ARR 与客户数；该页未给发布日期，故不作为日期依据。合作方（NVIDIA、富士康、三井物产）为具名，但仍属公司自述口径。"
+    },
+    {
+      "evidence_id": "B_US_SKILD_002",
+      "record_kind": "STAGE_B_NEW",
+      "field": "product_lines / 技术路径（官网首页）",
+      "claim": "官网自述：Skild Brain 使机器人能在非结构化、危险环境中导航，把人从持续人工巡检中解放；公司建有安全／巡检机器人平台；模型通过观看人类视频学习，作为应对机器人数据问题的可扩展方案",
+      "quote": "The Skild Brain enables robots to navigate unstructured, dangerous environments, freeing humans from the burden of constant, manual inspections. … Our model learns by watching human videos. This is a scalable solution for the robotics data problem.",
+      "quote_locator": "首页产品与模型段落",
+      "source_title": "Skild AI 官方网站首页",
+      "publisher": "Skild AI, Inc.",
+      "source_nature": "OFFICIAL_COMPANY",
+      "url": "https://www.skild.ai/",
+      "publication_date": "",
+      "event_date": "",
+      "event_date_precision": "NONE",
+      "retrieved_at": "2026-09-14",
+      "date_precision": "NONE",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "access_status": "OK",
+      "snapshot_id": "skild_home",
+      "linked_inherited_evidence": [],
+      "relation_to_inherited": "",
+      "note": "官网为当前状态自述，未提供发布日期。"
+    },
+    {
+      "record_kind": "STAGE_B_NEW",
+      "linked_inherited_evidence": [],
+      "relation_to_inherited": "",
+      "retrieved_at": "2026-09-15",
+      "access_status": "OK",
+      "evidence_id": "B_US_SKILD_003",
+      "field": "product_lines / delivery_form / target_markets",
+      "claim": "Skild 于 2025-07-29 发布 Skild Brain：跨四足、人形、桌面臂、移动操作等形态的机器人基础模型。",
+      "quote": "By Skild AI Team · 29 July, 2025 … Our foundation model, the Skild Brain , which works on various quadrupeds, humanoids, table-top arms, mobile manipulators and more",
+      "quote_locator": "署名日期行与模型段",
+      "source_title": "Building the general-purpose robotic brain",
+      "publisher": "Skild AI",
+      "source_nature": "OFFICIAL_COMPANY",
+      "url": "https://www.skild.ai/blogs/building-the-general-purpose-robotic-brain",
+      "publication_date": "2025-07-29",
+      "event_date": "2025-07-29",
+      "event_date_precision": "DAY",
+      "date_precision": "DAY",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "snapshot_id": "skild_brain_20250729",
+      "note": "研究／产品发布，不是付费客户确认。"
+    },
+    {
+      "record_kind": "STAGE_B_NEW",
+      "linked_inherited_evidence": [],
+      "relation_to_inherited": "",
+      "retrieved_at": "2026-09-15",
+      "access_status": "OK",
+      "evidence_id": "B_US_SKILD_004",
+      "field": "product_lines / delivery_form",
+      "claim": "Skild 于 2026-08-18 发布旗舰基础模型 S1，定位为上下文学习／视频提示的机器人基础模型。",
+      "quote": "Introducing S1: In-Context Learning for Robotics … Skild AI. Introducing S1: In-Context Learning for Robotics. August 2026. https://skild.ai/blogs/s1",
+      "quote_locator": "标题与文末引用块",
+      "source_title": "Introducing S1: In-Context Learning for Robotics",
+      "publisher": "Skild AI",
+      "source_nature": "OFFICIAL_COMPANY",
+      "url": "https://skild.ai/blogs/s1",
+      "publication_date": "2026-08-18",
+      "event_date": "2026-08-18",
+      "event_date_precision": "DAY",
+      "date_precision": "DAY",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "snapshot_id": "skild_s1_20260818",
+      "note": "页内引用写 August 2026，meta 为 Aug 18, 2026；早于观察日 2026-09-11。"
+    }
+  ],
+  "facts": [
+    {
+      "field": "legal_entity_name",
+      "value": "Skild AI, Inc.（官网与博客署名）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_US_SKILD_002"
+      ],
+      "decision_reason": "官网署名；未取得登记文件"
+    },
+    {
+      "field": "research_subject",
+      "value": "Skild AI 整公司；产品为 Skild Brain 机器人基础模型（含安全／巡检机器人平台）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_US_SKILD_002",
+        "B_US_SKILD_001"
+      ],
+      "decision_reason": "官网与官方博客自述主体与产品"
+    },
+    {
+      "field": "hq_or_team_location",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未取得官方地址披露；第二轮：无逐问题真实检索轨迹，降为未查"
+    },
+    {
+      "field": "founded_or_team_start_date",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未取得成立日期披露；第二轮：无逐问题真实检索轨迹，降为未查"
+    },
+    {
+      "field": "parent_relationship",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未找到母公司披露；第二轮：无逐问题真实检索轨迹，降为未查"
+    },
+    {
+      "field": "own_listing_status",
+      "value": "未上市；本轮未取得上市或申报上市披露",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "保持未知；第二轮：无逐问题真实检索轨迹，降为未查"
+    },
+    {
+      "field": "parent_listing_status",
+      "value": "",
+      "value_status": "NOT_APPLICABLE",
+      "research_status": "NOT_APPLICABLE",
+      "evidence_ids": [],
+      "decision_reason": "无母公司命题"
+    },
+    {
+      "field": "hiring_board_channel",
+      "value": "官方渠道（继承 Greenhouse 板）；本轮未重新采集岗位",
+      "value_status": "INHERITED_UNVERIFIED",
+      "evidence_ids": [],
+      "decision_reason": "渠道归属沿用继承记录"
+    },
+    {
+      "field": "observation_coverage",
+      "value": "2026-09-11 单波次，62 条广告（继承）",
+      "value_status": "INHERITED_UNVERIFIED",
+      "evidence_ids": [],
+      "decision_reason": "广告数与波次来自冻结的认可参考"
+    },
+    {
+      "field": "product_lines",
+      "value": "Skild Brain 跨形态机器人基础模型（四足、人形、桌面臂、移动操作等，2025-07-29）；S1 旗舰基础模型（官方 2026-08-18 发布，上下文学习）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_US_SKILD_003",
+        "B_US_SKILD_004"
+      ],
+      "decision_reason": "两条带日期官方发布；无日期首页与 ARR 博客改为背景"
+    },
+    {
+      "field": "delivery_form",
+      "value": "研究型基础模型发布（Skild Brain / S1）；商业许可与付费交付仅见无日期博客自述，不纳入本条",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_US_SKILD_003",
+        "B_US_SKILD_004"
+      ],
+      "decision_reason": "有日期页只证明模型发布，不证明许可合同"
+    },
+    {
+      "field": "target_markets",
+      "value": "跨形态机器人控制（四足、人形、桌面臂、移动操作）；未给出已签约商业行业清单",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_US_SKILD_003"
+      ],
+      "decision_reason": "形态范围来自 Brain 发布页"
+    },
+    {
+      "field": "named_customers_or_partners",
+      "value": "NVIDIA、富士康（Foxconn，联合部署 Skild Brain 于双臂机械手装配）、三井物产（Mitsui & Co.，商用厨房试点，其供应链在日本每天服务 140 万份餐食）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_US_SKILD_001"
+      ],
+      "decision_reason": "具名合作方来自公司自述，未取得对方确认"
+    },
+    {
+      "field": "deployment_status_actual",
+      "value": "首次商业部署后十个月突破 1 亿美元 ARR，扩展至 60 家以上付费客户（公司口径）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_US_SKILD_001"
+      ],
+      "decision_reason": "ARR 与客户数为公司自述，未取得审计或第三方数据"
+    },
+    {
+      "field": "evidence_demo",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未取得演示记录；第二轮：无逐问题真实检索轨迹，降为未查"
+    },
+    {
+      "field": "evidence_loi_intent",
+      "value": "",
+      "value_status": "NOT_APPLICABLE",
+      "research_status": "NOT_APPLICABLE",
+      "evidence_ids": [],
+      "decision_reason": "未发现意向书类命题材料"
+    },
+    {
+      "field": "evidence_internal_test",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未取得内部测试记录；第二轮：无逐问题真实检索轨迹，降为未查"
+    },
+    {
+      "field": "evidence_external_pilot",
+      "value": "与三井物产在商用厨房试点由 S1 驱动的通用机器人（公司口径）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_US_SKILD_001"
+      ],
+      "decision_reason": "试点为公司自述"
+    },
+    {
+      "field": "evidence_production_shipment",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未取得产量或出货记录；第二轮：无逐问题真实检索轨迹，降为未查"
+    },
+    {
+      "field": "evidence_customer_delivery",
+      "value": "已向 60 家以上付费客户交付（场景含搬运、配送、巡检、安保、食品制备等，公司口径）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_US_SKILD_001"
+      ],
+      "decision_reason": "客户数与场景为公司自述"
+    },
+    {
+      "field": "evidence_paid",
+      "value": "首次商业部署后十个月达 1 亿美元 ARR，60 家以上为付费客户（公司口径）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_US_SKILD_001"
+      ],
+      "decision_reason": "ARR 与付费客户为公司自述"
+    },
+    {
+      "field": "evidence_repeat_order",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未取得重复订单记录；第二轮：无逐问题真实检索轨迹，降为未查"
+    },
+    {
+      "field": "evidence_sustained_use",
+      "value": "十个月内从首次部署扩展到 60 家以上付费客户（公司口径）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_US_SKILD_001"
+      ],
+      "decision_reason": "规模化过程为公司自述"
+    },
+    {
+      "field": "latest_financing_disclosed",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未取得融资轮次与金额披露；ARR 数据不等于融资；第二轮：无逐问题真实检索轨迹，降为未查"
+    },
+    {
+      "field": "latest_financing_at_observation",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "同上，保持未找到；第二轮：无逐问题真实检索轨迹，降为未查"
+    },
+    {
+      "field": "ma_events",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未针对并购或重组作单独检索"
+    }
+  ],
+  "relations": [
+    {
+      "fact": "legal_entity_name",
+      "evidence": "B_US_SKILD_002",
+      "role": "SUPPORTS",
+      "review_note": "官网署名"
+    },
+    {
+      "fact": "research_subject",
+      "evidence": "B_US_SKILD_002",
+      "role": "SUPPORTS",
+      "review_note": "官网自述主体与产品"
+    },
+    {
+      "fact": "research_subject",
+      "evidence": "B_US_SKILD_001",
+      "role": "SUPPORTS",
+      "review_note": "博客自述模型与平台"
+    },
+    {
+      "fact": "product_lines",
+      "evidence": "B_US_SKILD_001",
+      "role": "CONTEXT_ONLY",
+      "review_note": "无日期 ARR 博客"
+    },
+    {
+      "fact": "product_lines",
+      "evidence": "B_US_SKILD_002",
+      "role": "CONTEXT_ONLY",
+      "review_note": "无日期首页"
+    },
+    {
+      "fact": "delivery_form",
+      "evidence": "B_US_SKILD_001",
+      "role": "CONTEXT_ONLY",
+      "review_note": "无日期商业自述"
+    },
+    {
+      "fact": "target_markets",
+      "evidence": "B_US_SKILD_001",
+      "role": "CONTEXT_ONLY",
+      "review_note": "无日期场景清单"
+    },
+    {
+      "fact": "target_markets",
+      "evidence": "B_US_SKILD_002",
+      "role": "CONTEXT_ONLY",
+      "review_note": "无日期首页"
+    },
+    {
+      "fact": "named_customers_or_partners",
+      "evidence": "B_US_SKILD_001",
+      "role": "SUPPORTS",
+      "review_note": "具名合作方"
+    },
+    {
+      "fact": "deployment_status_actual",
+      "evidence": "B_US_SKILD_001",
+      "role": "SUPPORTS",
+      "review_note": "ARR 与客户数"
+    },
+    {
+      "fact": "evidence_external_pilot",
+      "evidence": "B_US_SKILD_001",
+      "role": "SUPPORTS",
+      "review_note": "商用厨房试点"
+    },
+    {
+      "fact": "evidence_customer_delivery",
+      "evidence": "B_US_SKILD_001",
+      "role": "SUPPORTS",
+      "review_note": "60 家以上付费客户"
+    },
+    {
+      "fact": "evidence_paid",
+      "evidence": "B_US_SKILD_001",
+      "role": "SUPPORTS",
+      "review_note": "ARR 与付费客户"
+    },
+    {
+      "fact": "evidence_sustained_use",
+      "evidence": "B_US_SKILD_001",
+      "role": "SUPPORTS",
+      "review_note": "十个月规模化过程"
+    },
+    {
+      "fact": "product_lines",
+      "evidence": "B_US_SKILD_003",
+      "role": "SUPPORTS",
+      "review_note": "Brain 发布"
+    },
+    {
+      "fact": "product_lines",
+      "evidence": "B_US_SKILD_004",
+      "role": "SUPPORTS",
+      "review_note": "S1 发布"
+    },
+    {
+      "fact": "delivery_form",
+      "evidence": "B_US_SKILD_003",
+      "role": "SUPPORTS",
+      "review_note": "模型发布"
+    },
+    {
+      "fact": "delivery_form",
+      "evidence": "B_US_SKILD_004",
+      "role": "SUPPORTS",
+      "review_note": "S1 发布"
+    },
+    {
+      "fact": "target_markets",
+      "evidence": "B_US_SKILD_003",
+      "role": "SUPPORTS",
+      "review_note": "跨形态范围"
+    }
+  ],
+  "capital_events": [],
+  "extra_notes": [
+    "扩展批次。1 亿美元 ARR 与 60 家以上付费客户是公司官方博客自述，属来源较强的公司口径但仍未获第三方确认；该页无发布日期，故不作日期判定。",
+    "本轮未取得融资轮次披露，故资本表为空——ARR 数据不能替代融资事实。",
+    "合作方 NVIDIA、富士康、三井物产为具名，但均来自公司自述。"
+  ]
+}

@@ -1,0 +1,645 @@
+==== 1 N0563 nC=9 nI=35 empty=[]
+TITLE 空间智能算法工程师
+DUTY 岗位职责 1. 负责机器人定位、建图、重定位及三维空间表征算法研发。 2. 研发基于激光雷达、视觉、深度相机和 IMU 的多传感器融合算法。 3. 研究学习型定位、视觉重定位、空间记忆、神经地图和场景表征方法。 4. 探索 3DGS、VGGT、视觉基础模型等技术在空间理解与导航中的应用。 5. 建立仿真数据、真实数据和自监督学习相结合的训练与评测体系。 6. 推动算法在真实机器人上的部署、优化和长期运行。  任职要求 1. 计算机、机器
+1 V2_3D_RECONSTRUCTION | 4. 探索 3DGS、VGGT、视觉基础模型等技术在空间理解与导航中的应用。
+2 V2_C | 5. 熟练使用 C++ 或 Python，熟悉 PyTorch、ROS/ROS 2 和 Linux。
+3 - | 熟悉 Fast-LIO、LIO-SAM、ORB-SLAM、VINS 等系统。
+4 - | 熟悉 Fast-LIO、LIO-SAM、ORB-SLAM、VINS 等系统。
+5 - | 熟悉 Fast-LIO、LIO-SAM、ORB-SLAM、VINS 等系统。
+6 - | 熟悉 Fast-LIO、LIO-SAM、ORB-SLAM、VINS 等系统。
+7 V2_3D_RECONSTRUCTION | - 熟悉 3DGS、NeRF、VGGT、Foundation Model 或自监督学习。
+8 - | 熟悉 3DGS、NeRF、VGGT、Foundation Model 或自监督学习。
+9 V2_SIM2REAL | - 有大规模场景定位、Sim2Real 或端侧部署经验。
+
+==== 2 E0146 nC=5 nI=17 empty=['O10:TC_EVALUATION:标定']
+TITLE 触觉/力觉传感工程师
+DUTY 岗位定位 负责足底触觉、六维力、关节力矩、柔性压力阵列、接触检测和滑移检测等接触感知系统,使机器人获得可用于控制闭环和家庭交互的稳定接触信息。 核心职责 - 负责足底触觉、六维力、关节力矩、柔性压力阵列等接触传感方案设计和选型。 - 建立接触检测、滑移检测、力信号处理、滤波、标定、补偿和可靠性测试体系。 - 与机械团队协作完成传感器结构集成、安装方式、走线、防护和可维护性设计。 - 与状态估计、运动控制、嵌入式和测试团队协作,将接触信息
+1 V2_CALIBRATION | - 建立接触检测、滑移检测、力信号处理、滤波、标定、补偿和可靠性测试体系。
+2 V2_CALIBRATION | - 输出传感器方案、标定报告、数据质量评估和接触感知问题清单。
+3 V2_CALIBRATION | - 具备信号采集、滤波、标定、误差补偿和可靠性测试经验。
+4 V2_C | - 具备Python/MATLAB/C++等数据处理和算法验证能力。
+5 V2_CALIBRATION | - 熟悉柔性电子、MEMS、结构应变测量、传感器标定工装和长期稳定性测试。
+
+==== 3 N0629 nC=13 nI=18 empty=[]
+TITLE Slam算法高级工程师（双足方向）
+DUTY 1.设计视觉、IMU、激光雷达、UWB 四传感器紧耦合融合定位框架，基于因子图优化实现双足机器人实时位姿估计与三维建图。 2.负责多传感器时间同步、外参联合标定，针对双足步态抖动、视觉遮挡、UWB 测距噪声做误差补偿，抑制定位漂移。 3.优化前端特征跟踪、激光配准、UWB 测距解算模块，改进闭环检测与全局图优化，提升复杂场景定位鲁棒性。 4.单机 SLAM 算法工程化，基于 ROS2 完成代码优化、算力裁剪，保证嵌入式设备实时运行。 5
+1 V2_KALMAN_FACTOR | 1.设计视觉、IMU、激光雷达、UWB 四传感器紧耦合融合定位框架，基于因子图优化实现双足机器人实时位姿估计与三维建图。
+2 V2_CALIBRATION | 2.负责多传感器时间同步、外参联合标定，针对双足步态抖动、视觉遮挡、UWB 测距噪声做误差补偿，抑制定位漂移。
+3 V2_CALIBRATION | 6.输出标定工具、算法接口文档、测试标准，跟进多源融合感知前沿方案落地。
+4 V2_G2O,V2_GTSAM | 2.精通 VINS、Fast-LIO、ORB-SLAM 等开源框架，熟练 g2o/GTSAM 非线性优化，有视觉 + IMU + 激光 + UWB 融合实战经验。
+5 - | VINS
+6 - | Fast-LIO
+7 - | ORB-SLAM
+8 V2_G2O | g2o
+9 V2_GTSAM | GTSAM
+10 V2_C,V2_EIGEN,V2_PCL,V2_KALMAN_FACTOR | 3.熟练 C++、Eigen、PCL、OpenCV，掌握 IEKF、ESKF、因子图紧耦合融合原理，熟悉 UWB 定位误差模型。
+11 V2_EIGEN | Eigen
+12 V2_PCL | PCL
+13 V2_CALIBRATION | 4.熟悉 ROS/ROS2，可独立完成传感器标定、实机定位问题排查，有足式机器人项目经验优先。
+
+==== 4 N0785 nC=3 nI=41 empty=[]
+TITLE Perception Engineer, 3D Representation & Navigation
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_HIL | Experience with simulation, software-in-the-loop, hardware-in-the-loop, and replay-based validation.
+2 V2_CALIBRATION | Experience with sensor calibration, synchronization, time alignment, and sensor health monitoring.
+3 V2_REQUIREMENTS_ENGINEERING | Knowledge of structured verification processes, requirements traceability, and safety-oriented development practices.
+
+==== 5 N0282 nC=2 nI=18 empty=[]
+TITLE 多模态融合算法工程师
+DUTY • 跟踪前沿多模态算法相关技术，推动算法在机器⼈上的落地应⽤，提升复杂环境下的鲁棒性与场景 理解能⼒。 • 负责触觉/⼒觉与视觉的相关数据采集，算法研发，提升机器⼈在抓取、装配等精细操作任务中的 感知与交互能⼒。 • 负责多模态感知与决策规划的闭环算法研发，实现智能⾏为决策。 • 负责仿真环境中多模态感知数据的⽣成与算法验证，解决真实场景中的数据稀缺与域适应问题。 • 与硬件、规控、嵌⼊式团队紧密协作，完成感知算法在真机上的部署、标定、
+1 V2_CALIBRATION | • 与硬件、规控、嵌⼊式团队紧密协作，完成感知算法在真机上的部署、标定、调试与性能优化。
+2 V2_C | • 精通 Python/C++ 及 Linux 开发，熟练掌握Pytorch或TensorFlow，具备扎实的⼯程实现能⼒。
+
+==== 6 E0103 nC=1 nI=5 empty=[]
+TITLE 激光SLAM算法工程师
+DUTY 1.开发基于Lidar/Camera/IMU/GNSS等多传感器融合的标定、定位、建图算法; 2.开发基于Lidar/Camera的高程图、地形重建、环境感知算法; 3.开发基于四足/人形机器人的全局规划器、局部规划器算法; 4.负责机器人自主导航、巡检功能调试及落地应用; 5.输出方案设计、模块和版本发布等相关文档; 6.持续优化产品标准化程度与可服务性,提升项目交付效率和稳定性;
+1 V2_CALIBRATION | 1．开发基于Lidar/Camera/IMU/GNSS等多传感器融合的标定、定位、建图算法；
+
+==== 7 N0938 nC=12 nI=17 empty=[]
+TITLE Senior Perception Software Engineer
+DUTY About Us At Pickle Robot, we're on a mission to automate global supply chains with Physical AI. Our robots work alongside warehouse teams to unload trucks and containers — one of the toughest, most understaffed jobs in l
+1 V2_CALIBRATION | Improve and automate multi-sensor calibration routines. You will manage tolerance stacks and ensure high-fidelity spatial alignment across our sensor 
+2 V2_C | Exceptional software engineering fundamentals, highly proficient in Python and C++ for production systems.
+3 V2_LINEAR | Strong mathematical foundation in linear algebra, geometry, and probabilistic robotics.
+4 V2_GIT,V2_EIGEN,V2_OPEN3D | Hands-on experience building perception stacks using industry-standard tools and frameworks, including ROS/ROS2, OpenCV, Open3D, Eigen, and Git.
+5 V2_OPEN3D | Open3D
+6 V2_EIGEN | Eigen
+7 V2_GIT | Git
+8 V2_CAN | You are a "full-stack" robotics engineer who cares about accuracy, precision, and edge cases in the physical world and can articulate architectural tr
+9 V2_CERES,V2_GTSAM,V2_PCL | Experience with optimization libraries (Ceres Solver, GTSAM), parallel computing (CUDA), Docker, and PCL.
+10 V2_CERES | Ceres Solver
+11 V2_GTSAM | GTSAM
+12 V2_PCL | PCL
+
+==== 8 N0981 nC=3 nI=34 empty=[]
+TITLE Atlas Research Engineer, SLAM & Spatial AI
+DUTY As a SLAM & S patial AI Research Engineer on the Atlas VLA Research team , you will build the perception and geometric reasoning systems that give Atlas a grounded 3D understanding of the world. Your work spans the full 
+1 V2_CAN | You will design real-time SLAM and perception-based state estimation that runs on Atlas, develop offline 3D reconstruction pipelines that turn teleop 
+2 V2_C | Write high-quality, maintainable C++ and Python code that fits into a large production codebase.
+3 V2_C | Strong analytical and debugging skills; ability to write reliable, well-structured research code in C++ and Python.
+
+==== 9 E0356 nC=3 nI=25 empty=['O18:TC_PERCEPTION:computer vision']
+TITLE Staff AI Engineer, Perception
+DUTY As a technical lead, you will own the architecture and technical roadmap for object perception systems used by the robot in production Design, develop, and deploy machine learning algorithms for multi-object detection, s
+1 V2_LINEAR | Strong mathematical fundamentals in linear algebra and numerical optimization and familiarity with core geometric concepts in computer vision
+2 V2_USD | $323,000 USD
+3 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+
+==== 10 N0363 nC=25 nI=18 empty=[]
+TITLE 机器人多模态交互感知工程师
+DUTY 岗位职责 1. 高性能感知数据流与时空对齐：负责机器人端侧多模态数据时间同步（Timestamp Synchronization）、坐标关联（Coordinate Transform）、多源数据置信度与不确定性管理（Confidence / Uncertainty Fusion）和低延迟数据流管线（Data Pipeline）设计，满足实时交互场景下的低延迟与高稳定性要求。 2. 多模态视听融合与状态理解：负责端侧视听双模态融合（Aud
+1 - | 1. 高性能感知数据流与时空对齐：负责机器人端侧多模态数据时间同步（Timestamp Synchronization）、坐标关联（Coordinate Transform）、多源数据置信度与不确定性管理（Confidence / Uncertainty Fusion）和低延迟数据流管线（Data 
+2 - | 活跃发言人检测（ASD）
+3 - | 声源定位（DOA）
+4 - | 3. 时空追踪与交互对象生命周期管理：利用 FaceID、ReID、目标检测及追踪技术，构建跨帧、跨场景的实体连续追踪。不只是纯粹的视觉跟踪，而是负责面向交互对象进行生命周期管理与关系状态维护（如用户突发遮挡、短暂离开后的身份保持）。
+5 - | 3. 时空追踪与交互对象生命周期管理：利用 FaceID、ReID、目标检测及追踪技术，构建跨帧、跨场景的实体连续追踪。不只是纯粹的视觉跟踪，而是负责面向交互对象进行生命周期管理与关系状态维护（如用户突发遮挡、短暂离开后的身份保持）。
+6 - | 4. 空间语义与上下文协议（Context Schema）定义：负责多模态感知层输出 Schema 的设计（包含人物关系、空间相对关系、关注状态、交互事件、置信度和有效时间/Freshness 等信息），将物理信号转化为标准的 Scene State（场景状态）与结构化 JSON，与交互运行时（Ru
+7 V2_C | 3. 工程能力：具备扎实的 C++、Python 和 Linux 工程能力，熟悉多线程、异步数据流处理。
+8 - | VAD
+9 - | ASR
+10 - | TTS
+11 V2_TENSORRT,V2_ONNX,V2_ONNX_RUNTIME | B. 感知工程能力：熟悉多目标追踪（MOT）、跨帧 ReID/FaceID 关联，熟悉 TensorRT / ONNX Runtime 等端侧推理加速框架，或熟悉 ROS2、GStreamer/FFmpeg 等多媒体数据流调优。
+12 - | 熟悉多目标追踪（MOT）、跨帧 ReID/FaceID 关联
+13 - | 熟悉多目标追踪（MOT）、跨帧 ReID/FaceID 关联
+14 - | 熟悉多目标追踪（MOT）、跨帧 ReID/FaceID 关联
+15 V2_TENSORRT | TensorRT
+16 V2_ONNX,V2_ONNX_RUNTIME | ONNX Runtime
+17 - | GStreamer
+18 - | FFmpeg
+19 V2_C | C. 上下文构建能力：有定义标准 Schema 协议的经验，熟悉 Scene State 构建，能将高频低级信号包装为高层语义，理解多模态模型（VLM）输入设计、Prompt Context 或结构化 JSON 输出。
+20 - | 有定义标准 Schema 协议的经验，熟悉 Scene State 构建
+21 - | 有定义标准 Schema 协议的经验，熟悉 Scene State 构建
+22 - | 理解多模态模型（VLM）输入设计、Prompt Context
+23 - | 结构化 JSON 输出
+24 - | 2. 有机器人主动交互、多人交互系统、智能座舱 DMS / OMS 系统、智能视频会议系统（如会议大屏发言人跟踪）核心链路研发经验者优先。
+25 - | 2. 有机器人主动交互、多人交互系统、智能座舱 DMS / OMS 系统、智能视频会议系统（如会议大屏发言人跟踪）核心链路研发经验者优先。
+
+==== 11 E0488 nC=5 nI=16 empty=['O9:TC_SLAM:visual-inertial SLAM', 'O14:TC_SLAM:SLAM']
+TITLE Helix AI Engineer, Localization and Mapping
+DUTY Architect and implement real-time localization, ego-motion tracking, and state estimation systems by fusing multi-modal sensor data (cameras, IMUs, encoders, magnetic sensors). Build and maintain scalable, offline pose-t
+1 V2_OFFICE | Figure is on a mission to develop and deploy general purpose humanoid robots for corporate tasks targeting labor shortages and jobs that are undesirab
+2 V2_CALIBRATION | Develop and optimize multi-sensor calibration systems for humanoid robotics and data collection platforms.
+3 V2_C | Experience writing performant C++ software.
+4 V2_CALIBRATION | Hands-on experience with sensor calibration (e.g., multi-camera and IMU intrinsics/extrinsics).
+5 V2_MOCAP | Background in estimation problems related to human motion capture or AR/VR applications.
+
+==== 12 N0471 nC=13 nI=9 empty=[]
+TITLE SLAM算法工程师
+DUTY 岗位职责  1、负责基于视觉-惯性-雷达（VLIO）融合SLAM算法研发与优化；  2、设计并实现闭环检测、回环优化模块；  3、实现局部/全局重定位与退化场景下鲁棒性优化；  4、参与建设计与online/offline建图算法实现；  5、跟进技术指标验证；  6、快速学习并尝试新算法与工具，支持技术弹性拓展。  任职条件  1、硕士及以上学历，计算机视觉、机器人感知方向；  2、熟悉SLAM主流算法（LIO-SAM、VINS、AL
+1 - | 熟悉SLAM主流算法（LIO-SAM、VINS、ALOAM、R3LIVE、VLOAM、ORBSLAM、Fastlio、Fastlvio等）；
+2 - | 熟悉SLAM主流算法（LIO-SAM、VINS、ALOAM、R3LIVE、VLOAM、ORBSLAM、Fastlio、Fastlvio等）；
+3 - | 熟悉SLAM主流算法（LIO-SAM、VINS、ALOAM、R3LIVE、VLOAM、ORBSLAM、Fastlio、Fastlvio等）；
+4 - | 熟悉SLAM主流算法（LIO-SAM、VINS、ALOAM、R3LIVE、VLOAM、ORBSLAM、Fastlio、Fastlvio等）；
+5 - | 熟悉SLAM主流算法（LIO-SAM、VINS、ALOAM、R3LIVE、VLOAM、ORBSLAM、Fastlio、Fastlvio等）；
+6 - | 熟悉SLAM主流算法（LIO-SAM、VINS、ALOAM、R3LIVE、VLOAM、ORBSLAM、Fastlio、Fastlvio等）；
+7 - | 熟悉SLAM主流算法（LIO-SAM、VINS、ALOAM、R3LIVE、VLOAM、ORBSLAM、Fastlio、Fastlvio等）；
+8 - | 熟悉SLAM主流算法（LIO-SAM、VINS、ALOAM、R3LIVE、VLOAM、ORBSLAM、Fastlio、Fastlvio等）；
+9 V2_CALIBRATION | 3、熟悉视觉/LiDAR/IMU时间同步与标定；
+10 V2_C | 4、精通C++/Python及ROS2；
+11 V2_CERES,V2_G2O | 5、具备优化器（Ceres、G2O）和后端非线性优化经验（擅长优化算法）；
+12 V2_CERES | 具备优化器（Ceres、G2O）和后端非线性优化经验（擅长优化算法）；
+13 V2_G2O | 具备优化器（Ceres、G2O）和后端非线性优化经验（擅长优化算法）；
+
+==== 13 N0150 nC=8 nI=11 empty=[]
+TITLE 具身感知算法专家-苏州
+DUTY 职位描述：    开发工业环境下2D/3D感知算法，包括但不限于深度估计、物体检测与分割、6D位姿估计、深度补全、场景流。    优化感知模型在嵌入式或端侧设备上的推理速度（TensorRT，OpenVINO）。    融合RGB、深度、点云、热成像等多传感器信息，提升动态光照、反光、遮挡下的鲁棒性。    设计感知评价指标与自动化测试工具。       任职要求：    计算机视觉/机器人硕士，2年以上3D感知开发经验。    熟悉P
+1 V2_TENSORRT | 优化感知模型在嵌入式或端侧设备上的推理速度（TensorRT，OpenVINO）。  
+2 V2_TENSORRT | 优化感知模型在嵌入式或端侧设备上的推理速度（TensorRT，OpenVINO）。
+3 - | 优化感知模型在嵌入式或端侧设备上的推理速度（TensorRT，OpenVINO）。
+4 V2_PCL,V2_OPEN3D | 熟悉PCL、Open3D，以及至少一种深度学习框架（PyTorch）。  
+5 V2_PCL | PCL
+6 V2_OPEN3D | Open3D
+7 V2_CALIBRATION | 熟悉工业相机（如Intel RealSense）标定与应用。
+8 - | 熟悉工业相机（如Intel RealSense）标定与应用。
+
+==== 14 N0687 nC=9 nI=24 empty=[]
+TITLE Research Robotics/Computer Vision Engineer
+DUTY Company Overview At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine lea
+1 V2_AWS,V2_GCP | Must have any experience with or knowledge of each of the following: (i) reconstructing 3D scenes using monocular videos, meshes, pointclouds, Neural 
+2 - | Must have any experience with or knowledge of each of the following: (i) reconstructing 3D scenes using monocular videos, meshes, pointclouds, Neural 
+3 - | (i) reconstructing 3D scenes using monocular videos, meshes, pointclouds, Neural Radiance Fields, and Gaussian Splats
+4 - | (i) reconstructing 3D scenes using monocular videos, meshes, pointclouds, Neural Radiance Fields, and Gaussian Splats
+5 - | (v) using Neural Architectural Search (NAS) to find better perception backbone architectures with higher accuracies and lower latencies; and
+6 V2_AWS | AWS
+7 V2_GCP | Google cloud
+8 V2_CAN | Experience can be concurrent.
+9 V2_USD | $300,000 USD
+
+==== 15 E0408 nC=8 nI=36 empty=['O26:TC_ML_MODELS:deep learning', 'O27:TC_PERCEPTION:computer vision', 'O29:TC_SLAM:SLAM', 'O33:TC_PERCEPTION:computer vision', 'O34:TC_ML_MODELS:deep learning']
+TITLE Senior Perception Learning Engineer
+DUTY As a Senior Perception Learning Engineer, you will lead research and development of advanced perception systems that empower Apptronik’s humanoid robots to understand and interact with complex human environments. Your wo
+1 V2_WORLD_MODEL | You will design and optimize deep learning models for real-time detection, tracking, segmentation, and scene understanding while architecting scalable
+2 V2_CAN | This role requires balancing research innovation with practical engineering to deliver deployable, high-performance perception stacks. You will collab
+3 V2_C,V2_CI_CD | Proficiency in Python and modern C++, with strong software engineering fundamentals (version control, testing, CI/CD).
+4 V2_KALMAN_FACTOR | Deep understanding of 3D geometry, camera models, and probabilistic estimation (EKF/UKF, SLAM, VIO).
+5 V2_TENSORRT,V2_ONNX,V2_ONNX_RUNTIME,V2_MODEL_COMPRESSION | Expertise in model acceleration, quantization, or compression (TensorRT, ONNX Runtime).
+6 - | Detectron2, YOLO
+7 V2_TENSORRT,V2_ONNX,V2_ONNX_RUNTIME | TensorRT, ONNX Runtime
+8 - | GStreamer
+
+==== 16 N0500 nC=22 nI=51 empty=[]
+TITLE 空间智能算法工程师
+DUTY 岗位职责  参与 3DGS、神经渲染、三维重建、SLAM、世界模型等方向的算法研发与工程化落地。 研究面向不完整观测、遮挡区域、低纹理区域和动态场景的生成式场景补全算法，提升三维场景表达的完整性和一致性。 融合图像、视频、深度、激光雷达、IMU 等多源数据，优化三维重建、场景理解与定位算法的精度和鲁棒性。 探索图像生成模型、视频生成模型、扩散模型、多模态生成模型在三维场景重建和空间补全中的应用。 优化 3DGS / 神经渲染相关算法的训
+1 V2_WORLD_MODEL,V2_3D_RECONSTRUCTION | 参与 3DGS、神经渲染、三维重建、SLAM、世界模型等方向的算法研发与工程化落地。
+2 V2_MODEL_COMPRESSION,V2_3D_RECONSTRUCTION | 优化 3DGS / 神经渲染相关算法的训练、渲染、推理和轻量化部署能力，提升端侧运行效率。
+3 V2_3D_RECONSTRUCTION | 熟悉 3DGS、NeRF、神经渲染、SLAM、三维重建、多视图几何中的至少一个方向。
+4 V2_3D_RECONSTRUCTION | 3DGS
+5 V2_3D_RECONSTRUCTION | NeRF
+6 V2_WORLD_MODEL | 具备世界模型、图像生成、视频生成、扩散模型、多模态生成模型或生成式场景补全相关经验者优先。
+7 V2_CALIBRATION | 掌握相机模型、相机标定、多视图几何、光束平差、位姿估计、三维重建等基础算法。
+8 V2_C | 熟练使用 C++ / Python，熟悉 PyTorch、OpenCV 等工具；有 CUDA / GPU 加速经验优先。
+9 V2_3D_RECONSTRUCTION | 有 3DGS、4DGS、NeRF、动态场景重建、实时重建、神经 SLAM 相关项目经验。
+10 V2_3D_RECONSTRUCTION | 3DGS
+11 - | 4DGS
+12 V2_3D_RECONSTRUCTION | NeRF
+13 V2_WORLD_MODEL | 有世界模型、图像补全、视频补全、场景补全、扩散模型、AIGC、多模态生成模型相关经验。
+14 V2_WORLD_MODEL | 有自动驾驶三维重建、Occupancy、4D 场景建模、BEV 世界模型、场景预测、高精定位或高精地图经验。
+15 - | 有自动驾驶三维重建、Occupancy、4D 场景建模、BEV 世界模型、场景预测、高精定位或高精地图经验。
+16 - | 有自动驾驶三维重建、Occupancy、4D 场景建模、BEV 世界模型、场景预测、高精定位或高精地图经验。
+17 V2_MODEL_COMPRESSION | 有端侧部署、模型轻量化、渲染加速、显存优化、实时推理经验。
+18 V2_3D_RECONSTRUCTION | 熟悉前馈dgs、高斯Splatting、Nerfstudio、instant-ngp、扩散模型、视频扩散、图像修复、视图合成等相关技术。
+19 - | 前馈dgs
+20 V2_3D_RECONSTRUCTION | 高斯Splatting
+21 - | Nerfstudio
+22 - | instant-ngp
+
+==== 17 N0560 nC=11 nI=38 empty=[]
+TITLE 具身感知算法工程师
+DUTY 岗位职责 岗位职责 1. 负责激光雷达、深度相机、双目相机、IMU 等传感器的接入、标定、同步与数据处理。 2. 负责局部栅格地图、三维局部地图、代价地图和可通行区域的构建与实时维护。 3. 研发障碍物检测、地面分割、动态目标跟踪、负障碍和复杂地形感知算法。 4. 研究基于深度学习的可通行性估计、语义分割、深度估计和障碍物感知方法。 5. 为导航规划输出统一、稳定的障碍物、自由空间、动态目标、地形属性和风险区域信息。 6. 处理玻璃、反
+1 V2_CALIBRATION | 1. 负责激光雷达、深度相机、双目相机、IMU 等传感器的接入、标定、同步与数据处理。
+2 V2_CALIBRATION | 5. 熟悉坐标变换、传感器标定、时间同步和多传感器融合。
+3 V2_C,V2_PCL | 6. 熟练使用 C++ 或 Python，熟悉 PyTorch、ROS/ROS 2、PCL 和 Linux。
+4 V2_PCL | 熟练使用 C++ 或 Python，熟悉 PyTorch、ROS/ROS 2、PCL 和 Linux。
+5 V2_NAV2 | - 熟悉 Nav2 Costmap、Voxel Map、OctoMap、Elevation Map 等局部地图框架。
+6 V2_NAV2 | 熟悉 Nav2 Costmap、Voxel Map、OctoMap、Elevation Map 等局部地图框架。
+7 - | 熟悉 Nav2 Costmap、Voxel Map、OctoMap、Elevation Map 等局部地图框架。
+8 - | 熟悉 Nav2 Costmap、Voxel Map、OctoMap、Elevation Map 等局部地图框架。
+9 - | 熟悉 Nav2 Costmap、Voxel Map、OctoMap、Elevation Map 等局部地图框架。
+10 V2_TENSORRT | - 有 TensorRT、CUDA 或端侧模型部署经验。
+11 V2_TENSORRT | 有 TensorRT、CUDA 或端侧模型部署经验。
+
+==== 18 E0117 nC=3 nI=22 empty=['O4:SK_ROS:ROS']
+TITLE 感知算法工程师
+DUTY 1. 开发通用、高效、抗干扰的2D/3D视觉算法,重点攻克在工业强光、反光、弱纹理等环境下的高精度检测、分割、配准与实时三维重建,为机器人的运动规划提供毫米级的环境几何信息。 2. 主导6D位姿估计与手眼标定算法的设计与实现,针对无序分拣、精密装配任务,复现并优化前沿算法,解决遮挡、接触丰富场景下的稳定抓取与操作难题。 3.负责具身落地项目中的大规模仿真数据合成管线、视觉任务自动标注管线、自动化视觉评测体系搭建。
+1 V2_CALIBRATION | 2. 主导6D位姿估计与手眼标定算法的设计与实现，针对无序分拣、精密装配任务，复现并优化前沿算法，解决遮挡、接触丰富场景下的稳定抓取与操作难题。
+2 V2_C,V2_EIGEN,V2_PCL,V2_OPEN3D | 3.  精通2D/3D视觉技术栈与工程落地，熟练使用Python/C++，熟悉PyTorch分布式训练，熟练掌握ROS/ROS2，PCL、Open3D、OpenCV、Eigen技术栈。
+3 V2_SIM2REAL | *   在相关领域的顶级会议或期刊（如CVPR, ICCV, ECCV, CoRL, ICRA, RSS, NeurIPS等）有影响力论文发表，特别是3D Vision for Robotics、Sim-to-Real、6D Pose Estimation方向。
+
+==== 19 N0829 nC=20 nI=27 empty=[]
+TITLE Senior Software Engineer, 3D Computer Vision
+DUTY Field AI is transforming how robots interact with the real world. We are building risk-aware, reliable, and field-ready AI systems that address the most complex challenges in robotics, unlocking the full potential of emb
+1 V2_C,V2_LINEAR | Implement production-grade computational geometry and linear algebra in C++ and Python
+2 V2_C | Strong proficiency in modern C++ (C++14/17) and Python
+3 V2_LINEAR | Solid mathematical foundation in 3D geometry, linear algebra, rigid body transformations (SE(3), quaternions), and projective geometry
+4 - | ICP
+5 - | GICP
+6 - | RANSAC
+7 - | NDT
+8 V2_EIGEN,V2_CERES,V2_PCL,V2_OPEN3D | Hands-on experience with libraries such as PCL, Open3D, Eigen, or Ceres
+9 V2_PCL | PCL
+10 V2_OPEN3D | Open3D
+11 V2_EIGEN | Eigen
+12 V2_CERES | Ceres
+13 - | PCD
+14 - | PLY
+15 - | E57
+16 - | LAS
+17 V2_CERES,V2_G2O,V2_GTSAM,V2_LINEAR | Experience with non-linear optimization frameworks (Ceres, GTSAM, g2o) for bundle adjustment or pose graph optimization
+18 V2_CERES | Ceres
+19 V2_GTSAM | GTSAM
+20 V2_G2O | g2o
+
+==== 20 N0349 nC=1 nI=12 empty=[]
+TITLE 视觉算法专家（2D方向）
+DUTY 1、目标检测, 分割, 识别，语义理解等算法的实现 2、参考行业最新进展, 具备快速复现的能力, 具备根据实际算法问题设计模型优化方向 3、具备较强的工程能力, 根据实际应用设计工程方案 4、具备使用/微调大模型, 加速模型标注/训练/落地的经验
+1 V2_CALIBRATION | 5、具备2D相机标定, 相机调参等硬件经验者优先
+
+==== 21 N0394 nC=8 nI=12 empty=[]
+TITLE 语音前端算法工程师
+DUTY 岗位职责 1、算法研发与优化 1）负责传统声音前端相关算法的研发工作，包括语音活动检测（VAD）、降噪、回声消除（AEC）、语音分离、声源定位（DOA）等。 2）负责语音唤醒算法和关键词检测算法开发，声纹和属性分类、语音事件检测等算法开发。 3）参与构建语音前端解决方案，围绕语音降噪、声纹识别等方向研发核心技术，并推动技术在实际场景中的落地应用。 4）持续跟踪业内前沿技术和方法，验证并探索新技术在业务场景中的有效性，不断提升语音前端各算
+1 - | 1）负责传统声音前端相关算法的研发工作，包括语音活动检测（VAD）、降噪、回声消除（AEC）、语音分离、声源定位（DOA）等。
+2 - | 1）负责传统声音前端相关算法的研发工作，包括语音活动检测（VAD）、降噪、回声消除（AEC）、语音分离、声源定位（DOA）等。
+3 - | 1）负责传统声音前端相关算法的研发工作，包括语音活动检测（VAD）、降噪、回声消除（AEC）、语音分离、声源定位（DOA）等。
+4 V2_C | C
+5 V2_MODEL_COMPRESSION | 1）负责语音信号前端处理的工程实现与系统开发，将算法量化部署工程化，确保系统的稳定性和高效性。
+6 V2_C,V2_SHELL | 1）编程能力，熟练掌握 C/C++、Python 等编程语言，熟悉 Linux 相关操作及 Shell 脚本。
+7 V2_SHELL | 熟悉 Linux 相关操作及 Shell 脚本
+8 - | Kaldi
+
+==== 22 N0389 nC=18 nI=20 empty=[]
+TITLE 声学前端算法
+DUTY 岗位职责 1、技术战略与规划：结合机器人业务场景（服务、工业、巡检等）需求与行业技术趋势，制定声学前端技术 roadmap，明确短期迭代目标与长期创新方向，统筹声学硬件适配、算法研发、工程化落地全流程，确保技术方案贴合产品量产与场景化需求。 2、核心技术研发与落地：主导机器人声学前端核心算法研发与优化，包括但不限于麦克风阵列处理、波束形成（BF）、回声消除（AEC）、噪声抑制（NS/ECNR）、语音分离、声源定位（DOA）、语音活动检测
+1 - | 2、核心技术研发与落地：主导机器人声学前端核心算法研发与优化，包括但不限于麦克风阵列处理、波束形成（BF）、回声消除（AEC）、噪声抑制（NS/ECNR）、语音分离、声源定位（DOA）、语音活动检测（VAD）等，结合传统信号处理与深度学习技术（如DCCRN、FullSubNet等），提升复杂环境下的
+2 - | 2、核心技术研发与落地：主导机器人声学前端核心算法研发与优化，包括但不限于麦克风阵列处理、波束形成（BF）、回声消除（AEC）、噪声抑制（NS/ECNR）、语音分离、声源定位（DOA）、语音活动检测（VAD）等，结合传统信号处理与深度学习技术（如DCCRN、FullSubNet等），提升复杂环境下的
+3 - | 2、核心技术研发与落地：主导机器人声学前端核心算法研发与优化，包括但不限于麦克风阵列处理、波束形成（BF）、回声消除（AEC）、噪声抑制（NS/ECNR）、语音分离、声源定位（DOA）、语音活动检测（VAD）等，结合传统信号处理与深度学习技术（如DCCRN、FullSubNet等），提升复杂环境下的
+4 - | 2、核心技术研发与落地：主导机器人声学前端核心算法研发与优化，包括但不限于麦克风阵列处理、波束形成（BF）、回声消除（AEC）、噪声抑制（NS/ECNR）、语音分离、声源定位（DOA）、语音活动检测（VAD）等，结合传统信号处理与深度学习技术（如DCCRN、FullSubNet等），提升复杂环境下的
+5 - | 2、核心技术研发与落地：主导机器人声学前端核心算法研发与优化，包括但不限于麦克风阵列处理、波束形成（BF）、回声消除（AEC）、噪声抑制（NS/ECNR）、语音分离、声源定位（DOA）、语音活动检测（VAD）等，结合传统信号处理与深度学习技术（如DCCRN、FullSubNet等），提升复杂环境下的
+6 - | 2、核心技术研发与落地：主导机器人声学前端核心算法研发与优化，包括但不限于麦克风阵列处理、波束形成（BF）、回声消除（AEC）、噪声抑制（NS/ECNR）、语音分离、声源定位（DOA）、语音活动检测（VAD）等，结合传统信号处理与深度学习技术（如DCCRN、FullSubNet等），提升复杂环境下的
+7 - | 2、核心技术研发与落地：主导机器人声学前端核心算法研发与优化，包括但不限于麦克风阵列处理、波束形成（BF）、回声消除（AEC）、噪声抑制（NS/ECNR）、语音分离、声源定位（DOA）、语音活动检测（VAD）等，结合传统信号处理与深度学习技术（如DCCRN、FullSubNet等），提升复杂环境下的
+8 - | 2、核心技术研发与落地：主导机器人声学前端核心算法研发与优化，包括但不限于麦克风阵列处理、波束形成（BF）、回声消除（AEC）、噪声抑制（NS/ECNR）、语音分离、声源定位（DOA）、语音活动检测（VAD）等，结合传统信号处理与深度学习技术（如DCCRN、FullSubNet等），提升复杂环境下的
+9 V2_C | C
+10 - | 扎实的数字信号处理（DSP）基础，精通机器人声学前端核心算法（BF、AEC、NS、DOA、VAD、语音分离等），具备丰富的算法设计、优化与工程化落地经验。
+11 - | 扎实的数字信号处理（DSP）基础，精通机器人声学前端核心算法（BF、AEC、NS、DOA、VAD、语音分离等），具备丰富的算法设计、优化与工程化落地经验。
+12 - | 扎实的数字信号处理（DSP）基础，精通机器人声学前端核心算法（BF、AEC、NS、DOA、VAD、语音分离等），具备丰富的算法设计、优化与工程化落地经验。
+13 - | 扎实的数字信号处理（DSP）基础，精通机器人声学前端核心算法（BF、AEC、NS、DOA、VAD、语音分离等），具备丰富的算法设计、优化与工程化落地经验。
+14 - | 扎实的数字信号处理（DSP）基础，精通机器人声学前端核心算法（BF、AEC、NS、DOA、VAD、语音分离等），具备丰富的算法设计、优化与工程化落地经验。
+15 V2_MODEL_COMPRESSION | 精通至少一种深度学习框架（PyTorch/TensorFlow/Kaldi），有基于神经网络的声学前端算法（如语音增强、分离）研发与落地经验，了解端侧模型压缩、量化与部署技术。
+16 - | Kaldi
+17 V2_C | 熟练掌握C/C++/Python编程语言，熟悉Linux开发环境，具备机器人端侧（嵌入式/ARM/DSP/NPU）算法部署与优化经验，能解决低延迟、低功耗约束下的技术问题。
+18 - | 有国际顶会（ICASSP、Interspeech）或核心期刊论文发表，或开源声学算法项目经验者优先；有功能安全认证（如ISO 26262）相关经验者优先。
+
+==== 23 N0512 nC=23 nI=51 empty=[]
+TITLE 算法工程师（空间智能）
+DUTY 我们正在寻找空间智能算法工程师，负责三维重建、生成式场景建模、世界模型与空间表征相关算法研发，构建高质量、可泛化的三维场景理解与重建能力，支撑机器人在复杂真实环境中的智能作业。     岗位职责  1. 参与 3DGS、神经渲染、三维重建、SLAM、世界模型等方向的算法研发与工程化落地。  2. 研究面向不完整观测、遮挡区域、低纹理区域和动态场景的生成式场景补全算法，提升三维场景表达的完整性和一致性。  3. 融合图像、视频、深度、激光
+1 V2_WORLD_MODEL | 我们正在寻找空间智能算法工程师，负责三维重建、生成式场景建模、世界模型与空间表征相关算法研发，构建高质量、可泛化的三维场景理解与重建能力，支撑机器人在复杂真实环境中的智能作业。
+2 V2_WORLD_MODEL,V2_3D_RECONSTRUCTION | 1. 参与 3DGS、神经渲染、三维重建、SLAM、世界模型等方向的算法研发与工程化落地。
+3 V2_MODEL_COMPRESSION,V2_3D_RECONSTRUCTION | 5. 优化 3DGS / 神经渲染相关算法的训练、渲染、推理和轻量化部署能力，提升端侧运行效率。
+4 V2_3D_RECONSTRUCTION | 2. 熟悉 3DGS、NeRF、神经渲染、SLAM、三维重建、多视图几何中的至少一个方向。
+5 V2_3D_RECONSTRUCTION | 3DGS
+6 V2_3D_RECONSTRUCTION | NeRF
+7 V2_WORLD_MODEL | 3. 具备世界模型、图像生成、视频生成、扩散模型、多模态生成模型或生成式场景补全相关经验者优先。
+8 V2_CALIBRATION | 4. 掌握相机模型、相机标定、多视图几何、光束平差、位姿估计、三维重建等基础算法。
+9 V2_C | 5. 熟练使用 C++ / Python，熟悉 PyTorch、OpenCV 等工具；有 CUDA / GPU 加速经验优先。
+10 V2_3D_RECONSTRUCTION | ﻿1. 有 3DGS、4DGS、NeRF、动态场景重建、实时重建、神经 SLAM 相关项目经验。
+11 V2_3D_RECONSTRUCTION | 3DGS
+12 - | 4DGS
+13 V2_3D_RECONSTRUCTION | NeRF
+14 V2_WORLD_MODEL | 2. 有世界模型、图像补全、视频补全、场景补全、扩散模型、AIGC、多模态生成模型相关经验。
+15 V2_WORLD_MODEL | 3. 有自动驾驶三维重建、Occupancy、4D 场景建模、BEV 世界模型、场景预测、高精定位或高精地图经验。
+16 - | 3. 有自动驾驶三维重建、Occupancy、4D 场景建模、BEV 世界模型、场景预测、高精定位或高精地图经验。
+17 - | 3. 有自动驾驶三维重建、Occupancy、4D 场景建模、BEV 世界模型、场景预测、高精定位或高精地图经验。
+18 V2_MODEL_COMPRESSION | 4. 有端侧部署、模型轻量化、渲染加速、显存优化、实时推理经验。
+19 V2_3D_RECONSTRUCTION | 6. 熟悉前馈dgs、高斯Splatting、Nerfstudio、instant-ngp、扩散模型、视频扩散、图像修复、视图合成等相关技术。
+20 - | 前馈dgs
+21 V2_3D_RECONSTRUCTION | 高斯Splatting
+22 - | Nerfstudio
+23 - | instant-ngp
+
+==== 24 N0516 nC=1 nI=11 empty=[]
+TITLE 算法专家
+DUTY 【工作职责】  1.负责轻量化地图方案的整体设计与技术选型，支撑多机器人平台需求  2.统筹地图构建、定位、更新全流程建设，建立高效的地图生产与更新机制  3.制定地图数据标准与生产流程，建立地图质量控制体系  4.推动方案在各机器人平台的落地，协调解决落地过程中的问题  5.建立地图方案评测体系，持续优化方案性能与成本  6.输出方案设计文档、技术规范，组织技术评审     【岗位要求】  1.硕士及以上学历，计算机、电子工程、自动化
+1 V2_MODEL_COMPRESSION | 1.负责轻量化地图方案的整体设计与技术选型，支撑多机器人平台需求
+
+==== 25 N0522 nC=18 nI=38 empty=[]
+TITLE 里程计算法工程师
+DUTY 【岗位职责】  1、主导足式机器人（四足、轮足、双足）多模态里程计系统的整体技术架构设计，统筹IMU、关节编码器、轮速计、足端力/触地信号、视觉/激光等多源传感器在航位推算中的融合策略与计算图设计。  2、负责基于ESKF/MSCKF/因子图的高精度多传感器融合里程计研发与维护，深入解决足式机器人在滑移、跳跃、楼梯、崎岖地形等场景下的位姿漂移、尺度保持与零速更新（ZUPT）鲁棒性问题。  3、主导并深度参与数据驱动里程计方案（如基于Tr
+1 V2_KALMAN_FACTOR | 2、负责基于ESKF/MSCKF/因子图的高精度多传感器融合里程计研发与维护，深入解决足式机器人在滑移、跳跃、楼梯、崎岖地形等场景下的位姿漂移、尺度保持与零速更新（ZUPT）鲁棒性问题。
+2 V2_KALMAN_FACTOR | 2、负责基于ESKF/MSCKF/因子图的高精度多传感器融合里程计研发与维护，深入解决足式机器人在滑移、跳跃、楼梯、崎岖地形等场景下的位姿漂移、尺度保持与零速更新（ZUPT）鲁棒性问题。
+3 - | 2、负责基于ESKF/MSCKF/因子图的高精度多传感器融合里程计研发与维护，深入解决足式机器人在滑移、跳跃、楼梯、崎岖地形等场景下的位姿漂移、尺度保持与零速更新（ZUPT）鲁棒性问题。
+4 - | 2、负责基于ESKF/MSCKF/因子图的高精度多传感器融合里程计研发与维护，深入解决足式机器人在滑移、跳跃、楼梯、崎岖地形等场景下的位姿漂移、尺度保持与零速更新（ZUPT）鲁棒性问题。
+5 V2_G2O,V2_GTSAM,V2_CALIBRATION,V2_KALMAN_FACTOR | 3、精通惯性导航理论与多源信息融合，深入掌握ESKF、UKF、预积分（Preintegration）、因子图优化（Factor Graph / GTSAM / g2o）；具备足式机器人运动学约束、触地检测、ZUPT的工程化经验；熟悉可观测性分析、多传感器外参在线标定、IMU内参在线估计等高级状态估计
+6 V2_KALMAN_FACTOR | ESKF
+7 V2_KALMAN_FACTOR | UKF
+8 - | 预积分（Preintegration）
+9 V2_KALMAN_FACTOR | Factor Graph
+10 V2_GTSAM | GTSAM
+11 V2_G2O | g2o
+12 - | ZUPT
+13 V2_C,V2_TENSORRT,V2_ONNX,V2_EIGEN,V2_CERES,V2_MODEL_COMPRESSION | 5、精通C++与Python，深入掌握ROS/ROS2、Eigen、Ceres、PyTorch/TensorFlow；具备嵌入式Linux实时优化（NEON、量化、TensorRT/ONNX）经验；
+14 V2_EIGEN | Eigen
+15 V2_CERES | Ceres
+16 - | NEON
+17 V2_TENSORRT | TensorRT
+18 V2_ONNX | ONNX
+
+==== 26 N0028 nC=1 nI=7 empty=[]
+TITLE 感知算法工程师-工业方向
+DUTY 职位描述  1、负责开发具身智能机器人落地场景中的计算机视觉算法，包括但不限于：2D/3D目标检测与分割、物体位姿估计、少样本/零样本学习等；  2、负责相关算法在具身智能机器人上的部署、调优。     职位要求  1、计算机、电子工程、人工智能等相关专业的在读研究生；  2、熟练掌握Python和C++；  3、有计算机视觉和深度学习相关项目经验，掌握PyTorch框架。
+1 V2_C | 2、熟练掌握Python和C++；
+
+==== 27 N0114 nC=1 nI=9 empty=[]
+TITLE SLAM算法工程师
+DUTY 岗位职责：  1、搭建和维护机器人定位系统，包括激光SLAM、视觉SLAM、全局重定位、里程计等  2、参与开发机器人路径规划和控制算法  3、参与开发机器人部署和运维工具      岗位要求：  1、计算机相关专业硕士或以上学历，具备SLAM相关算法研究经历  2、具备3年以上SLAM算法工程师从业经验，经历过完整系统搭建和量产  3、熟练掌握C++，精于代码结构设计和性能调优  4、理论功底扎实，熟练掌握非线性优化、多视角几何、概率
+1 V2_C | 3、熟练掌握C++，精于代码结构设计和性能调优
+
+==== 28 N0059 nC=1 nI=7 empty=[]
+TITLE 感知算法实习生-苏州
+DUTY 职位描述  1、负责开发具身智能机器人落地场景中的计算机视觉算法，包括但不限于：2D/3D目标检测与分割、物体位姿估计、少样本/零样本学习等；  2、负责相关算法在具身智能机器人上的部署、调优。     职位要求  1、计算机、电子工程、人工智能等相关专业的在读研究生；  2、熟练掌握Python和C++；  3、有计算机视觉和深度学习相关项目经验，掌握PyTorch框架；  4、能连续实习4个月以上，每周5天。
+1 V2_C | 2、熟练掌握Python和C++；
+
+==== 29 N0066 nC=12 nI=15 empty=[]
+TITLE 激光slam算法工程师
+DUTY 岗位职责：  1、负责人形机器人的激光SLAM与定位状态估计算法研发与落地，主导LIO多传感器融合定位方案设计与迭代优化。  2、负责点云预处理、特征提取、点云配准、回环检测、因子图优化等核心模块开发，解决室内外复杂场景下定位漂移、跳变、失锁、动态遮挡等问题。  3、负责激光、IMU、机身里程计等传感器的时间同步、外参标定、数据融合，输出高频、稳定的机器人位姿信息，支撑导航与控制模块。  4、完成场景建图、地图清洗、增量更新、重定位功能
+1 V2_KALMAN_FACTOR | 2、负责点云预处理、特征提取、点云配准、回环检测、因子图优化等核心模块开发，解决室内外复杂场景下定位漂移、跳变、失锁、动态遮挡等问题。
+2 V2_CALIBRATION | 3、负责激光、IMU、机身里程计等传感器的时间同步、外参标定、数据融合，输出高频、稳定的机器人位姿信息，支撑导航与控制模块。
+3 - | 基于Jetson等嵌入式边缘平台做算法部署
+4 V2_KALMAN_FACTOR | 2、熟悉机器人状态估计基础，掌握李群李代数、卡尔曼滤波、最小二乘、因子图优化等基础理论。
+5 V2_C,V2_EIGEN,V2_CERES,V2_GTSAM,V2_PCL | 3、熟练使用C++开发，熟悉Linux、ROS/ROS2，熟练使用Eigen、PCL、Ceres/GTSAM等常用算法库。
+6 V2_EIGEN | Eigen
+7 V2_PCL | PCL
+8 V2_CERES | Ceres
+9 V2_GTSAM | GTSAM
+10 - | FAST-LIO
+11 - | LIO-SAM
+12 - | LeGO-LOAM
+
+==== 30 N0031 nC=1 nI=8 empty=[]
+TITLE 感知算法工程师-27届
+DUTY 职位描述  1、负责开发具身智能机器人落地场景中的计算机视觉算法，包括但不限于：2D/3D目标检测与分割、物体位姿估计、少样本/零样本学习等；  2、负责相关算法在具身智能机器人上的部署、调优，支持产品批量部署；  3、负责设计感知算法数据闭环方案，定义需求，参与开发。     该岗位为应届岗位，面向2026年9月1日-2027年12月31日毕业的应届同学。若您是社招简历，请至社招官网投递同岗位，谢谢。     职位要求  1、计算机、
+1 V2_C | 4、熟练掌握Python和C++，理解计算机体系结构和编译原理。
+
+==== 31 N0068 nC=11 nI=46 empty=[]
+TITLE 人形机器人视觉研发工程师
+DUTY 岗位职责：  研发面向人形机器人运动场景的高速视觉感知算法，实现高速、小尺寸运动目标的实时检测、跟踪、空间定位、状态估计与轨迹预测。 构建高帧率、低延迟的视觉处理系统，融合高速相机、事件相机及深度相机等传感器，提升运动模糊、遮挡和复杂背景下的感知精度与稳定性。 研发单目、双目及多目视觉定位算法，完成相机标定、时间同步、坐标系标定与手眼标定，实现目标、机器人及传感装置的精准空间定位。 支持视觉端到端强化学习及Sim2Real技术研发，协同
+1 V2_CALIBRATION | 研发单目、双目及多目视觉定位算法，完成相机标定、时间同步、坐标系标定与手眼标定，实现目标、机器人及传感装置的精准空间定位。
+2 V2_SIM2REAL | 支持视觉端到端强化学习及Sim2Real技术研发，协同搭建视觉表征、感知决策、运动规划与控制一体化的实时闭环系统。
+3 V2_CALIBRATION,V2_KALMAN_FACTOR | 熟悉目标状态估计、轨迹预测及多目视觉定位技术，掌握卡尔曼滤波、粒子滤波、贝叶斯估计、多视角几何、PnP、三角测量及手眼标定等方法。
+4 V2_C,V2_TENSORRT | 精通C++、Python及ROS/ROS 2，熟悉PyTorch、OpenCV、CUDA、TensorRT等工具，具备机器人系统集成、实时通信、并行计算及模型部署优化能力。
+5 V2_TENSORRT | TensorRT
+6 V2_SIM2REAL,V2_DOMAIN_RANDOMIZATION | 熟悉主流强化学习算法及视觉策略训练方法，掌握Isaac Sim/Lab、MuJoCo等仿真平台，具备合成数据生成、域随机化及Sim2Real开发经验。
+7 V2_SIM2REAL | 有基于视觉的强化学习、模仿学习、端到端机器人策略或Sim2Real相关研究及工程经验。
+8 V2_TENSORRT,V2_ONNX,V2_ONNX_RUNTIME | 熟悉CUDA编程、TensorRT、ONNX Runtime、DeepStream等工具，具有边缘计算平台实时部署及性能优化经验。
+9 V2_TENSORRT | TensorRT
+10 V2_ONNX,V2_ONNX_RUNTIME | ONNX Runtime
+11 - | DeepStream
+
+==== 32 N0615 nC=5 nI=8 empty=[]
+TITLE 机器人感知算法工程师
+DUTY 岗位职责 1. 负责定位方向的算法设计和优化，功能实现和调试、量产落地 2. 负责雷达、相机、IMU、RTK、关节编码器等传感器误差分析，时空同步,多传感器定位及状态估计算法的设计与开发； 3. 负责语义slam研究，且应用到实际场景，提升定位精度和建图一致性 4. 负责算法的板上部署优化工作  任职要求 1. 硕士及以上学历，计算机、自动化、机械专业，三年以上工作经验 ﻿﻿﻿2. 有扎实的梳理基础，熟练掌握C++、ROS及Linux系
+1 V2_C | ﻿﻿﻿2. 有扎实的梳理基础，熟练掌握C++、ROS及Linux系统，熟悉SLAM原理；
+2 - | FAST-LIO2
+3 - | openVINS
+4 - | VINS-MONO
+5 - | ORB-SLAM3
+
+==== 33 N0529 nC=27 nI=33 empty=[]
+TITLE 具身智能感知算法工程师
+DUTY 岗位职责 1、参与激光雷达、摄像头等感知传感器的选型、技术评估及算法测试； 2、负责足式机器人相关的定位、建图及多传感器融合算法研发与工程落地； 3、负责激光雷达、相机、IMU、里程计、GNSS等传感器的数据融合，提升系统在复杂环境下的定位精度、鲁棒性和稳定性； 4、负责激光SLAM、视觉SLAM或视觉惯性里程计（VIO）等核心模块的开发、优化与维护，包括前端里程计、回环检测、后端优化、重定位及地图管理等模块的算法设计与性能优化； 5、
+1 V2_KALMAN_FACTOR | 4、熟悉卡尔曼滤波、扩展卡尔曼滤波、误差状态卡尔曼滤波或因子图优化，具备实际融合项目经验；
+2 V2_KALMAN_FACTOR | 卡尔曼滤波
+3 V2_KALMAN_FACTOR | 扩展卡尔曼滤波
+4 V2_KALMAN_FACTOR | 误差状态卡尔曼滤波
+5 V2_KALMAN_FACTOR | 因子图优化
+6 V2_CALIBRATION | 5、熟悉激光雷达、相机、IMU、GNSS、里程计等传感器的工作原理、标定方法、时间同步及误差模型；
+7 V2_C | 6、熟练使用C++，具备良好的数据结构、算法基础和工程代码能力；熟悉Python，能够完成数据分析及算法验证；
+8 V2_EIGEN,V2_PCL | 7、熟悉Linux、ROS/ROS 2、Eigen、PCL、OpenCV等常用开发环境和工具；
+9 V2_EIGEN | Eigen
+10 V2_PCL | PCL
+11 V2_CERES,V2_G2O,V2_GTSAM,V2_KALMAN_FACTOR | 8、熟悉Ceres、GTSAM、g2o等至少一种非线性优化或因子图工具；
+12 V2_CERES | Ceres
+13 V2_GTSAM | GTSAM
+14 V2_G2O | g2o
+15 - | LIO-SAM
+16 - | Faster-LIO
+17 - | Cartographer
+18 - | ORB-SLAM3
+19 - | VINS-Fusion
+20 V2_CALIBRATION | 3、具备传感器内外参标定、在线标定或时间同步算法经验；
+21 - | ARM
+22 - | NVIDIA Jetson
+23 V2_3D_RECONSTRUCTION | 9、具备深度学习算法的项目落地经验，了解NeRF、3D Gaussian Splatting（3DGS）、VGGT、BEV、深度估计或其他视觉基础模型（Foundation Model）。
+24 V2_3D_RECONSTRUCTION | NeRF
+25 V2_3D_RECONSTRUCTION | 3D Gaussian Splatting（3DGS）
+26 - | VGGT
+27 - | BEV
+
+==== 34 N0527 nC=19 nI=27 empty=[]
+TITLE 具身智能感知算法实习生
+DUTY 岗位职责 1、参与完成传感器选型、标定、数据采集、算法评测及问题分析； 2、参与足式机器人的定位、建图及多传感器融合算法研发； 3、协助处理激光雷达、相机、IMU、GNSS、里程计等传感器数据； 4、参与激光SLAM、视觉SLAM、VIO等模块的开发、测试与优化； 5、参与算法在机器人硬件平台上的部署、调试和性能优化； 6、跟踪SLAM、具身智能及机器人感知领域的前沿技术。  任职要求 1、计算机、自动化、机器人、电子信息、测绘等相关专
+1 V2_CALIBRATION | 1、参与完成传感器选型、标定、数据采集、算法评测及问题分析；
+2 V2_C | 3、掌握C++或Python，具备基本的数据结构和算法能力；
+3 V2_EIGEN,V2_PCL | 4、熟悉Linux，了解ROS/ROS 2、Eigen、PCL或OpenCV等工具；
+4 V2_EIGEN | Eigen
+5 V2_PCL | PCL
+6 - | LIO-SAM
+7 - | Faster-LIO
+8 - | Cartographer
+9 - | ORB-SLAM3
+10 - | VINS-Fusion
+11 V2_KALMAN_FACTOR | 3、了解卡尔曼滤波、非线性优化、因子图或多视图几何；
+12 V2_KALMAN_FACTOR | 卡尔曼滤波
+13 V2_KALMAN_FACTOR | 因子图
+14 V2_CALIBRATION | 4、有传感器标定、嵌入式平台部署或深度学习项目经验；
+15 V2_3D_RECONSTRUCTION | 6、了解NeRF、3DGS、BEV、深度估计、VGGT等或其他视觉基础模型；
+16 V2_3D_RECONSTRUCTION | NeRF
+17 V2_3D_RECONSTRUCTION | 3DGS
+18 - | BEV
+19 - | VGGT
+
+==== 35 N0298 nC=21 nI=30 empty=[]
+TITLE 机器人导航算法工程师（SLAM方向）
+DUTY 岗位职责 负责轮式人形机器人室内外一体化SLAM、全局/局部重定位、多传感器融合定位核心模块的算法研发、工程实现与性能优化 针对轮式人形机器人特有的运动学特性与上半身运动干扰，设计并优化里程计算法与状态估计框架，解决非刚体运动带来的定位漂移问题 提升复杂场景下（动态人群、光照剧变、纹理缺失、玻璃/镜面反射、长走廊、室内外无缝切换）算法的鲁棒性、实时性与定位精度 负责大规模场景建图与地图管理系统的研发，支持增量式建图、地图更新与多机器人地
+1 - | Fast-LIO2/3
+2 - | LIO-SAM
+3 - | R3LIVE
+4 - | ORB-SLAM3
+5 - | VINS-Mono/Fusion
+6 - | NDT
+7 - | ICP
+8 - | LOAM系列
+9 - | VIO
+10 - | LVI-SAM
+11 V2_KALMAN_FACTOR | 精通EKF、UKF、ESKF等滤波算法，熟悉因子图优化理论
+12 V2_KALMAN_FACTOR | EKF
+13 V2_KALMAN_FACTOR | UKF
+14 V2_KALMAN_FACTOR | ESKF
+15 V2_KALMAN_FACTOR | 因子图优化理论
+16 V2_C | 熟练掌握C++11及以上标准，具备扎实的算法与数据结构基础；熟悉ROS1/ROS2开发环境，掌握Gazebo、Isaac Sim等仿真平台的使用
+17 - | NEON
+18 V2_CERES,V2_G2O,V2_GTSAM | 熟悉图优化库（g2o、Ceres、GTSAM）与深度学习在SLAM中的应用（如特征提取、回环检测、动态物体剔除）
+19 V2_G2O | g2o
+20 V2_CERES | Ceres
+21 V2_GTSAM | GTSAM
+
+==== 36 N0293 nC=21 nI=30 empty=[]
+TITLE 机器人导航算法工程师（SLAM方向）
+DUTY 工作职责: 岗位职责 负责轮式人形机器人室内外一体化SLAM、全局/局部重定位、多传感器融合定位核心模块的算法研发、工程实现与性能优化 针对轮式人形机器人特有的运动学特性与上半身运动干扰，设计并优化里程计算法与状态估计框架，解决非刚体运动带来的定位漂移问题 提升复杂场景下（动态人群、光照剧变、纹理缺失、玻璃/镜面反射、长走廊、室内外无缝切换）算法的鲁棒性、实时性与定位精度 负责大规模场景建图与地图管理系统的研发，支持增量式建图、地图更新
+1 - | Fast-LIO2/3
+2 - | LIO-SAM
+3 - | R3LIVE
+4 - | ORB-SLAM3
+5 - | VINS-Mono/Fusion
+6 - | NDT
+7 - | ICP
+8 - | LOAM系列
+9 - | VIO
+10 - | LVI-SAM
+11 V2_KALMAN_FACTOR | 精通EKF、UKF、ESKF等滤波算法，熟悉因子图优化理论
+12 V2_KALMAN_FACTOR | EKF
+13 V2_KALMAN_FACTOR | UKF
+14 V2_KALMAN_FACTOR | ESKF
+15 V2_KALMAN_FACTOR | 因子图优化理论
+16 V2_C | 熟练掌握C++11及以上标准，具备扎实的算法与数据结构基础；熟悉ROS1/ROS2开发环境，掌握Gazebo、Isaac Sim等仿真平台的使用
+17 - | NEON
+18 V2_CERES,V2_G2O,V2_GTSAM | 熟悉图优化库（g2o、Ceres、GTSAM）与深度学习在SLAM中的应用（如特征提取、回环检测、动态物体剔除）
+19 V2_G2O | g2o
+20 V2_CERES | Ceres
+21 V2_GTSAM | GTSAM
+
+==== 37 N0249 nC=4 nI=26 empty=[]
+TITLE 导航算法工程师（感知方向）
+DUTY 1. 导航感知系统架构设计与多传感器融合：负责搭建面向导航场景的多传感器感知技术架构，制定感知数据标准与模块交互规范；完成激光雷达、单目/双目相机、深度相机、超声、碰撞传感器等多源传感器的时空同步、联合标定与数据融合，输出统一、实时、可靠的环境感知结果，对接规划控制与定位模块。 2. 障碍物检测与动态环境感知：负责静态/动态障碍物检测、分类与跟踪算法的研发与优化，覆盖行人、车辆、其他机器人、零散障碍物等典型目标；针对狭窄通道、人机共融、
+1 V2_CALIBRATION | 1. 导航感知系统架构设计与多传感器融合：负责搭建面向导航场景的多传感器感知技术架构，制定感知数据标准与模块交互规范；完成激光雷达、单目/双目相机、深度相机、超声、碰撞传感器等多源传感器的时空同步、联合标定与数据融合，输出统一、实时、可靠的环境感知结果，对接规划控制与定位模块。
+2 V2_CALIBRATION | 5. 深入理解多传感器融合原理，具备激光-视觉-超声等多源传感器的联合标定、时空同步与融合算法开发经验；
+3 - | 6. 熟悉占据栅格地图、OctoMap等环境建模方法，了解代价地图的架构与运行机制，有感知数据与规划层对接的实践经验；
+4 V2_C | 7. 精通C++/Python编程语言与Linux开发环境，具备扎实的工程实现能力与代码质量意识；
+
+==== 38 N0299 nC=21 nI=30 empty=[]
+TITLE 导航算法工程师（SLAM方向）
+DUTY 1、负责轮式人形机器人室内外一体化SLAM、全局/局部重定位、多传感器融合定位核心模块的算法研发、工程实现与性能优化 2、针对轮式人形机器人特有的运动学特性与上半身运动干扰，设计并优化里程计算法与状态估计框架，解决非刚体运动带来的定位漂移问题 3、提升复杂场景下（动态人群、光照剧变、纹理缺失、玻璃/镜面反射、长走廊、室内外无缝切换）算法的鲁棒性、实时性与定位精度 4、负责大规模场景建图与地图管理系统的研发，支持增量式建图、地图更新与多机
+1 - | Fast-LIO2/3
+2 - | LIO-SAM
+3 - | R3LIVE
+4 - | ORB-SLAM3
+5 - | VINS-Mono/Fusion
+6 - | NDT
+7 - | ICP
+8 - | LOAM系列
+9 - | VIO
+10 - | LVI-SAM
+11 V2_KALMAN_FACTOR | 5、精通EKF、UKF、ESKF等滤波算法，熟悉因子图优化理论
+12 V2_KALMAN_FACTOR | EKF
+13 V2_KALMAN_FACTOR | UKF
+14 V2_KALMAN_FACTOR | ESKF
+15 V2_KALMAN_FACTOR | 因子图优化理论
+16 V2_C | 熟练掌握C++11及以上标准，具备扎实的算法与数据结构基础；熟悉ROS1/ROS2开发环境，掌握Gazebo、Isaac Sim等仿真平台的使用
+17 - | NEON
+18 V2_CERES,V2_G2O,V2_GTSAM | 3、熟悉图优化库（g2o、Ceres、GTSAM）与深度学习在SLAM中的应用（如特征提取、回环检测、动态物体剔除）
+19 V2_G2O | g2o
+20 V2_CERES | Ceres
+21 V2_GTSAM | GTSAM
+
+==== 39 E0252 nC=1 nI=15 empty=[]
+TITLE 手部追踪/位姿算法工程师
+DUTY 1. 研发基于头戴式双目摄像头的手部跟踪与 3D 位姿估计算法,实现低延迟、高稳定性的人手姿态感知。 2. 设计和优化手部姿态估计模型,实现手部关键点、骨架或 6DoF 位姿预测,可用于具身智能系统。 3. 融合视觉和几何信息(双目、深度或 RGB),提升手部位姿估计的精度与鲁棒性。 4. 构建和维护手部数据集,设计评测指标,分析模型失效并推动改进。 5. 将手部位姿估计成果与应用系统结合,实现可视化、交互或控制功能。
+1 V2_CALIBRATION | 4. 熟悉相机标定、坐标系变换及 3D 几何知识，能够理解手部位姿估计中的空间约束。
+
+==== 40 E0150 nC=6 nI=20 empty=['O3:SK_ROS:ROS', 'O14:TC_SLAM:SLAM']
+TITLE 状态估计/传感器融合工程师
+DUTY 岗位定位 负责机器人IMU、编码器、足端力、视觉/深度等多源传感器方案选型、标定和融合,为运动控制和家庭场景感知提供稳定可靠的状态输入。 核心职责 - 负责IMU、编码器、足端力/触觉、视觉/深度等传感器选型、接口定义和标定流程。 - 建立机器人姿态、速度、接触状态、足底受力等状态估计算法。 - 开发传感器数据同步、滤波、异常检测、标定补偿和融合模块。 - 与运动控制、触觉/力觉、嵌入式和测试团队协作,提供可用于控制闭环的稳定状态信号。
+1 V2_CALIBRATION | 负责机器人IMU、编码器、足端力、视觉/深度等多源传感器方案选型、标定和融合，为运动控制和家庭场景感知提供稳定可靠的状态输入。
+2 V2_CALIBRATION,V2_REQUIREMENTS_ENGINEERING | - 负责IMU、编码器、足端力/触觉、视觉/深度等传感器选型、接口定义和标定流程。
+3 V2_CALIBRATION | - 开发传感器数据同步、滤波、异常检测、标定补偿和融合模块。
+4 V2_CALIBRATION | - 输出标定文档、数据质量评估、传感器误差模型和融合效果报告。
+5 V2_KALMAN_FACTOR | - 熟悉EKF/UKF、惯性导航、SLAM或机器人状态估计。
+6 V2_C | - 具备C++/Python开发能力，能够完成算法验证、数据分析和工程部署。
+
+==== 41 E0409 nC=9 nI=38 empty=['O11:TC_PERCEPTION:multi-sensor fusion', 'O25:TC_SLAM:SLAM', 'O29:TC_PERCEPTION:perception', 'O30:TC_SLAM:SLAM', 'O36:TC_PERCEPTION:computer vision']
+TITLE Senior Perception Learning Engineer - SLAM
+DUTY You will drive research and development of advanced perception systems that empower Apptronik's humanoid robots to understand and interact with complex human environments. Your work will focus heavily on SLAM, visual-ine
+1 V2_WORLD_MODEL | You will design and optimize deep learning models for real-time detection, tracking, segmentation, scene understanding, and state estimation while con
+2 V2_CAN | This role requires balancing research innovation with practical engineering to deliver deployable, high-performance SLAM and perception stacks. You wi
+3 V2_C,V2_CI_CD | Proficiency in Python and modern C++, with strong software engineering fundamentals (version control, testing, CI/CD).
+4 V2_KALMAN_FACTOR | (EKF/UKF, factor graphs, SLAM, VIO).
+5 V2_TENSORRT,V2_ONNX,V2_ONNX_RUNTIME,V2_MODEL_COMPRESSION | Expertise in model acceleration, quantization, or compression (TensorRT, ONNX Runtime).
+6 - | Detectron2, YOLO
+7 - | ORB-SLAM, VINS, Rtabmap, GTSLAM, Cartographer
+8 V2_TENSORRT,V2_ONNX,V2_ONNX_RUNTIME | TensorRT, ONNX Runtime
+9 - | GStreamer
+
+==== 42 N1024 nC=7 nI=27 empty=[]
+TITLE Atlas Staff Perception Engineer, Tactile Sensing
+DUTY We're looking for a Staff Perception Engineer specializing in tactile sensing to help advance the next generation of robotic manipulation. In this role, you will design and develop sensing data systems that allow robots 
+1 V2_CALIBRATION | Design and deploy automated data collection routines using robot end-effectors or instrumented test rigs to generate ground-truth datasets for sensor 
+2 - | advanced DSP techniques to filter, fuse, and compress raw sensor signals
+3 V2_SIM2REAL | Model sensor performance and drive the integration of tactile sensing into simulated virtual environments (e.g., Isaac Sim, MuJoCo) to effectively bri
+4 V2_C,V2_GIT | Experience using version-control (Git) and developing software in Python and C++ for robotic systems, emphasizing high-bandwidth data acquisition.
+5 V2_GIT | Git
+6 V2_CALIBRATION | Experience designing and executing hardware-based data collection campaigns to generate ground-truth datasets for sensor calibration, modeling, or sim
+7 - | IPC standards
+
+==== 43 N0816 nC=5 nI=30 empty=[]
+TITLE Senior Perception Engineer
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_CALIBRATION | , including sensor timestamps, synchronization, calibration, data quality, coordinate frames, and hardware/software integration. Determine whether iss
+2 V2_CALIBRATION | , including sensor data quality, synchronization, calibration, coordinate transforms, and failures observed only during real-world operation.
+3 V2_C | robust, production-quality C++
+4 V2_CI_CD | Familiarity with CI/CD pipelines, performance regression testing, and benchmarking for perception systems
+5 V2_CI_CD | Familiarity with CI/CD pipelines, performance regression testing, and benchmarking for perception systems
+
+==== 44 N0823 nC=2 nI=26 empty=[]
+TITLE Senior Robot Perception Engineer
+DUTY Who are We? Field AIis transforming how robots interact with the real world. We are building risk-aware, reliable, and field-ready AI systems that address the most complex challenges in robotics, unlocking the full poten
+1 V2_C | Proficiency in modern robotics software development (C++, Python) and ROS/ROS2 based systems.
+2 V2_CALIBRATION | Comfort working close to hardware, including debugging sensor data, calibration, and real-world failures.
+
+==== 45 N0825 nC=24 nI=22 empty=[]
+TITLE Senior Robotics Software Engineer, 3D Mapping
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_OFFICE | to design and deploy advanced robot perception and 3D mapping systems at FieldAI. Based in our Irvine office, this is a true robot-in-the-loop role wh
+2 V2_MS_PROJECT | Collaborate cross-functionally to meet project-specific documentation requirements and customer expectations.
+3 V2_C | Proficiency in C++ and Python, with a proven ability to write maintainable and efficient code in production.
+4 - | ICP
+5 - | NDT
+6 V2_CERES,V2_G2O,V2_GTSAM | Experience with LiDAR SLAM algorithms and optimization tools such as Ceres, GTSAM, or g2o.
+7 V2_CERES | Ceres
+8 V2_GTSAM | GTSAM
+9 V2_G2O | g2o
+10 V2_PCL,V2_OPEN3D | Hands-on experience with tools and libraries such as PCL, Open3D, Autoware.
+11 V2_PCL | PCL
+12 V2_OPEN3D | Open3D
+13 - | Autoware
+14 - | Familiarity with Robot Operating System (ROS) and software development practices in Ubuntu.
+15 - | PCD
+16 - | PLY
+17 - | E57
+18 - | LAS
+19 - | CloudCompare
+20 - | Leica Cyclone
+21 - | Faro Scene
+22 - | Trimble RealWorks
+23 V2_CALIBRATION | Experience with survey control, calibration workflows, or on-site measurement tools (e.g., total stations)
+24 - | total stations
+
+==== 46 E0490 nC=4 nI=14 empty=[]
+TITLE Helix AI Engineer, Perception
+DUTY Develop perception systems including onboard computer vision, localization, visuomotor policies, and offline data annotation. Own the end-to-end product life cycle from initial ideation to deployment. Deliver high-qualit
+1 V2_OFFICE | Figure is an AI Robotics company developing a general purpose humanoid. Our humanoid robot, Figure 03, is designed for commercial tasks and the home. 
+2 V2_LINEAR | Strong mathematical foundation in probability, optimization, and linear algebra.
+3 V2_SPARK | Familiarity with scalable data engineering toolchains like Spark and Ray.
+4 V2_SPARK | Spark and Ray
+
+==== 47 E0565 nC=11 nI=16 empty=['O16:TC_EVALUATION:calibration']
+TITLE State Estimation Engineer - Data Collection Systems
+DUTY Design and implement dual-tier state estimation algorithms in modern C++: low-latency, real-time filters for streaming teleoperation and batch optimization/smoothing routines for high-accuracy offline dataset generation.
+1 V2_OFFICE | Figure is an AI Robotics company autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intel
+2 V2_CALIBRATION,V2_TELEOP | We are looking for a State Estimation Engineer to own the architecture, algorithm development, and calibration workflows for a next-generation data co
+3 V2_C,V2_TELEOP | Design and implement dual-tier state estimation algorithms in modern C++: low-latency, real-time filters for streaming teleoperation and batch optimiz
+4 V2_CALIBRATION | Own and develop subject-calibration procedures, designing rapid, intuitive routines to estimate individual body segment dimensions, joint offsets, and
+5 V2_CALIBRATION | Address spatiotemporal sensor calibration, dynamic environmental interference, and kinematic constraint enforcement on human skeletal models.
+6 V2_CERES,V2_GTSAM,V2_LINEAR | Hands-on expertise with both real-time filtering techniques ((E)KFs, sliding-window estimators) and offline batch optimization tools (Factor Graphs, G
+7 V2_CALIBRATION | Proven capability to design fast, reliable calibration, zeroing, and alignment workflows for multi-sensor suites and kinematic models.
+8 V2_C | Proven ability to write high-performance, modular C++ for embedded or edge computing platforms alongside Python for data analysis and visualization.
+9 V2_TELEOP | Experience with low-latency streaming pipelines for teleoperation, haptics, or human-in-the-loop control systems.
+10 V2_CALIBRATION | Prior experience applying Machine Learning (ML) techniques to motion priors, trajectory smoothing, or learned state estimation/calibration.
+11 V2_CERES,V2_GTSAM | GTSAM, Ceres

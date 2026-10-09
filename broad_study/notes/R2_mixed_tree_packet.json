@@ -1,0 +1,1219 @@
+[
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7627076586026715438|3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+    "reading_id": "N0396",
+    "structure": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7627076586026715438|3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+      "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+      "reading_id": "N0396",
+      "company_id": "CN_AGIBOT",
+      "company_name": "AgiBot",
+      "title": "具身大模型AI Infra工程师/专家",
+      "root_relation": "OR",
+      "n_role_nodes": "6",
+      "has_mixed_branch": "YES",
+      "primary_code": "RF_ALTERNATIVE_DIRECTIONS",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"一个或多个方向的招聘选择明确。原五支必须分别保存；第4支同时写专用模型推理和跨版本自动评测能力，不能为统一成ML而删掉评测职责。\", \"expression\": {\"id\": \"N0396:root\", \"relation\": \"OR\", \"scope\": \"RECRUITMENT_DIRECTIONS\", \"rationale\": \"一个或多个方向的招聘选择明确。原五支必须分别保存；第4支同时写专用模型推理和跨版本自动评测能力，不能为统一成ML而删掉评测职责。\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 5, \"end\": 21, \"quote\": \"可选择以下一个或多个方向深入参与\"}], \"children\": [{\"id\": \"N0396:d1\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"1. 建设具身智能原生\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 23, \"end\": 122, \"quote\": \"1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 23, \"end\": 122, \"quote\": \"1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。\"}]}]}, {\"id\": \"N0396:d2\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"2. 建设大规模分布式训练\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 123, \"end\": 221, \"quote\": \"2. 建设大规模分布式训练系统，支持 DP、TP、PP、EP、SP、CP 等多维混合并行，以及 MoE、MoT、长上下文和低精度训练，持续提升百卡、千卡至万卡任务的吞吐、MFU、扩展效率和稳定性。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"2. 建设大规模分布式训练系统，支持 DP、TP、PP、EP、SP、CP 等多维混合并行，以及 MoE、MoT、长上下文和低精度训练，持续提升百卡、千卡至万卡任务的吞吐、MFU、扩展效率和稳定性。\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 123, \"end\": 221, \"quote\": \"2. 建设大规模分布式训练系统，支持 DP、TP、PP、EP、SP、CP 等多维混合并行，以及 MoE、MoT、长上下文和低精度训练，持续提升百卡、千卡至万卡任务的吞吐、MFU、扩展效率和稳定性。\"}]}]}, {\"id\": \"N0396:d3\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"3. 建设规模化后训练\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 222, \"end\": 313, \"quote\": \"3. 建设规模化后训练系统，支持在线 / 离线 RL，以及仿真、真机和世界模型混合训练，完善轨迹数据管理、模型权重同步与版本治理，以及机器人动态上下线场景下的弹性调度和故障容错能力。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"3. 建设规模化后训练系统，支持在线 / 离线 RL，以及仿真、真机和世界模型混合训练，完善轨迹数据管理、模型权重同步与版本治理，以及机器人动态上下线场景下的弹性调度和故障容错能力。\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 222, \"end\": 313, \"quote\": \"3. 建设规模化后训练系统，支持在线 / 离线 RL，以及仿真、真机和世界模型混合训练，完善轨迹数据管理、模型权重同步与版本治理，以及机器人动态上下线场景下的弹性调度和故障容错能力。\"}]}]}, {\"id\": \"N0396:d4\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"第4支同时写专用模型推理和跨版本自动评测，两种交付同属该可选方向。\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 314, \"end\": 413, \"quote\": \"4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验，统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。\"}], \"children\": [{\"id\": \"N0396:d4ml\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"高性能模型推理\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 314, \"end\": 366, \"quote\": \"4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 314, \"end\": 366, \"quote\": \"4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验\"}]}]}, {\"id\": \"N0396:d4ev\", \"relation\": \"ROLE\", \"value\": \"RF_SIMULATION_EVALUATION\", \"surface\": \"自动评测系统\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 327, \"end\": 333, \"quote\": \"自动评测系统\"}, {\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 367, \"end\": 413, \"quote\": \"统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 367, \"end\": 413, \"quote\": \"统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。\"}]}]}]}, {\"id\": \"N0396:d5\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"5. 建设端到端性能\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 414, \"end\": 520, \"quote\": \"5. 建设端到端性能与集群基础设施，围绕数据 IO、GPU 计算、集合通信、网络、存储和调度开展 Profiling 与优化，包括算子融合、计算通信 Overlap、Checkpoint、故障恢复和拓扑感知调度。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"5. 建设端到端性能与集群基础设施，围绕数据 IO、GPU 计算、集合通信、网络、存储和调度开展 Profiling 与优化，包括算子融合、计算通信 Overlap、Checkpoint、故障恢复和拓扑感知调度。\", \"evidence\": [{\"record_id\": \"CN_AGIBOT|feishu|7627076586026715438\", \"text_version_hash\": \"3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a\", \"field\": \"full_description\", \"start\": 414, \"end\": 520, \"quote\": \"5. 建设端到端性能与集群基础设施，围绕数据 IO、GPU 计算、集合通信、网络、存储和调度开展 Profiling 与优化，包括算子融合、计算通信 Overlap、Checkpoint、故障恢复和拓扑感知调度。\"}]}]}], \"minimum_explicit\": 1, \"maximum_explicit\": null}}"
+    },
+    "raw": {
+      "classification_id": 14,
+      "package_id": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1",
+      "observation_id": 14,
+      "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+      "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+      "result_authority": "USER_ACCEPTED_REFERENCE",
+      "actor": "AI_REFERENCE",
+      "human_validated": 0,
+      "user_accepted": 1,
+      "primary_status": "CODED",
+      "primary_codes": "RF_ALTERNATIVE_DIRECTIONS",
+      "primary_names": "多方向招聘（任选）",
+      "secondary_status": "NOT_MENTIONED",
+      "secondary_codes": "",
+      "technical_status": "CODED",
+      "skills_status": "CODED",
+      "activities_status": "CODED",
+      "rule_version": "measurement-v0.7.5",
+      "rule_bundle_hash": "acf40442760b06231a282064c9059edfe5ec7a46ac59a02692c9d89edc3a7920",
+      "dataset_id": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1",
+      "wave": "2026-09-11",
+      "company_id": "CN_AGIBOT",
+      "company": "AgiBot",
+      "country": "China",
+      "title": "具身大模型AI Infra工程师/专家",
+      "location": "上海",
+      "source_url": "https://agirobot.jobs.feishu.cn/index/position/7627076586026715438/detail",
+      "source_path": "outputs/reference-expansion-2026-09-11/merged-baseline-2026-09-11/records.jsonl",
+      "source_line": 1000,
+      "source_file_sha256": "0d3926ca35402540c71843ce075b9bc1258a9fcb1b1b7399a22c7c8bc60ab9b5",
+      "source_equivalence_sha256": "15d70d9ba7b939e3bbac0dd56696c9b78cd25ef2274d1a9e386ed183740f2683",
+      "origin_review_id": null,
+      "origin_packet_id": "N0396",
+      "origin_package_path": "outputs/reference-expansion-2026-09-11/new-company-reference1044-2026-09-12/final-v4-2026-09-14/reference1044.jsonl",
+      "origin_package_line": 408,
+      "origin_acceptance_id": "REFERENCE1044_USER_ACCEPTED_2026_09_14_V4",
+      "duties": "岗位职责\n可选择以下一个或多个方向深入参与：\n1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。\n2. 建设大规模分布式训练系统，支持 DP、TP、PP、EP、SP、CP 等多维混合并行，以及 MoE、MoT、长上下文和低精度训练，持续提升百卡、千卡至万卡任务的吞吐、MFU、扩展效率和稳定性。\n3. 建设规模化后训练系统，支持在线 / 离线 RL，以及仿真、真机和世界模型混合训练，完善轨迹数据管理、模型权重同步与版本治理，以及机器人动态上下线场景下的弹性调度和故障容错能力。\n4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验，统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。\n5. 建设端到端性能与集群基础设施，围绕数据 IO、GPU 计算、集合通信、网络、存储和调度开展 Profiling 与优化，包括算子融合、计算通信 Overlap、Checkpoint、故障恢复和拓扑感知调度。\n\n任职要求\n1. 计算机、人工智能、机器人等相关专业本科及以上学历，计算机基础扎实，具备优秀的代码能力和工程习惯，熟练使用 Python 和 PyTorch。\n2. 在大规模分布式训练、大模型推理、强化学习 Infra、GPU 集群调度、AI 系统性能优化或模型评测中的一个或多个方向具备深入的实际项目经验。\n3. 理解大模型训练与推理原理，熟悉模型并行、计算图、集合通信、显存管理及性能分析，了解 Megatron、DeepSpeed、FSDP、verl、RLinf 等框架中的一种或多种。\n4. 理解至少一个具身模型或后训练算法方向，能够从模型结构、数据流和训练 / 推理过程识别 Infra 需求，并跨算法、框架、算子和集群定位问题。\n5. 具备良好的系统设计能力，能够通过 Benchmark 和 Profiling 数据推动系统演进，并在正确性、性能、稳定性、扩展性和长期可维护性之间合理取舍。",
+      "requirements": "1. 计算机、人工智能、机器人等相关专业本科及以上学历，计算机基础扎实，具备优秀的代码能力和工程习惯，熟练使用 Python 和 PyTorch。\n2. 在大规模分布式训练、大模型推理、强化学习 Infra、GPU 集群调度、AI 系统性能优化或模型评测中的一个或多个方向具备深入的实际项目经验。\n3. 理解大模型训练与推理原理，熟悉模型并行、计算图、集合通信、显存管理及性能分析，了解 Megatron、DeepSpeed、FSDP、verl、RLinf 等框架中的一种或多种。\n4. 理解至少一个具身模型或后训练算法方向，能够从模型结构、数据流和训练 / 推理过程识别 Infra 需求，并跨算法、框架、算子和集群定位问题。\n5. 具备良好的系统设计能力，能够通过 Benchmark 和 Profiling 数据推动系统演进，并在正确性、性能、稳定性、扩展性和长期可维护性之间合理取舍。",
+      "full_description": "岗位职责\n可选择以下一个或多个方向深入参与：\n1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。\n2. 建设大规模分布式训练系统，支持 DP、TP、PP、EP、SP、CP 等多维混合并行，以及 MoE、MoT、长上下文和低精度训练，持续提升百卡、千卡至万卡任务的吞吐、MFU、扩展效率和稳定性。\n3. 建设规模化后训练系统，支持在线 / 离线 RL，以及仿真、真机和世界模型混合训练，完善轨迹数据管理、模型权重同步与版本治理，以及机器人动态上下线场景下的弹性调度和故障容错能力。\n4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验，统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。\n5. 建设端到端性能与集群基础设施，围绕数据 IO、GPU 计算、集合通信、网络、存储和调度开展 Profiling 与优化，包括算子融合、计算通信 Overlap、Checkpoint、故障恢复和拓扑感知调度。\n\n任职要求\n1. 计算机、人工智能、机器人等相关专业本科及以上学历，计算机基础扎实，具备优秀的代码能力和工程习惯，熟练使用 Python 和 PyTorch。\n2. 在大规模分布式训练、大模型推理、强化学习 Infra、GPU 集群调度、AI 系统性能优化或模型评测中的一个或多个方向具备深入的实际项目经验。\n3. 理解大模型训练与推理原理，熟悉模型并行、计算图、集合通信、显存管理及性能分析，了解 Megatron、DeepSpeed、FSDP、verl、RLinf 等框架中的一种或多种。\n4. 理解至少一个具身模型或后训练算法方向，能够从模型结构、数据流和训练 / 推理过程识别 Infra 需求，并跨算法、框架、算子和集群定位问题。\n5. 具备良好的系统设计能力，能够通过 Benchmark 和 Profiling 数据推动系统演进，并在正确性、性能、稳定性、扩展性和长期可维护性之间合理取舍。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7627076586026715438|3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+      "record": {
+        "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+        "title": "具身大模型AI Infra工程师/专家",
+        "company_id": "CN_AGIBOT",
+        "company": "AgiBot",
+        "country": "China",
+        "location": "上海",
+        "wave": "2026-09-11",
+        "packet_id": "N0396",
+        "source": {
+          "path": "outputs/reference-expansion-2026-09-11/merged-baseline-2026-09-11/records.jsonl",
+          "line": 1000,
+          "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+          "file_sha256": "0d3926ca35402540c71843ce075b9bc1258a9fcb1b1b7399a22c7c8bc60ab9b5",
+          "source_equivalence_sha256": "15d70d9ba7b939e3bbac0dd56696c9b78cd25ef2274d1a9e386ed183740f2683",
+          "source_url": "https://agirobot.jobs.feishu.cn/index/position/7627076586026715438/detail"
+        },
+        "rule_version": "measurement-v0.7.5",
+        "rule_bundle_hash": "acf40442760b06231a282064c9059edfe5ec7a46ac59a02692c9d89edc3a7920",
+        "result_authority": "USER_ACCEPTED_REFERENCE",
+        "actor": "AI_REFERENCE",
+        "human_validated": false,
+        "user_accepted": true,
+        "draft_provenance": {
+          "actor": "AI_REFERENCE",
+          "agent_model": null,
+          "path": "drafts/B17.jsonl",
+          "line": 8,
+          "file_sha256": "71801aa3809c3e8490e863108ff2db406da640a0afad35c4a7c042cda8ec5cd0"
+        },
+        "batch_review": {
+          "decision": "ACCEPT",
+          "reviewer_model": "gpt-6-astra",
+          "reviewer_role": "PARENT",
+          "review_scope": "PARENT_FULL_TEXT_FOUR_DIMENSIONS",
+          "independence": "PARENT_REVIEW_WITH_AUTHOR_REVISION",
+          "reviewed_reference_sha256": "5497efb18f3eb45b2246c2004658ebdfa82e79b039c21b4e714cfe30ef89a9a9",
+          "review_notes": [
+            "实际修订字段及引用已复验；N0358按专用可复用测量设备裁决SIM，N0349感知、N0413 ML；要求/职责、研发/使用、对象关系及独立次责已纠正，保留有据歧义。结构零错误，锁定当前稿。",
+            "复核范围如review_scope所示；不是用户逐条审核。"
+          ],
+          "path": "reviews/B17.jsonl",
+          "line": 8,
+          "file_sha256": "ebdc35da71137f14669064c77170473a38f82ba2ff88ab7e90b121670a621d37"
+        },
+        "parent_adjudication": null,
+        "parent_review": {
+          "decision": "ACCEPT",
+          "reviewer_model": "gpt-6-astra",
+          "reviewer_role": "PARENT",
+          "review_scope": "PARENT_FULL_TEXT_FOUR_DIMENSIONS",
+          "independence": "PARENT_REVIEW_WITH_AUTHOR_REVISION",
+          "reviewed_reference_sha256": "5497efb18f3eb45b2246c2004658ebdfa82e79b039c21b4e714cfe30ef89a9a9",
+          "review_notes": [
+            "实际修订字段及引用已复验；N0358按专用可复用测量设备裁决SIM，N0349感知、N0413 ML；要求/职责、研发/使用、对象关系及独立次责已纠正，保留有据歧义。结构零错误，锁定当前稿。",
+            "复核范围如review_scope所示；不是用户逐条审核。"
+          ],
+          "path": "reviews/B17.jsonl",
+          "line": 8,
+          "file_sha256": "ebdc35da71137f14669064c77170473a38f82ba2ff88ab7e90b121670a621d37"
+        },
+        "parent_review_scope": "PARENT_FULL_TEXT_FOUR_DIMENSIONS",
+        "source_coverage": {
+          "assessed_fields": [
+            "duties",
+            "full_description",
+            "requirements"
+          ],
+          "missing_fields": [],
+          "unchecked_fields": [],
+          "coverage": "COMPLETE_AVAILABLE_FROZEN_FIELDS",
+          "basis": "Author full-text review; exact-contained duplicate fields share the reading block. Not a claim of complete live source extraction.",
+          "reading_blocks": [
+            {
+              "field": "full_description",
+              "start": 0,
+              "end": 923
+            }
+          ]
+        },
+        "reference": {
+          "packet_id": "N0396",
+          "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+          "source_equivalence_sha256": "15d70d9ba7b939e3bbac0dd56696c9b78cd25ef2274d1a9e386ed183740f2683",
+          "actor": "AI_REFERENCE",
+          "human_validated": false,
+          "reviewed_full_text": true,
+          "rationale": "一个或多个方向的招聘选择明确。原五支必须分别保存；第4支同时写专用模型推理和跨版本自动评测能力，不能为统一成ML而删掉评测职责。",
+          "source_notes": [
+            "一个或多个方向深入参与，多轨广告不等于人数；职责技术标注在该可选方向内，不表示每人承担全部方向。",
+            "2026-09-12主助手B17反馈后逐条回读修订；训练设施与被训练模型、业务改进与可推广研究分别判。"
+          ],
+          "sensitivity_flags": [
+            "MULTI_TRACK_ADVERTISEMENT"
+          ],
+          "requirement_groups": [
+            {
+              "id": "N0396:g1",
+              "relation": "ALL",
+              "quote": "1. 计算机、人工智能、机器人等相关专业本科及以上学历，计算机基础扎实，具备优秀的代码能力和工程习惯，熟练使用 Python 和 PyTorch。",
+              "field": "full_description",
+              "start": 527,
+              "use": "GENERAL_REQUIREMENT",
+              "expression": {
+                "id": "N0396:g1:n1",
+                "relation": "ALL",
+                "quote": "1. 计算机、人工智能、机器人等相关专业本科及以上学历，计算机基础扎实，具备优秀的代码能力和工程习惯，熟练使用 Python 和 PyTorch。",
+                "field": "full_description",
+                "start": 527,
+                "children": [
+                  {
+                    "id": "N0396:g1:n2",
+                    "relation": "ITEM",
+                    "surface": "1. 计算机、人工智能、机器人等相关专业本科及以上学历，计算机基础扎实，具备优秀的代码能力和工程习惯，熟练使用 Python 和 PyTorch。",
+                    "use": "GENERAL_REQUIREMENT",
+                    "quote": "1. 计算机、人工智能、机器人等相关专业本科及以上学历，计算机基础扎实，具备优秀的代码能力和工程习惯，熟练使用 Python 和 PyTorch。",
+                    "field": "full_description",
+                    "start": 527
+                  }
+                ]
+              }
+            },
+            {
+              "id": "N0396:g2",
+              "relation": "SOME_OF",
+              "quote": "2. 在大规模分布式训练、大模型推理、强化学习 Infra、GPU 集群调度、AI 系统性能优化或模型评测中的一个或多个方向具备深入的实际项目经验。",
+              "field": "full_description",
+              "start": 601,
+              "use": "GENERAL_REQUIREMENT",
+              "expression": {
+                "id": "N0396:g2:n1",
+                "relation": "SOME_OF",
+                "quote": "2. 在大规模分布式训练、大模型推理、强化学习 Infra、GPU 集群调度、AI 系统性能优化或模型评测中的一个或多个方向具备深入的实际项目经验。",
+                "field": "full_description",
+                "start": 601,
+                "children": [
+                  {
+                    "id": "N0396:g2:n2",
+                    "relation": "ITEM",
+                    "surface": "大规模分布式训练",
+                    "use": "GENERAL_REQUIREMENT",
+                    "quote": "大规模分布式训练",
+                    "field": "full_description",
+                    "start": 128
+                  },
+                  {
+                    "id": "N0396:g2:n3",
+                    "relation": "ITEM",
+                    "surface": "大模型推理",
+                    "use": "GENERAL_REQUIREMENT",
+                    "quote": "大模型推理",
+                    "field": "full_description",
+                    "start": 614
+                  },
+                  {
+                    "id": "N0396:g2:n4",
+                    "relation": "ITEM",
+                    "surface": "强化学习 Infra",
+                    "use": "GENERAL_REQUIREMENT",
+                    "quote": "强化学习 Infra",
+                    "field": "full_description",
+                    "start": 620
+                  },
+                  {
+                    "id": "N0396:g2:n5",
+                    "relation": "ITEM",
+                    "surface": "GPU 集群调度",
+                    "use": "GENERAL_REQUIREMENT",
+                    "quote": "GPU 集群调度",
+                    "field": "full_description",
+                    "start": 631
+                  },
+                  {
+                    "id": "N0396:g2:n6",
+                    "relation": "ITEM",
+                    "surface": "AI 系统性能优化",
+                    "use": "GENERAL_REQUIREMENT",
+                    "quote": "AI 系统性能优化",
+                    "field": "full_description",
+                    "start": 640
+                  },
+                  {
+                    "id": "N0396:g2:n7",
+                    "relation": "ITEM",
+                    "surface": "模型评测",
+                    "use": "GENERAL_REQUIREMENT",
+                    "quote": "模型评测",
+                    "field": "full_description",
+                    "start": 650
+                  }
+                ],
+                "minimum_explicit": 1
+              }
+            },
+            {
+              "id": "N0396:g3",
+              "relation": "ALL",
+              "quote": "3. 理解大模型训练与推理原理，熟悉模型并行、计算图、集合通信、显存管理及性能分析，了解 Megatron、DeepSpeed、FSDP、verl、RLinf 等框架中的一种或多种。",
+              "field": "full_description",
+              "start": 676,
+              "use": "GENERAL_REQUIREMENT",
+              "expression": {
+                "id": "N0396:g3:n1",
+                "relation": "ALL",
+                "quote": "3. 理解大模型训练与推理原理，熟悉模型并行、计算图、集合通信、显存管理及性能分析，了解 Megatron、DeepSpeed、FSDP、verl、RLinf 等框架中的一种或多种。",
+                "field": "full_description",
+                "start": 676,
+                "children": [
+                  {
+                    "id": "N0396:g3:n2",
+                    "relation": "ITEM",
+                    "surface": "理解大模型训练与推理原理",
+                    "use": "GENERAL_REQUIREMENT",
+                    "quote": "理解大模型训练与推理原理",
+                    "field": "full_description",
+                    "start": 679
+                  },
+                  {
+                    "id": "N0396:g3:n3",
+                    "relation": "SOME_OF",
+                    "quote": "Megatron、DeepSpeed、FSDP、verl、RLinf 等框架中的一种或多种",
+                    "field": "full_description",
+                    "start": 721,
+                    "children": [
+                      {
+                        "id": "N0396:g3:n4",
+                        "relation": "ITEM",
+                        "surface": "Megatron",
+                        "use": "GENERAL_REQUIREMENT",
+                        "quote": "Megatron",
+                        "field": "full_description",
+                        "start": 721
+                      },
+                      {
+                        "id": "N0396:g3:n5",
+                        "relation": "ITEM",
+                        "surface": "DeepSpeed",
+                        "use": "GENERAL_REQUIREMENT",
+                        "quote": "DeepSpeed",
+                        "field": "full_description",
+                        "start": 730
+                      },
+                      {
+                        "id": "N0396:g3:n6",
+                        "relation": "ITEM",
+                        "surface": "FSDP",
+                        "use": "GENERAL_REQUIREMENT",
+                        "quote": "FSDP",
+                        "field": "full_description",
+                        "start": 740
+                      },
+                      {
+                        "id": "N0396:g3:n7",
+                        "relation": "ITEM",
+                        "surface": "verl",
+                        "use": "GENERAL_REQUIREMENT",
+                        "quote": "verl",
+                        "field": "full_description",
+                        "start": 490
+                      },
+                      {
+                        "id": "N0396:g3:n8",
+                        "relation": "ITEM",
+                        "surface": "RLinf",
+                        "use": "GENERAL_REQUIREMENT",
+                        "quote": "RLinf",
+                        "field": "full_description",
+                        "start": 750
+                      }
+                    ],
+                    "minimum_explicit": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": "N0396:g4",
+              "relation": "ALL",
+              "quote": "5. 具备良好的系统设计能力，能够通过 Benchmark 和 Profiling 数据推动系统演进，并在正确性、性能、稳定性、扩展性和长期可维护性之间合理取舍。",
+              "field": "full_description",
+              "start": 842,
+              "use": "GENERAL_REQUIREMENT",
+              "expression": {
+                "id": "N0396:g4:n1",
+                "relation": "ALL",
+                "quote": "5. 具备良好的系统设计能力，能够通过 Benchmark 和 Profiling 数据推动系统演进，并在正确性、性能、稳定性、扩展性和长期可维护性之间合理取舍。",
+                "field": "full_description",
+                "start": 842,
+                "children": [
+                  {
+                    "id": "N0396:g4:n2",
+                    "relation": "ITEM",
+                    "surface": "5. 具备良好的系统设计能力，能够通过 Benchmark 和 Profiling 数据推动系统演进，并在正确性、性能、稳定性、扩展性和长期可维护性之间合理取舍。",
+                    "use": "GENERAL_REQUIREMENT",
+                    "quote": "5. 具备良好的系统设计能力，能够通过 Benchmark 和 Profiling 数据推动系统演进，并在正确性、性能、稳定性、扩展性和长期可维护性之间合理取舍。",
+                    "field": "full_description",
+                    "start": 842
+                  }
+                ]
+              }
+            }
+          ],
+          "unmapped_mentions": [
+            {
+              "quote": "Megatron",
+              "field": "full_description",
+              "start": 721,
+              "context": "REQUIREMENT",
+              "use": "GENERAL_REQUIREMENT",
+              "mention_relation": "EXPERIENCE_REQUIREMENT",
+              "requirement_node_id": "N0396:g3:n4",
+              "dimension": "skills",
+              "surface": "Megatron",
+              "reason": "冻结技能目录无该具体工具、方法或资格条目。"
+            },
+            {
+              "quote": "DeepSpeed",
+              "field": "full_description",
+              "start": 730,
+              "context": "REQUIREMENT",
+              "use": "GENERAL_REQUIREMENT",
+              "mention_relation": "EXPERIENCE_REQUIREMENT",
+              "requirement_node_id": "N0396:g3:n5",
+              "dimension": "skills",
+              "surface": "DeepSpeed",
+              "reason": "冻结技能目录无该具体工具、方法或资格条目。"
+            },
+            {
+              "quote": "FSDP",
+              "field": "full_description",
+              "start": 740,
+              "context": "REQUIREMENT",
+              "use": "GENERAL_REQUIREMENT",
+              "mention_relation": "EXPERIENCE_REQUIREMENT",
+              "requirement_node_id": "N0396:g3:n6",
+              "dimension": "skills",
+              "surface": "FSDP",
+              "reason": "冻结技能目录无该具体工具、方法或资格条目。"
+            },
+            {
+              "quote": "verl",
+              "field": "full_description",
+              "start": 490,
+              "context": "REQUIREMENT",
+              "use": "GENERAL_REQUIREMENT",
+              "mention_relation": "EXPERIENCE_REQUIREMENT",
+              "requirement_node_id": "N0396:g3:n7",
+              "dimension": "skills",
+              "surface": "verl",
+              "reason": "冻结技能目录无该具体工具、方法或资格条目。"
+            },
+            {
+              "quote": "RLinf",
+              "field": "full_description",
+              "start": 750,
+              "context": "REQUIREMENT",
+              "use": "GENERAL_REQUIREMENT",
+              "mention_relation": "EXPERIENCE_REQUIREMENT",
+              "requirement_node_id": "N0396:g3:n8",
+              "dimension": "skills",
+              "surface": "RLinf",
+              "reason": "冻结技能目录无该具体工具、方法或资格条目。"
+            },
+            {
+              "quote": "1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。",
+              "field": "full_description",
+              "start": 23,
+              "context": "DUTY",
+              "use": "DUTY_USE",
+              "mention_relation": "OWN_USE",
+              "dimension": "technical_concepts",
+              "surface": "世界模型",
+              "reason": "世界模型为训练运行对象，冻结目录未覆盖；不是本人设计世界模型算法。"
+            }
+          ],
+          "primary_role": {
+            "status": "CODED",
+            "items": [
+              {
+                "value": "RF_ALTERNATIVE_DIRECTIONS",
+                "quote": "可选择以下一个或多个方向深入参与",
+                "field": "full_description",
+                "start": 5,
+                "end": 21,
+                "classification_basis": "DIRECT_DELIVERABLE",
+                "evidence_strength": "DIRECT",
+                "evidence": [
+                  {
+                    "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                    "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                    "field": "full_description",
+                    "start": 5,
+                    "end": 21,
+                    "quote": "可选择以下一个或多个方向深入参与"
+                  }
+                ],
+                "role_structure": {
+                  "schema_version": 1,
+                  "rationale": "一个或多个方向的招聘选择明确。原五支必须分别保存；第4支同时写专用模型推理和跨版本自动评测能力，不能为统一成ML而删掉评测职责。",
+                  "expression": {
+                    "id": "N0396:root",
+                    "relation": "OR",
+                    "scope": "RECRUITMENT_DIRECTIONS",
+                    "rationale": "一个或多个方向的招聘选择明确。原五支必须分别保存；第4支同时写专用模型推理和跨版本自动评测能力，不能为统一成ML而删掉评测职责。",
+                    "evidence": [
+                      {
+                        "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                        "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                        "field": "full_description",
+                        "start": 5,
+                        "end": 21,
+                        "quote": "可选择以下一个或多个方向深入参与"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "id": "N0396:d1",
+                        "relation": "ROLE",
+                        "value": "RF_ML_AI_ENGINEERING",
+                        "surface": "1. 建设具身智能原生",
+                        "evidence": [
+                          {
+                            "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                            "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                            "field": "full_description",
+                            "start": 23,
+                            "end": 122,
+                            "quote": "1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。"
+                          }
+                        ],
+                        "duties_status": "DESCRIBED",
+                        "duties": [
+                          {
+                            "summary": "1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。",
+                            "evidence": [
+                              {
+                                "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                                "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                                "field": "full_description",
+                                "start": 23,
+                                "end": 122,
+                                "quote": "1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "N0396:d2",
+                        "relation": "ROLE",
+                        "value": "RF_ML_AI_ENGINEERING",
+                        "surface": "2. 建设大规模分布式训练",
+                        "evidence": [
+                          {
+                            "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                            "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                            "field": "full_description",
+                            "start": 123,
+                            "end": 221,
+                            "quote": "2. 建设大规模分布式训练系统，支持 DP、TP、PP、EP、SP、CP 等多维混合并行，以及 MoE、MoT、长上下文和低精度训练，持续提升百卡、千卡至万卡任务的吞吐、MFU、扩展效率和稳定性。"
+                          }
+                        ],
+                        "duties_status": "DESCRIBED",
+                        "duties": [
+                          {
+                            "summary": "2. 建设大规模分布式训练系统，支持 DP、TP、PP、EP、SP、CP 等多维混合并行，以及 MoE、MoT、长上下文和低精度训练，持续提升百卡、千卡至万卡任务的吞吐、MFU、扩展效率和稳定性。",
+                            "evidence": [
+                              {
+                                "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                                "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                                "field": "full_description",
+                                "start": 123,
+                                "end": 221,
+                                "quote": "2. 建设大规模分布式训练系统，支持 DP、TP、PP、EP、SP、CP 等多维混合并行，以及 MoE、MoT、长上下文和低精度训练，持续提升百卡、千卡至万卡任务的吞吐、MFU、扩展效率和稳定性。"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "N0396:d3",
+                        "relation": "ROLE",
+                        "value": "RF_ML_AI_ENGINEERING",
+                        "surface": "3. 建设规模化后训练",
+                        "evidence": [
+                          {
+                            "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                            "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                            "field": "full_description",
+                            "start": 222,
+                            "end": 313,
+                            "quote": "3. 建设规模化后训练系统，支持在线 / 离线 RL，以及仿真、真机和世界模型混合训练，完善轨迹数据管理、模型权重同步与版本治理，以及机器人动态上下线场景下的弹性调度和故障容错能力。"
+                          }
+                        ],
+                        "duties_status": "DESCRIBED",
+                        "duties": [
+                          {
+                            "summary": "3. 建设规模化后训练系统，支持在线 / 离线 RL，以及仿真、真机和世界模型混合训练，完善轨迹数据管理、模型权重同步与版本治理，以及机器人动态上下线场景下的弹性调度和故障容错能力。",
+                            "evidence": [
+                              {
+                                "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                                "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                                "field": "full_description",
+                                "start": 222,
+                                "end": 313,
+                                "quote": "3. 建设规模化后训练系统，支持在线 / 离线 RL，以及仿真、真机和世界模型混合训练，完善轨迹数据管理、模型权重同步与版本治理，以及机器人动态上下线场景下的弹性调度和故障容错能力。"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "N0396:d4",
+                        "relation": "ALL",
+                        "scope": "JOB_RESPONSIBILITIES",
+                        "rationale": "第4支同时写专用模型推理和跨版本自动评测，两种交付同属该可选方向。",
+                        "evidence": [
+                          {
+                            "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                            "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                            "field": "full_description",
+                            "start": 314,
+                            "end": 413,
+                            "quote": "4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验，统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。"
+                          }
+                        ],
+                        "children": [
+                          {
+                            "id": "N0396:d4ml",
+                            "relation": "ROLE",
+                            "value": "RF_ML_AI_ENGINEERING",
+                            "surface": "高性能模型推理",
+                            "evidence": [
+                              {
+                                "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                                "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                                "field": "full_description",
+                                "start": 314,
+                                "end": 366,
+                                "quote": "4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验"
+                              }
+                            ],
+                            "duties_status": "DESCRIBED",
+                            "duties": [
+                              {
+                                "summary": "4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验",
+                                "evidence": [
+                                  {
+                                    "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                                    "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                                    "field": "full_description",
+                                    "start": 314,
+                                    "end": 366,
+                                    "quote": "4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "N0396:d4ev",
+                            "relation": "ROLE",
+                            "value": "RF_SIMULATION_EVALUATION",
+                            "surface": "自动评测系统",
+                            "evidence": [
+                              {
+                                "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                                "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                                "field": "full_description",
+                                "start": 327,
+                                "end": 333,
+                                "quote": "自动评测系统"
+                              },
+                              {
+                                "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                                "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                                "field": "full_description",
+                                "start": 367,
+                                "end": 413,
+                                "quote": "统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。"
+                              }
+                            ],
+                            "duties_status": "DESCRIBED",
+                            "duties": [
+                              {
+                                "summary": "统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。",
+                                "evidence": [
+                                  {
+                                    "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                                    "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                                    "field": "full_description",
+                                    "start": 367,
+                                    "end": 413,
+                                    "quote": "统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "N0396:d5",
+                        "relation": "ROLE",
+                        "value": "RF_ML_AI_ENGINEERING",
+                        "surface": "5. 建设端到端性能",
+                        "evidence": [
+                          {
+                            "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                            "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                            "field": "full_description",
+                            "start": 414,
+                            "end": 520,
+                            "quote": "5. 建设端到端性能与集群基础设施，围绕数据 IO、GPU 计算、集合通信、网络、存储和调度开展 Profiling 与优化，包括算子融合、计算通信 Overlap、Checkpoint、故障恢复和拓扑感知调度。"
+                          }
+                        ],
+                        "duties_status": "DESCRIBED",
+                        "duties": [
+                          {
+                            "summary": "5. 建设端到端性能与集群基础设施，围绕数据 IO、GPU 计算、集合通信、网络、存储和调度开展 Profiling 与优化，包括算子融合、计算通信 Overlap、Checkpoint、故障恢复和拓扑感知调度。",
+                            "evidence": [
+                              {
+                                "record_id": "CN_AGIBOT|feishu|7627076586026715438",
+                                "text_version_hash": "3acc0bcb719dcb2d07285d9551baa567bfdec9a98010a019a1e48ed3f899a84a",
+                                "field": "full_description",
+                                "start": 414,
+                                "end": 520,
+                                "quote": "5. 建设端到端性能与集群基础设施，围绕数据 IO、GPU 计算、集合通信、网络、存储和调度开展 Profiling 与优化，包括算子融合、计算通信 Overlap、Checkpoint、故障恢复和拓扑感知调度。"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "minimum_explicit": 1,
+                    "maximum_explicit": null
+                  }
+                }
+              }
+            ],
+            "rationale": "一个或多个方向的招聘选择明确。原五支必须分别保存；第4支同时写专用模型推理和跨版本自动评测能力，不能为统一成ML而删掉评测职责。"
+          },
+          "secondary_roles": {
+            "status": "NOT_MENTIONED",
+            "items": [],
+            "rationale": "组成职能已记入主类role_structure，不再重复为普通次职能。"
+          },
+          "technical_concepts": {
+            "status": "CODED",
+            "items": [
+              {
+                "value": "TC_ML_SYSTEMS",
+                "quote": "1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。",
+                "field": "full_description",
+                "start": 23,
+                "context": "DUTY",
+                "use": "DUTY_USE",
+                "mention_relation": "OWN_DEVELOP"
+              },
+              {
+                "value": "TC_FOUNDATION_MODEL",
+                "quote": "1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。",
+                "field": "full_description",
+                "start": 23,
+                "context": "DUTY",
+                "use": "DUTY_USE",
+                "mention_relation": "OWN_USE",
+                "reason": "本人建设统一训练系统，模型为训练运行所服务对象；未明示本人研发该模型架构或学习算法。"
+              },
+              {
+                "value": "TC_RL",
+                "quote": "1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。",
+                "field": "full_description",
+                "start": 23,
+                "context": "DUTY",
+                "use": "DUTY_USE",
+                "mention_relation": "OWN_USE",
+                "reason": "本人建设统一训练系统，模型为训练运行所服务对象；未明示本人研发该模型架构或学习算法。"
+              },
+              {
+                "value": "TC_ML_MODELS",
+                "quote": "1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。",
+                "field": "full_description",
+                "start": 23,
+                "context": "DUTY",
+                "use": "DUTY_USE",
+                "mention_relation": "OWN_USE",
+                "reason": "本人建设统一训练系统，模型为训练运行所服务对象；未明示本人研发该模型架构或学习算法。"
+              },
+              {
+                "value": "TC_SIMULATION",
+                "quote": "3. 建设规模化后训练系统，支持在线 / 离线 RL，以及仿真、真机和世界模型混合训练，完善轨迹数据管理、模型权重同步与版本治理，以及机器人动态上下线场景下的弹性调度和故障容错能力。",
+                "field": "full_description",
+                "start": 222,
+                "context": "DUTY",
+                "use": "DUTY_USE",
+                "mention_relation": "OWN_USE"
+              },
+              {
+                "value": "TC_DATA_PIPELINE",
+                "quote": "3. 建设规模化后训练系统，支持在线 / 离线 RL，以及仿真、真机和世界模型混合训练，完善轨迹数据管理、模型权重同步与版本治理，以及机器人动态上下线场景下的弹性调度和故障容错能力。",
+                "field": "full_description",
+                "start": 222,
+                "context": "DUTY",
+                "use": "DUTY_USE",
+                "mention_relation": "OWN_DEVELOP"
+              },
+              {
+                "value": "TC_EVALUATION",
+                "quote": "4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验，统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。",
+                "field": "full_description",
+                "start": 314,
+                "context": "DUTY",
+                "use": "DUTY_USE",
+                "mention_relation": "OWN_DEVELOP"
+              },
+              {
+                "value": "TC_RELIABILITY",
+                "quote": "5. 建设端到端性能与集群基础设施，围绕数据 IO、GPU 计算、集合通信、网络、存储和调度开展 Profiling 与优化，包括算子融合、计算通信 Overlap、Checkpoint、故障恢复和拓扑感知调度。",
+                "field": "full_description",
+                "start": 414,
+                "context": "DUTY",
+                "use": "DUTY_USE",
+                "mention_relation": "OWN_DEVELOP"
+              },
+              {
+                "value": "TC_ML_SYSTEMS",
+                "quote": "大规模分布式训练",
+                "field": "full_description",
+                "start": 128,
+                "context": "REQUIREMENT",
+                "use": "GENERAL_REQUIREMENT",
+                "mention_relation": "EXPERIENCE_REQUIREMENT",
+                "requirement_node_id": "N0396:g2:n2"
+              },
+              {
+                "value": "TC_ML_SYSTEMS",
+                "quote": "大模型推理",
+                "field": "full_description",
+                "start": 614,
+                "context": "REQUIREMENT",
+                "use": "GENERAL_REQUIREMENT",
+                "mention_relation": "EXPERIENCE_REQUIREMENT",
+                "requirement_node_id": "N0396:g2:n3"
+              },
+              {
+                "value": "TC_FOUNDATION_MODEL",
+                "quote": "大模型推理",
+                "field": "full_description",
+                "start": 614,
+                "context": "REQUIREMENT",
+                "use": "GENERAL_REQUIREMENT",
+                "mention_relation": "EXPERIENCE_REQUIREMENT",
+                "requirement_node_id": "N0396:g2:n3"
+              },
+              {
+                "value": "TC_ML_SYSTEMS",
+                "quote": "强化学习 Infra",
+                "field": "full_description",
+                "start": 620,
+                "context": "REQUIREMENT",
+                "use": "GENERAL_REQUIREMENT",
+                "mention_relation": "EXPERIENCE_REQUIREMENT",
+                "requirement_node_id": "N0396:g2:n4"
+              },
+              {
+                "value": "TC_RL",
+                "quote": "强化学习 Infra",
+                "field": "full_description",
+                "start": 620,
+                "context": "REQUIREMENT",
+                "use": "GENERAL_REQUIREMENT",
+                "mention_relation": "EXPERIENCE_REQUIREMENT",
+                "requirement_node_id": "N0396:g2:n4"
+              },
+              {
+                "value": "TC_EVALUATION",
+                "quote": "模型评测",
+                "field": "full_description",
+                "start": 650,
+                "context": "REQUIREMENT",
+                "use": "GENERAL_REQUIREMENT",
+                "mention_relation": "EXPERIENCE_REQUIREMENT",
+                "requirement_node_id": "N0396:g2:n7"
+              },
+              {
+                "value": "TC_FOUNDATION_MODEL",
+                "quote": "理解大模型训练与推理原理",
+                "field": "full_description",
+                "start": 679,
+                "context": "REQUIREMENT",
+                "use": "GENERAL_REQUIREMENT",
+                "mention_relation": "EXPERIENCE_REQUIREMENT",
+                "requirement_node_id": "N0396:g3:n2"
+              },
+              {
+                "value": "TC_ML_SYSTEMS",
+                "quote": "理解大模型训练与推理原理",
+                "field": "full_description",
+                "start": 679,
+                "context": "REQUIREMENT",
+                "use": "GENERAL_REQUIREMENT",
+                "mention_relation": "EXPERIENCE_REQUIREMENT",
+                "requirement_node_id": "N0396:g3:n2"
+              },
+              {
+                "value": "TC_EVALUATION",
+                "quote": "5. 具备良好的系统设计能力，能够通过 Benchmark 和 Profiling 数据推动系统演进，并在正确性、性能、稳定性、扩展性和长期可维护性之间合理取舍。",
+                "field": "full_description",
+                "start": 842,
+                "context": "REQUIREMENT",
+                "use": "GENERAL_REQUIREMENT",
+                "mention_relation": "EXPERIENCE_REQUIREMENT",
+                "requirement_node_id": "N0396:g4:n2"
+              },
+              {
+                "value": "TC_REALTIME",
+                "quote": "4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验，统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。",
+                "field": "full_description",
+                "start": 314,
+                "context": "DUTY",
+                "use": "DUTY_USE",
+                "mention_relation": "OWN_DEVELOP"
+              }
+            ],
+            "rationale": "逐项保留职责及任职要求中明确技术对象；用途与本人承担关系分开，要求绑定原句逻辑叶。"
+          },
+          "skills": {
+            "status": "CODED",
+            "items": [
+              {
+                "value": "SK_PYTHON",
+                "quote": "1. 计算机、人工智能、机器人等相关专业本科及以上学历，计算机基础扎实，具备优秀的代码能力和工程习惯，熟练使用 Python 和 PyTorch。",
+                "field": "full_description",
+                "start": 527,
+                "context": "REQUIREMENT",
+                "use": "GENERAL_REQUIREMENT",
+                "mention_relation": "EXPERIENCE_REQUIREMENT",
+                "requirement_node_id": "N0396:g1:n2"
+              },
+              {
+                "value": "SK_PYTORCH",
+                "quote": "1. 计算机、人工智能、机器人等相关专业本科及以上学历，计算机基础扎实，具备优秀的代码能力和工程习惯，熟练使用 Python 和 PyTorch。",
+                "field": "full_description",
+                "start": 527,
+                "context": "REQUIREMENT",
+                "use": "GENERAL_REQUIREMENT",
+                "mention_relation": "EXPERIENCE_REQUIREMENT",
+                "requirement_node_id": "N0396:g1:n2"
+              }
+            ],
+            "rationale": "仅记原文明示工具、方法与工作技能，要求修饰限于局部；目录外项另存。"
+          },
+          "activities": {
+            "status": "CODED",
+            "items": [
+              {
+                "value": "ACT_ENGINEERING",
+                "quote": "1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。",
+                "field": "full_description",
+                "start": 23,
+                "relation": "PARTICIPATES"
+              }
+            ],
+            "rationale": "按实际职责动作编码活动；任职经历和配套工具不反推活动。"
+          }
+        },
+        "evidence_locations": [
+          {
+            "quote": "1. 计算机、人工智能、机器人等相关专业本科及以上学历，计算机基础扎实，具备优秀的代码能力和工程习惯，熟练使用 Python 和 PyTorch。",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 527,
+                "end": 600
+              }
+            ]
+          },
+          {
+            "quote": "2. 在大规模分布式训练、大模型推理、强化学习 Infra、GPU 集群调度、AI 系统性能优化或模型评测中的一个或多个方向具备深入的实际项目经验。",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 601,
+                "end": 675
+              }
+            ]
+          },
+          {
+            "quote": "大规模分布式训练",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 128,
+                "end": 136
+              },
+              {
+                "field": "full_description",
+                "start": 605,
+                "end": 613
+              }
+            ]
+          },
+          {
+            "quote": "大模型推理",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 614,
+                "end": 619
+              }
+            ]
+          },
+          {
+            "quote": "强化学习 Infra",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 620,
+                "end": 630
+              }
+            ]
+          },
+          {
+            "quote": "GPU 集群调度",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 631,
+                "end": 639
+              }
+            ]
+          },
+          {
+            "quote": "AI 系统性能优化",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 640,
+                "end": 649
+              }
+            ]
+          },
+          {
+            "quote": "模型评测",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 650,
+                "end": 654
+              }
+            ]
+          },
+          {
+            "quote": "3. 理解大模型训练与推理原理，熟悉模型并行、计算图、集合通信、显存管理及性能分析，了解 Megatron、DeepSpeed、FSDP、verl、RLinf 等框架中的一种或多种。",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 676,
+                "end": 767
+              }
+            ]
+          },
+          {
+            "quote": "理解大模型训练与推理原理",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 679,
+                "end": 691
+              }
+            ]
+          },
+          {
+            "quote": "Megatron、DeepSpeed、FSDP、verl、RLinf 等框架中的一种或多种",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 721,
+                "end": 766
+              }
+            ]
+          },
+          {
+            "quote": "Megatron",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 721,
+                "end": 729
+              }
+            ]
+          },
+          {
+            "quote": "DeepSpeed",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 730,
+                "end": 739
+              }
+            ]
+          },
+          {
+            "quote": "FSDP",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 740,
+                "end": 744
+              }
+            ]
+          },
+          {
+            "quote": "verl",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 490,
+                "end": 494
+              },
+              {
+                "field": "full_description",
+                "start": 745,
+                "end": 749
+              }
+            ]
+          },
+          {
+            "quote": "RLinf",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 750,
+                "end": 755
+              }
+            ]
+          },
+          {
+            "quote": "5. 具备良好的系统设计能力，能够通过 Benchmark 和 Profiling 数据推动系统演进，并在正确性、性能、稳定性、扩展性和长期可维护性之间合理取舍。",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 842,
+                "end": 923
+              }
+            ]
+          },
+          {
+            "quote": "1. 建设具身智能原生的统一训练架构，支撑 VLA、世界模型、多模态生成模型及强化学习模型的预训练与后训练，统一处理异源多模态数据、异构计算图、共享参数和多任务联合训练，面向 1T+ 参数规模演进。",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 23,
+                "end": 122
+              }
+            ]
+          },
+          {
+            "quote": "可选择以下一个或多个方向深入参与",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 5,
+                "end": 21
+              }
+            ]
+          },
+          {
+            "quote": "2. 建设大规模分布式训练系统，支持 DP、TP、PP、EP、SP、CP 等多维混合并行，以及 MoE、MoT、长上下文和低精度训练，持续提升百卡、千卡至万卡任务的吞吐、MFU、扩展效率和稳定性。",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 123,
+                "end": 221
+              }
+            ]
+          },
+          {
+            "quote": "3. 建设规模化后训练系统，支持在线 / 离线 RL，以及仿真、真机和世界模型混合训练，完善轨迹数据管理、模型权重同步与版本治理，以及机器人动态上下线场景下的弹性调度和故障容错能力。",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 222,
+                "end": 313
+              }
+            ]
+          },
+          {
+            "quote": "4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验，统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 314,
+                "end": 413
+              }
+            ]
+          },
+          {
+            "quote": "4. 建设高性能模型推理与自动评测系统，支持 VLA、世界模型等模型的高吞吐、低延迟推理和大规模并发实验",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 314,
+                "end": 366
+              }
+            ]
+          },
+          {
+            "quote": "自动评测系统",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 327,
+                "end": 333
+              }
+            ]
+          },
+          {
+            "quote": "统一管理模型版本、评测任务与结果，支持仿真 / 真机自动评测、版本对比、回归检测和结果追溯。",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 367,
+                "end": 413
+              }
+            ]
+          },
+          {
+            "quote": "5. 建设端到端性能与集群基础设施，围绕数据 IO、GPU 计算、集合通信、网络、存储和调度开展 Profiling 与优化，包括算子融合、计算通信 Overlap、Checkpoint、故障恢复和拓扑感知调度。",
+            "locations": [
+              {
+                "field": "full_description",
+                "start": 414,
+                "end": 520
+              }
+            ]
+          }
+        ],
+        "evidence_location_warning_count": 2,
+        "mechanical_warning_counts": {
+          "same_concept_distinct_evidence_or_leaf": 5
+        },
+        "rationale": "一个或多个方向的招聘选择明确。原五支必须分别保存；第4支同时写专用模型推理和跨版本自动评测能力，不能为统一成ML而删掉评测职责。",
+        "structure_application": {
+          "date": "2026-09-14",
+          "rules_version": "measurement-v0.7.5",
+          "authorization": "按照Astra的结果把项目里的分类修改过来，同时1044条也正式敲定通过"
+        },
+        "acceptance_id": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1",
+        "origin_reference": {
+          "path": "outputs/reference-expansion-2026-09-11/new-company-reference1044-2026-09-12/final-v4-2026-09-14/reference1044.jsonl",
+          "line": 408,
+          "file_sha256": "574438fa06b8e6e11691207222b2d7a16309025acf8f9acedcf848aae609b7f4",
+          "acceptance_id": "REFERENCE1044_USER_ACCEPTED_2026_09_14_V4"
+        }
+      }
+    },
+    "owned": []
+  }
+]

@@ -1,0 +1,337 @@
+{
+  "n_companies": 24,
+  "n_ads": 1654,
+  "n_concrete_role_ads": 1576,
+  "strata_counts": {
+    "SYSTEM_PRODUCTS": 18,
+    "COMPONENT_SYSTEM_PORTFOLIO": 1,
+    "TEAM_SEPARATE": 1,
+    "CROSS_BODY_MODELS": 3,
+    "ROBOT_OPERATED_SERVICE": 1
+  },
+  "strata_ads": {
+    "SYSTEM_PRODUCTS": 1245,
+    "CROSS_BODY_MODELS": 226,
+    "COMPONENT_SYSTEM_PORTFOLIO": 125,
+    "ROBOT_OPERATED_SERVICE": 34,
+    "TEAM_SEPARATE": 24
+  },
+  "scene_assertions": 51,
+  "scene_connections": {
+    "MANUFACTURING": 10,
+    "LOGISTICS": 11,
+    "RETAIL_SERVICE": 4,
+    "FIELD_INSPECTION": 3,
+    "RESEARCH_EDUCATION": 4,
+    "HEALTHCARE_CARE": 3,
+    "HOME": 3
+  },
+  "scene_observed_use_donation_research": {
+    "MANUFACTURING": 4,
+    "RETAIL_SERVICE": 2,
+    "FIELD_INSPECTION": 1,
+    "HEALTHCARE_CARE": 3,
+    "RESEARCH_EDUCATION": 2,
+    "LOGISTICS": 5
+  },
+  "selected_roles": [
+    {
+      "role_code": "RF_ML_AI_ENGINEERING",
+      "role_name": "ML/AI工程",
+      "n_ads_all": 159,
+      "n_companies_all": 24,
+      "n_ads_main_companies": 156,
+      "n_main_companies": 23,
+      "n_main_companies_ge5": 14,
+      "n_main_companies_ge10": 4,
+      "skills_CODED": 144,
+      "skills_NOT_MENTIONED": 13,
+      "skills_SOURCE_UNASSESSABLE": 0,
+      "skills_UNMAPPED": 2,
+      "skills_source_assessable_share": 1.0,
+      "technical_concepts_CODED": 159,
+      "technical_concepts_NOT_MENTIONED": 0,
+      "technical_concepts_SOURCE_UNASSESSABLE": 0,
+      "technical_concepts_UNMAPPED": 0,
+      "technical_concepts_source_assessable_share": 1.0,
+      "feasibility_gate": "PASS",
+      "selected": "YES"
+    },
+    {
+      "role_code": "RF_ROBOTICS_SOFTWARE",
+      "role_name": "软件与平台",
+      "n_ads_all": 181,
+      "n_companies_all": 23,
+      "n_ads_main_companies": 180,
+      "n_main_companies": 22,
+      "n_main_companies_ge5": 16,
+      "n_main_companies_ge10": 6,
+      "skills_CODED": 174,
+      "skills_NOT_MENTIONED": 5,
+      "skills_SOURCE_UNASSESSABLE": 0,
+      "skills_UNMAPPED": 2,
+      "skills_source_assessable_share": 1.0,
+      "technical_concepts_CODED": 171,
+      "technical_concepts_NOT_MENTIONED": 10,
+      "technical_concepts_SOURCE_UNASSESSABLE": 0,
+      "technical_concepts_UNMAPPED": 0,
+      "technical_concepts_source_assessable_share": 1.0,
+      "feasibility_gate": "PASS",
+      "selected": "YES"
+    }
+  ],
+  "display_counts": {
+    "RF_ML_AI_ENGINEERING|skills": 10,
+    "RF_ML_AI_ENGINEERING|technical_concepts": 8,
+    "RF_ROBOTICS_SOFTWARE|skills": 9,
+    "RF_ROBOTICS_SOFTWARE|technical_concepts": 8
+  },
+  "used_evidence_ids": [
+    "B_CN_AGIBOT_003",
+    "B_CN_ASTRIBOT_001",
+    "B_CN_ASTRIBOT_002",
+    "B_CN_DEEPROBOTICS_001",
+    "B_CN_DEEPROBOTICS_003",
+    "B_CN_FOURIER_003",
+    "B_CN_FOURIER_004",
+    "B_CN_FOURIER_005",
+    "B_CN_FOURIER_006",
+    "B_CN_FOURIER_007",
+    "B_CN_GALAXEA_002",
+    "B_CN_GALBOT_001",
+    "B_CN_GALBOT_003",
+    "B_CN_LIMX_001",
+    "B_CN_LIMX_002",
+    "B_CN_LIMX_003",
+    "B_CN_PAXINI_001",
+    "B_CN_UNITREE_001",
+    "B_CN_UNITREE_002",
+    "B_CN_XSQUARE_003",
+    "B_CN_XSQUARE_006",
+    "B_CN_XSQUARE_007",
+    "B_CN_XSQUARE_010",
+    "B_US_AGILITY_005",
+    "B_US_APPTRONIK_001",
+    "B_US_APPTRONIK_002",
+    "B_US_BOSTON_DYNAMICS_001",
+    "B_US_BOSTON_DYNAMICS_002",
+    "B_US_BOSTON_DYNAMICS_003",
+    "B_US_DEXTERITY_002",
+    "B_US_DILIGENT_001",
+    "B_US_DILIGENT_002",
+    "B_US_FIELD_AI_002",
+    "B_US_FIGURE_005",
+    "B_US_FIGURE_006",
+    "B_US_NIMBLE_002",
+    "B_US_PICKLE_001",
+    "B_US_PICKLE_002",
+    "B_US_PI_002",
+    "B_US_SKILD_003",
+    "B_US_SKILD_004",
+    "IR_FAR_01",
+    "IR_FAR_02",
+    "IR_FIGURE_02_F02",
+    "IR_FOURIER_02",
+    "IR_NOETIX_01",
+    "IR_NOETIX_02",
+    "IR_SPIRITAI_02",
+    "NEW_AGIBOT_01",
+    "NEW_DEEP_01",
+    "NEW_GALAXEA_01",
+    "NEW_GALBOT_01",
+    "NEW_LIMX_01",
+    "NEW_SPIRIT_01",
+    "NEW_UNITREE_01",
+    "NEW_UNITREE_02"
+  ],
+  "input_files_verified": 129,
+  "item_interpretation_counts": [
+    {
+      "dimension": "skills",
+      "metric": "DUTY_OWN_DEVELOP",
+      "branch": "UNCONDITIONAL",
+      "n_items": 14
+    },
+    {
+      "dimension": "skills",
+      "metric": "DUTY_OWN_USE",
+      "branch": "UNCONDITIONAL",
+      "n_items": 170
+    },
+    {
+      "dimension": "skills",
+      "metric": "GENERAL",
+      "branch": "CHOICE",
+      "n_items": 182
+    },
+    {
+      "dimension": "skills",
+      "metric": "GENERAL",
+      "branch": "CHOICE_AND_EXAMPLE",
+      "n_items": 39
+    },
+    {
+      "dimension": "skills",
+      "metric": "GENERAL",
+      "branch": "EXAMPLE",
+      "n_items": 155
+    },
+    {
+      "dimension": "skills",
+      "metric": "GENERAL",
+      "branch": "UNCONDITIONAL",
+      "n_items": 460
+    },
+    {
+      "dimension": "skills",
+      "metric": "PREFERRED",
+      "branch": "CHOICE",
+      "n_items": 59
+    },
+    {
+      "dimension": "skills",
+      "metric": "PREFERRED",
+      "branch": "CHOICE_AND_EXAMPLE",
+      "n_items": 22
+    },
+    {
+      "dimension": "skills",
+      "metric": "PREFERRED",
+      "branch": "EXAMPLE",
+      "n_items": 84
+    },
+    {
+      "dimension": "skills",
+      "metric": "PREFERRED",
+      "branch": "UNCONDITIONAL",
+      "n_items": 100
+    },
+    {
+      "dimension": "skills",
+      "metric": "REQUIRED",
+      "branch": "CHOICE",
+      "n_items": 15
+    },
+    {
+      "dimension": "skills",
+      "metric": "REQUIRED",
+      "branch": "EXAMPLE",
+      "n_items": 4
+    },
+    {
+      "dimension": "skills",
+      "metric": "REQUIRED",
+      "branch": "UNCONDITIONAL",
+      "n_items": 27
+    },
+    {
+      "dimension": "skills",
+      "metric": "SEPARATE_NOT_POSITIVE",
+      "branch": "UNCONDITIONAL",
+      "n_items": 10
+    },
+    {
+      "dimension": "skills",
+      "metric": "SEPARATE_NOT_POSITIVE",
+      "branch": "UNRESOLVED",
+      "n_items": 279
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "DUTY_OWN_DEVELOP",
+      "branch": "UNCONDITIONAL",
+      "n_items": 1059
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "DUTY_OWN_USE",
+      "branch": "UNCONDITIONAL",
+      "n_items": 362
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "GENERAL",
+      "branch": "CHOICE",
+      "n_items": 305
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "GENERAL",
+      "branch": "CHOICE_AND_EXAMPLE",
+      "n_items": 18
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "GENERAL",
+      "branch": "EXAMPLE",
+      "n_items": 135
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "GENERAL",
+      "branch": "UNCONDITIONAL",
+      "n_items": 647
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "PREFERRED",
+      "branch": "CHOICE",
+      "n_items": 308
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "PREFERRED",
+      "branch": "CHOICE_AND_EXAMPLE",
+      "n_items": 9
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "PREFERRED",
+      "branch": "EXAMPLE",
+      "n_items": 114
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "PREFERRED",
+      "branch": "UNCONDITIONAL",
+      "n_items": 388
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "REQUIRED",
+      "branch": "CHOICE",
+      "n_items": 15
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "REQUIRED",
+      "branch": "CHOICE_AND_EXAMPLE",
+      "n_items": 4
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "REQUIRED",
+      "branch": "EXAMPLE",
+      "n_items": 1
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "REQUIRED",
+      "branch": "UNCONDITIONAL",
+      "n_items": 48
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "SEPARATE_NOT_POSITIVE",
+      "branch": "UNCONDITIONAL",
+      "n_items": 438
+    },
+    {
+      "dimension": "technical_concepts",
+      "metric": "SEPARATE_NOT_POSITIVE",
+      "branch": "UNRESOLVED",
+      "n_items": 76
+    }
+  ],
+  "role_rates_by_group_computed": false
+}

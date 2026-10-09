@@ -1,0 +1,1561 @@
+[
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7591412518296406310|d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34",
+    "reading_id": "E0248",
+    "company_id": "CN_XSQUARE",
+    "title": "机器人软件开发工程师",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7591412518296406310|d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34",
+      "record_id": "CN_XSQUARE|feishu|7591412518296406310",
+      "reading_id": "E0248",
+      "company_id": "CN_XSQUARE",
+      "company_name": "X Square",
+      "title": "机器人软件开发工程师",
+      "root_relation": "ALL",
+      "n_role_nodes": "3",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"正文并列负责应用UI/SDK、专用模型推理和版本化RL数据Pipeline，未说明后二者从属。旧理由写了主线，但没有对应的原文主次证据。\", \"expression\": {\"id\": \"E0248:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"正文并列负责应用UI/SDK、专用模型推理和版本化RL数据Pipeline，未说明后二者从属。旧理由写了主线，但没有对应的原文主次证据。\", \"evidence\": [{\"record_id\": \"CN_XSQUARE|feishu|7591412518296406310\", \"text_version_hash\": \"d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34\", \"field\": \"full_description\", \"start\": 7, \"end\": 26, \"quote\": \"负责 UI 采数与模型推理交互模块开发\"}], \"children\": [{\"id\": \"E0248:ui\", \"relation\": \"ROLE\", \"value\": \"RF_ROBOTICS_SOFTWARE\", \"surface\": \"负责 UI 采数与模型推理交互模块开发\", \"evidence\": [{\"record_id\": \"CN_XSQUARE|feishu|7591412518296406310\", \"text_version_hash\": \"d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34\", \"field\": \"full_description\", \"start\": 7, \"end\": 68, \"quote\": \"负责 UI 采数与模型推理交互模块开发：基于 ROS2 实现数据获取、机器人控制、采集任务配置、实时可视化展示与模型交互。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责 UI 采数与模型推理交互模块开发：基于 ROS2 实现数据获取、机器人控制、采集任务配置、实时可视化展示与模型交互。\", \"evidence\": [{\"record_id\": \"CN_XSQUARE|feishu|7591412518296406310\", \"text_version_hash\": \"d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34\", \"field\": \"full_description\", \"start\": 7, \"end\": 68, \"quote\": \"负责 UI 采数与模型推理交互模块开发：基于 ROS2 实现数据获取、机器人控制、采集任务配置、实时可视化展示与模型交互。\"}]}, {\"summary\": \"基于内部机器人 SDK 平台开发，抽象多机型统一接口与组件化能力，沉淀可复用模块、示例工程与二次开发文档。\", \"evidence\": [{\"record_id\": \"CN_XSQUARE|feishu|7591412518296406310\", \"text_version_hash\": \"d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34\", \"field\": \"full_description\", \"start\": 277, \"end\": 330, \"quote\": \"基于内部机器人 SDK 平台开发，抽象多机型统一接口与组件化能力，沉淀可复用模块、示例工程与二次开发文档。\"}]}]}, {\"id\": \"E0248:inf\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"负责模型推理工程化集成与部署\", \"evidence\": [{\"record_id\": \"CN_XSQUARE|feishu|7591412518296406310\", \"text_version_hash\": \"d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34\", \"field\": \"full_description\", \"start\": 121, \"end\": 168, \"quote\": \"负责模型推理工程化集成与部署：对接内部模型推理框架，实现批量实时推理、模型传输与模型版本更新。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责模型推理工程化集成与部署：对接内部模型推理框架，实现批量实时推理、模型传输与模型版本更新。\", \"evidence\": [{\"record_id\": \"CN_XSQUARE|feishu|7591412518296406310\", \"text_version_hash\": \"d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34\", \"field\": \"full_description\", \"start\": 121, \"end\": 168, \"quote\": \"负责模型推理工程化集成与部署：对接内部模型推理框架，实现批量实时推理、模型传输与模型版本更新。\"}]}]}, {\"id\": \"E0248:pipe\", \"relation\": \"ROLE\", \"value\": \"RF_DATA_INFRA_OPERATIONS\", \"surface\": \"根据强化学习（RL）训练/评测流程开发数据 Pipeline\", \"evidence\": [{\"record_id\": \"CN_XSQUARE|feishu|7591412518296406310\", \"text_version_hash\": \"d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34\", \"field\": \"full_description\", \"start\": 171, \"end\": 274, \"quote\": \"根据强化学习（RL）训练/评测流程开发数据 Pipeline：trajectory/episode 构建（obs/action/reward）、数据集切分与版本化、离线评测指标统计与回归验证（仿真/实机）。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"根据强化学习（RL）训练/评测流程开发数据 Pipeline：trajectory/episode 构建（obs/action/reward）、数据集切分与版本化、离线评测指标统计与回归验证（仿真/实机）。\", \"evidence\": [{\"record_id\": \"CN_XSQUARE|feishu|7591412518296406310\", \"text_version_hash\": \"d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34\", \"field\": \"full_description\", \"start\": 171, \"end\": 274, \"quote\": \"根据强化学习（RL）训练/评测流程开发数据 Pipeline：trajectory/episode 构建（obs/action/reward）、数据集切分与版本化、离线评测指标统计与回归验证（仿真/实机）。\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P2_ENGINEERING_QUALITY",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_QUALITY",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7591412518296406310|d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34",
+        "record_id": "CN_XSQUARE|feishu|7591412518296406310",
+        "reading_id": "E0248",
+        "company_id": "CN_XSQUARE",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      },
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7591412518296406310|d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34",
+        "record_id": "CN_XSQUARE|feishu|7591412518296406310",
+        "reading_id": "E0248",
+        "company_id": "CN_XSQUARE",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7591412518296406310|d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34",
+            "record_id": "CN_XSQUARE|feishu|7591412518296406310",
+            "reading_id": "E0248",
+            "company_id": "CN_XSQUARE",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "负责模型推理工程化集成与部署",
+            "field": "",
+            "start": "",
+            "end": ""
+          },
+          "recovered": {
+            "field": "duties",
+            "start": 116,
+            "end": 130,
+            "method": "UNIQUE_EXACT_QUOTE",
+            "quote": "负责模型推理工程化集成与部署"
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7591412518296406310|d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34",
+            "record_id": "CN_XSQUARE|feishu|7591412518296406310",
+            "reading_id": "E0248",
+            "company_id": "CN_XSQUARE",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "负责 UI 采数与模型推理交互模块开发",
+            "field": "",
+            "start": "",
+            "end": ""
+          },
+          "recovered": {
+            "field": "duties",
+            "start": 2,
+            "end": 21,
+            "method": "UNIQUE_EXACT_QUOTE",
+            "quote": "负责 UI 采数与模型推理交互模块开发"
+          }
+        }
+      ],
+      "ACT_QUALITY": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7591412518296406310|d2a74e197dab91878a17f32e8ad5638ea95f547340593fae2f86923e9cda8d34",
+            "record_id": "CN_XSQUARE|feishu|7591412518296406310",
+            "reading_id": "E0248",
+            "company_id": "CN_XSQUARE",
+            "label_code": "ACT_QUALITY",
+            "label_name": "质量验证",
+            "relation": "OWNED",
+            "quote": "负责校验数据采集系统",
+            "field": "",
+            "start": "",
+            "end": ""
+          },
+          "recovered": {
+            "field": "duties",
+            "start": 66,
+            "end": 76,
+            "method": "UNIQUE_EXACT_QUOTE",
+            "quote": "负责校验数据采集系统"
+          }
+        }
+      ]
+    },
+    "duties": "- 负责 UI 采数与模型推理交互模块开发:基于 ROS2 实现数据获取、机器人控制、采集任务配置、实时可视化展示与模型交互。\n- 负责校验数据采集系统:多传感器数据接入与时间同步、rosbag2 录包与回放、数据质量校验等。\n- 负责模型推理工程化集成与部署:对接内部模型推理框架,实现批量实时推理、模型传输与模型版本更新。\n- 根据强化学习(RL)训练/评测流程开发数据 Pipeline:trajectory/episode 构建(obs/action/reward)、数据集切分与版本化、离线评测指标统计与回归验证(仿真/实机)。\n- 基于内部机器人 SDK 平台开发,抽象多机型统一接口与组件化能力,沉淀可复用模块、示例工程与二次开发文档。",
+    "requirements": "- 本科及以上,计算机/自动化/机器人相关专业。\n- 熟练 C++,掌握数据结构、计算机网络、操作系统等基础知识,具备良好工程化能力与代码质量意识。\n- 熟悉 Linux 开发环境与常用命令,具备调试与性能分析能力。\n- 熟悉 ROS2等生命周期管理,可独立完成模块化节点设计与系统集成。\n- 具备 AI 推理落地能力:了解深度学习基础与端侧部署要点,能完成模型导出与推理集成。\n- 理解 RL 基本流程与数据形态,能围绕训练/评测闭环构建数据采集、回放复现、数据集管理与指标体系。\n- 理解设计模式与接口抽象,能够在复杂系统中进行模块解耦与可维护架构设计。\n- 有RL经验/顶会论文/竞赛经历(Robomaster/Robocon)者优先。",
+    "full_description": "岗位职责\n- 负责 UI 采数与模型推理交互模块开发：基于 ROS2 实现数据获取、机器人控制、采集任务配置、实时可视化展示与模型交互。\n- 负责校验数据采集系统：多传感器数据接入与时间同步、rosbag2 录包与回放、数据质量校验等。\n- 负责模型推理工程化集成与部署：对接内部模型推理框架，实现批量实时推理、模型传输与模型版本更新。\n- 根据强化学习（RL）训练/评测流程开发数据 Pipeline：trajectory/episode 构建（obs/action/reward）、数据集切分与版本化、离线评测指标统计与回归验证（仿真/实机）。\n- 基于内部机器人 SDK 平台开发，抽象多机型统一接口与组件化能力，沉淀可复用模块、示例工程与二次开发文档。\n\n任职要求\n- 本科及以上，计算机/自动化/机器人相关专业。\n- 熟练 C++，掌握数据结构、计算机网络、操作系统等基础知识，具备良好工程化能力与代码质量意识。\n- 熟悉 Linux 开发环境与常用命令，具备调试与性能分析能力。\n- 熟悉 ROS2等生命周期管理，可独立完成模块化节点设计与系统集成。\n- 具备 AI 推理落地能力：了解深度学习基础与端侧部署要点，能完成模型导出与推理集成。\n- 理解 RL 基本流程与数据形态，能围绕训练/评测闭环构建数据采集、回放复现、数据集管理与指标体系。\n- 理解设计模式与接口抽象，能够在复杂系统中进行模块解耦与可维护架构设计。\n- 有RL经验/顶会论文/竞赛经历（Robomaster/Robocon）者优先。"
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d|1761ca1b57e0c62374cced04d00b6c60dd39f8ec512a0afc5bdedef26654d35a",
+    "reading_id": "N0109",
+    "company_id": "CN_GALBOT",
+    "title": "产测工程师",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d|1761ca1b57e0c62374cced04d00b6c60dd39f8ec512a0afc5bdedef26654d35a",
+      "record_id": "CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d",
+      "reading_id": "N0109",
+      "company_id": "CN_GALBOT",
+      "company_name": "Galbot",
+      "title": "产测工程师",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"同一人开发可反复使用的产测设备，又承担新产品试产测试及问题闭环；后者超过对自己工具的验收自测。\", \"expression\": {\"id\": \"N0109:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"同一人开发可反复使用的产测设备，又承担新产品试产测试及问题闭环；后者超过对自己工具的验收自测。\", \"evidence\": [{\"record_id\": \"CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d\", \"text_version_hash\": \"1761ca1b57e0c62374cced04d00b6c60dd39f8ec512a0afc5bdedef26654d35a\", \"field\": \"full_description\", \"start\": 69, \"end\": 80, \"quote\": \"负责产测设备、工装开发\"}], \"children\": [{\"id\": \"N0109:tool\", \"relation\": \"ROLE\", \"value\": \"RF_SIMULATION_EVALUATION\", \"surface\": \"负责产测设备、工装开发\", \"evidence\": [{\"record_id\": \"CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d\", \"text_version_hash\": \"1761ca1b57e0c62374cced04d00b6c60dd39f8ec512a0afc5bdedef26654d35a\", \"field\": \"full_description\", \"start\": 69, \"end\": 81, \"quote\": \"负责产测设备、工装开发。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责产测设备、工装开发。\", \"evidence\": [{\"record_id\": \"CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d\", \"text_version_hash\": \"1761ca1b57e0c62374cced04d00b6c60dd39f8ec512a0afc5bdedef26654d35a\", \"field\": \"full_description\", \"start\": 69, \"end\": 81, \"quote\": \"负责产测设备、工装开发。\"}]}, {\"summary\": \"负责制定新产品标定及产测流程，输出产测SOP。\", \"evidence\": [{\"record_id\": \"CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d\", \"text_version_hash\": \"1761ca1b57e0c62374cced04d00b6c60dd39f8ec512a0afc5bdedef26654d35a\", \"field\": \"full_description\", \"start\": 42, \"end\": 65, \"quote\": \"负责制定新产品标定及产测流程，输出产测SOP。\"}]}]}, {\"id\": \"N0109:qual\", \"relation\": \"ROLE\", \"value\": \"RF_MANUFACTURING_QUALITY_SUPPLY\", \"surface\": \"负责新产品试产测试部分\", \"evidence\": [{\"record_id\": \"CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d\", \"text_version_hash\": \"1761ca1b57e0c62374cced04d00b6c60dd39f8ec512a0afc5bdedef26654d35a\", \"field\": \"full_description\", \"start\": 101, \"end\": 153, \"quote\": \"负责新产品试产测试部分，包含产线测试环境搭建、测试跟进、测试问题解决，输出试产测试问题点列表和改善建议。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责新产品试产测试部分，包含产线测试环境搭建、测试跟进、测试问题解决，输出试产测试问题点列表和改善建议。\", \"evidence\": [{\"record_id\": \"CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d\", \"text_version_hash\": \"1761ca1b57e0c62374cced04d00b6c60dd39f8ec512a0afc5bdedef26654d35a\", \"field\": \"full_description\", \"start\": 101, \"end\": 153, \"quote\": \"负责新产品试产测试部分，包含产线测试环境搭建、测试跟进、测试问题解决，输出试产测试问题点列表和改善建议。\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P2_ENGINEERING_QUALITY",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_QUALITY",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d|1761ca1b57e0c62374cced04d00b6c60dd39f8ec512a0afc5bdedef26654d35a",
+        "record_id": "CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d",
+        "reading_id": "N0109",
+        "company_id": "CN_GALBOT",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d|1761ca1b57e0c62374cced04d00b6c60dd39f8ec512a0afc5bdedef26654d35a",
+            "record_id": "CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d",
+            "reading_id": "N0109",
+            "company_id": "CN_GALBOT",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "负责产测设备、工装开发。",
+            "field": "full_description",
+            "start": "69",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 69,
+            "end": 81,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责产测设备、工装开发。"
+          }
+        }
+      ],
+      "ACT_QUALITY": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d|1761ca1b57e0c62374cced04d00b6c60dd39f8ec512a0afc5bdedef26654d35a",
+            "record_id": "CN_GALBOT|moka|7f2d4260-eb00-421d-bd86-8f499f0c8c1d",
+            "reading_id": "N0109",
+            "company_id": "CN_GALBOT",
+            "label_code": "ACT_QUALITY",
+            "label_name": "质量验证",
+            "relation": "OWNED",
+            "quote": "负责产测工具验证和验收。",
+            "field": "full_description",
+            "start": "85",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 85,
+            "end": 97,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责产测工具验证和验收。"
+          }
+        }
+      ]
+    },
+    "duties": "职责：\n\n1.参与新产品测试评审，提出产测工具需求，推动相关部门开发和改善。\n\n2.负责制定新产品标定及产测流程，输出产测SOP。\n\n3.负责产测设备、工装开发。\n\n4.负责产测工具验证和验收。\n\n5.负责新产品试产测试部分，包含产线测试环境搭建、测试跟进、测试问题解决，输出试产测试问题点列表和改善建议。\n\n6.持续推动产测效率提升。\n\n\n\n\n任职要求：\n\n1.本科及以上学历，机械、自动化、测控、计算机等相关专业，工业和消费电子行业3年以上、机器人行业1年以上产测工程师经验；\n\n2.了解机器人标定，熟悉产线测试（含板端和整机）全流程；\n\n3.具备一定的硬件和软件功底 ，有能力对标定和产测问题做基础分析和定位。\n\n4.工作认真负责，具备较强的协调沟通能力与抗压能力；",
+    "requirements": ""
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40|b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4",
+    "reading_id": "N0312",
+    "company_id": "CN_PAXINI",
+    "title": "初级具身智能算法工程师",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40|b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4",
+      "record_id": "CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40",
+      "reading_id": "N0312",
+      "company_id": "CN_PAXINI",
+      "company_name": "PaXini Tech",
+      "title": "初级具身智能算法工程师",
+      "root_relation": "ALL",
+      "n_role_nodes": "3",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"数据工程、跨场景构型Benchmark、训练专用环境维护均写负责。协助训练不等于本人独立训练模型；但训练系统运维本身是ML工程交付。初级职位不是不能复合的理由。\", \"expression\": {\"id\": \"N0312:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"数据工程、跨场景构型Benchmark、训练专用环境维护均写负责。协助训练不等于本人独立训练模型；但训练系统运维本身是ML工程交付。初级职位不是不能复合的理由。\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40\", \"text_version_hash\": \"b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4\", \"field\": \"full_description\", \"start\": 5, \"end\": 11, \"quote\": \"1.数据工程\"}], \"children\": [{\"id\": \"N0312:data\", \"relation\": \"ROLE\", \"value\": \"RF_DATA_INFRA_OPERATIONS\", \"surface\": \"1.数据工程\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40\", \"text_version_hash\": \"b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4\", \"field\": \"full_description\", \"start\": 5, \"end\": 52, \"quote\": \"1.数据工程： 负责海量机器人遥操作数据的采集、清洗、标注及标准化处理，搭建高效的数据流水线。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"1.数据工程： 负责海量机器人遥操作数据的采集、清洗、标注及标准化处理，搭建高效的数据流水线。\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40\", \"text_version_hash\": \"b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4\", \"field\": \"full_description\", \"start\": 5, \"end\": 52, \"quote\": \"1.数据工程： 负责海量机器人遥操作数据的采集、清洗、标注及标准化处理，搭建高效的数据流水线。\"}]}]}, {\"id\": \"N0312:bench\", \"relation\": \"ROLE\", \"value\": \"RF_SIMULATION_EVALUATION\", \"surface\": \"负责在多场景、多构型下\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40\", \"text_version_hash\": \"b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4\", \"field\": \"full_description\", \"start\": 76, \"end\": 112, \"quote\": \"负责在多场景、多构型下进行模型性能的自动化评测与Benchmark构建。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责在多场景、多构型下进行模型性能的自动化评测与Benchmark构建。\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40\", \"text_version_hash\": \"b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4\", \"field\": \"full_description\", \"start\": 76, \"end\": 112, \"quote\": \"负责在多场景、多构型下进行模型性能的自动化评测与Benchmark构建。\"}]}]}, {\"id\": \"N0312:env\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"负责训练环境的维护\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40\", \"text_version_hash\": \"b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4\", \"field\": \"full_description\", \"start\": 121, \"end\": 165, \"quote\": \"负责训练环境的维护、Bug排查及日志分析，解决训练过程中的环境崩溃和显存溢出等周边问题。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责训练环境的维护、Bug排查及日志分析，解决训练过程中的环境崩溃和显存溢出等周边问题。\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40\", \"text_version_hash\": \"b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4\", \"field\": \"full_description\", \"start\": 121, \"end\": 165, \"quote\": \"负责训练环境的维护、Bug排查及日志分析，解决训练过程中的环境崩溃和显存溢出等周边问题。\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40|b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4",
+        "record_id": "CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40",
+        "reading_id": "N0312",
+        "company_id": "CN_PAXINI",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40|b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4",
+            "record_id": "CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40",
+            "reading_id": "N0312",
+            "company_id": "CN_PAXINI",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "3.环境运维： 负责训练环境的维护、Bug排查及日志分析，解决训练过程中的环境崩溃和显存溢出等周边问题。",
+            "field": "full_description",
+            "start": "113",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 113,
+            "end": 165,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "3.环境运维： 负责训练环境的维护、Bug排查及日志分析，解决训练过程中的环境崩溃和显存溢出等周边问题。"
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40|b83ef2a17be429bfc9f027c0e767caadc0d2b335e4d90a549eb6737354f02bd4",
+            "record_id": "CN_PAXINI|zhiye|48deb1a8-bb0a-4d7b-bc3c-38160be12b40",
+            "reading_id": "N0312",
+            "company_id": "CN_PAXINI",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "负责在多场景、多构型下进行模型性能的自动化评测与Benchmark构建",
+            "field": "full_description",
+            "start": "76",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 76,
+            "end": 111,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责在多场景、多构型下进行模型性能的自动化评测与Benchmark构建"
+          }
+        }
+      ]
+    },
+    "duties": "1.数据工程： 负责海量机器人遥操作数据的采集、清洗、标注及标准化处理，搭建高效的数据流水线。\n2.训练与评测： 协助高级工程师进行模型训练，负责在多场景、多构型下进行模型性能的自动化评测与Benchmark构建。\n3.环境运维： 负责训练环境的维护、Bug排查及日志分析，解决训练过程中的环境崩溃和显存溢出等周边问题。\n4.实验跟踪： 详细记录实验过程与结果，协助进行模型推理加速和部署脚本的开发。",
+    "requirements": "1.硬性背景： 本科及以上学历，计算机、电子信息、自动化等相关专业。\n2.代码能力： 精通Python，熟悉Linux开发环境，代码规范，具备良好的Debug能力。\n3.工具链： 熟悉PyTorch；了解Isaac Sim/Mujoco等物理仿真平台的基本使用。\n4.软素质： 自驱力强，能吃苦（需配合真机实验进度），具备优秀的团队协作精神，愿意投身一线工程落地。",
+    "full_description": "工作职责\n1.数据工程： 负责海量机器人遥操作数据的采集、清洗、标注及标准化处理，搭建高效的数据流水线。\n2.训练与评测： 协助高级工程师进行模型训练，负责在多场景、多构型下进行模型性能的自动化评测与Benchmark构建。\n3.环境运维： 负责训练环境的维护、Bug排查及日志分析，解决训练过程中的环境崩溃和显存溢出等周边问题。\n4.实验跟踪： 详细记录实验过程与结果，协助进行模型推理加速和部署脚本的开发。\n\n任职资格\n1.硬性背景： 本科及以上学历，计算机、电子信息、自动化等相关专业。\n2.代码能力： 精通Python，熟悉Linux开发环境，代码规范，具备良好的Debug能力。\n3.工具链： 熟悉PyTorch；了解Isaac Sim/Mujoco等物理仿真平台的基本使用。\n4.软素质： 自驱力强，能吃苦（需配合真机实验进度），具备优秀的团队协作精神，愿意投身一线工程落地。"
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a|bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a",
+    "reading_id": "N0331",
+    "company_id": "CN_PAXINI",
+    "title": "计量校准工程师​ ​",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a|bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a",
+      "record_id": "CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a",
+      "reading_id": "N0331",
+      "company_id": "CN_PAXINI",
+      "company_name": "PaXini Tech",
+      "title": "计量校准工程师​ ​",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"可复用计量标准/方法与周期校准/溯源/质量体系均为持续本人交付；实验室合规属于计量质量结果，不是独立企业治理岗。\", \"expression\": {\"id\": \"N0331:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"可复用计量标准/方法与周期校准/溯源/质量体系均为持续本人交付；实验室合规属于计量质量结果，不是独立企业治理岗。\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a\", \"text_version_hash\": \"bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a\", \"field\": \"full_description\", \"start\": 23, \"end\": 43, \"quote\": \"负责建立、维护和完善实验室的计量标准装置\"}], \"children\": [{\"id\": \"N0331:std\", \"relation\": \"ROLE\", \"value\": \"RF_SIMULATION_EVALUATION\", \"surface\": \"负责建立、维护和完善实验室的计量标准装置\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a\", \"text_version_hash\": \"bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a\", \"field\": \"full_description\", \"start\": 23, \"end\": 56, \"quote\": \"负责建立、维护和完善实验室的计量标准装置及配套设备（力学、磁学）。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责建立、维护和完善实验室的计量标准装置及配套设备（力学、磁学）。\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a\", \"text_version_hash\": \"bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a\", \"field\": \"full_description\", \"start\": 23, \"end\": 56, \"quote\": \"负责建立、维护和完善实验室的计量标准装置及配套设备（力学、磁学）。\"}]}, {\"summary\": \"对关键测量过程进行不确定度评定与监控，保障检测/校准结果的的准确可靠。\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a\", \"text_version_hash\": \"bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a\", \"field\": \"full_description\", \"start\": 173, \"end\": 208, \"quote\": \"对关键测量过程进行不确定度评定与监控，保障检测/校准结果的的准确可靠。\"}]}]}, {\"id\": \"N0331:cal\", \"relation\": \"ROLE\", \"value\": \"RF_MANUFACTURING_QUALITY_SUPPLY\", \"surface\": \"规划并实施实验室设备的周期检定/校准计划\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a\", \"text_version_hash\": \"bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a\", \"field\": \"full_description\", \"start\": 95, \"end\": 132, \"quote\": \"规划并实施实验室设备的周期检定/校准计划，确保量值可溯源至国家或国际标准。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"规划并实施实验室设备的周期检定/校准计划，确保量值可溯源至国家或国际标准。\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a\", \"text_version_hash\": \"bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a\", \"field\": \"full_description\", \"start\": 95, \"end\": 132, \"quote\": \"规划并实施实验室设备的周期检定/校准计划，确保量值可溯源至国家或国际标准。\"}]}, {\"summary\": \"参与内部审核、管理评审及CNAS现场评审，负责计量相关内容的准备与整改。\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a\", \"text_version_hash\": \"bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a\", \"field\": \"full_description\", \"start\": 292, \"end\": 328, \"quote\": \"参与内部审核、管理评审及CNAS现场评审，负责计量相关内容的准备与整改。\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P2_ENGINEERING_QUALITY",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_QUALITY",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a|bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a",
+        "record_id": "CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a",
+        "reading_id": "N0331",
+        "company_id": "CN_PAXINI",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a|bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a",
+            "record_id": "CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a",
+            "reading_id": "N0331",
+            "company_id": "CN_PAXINI",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "负责建立、维护和完善实验室的计量标准装置及配套设备（力学、磁学）。",
+            "field": "full_description",
+            "start": "23",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 23,
+            "end": 56,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责建立、维护和完善实验室的计量标准装置及配套设备（力学、磁学）。"
+          }
+        }
+      ],
+      "ACT_QUALITY": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a|bb1f1bc08e8593c9d23a2f604feaccde11c184231266865b88659c80ea87995a",
+            "record_id": "CN_PAXINI|zhiye|c2ea496f-3f9b-4b59-9f50-dc31f0df506a",
+            "reading_id": "N0331",
+            "company_id": "CN_PAXINI",
+            "label_code": "ACT_QUALITY",
+            "label_name": "质量验证",
+            "relation": "OWNED",
+            "quote": "规划并实施实验室设备的周期检定/校准计划，确保量值可溯源至国家或国际标准。\n负责内部校准工作的开展及外部溯源机构的对接与管理。\n3.测量过程控制与技术支撑\n对关键测量过程进行不确定度评定与监控，保障检测/校准结果的的准确可靠。\n为实验室的检测/校准活动提供计量技术咨询与支持，参参与解决复杂技术问题。\n4.体系合规与评审准备\n依据CNAS-CL01及相关准则要求，维护实验室计量领域的合规性。\n参与内部审核、管理评审及CNAS现场评审，负责计量相关内容的准备与整改。",
+            "field": "full_description",
+            "start": "95",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 95,
+            "end": 328,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "规划并实施实验室设备的周期检定/校准计划，确保量值可溯源至国家或国际标准。\n负责内部校准工作的开展及外部溯源机构的对接与管理。\n3.测量过程控制与技术支撑\n对关键测量过程进行不确定度评定与监控，保障检测/校准结果的的准确可靠。\n为实验室的检测/校准活动提供计量技术咨询与支持，参参与解决复杂技术问题。\n4.体系合规与评审准备\n依据CNAS-CL01及相关准则要求，维护实验室计量领域的合规性。\n参与内部审核、管理评审及CNAS现场评审，负责计量相关内容的准备与整改。"
+          }
+        }
+      ]
+    },
+    "duties": "岗位职责：\n1.计量标准建设与管理\n负责建立、维护和完善实验室的计量标准装置及配套设备（力学、磁学）。\n组织编写计量标准技术报告、操作规程及相关管理体系文件。\n2.量值溯源与校准\n规划并实施实验室设备的周期检定/校准计划，确保量值可溯源至国家或国际标准。\n负责内部校准工作的开展及外部溯源机构的对接与管理。\n3.测量过程控制与技术支撑\n对关键测量过程进行不确定度评定与监控，保障检测/校准结果的的准确可靠。\n为实验室的检测/校准活动提供计量技术咨询与支持，参参与解决复杂技术问题。\n4.体系合规与评审准备\n依据CNAS-CL01及相关准则要求，维护实验室计量领域的合规性。\n参与内部审核、管理评审及CNAS现场评审，负责计量相关内容的准备与整改。\n培训与指导\n对实验室技术人员进行计量基础、仪器操作及不确定度评定等方面的培训与指导。\n完成领导安排的其他相关任务。",
+    "requirements": "任职资格：\n1.本科及以上学历，计量、检测、仪器仪表、机械、电子、自动化、材料、土木工程等等相关专业；1年以上计量检定、校准或相关领域工作经验，有CNAS/CMA实验室工作经验者优先。\n2.熟悉计量法律法规、计量标准管理体系及CNAS认可准则，熟悉计量标准考核规范(JJF1033)及测量不确定度评定方法((JJF 1059)；有计量检定员证或注册计量师资格证者优先。\n3.熟练操作力学/磁学类仪器操作，具备扎实的专业基础知识和较强的动手能力。\n4.具备较强的技术文件编写能力和数据分析能力。\n5.具备良好的问题解决能力，能快速识别并解决方法验证过程中的技术难题与合规风险。\n6.沟通协调能力强，可与实验室检测人员、设备工程师、体系工程师高效协作，推动验证工作落地。",
+    "full_description": "工作职责\n岗位职责：\n1.计量标准建设与管理\n负责建立、维护和完善实验室的计量标准装置及配套设备（力学、磁学）。\n组织编写计量标准技术报告、操作规程及相关管理体系文件。\n2.量值溯源与校准\n规划并实施实验室设备的周期检定/校准计划，确保量值可溯源至国家或国际标准。\n负责内部校准工作的开展及外部溯源机构的对接与管理。\n3.测量过程控制与技术支撑\n对关键测量过程进行不确定度评定与监控，保障检测/校准结果的的准确可靠。\n为实验室的检测/校准活动提供计量技术咨询与支持，参参与解决复杂技术问题。\n4.体系合规与评审准备\n依据CNAS-CL01及相关准则要求，维护实验室计量领域的合规性。\n参与内部审核、管理评审及CNAS现场评审，负责计量相关内容的准备与整改。\n培训与指导\n对实验室技术人员进行计量基础、仪器操作及不确定度评定等方面的培训与指导。\n完成领导安排的其他相关任务。\n\n任职资格\n任职资格：\n1.本科及以上学历，计量、检测、仪器仪表、机械、电子、自动化、材料、土木工程等等相关专业；1年以上计量检定、校准或相关领域工作经验，有CNAS/CMA实验室工作经验者优先。\n2.熟悉计量法律法规、计量标准管理体系及CNAS认可准则，熟悉计量标准考核规范(JJF1033)及测量不确定度评定方法((JJF 1059)；有计量检定员证或注册计量师资格证者优先。\n3.熟练操作力学/磁学类仪器操作，具备扎实的专业基础知识和较强的动手能力。\n4.具备较强的技术文件编写能力和数据分析能力。\n5.具备良好的问题解决能力，能快速识别并解决方法验证过程中的技术难题与合规风险。\n6.沟通协调能力强，可与实验室检测人员、设备工程师、体系工程师高效协作，推动验证工作落地。"
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621|be41a157a1101c016bf76ffda4fbad1fa232e8446a382e69c83acb575daefb15",
+    "reading_id": "N0355",
+    "company_id": "CN_PAXINI",
+    "title": "具身智能算法工程师",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621|be41a157a1101c016bf76ffda4fbad1fa232e8446a382e69c83acb575daefb15",
+      "record_id": "CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621",
+      "reading_id": "N0355",
+      "company_id": "CN_PAXINI",
+      "company_name": "PaXini Tech",
+      "title": "具身智能算法工程师",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"模型大规模并行训练和明确的运动/力控/规划算法开发同时由本人负责，已足以建立跨职能复合。感知融合、采集存储及清洗等原文职责仍须保存于正文，尚不据这些配套句推定独立感知产品或全公司数据生产所有权。\", \"expression\": {\"id\": \"N0355:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"模型大规模并行训练和明确的运动/力控/规划算法开发同时由本人负责，已足以建立跨职能复合。感知融合、采集存储及清洗等原文职责仍须保存于正文，尚不据这些配套句推定独立感知产品或全公司数据生产所有权。\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621\", \"text_version_hash\": \"be41a157a1101c016bf76ffda4fbad1fa232e8446a382e69c83acb575daefb15\", \"field\": \"full_description\", \"start\": 126, \"end\": 140, \"quote\": \"负责操作中的控制，决策和规划\"}], \"children\": [{\"id\": \"N0355:ml\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"负责模仿学习和强化学习算法大规模并行训练\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621\", \"text_version_hash\": \"be41a157a1101c016bf76ffda4fbad1fa232e8446a382e69c83acb575daefb15\", \"field\": \"full_description\", \"start\": 211, \"end\": 245, \"quote\": \"负责模仿学习和强化学习算法大规模并行训练，验证和部署至实际的系统中；\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责模仿学习和强化学习算法大规模并行训练，验证和部署至实际的系统中；\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621\", \"text_version_hash\": \"be41a157a1101c016bf76ffda4fbad1fa232e8446a382e69c83acb575daefb15\", \"field\": \"full_description\", \"start\": 211, \"end\": 245, \"quote\": \"负责模仿学习和强化学习算法大规模并行训练，验证和部署至实际的系统中；\"}]}]}, {\"id\": \"N0355:cp\", \"relation\": \"ROLE\", \"value\": \"RF_CONTROL_PLANNING\", \"surface\": \"负责操作中的控制，决策和规划\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621\", \"text_version_hash\": \"be41a157a1101c016bf76ffda4fbad1fa232e8446a382e69c83acb575daefb15\", \"field\": \"full_description\", \"start\": 126, \"end\": 177, \"quote\": \"负责操作中的控制，决策和规划，包括但不限于运动控制、轨迹规划、正逆运动学、动力学、力控等相关算法开发；\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责操作中的控制，决策和规划，包括但不限于运动控制、轨迹规划、正逆运动学、动力学、力控等相关算法开发；\", \"evidence\": [{\"record_id\": \"CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621\", \"text_version_hash\": \"be41a157a1101c016bf76ffda4fbad1fa232e8446a382e69c83acb575daefb15\", \"field\": \"full_description\", \"start\": 126, \"end\": 177, \"quote\": \"负责操作中的控制，决策和规划，包括但不限于运动控制、轨迹规划、正逆运动学、动力学、力控等相关算法开发；\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621|be41a157a1101c016bf76ffda4fbad1fa232e8446a382e69c83acb575daefb15",
+        "record_id": "CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621",
+        "reading_id": "N0355",
+        "company_id": "CN_PAXINI",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621|be41a157a1101c016bf76ffda4fbad1fa232e8446a382e69c83acb575daefb15",
+            "record_id": "CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621",
+            "reading_id": "N0355",
+            "company_id": "CN_PAXINI",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "5. 负责模仿学习和强化学习算法大规模并行训练，验证和部署至实际的系统中；",
+            "field": "full_description",
+            "start": "208",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 208,
+            "end": 245,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "5. 负责模仿学习和强化学习算法大规模并行训练，验证和部署至实际的系统中；"
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621|be41a157a1101c016bf76ffda4fbad1fa232e8446a382e69c83acb575daefb15",
+            "record_id": "CN_PAXINI|zhiye|914eb9f2-492f-403a-b443-58f439589621",
+            "reading_id": "N0355",
+            "company_id": "CN_PAXINI",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "5. 负责模仿学习和强化学习算法大规模并行训练，验证和部署至实际的系统中；",
+            "field": "full_description",
+            "start": "208",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 208,
+            "end": 245,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "5. 负责模仿学习和强化学习算法大规模并行训练，验证和部署至实际的系统中；"
+          }
+        }
+      ]
+    },
+    "duties": "1. 负责跟进最新的机器人（机械臂，灵巧手等）操作技术和具身智能技术，并将前沿的模仿学习，强化学习方法落地到机器人操作中，提升机器人在复杂任务中的能力和多场景中的高精度与稳定性；\n2. 负责操作中多传感器融合感知与操作结合的算法开发；\n3. 负责操作中的控制，决策和规划，包括但不限于运动控制、轨迹规划、正逆运动学、动力学、力控等相关算法开发；\n4. 针对特定问题进行算法功能调研，开发，快速验证和优化；\n5. 负责模仿学习和强化学习算法大规模并行训练，验证和部署至实际的系统中；\n6. 负责数据采集设备数据储存，相关功能和算法开发，数据处理，清洗，分析等；",
+    "requirements": "1. 本科以上学历，机器人，自动化、计算机、电子、电气等相关专业，具有至少3年的学术研究以及工程开发经验；\n2. 精通C++， Python，熟练掌握ROS，Pytorch, TensorFlow，且有良好的编码规范和质量意识\n3. 熟悉Isaac, V-Rep、GAZEBO、MuJoCo、PyBullet等仿真软件\n4. 了解机器人操控的传统与机器学习方法，具有机械操控算法开发经验，能够解决操作算法中的复杂问题。\n5. 具有扎实机器人运动学与动力学、自动控制原理等相关领域知识基础\n6. 熟悉深度学习、强化学习、机器人学习的训练和部署经验\n7. 具有较强的文献研究，代码转换和项目实施能力\n8.  具备良好的分析解决问题和故障排查能力\n9.具备创新思维，能够提供创新的解决方案和改进机器人系统性能.10- 具备10.良好的自我驱动能力和强烈的责任感，良好的沟通能力和团队合作精神\n加分项:\n11 在机器人操作控制中的应用有相关研究或项目背景或在RSS、CoRL、ICRA、IROS机器人会议上或ICML、NeurIPS、ICLR等人工智能会议发表过论文者优先。",
+    "full_description": "工作职责\n1. 负责跟进最新的机器人（机械臂，灵巧手等）操作技术和具身智能技术，并将前沿的模仿学习，强化学习方法落地到机器人操作中，提升机器人在复杂任务中的能力和多场景中的高精度与稳定性；\n2. 负责操作中多传感器融合感知与操作结合的算法开发；\n3. 负责操作中的控制，决策和规划，包括但不限于运动控制、轨迹规划、正逆运动学、动力学、力控等相关算法开发；\n4. 针对特定问题进行算法功能调研，开发，快速验证和优化；\n5. 负责模仿学习和强化学习算法大规模并行训练，验证和部署至实际的系统中；\n6. 负责数据采集设备数据储存，相关功能和算法开发，数据处理，清洗，分析等；\n\n任职资格\n1. 本科以上学历，机器人，自动化、计算机、电子、电气等相关专业，具有至少3年的学术研究以及工程开发经验；\n2. 精通C++， Python，熟练掌握ROS，Pytorch, TensorFlow，且有良好的编码规范和质量意识\n3. 熟悉Isaac, V-Rep、GAZEBO、MuJoCo、PyBullet等仿真软件\n4. 了解机器人操控的传统与机器学习方法，具有机械操控算法开发经验，能够解决操作算法中的复杂问题。\n5. 具有扎实机器人运动学与动力学、自动控制原理等相关领域知识基础\n6. 熟悉深度学习、强化学习、机器人学习的训练和部署经验\n7. 具有较强的文献研究，代码转换和项目实施能力\n8.  具备良好的分析解决问题和故障排查能力\n9.具备创新思维，能够提供创新的解决方案和改进机器人系统性能.10- 具备10.良好的自我驱动能力和强烈的责任感，良好的沟通能力和团队合作精神\n加分项:\n11 在机器人操作控制中的应用有相关研究或项目背景或在RSS、CoRL、ICRA、IROS机器人会议上或ICML、NeurIPS、ICLR等人工智能会议发表过论文者优先。"
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775|4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7",
+    "reading_id": "N0470",
+    "company_id": "CN_FOURIER",
+    "title": "系统研发工程师",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775|4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7",
+      "record_id": "CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775",
+      "reading_id": "N0470",
+      "company_id": "CN_FOURIER",
+      "company_name": "Fourier Intelligence",
+      "title": "系统研发工程师",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"质量问题闭环与诊断/测试/仿真工具链分别有持续交付。系统集成保障尚不足以证明整机架构、需求及接口决策权，不再额外填系统工程。\", \"expression\": {\"id\": \"N0470:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"质量问题闭环与诊断/测试/仿真工具链分别有持续交付。系统集成保障尚不足以证明整机架构、需求及接口决策权，不再额外填系统工程。\", \"evidence\": [{\"record_id\": \"CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775\", \"text_version_hash\": \"4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7\", \"field\": \"full_description\", \"start\": 6, \"end\": 12, \"quote\": \"系统问题闭环\"}], \"children\": [{\"id\": \"N0470:qual\", \"relation\": \"ROLE\", \"value\": \"RF_MANUFACTURING_QUALITY_SUPPLY\", \"surface\": \"系统问题闭环\", \"evidence\": [{\"record_id\": \"CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775\", \"text_version_hash\": \"4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7\", \"field\": \"full_description\", \"start\": 6, \"end\": 71, \"quote\": \"系统问题闭环： 负责主线及项目交付中的系统问题分析，从系统视角完成问题复现、定位、拆解与根因分析，拉通相关模块推动修复及回归验证。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"系统问题闭环： 负责主线及项目交付中的系统问题分析，从系统视角完成问题复现、定位、拆解与根因分析，拉通相关模块推动修复及回归验证。\", \"evidence\": [{\"record_id\": \"CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775\", \"text_version_hash\": \"4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7\", \"field\": \"full_description\", \"start\": 6, \"end\": 71, \"quote\": \"系统问题闭环： 负责主线及项目交付中的系统问题分析，从系统视角完成问题复现、定位、拆解与根因分析，拉通相关模块推动修复及回归验证。\"}]}]}, {\"id\": \"N0470:tool\", \"relation\": \"ROLE\", \"value\": \"RF_SIMULATION_EVALUATION\", \"surface\": \"建设诊断、测试、硬件验收和仿真评测工具链\", \"evidence\": [{\"record_id\": \"CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775\", \"text_version_hash\": \"4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7\", \"field\": \"full_description\", \"start\": 162, \"end\": 196, \"quote\": \"建设诊断、测试、硬件验收和仿真评测工具链，提高自动化水平与研发效率。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"建设诊断、测试、硬件验收和仿真评测工具链，提高自动化水平与研发效率。\", \"evidence\": [{\"record_id\": \"CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775\", \"text_version_hash\": \"4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7\", \"field\": \"full_description\", \"start\": 162, \"end\": 196, \"quote\": \"建设诊断、测试、硬件验收和仿真评测工具链，提高自动化水平与研发效率。\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P2_ENGINEERING_QUALITY",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_QUALITY",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775|4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7",
+        "record_id": "CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775",
+        "reading_id": "N0470",
+        "company_id": "CN_FOURIER",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      },
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775|4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7",
+        "record_id": "CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775",
+        "reading_id": "N0470",
+        "company_id": "CN_FOURIER",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775|4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7",
+            "record_id": "CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775",
+            "reading_id": "N0470",
+            "company_id": "CN_FOURIER",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "负责机器人新功能、新平台和新机型的系统集成、部署验证与稳定性保障。",
+            "field": "full_description",
+            "start": "205",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 205,
+            "end": 238,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责机器人新功能、新平台和新机型的系统集成、部署验证与稳定性保障。"
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775|4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7",
+            "record_id": "CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775",
+            "reading_id": "N0470",
+            "company_id": "CN_FOURIER",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "建设诊断、测试、硬件验收和仿真评测工具链，提高自动化水平与研发效率。",
+            "field": "full_description",
+            "start": "162",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 162,
+            "end": 196,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "建设诊断、测试、硬件验收和仿真评测工具链，提高自动化水平与研发效率。"
+          }
+        }
+      ],
+      "ACT_QUALITY": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775|4d72325e28d37b35da74c9aa8cdfe037d5f4fcacbd61834c3efc45e3aed48fc7",
+            "record_id": "CN_FOURIER|moka|462e1841-d5bc-4c8c-97b6-b6b3b5810775",
+            "reading_id": "N0470",
+            "company_id": "CN_FOURIER",
+            "label_code": "ACT_QUALITY",
+            "label_name": "质量验证",
+            "relation": "OWNED",
+            "quote": "负责主线及项目交付中的系统问题分析，从系统视角完成问题复现、定位、拆解与根因分析，拉通相关模块推动修复及回归验证。",
+            "field": "full_description",
+            "start": "14",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 14,
+            "end": 71,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责主线及项目交付中的系统问题分析，从系统视角完成问题复现、定位、拆解与根因分析，拉通相关模块推动修复及回归验证。"
+          }
+        }
+      ]
+    },
+    "duties": "岗位职责\n\n系统问题闭环： 负责主线及项目交付中的系统问题分析，从系统视角完成问题复现、定位、拆解与根因分析，拉通相关模块推动修复及回归验证。\n系统质量建设： 设计和分解系统质量与性能指标，建立覆盖模块及整机的测试评测机制，持续推动系统稳定性和交付质量提升。\n研发体系建设： 针对机器人软硬件链路长、跨模块问题定位难的特点，建设诊断、测试、硬件验收和仿真评测工具链，提高自动化水平与研发效率。\n系统集成保障： 负责机器人新功能、新平台和新机型的系统集成、部署验证与稳定性保障。\n经验沉淀复用： 沉淀典型问题和排查方法，将经验转化为工具、流程及自动化能力，减少问题重复发生。\n\n任职要求\n\n计算机、软件工程、自动化、电子信息、通信、机器人等相关专业本科及以上学历，或具备同等水平的工程实践能力。\n具备良好的编程和工程实现能力，熟练掌握 C++、Python 中至少一种语言，能够独立开发诊断、测试或系统工具。\n熟悉 Linux 系统，理解进程与线程、网络通信、系统资源、设备管理及常见故障诊断方法。\n对机器人软硬件系统有较全面的理解，熟悉以下一个或多个方向：\n嵌入式软件及硬件通信；\n操作系统、中间件或通信框架；\n机器人感知、定位、规划、控制等功能模块；\n计算平台、传感器、执行器及整机系统集成。\n熟悉 Git，了解 GitLab、Jenkins 或其他 CI/CD 工具，拥有一定的版本管理经验。\n具备较强的系统性问题分析能力，能够从日志、现象和测试数据出发，完成复杂问题的复现、拆解、定位与闭环。\n具备跨团队协作和技术推动能力，能够组织不同模块负责人共同排查问题，并对结果和交付质量负责。\n具备良好的责任心、沟通表达能力和文档沉淀习惯，能够适应主线版本及项目交付中的复杂现场问题。\n\n加分项\n\n有机器人、自动驾驶、无人机或智能硬件产品的系统研发、系统集成或量产交付经验。\n有 ROS/ROS 2、DDS、CI/CD、OTA、交叉编译或多平台构建经验。\n有 NVIDIA Jetson、Thor、Orin、Xavier 等计算平台的部署、性能优化或系统问题排查经验。\n有传感器、执行器、Ethernet、CAN、EtherCAT、串口等硬件通信问题排查经验。\n有自动化测试、仿真评测、场景库、日志诊断平台或硬件验收工具开发经验。\n有独立解决机器人软硬件耦合、跨模块复杂问题的成功案例。",
+    "requirements": ""
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7641911255162718470|d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289",
+    "reading_id": "N0577",
+    "company_id": "CN_LIMX",
+    "title": "强化学习算法工程师",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7641911255162718470|d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289",
+      "record_id": "CN_LIMX|feishu|7641911255162718470",
+      "reading_id": "N0577",
+      "company_id": "CN_LIMX",
+      "company_name": "LimX Dynamics",
+      "title": "强化学习算法工程师",
+      "root_relation": "ALL",
+      "n_role_nodes": "3",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"物理仿真模型/实验工具、WBC等控制器适配和专用模型部署分别明示负责，新规则可承接旧版的无单一主导歧义；不把第3项参与训练升级为独立训练所有权。\", \"expression\": {\"id\": \"N0577:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"物理仿真模型/实验工具、WBC等控制器适配和专用模型部署分别明示负责，新规则可承接旧版的无单一主导歧义；不把第3项参与训练升级为独立训练所有权。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7641911255162718470\", \"text_version_hash\": \"d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289\", \"field\": \"full_description\", \"start\": 8, \"end\": 28, \"quote\": \"负责人形机器人强化学习与控制算法相关工作\"}], \"children\": [{\"id\": \"N0577:sim\", \"relation\": \"ROLE\", \"value\": \"RF_SIMULATION_EVALUATION\", \"surface\": \"负责机器人强化学习 sim2real 相关工作\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7641911255162718470\", \"text_version_hash\": \"d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289\", \"field\": \"full_description\", \"start\": 71, \"end\": 158, \"quote\": \"负责机器人强化学习 sim2real 相关工作，包括但不限于电机 / 电推杆等执行器建模、系统辨识、通讯延时、感知延时、噪声、摩擦、结构柔性等真实物理因素的仿真建模与随机化。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责机器人强化学习 sim2real 相关工作，包括但不限于电机 / 电推杆等执行器建模、系统辨识、通讯延时、感知延时、噪声、摩擦、结构柔性等真实物理因素的仿真建模与随机化。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7641911255162718470\", \"text_version_hash\": \"d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289\", \"field\": \"full_description\", \"start\": 71, \"end\": 158, \"quote\": \"负责机器人强化学习 sim2real 相关工作，包括但不限于电机 / 电推杆等执行器建模、系统辨识、通讯延时、感知延时、噪声、摩擦、结构柔性等真实物理因素的仿真建模与随机化。\"}]}, {\"summary\": \"负责机器人自动化部署、实验管理、仿真评测、真机数据采集与回放等工具链开发，提升算法迭代效率和真机实验稳定性。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7641911255162718470\", \"text_version_hash\": \"d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289\", \"field\": \"full_description\", \"start\": 400, \"end\": 454, \"quote\": \"负责机器人自动化部署、实验管理、仿真评测、真机数据采集与回放等工具链开发，提升算法迭代效率和真机实验稳定性。\"}]}]}, {\"id\": \"N0577:wbc\", \"relation\": \"ROLE\", \"value\": \"RF_CONTROL_PLANNING\", \"surface\": \"whole-body tracking controller\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7641911255162718470\", \"text_version_hash\": \"d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289\", \"field\": \"full_description\", \"start\": 237, \"end\": 332, \"quote\": \"负责 locomotion、whole-body tracking controller、whole-body control 等控制算法在人形机器人硬件平台上的适配、调参、评测与性能优化。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责 locomotion、whole-body tracking controller、whole-body control 等控制算法在人形机器人硬件平台上的适配、调参、评测与性能优化。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7641911255162718470\", \"text_version_hash\": \"d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289\", \"field\": \"full_description\", \"start\": 237, \"end\": 332, \"quote\": \"负责 locomotion、whole-body tracking controller、whole-body control 等控制算法在人形机器人硬件平台上的适配、调参、评测与性能优化。\"}]}]}, {\"id\": \"N0577:dep\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"包括模型导出、推理部署\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7641911255162718470\", \"text_version_hash\": \"d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289\", \"field\": \"full_description\", \"start\": 336, \"end\": 396, \"quote\": \"负责强化学习算法在机器人物理样机上的部署落地，包括模型导出、推理部署、控制频率适配、实时性优化、异常保护和安全机制建设。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"负责强化学习算法在机器人物理样机上的部署落地，包括模型导出、推理部署、控制频率适配、实时性优化、异常保护和安全机制建设。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7641911255162718470\", \"text_version_hash\": \"d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289\", \"field\": \"full_description\", \"start\": 336, \"end\": 396, \"quote\": \"负责强化学习算法在机器人物理样机上的部署落地，包括模型导出、推理部署、控制频率适配、实时性优化、异常保护和安全机制建设。\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7641911255162718470|d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289",
+        "record_id": "CN_LIMX|feishu|7641911255162718470",
+        "reading_id": "N0577",
+        "company_id": "CN_LIMX",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7641911255162718470|d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289",
+            "record_id": "CN_LIMX|feishu|7641911255162718470",
+            "reading_id": "N0577",
+            "company_id": "CN_LIMX",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "负责强化学习算法在机器人物理样机上的部署落地",
+            "field": "full_description",
+            "start": "336",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 336,
+            "end": 358,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责强化学习算法在机器人物理样机上的部署落地"
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7641911255162718470|d24bc64b7c44fdd505a18af59f3e3793f36e6fb3ab0e91135afcca310a8c1289",
+            "record_id": "CN_LIMX|feishu|7641911255162718470",
+            "reading_id": "N0577",
+            "company_id": "CN_LIMX",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "负责 locomotion、whole-body tracking controller、whole-body control 等控制算法在人形机器人硬件平台上的适配、调参、评测与性能优化。",
+            "field": "full_description",
+            "start": "237",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 237,
+            "end": 332,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责 locomotion、whole-body tracking controller、whole-body control 等控制算法在人形机器人硬件平台上的适配、调参、评测与性能优化。"
+          }
+        }
+      ]
+    },
+    "duties": "岗位职责\n1. 负责人形机器人强化学习与控制算法相关工作，支持公司新一代人形机器人硬件平台的算法预研、仿真训练、真机适配与工程化落地。\n2. 负责机器人强化学习 sim2real 相关工作，包括但不限于电机 / 电推杆等执行器建模、系统辨识、通讯延时、感知延时、噪声、摩擦、结构柔性等真实物理因素的仿真建模与随机化。\n3. 参与新型人形机器人硬件的 RL 控制算法预研，例如电推杆、准直驱 / 串弹执行器、灵巧关节等新执行机构上的控制策略训练、稳定性验证与真机部署。\n4. 负责 locomotion、whole-body tracking controller、whole-body control 等控制算法在人形机器人硬件平台上的适配、调参、评测与性能优化。\n5. 负责强化学习算法在机器人物理样机上的部署落地，包括模型导出、推理部署、控制频率适配、实时性优化、异常保护和安全机制建设。\n6. 负责机器人自动化部署、实验管理、仿真评测、真机数据采集与回放等工具链开发，提升算法迭代效率和真机实验稳定性。\n7. 跟进机器人强化学习、模仿学习、sim2real、humanoid locomotion、whole-body control 等方向前沿技术，完成算法复现、改进和工程化验证。\n\n任职要求\n1. 熟悉机器人系统，有人形机器人、四足机器人、双足机器人、机械臂、灵巧手等真实机器人项目经验者优先。\n2. 掌握 C++ 和 Python，了解 ROS / ROS2 系统工作方式，具备良好的工程实现、调试和问题定位能力。\n3. 熟悉 PyTorch、TensorFlow、JAX 等至少一种深度学习 / 强化学习框架，有 RL 算法训练、调参、评测和部署经验者优先。\n4. 熟悉机器人仿真软件，如 MuJoCo、Gazebo、NVIDIA Isaac Gym / Isaac Sim、Genesis、RaiSim 等。\n5. 了解机器人 sim2real 过程中的关键问题，包括执行器建模、系统辨识、通讯延时模拟、噪声建模、感知仿真、domain randomization、reality gap 分析等。\n6. 了解机器人运动控制相关方法，如 PD 控制、MPC、QP、轨迹优化、whole-body control、whole-body tracking、状态估计等，有相关实践经验者优先。\n7. 对机器人技术、强化学习、人形机器人硬件系统和真机调试有浓厚兴趣，能接受快速实验迭代和跨软硬件协作。\n加分项\n1. 有 humanoid locomotion、whole-body tracking、RL controller、sim2real 真机部署经验。\n2. 有电推杆、串联弹性执行器、准直驱电机、液压 / 气动执行器等新型执行器建模和控制经验。\n3. 熟悉机器人硬件系统，包括电机驱动、传感器、通讯总线、实时控制、安全保护等。\n4. 参与过 RoboMaster、Robocon、智能车等机器人竞赛，或参与过机器人开源项目。\n5. 在 ICRA、IROS、RSS、CoRL、NeurIPS、ICLR、ICML 等会议发表过机器人学习、强化学习、控制相关论文。",
+    "requirements": "1. 熟悉机器人系统，有人形机器人、四足机器人、双足机器人、机械臂、灵巧手等真实机器人项目经验者优先。\n2. 掌握 C++ 和 Python，了解 ROS / ROS2 系统工作方式，具备良好的工程实现、调试和问题定位能力。\n3. 熟悉 PyTorch、TensorFlow、JAX 等至少一种深度学习 / 强化学习框架，有 RL 算法训练、调参、评测和部署经验者优先。\n4. 熟悉机器人仿真软件，如 MuJoCo、Gazebo、NVIDIA Isaac Gym / Isaac Sim、Genesis、RaiSim 等。\n5. 了解机器人 sim2real 过程中的关键问题，包括执行器建模、系统辨识、通讯延时模拟、噪声建模、感知仿真、domain randomization、reality gap 分析等。\n6. 了解机器人运动控制相关方法，如 PD 控制、MPC、QP、轨迹优化、whole-body control、whole-body tracking、状态估计等，有相关实践经验者优先。\n7. 对机器人技术、强化学习、人形机器人硬件系统和真机调试有浓厚兴趣，能接受快速实验迭代和跨软硬件协作。\n加分项\n1. 有 humanoid locomotion、whole-body tracking、RL controller、sim2real 真机部署经验。\n2. 有电推杆、串联弹性执行器、准直驱电机、液压 / 气动执行器等新型执行器建模和控制经验。\n3. 熟悉机器人硬件系统，包括电机驱动、传感器、通讯总线、实时控制、安全保护等。\n4. 参与过 RoboMaster、Robocon、智能车等机器人竞赛，或参与过机器人开源项目。\n5. 在 ICRA、IROS、RSS、CoRL、NeurIPS、ICLR、ICML 等会议发表过机器人学习、强化学习、控制相关论文。"
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7436212279131687178|0a43333b04452b21e83aee05d2132bde030f20488f1ccf922114ba18f570327a",
+    "reading_id": "N0611",
+    "company_id": "CN_LIMX",
+    "title": "机器人强化学习实习生",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7436212279131687178|0a43333b04452b21e83aee05d2132bde030f20488f1ccf922114ba18f570327a",
+      "record_id": "CN_LIMX|feishu|7436212279131687178",
+      "reading_id": "N0611",
+      "company_id": "CN_LIMX",
+      "company_name": "LimX Dynamics",
+      "title": "机器人强化学习实习生",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"分别负责硬件物理因素仿真建模及学习算法真机部署/自动化部署工具，超过仅使用现成仿真器。没有明示训练网络，也不添控制器性能主责。\", \"expression\": {\"id\": \"N0611:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"分别负责硬件物理因素仿真建模及学习算法真机部署/自动化部署工具，超过仅使用现成仿真器。没有明示训练网络，也不添控制器性能主责。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7436212279131687178\", \"text_version_hash\": \"0a43333b04452b21e83aee05d2132bde030f20488f1ccf922114ba18f570327a\", \"field\": \"full_description\", \"start\": 29, \"end\": 43, \"quote\": \"包括机器人硬件相关的电机建模\"}], \"children\": [{\"id\": \"N0611:sim\", \"relation\": \"ROLE\", \"value\": \"RF_SIMULATION_EVALUATION\", \"surface\": \"包括机器人硬件相关的电机建模\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7436212279131687178\", \"text_version_hash\": \"0a43333b04452b21e83aee05d2132bde030f20488f1ccf922114ba18f570327a\", \"field\": \"full_description\", \"start\": 5, \"end\": 60, \"quote\": \"1、负责机器人强化学习sim2real部分工作，包括机器人硬件相关的电机建模、通讯及感知模块延时、噪声模拟等。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"1、负责机器人强化学习sim2real部分工作，包括机器人硬件相关的电机建模、通讯及感知模块延时、噪声模拟等。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7436212279131687178\", \"text_version_hash\": \"0a43333b04452b21e83aee05d2132bde030f20488f1ccf922114ba18f570327a\", \"field\": \"full_description\", \"start\": 5, \"end\": 60, \"quote\": \"1、负责机器人强化学习sim2real部分工作，包括机器人硬件相关的电机建模、通讯及感知模块延时、噪声模拟等。\"}]}]}, {\"id\": \"N0611:dep\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"负责sim2real真机部署，以及相关自动化部署工具开发\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7436212279131687178\", \"text_version_hash\": \"0a43333b04452b21e83aee05d2132bde030f20488f1ccf922114ba18f570327a\", \"field\": \"full_description\", \"start\": 61, \"end\": 92, \"quote\": \"2、负责sim2real真机部署，以及相关自动化部署工具开发。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"2、负责sim2real真机部署，以及相关自动化部署工具开发。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7436212279131687178\", \"text_version_hash\": \"0a43333b04452b21e83aee05d2132bde030f20488f1ccf922114ba18f570327a\", \"field\": \"full_description\", \"start\": 61, \"end\": 92, \"quote\": \"2、负责sim2real真机部署，以及相关自动化部署工具开发。\"}]}, {\"summary\": \"3、实现强化学习算法sim2real在机器人物理样机上的落地应用。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7436212279131687178\", \"text_version_hash\": \"0a43333b04452b21e83aee05d2132bde030f20488f1ccf922114ba18f570327a\", \"field\": \"full_description\", \"start\": 93, \"end\": 126, \"quote\": \"3、实现强化学习算法sim2real在机器人物理样机上的落地应用。\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7436212279131687178|0a43333b04452b21e83aee05d2132bde030f20488f1ccf922114ba18f570327a",
+        "record_id": "CN_LIMX|feishu|7436212279131687178",
+        "reading_id": "N0611",
+        "company_id": "CN_LIMX",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7436212279131687178|0a43333b04452b21e83aee05d2132bde030f20488f1ccf922114ba18f570327a",
+            "record_id": "CN_LIMX|feishu|7436212279131687178",
+            "reading_id": "N0611",
+            "company_id": "CN_LIMX",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "负责sim2real真机部署，以及相关自动化部署工具开发。",
+            "field": "full_description",
+            "start": "63",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 63,
+            "end": 92,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责sim2real真机部署，以及相关自动化部署工具开发。"
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7436212279131687178|0a43333b04452b21e83aee05d2132bde030f20488f1ccf922114ba18f570327a",
+            "record_id": "CN_LIMX|feishu|7436212279131687178",
+            "reading_id": "N0611",
+            "company_id": "CN_LIMX",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "负责sim2real真机部署，以及相关自动化部署工具开发。",
+            "field": "full_description",
+            "start": "63",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 63,
+            "end": 92,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责sim2real真机部署，以及相关自动化部署工具开发。"
+          }
+        }
+      ]
+    },
+    "duties": "岗位职责\n1、负责机器人强化学习sim2real部分工作，包括机器人硬件相关的电机建模、通讯及感知模块延时、噪声模拟等。\n2、负责sim2real真机部署，以及相关自动化部署工具开发。\n3、实现强化学习算法sim2real在机器人物理样机上的落地应用。\n\n任职要求\n1、实习时间至少3个月；\n2、海内外研究生及以上学历在读生，机器人、自动化等相关专业优先，有机器人操作相关项目经验者优先；\n3、掌握C++ 和 python 编程语言，了解ROS系统工作方式，了解PyTorch，TensorFlow等深度学习框架使用方式。\n4、了解机器人仿真软件，如mojuco, gazebo, NVIDIA Isaac等.\n5、了解机器sim2real 过程中的关键问题，如电机建模，通讯延时模拟，噪声，感知仿真等。\n6、对机器人技术和AI强化学习有浓厚的兴趣和激情。",
+    "requirements": "1、实习时间至少3个月；\n2、海内外研究生及以上学历在读生，机器人、自动化等相关专业优先，有机器人操作相关项目经验者优先；\n3、掌握C++ 和 python 编程语言，了解ROS系统工作方式，了解PyTorch，TensorFlow等深度学习框架使用方式。\n4、了解机器人仿真软件，如mojuco, gazebo, NVIDIA Isaac等.\n5、了解机器sim2real 过程中的关键问题，如电机建模，通讯延时模拟，噪声，感知仿真等。\n6、对机器人技术和AI强化学习有浓厚的兴趣和激情。"
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7379566628080077065|3a2c0b5ab31c5bbba6a7231a55a9e2a073dda22d04bf2148ed42ac716b792ff7",
+    "reading_id": "N0614",
+    "company_id": "CN_LIMX",
+    "title": "机器人强化学习工程师",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7379566628080077065|3a2c0b5ab31c5bbba6a7231a55a9e2a073dda22d04bf2148ed42ac716b792ff7",
+      "record_id": "CN_LIMX|feishu|7379566628080077065",
+      "reading_id": "N0614",
+      "company_id": "CN_LIMX",
+      "company_name": "LimX Dynamics",
+      "title": "机器人强化学习工程师",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"分别负责硬件物理因素仿真建模及学习算法真机部署/自动化部署工具，超过仅使用现成仿真器。相同正文同一口径；没有明示训练网络，也不添控制器性能主责。\", \"expression\": {\"id\": \"N0614:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"分别负责硬件物理因素仿真建模及学习算法真机部署/自动化部署工具，超过仅使用现成仿真器。相同正文同一口径；没有明示训练网络，也不添控制器性能主责。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7379566628080077065\", \"text_version_hash\": \"3a2c0b5ab31c5bbba6a7231a55a9e2a073dda22d04bf2148ed42ac716b792ff7\", \"field\": \"full_description\", \"start\": 29, \"end\": 43, \"quote\": \"包括机器人硬件相关的电机建模\"}], \"children\": [{\"id\": \"N0614:sim\", \"relation\": \"ROLE\", \"value\": \"RF_SIMULATION_EVALUATION\", \"surface\": \"包括机器人硬件相关的电机建模\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7379566628080077065\", \"text_version_hash\": \"3a2c0b5ab31c5bbba6a7231a55a9e2a073dda22d04bf2148ed42ac716b792ff7\", \"field\": \"full_description\", \"start\": 5, \"end\": 60, \"quote\": \"1、负责机器人强化学习sim2real部分工作，包括机器人硬件相关的电机建模、通讯及感知模块延时、噪声模拟等。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"1、负责机器人强化学习sim2real部分工作，包括机器人硬件相关的电机建模、通讯及感知模块延时、噪声模拟等。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7379566628080077065\", \"text_version_hash\": \"3a2c0b5ab31c5bbba6a7231a55a9e2a073dda22d04bf2148ed42ac716b792ff7\", \"field\": \"full_description\", \"start\": 5, \"end\": 60, \"quote\": \"1、负责机器人强化学习sim2real部分工作，包括机器人硬件相关的电机建模、通讯及感知模块延时、噪声模拟等。\"}]}]}, {\"id\": \"N0614:dep\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"负责sim2real真机部署，以及相关自动化部署工具开发\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7379566628080077065\", \"text_version_hash\": \"3a2c0b5ab31c5bbba6a7231a55a9e2a073dda22d04bf2148ed42ac716b792ff7\", \"field\": \"full_description\", \"start\": 61, \"end\": 92, \"quote\": \"2、负责sim2real真机部署，以及相关自动化部署工具开发。\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"2、负责sim2real真机部署，以及相关自动化部署工具开发。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7379566628080077065\", \"text_version_hash\": \"3a2c0b5ab31c5bbba6a7231a55a9e2a073dda22d04bf2148ed42ac716b792ff7\", \"field\": \"full_description\", \"start\": 61, \"end\": 92, \"quote\": \"2、负责sim2real真机部署，以及相关自动化部署工具开发。\"}]}, {\"summary\": \"3、实现强化学习算法sim2real在机器人物理样机上的落地应用。\", \"evidence\": [{\"record_id\": \"CN_LIMX|feishu|7379566628080077065\", \"text_version_hash\": \"3a2c0b5ab31c5bbba6a7231a55a9e2a073dda22d04bf2148ed42ac716b792ff7\", \"field\": \"full_description\", \"start\": 93, \"end\": 126, \"quote\": \"3、实现强化学习算法sim2real在机器人物理样机上的落地应用。\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7379566628080077065|3a2c0b5ab31c5bbba6a7231a55a9e2a073dda22d04bf2148ed42ac716b792ff7",
+        "record_id": "CN_LIMX|feishu|7379566628080077065",
+        "reading_id": "N0614",
+        "company_id": "CN_LIMX",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7379566628080077065|3a2c0b5ab31c5bbba6a7231a55a9e2a073dda22d04bf2148ed42ac716b792ff7",
+            "record_id": "CN_LIMX|feishu|7379566628080077065",
+            "reading_id": "N0614",
+            "company_id": "CN_LIMX",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "负责sim2real真机部署，以及相关自动化部署工具开发。",
+            "field": "full_description",
+            "start": "63",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 63,
+            "end": 92,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责sim2real真机部署，以及相关自动化部署工具开发。"
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7379566628080077065|3a2c0b5ab31c5bbba6a7231a55a9e2a073dda22d04bf2148ed42ac716b792ff7",
+            "record_id": "CN_LIMX|feishu|7379566628080077065",
+            "reading_id": "N0614",
+            "company_id": "CN_LIMX",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "负责sim2real真机部署，以及相关自动化部署工具开发。",
+            "field": "full_description",
+            "start": "63",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 63,
+            "end": 92,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "负责sim2real真机部署，以及相关自动化部署工具开发。"
+          }
+        }
+      ]
+    },
+    "duties": "岗位职责\n1、负责机器人强化学习sim2real部分工作，包括机器人硬件相关的电机建模、通讯及感知模块延时、噪声模拟等。\n2、负责sim2real真机部署，以及相关自动化部署工具开发。\n3、实现强化学习算法sim2real在机器人物理样机上的落地应用。\n\n任职要求\n1、熟悉机器人，有机器人工作背景优先\n2、掌握C++ 和 python 编程语言，了解ROS系统工作方式，了解PyTorch，TensorFlow等深度学习框架使用方式。\n3、了解机器人仿真软件，如mojuco, gazebo, NVIDIA Isaac等.\n4、了解机器sim2real 过程中的关键问题，如电机建模，通讯延时模拟，噪声，感知仿真等。\n5、对机器人技术和AI强化学习有浓厚的兴趣和激情。",
+    "requirements": "1、熟悉机器人，有机器人工作背景优先\n2、掌握C++ 和 python 编程语言，了解ROS系统工作方式，了解PyTorch，TensorFlow等深度学习框架使用方式。\n3、了解机器人仿真软件，如mojuco, gazebo, NVIDIA Isaac等.\n4、了解机器sim2real 过程中的关键问题，如电机建模，通讯延时模拟，噪声，感知仿真等。\n5、对机器人技术和AI强化学习有浓厚的兴趣和激情。"
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4091494008|5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb",
+    "reading_id": "N0686",
+    "company_id": "US_SKILD",
+    "title": "Research Engineer, Post-training & Deployment",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4091494008|5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb",
+      "record_id": "US_SKILD|greenhouse|4091494008",
+      "reading_id": "N0686",
+      "company_id": "US_SKILD",
+      "company_name": "Skild AI",
+      "title": "Research Engineer, Post-training & Deployment",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"后训练模型与客户场景运营生命周期、完整软硬件现场部署分别承担；部署不是仅把自己的模型导出到真机。\", \"expression\": {\"id\": \"N0686:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"后训练模型与客户场景运营生命周期、完整软硬件现场部署分别承担；部署不是仅把自己的模型导出到真机。\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4091494008\", \"text_version_hash\": \"5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb\", \"field\": \"full_description\", \"start\": 1455, \"end\": 1488, \"quote\": \"Research, post-train and evaluate\"}], \"children\": [{\"id\": \"N0686:pt\", \"relation\": \"ROLE\", \"value\": \"RF_ML_AI_ENGINEERING\", \"surface\": \"Research, post-train and evaluate\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4091494008\", \"text_version_hash\": \"5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb\", \"field\": \"full_description\", \"start\": 1455, \"end\": 1547, \"quote\": \"Research, post-train and evaluate large deep learning models for robotic manipulation tasks.\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"Research, post-train and evaluate large deep learning models for robotic manipulation tasks.\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4091494008\", \"text_version_hash\": \"5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb\", \"field\": \"full_description\", \"start\": 1455, \"end\": 1547, \"quote\": \"Research, post-train and evaluate large deep learning models for robotic manipulation tasks.\"}]}]}, {\"id\": \"N0686:dep\", \"relation\": \"ROLE\", \"value\": \"RF_DEPLOYMENT_FIELD_SERVICE\", \"surface\": \"execute full-stack software and hardware deployments at customer sites\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4091494008\", \"text_version_hash\": \"5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb\", \"field\": \"full_description\", \"start\": 1957, \"end\": 2027, \"quote\": \"execute full-stack software and hardware deployments at customer sites\"}, {\"record_id\": \"US_SKILD|greenhouse|4091494008\", \"text_version_hash\": \"5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb\", \"field\": \"full_description\", \"start\": 1753, \"end\": 1872, \"quote\": \"Own scenario setup and data collection methodologies, managing the operational lifecycle for unique customer use-cases.\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"Own scenario setup and data collection methodologies, managing the operational lifecycle for unique customer use-cases.\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4091494008\", \"text_version_hash\": \"5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb\", \"field\": \"full_description\", \"start\": 1753, \"end\": 1872, \"quote\": \"Own scenario setup and data collection methodologies, managing the operational lifecycle for unique customer use-cases.\"}]}, {\"summary\": \"Work with our robotics teams to maintain and ensure robots are deployment-ready and execute full-stack software and hardware deployments at customer sites.\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4091494008\", \"text_version_hash\": \"5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb\", \"field\": \"full_description\", \"start\": 1873, \"end\": 2028, \"quote\": \"Work with our robotics teams to maintain and ensure robots are deployment-ready and execute full-stack software and hardware deployments at customer sites.\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4091494008|5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb",
+        "record_id": "US_SKILD|greenhouse|4091494008",
+        "reading_id": "N0686",
+        "company_id": "US_SKILD",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4091494008|5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb",
+            "record_id": "US_SKILD|greenhouse|4091494008",
+            "reading_id": "N0686",
+            "company_id": "US_SKILD",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "Work with our robotics teams to maintain and ensure robots are deployment-ready and execute full-stack software and hardware deployments at customer sites.",
+            "field": "full_description",
+            "start": "1873",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 1873,
+            "end": 2028,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Work with our robotics teams to maintain and ensure robots are deployment-ready and execute full-stack software and hardware deployments at customer sites."
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4091494008|5fa51655eebc49f014aa9defdea2e3a5eec67f103c479d4febdd96c3139d5bdb",
+            "record_id": "US_SKILD|greenhouse|4091494008",
+            "reading_id": "N0686",
+            "company_id": "US_SKILD",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "Research, post-train and evaluate large deep learning models for robotic manipulation tasks.",
+            "field": "full_description",
+            "start": "1455",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 1455,
+            "end": 1547,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Research, post-train and evaluate large deep learning models for robotic manipulation tasks."
+          }
+        }
+      ]
+    },
+    "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are looking for a Research Engineer who is passionate about delivering results in the real world. As a member of the post-training team, you’ll be responsible for improving Skild foundation models and deploying them onto robots in the field. You’ll work with customers and deployment data to deliver reliable robot behavior in real-world environments, ensuring our systems are safe, efficient, and robust under operational constraints.\nWe work across the final mile of robotics: turning strong lab performance into dependable customer deployments and continuous improvement. By bridging this gap, you will define the standard for how autonomous systems scale from experimental prototypes into indispensable global infrastructure.\nResponsibilities\nResearch, post-train and evaluate large deep learning models for robotic manipulation tasks.\nDevelop frameworks to continuously improve robot behaviors.\nCollaborate closely with our product teams to source and iterate on customer requirements to ensure technical alignment for on-site deployments.\nOwn scenario setup and data collection methodologies, managing the operational lifecycle for unique customer use-cases.\nWork with our robotics teams to maintain and ensure robots are deployment-ready and execute full-stack software and hardware deployments at customer sites.\nBuild robust testing and evaluation pipelines for tracking model improvements and corner cases.\nPreferred Qualifications\nBS, MS or PhD degree in Computer Science, Robotics, Engineering or a related field, or equivalent practical experience.\nProficiency in Python and at least one deep learning library such as PyTorch, TensorFlow, JAX, etc.\nDeep technical knowledge in computer vision and deep learning for robotics, including reinforcement and imitation learning.\nPrior experience working with large-scale model training.\nPrior experience developing and deploying ML models or software on real robots.\nPrior experience with ROS/ROS2 or other robotics middleware platforms.\nBonus if you have experience working with customers and deploying real-world robotics applications.\nBonus if you have experience leveraging LLMs to accelerate development and solve complex engineering problems.\nBase Salary Range\n$100,000\n—\n$300,000 USD",
+    "requirements": ""
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4483954008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+    "reading_id": "N0690",
+    "company_id": "US_SKILD",
+    "title": "Robotics Engineer, Deployment & Testing - Bengaluru",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4483954008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+      "record_id": "US_SKILD|greenhouse|4483954008",
+      "reading_id": "N0690",
+      "company_id": "US_SKILD",
+      "company_name": "Skild AI",
+      "title": "Robotics Engineer, Deployment & Testing - Bengaluru",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"开发自动测试及其运行生态、可重复生产案例，与风险测试计划及故障质量闭环同时交付。机器人维护仍可保留从属的现场服务次职能，不因有三项就自动三项并列。\", \"expression\": {\"id\": \"N0690:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"开发自动测试及其运行生态、可重复生产案例，与风险测试计划及故障质量闭环同时交付。机器人维护仍可保留从属的现场服务次职能，不因有三项就自动三项并列。\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4483954008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 927, \"end\": 1018, \"quote\": \"You will design and implement automated software tests and the ecosystems in which they run\"}], \"children\": [{\"id\": \"N0690:auto\", \"relation\": \"ROLE\", \"value\": \"RF_SIMULATION_EVALUATION\", \"surface\": \"design and implement automated software tests and the ecosystems\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4483954008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 927, \"end\": 1019, \"quote\": \"You will design and implement automated software tests and the ecosystems in which they run.\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"You will design and implement automated software tests and the ecosystems in which they run.\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4483954008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 927, \"end\": 1019, \"quote\": \"You will design and implement automated software tests and the ecosystems in which they run.\"}]}, {\"summary\": \"Recreate corner cases from production logs into repeatable tests.\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4483954008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 1542, \"end\": 1607, \"quote\": \"Recreate corner cases from production logs into repeatable tests.\"}]}]}, {\"id\": \"N0690:qual\", \"relation\": \"ROLE\", \"value\": \"RF_MANUFACTURING_QUALITY_SUPPLY\", \"surface\": \"Design and organize test plans\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4483954008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 1299, \"end\": 1383, \"quote\": \"Design and organize test plans according to priority, impact, risk, and feasibility.\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"Design and organize test plans according to priority, impact, risk, and feasibility.\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4483954008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 1299, \"end\": 1383, \"quote\": \"Design and organize test plans according to priority, impact, risk, and feasibility.\"}]}, {\"summary\": \"Debug and troubleshoot failures in complex scenarios while testing and/or deployment at customer sites.\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|4483954008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 1384, \"end\": 1487, \"quote\": \"Debug and troubleshoot failures in complex scenarios while testing and/or deployment at customer sites.\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P2_ENGINEERING_QUALITY",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_QUALITY",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4483954008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+        "record_id": "US_SKILD|greenhouse|4483954008",
+        "reading_id": "N0690",
+        "company_id": "US_SKILD",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      },
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4483954008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+        "record_id": "US_SKILD|greenhouse|4483954008",
+        "reading_id": "N0690",
+        "company_id": "US_SKILD",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4483954008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+            "record_id": "US_SKILD|greenhouse|4483954008",
+            "reading_id": "N0690",
+            "company_id": "US_SKILD",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "Maintain robots and ensure they are deployment ready.",
+            "field": "full_description",
+            "start": "1488",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 1488,
+            "end": 1541,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Maintain robots and ensure they are deployment ready."
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4483954008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+            "record_id": "US_SKILD|greenhouse|4483954008",
+            "reading_id": "N0690",
+            "company_id": "US_SKILD",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "Define, implement, and maintain comprehensive regression tests for Skild AI’s software and products.",
+            "field": "full_description",
+            "start": "1198",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 1198,
+            "end": 1298,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Define, implement, and maintain comprehensive regression tests for Skild AI’s software and products."
+          }
+        }
+      ],
+      "ACT_QUALITY": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4483954008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+            "record_id": "US_SKILD|greenhouse|4483954008",
+            "reading_id": "N0690",
+            "company_id": "US_SKILD",
+            "label_code": "ACT_QUALITY",
+            "label_name": "质量验证",
+            "relation": "OWNED",
+            "quote": "Debug and troubleshoot failures in complex scenarios while testing and/or deployment at customer sites.",
+            "field": "full_description",
+            "start": "1384",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 1384,
+            "end": 1487,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Debug and troubleshoot failures in complex scenarios while testing and/or deployment at customer sites."
+          }
+        }
+      ]
+    },
+    "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are looking for a Robotics Engineer specializing in Deployment & Testing to help further the performance and capabilities of Skild AI’s world-class high-level software and products through formalized, rigorous testing. You will design and implement automated software tests and the ecosystems in which they run. As a critical member of the robotics team, you will have an important role in defining the quality standards of our software while accelerating its development.\nResponsibilities\nDefine, implement, and maintain comprehensive regression tests for Skild AI’s software and products.\nDesign and organize test plans according to priority, impact, risk, and feasibility.\nDebug and troubleshoot failures in complex scenarios while testing and/or deployment at customer sites.\nMaintain robots and ensure they are deployment ready.\nRecreate corner cases from production logs into repeatable tests.\nCollaborate closely with robotic software developers and machine learning engineers and provide feedback on what needs to be improved to produce and sustain a top-quality product that meets customer expectations.\nPreferred Qualifications\nBS, MS or higher degree in Computer Science, Robotics, Engineering or a related field, or equivalent practical experience.\nProficiency developing in low-level systems languages (C, C++, Rust, Go) and Python.\nExperience with complex software systems working in real-time with embedded systems.\nExperience with Test Management and Requirements software.\nExperience with ROS/ROS2 or other robotics middleware platforms.\nPrevious work experience as a Test Engineer.\nPrior experience developing and deploying software on real robots.\nDeep understanding and practical experience with software engineering principles, including algorithms, data structures, and system design.\nFamiliarity with machine learning integration and deployment in robotic systems.",
+    "requirements": ""
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5162584008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+    "reading_id": "N0691",
+    "company_id": "US_SKILD",
+    "title": "Robotics Engineer, Deployment & Testing - San Mateo",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5162584008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+      "record_id": "US_SKILD|greenhouse|5162584008",
+      "reading_id": "N0691",
+      "company_id": "US_SKILD",
+      "company_name": "Skild AI",
+      "title": "Robotics Engineer, Deployment & Testing - San Mateo",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"开发自动测试及其运行生态、可重复生产案例，与风险测试计划及故障质量闭环同时交付。机器人维护仍可保留从属的现场服务次职能，不因有三项就自动三项并列。两广告身份均保留。\", \"expression\": {\"id\": \"N0691:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"开发自动测试及其运行生态、可重复生产案例，与风险测试计划及故障质量闭环同时交付。机器人维护仍可保留从属的现场服务次职能，不因有三项就自动三项并列。两广告身份均保留。\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|5162584008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 927, \"end\": 1018, \"quote\": \"You will design and implement automated software tests and the ecosystems in which they run\"}], \"children\": [{\"id\": \"N0691:auto\", \"relation\": \"ROLE\", \"value\": \"RF_SIMULATION_EVALUATION\", \"surface\": \"design and implement automated software tests and the ecosystems\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|5162584008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 927, \"end\": 1019, \"quote\": \"You will design and implement automated software tests and the ecosystems in which they run.\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"You will design and implement automated software tests and the ecosystems in which they run.\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|5162584008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 927, \"end\": 1019, \"quote\": \"You will design and implement automated software tests and the ecosystems in which they run.\"}]}, {\"summary\": \"Recreate corner cases from production logs into repeatable tests.\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|5162584008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 1542, \"end\": 1607, \"quote\": \"Recreate corner cases from production logs into repeatable tests.\"}]}]}, {\"id\": \"N0691:qual\", \"relation\": \"ROLE\", \"value\": \"RF_MANUFACTURING_QUALITY_SUPPLY\", \"surface\": \"Design and organize test plans\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|5162584008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 1299, \"end\": 1383, \"quote\": \"Design and organize test plans according to priority, impact, risk, and feasibility.\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"Design and organize test plans according to priority, impact, risk, and feasibility.\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|5162584008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 1299, \"end\": 1383, \"quote\": \"Design and organize test plans according to priority, impact, risk, and feasibility.\"}]}, {\"summary\": \"Debug and troubleshoot failures in complex scenarios while testing and/or deployment at customer sites.\", \"evidence\": [{\"record_id\": \"US_SKILD|greenhouse|5162584008\", \"text_version_hash\": \"6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b\", \"field\": \"full_description\", \"start\": 1384, \"end\": 1487, \"quote\": \"Debug and troubleshoot failures in complex scenarios while testing and/or deployment at customer sites.\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P2_ENGINEERING_QUALITY",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_QUALITY",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5162584008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+        "record_id": "US_SKILD|greenhouse|5162584008",
+        "reading_id": "N0691",
+        "company_id": "US_SKILD",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      },
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5162584008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+        "record_id": "US_SKILD|greenhouse|5162584008",
+        "reading_id": "N0691",
+        "company_id": "US_SKILD",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5162584008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+            "record_id": "US_SKILD|greenhouse|5162584008",
+            "reading_id": "N0691",
+            "company_id": "US_SKILD",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "Maintain robots and ensure they are deployment ready.",
+            "field": "full_description",
+            "start": "1488",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 1488,
+            "end": 1541,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Maintain robots and ensure they are deployment ready."
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5162584008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+            "record_id": "US_SKILD|greenhouse|5162584008",
+            "reading_id": "N0691",
+            "company_id": "US_SKILD",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "Define, implement, and maintain comprehensive regression tests for Skild AI’s software and products.",
+            "field": "full_description",
+            "start": "1198",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 1198,
+            "end": 1298,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Define, implement, and maintain comprehensive regression tests for Skild AI’s software and products."
+          }
+        }
+      ],
+      "ACT_QUALITY": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5162584008|6cec6cf08a07c07419f1c276416a2900c4508d5dfb142e5291062cf88e01be6b",
+            "record_id": "US_SKILD|greenhouse|5162584008",
+            "reading_id": "N0691",
+            "company_id": "US_SKILD",
+            "label_code": "ACT_QUALITY",
+            "label_name": "质量验证",
+            "relation": "OWNED",
+            "quote": "Debug and troubleshoot failures in complex scenarios while testing and/or deployment at customer sites.",
+            "field": "full_description",
+            "start": "1384",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 1384,
+            "end": 1487,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Debug and troubleshoot failures in complex scenarios while testing and/or deployment at customer sites."
+          }
+        }
+      ]
+    },
+    "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are looking for a Robotics Engineer specializing in Deployment & Testing to help further the performance and capabilities of Skild AI’s world-class high-level software and products through formalized, rigorous testing. You will design and implement automated software tests and the ecosystems in which they run. As a critical member of the robotics team, you will have an important role in defining the quality standards of our software while accelerating its development.\nResponsibilities\nDefine, implement, and maintain comprehensive regression tests for Skild AI’s software and products.\nDesign and organize test plans according to priority, impact, risk, and feasibility.\nDebug and troubleshoot failures in complex scenarios while testing and/or deployment at customer sites.\nMaintain robots and ensure they are deployment ready.\nRecreate corner cases from production logs into repeatable tests.\nCollaborate closely with robotic software developers and machine learning engineers and provide feedback on what needs to be improved to produce and sustain a top-quality product that meets customer expectations.\nPreferred Qualifications\nBS, MS or higher degree in Computer Science, Robotics, Engineering or a related field, or equivalent practical experience.\nProficiency developing in low-level systems languages (C, C++, Rust, Go) and Python.\nExperience with complex software systems working in real-time with embedded systems.\nExperience with Test Management and Requirements software.\nExperience with ROS/ROS2 or other robotics middleware platforms.\nPrevious work experience as a Test Engineer.\nPrior experience developing and deploying software on real robots.\nDeep understanding and practical experience with software engineering principles, including algorithms, data structures, and system design.\nFamiliarity with machine learning integration and deployment in robotic systems.",
+    "requirements": ""
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc|4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360",
+    "reading_id": "N0851",
+    "company_id": "US_FIELD_AI",
+    "title": "Technical Project Manager, Reality Capture",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc|4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360",
+      "record_id": "US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc",
+      "reading_id": "N0851",
+      "company_id": "US_FIELD_AI",
+      "company_name": "Field AI",
+      "title": "Technical Project Manager, Reality Capture",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"正文明确hybrid engineering and project management，亲自建设3D地图系统和负责项目范围/计划/依赖均展开。不是仅凭TPM标题归项目，也不将技术协作虚构为本人算法研发。\", \"expression\": {\"id\": \"N0851:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"正文明确hybrid engineering and project management，亲自建设3D地图系统和负责项目范围/计划/依赖均展开。不是仅凭TPM标题归项目，也不将技术协作虚构为本人算法研发。\", \"evidence\": [{\"record_id\": \"US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc\", \"text_version_hash\": \"4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360\", \"field\": \"full_description\", \"start\": 606, \"end\": 652, \"quote\": \"hybrid engineering and project management role\"}], \"children\": [{\"id\": \"N0851:map\", \"relation\": \"ROLE\", \"value\": \"RF_PERCEPTION\", \"surface\": \"Design, develop, and maintain production-grade software for 3D mapping solutions\", \"evidence\": [{\"record_id\": \"US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc\", \"text_version_hash\": \"4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360\", \"field\": \"full_description\", \"start\": 1443, \"end\": 1524, \"quote\": \"Design, develop, and maintain production-grade software for 3D mapping solutions.\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"Design, develop, and maintain production-grade software for 3D mapping solutions.\", \"evidence\": [{\"record_id\": \"US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc\", \"text_version_hash\": \"4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360\", \"field\": \"full_description\", \"start\": 1443, \"end\": 1524, \"quote\": \"Design, develop, and maintain production-grade software for 3D mapping solutions.\"}]}, {\"summary\": \"Validate mapping systems and algorithms using real robots and sensors in complex, unstructured environments.\", \"evidence\": [{\"record_id\": \"US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc\", \"text_version_hash\": \"4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360\", \"field\": \"full_description\", \"start\": 1607, \"end\": 1715, \"quote\": \"Validate mapping systems and algorithms using real robots and sensors in complex, unstructured environments.\"}]}]}, {\"id\": \"N0851:tpm\", \"relation\": \"ROLE\", \"value\": \"RF_PRODUCT_PROGRAM\", \"surface\": \"Own mapping projects from planning through delivery\", \"evidence\": [{\"record_id\": \"US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc\", \"text_version_hash\": \"4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360\", \"field\": \"full_description\", \"start\": 1868, \"end\": 2001, \"quote\": \"Own mapping projects from planning through delivery, coordinating execution across software, hardware, systems, data, and operations.\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"Own mapping projects from planning through delivery, coordinating execution across software, hardware, systems, data, and operations.\", \"evidence\": [{\"record_id\": \"US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc\", \"text_version_hash\": \"4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360\", \"field\": \"full_description\", \"start\": 1868, \"end\": 2001, \"quote\": \"Own mapping projects from planning through delivery, coordinating execution across software, hardware, systems, data, and operations.\"}]}, {\"summary\": \"Track project progress using Jira, Confluence, or similar tools while managing scope, schedules, and dependencies.\", \"evidence\": [{\"record_id\": \"US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc\", \"text_version_hash\": \"4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360\", \"field\": \"full_description\", \"start\": 2209, \"end\": 2323, \"quote\": \"Track project progress using Jira, Confluence, or similar tools while managing scope, schedules, and dependencies.\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P2_ENGINEERING_QUALITY",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_QUALITY",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc|4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360",
+        "record_id": "US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc",
+        "reading_id": "N0851",
+        "company_id": "US_FIELD_AI",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      },
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc|4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360",
+        "record_id": "US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc",
+        "reading_id": "N0851",
+        "company_id": "US_FIELD_AI",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc|4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360",
+            "record_id": "US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc",
+            "reading_id": "N0851",
+            "company_id": "US_FIELD_AI",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "Deploy large-scale mapping systems and data processing pipelines into production.",
+            "field": "full_description",
+            "start": "1525",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 1525,
+            "end": 1606,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Deploy large-scale mapping systems and data processing pipelines into production."
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc|4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360",
+            "record_id": "US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc",
+            "reading_id": "N0851",
+            "company_id": "US_FIELD_AI",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "Design, develop, and maintain production-grade software for 3D mapping solutions.",
+            "field": "full_description",
+            "start": "1443",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 1443,
+            "end": 1524,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Design, develop, and maintain production-grade software for 3D mapping solutions."
+          }
+        }
+      ],
+      "ACT_QUALITY": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc|4759d00288b6b6efc0b5ebe6a365a4f242e8cd28e16538540ec9a3660614c360",
+            "record_id": "US_FIELD_AI|lever|becff218-8524-4482-b675-3c656c6c46bc",
+            "reading_id": "N0851",
+            "company_id": "US_FIELD_AI",
+            "label_code": "ACT_QUALITY",
+            "label_name": "质量验证",
+            "relation": "OWNED",
+            "quote": "Validate mapping systems and algorithms using real robots and sensors in complex, unstructured environments.",
+            "field": "full_description",
+            "start": "1607",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 1607,
+            "end": 1715,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Validate mapping systems and algorithms using real robots and sensors in complex, unstructured environments."
+          }
+        }
+      ]
+    },
+    "duties": "Field AI is at the forefront of robotic embodied AI, transforming industries like construction, security, mining, and manufacturing. Our autonomous robots operate globally, often in harsh environments, delivering critical insights to customers. Whether monitoring construction progress, ensuring safety compliance, or conducting predictive maintenance, Field AI is advancing technology to make a meaningful impact.\nAbout the Role\nWe are looking for a Technical Project Manager to lead the planning and execution of our 3D mapping projects while remaining hands-on with the underlying technology. This is a hybrid engineering and project management role where you'll contribute directly to the development of our mapping systems while driving projects from concept through production deployment.\nThe ideal candidate has a strong technical background in robotics software, computer vision, or 3D mapping and enjoys coordinating cross-functional teams to deliver high-quality solutions. You'll work closely with engineering, product, operations, and customer-facing teams to ensure projects are well planned, clearly communicated, and successfully delivered.\nWe're seeking someone with 4+ years of experience in robotics software development and technical project management who thrives in fast-paced startup environments and enjoys balancing technical problem-solving with project execution.\nWhat You'll Get To Do\nSoftware Development & Mapping\nDesign, develop, and maintain production-grade software for 3D mapping solutions.\nDeploy large-scale mapping systems and data processing pipelines into production.\nValidate mapping systems and algorithms using real robots and sensors in complex, unstructured environments.\nBuild and improve internal tooling, automation, and benchmarking infrastructure to increase reliability and repeatability.\nTechnical Project Management\nOwn mapping projects from planning through delivery, coordinating execution across software, hardware, systems, data, and operations.\nTranslate technical and customer requirements into project plans, milestones, and delivery timelines.\nDrive cross-functional collaboration across engineering, product, operations, and customer-facing teams.\nTrack project progress using Jira, Confluence, or similar tools while managing scope, schedules, and dependencies.\nIdentify risks early, communicate project status clearly, and drive issues to resolution.\nDevelop documentation, processes, and playbooks that improve execution and scalability across future projects.\nWhat You Have\nBachelor's degree in Computer Science, Engineering, or a related technical field.\n4+ years of experience in robotics software development and technical project management.\nStrong programming skills in C++ and Python.\nExperience with 3D geometry, point cloud processing, and libraries such as PCL or Open3D.\nExperience using Jira, Confluence, Wrike, or similar project management tools.\nStrong understanding of Agile development methodologies and the software development lifecycle (SDLC).\nExcellent communication, organization, and stakeholder management skills.\nAbility to manage multiple technical projects in fast-paced, evolving environments.\nThe Extras That Set You Apart\nExperience with LiDAR sensors, Linux/Ubuntu, and robotics software development best practices.\nBackground in mobile robotics, autonomous vehicles, drones, or embedded systems.\nExperience with data capture, mapping, or system integration in production environments.\nExperience supporting field operations or customer deployments.\nPMP, Scrum Master, or Agile certification.\nExperience working in a startup or high-growth environment with a strong sense of ownership.\n \n \n \n\n\nThe actual offer for this position will be based on factors such as relevant experience, competencies, certifications, and how well the candidate meets the qualifications outlined above. Part of our compensation package also includes full benefits, equity, and generous time off. \nField AI Onsite Work Philosophy\nAt Field AI, we believe the most effective way to collaborate and solve complex challenges is by working together in person. This is a fully onsite role, and candidates will be expected to work from our Irvine, CA office. In-person engagement is essential to our success, and we offer flexible working hours to support focus and work-life balance.\nWhy Join Field AI?\nWe are solving one of the world’s most complex challenges: deploying robots in unstructured, previously unknown environments. Our Field Foundational Models&trade; set a new standard in perception, planning, localization, and manipulation, ensuring our approach is explainable and safe for deployment.\nYou will have the opportunity to work with a world-class team that thrives on creativity, resilience, and bold thinking. With a decade-long track record of deploying solutions in the field, winning DARPA challenge segments, and bringing expertise from organizations like DeepMind, NASA JPL, Boston Dynamics, NVIDIA, Amazon, Tesla Autopilot, Cruise Self-Driving, Zoox, Toyota Research Institute, and SpaceX, we are set to achieve our ambitious goals.\nBe Part of the Next Robotics Revolution\nTo tackle such ambitious challenges, we need a team as unique as our vision &mdash; innovators who go beyond conventional methods and are eager to tackle tough, uncharted questions. We’re seeking individuals who challenge the status quo, dive into uncharted territory, and bring interdisciplinary expertise. Our team requires not only top AI talent but also exceptional software developers, engineers, product designers, field deployment experts, and communicators.\nWe are headquartered in always-sunny Irvine, Southern California and have US based and global teammates. \nJoin us, shape the future, and be part of a fun, close-knit team on an exciting journey!\nWe celebrate diversity and are committed to creating an inclusive environment for all employees. Candidates and employees are always evaluated based on merit, qualifications, and performance. We will never discriminate on the basis of race, color, gender, national origin, ethnicity, veteran status, disability status, age, sexual orientation, gender identity, marital status, mental or physical disability, or any other legally protected status.\nWe may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",
+    "requirements": ""
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39|94373fe2132a7a11968bd7dd53f6f31602530bdb704b5e323ec58310dc6f68e0",
+    "reading_id": "N0867",
+    "company_id": "US_DEXTERITY",
+    "title": "Security Architect",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39|94373fe2132a7a11968bd7dd53f6f31602530bdb704b5e323ec58310dc6f68e0",
+      "record_id": "US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39",
+      "reading_id": "N0867",
+      "company_id": "US_DEXTERITY",
+      "company_name": "Dexterity",
+      "title": "Security Architect",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"本人写/审安全代码和编写/审计政策、对接审计证明合规，都有直接规定。安全主题不能替代职能边界。\", \"expression\": {\"id\": \"N0867:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"本人写/审安全代码和编写/审计政策、对接审计证明合规，都有直接规定。安全主题不能替代职能边界。\", \"evidence\": [{\"record_id\": \"US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39\", \"text_version_hash\": \"94373fe2132a7a11968bd7dd53f6f31602530bdb704b5e323ec58310dc6f68e0\", \"field\": \"full_description\", \"start\": 184, \"end\": 231, \"quote\": \"write and review code, write and audit policies\"}], \"children\": [{\"id\": \"N0867:code\", \"relation\": \"ROLE\", \"value\": \"RF_ROBOTICS_SOFTWARE\", \"surface\": \"write and review code\", \"evidence\": [{\"record_id\": \"US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39\", \"text_version_hash\": \"94373fe2132a7a11968bd7dd53f6f31602530bdb704b5e323ec58310dc6f68e0\", \"field\": \"full_description\", \"start\": 184, \"end\": 205, \"quote\": \"write and review code\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"write and review code\", \"evidence\": [{\"record_id\": \"US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39\", \"text_version_hash\": \"94373fe2132a7a11968bd7dd53f6f31602530bdb704b5e323ec58310dc6f68e0\", \"field\": \"full_description\", \"start\": 184, \"end\": 205, \"quote\": \"write and review code\"}]}]}, {\"id\": \"N0867:pol\", \"relation\": \"ROLE\", \"value\": \"RF_CORPORATE_SUPPORT\", \"surface\": \"write and audit policies\", \"evidence\": [{\"record_id\": \"US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39\", \"text_version_hash\": \"94373fe2132a7a11968bd7dd53f6f31602530bdb704b5e323ec58310dc6f68e0\", \"field\": \"full_description\", \"start\": 207, \"end\": 231, \"quote\": \"write and audit policies\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"write and audit policies\", \"evidence\": [{\"record_id\": \"US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39\", \"text_version_hash\": \"94373fe2132a7a11968bd7dd53f6f31602530bdb704b5e323ec58310dc6f68e0\", \"field\": \"full_description\", \"start\": 207, \"end\": 231, \"quote\": \"write and audit policies\"}]}, {\"summary\": \"keeping our Security Guidelines, Incident Plan and other policy documents updated with the latest industry best-practices.\", \"evidence\": [{\"record_id\": \"US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39\", \"text_version_hash\": \"94373fe2132a7a11968bd7dd53f6f31602530bdb704b5e323ec58310dc6f68e0\", \"field\": \"full_description\", \"start\": 356, \"end\": 478, \"quote\": \"keeping our Security Guidelines, Incident Plan and other policy documents updated with the latest industry best-practices.\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P2_ENGINEERING_QUALITY",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_QUALITY",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39|94373fe2132a7a11968bd7dd53f6f31602530bdb704b5e323ec58310dc6f68e0",
+        "record_id": "US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39",
+        "reading_id": "N0867",
+        "company_id": "US_DEXTERITY",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39|94373fe2132a7a11968bd7dd53f6f31602530bdb704b5e323ec58310dc6f68e0",
+            "record_id": "US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39",
+            "reading_id": "N0867",
+            "company_id": "US_DEXTERITY",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "write and review code",
+            "field": "full_description",
+            "start": "184",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 184,
+            "end": 205,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "write and review code"
+          }
+        }
+      ],
+      "ACT_QUALITY": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39|94373fe2132a7a11968bd7dd53f6f31602530bdb704b5e323ec58310dc6f68e0",
+            "record_id": "US_DEXTERITY|lever|44985c0b-59f6-4898-8d76-8ebd02ba5f39",
+            "reading_id": "N0867",
+            "company_id": "US_DEXTERITY",
+            "label_code": "ACT_QUALITY",
+            "label_name": "质量验证",
+            "relation": "OWNED",
+            "quote": "work with auditors, prospects and customers to demonstrate compliance with security policies.",
+            "field": "full_description",
+            "start": "237",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 237,
+            "end": 330,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "work with auditors, prospects and customers to demonstrate compliance with security policies."
+          }
+        }
+      ]
+    },
+    "duties": "As the Security Architect, you will be leading all aspects of Software Security for Dexterity’s Robotics Product Lines. This is a very visible and “hands-on” role that requires you to write and review code, write and audit policies, and work with auditors, prospects and customers to demonstrate compliance with security policies. \n\nThe role also requires keeping our Security Guidelines, Incident Plan and other policy documents updated with the latest industry best-practices. You will work with a team of very talented Software and DevOps Engineers, Operations and Customer Success Managers to ensure that we have the right policies and processes in place and are effectively communicating and enforcing them.\n\nWe are very interested in candidates that have previously led or played a significant role in achieving ISO27001 and SOC2 compliance at a software company. Multiple years of real-world production experience is required. Other duties involve analyzing requirements, mentoring software developers and communicating best practices via documents. \n \nIn order to thrive in this role you will have strong knowledge of modern DevOps/SecOps tooling and industry trends. Strong communication and problem-solving skills are essential to the role. Solid experience in C++ and Python is required to ensure you are operating at all of the required levels to be successful. \n\n \nAbout Dexterity: \nAt Dexterity, we believe robots can positively transform the world. Our breakthrough technology frees people to do the creative, inspiring, problem-solving jobs that humans do best by enabling robots to handle repetitive and physically difficult work.\n \nWe’re starting with warehouse automation, where the need for smarter, more resilient supply chains impacts millions of lives and businesses around the world. Dexterity's full-stack robotics systems pick, move, pack, and collaborate with human-like skill, awareness, and learning capabilities. Our systems are software-driven, hardware-agnostic, and have already picked over 15 million goods in production. And did we mention we’re customer-obsessed? Every decision, large and small, is driven by one question – how can we empower our customers with robots to do more than they thought was possible?\n \nDexterity is one of the fastest growing companies in robotics, backed by world-class investors such as Kleiner Perkins, Lightspeed Venture Partners, and Obvious Ventures. We’re a diverse and multidisciplinary team with a culture built on passion, trust, and dedication. Come join Dexterity and help make intelligent robots a reality!\n\nRequired Skills:\nMS or PhD in Computer Science, or a related discipline, or equivalent experience.\nBackground in InfoSec, software supply chain security and secure coding practices\nPrevious experience leading or significant contribution to achieving ISO27001 and SOC2 Compliance\nExperience working with auditors and customer InfoSec/IT teams. Strong internal and external communication skills, Attention to details\nStrong knowledge of Modern C++ and Python\nExperience with Git and modern CI pipelines\n\nNice to haves:\nKnowledge of Network Security\nExperience with Docker and Kubernetes\nExperience with cloud infrastructure such as AWS, GCP, Azure etc. \nPrevious startup experience\n\n\nEqual Opportunity Employer\nWe are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.",
+    "requirements": ""
+  },
+  {
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4261605009|8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17",
+    "reading_id": "N0919",
+    "company_id": "US_NIMBLE",
+    "title": "Senior Robotics SWE, System Identification & Modeling",
+    "tree": {
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4261605009|8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17",
+      "record_id": "US_NIMBLE|greenhouse|4261605009",
+      "reading_id": "N0919",
+      "company_id": "US_NIMBLE",
+      "company_name": "Nimble Robotics",
+      "title": "Senior Robotics SWE, System Identification & Modeling",
+      "root_relation": "ALL",
+      "n_role_nodes": "2",
+      "has_mixed_branch": "NO",
+      "primary_code": "RF_COMPOSITE_FUNCTION",
+      "tree_json": "{\"schema_version\": 1, \"rationale\": \"可因硬件变化反复使用的标定/辨识工具，与前馈反馈控制系统、机器人行为执行均为本人交付。职位概述本身将模型、参数管线和控制系统并列，不能仅凭System Identification头衔确定测量主导。\", \"expression\": {\"id\": \"N0919:root\", \"relation\": \"ALL\", \"scope\": \"JOB_RESPONSIBILITIES\", \"rationale\": \"可因硬件变化反复使用的标定/辨识工具，与前馈反馈控制系统、机器人行为执行均为本人交付。职位概述本身将模型、参数管线和控制系统并列，不能仅凭System Identification头衔确定测量主导。\", \"evidence\": [{\"record_id\": \"US_NIMBLE|greenhouse|4261605009\", \"text_version_hash\": \"8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17\", \"field\": \"full_description\", \"start\": 2646, \"end\": 2739, \"quote\": \"mathematical models, parameter estimation pipelines, and feedforward/feedback control systems\"}], \"children\": [{\"id\": \"N0919:sid\", \"relation\": \"ROLE\", \"value\": \"RF_SIMULATION_EVALUATION\", \"surface\": \"Build automated calibration and sys-id tooling\", \"evidence\": [{\"record_id\": \"US_NIMBLE|greenhouse|4261605009\", \"text_version_hash\": \"8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17\", \"field\": \"full_description\", \"start\": 3853, \"end\": 3999, \"quote\": \"Build automated calibration and sys-id tooling that runs on production hardware, enabling rapid re-characterization after mechanical changes, wear\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"Build automated calibration and sys-id tooling that runs on production hardware, enabling rapid re-characterization after mechanical changes, wear\", \"evidence\": [{\"record_id\": \"US_NIMBLE|greenhouse|4261605009\", \"text_version_hash\": \"8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17\", \"field\": \"full_description\", \"start\": 3853, \"end\": 3999, \"quote\": \"Build automated calibration and sys-id tooling that runs on production hardware, enabling rapid re-characterization after mechanical changes, wear\"}]}]}, {\"id\": \"N0919:ctrl\", \"relation\": \"ROLE\", \"value\": \"RF_CONTROL_PLANNING\", \"surface\": \"feedforward/feedback control systems\", \"evidence\": [{\"record_id\": \"US_NIMBLE|greenhouse|4261605009\", \"text_version_hash\": \"8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17\", \"field\": \"full_description\", \"start\": 2703, \"end\": 2739, \"quote\": \"feedforward/feedback control systems\"}, {\"record_id\": \"US_NIMBLE|greenhouse|4261605009\", \"text_version_hash\": \"8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17\", \"field\": \"full_description\", \"start\": 3540, \"end\": 3652, \"quote\": \"fitting dynamic models via regression and curve-fitting to derive accurate feedforward and feedback controllers.\"}], \"duties_status\": \"DESCRIBED\", \"duties\": [{\"summary\": \"fitting dynamic models via regression and curve-fitting to derive accurate feedforward and feedback controllers.\", \"evidence\": [{\"record_id\": \"US_NIMBLE|greenhouse|4261605009\", \"text_version_hash\": \"8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17\", \"field\": \"full_description\", \"start\": 3540, \"end\": 3652, \"quote\": \"fitting dynamic models via regression and curve-fitting to derive accurate feedforward and feedback controllers.\"}]}, {\"summary\": \"Lead design and implementation of robot behaviors and task-level intelligence across the full stack, integrating perception, planning, and control into reliable end-to-end execution across nominal and edge-case scenarios.\", \"evidence\": [{\"record_id\": \"US_NIMBLE|greenhouse|4261605009\", \"text_version_hash\": \"8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17\", \"field\": \"full_description\", \"start\": 4030, \"end\": 4251, \"quote\": \"Lead design and implementation of robot behaviors and task-level intelligence across the full stack, integrating perception, planning, and control into reliable end-to-end execution across nominal and edge-case scenarios.\"}]}]}]}}"
+    },
+    "pairs": [
+      {
+        "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+        "activity_a": "ACT_ENGINEERING",
+        "activity_b": "ACT_DEPLOYMENT",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4261605009|8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17",
+        "record_id": "US_NIMBLE|greenhouse|4261605009",
+        "reading_id": "N0919",
+        "company_id": "US_NIMBLE",
+        "primary_code": "RF_COMPOSITE_FUNCTION",
+        "root_relation": "ALL",
+        "branch_a": "",
+        "branch_b": "",
+        "status": "UNRESOLVED",
+        "quote_a": "",
+        "quote_b": "",
+        "reason": "结构树存在但活动文本未落到任何节点区间，无法定位所属性分支"
+      }
+    ],
+    "activity_evidence": {
+      "ACT_DEPLOYMENT": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4261605009|8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17",
+            "record_id": "US_NIMBLE|greenhouse|4261605009",
+            "reading_id": "N0919",
+            "company_id": "US_NIMBLE",
+            "label_code": "ACT_DEPLOYMENT",
+            "label_name": "部署与维护",
+            "relation": "OWNED",
+            "quote": "triage and resolve production robotics issues.",
+            "field": "full_description",
+            "start": "4539",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 4539,
+            "end": 4585,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "triage and resolve production robotics issues."
+          }
+        }
+      ],
+      "ACT_ENGINEERING": [
+        {
+          "original": {
+            "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4261605009|8a41638df57f5f68145cf5eb001ab29420a77014ad8d66efc4f8b96a8f9c3b17",
+            "record_id": "US_NIMBLE|greenhouse|4261605009",
+            "reading_id": "N0919",
+            "company_id": "US_NIMBLE",
+            "label_code": "ACT_ENGINEERING",
+            "label_name": "工程实现",
+            "relation": "OWNED",
+            "quote": "Build automated calibration and sys-id tooling that runs on production hardware, enabling rapid re-characterization after mechanical changes, wear, or new platform deployments.",
+            "field": "full_description",
+            "start": "3853",
+            "end": ""
+          },
+          "recovered": {
+            "field": "full_description",
+            "start": 3853,
+            "end": 4029,
+            "method": "RECOVER_END_FROM_QUOTE",
+            "quote": "Build automated calibration and sys-id tooling that runs on production hardware, enabling rapid re-characterization after mechanical changes, wear, or new platform deployments."
+          }
+        }
+      ]
+    },
+    "duties": "About Nimble\nNimble\nis an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, the first robot in the world capable of performing thousands of tasks across the supply chain. We’ve raised over $220M at over $1B valuation and formed a strategic alliance with FedEx to build a national network of autonomous warehouses capable of generating many billions in annual revenue. We are a hardcore and obsessed team of the world’s best engineers and operators. If you are obsessed with your craft, enjoy a high-intensity and fast moving high impact environment, are super high agency in getting hard things done and want to be part of building the world’s most legendary robotics company at the most pivotal moment in history, we want to work with you.We are on a mission to empower and inspire mankind to accomplish legendary feats by inventing robots that liberate us from the menial. We will accomplish this by training robot AGI to invent and build the Autonomous Supply Chain – everything from the inside of factories and warehouses to your front door – powered by generalist superhumanoids.Our founding team comes from the AI labs at Stanford and Carnegie Mellon and our board of directors include famed robotics and AI legends including\nFei-Fei Li\n(Chief Scientist of AI at Google and Director of Stanford’s AI Lab),\nMarc Raibert\n(founder of Boston Dynamics), and\nSebastian Thrun\n(founder of GoogleX, Waymo; Stanford Professor and considered the father of autonomous vehicles).Let’s be legendary.\nLink:\nNimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx\nLink:\nFedEx Announces Expansion of FedEx Fulfillment With Nimble Alliance\nWhy Join Nimble?\nAt Nimble, we are committed to building legendary products, a legendary team, and a legendary legacy. Join us and become part of an ambitious, humble, and resourceful culture where your work will leave a lasting impact on the future of robotics and commerce.\nNimble's Core Values:\nBe relentlessly resourceful\n-\nChallenge conventions and overcome obstacles.\nBe legendary\n-\nBe the very best and do work that inspires.\nBe humble\n-\nPrioritize growth, learning, and doing whatever is needed to further the mission.\nBe dependable\n-\nTake ownership and deliver with high agency.\nAbout the Role\nWe are looking for a Senior Robotics Software Engineer specializing in System Identification and Modeling to build the core software powering our next-generation autonomous robots. In this role, you will develop and maintain the mathematical models, parameter estimation pipelines, and feedforward/feedback control systems that allow our robots to operate with exceptional reliability, precision, and efficiency in real production environments.\nYou will work across the full robotics and autonomy stack — building robust, production-grade software that scales as we deploy more robots into high-throughput operations — while serving as the team's deep expert in system identification, dynamics modeling, and model-based control. You'll collaborate closely with AI, hardware, controls, and infrastructure teams to integrate frontier AI capabilities with rigorous physics-based models, continually improving robot uptime, performance, and overall intelligence.\nResponsibilities\nDesign and execute system identification experiments for actuators, mechanisms, and full robot subsystems — motors, arms, elevators, drivetrains — fitting dynamic models via regression and curve-fitting to derive accurate feedforward and feedback controllers.\nOwn kinematic calibration workflows: DH parameter identification, wheel radius estimation, and tool-center-point calibration to drive measurable improvements in arm accuracy and mobile base odometry.\nBuild automated calibration and sys-id tooling that runs on production hardware, enabling rapid re-characterization after mechanical changes, wear, or new platform deployments.\nLead design and implementation of robot behaviors and task-level intelligence across the full stack, integrating perception, planning, and control into reliable end-to-end execution across nominal and edge-case scenarios.\nDrive measurable improvements in autonomy quality and arm accuracy using data, operational metrics, and model validation (diagnostic plots, residual analysis, statistical benchmarks).\nCollaborate with hardware engineering on software–hardware integration for new platforms and upgrades; triage and resolve production robotics issues.\nLead technical design reviews, drive architecture decisions for core subsystems, and mentor engineers and technicians on reliability, testing, and operational excellence.\nQualifications\nBachelor's, Master's, or PhD in Robotics, Mechanical Engineering, Electrical Engineering, Computer Science, or a related field.\n5+ years of software engineering experience building production robotics systems.\nStrong foundation in dynamics, controls, and system identification — including least-squares regression, parameter estimation, state-space and transfer-function modeling, and feedforward/feedback controller design.\nHands-on experience characterizing real electromechanical systems: motors, gearboxes, linear actuators, articulated arms, or similar mechanisms.\nStrong proficiency in at least one of the following: Rust, Python, C++.\nProven ability to design, implement, and maintain complex, high-reliability software systems.\nExperience integrating software with sensors, actuators, and embedded systems.\nFamiliarity with software best practices including testing, documentation, code reviews, and robust architectural design.\nExcellent communication skills and ability to collaborate across multi-disciplinary teams.\nWillingness to support production operations through an on-call rotation.\nNice to Have\nGraduate-level coursework or research in system identification, optimal estimation, or adaptive control.\nExperience with nonlinear system identification techniques (e.g., extended Kalman filters, particle filters, neural-network-based model learning).\nFamiliarity with physics simulators (MuJoCo, Drake, Isaac Sim) and sim-to-real transfer, including using identified parameters to calibrate simulation environments.\nExperience with real-time embedded system development, RTOS, or bare-metal firmware.\nExposure to automation environments such as warehousing, manufacturing, or logistics.\nExperience with safety-critical systems.\nFamiliarity with ROS/ROS 2 and standard robotics middleware.\nExperience building data pipelines for collecting, storing, and analyzing robot telemetry at scale.\nCompensation & Benefits\nThe pay range for this position at the start of employment is expected to be between $190,000 and $250,000/year. Your exact offer may vary depending on multiple individualized factors, including job-related knowledge, skills, and experience. In addition to cash compensation, this position will also receive generous equity for this position.\nCulture:\nWe embrace challenges and strive to make the impossible possible each day. We’re not in this to do what’s easy or to be mediocre. We want to create something legendary and leave our mark on the world. We’re ambitious, we’re gritty, we’re humble and we’re relentlessly resourceful in pursuit of our goals. If this sounds like you then you might be a great fit!\nNimble Robotics, Inc. is an equal opportunity employer. We make all employment decisions based solely on merit. We provide equal employment opportunity to all applicants and employees without discrimination on the basis of race, color, religion, national origin, ancestry, disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, sexual orientation, age, military or veteran status, or any other characteristic protected by applicable state, federal or local laws.\nNimble's Benefits\nUnlimited Flexible Time Off\nEnjoy the time you need to travel, rejuvenate, and connect with friends and family.\nHealth Insurance\nNimble provides medical, dental, and vision insurance through several premier plans and options to support you and your family.\nPaid Parental Leave\nEnjoy paid bonding time following a birth.\nCommuter Benefits\nTake the stress out of commuting with access to fully-paid parking spots.\nReferral Bonus\nGet a cash bonus for any friend or colleagues that you refer to us that we end up hiring.\n401k\nContribute towards a 401k for retirement planning.\nEquity\nBe an owner in Nimble through our equity program",
+    "requirements": ""
+  }
+]

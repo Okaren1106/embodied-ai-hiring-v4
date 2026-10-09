@@ -1,0 +1,486 @@
+{
+  "stage": "B-evidence-integrated",
+  "scope": "24-company stage B repair pending independent acceptance; field-level unknowns remain visible",
+  "reviewer": "stage_b_integrated_repair_agent（执行方自检；不是独立验收，也不声称用户人工复核）",
+  "bound_to": {
+    "run_id": "run_20260915T073556Z",
+    "code_version": "stage-b-supplement-v2",
+    "input_root_digest": "26d6717312241aa6cc01928a4601f4e3037dfebe8020bc4c342ef016fef46d05",
+    "code_digest": "befc0235eb25befdced66c38dcf4310473c0b931070631ef1bb86b7768a8b8ad",
+    "scripts": {
+      "_apply_r2_data.py": "b8462676e5f91b7672c4d93e49f3e6b77944460d0e0eee495253051c7de2b599",
+      "_apply_targeted.py": "60a59395aaa82a051675ba406e05680193d8fc9eeb7892527252a5dce72c4d59",
+      "d01_diagnose.py": "a1f147661a5d6beee10f03721f260b5d05803cb638b7d39b159f16f31266c536",
+      "d02_evidence_index.py": "16c3d49e0a1b45f049570f24db55f5f254dfb9b87858d242fcde4225df3db0e7",
+      "d03_group_bindings.py": "4024012df419ff3f8f9fcb1e82c8e52dcce7b8f7caea2e0ddde35d3f15a72ed2",
+      "d04_group_bindings_batch3.py": "6f34af030c6a4a369d6f08d3a1c530f4376373f001dbbe6863b91d9829b1bd81",
+      "d05_group_bindings_batch4.py": "4b69028f6e779aa155ab8e79f935531022bc5702698828ab38ea3c5bcc71082e",
+      "d06_group_bindings_batch5.py": "12db122289787326a74b5cfdb1093129347e7eeb192f3f7c3501ea2380bcc719",
+      "d07_patch_limx_relation.py": "cac1b753100e1f412f8e5bcde8622193686b1f9cfbb10bf1a8aff24635ae0bd5",
+      "d08_group_bindings_batch6.py": "168cec4f0543794f311d9533a2d54528d9807f149ced4f1e67ddd6ae10a5c49b",
+      "d09_group_bindings_batch7.py": "bf50d14bc157605e0ecd80ad581b9e9ab6cdd1944e9ff6ce5e3470021eafdaf9",
+      "d10_group_bindings_batch8.py": "502a266cad0425fdc734b349f48394a90b2cbc771eaa7e5fe6ca28ab61494959",
+      "s00_common.py": "54be59f4a9fc8aa1ce71439e321562c961cdd7dfa5a69ee8d8e8b203f0057073",
+      "s00_pipeline.py": "1e2c8ec7117cd2ffe21819f6954614afa00167cae90a114f79388cb76d587dd8",
+      "s01_lock_inputs.py": "50e14e1ac84216fe8611161cb0cf188e37aae69365d8e272b7d85f9fd1f8284a",
+      "s01b_rebuild_snapshots.py": "0bec7c843adc00e0cd8be6e593df7acedda776c1965ab28d9f2d3b62ce5a7d12",
+      "s02_build_facts.py": "903bb0045a9fbf8b42d37f0cbad35e0f529995af29980f5a767236523d521eda",
+      "s02b_extension_skeletons.py": "4e7af6e3d04f40e8c2593f01093c079be30ad524c85263d9c6515a280be5b025",
+      "s03_build_tables.py": "66d8c355d9c0b4ca2e69540f91b64d0d1d1f44816eae5d8674fe4ea8d1f19955",
+      "s03_fetch.py": "18523b53f7f5ffd1542756836bd2a6da4b11d3fd76013c98ed4efaa68f7c5ef3",
+      "s03b_company_profile.py": "943b5f4a5bc61aeb96dae8597cbaab2cf5fb44efde95b25e93132667a6646fd7",
+      "s04_verify.py": "24ce997cf65c4a89aba0501085f6e7f1e2efada4d364b645d1601b60018d453f",
+      "s05_grouping.py": "7a64846b36b5d00c51bb8874ff45c6c6544fa667996e19db5d7a3e1990a6dce4",
+      "s06_rebuild_and_fault.py": "90e014fc2f93843bfdf6a46d00309b600917d70f2b83dc20b6be7382686fd574",
+      "s07_cards_and_html.py": "90fdd1aca928d473d18ad2b30aaee33fecdf34a37bdc82c9856c22197ac4ae80",
+      "s08_docs.py": "ce56c8526b25673b4c3ebe0470fe2d3fe2812eec568ee88d8c8b499b689988f9",
+      "s08_html_runtime_check.js": "4be3a7eb921349b5ea0cfc3bccf6b51857005bbfa8ab27b34a8b2b773c0ea3cb",
+      "s09_search_log.py": "b605fdae9d03df5f4642568c4caae255309f90fd31feb5b670a5989745a9fd17",
+      "s10_checksums.py": "fb5bcd4e47f571f37d4d9f298c17b97ed2e3ebef415ba337090bb257deff51ae",
+      "s11_release_gate.py": "98051af78e50f47f654048f8252d8d3e8ab943bde76c3eaebe98068712b3e459",
+      "s11b_search_log_ext.py": "360c18d9598c0195f5c575dc445353d48c1ede587c2ac4fc2e6cd4347721038d",
+      "s12_repair_docs.py": "dd3f5011e5b03db89ea166df84c277ffcb4bf75c1c520afc992a09b1c656ade5",
+      "s13_semantic_checks.py": "6a1358b0a0a43cbf28265a45dbac5f87c8adb9a84c4cb6420da309a30bb49ad3",
+      "s14_reproduce.py": "92c7b7e7c374733c3f582f52e1917b95c08a08f8aa7cca1a3032ae58d8a1ce6a"
+    },
+    "tables": {
+      "company_facts.csv": "a7630e3e56a946c1facba33f3921e5e99d5b1fb5de1c6a2599284c6cd22f55d8",
+      "company_evidence.csv": "f76a8f341cce58812d6795239e315f84c7c05e6d5c4fe840cde401ec6ff272f5",
+      "evidence_links.csv": "4425becf16e5ee1d3c5f829e9db45c1c490fbd925d620719f195b2ed002747ed",
+      "capital_events.csv": "3db17675e2bb66bdcdebad8d0a103553c773aecbce9e24ac04c1d8e7b9ecb767",
+      "company_gaps.csv": "14fd02cf371cb5846ef61553b9606c66b935cfbd7d129d35d6912657d326b9f8",
+      "company_group_mapping.csv": "bc655b1a47896b3322cd89985bcff3726f71579dba285c087041ff187db9a1f2",
+      "company_profile.csv": "2b141fdb5127c394508de23024d0138c7167c45d0b29d46fb2a6b0c58de17c3d"
+    }
+  },
+  "n_checks": 53,
+  "n_pass": 53,
+  "n_fail": 0,
+  "checks": [
+    {
+      "check_id": "L1",
+      "name": "所有被锁定的输入文件均存在",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "locked entries=595, missing=0",
+      "evidence": "缺失清单见 work/input_lock.json 的 problems"
+    },
+    {
+      "check_id": "L2",
+      "name": "每个锁定输入的字节哈希与当前文件一致（换行等价除外）",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "drift=0 []",
+      "evidence": "字节哈希变化且正文哈希也不同才算漂移"
+    },
+    {
+      "check_id": "L3",
+      "name": "每个证据快照的正文哈希可由磁盘文件复算一致",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "snapshots=152, mismatched=0 []",
+      "evidence": "声明哈希与磁盘正文逐字节比较；换行等价在 L2 的路径中另判"
+    },
+    {
+      "check_id": "L4",
+      "name": "输入锁记录绑定了本次输入集与代码版本",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "input_root_digest=26d6717312241aa6… code_digest=befc0235eb25befd…",
+      "evidence": ""
+    },
+    {
+      "check_id": "L5",
+      "name": "r3 只读底稿未被修改",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "r3 manifest members checked=68, problem=0",
+      "evidence": ""
+    },
+    {
+      "check_id": "T1",
+      "name": "事实的日期依据只来自 SUPPORTS/REFUTES 关系",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "violations=0 []",
+      "evidence": "背景、访问记录与母公司材料都不能给事实定日期；只由背景材料支撑的取值只能进入背景展示"
+    },
+    {
+      "check_id": "T2",
+      "name": "时间适用性可由证据日期与观察日离线复算一致",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "mismatched=0 []",
+      "evidence": "判定逻辑与生成端共用同一实现（s00_common.qualify_assertion）"
+    },
+    {
+      "check_id": "T3",
+      "name": "标为观察日可用的事实，其事件日与发布日期都不晚于观察日",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "violations=0 []",
+      "evidence": "由独立的观察日注入实验验证：把发布日期改到观察日之后必须被降级"
+    },
+    {
+      "check_id": "T4",
+      "name": "晚发布回溯与观察日后事件单独标注且不进入严格比较",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "late_publish=0 []; post_observation=0 []",
+      "evidence": ""
+    },
+    {
+      "check_id": "T5",
+      "name": "月精度日期不补成某月 1 日",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "month-precision rows=38",
+      "evidence": ""
+    },
+    {
+      "check_id": "T6",
+      "name": "母公司材料不再给 FAR 断言定日期",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "FAR target_markets time_applicability=DATE_UNKNOWN, date basis=IR_FAR_01",
+      "evidence": "独立复现点：原送审版本因母公司 2023-10 材料被标为 2023-10 观察日可用"
+    },
+    {
+      "check_id": "U1",
+      "name": "未查、查无、受阻的行不携带确定值",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "violations=0 []",
+      "evidence": "未上市这类否定值只能来自 EXPLICITLY_NEGATED 或 NOT_APPLICABLE；继承未核实（INHERITED_UNVERIFIED）保留继承原值但不得进入严格比较"
+    },
+    {
+      "check_id": "U2",
+      "name": "自变量的上市状态保持未知，未被填成未上市",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "value_status=SEARCHED_NOT_FOUND, value=",
+      "evidence": "独立复现点：原送审版本把 SEARCHED_NOT_FOUND 写成未上市并映射为 NOT_LISTED 入组"
+    },
+    {
+      "check_id": "U3",
+      "name": "非确定状态不进入严格比较分组",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "listing rows=24, violations=0 []",
+      "evidence": "只允许 EXPLICITLY_NEGATED / NOT_APPLICABLE 形成确定否定组"
+    },
+    {
+      "check_id": "U4",
+      "name": "不确定值不产生确定否定组且映射另有理由",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "own_listing_status rows=24, non-definite rows without exclusion reason=0",
+      "evidence": "自变量上市状态为查后未找到，只能生成 UNKNOWN_NOT_COMPARABLE 行；分组标签表已移入被锁定的规则文件，改动它必然改变输入摘要"
+    },
+    {
+      "check_id": "G1",
+      "name": "307 项原缺口逐项保留，无静默丢项",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "inherited=307, mapped=307, symmetric_difference=0",
+      "evidence": ""
+    },
+    {
+      "check_id": "G2",
+      "name": "未研究公司的问题一律保留未查状态，未被通用规则关闭",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "unsearched companies=0, gap rows=0, resolved=0 []",
+      "evidence": "独立复现点：原送审版本有 21 项被标为 RESOLVED"
+    },
+    {
+      "check_id": "G3",
+      "name": "未研究公司的 inherited_open_question 保留原文且不写已解决",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "rows=0, resolved=0",
+      "evidence": ""
+    },
+    {
+      "check_id": "G4",
+      "name": "标记已找到的缺口挂到具体事实或证据",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "found-without-support=0 []",
+      "evidence": ""
+    },
+    {
+      "check_id": "G5",
+      "name": "NOT_YET_SEARCHED 与 checked_in_stage_b 不再互相矛盾",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "not_yet_searched rows=202, contradictions=0 []",
+      "evidence": "独立复现点：原送审版本 6 条 NOT_YET_SEARCHED 同时写 checked_in_stage_b=YES"
+    },
+    {
+      "check_id": "G6",
+      "name": "查后未找到的状态有对应逐问题真实检索或页面审阅（派生总结不算）",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "violations=0 [], real trail rows=246",
+      "evidence": ""
+    },
+    {
+      "check_id": "I1",
+      "name": "固定样本身份映射成立：CN_NOETIX 为松延/Noetix 且不含非夕/Flexiv，其余公司官网主机与 r3 名称对应",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "violations=[] noetix_ok=True",
+      "evidence": "身份检查依赖 work/identity_map.json，不只比较字段字符串是否非空"
+    },
+    {
+      "check_id": "E1",
+      "name": "FAR_004 的摘录与所绑快照逐字一致",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "matched=2, unmatched=0 []; bound url=https://www.amazon.jobs/en/jobs/10426076/technical-lab-manager-robotic… snapshot=job_detail_10426076",
+      "evidence": "独立复现点：原送审版本把 10426076 的原文绑到 10424277"
+    },
+    {
+      "check_id": "E2",
+      "name": "每条新证据的 URL 与其快照记录的页面一致",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "violations=0 []",
+      "evidence": "标题、URL、快照必须指向同一页面；路径因 301 重定向变化时按规范化路径比较"
+    },
+    {
+      "check_id": "E3",
+      "name": "背景与访问失败材料不再被标为支持",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "violations=0 []",
+      "evidence": "独立复现点：原送审版本按 B_ 前缀一律生成 SUPPORTS，83/83 全为 SUPPORTS"
+    },
+    {
+      "check_id": "E4",
+      "name": "支持关系的声明性质与证据性质一致",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "violations=0 []",
+      "evidence": ""
+    },
+    {
+      "check_id": "E5",
+      "name": "公司自述不被升级为外部确认",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "violations=0 []",
+      "evidence": "独立复现点：原送审版本 product_lines / evidence_internal_test 全为自述却标 SUPPORTED_EXTERNAL"
+    },
+    {
+      "check_id": "E6",
+      "name": "招聘职责不反推公司已开展的事实",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "internal_test status=COMPANY_SELF_REPORT, time=DATE_UNKNOWN; hiring_role_scope status=COMPANY_SELF_REPORT",
+      "evidence": "岗位职责单列为招聘范围；公司层面测试状态与之分开"
+    },
+    {
+      "check_id": "E7",
+      "name": "母公司规模只作背景展示",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "status=PARENT_CONTEXT_ONLY, time=DATE_UNKNOWN",
+      "evidence": ""
+    },
+    {
+      "check_id": "E8",
+      "name": "同公司同字段允许多行，混合断言已按主体与范围拆开",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "company-field with multiple scoped rows=24: [('CN_AGIBOT|delivery_form', 2), ('CN_AGIBOT|deployment_status_actual', 2), ('CN_AGIBOT|target_markets', 2), ('CN_DEEPROBOTICS|delivery_form', 2), ('CN_DEEPROBOTICS|deployment_status_actual', 2), ('CN_DEEPROBOTICS|evidence_external_pilot', 2)]",
+      "evidence": "独立复现点：原送审版本傅利叶把马来西亚、新加坡与国内产品线塞进一行并取最早日期"
+    },
+    {
+      "check_id": "K1",
+      "name": "资本行的金额缺失必须有明确的未披露标记",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "violations=0 []",
+      "evidence": ""
+    },
+    {
+      "check_id": "K2",
+      "name": "每个资本事件至少连接一条来源",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "capital rows=24, rows without evidence=0",
+      "evidence": ""
+    },
+    {
+      "check_id": "K3",
+      "name": "同一事件的多条来源连到同一行，不被拆成两个交易",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "events with multiple sources=6 ['C_CN_ASTRIBOT__capital_event_astribot_series_b', 'C_CN_LIMX__capital_event_limx_pre_ipo', 'C_CN_UNITREE__capital_event_unitree_ipo', 'C_CN_XSQUARE__capital_event_x2_a_plus', 'C_CN_XSQUARE__capital_event_x2_b_to_c', 'C_US_AGILITY__capital_event_agility_spac']",
+      "evidence": "独立复现点：原送审版本按证据逐条生成四行来源摘要"
+    },
+    {
+      "check_id": "K4",
+      "name": "估值与融资金额分开保存",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "violations=0",
+      "evidence": ""
+    },
+    {
+      "check_id": "K5",
+      "name": "来源月份冲突保留在事件内部",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "events carrying a preserved conflict=['C_CN_ASTRIBOT__capital_event_astribot_series_b', 'C_CN_LIMX__capital_event_limx_pre_ipo', 'C_CN_UNITREE__capital_event_unitree_ipo', 'C_CN_XSQUARE__capital_event_x2_a_plus', 'C_US_AGILITY__capital_event_agility_spac', 'C_US_DILIGENT__capital_event_diligent_acquisition']",
+      "evidence": ""
+    },
+    {
+      "check_id": "K6",
+      "name": "已披露金额的币种、单位与金额性质均已结构化",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "violations=0 []",
+      "evidence": ""
+    },
+    {
+      "check_id": "K7",
+      "name": "资本行时点与成对日期复算一致，无发布日不得标观察日可用",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "violations=[]",
+      "evidence": ""
+    },
+    {
+      "check_id": "D1",
+      "name": "24 家公司 ID 与 r3 完全一致",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "companies=24, r3=24, set_equal=True",
+      "evidence": ""
+    },
+    {
+      "check_id": "D2",
+      "name": "已查公司核心字段均有查证行",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "missing=0 []",
+      "evidence": ""
+    },
+    {
+      "check_id": "D3",
+      "name": "关系表的 ID 全部可解析",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "links=457, unresolvable=0 []",
+      "evidence": ""
+    },
+    {
+      "check_id": "D4",
+      "name": "每个已确立的事实都挂着证据",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "violations=0 []",
+      "evidence": ""
+    },
+    {
+      "check_id": "D5",
+      "name": "本轮标记为待独立验收，未写阶段 B 完成",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "pending_marker=True, STAGE_B_COMPLETE=False",
+      "evidence": ""
+    },
+    {
+      "check_id": "D6",
+      "name": "分组映射存在且每个维度可回溯到事实",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "group rows=320",
+      "evidence": ""
+    },
+    {
+      "check_id": "D7",
+      "name": "招聘分类、研究库与原交付包未被改写",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "input problems=0",
+      "evidence": "以 r3 发布清单与锁定输入集复核；本阶段只写 stage_b_repair/run_*"
+    },
+    {
+      "check_id": "D8",
+      "name": "已发布的表与锁定研究源的重建结果逐字节一致",
+      "result": "PASS",
+      "method": "automated+read",
+      "detail": "identical=True; differences=[]; failed_steps=[]; raw_sources_present=48; generated_fact_layers=24; missing_research_sources=[]; reason=",
+      "evidence": "表被手工改写、研究源被删除或必需输入缺失时，这一步会失败"
+    },
+    {
+      "check_id": "B5_IDENTITY",
+      "name": "同一证据ID保持同一公司与来源身份",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "mismatched IDs=[]",
+      "evidence": ""
+    },
+    {
+      "check_id": "B5_CAPITAL",
+      "name": "Figure C日期/承诺资本/估值直接来源与产品来源分离",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "unsupported capital bindings=[]",
+      "evidence": ""
+    },
+    {
+      "check_id": "B5_CAPTURE",
+      "name": "16张审阅卡全部入表且保存媒介/哈希不混同",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "[]",
+      "evidence": ""
+    },
+    {
+      "check_id": "B5_SCOPE_REL",
+      "name": "同字段多个产品或事件逐行绑定各自证据",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "[]",
+      "evidence": ""
+    },
+    {
+      "check_id": "B5_MEDIA",
+      "name": "仅有媒体报道支持的事实不升级为外部确认",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "[]",
+      "evidence": ""
+    },
+    {
+      "check_id": "B5_BOUNDARIES",
+      "name": "捐赠/自述收入/研究本体/产品计划保持分离",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "Noetix donation; Moz1 date conflict; FAR uses Unitree; GXO quotes supplier; F02/F03 and Stretch/Atlas separate",
+      "evidence": ""
+    },
+    {
+      "check_id": "B5_DATE",
+      "name": "星尘发布日期来自原文日期行",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "evidence date=2026-06-03",
+      "evidence": ""
+    },
+    {
+      "check_id": "B5_GROUP",
+      "name": "团队研究产物与长期目标不混入当前产品/场景业务组",
+      "result": "PASS",
+      "method": "automated",
+      "detail": "[]",
+      "evidence": ""
+    }
+  ],
+  "verification_digest": "ee9fa8db107da9d4922549a707a63955f8b8cbef48e14b1f598a7992e04c25e9"
+}

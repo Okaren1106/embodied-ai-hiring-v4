@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "no_outcome_contrasts_computed": true,
+  "comparisons": [
+    {
+      "id": "SUPPLY_SOFTWARE",
+      "role": "RF_ROBOTICS_SOFTWARE",
+      "groups": [
+        "SYSTEM_PRODUCTS",
+        "CROSS_BODY_MODELS"
+      ],
+      "status": "CONDITIONAL_EXPLORATORY",
+      "base_ads": [
+        124,
+        38
+      ],
+      "conditions": [
+        "每一标签语境重算未知排除后的分母和3家/20条门槛",
+        "Field AI集中23/38须披露及剔除",
+        "不作国家解释"
+      ]
+    },
+    {
+      "id": "SUPPLY_ML",
+      "role": "RF_ML_AI_ENGINEERING",
+      "groups": [
+        "SYSTEM_PRODUCTS",
+        "CROSS_BODY_MODELS"
+      ],
+      "status": "COMPANY_POINTS_ONLY",
+      "reason": "模型组仅17条，不作组均值差"
+    },
+    {
+      "id": "SCENE_FACETS",
+      "roles": [
+        "RF_ML_AI_ENGINEERING",
+        "RF_ROBOTICS_SOFTWARE"
+      ],
+      "scenes": [
+        "MANUFACTURING",
+        "LOGISTICS",
+        "RETAIL_SERVICE"
+      ],
+      "status": "OVERLAPPING_DESCRIPTIVE_FACETS",
+      "conditions": [
+        "明示交集",
+        "目标/使用状态并列",
+        "不作独立样本或反面组差异推断",
+        "逐指标门槛重查"
+      ]
+    },
+    {
+      "id": "SCENE_CASES",
+      "scenes": [
+        "FIELD_INSPECTION",
+        "HEALTHCARE_CARE",
+        "HOME",
+        "RESEARCH_EDUCATION"
+      ],
+      "status": "CASE_ONLY",
+      "reason": "少量公司、不同任务或目标/实用证据异质，不自动以3家门槛授权均值"
+    },
+    {
+      "id": "COUNTRY_WITHIN_SYSTEMS",
+      "roles": [
+        "RF_ML_AI_ENGINEERING",
+        "RF_ROBOTICS_SOFTWARE"
+      ],
+      "status": "AUXILIARY_CONDITIONAL",
+      "conditions": [
+        "仅SYSTEM_PRODUCTS范围",
+        "两侧各3家20条最终可解释广告",
+        "范围/渠道/时点限制及敏感性",
+        "不代表国家产业"
+      ]
+    },
+    {
+      "id": "SPECIAL_CASES",
+      "companies": [
+        "CN_PAXINI",
+        "US_NIMBLE",
+        "US_AMAZON_FTR"
+      ],
+      "status": "SEPARATE_POINTS_AND_CASES",
+      "reason": "不删除广告，不为组均值凑数"
+    }
+  ]
+}

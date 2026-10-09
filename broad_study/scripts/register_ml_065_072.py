@@ -1,0 +1,119 @@
+"""First-pass adjudication for ML coding_order 65-72. Reader: grok4.6."""
+from register_Q_decisions import register
+
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0030":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"OTHER_MODEL",
+ "fine_task":"CAMPUS_3D_HUMAN_TRACKING_GENERATION",
+ "secondary_task":"",
+ "task_evidence":"负责研发多模态3D人体Tracking与生成模型，包括姿态泛化及人物动作细节优化。",
+ "new":{
+  "1":O+"SMPL人体模型未单列冻结项。","2":O+"SMPL-X。",
+  "3":[["V2_UNITY","GENERAL","EXAMPLE"],["V2_BLENDER","GENERAL","EXAMPLE"]],
+  "4":O+"PyTorch3D未单列冻结项。",
+  "5":"DUPLICATE:N0030:3","6":"DUPLICATE:N0030:3"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"Python/C++编程能力","description":"斜线未解，不记C语言。"}],
+ "notes":"27届3D人体算法。属其他模型应用。Unity/Blender为3D工具如列表。"
+},
+"N0001":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"CAMPUS_EMBODIED_FOUNDATION_AND_DEPLOY",
+ "secondary_task":"TRAIN_INFER_INFRA",
+ "task_evidence":"具身智能大模型的研究和开发。",
+ "new":{},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"具备预训练、微调、部署等流程的工作经验","description":"泛称微调不自动记后训练目录。BERT/GPT为理解对象示例。"}],
+ "notes":"候选队列为空。主责具身大模型研发，推理加速为并列职责。"
+},
+"N0035":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"INDUSTRIAL_MANIPULATION_RL_ASSIST",
+ "secondary_task":"",
+ "task_evidence":"参与机器人操作强化学习算法的研发与优化，协助实现抓取、放置、装配等任务的算法开发，包括离线强化学习、真机强化学习等方向。",
+ "new":{"1":R+"Python/C++不是C语言；斜线保持未解。"},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"支持算法从仿真到真机平台的测试与部署。","description":"仿真与真机测试部署不足以单独记Sim2Real方法目录。"}],
+ "notes":"工业方向操作RL。VLA+RL为协助探索。CLIP/BLIP/GPT-4V为VLM原理示例。"
+},
+"N0061":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"VLA_WORLD_POLICY_POSTTRAIN_INTERN",
+ "secondary_task":"",
+ "task_evidence":"参与具身大模型（VLA / World Model / Policy）的后训练（post-training）与系统级优化，包括在真实机器人环境中的性能提升与对齐。",
+ "new":{
+  "1":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNRESOLVED"],["V2_POSTTRAINING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_POSTTRAINING","DUTY_OWN_DEVELOP","EXAMPLE"]],
+  "3":[["V2_SIM2REAL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"offline/online fine-tuning、RLHF-like 反馈优化、failure-driven learning 等","description":"微调方法列举服务于后训练职责；RLHF-like不是完整RLHF岗位。"}],
+ "notes":"实习后训练方向。VLA/World Model/Policy斜线未解。"
+},
+"N0102":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"EMBODIED_FOUNDATION_AND_DEPLOY_BEIJING",
+ "secondary_task":"TRAIN_INFER_INFRA",
+ "task_evidence":"具身智能大模型的研究和开发。",
+ "new":{},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"对Transformer、BERT、GPT等模型有深入理解","description":"模型家族示例，不把BERT/GPT写成必须框架。"}],
+ "notes":"候选队列为空。与27届同名职责相近，按本条独立编码。欢迎语不计入任务。"
+},
+"N0029":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"INDUSTRIAL_VLM_VLA_WAM_ITERATION",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"参与工业场景VLM（视觉语言模型）/VLA（视觉语言动作模型）/WAM（世界动作模型） 算法研发与优化，聚焦机器人精细操作与泛化能力的提升",
+ "new":{},
+ "old_overrides":{
+  "O2":{"metric":"GENERAL","branch":"CHOICE","relation":"EXPERIENCE_REQUIREMENT","reason":"PyTorch/Jax斜线未解。"},
+  "O3":{"metric":"GENERAL","branch":"CHOICE","relation":"EXPERIENCE_REQUIREMENT","reason":"同一斜线。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"WAM（世界动作模型）","description":"本条WAM展开为世界动作模型，不是世界模型。标题后训练在正文未单独展开，微调保持泛称。"}],
+ "notes":"候选队列为空。标题含后训练，职责是VLM/VLA/WAM研发与数据驱动迭代。π系列公式保留目录外。"
+},
+"N0162":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"BEIJING_EMBODIED_APP_INTERFACE",
+ "secondary_task":"",
+ "task_evidence":"针对零售、工业等真实应用场景，参与具身智能算法方案开发、模型训练、性能调优，推动具身智能机器人商业化落地",
+ "new":{"1":R+"Python和C++并列，不是C语言。"},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"北京应用工程师。与深圳/27届同职责文本按本条独立编码。"
+},
+"N0099":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"TRAIN_INFER_INFRA",
+ "fine_task":"HPC_OPERATOR_KERNEL_DEV",
+ "secondary_task":"",
+ "task_evidence":"负责核心计算模块和高性能算子的开发、优化与维护；",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"]],
+  "2":"DUPLICATE:N0099:1"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"熟悉 CUDA 或其他并行计算开发方式","description":"CUDA与其他并行方式任选。"}],
+ "notes":"主责算子开发。C/C++中C有独立表面。不是训练机器人策略。"
+}
+}
+if __name__=='__main__':
+ register('RF_ML_AI_ENGINEERING', decisions, reader='grok4.6')

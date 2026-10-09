@@ -1,0 +1,4795 @@
+{
+  "catalog_version": "Q2-v2.1",
+  "coding_version": "grok4.6-Q2-v2.1-first-pass",
+  "reader": "grok4.6",
+  "contributors": [
+    "grok4.6"
+  ],
+  "queue_sha256": "8815c0e72e571ac260f9a7ff1feb374fb21dab4613dd01ef5b22a32077a134d4",
+  "ads": {
+    "N0780": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_HW",
+      "secondary_task": "",
+      "task_evidence": "Apply DFM, DFA, DFS principles throughout the design lifecycle.",
+      "new": {
+        "1": "REJECT:airflow guides不是Apache Airflow。",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0780:2",
+        "4": "DUPLICATE:N0780:2",
+        "5": "OUTSIDE:DFS可服务性设计未单列冻结项。",
+        "6": "REJECT:招募各职级不是人力资源技能项。",
+        "7": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N0780:7"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机器人硬件机械。DFM/CNC保留。气流导向不记Airflow。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|c6d6d504-d01a-4ba5-9b33-f3e857f630d4|7c5232a0eb25db1d7af1f477038475b9af22630fcde610b3a4eab944772bff8a",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 39,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3114,
+        "end": 3177,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Apply DFM, DFA, DFS principles throughout the design lifecycle."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "7c5232a0eb25db1d7af1f477038475b9af22630fcde610b3a4eab944772bff8a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.431855+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0670": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "HW_BENGALURU",
+      "secondary_task": "",
+      "task_evidence": "Utilize 3D printing and rapid prototyping techniques to develop and test hardware prototypes.",
+      "new": {
+        "1": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "OUTSIDE:Arduino未单列冻结项。",
+        "3": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "班加罗尔硬件。增材制造记成型工艺。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4483966008|25825e936f25999c271bee5c7e53f5a48e4218ff6bb4a34b83c03350c369352f",
+      "company_id": "US_SKILD",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1334,
+        "end": 1427,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Utilize 3D printing and rapid prototyping techniques to develop and test hardware prototypes."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "25825e936f25999c271bee5c7e53f5a48e4218ff6bb4a34b83c03350c369352f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.431855+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0319": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_ENG",
+      "secondary_task": "",
+      "task_evidence": "Own the 3D and 2D design of electromechanical components and subassemblies, including prototyping of parts and subsystems.",
+      "new": {
+        "1": "REJECT:agile team不是项目计划方法项。",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:与工业设计协作不是本人承担CMF。",
+        "4": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ],
+          [
+            "V2_CONFLUENCE",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ]
+        ],
+        "5": "REJECT:linear guides/lead screws不是Linear工具。",
+        "6": [
+          [
+            "V2_ONSHAPE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "7": "DUPLICATE:E0319:4",
+        "8": [
+          [
+            "V2_PLM",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "REJECT:Fremont office不是Microsoft Office。",
+        "10": "REJECT:Salary USD is not Universal Scene Description.",
+        "11": "REJECT:第三方招聘免责声明不是人力资源技能项。",
+        "12": "DUPLICATE:E0319:4",
+        "13": "DUPLICATE:E0319:6"
+      },
+      "old_overrides": {
+        "O5": {
+          "metric": "GENERAL",
+          "branch": "CHOICE",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原Creo短词不唯一，改为CAD任选句。",
+          "quote": "Expert CAD user and familiarity with either Solidworks, Siemens NX, Creo or Onshape."
+        },
+        "O6": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原Creo短词不唯一，改为同一CAD任选句。",
+          "quote": "Expert CAD user and familiarity with either Solidworks, Siemens NX, Creo or Onshape."
+        },
+        "O18": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原actuators短词不唯一，改为传动件句。",
+          "quote": "harmonic drive actuators, etc."
+        },
+        "O22": {
+          "metric": "PREFERRED",
+          "branch": "UNRESOLVED",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原actuator短词不唯一，改为同一传动件句。",
+          "quote": "gears, splines, lead screws, linear guides, harmonic drive actuators"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械工程师。Jira/Confluence/Onshape/PLM/DFM保留。Creo/执行器继承改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|5986750004|546bb63dea0d7fd164355377d43686312925f0fb622e0e53838fd0db9b6c5a6d",
+      "company_id": "US_AGILITY",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 13,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 122,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own the 3D and 2D design of electromechanical components and subassemblies, including prototyping of parts and subsystems."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "546bb63dea0d7fd164355377d43686312925f0fb622e0e53838fd0db9b6c5a6d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.431855+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0937": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "MECH_DESIGN",
+      "secondary_task": "",
+      "task_evidence": "designing machined, sheet metal, and welded parts (preferably in OnShape",
+      "new": {
+        "1": [
+          [
+            "V2_ONSHAPE",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0937:1",
+        "3": "OUTSIDE:Arena未单列冻结项。",
+        "4": [
+          [
+            "V2_APQP_PPAP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0937:4",
+        "6": "DUPLICATE:N0937:4",
+        "7": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N0937:7",
+        "9": "DUPLICATE:N0937:7",
+        "10": "REJECT:Charlestown office不是Microsoft Office。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "高级机械设计。Onshape/PPAP/CNC保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PICKLE|lever|78403d71-9909-488b-a49f-ebfb09c41f77|e0a6673c24effbd02316b46051ed1c549b6c07faf87cb19c57f3b301f8b42442",
+      "company_id": "US_PICKLE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 10,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1948,
+        "end": 2020,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "designing machined, sheet metal, and welded parts (preferably in OnShape"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "e0a6673c24effbd02316b46051ed1c549b6c07faf87cb19c57f3b301f8b42442",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.432857+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0020": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_CAMPUS",
+      "secondary_task": "",
+      "task_evidence": "负责零部件图纸、组件图纸、生产标准、作业指导书、工艺流程图、DFMA（设计制造可行性分析）等相关设计与生产资料的编制和管理",
+      "new": {
+        "1": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0020:1",
+        "3": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0020:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "校招结构。DFM/3D打印保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|9fbcf885-e7ca-49a9-bd75-3190738d863a|519ce0554b50b0808cc602e46a190d90cb0718bdb95e62d48247f1eac041562a",
+      "company_id": "CN_GALBOT",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 4,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 99,
+        "end": 160,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责零部件图纸、组件图纸、生产标准、作业指导书、工艺流程图、DFMA（设计制造可行性分析）等相关设计与生产资料的编制和管理"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "519ce0554b50b0808cc602e46a190d90cb0718bdb95e62d48247f1eac041562a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.432857+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0011": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "LEGGED_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "熟练使用制图软件进行产品机械设计,(包含运动机构传动设计,结构细节设计,材料的选用等)",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "双足/四足结构。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_NOETIX|noetix|2|c1c5141cd714f51ff56472947336d25e24eba1ee28412b7bee99d83edb0d437f",
+      "company_id": "CN_NOETIX",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 45,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "熟练使用制图软件进行产品机械设计,(包含运动机构传动设计,结构细节设计,材料的选用等)"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "c1c5141cd714f51ff56472947336d25e24eba1ee28412b7bee99d83edb0d437f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.432857+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0955": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MTS_MECH",
+      "secondary_task": "",
+      "task_evidence": "Apply Design for Manufacturing (DFM) and Design for Assembly (DFA) principles to transition prototypes into scalable builds",
+      "new": {
+        "1": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_ONSHAPE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": "DUPLICATE:N0955:2",
+        "4": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_ANSYS",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "6": "DUPLICATE:N0955:5",
+        "7": [
+          [
+            "V2_DFM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "REJECT:project management of technical projects不是Microsoft Project。",
+        "9": "REJECT:洛杉矶县工作安全条款不是客户服务技能。",
+        "10": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "前沿机械。DFM/Onshape/Ansys/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AMAZON_FTR|amazon|10480012|bfaf93728896d12b36cf4980d975f9eef47f87597facc4559a72db27535272d7",
+      "company_id": "US_AMAZON_FTR",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 27,
+      "reviewed_candidate_count": 10,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3488,
+        "end": 3611,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Apply Design for Manufacturing (DFM) and Design for Assembly (DFA) principles to transition prototypes into scalable builds"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "bfaf93728896d12b36cf4980d975f9eef47f87597facc4559a72db27535272d7",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.432857+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0062": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "CHASSIS_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "负责人形机器人移动底盘及本体的结构设计工作",
+      "new": {
+        "1": [
+          [
+            "V2_SOP_OPERATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_AUTOCAD",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_OFFICE",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械设计。SOP/AutoCAD/Office办公软件保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7601839797581416714|f7895d22a28dc338867727792d2fc0aaa536dd794a1e6c887a8ed24dbc45b035",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 6,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 23,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责人形机器人移动底盘及本体的结构设计工作"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "f7895d22a28dc338867727792d2fc0aaa536dd794a1e6c887a8ed24dbc45b035",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.432857+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0456": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "CONNECTOR",
+      "secondary_task": "",
+      "task_evidence": "Own 3D CAD modeling and 2D detailed drawings for custom connectors, overmolds, and electromechanical interfaces",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_EMC_SIPI",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_PLM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_PLM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "OUTSIDE:Enovia未单列冻结项。",
+        "10": "REJECT:Oracle Agile PLM名称不是敏捷项目管理方法。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "连接器设计。DFM/EMC/采购/PLM/成型/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4680643006|a6f818e5eafc6e6ad6f12af98a73964f3c7f4ce289514f91e0fe9b8b51de1034",
+      "company_id": "US_FIGURE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 19,
+      "reviewed_candidate_count": 10,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 111,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own 3D CAD modeling and 2D detailed drawings for custom connectors, overmolds, and electromechanical interfaces"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "a6f818e5eafc6e6ad6f12af98a73964f3c7f4ce289514f91e0fe9b8b51de1034",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.433857+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0145": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "THERMAL",
+      "fine_task": "THERMAL_ENG",
+      "secondary_task": "",
+      "task_evidence": "负责关节模组、电机、驱动器、电池、计算平台和整机散热方案",
+      "new": {},
+      "old_overrides": {
+        "O23": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原热设计短词不唯一，改为加分项整句。",
+          "quote": "做过电机热设计、汽车热管理、服务器散热、逆变器/电控散热、机器人关节热设计。"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "热管理。热设计继承改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7659791776362400050|4baba914fc5b7ba5f4015c8be036ba7fd0c95423c4bb08f5e1b09b409bc938a6",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 25,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 30,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责关节模组、电机、驱动器、电池、计算平台和整机散热方案"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "4baba914fc5b7ba5f4015c8be036ba7fd0c95423c4bb08f5e1b09b409bc938a6",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.433857+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0235": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "JOINT_MODULE",
+      "secondary_task": "",
+      "task_evidence": "负责机器人关节模组减速器和关节传动系统的研发工作",
+      "new": {
+        "1": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_KISSSOFT",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:N0235:1",
+        "3": "DUPLICATE:N0235:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "关节模组。Ansys/KISSsoft保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_ASTRIBOT|moka|fa21a048-83d7-4eba-907b-322c18de108b|67c3e01f789e688b58235f6f118d2d7c51d99f579c305678ca72861e1b5b4fb3",
+      "company_id": "CN_ASTRIBOT",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 33,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人关节模组减速器和关节传动系统的研发工作"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "67c3e01f789e688b58235f6f118d2d7c51d99f579c305678ca72861e1b5b4fb3",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.433857+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0587": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "MECH_DESIGN",
+      "secondary_task": "",
+      "task_evidence": "Drive all design decisions around 3D CAD, 2D drawings, material selection, and manufacturability",
+      "new": {
+        "1": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_HALT_HASS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_EMC_SIPI",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_DOE_MSA",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_HALT_HASS",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "7": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:E0587:6"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械设计。成型/HALT/EMC/DFM/DOE保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|58e5a454-47db-41b2-9c5d-c8e34c55159e|f4db048d80bf24ccafcbcea06e8fac4eade9e6290d1af0ac08ec66ba494fae14",
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 39,
+        "end": 135,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Drive all design decisions around 3D CAD, 2D drawings, material selection, and manufacturability"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "f4db048d80bf24ccafcbcea06e8fac4eade9e6290d1af0ac08ec66ba494fae14",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.433857+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0260": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_EXPERT",
+      "secondary_task": "",
+      "task_evidence": "机器人结构方案设计与开发，包括关节结构、传动机构、末端执行器外围设备等",
+      "new": {
+        "1": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "SK_CREO",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": [
+          [
+            "SK_NX",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": "DUPLICATE:N0260:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构专家。Ansys/Proe/UG保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|3ce98c92-9fd5-4558-a785-33fc454252ce|79fb76bc5e75c65c509096fc08d55b018b54f6c23b921e5d1e068e6803ffb25a",
+      "company_id": "CN_PAXINI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 43,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "机器人结构方案设计与开发，包括关节结构、传动机构、末端执行器外围设备等"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "79fb76bc5e75c65c509096fc08d55b018b54f6c23b921e5d1e068e6803ffb25a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.433857+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0655": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_ENG",
+      "secondary_task": "",
+      "task_evidence": "独立负责机器人整机或机械臂或灵巧手核心模块的结构设计",
+      "new": {
+        "1": "REJECT:与工业设计协作不是本人承担CMF。",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0655:2",
+        "4": "DUPLICATE:N0655:2",
+        "5": [
+          [
+            "SK_CREO",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_ANSYS",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_ABAQUS",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "8": "DUPLICATE:N0655:7",
+        "9": "DUPLICATE:N0655:7"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构工程师。DFM/Creo/成型/Ansys/Abaqus保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|2aecfbef-9da4-48a6-8e68-a2644472ec4a|ae8d4d3d209c2e0f0b5eadfaf65ba7f02fb5d887045756aa6f8efa5b2f0f1259",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 28,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "独立负责机器人整机或机械臂或灵巧手核心模块的结构设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "ae8d4d3d209c2e0f0b5eadfaf65ba7f02fb5d887045756aa6f8efa5b2f0f1259",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.434856+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0916": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "SENIOR_MECH",
+      "secondary_task": "",
+      "task_evidence": "Produce production-grade engineering drawings with GD&T (ASME Y14.5)",
+      "new": {
+        "1": "REJECT:Series C funding is not the C language.",
+        "2": [
+          [
+            "V2_GD_STANDARD",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0916:2",
+        "4": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0916:4",
+        "6": "DUPLICATE:N0916:4",
+        "7": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "OUTSIDE:VA/VE未单列冻结项。",
+        "9": [
+          [
+            "V2_GD_STANDARD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "DUPLICATE:N0916:9",
+        "11": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "OUTSIDE:MBD未单列冻结项。",
+        "14": "OUTSIDE:VA/VE未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "高级机械。GD&T/DFM/采购/成型保留。英文can不记CAN。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4101356009|bf3eff20e8f80ed997fe55c6efc696de15783816160f89bcdefa875a5cb70ddd",
+      "company_id": "US_NIMBLE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 27,
+      "reviewed_candidate_count": 14,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3873,
+        "end": 3941,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Produce production-grade engineering drawings with GD&T (ASME Y14.5)"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "bf3eff20e8f80ed997fe55c6efc696de15783816160f89bcdefa875a5cb70ddd",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.434856+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0095": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_ENG",
+      "secondary_task": "",
+      "task_evidence": "机器人机械结构设计,新工艺尝试",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械工程师。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|1526097908544307200|4e9d6c0acbf2242717f543016e2a1707442e2b7d08f9240ad13f25458dc55349",
+      "company_id": "CN_UNITREE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 18,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "机器人机械结构设计,新工艺尝试"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "4e9d6c0acbf2242717f543016e2a1707442e2b7d08f9240ad13f25458dc55349",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:36:32.434856+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0613": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "LEGGED_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "负责双足、人形机器人整机或者模块机械结构设计，包括关节布局、骨架结构以及传动选型设计",
+      "new": {
+        "1": [
+          [
+            "V2_URDF",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0613:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构工程师。URDF保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7379568764038662409|fd4d64e0bd67fb106ef78036bcd3bf19820711ce04f46cd1a2c38768846454b3",
+      "company_id": "CN_LIMX",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 49,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责双足、人形机器人整机或者模块机械结构设计，包括关节布局、骨架结构以及传动选型设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "fd4d64e0bd67fb106ef78036bcd3bf19820711ce04f46cd1a2c38768846454b3",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.275730+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0405": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SOFT_GOODS",
+      "fine_task": "GLOVE_GRIP",
+      "secondary_task": "",
+      "task_evidence": "lead the mechanical design and development of soft goods, robotic gloves, grip surfaces, and flexible protective interfaces",
+      "new": {
+        "1": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:English can is not Controller Area Network.",
+        "3": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_DFM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "OUTSIDE:UHMWPE/Kevlar纤维未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "软体手套。成型/DFM/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6151482004|6ec5e60dbd047e931196f23412037ee68262a68e99197c6cc359789a74bcda00",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 82,
+        "end": 205,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "lead the mechanical design and development of soft goods, robotic gloves, grip surfaces, and flexible protective interfaces"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "6ec5e60dbd047e931196f23412037ee68262a68e99197c6cc359789a74bcda00",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.276730+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N1011": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STAFF_MECH_ATLAS",
+      "secondary_task": "",
+      "task_evidence": "join our Atlas hardware development team",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_PLM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N1011:3",
+        "5": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Atlas高级职员机械。DFM/PLM保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|0e2576eddd811000b0fa542f5f960000|a04f2fd13d62f7eb3bd7a49b6186bf2c7878b756ff5574cc89f173f482909b8c",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 82,
+        "end": 122,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "join our Atlas hardware development team"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "a04f2fd13d62f7eb3bd7a49b6186bf2c7878b756ff5574cc89f173f482909b8c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.276730+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0425": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "SENIOR_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "负责复杂多关节串并联机器人本体的机械设计，进行产品需求拆解、方案设计、传动设计",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "高级结构。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7574616993094748467|eaccde2b0b3478d640dc6242d29614037f69c0d30089679b5a36f9c7262d270a",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 47,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责复杂多关节串并联机器人本体的机械设计，进行产品需求拆解、方案设计、传动设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "eaccde2b0b3478d640dc6242d29614037f69c0d30089679b5a36f9c7262d270a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.276730+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0437": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_DIR",
+      "secondary_task": "",
+      "task_evidence": "主导精密多关节串联和并联机器人的机械结构设计、建模与运动学仿真与设计优化",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "SEPARATE",
+            "COLLABORATION_OBJECT"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构总监。供应商协作为协作对象。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7566635675241187620|847632b96e6ae5b1413079f012d5c2322c8365fe2f026c9b51cddc62d385ebb5",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 116,
+        "end": 152,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "主导精密多关节串联和并联机器人的机械结构设计、建模与运动学仿真与设计优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "847632b96e6ae5b1413079f012d5c2322c8365fe2f026c9b51cddc62d385ebb5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.276730+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0234": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "MD_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "负责机器人结构设计，包括但不限于",
+      "new": {
+        "1": "REJECT:与工业设计协作不是本人承担CMF。",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "MD结构。DFM/模具/供应商保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_ASTRIBOT|moka|2144c919-c976-4576-81ea-c931bdb55864|7fb76056f61c42fc671e1ecf99b260ee6200f89b7ddd9d97e4e571a1e6370f22",
+      "company_id": "CN_ASTRIBOT",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 6,
+        "end": 22,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人结构设计，包括但不限于"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "7fb76056f61c42fc671e1ecf99b260ee6200f89b7ddd9d97e4e571a1e6370f22",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.276730+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0505": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_ENG",
+      "secondary_task": "",
+      "task_evidence": "独立完成机器人产品的结构设计、器件选型和强度校核工作",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械工程师。开模/成型工艺保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|3c87ff00-5bde-4084-ad6d-7ec7824c7a33|de398b0e7b30d89f8f11b222be01cbb142088aa2fc3d5c136783910aaf8f4e6e",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 6,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 35,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "独立完成机器人产品的结构设计、器件选型和强度校核工作"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "de398b0e7b30d89f8f11b222be01cbb142088aa2fc3d5c136783910aaf8f4e6e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.277752+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0523": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "REDUCER",
+      "secondary_task": "",
+      "task_evidence": "负责机器人关节用精密减速器（谐波减速器、行星减速器、RV减速器等）的设计、仿真与优化工作",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "减速器专家。供应商技术评估保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|bf7e846e-e32c-46c4-853c-91836da29923|275029649751fd39cf02e1ccd7930714605b9555e6c8cf30eede1e54e07aee5b",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 53,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人关节用精密减速器（谐波减速器、行星减速器、RV减速器等）的设计、仿真与优化工作"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "275029649751fd39cf02e1ccd7930714605b9555e6c8cf30eede1e54e07aee5b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.277752+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0497": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_ENG",
+      "secondary_task": "",
+      "task_evidence": "参与机器人产品的结构设计、器件选型和强度校核工作，完成结构方案输出",
+      "new": {
+        "1": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械工程师。成型工艺保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|ed83e87f-7d38-416b-a52c-6f8862a31407|96f737206178257e9a016e1752d1b732e3d14dd3a9a3560b18f23a65b5dc238c",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 6,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 42,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与机器人产品的结构设计、器件选型和强度校核工作，完成结构方案输出"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "96f737206178257e9a016e1752d1b732e3d14dd3a9a3560b18f23a65b5dc238c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.277752+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0462": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "MOTOR_RD",
+      "secondary_task": "",
+      "task_evidence": "开展新产品新项目的电机产品设计开发，以及现有产品的优化",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": "DUPLICATE:N0462:2",
+        "4": "OUTSIDE:ansoft/Maxwell并列未单列项按Ansys保留主句。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "电机研发。供应商/Ansys保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|54e94b66-13d9-4b7a-b37a-21160196e7ac|20955f53f6a8b249c526a7c914fc521a2d8baaafa70f89260085e32552a55330",
+      "company_id": "CN_FOURIER",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 36,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "开展新产品新项目的电机产品设计开发，以及现有产品的优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "20955f53f6a8b249c526a7c914fc521a2d8baaafa70f89260085e32552a55330",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.277752+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0445": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_INTERN",
+      "secondary_task": "",
+      "task_evidence": "协助负责人形机器人结构设计，参与轻量化、稳定性及可靠性相关的设计优化工作",
+      "new": {
+        "1": "REJECT:结构轻量化不是模型压缩。",
+        "2": [
+          [
+            "V2_CNC_PROCESS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_ANSYS",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "4": "OUTSIDE:Simulation未单列冻结项。",
+        "5": "DUPLICATE:N0445:3",
+        "6": "REJECT:结构轻量化不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构实习。成型/Ansys保留。轻量化不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|5907e018-22ae-474f-9d34-7c9eda93606c|3f3d9bd55d20e8e545b8eea2fe908e13935a4caabec689eb9faac7d0049c0cce",
+      "company_id": "CN_FOURIER",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 43,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "协助负责人形机器人结构设计，参与轻量化、稳定性及可靠性相关的设计优化工作"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "3f3d9bd55d20e8e545b8eea2fe908e13935a4caabec689eb9faac7d0049c0cce",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.277752+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0464": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_RD_CAMPUS",
+      "secondary_task": "",
+      "task_evidence": "负责人形机器人结构设计，确保结构兼顾轻量化、稳定性和可靠性",
+      "new": {
+        "1": "REJECT:结构轻量化不是模型压缩。",
+        "2": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": "OUTSIDE:simulation未单列冻结项。",
+        "5": "DUPLICATE:N0464:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "校招机械。成型/Ansys保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|5ad1c9ad-38ef-424c-80af-4f8d3f82c62c|cef2602df8ea185a33d7b0ca899bb126a8f607e98d6f12e00e22177c853c156f",
+      "company_id": "CN_FOURIER",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 6,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 38,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责人形机器人结构设计，确保结构兼顾轻量化、稳定性和可靠性"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "cef2602df8ea185a33d7b0ca899bb126a8f607e98d6f12e00e22177c853c156f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.278753+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0463": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "CAE_CAMPUS",
+      "secondary_task": "",
+      "task_evidence": "负责机器人结构件有限元分析，包括静强度、刚度、模态及疲劳分析",
+      "new": {
+        "1": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ABAQUS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_HYPERMESH",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": "DUPLICATE:N0463:2",
+        "4": "DUPLICATE:N0463:2",
+        "5": "DUPLICATE:N0463:2",
+        "6": [
+          [
+            "V2_CNC_PROCESS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "校招仿真。Ansys/Abaqus/Hypermesh/3D打印件保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|e295eee5-8fde-4edd-9883-11ef58ba8910|f7f5db7556ca87ce0c33b5e6edd36af2b99f5d05799afb842b80d0baa36aebf1",
+      "company_id": "CN_FOURIER",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 38,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人结构件有限元分析，包括静强度、刚度、模态及疲劳分析"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "f7f5db7556ca87ce0c33b5e6edd36af2b99f5d05799afb842b80d0baa36aebf1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.278753+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0477": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "MOTOR_RD",
+      "secondary_task": "",
+      "task_evidence": "开展新产品新项目的电机产品设计开发，以及现有产品的优化",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": "DUPLICATE:N0477:2",
+        "4": "OUTSIDE:ansoft/Maxwell并列未单列项按Ansys保留主句。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "电机研发。供应商/Ansys保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|ef90c796-c674-473d-93f5-7fdadfb26444|0905382c977d1388b6070a1910cded8e185c73d5d861456d6fde30e70030c8f4",
+      "company_id": "CN_FOURIER",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 10,
+        "end": 37,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "开展新产品新项目的电机产品设计开发，以及现有产品的优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "0905382c977d1388b6070a1910cded8e185c73d5d861456d6fde30e70030c8f4",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.278753+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0617": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_ENG",
+      "secondary_task": "",
+      "task_evidence": "参与机器人相关产品的结构设计与方案迭代，协助完成三维建模、装配设计及工程图纸输出",
+      "new": {
+        "1": "REJECT:结构轻量化不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构工程师。轻量化不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|04fc7263-f995-41a9-b866-b3af728e03fb|aca7f454eaab0c9ba567bb7a355b4bc4e45695e4df901d8a4e7430889506307c",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 48,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与机器人相关产品的结构设计与方案迭代，协助完成三维建模、装配设计及工程图纸输出"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "aca7f454eaab0c9ba567bb7a355b4bc4e45695e4df901d8a4e7430889506307c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.279259+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0641": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "SENIOR_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "负责机器人整机机械系统方案设计、结构优化与整机集成",
+      "new": {
+        "1": "OUTSIDE:VLA/EDP未单列冻结项。",
+        "2": "REJECT:结构轻量化不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "资深结构。轻量化不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|7ad92ef2-67eb-48b6-9f93-d694ebd8a9dd|cc1a8952a0851f5aed47e45e11965531cd6512a602243f5ad0ec56582e6d3024",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 148,
+        "end": 173,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人整机机械系统方案设计、结构优化与整机集成"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "cc1a8952a0851f5aed47e45e11965531cd6512a602243f5ad0ec56582e6d3024",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:20.279259+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0647": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_INTERN",
+      "secondary_task": "",
+      "task_evidence": "参与机器人相关产品的结构设计与方案迭代，协助完成三维建模、装配设计及工程图纸输出",
+      "new": {
+        "1": "OUTSIDE:VLA/EDP未单列冻结项。",
+        "2": "REJECT:结构轻量化不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构实习。轻量化不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|7fbc5e17-320a-4ef8-9fd9-99a0afe45400|6cc420ba4dc00e74d6076feaf1678fa12ce0a68fe18ca2c141b93ed41a66ca55",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 142,
+        "end": 182,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与机器人相关产品的结构设计与方案迭代，协助完成三维建模、装配设计及工程图纸输出"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "6cc420ba4dc00e74d6076feaf1678fa12ce0a68fe18ca2c141b93ed41a66ca55",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.211443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0650": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_INTERN",
+      "secondary_task": "",
+      "task_evidence": "参与机器人相关产品的结构设计与方案迭代，协助完成三维建模、装配设计及工程图纸输出",
+      "new": {
+        "1": "OUTSIDE:VLA/EDP未单列冻结项。",
+        "2": "REJECT:结构轻量化不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构实习。轻量化不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|b75ab12f-b035-4e2e-8929-58db5a530f09|94fae80e6055aeda7d854451a07075f7bf3b6b98388679b3d63c2501d9d7fd37",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 147,
+        "end": 187,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与机器人相关产品的结构设计与方案迭代，协助完成三维建模、装配设计及工程图纸输出"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "94fae80e6055aeda7d854451a07075f7bf3b6b98388679b3d63c2501d9d7fd37",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.211443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0622": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "GEAR",
+      "secondary_task": "",
+      "task_evidence": "负责灵巧手关节模组精密齿轮结构设计、参数计算与优化，完成3D建模及2D工程图输出",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "精密齿轮。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|d0962ed4-e19c-4bc4-a89c-ce5d7897e187|c62b61d7f3d64127a46d9835474f08fc259dcb6ea1f69b58bc073957d4b2e628",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 6,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 43,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责灵巧手关节模组精密齿轮结构设计、参数计算与优化，完成3D建模及2D工程图输出"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "c62b61d7f3d64127a46d9835474f08fc259dcb6ea1f69b58bc073957d4b2e628",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.211443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0093": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_BJ",
+      "secondary_task": "",
+      "task_evidence": "精通3D软件，对有限元计算分析软件熟悉的尤佳",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "北京机械。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|185fefb0-9ec8-4d65-9b74-ae28957e405c|a7a61eecd0dbe1b3ef48e3068f06723945a8694bbe0d3766d353a2eb41ad3db8",
+      "company_id": "CN_GALBOT",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 97,
+        "end": 119,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "精通3D软件，对有限元计算分析软件熟悉的尤佳"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "a7a61eecd0dbe1b3ef48e3068f06723945a8694bbe0d3766d353a2eb41ad3db8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.211443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0074": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_EXPERT",
+      "secondary_task": "",
+      "task_evidence": "主导人形机器人整机结构方案设计",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构专家。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|7569c3a2-e98b-478e-8a7d-a5e0cd99fb20|57c4cf3cbc598c30020fd88cb219a990b0ec4dd07b18104d41ff259ff8eb9fcb",
+      "company_id": "CN_GALBOT",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 171,
+        "end": 186,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "主导人形机器人整机结构方案设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "57c4cf3cbc598c30020fd88cb219a990b0ec4dd07b18104d41ff259ff8eb9fcb",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.212443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0079": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_SZ",
+      "secondary_task": "",
+      "task_evidence": "负责机器人的机械结构设计",
+      "new": {
+        "1": [
+          [
+            "SK_CREO",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "深圳机械。Proe记Creo。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|b91ea011-700d-4b82-8e92-bae1021e1ca9|709dfb2e788f23731d6271ce644d125d205cf3e8ca3e3230fbdf977da68d1046",
+      "company_id": "CN_GALBOT",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 21,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人的机械结构设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "709dfb2e788f23731d6271ce644d125d205cf3e8ca3e3230fbdf977da68d1046",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.212443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0013": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_INTERN",
+      "secondary_task": "",
+      "task_evidence": "机器人维修与组装",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械实习。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|d9691611-aa46-4f91-a401-ce99981a9792|0b58eaee07083950135665b9b66d6e4cc21374b9cc0ef08f4e0f8c505604dc95",
+      "company_id": "CN_GALBOT",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 42,
+        "end": 50,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "机器人维修与组装"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "0b58eaee07083950135665b9b66d6e4cc21374b9cc0ef08f4e0f8c505604dc95",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.212443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0075": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "JOINT",
+      "secondary_task": "",
+      "task_evidence": "负责公司关节模组的负责人形机器人各类关节结构和传动系统的设计、分析与优化",
+      "new": {
+        "1": "REJECT:结构轻量化不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "关节模组。轻量化不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|e0d68009-b070-463e-b6c7-3c1bcac664f0|61aa698d11b66f78401d5201a3d94306f05918e05f98971530117bd0c58562d8",
+      "company_id": "CN_GALBOT",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 43,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责公司关节模组的负责人形机器人各类关节结构和传动系统的设计、分析与优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "61aa698d11b66f78401d5201a3d94306f05918e05f98971530117bd0c58562d8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.212443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0603": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "JOINT",
+      "secondary_task": "",
+      "task_evidence": "负责人形机器人各类关节结构和传动系统的设计、分析与优化",
+      "new": {
+        "1": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ABAQUS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ADAMS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:N0603:1",
+        "3": "DUPLICATE:N0603:1",
+        "4": "DUPLICATE:N0603:1",
+        "5": "REJECT:结构轻量化不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "关节设计。Ansys/Abaqus/Adams保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7524168876617238838|5166b39a4ea4e4d550936f620ad93f05b47de29a03d79431711b8875f7aea80b",
+      "company_id": "CN_LIMX",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 34,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责人形机器人各类关节结构和传动系统的设计、分析与优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "5166b39a4ea4e4d550936f620ad93f05b47de29a03d79431711b8875f7aea80b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.212443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0594": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_EXPERT",
+      "secondary_task": "",
+      "task_evidence": "主导人形机器人整机结构架构设计",
+      "new": {
+        "1": "REJECT:结构轻量化不是模型压缩。",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "REJECT:结构轻量化不是模型压缩。",
+        "7": "REJECT:结构轻量化不是模型压缩。",
+        "8": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ABAQUS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0594:8",
+        "10": "DUPLICATE:N0594:8",
+        "11": [
+          [
+            "V2_PROCUREMENT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构专家。DFM/需求/成型/仿真/供应商保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7576846882576959780|30301dbd341e9a81c776f031e2383c3e867c103d9268268ac313381b42a694ad",
+      "company_id": "CN_LIMX",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 20,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 163,
+        "end": 178,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "主导人形机器人整机结构架构设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "30301dbd341e9a81c776f031e2383c3e867c103d9268268ac313381b42a694ad",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.212443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0280": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "JUNIOR_RESEARCH_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "参与人形机器人、灵巧手、传感器等预研项目或产品线项目的结构设计与开发",
+      "new": {
+        "1": [
+          [
+            "V2_AUTOCAD",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:N0280:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "初级结构研究。AutoCAD保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|5605f97f-992d-4597-b05a-a786659ba877|81290e1c22a28794267a904d855b03ce53015c7d873139574fce6c189357c6ee",
+      "company_id": "CN_PAXINI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 42,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与人形机器人、灵巧手、传感器等预研项目或产品线项目的结构设计与开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "81290e1c22a28794267a904d855b03ce53015c7d873139574fce6c189357c6ee",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.213443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0341": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_ENG",
+      "secondary_task": "",
+      "task_evidence": "负责主导机器人或灵巧手的机械系统、子系统或关键零部件的概念设计、详细设计、仿真分析、原型制造、测试验证的工作",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "SK_CREO",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": "DUPLICATE:N0341:2",
+        "5": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构工程师。供应商/Ansys/Creo/成型保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|8706b1a6-d555-4b84-bd21-ebbfb727400c|ca9297abc0247c63ef697622598ec7bb9ae70c47c520c3f477dd40fb3104aa87",
+      "company_id": "CN_PAXINI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 37,
+        "end": 91,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责主导机器人或灵巧手的机械系统、子系统或关键零部件的概念设计、详细设计、仿真分析、原型制造、测试验证的工作"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "ca9297abc0247c63ef697622598ec7bb9ae70c47c520c3f477dd40fb3104aa87",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.213443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0291": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "SENSOR_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "负责传感器产品的结构设计与开发，确保设计的可制造性与组装性",
+      "new": {
+        "1": [
+          [
+            "V2_AUTOCAD",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:N0291:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "传感器结构。AutoCAD保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|9ef058e0-4c07-4eb9-97c8-d9d2bfb08b6b|d845eee033d7a42af3ef8cb0ca748a7b5eb29cb7042739b738bb3fdcb0cb028c",
+      "company_id": "CN_PAXINI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 31,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责传感器产品的结构设计与开发，确保设计的可制造性与组装性"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "d845eee033d7a42af3ef8cb0ca748a7b5eb29cb7042739b738bb3fdcb0cb028c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.213443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0279": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "RESEARCH_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "参与人形机器人、灵巧手、传感器等预研项目或产品线项目的结构设计与开发",
+      "new": {
+        "1": [
+          [
+            "V2_AUTOCAD",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:N0279:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构研究员。AutoCAD保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|c3b1a100-0061-48bb-aa2e-2248e61f1aa1|59261ee1aeba8467c0731047138b4bc305847d4331aa10865905086aa8486976",
+      "company_id": "CN_PAXINI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 36,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与人形机器人、灵巧手、传感器等预研项目或产品线项目的结构设计与开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "59261ee1aeba8467c0731047138b4bc305847d4331aa10865905086aa8486976",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.213443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0259": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "DEX_HAND",
+      "secondary_task": "",
+      "task_evidence": "负责机器人灵巧手的机械系统设计与开发，包括手掌、手指、关节及末端执行机构的方案设计、详细设计与优化迭代",
+      "new": {
+        "1": [
+          [
+            "V2_CMF_DESIGN",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:结构轻量化不是模型压缩。",
+        "4": "OUTSIDE:SW缩写未单列冻结项。",
+        "5": [
+          [
+            "V2_ANSYS",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_ABAQUS",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "6": "DUPLICATE:N0259:5",
+        "7": "DUPLICATE:N0259:5"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "灵巧手结构。外观结构记CMF。DFM/Ansys保留。轻量化不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|e2a621fd-18d0-455e-aabd-adddc62566a2|eb4158bfa6c352fc481c6151cc1ea9002a50e879ea428cf004b4718b289b5c8f",
+      "company_id": "CN_PAXINI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 11,
+        "end": 62,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人灵巧手的机械系统设计与开发，包括手掌、手指、关节及末端执行机构的方案设计、详细设计与优化迭代"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "eb4158bfa6c352fc481c6151cc1ea9002a50e879ea428cf004b4718b289b5c8f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.214443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0277": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "DATA_DEVICE_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "负责数据采集装置的塑胶件（外壳、固定座等）及金属件（钣金、压铸件）结构设计",
+      "new": {
+        "1": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0277:3",
+        "5": [
+          [
+            "SK_NX",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_DFM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PROCUREMENT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N0277:7"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数采装置结构。成型/DFM/供应商/UG保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|f79635c8-d36d-4a14-81af-c6004f2d1953|398473e2fa274222b8e7b0cd19f33dffb461620d12e6c8c519d07e9ab813facc",
+      "company_id": "CN_PAXINI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 46,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责数据采集装置的塑胶件（外壳、固定座等）及金属件（钣金、压铸件）结构设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "398473e2fa274222b8e7b0cd19f33dffb461620d12e6c8c519d07e9ab813facc",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:21.214443+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0077": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_DESIGN",
+      "secondary_task": "",
+      "task_evidence": "负责机器人产品详细方案设计,深度参与核心技术的开发与验证",
+      "new": {
+        "1": "OUTSIDE:PRO-E未按Creo短码命中，记目录外。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械设计。PRO-E未记入Creo短词。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7542783802978076964|6917b00b0cadcaa5e3df4d96dbc1a0d33534aca641c2d4883004ddf3568567a8",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 30,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人产品详细方案设计,深度参与核心技术的开发与验证"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "6917b00b0cadcaa5e3df4d96dbc1a0d33534aca641c2d4883004ddf3568567a8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.093438+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0058": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_LEAD",
+      "secondary_task": "",
+      "task_evidence": "主导机器人(涵盖轮式人形/轮足)和数采产品的整机机械结构设计、核心零部件设计选型",
+      "new": {
+        "1": "REJECT:结构轻量化不是模型压缩。",
+        "2": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械高阶。供应商体系保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7615462570208282943|7ae5c02edbbbe2ed89ce7923bfa2ce49e8fc862e3832e8d75ce23cc205a8785a",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 17,
+        "end": 57,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "主导机器人(涵盖轮式人形/轮足)和数采产品的整机机械结构设计、核心零部件设计选型"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "7ae5c02edbbbe2ed89ce7923bfa2ce49e8fc862e3832e8d75ce23cc205a8785a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.094437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0049": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "CAE",
+      "secondary_task": "",
+      "task_evidence": "负责人形机器人躯干、连杆、壳体等结构件有限元仿真分析",
+      "new": {
+        "1": [
+          [
+            "V2_FE_TOPOLOGY",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ABAQUS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ADAMS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": [
+          [
+            "V2_FE_TOPOLOGY",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:E0049:2"
+      },
+      "old_overrides": {
+        "O10": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "DUTY",
+          "reason": "原结构短词过多，改为结构件有限元职责句。",
+          "quote": "负责人形机器人躯干、连杆、壳体等结构件有限元仿真分析"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "CAE。拓扑优化/Ansys/Abaqus/Adams保留。轻量化不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7643721211734657299|8168bdb70c1fafa23ecfc064f9a14dcc1ff5b354fdfa6289d698d799c2c8bb60",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 35,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责人形机器人躯干、连杆、壳体等结构件有限元仿真分析"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "8168bdb70c1fafa23ecfc064f9a14dcc1ff5b354fdfa6289d698d799c2c8bb60",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.094437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0015": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "CHASSIS",
+      "secondary_task": "",
+      "task_evidence": "主导底盘传动、悬挂减震、车架承载、轮组、制动、走线密封等模块开发",
+      "new": {
+        "1": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ABAQUS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:E0015:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "底盘结构。Ansys/Abaqus/成型保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7678544436691470601|201210c9675f94adfa29ecfe1f70f33c7f02e1437846550376658930e65a1203",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 54,
+        "end": 86,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "主导底盘传动、悬挂减震、车架承载、轮组、制动、走线密封等模块开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "201210c9675f94adfa29ecfe1f70f33c7f02e1437846550376658930e65a1203",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.094437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0291": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_ENG",
+      "secondary_task": "",
+      "task_evidence": "负责机器人产品的机械结构设计,具体包括:机器人关节,机器人连接结构,机器人骨架,底盘结构等",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构工程师。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7508684490114795786|116c7f24a45a733b681c465f9f13934225b9c52e85e0f1ca378d61ecc7252189",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 6,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 47,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人产品的机械结构设计,具体包括:机器人关节,机器人连接结构,机器人骨架,底盘结构等"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "116c7f24a45a733b681c465f9f13934225b9c52e85e0f1ca378d61ecc7252189",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.094437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0278": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "MOTOR_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "负责关节电机模组、传动系统及关节模组机械连接接口设计与优化",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "电机结构。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7529132849313909018|9f0b8b526cab6515600274e8d6f9ee0f48af08c2b03ebbe055710c64d3ae0666",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 31,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责关节电机模组、传动系统及关节模组机械连接接口设计与优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "9f0b8b526cab6515600274e8d6f9ee0f48af08c2b03ebbe055710c64d3ae0666",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.094437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0277": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "GEARBOX",
+      "secondary_task": "",
+      "task_evidence": "主导机器人关节减速箱(行星齿轮、谐波减速器、摆线针轮、RV减速器等)的齿轮拓扑选型与传动方案设计",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "齿轮工程师。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7529134865045113131|c4897fe6bb91a3722e3c053548faa1da0d48b984d828d04ab9137d1ea4c49a3a",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 50,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "主导机器人关节减速箱(行星齿轮、谐波减速器、摆线针轮、RV减速器等)的齿轮拓扑选型与传动方案设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "c4897fe6bb91a3722e3c053548faa1da0d48b984d828d04ab9137d1ea4c49a3a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.095437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0250": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "VIBRATION",
+      "secondary_task": "",
+      "task_evidence": "运用ANSYS、ABAQUS等CAE工具对关键部件进行静力学、模态、疲劳分析",
+      "new": {
+        "1": [
+          [
+            "V2_ANSYS",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ],
+          [
+            "V2_ABAQUS",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ]
+        ],
+        "2": [
+          [
+            "V2_FE_TOPOLOGY",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ABAQUS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_FE_TOPOLOGY",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:E0250:3"
+      },
+      "old_overrides": {
+        "O3": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原有限元短词不唯一，改为理论掌握句。",
+          "quote": "系统掌握弹性力学、振动理论、有限元理论、多刚体动力学理论等"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "振动强度。Ansys/Abaqus/拓扑优化保留。轻量化不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7586974307780200767|83103d7e1e388fe30478991524bc66e16efcae51c8e23aeb6bc1f24365d6bbd3",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 40,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "运用ANSYS、ABAQUS等CAE工具对关键部件进行静力学、模态、疲劳分析"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "83103d7e1e388fe30478991524bc66e16efcae51c8e23aeb6bc1f24365d6bbd3",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.095437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0234": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "ARM",
+      "secondary_task": "",
+      "task_evidence": "负责机器人(力控/协作机械臂)构型建模,主导从需求定义、方案设计、仿真验证到真机调试的全流程开发",
+      "new": {
+        "1": "REJECT:C++/Python is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械臂。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7597271758648264966|24e78f36baea3a11acf16636853d9a370c56a3c8c4b4022ca4265ccb173b6368",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 50,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人(力控/协作机械臂)构型建模,主导从需求定义、方案设计、仿真验证到真机调试的全流程开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "24e78f36baea3a11acf16636853d9a370c56a3c8c4b4022ca4265ccb173b6368",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.095437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0215": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "THERMAL",
+      "fine_task": "THERMAL_DESIGN",
+      "secondary_task": "",
+      "task_evidence": "负责具身智能产品的整机热管理方案架构设计,平衡散热性能、重量、噪音及空间限制",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_EMC_SIPI",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": "DUPLICATE:E0215:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "热设计。仿真校准记标定。EMC/Ansys保留。轻量化不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7621853753922881819|190e53b04b4ff3185e2c23e04f71c2cb1307d2f87711ec1eb1182117643e22f8",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 11,
+        "end": 49,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责具身智能产品的整机热管理方案架构设计,平衡散热性能、重量、噪音及空间限制"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "190e53b04b4ff3185e2c23e04f71c2cb1307d2f87711ec1eb1182117643e22f8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.095437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0204": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "GEAR",
+      "secondary_task": "",
+      "task_evidence": "负责微型齿轮减速器(行星齿轮、谐波减速器、摆线针轮、以及其它齿轮组等)的传动方案设计",
+      "new": {
+        "1": [
+          [
+            "V2_KISSSOFT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:E0204:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "齿轮传动。KISSsoft/加工工艺保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7628525346791475519|e6c935df4bb8c25e67c9b3768c78d0ffdc29e792af9bd23d292eff74615ac619",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 44,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责微型齿轮减速器(行星齿轮、谐波减速器、摆线针轮、以及其它齿轮组等)的传动方案设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "e6c935df4bb8c25e67c9b3768c78d0ffdc29e792af9bd23d292eff74615ac619",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.095437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0200": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STRUCT_PL",
+      "secondary_task": "",
+      "task_evidence": "进行合理的结构模块拆分、并且能够根据组内人员情况进行合理的分工并根据情况动态调整",
+      "new": {
+        "1": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "结构PL。成型缺陷知识保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7629548699416447251|25032b3dfc2562f54bb98858028f244b4d2066e9c3b5aa72738f770a724bd026",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 63,
+        "end": 103,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "进行合理的结构模块拆分、并且能够根据组内人员情况进行合理的分工并根据情况动态调整"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "25032b3dfc2562f54bb98858028f244b4d2066e9c3b5aa72738f770a724bd026",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.095437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0153": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "WHOLE_MECH",
+      "secondary_task": "",
+      "task_evidence": "负责腿部、骨盆、躯干、脚部、外壳支架、传感器支架等结构件详细设计",
+      "new": {
+        "1": "REJECT:结构轻量化不是模型压缩。",
+        "2": [
+          [
+            "V2_PROCUREMENT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "整机机械。供应商/成型保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7659789685208467753|b90f0abc5795f3c20b669ce1b1c009c75279c2039f062107daca4ec18946a559",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 6,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 34,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责腿部、骨盆、躯干、脚部、外壳支架、传感器支架等结构件详细设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "b90f0abc5795f3c20b669ce1b1c009c75279c2039f062107daca4ec18946a559",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.096437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0152": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "WHOLE_MECH_LEAD",
+      "secondary_task": "",
+      "task_evidence": "负责躯干、骨盆、髋、膝、踝、腿部结构、脚部结构、外壳安装和维护开口的总体机械方案",
+      "new": {
+        "1": "REJECT:结构轻量化不是模型压缩。",
+        "2": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "整机机械负责人。成型保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7659789686739192114|171e78960532ed67afa63b44ff0dcafe6622ece0f727fc37eff1d851121e5f25",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 42,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责躯干、骨盆、髋、膝、踝、腿部结构、脚部结构、外壳安装和维护开口的总体机械方案"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "171e78960532ed67afa63b44ff0dcafe6622ece0f727fc37eff1d851121e5f25",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.096437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0130": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "ARM_GRIPPER",
+      "secondary_task": "",
+      "task_evidence": "负责机器人机械臂、机器人抓手及主端遥操设备的结构设计与优化",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:结构轻量化不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械臂抓手。可标定设计保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7664819854289242418|098959fce09af23deb8dfe69afb36941fd8ab98da60114a26e5595afa4640e1c",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 31,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人机械臂、机器人抓手及主端遥操设备的结构设计与优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "098959fce09af23deb8dfe69afb36941fd8ab98da60114a26e5595afa4640e1c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.096437+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0109": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "COCKPIT",
+      "secondary_task": "",
+      "task_evidence": "负责机器人座舱总体布局及人机工程设计,完成空间、设备及操作区域的合理规划",
+      "new": {
+        "1": "REJECT:工业设计相关专业不是本人承担CMF。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "座舱布置。专业名称不记CMF。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7676379043852028203|eda6ed655486cf61183f3f74d71fb6b617d09cee486704619739faf8e430a5cb",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 39,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人座舱总体布局及人机工程设计,完成空间、设备及操作区域的合理规划"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "eda6ed655486cf61183f3f74d71fb6b617d09cee486704619739faf8e430a5cb",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.097439+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0338": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "SENIOR_MECH",
+      "secondary_task": "",
+      "task_evidence": "Utilize CAD software to design durable components that meet specific load, industrial design, manufacturability and lifetime requirements",
+      "new": {
+        "1": "REJECT:满足工业设计外形约束不是本人承担CMF。",
+        "2": "REJECT:Salary USD is not Universal Scene Description.",
+        "3": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {
+        "O4": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原Creo短词不唯一，改为PTC Creo句。",
+          "quote": "Proficient in mechanical CAD software (PTC Creo preferred)"
+        },
+        "O6": {
+          "metric": "PREFERRED",
+          "branch": "UNRESOLVED",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原Creo短词不唯一，改为同一PTC Creo句。",
+          "quote": "Proficient in mechanical CAD software (PTC Creo preferred)"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "高级机器人机械。Creo继承改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6008696004|44b176b2a81d3fc5335903e67d8e9f977b04246d5f18c562bbd4a0de11bc2de8",
+      "company_id": "US_AGILITY",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 25,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 137,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Utilize CAD software to design durable components that meet specific load, industrial design, manufacturability and lifetime requirements"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "44b176b2a81d3fc5335903e67d8e9f977b04246d5f18c562bbd4a0de11bc2de8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.961722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0361": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STAFF_MECH",
+      "secondary_task": "",
+      "task_evidence": "Own the design of electromechanical components and subsystems",
+      "new": {
+        "1": "REJECT:San Francisco office不是Microsoft Office。",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:与工业设计协作不是本人承担CMF。",
+        "4": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ],
+          [
+            "V2_CONFLUENCE",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ]
+        ],
+        "5": "REJECT:Fremont office不是Microsoft Office。",
+        "6": "REJECT:linear guides不是Linear工具。",
+        "7": [
+          [
+            "V2_JIRA",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_CONFLUENCE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "8": "REJECT:Fremont office不是Microsoft Office。",
+        "9": "REJECT:Salary USD is not Universal Scene Description.",
+        "10": "REJECT:第三方招聘免责声明不是人力资源技能项。",
+        "11": "DUPLICATE:E0361:4"
+      },
+      "old_overrides": {
+        "O2": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原Creo短词重复，改为要求段FEA句后的Creo/Windchill。",
+          "quote": "FEA and thermal analysis\nCreo and Windchill experience"
+        },
+        "O3": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原Windchill短词重复，改为同一要求段句。",
+          "quote": "FEA and thermal analysis\nCreo and Windchill experience"
+        },
+        "O4": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原Creo短词重复，改为加分项Jira句后的Creo/Windchill。",
+          "quote": "Jira/Confluence experience for project management\nCreo and Windchill experience"
+        },
+        "O5": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原Windchill短词重复，改为同一加分项句。",
+          "quote": "Jira/Confluence experience for project management\nCreo and Windchill experience"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "职员机械。Jira/Confluence/DFM保留。项目管理经验不记MS Project。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6107280004|2b6c5c33de2e1edc8beb0371f90865286b41dd75d839115ca5a977e34c6a2020",
+      "company_id": "US_AGILITY",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 61,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own the design of electromechanical components and subsystems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "2b6c5c33de2e1edc8beb0371f90865286b41dd75d839115ca5a977e34c6a2020",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.961722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0953": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "MANIP_MECH",
+      "secondary_task": "",
+      "task_evidence": "design and develop robotic manipulation hardware within a frontier AI and robotics research lab",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_ONSHAPE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": "DUPLICATE:N0953:4",
+        "6": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_CNC_PROCESS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N0953:7",
+        "9": "DUPLICATE:N0953:7",
+        "10": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": [
+          [
+            "V2_DFM",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "REJECT:洛杉矶县工作安全条款不是客户服务技能。",
+        "14": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "操作机械。遥操/DFM/Onshape/成型/Sim2Real保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AMAZON_FTR|amazon|10496157|6ea56867ea3dbc76071b0bb3bef4abdd92e21359c92c21d90b9740f6f2f0a5bf",
+      "company_id": "US_AMAZON_FTR",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 34,
+      "reviewed_candidate_count": 14,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 80,
+        "end": 175,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "design and develop robotic manipulation hardware within a frontier AI and robotics research lab"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "6ea56867ea3dbc76071b0bb3bef4abdd92e21359c92c21d90b9740f6f2f0a5bf",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.961722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0402": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "SENIOR_MECH",
+      "secondary_task": "",
+      "task_evidence": "design and develop our Apollo humanoid robots across the full product lifecycle",
+      "new": {
+        "1": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_DFM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "高级机械。DFMA保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|5766164004|4aecfcf91f705bdedfa4fe143d1cb2071704daea99a8d7498b682f2e59e4ffda",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 47,
+        "end": 126,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "design and develop our Apollo humanoid robots across the full product lifecycle"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "4aecfcf91f705bdedfa4fe143d1cb2071704daea99a8d7498b682f2e59e4ffda",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.962722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0432": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "STAFF_MECH",
+      "secondary_task": "",
+      "task_evidence": "provide technical leadership in the design, development of our Apollo humanoid robots across their full lifecycle",
+      "new": {
+        "1": [
+          [
+            "V2_DFM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_DFM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O11": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原mechanical systems短词不唯一，改为交付复杂机械系统句。",
+          "quote": "Proven ability to lead and deliver complex mechanical systems or architectures"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "职员机械。DFMA保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|5766166004|c1da1a5a5d3086ababc832bb9ba73472a5be2f3de9ce4d1e1dfac51fc4f1a712",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 46,
+        "end": 159,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "provide technical leadership in the design, development of our Apollo humanoid robots across their full lifecycle"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "c1da1a5a5d3086ababc832bb9ba73472a5be2f3de9ce4d1e1dfac51fc4f1a712",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.962722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0404": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "CI_MECH",
+      "secondary_task": "",
+      "task_evidence": "focusing on continuous improvement for our Apollo humanoid robot platform",
+      "new": {
+        "1": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "持续改进机械。CNC/3D打印/注塑保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|5968696004|761ae87e4700919a90ae5cab7b67236c0acc90bb57460b7deb14e0309d739727",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 78,
+        "end": 151,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "focusing on continuous improvement for our Apollo humanoid robot platform"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "761ae87e4700919a90ae5cab7b67236c0acc90bb57460b7deb14e0309d739727",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.962722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0434": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "UPPER_BODY_LEAD",
+      "secondary_task": "",
+      "task_evidence": "high-visibility leadership role responsible for the torso, head, and arm assemblies",
+      "new": {
+        "1": "REJECT:生命周期架构设计不是CMF。",
+        "2": "REJECT:工业设计集成标题不是本人承担CMF。",
+        "3": [
+          [
+            "V2_CMF_DESIGN",
+            "SEPARATE",
+            "COLLABORATION_OBJECT"
+          ]
+        ],
+        "4": [
+          [
+            "V2_EMC_SIPI",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "OUTSIDE:NVIDIA Jetson/SoMs未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "上肢技术负责。EMC保留。工业设计为协作对象。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|5972803004|ce216e054ee9d7a7611ec10a0abeed5a76eda9d84858c347bf7b988bd6bf5e04",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 115,
+        "end": 198,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "high-visibility leadership role responsible for the torso, head, and arm assemblies"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "ce216e054ee9d7a7611ec10a0abeed5a76eda9d84858c347bf7b988bd6bf5e04",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.962722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0433": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "HAND_LEAD",
+      "secondary_task": "",
+      "task_evidence": "lead the structural design and architecture of a next-generation robotic hand",
+      "new": {
+        "1": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "灵巧手技术负责。DFM保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|5979028004|1dcaa70bba0aa628a2f94c4117e97e519882b14c741a9b340a49a9f5aabe14d9",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 20,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 78,
+        "end": 155,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "lead the structural design and architecture of a next-generation robotic hand"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "1dcaa70bba0aa628a2f94c4117e97e519882b14c741a9b340a49a9f5aabe14d9",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.962722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0399": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_MGR",
+      "secondary_task": "",
+      "task_evidence": "Hire, mentor, and scale a world-class team of mechanical engineers specializing in complex mechanisms, structural linkages, and kinematics",
+      "new": {
+        "1": [
+          [
+            "V2_PLM",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ],
+          [
+            "SK_NX",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:SWaP-C不是C语言。",
+        "3": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:project managers不是Microsoft Project。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械工程经理。PLM/DFM/成型保留。Siemens NX在PLM句中随PLM保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6150237004|39b78868eec7d0b1c3b87c707b2eddee4d632dacad5c9dbd275e6d03a5446b72",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 35,
+        "end": 173,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Hire, mentor, and scale a world-class team of mechanical engineers specializing in complex mechanisms, structural linkages, and kinematics"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "39b78868eec7d0b1c3b87c707b2eddee4d632dacad5c9dbd275e6d03a5446b72",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.962722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0403": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "BATTERY_DOCK",
+      "secondary_task": "",
+      "task_evidence": "lead the mechanical design and development of the battery system and autonomous docking infrastructure",
+      "new": {
+        "1": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "电池与对接。DFM/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6151537004|687673a66198e42bf9a010edae706f8070824195eb342bf4a0486d9d61739c2a",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 24,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 83,
+        "end": 185,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "lead the mechanical design and development of the battery system and autonomous docking infrastructure"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "687673a66198e42bf9a010edae706f8070824195eb342bf4a0486d9d61739c2a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.963722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N1000": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "SUSTAINING",
+      "secondary_task": "",
+      "task_evidence": "responsible for the technical support, sustainment and continuous improvement of the Spot",
+      "new": {
+        "1": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_PLM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N1000:2",
+        "4": "OUTSIDE:Arena未单列冻结项。",
+        "5": [
+          [
+            "V2_GD_STANDARD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N1000:5",
+        "7": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "OUTSIDE:low- to high-volume manufacturing未单列冻结项。",
+        "9": "DUPLICATE:N1000:7",
+        "10": "DUPLICATE:N1000:7",
+        "11": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "DUPLICATE:N1000:7",
+        "13": "DUPLICATE:N1000:7",
+        "14": "OUTSIDE:other precision fabrication methods未单列冻结项。",
+        "15": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "维持机械。DFM/PLM/GD&T/成型/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|6ed2c499d4db1001ac9c307542800000|f4beaabdae52548d44ff9bdb4ca3a9deea9741295b7e7bb4ebc8b6e07fd024f9",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 15,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 124,
+        "end": 213,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "responsible for the technical support, sustainment and continuous improvement of the Spot"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "f4beaabdae52548d44ff9bdb4ca3a9deea9741295b7e7bb4ebc8b6e07fd024f9",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.963722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0996": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "STAFF_ACTUATOR",
+      "secondary_task": "",
+      "task_evidence": "lead the transition of high-performance Actuator Products from architecture to robust, mass-production hardware",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_PLM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0996:3",
+        "5": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "高级职员机械。DFM/PLM保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|b0a6e0c7cb3210014e42d26f09240000|adc7724ebc7a40cf56c9402148c2b4794d3e013181d3c1a25886ba1087b0d984",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 69,
+        "end": 180,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "lead the transition of high-performance Actuator Products from architecture to robust, mass-production hardware"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "adc7724ebc7a40cf56c9402148c2b4794d3e013181d3c1a25886ba1087b0d984",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.963722+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N1003": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "MECH_LEAD",
+      "secondary_task": "",
+      "task_evidence": "join our Atlas Actuation Team",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PROCUREMENT",
+            "SEPARATE",
+            "COLLABORATION_OBJECT"
+          ]
+        ],
+        "3": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械技术组长。DFM保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|b0a6e0c7cb3210014f90a33616810001|e32accc4651ab0cc477c4c407e31f63f1b8e31a46582a3286578966f8e45596e",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 87,
+        "end": 116,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "join our Atlas Actuation Team"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "e32accc4651ab0cc477c4c407e31f63f1b8e31a46582a3286578966f8e45596e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.964721+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0998": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "EM_CONSULTANT",
+      "secondary_task": "",
+      "task_evidence": "help make remarkably capable robots commonplace in the physical world",
+      "new": {
+        "1": "REJECT:project leadership不是Microsoft Project。",
+        "2": "REJECT:Project Directors不是Microsoft Project。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机电顾问。项目管理不记MS Project。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|b0a6e0c7cb321001b1fb68da4ac70000|7f45985c038c4d1b03ad06f156a33fff5b7e1140abed0cec15b6efe17802bf1b",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 49,
+        "end": 118,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "help make remarkably capable robots commonplace in the physical world"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "7f45985c038c4d1b03ad06f156a33fff5b7e1140abed0cec15b6efe17802bf1b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.964721+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0971": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "PRINCIPAL_ACTUATOR",
+      "secondary_task": "",
+      "task_evidence": "set the architectural vision for high-performance Actuator Products",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_PLM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0971:3",
+        "5": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "主任机械。DFM/PLM保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|b19331d27a6010015a3b5fa0554b0000|3e994effaf1181fd1e38e222434d6270aec94c9fcb01681fbbc6899384043dea",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 137,
+        "end": 204,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "set the architectural vision for high-performance Actuator Products"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "3e994effaf1181fd1e38e222434d6270aec94c9fcb01681fbbc6899384043dea",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.964721+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0781": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH_INTERN",
+      "secondary_task": "",
+      "task_evidence": "Apply DFM, DFA, DFS principles throughout the design lifecycle.",
+      "new": {
+        "1": "REJECT:airflow guides不是Apache Airflow。",
+        "2": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0781:2",
+        "4": "DUPLICATE:N0781:2",
+        "5": "OUTSIDE:DFS可服务性设计未单列冻结项。",
+        "6": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "DUPLICATE:N0781:6"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械实习。DFM/CNC保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|88f05d6e-ee93-4fc5-80cd-efe6854e22bc|de5ade27d225673975fbe6fc22157d717e10e77d596835cb006e651e96bd0084",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 34,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3119,
+        "end": 3182,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Apply DFM, DFA, DFS principles throughout the design lifecycle."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "de5ade27d225673975fbe6fc22157d717e10e77d596835cb006e651e96bd0084",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:22.964721+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0519": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "MECH",
+      "secondary_task": "",
+      "task_evidence": "Generate accurate 2D drawings using GD&T per ASME Y14.5",
+      "new": {
+        "1": "REJECT:industrial design form factor不是本人承担CMF。",
+        "2": [
+          [
+            "V2_GD_STANDARD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Figure机械。GD&T保留。外形约束不记CMF。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4410831006|dfe41da0132051c85b17052469b4b2df4be3196f894780beca4e5d222894cdf7",
+      "company_id": "US_FIGURE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 179,
+        "end": 234,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Generate accurate 2D drawings using GD&T per ASME Y14.5"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "dfe41da0132051c85b17052469b4b2df4be3196f894780beca4e5d222894cdf7",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:23.811097+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0554": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "CHARGING",
+      "secondary_task": "",
+      "task_evidence": "Concept to production ownership of the mechanical and thermal components",
+      "new": {
+        "1": "REJECT:industrial design form factor不是本人承担CMF。",
+        "2": [
+          [
+            "V2_GD_STANDARD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Figure机械。GD&T保留。外形约束不记CMF。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4432449006|99717653594df9d837f61db425987d52c5880c2ff8312810b7504a1f1375ace1",
+      "company_id": "US_FIGURE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 113,
+        "end": 185,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Concept to production ownership of the mechanical and thermal components"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "99717653594df9d837f61db425987d52c5880c2ff8312810b7504a1f1375ace1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:23.811097+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0523": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "ECOSYSTEM",
+      "secondary_task": "",
+      "task_evidence": "Generate accurate 2D drawings using GD&T per ASME Y14.5",
+      "new": {
+        "1": "REJECT:industrial design form factor不是本人承担CMF。",
+        "2": [
+          [
+            "V2_GD_STANDARD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Figure机械。GD&T保留。外形约束不记CMF。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4596418006|3c5da349ce8b4c6ad8b93f0fdf0d6166e89d9bcd6f06c1abaf8ca8a29b6eed47",
+      "company_id": "US_FIGURE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 183,
+        "end": 238,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Generate accurate 2D drawings using GD&T per ASME Y14.5"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "3c5da349ce8b4c6ad8b93f0fdf0d6166e89d9bcd6f06c1abaf8ca8a29b6eed47",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:23.811097+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0524": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SOFT_GOODS",
+      "fine_task": "SOFTGOODS",
+      "secondary_task": "",
+      "task_evidence": "Own the industrial design robot buck, keep up to date with latest files from our engineers and communicate with suppliers",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": "REJECT:industrial design form factor不是本人承担CMF。",
+        "3": [
+          [
+            "V2_CMF_DESIGN",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_GD_STANDARD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_CMF_DESIGN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "软体/塑料。ID buck记CMF。GD&T/注塑保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4596421006|acd1ad43a2937c3f8e7d3377962a55373b589baf637bac3b1a439d3c61a6e2f9",
+      "company_id": "US_FIGURE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 199,
+        "end": 320,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own the industrial design robot buck, keep up to date with latest files from our engineers and communicate with suppliers"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "acd1ad43a2937c3f8e7d3377962a55373b589baf637bac3b1a439d3c61a6e2f9",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:23.811097+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0520": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "HANDS",
+      "secondary_task": "",
+      "task_evidence": "Generate accurate 2D drawings using GD&T in accordance with ASME Y14.5",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": "REJECT:industrial design requirements不是本人承担CMF。",
+        "3": [
+          [
+            "V2_GD_STANDARD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_DOE_MSA",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:E0520:4"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "灵巧手机械。GD&T/DOE保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4643612006|a6f9a00b3f2a0a3e121060ece4d78222688393a7d4062ec9d8d5cde9ac0544df",
+      "company_id": "US_FIGURE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 137,
+        "end": 207,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Generate accurate 2D drawings using GD&T in accordance with ASME Y14.5"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "a6f9a00b3f2a0a3e121060ece4d78222688393a7d4062ec9d8d5cde9ac0544df",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:23.812115+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0522": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "INTEG_TEST",
+      "secondary_task": "",
+      "task_evidence": "Cradle to grave ownership of prototype integration and test equipment",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": [
+          [
+            "V2_GD_STANDARD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "集成测试机械。GD&T保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4672013006|7f472d9ec6ec7a3cddd99be52adf3dde4c11a20f062ab3051a5549960856b82a",
+      "company_id": "US_FIGURE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 110,
+        "end": 179,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Cradle to grave ownership of prototype integration and test equipment"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "7f472d9ec6ec7a3cddd99be52adf3dde4c11a20f062ab3051a5549960856b82a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:23.812115+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0525": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ROBOT_STRUCTURE",
+      "fine_task": "HAND_STRUCT",
+      "secondary_task": "",
+      "task_evidence": "Design structural parts and assemblies in 3D CAD that meet load, durability, manufacturability, and packaging requirements",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": [
+          [
+            "V2_GD_STANDARD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "手部结构。GD&T保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4679601006|889dab80605f7ea1270287acfece6253cbbeec628967634b08917a130355e1b7",
+      "company_id": "US_FIGURE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 122,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design structural parts and assemblies in 3D CAD that meet load, durability, manufacturability, and packaging requirements"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "889dab80605f7ea1270287acfece6253cbbeec628967634b08917a130355e1b7",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:23.812115+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0521": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SOFT_GOODS",
+      "fine_task": "HAND_COMPLIANT",
+      "secondary_task": "",
+      "task_evidence": "specific focus on flexible substrates, overmolding, and skin/grip interfaces",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:industrial design requirements不是本人承担CMF。",
+        "4": [
+          [
+            "V2_GD_STANDARD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "REJECT:FEA for non-linear materials不是Linear工具。",
+        "7": [
+          [
+            "V2_DOE_MSA",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:E0521:7"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "柔性手部。成型/GD&T/DOE保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4685814006|afd58ed23285752a850c8bde4ee23a61e143445c18ba6d111286b749144c62cf",
+      "company_id": "US_FIGURE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 144,
+        "end": 220,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "specific focus on flexible substrates, overmolding, and skin/grip interfaces"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "afd58ed23285752a850c8bde4ee23a61e143445c18ba6d111286b749144c62cf",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:23.812115+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0552": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ACTUATOR_GEAR",
+      "fine_task": "GEAR",
+      "secondary_task": "",
+      "task_evidence": "Own gear design end-to-end: system-level sizing, macro and micro geometry definition, rating and life analysis",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": [
+          [
+            "V2_KISSSOFT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_GD_STANDARD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_KISSSOFT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_DOE_MSA",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:E0552:5"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "齿轮设计。KISSsoft/DFM/GD&T/成型/DOE保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4705588006|64cd70d9f68491c9ef686cc66d8bf3f48a11e0edf068775ce4b9c615607810e7",
+      "company_id": "US_FIGURE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 23,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 110,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own gear design end-to-end: system-level sizing, macro and micro geometry definition, rating and life analysis"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "64cd70d9f68491c9ef686cc66d8bf3f48a11e0edf068775ce4b9c615607810e7",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:23.812115+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0606": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "PROTOTYPE",
+      "secondary_task": "",
+      "task_evidence": "Rapidly design and fabricate mechanical, electrical, and sensor prototypes to support research experiments",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_ONSHAPE",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_FUSION360",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "原型工程师。Onshape/Fusion/成型/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|17107519-0e50-430a-b742-200f08388d29|49aa879a6f6496d9785424926d2cec0e6b7eaca829e40c0c5319d7b3e1bf437d",
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 108,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Rapidly design and fabricate mechanical, electrical, and sensor prototypes to support research experiments"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "49aa879a6f6496d9785424926d2cec0e6b7eaca829e40c0c5319d7b3e1bf437d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:23.813115+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0677": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "COMPONENT_PROCESS",
+      "fine_task": "MECH_DESIGN",
+      "secondary_task": "",
+      "task_evidence": "create and fabricate robotic systems for teleoperation, human-robot interaction and data collection",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_ONSHAPE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": "DUPLICATE:N0677:3",
+        "5": "OUTSIDE:Arduino未单列冻结项。",
+        "6": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "REJECT:Salary USD is not Universal Scene Description."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械设计。遥操/3D打印/Onshape保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4910803008|a681f9e4b82f64eba5d01ec5afaff603391f5ade49d2a1b57577de0af912c821",
+      "company_id": "US_SKILD",
+      "role": "RF_MECHANICAL_MECHATRONICS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 755,
+        "end": 854,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "create and fabricate robotic systems for teleoperation, human-robot interaction and data collection"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "a681f9e4b82f64eba5d01ec5afaff603391f5ade49d2a1b57577de0af912c821",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:42:23.813115+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    }
+  }
+}

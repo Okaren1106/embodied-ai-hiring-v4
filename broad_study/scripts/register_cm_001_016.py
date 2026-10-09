@@ -1,0 +1,219 @@
+"""First-pass adjudication for commercial coding_order 1-16. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"E0056":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"KA_SALES","secondary_task":"",
+ "task_evidence":"根据公司战略,负责具身智能产品在头部目标客户的开发与深度合作,建立高价值客户资源网络",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "4":R+"客户侧采购部门不是本人采购职责。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"大客户销售。"
+},
+"N0743":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"ENTERPRISE_AE","secondary_task":"",
+ "task_evidence":"drive growth within the construction industry by helping customers adopt autonomous robotics solutions",
+ "new":{
+  "1":R+"建筑工程project不是Microsoft Project。",
+  "2":R+"project stakeholders不是Microsoft Project。",
+  "3":R+"project execution不是Microsoft Project。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"建筑行业销售。项目管理词拒收MS Project。"
+},
+"N0602":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"OVERSEAS_INTEGRATED","secondary_task":"",
+ "task_evidence":"制定并执行所负责海外市场的年度整合营销策略、预算及落地计划，对市场占有率及品牌知名度目标负责。",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "5":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"海外整合营销。"
+},
+"E0137":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"PR_STATE_MEDIA","secondary_task":"",
+ "task_evidence":"负责公司品牌公关、官方舆论传播,核心维护央媒/党媒核心媒体渠道,输出贴合硬科技、具身智能赛道的官方内容",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_MARKETING","PREFERRED","UNCONDITIONAL"]],
+  "6":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "7":[["V2_MARKETING","SEPARATE","BACKGROUND"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"央媒公关。"
+},
+"E0096":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"TOG_KA","secondary_task":"",
+ "task_evidence":"负责公司机器人业务 to G 或 KA 方向的新客户开发",
+ "new":{"1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]]},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"ToG/KA销售。"
+},
+"N0493":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"CHANNEL_SALES","secondary_task":"",
+ "task_evidence":"负责区域销售渠道建设，招募/开发辖区的代理商或分销商，组织代理商培训",
+ "new":{"1":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]]},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"全球渠道销售。"
+},
+"E0444":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"VIDEO_PRODUCTION","secondary_task":"",
+ "task_evidence":"Capture high-quality product, behind-the-scenes, and environmental photography to support multi-channel marketing efforts alongside video shoots.",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":R+"project planning不是Microsoft Project。",
+  "3":R+"现场导演不是精益方法。",
+  "4":R+"非线性剪辑不是Linear工具。",
+  "5":R+"C-suite不是C语言。",
+  "6":[["V2_MARKETING","GENERAL","CHOICE"]],
+  "7":[["V2_ADOBE_CREATIVE","GENERAL","CHOICE"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"视频制作。C-suite拒收C。NLE拒收Linear。"
+},
+"N0118":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ECOSYSTEM","fine_task":"DEVREL","secondary_task":"",
+ "task_evidence":"负责开发者生态活动的整体规划与日常运营。",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"开发者生态运营。无新候选。"
+},
+"N1039":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"STRATEGY","fine_task":"STRATEGY_ANALYST","secondary_task":"",
+ "task_evidence":"Prior exposure to deal sourcing, diligence, or integration",
+ "new":{
+  "1":R+"英语can不是CAN总线协议。",
+  "2":R+"并购尽调不是采购流程。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"战略分析。开篇can拒收CAN。"
+},
+"N0252":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"EXHIBITION","secondary_task":"",
+ "task_evidence":"主导国内展会全周期策划，结合公司特性、参展目标，制定展会方案及活动执行计划",
+ "new":{
+  "1":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","SEPARATE","BACKGROUND"]],
+  "4":[["V2_PROCUREMENT","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"海外展会策划。供应商筛选记采购。"
+},
+"N0708":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"SOCIAL_INTERN","secondary_task":"",
+ "task_evidence":"Collaborate with creative, marketing, and robotics teams to bring ideas to life",
+ "new":{
+  "1":O+"TikTok未单列冻结项。",
+  "2":"DUPLICATE:N0708:1",
+  "3":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":O+"Instagram未单列冻结项。",
+  "5":"DUPLICATE:N0708:4"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"社媒实习。TikTok/Instagram目录外。"
+},
+"N0366":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"TECH_COMMS","secondary_task":"ECOSYSTEM",
+ "task_evidence":"负责技术发布稿、深度技术解读、论文与开源成果传播、专利与奖项包装等内容的策划与撰写",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_WORLD_MODEL","SEPARATE","BACKGROUND"]],
+  "2":"DUPLICATE:N0366:1",
+  "3":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "6":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"],["V2_HUGGINGFACE","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "7":R+"GitHub开源传播不是Git协作。",
+  "8":"DUPLICATE:N0366:6",
+  "9":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "10":[["V2_WORLD_MODEL","GENERAL","UNCONDITIONAL"],["V2_SIM2REAL","GENERAL","UNCONDITIONAL"]],
+  "11":"DUPLICATE:N0366:10","12":"DUPLICATE:N0366:10",
+  "13":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "14":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "15":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"技术传播。世界模型为传播对象记背景。GitHub不记Git。"
+},
+"E0313":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"EVENTS","secondary_task":"",
+ "task_evidence":"Track ROI and post-event reporting, providing actionable insights to marketing and sales leadership",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":R+"project management skills不是Microsoft Project。",
+  "5":[["V2_HUBSPOT","GENERAL","EXAMPLE"],["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "7":R+"薪资USD不是Universal Scene Description。",
+  "8":R+"猎头免责声明不是人力资源专业职责。",
+  "9":"DUPLICATE:E0313:5"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"活动经理。Cvent目录外。HubSpot保留。"
+},
+"N0453":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"SALES_ENGINEER_CAMPUS","secondary_task":"",
+ "task_evidence":"协助进行政企及行业客户的开发与维护，参与客户需求沟通、方案演示与商务洽谈",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"校招销售工程师。"
+},
+"E0012":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"OVERSEAS_BD","secondary_task":"",
+ "task_evidence":"开拓并管理海外客户和渠道,制定销售计划并确保目标达成",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"海外市场BD。"
+},
+"N0884":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_SUCCESS","fine_task":"HOSPITAL_CSM","secondary_task":"",
+ "task_evidence":"Drive issue resolution end to end: intake, triage, escalation, resolution, and closing the loop.",
+ "new":{
+  "1":R+"C-suite不是C语言。",
+  "2":R+"Project manage不是Microsoft Project。",
+  "3":[["V2_INCIDENT_SUPPORT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":R+"英语can不是CAN总线协议。",
+  "5":R+"Project management discipline不是Microsoft Project。",
+  "6":[["V2_SALES_CRM","GENERAL","CHOICE"]],
+  "7":R+"project management experience不是Microsoft Project。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"医院客户成功。C-suite拒收C。"
+}
+}
+if __name__=='__main__':
+ register('RF_COMMERCIAL_CUSTOMER', decisions, reader='grok4.6')

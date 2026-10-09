@@ -1,0 +1,30 @@
+{
+  "method": "s01 → s02 → s03 → s05 re-run in a complete isolated copy of the run directory, no network; the published tables are deleted first",
+  "exit_codes": {
+    "s01_lock_inputs": 0,
+    "s02_build_facts": 0,
+    "s03_build_tables": 0,
+    "s05_grouping": 0
+  },
+  "published": {
+    "company_facts.csv": "a7630e3e56a946c1facba33f3921e5e99d5b1fb5de1c6a2599284c6cd22f55d8",
+    "company_evidence.csv": "f76a8f341cce58812d6795239e315f84c7c05e6d5c4fe840cde401ec6ff272f5",
+    "evidence_links.csv": "4425becf16e5ee1d3c5f829e9db45c1c490fbd925d620719f195b2ed002747ed",
+    "capital_events.csv": "3db17675e2bb66bdcdebad8d0a103553c773aecbce9e24ac04c1d8e7b9ecb767",
+    "company_gaps.csv": "14fd02cf371cb5846ef61553b9606c66b935cfbd7d129d35d6912657d326b9f8",
+    "company_group_mapping.csv": "bc655b1a47896b3322cd89985bcff3726f71579dba285c087041ff187db9a1f2"
+  },
+  "rebuilt": {
+    "company_facts.csv": "a7630e3e56a946c1facba33f3921e5e99d5b1fb5de1c6a2599284c6cd22f55d8",
+    "company_evidence.csv": "f76a8f341cce58812d6795239e315f84c7c05e6d5c4fe840cde401ec6ff272f5",
+    "evidence_links.csv": "4425becf16e5ee1d3c5f829e9db45c1c490fbd925d620719f195b2ed002747ed",
+    "capital_events.csv": "3db17675e2bb66bdcdebad8d0a103553c773aecbce9e24ac04c1d8e7b9ecb767",
+    "company_gaps.csv": "14fd02cf371cb5846ef61553b9606c66b935cfbd7d129d35d6912657d326b9f8",
+    "company_group_mapping.csv": "bc655b1a47896b3322cd89985bcff3726f71579dba285c087041ff187db9a1f2"
+  },
+  "identical": true,
+  "differences": {},
+  "stdout_tail": [
+    "}"
+  ]
+}

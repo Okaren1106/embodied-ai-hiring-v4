@@ -1,0 +1,24 @@
+{
+  "n_ads": 105,
+  "literal_target_hit_ads": 26,
+  "literal_cohit_ads": 26,
+  "literal_nonhit_ads": 79,
+  "fields_scanned": 315,
+  "nonempty_fields_scanned": 264,
+  "TF_abbreviation_occurrences": 0,
+  "independent_human_validation": false,
+  "inputs": [
+    {
+      "path": "analysis\\paired\\paired_advertisements.csv",
+      "sha256": "9a64d200ce7f54f75f34788c238ac37f2c72f3a232518bfbb0fbbbd2311e0947"
+    },
+    {
+      "path": "source_snapshot\\source_v2\\data\\inputs\\records.json",
+      "sha256": "c3bf940e3cf39fabeea2d3ae25684577f8cd6fc1e71450b9a5a60a19ab743acb"
+    },
+    {
+      "path": "analysis\\paired\\qualification_scope_states.csv",
+      "sha256": "44454b9cc4412c073551179e0177dc218716af968b4f1cadc2021418a62ea018"
+    }
+  ]
+}

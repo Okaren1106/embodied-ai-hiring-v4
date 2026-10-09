@@ -1,0 +1,1429 @@
+{
+  "rule_version": "stage-b-supplement-mapping-v2",
+  "note": "Grouping rules are data, not code: this document is part of the locked input set, so a label table cannot be edited to make a company enter a group without changing the input digest.",
+  "dimensions": [
+    {
+      "dimension": "delivery_form",
+      "label": "交付形态",
+      "multiple_allowed": true,
+      "group_labels": {},
+      "group_bindings": {
+        "CN_XSQUARE": {
+          "硬件本体、核心零部件与数采设备全栈自研；具身基础模型与开源训练代码；开发者平台；系统集成与服务未见公司外证据": [
+            "HARDWARE_SALES",
+            "FOUNDATION_MODEL_AND_TOOLING"
+          ]
+        },
+        "US_AMAZON_FTR": {
+          "研究与原型硬件开发为主；无对外销售产品的官方证据": [
+            "RESEARCH_AND_PROTOTYPE_ONLY"
+          ],
+          "TWIST2 研究代码公开：README记2025-12-02开源；不据此判断对外产品销售模式": [
+            "RESEARCH_CODE_RELEASE"
+          ]
+        },
+        "CN_FOURIER": {
+          "硬件设备销售与交付（含整院康复设备包）、临床部署与培训、远程康复系统、研究与共建合作": [
+            "HARDWARE_SALES",
+            "CLINICAL_DEPLOYMENT",
+            "SYSTEM_INTEGRATION",
+            "RESEARCH_COLLABORATION"
+          ]
+        },
+        "CN_DEEPROBOTICS": {
+          "整机硬件销售与行业解决方案交付（含电力巡检、管廊隧道等场景方案）；部分金属件、电机组件采用定制采购或外协加工": [
+            "HARDWARE_SALES",
+            "SOLUTION_INTEGRATION"
+          ],
+          "X30机器人本体配合面向新加坡电缆隧道的传感器、软件及导航定制，用于SP Group巡检试点": [
+            "HARDWARE_PRODUCT",
+            "SYSTEM_INTEGRATION"
+          ]
+        },
+        "US_APPTRONIK": {
+          "人形机器人硬件与部署方案提供；投资方公告称新资金用于加速 Apollo 生产并扩大全球商业部署与试点网络": [
+            "HARDWARE_SALES",
+            "DEPLOYMENT_AND_INTEGRATION"
+          ]
+        },
+        "US_FIGURE": {
+          "人形机器人整机与自研 AI 模型一体提供；第三方库记录称 Helix 为端到端 VLA 并在工厂场景运行": [
+            "HARDWARE_SALES",
+            "MODEL_INTEGRATED_SYSTEM"
+          ],
+          "人形机器人整机与自研 Helix 模型一体提供（官方 2025-10-09 产品发布）": [
+            "HARDWARE_SALES",
+            "MODEL_INTEGRATED_SYSTEM"
+          ]
+        },
+        "CN_GALBOT": {
+          "机器人本体与具身大模型一体提供；商用形态为自主运营的零售门店（机器人独立完成接单、取货与支付）": [
+            "HARDWARE_SALES",
+            "MODEL_INTEGRATED_SYSTEM",
+            "SELF_OPERATED_RETAIL"
+          ]
+        },
+        "CN_UNITREE": {
+          "机器人整机销售；上市募资投向含智能机器人大模型、机器人本体性能升级、新型智能机器人产品开发与制造基地建设": [
+            "HARDWARE_SALES",
+            "FOUNDATION_MODEL_AND_TOOLING"
+          ]
+        },
+        "US_DILIGENT": {
+          "医院场景服务机器人交付与部署；被收购后 Moxi 成为收购方新医疗业务线的首批部署机器人": [
+            "HARDWARE_SALES",
+            "HEALTHCARE_DEPLOYMENT"
+          ]
+        },
+        "US_PICKLE": {
+          "面向仓库与分拨中心的卸货机器人系统交付与部署；B 轮资金用于扩大部署与产品化": [
+            "HARDWARE_SALES",
+            "WAREHOUSE_DEPLOYMENT"
+          ]
+        },
+        "US_BOSTON_DYNAMICS": {
+          "工业机器人整机交付与部署，配 Orbit 平台做机队管理与系统集成；Atlas 由公司波士顿总部生产": [
+            "HARDWARE_SALES",
+            "FLEET_PLATFORM_INTEGRATION"
+          ]
+        },
+        "CN_AGIBOT": {
+          "人形机器人整机对外交付（报道口径为向客户交付台数）": [
+            "HARDWARE_SALES"
+          ],
+          "按采购订单提供具身机器人整机及产线应用；公司公告列龙旗、均胜的G2应用": [
+            "HARDWARE_SALES",
+            "SYSTEM_INTEGRATION"
+          ]
+        },
+        "CN_ASTRIBOT": {
+          "机器人本体销售（T 系列起售价 8.99 万元）＋模型与 OS 一体化；2025 年底开启千台级交付，2026 年推进 T1 量产与万台级产能建设": [
+            "HARDWARE_SALES",
+            "MODEL_INTEGRATED_SYSTEM"
+          ]
+        },
+        "CN_GALAXEA": {
+          "具身基础模型、数据体系、机器人本体与开发平台并行的业务形态（公司口径）": [
+            "FOUNDATION_MODEL_AND_TOOLING",
+            "HARDWARE_SALES"
+          ]
+        },
+        "CN_LIMX": {
+          "人形机器人整机销售与交付；资金用于完善全球制造与交付能力并推进规模化部署": [
+            "HARDWARE_SALES",
+            "FLEET_PLATFORM_INTEGRATION"
+          ],
+          "TRON 1以机器人硬件科研平台对外发售并接受预订，提供SDK和底层硬件接口": [
+            "HARDWARE_SALES",
+            "DEVELOPER_PLATFORM"
+          ]
+        },
+        "CN_NOETIX": {
+          "人形机器人整机产品提供（官网自述为人形机器人与具身智能科技企业）": [
+            "HARDWARE_SALES"
+          ],
+          "机器人硬件制造与销售业务（投资方披露，未给某笔销售合同）": [
+            "HARDWARE_PRODUCT"
+          ],
+          "向琉璃庙镇中心小学无偿捐赠交付两台 BUMI": [
+            "DONATION"
+          ]
+        },
+        "CN_PAXINI": {
+          "触觉感知芯片与传感器的量产供应＋灵巧手与人形机器人；公司称把半导体晶圆工艺引入触觉芯片生产以实现芯片级规模生产": [
+            "COMPONENT_SUPPLY",
+            "HARDWARE_SALES"
+          ]
+        },
+        "CN_SPIRITAI": {
+          "基座模型开源＋人形机器人整机在客户产线投入实际作业": [
+            "FOUNDATION_MODEL_AND_TOOLING",
+            "HARDWARE_SALES"
+          ],
+          "实体机器人“小墨”投入宁德时代中州电池PACK生产线承担接插件插接作业": [
+            "HARDWARE_DEPLOYMENT"
+          ]
+        },
+        "US_SKILD": {
+          "基础模型与机器人平台交付；与硬件及制造伙伴联合部署（NVIDIA、富士康）": [
+            "MODEL_LICENSING",
+            "FLEET_PLATFORM_INTEGRATION"
+          ],
+          "研究型基础模型发布（Skild Brain / S1）；商业许可与付费交付仅见无日期博客自述，不纳入本条": [
+            "RESEARCH_MODEL_RELEASE"
+          ]
+        },
+        "US_FIELD_AI": {
+          "基础模型与解决方案提供，配合产业伙伴在客户场景部署（与 Caterpillar、NVIDIA 系列合作条目）": [
+            "MODEL_LICENSING",
+            "SOLUTION_INTEGRATION"
+          ],
+          "软件大脑在客户工作流中边缘实时部署（公司自述）；未陈述独立确认的许可或销售合同形态": [
+            "MODEL_DEPLOYMENT_SELF_REPORT"
+          ]
+        },
+        "US_PHYSICAL_INTELLIGENCE": {
+          "基础模型与算法能力输出；官网称合作伙伴已在真实场景应用（未列具名合作方与交付形式）": [
+            "MODEL_LICENSING"
+          ],
+          "研究型基础模型发布；页面展示跨本体策略与任务演示，未陈述对外销售、许可合同或付费客户": [
+            "RESEARCH_MODEL_RELEASE"
+          ]
+        },
+        "US_DEXTERITY": {
+          "机器人系统与平台部署（官网提供「开始部署」入口，并称只与准备好部署的公司合作）": [
+            "HARDWARE_SALES",
+            "FLEET_PLATFORM_INTEGRATION"
+          ],
+          "向工业与企业客户提供 Mech 及任务软件应用（官方 2025-03-17；首发卡车装载应用）": [
+            "HARDWARE_SALES",
+            "TASK_SOFTWARE_APPS"
+          ]
+        },
+        "US_NIMBLE": {
+          "机器人第三方物流服务（3PL）：以自有履单中心网络向 DTC 品牌提供履单与配送服务": [
+            "ROBOTIC_3PL_SERVICE"
+          ],
+          "机器人第三方物流（robotic 3PL）：自有履单中心网络，2024-09-26 启用新泽西节点": [
+            "ROBOTIC_3PL_SERVICE"
+          ]
+        },
+        "US_AGILITY": {
+          "Robots-as-a-Service（RaaS）：GXO 多年协议在 SPANX 设施部署 Digit 人形机器人与 Agility Arc 云平台": [
+            "RAAS"
+          ]
+        }
+      }
+    },
+    {
+      "dimension": "target_markets",
+      "label": "目标场景",
+      "multiple_allowed": true,
+      "group_labels": {},
+      "group_bindings": {
+        "CN_XSQUARE": {
+          "工业制造、物流、养老、家居（公司自述「已逐步进入」）": [
+            "INDUSTRIAL_MANUFACTURING",
+            "LOGISTICS",
+            "ELDERCARE",
+            "HOUSEHOLD_SERVICE"
+          ]
+        },
+        "US_AMAZON_FTR": {
+          "亚马逊自有全球运营（仓储／履约）为目标方向（官方自述方向性表述）": [
+            "INTERNAL_OPERATIONS_TARGET"
+          ],
+          "现行团队页自述面向 Amazon 内部运营的基础模型与机器人研究": [
+            "INTERNAL_OPERATIONS_RESEARCH"
+          ]
+        },
+        "CN_FOURIER": {
+          "马来西亚：国家级康复中心（PERKESO 汝来康复医院）整院康复设备交付": [
+            "HEALTHCARE_REHABILITATION"
+          ],
+          "新加坡：与国立医疗集团 NHG Health 的康复与机器人技术合作，涉及陈笃生医院部署与评估": [
+            "HEALTHCARE_REHABILITATION"
+          ],
+          "中国国内：康复科室与康养、居家场景（落地家数为申报方与受访者口径）": [
+            "HEALTHCARE_REHABILITATION",
+            "ELDERCARE"
+          ],
+          "GR-3/陪伴系列面向照护、交互陪伴；GRW面向仓储物流、制造与康养重载辅助": [
+            "HEALTHCARE_REHABILITATION",
+            "WAREHOUSE_LOGISTICS",
+            "INDUSTRIAL_MANUFACTURING",
+            "COMPANIONSHIP"
+          ]
+        },
+        "CN_DEEPROBOTICS": {
+          "电力巡检、应急消防／救援、工业巡检、警务安防、公共基建与管廊隧道巡检、金属冶炼、建筑测绘、物流运输、教育科研": [
+            "POWER_INSPECTION",
+            "EMERGENCY_RESPONSE",
+            "INDUSTRIAL_INSPECTION",
+            "SECURITY_PATROL",
+            "TUNNEL_AND_INFRASTRUCTURE",
+            "METALLURGY",
+            "SURVEYING",
+            "LOGISTICS",
+            "RESEARCH_EDUCATION"
+          ]
+        },
+        "US_AGILITY": {
+          "仓库与工厂自动化（制造、合同物流、汽车制造、电商履约）": [
+            "WAREHOUSE_AUTOMATION",
+            "MANUFACTURING_AUTOMATION",
+            "LOGISTICS_FULFILLMENT"
+          ],
+          "合同物流仓库现场（GXO SPANX 设施；从协作机器人取料箱放到传送带等重复作业）": [
+            "WAREHOUSE_LOGISTICS",
+            "CONTRACT_LOGISTICS"
+          ]
+        },
+        "US_APPTRONIK": {
+          "初始面向制造、仓储与物流等关键行业；公告称后续计划扩展至零售、医疗，最终进入家庭": [
+            "MANUFACTURING_AUTOMATION",
+            "WAREHOUSE_LOGISTICS",
+            "RETAIL_PLANNED",
+            "HEALTHCARE_PLANNED",
+            "HOME_PLANNED"
+          ]
+        },
+        "US_FIGURE": {
+          "家庭场景（官方当前主线）与制造业／工厂场景（官方沿革与第三方库记录）": [
+            "HOME_ENVIRONMENT",
+            "MANUFACTURING_AUTOMATION"
+          ],
+          "家庭环境（官方 2025-10-09）；汽车制造物流现场（公司称 Figure 03 已到达 BMW Spartanburg）": [
+            "HOME_ENVIRONMENT",
+            "MANUFACTURING_AUTOMATION"
+          ]
+        },
+        "CN_GALBOT": {
+          "零售（香港门店已营业，计划扩展至迪士尼乐园、海洋公园等人流密集与旅游区）；报道另称双足机器人未来拟拓展至招揽顾客、图书馆与博物馆讲解及工业应用": [
+            "RETAIL_SELF_OPERATED",
+            "TOURISM_LOCATIONS_PLANNED",
+            "CULTURAL_VENUES_PLANNED",
+            "INDUSTRIAL_PLANNED"
+          ],
+          "动力电池模组及电池包制造，面向物料搬运、拣选等高负载工序": [
+            "INDUSTRIAL_MANUFACTURING"
+          ]
+        },
+        "CN_UNITREE": {
+          "": [
+            "NO_MARKET_VALUE_ESTABLISHED"
+          ],
+          "G1已有科研应用：TWIST2研究团队使用G1进行人形遥操作与数据采集实验": [
+            "RESEARCH_EDUCATION"
+          ],
+          "现行四足巡检方案面向变电站、炼化管线、矿井隧道及城市基础设施": [
+            "ENERGY_INSPECTION",
+            "INFRASTRUCTURE_INSPECTION"
+          ]
+        },
+        "US_DILIGENT": {
+          "医院与医疗场景（护士站、药房等院内物流与物资运送）": [
+            "HEALTHCARE_HOSPITAL_LOGISTICS"
+          ]
+        },
+        "US_PICKLE": {
+          "物流与供应链场景的卡车／集装箱卸货（分拨中心、仓库月台）": [
+            "LOGISTICS_TRUCK_UNLOADING"
+          ]
+        },
+        "US_BOSTON_DYNAMICS": {
+          "工业与仓储制造场景（物料搬运、企业级应用）": [
+            "INDUSTRIAL_MATERIAL_HANDLING",
+            "MANUFACTURING_AUTOMATION"
+          ],
+          "工业与仓储制造场景（物料搬运、企业级应用）；合同物流集装箱卸货与箱体处理（DHL Stretch）": [
+            "INDUSTRIAL_WAREHOUSE",
+            "LOGISTICS_TRUCK_UNLOADING"
+          ]
+        },
+        "CN_AGIBOT": {
+          "国内大型汽车制造厂与 3C 电子装配线（报道口径的主力部署场景）": [
+            "AUTOMOTIVE_MANUFACTURING",
+            "ELECTRONICS_ASSEMBLY"
+          ],
+          "汽车制造、3C电子与物流仓储；具体列举龙旗平板产线和均胜汽车零部件装配": [
+            "AUTOMOTIVE_MANUFACTURING",
+            "ELECTRONICS_MANUFACTURING",
+            "WAREHOUSE_LOGISTICS"
+          ]
+        },
+        "CN_ASTRIBOT": {
+          "商业场景（报道提及机器人 MART 等零售标杆产品）与通用智能应用；投资方提及灵巧拟人操作、交互安全等场景优势": [
+            "RETAIL_SERVICE",
+            "GENERAL_PURPOSE_MANIPULATION"
+          ]
+        },
+        "CN_GALAXEA": {
+          "": [
+            "NO_MARKET_VALUE_ESTABLISHED"
+          ],
+          "R1面向科研开发，R1 Lite面向机器人数据采集（现行产品定位）": [
+            "RESEARCH_EDUCATION",
+            "ROBOT_DATA_COLLECTION"
+          ]
+        },
+        "CN_LIMX": {
+          "科研教育、商业服务、全地形巡检、工业应用、建筑等场景；重点市场布局含中东、欧洲与亚洲其他国家": [
+            "RESEARCH_EDUCATION",
+            "COMMERCIAL_SERVICE",
+            "ALL_TERRAIN_INSPECTION",
+            "INDUSTRIAL",
+            "CONSTRUCTION"
+          ],
+          "TRON 1面向运动控制、具身智能算法研究、验证和教学培训": [
+            "RESEARCH_EDUCATION"
+          ]
+        },
+        "CN_NOETIX": {
+          "多场景人形/具身智能应用（官网 knowsAbout 含人形、仿生、双足、轮式机器人）；未列具名行业客户场景": [
+            "GENERAL_ROBOT_WORK"
+          ],
+          "中小学教育与 AI 教学（具名学校 BUMI 捐赠场景）": [
+            "EDUCATION"
+          ]
+        },
+        "CN_PAXINI": {
+          "具身智能产业的基础配置（触觉感知）与人形机器人整机应用；报道提及与比亚迪相关语境（标题），但正文未给出具体场景": [
+            "COMPONENT_FOR_EMBODIED_AI",
+            "HUMANOID_APPLICATIONS"
+          ]
+        },
+        "CN_SPIRITAI": {
+          "动力电池制造产线（宁德时代中州基地电池 Pack 生产线）；通用机器人作业场景": [
+            "BATTERY_MANUFACTURING",
+            "GENERAL_ROBOT_WORK"
+          ],
+          "工业制造、零售门店，以及 Moz2 面向的商超、酒旅和办公楼宇": [
+            "INDUSTRIAL_MANUFACTURING",
+            "RETAIL",
+            "HOSPITALITY",
+            "OFFICE_SERVICES"
+          ],
+          "家庭服务为长期目标，现阶段不宣称大规模 C 端普及": [
+            "HOME_LONG_TERM_GOAL"
+          ]
+        },
+        "US_SKILD": {
+          "搬运与配送、场地巡检、安保、食品制备、商用厨房、精密装配等（公司口径的场景清单）": [
+            "LOGISTICS_MOVING",
+            "SITE_INSPECTION",
+            "SECURITY",
+            "FOOD_PREPARATION",
+            "PRECISION_ASSEMBLY"
+          ],
+          "跨形态机器人控制（四足、人形、桌面臂、移动操作）；未给出已签约商业行业清单": [
+            "CROSS_EMBODIMENT_CONTROL"
+          ]
+        },
+        "US_FIELD_AI": {
+          "建筑、城市运营、工业与能源、联邦（政府）等（官网解决方案分类）": [
+            "CONSTRUCTION",
+            "URBAN_OPERATIONS",
+            "INDUSTRIAL_ENERGY",
+            "FEDERAL_GOVERNMENT"
+          ],
+          "建筑、能源、制造、城市配送与巡检（官方 2025-08-20 公告）": [
+            "CONSTRUCTION",
+            "INDUSTRIAL_ENERGY",
+            "MANUFACTURING",
+            "URBAN_DELIVERY_INSPECTION"
+          ]
+        },
+        "US_PHYSICAL_INTELLIGENCE": {
+          "通用机器人应用（官网称通用物理智能模型将带来机器人应用的爆发；未给具体行业清单）": [
+            "GENERAL_PURPOSE_ROBOTICS"
+          ],
+          "研究演示任务含洗衣、叠衣、做咖啡、装袋等操作；未给出商业行业清单": [
+            "HOUSEHOLD_MANIPULATION_RESEARCH"
+          ]
+        },
+        "US_DEXTERITY": {
+          "物流与供应链（官网称客户为全球最大物流公司；未列具名客户）": [
+            "LOGISTICS_SUPPLY_CHAIN"
+          ],
+          "仓储与工业现场的卡车装载、码垛与拣选": [
+            "LOGISTICS_TRUCK_LOADING"
+          ]
+        },
+        "US_NIMBLE": {
+          "电商履单与第三方物流（服装、健康与美容、鞋类、电子、快消品等品类；服务对象含财富 500 强企业与此类高成长品牌）": [
+            "ECOMMERCE_FULFILLMENT",
+            "THIRD_PARTY_LOGISTICS"
+          ],
+          "电商履单与第三方物流（服装、鞋类、健康美容、消费电子等；新泽西节点）": [
+            "ECOMMERCE_FULFILLMENT",
+            "THIRD_PARTY_LOGISTICS"
+          ]
+        }
+      }
+    },
+    {
+      "dimension": "product_lines",
+      "label": "产品形态",
+      "multiple_allowed": true,
+      "group_labels": {},
+      "group_bindings": {
+        "CN_XSQUARE": {
+          "量子1号 / 量子1号 Pro、量子2号（具身轮式仿人形）、五指灵巧手（单手20自由度）、无本体数采系统 XR Zero-G0、桌面主从套装、高性能六轴机械臂；模型侧 WALL-A、WALL-OSS(0.5)、WALL-B、WALL-WM、X-Tokenizer": [
+            "HUMANOID_ROBOTICS",
+            "DEXTEROUS_HANDS",
+            "DATA_COLLECTION_SYSTEMS",
+            "FOUNDATION_MODEL_AND_TOOLING",
+            "MANIPULATOR_ARMS"
+          ],
+          "养老护理机器人「0755」（深圳市福利中心上岗，市政府网站 2026-07-16）": [
+            "ELDERCARE_SERVICE_ROBOT"
+          ]
+        },
+        "US_AMAZON_FTR": {
+          "前沿机器人基础模型与端到端学习系统、多模态感知与自适应操作；高自由度机器人原型硬件（执行器、传感器、机电集成）；公开代码侧含仿真、人形数据采集、行为克隆、机器人控制策略与世界模型方向": [
+            "ROBOT_FOUNDATION_MODELS",
+            "PROTOTYPE_ROBOT_HARDWARE",
+            "OPEN_SOURCE_ROBOTICS_CODE"
+          ],
+          "TWIST2 人形遥操作与全身数据采集研究系统（FAR参与；实验本体是 Unitree G1）": [
+            "RESEARCH_SYSTEM"
+          ]
+        },
+        "CN_FOURIER": {
+          "康复机器人产品线：ExoMotus M4 下肢外骨骼、ArmMotus EMU 三维上肢康复机器人、下肢康复机器人、伽利略生物力学分析与训练系统（约 40 余款康复产品为受访者口径）": [
+            "REHAB_ROBOTICS",
+            "EXOSKELETON",
+            "BIOMECHANICS_SYSTEMS"
+          ],
+          "人形机器人产品线：GRx 系列（GR-2、GR-3）；2026-06 报道中在 PERKESO 康复中心引导认知训练的一台人形机器人亦属傅利叶产品（未指明型号）": [
+            "HUMANOID_ROBOTICS"
+          ],
+          "陪伴与管家方向：媒体标题级线索提及 2026 年发布的管家系统与陪伴新品，本轮未逐项核实到产品页": [
+            "COMPANION_SYSTEMS_MEDIA_LEAD_ONLY"
+          ],
+          "CES 2026展示 GR-3 Care-bot，并展示仍在开发的小型陪伴概念机": [
+            "HUMANOID",
+            "COMPANION_CONCEPT"
+          ],
+          "WAIC 2026：GRW轮式双臂机器人发布，GR Mini与GR Nano陪伴系列展示": [
+            "WHEELED_DUAL_ARM",
+            "COMPANION_ROBOT"
+          ]
+        },
+        "CN_DEEPROBOTICS": {
+          "四足机器人：绝影 X 系列（X20、X30）、绝影 Lite 系列；轮足机器人：山猫 M 系列（M20、S10）；机器人关节：J60、J80/J100 系列；人形机器人：DR 系列（DR01、DR02）": [
+            "QUADRUPED_ROBOTICS",
+            "WHEELED_LEGGED_ROBOTICS",
+            "ROBOT_JOINTS",
+            "HUMANOID_ROBOTICS"
+          ],
+          "四足机器人（证券时报 2026-05-19 转述招股／沙利文：2025 年四足行业应用收入全球第一）": [
+            "QUADRUPED_ROBOTICS"
+          ]
+        },
+        "US_AGILITY": {
+          "Digit 双足人形机器人（面向物流与制造，执行搬运、码垛、卸货、上下料等重复性工作）；Arc 云平台（机器人运行与管理的云端层）；新一代 Digit v5 已进入规模化生产与交付计划": [
+            "HUMANOID_ROBOTICS",
+            "ROBOT_FLEET_SOFTWARE"
+          ],
+          "Digit 双足移动操作人形机器人（MMR）；Agility Arc 云端机队部署与管理平台": [
+            "HUMANOID_ROBOTICS",
+            "ROBOT_FLEET_SOFTWARE"
+          ]
+        },
+        "US_APPTRONIK": {
+          "Apollo 通用人形机器人（模块化设计，提供双足与轮式两种移动选项，具备移动、灵巧操作与技能学习能力）；配套机队级部署与软件工具": [
+            "HUMANOID_ROBOTICS",
+            "ROBOT_FLEET_SOFTWARE"
+          ]
+        },
+        "US_FIGURE": {
+          "Figure 03（面向日常的通用人形机器人，官方称已针对居住环境改进观感与触感）；Figure 02（上一代，官方沿革称曾在劳动力场景测试）；F.01（首代，2023-05 迈出第一步）；Helix 视觉-语言-动作模型（官方称用于应对不断变化的家庭环境）": [
+            "HUMANOID_ROBOTICS",
+            "ROBOT_FOUNDATION_MODELS"
+          ],
+          "Figure 03 第三代人形机器人（官方 2025-10-09 发布；为 Helix VLA、家庭使用与规模制造设计）；Helix 自研视觉-语言-动作模型": [
+            "HUMANOID_ROBOTICS",
+            "ROBOT_FOUNDATION_MODELS"
+          ]
+        },
+        "CN_GALBOT": {
+          "机器人本体型号 ET1、G1、S1；AstraBrain 具身大模型族（通用大脑 AstraBrain-WAM 世界动作模型、通用小脑 AstraBrain-WBC、面向灵巧手的世界模型 AstraBrain-Dex）；官方资讯另载原生智能体机器人「银河星仔」预订": [
+            "HUMANOID_ROBOTICS",
+            "ROBOT_FOUNDATION_MODELS",
+            "DEXTEROUS_HANDS"
+          ],
+          "人形机器人（香港自营零售店服务本体；2026-09-07 报道未列 ET1/G1/S1 型号）": [
+            "HUMANOID_ROBOTICS"
+          ]
+        },
+        "CN_UNITREE": {
+          "四足机器人与人形机器人（招股与上市报道语境为通用机器人整机）；继承资料另有 G1 人形机器人等型号记录": [
+            "QUADRUPED_ROBOTICS",
+            "HUMANOID_ROBOTICS"
+          ]
+        },
+        "US_DILIGENT": {
+          "Moxi 医院服务机器人（由 Nvidia AI 芯片驱动，协助护士与药房人员运送实验室样本等物资）；收购前数月另发布新机器人设计（Nvidia GTC 大会）": [
+            "SERVICE_ROBOTICS_HEALTHCARE"
+          ]
+        },
+        "US_PICKLE": {
+          "Pickle Unload System（配备吸盘式抓取的机械臂＋移动底盘机器人，可驶入集装箱抓取重达 50 磅的箱体并放上传送带；单个机器人约两小时可卸完一辆典型卡车）": [
+            "MOBILE_MANIPULATION_UNLOADING"
+          ]
+        },
+        "US_BOSTON_DYNAMICS": {
+          "全电 Atlas 人形机器人（工业物料搬运，支持条码扫描与工作流集成、自主换电）；Spot 四足机器人；Orbit 机队与工作流管理平台（可接入 MES、WMS）": [
+            "HUMANOID_ROBOTICS",
+            "QUADRUPED_ROBOTICS",
+            "ROBOT_FLEET_SOFTWARE"
+          ],
+          "全电 Atlas 人形机器人（工业物料搬运，支持条码扫描与工作流集成、自主换电）；Spot 四足机器人；Orbit 机队与工作流管理平台；Stretch 箱体处理／集装箱卸货机器人（与 Atlas、Spot 分开）": [
+            "HUMANOID_ROBOTICS",
+            "QUADRUPED_ROBOTICS",
+            "ROBOT_FLEET_SOFTWARE",
+            "WAREHOUSE_UNLOADING_ROBOT"
+          ]
+        },
+        "CN_AGIBOT": {
+          "人形机器人整机（报道统称「类人形机器人」；具体型号本轮证据未逐一列明）": [
+            "HUMANOID_ROBOTICS"
+          ],
+          "人形机器人 AGIBOT A3、AGIBOT X2（官方 2026-09-08）；产品组合另含四足、灵巧手与商用清洁方案（同篇）": [
+            "HUMANOID_ROBOTICS",
+            "QUADRUPED_ROBOTICS",
+            "DEXTEROUS_HANDS"
+          ]
+        },
+        "CN_ASTRIBOT": {
+          "本体：绳驱 AI 机器人（旗舰 S 系列；2026-05-27 发布 T 系列，起售价 8.99 万元）；模型侧：基座模型 Lumo 与快慢系统模型框架 DuoCore；另有面向 AI 设计的具身 OS 层": [
+            "HUMANOID_ROBOTICS",
+            "ROBOT_FOUNDATION_MODELS",
+            "ROBOT_OS"
+          ]
+        },
+        "CN_GALAXEA": {
+          "具身基础模型族：G0 VLA（2025-08 开源）、G0 Plus（2026-01 开源）、面向衣物折叠的垂类模型与轻量化小模型 G0 Tiny（2026-02）；机器人本体与开发平台业务；后续拟推出 G0.5 与世界模型 Fast-WAM": [
+            "ROBOT_FOUNDATION_MODELS",
+            "HUMANOID_ROBOTICS"
+          ]
+        },
+        "CN_LIMX": {
+          "通用人形机器人整机产品线；AI 基础设施与具身智能体 OS（System 1）；FluxVLA Engine 企业级开源平台（覆盖数据处理、仿真训练、真机迭代到硬件部署）": [
+            "HUMANOID_ROBOTICS",
+            "ROBOT_FOUNDATION_MODELS",
+            "ROBOT_OS"
+          ]
+        },
+        "CN_NOETIX": {
+          "人形机器人产品家族（官网可见 N2、E1、Bumi/小布米、Hobbs 等）；公司定位为人形机器人与具身智能": [
+            "HUMANOID_ROBOTICS"
+          ],
+          "人形机器人本体与仿生人脸产品；BUMI 人形机器人已用于学校捐赠": [
+            "HUMANOID",
+            "BIONIC_FACE"
+          ],
+          "E1、N2、Hobbs 产品介绍（清华校友采访中的公司陈述）": [
+            "HUMANOID",
+            "BIONIC_FACE"
+          ]
+        },
+        "CN_PAXINI": {
+          "GEN4 FUSE 真 6D 触觉感知芯片（公司称全球首款实现量产的原生真 6D 触觉感知阵列芯片）；PX6AX GEN4 产品矩阵；灵巧手与人形机器人（全栈布局的一部分）；具身数据生态（采集设备、数据工厂集群与跨平台复现系统）": [
+            "TACTILE_SENSING_CHIPS",
+            "DEXTEROUS_HANDS",
+            "HUMANOID_ROBOTICS",
+            "EMBODIED_DATA_SYSTEMS"
+          ]
+        },
+        "CN_SPIRITAI": {
+          "开源基座模型 Spirit v1.5（报道称在中国首次于性能上超过 Physical Intelligence 的 Pi0.5，具零样本泛化能力）；人形机器人 Moz Robot": [
+            "ROBOT_FOUNDATION_MODELS",
+            "HUMANOID_ROBOTICS"
+          ],
+          "全力控人形机器人 Moz1；自研 VLA 模型 Spirit v1（官方新闻述 2025 年 6 月发布；页面无发布日期）": [
+            "HUMANOID_ROBOTICS",
+            "ROBOT_FOUNDATION_MODELS"
+          ],
+          "Moz1 人形机器人、Moz2 商服机器人、Spirit v1.6 具身基座模型": [
+            "HUMANOID",
+            "FOUNDATION_MODEL"
+          ],
+          "Moz1 首次发布日期有月份冲突：宣传册写2025年5月，官方 news/11 写2025年6月": [
+            "MOZ1_LAUNCH_DATE_CONFLICT"
+          ]
+        },
+        "US_SKILD": {
+          "Skild Brain 机器人基础模型（可通过观看人类视频学习）；安全／巡检机器人平台；双臂机械手上的装配应用（Skild Brain 部署于 NVIDIA Blackwell 系统高精度装配）": [
+            "ROBOT_FOUNDATION_MODELS",
+            "SECURITY_INSPECTION_PLATFORM",
+            "MANIPULATION_ASSEMBLY"
+          ],
+          "Skild Brain 跨形态机器人基础模型（四足、人形、桌面臂、移动操作等，2025-07-29）；S1 旗舰基础模型（官方 2026-08-18 发布，上下文学习）": [
+            "ROBOT_FOUNDATION_MODELS"
+          ]
+        },
+        "US_FIELD_AI": {
+          "Field Foundation Models（FFMs）机器人基础模型族，围绕 Belief World Model（BWM）构建，定位为风险感知的机器人 AI；解决方案按建筑、城市运营、工业与能源、联邦（政府）分类": [
+            "ROBOT_FOUNDATION_MODELS",
+            "RISK_AWARE_AUTONOMY"
+          ],
+          "Field Foundation Models（FFMs）单一软件大脑／风险感知机器人基础模型；可驱动多种机器人形态": [
+            "ROBOT_FOUNDATION_MODELS",
+            "RISK_AWARE_AUTONOMY"
+          ]
+        },
+        "US_PHYSICAL_INTELLIGENCE": {
+          "π0.7 可引导机器人基础模型（官网称泛化能力阶跃式提升）；RL Token 机制（从 VLA 模型提取，支持快速在线强化学习）；多尺度具身记忆（MEM，支持超过十分钟的复杂任务）": [
+            "ROBOT_FOUNDATION_MODELS",
+            "VLA_ROBOT_POLICY"
+          ],
+          "π0（pi-zero）跨本体通用机器人基础模型（官方 2024-10-31 发布；可控制多种机器人，经文本提示或微调执行任务）": [
+            "ROBOT_FOUNDATION_MODELS",
+            "VLA_ROBOT_POLICY"
+          ]
+        },
+        "US_DEXTERITY": {
+          "面向物流的机械臂机器人（官网称机器人全轮班运行）；物理 AI 世界模型（以超过 1 亿次生产自主行动经验训练）；Dexterity 平台（AI 智能体团队为机器人提供类人灵巧性）": [
+            "LOGISTICS_MANIPULATION_ROBOTS",
+            "WORLD_MODEL",
+            "ROBOT_FLEET_SOFTWARE"
+          ],
+          "Mech 工业双臂移动操作机器人（首发应用为卡车装载；物理 AI 在机载计算运行）": [
+            "MOBILE_MANIPULATION_UNLOADING"
+          ]
+        },
+        "US_NIMBLE": {
+          "AI 驱动的拣选与包装机器人系统；机器人履单中心网络（robotic fulfillment centers）；自主履单服务（fully autonomous fulfillment，与 FedEx 一起扩展）": [
+            "PICK_AND_PACK_ROBOTICS",
+            "FULFILLMENT_NETWORK",
+            "AUTONOMOUS_FULFILLMENT_SERVICE"
+          ],
+          "AI 拣选包装机器人系统与机器人履单中心（2024-09-26 启用新泽西节点）": [
+            "PICK_AND_PACK_ROBOTICS",
+            "FULFILLMENT_NETWORK"
+          ]
+        }
+      }
+    },
+    {
+      "dimension": "deployment_status_actual",
+      "label": "实际部署证据",
+      "multiple_allowed": true,
+      "group_labels": {},
+      "group_bindings": {
+        "CN_XSQUARE": {
+          "已取得位于具名机构（深圳市福利服务指导中心老人颐养院）的实地上岗部署证据；物流为真实场景运行数月（客户未具名）；两条均不足以支持大规模运营": [
+            "DEPLOYED_AT_NAMED_INSTITUTION",
+            "RUNNING_IN_REAL_SCENARIO_CUSTOMER_UNDISCLOSED"
+          ]
+        },
+        "US_AMAZON_FTR": {
+          "": [
+            "NO_DEPLOYMENT_VALUE_ESTABLISHED"
+          ]
+        },
+        "CN_FOURIER": {
+          "马来西亚 PERKESO 康复中心：整套康复设备自 2025-10 起试运营并于 2026-06-16 随中心开业正式投用；新加坡：陈笃生医院康复技术部署与评估（对方公告）；全国康复港落地家数与服务人次仅为成果发布页文字口径": [
+            "DEPLOYED_AT_NAMED_INSTITUTION",
+            "DEPLOYED_UNDER_COUNTERPARTY_AGREEMENT"
+          ]
+        },
+        "CN_DEEPROBOTICS": {
+          "产品已在电力巡检、应急、安防等场景实际应用并形成收入（2025 年营收 3.37 亿元、实现盈利）；四足机器人累计产量超 5500 台、2025 年销量 2908 台；产品远销 45 个以上国家和地区，行业客户超 500 家": [
+            "DEPLOYED_AT_NAMED_CUSTOMERS",
+            "COMMERCIAL_REVENUE_ESTABLISHED",
+            "MASS_SHIPMENT"
+          ],
+          "云深处称X30改装的SPock已在SP Group地下电缆隧道巡检试点运行": [
+            "DEPLOYMENT_SELF_REPORTED"
+          ]
+        },
+        "US_AGILITY": {
+          "Digit 已在上述企业工厂/仓库实际部署运行；媒体报道累计运行超过 65000 小时、搬运超过 100000 个物流箱、部分任务操作准确率达 98%": [
+            "DEPLOYED_AT_NAMED_CUSTOMERS",
+            "SUSTAINED_RUNTIME_REPORTED"
+          ],
+          "GXO SPANX 设施已部署 Digit 与 Arc，协助从协作机器人取料箱放到传送带（客户所称商业部署；协议下继续探索更多用例，不记已部署台数）": [
+            "DEPLOYED_AT_NAMED_CUSTOMER_SITE"
+          ]
+        },
+        "US_APPTRONIK": {
+          "公告与官网均称存在商业部署与试点项目网络，但本轮未取得具名部署现场或运行数据": [
+            "DEPLOYMENT_NETWORK_CLAIMED_NO_NAMED_SITE"
+          ]
+        },
+        "US_FIGURE": {
+          "第三方库记录称 2026-01 已交付 350 台以上 Figure 03，且 BMW 侧部署在 2025-11 扩展至 100 台以上；公司官网未公布部署台数": [
+            "DELIVERY_COUNT_THIRD_PARTY_ONLY"
+          ],
+          "公司称 Figure 03 已到达 BMW Spartanburg Hall 52 从事物流排序；Figure 02 此前在装配线部署": [
+            "DEPLOYED_AT_NAMED_FACTORY_SELF_REPORT"
+          ],
+          "BMW确认2025年 Figure 02 在 Spartanburg 车身车间运行，协助超过30000辆 X3 生产，正文记10个月": [
+            "CUSTOMER_CONFIRMED_F02_USE"
+          ],
+          "Figure 2026-06-30 自述 Figure 03 已到达 BMW Spartanburg Hall 52": [
+            "F03_ARRIVAL_SELF_REPORT"
+          ]
+        },
+        "CN_GALBOT": {
+          "已在香港启德、红磡、湾仔开设自有品牌人形机器人零售店（报道称香港首家由机器人全自主服务），机器人自主完成接单、取货与支付": [
+            "SELF_OPERATED_RETAIL_STORES_OPEN"
+          ],
+          "宁德时代2026-06-24公告称Galbot S1已进入智慧产线，在模组与电池包生产环节作业": [
+            "CUSTOMER_CONFIRMED_USE"
+          ]
+        },
+        "CN_UNITREE": {
+          "": [
+            "NO_DEPLOYMENT_VALUE_ESTABLISHED"
+          ]
+        },
+        "US_DILIGENT": {
+          "Moxi 已在美国 30 家以上医院部署运行": [
+            "DEPLOYED_IN_NAMED_SECTOR_COUNT_REPORTED"
+          ]
+        },
+        "US_PICKLE": {
+          "Pickle Unload Systems 自 2023 年夏季起已在多个客户的分拨中心以量产状态运行；累计卸货超过 1000 万磅（公司口径）": [
+            "PRODUCTION_RUNNING_AT_CUSTOMER_SITES",
+            "CUMULATIVE_THROUGHPUT_REPORTED"
+          ]
+        },
+        "US_BOSTON_DYNAMICS": {
+          "Atlas 已在公司波士顿总部开始生产，2026 年部署额度已全部被预订，机队将交付现代 RMAC 与 Google": [
+            "PRODUCTION_STARTED_DEPLOYMENTS_COMMITTED"
+          ],
+          "DHL称Stretch自2023年在北美投入商业使用，随后扩展至英国和欧洲": [
+            "CUSTOMER_CONFIRMED_STRETCH_USE"
+          ]
+        },
+        "CN_AGIBOT": {
+          "上半年向客户交付 8400 台（第三方统计算口径）；6 月累计出货突破 1.5 万台；主力产品部署于国内汽车制造厂与 3C 电子装配线": [
+            "MASS_DELIVERY_REPORTED",
+            "DEPLOYED_IN_MANUFACTURING_SCENES"
+          ],
+          "公司2026-03-31公告称G2已在龙旗平板产线投产并线，并用于均胜汽车零部件装配": [
+            "DEPLOYMENT_SELF_REPORTED"
+          ]
+        },
+        "CN_ASTRIBOT": {
+          "2025 年底开启千台级交付；报道提及机器人 MART 等零售标杆产品的商业落地表现": [
+            "VOLUME_DELIVERY_STARTED",
+            "RETAIL_PILOT_REPORTED"
+          ]
+        },
+        "CN_GALAXEA": {
+          "": [
+            "NO_DEPLOYMENT_VALUE_ESTABLISHED"
+          ]
+        },
+        "CN_LIMX": {
+          "各款机器人产品上线以来共获数千台订单，其中过半来自海外（公司口径）；本轮未取得实际部署现场记录": [
+            "ORDER_BOOK_REPORTED_NO_SITE_RECORD"
+          ]
+        },
+        "CN_NOETIX": {
+          "": [
+            "NO_DEPLOYMENT_VALUE_ESTABLISHED"
+          ],
+          "2026-06-30 无偿交付两台 BUMI 至北京市怀柔区琉璃庙镇中心小学；未取得后续持续运行资料": [
+            "DONATION_DELIVERY"
+          ]
+        },
+        "CN_PAXINI": {
+          "": [
+            "NO_DEPLOYMENT_VALUE_ESTABLISHED"
+          ]
+        },
+        "CN_SPIRITAI": {
+          "2025 年末宁德时代中州基地启动人形机器人规模化导入的电池 Pack 产线，Moz Robot 在该产线实际作业（报道口径）": [
+            "DEPLOYED_AT_NAMED_CUSTOMER_PRODUCTION_LINE"
+          ],
+          "2025-12-17报道千寻研发的小墨已在宁德时代中州电池PACK产线运行": [
+            "DEPLOYMENT_MEDIA_REPORTED"
+          ]
+        },
+        "US_SKILD": {
+          "首次商业部署后十个月突破 1 亿美元 ARR，扩展至 60 家以上付费客户（公司口径）": [
+            "PAYING_CUSTOMERS_REPORTED",
+            "ARR_REPORTED_COMPANY_CLAIM"
+          ]
+        },
+        "US_FIELD_AI": {
+          "官网自述在三大洲有部署；具体客户现场的部署规模与运行数据本轮未取得": [
+            "DEPLOYMENT_ACROSS_THREE_CONTINENTS_CLAIMED"
+          ],
+          "公司自述已在全球众多客户现场日常运行，并在数百个复杂工业环境测试与部署；部署量为自述，未取得客户确认": [
+            "DEPLOYMENT_SELF_REPORTED"
+          ]
+        },
+        "US_PHYSICAL_INTELLIGENCE": {
+          "": [
+            "NO_DEPLOYMENT_VALUE_ESTABLISHED"
+          ]
+        },
+        "US_DEXTERITY": {
+          "公司自述机器人在全球最大物流公司全轮班运行、做出数百万次自主决策且零安全事故；世界模型以超过 1 亿次生产自主行动经验训练": [
+            "FULL_SHIFT_OPERATION_CLAIMED",
+            "AUTONOMOUS_ACTIONS_VOLUME_REPORTED"
+          ]
+        },
+        "US_NIMBLE": {
+          "公司自述 AI 机器人已拣选、包装并处理数百万件商品，覆盖多个品类；通过全国机器人履单中心网络提供服务（未给站点数与产能）": [
+            "ITEMS_HANDLED_VOLUME_REPORTED",
+            "FULFILLMENT_NETWORK_IN_SERVICE"
+          ],
+          "新泽西机器人履单中心已启用，服务服装、鞋类、健康美容、消费电子等（公司 2024-09-26 公告）": [
+            "FULFILLMENT_NODE_IN_SERVICE"
+          ]
+        }
+      }
+    },
+    {
+      "dimension": "evidence_customer_delivery",
+      "label": "客户交付证据",
+      "multiple_allowed": true,
+      "group_labels": {},
+      "group_bindings": {
+        "CN_XSQUARE": {
+          "有：深圳市福利服务指导中心以养老护理员岗位实际使用（政府网站渠道）；58 到家联合家政服务口径近千户（公司口径）": [
+            "DELIVERY_TO_NAMED_INSTITUTION",
+            "DELIVERY_REPORTED_COMPANY_CLAIM"
+          ]
+        },
+        "US_AMAZON_FTR": {
+          "": [
+            "NO_CUSTOMER_DELIVERY_VALUE_ESTABLISHED"
+          ]
+        },
+        "CN_FOURIER": {
+          "有：PERKESO 康复中心整院康复设备交付（总价上千万元，媒体口径）；陈笃生医院康复技术部署（对方公告）": [
+            "DELIVERY_TO_NAMED_INSTITUTION",
+            "COUNTERPARTY_CONFIRMED_DEPLOYMENT"
+          ]
+        },
+        "CN_DEEPROBOTICS": {
+          "电力巡检产品覆盖国家电网、南方电网变电站与新加坡能源集团管廊项目；行业客户超 500 家": [
+            "DELIVERY_TO_NAMED_CUSTOMERS",
+            "CUSTOMER_COUNT_REPORTED"
+          ]
+        },
+        "US_AGILITY": {
+          "已与客户签订超过 3 亿美元的多年期 Digit v5 合同（以合同里程碑达成为条件）；部署已在客户现场运行": [
+            "CONTRACTED_ORDERS_WITH_MILESTONES"
+          ]
+        },
+        "US_APPTRONIK": {
+          "": [
+            "NO_CUSTOMER_DELIVERY_RETRIEVED"
+          ]
+        },
+        "US_FIGURE": {
+          "": [
+            "NO_CUSTOMER_DELIVERY_RETRIEVED"
+          ]
+        },
+        "CN_GALBOT": {
+          "": [
+            "SELF_OPERATED_NOT_CUSTOMER_DELIVERY"
+          ],
+          "宁德时代确认Galbot S1已进入其智慧产线，在模组与电池包环节承担长程自主作业": [
+            "CUSTOMER_CONFIRMED_USE"
+          ]
+        },
+        "CN_UNITREE": {
+          "": [
+            "NO_CUSTOMER_DELIVERY_RETRIEVED"
+          ]
+        },
+        "US_DILIGENT": {
+          "已在 30 家以上医院部署（报道口径，未列具名医院）": [
+            "DEPLOYMENT_COUNT_REPORTED_NO_NAMED_SITE"
+          ]
+        },
+        "US_PICKLE": {
+          "": [
+            "NO_COMPLETED_HANDOVER_RETRIEVED"
+          ]
+        },
+        "US_BOSTON_DYNAMICS": {
+          "机队计划交付至现代 RMAC 与 Google": [
+            "DELIVERY_PLAN_NAMED_RECIPIENTS"
+          ],
+          "DHL确认Stretch自2023年起投入商业使用，后扩展到英国和欧洲；未给本条已交付台数": [
+            "CUSTOMER_CONFIRMED_USE"
+          ]
+        },
+        "CN_AGIBOT": {
+          "上半年向客户交付 8400 台人形机器人（第三方统计口径）": [
+            "DELIVERY_COUNT_THIRD_PARTY_STAT"
+          ]
+        },
+        "CN_ASTRIBOT": {
+          "2025 年底开启千台级交付（报道口径，未列具名客户）": [
+            "DELIVERY_COUNT_REPORTED_NO_NAMED_SITE"
+          ]
+        },
+        "CN_GALAXEA": {
+          "": [
+            "NO_CUSTOMER_DELIVERY_RETRIEVED"
+          ]
+        },
+        "CN_LIMX": {
+          "": [
+            "NO_COMPLETED_HANDOVER_RETRIEVED"
+          ]
+        },
+        "CN_NOETIX": {
+          "": [
+            "NO_CUSTOMER_DELIVERY_RETRIEVED"
+          ],
+          "2026-06-30 无偿交付两台 BUMI 至北京市怀柔区琉璃庙镇中心小学；未取得后续持续运行资料": [
+            "DONATION_DELIVERY"
+          ]
+        },
+        "CN_PAXINI": {
+          "": [
+            "NO_CUSTOMER_DELIVERY_RETRIEVED"
+          ]
+        },
+        "CN_SPIRITAI": {
+          "人形机器人已导入宁德时代产线从事实际作业（报道口径，未给交付台数）": [
+            "DEPLOYED_INTO_CUSTOMER_LINE_NO_UNIT_COUNT"
+          ]
+        },
+        "US_SKILD": {
+          "已向 60 家以上付费客户交付（场景含搬运、配送、巡检、安保、食品制备等，公司口径）": [
+            "PAYING_CUSTOMER_COUNT_REPORTED"
+          ]
+        },
+        "US_FIELD_AI": {
+          "官网列有 Caterpillar、Big-D Construction 等客户案例条目（公司自述，未给交付数量）": [
+            "CUSTOMER_CASES_ON_OWN_SITE"
+          ]
+        },
+        "US_PHYSICAL_INTELLIGENCE": {
+          "": [
+            "NO_CUSTOMER_DELIVERY_RETRIEVED"
+          ]
+        },
+        "US_DEXTERITY": {
+          "已在物流客户现场部署并全轮班运行（公司口径，未具名、未给交付数量）": [
+            "DEPLOYED_AT_UNNAMED_LARGE_LOGISTICS_COMPANY"
+          ]
+        },
+        "US_NIMBLE": {
+          "已为财富 500 强企业与高成长品牌处理数百万件商品（公司口径，未具名除 FedEx 外的客户）": [
+            "CUSTOMER_TYPES_REPORTED_NO_NAMES"
+          ]
+        }
+      }
+    },
+    {
+      "dimension": "evidence_paid",
+      "label": "付费证据",
+      "multiple_allowed": true,
+      "group_labels": {},
+      "group_bindings": {
+        "CN_XSQUARE": {
+          "": [
+            "NOT_YET_SEARCHED"
+          ]
+        },
+        "US_AMAZON_FTR": {
+          "": [
+            "NOT_APPLICABLE_INTERNAL_TEAM"
+          ]
+        },
+        "CN_FOURIER": {
+          "PERKESO 项目总价上千万元（媒体口径，未取得合同或付款凭证）；NHG 合作未披露交易金额": [
+            "ORDER_AMOUNT_MEDIA_ONLY"
+          ]
+        },
+        "CN_DEEPROBOTICS": {
+          "2025 年营收 3.37 亿元、净利润 2868.4 万元（招股材料口径）": [
+            "REVENUE_DISCLOSED",
+            "PROFITABLE"
+          ]
+        },
+        "US_AGILITY": {
+          "RaaS 合同与商用部署意味着付费客户存在；具体收入金额本轮未取得": [
+            "PAID_CUSTOMERS_EXIST_AMOUNT_UNKNOWN"
+          ],
+          "GXO 2024-06-27公告引用Agility CEO称 Digit 已为公司产生收入；金额未知": [
+            "REVENUE_SELF_REPORT"
+          ]
+        },
+        "US_APPTRONIK": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "US_FIGURE": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "CN_GALBOT": {
+          "门店机器人自主完成接单与支付全流程（媒体报道的运营方式）": [
+            "TRANSACTION_FLOW_REPORTED_NO_REVENUE_DISCLOSED"
+          ]
+        },
+        "CN_UNITREE": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "US_DILIGENT": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "US_PICKLE": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "US_BOSTON_DYNAMICS": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "CN_AGIBOT": {
+          "2026 年第一季度营业收入 10 亿元人民币（报道转述公司业绩，追平 2025 年全年）": [
+            "REVENUE_REPORTED_VIA_MEDIA"
+          ]
+        },
+        "CN_ASTRIBOT": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "CN_GALAXEA": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "CN_LIMX": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "CN_NOETIX": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "CN_PAXINI": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "CN_SPIRITAI": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "US_SKILD": {
+          "首次商业部署后十个月达 1 亿美元 ARR，60 家以上为付费客户（公司口径）": [
+            "ARR_REPORTED_COMPANY_CLAIM"
+          ]
+        },
+        "US_FIELD_AI": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "US_PHYSICAL_INTELLIGENCE": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "US_DEXTERITY": {
+          "": [
+            "NO_PAYMENT_EVIDENCE_RETRIEVED"
+          ]
+        },
+        "US_NIMBLE": {
+          "以机器人 3PL 服务收费（官网称「行业低单位成本」；未给收入或定价结构）": [
+            "SERVICE_FEE_MODEL_NO_AMOUNT"
+          ]
+        }
+      }
+    },
+    {
+      "dimension": "own_listing_status",
+      "label": "上市状态",
+      "multiple_allowed": false,
+      "group_labels": {},
+      "group_bindings": {
+        "CN_XSQUARE": {
+          "": [
+            "UNKNOWN_NOT_COMPARABLE:SEARCHED_NOT_FOUND"
+          ]
+        },
+        "US_AMAZON_FTR": {
+          "不适用（非独立法人；研究主体为母公司内团队）": [
+            "NOT_APPLICABLE_TEAM"
+          ]
+        },
+        "CN_FOURIER": {
+          "未上市；有记录称已完成股份制改造并列入已启动上市进程名单，尚未递表": [
+            "NOT_LISTED_LISTING_PROCESS_REPORTED"
+          ]
+        },
+        "CN_DEEPROBOTICS": {
+          "科创板 IPO 申请已于 2026-05-18 获上交所受理，拟募资 25.03 亿元；截至观察日仍未完成发行上市": [
+            "IPO_ACCEPTED_NOT_YET_LISTED"
+          ]
+        },
+        "US_AGILITY": {
+          "未上市；已于 2026-06-24 与 Churchill Capital Corp XI 签署最终合并协议，拟以约 25 亿美元投前估值经 SPAC 在纳斯达克上市（代码 AGLT），尚需股东表决与监管审查，交易预计 2026 年内完成": [
+            "NOT_LISTED_SPAC_AGREEMENT_SIGNED"
+          ]
+        },
+        "US_APPTRONIK": {
+          "未上市；截至观察日未取得公开上市或申报上市的直接披露": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "US_FIGURE": {
+          "未上市；截至观察日未取得公开上市或申报上市的直接披露": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "CN_GALBOT": {
+          "未上市；报道中创始人称公司在具身智能行业持续融资，未披露上市安排": [
+            "NOT_LISTED_FUNDING_ONGOING_REPORTED"
+          ]
+        },
+        "CN_UNITREE": {
+          "已于 2026-08-19 正式登陆科创板（688836.SH），发行价 150.80 元/股，为 A 股「人形机器人第一股」": [
+            "LISTED"
+          ]
+        },
+        "US_DILIGENT": {
+          "不适用（非独立上市主体；被 Serve Robotics 收购后为其子公司）": [
+            "NOT_APPLICABLE_SUBSIDIARY"
+          ]
+        },
+        "US_PICKLE": {
+          "未上市；截至观察日未取得公开上市或申报上市的直接披露": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "US_BOSTON_DYNAMICS": {
+          "": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "CN_AGIBOT": {
+          "未上市；已于 2026-07-24 启动香港 IPO 程序，目标估值 400 亿至 500 亿港元（约 51 亿至 64 亿美元），联席保荐人为中信证券、中金公司、摩根士丹利": [
+            "NOT_LISTED_IPO_PROCESS_STARTED"
+          ]
+        },
+        "CN_ASTRIBOT": {
+          "": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "CN_GALAXEA": {
+          "": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "CN_LIMX": {
+          "未上市；已完成股改（2026-03）并据媒体报道于 2026 年初稍早开启 IPO 进程，Pre-IPO 轮融资近 2 亿美元已完成": [
+            "NOT_LISTED_IPO_PROCESS_STARTED"
+          ]
+        },
+        "CN_NOETIX": {
+          "": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "CN_PAXINI": {
+          "未上市；已完成股份制改革（报道口径，时间在报道前一个月内）": [
+            "NOT_LISTED_SHARE_REFORM_COMPLETED"
+          ]
+        },
+        "CN_SPIRITAI": {
+          "": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "US_SKILD": {
+          "": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "US_FIELD_AI": {
+          "": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "US_PHYSICAL_INTELLIGENCE": {
+          "": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "US_DEXTERITY": {
+          "": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        },
+        "US_NIMBLE": {
+          "": [
+            "NOT_LISTED_NO_FILING_RETRIEVED"
+          ]
+        }
+      }
+    },
+    {
+      "dimension": "parent_relationship",
+      "label": "母公司与主体范围",
+      "multiple_allowed": false,
+      "group_labels": {},
+      "group_bindings": {
+        "CN_XSQUARE": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "US_AMAZON_FTR": {
+          "母公司 Amazon；FAR 岗位在官方职位详情中挂在 Amazon Robotics 组织标签下，行政归属与团队边界并存": [
+            "PARENT_COMPANY_AMAZON"
+          ]
+        },
+        "CN_FOURIER": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "CN_DEEPROBOTICS": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "US_AGILITY": {
+          "无母公司披露；股东包含 Nvidia、Amazon、SoftBank Vision Fund 2、Foxconn、Schaeffler、DCVC 等机构与产业方": [
+            "NO_PARENT_DISCLOSED_INVESTORS_LISTED"
+          ]
+        },
+        "US_APPTRONIK": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "US_FIGURE": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "CN_GALBOT": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "CN_UNITREE": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "US_DILIGENT": {
+          "2026-01-27 完成被 Serve Robotics 收购交割（SEC 8-K）；协议对价为总值 2900 万美元普通股，该金额包括最高 530 万美元或有对价，不得与 530 万相加。宣布日 2026-01-20 见媒体。Diligent 由 Andrea Thomaz 继续领导。": [
+            "ACQUIRED_BY_SERVE_ROBOTICS"
+          ]
+        },
+        "US_PICKLE": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "US_BOSTON_DYNAMICS": {
+          "现代汽车集团（Hyundai Motor Group）为控股方；Atlas 首批机队交付至现代 Robotics Metaplant Application Centre（RMAC）": [
+            "PARENT_HYUNDAI_MOTOR_GROUP"
+          ]
+        },
+        "CN_AGIBOT": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "CN_ASTRIBOT": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "CN_GALAXEA": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "CN_LIMX": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "CN_NOETIX": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "CN_PAXINI": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "CN_SPIRITAI": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "US_SKILD": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "US_FIELD_AI": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "US_PHYSICAL_INTELLIGENCE": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "US_DEXTERITY": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        },
+        "US_NIMBLE": {
+          "": [
+            "NO_PARENT_DISCLOSED_UNKNOWN"
+          ]
+        }
+      }
+    }
+  ],
+  "definite_negative_policy": {
+    "note": "A dimension may only enter a definite negative group when a source states the proposition is false, or when the proposition is not applicable to the subject. SEARCHED_NOT_FOUND / NOT_YET_SEARCHED / ACCESS_BLOCKED / UNKNOWN / CONFLICT / INHERITED_UNVERIFIED may never be converted into a definite negative label.",
+    "allowed_definite_negative_sources": [
+      "EXPLICITLY_NEGATED",
+      "NOT_APPLICABLE"
+    ],
+    "unknown_label": "UNKNOWN_NOT_COMPARABLE"
+  },
+  "comparison_policy": {
+    "strict_requires_value_status": [
+      "SUPPORTED_EXTERNAL",
+      "COMPANY_SELF_REPORT",
+      "MEDIA_STATEMENT",
+      "COUNTERPARTY_CONFIRMATION",
+      "CONFLICT_RESOLVED_BY_SEPARATION"
+    ],
+    "strict_requires_time_applicability": [
+      "USABLE_AT_OBSERVATION",
+      "NOT_TIME_SENSITIVE"
+    ],
+    "strict_excludes_time_applicability": {
+      "RETROSPECTIVE_LATE_PUBLISH": "event at or before the observation date but published later; background only",
+      "POST_OBSERVATION_EVENT": "the event itself is after the observation date",
+      "DATE_IMPRECISE_SPANS_OBS": "imprecise date straddles the observation date",
+      "DATE_UNKNOWN": "no qualifying date"
+    },
+    "buckets": {
+      "STRICT_COMPARABLE": "value established AND time qualification usable at the observation date",
+      "BACKGROUND_DISPLAY_ONLY": "value established but the time qualification is not usable (late publication, post-observation, imprecise, unknown)",
+      "EXCLUDED_UNKNOWN": "no established value, or the subject is not applicable / access blocked / searched not found",
+      "NOT_RESEARCHED": "the company was not researched in this run"
+    }
+  },
+  "binding_note": "每个取值到组标签的对应关系在此逐条声明；程序不做关键词归类。未声明的取值标为 UNCLASSIFIED_VALUE 并退出比较。空字符串键表示该事实没有确立值（例如查后未找到）；此时只会生成 UNKNOWN_NOT_COMPARABLE 行，不会生成确定否定组。"
+}

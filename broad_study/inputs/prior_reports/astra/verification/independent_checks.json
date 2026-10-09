@@ -1,0 +1,121 @@
+{
+  "method": "独立SQL与原始JSON实现；同一Astra研究者的计算核对，不冒称独立同行审稿",
+  "checks": [
+    {
+      "check": "accepted_snapshot_hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "unique_ads_1654",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "activity_admission_1623",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "whole_23_and_source_subset_17",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "owned_activity_anchors",
+      "pass": true,
+      "detail": {
+        "ACT_BUSINESS": 476,
+        "ACT_DATA_OPERATIONS": 61,
+        "ACT_DEPLOYMENT": 351,
+        "ACT_ENGINEERING": 957,
+        "ACT_MANUFACTURING": 183,
+        "ACT_QUALITY": 466,
+        "ACT_RESEARCH": 75,
+        "ACT_ROBOT_OPERATION": 38
+      }
+    },
+    {
+      "check": "528_bidirectional_cells_sql",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "4224_company_role_activity_cells_sql",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "66_Q1_coverage_counts_sql",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "RESEARCH_ENGINEERING_joint_sql",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ENGINEERING_QUALITY_joint_sql",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "ENGINEERING_DEPLOYMENT_joint_sql",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "4869_joint_states_and_positive_quote_offsets",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "38640_inherited_Q2_company_cells_ad_identity_recount",
+      "pass": true,
+      "detail": "原始快照核对基础分母；P/U独立去重继承语义追溯，不声称重判语义"
+    },
+    {
+      "check": "17_concrete_roles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "253_pair_qualification_17_eligible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "408_standardized_rates_sql",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "18_case_object_quote_locations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "responsibility_dates_before_observation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "T5_24_companies_and_21_product_scope_assertions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "group_threshold_reapplied_after_each_company_deletion",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "joint_five_states_partition_and_P_Z_U_identity",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "passed": 21,
+  "failed": 0
+}

@@ -1,0 +1,20 @@
+{
+  "version":"O-v2.0-20260916",
+  "frozen_after_pilot":16,
+  "pilot_seed":20260916,
+  "researcher":"Astra",
+  "exposure":"18 earlier selected examples and 15 R disputed ads were previously seen; calibration is not blind",
+  "objects":{
+    "MODEL":"模型、策略及专用模型推理运行时；区分于机器人应用控制面",
+    "TRAINING_INFRA":"专用于模型训练/实验/推理平台的计算基础设施；通用云设施入OTHER",
+    "DATA":"数据集、数据管线及数据治理；仅模型使用数据不自动视为数据资产工作",
+    "ROBOT_RUNTIME":"机器人应用、运动接口、状态、交互、机器人操作软件及多机协调",
+    "TOOLCHAIN":"开发、评测、测试、标定、可视化等工程工具；只具备工具技能不等于开发该对象",
+    "FIELD_SYSTEM":"实际机器人/工厂/仓库系统部署、联调、现场验证或运行问题；客户归属须另证，不把真机等同客户现场",
+    "FULFILMENT_IT":"履单运营业务软件及WMS/TMS/OMS等企业接入",
+    "OTHER":"其他明确对象；自由文本保存具体对象，如通用云基础设施、PLM文控或后端服务"
+  },
+  "responsibility":["OWNED","PARTICIPATES"],
+  "product_states":["EXPLICIT","DIRECT_LINK","UNKNOWN"],
+  "rules":["对象可多值，分母为完整同公司同职能框；明确参与的对象保留但单列责任", "泛指人形机器人或仓库不据品牌归属G2、S1或Mech；公司简介产品名不等于该岗负责该产品", "产品可记录明确业务单元，例如灵心、Cloud Logistics，不强制整机型号", "技能用途只收明确同句/完整关系连接；任职能力应用关系单列，不当作工作中实际使用", "资历保存原始句和替代条件；未写年限为未知，职称不推成统一资历等级", "N0860原主职能为软件与平台，但文本对象为PLM和文控，保留主类并作为职能内异质性；本轮不重开主分类", "所有无命中对象经阅读全文后记未记录，不能解释公司无此能力"]
+}

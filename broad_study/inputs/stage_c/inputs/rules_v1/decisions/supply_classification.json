@@ -1,0 +1,329 @@
+{
+  "version": "1.0",
+  "groups": {
+    "SYSTEM_PRODUCTS": {
+      "name": "整机与机器人系统产品",
+      "definition": "在观察日前已有具名自主机器人整机/系统产品，或针对该系统的发布、提供或外部使用证据。允许自研模型并行，不推断收入主业、已付费或自主制造所有部件。",
+      "use": "PRIMARY_DESCRIPTIVE"
+    },
+    "CROSS_BODY_MODELS": {
+      "name": "跨本体模型与软件",
+      "definition": "公开供给对象明确为可用于多种机器人本体的模型/软件能力；本包足以支持该供给形态，但不足以支持本公司的自有整机产品入SYSTEM_PRODUCTS。不得简称纯软件或已商业许可。",
+      "use": "PRIMARY_DESCRIPTIVE"
+    },
+    "COMPONENT_SYSTEM_PORTFOLIO": {
+      "name": "触觉部件与机器人产品组合",
+      "definition": "可核实的触觉芯片/传感器量产供给和机器人产品并行；保留部件供给边界，不依据未披露收入给出主业占比。",
+      "use": "CASE_ONLY"
+    },
+    "ROBOT_OPERATED_SERVICE": {
+      "name": "自营机器人履单服务",
+      "definition": "公开交付对象为依托自营机器人履单网络提供的3PL服务，不由部署机器人推断其对外出售机器人。",
+      "use": "CASE_ONLY"
+    },
+    "TEAM_SEPARATE": {
+      "name": "大公司内部研究团队（范围单列）",
+      "definition": "招聘主体为具名内部团队；该项是主体范围隔离，不作为与整公司并列的商业类别。",
+      "use": "SCOPE_SEPARATE"
+    }
+  },
+  "precedence": [
+    "TEAM_SCOPE_SEPARATE",
+    "EXPLICIT_ROBOT_OPERATED_3PL",
+    "EXPLICIT_COMPONENT_AND_SYSTEM_PORTFOLIO",
+    "NAMED_OWN_ROBOT_SYSTEM",
+    "EXPLICIT_CROSS_BODY_MODEL"
+  ],
+  "rationale": "当前24家上的公开供给形态归类；顺序处理已识别混合边界，不推断收入主业或不存在其他业务。新增公司/证据须复核规则而非强行落入旧类。",
+  "companies": [
+    {
+      "company_id": "CN_AGIBOT",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_CN_AGIBOT__product_lines",
+        "F_CN_AGIBOT__delivery_form__2"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "A3/X2产品发布及G2产线提供支持整机系统形态；四足、手和清洁等业务并行。",
+      "caveat": "不能把全公司83条广告归给G2或工业产线。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_ASTRIBOT",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_CN_ASTRIBOT__product_lines",
+        "F_CN_ASTRIBOT__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "S/T本体与Lumo/DuoCore/OS一体；模型能力不使其退出机器人系统组。",
+      "caveat": "入组主要依赖有日期媒体，媒体排除敏感性中退出。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_DEEPROBOTICS",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_CN_DEEPROBOTICS__product_lines",
+        "F_CN_DEEPROBOTICS__delivery_form__2"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "四足本体及X30/SPock改装系统支持机器人产品形态。",
+      "caveat": "客户SPock公告未直接点名X30，厂家/型号归属仍是供应方自述。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_FOURIER",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_CN_FOURIER__product_lines_rehab",
+        "F_CN_FOURIER__product_lines_humanoid",
+        "F_CN_FOURIER__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "康复设备和GR系列都是实体机器人产品；按整家公司组合保留。",
+      "caveat": "康复/人形多产品；不能将康复交付外推为GR系列付费交付。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_GALAXEA",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_CN_GALAXEA__product_lines",
+        "F_CN_GALAXEA__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "有日期资料同时明确本体、开发平台、数据与模型，采用系统产品归属并保留模型并行说明。",
+      "caveat": "R1无日期页面不用于观察时点场景入组；不把模型研发等同跨本体软件商业许可。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_GALBOT",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_CN_GALBOT__delivery_form",
+        "F_CN_GALBOT__product_lines",
+        "F_CN_GALBOT__deployment_status_actual__2"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "机器人系统与模型一体，零售门店和客户产线分别有依据。",
+      "caveat": "零售自营与工业客户作业是两种模式，不从任一模式推断全公司收入重心。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_LIMX",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_CN_LIMX__product_lines",
+        "F_CN_LIMX__delivery_form__2"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "机器人本体及已发售的TRON1平台足以确认系统产品；OS/FluxVLA为并行能力。",
+      "caveat": "预订、订单量与履约交付分开。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_NOETIX",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_CN_NOETIX__product_lines",
+        "F_CN_NOETIX__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "投资方披露机器人产品及制造销售形态，BUMI学校交付另有证据。",
+      "caveat": "学校交付为捐赠，既不计收入也不推断主要市场份额。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_PAXINI",
+      "stratum": "COMPONENT_SYSTEM_PORTFOLIO",
+      "basis_fact_ids": [
+        "F_CN_PAXINI__product_lines",
+        "F_CN_PAXINI__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "触觉芯片/传感器量产供应与手、机器人同时明确，单列产品组合以免将125条广告都解释为整机业务。",
+      "caveat": "没有可核实收入占比；不能称纯部件公司，也不以标题中的客户名称建立终端行业组。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_SPIRITAI",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_CN_SPIRITAI__product_lines",
+        "F_CN_SPIRITAI__delivery_form__2"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "Moz系列及小墨产线作业支持实体系统；Spirit模型作为并行供给记录。",
+      "caveat": "首发月份冲突不影响已有产品存在，但冲突条目不作日期支持；家庭是长期目标。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_UNITREE",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_CN_UNITREE__product_lines",
+        "F_CN_UNITREE__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "四足及人形整机产品与销售形态有有日期资料。",
+      "caveat": "G1科研使用是观察到的应用，不证明科研是收入主业；工业官网页无日期。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_XSQUARE",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_CN_XSQUARE__product_lines",
+        "F_CN_XSQUARE__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "0755养老机器人和自研本体/部件/数采系统支持实体系统，模型开源并行。",
+      "caveat": "广告覆盖整家公司；具名养老部署与物流未具名运行分开。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_AGILITY",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_US_AGILITY__product_lines",
+        "F_US_AGILITY__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "Digit与Arc组合通过RaaS提供给客户；仍属于机器人系统产品。",
+      "caveat": "RaaS合同与客户现场不代表已披露机器人数量或合同金额。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_AMAZON_FTR",
+      "stratum": "TEAM_SEPARATE",
+      "basis_fact_ids": [
+        "F_US_AMAZON_FTR__product_lines"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "以输入公司主表的内部团队边界单列；TWIST2为研究系统，Unitree G1不是FAR自产本体。",
+      "caveat": "参加Q1/Q2/Q3团队点值，退出整公司业务组均值及国家组均值。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_APPTRONIK",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_US_APPTRONIK__product_lines",
+        "F_US_APPTRONIK__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "Apollo及配套部署工具支持机器人系统产品。",
+      "caveat": "当前定位制造/仓储物流；后续零售、医疗及家庭计划不作当前场景。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_BOSTON_DYNAMICS",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_US_BOSTON_DYNAMICS__product_lines",
+        "F_US_BOSTON_DYNAMICS__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "Atlas/Spot/Stretch与软件平台为多产品系统组合。",
+      "caveat": "Stretch既有使用与Atlas产品发布分开；整公司招聘不分配到某一产品。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_DEXTERITY",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_US_DEXTERITY__product_lines",
+        "F_US_DEXTERITY__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "Mech移动双臂及卡车装载软件应用属于具名机器人系统产品。",
+      "caveat": "无日期全轮班运营规模不进入当前实际部署证据组。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_DILIGENT",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_US_DILIGENT__product_lines",
+        "F_US_DILIGENT__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "Moxi院内服务机器人为主体产品，被收购后仍保留该公司招聘主体。",
+      "caveat": "收购前后及渠道边界保留；收购方整体业务不合并进来。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_FIELD_AI",
+      "stratum": "CROSS_BODY_MODELS",
+      "basis_fact_ids": [
+        "F_US_FIELD_AI__product_lines",
+        "F_US_FIELD_AI__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "FFM是可驱动多种形态的风险感知模型/软件大脑；软件在工作流部署的表述有日期。",
+      "caveat": "客户运行规模为自述，不据此确认客户付款或销售合同。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_FIGURE",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_US_FIGURE__product_lines",
+        "F_US_FIGURE__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "Figure03整机与Helix一体供给；具名本体使其归入系统产品组。",
+      "caveat": "Figure02在BMW运行与Figure03到厂/后续安排分开。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_NIMBLE",
+      "stratum": "ROBOT_OPERATED_SERVICE",
+      "basis_fact_ids": [
+        "F_US_NIMBLE__product_lines",
+        "F_US_NIMBLE__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "自有机器人履单中心与robotic 3PL是已披露供给形态，单列服务运营。",
+      "caveat": "不用机器人中心推断对外售卖机器人，也不将中心启用视为所有节点成熟运行。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "stratum": "CROSS_BODY_MODELS",
+      "basis_fact_ids": [
+        "F_US_PHYSICAL_INTELLIGENCE__product_lines",
+        "F_US_PHYSICAL_INTELLIGENCE__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "π0明确跨多种本体控制，公开发布的是模型与研究演示。",
+      "caveat": "是独立公司，非FAR式内部团队；未披露商业合同，家务演示不是家庭市场交付。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_PICKLE",
+      "stratum": "SYSTEM_PRODUCTS",
+      "basis_fact_ids": [
+        "F_US_PICKLE__product_lines",
+        "F_US_PICKLE__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "Unload System是明确的机器人卸货系统及部署供给。",
+      "caveat": "具体吞吐与已运行规模按公司自述保留。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_SKILD",
+      "stratum": "CROSS_BODY_MODELS",
+      "basis_fact_ids": [
+        "F_US_SKILD__product_lines",
+        "F_US_SKILD__delivery_form"
+      ],
+      "scope_basis": "inputs/stage_b/company_profile.csv",
+      "decision_reason": "Skild Brain/S1公开供给为跨本体基础模型，已有日期明确发布。",
+      "caveat": "无日期ARR/客户数不作当前商业化分组依据；跨本体不等于具体行业。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    }
+  ]
+}

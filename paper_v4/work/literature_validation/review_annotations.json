@@ -1,0 +1,310 @@
+{
+  "N0798|SK_PYTORCH": {
+    "cue_family": "BARE_PARENTHETICAL_LIST",
+    "governing_expression": "machine learning frameworks (PyTorch, JAX, TensorFlow)",
+    "qualification_scope_review": "What You Have段，The Extras之前；完整保存正文仅这一共同框架表达。",
+    "counterexample_or_ambiguity": "没有明确例示/选择cue。早先PyTorch P、同类TF树EXAMPLE产生不一致；当前协调者修复为UNCONDITIONAL_OR_EXAMPLE候选集合，窄Q为U，但Q+E/Q+C+E在两种读法下都P。",
+    "review_conclusion": "当前是Q U→扩展P的集合传播，不是已确认EXAMPLE Z→P；不推断实际筛选，也不称新增人审。"
+  },
+  "N0508|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟悉PyTorch/TensorFlow等深度学习框架",
+    "qualification_scope_review": "岗位要求第3项；已逐字读全保存正文，前一至少一种仅明确支配编程语言子句。",
+    "counterexample_or_ambiguity": "与N0486全部full_description及text_version_hash相同；旧v3 Q=U未继承A099，v4 V4_001一致性澄清改为Q=Z并进入扩展。slash内部解释与等开放列表仍不等于真实筛选规则。",
+    "review_conclusion": "支持按已冻结等-as-example规则与N0486保持一致；origin必须标v4_consistency_clarification，不称新人工金标准。"
+  },
+  "E0057|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟悉PyTorch/TensorFlow等深度学习框架",
+    "qualification_scope_review": "任职要求第2项；前一分号子句对机器人工程栈写优先，PyTorch子句未重复优先。",
+    "counterexample_or_ambiguity": "等为开放列举；slash内部关系仍不唯一；前一优先措辞的作用域需保留为人工复核点。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "E0157|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "精通PyTorch等深度学习框架",
+    "qualification_scope_review": "【任职要求】，在【加分项】之前。",
+    "counterexample_or_ambiguity": "精通为强能力措辞；等不等于目标经验无关或任选一个即可。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "E0167|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟悉 PyTorch 等主流深度学习框架",
+    "qualification_scope_review": "任职要求第3项，在加分项之前。",
+    "counterexample_or_ambiguity": "单一命名框架后接等；不能判定雇主接受任意替代框架。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "E0169|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "精通PyTorch等主流深度学习框架",
+    "qualification_scope_review": "任职要求第2项，在加分项之前。",
+    "counterexample_or_ambiguity": "与E0217/E0284共用目标资格句；局部模板相关性保留。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "E0208|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "PyTorch、JAX 等适用于机器人与机器学习系统的开发框架",
+    "qualification_scope_review": "任职要求第4项；框架组与仿真环境组由以及相连。",
+    "counterexample_or_ambiguity": "等没有指定两框架是joint requirement还是类别示例；沿用已有EXAMPLE构念。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "E0209|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "PyTorch、JAX 等适用于机器人与机器学习系统的开发框架",
+    "qualification_scope_review": "职位要求第4项，在加分项之前。",
+    "counterexample_or_ambiguity": "与E0208目标资格句相同（空白差异）；不能当作独立语言现象。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "E0217|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "精通PyTorch等主流深度学习框架",
+    "qualification_scope_review": "任职要求第2项，在加分项之前。",
+    "counterexample_or_ambiguity": "与E0169/E0284复用局部资格句。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "E0230|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "主流深度学习与强化学习框架（PyTorch、TensorFlow、JAX等）",
+    "qualification_scope_review": "职位要求第2项，在优先项之前。",
+    "counterexample_or_ambiguity": "括号及等指向开放框架列举；熟练掌握不是目标可有可无。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "E0284|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "精通PyTorch等主流深度学习框架",
+    "qualification_scope_review": "任职要求第2项，在加分项之前。",
+    "counterexample_or_ambiguity": "与E0169/E0217复用局部资格句。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0001|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟悉TensorFlow、PyTorch等深度学习框架",
+    "qualification_scope_review": "职位要求第2项；下一项中的优先没有覆盖本句。",
+    "counterexample_or_ambiguity": "与N0102的资格句相同，岗位/全文不同。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0071|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟悉 PyTorch 等主流深度学习框架",
+    "qualification_scope_review": "职位要求第5项，在加分项之前。",
+    "counterexample_or_ambiguity": "前一独立第4项有优先；本句未将框架能力标为优先。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0097|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟练掌握PyTorch等主流框架",
+    "qualification_scope_review": "职位要求第3项首个分号前子句。",
+    "counterexample_or_ambiguity": "同一父句还有其它框架/工具，不应把之后HuggingFace等工具误当PyTorch第二个直接表达。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0102|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟悉TensorFlow、PyTorch等深度学习框架",
+    "qualification_scope_review": "职位要求第2项。",
+    "counterexample_or_ambiguity": "与N0001的目标资格句相同。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0158|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "有使用PyTorch/TensorFlow、Isaac Gym/Mujoco等工具进行机器人控制相关算法开发的经验",
+    "qualification_scope_review": "任职要求下核心技术能力，精通强化学习条目。",
+    "counterexample_or_ambiguity": "等附着包含框架与模拟器的混合工具列表；不确定slash与列表内部的联合/选择不自动消失。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0198|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟练掌握PyTorch等主流深度学习框架",
+    "qualification_scope_review": "任职要求第3项，在加分项之前。",
+    "counterexample_or_ambiguity": "单一框架后接等；当前规则把其归入EXAMPLE，不证明实际替代性。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0440|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟悉PyTorch、JAX、TensorFlow等深度学习框架",
+    "qualification_scope_review": "任职要求第2项；Python直接编程语言句与框架列表同条。",
+    "counterexample_or_ambiguity": "第3—6项多个优先不回溯覆盖第2项。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0460|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟悉 PyTorch 等主流深度学习框架",
+    "qualification_scope_review": "任职要求独立条目；前一Python条目中C++有优先。",
+    "counterexample_or_ambiguity": "与N0469全文相同；不能把C++的优先覆盖到下一PyTorch条目。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0469|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟悉 PyTorch 等主流深度学习框架",
+    "qualification_scope_review": "任职要求独立条目；前一Python条目中C++有优先。",
+    "counterexample_or_ambiguity": "与N0460全文相同，是两个广告身份，非独立措辞。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0486|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟悉PyTorch/TensorFlow等深度学习框架",
+    "qualification_scope_review": "岗位要求第3项；至少一种仅明示于前一Python/C++语言子句。",
+    "counterexample_or_ambiguity": "沿用A099澄清；slash内部关系与等的类别解释仍应分开。N0508相同全文仍U是历史一致性问题。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0490|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟练使用PyTorch、TensorFlow等",
+    "qualification_scope_review": "【任职要求】下编程与工程第1项，随后另列优先项。",
+    "counterexample_or_ambiguity": "保存全文末端停在“等技”，原始捕获可能截尾；本句完整，无法断言原网页未另有PyTorch表达。列表后没有明确类名。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0492|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟练使用PyTorch、TensorFlow、TensorRT等模型训练和推理框架",
+    "qualification_scope_review": "【任职要求】下编程与工程第1项。",
+    "counterexample_or_ambiguity": "框架与推理工具同组且用等；非同类别可互换技术的证据。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0621|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "熟练掌握PyTorch、TensorFlow等深度学习框架",
+    "qualification_scope_review": "任职资格三、专业技术能力下工程实践第1项。",
+    "counterexample_or_ambiguity": "二、学术研究能力的至少满足一项不应跨标题覆盖第三部分；本句自身无任选表达。",
+    "review_conclusion": "支持其位于候选资格语境及存在等类列举线索；保留既有EXAMPLE构念，不推断命名目标必需、可替代或实际筛选权重。"
+  },
+  "N0199|SK_PYTHON": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "Python, C/C++等编程语言",
+    "qualification_scope_review": "任职要求，在加分项之前；与PyTorch同一父句但不同语言/框架分组。",
+    "counterexample_or_ambiguity": "唯一Python新增P；等类开放列举不等于明确至少一种。C/C++内部slash不决定Python与其关系。",
+    "review_conclusion": "支持资格语境和等类列举；沿用EXAMPLE扩展，不能称原Q遗漏了已验证必需Python。"
+  },
+  "N0199|SK_PYTORCH": {
+    "cue_family": "DENG_ONLY_OPEN_LIST",
+    "governing_expression": "PyTorch等主流深度学习框架的底层实现",
+    "qualification_scope_review": "任职要求，在加分项之前；与Python同一父句但框架组独立。",
+    "counterexample_or_ambiguity": "要求熟悉底层实现，不能把EXAMPLE解读为只是无关背景词；单一框架后接等。",
+    "review_conclusion": "支持资格语境和等类列举；沿用EXAMPLE扩展，不判定真实筛选。"
+  },
+  "E0139|SK_PYTORCH": {
+    "cue_family": "EXPLICIT_CHINESE_RU",
+    "governing_expression": "如PyTorch、TensorFlow",
+    "qualification_scope_review": "职位要求第4项；目标明确受如支配。",
+    "counterexample_or_ambiguity": "如表明例示，仍不确定实际可接受替代集或筛选强度。",
+    "review_conclusion": "明确中文如例示，支持本次example-inclusive定义中的阳性。"
+  },
+  "E0251|SK_PYTORCH": {
+    "cue_family": "EXPLICIT_CHINESE_RU",
+    "governing_expression": "如PyTorch、TensorFlow",
+    "qualification_scope_review": "任职要求第4项；目标明确受如支配。",
+    "counterexample_or_ambiguity": "如表明例示，仍不确定实际可接受替代集或筛选强度。",
+    "review_conclusion": "明确中文如例示，支持本次example-inclusive定义中的阳性。"
+  },
+  "E0266|SK_PYTORCH": {
+    "cue_family": "EXPLICIT_CHINESE_RU",
+    "governing_expression": "如PyTorch、TensorFlow、JAX",
+    "qualification_scope_review": "任职要求第2项；目标明确受如支配。",
+    "counterexample_or_ambiguity": "如表明例示，仍不确定实际可接受替代集或筛选强度。",
+    "review_conclusion": "明确中文如例示，支持本次example-inclusive定义中的阳性。"
+  },
+  "E0293|SK_PYTORCH": {
+    "cue_family": "EXPLICIT_CHINESE_RU",
+    "governing_expression": "如PyTorch、JAX",
+    "qualification_scope_review": "职位要求第2项编程能力；目标明确受如支配。",
+    "counterexample_or_ambiguity": "如表明例示，仍不确定实际可接受替代集或筛选强度。",
+    "review_conclusion": "明确中文如例示，支持本次example-inclusive定义中的阳性。"
+  },
+  "N0509|SK_PYTORCH": {
+    "cue_family": "EXPLICIT_CHINESE_RU",
+    "governing_expression": "如Pytorch, TensorFlow",
+    "qualification_scope_review": "任职要求第2项框架经验子句；目标明确受如支配。",
+    "counterexample_or_ambiguity": "Python/C++编程语言在另一子句；不可把该slash关系并入框架示例。",
+    "review_conclusion": "明确中文如例示，支持本次example-inclusive定义中的阳性。"
+  },
+  "E0326|SK_PYTORCH": {
+    "cue_family": "EN_SUCH_AS",
+    "governing_expression": "such as PyTorch",
+    "qualification_scope_review": "About You，Bonus Qualifications之前；已读完整保存全文。",
+    "counterexample_or_ambiguity": "具体验证的是例示operator与资格语境，不验证实际筛选或替代关系。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "E0384|SK_PYTORCH": {
+    "cue_family": "EN_EG",
+    "governing_expression": "e.g., PyTorch, JAX",
+    "qualification_scope_review": "SKILLS AND REQUIREMENTS；已读完整保存全文。",
+    "counterexample_or_ambiguity": "具体验证的是例示operator与资格语境，不验证实际筛选或替代关系。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "E0414|SK_PYTORCH": {
+    "cue_family": "EN_EG",
+    "governing_expression": "e.g., PyTorch, JAX",
+    "qualification_scope_review": "SKILLS AND REQUIREMENTS；已读完整保存全文。",
+    "counterexample_or_ambiguity": "存在公司内复用资格句，条数不能解释为独立语言表达或独立雇主数量。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "E0415|SK_PYTORCH": {
+    "cue_family": "EN_EG",
+    "governing_expression": "e.g., PyTorch, JAX",
+    "qualification_scope_review": "SKILLS AND REQUIREMENTS；已读完整保存全文。",
+    "counterexample_or_ambiguity": "存在公司内复用资格句，条数不能解释为独立语言表达或独立雇主数量。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "E0487|SK_PYTORCH": {
+    "cue_family": "EN_SUCH_AS",
+    "governing_expression": "such as PyTorch",
+    "qualification_scope_review": "Requirements，Bonus Qualifications之前；已读完整保存全文。",
+    "counterexample_or_ambiguity": "存在公司内复用资格句，条数不能解释为独立语言表达或独立雇主数量。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "E0489|SK_PYTORCH": {
+    "cue_family": "EN_SUCH_AS",
+    "governing_expression": "such as PyTorch",
+    "qualification_scope_review": "Requirements，Bonus Qualifications之前；已读完整保存全文。",
+    "counterexample_or_ambiguity": "存在公司内复用资格句，条数不能解释为独立语言表达或独立雇主数量。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "E0491|SK_PYTORCH": {
+    "cue_family": "EN_SUCH_AS",
+    "governing_expression": "such as PyTorch",
+    "qualification_scope_review": "Requirements，Bonus Qualifications之前；已读完整保存全文。",
+    "counterexample_or_ambiguity": "存在公司内复用资格句，条数不能解释为独立语言表达或独立雇主数量。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "E0492|SK_PYTORCH": {
+    "cue_family": "EN_SUCH_AS",
+    "governing_expression": "such as PyTorch",
+    "qualification_scope_review": "Requirements，Bonus Qualifications之前；已读完整保存全文。",
+    "counterexample_or_ambiguity": "存在公司内复用资格句，条数不能解释为独立语言表达或独立雇主数量。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "E0493|SK_PYTORCH": {
+    "cue_family": "EN_EG",
+    "governing_expression": "e.g., PyTorch",
+    "qualification_scope_review": "Requirements，Bonus Qualifications之前；已读完整保存全文。",
+    "counterexample_or_ambiguity": "存在公司内复用资格句，条数不能解释为独立语言表达或独立雇主数量。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "E0495|SK_PYTORCH": {
+    "cue_family": "EN_SUCH_AS",
+    "governing_expression": "such as PyTorch",
+    "qualification_scope_review": "Requirements，Bonus Qualifications之前；已读完整保存全文。",
+    "counterexample_or_ambiguity": "存在公司内复用资格句，条数不能解释为独立语言表达或独立雇主数量。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "N0821|SK_PYTORCH": {
+    "cue_family": "EN_SUCH_AS",
+    "governing_expression": "such as PyTorch",
+    "qualification_scope_review": "What You Have，The Extras That Set You Apart之前；已读完整保存全文。",
+    "counterexample_or_ambiguity": "具体验证的是例示operator与资格语境，不验证实际筛选或替代关系。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "N0984|SK_PYTORCH": {
+    "cue_family": "EN_EG",
+    "governing_expression": "e.g., PyTorch, TensorFlow, JAX",
+    "qualification_scope_review": "We’re Looking For候选要求段；已读完整保存全文。",
+    "counterexample_or_ambiguity": "自动nearest_heading_text误保留前段What You’ll Do；完整原文有We’re Looking For，可支持资格范围但不能只依赖标题提取器。",
+    "review_conclusion": "明确英文例示，支持当前example-inclusive定义中的阳性；不要求单独指定PyTorch为必须。"
+  },
+  "N1044|SK_PYTORCH": {
+    "cue_family": "BARE_PARENTHETICAL_LIST",
+    "governing_expression": "modern ML frameworks (PyTorch, JAX)",
+    "qualification_scope_review": "We’re Looking For下，Strong background in之后、Nice to Have之前，属候选资格语境。",
+    "counterexample_or_ambiguity": "没有such as/e.g./如/等；括号既可举例也可列明目标框架。历史EXAMPLE本身不是明确例示词的证据。",
+    "review_conclusion": "Current coordinator relation set is UNCONDITIONAL_OR_EXAMPLE: Q=U, while Q+E and Q+C+E=P under both readings. This is set propagation, not a confirmed EXAMPLE label or a human gold standard."
+  }
+}

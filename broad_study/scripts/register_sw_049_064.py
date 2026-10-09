@@ -1,0 +1,302 @@
+"""First-pass adjudication for software coding_order 49-64. Reader: grok4.6."""
+from register_Q_decisions import register
+
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0134":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"ELASTICSEARCH_PLATFORM",
+ "secondary_task":"",
+ "task_evidence":"负责 Elasticsearch 管理平台架构设计与研发，搭建多维度检索引擎底座，基于 Elasticsearch 设计、落地高性能数据检索产品，支撑复杂多条件、多维度混合检索业务需求。",
+ "new":{
+  "1":O+"Elasticsearch未单列冻结项。",
+  "2":O+"Scala未单列冻结项。",
+  "3":[["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "4":O+"Elasticsearch未单列冻结项。",
+  "5":[["V2_FLINK","GENERAL","UNCONDITIONAL"],["V2_KAFKA","GENERAL","UNCONDITIONAL"]],
+  "6":"DUPLICATE:N0134:5","7":"DUPLICATE:N0134:5",
+  "8":O+"Hadoop未单列冻结项。","9":O+"OLAP未单列冻结项。","10":O+"ES未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责ES检索平台。ES本身目录外。故障排查按运行排障。"
+},
+"N0152":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"EMBODIED_AFFECTIVE_APP",
+ "secondary_task":"",
+ "task_evidence":"1. 参与具身智能机器人的应用层软件开发，围绕真实机器人场景，完成任务逻辑、状态机、行为编排与系统集成。",
+ "new":{
+  "1":R+"Python 和 C++不是C语言。",
+  "2":[["V2_UART","GENERAL","CHOICE_AND_EXAMPLE"],["V2_CAN","GENERAL","CHOICE_AND_EXAMPLE"],["V2_USB","GENERAL","CHOICE_AND_EXAMPLE"],["V2_ETHERNET","GENERAL","CHOICE_AND_EXAMPLE"],["V2_I2C","GENERAL","CHOICE_AND_EXAMPLE"]],
+  "3":"DUPLICATE:N0152:2","4":"DUPLICATE:N0152:2","5":"DUPLICATE:N0152:2","6":"DUPLICATE:N0152:2","7":"DUPLICATE:N0152:2"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"应用层情感交互。总线任选示例。C++拒收C。"
+},
+"N0141":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"CAMERA_APP",
+ "secondary_task":"",
+ "task_evidence":"负责相机传感器的图像采集，质量优化，解决噪声、畸变、低照度等问题，确保输出符合算法需求",
+ "new":{
+  "1":O+"NVIDIA Jetson未单列冻结项。",
+  "2":[["V2_CALIBRATION","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":O+"OpenGL未单列冻结项。","4":O+"Jetson Orin未单列冻结项。","5":O+"libargus未单列冻结项。",
+  "6":O+"ISP未单列冻结项。","7":O+"FPGA未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"相机应用。内外参标定成立。"
+},
+"N0081":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"HUMANOID_SW_TELEOP",
+ "secondary_task":"ROBOT_CLOUD_UI",
+ "task_evidence":"负责机器人软件系统架构设计与开发，打通操作端、服务端、机器人端及感知、决策、控制模块间的通信链路。",
+ "new":{
+  "1":[["V2_TELEOP","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_TELEOP","GENERAL","CHOICE"]],
+  "3":[["V2_REACT","GENERAL","EXAMPLE"],["V2_VUE","GENERAL","EXAMPLE"]],
+  "4":"DUPLICATE:N0081:3","5":"DUPLICATE:N0081:3",
+  "6":O+"WebSocket未单列冻结项。","7":O+"WebRTC未单列冻结项。","8":O+"HTTP未单列冻结项。","9":O+"RESTful API未单列冻结项。",
+  "10":O+"RPC未单列冻结项。","11":O+"gRPC未单列冻结项。",
+  "12":[["V2_TCPIP","GENERAL","CHOICE"],["V2_DDS","GENERAL","CHOICE"]],
+  "13":"DUPLICATE:N0081:12","14":"DUPLICATE:N0081:12","15":"DUPLICATE:N0081:12",
+  "16":R+"C++和Python不是C语言。",
+  "17":[["V2_TELEOP","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责人形软件与遥操平台。C++拒收C。"
+},
+"N0127":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"HUMANOID_APP",
+ "secondary_task":"",
+ "task_evidence":"1. 机器人本体应用开发：负责具身智能机器人本体上的应用层软件开发，围绕真实业务场景，完成任务逻辑、行为编排及系统集成。",
+ "new":{
+  "1":R+"C++ 和 Python不是C语言。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"本体应用。C++拒收C。"
+},
+"N0091":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"PLANNING_CONTROL_SOFTWARE",
+ "secondary_task":"",
+ "task_evidence":"1.负责机器人规划、控制等核心功能模块的软件实现与性能优化，同时主导设计并实现标准化、易用的二次开发接口（SDK/API），确保平台功能完整且对外暴露清晰，为上层应用生态奠定基础。",
+ "new":{
+  "1":R+"C++不是C语言。",
+  "2":[["V2_CLASSICAL_CONTROL","GENERAL","EXAMPLE"]],
+  "3":[["V2_PATH_SEARCH","GENERAL","EXAMPLE"],["V2_CLASSICAL_CONTROL","GENERAL","EXAMPLE"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"规控软件。PID/MPC按经典控制示例。C++拒收C。"
+},
+"N0175":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"ROBOT_SYSTEM_SOFTWARE",
+ "secondary_task":"",
+ "task_evidence":"1、负责机器人系统相关软件的设计、研发、持续优化；",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"]],
+  "2":"DUPLICATE:N0175:1",
+  "3":[["V2_DDS","GENERAL","CHOICE"]],
+  "4":"DUPLICATE:N0175:3",
+  "5":O+"PCIE未单列冻结项。","6":O+"TSN未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"C/C++按C未解。DDS任选。"
+},
+"N0153":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"ROBOT_SERVER_API",
+ "secondary_task":"",
+ "task_evidence":"1. 负责机器人相关的服务端系统设计与开发，为机器人端提供稳定、高可用的 API 与后台服务支持。",
+ "new":{
+  "1":O+"REST未单列冻结项。","2":O+"WebSocket未单列冻结项。","3":O+"gRPC未单列冻结项。",
+  "4":[["V2_SQL_MYSQL","GENERAL","EXAMPLE"],["V2_POSTGRESQL","GENERAL","EXAMPLE"],["V2_REDIS","GENERAL","EXAMPLE"],["V2_KAFKA","GENERAL","EXAMPLE"]],
+  "5":"DUPLICATE:N0153:4","6":"DUPLICATE:N0153:4","7":"DUPLICATE:N0153:4","8":"DUPLICATE:N0153:4",
+  "9":O+"MQTT未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"机器人服务端。库表示例成立。"
+},
+"N0133":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"DISTRIBUTED_FILESTORE",
+ "secondary_task":"",
+ "task_evidence":"负责多云统一存储中心架构设计与研发，基于分布式文件缓存存储底座，实现跨云多节点数据同步、统一数据访问能力。",
+ "new":{
+  "1":R+"Go/C++优先不是C语言。",
+  "2":O+"JuiceFS未单列冻结项。","3":O+"Alluxio未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"分布式文件。C++拒收C。"
+},
+"N0010":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"CAMPUS_BASE_SOFTWARE",
+ "secondary_task":"",
+ "task_evidence":"1.参与机器人 Linux 基础软件、中间件及系统工具开发；",
+ "new":{
+  "1":[["V2_HIL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_C","GENERAL","UNRESOLVED"]],
+  "3":"DUPLICATE:N0010:2",
+  "4":[["V2_TCPIP","GENERAL","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0010:4","6":"DUPLICATE:N0010:4",
+  "7":[["V2_DDS","PREFERRED","EXAMPLE"]],
+  "8":"DUPLICATE:N0010:7",
+  "9":O+"MQTT未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"校招基础软件。HIL测试系统成立。C/C++按C未解。"
+},
+"N0176":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"ALGO_ECOSYSTEM_SDK",
+ "secondary_task":"",
+ "task_evidence":"参与机器人二次开发生态的设计、开发与维护，确保平台与接口的易用、稳定基于强化学习、模仿学习等技术开发高质量 Demo 与场景示例，输出配套文档与最佳实践搭建 Agent 工作流，实现具身智能应用开发新型范式参与主流仿真平台的集成适配，支持仿真与真机之间工作流的端到端打通推进开发者平台与开源生态（ROS2、Hugging Face 等）的对接，维护开源仓库，持续更新示例与文档支持开发者社区的技术问题",
+ "new":{
+  "1":[["V2_HUGGINGFACE","DUTY_OWN_USE","EXAMPLE"]],
+  "2":"DUPLICATE:N0176:1",
+  "3":R+"熟悉 C++不是C语言。",
+  "4":[["V2_GIT","GENERAL","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0176:4"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"算法生态。Hugging Face与Git工作流成立。"
+},
+"N0169":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"APP_SDK_INTERFACE",
+ "secondary_task":"CUSTOMER_INTEGRATION",
+ "task_evidence":"参与机器人应用接口与 SDK 的设计、开发与持续维护，覆盖运动控制、数据采集、传感器接入等核心能力，保障接口的稳定性与易用性基于平台接口能力，面向迎宾引导、物品分拣等典型具身智能应用场景，提供端到端的技术解决方案并参与现场调试交付负责 ROS / ROS2 相关接口的开发与维护，推动机器人软件模块的标准化与工程化编写接口文档、使用手册与示例代码，持续优化开发者的接入体验跟踪集成商与开发者的使用反馈",
+ "new":{
+  "1":R+"熟练掌握 C++不是C语言。",
+  "2":[["V2_GIT","GENERAL","UNCONDITIONAL"]],
+  "3":"DUPLICATE:N0169:2",
+  "4":O+"NVIDIA Jetson未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"应用接口SDK。Git工作流成立。C++拒收C。"
+},
+"N0011":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"CPP_APP_INTERN",
+ "secondary_task":"",
+ "task_evidence":"1. 参与机器人应用软件的设计、开发与维护，负责相关模块的代码编写和调试；",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"]],
+  "2":"DUPLICATE:N0011:1",
+  "3":[["V2_SHELL","GENERAL","UNCONDITIONAL"],["V2_CMAKE","GENERAL","UNCONDITIONAL"],["V2_GDB","GENERAL","UNCONDITIONAL"],["V2_GIT","GENERAL","UNCONDITIONAL"]],
+  "4":"DUPLICATE:N0011:3","5":"DUPLICATE:N0011:3","6":"DUPLICATE:N0011:3","7":"DUPLICATE:N0011:3",
+  "8":[["V2_CI_CD","GENERAL","UNCONDITIONAL"]],
+  "9":"DUPLICATE:N0011:8"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"C++实习。C/C++按C未解。Git/CMake/GDB/Shell成立。"
+},
+"N0050":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"ALGO_ECOSYSTEM_INTERN",
+ "secondary_task":"",
+ "task_evidence":"设计并持续迭代机器人二次开发工具链，涵盖数据采集、模型训练、仿真环境、模型部署与算法应用，让开发者以最短路径跑具身智能应用流程",
+ "new":{
+  "1":O+"Newton未单列冻结项。",
+  "2":[["V2_HUGGINGFACE","DUTY_OWN_USE","EXAMPLE"]],
+  "3":"DUPLICATE:N0050:2",
+  "4":R+"Github开源生态不是Git工具项的充分证据。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"生态实习。Hugging Face成立。GitHub拒收Git。"
+},
+"N0024":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"APP_HRI_SKILLS",
+ "secondary_task":"",
+ "task_evidence":"1、负责机器人应用功能开发，包括人机交互逻辑、多模态响应机制、复杂动作控制、业务流程自动化等核心技能模块的设计与实现。",
+ "new":{
+  "1":[["SK_ROS","GENERAL","UNCONDITIONAL"]],
+  "2":R+"C++/Python不是C语言。",
+  "3":[["V2_CAN","GENERAL","CHOICE"],["V2_SPI","GENERAL","CHOICE"],["V2_I2C","GENERAL","CHOICE"],["V2_UART","GENERAL","CHOICE"],["V2_ETHERNET","GENERAL","CHOICE"]],
+  "4":"DUPLICATE:N0024:3","5":"DUPLICATE:N0024:3","6":"DUPLICATE:N0024:3","7":"DUPLICATE:N0024:3","8":"DUPLICATE:N0024:3"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"应用开发。类ROS按ROS。总线任选。C++拒收C。"
+},
+"N0607":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"CLOUD_NATIVE_DEVOPS",
+ "secondary_task":"",
+ "task_evidence":"1、负责生产系统的监控、审查，故障响应、排查、解决与后续优化推进。",
+ "new":{
+  "1":[["V2_GITLAB_CI","GENERAL","UNCONDITIONAL"],["V2_CI_CD","GENERAL","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0607:1",
+  "3":O+"argo workflow未单列冻结项。",
+  "4":[["V2_SHELL","GENERAL","CHOICE"]],
+  "5":"DUPLICATE:N0607:4",
+  "6":[["V2_ANSIBLE","GENERAL","CHOICE"]],
+  "7":"DUPLICATE:N0607:6",
+  "8":O+"SaltStack未单列冻结项。",
+  "9":O+"腾讯云未单列冻结项。","10":O+"AliCloud未单列冻结项。",
+  "11":[["V2_KAFKA","GENERAL","EXAMPLE"],["V2_REDIS","GENERAL","EXAMPLE"]],
+  "12":"DUPLICATE:N0607:11",
+  "13":O+"ZooKeeper未单列冻结项。",
+  "14":"DUPLICATE:N0607:11",
+  "15":O+"ElastiSearch未单列冻结项。",
+  "16":[["V2_TERRAFORM","PREFERRED","CHOICE"]],
+  "17":"DUPLICATE:N0607:16"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"云原生运维。gitlab cicd按GitLab CI，不升Git。Ansible不升模型压缩。"
+}
+}
+if __name__=='__main__':
+ register('RF_ROBOTICS_SOFTWARE', decisions, reader='grok4.6')

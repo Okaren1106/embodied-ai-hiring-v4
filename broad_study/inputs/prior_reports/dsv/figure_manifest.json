@@ -1,0 +1,32 @@
+{
+  "figures": [
+    {
+      "id": "D1",
+      "file_png": "charts/D1_cross_function_activity.png",
+      "file_svg": "charts/D1_cross_function_activity.svg",
+      "plot_data": "tables/D_fig1_plot_data.csv",
+      "purpose": "跨职能活动分布",
+      "source": "tables/D3_role_activity_bidirectional.csv"
+    },
+    {
+      "id": "D2",
+      "file_png": "charts/D2_same_function_company_diff.png",
+      "file_svg": "charts/D2_same_function_company_diff.svg",
+      "plot_data": "tables/D_fig2_plot_data.csv",
+      "purpose": "同职能公司差异",
+      "source": "tables/D8b_within_function_activity_rates.csv + tables/D8c_common_function_weighted_comparison.csv"
+    },
+    {
+      "id": "D3",
+      "file_png": "charts/D3_responsibility_vs_hiring.png",
+      "file_svg": "charts/D3_responsibility_vs_hiring.svg",
+      "plot_data": "tables/D_fig3_plot_data.csv",
+      "purpose": "业务责任与招聘组合对应",
+      "source": "tables/D6_business_responsibility_long.csv + tables/D9b_case_deployment_sensitivity.csv"
+    }
+  ],
+  "font": "C:/Windows/Fonts/msyh.ttc",
+  "figure1_note": "后向分布按活动，各主职能占比之和为100%；同一广告可同时计入多个活动，禁止跨活动相加",
+  "figure2_note": "K内自我权重仅覆盖共同职能，覆盖率有限，见D8c",
+  "figure3_note": "业务环节事实条数不是人数或订单数；招聘活动率为广告占比；ML职能内n为该职能活动可判读广告数"
+}

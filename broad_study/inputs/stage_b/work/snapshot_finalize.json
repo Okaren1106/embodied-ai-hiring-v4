@@ -1,0 +1,7 @@
+{
+  "engine": "stage-b-repair-normalizer-v2",
+  "n_snapshots": 130,
+  "n_redeclared_at_finalize": 0,
+  "redeclared": [],
+  "note": "声明哈希在写入完成后统一按磁盘字节重算一次；任何声明与文件不一致都记录在此，避免把编码差异误判为篡改，也不放过真实改写。"
+}

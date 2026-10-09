@@ -1,0 +1,47 @@
+{
+  "stage": "B-supplemented",
+  "scope": "SUPPLEMENT_VALIDATED_NOT_INDEPENDENTLY_ACCEPTED",
+  "run_id": "run_20260915T073556Z",
+  "code_version": "stage-b-supplement-v2",
+  "input_root_digest": "26d6717312241aa6cc01928a4601f4e3037dfebe8020bc4c342ef016fef46d05",
+  "code_digest": "befc0235eb25befdced66c38dcf4310473c0b931070631ef1bb86b7768a8b8ad",
+  "counts": {
+    "company_facts": 680,
+    "company_evidence": 111,
+    "evidence_links": 457,
+    "capital_events": 24,
+    "company_gaps": 307,
+    "company_group_mapping": 320,
+    "company_profile": 24
+  },
+  "unique_source_urls": 96,
+  "strict_coverage": {
+    "product_lines": 23,
+    "delivery_form": 23,
+    "target_markets": 22
+  },
+  "gap_status": {
+    "RESOLVED_FOUND": 162,
+    "NOT_YET_SEARCHED": 88,
+    "RESOLVED_PARTIAL": 37,
+    "NOT_FOUND_NOT_DEFINITE": 14,
+    "RESOLVED_NOT_APPLICABLE": 4,
+    "RESOLVED_BY_SEPARATION_RULE": 1,
+    "DEFERRED_TO_STAGE_B_BATCH_2": 1
+  },
+  "verification": {
+    "n_checks": 53,
+    "n_pass": 53,
+    "n_fail": 0,
+    "verification_digest": "ee9fa8db107da9d4922549a707a63955f8b8cbef48e14b1f598a7992e04c25e9"
+  },
+  "fault_probes": {
+    "n_probes": 22,
+    "n_pass": 22,
+    "positive_control_ok": true
+  },
+  "rebuild_identical": true,
+  "stage_b_complete": false,
+  "original_candidate_independent_acceptance": "../../stage_b_evidence_integrated_acceptance/run_20260915T064258Z/REPORT.md",
+  "capture_media_note": "本轮新证据7份HTTP原件＋2份工具正文；继承9张卡工具归档限制保留。"
+}

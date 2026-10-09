@@ -1,0 +1,92 @@
+[
+  {
+    "id": "F1_q1_company_roles",
+    "title": "公司主职能构成",
+    "caption": "全部 1,654 条认可广告。每条仅归入一个主类或未明确状态；FAR 保留团队标记。零值用点表示，来源不足仍在分母。",
+    "png": "charts/F1_q1_company_roles.png",
+    "svg": "charts/F1_q1_company_roles.svg",
+    "plot_data": "tables/F1_q1_company_roles_plot_data.csv",
+    "source_table": "T2_company_primary_roles.csv"
+  },
+  {
+    "id": "F2_q1_weighting",
+    "title": "主职能的两种权重",
+    "caption": "公司等权先计算各公司比例后平均；广告加权合并广告计数。FAR 的 24 条退出整公司平均，全部 24 个主体结果另存 T2。",
+    "png": "charts/F2_q1_weighting.png",
+    "svg": "charts/F2_q1_weighting.svg",
+    "plot_data": "tables/F2_q1_weighting_plot_data.csv",
+    "source_table": "T2_aggregates.csv"
+  },
+  {
+    "id": "F3_q2_ml_skills",
+    "title": "ML/AI 工程技能语境",
+    "caption": "按已固定总体覆盖排序选择标签。硬性、一般、优先与任选、示例互相区分。背景、否定、未解决提及另存附表，零格仅表示未记录到该正向语境。",
+    "png": "charts/F3_q2_ml_skills.png",
+    "svg": "charts/F3_q2_ml_skills.svg",
+    "plot_data": "tables/F3_q2_ml_skills_plot_data.csv",
+    "source_table": "T3_aggregates.csv"
+  },
+  {
+    "id": "A1_q2_ml_technical",
+    "title": "ML/AI 工程技术语境",
+    "caption": "按已固定总体覆盖排序选择标签。硬性、一般、优先与任选、示例互相区分。背景、否定、未解决提及另存附表，零格仅表示未记录到该正向语境。",
+    "png": "charts/A1_q2_ml_technical.png",
+    "svg": "charts/A1_q2_ml_technical.svg",
+    "plot_data": "tables/A1_q2_ml_technical_plot_data.csv",
+    "source_table": "T3_aggregates.csv"
+  },
+  {
+    "id": "F4_q2_software_skills",
+    "title": "软件与平台技能语境",
+    "caption": "按已固定总体覆盖排序选择标签。硬性、一般、优先与任选、示例互相区分。背景、否定、未解决提及另存附表，零格仅表示未记录到该正向语境。",
+    "png": "charts/F4_q2_software_skills.png",
+    "svg": "charts/F4_q2_software_skills.svg",
+    "plot_data": "tables/F4_q2_software_skills_plot_data.csv",
+    "source_table": "T3_aggregates.csv"
+  },
+  {
+    "id": "A2_q2_software_technical",
+    "title": "软件与平台技术语境",
+    "caption": "按已固定总体覆盖排序选择标签。硬性、一般、优先与任选、示例互相区分。背景、否定、未解决提及另存附表，零格仅表示未记录到该正向语境。",
+    "png": "charts/A2_q2_software_technical.png",
+    "svg": "charts/A2_q2_software_technical.svg",
+    "plot_data": "tables/A2_q2_software_technical_plot_data.csv",
+    "source_table": "T3_aggregates.csv"
+  },
+  {
+    "id": "F5_q3_activity_company",
+    "title": "公司工作活动分布",
+    "caption": "活动维度可判读 1,623 条，来源不足 31 条退出。NOT_MENTIONED 的 5 条保留。左右关系不能直接相加；并集另存 T4。",
+    "png": "charts/F5_q3_activity_company.png",
+    "svg": "charts/F5_q3_activity_company.svg",
+    "plot_data": "tables/F5_q3_activity_company_plot_data.csv",
+    "source_table": "T4_activity_company.csv"
+  },
+  {
+    "id": "F6_q3_role_structures",
+    "title": "职责组合与任选方向",
+    "caption": "全部 1,654 条中，结构类 30 条（1.81%）。图中 n 为公司全部广告数，横轴为结构广告计数；零条不证明公司没有复合分工。",
+    "png": "charts/F6_q3_role_structures.png",
+    "svg": "charts/F6_q3_role_structures.svg",
+    "plot_data": "tables/F6_q3_role_structures_plot_data.csv",
+    "source_table": "T4_role_structure_company.csv"
+  },
+  {
+    "id": "A3_q2_ml_company_general",
+    "title": "ML/AI 工程公司技能点值",
+    "caption": "单一语境的补充视图，不是全部技能要求汇总。FAR 点值单列，其他语境的全部公司格见 T3。",
+    "png": "charts/A3_q2_ml_company_general.png",
+    "svg": "charts/A3_q2_ml_company_general.svg",
+    "plot_data": "tables/A3_q2_ml_company_general_plot_data.csv",
+    "source_table": "T3_company_context.csv"
+  },
+  {
+    "id": "A4_q2_software_company_general",
+    "title": "软件与平台公司技能点值",
+    "caption": "单一语境的补充视图，不是全部技能要求汇总。FAR 点值单列，其他语境的全部公司格见 T3。",
+    "png": "charts/A4_q2_software_company_general.png",
+    "svg": "charts/A4_q2_software_company_general.svg",
+    "plot_data": "tables/A4_q2_software_company_general_plot_data.csv",
+    "source_table": "T3_company_context.csv"
+  }
+]

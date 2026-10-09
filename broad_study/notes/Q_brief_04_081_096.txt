@@ -1,0 +1,138 @@
+#81 N0289 | linux 系统嵌入式工程师 | nI=24 empty=-
+DUTY 1. 负责BSP的开发和维护，编写ARM平台各类外设的驱动程序，配合硬件团队完成新平台的评估和调试。
+  1|-|BSP|1. 负责BSP的开发和维护，编写ARM平台各类外设的驱动程序，配合硬件团队完成新平台的评估和调试。
+  2|-|ARM|1. 负责BSP的开发和维护，编写ARM平台各类外设的驱动程序，配合硬件团队完成新平台的评估和调试。
+  3|V2_C,V2_GIT,V2_GDB|2. 熟悉C/C++程序设计和常用的开发工具（GCC/GDB/Makefile/Git等），具备良好|2. 熟悉C/C++程序设计和常用的开发工具（GCC/GDB/Makefile/Git等），具备良好的编程习惯。
+  4|V2_C|C|C
+  5|-|GCC|GCC
+  6|V2_GDB|GDB|GDB
+  7|-|Makefile|Makefile
+  8|V2_GIT|Git|Git
+  9|-|SOC|3. 熟悉各类SOC，熟悉模块加载、设备树等相关知识。
+  10|-|设备树|3. 熟悉各类SOC，熟悉模块加载、设备树等相关知识。
+  11|-|ARM|4. 熟悉ARM/Linux嵌入式开发和Docker开发。
+  12|V2_YOCTO,V2_BUILDROOT|6. 熟悉嵌入式Linux构建框架（Buildroot/Yocto/Openwrt等）。|6. 熟悉嵌入式Linux构建框架（Buildroot/Yocto/Openwrt等）。
+  13|V2_BUILDROOT|Buildroot|Buildroot
+  14|V2_YOCTO|Yocto|Yocto
+  15|-|Openwrt|Openwrt
+  16|-|PREEMPT_RT|- 实时性优化：有Linux PREEMPT_RT实时内核配置、内核延迟优化（Latency Tuning）实战经验。
+  17|V2_TENSORRT,V2_ONNX,V2_ONNX_RUNTIME|- 异构计算：熟悉NVIDIA Jetson系列或带有NPU/GPU的SoC，有CUDA/OpenC|- 异构计算：熟悉NVIDIA Jetson系列或带有NPU/GPU的SoC，有CUDA/OpenCL异构编程或AI模型部署（TensorRT, ONNX Runtime）经验。
+  18|-|NVIDIA Jetson|NVIDIA Jetson系列
+  19|-|NPU/GPU的SoC|带有NPU/GPU的SoC
+  20|-|OpenCL|OpenCL
+  21|V2_TENSORRT|TensorRT|TensorRT
+  22|V2_ONNX,V2_ONNX_RUNTIME|ONNX Runtime|ONNX Runtime
+  23|-|Systemd|Systemd优化
+  24|-|Fastboot|Fastboot
+
+#82 N0314 | 运控助理算法工程师 | nI=10 empty=-
+DUTY 1. 协助算法工程师完成轮式人形机器人及灵巧手的算法联调与真机测试；
+  1|V2_C|2. 熟练掌握 C++/Python，熟悉 ROS/ROS2 框架及常用组件；|2. 熟练掌握 C++/Python，熟悉 ROS/ROS2 框架及常用组件；
+
+#83 E0071 | 机器人远程遥操系统开发 | nI=9 empty=O5:SK_ROS:ROS
+DUTY 1、负责人形机器人局域和广域远程遥操作相关算法和系统方案开发,包括第一视角遥操作、局域无线传输、一对多远程遥操接管、力反馈、RTC等功能,确保通过远程遥操作可以完成80%以上的任务,同时具备数据采集功能。
+  1|V2_TELEOP|1、负责人形机器人局域和广域远程遥操作相关算法和系统方案开发，包括第一视角遥操作、局域无线传输、一对|1、负责人形机器人局域和广域远程遥操作相关算法和系统方案开发，包括第一视角遥操作、局域无线传输、一对多远程遥操接管、力反馈、RTC等功能，确保通过远程遥操作可以完成80%以上的任务
+  2|V2_TELEOP|2、完成高延时下的远程遥操作性能提升、算法优化，思考创新方法，持续提升机器人远程遥操作和数据采集质量|2、完成高延时下的远程遥操作性能提升、算法优化，思考创新方法，持续提升机器人远程遥操作和数据采集质量和效率。
+  3|V2_TELEOP|3、寻找合适的合作方（网络设备商、网络运营商等）完成远程遥操系统搭建，支持远程遥操作系统Demo展示|3、寻找合适的合作方（网络设备商、网络运营商等）完成远程遥操系统搭建，支持远程遥操作系统Demo展示和部署。
+  4|V2_TELEOP|4、跟踪国内外远程遥操作和数据采集前沿技术和产品，并持续思考如何将其转化为公司产品中。|4、跟踪国内外远程遥操作和数据采集前沿技术和产品，并持续思考如何将其转化为公司产品中。
+  5|V2_TELEOP|3、熟悉包括但不限于VR遥操作，远程通信、机器人运动学、动力学与控制技术。|3、熟悉包括但不限于VR遥操作，远程通信、机器人运动学、动力学与控制技术。
+  6|V2_C|5、熟练掌握C/C++、MATLAB、Python等编程语言，熟练使用ROS/ROS2系统。|5、熟练掌握C/C++、MATLAB、Python等编程语言，熟练使用ROS/ROS2系统。
+
+#84 E0061 | 资深 Agent 算法工程师 | nI=11 empty=-
+DUTY 1. Agent 架构开发: 设计并实现高并发、可扩展的机器人 Agent 框架,集成长短期记忆模块与 RAG 检索系统,使机器人能在复杂场景下,拆解长程任务到VLA可执行动作。
+  1|V2_AGENT_WORKFLOW|1. Agent 架构开发： 设计并实现高并发、可扩展的机器人 Agent 框架，集成长短期记忆模块|1. Agent 架构开发： 设计并实现高并发、可扩展的机器人 Agent 框架，集成长短期记忆模块与 RAG 检索系统，使机器人能在复杂场景下，拆解长程任务到VLA可执行动作。
+  2|V2_AGENT_WORKFLOW|3. 多模态对齐与 RAG： 建立针对机器人操作任务的向量数据库，实现基于视觉语义和环境上下文的精准|3. 多模态对齐与 RAG： 建立针对机器人操作任务的向量数据库，实现基于视觉语义和环境上下文的精准知识检索。
+  3|V2_C|1. 计算机/AI 基础： 计算机科学或相关专业硕士及以上学历，具备极强的 C++/Python 编|1. 计算机/AI 基础： 计算机科学或相关专业硕士及以上学历，具备极强的 C++/Python 编程能力。
+  4|V2_AGENT_WORKFLOW|  - 熟练应用 LangChain / AutoGPT / MetaGPT 等 Agent 开发框|  - 熟练应用 LangChain / AutoGPT / MetaGPT 等 Agent 开发框架。
+  5|V2_AGENT_WORKFLOW|  - 精通 RAG 系统（向量数据库如 Milvus/Pinecone 的选型与性能调优）。|  - 精通 RAG 系统（向量数据库如 Milvus/Pinecone 的选型与性能调优）。
+  6|V2_TENSORRT,V2_VLLM|  - 有 vLLM / TensorRT-LLM 等推理加速框架的实战经验。|  - 有 vLLM / TensorRT-LLM 等推理加速框架的实战经验。
+  7|V2_AGENT_WORKFLOW||LangChain / AutoGPT / MetaGPT
+  8|-||Milvus/Pinecone
+
+#85 E0047 | 机器人 HMI 应用开发工程师 | nI=9 empty=-
+DUTY 1. 负责机器人 HMI 交互应用和数据采集设备(UMI、ego-centric 等)配套移动端应用(Android & iOS)的全流程开发,覆盖设备连接配对、采集任务配置、多模态数据预览与回传等数据工厂采集闭环能力,并支撑机器人真实落地场景中的数据回流、工作流程管理、导航建图等现场业务需求;
+  1|V2_C|3. 熟悉 C++ 编程，具备 Qt 框架开发经验，能够基于 Qt 开发跨平台原生模块或高性能 HM|3. 熟悉 C++ 编程，具备 Qt 框架开发经验，能够基于 Qt 开发跨平台原生模块或高性能 HMI 组件，熟悉 Qt Quick/QML 界面开发及与移动端混合集成方案者优先；
+  2|V2_USB|4. 熟悉移动端与硬件设备的通信机制，了解蓝牙（BLE）、USB、WiFi、RTSP 等协议，具备低|4. 熟悉移动端与硬件设备的通信机制，了解蓝牙（BLE）、USB、WiFi、RTSP 等协议，具备低延迟数据传输与实时音视频处理经验者优先；
+
+#86 E0039 | 具身软件开发工程师 | nI=6 empty=-
+DUTY 参与机器人端侧 Runtime 系统的设计、开发和持续优化,包括硬件抽象、端侧通信、可观测、资源治理等方向
+  1|V2_C|具备扎实的 C++ 开发能力，具备 Python / Go 中至少一种语言的实际开发能力|具备扎实的 C++ 开发能力，具备 Python / Go 中至少一种语言的实际开发能力
+  2|V2_DDS|熟悉 ROS2 / DDS、gRPC、MQTT、WebSocket等通信机制|熟悉 ROS2 / DDS、gRPC、MQTT、WebSocket等通信机制
+
+#87 E0031 | 具身AR/XR交互系统专家 | nI=11 empty=-
+DUTY 1. 负责面向 Quest、PICO等主流 VR/XR头显的应用开发,重点服务于具身智能本体数据采集、VR示教采集、UMI采集与人机交互数据闭环。
+  1|V2_TELEOP|1. 负责面向 Quest、PICO等主流 VR/XR头显的应用开发，重点服务于具身智能本体数据采集|1. 负责面向 Quest、PICO等主流 VR/XR头显的应用开发，重点服务于具身智能本体数据采集、VR示教采集、UMI采集与人机交互数据闭环。
+  2|V2_UNITY|2. 基于Unity/OpenXR/设备厂商SDK完成VR应用架构设计、功能开发、APK打包、设备调|2. 基于Unity/OpenXR/设备厂商SDK完成VR应用架构设计、功能开发、APK打包、设备调试、性能优化和版本发布。
+  3|V2_UNITY|2. 具备 3 年以上VR/XR、Unity、实时交互、游戏引擎或工业软件开发经验，有完整VR头显应|2. 具备 3 年以上VR/XR、Unity、实时交互、游戏引擎或工业软件开发经验，有完整VR头显应用落地经验优先。
+  4|V2_C,V2_UNITY|3. 熟悉Unity开发，掌握C#，并具备C++ 开发能力，理解常用工程架构、资源管理、异步加载、U|3. 熟悉Unity开发，掌握C#，并具备C++ 开发能力，理解常用工程架构、资源管理、异步加载、UI系统、输入系统和性能优化方法。
+  5|V2_TCPIP,V2_RS485|6. 有机器人系统、采集平台或仿真平台的数据对接经验，熟悉 ROS2、TCP / UDP、HTTP、|6. 有机器人系统、采集平台或仿真平台的数据对接经验，熟悉 ROS2、TCP / UDP、HTTP、串口等常见接口方式中的一种或多种。
+  6|V2_TELEOP|1. 有 Quest/PICO等VR头显上的具身智能数据采集、VR示教采集、UMI采集或相关工具开发|1. 有 Quest/PICO等VR头显上的具身智能数据采集、VR示教采集、UMI采集或相关工具开发经验。
+  7|V2_UNITY|4. 有VR晕动症优化、长时间佩戴舒适性优化、复杂交互设计或大型 Unity 工程性能优化经验。|4. 有VR晕动症优化、长时间佩戴舒适性优化、复杂交互设计或大型 Unity 工程性能优化经验。
+  8|V2_UNITY||Unity/OpenXR/设备厂商SDK
+
+#88 E0026 | 持续集成测试开发工程师 | nI=8 empty=-
+DUTY 1. 基于GitLab搭建与优化全链路CI/CD流水线,覆盖代码编译、构建打包、自动化测试、部署发布全流程,适配x86/ARM多架构编译构建场景,解决跨架构编译痛点。
+  1|V2_GIT,V2_CI_CD|1. 基于GitLab搭建与优化全链路CI/CD流水线，覆盖代码编译、构建打包、自动化测试、部署发布|1. 基于GitLab搭建与优化全链路CI/CD流水线，覆盖代码编译、构建打包、自动化测试、部署发布全流程，适配x86/ARM多架构编译构建场景，解决跨架构编译痛点。
+  2|V2_CI_CD|2. 负责测试自动化与CI/CD深度集成，搭建代码提交、模型迭代各阶段质量门禁，将单元测试、接口测试|2. 负责测试自动化与CI/CD深度集成，搭建代码提交、模型迭代各阶段质量门禁，将单元测试、接口测试、模型评测等自动化能力嵌入流水线，支撑软硬件与大模型高频迭代。
+  3|V2_CI_CD|3. 运维优化CI/CD平台与配套工具链，提升流水线执行效率与稳定性，排查构建失败、环境依赖、集成冲|3. 运维优化CI/CD平台与配套工具链，提升流水线执行效率与稳定性，排查构建失败、环境依赖、集成冲突等问题，沉淀集成与测试最佳实践。
+  4|V2_CI_CD|4. 对接内外部研发、算法、测试团队，推动CI/CD规范与流程落地，收集并响应多方集成需求，主动推进|4. 对接内外部研发、算法、测试团队，推动CI/CD规范与流程落地，收集并响应多方集成需求，主动推进流程与工具的持续优化。
+  5|V2_CI_CD|- 本科及以上，计算机相关专业，3年以上CI/CD或测试开发相关经验。|- 本科及以上，计算机相关专业，3年以上CI/CD或测试开发相关经验。
+  6|V2_GIT,V2_GITLAB_CI,V2_CI_CD|- 精通GitLab CI/CD流水线设计与落地，熟练编写.gitlab-ci.yml，掌握缓存优化|- 精通GitLab CI/CD流水线设计与落地，熟练编写.gitlab-ci.yml，掌握缓存优化、并行执行、Runner管理等核心能力，可独立搭建全链路集成流程。
+  7|V2_SHELL|- 熟悉Linux系统、Docker容器化技术，掌握Shell/Python脚本开发，了解主流编译构|- 熟悉Linux系统、Docker容器化技术，掌握Shell/Python脚本开发，了解主流编译构建工具。
+  8|V2_GIT|- 有ARM架构下编译构建、GitLab Runner部署与交叉编译经验者优先。|- 有ARM架构下编译构建、GitLab Runner部署与交叉编译经验者优先。
+  9|V2_CI_CD|- 有支撑大模型/AI算法迭代的CI/CD落地经验，熟悉模型训练、评测、发布流水线搭建者优先。|- 有支撑大模型/AI算法迭代的CI/CD落地经验，熟悉模型训练、评测、发布流水线搭建者优先。
+  10|V2_GIT||GitLab
+  11|SK_PYTHON,V2_SHELL||Shell/Python
+
+#89 E0017 | 端侧计算性能优化专家 | nI=6 empty=-
+DUTY 负责国产化SoC平台整体性能优化,围绕 CPU、DSP、GPU、Memory、Middleware 等核心链路,定位系统性能瓶颈,降低端到端 Latency,提升系统资源利用率和整体运行效率。
+  1|V2_C|深入核心代码和计算链路，开展 C/C++、SIMD、Cache、Memory、多线程等底层优化；针对|深入核心代码和计算链路，开展 C/C++、SIMD、Cache、Memory、多线程等底层优化；针对计算密集度高的模块能使用Cadence DSP、Mali GPU 等异构计算IP
+  2|V2_PERF,V2_FTRACE|建立系统化的Profiling和Benchmark能力，利用perf、ftrace、Perfetto|建立系统化的Profiling和Benchmark能力，利用perf、ftrace、Perfetto、PMU等工具，从CPU、Memory、调度、DSP/GPU等多个层面分析性能问
+  3|V2_C|1.5年以上 C/C++/系统软件/高性能计算相关开发经验，其中有较长时间的性能优化工作经历。|1.5年以上 C/C++/系统软件/高性能计算相关开发经验，其中有较长时间的性能优化工作经历。
+  4|V2_C|3.精通C/C++，具备较强的并发、Memory、Cache、SIMD等底层能力。|3.精通C/C++，具备较强的并发、Memory、Cache、SIMD等底层能力。
+  5|V2_PERF,V2_FTRACE||perf、ftrace、Perfetto、PMU
+
+#90 E0094 | C++开发工程师 | nI=2 empty=-
+DUTY 1. 负责公司软件架构的升级,优化;
+
+#91 E0091 | JAVA后端开发工程师 | nI=2 empty=-
+DUTY 1.负责移动端产品的后台服务端搭建与编写API开发文档;
+
+#92 E0080 | 具⾝智能软件⼯程师 | nI=8 empty=-
+DUTY · 负责具身智能算法和模型在机器人上的开发与集成,将其转化为稳定的产品功能。
+
+#93 E0282 | 机器人软件工程师（应用&SDK） | nI=17 empty=O3:SK_ROS:ROS
+DUTY 1. 负责基础平台建设:设计并实现机器人基础模块,如标准库、升级、日志、监控、SDK 等,推动通用能力沉淀为可复用的技术平台;
+  1|V2_CALIBRATION,V2_TELEOP|2. 负责应用业务开发：设计并实现机器人应用交互业务，包括数据采集与闭环、遥操作、任务管理、设备标定|2. 负责应用业务开发：设计并实现机器人应用交互业务，包括数据采集与闭环、遥操作、任务管理、设备标定、系统自检、安全接管等关键功能，及大模型能力在机器人场景中的应用探索；
+  2|V2_TELEOP|3. 负责通信链路开发：设计并实现机器人内外部通信架构，涉及设备内消息中间件、设备间实时数据转发、低|3. 负责通信链路开发：设计并实现机器人内外部通信架构，涉及设备内消息中间件、设备间实时数据转发、低延迟遥操作链路、云端协同通信等场景，保障高并发下多节点通信的稳定性与低延迟；
+  3|V2_C|2. 编程能力：精通 Linux 环境下 C++ 开发、调试与性能优化；熟悉面向对象设计及常用设计模|2. 编程能力：精通 Linux 环境下 C++ 开发、调试与性能优化；熟悉面向对象设计及常用设计模式；熟悉 ROS/ROS2 框架及其节点通信机制；能熟练使用 AI 辅助编程工具
+  4|V2_TCPIP|3. 通信协议：熟悉 HTTP、WebSocket、MQTT、TCP/IP 等常用网络协议，具备自定|3. 通信协议：熟悉 HTTP、WebSocket、MQTT、TCP/IP 等常用网络协议，具备自定义协议栈开发与优化经验，能解决复杂的实时通信问题；
+  5|V2_CI_CD|4. 工程质量：注重单元测试、代码审查、CI/CD 等工程实践，追求代码的可维护性与系统的长期健壮性|4. 工程质量：注重单元测试、代码审查、CI/CD 等工程实践，追求代码的可维护性与系统的长期健壮性，并能输出清晰规范的设计文档与接口协议；
+
+#94 E0261 | Agent研发工程师 | nI=15 empty=O9:TC_FOUNDATION_MODEL:LLM,O12:TC_FOUNDATION_MODEL:LLM
+DUTY 1. Agent系统架构研发,包括思考规划、记忆管理、技能调用、多智能体协同等核心模块,构建高可用、易扩展的技术底座。
+  1|V2_CI_CD|2. Agent系统能力集成，持续集成机器人能力，保障复杂业务场景中的高效稳定运行。|2. Agent系统能力集成，持续集成机器人能力，保障复杂业务场景中的高效稳定运行。
+  2|V2_MODEL_COMPRESSION|5. Agent评测体系建设，建立可量化、可迭代的技术评估体系，确保技术效果持续优化改进。|5. Agent评测体系建设，建立可量化、可迭代的技术评估体系，确保技术效果持续优化改进。
+  3|V2_AGENT_WORKFLOW|3. 深入理解LLM技术原理与应用方法，了解Memory机制、RAG、工具调用、规划执行等关键技术；|3. 深入理解LLM技术原理与应用方法，了解Memory机制、RAG、工具调用、规划执行等关键技术；
+  4|V2_VLLM,V2_SGLANG|2. 熟悉LLM、VLA等大模型的推理部署流程；熟悉主流的推理框架，如vllm,sglang|2. 熟悉LLM、VLA等大模型的推理部署流程；熟悉主流的推理框架，如vllm,sglang
+  5|V2_VLLM,V2_SGLANG|vllm,sglang|主流的推理框架，如vllm,sglang
+  6|V2_AGENT_WORKFLOW|3. 熟悉LLM工具调用（Function Calling）原理及工程实现；|3. 熟悉LLM工具调用（Function Calling）原理及工程实现；
+
+#95 E0239 | 机器人系统工程师（本体前后端） | nI=6 empty=-
+DUTY 1. 负责机器人控制交互平台WebUI及配套服务端的架构设计、核心功能开发和长期维护。
+  1|V2_JAVASCRIPT,V2_NODEJS|2. 负责Node.js BFF、设备接入服务或实时通信网关开发，对接云端业务系统、WebUI和机器|2. 负责Node.js BFF、设备接入服务或实时通信网关开发，对接云端业务系统、WebUI和机器人本体。
+  2|V2_CI_CD|6. 参与组件库、服务端基础框架、自动化测试、CI/CD、日志监控和可观测性体系建设。|6. 参与组件库、服务端基础框架、自动化测试、CI/CD、日志监控和可观测性体系建设。
+  3|V2_SQL_MYSQL,V2_POSTGRESQL,V2_REDIS|7. 有MySQL/PostgreSQL、Redis数据存储设计的中后台经验优先。|7. 有MySQL/PostgreSQL、Redis数据存储设计的中后台经验优先。
+  4|V2_JAVASCRIPT,V2_TYPESCRIPT,V2_REACT|2. 精通JavaScript、TypeScript和React，深入理解Hooks、状态管理、异步|2. 精通JavaScript、TypeScript和React，深入理解Hooks、状态管理、异步编程、浏览器机制和前端性能优化。
+  5|V2_JAVASCRIPT,V2_NODEJS|3. 熟练使用Node.js，掌握NestJS、Express或Fastify等至少一种服务端框架，|3. 熟练使用Node.js，掌握NestJS、Express或Fastify等至少一种服务端框架，具备生产环境服务开发经验优先。
+  6|V2_REACT|5. 熟悉React、Ant Design和Zustand等技术，具备复杂业务组件、配置化界面和响应|5. 熟悉React、Ant Design和Zustand等技术，具备复杂业务组件、配置化界面和响应式页面开发经验。
+  7|V2_JAVASCRIPT|6. 熟悉Three.js、WebGL或Canvas中的至少一项，有地图、机器人模型或实时数据可视化|6. 熟悉Three.js、WebGL或Canvas中的至少一项，有地图、机器人模型或实时数据可视化经验。
+  8|V2_SQL_MYSQL,V2_POSTGRESQL,V2_REDIS|9.有MySQL或PostgreSQL，理解索引、事务、锁及数据模型设计，Redis缓存、分布式锁和|9.有MySQL或PostgreSQL，理解索引、事务、锁及数据模型设计，Redis缓存、分布式锁和会话管理经验者优先。
+  9|V2_SQL_MYSQL,V2_POSTGRESQL,V2_REDIS|MySQL/PostgreSQL、Redis|有MySQL/PostgreSQL、Redis数据存储设计的中后台经验优先
+  10|V2_JAVASCRIPT,V2_TYPESCRIPT,V2_REACT,V2_NODEJS|Node.js、JavaScript、TypeScript、React等|精通JavaScript、TypeScript和React
+  11|-|NestJS、Express、Fastify|掌握NestJS、Express或Fastify等至少一种服务端框架
+
+#96 E0238 | 嵌入式软件工程师（Linux） | nI=11 empty=O4:SK_LINUX:Linux
+DUTY 1、基于系统团队提供的软硬件平台,面向行业客户开展定制化嵌入式软件开发与交付;
+  1|V2_C|2、精通 C/C++ 编程语言，熟悉 ROS 2 的基本架构与常用功能；|2、精通 C/C++ 编程语言，熟悉 ROS 2 的基本架构与常用功能；
+  2|V2_C,V2_CAN,V2_ETHERNET,V2_I2C,V2_USB|3、深入理解常用通信协议（如 I²C、CAN、USB、Ethernet 等）的原理与实际应用；|3、深入理解常用通信协议（如 I²C、CAN、USB、Ethernet 等）的原理与实际应用；

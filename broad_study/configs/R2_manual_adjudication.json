@@ -1,0 +1,22 @@
+{
+  "reviewer": "Astra",
+  "date": "2026-09-16",
+  "scope": "15 distinct ads and 20 disputed pairs, full responsibilities and requirements read with original role trees; same researcher adjudication, not external independent review",
+  "decisions": {
+    "E0248": {"state": "UNCONDITIONAL", "reason": "UI和SDK开发、采数质量校验及模型推理工程化集成分别写负责，职责列表无方向任选。模型部署属于旧ACT_DEPLOYMENT编码，不能据此声称客户现场部署。", "object_caution": "MODEL_RUNTIME"},
+    "N0109": {"state": "UNCONDITIONAL", "reason": "产测设备工装开发与产测工具验证验收分别为第3和第4条直接职责，同一人共同承担，无任选限定。"},
+    "N0312": {"state": "UNCONDITIONAL", "reason": "本人负责自动化评测和Benchmark构建，也负责训练环境维护排错；协助训练的措辞不取消这两项明确本人职责。旧部署活动在此为训练环境运维。", "object_caution": "TRAINING_ENVIRONMENT"},
+    "N0331": {"state": "UNCONDITIONAL", "reason": "计量标准装置建设与周期检定校准、测量不确定度控制均为岗位职责，分属不同段落仍共同适用，无任选方向。"},
+    "N0355": {"state": "UNCONDITIONAL", "reason": "第5条同句明确负责并行训练、验证及部署至实际系统；与控制开发并列而非任选。"},
+    "N0470": {"state": "UNCONDITIONAL", "reason": "系统问题复现和回归验证、工具链建设及机器人系统部署验证为三个直接职责；任职要求的一个或多个知识方向不限制职责共同承担。"},
+    "N0577": {"state": "UNCONDITIONAL", "reason": "第4条控制适配优化、第5条物理样机部署均明确负责；第3条参与预研是另一项，不把参与升级为本人训练。", "object_caution": "ROBOT_PROTOTYPE_NOT_PROVEN_CUSTOMER_SITE"},
+    "N0611": {"state": "UNCONDITIONAL", "reason": "第2条直接负责sim2real真机部署及自动化部署工具开发，两项同句共同承担；实习身份不构成任选限制。", "object_caution": "ROBOT_PROTOTYPE_NOT_PROVEN_CUSTOMER_SITE"},
+    "N0614": {"state": "UNCONDITIONAL", "reason": "与N0611相同职责核心，第2条直接负责真机部署及自动化工具开发；不同广告身份分别保留。", "object_caution": "ROBOT_PROTOTYPE_NOT_PROVEN_CUSTOMER_SITE"},
+    "N0686": {"state": "UNCONDITIONAL", "reason": "后训练模型、框架开发与维护机器人及执行客户现场全栈部署均是Responsibilities，无方向任选；岗位概述也同时承担模型改进与现场交付。"},
+    "N0690": {"state": "UNCONDITIONAL", "reason": "回归测试实现、测试计划和故障排查、维护机器人分别为直接职责。testing and/or deployment描述排障场合，不构成两项职责二选一。"},
+    "N0691": {"state": "UNCONDITIONAL", "reason": "与N0690同正文而广告地点与身份不同；自动化测试、质量排障和机器人维护共同适用，地点不改变关系。"},
+    "N0851": {"state": "UNCONDITIONAL", "reason": "职位明示hybrid角色；生产级地图软件开发、生产部署和真机验证在同一职责组逐项列出，项目管理并不与这些职责互斥。"},
+    "N0867": {"state": "UNCONDITIONAL", "reason": "概述明确同一hands-on职位写审代码、写审政策并向审计方和客户证明合规。质量活动在此为安全合规，不应概括为制造质量。", "object_caution": "SECURITY_COMPLIANCE"},
+    "N0919": {"state": "UNCONDITIONAL", "reason": "自动化标定与辨识工具建设、机器人行为开发及生产机器人问题处置同时列为Responsibilities，并要求轮值支持生产；非任选方向。"}
+  }
+}

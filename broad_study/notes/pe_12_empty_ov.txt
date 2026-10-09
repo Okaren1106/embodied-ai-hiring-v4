@@ -1,0 +1,49 @@
+==== 2 E0146 TITLE 触觉/力觉传感工程师
+O10 TC_EVALUATION | GENERAL | UNCONDITIONAL | 标定
+DUTY 岗位定位 负责足底触觉、六维力、关节力矩、柔性压力阵列、接触检测和滑移检测等接触感知系统,使机器人获得可用于控制闭环和家庭交互的稳定接触信息。 核心职责 - 负责足底触觉、六维力、关节力矩、柔性压力阵列等接触传感方案设计和选型。 - 建立接触检测、滑移检测、力信号处理、滤波、标定、补偿和可靠性测试体系。 - 与机械团队协作完成传感器结构集成、安装方式、走线、防护和可维护性设计。 - 与状态估计、运动控制、嵌入式和测试团队协作,将接触信息转化为可用的控制输入。 - 输出传感器方案、标定报告、数据质量评估和接触感知问题清单。 
+REQ 任职要求 - 熟悉力传感器、压力传感器、柔性传感器、应变片、压阻/压电/电容式传感原理。 - 具备信号采集、滤波、标定、误差补偿和可靠性测试经验。 - 理解机器人接触状态、足底受力、滑移检测、冲击识别和力控反馈的工程需求。 - 具备Python/MATLAB/C++等数据处理和算法验证能力。 加分项 - 做过机器人足底传感、灵巧手触觉、六维力传感器、力矩传感器、电子皮肤、假肢或外骨骼传感。 - 熟悉柔性电子、MEMS、结构应变测量、传感器标定工装和长期稳定性测试。 - 有将触觉/力觉信号用于运动控制或抓取控制的项目经验。
+
+==== 9 E0356 TITLE Staff AI Engineer, Perception
+O18 TC_PERCEPTION | GENERAL | UNCONDITIONAL | computer vision
+DUTY As a technical lead, you will own the architecture and technical roadmap for object perception systems used by the robot in production Design, develop, and deploy machine learning algorithms for multi-object detection, scene understanding, and 6-DoF object pose estimation Evaluate and drive adoption of state-of-the-art perception models Promote best practices in architecture, design, and testing t
+REQ 5+ years of experience deploying machine learning-based object detection algorithms on mobile robots with at least 2 years of experience in a technical leadership role Master's or Ph.D. in Artificial Intelligence, Robotics, Computer Science, or a related discipline, with a strong foundation in machine learning, robotics, and intelligent systems Proficiency in related technical areas such as (but not limited to) deep convolutional neural networks, multi-object tracking, data association, supervis
+
+==== 11 E0488 TITLE Helix AI Engineer, Localization and Mapping
+O9 TC_SLAM | REQUIRED | UNCONDITIONAL | visual-inertial SLAM
+O14 TC_SLAM | PREFERRED | CHOICE | SLAM
+DUTY Architect and implement real-time localization, ego-motion tracking, and state estimation systems by fusing multi-modal sensor data (cameras, IMUs, encoders, magnetic sensors). Build and maintain scalable, offline pose-tracking pipelines to process large-scale training data from diverse sources. Develop and optimize multi-sensor calibration systems for humanoid robotics and data collection platfor
+REQ Deep technical expertise in solving complex estimation and nonlinear optimization problems. Strong command of 3D geometry, visual-inertial SLAM, and computer vision techniques, including feature matching/tracking, and Structure from Motion (SfM). Experience writing performant C++ software. Hands-on experience with sensor calibration (e.g., multi-camera and IMU intrinsics/extrinsics). Ability to thrive in a fast-paced, ambiguous environment that requires rapid exploration and iteration. Passion f
+
+==== 15 E0408 TITLE Senior Perception Learning Engineer
+O26 TC_ML_MODELS | GENERAL | UNCONDITIONAL | deep learning
+O27 TC_PERCEPTION | GENERAL | UNCONDITIONAL | computer vision
+O29 TC_SLAM | GENERAL | EXAMPLE | SLAM
+O33 TC_PERCEPTION | PREFERRED | UNCONDITIONAL | computer vision
+O34 TC_ML_MODELS | PREFERRED | UNCONDITIONAL | deep learning
+DUTY As a Senior Perception Learning Engineer, you will lead research and development of advanced perception systems that empower Apptronik’s humanoid robots to understand and interact with complex human environments. Your work will focus on cutting-edge research in perception, SLAM, object detection, world modeling, and multi-sensor fusion, creating the foundation for robust autonomy in real-world set
+REQ 
+
+==== 18 E0117 TITLE 感知算法工程师
+O4 SK_ROS | GENERAL | UNRESOLVED | ROS
+DUTY 1. 开发通用、高效、抗干扰的2D/3D视觉算法,重点攻克在工业强光、反光、弱纹理等环境下的高精度检测、分割、配准与实时三维重建,为机器人的运动规划提供毫米级的环境几何信息。 2. 主导6D位姿估计与手眼标定算法的设计与实现,针对无序分拣、精密装配任务,复现并优化前沿算法,解决遮挡、接触丰富场景下的稳定抓取与操作难题。 3.负责具身落地项目中的大规模仿真数据合成管线、视觉任务自动标注管线、自动化视觉评测体系搭建。
+REQ 1.  计算机视觉相关领域的硕士或博士,拥有3年以上机器人、自动驾驶、工业检测等工作经验。 2. 具有扎实的数学功底(线性代数、李群李代数、非线性优化、多视图几何),具备在机器人上部署2D/3D视觉引导的抓取算法经验。 3.  精通2D/3D视觉技术栈与工程落地,熟练使用Python/C++,熟悉PyTorch分布式训练,熟练掌握ROS/ROS2,PCL、Open3D、OpenCV、Eigen技术栈。 4.加分项: *   在相关领域的顶级会议或期刊(如CVPR, ICCV, ECCV, CoRL, ICRA, RSS, NeurIPS等)有影响力论文发表,特别是3D Vision for Robotics、Sim-to-Real、6D Pose Estimation方向。 *   交付过工业视觉项目,对机器人软硬件整体架构有深入理解。
+
+==== 40 E0150 TITLE 状态估计/传感器融合工程师
+O3 SK_ROS | PREFERRED | UNRESOLVED | ROS
+O14 TC_SLAM | GENERAL | CHOICE | SLAM
+DUTY 岗位定位 负责机器人IMU、编码器、足端力、视觉/深度等多源传感器方案选型、标定和融合,为运动控制和家庭场景感知提供稳定可靠的状态输入。 核心职责 - 负责IMU、编码器、足端力/触觉、视觉/深度等传感器选型、接口定义和标定流程。 - 建立机器人姿态、速度、接触状态、足底受力等状态估计算法。 - 开发传感器数据同步、滤波、异常检测、标定补偿和融合模块。 - 与运动控制、触觉/力觉、嵌入式和测试团队协作,提供可用于控制闭环的稳定状态信号。 - 输出标定文档、数据质量评估、传感器误差模型和融合效果报告。 
+REQ 任职要求 - 熟悉EKF/UKF、惯性导航、SLAM或机器人状态估计。 - 熟悉IMU、编码器、深度相机、力传感器、足端接触传感器等至少两类传感器。 - 具备C++/Python开发能力,能够完成算法验证、数据分析和工程部署。 - 理解状态估计服务于运动控制闭环,而不仅是单纯感知。 加分项 - 做过四足机器人、双足机器人、无人机、自动驾驶、惯导、机器人SLAM或多传感器融合。 - 熟悉ROS/ROS2、Pinocchio、MuJoCo、Isaac Sim、机器人日志系统或数据回放工具。 - 有真机调试经验,能处理传感器噪声、漂移、延迟和异常数据。
+
+==== 41 E0409 TITLE Senior Perception Learning Engineer - SLAM
+O11 TC_PERCEPTION | DUTY_OWN_DEVELOP | UNCONDITIONAL | multi-sensor fusion
+O25 TC_SLAM | GENERAL | UNCONDITIONAL | SLAM
+O29 TC_PERCEPTION | GENERAL | CHOICE | perception
+O30 TC_SLAM | GENERAL | CHOICE | SLAM
+O36 TC_PERCEPTION | PREFERRED | UNCONDITIONAL | computer vision
+DUTY You will drive research and development of advanced perception systems that empower Apptronik's humanoid robots to understand and interact with complex human environments. Your work will focus heavily on SLAM, visual-inertial odometry, world modeling, and learning-based perception , alongside object detection and multi-sensor fusion, creating the foundation for robust autonomy in real-world settin
+REQ 
+
+==== 47 E0565 TITLE State Estimation Engineer - Data Collection Systems
+O16 TC_EVALUATION | PREFERRED | UNRESOLVED | calibration
+DUTY Design and implement dual-tier state estimation algorithms in modern C++: low-latency, real-time filters for streaming teleoperation and batch optimization/smoothing routines for high-accuracy offline dataset generation. Own and develop subject-calibration procedures, designing rapid, intuitive routines to estimate individual body segment dimensions, joint offsets, and sensor-to-body extrinsics wh
+REQ 4+ years of experience building multi-sensor fusion and state estimation solutions for dynamic hardware systems. Hands-on expertise with both real-time filtering techniques ((E)KFs, sliding-window estimators) and offline batch optimization tools (Factor Graphs, GTSAM, Ceres, Non-Linear Least Squares). Proven capability to design fast, reliable calibration, zeroing, and alignment workflows for multi-sensor suites and kinematic models. Deep mathematical foundation in 3D spatial kinematics, Lie gro

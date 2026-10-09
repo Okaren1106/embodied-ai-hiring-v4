@@ -1,0 +1,29 @@
+[
+  {
+    "id": "F1_cross_function_activity",
+    "title": "跨职能活动分布",
+    "caption": "本人承担研究/部署/质量活动按主职能拆分。结构类与未明确单列。",
+    "png": "charts/F1_cross_function_activity.png",
+    "svg": "charts/F1_cross_function_activity.svg",
+    "plot_data": "tables/F1_cross_function_activity_plot_data.csv",
+    "source_table": "D2_role_activity_bidirectional.csv"
+  },
+  {
+    "id": "F2_same_function_galbot_figure",
+    "title": "共同职能内活动率",
+    "caption": "仅共同覆盖且每职能至少10条可判读广告。统一权重不替代全公司结果。",
+    "png": "charts/F2_same_function_galbot_figure.png",
+    "svg": "charts/F2_same_function_galbot_figure.svg",
+    "plot_data": "tables/F2_same_function_galbot_figure_plot_data.csv",
+    "source_table": "D3_unified_weight_cases.csv"
+  },
+  {
+    "id": "F3_deployment_composition_vs_activity",
+    "title": "部署职能与部署活动",
+    "caption": "FAR 在全24中展示。整公司解释以23家为主。",
+    "png": "charts/F3_deployment_composition_vs_activity.png",
+    "svg": "charts/F3_deployment_composition_vs_activity.svg",
+    "plot_data": "tables/F3_deployment_composition_vs_activity_plot_data.csv",
+    "source_table": "D3_deployment_composition.csv"
+  }
+]

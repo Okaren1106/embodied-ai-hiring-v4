@@ -1,0 +1,109 @@
+{
+  "status": "REPAIRED_AND_EVIDENCE_INTEGRATED_PENDING_INDEPENDENT_ACCEPTANCE",
+  "stage_b_complete": false,
+  "stage_c_started": false,
+  "run": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_evidence_integrated\\run_20260915T064258Z",
+  "previous_candidate": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_targeted\\run_20260915T030000Z",
+  "self_check": {
+    "pass": 53,
+    "total": 53
+  },
+  "fault_probes": {
+    "pass": 22,
+    "total": 22,
+    "positive_control": true
+  },
+  "node": {
+    "n_checks": 23,
+    "n_pass": 23,
+    "n_fail": 0
+  },
+  "browser": {
+    "pass": 16,
+    "total": 16
+  },
+  "prior_audit_regression": {
+    "n_checks": 36,
+    "n_pass": 36,
+    "n_fail": 0
+  },
+  "six_tables_identical": true,
+  "protected_originals_unchanged": 2003,
+  "data": {
+    "tables": {
+      "company_facts": 667,
+      "company_evidence": 102,
+      "evidence_links": 440,
+      "capital_events": 24,
+      "company_gaps": 307,
+      "company_group_mapping": 301,
+      "company_profile": 24
+    },
+    "unique_source_urls": 88,
+    "review_cards": 16,
+    "new_evidence_vs_targeted": 15,
+    "fact_rows_added": 11,
+    "existing_fact_rows_changed": 42,
+    "changed_companies": [
+      "CN_ASTRIBOT",
+      "CN_FOURIER",
+      "CN_NOETIX",
+      "CN_SPIRITAI",
+      "US_AGILITY",
+      "US_AMAZON_FTR",
+      "US_BOSTON_DYNAMICS",
+      "US_FIGURE"
+    ],
+    "strict_coverage": {
+      "product_lines": 23,
+      "delivery_form": 19,
+      "target_markets": 20
+    },
+    "all_three": 17,
+    "none_three": [
+      "US_AMAZON_FTR"
+    ],
+    "excluded_per_dimension": {
+      "product_lines": [
+        "US_AMAZON_FTR"
+      ],
+      "delivery_form": [
+        "CN_AGIBOT",
+        "CN_DEEPROBOTICS",
+        "CN_LIMX",
+        "CN_SPIRITAI",
+        "US_AMAZON_FTR"
+      ],
+      "target_markets": [
+        "CN_AGIBOT",
+        "CN_GALAXEA",
+        "CN_UNITREE",
+        "US_AMAZON_FTR"
+      ]
+    },
+    "gap_status": {
+      "RESOLVED_FOUND": 161,
+      "NOT_YET_SEARCHED": 89,
+      "RESOLVED_PARTIAL": 37,
+      "NOT_FOUND_NOT_DEFINITE": 14,
+      "RESOLVED_NOT_APPLICABLE": 4,
+      "RESOLVED_BY_SEPARATION_RULE": 1,
+      "DEFERRED_TO_STAGE_B_BATCH_2": 1
+    },
+    "web_extract_review_cards": [
+      "IR_NOETIX_02",
+      "IR_NOETIX_03",
+      "IR_SPIRITAI_02",
+      "IR_SPIRITAI_03",
+      "IR_FAR_02",
+      "IR_FIGURE_02",
+      "IR_FOURIER_01",
+      "IR_FOURIER_02",
+      "IR_ASTRIBOT_01"
+    ],
+    "source_status_downgrade_only": [
+      "F_US_FIGURE__capital_event_figure_series_b"
+    ]
+  },
+  "limitation": "9张审阅卡采用WEB_TOOL_EXTRACT归档，未冒称保存原网页HTTP字节；现有完整原件仍保留。"
+}

@@ -1,0 +1,540 @@
+{
+  "company_id": "CN_NOETIX",
+  "observation_date": "2026-08-31",
+  "observation_waves": [
+    "2026-08-31"
+  ],
+  "research_subject": "松延动力（Noetix Robotics）整公司",
+  "entity_note": "r3 sample CN_NOETIX is Noetix Robotics / Songyan. Official site noetixrobotics.com. Prior wrong-company binding withdrawn; see WITHDRAWN_FACTS.md.",
+  "company_name_en": "Noetix Robotics",
+  "company_name_cn": "松延动力",
+  "country": "China",
+  "website": "https://www.noetixrobotics.com/",
+  "founded_year_inherited": "2023",
+  "headquarters_inherited": "Beijing",
+  "hiring_source_url": "https://www.noetixrobotics.com/recruitment/jobs?type=social",
+  "ats_provider": "self-built",
+  "n_ads_inherited": 13,
+  "inherited_evidence_ids": [
+    "E_CN_019",
+    "E_CN_020"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "B_CN_NOETIX_001",
+      "record_kind": "STAGE_B_NEW",
+      "field": "legal_entity_name / hq / founded / product_lines",
+      "claim": "松延动力官网 schema.org Organization：法定名称为北京松延动力科技集团股份有限公司，别名 Noetix / 松延动力，成立 2023，地址北京市昌平区小汤山镇未来科学城滨河大道 3 号院未来视界 1 号楼 (B 座)；公司定位为人形机器人与具身智能",
+      "quote": "北京松延动力科技集团股份有限公司 (Noetix Robotics) 是一家专注于人形机器人与具身智能的科技企业... foundingDate: 2023 ... 北京市昌平区小汤山镇未来科学城滨河大道 3 号院未来视界 1 号楼 (B 座)",
+      "quote_locator": "首页 JSON-LD Organization 块",
+      "source_title": "北京松延动力科技集团股份有限公司官网",
+      "publisher": "Noetix Robotics / 松延动力",
+      "source_nature": "OFFICIAL_COMPANY",
+      "url": "https://www.noetixrobotics.com/",
+      "publication_date": "",
+      "event_date": "2023",
+      "event_date_precision": "YEAR",
+      "retrieved_at": "2026-09-15",
+      "date_precision": "YEAR",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "access_status": "OK",
+      "snapshot_id": "noetix_official_home",
+      "linked_inherited_evidence": [
+        "E_CN_019"
+      ],
+      "relation_to_inherited": "RESOLVES_INHERITED_UNKNOWN",
+      "note": "替代已撤回的wrong-company wrong-company 访谈。官网无发布日，成立年按 foundingDate=2023 记录；当前产品名以页面可见家族名为准。"
+    },
+    {
+      "evidence_id": "B_CN_NOETIX_002",
+      "record_kind": "STAGE_B_NEW",
+      "field": "capital（1B RMB 标题线索）",
+      "claim": "英文行业媒体标题：春节联欢晚会亮相两周后 Noetix Robotics 获得 10 亿元人民币融资",
+      "quote": "Two Weeks After Spring Festival Gala \"Debut,\" Noetix Robotics Secures 1B RMB: Is This the \"Price Disruptor\" of Embodied AI?",
+      "quote_locator": "标题",
+      "source_title": "Two Weeks After Spring Festival Gala \"Debut,\" Noetix Robotics Secures 1B RMB",
+      "publisher": "OFweek（英文站）",
+      "source_nature": "MEDIA",
+      "url": "https://en.ofweek.com/ofweek-news/detail/two-weeks-after-spring-festival-gala-debut-noetix-robotics-secures-1b-rmb-is-this-price-disruptor-of.html",
+      "publication_date": "",
+      "event_date": "",
+      "event_date_precision": "NONE",
+      "retrieved_at": "2026-09-15",
+      "date_precision": "NONE",
+      "claim_nature": "MEDIA_STATEMENT",
+      "access_status": "OK",
+      "snapshot_id": "noetix_funding_1b",
+      "linked_inherited_evidence": [],
+      "relation_to_inherited": "",
+      "note": "标题级线索，主体英文名为 Noetix Robotics，与本样本一致；无发布日与轮次，不建观察日可用资本行。"
+    },
+    {
+      "evidence_id": "IR_NOETIX_01",
+      "record_kind": "STAGE_B_NEW",
+      "field": "见逐条事实—证据关系",
+      "claim": "交易对方明确描述松延的人形机器人本体及仿生人脸研发、制造、销售业务。可支持产品大类和硬件提供形态；不是某型号成交、付费或交付数量证明。",
+      "quote": "manufacturing and sales of humanoid robot bodies and bionic human-like faces",
+      "quote_locator": "PDF 第1页公司业务介绍段及文末签署日期",
+      "source_title": "首程控股：北京机器人基金投资松延动力",
+      "publisher": "首程控股，经港交所披露",
+      "source_nature": "REGULATORY_OR_EXCHANGE",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0902/2025090201606.pdf",
+      "publication_date": "2025-09-02",
+      "event_date": "",
+      "event_date_precision": "NONE",
+      "date_precision": "DAY",
+      "retrieved_at": "2026-09-15T04:22:06.454991+00:00",
+      "claim_nature": "REGULATORY_FILING",
+      "access_status": "OK",
+      "snapshot_id": "IR_NOETIX_01",
+      "linked_inherited_evidence": [],
+      "relation_to_inherited": "INDEPENDENT_SUPPLEMENT",
+      "note": " 投资公告说近日完成；不将公告日补成实际成交日。业务介绍以公告时点为准。 交易对方明确描述松延的人形机器人本体及仿生人脸研发、制造、销售业务。可支持产品大类和硬件提供形态；不是某型号成交、付费或交付数量证明。 原件从上轮独立补查归档复制并复核哈希。"
+    },
+    {
+      "evidence_id": "IR_NOETIX_02",
+      "record_kind": "STAGE_B_NEW",
+      "field": "见逐条事实—证据关系",
+      "claim": "参与组织活动的区经信局确认松延向琉璃庙镇中心小学捐赠交付两台 BUMI。可支持具名机构交付、教育场景和该型号；必须标 DONATION，不能推为付费客户、购买订单或商业收入。",
+      "quote": "无偿交付两台人形具身智能机器人 BUMI",
+      "quote_locator": "日期、来源行及正文首段",
+      "source_title": "松延动力智能机器人公益赋能怀柔山区教育",
+      "publisher": "怀柔区经济和信息化局",
+      "source_nature": "GOVERNMENT_OR_STANDARDS",
+      "url": "https://www.bjhr.gov.cn/zjhr/tzhr/gyxxh/202607/t20260703_4745938.html",
+      "publication_date": "2026-07-03",
+      "event_date": "2026-06-30",
+      "event_date_precision": "DAY",
+      "date_precision": "DAY",
+      "retrieved_at": "2026-09-15 06:44:19 UTC",
+      "claim_nature": "COUNTERPARTY_STATEMENT",
+      "access_status": "OK",
+      "snapshot_id": "IR_NOETIX_02",
+      "linked_inherited_evidence": [],
+      "relation_to_inherited": "INDEPENDENT_SUPPLEMENT",
+      "note": "  参与组织活动的区经信局确认松延向琉璃庙镇中心小学捐赠交付两台 BUMI。可支持具名机构交付、教育场景和该型号；必须标 DONATION，不能推为付费客户、购买订单或商业收入。 WEB_TOOL_EXTRACT 的正文/工具记录哈希不代表原网页字节；原始 HTTP 字节未取得。"
+    },
+    {
+      "evidence_id": "IR_NOETIX_03",
+      "record_kind": "STAGE_B_NEW",
+      "field": "见逐条事实—证据关系",
+      "claim": "校友采访描述 E1、N2、Hobbs。创始人的订单、价格等说法仍属受访者自述；不把采访当交易验收。",
+      "quote": "发布时间：2025-11-12",
+      "quote_locator": "发布时间及产品介绍段",
+      "source_title": "AI时代的清华电子力量：松延动力姜哲源",
+      "publisher": "清华大学电子工程系",
+      "source_nature": "RESEARCH_INSTITUTION",
+      "url": "https://www.ee.tsinghua.edu.cn/info/1076/4958.htm",
+      "publication_date": "2025-11-12",
+      "event_date": "2025",
+      "event_date_precision": "YEAR",
+      "date_precision": "YEAR",
+      "retrieved_at": "2026-09-15 06:44:23 UTC",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "access_status": "OK",
+      "snapshot_id": "IR_NOETIX_03",
+      "linked_inherited_evidence": [],
+      "relation_to_inherited": "INDEPENDENT_SUPPLEMENT",
+      "note": "  校友采访描述 E1、N2、Hobbs。创始人的订单、价格等说法仍属受访者自述；不把采访当交易验收。 WEB_TOOL_EXTRACT 的正文/工具记录哈希不代表原网页字节；原始 HTTP 字节未取得。"
+    }
+  ],
+  "facts": [
+    {
+      "field": "legal_entity_name",
+      "value": "北京松延动力科技集团股份有限公司（官方 schema.org；英文 Noetix Robotics）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_CN_NOETIX_001"
+      ],
+      "decision_reason": "官网 Organization.name"
+    },
+    {
+      "field": "research_subject",
+      "value": "松延动力（Noetix Robotics）整公司；人形机器人与具身智能",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_CN_NOETIX_001"
+      ],
+      "decision_reason": "官网描述与 r3 招聘主体一致"
+    },
+    {
+      "field": "hq_or_team_location",
+      "value": "北京市昌平区小汤山镇未来科学城滨河大道 3 号院未来视界 1 号楼 (B 座)",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_CN_NOETIX_001"
+      ],
+      "decision_reason": "官网 address"
+    },
+    {
+      "field": "founded_or_team_start_date",
+      "value": "2023（官网 foundingDate）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "evidence_ids": [
+        "B_CN_NOETIX_001"
+      ],
+      "decision_reason": "schema.org foundingDate=2023，年到年"
+    },
+    {
+      "field": "parent_relationship",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未对母公司命题做独立检索，保持未查"
+    },
+    {
+      "field": "own_listing_status",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未检索上市或申报披露"
+    },
+    {
+      "field": "parent_listing_status",
+      "value": "",
+      "value_status": "NOT_APPLICABLE",
+      "research_status": "NOT_APPLICABLE",
+      "evidence_ids": [],
+      "decision_reason": "无已确立母公司命题"
+    },
+    {
+      "field": "hiring_board_channel",
+      "value": "官方自建招聘页（继承 URL：noetixrobotics.com/recruitment/jobs）",
+      "value_status": "INHERITED_UNVERIFIED",
+      "evidence_ids": [],
+      "decision_reason": "渠道沿用 r3，本轮未重采岗位"
+    },
+    {
+      "field": "observation_coverage",
+      "value": "2026-08-31 单波次，13 条广告（继承）",
+      "value_status": "INHERITED_UNVERIFIED",
+      "evidence_ids": [],
+      "decision_reason": "广告数与波次来自冻结参考"
+    },
+    {
+      "field": "product_lines",
+      "value": "人形机器人本体与仿生人脸产品；BUMI 人形机器人已用于学校捐赠",
+      "value_status": "COUNTERPARTY_CONFIRMATION",
+      "evidence_ids": [
+        "IR_NOETIX_01",
+        "IR_NOETIX_02"
+      ],
+      "decision_reason": "投资方披露支持产品大类；捐赠组织方确认 BUMI 型号。",
+      "research_status": "SEARCHED_FOUND",
+      "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+      "product_or_business_scope": "松延整公司产品；BUMI单独交付",
+      "event_or_period": "",
+      "note": ""
+    },
+    {
+      "field": "delivery_form",
+      "value": "机器人硬件制造与销售业务（投资方披露，未给某笔销售合同）",
+      "value_status": "COUNTERPARTY_CONFIRMATION",
+      "evidence_ids": [
+        "IR_NOETIX_01"
+      ],
+      "decision_reason": "投资方明确制造与销售业务；不证明收入金额或具体订单。",
+      "research_status": "SEARCHED_FOUND",
+      "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+      "product_or_business_scope": "",
+      "event_or_period": "",
+      "note": ""
+    },
+    {
+      "field": "target_markets",
+      "value": "中小学教育与 AI 教学（具名学校 BUMI 捐赠场景）",
+      "value_status": "COUNTERPARTY_CONFIRMATION",
+      "evidence_ids": [
+        "IR_NOETIX_02"
+      ],
+      "decision_reason": "教育场景有具名接收方；不外推市场规模。",
+      "research_status": "SEARCHED_FOUND",
+      "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+      "product_or_business_scope": "BUMI",
+      "event_or_period": "",
+      "note": ""
+    },
+    {
+      "field": "named_customers_or_partners",
+      "value": "",
+      "value_status": "SEARCHED_NOT_FOUND",
+      "research_status": "SEARCHED_NOT_FOUND",
+      "evidence_ids": [],
+      "decision_reason": "本轮打开官网未取得具名客户"
+    },
+    {
+      "field": "deployment_status_actual",
+      "value": "2026-06-30 无偿交付两台 BUMI 至北京市怀柔区琉璃庙镇中心小学；未取得后续持续运行资料",
+      "value_status": "COUNTERPARTY_CONFIRMATION",
+      "research_status": "SEARCHED_FOUND",
+      "evidence_ids": [
+        "IR_NOETIX_02"
+      ],
+      "decision_reason": "活动组织方确认交付；接收方不是由此确立的付费客户。",
+      "assertion_kind": "DONATION",
+      "product_or_business_scope": "BUMI / 琉璃庙镇中心小学",
+      "event_or_period": "2026-06-30",
+      "note": ""
+    },
+    {
+      "field": "evidence_demo",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未检索独立演示清单"
+    },
+    {
+      "field": "evidence_loi_intent",
+      "value": "",
+      "value_status": "NOT_APPLICABLE",
+      "research_status": "NOT_APPLICABLE",
+      "evidence_ids": [],
+      "decision_reason": "未发现意向书材料"
+    },
+    {
+      "field": "evidence_internal_test",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未检索内部测试记录"
+    },
+    {
+      "field": "evidence_external_pilot",
+      "value": "",
+      "value_status": "SEARCHED_NOT_FOUND",
+      "research_status": "SEARCHED_NOT_FOUND",
+      "evidence_ids": [],
+      "decision_reason": "官网未给外部试点"
+    },
+    {
+      "field": "evidence_production_shipment",
+      "value": "",
+      "value_status": "SEARCHED_NOT_FOUND",
+      "research_status": "SEARCHED_NOT_FOUND",
+      "evidence_ids": [],
+      "decision_reason": "官网未给出货数字"
+    },
+    {
+      "field": "evidence_customer_delivery",
+      "value": "2026-06-30 无偿交付两台 BUMI 至北京市怀柔区琉璃庙镇中心小学；未取得后续持续运行资料",
+      "value_status": "COUNTERPARTY_CONFIRMATION",
+      "research_status": "SEARCHED_FOUND",
+      "evidence_ids": [
+        "IR_NOETIX_02"
+      ],
+      "decision_reason": "活动组织方确认交付；接收方不是由此确立的付费客户。",
+      "assertion_kind": "DONATION",
+      "product_or_business_scope": "BUMI / 琉璃庙镇中心小学",
+      "event_or_period": "2026-06-30",
+      "note": ""
+    },
+    {
+      "field": "evidence_paid",
+      "value": "",
+      "value_status": "SEARCHED_NOT_FOUND",
+      "research_status": "SEARCHED_NOT_FOUND",
+      "evidence_ids": [],
+      "decision_reason": "本次证据仅确立捐赠与销售业务介绍，未取得对应付款确认；未知不等于未付费。",
+      "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+      "product_or_business_scope": "",
+      "event_or_period": "",
+      "note": ""
+    },
+    {
+      "field": "evidence_repeat_order",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未检索重复订单"
+    },
+    {
+      "field": "evidence_sustained_use",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未检索持续使用"
+    },
+    {
+      "field": "latest_financing_disclosed",
+      "value": "第三方标题称 Noetix Robotics 获 10 亿元人民币融资；无轮次、无发布日，不作为观察日可用资本事件",
+      "value_status": "MEDIA_STATEMENT",
+      "evidence_ids": [
+        "B_CN_NOETIX_002"
+      ],
+      "decision_reason": "仅标题级线索"
+    },
+    {
+      "field": "latest_financing_at_observation",
+      "value": "",
+      "value_status": "DATE_UNKNOWN",
+      "research_status": "SEARCHED_NOT_FOUND",
+      "evidence_ids": [
+        "B_CN_NOETIX_002"
+      ],
+      "decision_reason": "缺发布日，不能凭标题进入观察日比较"
+    },
+    {
+      "field": "ma_events",
+      "value": "",
+      "value_status": "NOT_YET_SEARCHED",
+      "research_status": "NOT_YET_SEARCHED",
+      "evidence_ids": [],
+      "decision_reason": "本轮未针对并购作检索"
+    },
+    {
+      "field": "product_lines",
+      "value": "E1、N2、Hobbs 产品介绍（清华校友采访中的公司陈述）",
+      "value_status": "COMPANY_SELF_REPORT",
+      "research_status": "SEARCHED_FOUND",
+      "evidence_ids": [
+        "IR_NOETIX_03"
+      ],
+      "decision_reason": "受访者产品介绍，不将订单和租赁回本说法当成交验收。",
+      "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+      "product_or_business_scope": "E1/N2/Hobbs",
+      "event_or_period": "",
+      "note": ""
+    },
+    {
+      "field": "delivery_form",
+      "value": "向琉璃庙镇中心小学无偿捐赠交付两台 BUMI",
+      "value_status": "COUNTERPARTY_CONFIRMATION",
+      "research_status": "SEARCHED_FOUND",
+      "evidence_ids": [
+        "IR_NOETIX_02"
+      ],
+      "decision_reason": "捐赠，不是销售或付费客户。",
+      "assertion_kind": "DONATION",
+      "product_or_business_scope": "BUMI / 琉璃庙镇中心小学",
+      "event_or_period": "2026-06-30",
+      "note": ""
+    },
+    {
+      "field": "legal_entity_name",
+      "value": "2025-09-02 投资公告记为松延动力（北京）科技有限公司；与当前官网股份公司名称分期保留",
+      "value_status": "COUNTERPARTY_CONFIRMATION",
+      "research_status": "SEARCHED_FOUND",
+      "evidence_ids": [
+        "IR_NOETIX_01"
+      ],
+      "decision_reason": "只说明公告当时所称法律实体，不推断后续改制日期。",
+      "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+      "product_or_business_scope": "投资公告历史主体",
+      "event_or_period": "2025-09-02",
+      "note": ""
+    }
+  ],
+  "relations": [
+    {
+      "fact": "legal_entity_name",
+      "evidence": "B_CN_NOETIX_001",
+      "role": "SUPPORTS",
+      "review_note": "官网法定名称"
+    },
+    {
+      "fact": "research_subject",
+      "evidence": "B_CN_NOETIX_001",
+      "role": "SUPPORTS",
+      "review_note": "官网定位"
+    },
+    {
+      "fact": "hq_or_team_location",
+      "evidence": "B_CN_NOETIX_001",
+      "role": "SUPPORTS",
+      "review_note": "官网地址"
+    },
+    {
+      "fact": "founded_or_team_start_date",
+      "evidence": "B_CN_NOETIX_001",
+      "role": "SUPPORTS",
+      "review_note": "foundingDate 2023"
+    },
+    {
+      "fact": "latest_financing_disclosed",
+      "evidence": "B_CN_NOETIX_002",
+      "role": "SUPPORTS",
+      "review_note": "标题级融资线索"
+    },
+    {
+      "fact": "latest_financing_at_observation",
+      "evidence": "B_CN_NOETIX_002",
+      "role": "CONTEXT_ONLY",
+      "review_note": "无发布日，不定观察日资格"
+    },
+    {
+      "fact": "product_lines",
+      "fact_seq": 1,
+      "evidence": "IR_NOETIX_01",
+      "role": "SUPPORTS",
+      "review_note": "投资方披露支持产品大类；捐赠组织方确认 BUMI 型号。"
+    },
+    {
+      "fact": "product_lines",
+      "fact_seq": 1,
+      "evidence": "IR_NOETIX_02",
+      "role": "SUPPORTS",
+      "review_note": "投资方披露支持产品大类；捐赠组织方确认 BUMI 型号。"
+    },
+    {
+      "fact": "product_lines",
+      "fact_seq": 2,
+      "evidence": "IR_NOETIX_03",
+      "role": "SUPPORTS",
+      "review_note": "受访者产品介绍，不将订单和租赁回本说法当成交验收。"
+    },
+    {
+      "fact": "delivery_form",
+      "fact_seq": 1,
+      "evidence": "IR_NOETIX_01",
+      "role": "SUPPORTS",
+      "review_note": "投资方明确制造与销售业务；不证明收入金额或具体订单。"
+    },
+    {
+      "fact": "delivery_form",
+      "fact_seq": 2,
+      "evidence": "IR_NOETIX_02",
+      "role": "SUPPORTS",
+      "review_note": "捐赠，不是销售或付费客户。"
+    },
+    {
+      "fact": "target_markets",
+      "fact_seq": 1,
+      "evidence": "IR_NOETIX_02",
+      "role": "SUPPORTS",
+      "review_note": "教育场景有具名接收方；不外推市场规模。"
+    },
+    {
+      "fact": "deployment_status_actual",
+      "fact_seq": 1,
+      "evidence": "IR_NOETIX_02",
+      "role": "SUPPORTS",
+      "review_note": "活动组织方确认交付；接收方不是由此确立的付费客户。"
+    },
+    {
+      "fact": "evidence_customer_delivery",
+      "fact_seq": 1,
+      "evidence": "IR_NOETIX_02",
+      "role": "SUPPORTS",
+      "review_note": "活动组织方确认交付；接收方不是由此确立的付费客户。"
+    },
+    {
+      "fact": "legal_entity_name",
+      "fact_seq": 2,
+      "evidence": "IR_NOETIX_01",
+      "role": "SUPPORTS",
+      "review_note": "只说明公告当时所称法律实体，不推断后续改制日期。"
+    }
+  ],
+  "capital_events": [],
+  "extra_notes": [
+    "原 B_CN_NOETIX_001 wrong-company wrong-company 访谈已撤回，不进入事实或比较。",
+    "OFweek 1B RMB 仅标题线索，不建资本事件行。",
+    "上一轮 8 条错绑事实、7 条严格组、6 项缺口映射随主体纠正一并作废。"
+  ]
+}

@@ -1,0 +1,234 @@
+"""First-pass adjudication for control-planning coding_order 33-48. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+HRI={
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MANIPULATION","fine_task":"HRI_MOTION","secondary_task":"",
+ "task_evidence":"将数字人动作生成逻辑转化为机器人可执行的关节轨迹/行为指令，兼顾运动学约束与交互自然性。",
+ "new":{
+  "1":R+"量化评估交互自然度不是模型压缩量化。",
+  "2":O+"SMPL未单列冻结项。",
+  "3":O+"SMPL-X未单列冻结项。",
+  "4":O+"FLAME未单列冻结项。",
+  "5":[["V2_BLENDER","GENERAL","CHOICE"],["V2_UNITY","GENERAL","CHOICE"],["V2_UNREAL","GENERAL","CHOICE"]],
+  "6":"DUPLICATE:RID:5",
+  "7":"DUPLICATE:RID:5",
+  "8":"DUPLICATE:RID:5",
+  "9":O+"PyTorch3D未单列冻结项。",
+  "10":[["V2_SIM2REAL","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"人机交互。量化评估拒收压缩。"
+}
+def hri(rid):
+ d=dict(HRI);d['new']=dict(HRI['new'])
+ d['new']['6']='DUPLICATE:%s:5'%rid
+ d['new']['7']='DUPLICATE:%s:5'%rid
+ d['new']['8']='DUPLICATE:%s:5'%rid
+ return d
+FORCE={
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MANIPULATION","fine_task":"FORCE_INDUSTRIAL","secondary_task":"",
+ "task_evidence":"实现基于力/触觉的柔顺控制，完成装配、插拔、打磨等精密操作。",
+ "new":{
+  "1":[["V2_MOVEIT","GENERAL","EXAMPLE"],["V2_OMPL","GENERAL","EXAMPLE"]],
+  "2":"DUPLICATE:RID:1",
+  "3":"DUPLICATE:RID:1",
+  "4":[["V2_TELEOP","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"力控操作。C++/Python不记C。"
+}
+def force(rid):
+ d=dict(FORCE);d['new']=dict(FORCE['new'])
+ d['new']['2']='DUPLICATE:%s:1'%rid
+ d['new']['3']='DUPLICATE:%s:1'%rid
+ return d
+CCPY={
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"NAV_PLANNING","fine_task":"WHOLE_BODY_PLANNING","secondary_task":"",
+ "task_evidence":"参与机器人整身规划软件的框架设计及开发",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"]],
+  "2":"DUPLICATE:RID:1",
+  "3":O+"Webots未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"C/C++/Python按C未解。"
+}
+def ccpy(rid, task, fine, evidence):
+ d=dict(CCPY);d['new']=dict(CCPY['new']);d['new']['2']='DUPLICATE:%s:1'%rid
+ d.update(task=task,fine_task=fine,task_evidence=evidence)
+ return d
+SIMCAL={
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MANIPULATION","fine_task":"DUAL_ARM_PLANNING","secondary_task":"NAV_PLANNING",
+ "task_evidence":"攻克Sim2Real Gap难题",
+ "new":{
+  "1":[["V2_SIM2REAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CALIBRATION","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":R+"Python/C++不是C语言。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"规控双臂。Sim2Real/标定保留。"
+}
+decisions={
+"N0003":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LOCOMOTION_WBC","fine_task":"LEGGED_RL","secondary_task":"",
+ "task_evidence":"研发基于深度强化学习的足式机器人运动控制算法",
+ "new":{
+  "1":R+"C++不是C语言。",
+  "2":[["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"人形强化学习控制。"
+},
+"N0044":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LOCOMOTION_WBC","fine_task":"LEGGED_RL_INTERN","secondary_task":"",
+ "task_evidence":"研发基于深度强化学习的足式机器人运动控制算法",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"足式强化学习实习。无新候选。"
+},
+"N0142":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MANIPULATION","fine_task":"DUAL_ARM_PLANNING","secondary_task":"NAV_PLANNING",
+ "task_evidence":"负责人形机器人的整体运动规划算法应用及测试，包括手臂运动规划、双臂协同、力控等算法的开发与优化",
+ "new":{
+  "1":[["V2_PATH_SEARCH","GENERAL","EXAMPLE"]],
+  "2":"DUPLICATE:N0142:1",
+  "3":"DUPLICATE:N0142:1",
+  "4":"DUPLICATE:N0142:1",
+  "5":[["V2_OMPL","GENERAL","CHOICE"]],
+  "6":"DUPLICATE:N0142:5",
+  "7":O+"TrajOpt未单列冻结项。",
+  "8":O+"Chomp未单列冻结项。",
+  "9":O+"Curobo未单列冻结项。",
+  "10":R+"C++不是C语言。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"规控苏州。OMPL/A*/RRT保留。"
+},
+"N0033":ccpy("N0033","NAV_PLANNING","INDUSTRIAL_PLANNING","负责机器人现场实施、调试。"),
+"N0025":force("N0025"),
+"N0144":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MANIPULATION","fine_task":"ARM_PLANNING_APP","secondary_task":"",
+ "task_evidence":"开发和优化机械臂基础运动规划算法，包括轨迹生成、路径规划、避障与执行稳定性优化。",
+ "new":{
+  "1":[["V2_PATH_SEARCH","GENERAL","EXAMPLE"]],
+  "2":"DUPLICATE:N0144:1",
+  "3":"DUPLICATE:N0144:1",
+  "4":R+"C++/Python不是C语言。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"具身应用工程师。"
+},
+"N0036":hri("N0036"),
+"N0065":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"NAV_PLANNING","fine_task":"INSPECT_NAV","secondary_task":"",
+ "task_evidence":"负责机器人端自主导航系统算法研发、迭代与工程落地，包含全局路径规划、局部轨迹优化、动态避障、轨迹跟踪控制",
+ "new":{
+  "1":[["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"],["V2_PATH_SEARCH","GENERAL","UNCONDITIONAL"]],
+  "2":R+"C++不是C语言。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"导航算法。"
+},
+"N0147":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MANIPULATION","fine_task":"INDUSTRIAL_FORCE_EXPERT","secondary_task":"",
+ "task_evidence":"搭建完整控制架构，解决高动态、高负载操作中的稳定性与精准度问题。",
+ "new":{
+  "1":[["V2_SAFETY_STANDARDS","GENERAL","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0147:1",
+  "3":"DUPLICATE:N0147:1"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"具身控制专家。IEC 61508记功能安全。"
+},
+"N0605":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LOCOMOTION_WBC","fine_task":"MOTION_CONTROL_SDK","secondary_task":"",
+ "task_evidence":"负责机器人的运动控制算法的开发与实机调试",
+ "new":{
+  "1":R+"C++软件不是C语言。",
+  "2":[["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_C","GENERAL","UNRESOLVED"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"运控算法。C++拒收；C/C++未解。"
+},
+"N0591":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"NAV_PLANNING","fine_task":"GLOBAL_LOCAL_PLANNING","secondary_task":"",
+ "task_evidence":"全局路径规划",
+ "new":{
+  "1":R+"C++不是C语言。",
+  "2":[["V2_PATH_SEARCH","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_NAV2","GENERAL","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0591:4",
+  "6":O+"坐标系TF未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"导航与规划。Nav2保留。"
+},
+"E0007":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CONTROL_RUNTIME","fine_task":"MOTOR_FOC","secondary_task":"",
+ "task_evidence":"负责无刷/有刷电机驱动器控制算法软件开发,包括模型仿真、算法设计、功能设计、软件编码和调试",
+ "new":{
+  "1":[["V2_C","GENERAL","UNCONDITIONAL"]],
+  "2":[["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_CAN","PREFERRED","EXAMPLE"],["V2_ETHERCAT","PREFERRED","EXAMPLE"]],
+  "4":"DUPLICATE:E0007:1",
+  "5":"DUPLICATE:E0007:3"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"电机控制。正文写明c语言故记C。"
+},
+"E0003":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"LOCOMOTION_WBC","fine_task":"QUADRUPED_RL","secondary_task":"",
+ "task_evidence":"负责基于强化学习的四足/轮足运动控制算法研发及落地应用",
+ "new":{},
+ "old_overrides":{
+  "O12":{"metric":"GENERAL","branch":"UNCONDITIONAL","relation":"EXPERIENCE_REQUIREMENT","reason":"原强化学习短词定位为空，改为Q-Learning/PPO句。","quote":"了解强化学习(Q-Learning、PPO)算法"},
+  "O14":{"metric":"PREFERRED","branch":"UNCONDITIONAL","relation":"EXPERIENCE_REQUIREMENT","reason":"原强化学习短词定位为空，改为加分项控制任务句。","quote":"做过基于强化学习、模仿学习的机器人控制任务"}
+ },
+ "additions":[],"outside_extra":[],
+ "notes":"强化学习运控。继承短词改写。"
+},
+"E0005":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LOCOMOTION_WBC","fine_task":"DYNAMICS_ID","secondary_task":"",
+ "task_evidence":"负责人形机器人本体各部件的动力学建模、参数辨识,核对修正机器人模型文件",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"运控算法。C/C++按C未解。"
+},
+"E0004":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"LOCOMOTION_WBC","fine_task":"BIPED_RL","secondary_task":"",
+ "task_evidence":"负责基于强化学习的双足运动控制算法研发及算法极限性能探索",
+ "new":{
+  "1":R+"变分法不是有限元拓扑优化。",
+  "2":[["V2_CLASSICAL_CONTROL","GENERAL","UNCONDITIONAL"]],
+  "3":R+"C++/Python不是C语言。"
+ },
+ "old_overrides":{
+  "O3":{"metric":"GENERAL","branch":"UNRESOLVED","relation":"EXPERIENCE_REQUIREMENT","reason":"原ROS短词定位为空，改为ROS/ROS2工具句。","quote":"了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具"}
+ },
+ "additions":[],"outside_extra":[],
+ "notes":"强化学习运控。变分法拒收拓扑。ROS继承改写。"
+},
+"N0296":dict(SIMCAL, notes="机器人算法工程师。Sim2Real/标定保留。")
+}
+if __name__=='__main__':
+ register('RF_CONTROL_PLANNING', decisions, reader='grok4.6')

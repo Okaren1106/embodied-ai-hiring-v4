@@ -1,0 +1,218 @@
+"""First-pass adjudication for deployment coding_order 17-32. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+FAE={
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_INTEGRATION","fine_task":"FAE","secondary_task":"",
+ "task_evidence":"负责客户设备故障排查与维修,制定故障排查与维修技术文档,协调备料,保证维修时效与质量",
+ "new":{
+  "1":[["V2_INCIDENT_SUPPORT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "3":O+"Ubuntu/ROS未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"FAE。故障排查保留。"
+}
+def fae(rid, evidence=None, notes=None):
+ d=dict(FAE); d['new']=dict(FAE['new'])
+ if evidence: d['task_evidence']=evidence
+ if notes: d['notes']=notes
+ return d
+decisions={
+"N0531":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LAB_DEMO","fine_task":"LAB_ROBOT_OPS","secondary_task":"",
+ "task_evidence":"负责每次上机实验前的准备工作：机器人状态检查（关节、电机、传感器、电池、急停）、标定与自检流程执行",
+ "new":{
+  "1":[["V2_CALIBRATION","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "5":[["V2_CALIBRATION","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "6":[["V2_SAFETY_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"实验室运维。标定/采购/SOP/安全操作保留。"
+},
+"E0076":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_INTEGRATION","fine_task":"TECH_SUPPORT","secondary_task":"",
+ "task_evidence":"负责机器人在客户现场(如科研院校、展厅、高端制造工厂等)的安装、调试、部署与验收",
+ "new":{
+  "1":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_INCIDENT_SUPPORT","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_SHELL","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_CAN","GENERAL","UNCONDITIONAL"],["V2_ETHERCAT","GENERAL","UNCONDITIONAL"],["V2_TCPIP","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_PM_CREDENTIAL","PREFERRED","CHOICE"]],
+  "5":"DUPLICATE:E0076:4"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"技术支持。CAN/EtherCAT/TCPIP/Shell/PMP保留。串口未单记RS485。"
+},
+"N0308":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FACILITY","fine_task":"EQUIP_MAINT_LEAD","secondary_task":"",
+ "task_evidence":"全面负责工厂所有设备（机器人、数据采集硬件、传感器、采集平台、工装等）的维护保养、故障诊断与修复工作",
+ "new":{
+  "1":[["V2_CALIBRATION","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_SAFETY_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "5":O+"预防性维护管理方法未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"设备维修负责人。标定/采购/SOP/安全/故障排查保留。"
+},
+"E0448":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_INTEGRATION","fine_task":"PROD_ENG_LEAD","secondary_task":"",
+ "task_evidence":"turning humanoid subsystems into a fully functioning, field-ready system and commissioning it on site under a Factory Acceptance Test (FAT)",
+ "new":{
+  "1":[["V2_ANSIBLE","GENERAL","UNCONDITIONAL"],["V2_DDS","GENERAL","UNCONDITIONAL"],["V2_TCPIP","GENERAL","UNCONDITIONAL"]],
+  "2":[["V2_TELEOP","PREFERRED","CHOICE"]],
+  "3":[["V2_POSTTRAINING","PREFERRED","UNCONDITIONAL"]],
+  "4":[["V2_MES","PREFERRED","CHOICE"]],
+  "5":[["V2_TYPESCRIPT","PREFERRED","UNCONDITIONAL"]],
+  "6":[["V2_REACT","PREFERRED","UNCONDITIONAL"]],
+  "7":[["V2_TELEOP","PREFERRED","CHOICE"]],
+  "8":"DUPLICATE:E0448:1",
+  "9":"DUPLICATE:E0448:5",
+  "10":"DUPLICATE:E0448:6"
+ },
+ "old_overrides":{
+  "O10":{"metric":"PREFERRED","branch":"CHOICE","relation":"EXPERIENCE_REQUIREMENT","reason":"原manipulation短词定位为空，改为人形/操作/遥操作经验句。","quote":"Direct humanoid, manipulation, or teleoperation domain experience"},
+  "O16":{"metric":"GENERAL","branch":"CHOICE","relation":"EXPERIENCE_REQUIREMENT","reason":"原manipulation短词定位为空，改为同一经验句。","quote":"Direct humanoid, manipulation, or teleoperation domain experience"}
+ },
+ "additions":[],"outside_extra":[],
+ "notes":"生产工程经理。C++拒收故未记C。Ansible/DDS/TCP/遥操/后训练/MES/TS/React保留。"
+},
+"N0371":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SERVICE_LEADERSHIP","fine_task":"SERVICE_OPS_DIR","secondary_task":"",
+ "task_evidence":"制定售后服务体系战略，统筹售后服务体系（工单、备件、远程运维、SLA）的建设与运作",
+ "new":{
+  "1":O+"NPS/CSAT/VOC未单列冻结项。",
+  "2":"DUPLICATE:N0371:1",
+  "3":[["V2_CUSTOMER_SERVICE","PREFERRED","UNCONDITIONAL"]],
+  "4":O+"NPS/CSAT/VOC未单列冻结项。",
+  "5":"DUPLICATE:N0371:4"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"运维运营总监。客户满意度记市场优先。"
+},
+"N0369":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SERVICE_LEADERSHIP","fine_task":"DELIVERY_DIR","secondary_task":"",
+ "task_evidence":"统筹产品全生命周期交付管理（售前支持→部署→验收→转维）",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"交付管理总监。无新候选。"
+},
+"N0502":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_INTEGRATION","fine_task":"TECH_SUPPORT","secondary_task":"",
+ "task_evidence":"负责客户机器人软硬件培训服务及沟通协调，完成售前交付",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"]],
+  "2":"DUPLICATE:N0502:1"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"技术支持。C/C++按C未解。"
+},
+"N0110":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_SERVICE","fine_task":"REPAIR_ENG","secondary_task":"",
+ "task_evidence":"负责公司机器人和相关产品的故障诊断、维修",
+ "new":{
+  "1":[["V2_CALIBRATION","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"维修工程师。精度标定保留。"
+},
+"N0546":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_INTEGRATION","fine_task":"VLA_DEPLOY","secondary_task":"",
+ "task_evidence":"你将深度参与具身智能大模型在真实工业场景的落地部署工作",
+ "new":{
+  "1":R+"Python/C++不是C语言。",
+  "2":[["V2_CUSTOMER_SERVICE","GENERAL","UNCONDITIONAL"]],
+  "3":O+"Prompt Engineering未单列冻结项。",
+  "4":O+"UR未单列冻结项。",
+  "5":O+"Franka未单列冻结项。",
+  "6":O+"遨博未单列冻结项。",
+  "7":O+"越疆未单列冻结项。",
+  "8":R+"薪酬待遇不是人力资源技能项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"前沿部署。客户服务意识保留。WAM未写明世界动作模型。"
+},
+"N0542":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_INTEGRATION","fine_task":"SITE_DEPLOY_HF","secondary_task":"",
+ "task_evidence":"负责机器人现场的部署、调试与验收，包括建图、标定、功能验证及性能测试",
+ "new":{
+  "1":[["V2_CALIBRATION","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_GIT","GENERAL","UNCONDITIONAL"]],
+  "4":"DUPLICATE:N0542:3"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"合肥部署。标定/SOP/Git保留。"
+},
+"N0538":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_INTEGRATION","fine_task":"GUIDE_ONSITE","secondary_task":"",
+ "task_evidence":"负责机器人日常开关机、巡检、简单故障排查与恢复",
+ "new":{
+  "1":[["V2_INCIDENT_SUPPORT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CALIBRATION","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SOP_OPERATION","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"导览驻场。故障排查/标定/SOP保留。"
+},
+"N0535":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_INTEGRATION","fine_task":"MANIP_DEPLOY","secondary_task":"",
+ "task_evidence":"负责机械臂/人形机器人在客户现场的系统集成与部署交付工作",
+ "new":{
+  "1":R+"Python/C++不是C语言。",
+  "2":[["V2_CALIBRATION","GENERAL","UNCONDITIONAL"]],
+  "3":O+"UR未单列冻结项。",
+  "4":O+"Franka未单列冻结项。",
+  "5":O+"遨博未单列冻结项。",
+  "6":O+"越疆未单列冻结项。",
+  "7":[["V2_TELEOP","PREFERRED","UNCONDITIONAL"]],
+  "8":R+"薪酬待遇不是人力资源技能项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"操作部署。手眼标定与遥操作保留。"
+},
+"E0269":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_SERVICE","fine_task":"NPI_SERVICE","secondary_task":"",
+ "task_evidence":"负责主导产品的服务准备和导入工作,DFS评审与问题优化,提升产品可服务性",
+ "new":{
+  "1":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "3":O+"Ubuntu/ROS未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"售后新产品导入。SOP保留。"
+},
+"E0265":fae("E0265"),
+"E0254":fae("E0254"),
+"E0241":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_INTEGRATION","fine_task":"HW_ENGINEERING_DELIVERY","secondary_task":"",
+ "task_evidence":"负责机器人硬件交付方案定制、落地与维护",
+ "new":{
+  "1":[["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"硬件工程落地。故障排查保留。"
+},
+"E0220":fae("E0220")
+}
+if __name__=='__main__':
+ register('RF_DEPLOYMENT_FIELD_SERVICE', decisions, reader='grok4.6')

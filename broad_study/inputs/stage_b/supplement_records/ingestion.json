@@ -1,0 +1,442 @@
+{
+  "created_at": "2026-09-15T07:35:56.906536+00:00",
+  "source_candidate": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_evidence_integrated\\run_20260915T064258Z",
+  "original_candidate_verdict": "ACCEPTED_WITH_LIMITATIONS",
+  "new_sources": [
+    {
+      "evidence_id": "NEW_AGIBOT_01",
+      "company_id": "CN_AGIBOT",
+      "url": "https://www.agibot.com.cn/article/315/detail/147.html",
+      "capture_medium": "ORIGINAL_HTTP_BYTES",
+      "publication_date": "2026-03-31"
+    },
+    {
+      "evidence_id": "NEW_DEEP_01",
+      "company_id": "CN_DEEPROBOTICS",
+      "url": "https://www.deeprobotics.cn/en/wap/article/id/241.html",
+      "capture_medium": "ORIGINAL_HTTP_BYTES",
+      "publication_date": "2025-03-04"
+    },
+    {
+      "evidence_id": "NEW_DEEP_02",
+      "company_id": "CN_DEEPROBOTICS",
+      "url": "https://www.spgroup.com.sg/about-us/media-resources/energy-hub/reliability/How-this-technical-officer-and-robot-SPock-hunt-hazards-to-protect-Singapore-power-tunnels",
+      "capture_medium": "ORIGINAL_HTTP_BYTES",
+      "publication_date": "2024-11-27"
+    },
+    {
+      "evidence_id": "NEW_LIMX_01",
+      "company_id": "CN_LIMX",
+      "url": "https://www.limxdynamics.com/zh/news/BK000014",
+      "capture_medium": "ORIGINAL_HTTP_BYTES",
+      "publication_date": "2024-10-16"
+    },
+    {
+      "evidence_id": "NEW_SPIRIT_01",
+      "company_id": "CN_SPIRITAI",
+      "url": "https://www.cls.cn/detail/2232711",
+      "capture_medium": "WEB_TOOL_EXTRACT",
+      "publication_date": "2025-12-17"
+    },
+    {
+      "evidence_id": "NEW_GALAXEA_01",
+      "company_id": "CN_GALAXEA",
+      "url": "https://www.galaxea-ai.com/cn/products/R1",
+      "capture_medium": "ORIGINAL_HTTP_BYTES",
+      "publication_date": ""
+    },
+    {
+      "evidence_id": "NEW_UNITREE_01",
+      "company_id": "CN_UNITREE",
+      "url": "https://arxiv.org/html/2511.02832v1",
+      "capture_medium": "ORIGINAL_HTTP_BYTES",
+      "publication_date": "2025-11"
+    },
+    {
+      "evidence_id": "NEW_UNITREE_02",
+      "company_id": "CN_UNITREE",
+      "url": "https://www.unitree.com/industry/electricity/",
+      "capture_medium": "ORIGINAL_HTTP_BYTES",
+      "publication_date": ""
+    },
+    {
+      "evidence_id": "NEW_GALBOT_01",
+      "company_id": "CN_GALBOT",
+      "url": "https://www.catl.com/news/10053.html",
+      "capture_medium": "WEB_TOOL_EXTRACT",
+      "publication_date": "2026-06-24"
+    }
+  ],
+  "changes": [
+    {
+      "company_id": "CN_AGIBOT",
+      "field": "delivery_form",
+      "fact_seq": 2,
+      "old": {
+        "field": "delivery_form"
+      },
+      "new": {
+        "field": "delivery_form",
+        "value": "按采购订单提供具身机器人整机及产线应用；公司公告列龙旗、均胜的G2应用",
+        "value_status": "COMPANY_SELF_REPORT",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_AGIBOT_01"
+        ],
+        "decision_reason": "采购与产线应用支持提供形态；10000台下线不能换成10000台已交付。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "G2 / 制造业产线",
+        "event_or_period": "",
+        "note": "采购与产线应用支持提供形态；10000台下线不能换成10000台已交付。"
+      }
+    },
+    {
+      "company_id": "CN_AGIBOT",
+      "field": "target_markets",
+      "fact_seq": 2,
+      "old": {
+        "field": "target_markets"
+      },
+      "new": {
+        "field": "target_markets",
+        "value": "汽车制造、3C电子与物流仓储；具体列举龙旗平板产线和均胜汽车零部件装配",
+        "value_status": "COMPANY_SELF_REPORT",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_AGIBOT_01"
+        ],
+        "decision_reason": "带日期公司自述；目标场景与客户确认层级分开。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "G2及公告覆盖业务",
+        "event_or_period": "",
+        "note": "带日期公司自述；目标场景与客户确认层级分开。"
+      }
+    },
+    {
+      "company_id": "CN_AGIBOT",
+      "field": "deployment_status_actual",
+      "fact_seq": 2,
+      "old": {
+        "field": "deployment_status_actual"
+      },
+      "new": {
+        "field": "deployment_status_actual",
+        "value": "公司2026-03-31公告称G2已在龙旗平板产线投产并线，并用于均胜汽车零部件装配",
+        "value_status": "COMPANY_SELF_REPORT",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_AGIBOT_01"
+        ],
+        "decision_reason": "只确立供应方应用自述，未取得付款与独立客户验收。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "G2 / 龙旗、均胜",
+        "event_or_period": "",
+        "note": "只确立供应方应用自述，未取得付款与独立客户验收。"
+      }
+    },
+    {
+      "company_id": "CN_DEEPROBOTICS",
+      "field": "delivery_form",
+      "fact_seq": 2,
+      "old": {
+        "field": "delivery_form"
+      },
+      "new": {
+        "field": "delivery_form",
+        "value": "X30机器人本体配合面向新加坡电缆隧道的传感器、软件及导航定制，用于SP Group巡检试点",
+        "value_status": "COMPANY_SELF_REPORT",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_DEEP_01"
+        ],
+        "decision_reason": "公司自述的本体与定制解决方案；不推断销售金额、合同形式或扩大试点已完成。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "X30 / SPock / 新加坡隧道",
+        "event_or_period": "",
+        "note": "公司自述的本体与定制解决方案；不推断销售金额、合同形式或扩大试点已完成。"
+      }
+    },
+    {
+      "company_id": "CN_DEEPROBOTICS",
+      "field": "deployment_status_actual",
+      "fact_seq": 2,
+      "old": {
+        "field": "deployment_status_actual"
+      },
+      "new": {
+        "field": "deployment_status_actual",
+        "value": "云深处称X30改装的SPock已在SP Group地下电缆隧道巡检试点运行",
+        "value_status": "COMPANY_SELF_REPORT",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_DEEP_01"
+        ],
+        "decision_reason": "型号和供应商身份来自供应方自述；客户SPock项目另行记录。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "X30 / SPock",
+        "event_or_period": "",
+        "note": "型号和供应商身份来自供应方自述；客户SPock项目另行记录。"
+      }
+    },
+    {
+      "company_id": "CN_DEEPROBOTICS",
+      "field": "evidence_external_pilot",
+      "fact_seq": 2,
+      "old": {
+        "field": "evidence_external_pilot"
+      },
+      "new": {
+        "field": "evidence_external_pilot",
+        "value": "SP Group确认SPock自主隧道巡检项目；本篇未标厂商或型号",
+        "value_status": "COUNTERPARTY_CONFIRMATION",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_DEEP_02",
+          "NEW_DEEP_01"
+        ],
+        "decision_reason": "客户确认限SPock巡检命题；将其关联X30依据供应方说明，不虚构客户直接确认X30型号。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "SPock项目；厂商归属另据供应方",
+        "event_or_period": "",
+        "note": "客户确认限SPock巡检命题；将其关联X30依据供应方说明，不虚构客户直接确认X30型号。"
+      }
+    },
+    {
+      "company_id": "CN_LIMX",
+      "field": "delivery_form",
+      "fact_seq": 2,
+      "old": {
+        "field": "delivery_form"
+      },
+      "new": {
+        "field": "delivery_form",
+        "value": "TRON 1以机器人硬件科研平台对外发售并接受预订，提供SDK和底层硬件接口",
+        "value_status": "COMPANY_SELF_REPORT",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_LIMX_01"
+        ],
+        "decision_reason": "支持硬件销售提供形态；早鸟预订不计实际交付，不回填其他型号。",
+        "assertion_kind": "COMMERCIAL_OFFER",
+        "product_or_business_scope": "TRON 1",
+        "event_or_period": "2024-10-16发售/预订",
+        "note": "支持硬件销售提供形态；早鸟预订不计实际交付，不回填其他型号。"
+      }
+    },
+    {
+      "company_id": "CN_LIMX",
+      "field": "target_markets",
+      "fact_seq": 2,
+      "old": {
+        "field": "target_markets"
+      },
+      "new": {
+        "field": "target_markets",
+        "value": "TRON 1面向运动控制、具身智能算法研究、验证和教学培训",
+        "value_status": "COMPANY_SELF_REPORT",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_LIMX_01"
+        ],
+        "decision_reason": "公司发售公告明确目标用户；属于出售的科研平台，不是将研究论文当商业商品。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "TRON 1",
+        "event_or_period": "",
+        "note": "公司发售公告明确目标用户；属于出售的科研平台，不是将研究论文当商业商品。"
+      }
+    },
+    {
+      "company_id": "CN_SPIRITAI",
+      "field": "delivery_form",
+      "fact_seq": 2,
+      "old": {
+        "field": "delivery_form"
+      },
+      "new": {
+        "field": "delivery_form",
+        "value": "实体机器人“小墨”投入宁德时代中州电池PACK生产线承担接插件插接作业",
+        "value_status": "MEDIA_STATEMENT",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_SPIRIT_01"
+        ],
+        "decision_reason": "报道支持实体本体产线提供/应用形态；未给交易模式，不标硬件销售、租赁或RaaS。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "小墨 / 宁德时代中州PACK产线",
+        "event_or_period": "",
+        "note": "报道支持实体本体产线提供/应用形态；未给交易模式，不标硬件销售、租赁或RaaS。"
+      }
+    },
+    {
+      "company_id": "CN_SPIRITAI",
+      "field": "deployment_status_actual",
+      "fact_seq": 2,
+      "old": {
+        "field": "deployment_status_actual"
+      },
+      "new": {
+        "field": "deployment_status_actual",
+        "value": "2025-12-17报道千寻研发的小墨已在宁德时代中州电池PACK产线运行",
+        "value_status": "MEDIA_STATEMENT",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_SPIRIT_01"
+        ],
+        "decision_reason": "报道日为确定时间；投运实际日未给，事件日留空，不把报道日当投运日。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "小墨 / 宁德时代中州",
+        "event_or_period": "",
+        "note": "报道日为确定时间；投运实际日未给，事件日留空，不把报道日当投运日。"
+      }
+    },
+    {
+      "company_id": "CN_GALAXEA",
+      "field": "target_markets",
+      "fact_seq": 1,
+      "old": {
+        "field": "target_markets",
+        "value": "",
+        "value_status": "NOT_YET_SEARCHED",
+        "research_status": "NOT_YET_SEARCHED",
+        "evidence_ids": [],
+        "decision_reason": "本轮未取得场景清单，保持未找到；第二轮：无逐问题真实检索轨迹，降为未查"
+      },
+      "new": {
+        "field": "target_markets",
+        "value": "R1面向科研开发，R1 Lite面向机器人数据采集（现行产品定位）",
+        "value_status": "COMPANY_SELF_REPORT",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_GALAXEA_01"
+        ],
+        "decision_reason": "找到明确定位；无发布日期，仅背景展示，不将页脚年份或下载日当发布日。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "R1 / R1 Lite；现行页面",
+        "event_or_period": "",
+        "note": "找到明确定位；无发布日期，仅背景展示，不将页脚年份或下载日当发布日。"
+      }
+    },
+    {
+      "company_id": "CN_UNITREE",
+      "field": "target_markets",
+      "fact_seq": 1,
+      "old": {
+        "field": "target_markets",
+        "value": "",
+        "value_status": "NOT_YET_SEARCHED",
+        "research_status": "NOT_YET_SEARCHED",
+        "evidence_ids": [],
+        "decision_reason": "本轮未取得官方的场景清单；上市报道未列应用场景；第二轮：无逐问题真实检索轨迹，降为未查"
+      },
+      "new": {
+        "field": "target_markets",
+        "value": "G1已有科研应用：TWIST2研究团队使用G1进行人形遥操作与数据采集实验",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_UNITREE_01"
+        ],
+        "decision_reason": "这是产品实际应用场景，不等于宇树整体市场定位；不得将FAR研究成果归为宇树自研模型。",
+        "assertion_kind": "OBSERVED_APPLICATION",
+        "product_or_business_scope": "G1 / TWIST2研究实际使用",
+        "event_or_period": "2025-11固定v1",
+        "note": "这是产品实际应用场景，不等于宇树整体市场定位；不得将FAR研究成果归为宇树自研模型。"
+      }
+    },
+    {
+      "company_id": "CN_UNITREE",
+      "field": "target_markets",
+      "fact_seq": 2,
+      "old": {
+        "field": "target_markets"
+      },
+      "new": {
+        "field": "target_markets",
+        "value": "现行四足巡检方案面向变电站、炼化管线、矿井隧道及城市基础设施",
+        "value_status": "COMPANY_SELF_REPORT",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_UNITREE_02"
+        ],
+        "decision_reason": "官方目标场景；无日期，仅背景展示，未取得本条具名客户交付。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "四足机器人巡检方案；现行页面",
+        "event_or_period": "",
+        "note": "官方目标场景；无日期，仅背景展示，未取得本条具名客户交付。"
+      }
+    },
+    {
+      "company_id": "CN_GALBOT",
+      "field": "evidence_customer_delivery",
+      "fact_seq": 1,
+      "old": {
+        "field": "evidence_customer_delivery",
+        "value": "",
+        "value_status": "NOT_YET_SEARCHED",
+        "research_status": "NOT_YET_SEARCHED",
+        "evidence_ids": [],
+        "decision_reason": "本轮未取得对外交付记录；自营门店不构成对外交付；第二轮：无逐问题真实检索轨迹，降为未查"
+      },
+      "new": {
+        "field": "evidence_customer_delivery",
+        "value": "宁德时代确认Galbot S1已进入其智慧产线，在模组与电池包环节承担长程自主作业",
+        "value_status": "COUNTERPARTY_CONFIRMATION",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_GALBOT_01"
+        ],
+        "decision_reason": "具名客户直接确认实际入线；无台数、付款和首次投运日，不据此确认收入或大规模交付。",
+        "assertion_kind": "CUSTOMER_CONFIRMED_USE",
+        "product_or_business_scope": "Galbot S1 / 宁德时代智慧产线",
+        "event_or_period": "",
+        "note": "具名客户直接确认实际入线；无台数、付款和首次投运日，不据此确认收入或大规模交付。"
+      }
+    },
+    {
+      "company_id": "CN_GALBOT",
+      "field": "deployment_status_actual",
+      "fact_seq": 2,
+      "old": {
+        "field": "deployment_status_actual"
+      },
+      "new": {
+        "field": "deployment_status_actual",
+        "value": "宁德时代2026-06-24公告称Galbot S1已进入智慧产线，在模组与电池包生产环节作业",
+        "value_status": "COUNTERPARTY_CONFIRMATION",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_GALBOT_01"
+        ],
+        "decision_reason": "入线为已发生状态；全球市场拓展与服务标准不当成已完成。",
+        "assertion_kind": "CUSTOMER_CONFIRMED_USE",
+        "product_or_business_scope": "Galbot S1 / 宁德时代",
+        "event_or_period": "",
+        "note": "入线为已发生状态；全球市场拓展与服务标准不当成已完成。"
+      }
+    },
+    {
+      "company_id": "CN_GALBOT",
+      "field": "target_markets",
+      "fact_seq": 2,
+      "old": {
+        "field": "target_markets"
+      },
+      "new": {
+        "field": "target_markets",
+        "value": "动力电池模组及电池包制造，面向物料搬运、拣选等高负载工序",
+        "value_status": "COUNTERPARTY_CONFIRMATION",
+        "research_status": "SEARCHED_FOUND",
+        "evidence_ids": [
+          "NEW_GALBOT_01"
+        ],
+        "decision_reason": "具名用户确认的产线场景；本条不推算部署量或付款。",
+        "assertion_kind": "OBSERVATION_OR_DISCLOSURE",
+        "product_or_business_scope": "Galbot S1 / 宁德时代",
+        "event_or_period": "",
+        "note": "具名用户确认的产线场景；本条不推算部署量或付款。"
+      }
+    }
+  ],
+  "ces_publication_precision_corrected": true,
+  "independent_acceptance_of_supplement": false
+}

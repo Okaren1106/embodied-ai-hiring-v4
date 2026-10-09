@@ -1,0 +1,218 @@
+"""First-pass adjudication for commercial coding_order 49-64. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+SALES3={
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"INDUSTRY_SALES","secondary_task":"",
+ "task_evidence":"作为首位销售负责人，独立完成从线索挖掘、拜访演示到合同签署的全流程。",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"行业销售经理。"
+}
+decisions={
+"N0592":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"REGIONAL_SALES","secondary_task":"",
+ "task_evidence":"制定区域销售计划，独立完成客户开发、洽谈、签约回款全流程，达成业绩目标",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "4":R+"熟悉客户采购流程不是本人采购职责。",
+  "5":[["V2_SALES_CRM","PREFERRED","EXAMPLE"]],
+  "6":[["V2_SALES_CRM","PREFERRED","EXAMPLE"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"华南销售。客户采购流程拒收采购。"
+},
+"N0590":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"MARKETING_PMO","secondary_task":"",
+ "task_evidence":"作为营销需求的中枢，统一接入并排期来自品牌、产品及各业务线的并发项目，建立分级机制与SLA标准",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_PROCUREMENT","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_PROCUREMENT","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "6":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "7":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "8":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "9":[["V2_CRM","DUTY_OWN_DEVELOP","CHOICE"],["V2_SALESFORCE","DUTY_OWN_USE","CHOICE"],["V2_HUBSPOT","DUTY_OWN_USE","CHOICE"]],
+  "10":"DUPLICATE:N0590:9","11":"DUPLICATE:N0590:9",
+  "12":[["V2_AGENT_WORKFLOW","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "13":[["V2_PROCUREMENT","PREFERRED","UNCONDITIONAL"]],
+  "14":[["V2_MARKETING","GENERAL","UNCONDITIONAL"],["V2_PROCUREMENT","GENERAL","UNCONDITIONAL"]],
+  "15":[["V2_PROCUREMENT","GENERAL","UNCONDITIONAL"],["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "16":[["V2_AGENT_WORKFLOW","GENERAL","UNCONDITIONAL"]],
+  "17":"DUPLICATE:N0590:16",
+  "18":[["V2_PROCUREMENT","GENERAL","UNCONDITIONAL"]],
+  "19":[["V2_CRM","GENERAL","CHOICE"],["V2_SALESFORCE","GENERAL","CHOICE"],["V2_HUBSPOT","GENERAL","CHOICE"]],
+  "20":"DUPLICATE:N0590:19","21":"DUPLICATE:N0590:19",
+  "22":O+"Marketo未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"营销PMO。HubSpot/Salesforce/CRM/Agent保留。"
+},
+"N0583":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_SUCCESS","fine_task":"PRODUCT_AFTER_SALES","secondary_task":"",
+ "task_evidence":"在每个版本发布前，输出面向客户的\"本次修复清单 + 已知遗留说明\"，降低客户现场升级风险",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SHELL","GENERAL","UNCONDITIONAL"],["V2_RVIZ","GENERAL","EXAMPLE"]],
+  "3":"DUPLICATE:N0583:2",
+  "4":O+"rqt未单列冻结项。",
+  "5":"DUPLICATE:N0583:2",
+  "6":[["V2_CAN","GENERAL","EXAMPLE"],["V2_RS485","GENERAL","EXAMPLE"],["V2_UART","GENERAL","EXAMPLE"]],
+  "7":R+"C++不是C语言。",
+  "8":O+"SDK未单列冻结项。",
+  "9":[["V2_RCA","GENERAL","UNCONDITIONAL"]],
+  "10":"DUPLICATE:N0583:9",
+  "11":[["V2_CLASSICAL_CONTROL","GENERAL","EXAMPLE"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"产品售后代表。真CAN总线保留。C++拒收C。"
+},
+"N0582":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"PRE_SALES","secondary_task":"ECOSYSTEM",
+ "task_evidence":"与销售配合，理解客户业务需求，分析出客户的核心诉求，促进方案编写与项目落地",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":R+"C++不是C语言。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"售前技术支持。"
+},
+"N0579":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"PR","secondary_task":"",
+ "task_evidence":"参与公司传播内容的策划与撰写，包括新闻稿、采访稿、技术分析、创意文案等",
+ "new":{str(i):[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]] for i in range(1,6)},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"品牌公关经理。"
+},
+"N0574":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"INSPECTION_SOLUTIONS","secondary_task":"",
+ "task_evidence":"拆解客户 SOW / 招标文件，逐条评估可行性，输出风险评估报告",
+ "new":{"1":[["V2_PROJECT_METHOD","GENERAL","UNCONDITIONAL"]]},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"巡检解决方案工程师。"
+},
+"N0570":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_SUCCESS","fine_task":"CHANNEL_AFTER_SALES","secondary_task":"",
+ "task_evidence":"负责售后渠道合作伙伴的培训、赋能与日常运营管理，确保服务交付质量达标",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CRM","GENERAL","UNCONDITIONAL"]],
+  "3":"DUPLICATE:N0570:2"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"售后渠道经理。"
+},
+"N0568":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_SUCCESS","fine_task":"AFTER_SALES_CS","secondary_task":"",
+ "task_evidence":"按照部门 SLA 要求，在工作时间内完成客户问题的首次响应",
+ "new":{
+  "1":[["V2_FEISHU","DUTY_OWN_USE","UNCONDITIONAL"],["V2_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0568:1",
+  "3":O+"企业微信未单列冻结项。",
+  "4":"DUPLICATE:N0568:1",
+  "5":[["V2_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "6":[["V2_CUSTOMER_SERVICE","GENERAL","UNCONDITIONAL"]],
+  "7":[["V2_FEISHU","PREFERRED","CHOICE"],["V2_CRM","PREFERRED","CHOICE"]],
+  "8":"DUPLICATE:N0568:7",
+  "9":O+"企业微信未单列冻结项。",
+  "10":"DUPLICATE:N0568:7",
+  "11":[["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "12":[["V2_CUSTOMER_SERVICE","PREFERRED","UNCONDITIONAL"]],
+  "13":[["V2_INCIDENT_SUPPORT","PREFERRED","UNCONDITIONAL"]],
+  "14":[["V2_FEISHU","PREFERRED","UNCONDITIONAL"],["V2_CRM","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"售后客服。飞书与CRM保留。"
+},
+"N0567":dict(SALES3,task_evidence="负责具身智能机器人在商业服务场景（如：高端物业、零售、展厅、特种服务，巡检，泛娱乐 等）的客户开拓。"),
+"N0566":dict(SALES3,task_evidence="主导客户的概念验证（POC）过程。协调内部技术资源，管理客户预期"),
+"N0565":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"STRATEGY","fine_task":"BI_RESEARCH","secondary_task":"",
+ "task_evidence":"跟踪人形机器人、具身智能、核心零部件等赛道动态，输出行业研究报告",
+ "new":{"1":O+"BI工具泛称未单列冻结项。"},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"战略研究。Excel/Python/BI泛称目录外。"
+},
+"N0564":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_SUCCESS","fine_task":"AFTER_SALES_OPS","secondary_task":"",
+ "task_evidence":"负责售后工单的日常运营管理，跟进工单响应、处理、升级和关闭情况，确保客户问题得到及时处理。",
+ "new":{
+  "1":[["V2_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0564:1",
+  "3":[["V2_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_CUSTOMER_SERVICE","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_CUSTOMER_SERVICE","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_CRM","PREFERRED","UNCONDITIONAL"]],
+  "7":"DUPLICATE:N0564:6"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"售后运营经理。"
+},
+"N0558":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"COUNTRY_MANAGER","secondary_task":"ECOSYSTEM",
+ "task_evidence":"制定本地化战略，开拓包括汽车制造、工业巡检、物流配送、特种作业、科研教育等重点行业客户，完成销售目标",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"国家经理。"
+},
+"N0553":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"OVERSEAS_KA","secondary_task":"",
+ "task_evidence":"负责海外区域的销售目标制定与达成，对区域营收负责",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"海外战略客户总监。"
+},
+"N0552":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"SHOWROOM","secondary_task":"CUSTOMER_SUCCESS",
+ "task_evidence":"接待到店访客，提供专业的产品讲解与互动体验引导，展示公司人形机器人产品及技术实力",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_CUSTOMER_SERVICE","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"展示门店店长。"
+},
+"N0551":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"CORP_COMMS","secondary_task":"",
+ "task_evidence":"参与制定企业传播内容策划，梳理叙事主线与长线传播节奏",
+ "new":{str(i):[["V2_MARKETING","DUTY_OWN_USE" if i<=3 else "GENERAL","UNCONDITIONAL"]] for i in range(1,7)},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"企业传播公关。"
+}
+}
+# N0567/N0566 share template but need unique evidence already set
+if __name__=='__main__':
+ register('RF_COMMERCIAL_CUSTOMER', decisions, reader='grok4.6')

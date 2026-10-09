@@ -1,0 +1,1272 @@
+[
+  {
+    "coding_order": 65,
+    "reading_id": "N0030",
+    "company_id": "CN_GALBOT",
+    "title": "3D人体算法研究员-27届",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|9fe25088-22ac-4383-823a-ea9f91561f9f|dbc6cf4366f019f02a4c4c1f6c712421798adabddba6e704acea02087551ab90",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位要求：\n\n1.负责研发多模态3D人体Tracking与生成模型，包括姿态泛化及人物动作细节优化。 \n\n2.构建多模态3D人体Tracking与生成的端到端pipeline，完成从数据处理、算法迭代到系统部署的全流程优化。 \n\n3.实现基于人物视频、语音、文本等多模态条件的3D人体生成。 \n\n4.独立验证算法方案，通过实际测试确保模型在虚拟人及具身智能场景中的稳定性。 \n\n5.与工程和产品团队紧密协作，推动技术从实验到落地的高效转化。\n\n\n\n\n岗位要求：\n\n1.硕士及以上学历，计算机、人工智能、图形学或相关专业背景。 \n\n2.精通3D人体Tracking与生成技术（SMPL/SMPL-X）。 \n\n3.熟悉ViT，Diffusion框架。 \n\n4.熟练使用PyTorch、PyTorch3D及3D工具（如Unity，Blender），具备扎实的Python/C++编程能力。 \n\n5.有具身智能、机器人仿真（Isaac Gym）或顶会论文（CVPR/ICCV/SIGGRAPH）经验者优先。 \n\n6.逻辑清晰，能快速学习新技术，对3D生成与智能体交互有强烈热情。",
+      "requirements": "",
+      "full_description": "岗位要求：\n\n1.负责研发多模态3D人体Tracking与生成模型，包括姿态泛化及人物动作细节优化。 \n\n2.构建多模态3D人体Tracking与生成的端到端pipeline，完成从数据处理、算法迭代到系统部署的全流程优化。 \n\n3.实现基于人物视频、语音、文本等多模态条件的3D人体生成。 \n\n4.独立验证算法方案，通过实际测试确保模型在虚拟人及具身智能场景中的稳定性。 \n\n5.与工程和产品团队紧密协作，推动技术从实验到落地的高效转化。\n\n\n\n\n岗位要求：\n\n1.硕士及以上学历，计算机、人工智能、图形学或相关专业背景。 \n\n2.精通3D人体Tracking与生成技术（SMPL/SMPL-X）。 \n\n3.熟悉ViT，Diffusion框架。 \n\n4.熟练使用PyTorch、PyTorch3D及3D工具（如Unity，Blender），具备扎实的Python/C++编程能力。 \n\n5.有具身智能、机器人仿真（Isaac Gym）或顶会论文（CVPR/ICCV/SIGGRAPH）经验者优先。 \n\n6.逻辑清晰，能快速学习新技术，对3D生成与智能体交互有强烈热情。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 332,
+        "end": 339,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 376,
+        "end": 382,
+        "quote": "Python"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 383,
+        "end": 386,
+        "quote": "C++"
+      },
+      {
+        "id": "O4",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 402,
+        "end": 418,
+        "quote": "机器人仿真（Isaac Gym）"
+      },
+      {
+        "id": "O5",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 50,
+        "quote": "负责研发多模态3D人体Tracking与生成模型，包括姿态泛化及人物动作细节优化。"
+      },
+      {
+        "id": "O6",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 55,
+        "end": 87,
+        "quote": "构建多模态3D人体Tracking与生成的端到端pipeline"
+      },
+      {
+        "id": "O7",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 150,
+        "end": 186,
+        "quote": "独立验证算法方案，通过实际测试确保模型在虚拟人及具身智能场景中的稳定性。"
+      },
+      {
+        "id": "O8",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 159,
+        "end": 186,
+        "quote": "通过实际测试确保模型在虚拟人及具身智能场景中的稳定性。"
+      },
+      {
+        "id": "O9",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 267,
+        "end": 286,
+        "quote": "精通3D人体Tracking与生成技术"
+      },
+      {
+        "id": "O10",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 267,
+        "end": 286,
+        "quote": "精通3D人体Tracking与生成技术"
+      },
+      {
+        "id": "O11",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 305,
+        "end": 322,
+        "quote": "熟悉ViT，Diffusion框架"
+      },
+      {
+        "id": "O12",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 402,
+        "end": 418,
+        "quote": "机器人仿真（Isaac Gym）"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0030:1",
+        "codes": [],
+        "names": [],
+        "surface": "SMPL",
+        "quote": "SMPL",
+        "field": "full_description",
+        "start": 287,
+        "end": 291
+      },
+      {
+        "id": "2",
+        "review_id": "N0030:2",
+        "codes": [],
+        "names": [],
+        "surface": "SMPL-X",
+        "quote": "SMPL-X",
+        "field": "full_description",
+        "start": 292,
+        "end": 298
+      },
+      {
+        "id": "3",
+        "review_id": "N0030:3",
+        "codes": [
+          "V2_C",
+          "V2_BLENDER",
+          "V2_UNITY"
+        ],
+        "names": [
+          "C语言",
+          "Blender",
+          "Unity"
+        ],
+        "surface": "4.熟练使用PyTorch、PyTorch3D及3D工具（如Unity，Blender），具备扎实的Python/C++编程能力。 ",
+        "quote": "4.熟练使用PyTorch、PyTorch3D及3D工具（如Unity，Blender），具备扎实的Python/C++编程能力。 ",
+        "field": "full_description",
+        "start": 326,
+        "end": 392
+      },
+      {
+        "id": "4",
+        "review_id": "N0030:4",
+        "codes": [],
+        "names": [],
+        "surface": "PyTorch3D",
+        "quote": "PyTorch3D",
+        "field": "full_description",
+        "start": 340,
+        "end": 349
+      },
+      {
+        "id": "5",
+        "review_id": "N0030:5",
+        "codes": [
+          "V2_UNITY"
+        ],
+        "names": [
+          "Unity"
+        ],
+        "surface": "Unity",
+        "quote": "Unity",
+        "field": "full_description",
+        "start": 356,
+        "end": 361
+      },
+      {
+        "id": "6",
+        "review_id": "N0030:6",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "Blender",
+        "quote": "Blender",
+        "field": "full_description",
+        "start": 362,
+        "end": 369
+      }
+    ]
+  },
+  {
+    "coding_order": 66,
+    "reading_id": "N0001",
+    "company_id": "CN_GALBOT",
+    "title": "具身大模型算法工程师-27届",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a31553fd-a766-4095-871f-7905a88caaca|2944896a4f83dbe991a7fde7094862d304b57a5f4541e1d1a6e7122ea729ec9c",
+    "already_coded": false,
+    "fields": {
+      "duties": "职位描述\n\n1、具身智能大模型的研究和开发。\n\n2、具身智能大模型的推理加速和硬件适配部署。\n\n3、持续根据产品需求迭代优化模型架构，完成对模型的数据处理，训练与优化。\n\n4、深入调研具身智能领域相关的前沿技术，跟踪业内大模型领域的最新进展并推进相关研究，探寻将最新技术应用到具身智能领域的可能性。\n\n\n\n\n该岗位为应届岗位，面向2026年9月1日-2027年12月31日毕业的应届同学。若您是社招简历，请至社招官网投递同岗位，谢谢。\n\n\n\n\n职位要求\n\n1、人工智能、计算机视觉、自然语言处理等相关领域的硕士及以上学历；\n\n2、精通Python，具有良好的深度学习基础，熟悉TensorFlow、PyTorch等深度学习框架；\n\n3、具备大模型领域的研究经验，对Transformer、BERT、GPT等模型有深入理解，具备预训练、微调、部署等流程的工作经验，有科技公司高阶技术岗位经历者优先，有发表过有影响力的学术论文者优先。\n\n4、具备优秀的学习能力，英语水平，以及良好的团队沟通与协作能力。",
+      "requirements": "",
+      "full_description": "职位描述\n\n1、具身智能大模型的研究和开发。\n\n2、具身智能大模型的推理加速和硬件适配部署。\n\n3、持续根据产品需求迭代优化模型架构，完成对模型的数据处理，训练与优化。\n\n4、深入调研具身智能领域相关的前沿技术，跟踪业内大模型领域的最新进展并推进相关研究，探寻将最新技术应用到具身智能领域的可能性。\n\n\n\n\n该岗位为应届岗位，面向2026年9月1日-2027年12月31日毕业的应届同学。若您是社招简历，请至社招官网投递同岗位，谢谢。\n\n\n\n\n职位要求\n\n1、人工智能、计算机视觉、自然语言处理等相关领域的硕士及以上学历；\n\n2、精通Python，具有良好的深度学习基础，熟悉TensorFlow、PyTorch等深度学习框架；\n\n3、具备大模型领域的研究经验，对Transformer、BERT、GPT等模型有深入理解，具备预训练、微调、部署等流程的工作经验，有科技公司高阶技术岗位经历者优先，有发表过有影响力的学术论文者优先。\n\n4、具备优秀的学习能力，英语水平，以及良好的团队沟通与协作能力。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 265,
+        "end": 273,
+        "quote": "精通Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_TENSORFLOW",
+        "name": "TensorFlow",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 288,
+        "end": 298,
+        "quote": "TensorFlow"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 299,
+        "end": 306,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O4",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 307,
+        "end": 313,
+        "quote": "深度学习框架"
+      },
+      {
+        "id": "O5",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 8,
+        "end": 22,
+        "quote": "具身智能大模型的研究和开发。"
+      },
+      {
+        "id": "O6",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 26,
+        "end": 46,
+        "quote": "具身智能大模型的推理加速和硬件适配部署。"
+      },
+      {
+        "id": "O7",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 274,
+        "end": 285,
+        "quote": "具有良好的深度学习基础"
+      },
+      {
+        "id": "O8",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 318,
+        "end": 330,
+        "quote": "具备大模型领域的研究经验"
+      }
+    ],
+    "candidates": []
+  },
+  {
+    "coding_order": 67,
+    "reading_id": "N0035",
+    "company_id": "CN_GALBOT",
+    "title": "强化学习算法工程师-工业方向",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a8c37b66-5356-45d9-9b85-8d7b40c45586|8f76406f6e97bd7e04a07b99184bc6adf9b156affdedcfbbb95af47a034c62bb",
+    "already_coded": false,
+    "fields": {
+      "duties": "工作内容\n\n1.参与机器人操作强化学习算法的研发与优化，协助实现抓取、放置、装配等任务的算法开发，包括离线强化学习、真机强化学习等方向。\n\n2.协助VLA+RL相关算法的实现与实验，与团队共同探索视觉‑语言模型与强化学习结合的应用方案。\n\n3.参与高保真仿真环境的搭建与调试，支持算法从仿真到真机平台的测试与部署。\n\n4.协助完成算法在真实机器人场景中的测试、数据分析与迭代优化。\n\n5.跟踪学习机器人领域前沿技术，参与团队技术调研与创新尝试。\n\n\n\n\n任职要求： \n\n1、学历与经验：\n\n硕士及以上学历，计算机、人工智能、自动化、机器人等相关专业。\n\n2、核心技术能力：\n\n了解强化学习： 理解主流RL算法（DRL、IL、Offline RL等），熟悉VLA/VLM： 了解视觉-语言模型的基本原理（如CLIP、BLIP、GPT-4V等），对多模态学习、指令跟随有实践经验者优先。\n\n扎实的工程能力： 优秀的Python/C++编程能力，熟悉Linux开发环境，具备良好的代码风格和工程化习惯。\n\n3、附加能力：\n\n具备优秀的沟通能力和团队协作精神，能够清晰地在跨职能团队（算法、软件、硬件）中阐述技术方案。\n\n对机器人技术充满热情，具备强大的自驱力、学习能力和解决复杂问题的能力。\n\n在顶级会议（如CoRL, RSS, ICRA, IROS, NeurIPS, ICML）有相关论文发表者优先。",
+      "requirements": "",
+      "full_description": "工作内容\n\n1.参与机器人操作强化学习算法的研发与优化，协助实现抓取、放置、装配等任务的算法开发，包括离线强化学习、真机强化学习等方向。\n\n2.协助VLA+RL相关算法的实现与实验，与团队共同探索视觉‑语言模型与强化学习结合的应用方案。\n\n3.参与高保真仿真环境的搭建与调试，支持算法从仿真到真机平台的测试与部署。\n\n4.协助完成算法在真实机器人场景中的测试、数据分析与迭代优化。\n\n5.跟踪学习机器人领域前沿技术，参与团队技术调研与创新尝试。\n\n\n\n\n任职要求： \n\n1、学历与经验：\n\n硕士及以上学历，计算机、人工智能、自动化、机器人等相关专业。\n\n2、核心技术能力：\n\n了解强化学习： 理解主流RL算法（DRL、IL、Offline RL等），熟悉VLA/VLM： 了解视觉-语言模型的基本原理（如CLIP、BLIP、GPT-4V等），对多模态学习、指令跟随有实践经验者优先。\n\n扎实的工程能力： 优秀的Python/C++编程能力，熟悉Linux开发环境，具备良好的代码风格和工程化习惯。\n\n3、附加能力：\n\n具备优秀的沟通能力和团队协作精神，能够清晰地在跨职能团队（算法、软件、硬件）中阐述技术方案。\n\n对机器人技术充满热情，具备强大的自驱力、学习能力和解决复杂问题的能力。\n\n在顶级会议（如CoRL, RSS, ICRA, IROS, NeurIPS, ICML）有相关论文发表者优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 405,
+        "end": 411,
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 412,
+        "end": 415,
+        "quote": "C++"
+      },
+      {
+        "id": "O3",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 420,
+        "end": 431,
+        "quote": "熟悉Linux开发环境"
+      },
+      {
+        "id": "O4",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 8,
+        "end": 68,
+        "quote": "参与机器人操作强化学习算法的研发与优化，协助实现抓取、放置、装配等任务的算法开发，包括离线强化学习、真机强化学习等方向。"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 8,
+        "end": 68,
+        "quote": "参与机器人操作强化学习算法的研发与优化，协助实现抓取、放置、装配等任务的算法开发，包括离线强化学习、真机强化学习等方向。"
+      },
+      {
+        "id": "O6",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 72,
+        "end": 118,
+        "quote": "协助VLA+RL相关算法的实现与实验，与团队共同探索视觉‑语言模型与强化学习结合的应用方案。"
+      },
+      {
+        "id": "O7",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 122,
+        "end": 157,
+        "quote": "参与高保真仿真环境的搭建与调试，支持算法从仿真到真机平台的测试与部署。"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 161,
+        "end": 190,
+        "quote": "协助完成算法在真实机器人场景中的测试、数据分析与迭代优化。"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 288,
+        "end": 294,
+        "quote": "了解强化学习"
+      },
+      {
+        "id": "O10",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 309,
+        "end": 311,
+        "quote": "IL"
+      },
+      {
+        "id": "O11",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 325,
+        "end": 334,
+        "quote": "熟悉VLA/VLM"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 371,
+        "end": 390,
+        "quote": "对多模态学习、指令跟随有实践经验者优先"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0035:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "扎实的工程能力： 优秀的Python/C++编程能力，熟悉Linux开发环境，具备良好的代码风格和工程化习惯。",
+        "quote": "扎实的工程能力： 优秀的Python/C++编程能力，熟悉Linux开发环境，具备良好的代码风格和工程化习惯。",
+        "field": "full_description",
+        "start": 393,
+        "end": 448
+      }
+    ]
+  },
+  {
+    "coding_order": 68,
+    "reading_id": "N0061",
+    "company_id": "CN_GALBOT",
+    "title": "具身大模型算法实习生【后训练方向】",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|b7b86ba4-34a3-4167-a1b2-f74449f30c9d|080d260bf846e70ff00ad10135cbf358799408b520730a7358499e729f0bb840",
+    "already_coded": false,
+    "fields": {
+      "duties": "1、参与具身大模型（VLA / World Model / Policy）的后训练（post-training）与系统级优化，包括在真实机器人环境中的性能提升与对齐。\n\n2、设计并实现基于真实交互数据的模型优化方法，如 offline/online fine-tuning、RLHF-like 反馈优化、failure-driven learning 等。\n\n3、构建模型在真实环境中的评测与优化闭环（data collection → error analysis → model update）。\n\n4、参与 sim2real 迁移与鲁棒性优化，提升模型在复杂真实场景下的泛化能力。\n\n5、与算法团队协作，推动模型从离线训练走向真实部署。",
+      "requirements": "",
+      "full_description": "1、参与具身大模型（VLA / World Model / Policy）的后训练（post-training）与系统级优化，包括在真实机器人环境中的性能提升与对齐。\n\n2、设计并实现基于真实交互数据的模型优化方法，如 offline/online fine-tuning、RLHF-like 反馈优化、failure-driven learning 等。\n\n3、构建模型在真实环境中的评测与优化闭环（data collection → error analysis → model update）。\n\n4、参与 sim2real 迁移与鲁棒性优化，提升模型在复杂真实场景下的泛化能力。\n\n5、与算法团队协作，推动模型从离线训练走向真实部署。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 2,
+        "end": 62,
+        "quote": "参与具身大模型（VLA / World Model / Policy）的后训练（post-training）与系统级优化"
+      },
+      {
+        "id": "O2",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 137,
+        "end": 151,
+        "quote": "RLHF-like 反馈优化"
+      },
+      {
+        "id": "O3",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 182,
+        "end": 250,
+        "quote": "构建模型在真实环境中的评测与优化闭环（data collection → error analysis → model update）。"
+      },
+      {
+        "id": "O4",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 254,
+        "end": 274,
+        "quote": "参与 sim2real 迁移与鲁棒性优化"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0061:1",
+        "codes": [
+          "V2_WORLD_MODEL",
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "世界模型",
+          "模型后训练与对齐"
+        ],
+        "surface": "1、参与具身大模型（VLA / World Model / Policy）的后训练（post-training）与系统级优化，包括在真实机器人环境中的性能提升与对齐。",
+        "quote": "1、参与具身大模型（VLA / World Model / Policy）的后训练（post-training）与系统级优化，包括在真实机器人环境中的性能提升与对齐。",
+        "field": "full_description",
+        "start": 0,
+        "end": 83
+      },
+      {
+        "id": "2",
+        "review_id": "N0061:2",
+        "codes": [
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "模型后训练与对齐"
+        ],
+        "surface": "2、设计并实现基于真实交互数据的模型优化方法，如 offline/online fine-tuning、RLHF-like 反馈优化、failure-driven learning 等。",
+        "quote": "2、设计并实现基于真实交互数据的模型优化方法，如 offline/online fine-tuning、RLHF-like 反馈优化、failure-driven learning 等。",
+        "field": "full_description",
+        "start": 85,
+        "end": 178
+      },
+      {
+        "id": "3",
+        "review_id": "N0061:3",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "4、参与 sim2real 迁移与鲁棒性优化，提升模型在复杂真实场景下的泛化能力。",
+        "quote": "4、参与 sim2real 迁移与鲁棒性优化，提升模型在复杂真实场景下的泛化能力。",
+        "field": "full_description",
+        "start": 252,
+        "end": 293
+      }
+    ]
+  },
+  {
+    "coding_order": 69,
+    "reading_id": "N0102",
+    "company_id": "CN_GALBOT",
+    "title": "具身大模型算法工程师-北京",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|bcb752ae-3384-4e41-ac92-d17e22e0c8f5|cdd1d9e50f49ac111108d6d407fead6234ea4ef762016066a62cfa7387f186b5",
+    "already_coded": false,
+    "fields": {
+      "duties": "欢迎您加入银河通用机器人这个开放、乐观、创新挑战机遇的创业团队，与我们一起探索具身智能大模型的浩瀚未来！\n\n\n\n\n职位描述：\n\n1、具身智能大模型的研究和开发。\n\n2、具身智能大模型的推理加速和硬件适配部署。\n\n3、持续根据产品需求迭代优化模型架构，完成对模型的数据处理，训练与优化。\n\n4、深入调研具身智能领域相关的前沿技术，跟踪业内大模型领域的最新进展并推进相关研究，探寻将最新技术应用到具身智能领域的可能性。\n\n\n\n\n职位要求：\n\n1、人工智能、计算机视觉、自然语言处理等相关领域的硕士及以上学历；\n\n2、精通Python，具有良好的深度学习基础，熟悉TensorFlow、PyTorch等深度学习框架；\n\n3、具备大模型领域的研究经验，对Transformer、BERT、GPT等模型有深入理解，有科技公司高阶技术岗位经历者优先，有发表过有影响力的学术论文者优先。\n\n4、具备优秀的学习能力，英语水平，以及良好的团队沟通与协作能力。",
+      "requirements": "",
+      "full_description": "欢迎您加入银河通用机器人这个开放、乐观、创新挑战机遇的创业团队，与我们一起探索具身智能大模型的浩瀚未来！\n\n\n\n\n职位描述：\n\n1、具身智能大模型的研究和开发。\n\n2、具身智能大模型的推理加速和硬件适配部署。\n\n3、持续根据产品需求迭代优化模型架构，完成对模型的数据处理，训练与优化。\n\n4、深入调研具身智能领域相关的前沿技术，跟踪业内大模型领域的最新进展并推进相关研究，探寻将最新技术应用到具身智能领域的可能性。\n\n\n\n\n职位要求：\n\n1、人工智能、计算机视觉、自然语言处理等相关领域的硕士及以上学历；\n\n2、精通Python，具有良好的深度学习基础，熟悉TensorFlow、PyTorch等深度学习框架；\n\n3、具备大模型领域的研究经验，对Transformer、BERT、GPT等模型有深入理解，有科技公司高阶技术岗位经历者优先，有发表过有影响力的学术论文者优先。\n\n4、具备优秀的学习能力，英语水平，以及良好的团队沟通与协作能力。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 256,
+        "end": 276,
+        "quote": "精通Python，具有良好的深度学习基础"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 298,
+        "end": 304,
+        "quote": "深度学习框架"
+      },
+      {
+        "id": "O3",
+        "code": "SK_TENSORFLOW",
+        "name": "TensorFlow",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 279,
+        "end": 289,
+        "quote": "TensorFlow"
+      },
+      {
+        "id": "O4",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 290,
+        "end": 297,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O5",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 66,
+        "end": 80,
+        "quote": "具身智能大模型的研究和开发。"
+      },
+      {
+        "id": "O6",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 84,
+        "end": 104,
+        "quote": "具身智能大模型的推理加速和硬件适配部署。"
+      },
+      {
+        "id": "O7",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 256,
+        "end": 276,
+        "quote": "精通Python，具有良好的深度学习基础"
+      },
+      {
+        "id": "O8",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 309,
+        "end": 351,
+        "quote": "具备大模型领域的研究经验，对Transformer、BERT、GPT等模型有深入理解"
+      },
+      {
+        "id": "O9",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 32,
+        "end": 52,
+        "quote": "与我们一起探索具身智能大模型的浩瀚未来！"
+      },
+      {
+        "id": "O10",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 226,
+        "end": 231,
+        "quote": "计算机视觉"
+      }
+    ],
+    "candidates": []
+  },
+  {
+    "coding_order": 70,
+    "reading_id": "N0029",
+    "company_id": "CN_GALBOT",
+    "title": "具身大模型后训练算法工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|bde310a9-790b-4a24-aa6e-735dbb28d9a7|d3f573e821816d122a3657d936e43f102119d1722e0209664e2eaa85792323e1",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1、参与工业场景VLM（视觉语言模型）/VLA（视觉语言动作模型）/WAM（世界动作模型） 算法研发与优化，聚焦机器人精细操作与泛化能力的提升，助力具身大模型工业场景落地效果提升。\n\n2、负责数据驱动的模型迭代全流程工作，涵盖多模态数据采集、清洗、增强，以及模型训练、微调、性能优化，探索具身智能模型优化方案，提升机器人操作决策能力与模型泛化性、鲁棒性。\n\n3、协助完成真实机器人场景的算法测试、数据分析与迭代，跟进具身智能领域前沿技术。\n\n4、配合团队推进算法落地量产，参与解决工业场景下算法落地的核心问题，保障算法落地效果与稳定性。\n\n\n\n\n任职要求：\n\n基本背景\n\n1、硕士/博士研究生，计算机、人工智能、机器人工程、自动化等相关专业。\n\n2、对Robot Learning有深入理解，熟悉数据驱动的模型迭代方法，有相关研究或项目经验优先。\n\n核心技术能力\n\n1、熟悉VLM，VLA，WAM核心原理与架构，具备深度学习、计算机视觉基础理论与实践经验。\n\n2、熟练使用Python，熟悉PyTorch/Jax深度学习框架，有完整的VLA/WAM/VLM训练、部署、微调经验，有模型加速、推理优化经验者优先。\n\n3、熟悉$$\\pi_{0}$$，$$\\pi_{0.5}$$，$$\\pi_{0.6}^*$$，DreamZero，Lingbot-VA等主流VLA/WAM模型架构与实践细节，有相关模型调优经验优先。\n\n4、了解强化学习、模仿学习基础算法，具备真实机器人算法实际部署、调试落地经验优先。\n\n5、熟悉ROS与机器人学基础，熟悉Linux开发环境，代码规范、工程实现能力良好。\n\n\n\n\n综合素质\n\n 1、自驱力与学习能力强，对工业具身智能领域有浓厚兴趣。\n\n 2、具备良好的团队协作与沟通能力，能高效推进项目任务。\n\n 3、在机器人、人工智能相关会议或期刊有论文发表者优先。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1、参与工业场景VLM（视觉语言模型）/VLA（视觉语言动作模型）/WAM（世界动作模型） 算法研发与优化，聚焦机器人精细操作与泛化能力的提升，助力具身大模型工业场景落地效果提升。\n\n2、负责数据驱动的模型迭代全流程工作，涵盖多模态数据采集、清洗、增强，以及模型训练、微调、性能优化，探索具身智能模型优化方案，提升机器人操作决策能力与模型泛化性、鲁棒性。\n\n3、协助完成真实机器人场景的算法测试、数据分析与迭代，跟进具身智能领域前沿技术。\n\n4、配合团队推进算法落地量产，参与解决工业场景下算法落地的核心问题，保障算法落地效果与稳定性。\n\n\n\n\n任职要求：\n\n基本背景\n\n1、硕士/博士研究生，计算机、人工智能、机器人工程、自动化等相关专业。\n\n2、对Robot Learning有深入理解，熟悉数据驱动的模型迭代方法，有相关研究或项目经验优先。\n\n核心技术能力\n\n1、熟悉VLM，VLA，WAM核心原理与架构，具备深度学习、计算机视觉基础理论与实践经验。\n\n2、熟练使用Python，熟悉PyTorch/Jax深度学习框架，有完整的VLA/WAM/VLM训练、部署、微调经验，有模型加速、推理优化经验者优先。\n\n3、熟悉$$\\pi_{0}$$，$$\\pi_{0.5}$$，$$\\pi_{0.6}^*$$，DreamZero，Lingbot-VA等主流VLA/WAM模型架构与实践细节，有相关模型调优经验优先。\n\n4、了解强化学习、模仿学习基础算法，具备真实机器人算法实际部署、调试落地经验优先。\n\n5、熟悉ROS与机器人学基础，熟悉Linux开发环境，代码规范、工程实现能力良好。\n\n\n\n\n综合素质\n\n 1、自驱力与学习能力强，对工业具身智能领域有浓厚兴趣。\n\n 2、具备良好的团队协作与沟通能力，能高效推进项目任务。\n\n 3、在机器人、人工智能相关会议或期刊有论文发表者优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 439,
+        "end": 449,
+        "quote": "熟练使用Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 452,
+        "end": 459,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O3",
+        "code": "SK_JAX",
+        "name": "JAX",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 460,
+        "end": 463,
+        "quote": "Jax"
+      },
+      {
+        "id": "O4",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 463,
+        "end": 469,
+        "quote": "深度学习框架"
+      },
+      {
+        "id": "O5",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 659,
+        "end": 664,
+        "quote": "熟悉ROS"
+      },
+      {
+        "id": "O6",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 672,
+        "end": 683,
+        "quote": "熟悉Linux开发环境"
+      },
+      {
+        "id": "O7",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 60,
+        "quote": "参与工业场景VLM（视觉语言模型）/VLA（视觉语言动作模型）/WAM（世界动作模型） 算法研发与优化"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 61,
+        "end": 78,
+        "quote": "聚焦机器人精细操作与泛化能力的提升"
+      },
+      {
+        "id": "O9",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 118,
+        "end": 148,
+        "quote": "涵盖多模态数据采集、清洗、增强，以及模型训练、微调、性能优化"
+      },
+      {
+        "id": "O10",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 188,
+        "end": 212,
+        "quote": "协助完成真实机器人场景的算法测试、数据分析与迭代"
+      },
+      {
+        "id": "O11",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 332,
+        "end": 352,
+        "quote": "对Robot Learning有深入理解"
+      },
+      {
+        "id": "O12",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 392,
+        "end": 412,
+        "quote": "熟悉VLM，VLA，WAM核心原理与架构"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 415,
+        "end": 419,
+        "quote": "深度学习"
+      },
+      {
+        "id": "O14",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 420,
+        "end": 434,
+        "quote": "计算机视觉基础理论与实践经验"
+      },
+      {
+        "id": "O15",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 470,
+        "end": 495,
+        "quote": "有完整的VLA/WAM/VLM训练、部署、微调经验"
+      },
+      {
+        "id": "O16",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 496,
+        "end": 511,
+        "quote": "有模型加速、推理优化经验者优先"
+      },
+      {
+        "id": "O17",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 618,
+        "end": 622,
+        "quote": "强化学习"
+      },
+      {
+        "id": "O18",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 623,
+        "end": 631,
+        "quote": "模仿学习基础算法"
+      },
+      {
+        "id": "O19",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 581,
+        "end": 599,
+        "quote": "主流VLA/WAM模型架构与实践细节"
+      },
+      {
+        "id": "O20",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 600,
+        "end": 611,
+        "quote": "有相关模型调优经验优先"
+      },
+      {
+        "id": "O21",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 262,
+        "end": 275,
+        "quote": "保障算法落地效果与稳定性。"
+      }
+    ],
+    "candidates": []
+  },
+  {
+    "coding_order": 71,
+    "reading_id": "N0162",
+    "company_id": "CN_GALBOT",
+    "title": "具身智能算法应用工程师-北京",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|c4c9217c-1d95-4649-873a-2009f81e937c|e3ae3a5a40f783ec072c58bce3221cf0c161c5c245d5b1fdd0c79422c57b102d",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1. 针对零售、工业等真实应用场景，参与具身智能算法方案开发、模型训练、性能调优，推动具身智能机器人商业化落地\n\n2. 参与开发机器人端算法接口，支持外部团队开发具身智能落地应用\n\n3. 本岗位面向成长型人才，希望招募渴望成长为具身智能全栈工程师，或从传统机器人行业转向具身智能行业的同学\n\n\n\n\n 岗位要求：\n\n1. 计算机、机器人相关背景，硕士以上学历\n\n2. 具备具身智能、工业机器人或服务机器人开发经验，完成过项目交付\n\n3. 熟练使用Python和C++，具备良好的编程习惯，丰富的Linux端开发经验\n\n4. 熟悉机器人运动学、规划控制、定位导航相关知识，了解常用算法，有算法相关科研工作者优先\n\n5. 热爱机器人，动手能力强，有机器人相关比赛（RoboMaster、RoboCon、RoboCup等）经历者优先",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1. 针对零售、工业等真实应用场景，参与具身智能算法方案开发、模型训练、性能调优，推动具身智能机器人商业化落地\n\n2. 参与开发机器人端算法接口，支持外部团队开发具身智能落地应用\n\n3. 本岗位面向成长型人才，希望招募渴望成长为具身智能全栈工程师，或从传统机器人行业转向具身智能行业的同学\n\n\n\n\n 岗位要求：\n\n1. 计算机、机器人相关背景，硕士以上学历\n\n2. 具备具身智能、工业机器人或服务机器人开发经验，完成过项目交付\n\n3. 熟练使用Python和C++，具备良好的编程习惯，丰富的Linux端开发经验\n\n4. 熟悉机器人运动学、规划控制、定位导航相关知识，了解常用算法，有算法相关科研工作者优先\n\n5. 热爱机器人，动手能力强，有机器人相关比赛（RoboMaster、RoboCon、RoboCup等）经历者优先"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 229,
+        "end": 235,
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 236,
+        "end": 239,
+        "quote": "C++"
+      },
+      {
+        "id": "O3",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 253,
+        "end": 263,
+        "quote": "Linux端开发经验"
+      },
+      {
+        "id": "O4",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 25,
+        "end": 47,
+        "quote": "参与具身智能算法方案开发、模型训练、性能调优"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 268,
+        "end": 297,
+        "quote": "熟悉机器人运动学、规划控制、定位导航相关知识，了解常用算法"
+      },
+      {
+        "id": "O6",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 268,
+        "end": 297,
+        "quote": "熟悉机器人运动学、规划控制、定位导航相关知识，了解常用算法"
+      },
+      {
+        "id": "O7",
+        "code": "TC_SLAM",
+        "name": "定位建图",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 268,
+        "end": 297,
+        "quote": "熟悉机器人运动学、规划控制、定位导航相关知识，了解常用算法"
+      },
+      {
+        "id": "O8",
+        "code": "TC_NAVIGATION",
+        "name": "导航",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 268,
+        "end": 297,
+        "quote": "熟悉机器人运动学、规划控制、定位导航相关知识，了解常用算法"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0162:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "3. 熟练使用Python和C++，具备良好的编程习惯，丰富的Linux端开发经验",
+        "quote": "3. 熟练使用Python和C++，具备良好的编程习惯，丰富的Linux端开发经验",
+        "field": "full_description",
+        "start": 222,
+        "end": 263
+      }
+    ]
+  },
+  {
+    "coding_order": 72,
+    "reading_id": "N0099",
+    "company_id": "CN_GALBOT",
+    "title": "算子开发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|c4f09105-11b3-40d5-9a68-ef70c1749937|97a09c761c1fdb717e35a6465c103d834ddb88f7db360609873f84a272f0f34b",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.负责核心计算模块和高性能算子的开发、优化与维护；\n\n2.负责关键算子的性能分析、瓶颈定位和优化实现；\n\n3.支持不同硬件平台上的算子适配与验证；\n\n4.与系统、训练和算法同学协作，推动关键能力在业务场景中落地。\n\n\n\n\n职位要求\n\n1.本科及以上学历，计算机、软件、电子、数学等相关专业；\n\n2.熟悉 C/C++，具备扎实的数据结构与底层实现能力；\n\n3.熟悉 CUDA 或其他并行计算开发方式，具备性能优化经验；\n\n4.理解常见深度学习计算过程，有高性能计算、编译优化或算子开发经验者优先；\n\n5.具备较强的问题分析和独立攻关能力。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1.负责核心计算模块和高性能算子的开发、优化与维护；\n\n2.负责关键算子的性能分析、瓶颈定位和优化实现；\n\n3.支持不同硬件平台上的算子适配与验证；\n\n4.与系统、训练和算法同学协作，推动关键能力在业务场景中落地。\n\n\n\n\n职位要求\n\n1.本科及以上学历，计算机、软件、电子、数学等相关专业；\n\n2.熟悉 C/C++，具备扎实的数据结构与底层实现能力；\n\n3.熟悉 CUDA 或其他并行计算开发方式，具备性能优化经验；\n\n4.理解常见深度学习计算过程，有高性能计算、编译优化或算子开发经验者优先；\n\n5.具备较强的问题分析和独立攻关能力。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 162,
+        "end": 165,
+        "quote": "C++"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CUDA",
+        "name": "CUDA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 190,
+        "end": 194,
+        "quote": "CUDA"
+      },
+      {
+        "id": "O3",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 220,
+        "end": 232,
+        "quote": "理解常见深度学习计算过程"
+      },
+      {
+        "id": "O4",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 63,
+        "end": 80,
+        "quote": "支持不同硬件平台上的算子适配与验证"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0099:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "2.熟悉 C/C++，具备扎实的数据结构与底层实现能力；",
+        "quote": "2.熟悉 C/C++，具备扎实的数据结构与底层实现能力；",
+        "field": "full_description",
+        "start": 155,
+        "end": 183
+      },
+      {
+        "id": "2",
+        "review_id": "N0099:2",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "C",
+        "quote": "C",
+        "field": "full_description",
+        "start": 160,
+        "end": 161
+      }
+    ]
+  }
+]

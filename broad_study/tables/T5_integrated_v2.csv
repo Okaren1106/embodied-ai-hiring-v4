@@ -1,0 +1,15 @@
+﻿item_id,topic,scope,evidence,finding,limit,sensitivity
+T5_Q2_SCOPE,Q2范围,"17 concrete roles, 1576 ads",Q3_adjudicated_ads_partial.csv,全部17类完成首轮全文编码与分层比较资格判定,复合/任选/歧义/来源不足不拆入单职能分母,FAR单列；S1–S3为不同范围
+T5_O_PRODUCT_UNKNOWN,产品归属,84 ML+software ads in 4 companies,O4_attribution_seniority_unknown.csv,81/84条产品未知，3条能直接连到命名产品,不以公司品牌补产品,对象多值不可相加
+T5_D_GALBOT_FIGURE,构成分解,Galbot×Figure K=4,D2_decomposition_summary.csv MAIN FIXED_K ACT_ENGINEERING,工程Δ=+11.10pp，构成+19.45，职能内−8.35,算术分量非因果,S1–S3因Galbot退出为NA；等权可反向
+T5_DEPLOYMENT_OBJECT,部署活动对象,ACT_DEPLOYMENT,R A01; O reports,部署与维护含模型/平台对象,不能整体改称客户现场,客户现场须另用对象证据
+T5_Q2_RESEARCH_OPS,稀疏职能,research science; robot ops,Q1_role_coverage.csv,无L3组汇总格,POINTS_ONLY,加公司也不保证任务可比
+T5_Q2_RF_DEPLOYMENT_FIELD_SERVICE_SK_LINUX,主图项,WHOLE23 GENERAL UNCONDITIONAL,Q4_display_items.csv,Linux P/N=21/82 ad=0.25609756097560976 eq=0.24294532627865958 dominance=NO,探索性；C/C++未知另见Q4_unknown_bounds,leave-one-out; S1–S3
+T5_Q2_RF_DEPLOYMENT_FIELD_SERVICE_SK_PYTHON,主图项,WHOLE23 GENERAL UNCONDITIONAL,Q4_display_items.csv,Python P/N=11/78 ad=0.14102564102564102 eq=0.1502849002849003 dominance=YES,探索性；C/C++未知另见Q4_unknown_bounds,leave-one-out; S1–S3
+T5_Q2_RF_DEPLOYMENT_FIELD_SERVICE_V2_INCIDENT_SUPPORT,主图项,WHOLE23 GENERAL UNCONDITIONAL,Q4_display_items.csv,运行排障与事件升级 P/N=31/84 ad=0.36904761904761907 eq=0.2905304571971239 dominance=NO,探索性；C/C++未知另见Q4_unknown_bounds,leave-one-out; S1–S3
+T5_Q2_RF_ML_AI_ENGINEERING_SK_PYTHON,主图项,WHOLE23 GENERAL UNCONDITIONAL,Q4_display_items.csv,Python P/N=60/135 ad=0.4444444444444444 eq=0.4174239947695325 dominance=NO,探索性；C/C++未知另见Q4_unknown_bounds,leave-one-out; S1–S3
+T5_Q2_RF_ML_AI_ENGINEERING_SK_LINUX,主图项,WHOLE23 GENERAL UNCONDITIONAL,Q4_display_items.csv,Linux P/N=20/155 ad=0.12903225806451613 eq=0.08833333333333333 dominance=NO,探索性；C/C++未知另见Q4_unknown_bounds,leave-one-out; S1–S3
+T5_Q2_RF_ML_AI_ENGINEERING_SK_CPP,主图项,WHOLE23 GENERAL UNCONDITIONAL,Q4_display_items.csv,C++ P/N=16/133 ad=0.12030075187969924 eq=0.09401740517301159 dominance=NO,探索性；C/C++未知另见Q4_unknown_bounds,leave-one-out; S1–S3
+T5_Q2_RF_ROBOTICS_SOFTWARE_SK_LINUX,主图项,WHOLE23 GENERAL UNCONDITIONAL,Q4_display_items.csv,Linux P/N=70/177 ad=0.3954802259887006 eq=0.3257476020269862 dominance=NO,探索性；C/C++未知另见Q4_unknown_bounds,leave-one-out; S1–S3
+T5_Q2_RF_ROBOTICS_SOFTWARE_SK_CPP,主图项,WHOLE23 GENERAL UNCONDITIONAL,Q4_display_items.csv,C++ P/N=42/150 ad=0.28 eq=0.22892964735069996 dominance=NO,探索性；C/C++未知另见Q4_unknown_bounds,leave-one-out; S1–S3
+T5_Q2_RF_ROBOTICS_SOFTWARE_SK_PYTHON,主图项,WHOLE23 GENERAL UNCONDITIONAL,Q4_display_items.csv,Python P/N=35/165 ad=0.21212121212121213 eq=0.18550025951211724 dominance=NO,探索性；C/C++未知另见Q4_unknown_bounds,leave-one-out; S1–S3

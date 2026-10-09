@@ -1,0 +1,225 @@
+# From Technology Mentions to Direct Qualifications in Embodied AI Recruitment
+
+**Purpose:** This paper asks how firm comparisons within the same embodied artificial intelligence task change when a named technology's presence is separated from its direct specification as a candidate qualification.
+
+**Design/methodology/approach:** The study uses a purposive corpus of 1,654 public job advertisements from 24 entities. Its analytical core contains 248 advertisements, six task–technology combinations and 496 advertisement–technology observations. A heading-inclusive union of unconditional general and required statements records direct qualification expressions. The analysis retains unresolved cases, enumerates all firm cells and compares eligible firms under rules fixed in the revision protocol. A bounded fresh reading examines source-level ambiguity.
+
+**Findings:** Direct-expression rates vary sharply by technology: Linux is directly specified in 47 of 52 mentions, compared with 23 of 83 for PyTorch. The Python and Linux assignment bounds remain non-overlapping across alternative readings, while the small PyTorch point ordering changes and its bounds overlap. The diagnostic identifies material ambiguity in slash, list and example constructions; it is not an independent accuracy assessment.
+
+**Originality:** The paper connects established relational job-advertisement coding to fixed task denominators and complete eligible firm comparisons. It shows how named-technology context can alter descriptive conclusions about publicly articulated qualifications without treating advertisements as realized labor demand.
+
+**Keywords:** job advertisements; technology qualifications; skill requirements; firm heterogeneity; embodied artificial intelligence; recruitment
+
+**Article classification:** Research paper
+
+## 1 Introduction
+
+A technology name in a job advertisement does not by itself show that the employer is asking candidates to know or use that technology. The name may appear in a duty, describe the product, illustrate one possible tool, or sit within an either-or list. It may instead be stated directly under required or general qualifications. This distinction matters when firms are compared within the same task. A higher mention rate can reflect how advertisements describe work rather than how they articulate candidate qualifications. In embodied artificial intelligence (AI), where robot learning and model development, runtime software and electronics roles use overlapping technical vocabularies, the two readings are especially easy to conflate.
+
+Research in *International Journal of Manpower* shows the value of detailed vacancy and competency measures. Colombo and Marcato (2023) extract specific skills from Italian vacancies and relate their distribution to local labor-market concentration. Chala et al. (2018) combine vacancy text, occupational standards and job-seeker information in a semantic matching framework. Bonesso et al. (2022), using behavioral event interviews with analytics professionals, distinguish competencies enacted at work from employers' expected skill sets in advertisements. Hennecke and Knabe (2026) separate structural teleworkability from observed remote work, illustrating why adjacent constructs should not be substituted.
+
+The wider job-advertisement literature documents variation in employer requirements within narrow occupations and over time (Deming and Kahn, 2018; Modestino et al., 2020), as well as organization-level variation in AI hiring (Acemoglu et al., 2022). Relational research goes beyond isolated skill spans. Krüger et al.'s (2025) GOJA representation models work processes, tools, work objects, alternatives and requirement strength; its applications distinguish robots used as tools from robots treated as work objects and examine the alternative relation between PyTorch and TensorFlow.
+
+The unresolved issue lies at the intersection of these strands. Vacancy studies often aggregate extracted skills, while relational representations preserve information within statements. Less is known about whether applying those distinctions changes firm comparisons among advertisements for the same task. The relevant contrast is between a technology being mentioned and being directly specified in a qualification expression. The latter remains public recruitment text; it does not establish worker competence, a binding screen, a completed hire or realized labor demand.
+
+This paper examines that contrast in a purposive corpus of 1,654 advertisements from 24 embodied-AI-related entities collected in two rounds. Its analytical core contains 248 advertisements in three predefined task groups—robot learning and model development (shortened to robot learning), robot runtime software and board or circuit work—and six task–technology combinations, producing 496 advertisement–technology observations. For each observation, the analysis retains the mention state and constructs a heading-inclusive direct-qualification state as the advertisement-level union of unconditional statements in general and required qualifications. Positive, no-positive-recorded and unresolved states remain separate. Assignment bounds place unresolved cases at either endpoint; they are not confidence intervals.
+
+The analysis enumerates all 120 firm–task–technology cells, including small cells and zero positives. A common eligibility rule fixed in the revision protocol requires at least ten evaluable advertisements for the mention, general-qualification and union measures; a threshold of five is a sensitivity analysis. Only three comparisons qualify at the main threshold, all involving the same two firms. Pair outcomes therefore describe dependent comparisons in this corpus, not independent replications across a broad company population.
+
+The findings show why the semantic distinction matters. Of 496 task-specific observations, 348 contain a technology mention, while 170 record a direct qualification expression and 49 remain unresolved. Required statements add five positives to the general-qualification measure without overlap. Linux is directly specified in 47 of 52 mentions, whereas PyTorch is directly specified in 23 of 83. In the Galbot–XSquare robot-learning comparisons, Python retains non-overlapping bounds and the same ordering. For PyTorch, two XSquare required statements turn disjoint general-qualification bounds into overlapping union bounds; the mention ordering points in the opposite direction. A bounded fresh reading, with prior row labels withheld but corpus-level aggregates known, produced 16 union-state differences in 105 pairs. Replacing all 16 as an alternative scenario changes the small PyTorch point ordering while its bounds remain overlapping; the Python and Linux separations remain. The diagnostic is evidence about ambiguity, not independent human validation or a population accuracy estimate.
+
+The contribution is a comparative application of relation-aware measurement to publicly articulated technology qualifications. By fixing tasks, retaining ambiguity and reporting the eligible comparison set, the paper shows when mention frequencies and direct qualification expressions support different readings. Function and work-object evidence serve comparability rather than separate headline claims. The results refine how labor and human resource (HR) scholarship can use job advertisements while keeping claims tied to recruitment language.
+
+## 2 Data and analytical scope
+
+### 2.1 Corpus and language capture
+
+The data comprise public job advertisements from firms whose documented work concerns humanoid or general-purpose robots, robot learning and manipulation, mobile manipulation, foundation models for physical systems, or related components, software and deployment services. Firms were selected purposively from an existing company landscape using research relevance, identifiable organizational scope, source quality and the availability of readable current job details with stable identifiers. This is a nonprobability sample of observable advertisements, not a census of firms, vacancies, hires or workers. Unavailable sources remain unknown rather than indicating zero recruitment, and conclusions refer to the sampled boards (Fabo and Mýtna Kureková, 2022; Tsvetkova et al., 2024).
+
+The first snapshot contains 610 advertisements from eight firms observed on 31 August 2026. A second adds 1,044 advertisements from 16 entities observed on 11 September 2026. The resulting corpus has 1,654 versioned advertisements from 24 entities. The main firm comparison uses 1,630 advertisements from 23 whole-company boards; 24 advertisements for Amazon Frontier AI and Robotics remain a separately bounded team within a large corporation. “Whole company” means the accessible company board and does not imply that every vacancy was publicly listed.
+
+Each advertisement is identified by entity, source job identifier and text-version hash. An identity audit found 1,654 unique composite record IDs and exact source-line matches. It also found one duplicated convenience packet ID outside the core task sample; all analytical joins therefore use the composite identity rather than that packet ID alone. Headquarters country, advertised location and source language are kept distinct. Company metadata assign 963 advertisements to China-headquartered firms and 691 to United-States-headquartered firms. A geographic work location is recorded for 800 advertisements, six nonempty values name a department rather than a place, and 848 are missing. A deterministic profile of captured title and body text classifies 957 sources as Chinese, 676 as English, six as Spanish, eight as Portuguese and seven as too short to classify. Language is read from source text, never imputed from headquarters or location; analysis uses the captured original-language text, with any English translations of examples identified as translations.
+
+### 2.2 Selection of functions and tasks
+
+Primary function records the advertisement’s main continuing deliverable. Several independent deliverables without a dominant one form a composite category; advertisements explicitly offering alternative directions form a separate multiple-direction category. Ambiguous, unmapped and source-insufficient records remain in the composition denominator. Secondary functions and activities are multivalued and are not added to primary-function counts. Function, activity, work object and task remain distinct: a software function, for example, may concern robot runtime, fulfilment information systems or another object.
+
+An exploratory 84-advertisement case set examines ML/AI and software work objects at AgiBot, Galbot, Dexterity and Nimble. The technology analysis instead starts from the 23-company scope and intersects primary function with a responsibility-defined primary task: ML/AI engineering with robot learning and model-development work (105 advertisements), robotics software with robot runtime or middleware (87), and hardware/electrical work with board-level circuitry (56). These 248 advertisements are mutually exclusive across the three task groups. Two previously established technologies are retained per task: Python and PyTorch; C++ and Linux; and Altium and the EMC/SI/PI method family. All 496 advertisement–technology pairs and all 120 firm–task–technology cells are retained, including zero-positive and small-denominator cells. The task groups and six pairs were fixed before the present union calculation, but after pilot reading and earlier results; the design is exploratory and was not preregistered.
+
+## 3 Measurement and source diagnostic
+
+### 3.1 Mentions and qualification states
+
+For each advertisement–technology pair, $M$ records any explicit mention in duties or qualifications. $G$ records a GENERAL–UNCONDITIONAL qualification: ordinary experience, familiarity or ability language that is not governed by a choice, example, preference or unresolved relation. $R$ records REQUIRED–UNCONDITIONAL, which needs an explicit mandatory statement or required-skills scope. A required-only occurrence does not also satisfy $G$, although distinct statements in one advertisement can make both measures positive. Words describing proficiency do not alone convert GENERAL to REQUIRED. Heading scope and local modifiers are both read; a local choice or example overrides a broader qualification heading.
+
+The main construct, $Q$, is the advertisement-level union of $G$ and $R$. It denotes a named technology directly specified in a qualification statement, whether ordinary or explicitly mandatory. $Q=P$ if either constituent is positive; $Q=Z$ if both are $Z$; and $Q=U$ if neither is positive and at least one is unresolved. Source exclusion and non-applicability remain separate. Thus $Q$ is not a simple sum of $G$ and $R$, and overlap can never be double counted.
+
+For every eligible cell, $P$ is an explicit positive, $U$ an unresolved object, scope or relation, and $Z$ means that no positive was recorded within the available source and coding scope. It does not mean that the employer lacks the requirement. Let $N=P+Z$ and $B=P+Z+U$. The point estimate is $P/N$; assigning every observed unknown first to nonpositive and then to positive gives the following identification interval:
+
+\[P/B, (P+U)/B\]
+
+These are assignment bounds, not confidence intervals, and they do not cover unrecognized classification error. The EMC/SI/PI measure unions explicit compatibility, interference, immunity, signal-integrity and power-integrity methods at advertisement level; Altium remains a single named tool.
+
+### 3.2 Author review and bounded source diagnostic
+
+The author reports reviewing the complete accepted corpus, proposing separate treatment for composite and alternative-direction cases, initially handling later-added categories such as industrial design, and confirming classification by substantive deliverable and actual work content. Preserved records document this project-level review and model-assisted row provenance, but not independent double coding or a human decision log for every row; no intercoder-reliability coefficient is reported.
+
+We added a bounded source-reading diagnostic. A fixed hash seed (20260921) selected up to five cases within each of four prior-state strata—$G$ positive, $G$ unresolved, $G$ nonpositive despite mention, and no mention—for each of the six task–technology cells. This produced 105 pairs covering 94 unique advertisements. A fresh model reader received the raw source fields, target technology and neutral rules, while prior row labels, rationales and selection strata were withheld. The reader had nevertheless seen a mandatory high-level project summary, so the exercise is row-label-blinded rather than fully blind. It is a model source-reading diagnostic, not a human reliability study or gold standard.
+
+After the fresh output was frozen, a separate source adjudication reread all 16 $Q$ disagreements and the remaining five $R$-only and one $G$-only source differences, distinguishing explicit example clarifications, readings inconsistent with the heading rules, and contestable slash or list scope. Task-support flags were preserved for sensitivity rather than treated as independently adjudicated. The original frozen states remain primary. Three bounded alternatives are reported separately: applying three explicit-example clarifications, substituting fresh states for the 105 sampled pairs, and excluding four task-boundary advertisements. The sampling frame and all selection flags remain archived; no disagreement proves either reading correct.
+
+### 3.3 Firm comparisons
+
+Advertisement-weighted rates pool valid advertisements. Firm-equal rates average firm-specific $P/N$ among firms with $N>0$, retaining valid zero-positive firms. The complete output reports every firm cell. For cross-firm comparisons, the main common-support rule requires each firm to have at least ten evaluable observations for $M$, $G$ and $Q$ in the same task–technology cell; a threshold of five is a secondary sensitivity check. Every unordered pair satisfying the rule is enumerated. Comparisons record whether the ordering from $M$ to $Q$, and separately from $G$ to $Q$, is preserved, reversed or tied, and whether assignment bounds overlap. They are descriptive comparisons among overlapping purposive samples, without significance tests or causal interpretation. Earlier named firm examples are retained only as illustrations within this exhaustive eligible-pair background.
+
+The Galbot–Figure engineering example uses a fixed set of four common functions for which both firms have at least ten activity-evaluable advertisements. A symmetric Kitagawa decomposition separates the pooled rate difference into a function-composition component and a within-function-rate component (Kitagawa, 1955); their sum is an arithmetic identity. Its actual local sample is 82 Galbot and 60 Figure advertisements. Template, campus/internship and source-observability sensitivities retain their earlier definitions; the new local source audit does not alter the whole-board screens.
+
+## 4 Results
+
+### 4.1 Technology mentions and direct qualification expressions
+
+The 248 task advertisements generate 496 advertisement–technology observations. A technology is mentioned in 348 observations (70.2 per cent), but a direct named qualification expression is recorded in 170. Among the 447 observations with an evaluable direct-expression state, this is 38.0 per cent; assigning the 49 unresolved observations to either endpoint gives bounds of 34.3–44.2 per cent over all 496 observations. The original general-qualification measure, $G$, contributes 165 positives. Required qualifications add five non-overlapping positives—two for Python and three for PyTorch—so the heading-inclusive union, $Q$, contains 170. Thus, extending the construct to required headings changes few records in aggregate while retaining every original $G$ positive (Table I).
+
+Table I. Mentions and direct named qualification expressions
+
+| Task and technology | Ads B | Mention M | General G | R | Direct Q/N | U | Q/mentions % |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Robot learning: Python | 105 | 73 | 40 | 2 | 42/88 | 17 | 57.5 |
+| Robot learning: PyTorch | 105 | 83 | 20 | 3 | 23/97 | 8 | 27.7 |
+| Robot runtime: C++ | 87 | 80 | 38 | 0 | 38/64 | 23 | 47.5 |
+| Robot runtime: Linux | 87 | 52 | 47 | 0 | 47/86 | 1 | 90.4 |
+| Board circuitry: Altium | 56 | 24 | 5 | 0 | 5/56 | 0 | 20.8 |
+| Board circuitry: EMC/SI/PI | 56 | 36 | 15 | 0 | 15/56 | 0 | 41.7 |
+
+Notes: Robot learning denotes robot learning and model development. M is any mention; G and R are unconditional general and required qualification positives. Q is their advertisement-level union. N excludes unresolved states; B includes them. No G/R positive overlaps occur in these six cells. R adds five pairs in four advertisements. The final column conditions on M. B, M, G, R and U are counts on the task base; Q/N reports positives over evaluable cases and excludes U. The EMC/SI/PI family includes electromagnetic compatibility, signal integrity and power integrity. Technologies within a task share advertisements and must not be treated as independent samples. Source: calculations from the captured job-advertisement corpus.
+
+Mention rates nevertheless differ substantially from direct-expression rates within each predefined task. In advertisements for robot learning and model development, Python is mentioned in 73 of 105 advertisements and has $Q=42/88$, whereas PyTorch is mentioned in 83 and has $Q=23/97$. In robot-runtime advertisements, C++ is nearly ubiquitous as a mention (80/87), but its direct-expression point value is 38/64; Linux is mentioned less often (52/87) yet is directly expressed in 47/86. The board-circuitry contrasts are also pronounced: Altium is mentioned in 24 of 56 advertisements and directly expressed in 5/56, while the electromagnetic-compatibility, signal-integrity and power-integrity family is mentioned in 36 and directly expressed in 15.
+
+Figure 1 conditions on advertisements that mention each technology and shows what the mention means in the coded recruitment context. Direct expressions account for 42 of 73 Python mentions and 47 of 52 Linux mentions, compared with 23 of 83 PyTorch mentions and 5 of 24 Altium mentions. All 52 PyTorch mentions coded as having no direct expression contain choice or example wording; for Altium, this applies to 17 of the 19 such mentions. C++ combines a high mention rate with greater uncertainty: 38 of its 80 mentions are direct expressions, 19 have no direct expression recorded and 23 remain unresolved. These distributions show why mention prevalence cannot be read as a uniform measure of named candidate qualifications.
+
+Figure 1. Qualification context among technology mentions
+
+![Figure 1. Qualification context among technology mentions](figures/Figure_1.png)
+
+Notes: Bars partition the advertisements mentioning each technology into direct qualification expressions (Q positive), no such expression recorded, and unresolved context. Segment labels are advertisement counts. Q combines GENERAL and REQUIRED unconditional positives at the advertisement level. Absence of Q does not imply absence of demand.
+
+### 4.2 Source-reading diagnostic and measurement sensitivity
+
+The bounded source-reading diagnostic covers 105 advertisement–technology pairs drawn from 94 advertisements (Table II). With prior row labels withheld, the frozen and fresh states match in 88 pairs for $G$, 100 for $R$ and 89 for $Q$. These counts describe a deliberately stratified diagnostic, not accuracy, human agreement or a population error rate. The fresh judgments were frozen before comparison. Review of the 16 $Q$ differences separated three clear PyTorch example constructions, for which unresolved states were clarified to no direct expression, from three fresh scope readings that the protocol did not support. Ten list or slash constructions remained contestable; the primary results retain their original or unresolved states and use the fresh readings only as an alternative scenario. Five additional $R$ differences arose because a generic *Requirements* heading had been read as explicitly mandatory, and one $G$ difference treated a *Required* statement as general; none changed $Q$.
+
+Table II. Coverage and state matches in the source-reading diagnostic
+
+| Task and technology | Pairs | G matches | R matches | Q matches | Q differs | Example clarifications |
+| --- | --- | --- | --- | --- | --- | --- |
+| Robot learning: Python | 20 | 16 | 19 | 17 | 3 | 0 |
+| Robot learning: PyTorch | 20 | 15 | 20 | 15 | 5 | 3 |
+| Robot runtime: C++ | 20 | 17 | 19 | 17 | 3 | 0 |
+| Robot runtime: Linux | 15 | 13 | 15 | 13 | 2 | 0 |
+| Board circuitry: Altium | 15 | 14 | 12 | 14 | 1 | 0 |
+| Board circuitry: EMC/SI/PI | 15 | 13 | 15 | 13 | 2 | 0 |
+
+Notes: The 105 pairs cover 94 distinct advertisements. Matches compare the frozen original state with the fresh reader output, before adjudication. Sampling used prior-state strata and is not a probability sample for estimating coding accuracy. Prior row labels were withheld, but high-level project history was visible. The reader was a model; these counts are neither human intercoder reliability nor validation against a gold standard. Three explicit examples are U-to-Z clarifications; ten Q differences remain contestable and three reflect unsupported fresh scope readings. Source: calculations from the captured job-advertisement corpus.
+
+The diagnostic scenarios are applied to the complete firm-pair enumeration reported in Section 4.3: 32 threshold-five rows and three threshold-ten rows. The three example clarifications leave the eight threshold-five reversals and all three threshold-ten directions unchanged. They narrow the Galbot–XSquare PyTorch point gap from 2.9 to 1.2 percentage points in Galbot's favor, while its assignment intervals continue to overlap. Replacing all 16 disputed $Q$ states with the fresh readings reduces threshold-five reversals from eight to seven. At threshold ten, the PyTorch point ordering shifts slightly to XSquare, by 0.3 percentage points, so none of the three mention-to-$Q$ directions then reverses; the PyTorch intervals still overlap, while the Python and Linux intervals remain non-overlapping. A separate task-boundary restriction removes four advertisements represented by five diagnostic pairs, leaving 244 advertisements and 488 advertisement–technology observations; the original pair-direction counts remain unchanged.
+
+The stable result is therefore the distinction between mentions and direct expressions, including the separated Python and Linux comparisons. The sign of the small PyTorch direct-expression point gap depends on how contestable list and slash wording is resolved, whereas the conclusion that its assignment intervals overlap does not. The diagnostic identifies where interpretation matters; it does not establish universal measurement validity.
+
+### 4.3 Firm-level coverage and exhaustive comparisons
+
+The firm analysis retains all 120 firm–task–technology cells: 22 firms for each technology in robot learning and model development, 20 for each robot-runtime technology and 18 for each board-circuitry technology. Figure 2 plots mention shares against direct-expression point values for 117 cells. The remaining three C++ cells have no evaluable $Q$ observation; their recorded states imply the full 0–100 per cent assignment range and are shown as all-unknown bounds rather than point estimates. The figure therefore keeps zero-positive, small-denominator and unresolved cells visible instead of restricting attention to firms with large or separated results. Its broad pattern mirrors the task aggregates: Linux cells tend to lie closer to the 45-degree line, while many PyTorch and Altium cells fall well below it.
+
+Figure 2. Technology mentions and direct qualification expressions across firms
+
+![Figure 2. Technology mentions and direct qualification expressions across firms](figures/Figure_2.png)
+
+Notes: The 120 firm–task–technology cells include 117 point estimates; three C++ cells (Galaxea, Noetix and Figure) have no evaluable Q and appear as dotted full-range bounds only. Coincident marks can overlap. N is the smallest evaluable denominator across M, G and Q. Vertical lines are assignments of recorded unknowns, not confidence intervals; the dashed diagonal marks equal percentages. G labels Galbot and X labels XSquare. Small cells remain visible and are separately flagged.
+
+Applying the threshold of at least ten evaluable advertisements for $M$, $G$ and $Q$, fixed in the revision protocol rather than preregistered, leaves only three unordered comparisons, one each for Python, PyTorch and Linux (Table III). All three compare Galbot with XSquare. The eligible comparison set therefore contains three outcomes but only two distinct firms; it does not provide three independent replications. From mentions to $Q$, the firm ordering is preserved for Python and Linux and reversed for PyTorch. From $G$ to $Q$, all three orderings are preserved. Two of the three $Q$ comparisons have non-overlapping unknown-assignment bounds.
+
+Table III. Eligible firm comparisons
+Panel A Minimum common denominator of 10
+
+| Task and technology | Eligible firms | Pairs | M to Q reversals | G to Q reversals | Disjoint Q bounds |
+| --- | --- | --- | --- | --- | --- |
+| Robot learning: Python | 2 | 1 | 0 | 0 | 1 |
+| Robot learning: PyTorch | 2 | 1 | 1 | 0 | 0 |
+| Robot runtime: C++ | 1 | 0 | 0 | 0 | 0 |
+| Robot runtime: Linux | 2 | 1 | 0 | 0 | 1 |
+| Board circuitry: Altium | 1 | 0 | 0 | 0 | 0 |
+| Board circuitry: EMC/SI/PI | 1 | 0 | 0 | 0 | 0 |
+
+Notes: Each firm must meet the stated minimum separately for M, G and Q. All eligible unordered pairs are retained; zero pairs means fewer than two eligible firms. Pair outcomes are dependent because they share firms and advertisements. At ten, all three pairs compare Galbot and XSquare. At five, 32 pairs include those three comparisons; the panels are not separate replications. Bounds assign all recorded unknowns to each endpoint and are not confidence intervals. Source: calculations from the captured job-advertisement corpus.
+
+Lowering the common threshold to five expands coverage to 32 unordered comparisons across all six task–technology combinations. Twenty-four retain the mention-based ordering under $Q$, while eight reverse: three of six Python comparisons, two of six PyTorch comparisons, two of three C++ comparisons and one of 15 Linux comparisons. The Altium and electromagnetic-method comparisons each contribute one preserved ordering. All 32 retain their $G$-based ordering after required qualifications are added, and 27 have non-overlapping $Q$ assignment bounds. These outcomes are a denominator sensitivity description. The pairs share firms and advertisements, and the lower threshold admits smaller cells, so their counts are neither error rates nor inferential evidence about a population of employers.
+
+Table III. Eligible firm comparisons
+Panel B Minimum common denominator of 5
+
+| Task and technology | Eligible firms | Pairs | M to Q reversals | G to Q reversals | Disjoint Q bounds |
+| --- | --- | --- | --- | --- | --- |
+| Robot learning: Python | 4 | 6 | 3 | 0 | 5 |
+| Robot learning: PyTorch | 4 | 6 | 2 | 0 | 4 |
+| Robot runtime: C++ | 3 | 3 | 2 | 0 | 1 |
+| Robot runtime: Linux | 6 | 15 | 1 | 0 | 15 |
+| Board circuitry: Altium | 2 | 1 | 0 | 0 | 1 |
+| Board circuitry: EMC/SI/PI | 2 | 1 | 0 | 0 | 1 |
+
+Notes: Each firm must meet the stated minimum separately for M, G and Q. All eligible unordered pairs are retained; zero pairs means fewer than two eligible firms. Pair outcomes are dependent because they share firms and advertisements. At ten, all three pairs compare Galbot and XSquare. At five, 32 pairs include those three comparisons; the panels are not separate replications. Bounds assign all recorded unknowns to each endpoint and are not confidence intervals. Source: calculations from the captured job-advertisement corpus.
+
+### 4.4 The three threshold-10 comparisons
+
+The Python comparison preserves both direction and separation. Galbot mentions Python in 14 of 18 advertisements for robot learning and model development, compared with 10 of 21 at XSquare, a mention-rate gap of 30.2 percentage points. Direct expressions are recorded in 12 of 16 evaluable Galbot advertisements and 3 of 14 evaluable XSquare advertisements. Their assignment bounds are 66.7–77.8 and 14.3–47.6 per cent, respectively. Neither firm has a Python required-only addition, so $Q$ reproduces $G$ in this comparison.
+
+PyTorch gives the opposite mention ordering and illustrates why the union matters even when it changes few observations. PyTorch is mentioned in 11 of 18 Galbot advertisements and 19 of 21 XSquare advertisements, placing XSquare 29.4 percentage points higher. Under $G$, however, Galbot records 4/15 with three unresolved cases, while XSquare records 3/21 with none; the corresponding bounds, 22.2–38.9 and 14.3 per cent, do not overlap. Two XSquare advertisements state PyTorch directly under required qualifications. Including them leaves the $Q$ point ordering slightly in Galbot's favor—26.7 versus 23.8 per cent—but the assignment bounds now overlap. The substantive conclusion is therefore narrower than the $G$-only result: the mention ordering reverses under direct qualification expression, but the recorded unknowns no longer separate the firms once required headings are included.
+
+Linux retains its direction. Galbot mentions Linux in 15 of 16 robot-runtime advertisements and XSquare in 7 of 10. Direct expressions are recorded in 14 of 15 evaluable Galbot advertisements and 6 of 10 XSquare advertisements, with bounds of 87.5–93.8 and 60.0 per cent. No required-only case changes either firm's Linux measure. Taken together, the three comparisons show distinct consequences of context-sensitive measurement: a mention contrast can strengthen, reverse, or remain stable when the outcome is changed to a direct named qualification expression.
+
+## 5 Discussion
+
+The results show that technology mentions and direct named qualification expressions measure different features of recruitment text. Across the six task–technology combinations, fewer than half of the mentions are recorded as direct qualification expressions, but the relationship varies by technology. Linux is usually stated directly in qualifications when mentioned in robot-runtime advertisements. PyTorch is more often embedded in alternatives, examples or other contexts in robot-learning advertisements.
+
+The Galbot–XSquare robot-learning comparisons illustrate two consequences. For Python, moving from mentions to direct qualification expressions preserves the ordering and non-overlapping bounds. For PyTorch, the frozen union measure reverses the mention ordering, but the union bounds overlap. Two XSquare required statements account for the change from disjoint general-qualification bounds to overlapping union bounds. The small difference between the firms' union point estimates should not be treated as a stable ordering.
+
+The source-reading diagnostic reinforces that caution. The three source-adjudicated example clarifications and the four-advertisement task-boundary restriction leave the comparison-order counts unchanged. A more demanding scenario that replaces all 16 differing fresh union readings reduces mention-to-union reversals from eight to seven among the 32 threshold-five comparisons and from one to zero among the three main-threshold comparisons. The PyTorch point ordering switches while its bounds continue to overlap; the Python and Linux separations remain. The frozen primary states remain the reported analysis, and the scenarios remain separate. Because the diagnostic is deliberately stratified and its fresh reader knew corpus-level aggregates, it assesses ambiguity and sensitivity rather than coding accuracy or independent validation.
+
+The complete pair enumeration limits the reach of these results. At the threshold of ten evaluable advertisements fixed in the revision protocol, only three comparisons qualify, all between the same two firms. They are dependent contrasts, not broad company evidence. The threshold-five analysis admits smaller cells and remains sensitivity evidence rather than a substitute for a larger repeated sample.
+
+These findings extend vacancy measurement by asking what an advertisement asserts around a named technology before it enters a firm comparison (Colombo and Marcato, 2023). The objective is descriptive measurement rather than semantic matching performance (Chala et al., 2018). The categories build on GOJA's treatment of tools, work objects, alternatives and requirement strength (Krüger et al., 2025). As Hennecke and Knabe (2026) illustrate more generally, related indicators can answer different questions. Advertised qualifications also remain distinct from competencies enacted at work (Bonesso et al., 2022).
+
+The analysis has three concrete uses for HR practice. First, recruiters can audit whether a named technology appears as a qualification, example, alternative or duty before interpreting its frequency. Second, hiring managers can compare requisitions for the same task using direct expressions and unresolved cases rather than firm-wide mentions. Third, HR analysts can identify inconsistent or ambiguous wording before records inform screening rubrics or internal skills inventories. These uses support review; the data do not show that wording changes hiring outcomes.
+
+The firms and collection dates are purposively selected, advertisements are not counts of vacancies or hires, and public wording may differ from later screening. Task restriction does not remove variation in seniority, templates, location or work objects. Assignment bounds cover recorded unresolved states only; they are not sampling intervals. Repeated collections, broader comparable firm coverage and evidence from later hiring stages are needed to assess external reach.
+
+## 6 Conclusion
+
+Firm comparisons based on job advertisements can change when a named technology's presence is separated from its direct specification as a candidate qualification. In the predefined embodied-AI tasks studied here, some separations persist across source-reading scenarios, while the small PyTorch company ordering is sensitive and its bounds overlap. Semantic context and recorded ambiguity are therefore part of the measured construct rather than details discarded before aggregation.
+
+The paper's contribution is bounded: it applies established relational distinctions to a complete set of eligible within-task firm comparisons, reports unresolved cases, and makes sparse coverage visible. The resulting measures describe public recruitment language at fixed collection dates. They do not identify actual labor demand, workforce capability or causal firm strategy. For labor and HR research, that boundary is useful because it clarifies what job advertisements can support before they are linked to broader claims about firms or workers.
+
+## Data availability
+
+The accompanying research package contains versioned analytical inputs, source excerpts and identifiers for the task sample, final states, all firm cells and comparisons, the complete diagnostic and executable reproduction scripts. The package README maps each table and figure to its inputs and computation. Captured advertisements remain third-party materials; their inclusion for verification does not imply permission for unrestricted redistribution. No public repository is asserted.
+
+## References
+
+Acemoglu, D., Autor, D., Hazell, J. and Restrepo, P. (2022), "Artificial intelligence and jobs: evidence from online vacancies", *Journal of Labor Economics*, Vol. 40 No. S1, pp. S293–S340. https://doi.org/10.1086/718327
+
+Bonesso, S., Gerli, F. and Bruni, E. (2022), "The emotional and social side of analytics professionals: an exploratory study of the behavioral profile of data scientists and data analysts", *International Journal of Manpower*, Vol. 43 No. 9, pp. 19–41. https://doi.org/10.1108/IJM-07-2020-0342
+
+Chala, S.A., Ansari, F., Fathi, M. and Tijdens, K. (2018), "Semantic matching of job seeker to vacancy: a bidirectional approach", *International Journal of Manpower*, Vol. 39 No. 8, pp. 1047–1063. https://doi.org/10.1108/IJM-10-2018-0331
+
+Colombo, E. and Marcato, A. (2023), "Skill demand and labour market concentration: evidence from Italian vacancies", *International Journal of Manpower*, Vol. 44 No. 9, pp. 156–198. https://doi.org/10.1108/IJM-04-2023-0181
+
+Deming, D. and Kahn, L.B. (2018), "Skill requirements across firms and labor markets: evidence from job postings for professionals", *Journal of Labor Economics*, Vol. 36 No. S1, pp. S337–S369. https://doi.org/10.1086/694106
+
+Fabo, B. and Mýtna Kureková, L. (2022), "Methodological issues related to the use of online labour market data", ILO Working Paper No. 68, International Labour Organization, Geneva. https://doi.org/10.54394/ZZBC8484
+
+Hennecke, J. and Knabe, A. (2026), "Homebound happiness? Teleworkability of jobs and emotional well-being during labor and non-labor activities", *International Journal of Manpower*, Vol. 47 No. 10, pp. 192–212. https://doi.org/10.1108/IJM-09-2025-0721
+
+Kitagawa, E.M. (1955), "Components of a difference between two rates", *Journal of the American Statistical Association*, Vol. 50 No. 272, pp. 1168–1194. https://doi.org/10.1080/01621459.1955.10501299
+
+Krüger, K., Binnewitt, J., Ehmann, K., Winnige, S. and Akbik, A. (2025), "Improving online job advertisement analysis via compositional entity extraction", in Christodoulopoulos, C., Chakraborty, T., Rose, C. and Peng, V. (Eds), *Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing*, Association for Computational Linguistics, Suzhou, pp. 27047–27065. https://doi.org/10.18653/v1/2025.emnlp-main.1375
+
+Modestino, A.S., Shoag, D. and Ballance, J. (2020), "Upskilling: do employers demand greater skill when workers are plentiful?", *Review of Economics and Statistics*, Vol. 102 No. 4, pp. 793–805. https://doi.org/10.1162/rest_a_00835
+
+Tsvetkova, A., D'Amico, E., Lembcke, A., Knutsson, P. and Vermeulen, W. (2024), "How well do online job postings match national sources in large English speaking countries? Benchmarking Lightcast data against statistical sources across regions, sectors and occupations", OECD Local Economic and Employment Development (LEED) Papers, No. 2024/01, OECD Publishing, Paris. https://doi.org/10.1787/c17cae09-en

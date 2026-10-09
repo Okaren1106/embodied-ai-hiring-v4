@@ -1,0 +1,187 @@
+"""First-pass adjudication for commercial coding_order 81-96. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+PRE={
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"PRE_SALES","secondary_task":"",
+ "task_evidence":"挖掘潜在机会。",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_CUSTOMER_SERVICE","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"售前解决方案模板。"
+}
+decisions={
+"E0044":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"STRATEGY","fine_task":"INDUSTRY_RESEARCH","secondary_task":"",
+ "task_evidence":"建立场景价值量化模型，测算客户ROI与付费意愿。",
+ "new":{"1":R+"场景价值量化模型不是模型压缩或推理量化。"},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"行业研究分析师。量化模型拒收压缩。"
+},
+"E0033":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"KA_HEAD","secondary_task":"",
+ "task_evidence":"识别并攻坚全球头部 ToB 客户，重点覆盖汽车、物流、酒店、零售等行业",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "6":R+"与客户采购沟通不是本人采购职责。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"销售负责人。客户采购拒收。"
+},
+"E0028":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ECOSYSTEM","fine_task":"GOV_INDUSTRY","secondary_task":"STRATEGY",
+ "task_evidence":"负责搭建国央企、高校院所、行业协会等创新产业生态，推动产学研协同创新发展。",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"政企合作经理。无新候选。"
+},
+"E0086":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"OVERSEAS_SALES","secondary_task":"",
+ "task_evidence":"负责公司机器人产品的销售及推广，如面向企业、展馆、学校等",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"海外销售专员。"
+},
+"E0084":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"PRE_SALES","secondary_task":"",
+ "task_evidence":"负责机器人行业项目的售前技术支持工作，包括客户需求交流及拆解、现场踏勘、解决方案评估设计及输出",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"解决方案工程师。"
+},
+"E0287":dict(PRE),
+"E0247":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"KA","secondary_task":"",
+ "task_evidence":"主导挖掘客户在工艺优化、自动化升级、数字运维等方面的核心需求，牵头制定整体技术和商务解决方案",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"物流工业国央企大客户经理。"
+},
+"E0246":dict(PRE, fine_task="LOGISTICS_SOLUTIONS",
+             task_evidence="根据客户需求，设计解决方案，撰写技术文档。",
+             notes="物流解决方案售前。"),
+"E0240":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"GOV_PRE_SALES","secondary_task":"",
+ "task_evidence":"配合销售团队开展售前全流程工作，包括方案宣讲、产品演示、技术答疑、POC测试支撑等",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"泛政府行业售前专家。"
+},
+"E0231":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"STRATEGY","fine_task":"STRATEGIC_ANALYSIS","secondary_task":"",
+ "task_evidence":"将前瞻性分析转化为可执行的商业建议",
+ "new":{
+  "1":[["V2_SALES_CRM","SEPARATE","COLLABORATION_OBJECT"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"战略分析。销售为协作对象。"
+},
+"E0229":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"GOV_KA","secondary_task":"",
+ "task_evidence":"完成数智产业、数字政府赛道的签约与收入目标",
+ "new":{
+  "1":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"泛政府行业大客户经理。"
+},
+"E0228":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"EDU_KA","secondary_task":"",
+ "task_evidence":"挖掘客户核心需求，定制匹配的解决方案，主导项目商务谈判、立项推进与签约落地。",
+ "new":{
+  "1":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"科教行业大客户经理。"
+},
+"E0224":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"BRAND","secondary_task":"",
+ "task_evidence":"负责品牌整合营销的策划、项目管理与执行，跟踪效果并持续优化，提升品牌认知与美誉度。",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"],["V2_SALES_CRM","SEPARATE","COLLABORATION_OBJECT"]],
+  "3":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"品牌经理。"
+},
+"E0223":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"SOE_KA","secondary_task":"",
+ "task_evidence":"娴熟驾驭复杂的项目立项、审批、招投标及合同履行流程。",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"国央企大客户。客户采购流程不记采购。"
+},
+"E0214":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"STRATEGY","fine_task":"SUPPLY_CHAIN_INTEL","secondary_task":"",
+ "task_evidence":"开展供应商情报调研，对核心供应商、潜在替代供应商进行产能、技术路线、良率、扩产计划、风险点等深度分析",
+ "new":{
+  "1":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_PROCUREMENT","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_PROCUREMENT","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"供应链洞察分析师。采购情报记采购职责。"
+},
+"E0212":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"OVERSEAS_DIRECTOR","secondary_task":"MARKETING",
+ "task_evidence":"主导具身智能产品全球出海业务拓展，覆盖北美、东南亚、欧洲、中东等重点区域，制定区域战略及销售计划",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"海外总监。"
+}
+}
+if __name__=='__main__':
+ register('RF_COMMERCIAL_CUSTOMER', decisions, reader='grok4.6')

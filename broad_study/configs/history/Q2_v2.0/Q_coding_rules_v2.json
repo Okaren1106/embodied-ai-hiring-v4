@@ -1,0 +1,144 @@
+{
+  "version": "Q2-v2.0",
+  "legacy_14_slices": [
+    {
+      "metric": "DUTY_OWN_USE",
+      "branch": "UNCONDITIONAL"
+    },
+    {
+      "metric": "DUTY_OWN_DEVELOP",
+      "branch": "UNCONDITIONAL"
+    },
+    {
+      "metric": "REQUIRED",
+      "branch": "UNCONDITIONAL"
+    },
+    {
+      "metric": "REQUIRED",
+      "branch": "CHOICE"
+    },
+    {
+      "metric": "REQUIRED",
+      "branch": "EXAMPLE"
+    },
+    {
+      "metric": "REQUIRED",
+      "branch": "CHOICE_AND_EXAMPLE"
+    },
+    {
+      "metric": "GENERAL",
+      "branch": "UNCONDITIONAL"
+    },
+    {
+      "metric": "GENERAL",
+      "branch": "CHOICE"
+    },
+    {
+      "metric": "GENERAL",
+      "branch": "EXAMPLE"
+    },
+    {
+      "metric": "GENERAL",
+      "branch": "CHOICE_AND_EXAMPLE"
+    },
+    {
+      "metric": "PREFERRED",
+      "branch": "UNCONDITIONAL"
+    },
+    {
+      "metric": "PREFERRED",
+      "branch": "CHOICE"
+    },
+    {
+      "metric": "PREFERRED",
+      "branch": "EXAMPLE"
+    },
+    {
+      "metric": "PREFERRED",
+      "branch": "CHOICE_AND_EXAMPLE"
+    }
+  ],
+  "inherited_branch_logic": {
+    "choice_relations": [
+      "OR",
+      "OR_EQUIVALENT",
+      "SOME_OF"
+    ],
+    "example_relations": [
+      "EXAMPLE"
+    ],
+    "unresolved_relations": [
+      "UNRESOLVED"
+    ],
+    "unconditional_relations": [
+      "ITEM",
+      "ALL"
+    ],
+    "missing_requirement_node": "UNRESOLVED, never unconditional",
+    "priority": "任何未解决节点/未知关系优先UNRESOLVED；否则按所有祖先同时判断任选和示例；不限于叶子节点。"
+  },
+  "inherited_positive_buckets": {
+    "DUTY_OWN_USE": [
+      "DUTY_USE",
+      "OWN_USE"
+    ],
+    "DUTY_OWN_DEVELOP": [
+      "DUTY_USE",
+      "OWN_DEVELOP"
+    ],
+    "REQUIRED": [
+      "REQUIRED",
+      "EXPERIENCE_REQUIREMENT"
+    ],
+    "GENERAL": [
+      "GENERAL_REQUIREMENT",
+      "EXPERIENCE_REQUIREMENT"
+    ],
+    "PREFERRED": [
+      "PREFERRED",
+      "EXPERIENCE_REQUIREMENT"
+    ]
+  },
+  "states": {
+    "P": "至少一个全文支持的该格明确正例",
+    "Z": "来源可判、适用、全文已读，未记录该格正例",
+    "U": "影响该项/语境的未知",
+    "NA": "有记录的不适用理由",
+    "SOURCE_EXCLUDED": "来源不足以评估该维度或该项",
+    "PENDING": "尚未执行，不得计入Z或U"
+  },
+  "duty_branch": "本人职责中的示例、任选、条件执行保留DUTY_CHOICE/DUTY_EXAMPLE/DUTY_CONDITIONAL，不强推无条件；旧v1另版精确复算。",
+  "positivity": "关键词仅候选；全篇语义裁定。现有编码可继承，但新增目录映射必须全文核对。",
+  "read_rule": "每广告先完整阅读三个原文字段，再作新标签或Z/NA判断；重复内容可引用已读原文但须审读不同段落。",
+  "requirement_strength": "明确required/必须/必备为REQUIRED；一般熟悉/经验要求为GENERAL；preferred/加分项为PREFERRED；ideal/desirable按明确局部语境，不自动硬化。",
+  "branch_rule": "所有祖先关系；缺节点的新项须研究者给出原文依据的派生分支，不凭邻近命中猜测。",
+  "professional_type_rule": "专业能力、资格、操作方法单列，不充当技术概念；证书要求不证明已持证。",
+  "scope_main": "WHOLE23; FAR单列，24主体敏感性",
+  "display": {
+    "min_positive_companies": 5,
+    "min_positive_ads": 10,
+    "max_per_type": 8,
+    "sort": [
+      "positive_companies_desc",
+      "positive_ads_desc",
+      "code_asc"
+    ]
+  },
+  "group_gate": {
+    "min_valid_companies": 3,
+    "min_interpretable_ads": 20,
+    "small_company_n": 10
+  },
+  "qc": {
+    "seed": 20260916,
+    "minimum_per_role": "max(10,ceil(0.2*n))",
+    "all_cases": [
+      "unknown",
+      "NA",
+      "new-label-boundary",
+      "dispute",
+      "main-text-evidence"
+    ],
+    "reviewer": "Astra second pass, not independent external review"
+  }
+}

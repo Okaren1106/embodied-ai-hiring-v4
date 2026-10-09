@@ -1,0 +1,137 @@
+# Supplementary Material
+
+From Technology Mentions to Direct Qualifications in Embodied AI Recruitment
+
+## Corpus construction and provenance
+
+The initial eight firms had public recruitment sources with readable detail, stable identifiers and core fields. The expansion considered the remaining companies in the existing 40-company landscape, prioritizing an identifiable entity, research tier, source quality and a current official board with a defensible boundary. Failed sources were recorded before moving to the next feasible candidate. Leju was provisional but lacked a verifiable current parent-company advertisement source; this indicates unavailable evidence, not zero hiring. The final expansion contained eight China-headquartered and eight United-States-headquartered entities. This remained purposive selection.
+
+The accepted corpus preserves 1,654 advertisements, observation dates and source-line pointers. The 23-company scope excludes the Amazon Frontier AI and Robotics team from whole-company comparisons because it is bounded within Amazon; its 24 advertisements remain available for team-level description. The 84-advertisement work-object analysis is an exploratory case set covering ML/AI and software functions at four firms marked as case priorities. No surviving record establishes an outcome-blind rule for choosing them. The 248-advertisement task sample applies a recorded function-by-primary-task intersection. Its technology catalog was frozen before full coding, but after a 340-ad pilot. Earlier results were known when the revision protocol was recorded on 21 September 2026; the new union and firm comparisons are exploratory.
+
+Composite identity combines the corpus, source advertisement ID and text-version hash, producing exact joins for all 248 task advertisements. Ninety-nine older task rows use an `E` prefix where the accepted packet uses the corresponding `P`; suffixes and composite identities match. Convenience ID `P0107` is duplicated across two non-task records, so reproduction never joins on that field alone.
+
+Headquarters country comes from the company landscape. Advertisement location comes first from the raw source and then, if needed, from the accepted reference; blanks remain missing. Six department-only values are retained but excluded from geographic coverage. The provenance CSV preserves exact fields. Source language is classified from title plus full description, or duties and requirements when the description is empty. Fewer than 40 Han-plus-Latin letters remains unknown. Chinese requires at least 20 Han characters and a Han share of 0.20; Latin-script languages require at least four markers and a unique leading score. The classifier never uses country or location. It yielded 957 Chinese, 676 English, six Spanish, eight Portuguese and seven short unknown sources. No posting was translated for coding.
+
+## Functions activities work objects and tasks
+
+Primary function is single-valued only when one continuing deliverable dominates. Composite records contain multiple independent deliverables of similar weight; multiple-direction records explicitly recruit into alternative directions. Ambiguous, unmapped and source-insufficient records remain visible; detailed categories and locations are supplied in CSVs. The author reports reviewing the accepted corpus and resolving disputed categories and decision rules, including emphasis on what the role actually delivers. This project-level report does not supply an independent second code or a timestamped human decision for every advertisement. Historical model-review metadata remain unchanged: 469 full-text, 760 boundary-review and 347 carried-forward specific-function records, with 56/164/28 in the core task sample. These are model review-depth strata, not human-review counts.
+
+Activities are coded separately from function. Research requires a concrete problem or object plus methodological exploration or scientific testing. Engineering requires implementation, integration, debugging or operational-system delivery. Quality includes verification execution, compliance, release decisions and defect closure. Ownership and explicit shared responsibility count; mere participation does not. Work objects in the 84-ad case set may overlap and allow participation. Primary task for the technology analysis instead follows the role’s main responsibility: robot learning and model development, robot runtime/middleware/applications, or boards/PCBs and related power or drive systems.
+
+## Qualification states and diagnostic design
+
+Mention ($M$) requires an explicit source occurrence. GENERAL and REQUIRED follow heading scope and local language. Generic headings such as “Requirements” or “Skills and Requirements” are GENERAL unless the section or statement explicitly signals mandatory status; an occurrence under a specifically required scope enters $R$ rather than $G$. Different statements can nevertheless make both positive. Choice, example and preference relations propagate from a governing phrase; a local modifier overrides a broad heading. A distinct unconditional occurrence in the same advertisement remains positive even when another occurrence is conditional. $Q$ is resolved from $G$ and $R$ at advertisement–technology level: any positive makes $Q$ positive; two nonpositives make it nonpositive; without a positive, an unresolved constituent makes it unresolved. Non-applicability and source exclusion remain outside $P/Z/U$. The denominator and assignment bounds are therefore defined separately for every measure. Multiple members of the EMC/SI/PI family are unioned once per advertisement, whereas Altium is a single tool.
+
+The bounded diagnostic sampled from all 496 pairs with seed 20260921. Within each task–technology cell it selected at most five stored-$G$ positives, unresolved cases, nonpositives with a mention, and no-mention cases. Sparse strata contributed fewer than five, producing 105 pairs from 94 advertisements. The fresh model reader inspected every distinct supplied source field and returned $G$, $R$, derived $Q$, evidence, heading and branch rationales, and task-support judgments. Prior row states and rationales were absent from the packets, although a required workspace summary exposed aggregate project history. Sampling deliberately overrepresents positive and boundary strata, and the fresh reader is neither a human coder nor a gold standard.
+
+After freezing that output, source adjudication reread all 16 $Q$ disagreements and six other $G/R$ source differences. Three advertisements flagged only for task support were not independently reread; their flags were preserved for a restriction scenario. Explicit example scope supported three PyTorch $U$-to-$Z$ clarifications. Protocol-inconsistent heading readings retained the original states, while contestable slash and list readings retained the original $U$ or scoped nonpositive value and preserved the fresh alternative. Original states remain primary. Separate files implement the three clarifications, fresh-state replacement within 105 pairs, and exclusion of four flagged advertisements, leaving 244 advertisements and 488 pairs. Frame membership and flags are preserved.
+
+## Weighting comparisons and sensitivity
+
+Advertisement-weighted estimates answer what share of observed advertisements records a state. Firm-equal estimates average valid firm shares and retain firms with zero positives when their denominator is positive. All 120 firm–task–technology cells are reported. Pair enumeration uses a common-support threshold for $M_N$, $G_N$ and $Q_N$ within each firm and cell: ten for the main display and five for sensitivity. All qualifying unordered pairs are included; named cases are illustrative rather than selected as confirmatory tests. Bounds may use a broader base than point estimates because they include $U$ in $B=P+Z+U$.
+
+The local Galbot–Figure decomposition contains 82 Moka advertisements observed on 11 September and 60 Greenhouse advertisements observed on 31 August. All 142 have captured text bodies and enter the activity denominator. The four functions contain Galbot/Figure counts of 13/11 corporate support, 20/28 manufacturing-quality-supply, 24/10 ML/AI engineering and 25/11 robotics software. Galbot sources classify as Chinese; Figure contains 51 English, four Spanish and five Portuguese advertisements. These facts audit local source availability and denominator consistency, not semantic accuracy. They are distinct from the unchanged whole-board screens: complete activity evaluability; then higher-quality official sources with no source-insufficient function record; then descriptions of at least 200 characters. Exact duty-text deduplication, explicit campus/internship exclusion and secondary-task inclusion remain separate sensitivity scenarios.
+
+## Diagnostic scenarios
+
+The result files preserve four scenarios without replacing the primary states. **ORIGINAL** is the frozen primary analysis: 248 advertisements, 496 advertisement–technology observations and $Q$ states of 170 positive, 277 nonpositive and 49 unresolved, giving 447 observations in the point-estimate denominator. **THREE_EXAMPLE_CLARIFICATIONS** resolves three PyTorch cases from unresolved to nonpositive because the complete phrases place PyTorch inside example lists. The positive count remains 170, while the nonpositive count rises to 280 and unresolved count falls to 46. **FRESH_READING_ALTERNATIVE** replaces all 16 disputed $Q$ states with the frozen fresh-reader judgments, including contested or protocol-inconsistent interpretations. It produces 180 positive, 277 nonpositive and 39 unresolved observations. This is an alternative reading, not a corrected dataset. **TASK_BOUNDARY_RESTRICTION** excludes the four advertisements represented by five diagnostic task flags. It contains 244 advertisements and 488 advertisement–technology observations, with 169 positive, 271 nonpositive and 48 unresolved $Q$ states.
+
+The PyTorch comparison shows why the scenarios remain separate. Under ORIGINAL, the Galbot-minus-XSquare direct-expression point gap is +2.86 percentage points even though the mention ordering runs in the opposite direction; the firms' assignment intervals overlap. The three example clarifications narrow this point gap to +1.19 points without changing the ordering or interval overlap. Under FRESH_READING_ALTERNATIVE, the gap becomes −0.28 points, placing XSquare slightly higher, while the intervals still overlap. The primary threshold-ten mention-to-$Q$ reversal therefore disappears in that alternative. At the threshold of five, the number of reversals declines from eight of 32 to seven. The Python and Linux threshold-ten comparisons retain non-overlapping $Q$ bounds. TASK_BOUNDARY_RESTRICTION leaves the original pair-direction counts unchanged. These scenarios locate the result that depends on reading: the sign of a small PyTorch point gap. They do not convert the diagnostic into an accuracy estimate or establish universal validity.
+
+## Source examples
+
+Four excerpts show how headings and local relations enter the states. They are bounded illustrations; each decision used the complete available source.
+
+- **E0205:** under “硬性要求” [mandatory requirements], “PyTorch 熟练;有仿真(Isaac / MuJoCo)或真机联调经验。” [translation: “Proficient in PyTorch; experience with simulation (Isaac/MuJoCo) or physical-robot integration.”] The later choice does not govern PyTorch, so $R$ and $Q$ are positive.
+- **N0878:** under *Required Skills*, the English source states exactly, “Strong Python skills and deep experience with PyTorch”. Both names enter $R$ and $Q$; the required heading does not also make them $G$ positives.
+- **N0158:** “有使用PyTorch/TensorFlow、Isaac Gym/Mujoco等工具进行机器人控制相关算法开发的经验。” [translation: “Experience using tools such as PyTorch/TensorFlow and Isaac Gym/MuJoCo to develop robot-control algorithms.”] The example scope supports the PyTorch $U$-to-$Z$ clarification.
+- **N0149:** “熟练使用PyTorch/TensorFlow” [translation: “Proficient in using PyTorch/TensorFlow.”] The slash supplies no explicit conjunction, choice or example marker. The primary state therefore remains unresolved, while the fresh nonpositive reading is retained only in the alternative scenario.
+
+## Firm cells and pair enumeration
+
+The primary firm file, `analysis/firm_technology_union.csv`, contains all 120 firm–task–technology cells: 44 for the two technologies in robot learning and model development, 40 for the two robot-runtime technologies and 36 for the two board-circuitry indicators. Each row supplies the advertisement base, $M$, $G$, $R$ and $Q$ positive/nonpositive/unresolved counts, point denominators, bounds, within-mention composition and eligibility flags. Zero positives are retained. Three C++ cells have no evaluable $Q$ point denominator and should be read from their 0–100 per cent bounds.
+
+`analysis/all_eligible_firm_pairs.csv` is the exhaustive primary comparison file. It has 35 threshold-specific rows: three at the threshold of ten and 32 at the threshold of five. These are not 35 independent firm pairs. The three threshold-ten contrasts also satisfy the threshold-five rule, multiple technologies reuse the same firms, and pair rows share advertisements. Users should filter `threshold`, then `task` and `label_code`, before reading `M_gap_pp`, `Q_gap_pp`, `M_to_Q` and the bound-overlap fields. `analysis/firm_pair_summary.csv` aggregates those rows by threshold and task–technology combination; it should not be used to infer sampling uncertainty.
+
+The diagnostic scenario files provide the same navigation without overwriting the primary data:
+
+- `diagnostic_scenario_summary.csv` gives pair counts, reversals and disjoint-bound counts by scenario and threshold.
+- `diagnostic_scenario_pairs.csv` lists every scenario-specific eligible pair and its mention and $Q$ gaps.
+- `diagnostic_scenario_firms.csv` supplies the underlying firm-level $P/Z/U$, denominator and bound fields.
+- `diagnostic_scenario_tasks.csv` and `diagnostic_scenario_totals.csv` provide task-level and overall aggregates.
+- `diagnostic_scenario_members.csv` records advertisement membership and states, while `diagnostic_comparison.csv` links the 105 diagnostic pairs to their frozen fresh readings and task-support flags.
+
+A reproducible offline check should begin with `diagnostic_scenario_summary.csv`, select one scenario and threshold in `diagnostic_scenario_pairs.csv`, and then recover each endpoint from `diagnostic_scenario_firms.csv` using `scenario + task + label_code + company_id`. Point values use $P/(P+Z)$; assignment bounds use $P/(P+Z+U)$ and $(P+U)/(P+Z+U)$. Comparisons across scenarios should hold the pair key fixed. The files expose recorded uncertainty; they do not supply confidence intervals or independent observations.
+
+## Engineering-activity decomposition as background
+
+The earlier Galbot–Figure engineering-activity decomposition is retained only as a supplementary example of composition. Its fixed four-function comparison contains 82 Galbot records and 60 Figure records. Galbot's pooled engineering-activity rate exceeds Figure's by 11.10 percentage points, decomposed arithmetically as $+19.45-8.35$: a positive function-composition component and a negative within-function component. The identity describes these advertisements and does not estimate a firm effect.
+
+The local source audit and the R1/R2/R3 screens answer different questions. `work/provenance/D2_record_evaluability.csv` and its summary inspect the 142 records that actually enter the four-function comparison. All have captured text bodies and evaluable activity status, so the local 82/60 denominator is recoverable. This check concerns source availability and denominator consistency, not independent semantic recoding.
+
+R1, R2 and R3 instead apply successively to entire recruitment boards. R1 retains only firms for which every advertisement has evaluable activity status; R2 adds an official source rated GOOD or EXCELLENT and no source-insufficient primary-function record; R3 further retains descriptions of at least 200 characters. They retain 17 firms/968 advertisements, 11/576 and 11/557, respectively. Galbot fails the whole-board condition in each screen, so the Galbot–Figure decomposition is unavailable there even though all 82 Galbot records inside the local four-function comparison are evaluable. The resulting missing values are a consequence of the broader firm-screen rule, not evidence that the 142 local records disappeared or failed their local source check.
+
+## Supplementary tables
+
+Supplementary Table S1. Original and fresh Q states
+
+| Original Q state | Fresh P | Fresh Z | Fresh U | Total |
+| --- | --- | --- | --- | --- |
+| P | 30 | 1 | 0 | 31 |
+| Z | 5 | 53 | 0 | 58 |
+| U | 6 | 4 | 6 | 16 |
+
+Notes: Rows are original states, columns are fresh states. P is positive, Z no positive recorded, and U unresolved. The diagonal sums to 89 of 105. The stratified sample deliberately includes difficult and nonpositive cases; the matrix does not estimate population accuracy. Source: calculations from the captured job-advertisement corpus.
+
+Supplementary Table S2. Aggregate diagnostic scenarios
+
+| Scenario | Ads | Pairs | Q positive | Q evaluable | Q unknown | Q among mentions % |
+| --- | --- | --- | --- | --- | --- | --- |
+| Original states | 248 | 496 | 170 | 447 | 49 | 48.9 |
+| Three example clarifications | 248 | 496 | 170 | 450 | 46 | 48.9 |
+| Fresh reading alternative | 248 | 496 | 180 | 457 | 39 | 51.7 |
+| Task boundary restriction | 244 | 488 | 169 | 440 | 48 | 49.1 |
+
+Notes: Original states remain the primary analysis. The clarification scenario changes three PyTorch U states to Z. The fresh alternative substitutes all 105 sampled G/R states before deriving Q; 16 Q states differ. It retains fresh readings even where the protocol did not support them and is a stress test, not the preferred recoding. The task restriction excludes four advertisements from both target technologies. All other original rows are unchanged. Source: calculations from the captured job-advertisement corpus.
+
+Supplementary Table S3. Firm comparison sensitivity to source interpretation
+
+| Scenario | Threshold | Pairs | M to Q reversals | Disjoint Q bounds |
+| --- | --- | --- | --- | --- |
+| Original states | 5 | 32 | 8 | 27 |
+| Original states | 10 | 3 | 1 | 2 |
+| Three example clarifications | 5 | 32 | 8 | 27 |
+| Three example clarifications | 10 | 3 | 1 | 2 |
+| Fresh reading alternative | 5 | 32 | 7 | 28 |
+| Fresh reading alternative | 10 | 3 | 0 | 2 |
+| Task boundary restriction | 5 | 32 | 8 | 27 |
+| Task boundary restriction | 10 | 3 | 1 | 2 |
+
+Notes: Threshold is the minimum evaluable denominator in M, G and Q. The same enumeration rule is reapplied in each scenario. The fresh alternative changes the small Galbot–XSquare PyTorch point ordering at ten; its bounds overlap in every scenario. The Python and Linux bounds remain separated. Rows across thresholds and scenarios overlap and are not independent observations. Source: calculations from the captured job-advertisement corpus.
+
+Supplementary Table S4. Pooled and firm-equal direct-expression rates
+
+| Task and technology | Firms | Pooled Q % | Firm equal Q % | Unknown bounds % |
+| --- | --- | --- | --- | --- |
+| Robot learning: Python | 22 | 47.7 | 44.7 | 40.0–56.2 |
+| Robot learning: PyTorch | 22 | 23.7 | 22.4 | 21.9–29.5 |
+| Robot runtime: C++ | 20 | 59.4 | 51.5 | 43.7–70.1 |
+| Robot runtime: Linux | 20 | 54.7 | 46.0 | 54.0–55.2 |
+| Board circuitry: Altium | 18 | 8.9 | 8.8 | 8.9–8.9 |
+| Board circuitry: EMC/SI/PI | 18 | 26.8 | 28.2 | 26.8–26.8 |
+
+Notes: Pooled Q uses Q positive/evaluable advertisements. Firm-equal Q averages valid firm shares, including zero-positive firms and excluding only zero-evaluable cells. Bounds use the pooled task base. Full record-level and all 120 firm cells, including three undefined C++ points, are supplied in the analysis CSV files. Source: calculations from the captured job-advertisement corpus.
+
+Supplementary Table S5. Selection sequence and evidential limits
+
+| Selection scope | Rule and selected set | Exclusions and unknowns | Timing and knowledge of outcomes |
+| --- | --- | --- | --- |
+| Initial company wave | Readable public job details, stable identifiers and core fields; eight firms and 610 advertisements. | No surviving exhaustive ranking of all nonselected firms. | Observed 31 August 2026; purposive, with no claim of outcome-blind selection. |
+| Expansion from the existing 40-company landscape | Identifiable entity, research relevance, source quality and feasible official board; 16 entities and 1,044 advertisements. | Failed sources retained; Leju lacked a verifiable current parent-company source. Unavailability is not zero hiring. | Observed 11 September, accepted 14 September 2026; priority rules preceded final source verification. |
+| 24 accepted entities | All accepted identities retained; 23 company boards and 1,630 advertisements form the company comparison scope. | Amazon FAR is a bounded team; its 24 advertisements remain separate. | Scope follows organizational boundary rather than a numerical outcome threshold. |
+| Work-object cases | Case-priority firms AgiBot, Galbot, Dexterity and Nimble; ML/AI and software functions, 84 advertisements. | Other firms and functions outside this set; 81 advertisements have no named product link. | Exploratory cases; no preserved outcome-blind rule for selecting these four firms. |
+| Tasks and technologies | Primary-function by responsibility-defined-task intersection; 105 learning, 87 runtime and 56 circuitry advertisements, with two technologies per task. | Nonmatching tasks/functions and FAR excluded. Nonpositive and unresolved technology states retained. | Task/catalog rules preceded full coding but followed pilot inspection; not preregistered. |
+| Engineering illustration | Galbot and Figure; four shared functions with at least ten evaluable advertisements in both firms; 82 and 60 records. | Below-threshold functions excluded; no exhaustive rule documented for choosing the firm pair. | Earlier exploratory illustration; functions fixed across its sensitivity scenarios. |
+| Current comparison extension | All 120 firm cells; every unordered pair satisfying common M/G/Q denominators of ten and five. | Small and undefined cells kept in full outputs, with comparative eligibility flagged separately. | Rules recorded 21 September 2026 before new union calculations, with earlier results already known. |
+
+Notes: This compact ledger summarizes the full selection_ledger.csv, which retains exact entity lists, source records and historical named-case selection. The study is exploratory throughout; recording a revision protocol does not make earlier selection outcome-blind. Source: calculations from the captured job-advertisement corpus.

@@ -1,0 +1,331 @@
+"""First-pass adjudication for software coding_order 65-80. Reader: grok4.6."""
+from register_Q_decisions import register
+
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0587":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"HUMANOID_AGENT_RUNTIME",
+ "secondary_task":"",
+ "task_evidence":"- Agent 系统架构设计：设计人形机器人的 Agent 运行时架构，包括任务理解、多步规划、执行监控、异常恢复等核心流程，定义 Agent 与底层控制系统的交互协议",
+ "new":{
+  "1":[["V2_AGENT_WORKFLOW","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":R+"Agent范式ReAct不是React前端框架。",
+  "3":O+"PDDL未单列冻结项。",
+  "4":R+"熟练使用 C++不是C语言。",
+  "5":[["V2_AGENT_WORKFLOW","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_AGENT_WORKFLOW","PREFERRED","EXAMPLE"]],
+  "7":"DUPLICATE:N0587:6","8":"DUPLICATE:N0587:6",
+  "9":O+"AutoGen未单列冻结项。","10":O+"OpenClaw未单列冻结项。","11":O+"ClawBody未单列冻结项。",
+  "12":[["SK_ROS","PREFERRED","EXAMPLE"]],
+  "13":O+"BehaviorTree未单列冻结项。",
+  "14":[["V2_MOVEIT","PREFERRED","EXAMPLE"]],
+  "15":"DUPLICATE:N0587:14"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责人形Agent运行时。ReAct拒收React。C++拒收C。"
+},
+"N0584":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"GO_APP_BACKEND",
+ "secondary_task":"",
+ "task_evidence":"负责 App 后台核心业务模块的设计与开发，使用 Go 构建支撑移动端的高性能、高可用微服务系统；",
+ "new":{
+  "1":[["V2_SQL_MYSQL","GENERAL","CHOICE"],["V2_POSTGRESQL","GENERAL","CHOICE"],["V2_REDIS","GENERAL","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0584:1","3":"DUPLICATE:N0584:1","4":"DUPLICATE:N0584:1",
+  "5":O+"Helm未单列冻结项。","6":O+"Kustomize未单列冻结项。","7":O+"Istio未单列冻结项。","8":O+"Linkerd未单列冻结项。",
+  "9":[["V2_CI_CD","PREFERRED","UNCONDITIONAL"],["V2_GITLAB_CI","PREFERRED","EXAMPLE"],["V2_GITHUB_ACTIONS","PREFERRED","EXAMPLE"]],
+  "10":"DUPLICATE:N0584:9","11":"DUPLICATE:N0584:9",
+  "12":O+"ArgoCD未单列冻结项。","13":O+"Mediasoup未单列冻结项。","14":O+"Pion未单列冻结项。","15":O+"Janus未单列冻结项。","16":O+"eBPF未单列冻结项。",
+  "17":R+"Rust 或 C++不是C语言。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"Go后台。GitLab CI/GitHub Actions不升Git。"
+},
+"N0580":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"MULTIMODAL_HRI",
+ "secondary_task":"",
+ "task_evidence":"1. 多模态交互核心研发：负责机器人多模态交互功能的开发，包括语音识别（ASR）、自然语言理解（NLU）、语音合成（TTS）、视觉感知（CV）及触觉反馈，打造自然流畅的人机对话体验。",
+ "new":{
+  "1":O+"任务规划未单列冻结项。",
+  "2":[["V2_MODEL_COMPRESSION","DUTY_OWN_USE","UNCONDITIONAL"],["V2_SIM2REAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":R+"熟悉C++不是C语言。",
+  "4":[["V2_AGENT_WORKFLOW","PREFERRED","EXAMPLE"]],
+  "5":"DUPLICATE:N0580:4",
+  "6":O+"LlamaIndex未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"多模态交互。量化剪枝按压缩。Sim-to-Real成立。"
+},
+"N0561":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"NAV_DATA_LOOP",
+ "secondary_task":"",
+ "task_evidence":"1. 负责导航系统架构设计、算法集成和产品化落地。",
+ "new":{
+  "1":[["V2_NAV2","GENERAL","CHOICE"]],
+  "2":[["SK_ROS","GENERAL","CHOICE"]],
+  "3":"DUPLICATE:N0561:1",
+  "4":R+"C++不是C语言。",
+  "5":O+"TF未单列冻结项。",
+  "6":[["V2_NAV2","PREFERRED","UNCONDITIONAL"]],
+  "7":"DUPLICATE:N0561:6",
+  "8":O+"Costmap未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"导航产品化。Nav2成立。C++拒收C。"
+},
+"N0554":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"BUSINESS_APP",
+ "fine_task":"ERP_FINANCE_INTEGRATION",
+ "secondary_task":"",
+ "task_evidence":"3. 统筹 ERP 与CRM、费控系统、 飞书、银企直联、开票系统等接口集成与数据打通，解决业务断点，实现端到端流程数字化。",
+ "new":{
+  "1":[["V2_CRM","DUTY_OWN_USE","UNCONDITIONAL"],["V2_FEISHU","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0554:1","3":"DUPLICATE:N0554:1",
+  "4":O+"银企直联未单列冻结项。","5":O+"开票系统未单列冻结项。",
+  "6":R+"会计学学历不是会计专业职责。",
+  "7":[["V2_KINGDEE","GENERAL","EXAMPLE"]],
+  "8":"DUPLICATE:N0554:7"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"ERP财务集成。学历拒收会计职责。金蝶示例。"
+},
+"N0539":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"GUIDE_APP",
+ "secondary_task":"",
+ "task_evidence":"- 负责机器人导览应用层功能的设计与开发，包括人机交互界面、语音对话、业务逻辑等模块。",
+ "new":{
+  "1":R+"Python 或 C++不是C语言。",
+  "2":O+"HTTP未单列冻结项。","3":O+"WebSocket未单列冻结项。",
+  "4":[["V2_GIT","GENERAL","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0539:4"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"导览应用。Git成立。"
+},
+"N0525":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"AGENT_INTERN",
+ "secondary_task":"",
+ "task_evidence":"1、参与机器人大脑Agent系统模块开发，承接业务需求，负责系统维护与稳定性保障。",
+ "new":{
+  "1":O+"Prompt工程未单列冻结项。",
+  "2":[["V2_JAVASCRIPT","GENERAL","CHOICE"],["V2_C","GENERAL","UNRESOLVED"]],
+  "3":"DUPLICATE:N0525:2",
+  "4":"DUPLICATE:N0525:2"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"Agent实习。语言任选含C/C++按C未解。"
+},
+"N0239":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"INTERNAL_FULLSTACK",
+ "secondary_task":"",
+ "task_evidence":"- 负责后端服务、内部系统及通用平台能力的设计、开发与维护。",
+ "new":{
+  "1":[["V2_SQL_MYSQL","GENERAL","CHOICE"],["V2_MONGODB","GENERAL","CHOICE"],["V2_REDIS","GENERAL","CHOICE"]],
+  "2":"DUPLICATE:N0239:1","3":"DUPLICATE:N0239:1","4":"DUPLICATE:N0239:1",
+  "5":[["V2_NODEJS","PREFERRED","UNCONDITIONAL"],["V2_TYPESCRIPT","PREFERRED","UNCONDITIONAL"]],
+  "6":"DUPLICATE:N0239:5","7":"DUPLICATE:N0239:5",
+  "8":[["V2_CURSOR","PREFERRED","CHOICE"],["V2_CODEX","PREFERRED","CHOICE"],["V2_CLAUDE_CODE","PREFERRED","CHOICE"]],
+  "9":"DUPLICATE:N0239:8","10":"DUPLICATE:N0239:8","11":"DUPLICATE:N0239:8"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"内部全栈。Node.js不升JavaScript。AI编码工具任选。"
+},
+"N0238":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"IT_OPS",
+ "secondary_task":"",
+ "task_evidence":"1.负责服务器、网络及存储等IT基础设施的日常监控、维护与故障排查。",
+ "new":{
+  "1":[["V2_INCIDENT_SUPPORT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_TCPIP","GENERAL","UNCONDITIONAL"]],
+  "5":O+"Windows未单列冻结项。","6":O+"Windows域管理未单列冻结项。",
+  "7":"DUPLICATE:N0238:4"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"IT运维。在役排障、资产采购与SOP成立。"
+},
+"N0347":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"MOTION_CONTROL_SOFTWARE",
+ "secondary_task":"",
+ "task_evidence":"负责机器⼈运动控制软件的整体架构设计、核⼼模块开发与维护，提升系统的灵活性、扩展性与可维护性，⽀持复杂任务编排 。",
+ "new":{
+  "1":[["V2_CI_CD","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":R+"C++不是C语言。",
+  "3":[["V2_QNX","GENERAL","CHOICE"]],
+  "4":"DUPLICATE:N0347:3",
+  "5":O+"Android未单列冻结项。",
+  "6":R+"开发分析解决问题不是在役故障支持项的充分证据。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"运控软件。QNX任选。C++拒收C。"
+},
+"N0320":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"EMBEDDED_LINUX_BSP",
+ "secondary_task":"",
+ "task_evidence":"1. 负责BSP的开发和维护，编写ARM平台各类外设的驱动程序，配合硬件团队完成新平台的评估和调试。",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"],["V2_GDB","GENERAL","EXAMPLE"],["V2_GIT","GENERAL","EXAMPLE"]],
+  "2":"DUPLICATE:N0320:1",
+  "3":O+"GCC未单列冻结项。",
+  "4":"DUPLICATE:N0320:1",
+  "5":O+"Makefile未单列冻结项。",
+  "6":"DUPLICATE:N0320:1",
+  "7":[["V2_BUILDROOT","GENERAL","CHOICE"],["V2_YOCTO","GENERAL","CHOICE"]],
+  "8":"DUPLICATE:N0320:7","9":"DUPLICATE:N0320:7",
+  "10":O+"Openwrt未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"嵌入式BSP。C/C++按C未解。Yocto/Buildroot任选。"
+},
+"N0301":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"CORE_MODULE_SOFTWARE",
+ "secondary_task":"",
+ "task_evidence":"1、负责机器⼈核⼼功能模块设计、开发与单元测试，包括但不限于数据采集与处理、通信中间件节点开发、算法优化、上层业务逻辑实现等。",
+ "new":{
+  "1":R+"C++/Python不是C语言。",
+  "2":O+"STL未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"核心模块软件。C++拒收C。"
+},
+"N0345":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"SYSTEM_ARCHITECTURE",
+ "secondary_task":"",
+ "task_evidence":"1.负责机器人等系统架构设计，功能设计与实现",
+ "new":{
+  "1":R+"架构设计中的故障排查不是在役故障支持项的充分证据。",
+  "2":R+"C++、Python不是C语言。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"系统架构。C++拒收C。"
+},
+"N0348":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"DEXTEROUS_HAND_SOFTWARE",
+ "secondary_task":"",
+ "task_evidence":"1、负责机器⼈核⼼功能模块设计、开发与单元测试，包括但不限于数据采集与处理、通信中间件节点开发、算法优化、上层业务逻辑实现等。",
+ "new":{
+  "1":R+"C++/Python不是C语言。",
+  "2":O+"STL未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"灵巧手软件。C++拒收C。"
+},
+"N0306":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"SERVER_OPS",
+ "secondary_task":"",
+ "task_evidence":"1.负责公司服务器资源池的规划、建设与运维管理，包括服务器上架、网络规划及链路聚合配置：",
+ "new":{
+  "1":O+"PVE未单列冻结项。","2":O+"ESXi未单列冻结项。","3":O+"Ceph未单列冻结项。",
+  "4":O+"Ubuntu未单列冻结项。","5":O+"CentOS未单列冻结项。","6":O+"Windows未单列冻结项。","7":O+"PXE未单列冻结项。",
+  "8":[["V2_SHELL","GENERAL","UNCONDITIONAL"]],
+  "9":"DUPLICATE:N0306:8",
+  "10":[["V2_ANSIBLE","GENERAL","UNCONDITIONAL"]],
+  "11":"DUPLICATE:N0306:10",
+  "12":[["V2_SQL_MYSQL","GENERAL","UNCONDITIONAL"],["V2_REDIS","GENERAL","UNCONDITIONAL"]],
+  "13":"DUPLICATE:N0306:12","14":"DUPLICATE:N0306:12",
+  "15":O+"Nginx未单列冻结项。","16":O+"HAProxy未单列冻结项。","17":O+"Keepalived未单列冻结项。",
+  "18":[["V2_PROMETHEUS","GENERAL","EXAMPLE"]],
+  "19":O+"Zabbix未单列冻结项。",
+  "20":"DUPLICATE:N0306:18",
+  "21":O+"PVE未单列冻结项。","22":O+"ESXi未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"服务运维。Shell/Ansible/MySQL/Redis/Prometheus成立。"
+},
+"N0242":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"NODE_FULLSTACK",
+ "secondary_task":"",
+ "task_evidence":"1.负责基于 Node.js / TypeScript 的后端服务、内部系统及相关平台能力的设计、开发与维护。",
+ "new":{
+  "1":[["V2_NODEJS","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_TYPESCRIPT","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0242:1","3":"DUPLICATE:N0242:1",
+  "4":[["V2_NODEJS","GENERAL","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0242:4",
+  "6":[["V2_TYPESCRIPT","GENERAL","UNCONDITIONAL"]],
+  "7":"DUPLICATE:N0242:6",
+  "8":[["V2_NODEJS","GENERAL","UNCONDITIONAL"]],
+  "9":[["V2_REACT","GENERAL","CHOICE_AND_EXAMPLE"],["V2_VUE","GENERAL","CHOICE_AND_EXAMPLE"]],
+  "10":"DUPLICATE:N0242:9","11":"DUPLICATE:N0242:9",
+  "12":[["V2_MONGODB","GENERAL","UNCONDITIONAL"],["V2_REDIS","GENERAL","UNCONDITIONAL"]],
+  "13":"DUPLICATE:N0242:12",
+  "14":O+"Mongoose未单列冻结项。",
+  "15":"DUPLICATE:N0242:12",
+  "16":[["V2_CURSOR","PREFERRED","CHOICE"],["V2_CODEX","PREFERRED","CHOICE"],["V2_CLAUDE_CODE","PREFERRED","CHOICE"]],
+  "17":"DUPLICATE:N0242:16","18":"DUPLICATE:N0242:16","19":"DUPLICATE:N0242:16",
+  "20":R+"NestJS/Next.js不是JavaScript语言项的充分证据。",
+  "21":O+"NestJS未单列冻结项。",
+  "22":R+"Next.js不是JavaScript语言项的充分证据。",
+  "23":[["V2_CI_CD","PREFERRED","UNCONDITIONAL"]],
+  "24":"DUPLICATE:N0242:23",
+  "25":[["V2_NODEJS","PREFERRED","UNCONDITIONAL"]],
+  "26":[["SK_CPP","PREFERRED","UNCONDITIONAL"],["V2_NODEJS","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"Node全栈。C++ Addon按C++不加C。Next.js拒收JS。"
+}
+}
+if __name__=='__main__':
+ register('RF_ROBOTICS_SOFTWARE', decisions, reader='grok4.6')

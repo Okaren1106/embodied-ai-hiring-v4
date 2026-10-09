@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "independent_checks": 2139,
+  "changed_pairs": 7,
+  "unchanged_pair_rows": 489,
+  "all_other_columns_unchanged": true,
+  "Q_before": {
+    "P": 170,
+    "Z": 280,
+    "U": 46
+  },
+  "Q_after": {
+    "P": 169,
+    "Z": 284,
+    "U": 43
+  },
+  "before_after_and_inputs_sha256": {
+    "source_snapshot/analysis/ad_technology_current.csv": "a515edcae1fc6aec9520feffbdcf3578483995376db4a735e4bb045b95337b37",
+    "analysis/v4_ad_technology_current.csv": "892f9214f477b4df30aaae7a4e62458fc02128642562b9befb0d4ad78d32f4db",
+    "data/v4_source_corrections.json": "e8f4930401c4bee4494bd2bdb922489828d56349d91e9818b148aaf6e796d515",
+    "source_snapshot/source_v2/data/inputs/records.json": "c3bf940e3cf39fabeea2d3ae25684577f8cd6fc1e71450b9a5a60a19ab743acb",
+    "analysis/empirical/current_u_proposed_corrections.csv": "bf0a89479fa7d3e5bc6ea4838e40187b0761b9df44558d010386be058a4190b1",
+    "work/empirical/bare_parenthetical_correction_payload.json": "ccfedd1eec39fd7c55751127533c2ef9cd79dfb42bd89085f9f6212eb9980cc7"
+  },
+  "all_inputs_unchanged_during_verification": true,
+  "five_corrections_match_complete_U_review": true,
+  "two_corrections_match_bounded_parenthetical_review": true,
+  "N0508_N0486_all_captured_body_fields_identical": {
+    "duties": true,
+    "requirements": true,
+    "full_description": true
+  },
+  "old_A099_propagation_verified": true,
+  "independent_human_validation": false,
+  "scope": "Arithmetic/source-provenance verification of seven adopted model-review corrections; no production script imported."
+}

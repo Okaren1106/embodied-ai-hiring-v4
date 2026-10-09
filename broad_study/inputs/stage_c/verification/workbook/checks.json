@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "sheet": "Q1职能",
+      "rows": 528,
+      "source": "T2_company_primary_roles.csv"
+    },
+    {
+      "sheet": "Q2语境",
+      "rows": 490,
+      "source": "T3_aggregates.csv：WHOLE23且固定展示项"
+    },
+    {
+      "sheet": "Q2公司一般要求",
+      "rows": 840,
+      "source": "T3_company_context.csv：一般要求、独立条目、固定展示项"
+    },
+    {
+      "sheet": "Q3活动",
+      "rows": 576,
+      "source": "T4_activity_company.csv"
+    },
+    {
+      "sheet": "Q3职责结构",
+      "rows": 30,
+      "source": "T4_role_structures.csv：完整原树另存CSV"
+    },
+    {
+      "sheet": "样本与来源",
+      "rows": 24,
+      "source": "T1_company_sample.csv；固定规则v1"
+    },
+    {
+      "test": "zero_denominator",
+      "pass": true
+    },
+    {
+      "test": "source_controls",
+      "values": [
+        1654,
+        1576,
+        19,
+        11
+      ],
+      "pass": true
+    }
+  ],
+  "engine": "Artifact Tool; no native Excel execution claimed"
+}

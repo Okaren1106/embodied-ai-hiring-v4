@@ -1,0 +1,270 @@
+{
+  "subset_id": "SOURCE_COMPLETE_PRELOCK_V1",
+  "locked_before_stage_d_derived_results": true,
+  "inclusion_rules": [
+    "Whole-company scope (scope_main_company=YES). FAR is excluded as a team slice.",
+    "Official hiring source (source_type=official).",
+    "T1 hiring_data_quality_score is EXCELLENT or GOOD. This is a posting-readability/channel assessment, not an activity-count rank.",
+    "Zero primary SOURCE_UNASSESSABLE and zero activities SOURCE_UNASSESSABLE. Unreadable ads are a coverage defect for derived rates.",
+    "sample_postings_checked=8 on the original wave is a quality-audit note, not incomplete collection of those companies' accepted ads, and is not used as an exclusion.",
+    "n_ads, activity rates, body length, and target D statistics are not used."
+  ],
+  "rationale": "Sensitivity slice for source completeness. Not a claim that the occupational board is complete or that excluded companies are low quality overall.",
+  "included_company_ids": [
+    "CN_NOETIX",
+    "CN_SPIRITAI",
+    "CN_UNITREE",
+    "US_AGILITY",
+    "US_APPTRONIK",
+    "US_BOSTON_DYNAMICS",
+    "US_DILIGENT",
+    "US_FIGURE",
+    "US_NIMBLE",
+    "US_PICKLE",
+    "US_SKILD"
+  ],
+  "included": [
+    {
+      "company_id": "CN_NOETIX",
+      "company_name": "Noetix",
+      "quality": "EXCELLENT",
+      "n_ads": 13,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0
+    },
+    {
+      "company_id": "CN_SPIRITAI",
+      "company_name": "Spirit AI",
+      "quality": "GOOD",
+      "n_ads": 65,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0
+    },
+    {
+      "company_id": "CN_UNITREE",
+      "company_name": "Unitree",
+      "quality": "GOOD",
+      "n_ads": 26,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0
+    },
+    {
+      "company_id": "US_AGILITY",
+      "company_name": "Agility Robotics",
+      "quality": "EXCELLENT",
+      "n_ads": 66,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0
+    },
+    {
+      "company_id": "US_APPTRONIK",
+      "company_name": "Apptronik",
+      "quality": "EXCELLENT",
+      "n_ads": 81,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0
+    },
+    {
+      "company_id": "US_BOSTON_DYNAMICS",
+      "company_name": "Boston Dynamics",
+      "quality": "GOOD",
+      "n_ads": 79,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0
+    },
+    {
+      "company_id": "US_DILIGENT",
+      "company_name": "Diligent Robotics",
+      "quality": "GOOD",
+      "n_ads": 11,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0
+    },
+    {
+      "company_id": "US_FIGURE",
+      "company_name": "Figure",
+      "quality": "EXCELLENT",
+      "n_ads": 126,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0
+    },
+    {
+      "company_id": "US_NIMBLE",
+      "company_name": "Nimble Robotics",
+      "quality": "GOOD",
+      "n_ads": 34,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0
+    },
+    {
+      "company_id": "US_PICKLE",
+      "company_name": "Pickle Robot",
+      "quality": "GOOD",
+      "n_ads": 13,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0
+    },
+    {
+      "company_id": "US_SKILD",
+      "company_name": "Skild AI",
+      "quality": "GOOD",
+      "n_ads": 62,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0
+    }
+  ],
+  "excluded": [
+    {
+      "company_id": "CN_AGIBOT",
+      "company_name": "AgiBot",
+      "quality": "USABLE",
+      "n_ads": 83,
+      "primary_SOURCE_UNASSESSABLE": 1,
+      "activities_SOURCE_UNASSESSABLE": 1,
+      "exclude_reasons": [
+        "quality_not_excellent_or_good:USABLE",
+        "primary_source_unassessable=1",
+        "activities_source_unassessable=1"
+      ]
+    },
+    {
+      "company_id": "CN_ASTRIBOT",
+      "company_name": "Astribot",
+      "quality": "USABLE",
+      "n_ads": 51,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0,
+      "exclude_reasons": [
+        "quality_not_excellent_or_good:USABLE"
+      ]
+    },
+    {
+      "company_id": "CN_DEEPROBOTICS",
+      "company_name": "Deep Robotics",
+      "quality": "USABLE",
+      "n_ads": 38,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0,
+      "exclude_reasons": [
+        "quality_not_excellent_or_good:USABLE"
+      ]
+    },
+    {
+      "company_id": "CN_FOURIER",
+      "company_name": "Fourier Intelligence",
+      "quality": "USABLE",
+      "n_ads": 42,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0,
+      "exclude_reasons": [
+        "quality_not_excellent_or_good:USABLE"
+      ]
+    },
+    {
+      "company_id": "CN_GALAXEA",
+      "company_name": "Galaxea AI",
+      "quality": "USABLE",
+      "n_ads": 44,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0,
+      "exclude_reasons": [
+        "quality_not_excellent_or_good:USABLE"
+      ]
+    },
+    {
+      "company_id": "CN_GALBOT",
+      "company_name": "Galbot",
+      "quality": "USABLE",
+      "n_ads": 184,
+      "primary_SOURCE_UNASSESSABLE": 3,
+      "activities_SOURCE_UNASSESSABLE": 3,
+      "exclude_reasons": [
+        "quality_not_excellent_or_good:USABLE",
+        "primary_source_unassessable=3",
+        "activities_source_unassessable=3"
+      ]
+    },
+    {
+      "company_id": "CN_LIMX",
+      "company_name": "LimX Dynamics",
+      "quality": "USABLE",
+      "n_ads": 92,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0,
+      "exclude_reasons": [
+        "quality_not_excellent_or_good:USABLE"
+      ]
+    },
+    {
+      "company_id": "CN_PAXINI",
+      "company_name": "PaXini Tech",
+      "quality": "USABLE",
+      "n_ads": 125,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0,
+      "exclude_reasons": [
+        "quality_not_excellent_or_good:USABLE"
+      ]
+    },
+    {
+      "company_id": "CN_XSQUARE",
+      "company_name": "X Square",
+      "quality": "GOOD",
+      "n_ads": 200,
+      "primary_SOURCE_UNASSESSABLE": 2,
+      "activities_SOURCE_UNASSESSABLE": 2,
+      "exclude_reasons": [
+        "primary_source_unassessable=2",
+        "activities_source_unassessable=2"
+      ]
+    },
+    {
+      "company_id": "US_AMAZON_FTR",
+      "company_name": "Amazon Frontier AI and Robotics",
+      "quality": "USABLE",
+      "n_ads": 24,
+      "primary_SOURCE_UNASSESSABLE": 0,
+      "activities_SOURCE_UNASSESSABLE": 0,
+      "exclude_reasons": [
+        "not_whole_company",
+        "quality_not_excellent_or_good:USABLE"
+      ]
+    },
+    {
+      "company_id": "US_DEXTERITY",
+      "company_name": "Dexterity",
+      "quality": "GOOD",
+      "n_ads": 31,
+      "primary_SOURCE_UNASSESSABLE": 1,
+      "activities_SOURCE_UNASSESSABLE": 1,
+      "exclude_reasons": [
+        "primary_source_unassessable=1",
+        "activities_source_unassessable=1"
+      ]
+    },
+    {
+      "company_id": "US_FIELD_AI",
+      "company_name": "Field AI",
+      "quality": "GOOD",
+      "n_ads": 131,
+      "primary_SOURCE_UNASSESSABLE": 23,
+      "activities_SOURCE_UNASSESSABLE": 23,
+      "exclude_reasons": [
+        "primary_source_unassessable=23",
+        "activities_source_unassessable=23"
+      ]
+    },
+    {
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "company_name": "Physical Intelligence",
+      "quality": "EXCELLENT",
+      "n_ads": 33,
+      "primary_SOURCE_UNASSESSABLE": 1,
+      "activities_SOURCE_UNASSESSABLE": 1,
+      "exclude_reasons": [
+        "primary_source_unassessable=1",
+        "activities_source_unassessable=1"
+      ]
+    }
+  ]
+}

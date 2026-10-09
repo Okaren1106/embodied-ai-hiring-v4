@@ -1,0 +1,2984 @@
+version: measurement-v0.7.5
+date: '2026-09-14'
+status: RELEASED
+authority:
+  report: docs/MEASUREMENT_RULES_V0.7.5.md
+  sha256: 1ece921c7e59ca2dfa378937fab14c0032a7411ab04d42cd51fee5145ed45bb7
+  authorization: 用户2026-09-14认可复合职能与多方向招聘分别分析，授权更新规则，明确暂不整体复核目前已分类岗位。
+  reference_authority: USER_APPROVED_RULE_CHANGE
+  human_validated: false
+primary_semantics:
+  path: configs/measurement_primary_v0.7.5.yaml
+  sha256: 7f927abacd93ce68403e757642ecb58937c6cb8a6b02ae6a9c2ca31c17156339
+  version: primary-semantics-v0.7.5
+  change: ROLE_STRUCTURE_CATEGORIES_AND_EVIDENCE_CONTRACT
+implementation: 规则及职责结构证据校验已发布；自动分类器仍绑定v0.7.4，未实现新结构自动识别；未回放既有岗位。
+states:
+  CODED: 已判读且有明确正向或否定等提及；标签必须有证据。
+  NOT_CODED: 该维度尚未判读，不等于没有。
+  EXECUTION_FAILED: 执行失败，有错误记录，不转成UNKNOWN。
+  SOURCE_UNASSESSABLE: 缺少完成该维度所需的文本，不能作为未提及。
+  AMBIGUOUS: 职能或本人承担、同时/任选关系仍存在实质歧义；已明确的复合或任选不因无单一主类而当未知。
+  UNMAPPED: 事实明确，但有限目录未覆盖；保留原表达到待映射表。
+  NOT_MENTIONED: 可评估的已检查范围内未明确提及本目录概念；不表示全文或现实不存在。
+  NOT_APPLICABLE: 仅可选维度可用，必须解释为什么任务不适用。
+skill_uses:
+  DUTY_USE: 职责中明确使用
+  REQUIRED: 局部语境明确必须/必需
+  GENERAL_REQUIREMENT: 任职要求但未明确硬门槛
+  PREFERRED: 明确优先/加分；按用户2026-09-10确认，optional归PREFERRED，仅作用于其明确修饰项；not optional不据此归优先。
+  BACKGROUND: 公司/团队背景
+  NEGATED: 明确否定需求
+  UNRESOLVED: 修饰范围待判读
+contexts:
+- DUTY
+- REQUIREMENT
+- BACKGROUND
+- UNCERTAIN
+relations:
+  OWNED: 岗位直接承担（明确共同负责也可）
+  PARTICIPATES: 参与/协助，不能自动赋次职能
+  BACKGROUND: 他人职责/背景
+  UNCERTAIN: 无法确定
+task_questions:
+- 模型交付岗位是否明示参与真机部署？
+- 亲自采集与数据系统建设是否在同广告共同出现？
+- 研究探索与工程交付是否同广告明示共存？
+- 哪些广告明确同时要求多职能交付，哪些是不同招聘方向任选？
+task_units: 可省略；只记录原文明示动作、对象、交付物与关系，不补步骤，不估工时；无明示交付物允许空。
+evidence_contract:
+  fields:
+  - full_description
+  - duties
+  - requirements
+  offsets: Python Unicode字符位置，start含/end不含；相同句子重复时必须给出具体偏移。
+  binding: record_id + text_version_hash + field + start + end + quote
+  fidelity: 字面校验不认证语义支持；原全文与历史规范化分段分别保存，不伪称偏移可互换。
+dimensions:
+  primary_role:
+    name: 主职能
+    version: v0.7.5
+    scope: 核心必填
+    unit: 固定正文版本的一条招聘广告
+    cardinality: one_or_UNKNOWN
+    evidence: 17个具体职能沿用原证据规则；2个职责结构主类须有直接正文结构依据及role_structure，方向未展开时LIMITED。
+    denominator: 全纳入广告
+    maturity: &id008
+      defined: true
+      implemented: SEMANTIC_CONTRACT_AND_MANUAL_REASONED_IMPORT
+      coded: DIAGNOSTIC_ONLY_AFTER_IMPORT
+      verified: NOT_HUMAN_VALIDATED
+    labels:
+      RF_RESEARCH_SCIENCE:
+        definition: 可推广知识、新方法与科学假设检验
+        deliverable: 可推广知识、新方法与科学假设检验
+        include: 研究问题与方法/科学检验为主；职责未具体化但明确Research Scientist头衔有正文研究背景支持且无冲突时，可作LIMITED一级归属。
+        exclude: 只有论文经历而无岗位研究方向；常规工程优化不得生成研究活动。
+        nearest_boundary: ML交付可用模型；研究交付超出单一实现的知识
+        evidence_required: 直接研究交付，或R01规定的明确头衔与非空研究正文支持。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 提出跨任务学习方法并检验泛化假设
+          counterexample: 训练现有模型满足上线精度
+          insufficient: 只有Research Scientist标题，正文全空；或正文明确只负责生产部署。
+        name: 研究科学
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_ML_AI_ENGINEERING:
+        definition: 模型架构、损失、训练/微调模型或专用训练推理系统
+        deliverable: 模型架构、损失、训练/微调模型或专用训练推理系统
+        include: 模型及其学习过程是持续主责；包括视觉深度模型和学习控制策略
+        exclude: 仅集成模型输出形成感知或控制闭环；通用软件底座；以可靠性、成本、异常分析决策服务为主要交付的数据科学。
+        nearest_boundary: 感知以融合/定位结果及感知链路为主；ML以模型及训练为主；数据科学可训练并部署模型，持续服务分析/预测决策的责任按数据类判断。
+        evidence_required: 明确模型/学习系统对象与本人开发维护责任
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 设计深度估计网络、损失函数并训练模型
+          counterexample: 集成视觉模型并交付多传感器融合定位结果
+          insufficient: 熟悉深度学习，负责相关算法
+        name: ML/AI工程
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_ROBOTICS_SOFTWARE:
+        definition: 运行软件、接口、通用平台及工程信息系统的开发、配置、集成与运行管理
+        deliverable: 软件运行能力、CAD/PLM平台、工程数据发布与信息流程
+        include: 运行框架、存储网络、应用软件；CAD/PLM账号许可、配置集成、发布流程和平台维护，不要求亲自编码。
+        exclude: 模型训练推理专用系统；控制器；仅用CAD绘制机械图；跨域整机架构责任。
+        nearest_boundary: CAD作为管理平台归软件，作为设计工具随机械；软件集成与整机跨域技术决策区分。
+        evidence_required: 明确软件/平台对象和开发、配置、运行管理责任。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 开发机器人任务运行中间件和接口
+          counterexample: 建设模型训练编排及推理优化系统
+          insufficient: 软件工程师，熟悉C++
+        name: 软件与平台
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_CONTROL_PLANNING:
+        definition: 控制器、轨迹规划器及动力学闭环性能
+        deliverable: 控制器、轨迹规划器及动力学闭环性能
+        include: 设计集成控制/规划算法，模型可作为既有组件
+        exclude: 训练策略模型为主；仅运行框架为主
+        nearest_boundary: 学习控制按模型训练与闭环交付分界；定位结果归感知
+        evidence_required: 本人承担控制/规划对象；控制主线与头衔有正文支持时可判一级，不补造原文未写的性能目标。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 设计轨迹规划器并调试整机闭环稳定性
+          counterexample: 训练输出关节动作的策略网络
+          insufficient: 参与机器人算法开发
+        name: 控制与规划
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_PERCEPTION:
+        definition: 感知链路、融合/定位建图及场景估计结果
+        deliverable: 感知链路、融合/定位建图及场景估计结果
+        include: 交付端到端感知结果；神经网络只是链路组件
+        exclude: 以网络架构、损失和训练为主；传感器电路设计
+        nearest_boundary: 视觉主题不决定类别；模型训练主责归ML
+        evidence_required: 具体感知/融合/定位对象＋本人交付链路或估计结果
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 融合相机与IMU并交付定位建图结果
+          counterexample: 设计立体深度网络架构与损失并训练模型
+          insufficient: 了解视觉、神经网络和SLAM
+        name: 感知
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_DATA_INFRA_OPERATIONS:
+        definition: 数据资产、数据工程与生产治理，以及统计建模和数据科学分析服务
+        deliverable: 数据管线/真值/生产网络，或可靠性预测、异常根因分析、运行经济性和决策支持
+        include: 数据工程、生产治理、数据科学分析；分析可交付神经预测模型并部署，按持续分析服务责任判。
+        exclude: 亲自遥操/标注；通用存储底座；以模型学习能力为主的ML工程；直接承担财务、质量放行或VOC闭环等业务结果。
+        nearest_boundary: 数据分析以运营现象解释、预测与决策服务为责任；ML以可用模型组件、训练方法或学习系统性能为责任。
+        evidence_required: 本人数据资产/生产责任，或明确分析问题、分析预测产出与服务目的。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 预测部件剩余寿命并生成维护计划和成本驱动分析。
+          counterexample: 设计双目深度网络架构和损失，训练达成模型精度目标。
+          insufficient: 熟悉数据分析
+        name: 数据与分析
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories:
+          DATA_ENGINEERING_INFRA: &id001
+            id: DATA_ENGINEERING_INFRA
+            name: 数据工程与基础设施
+            parent: RF_DATA_INFRA_OPERATIONS
+            version: v0.7
+            status: RELEASED
+            definition: 数据管线、真值及数据资产工程
+            deliverable: 数据管线、真值及数据资产工程
+            include: 负责加工存储与数据基础设施
+            exclude: 不含通用存储引擎或亲自采集
+            nearest_boundary: 生产运营主责看网络组织，分析主责看预测解释
+            evidence_required: 正文明确本人细分交付；仅一级方向时留空子类。
+            examples:
+              kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+              positive: 开发数据清洗与真值管线
+              counterexample: 亲自遥操采集
+              insufficient: 支持数据工作
+            development_source: V05-023
+            provenance: 用户批准的分类范围，AI整理定义及已曝光开发案例；无独立验证声明。
+          DATA_PRODUCTION_GOVERNANCE: &id002
+            id: DATA_PRODUCTION_GOVERNANCE
+            name: 数据生产与治理运营
+            parent: RF_DATA_INFRA_OPERATIONS
+            version: v0.7
+            status: RELEASED
+            definition: 数据生产网络、排班治理与质量规模
+            deliverable: 数据生产网络、排班治理与质量规模
+            include: 组织采集标注网络并负责数据质量
+            exclude: 不含亲自遥操或物料库存履约
+            nearest_boundary: 工程管线不同于生产组织
+            evidence_required: 正文明确本人细分交付；仅一级方向时留空子类。
+            examples:
+              kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+              positive: 管理采集网络及质量验收
+              counterexample: 管理道具库存
+              insufficient: 参与采集支持
+            development_source: V06-046正例；V06-050反例
+            provenance: 用户批准的分类范围，AI整理定义及已曝光开发案例；无独立验证声明。
+          DATA_SCIENCE_ANALYTICS: &id003
+            id: DATA_SCIENCE_ANALYTICS
+            name: 数据科学与分析
+            parent: RF_DATA_INFRA_OPERATIONS
+            version: v0.7
+            status: RELEASED
+            definition: 统计解释、预测模型、根因与决策支持
+            deliverable: 统计解释、预测模型、根因与决策支持
+            include: 以分析服务责任为主；可训练部署神经模型
+            exclude: 不含以学习组件性能为主的模型工程或质量放行责任
+            nearest_boundary: 使用B02成对例，不能按模型/报告格式判断
+            evidence_required: 正文明确本人细分交付；仅一级方向时留空子类。
+            examples:
+              kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+              positive: 预测部件寿命并制定维护方案
+              counterexample: 开发深度网络训练方法
+              insufficient: 熟悉数据分析
+            development_source: V05-044
+            provenance: 用户批准的分类范围，AI整理定义及已曝光开发案例；无独立验证声明。
+      RF_SIMULATION_EVALUATION:
+        definition: 仿真环境或可反复使用的评测、校准、测量表征方法/工具链
+        deliverable: 仿真环境或可反复使用的评测、校准、测量表征方法/工具链
+        include: 主要交付复用能力；说明跨版本/对象/流程重复使用；交接他人是强证据但非必要
+        exclude: 设计自测；产品验证执行、合规放行、缺陷闭环
+        nearest_boundary: 先判断是否设计自测，再区分复用评测能力与质量结果；同等主责保留歧义
+        evidence_required: 可复用交付物＋复用对象/流程/用户的明确证据
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 开发跨型号执行器表征工具链供每次迭代使用
+          counterexample: 执行产品验证计划并闭环缺陷；自测本人电路
+          insufficient: 开发测试平台并执行测试，未说明复用与主次
+        name: 仿真、评测与测量工具链
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+        display_note: 含EOL/ICT/FCT、HiL、产测与校准等可复用测量能力。该类份额不能直接解释为仿真研究份额；研究或部署活动须独立取证。
+      RF_HARDWARE_ELECTRICAL:
+        definition: 电路、板卡、电气互连、FPGA、低层固件和电子驱动
+        deliverable: 电路、板卡、电气互连、FPGA、低层固件和电子驱动
+        include: 本人设计调通电子电气子系统，自身设计验证为配套
+        exclude: 产品级质量执行；仅机械结构设计；纯维修
+        nearest_boundary: 工厂场所不改设计职能；电机结构与驱动电路分开
+        evidence_required: 具体电路/固件/电气子系统与设计调试责任
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 设计驱动板电路并验证自身设计
+          counterexample: 组织整机合规验证和质量放行
+          insufficient: 了解电子，协助其他团队
+        name: 硬件与电气
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_MECHANICAL_MECHATRONICS:
+        definition: 机械结构、机构、传动、本体图纸及设计性能
+        deliverable: 机械结构、机构、传动、本体图纸及设计性能
+        include: 机械方案、图纸及性能；具有实质机械设计责任、交付完整机电原型的综合开发。
+        exclude: 工业外观/交互设计；纯按图装配；电子板卡主导；系统架构、要求及接口主导。
+        nearest_boundary: 综合实体原型与跨域架构决策区分；测功机的机械设计不自动变成独立评测。
+        evidence_required: 明确机械对象＋本人设计和性能责任
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 设计腿部传动机构、出图并验证强度
+          counterexample: 执行装配生产工艺；设计机器人外观色彩材质
+          insufficient: 机械电气软件全流程支持，主责不明
+        name: 机械与机电
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_MANUFACTURING_QUALITY_SUPPLY:
+        definition: 制造工艺、装配生产、供应采购或产品验证/质量闭环结果
+        deliverable: 制造工艺、装配产物、供应/库存履约，或质量验证结论与缺陷闭环
+        include: 工艺制造、原型按图加工装配、采购供应；内部研究物料库存、备料和履约运营；独立产品验证/合规及缺陷闭环。
+        exclude: 本人设计自测；主要交付可复用评测方法/仿真
+        nearest_boundary: 物料可获得性不同于数据产出；研发阶段仍可制造或质量；设备维护可用性归服务；系统安全架构归系统工程。
+        evidence_required: 工艺/供应/验证计划或结果＋责任对象
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 执行整机可靠性验证，追踪缺陷至质量放行
+          counterexample: 设计可跨版本复用的校准算法和测量工具链
+          insufficient: 参与测试与工厂工作
+        name: 制造、质量与供应链
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_DEPLOYMENT_FIELD_SERVICE:
+        definition: 设备安装验收、维修维护，以及内部试验设备与环境服务
+        deliverable: 设备、台架与试验环境的可用性及安装维护支持
+        include: 客户现场或内部实验室设备服务；维护、校准、环境提供、安全检查。
+        exclude: 本人设计自测；独立质量验证结论；复用测量方法研发；跨域系统架构。
+        nearest_boundary: 维护台架使别人能测试归服务；设计测量方法归评测；设计台架机械本体归机械。
+        evidence_required: 具体安装/诊断/维修任务和本人设备责任
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 安装采集机器人并负责故障修复与预防维护
+          counterexample: 遥操采集，遇故障上报工程团队
+          insufficient: 支持现场相关工作
+        name: 部署与现场服务
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_PRODUCT_PROGRAM:
+        definition: 产品需求/路线图或项目范围、资源、依赖及里程碑
+        deliverable: 产品需求/路线图或项目范围、资源、依赖及里程碑
+        include: 明确产品定义、优先级或跨职能项目管理交付
+        exclude: 所有技术经理；纯整机系统架构；商业市场分析本身
+        nearest_boundary: 技术团队经理随其技术交付；市场洞察以商业决策为交付归商务
+        evidence_required: 本人需求/路线图/项目管理对象与责任
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 制定产品需求和路线图，管理跨团队交付依赖
+          counterexample: 负责控制团队控制器性能与技术交付
+          insufficient: 配合项目团队工作
+        name: 产品与项目
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_COMMERCIAL_CUSTOMER:
+        definition: 市场获客、销售客户经营、商业战略/市场洞察及客户体验/VOC闭环
+        deliverable: 市场获客、销售客户经营、商业战略/市场洞察及客户体验/VOC闭环
+        include: 销售品牌；以商业决策为目的的行业竞品洞察；以客户体验改善为目的的反馈分析和推动闭环
+        exclude: 科学研究；跨职能通用业务分析；数据管线；产品路线图主责
+        nearest_boundary: 新增COMMERCIAL_STRATEGY_INSIGHTS和CUSTOMER_EXPERIENCE_VOC；以交付目的区分产品管理与数据分析
+        evidence_required: 商业/客户问题＋分析或经营动作＋决策/改善交付
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 分析行业竞争格局形成商业策略建议；整理VOC并推动体验改进
+          counterexample: 建设标注数据管线；提出通用学习理论；交付产品路线图
+          insufficient: 跟踪市场信息，未给出工作用途或交付
+        name: 商务与客户
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories:
+          COMMERCIAL_STRATEGY_INSIGHTS: &id004
+            id: COMMERCIAL_STRATEGY_INSIGHTS
+            name: 行业竞争与商业战略洞察
+            parent: RF_COMMERCIAL_CUSTOMER
+            version: v0.7
+            status: RELEASED
+            definition: 行业竞争与商业战略判断
+            deliverable: 行业竞争与商业战略判断
+            include: 市场竞争分析服务商业战略
+            exclude: 不含科学研究或通用数据预测服务
+            nearest_boundary: 商业战略交付不同于数据技术分析服务
+            evidence_required: 正文明确本人细分交付；仅一级方向时留空子类。
+            examples:
+              kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+              positive: 研究竞争格局形成商业进入建议
+              counterexample: 研究可推广学习方法
+              insufficient: 了解行业
+            development_source: V05-020
+            provenance: 用户批准的分类范围，AI整理定义及已曝光开发案例；无独立验证声明。
+          CUSTOMER_EXPERIENCE_VOC: &id005
+            id: CUSTOMER_EXPERIENCE_VOC
+            name: 客户体验与VOC运营
+            parent: RF_COMMERCIAL_CUSTOMER
+            version: v0.7
+            status: RELEASED
+            definition: 客户反馈分析、客户体验改善及VOC闭环
+            deliverable: 客户反馈分析、客户体验改善及VOC闭环
+            include: 持续经营反馈与体验改善结果
+            exclude: 不含UX交互原型或数据管线
+            nearest_boundary: 反馈闭环不同于直接设计体验方案
+            evidence_required: 正文明确本人细分交付；仅一级方向时留空子类。
+            examples:
+              kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+              positive: 建立VOC反馈闭环并跟踪改进
+              counterexample: 绘制交互原型
+              insufficient: 仅说用户导向
+            development_source: V05-095
+            provenance: 用户批准的分类范围，AI整理定义及已曝光开发案例；无独立验证声明。
+      RF_CORPORATE_SUPPORT:
+        definition: 公司职能支持、综合运营及教育技术内容支持
+        deliverable: 财务人事法务行政、公司规划治理和管理层执行支持，课程教材与教学资料
+        include: 传统公司支持；整体公司运营；面向员工、高校或外部教学的课程、课件与教育内容。 公司信息/数据/访问安全的制度、风险、合规与应急治理归公司支持；直接交付安全软件或平台归软件，设备固件安全归硬件；仅协调项目范围、资源和里程碑才归产品项目。可选软件开发不取代必选治理主线。
+        exclude: 客户经营；产品路线图；设备服务；物料供应；不能按非技术或为内部服务一概纳入。
+        nearest_boundary: 综合公司运营有持续公司级交付；课程中的机器人技术是教学对象；CAD平台管理归软件。
+        evidence_required: 职能支持/运营/教育内容产出；HR集合招聘有明确正文HR方向可按R01作LIMITED主类。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 管理招聘流程、财务报表或非市场政策关系
+          counterexample: 面向政府客户拓展销售商机
+          insufficient: 通用岗位说明，未列实际职责
+        name: 公司支持
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_ROBOT_OPERATIONS:
+        definition: 本人运行/遥操机器人、现场采集或人工标注成果
+        deliverable: 本人运行/遥操机器人、现场采集或人工标注成果
+        include: 明确本人执行数据采集、机器人操作或逐项标注
+        exclude: 管理采集网络/排班质量；主要维护设备
+        nearest_boundary: 执行、组织数据生产与维护设备按交付分开
+        evidence_required: 明确本人操作/采集/标注动作，不能仅凭标题
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 遥操机器人完成演示并标注采集数据
+          counterexample: 管理多站点采集生产网络和人员排班
+          insufficient: 数据采集员标题，正文空白
+        name: 机器人操作
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_SYSTEMS_ENGINEERING_INTEGRATION:
+        name: 系统工程与跨域集成
+        definition: 整机跨域架构、需求分解、接口约束与系统集成技术决策
+        deliverable: 整机跨域架构、需求分解、接口约束与系统集成技术决策
+        include: 对机械、电气、软件跨域约束和整机集成结果负责；包括功能安全系统需求与接口、启动集成和跨域故障决策。
+        exclude: 只协调进度归项目；软件接口实现归软件；单域设计随领域；质量测试执行不等于安全系统架构。
+        nearest_boundary: 架构/要求/接口及跨域技术取舍区别于机械实体原型；整机集成决策区别于例行安装维护。
+        evidence_required: 本人承担跨域技术责任＋整机架构/需求/接口/集成交付，非仅跨部门沟通。
+        evidence_policy: 适用R01/R03一般粗粒度规则；不得从主类反推其他维度。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 分解机器人功能安全要求，维护机械电气软件接口并裁决系统集成故障。
+          counterexample: 跟踪各团队里程碑并安排会议。
+          insufficient: 系统工程师，协助各部门，无技术交付。
+        subcategories: {}
+      RF_INDUSTRIAL_EXPERIENCE_DESIGN:
+        name: 工业与体验设计
+        definition: 工业外观、CMF、交互流程、用户旅程与体验原型
+        deliverable: 工业外观、CMF、交互流程、用户旅程与体验原型
+        include: 外观比例与覆盖件视觉设计、材质色彩；用户交互/服务体验设计；场景创意明确但细项不足可只判一级。
+        exclude: 结构强度/机构图纸归机械；产品路线图归产品；VOC经营闭环归商务；界面软件实现归软件。
+        nearest_boundary: 设计方案与体验原型不同于反馈分析运营或项目需求管理。
+        evidence_required: 本人承担外观/交互/体验设计产出；明确设计方向但无细项时不强加子类。
+        evidence_policy: 适用R01/R03一般粗粒度规则；不得从主类反推其他维度。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 交付用户旅程、交互流程及可测试体验原型。
+          counterexample: 整理客户投诉并推动VOC闭环。
+          insufficient: 设计师，支持机器人项目，无设计对象。
+        subcategories:
+          DESIGN_INDUSTRIAL_CMF: &id006
+            id: DESIGN_INDUSTRIAL_CMF
+            name: 工业外观与CMF
+            parent: RF_INDUSTRIAL_EXPERIENCE_DESIGN
+            version: v0.7
+            status: RELEASED
+            definition: 外观比例、色彩材质与视觉覆盖件方案
+            deliverable: 外观比例、色彩材质与视觉覆盖件方案
+            include: 明确外观/CMF设计产出
+            exclude: 不含强度结构设计或纯交互流程
+            nearest_boundary: 覆盖件外观视觉与机械承载性能区分
+            evidence_required: 正文明确本人细分交付；仅一级方向时留空子类。
+            examples:
+              kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+              positive: 设计机器人外观比例和材质色彩
+              counterexample: 计算连杆疲劳强度
+              insufficient: 仅写工业设计创意
+            development_source: V05-032
+            provenance: 用户批准的分类范围，AI整理定义及已曝光开发案例；无独立验证声明。
+          DESIGN_INTERACTION_EXPERIENCE: &id007
+            id: DESIGN_INTERACTION_EXPERIENCE
+            name: 交互与服务体验设计
+            parent: RF_INDUSTRIAL_EXPERIENCE_DESIGN
+            version: v0.7
+            status: RELEASED
+            definition: 用户旅程、交互流程和体验原型
+            deliverable: 用户旅程、交互流程和体验原型
+            include: 明确交互体验设计交付
+            exclude: 不含VOC经营闭环、产品路线图或界面代码实现
+            nearest_boundary: 以设计产出区别于商业反馈闭环
+            evidence_required: 正文明确本人细分交付；仅一级方向时留空子类。
+            examples:
+              kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+              positive: 交付用户旅程与交互原型
+              counterexample: 汇总投诉并推动客户闭环
+              insufficient: 只写关注用户体验
+            development_source: V06-038
+            provenance: 用户批准的分类范围，AI整理定义及已曝光开发案例；无独立验证声明。
+      RF_COMPOSITE_FUNCTION:
+        name: 复合职能
+        definition: 同一岗位明确同时持续承担至少两个不同具体职能的独立交付，且无法确定单一主导。
+        deliverable: 由明确同时承担的职责组成及各自独立交付构成。
+        include: 本人同时承担且无单一主导；允许共同职责与可选方向嵌套。
+        exclude: 明确主次、协作、工具使用、设计自测或单一跨域系统交付；关系不明。
+        nearest_boundary: 单一主导用原17类；方向可选用OR；关系或职能不明保留歧义。
+        evidence_required: 正文关系依据及各组成职责证据；role_structure根为ALL，各ALL至少跨两个具体职能。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 同一人长期同时交付模型训练系统和生产运行平台，广告无法确定单一主导。
+          counterexample: 训练模型并进行该模型自测。
+          insufficient: 全栈标题，正文未说明各项交付。
+        kind: ROLE_STRUCTURE
+        evidence_policy: 须有直接正文结构依据，classification_basis=DIRECT_DELIVERABLE；未展开方向使用LIMITED，禁止仅标题辅助定结构。
+      RF_ALTERNATIVE_DIRECTIONS:
+        name: 多方向招聘（任选）
+        definition: 一条广告明确允许候选人选择招聘方向或职责分支，保留各分支而不认定同一人全部承担。
+        deliverable: 广告明示的招聘方向选择关系及分支可见职责。
+        include: 不同职能的方向任选；同一职能内不同方向任选；任选方向内部可含复合职责。
+        exclude: 仅技能、工具、学历或知识背景任选；技术手段可替换但岗位任务相同；仅并列方向而无选择依据。
+        nearest_boundary: 同时承担用ALL；一般要求组沿用技能要求树；关系不明保留歧义。
+        evidence_required: 正文明确方向选择，role_structure根为OR，保存方向名称与证据；未展开职责标NOT_EXPANDED且证据强度LIMITED。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 模型训练方向或控制器研发方向任选，每个方向单列职责。
+          counterexample: 完成同一个控制器任务，熟悉MPC或RL任一工具。
+          insufficient: 只列感知/控制/学习，未说明本人承担方式。
+        kind: ROLE_STRUCTURE
+        evidence_policy: 须有直接正文结构依据，classification_basis=DIRECT_DELIVERABLE；未展开方向使用LIMITED，禁止仅标题辅助定结构。
+    missing: 不可评估、未编码、执行失败、歧义、未映射、可评估未明示及不适用分别保存。
+  secondary_roles:
+    name: 实质次责
+    version: v0.7
+    scope: 条件填写
+    unit: 固定正文版本的一条招聘广告
+    cardinality: zero_to_many
+    evidence: 第二项持续承担产出，OWNED关系；仅协作不足
+    denominator: 实际评估次责的广告
+    maturity: &id010
+      defined: true
+      implemented: OPTIONAL_DIAGNOSTIC_CONTRACT
+      coded: DIAGNOSTIC_ONLY_AFTER_IMPORT
+      verified: PILOT_NOT_HUMAN_VALIDATED
+    labels:
+      RF_RESEARCH_SCIENCE:
+        definition: 可推广知识、新方法与科学假设检验
+        deliverable: 可推广知识、新方法与科学假设检验
+        include: 研究问题与方法/科学检验为主；职责未具体化但明确Research Scientist头衔有正文研究背景支持且无冲突时，可作LIMITED一级归属。
+        exclude: 只有论文经历而无岗位研究方向；常规工程优化不得生成研究活动。
+        nearest_boundary: ML交付可用模型；研究交付超出单一实现的知识
+        evidence_required: 直接研究交付，或R01规定的明确头衔与非空研究正文支持。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 提出跨任务学习方法并检验泛化假设
+          counterexample: 训练现有模型满足上线精度
+          insufficient: 只有Research Scientist标题，正文全空；或正文明确只负责生产部署。
+        name: 研究科学
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_ML_AI_ENGINEERING:
+        definition: 模型架构、损失、训练/微调模型或专用训练推理系统
+        deliverable: 模型架构、损失、训练/微调模型或专用训练推理系统
+        include: 模型及其学习过程是持续主责；包括视觉深度模型和学习控制策略
+        exclude: 仅集成模型输出形成感知或控制闭环；通用软件底座；以可靠性、成本、异常分析决策服务为主要交付的数据科学。
+        nearest_boundary: 感知以融合/定位结果及感知链路为主；ML以模型及训练为主；数据科学可训练并部署模型，持续服务分析/预测决策的责任按数据类判断。
+        evidence_required: 明确模型/学习系统对象与本人开发维护责任
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 设计深度估计网络、损失函数并训练模型
+          counterexample: 集成视觉模型并交付多传感器融合定位结果
+          insufficient: 熟悉深度学习，负责相关算法
+        name: ML/AI工程
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_ROBOTICS_SOFTWARE:
+        definition: 运行软件、接口、通用平台及工程信息系统的开发、配置、集成与运行管理
+        deliverable: 软件运行能力、CAD/PLM平台、工程数据发布与信息流程
+        include: 运行框架、存储网络、应用软件；CAD/PLM账号许可、配置集成、发布流程和平台维护，不要求亲自编码。
+        exclude: 模型训练推理专用系统；控制器；仅用CAD绘制机械图；跨域整机架构责任。
+        nearest_boundary: CAD作为管理平台归软件，作为设计工具随机械；软件集成与整机跨域技术决策区分。
+        evidence_required: 明确软件/平台对象和开发、配置、运行管理责任。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 开发机器人任务运行中间件和接口
+          counterexample: 建设模型训练编排及推理优化系统
+          insufficient: 软件工程师，熟悉C++
+        name: 软件与平台
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_CONTROL_PLANNING:
+        definition: 控制器、轨迹规划器及动力学闭环性能
+        deliverable: 控制器、轨迹规划器及动力学闭环性能
+        include: 设计集成控制/规划算法，模型可作为既有组件
+        exclude: 训练策略模型为主；仅运行框架为主
+        nearest_boundary: 学习控制按模型训练与闭环交付分界；定位结果归感知
+        evidence_required: 本人承担控制/规划对象；控制主线与头衔有正文支持时可判一级，不补造原文未写的性能目标。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 设计轨迹规划器并调试整机闭环稳定性
+          counterexample: 训练输出关节动作的策略网络
+          insufficient: 参与机器人算法开发
+        name: 控制与规划
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_PERCEPTION:
+        definition: 感知链路、融合/定位建图及场景估计结果
+        deliverable: 感知链路、融合/定位建图及场景估计结果
+        include: 交付端到端感知结果；神经网络只是链路组件
+        exclude: 以网络架构、损失和训练为主；传感器电路设计
+        nearest_boundary: 视觉主题不决定类别；模型训练主责归ML
+        evidence_required: 具体感知/融合/定位对象＋本人交付链路或估计结果
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 融合相机与IMU并交付定位建图结果
+          counterexample: 设计立体深度网络架构与损失并训练模型
+          insufficient: 了解视觉、神经网络和SLAM
+        name: 感知
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_DATA_INFRA_OPERATIONS:
+        definition: 数据资产、数据工程与生产治理，以及统计建模和数据科学分析服务
+        deliverable: 数据管线/真值/生产网络，或可靠性预测、异常根因分析、运行经济性和决策支持
+        include: 数据工程、生产治理、数据科学分析；分析可交付神经预测模型并部署，按持续分析服务责任判。
+        exclude: 亲自遥操/标注；通用存储底座；以模型学习能力为主的ML工程；直接承担财务、质量放行或VOC闭环等业务结果。
+        nearest_boundary: 数据分析以运营现象解释、预测与决策服务为责任；ML以可用模型组件、训练方法或学习系统性能为责任。
+        evidence_required: 本人数据资产/生产责任，或明确分析问题、分析预测产出与服务目的。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 预测部件剩余寿命并生成维护计划和成本驱动分析。
+          counterexample: 设计双目深度网络架构和损失，训练达成模型精度目标。
+          insufficient: 熟悉数据分析
+        name: 数据与分析
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories:
+          DATA_ENGINEERING_INFRA: *id001
+          DATA_PRODUCTION_GOVERNANCE: *id002
+          DATA_SCIENCE_ANALYTICS: *id003
+      RF_SIMULATION_EVALUATION:
+        definition: 仿真环境或可反复使用的评测、校准、测量表征方法/工具链
+        deliverable: 仿真环境或可反复使用的评测、校准、测量表征方法/工具链
+        include: 主要交付复用能力；说明跨版本/对象/流程重复使用；交接他人是强证据但非必要
+        exclude: 设计自测；产品验证执行、合规放行、缺陷闭环
+        nearest_boundary: 先判断是否设计自测，再区分复用评测能力与质量结果；同等主责保留歧义
+        evidence_required: 可复用交付物＋复用对象/流程/用户的明确证据
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 开发跨型号执行器表征工具链供每次迭代使用
+          counterexample: 执行产品验证计划并闭环缺陷；自测本人电路
+          insufficient: 开发测试平台并执行测试，未说明复用与主次
+        name: 仿真、评测与测量工具链
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+        display_note: 含EOL/ICT/FCT、HiL、产测与校准等可复用测量能力。该类份额不能直接解释为仿真研究份额；研究或部署活动须独立取证。
+      RF_HARDWARE_ELECTRICAL:
+        definition: 电路、板卡、电气互连、FPGA、低层固件和电子驱动
+        deliverable: 电路、板卡、电气互连、FPGA、低层固件和电子驱动
+        include: 本人设计调通电子电气子系统，自身设计验证为配套
+        exclude: 产品级质量执行；仅机械结构设计；纯维修
+        nearest_boundary: 工厂场所不改设计职能；电机结构与驱动电路分开
+        evidence_required: 具体电路/固件/电气子系统与设计调试责任
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 设计驱动板电路并验证自身设计
+          counterexample: 组织整机合规验证和质量放行
+          insufficient: 了解电子，协助其他团队
+        name: 硬件与电气
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_MECHANICAL_MECHATRONICS:
+        definition: 机械结构、机构、传动、本体图纸及设计性能
+        deliverable: 机械结构、机构、传动、本体图纸及设计性能
+        include: 机械方案、图纸及性能；具有实质机械设计责任、交付完整机电原型的综合开发。
+        exclude: 工业外观/交互设计；纯按图装配；电子板卡主导；系统架构、要求及接口主导。
+        nearest_boundary: 综合实体原型与跨域架构决策区分；测功机的机械设计不自动变成独立评测。
+        evidence_required: 明确机械对象＋本人设计和性能责任
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 设计腿部传动机构、出图并验证强度
+          counterexample: 执行装配生产工艺；设计机器人外观色彩材质
+          insufficient: 机械电气软件全流程支持，主责不明
+        name: 机械与机电
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_MANUFACTURING_QUALITY_SUPPLY:
+        definition: 制造工艺、装配生产、供应采购或产品验证/质量闭环结果
+        deliverable: 制造工艺、装配产物、供应/库存履约，或质量验证结论与缺陷闭环
+        include: 工艺制造、原型按图加工装配、采购供应；内部研究物料库存、备料和履约运营；独立产品验证/合规及缺陷闭环。
+        exclude: 本人设计自测；主要交付可复用评测方法/仿真
+        nearest_boundary: 物料可获得性不同于数据产出；研发阶段仍可制造或质量；设备维护可用性归服务；系统安全架构归系统工程。
+        evidence_required: 工艺/供应/验证计划或结果＋责任对象
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 执行整机可靠性验证，追踪缺陷至质量放行
+          counterexample: 设计可跨版本复用的校准算法和测量工具链
+          insufficient: 参与测试与工厂工作
+        name: 制造、质量与供应链
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_DEPLOYMENT_FIELD_SERVICE:
+        definition: 设备安装验收、维修维护，以及内部试验设备与环境服务
+        deliverable: 设备、台架与试验环境的可用性及安装维护支持
+        include: 客户现场或内部实验室设备服务；维护、校准、环境提供、安全检查。
+        exclude: 本人设计自测；独立质量验证结论；复用测量方法研发；跨域系统架构。
+        nearest_boundary: 维护台架使别人能测试归服务；设计测量方法归评测；设计台架机械本体归机械。
+        evidence_required: 具体安装/诊断/维修任务和本人设备责任
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 安装采集机器人并负责故障修复与预防维护
+          counterexample: 遥操采集，遇故障上报工程团队
+          insufficient: 支持现场相关工作
+        name: 部署与现场服务
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_PRODUCT_PROGRAM:
+        definition: 产品需求/路线图或项目范围、资源、依赖及里程碑
+        deliverable: 产品需求/路线图或项目范围、资源、依赖及里程碑
+        include: 明确产品定义、优先级或跨职能项目管理交付
+        exclude: 所有技术经理；纯整机系统架构；商业市场分析本身
+        nearest_boundary: 技术团队经理随其技术交付；市场洞察以商业决策为交付归商务
+        evidence_required: 本人需求/路线图/项目管理对象与责任
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 制定产品需求和路线图，管理跨团队交付依赖
+          counterexample: 负责控制团队控制器性能与技术交付
+          insufficient: 配合项目团队工作
+        name: 产品与项目
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_COMMERCIAL_CUSTOMER:
+        definition: 市场获客、销售客户经营、商业战略/市场洞察及客户体验/VOC闭环
+        deliverable: 市场获客、销售客户经营、商业战略/市场洞察及客户体验/VOC闭环
+        include: 销售品牌；以商业决策为目的的行业竞品洞察；以客户体验改善为目的的反馈分析和推动闭环
+        exclude: 科学研究；跨职能通用业务分析；数据管线；产品路线图主责
+        nearest_boundary: 新增COMMERCIAL_STRATEGY_INSIGHTS和CUSTOMER_EXPERIENCE_VOC；以交付目的区分产品管理与数据分析
+        evidence_required: 商业/客户问题＋分析或经营动作＋决策/改善交付
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 分析行业竞争格局形成商业策略建议；整理VOC并推动体验改进
+          counterexample: 建设标注数据管线；提出通用学习理论；交付产品路线图
+          insufficient: 跟踪市场信息，未给出工作用途或交付
+        name: 商务与客户
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories:
+          COMMERCIAL_STRATEGY_INSIGHTS: *id004
+          CUSTOMER_EXPERIENCE_VOC: *id005
+      RF_CORPORATE_SUPPORT:
+        definition: 公司职能支持、综合运营及教育技术内容支持
+        deliverable: 财务人事法务行政、公司规划治理和管理层执行支持，课程教材与教学资料
+        include: 传统公司支持；整体公司运营；面向员工、高校或外部教学的课程、课件与教育内容。 公司信息/数据/访问安全的制度、风险、合规与应急治理归公司支持；直接交付安全软件或平台归软件，设备固件安全归硬件；仅协调项目范围、资源和里程碑才归产品项目。可选软件开发不取代必选治理主线。
+        exclude: 客户经营；产品路线图；设备服务；物料供应；不能按非技术或为内部服务一概纳入。
+        nearest_boundary: 综合公司运营有持续公司级交付；课程中的机器人技术是教学对象；CAD平台管理归软件。
+        evidence_required: 职能支持/运营/教育内容产出；HR集合招聘有明确正文HR方向可按R01作LIMITED主类。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 管理招聘流程、财务报表或非市场政策关系
+          counterexample: 面向政府客户拓展销售商机
+          insufficient: 通用岗位说明，未列实际职责
+        name: 公司支持
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_ROBOT_OPERATIONS:
+        definition: 本人运行/遥操机器人、现场采集或人工标注成果
+        deliverable: 本人运行/遥操机器人、现场采集或人工标注成果
+        include: 明确本人执行数据采集、机器人操作或逐项标注
+        exclude: 管理采集网络/排班质量；主要维护设备
+        nearest_boundary: 执行、组织数据生产与维护设备按交付分开
+        evidence_required: 明确本人操作/采集/标注动作，不能仅凭标题
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 遥操机器人完成演示并标注采集数据
+          counterexample: 管理多站点采集生产网络和人员排班
+          insufficient: 数据采集员标题，正文空白
+        name: 机器人操作
+        evidence_policy: 下列证据要求用于直接交付判断；只有一级职能方向明确时可按R01/R03作LIMITED归属。子类和其他维度仍需各自证据。
+        subcategories: {}
+      RF_SYSTEMS_ENGINEERING_INTEGRATION:
+        name: 系统工程与跨域集成
+        definition: 整机跨域架构、需求分解、接口约束与系统集成技术决策
+        deliverable: 整机跨域架构、需求分解、接口约束与系统集成技术决策
+        include: 对机械、电气、软件跨域约束和整机集成结果负责；包括功能安全系统需求与接口、启动集成和跨域故障决策。
+        exclude: 只协调进度归项目；软件接口实现归软件；单域设计随领域；质量测试执行不等于安全系统架构。
+        nearest_boundary: 架构/要求/接口及跨域技术取舍区别于机械实体原型；整机集成决策区别于例行安装维护。
+        evidence_required: 本人承担跨域技术责任＋整机架构/需求/接口/集成交付，非仅跨部门沟通。
+        evidence_policy: 适用R01/R03一般粗粒度规则；不得从主类反推其他维度。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 分解机器人功能安全要求，维护机械电气软件接口并裁决系统集成故障。
+          counterexample: 跟踪各团队里程碑并安排会议。
+          insufficient: 系统工程师，协助各部门，无技术交付。
+        subcategories: {}
+      RF_INDUSTRIAL_EXPERIENCE_DESIGN:
+        name: 工业与体验设计
+        definition: 工业外观、CMF、交互流程、用户旅程与体验原型
+        deliverable: 工业外观、CMF、交互流程、用户旅程与体验原型
+        include: 外观比例与覆盖件视觉设计、材质色彩；用户交互/服务体验设计；场景创意明确但细项不足可只判一级。
+        exclude: 结构强度/机构图纸归机械；产品路线图归产品；VOC经营闭环归商务；界面软件实现归软件。
+        nearest_boundary: 设计方案与体验原型不同于反馈分析运营或项目需求管理。
+        evidence_required: 本人承担外观/交互/体验设计产出；明确设计方向但无细项时不强加子类。
+        evidence_policy: 适用R01/R03一般粗粒度规则；不得从主类反推其他维度。
+        examples:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          positive: 交付用户旅程、交互流程及可测试体验原型。
+          counterexample: 整理客户投诉并推动VOC闭环。
+          insufficient: 设计师，支持机器人项目，无设计对象。
+        subcategories:
+          DESIGN_INDUSTRIAL_CMF: *id006
+          DESIGN_INTERACTION_EXPERIENCE: *id007
+    missing: 不可评估、未编码、执行失败、歧义、未映射、可评估未明示及不适用分别保存。
+  technical_concepts:
+    name: 技术概念
+    version: v0.7
+    scope: 核心有限集合
+    unit: 固定正文版本的一条招聘广告
+    cardinality: zero_to_many
+    evidence: 逐提及语境及原文位置
+    denominator: 已检查文本可评估广告；全纳入同时列出
+    maturity: *id008
+    labels:
+      TC_FOUNDATION_MODEL:
+        name: 基础模型/VLA
+        type: METHOD
+        definition: 明示基础模型、VLA或大规模预训练模型
+        include: 明示基础模型、VLA或大规模预训练模型
+        exclude: 只写AI或公司机器人愿景
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_RL:
+        name: 强化学习
+        type: METHOD
+        definition: 明示强化学习方法
+        include: 明示强化学习方法
+        exclude: 控制或奖励一词不足
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_IL:
+        name: 模仿学习
+        type: METHOD
+        definition: 明示模仿学习/行为克隆
+        include: 明示模仿学习/行为克隆
+        exclude: 采集示教不自动意味着模仿学习
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_MOTION_PLANNING:
+        name: 运动规划
+        type: PROBLEM
+        definition: 明示轨迹或运动规划问题
+        include: 明示轨迹或运动规划问题
+        exclude: 项目计划不是运动规划
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_CONTROL:
+        name: 控制闭环
+        type: PROBLEM
+        definition: 明示运动控制、动力学闭环、控制器
+        include: 明示运动控制、动力学闭环、控制器
+        exclude: 一般管理控制或仅训练模型
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_MANIPULATION:
+        name: 操作与灵巧操作
+        type: PROBLEM
+        definition: 明示机器人抓取、操作或灵巧手操作
+        include: 明示机器人抓取、操作或灵巧手操作
+        exclude: 亲自操作设备不自动属于操作算法
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_PERCEPTION:
+        name: 感知与融合
+        type: PROBLEM
+        definition: 明示视觉感知或传感器融合
+        include: 明示视觉感知或传感器融合
+        exclude: 使用图像或传感器硬件本身不足
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_SLAM:
+        name: 定位建图
+        type: PROBLEM
+        definition: 明示SLAM或定位建图
+        include: 明示SLAM或定位建图
+        exclude: 导航不机械拆出SLAM
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_NAVIGATION:
+        name: 导航
+        type: PROBLEM
+        definition: 明示自主导航
+        include: 明示自主导航
+        exclude: SLAM不机械推导导航
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_ML_SYSTEMS:
+        name: 训练推理系统
+        type: SYSTEM
+        definition: 明示训练基础设施、推理服务或训练编排
+        include: 明示训练基础设施、推理服务或训练编排
+        exclude: 通用软件不因服务AI自动纳入
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_DATA_PIPELINE:
+        name: 数据管线与资产
+        type: SYSTEM
+        definition: 明示数据集、清洗标注管线、数据质量或资产
+        include: 明示数据集、清洗标注管线、数据质量或资产
+        exclude: 一般数据分析不自动纳入
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_SIMULATION:
+        name: 仿真环境
+        type: SYSTEM
+        definition: 明示仿真器、物理仿真或仿真环境
+        include: 明示仿真器、物理仿真或仿真环境
+        exclude: 自身设计自测不等于仿真
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_SYNTHETIC_DATA:
+        name: 合成数据
+        type: METHOD
+        definition: 明示生成或使用合成数据
+        include: 明示生成或使用合成数据
+        exclude: 仿真环境不自动意味着合成数据
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_EVALUATION:
+        name: 评测与表征
+        type: PROBLEM
+        definition: 明示测量表征、基准评测或测试评价
+        include: 明示测量表征、基准评测或测试评价
+        exclude: 此概念不决定仿真评测主职能
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_EMBEDDED:
+        name: 嵌入式系统
+        type: SYSTEM
+        definition: 明示嵌入式系统、固件或微控制器
+        include: 明示嵌入式系统、固件或微控制器
+        exclude: 仅硬件背景不自动纳入
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_REALTIME:
+        name: 实时系统
+        type: SYSTEM
+        definition: 明示实时执行、实时系统或实时调度
+        include: 明示实时执行、实时系统或实时调度
+        exclude: 高性能不自动意味着实时
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_MECHANICAL:
+        name: 机械结构
+        type: SYSTEM
+        definition: 明示结构、机构或机械传动
+        include: 明示结构、机构或机械传动
+        exclude: 工厂场所本身不足
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_ACTUATOR:
+        name: 执行器
+        type: SYSTEM
+        definition: 明示执行器或电机
+        include: 明示执行器或电机
+        exclude: 电力电子不自动拆出执行器
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_POWER_ELECTRONICS:
+        name: 电力电子
+        type: SYSTEM
+        definition: 明示电源、电机驱动或功率电路
+        include: 明示电源、电机驱动或功率电路
+        exclude: 执行器不自动拆出电力电子；电池、热管理不自动归入。
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_SAFETY:
+        name: 安全
+        type: QUALITY
+        definition: 明示产品、系统或作业安全目标
+        include: 明示产品、系统或作业安全目标
+        exclude: 泛称合规须判明与安全关系
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_RELIABILITY:
+        name: 可靠性
+        type: QUALITY
+        definition: 明示系统可靠性、寿命或故障目标
+        include: 明示系统可靠性、寿命或故障目标
+        exclude: 稳定团队等背景修辞不足
+        evidence: 职责、要求、背景分别记录；不得从主职能推导。
+      TC_ML_MODELS:
+        name: 机器学习模型
+        type: METHOD
+        definition: 明确机器学习、监督学习、深度神经模型等对象；不把一般模型自动标成基础模型。
+        include: 明确机器学习、监督学习、深度神经模型等对象；不把一般模型自动标成基础模型。
+        exclude: 仅模型一词可能是物理模型；有具体子型时不自动补上位重复计数。
+        evidence: 每概念独立按职责/要求/背景及承担关系编码；不由主类或上位主题生成。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V06-053
+          record_id: US_AGILITY|greenhouse|5973040004
+          text_version_hash: d3694b187e27b7ad17b2c8a6fb0b1571f521dc2f7cb74f6089274d0331f1bd69
+          field: requirements
+          start: 1167
+          end: 1229
+          quote: Experience developing ML models for 3 or 6 dof pose estimation
+      TC_GENERATIVE_POLICY:
+        name: 生成式机器人策略
+        type: METHOD
+        definition: 明确Diffusion Policy、Flow Matching、ACT等生成式动作策略模型。
+        include: 明确Diffusion Policy、Flow Matching、ACT等生成式动作策略模型。
+        exclude: 一般生成式AI或泛称控制算法不足，不自动等于VLA。
+        evidence: 每概念独立按职责/要求/背景及承担关系编码；不由主类或上位主题生成。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V06-054
+          record_id: CN_XSQUARE|feishu|7517122388887095571
+          text_version_hash: 84c3bb1e757660ce2c5ec7ae695fe54c5f00a41fd50311038851b816f4fdd8f8
+          field: requirements
+          start: 298
+          end: 388
+          quote: '2. 生成式策略模型: 熟悉Diffusion Policy、Flow Matching、Action Chunking Transformer等生成式机器人策略模型的原理与实现。'
+      TC_THERMAL_MANAGEMENT:
+        name: 热管理与热设计
+        type: SYSTEM
+        definition: 明确散热、热仿真、热路径或热布局设计。
+        include: 明确散热、热仿真、热路径或热布局设计。
+        exclude: 一般热情或硬件主题不足；热管理不自动标电力电子。
+        evidence: 每概念独立按职责/要求/背景及承担关系编码；不由主类或上位主题生成。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V06-055
+          record_id: CN_SPIRITAI|feishu|7643721211734657299
+          text_version_hash: 8168bdb70c1fafa23ecfc064f9a14dcc1ff5b354fdfa6289d698d799c2c8bb60
+          field: duties
+          start: 181
+          end: 235
+          quote: '4.  负责人形机器人热仿真及热管理设计,评估散热方案,优化导热路径、散热结构及热布局,提升持续工作能力; '
+      TC_BATTERY:
+        name: 电池系统
+        type: SYSTEM
+        definition: 明确电池组、电芯、电池系统设计或使用对象。
+        include: 明确电池组、电芯、电池系统设计或使用对象。
+        exclude: 电源电路、电机驱动不自动补电池；电池提及也不自动补电力电子。
+        evidence: 每概念独立按职责/要求/背景及承担关系编码；不由主类或上位主题生成。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V06-059
+          record_id: US_FIGURE|greenhouse|4697354006
+          text_version_hash: ee29ecf4ae8b4ad8412462f4bb2d3a8f4d3c51d978a3ee81985bc0449f5d32b3
+          field: duties
+          start: 36
+          end: 220
+          quote: Develop and execute sourcing strategies for battery cells (pouch, cylindrical, prismatic) and pack-level
+            components, including structural, thermal, and electromechanical subassemblies.
+    missing: 不可评估、未编码、执行失败、歧义、未映射、可评估未明示及不适用分别保存。
+  skills:
+    name: 明示技能
+    version: v0.7.2
+    scope: 核心有限集合
+    unit: 固定正文版本的一条招聘广告
+    cardinality: mentions_with_use
+    evidence: 原词、规范概念、七种用途；同词不同用途并存
+    denominator: 要求可用与职责可用分别显示
+    maturity: *id008
+    labels:
+      SK_PYTHON:
+        name: Python
+        aliases:
+        - Python
+        definition: 广告明示的Python知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-002
+          record_id: CN_NOETIX|noetix|6
+          field: full_description
+          start: 238
+          end: 291
+          quote: 4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;
+        allowed_relations: &id009
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+      SK_CPP:
+        name: C++
+        aliases:
+        - C++
+        definition: 广告明示的C++知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-002
+          record_id: CN_NOETIX|noetix|6
+          field: full_description
+          start: 238
+          end: 291
+          quote: 4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;
+        allowed_relations: *id009
+      SK_CSHARP:
+        name: C#
+        aliases:
+        - C#
+        definition: 广告明示的C#知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: HISTORICAL_LABEL_SYNTHETIC_ONLY_PENDING_EMPIRICAL
+          quote: 明确要求熟悉C#
+        allowed_relations: *id009
+      SK_ROS:
+        name: ROS
+        aliases:
+        - ROS
+        definition: 广告明示的ROS知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-002
+          record_id: CN_NOETIX|noetix|6
+          field: full_description
+          start: 238
+          end: 291
+          quote: 4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;
+        allowed_relations: *id009
+      SK_ROS2:
+        name: ROS 2
+        aliases:
+        - ROS2
+        - ROS 2
+        definition: 广告明示的ROS 2知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-002
+          record_id: CN_NOETIX|noetix|6
+          field: full_description
+          start: 238
+          end: 291
+          quote: 4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;
+        allowed_relations: *id009
+      SK_PYTORCH:
+        name: PyTorch
+        aliases:
+        - PyTorch
+        definition: 广告明示的PyTorch知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-003
+          record_id: CN_NOETIX|noetix|11
+          field: full_description
+          start: 278
+          end: 339
+          quote: 2. 具备深度学习、计算机视觉、自然语言处理等相关方向扎实理论基础，熟练掌握 PyTorch或Jax 等主流深度学习框架；
+        allowed_relations: *id009
+      SK_TENSORFLOW:
+        name: TensorFlow
+        aliases:
+        - TensorFlow
+        definition: 广告明示的TensorFlow知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-035
+          record_id: CN_XSQUARE|feishu|7576522272380799283
+          field: duties
+          start: 75
+          end: 147
+          quote: 2. 基于 PyTorch/TensorFlow 等框架搭建 端到端深度估计训练 pipeline,包含数据增强、预处理、label 工程等等。
+        allowed_relations: *id009
+      SK_JAX:
+        name: JAX
+        aliases:
+        - Jax
+        - JAX
+        definition: 广告明示的JAX知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-003
+          record_id: CN_NOETIX|noetix|11
+          field: full_description
+          start: 278
+          end: 339
+          quote: 2. 具备深度学习、计算机视觉、自然语言处理等相关方向扎实理论基础，熟练掌握 PyTorch或Jax 等主流深度学习框架；
+        allowed_relations: *id009
+      SK_CUDA:
+        name: CUDA
+        aliases:
+        - CUDA
+        definition: 广告明示的CUDA知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: HISTORICAL_LABEL_SYNTHETIC_ONLY_PENDING_EMPIRICAL
+          quote: 明确要求熟悉CUDA
+        allowed_relations: *id009
+      SK_MATLAB:
+        name: MATLAB
+        aliases:
+        - MATLAB
+        definition: 广告明示的MATLAB知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-009
+          record_id: CN_NOETIX|noetix|14
+          field: full_description
+          start: 223
+          end: 259
+          quote: 4、熟悉Matlab/Simulink仿真，会进行电机驱动控制建模仿真；
+        allowed_relations: *id009
+      SK_MUJOCO:
+        name: MuJoCo
+        aliases:
+        - MuJoCo
+        definition: 广告明示的MuJoCo知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-002
+          record_id: CN_NOETIX|noetix|6
+          field: full_description
+          start: 292
+          end: 338
+          quote: 5、熟悉MuJoCo、Isaac Gym、 Gazebo、PyBullet等机器人仿真环境；
+        allowed_relations: *id009
+      SK_ISAAC:
+        name: Isaac
+        aliases:
+        - Isaac
+        - Isaac Gym
+        - IsaacGym
+        - Isaac Lab
+        - IsaacLab
+        definition: 广告明示的Isaac知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-002
+          record_id: CN_NOETIX|noetix|6
+          field: full_description
+          start: 292
+          end: 338
+          quote: 5、熟悉MuJoCo、Isaac Gym、 Gazebo、PyBullet等机器人仿真环境；
+        allowed_relations: *id009
+        source_reference:
+          url: https://isaac-sim.github.io/IsaacLab/main/index.html
+          checked: '2026-09-10'
+          purpose: 保留原Isaac族标签，原文surface区分Gym/Lab产品
+      SK_GAZEBO:
+        name: Gazebo
+        aliases:
+        - Gazebo
+        definition: 广告明示的Gazebo知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-002
+          record_id: CN_NOETIX|noetix|6
+          field: full_description
+          start: 292
+          end: 338
+          quote: 5、熟悉MuJoCo、Isaac Gym、 Gazebo、PyBullet等机器人仿真环境；
+        allowed_relations: *id009
+      SK_OPENCV:
+        name: OpenCV
+        aliases:
+        - OpenCV
+        definition: 广告明示的OpenCV知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-055
+          record_id: US_APPTRONIK|greenhouse|6145262004
+          field: full_description
+          start: 3499
+          end: 3621
+          quote: . Extensive experience with computer vision libraries (OpenCV, PCL) and optimization frameworks
+            (e.g., Ceres Solver, g2o).
+        allowed_relations: *id009
+      SK_JAVA:
+        name: Java
+        aliases:
+        - Java
+        definition: 广告明示的Java知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: HISTORICAL_LABEL_SYNTHETIC_ONLY_PENDING_EMPIRICAL
+          quote: 明确要求熟悉Java
+        allowed_relations: *id009
+      SK_RUST:
+        name: Rust
+        aliases:
+        - Rust
+        definition: 广告明示的Rust知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: HISTORICAL_LABEL_SYNTHETIC_ONLY_PENDING_EMPIRICAL
+          quote: 明确要求熟悉Rust
+        allowed_relations: *id009
+      SK_SQL:
+        name: SQL
+        aliases:
+        - SQL
+        definition: 广告明示的SQL知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-044
+          record_id: US_AGILITY|greenhouse|6127729004
+          field: full_description
+          start: 3906
+          end: 4002
+          quote: Strong software fundamentals — production-quality Python, comfort in SQL and modern data stacks.
+        allowed_relations: *id009
+      SK_LINUX:
+        name: Linux
+        aliases:
+        - Linux
+        definition: 广告明示的Linux知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-005
+          record_id: CN_NOETIX|noetix|4
+          field: duties
+          start: 50
+          end: 82
+          quote: 3、开发Linux系统应用程序,满足产品的功能、性能、功耗需求;
+        allowed_relations: *id009
+      SK_DOCKER:
+        name: Docker
+        aliases:
+        - Docker
+        definition: 广告明示的Docker知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-054
+          record_id: US_APPTRONIK|greenhouse|5988698004
+          field: full_description
+          start: 5211
+          end: 5285
+          quote: Docker, scripting, or infrastructure tooling for test automation at scale.
+        allowed_relations: *id009
+      SK_KUBERNETES:
+        name: Kubernetes
+        aliases:
+        - Kubernetes
+        - K8s
+        definition: 广告明示的Kubernetes知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-041
+          record_id: US_AGILITY|greenhouse|6148969004
+          field: duties
+          start: 199
+          end: 285
+          quote: Develop reliable workflows across cloud compute, Kubernetes, and continuous automation
+        allowed_relations: *id009
+      SK_CAD:
+        name: CAD泛称
+        aliases:
+        - CAD
+        definition: 广告明示的CAD泛称知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-018
+          record_id: CN_SPIRITAI|feishu|7656723036259240243
+          field: full_description
+          start: 302
+          end: 343
+          quote: 3. 熟练使用solidworks、CAD，具备扎实的机械设计基础、电气装配知识；
+        allowed_relations: *id009
+      SK_SOLIDWORKS:
+        name: SolidWorks
+        aliases:
+        - SolidWorks
+        definition: 广告明示的SolidWorks知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-018
+          record_id: CN_SPIRITAI|feishu|7656723036259240243
+          field: full_description
+          start: 302
+          end: 343
+          quote: 3. 熟练使用solidworks、CAD，具备扎实的机械设计基础、电气装配知识；
+        allowed_relations: *id009
+      SK_CATIA:
+        name: CATIA
+        aliases:
+        - CATIA
+        definition: 广告明示的CATIA知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: SOFTWARE_TOOL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-062
+          record_id: US_FIGURE|greenhouse|4672013006
+          field: full_description
+          start: 1346
+          end: 1370
+          quote: Experience with CATIA V6
+        allowed_relations: *id009
+      SK_GD_T:
+        name: 几何尺寸与公差
+        aliases:
+        - GD&T
+        - 几何尺寸与公差
+        definition: 广告明示的几何尺寸与公差知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: METHOD
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-047
+          record_id: US_AGILITY|greenhouse|6138024004
+          field: full_description
+          start: 4925
+          end: 4975
+          quote: Knowledge of GD&T and ASME Y14 drafting standards.
+        allowed_relations: *id009
+      SK_FEA:
+        name: 有限元分析
+        aliases:
+        - FEA
+        - 有限元分析
+        definition: 广告明示的有限元分析知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: METHOD
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-062
+          record_id: US_FIGURE|greenhouse|4672013006
+          field: full_description
+          start: 1573
+          end: 1649
+          quote: Experience with FEA, simulation tools, or basic programming (Python, MATLAB)
+        allowed_relations: *id009
+      SK_PCB:
+        name: PCB设计
+        aliases:
+        - PCB设计
+        - PCB design
+        definition: 广告明示的PCB设计知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: WORK_SKILL
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-036
+          record_id: CN_XSQUARE|feishu|7600292625098934591
+          field: duties
+          start: 0
+          end: 51
+          quote: 1、负责硬件部门对应PCB设计(含原理图、结构图导入、器件布局、PCB走线及优化等),输出PCB文件;
+        allowed_relations: *id009
+      SK_SPC:
+        name: 统计过程控制
+        aliases:
+        - SPC
+        - 统计过程控制
+        definition: 广告明示的统计过程控制知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: METHOD
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-044
+          record_id: US_AGILITY|greenhouse|6127729004
+          field: full_description
+          start: 4806
+          end: 4896
+          quote: Exposure to manufacturing quality systems (end-of-line test, SPC, yield/defect analytics).
+        allowed_relations: *id009
+      SK_GENERIC_LANGUAGE:
+        name: 编程语言泛称
+        aliases:
+        - 编程语言
+        - programming languages
+        definition: 广告明示的编程语言泛称知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: GENERIC_CAPABILITY
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-007
+          record_id: CN_NOETIX|noetix|15
+          field: full_description
+          start: 93
+          end: 129
+          quote: 1、熟悉Python，Pytorch等编程语言，熟悉Linux操作系统；
+        allowed_relations: *id009
+      SK_GENERIC_ML_FRAMEWORK:
+        name: 机器学习框架泛称
+        aliases:
+        - 机器学习框架
+        - 深度学习框架
+        definition: 广告明示的机器学习框架泛称知识、能力或工具使用
+        include: 必须有原词和局部用途语境；别名只辅助规范化。
+        exclude: 不从职能、相邻技能、公司或上位概念补值。
+        type: GENERIC_CAPABILITY
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-003
+          record_id: CN_NOETIX|noetix|11
+          field: full_description
+          start: 278
+          end: 339
+          quote: 2. 具备深度学习、计算机视觉、自然语言处理等相关方向扎实理论基础，熟练掌握 PyTorch或Jax 等主流深度学习框架；
+        allowed_relations: *id009
+      SK_EXCEL:
+        name: Excel
+        type: SOFTWARE_TOOL
+        aliases:
+        - Excel
+        definition: 明示的Excel使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-012
+          record_id: CN_SPIRITAI|feishu|7678615223214180617
+          field: full_description
+          start: 1189
+          end: 1253
+          quote: 4、对算力市场行情、价格波动、供应链风险有敏感度；具备成本拆解、数据分析能力，熟练 Excel，能够独立输出比价、成本分析报告。
+        allowed_relations: *id009
+      SK_SHEETS:
+        name: Google Sheets
+        type: SOFTWARE_TOOL
+        aliases:
+        - Google Sheets
+        definition: 明示的Google Sheets使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-060
+          record_id: US_APPTRONIK|greenhouse|6163894004
+          field: full_description
+          start: 3306
+          end: 3423
+          quote: Advanced proficiency in ERP/MRP software (e.g., NetSuite, Oracle, SAP) and data analysis tools
+            (Excel/Google Sheets).
+        allowed_relations: *id009
+      SK_POWERPOINT:
+        name: PowerPoint
+        type: SOFTWARE_TOOL
+        aliases:
+        - PowerPoint
+        - PPT
+        definition: 明示的PowerPoint使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-038
+          record_id: CN_XSQUARE|feishu|7660482603393321225
+          field: duties
+          start: 81
+          end: 153
+          quote: 2. 配合制作课程配套资料,包括课件PPT、实验指导手册、练习题、案例解析等,确保内容准确、易懂,贴合学习场景(高校/职业教育/技能培训均可)。
+        allowed_relations: *id009
+      SK_ERP:
+        name: ERP系统
+        type: SOFTWARE_TOOL
+        aliases:
+        - ERP
+        definition: 明示的ERP系统使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-047
+          record_id: US_AGILITY|greenhouse|6138024004
+          field: duties
+          start: 634
+          end: 676
+          quote: Own the integration with ERP/Manufacturing
+        allowed_relations: *id009
+      SK_WMS:
+        name: WMS仓储系统
+        type: SOFTWARE_TOOL
+        aliases:
+        - WMS
+        definition: 明示的WMS仓储系统使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-011
+          record_id: CN_SPIRITAI|feishu|7659717011135744306
+          field: duties
+          start: 98
+          end: 145
+          quote: 3. 行业业务集成与流程编排,设计低代码机器人工作流编排引擎,打通客户侧 MES/WMS等系统
+        allowed_relations: *id009
+      SK_HRIS:
+        name: HRIS人事系统
+        type: SOFTWARE_TOOL
+        aliases:
+        - HRIS
+        definition: 明示的HRIS人事系统使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-096
+          record_id: US_FIGURE|greenhouse|4702555006
+          field: duties
+          start: 2388
+          end: 2459
+          quote: Familiaridad con herramientas de HRIS (sistemas de gestión de RR. HH.).
+        allowed_relations: *id009
+      SK_NX:
+        name: Siemens NX
+        type: SOFTWARE_TOOL
+        aliases:
+        - Siemens NX
+        - NX
+        definition: 明示的Siemens NX使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V05-051
+          record_id: US_APPTRONIK|greenhouse|6150237004
+          text_version_hash: 39b78868eec7d0b1c3b87c707b2eddee4d632dacad5c9dbd275e6d03a5446b72
+          field: duties
+          start: 627
+          end: 885
+          quote: Establish and enforce company-wide CAD standards using Siemens NX. Drive best practices for large
+            assembly management, top-down master modeling, and seamless PLM integration (e.g., Teamcenter) to ensure
+            a clean, scalable digital twin across the organization.
+        allowed_relations: *id009
+      SK_TEAMCENTER:
+        name: Teamcenter
+        type: SOFTWARE_TOOL
+        aliases:
+        - Teamcenter
+        definition: 明示的Teamcenter使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-051
+          record_id: US_APPTRONIK|greenhouse|6150237004
+          field: duties
+          start: 627
+          end: 885
+          quote: Establish and enforce company-wide CAD standards using Siemens NX. Drive best practices for large
+            assembly management, top-down master modeling, and seamless PLM integration (e.g., Teamcenter) to ensure
+            a clean, scalable digital twin across the organization.
+        allowed_relations: *id009
+      SK_CREO:
+        name: Creo
+        type: SOFTWARE_TOOL
+        aliases:
+        - Creo
+        definition: 明示的Creo使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-037
+          record_id: CN_XSQUARE|feishu|7592092386681211162
+          field: full_description
+          start: 186
+          end: 216
+          quote: 2、具备一定械结构设计基础，熟练设计CREO等三维设计软件；
+        allowed_relations: *id009
+      SK_WINDCHILL:
+        name: Windchill
+        type: SOFTWARE_TOOL
+        aliases:
+        - Windchill
+        definition: 明示的Windchill使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V05-047
+          record_id: US_AGILITY|greenhouse|6138024004
+          text_version_hash: 0d5d79e33786b702e57a78d5ab9ae8e6d947cdbc8edc92650ce08b9a7ac639af
+          field: requirements
+          start: 0
+          end: 217
+          quote: 10-15 years of hands-on experience with Creo/ Windchill, including practical ownership of vault
+            structure, workflows, permissions, metadata, custom properties, revision management, release processes,
+            and user support.
+        allowed_relations: *id009
+      SK_ALTIUM:
+        name: Altium
+        type: SOFTWARE_TOOL
+        aliases:
+        - Altium
+        definition: 明示的Altium使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-047
+          record_id: US_AGILITY|greenhouse|6138024004
+          field: duties
+          start: 243
+          end: 301
+          quote: Maintain and improve integration with Altium or equivalent
+        allowed_relations: *id009
+      SK_FMEA:
+        name: FMEA
+        type: METHOD
+        aliases:
+        - FMEA
+        - DFMEA
+        - PFMEA
+        - Failure Mode and Effects Analysis
+        - 失效模式与影响分析
+        - 故障模式与影响分析
+        definition: 明示的FMEA使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 泛称失效模式、失败分析和模型失效不是FMEA方法。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V05-031
+          record_id: CN_XSQUARE|feishu|7580327783005587722
+          text_version_hash: 37e36908f9f74ace07546ccbbb02b32d527641d85f8ac37c6d78a94adef68ffd
+          field: duties
+          start: 368
+          end: 476
+          quote: 2、失效分析与闭环管理:对测试中发现的失效进行精准定位与根因分析(结构疲劳、电气失效、润滑失效、算法漂移等),运用FTA、FMEA等工具建立并维护故障模式库,协同硬件、软件、结构团队推动设计改进,验证修复措施有效性。
+        allowed_relations: *id009
+      SK_FTA:
+        name: 故障树分析
+        type: METHOD
+        aliases:
+        - FTA
+        - Fault Tree
+        definition: 明示的故障树分析使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-031
+          record_id: CN_XSQUARE|feishu|7580327783005587722
+          field: duties
+          start: 368
+          end: 476
+          quote: 2、失效分析与闭环管理:对测试中发现的失效进行精准定位与根因分析(结构疲劳、电气失效、润滑失效、算法漂移等),运用FTA、FMEA等工具建立并维护故障模式库,协同硬件、软件、结构团队推动设计改进,验证修复措施有效性。
+        allowed_relations: *id009
+      SK_8D:
+        name: 8D问题解决
+        type: METHOD
+        aliases:
+        - 8D
+        definition: 明示的8D问题解决使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-031
+          record_id: CN_XSQUARE|feishu|7580327783005587722
+          field: full_description
+          start: 816
+          end: 881
+          quote: 4、失效分析能力：熟练掌握FMEA、FTA、8D等失效分析工具，具备从测试现象定位至根因（结构、电气、软件、算法）的系统分析能力。
+        allowed_relations: *id009
+      SK_MINITAB:
+        name: Minitab
+        type: SOFTWARE_TOOL
+        aliases:
+        - Minitab
+        definition: 明示的Minitab使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-031
+          record_id: CN_XSQUARE|feishu|7580327783005587722
+          field: full_description
+          start: 882
+          end: 964
+          quote: 5、测试仪器与工具：熟练操作振动台、环境试验箱、数据采集系统、示波器、逻辑分析仪、扭矩传感器等测试设备；掌握minitab，JMP，GRR、CPK等数据分析工工具。
+        allowed_relations: *id009
+      SK_JMP:
+        name: JMP
+        type: SOFTWARE_TOOL
+        aliases:
+        - JMP
+        definition: 明示的JMP使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-031
+          record_id: CN_XSQUARE|feishu|7580327783005587722
+          field: full_description
+          start: 882
+          end: 964
+          quote: 5、测试仪器与工具：熟练操作振动台、环境试验箱、数据采集系统、示波器、逻辑分析仪、扭矩传感器等测试设备；掌握minitab，JMP，GRR、CPK等数据分析工工具。
+        allowed_relations: *id009
+      SK_OSCILLOSCOPE:
+        name: 示波器
+        type: INSTRUMENT
+        aliases:
+        - 示波器
+        - oscilloscope
+        definition: 明示的示波器使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-031
+          record_id: CN_XSQUARE|feishu|7580327783005587722
+          field: full_description
+          start: 882
+          end: 964
+          quote: 5、测试仪器与工具：熟练操作振动台、环境试验箱、数据采集系统、示波器、逻辑分析仪、扭矩传感器等测试设备；掌握minitab，JMP，GRR、CPK等数据分析工工具。
+        allowed_relations: *id009
+      SK_LOGIC_ANALYZER:
+        name: 逻辑分析仪
+        type: INSTRUMENT
+        aliases:
+        - 逻辑分析仪
+        - logic analyzer
+        definition: 明示的逻辑分析仪使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-031
+          record_id: CN_XSQUARE|feishu|7580327783005587722
+          field: full_description
+          start: 882
+          end: 964
+          quote: 5、测试仪器与工具：熟练操作振动台、环境试验箱、数据采集系统、示波器、逻辑分析仪、扭矩传感器等测试设备；掌握minitab，JMP，GRR、CPK等数据分析工工具。
+        allowed_relations: *id009
+      SK_MULTIMETER:
+        name: 万用表
+        type: INSTRUMENT
+        aliases:
+        - 万用表
+        - multimeter
+        definition: 明示的万用表使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-081
+          record_id: CN_XSQUARE|feishu|7663408546771863858
+          field: full_description
+          start: 269
+          end: 340
+          quote: 1、了解机器人关节模组或新能源电驱动核心系统(机械、电子)基本组成，知晓简单试验设备(如万用表、卡尺、基础测试仪、测功机、示波器)的使用方法;
+        allowed_relations: *id009
+      SK_DYNAMOMETER:
+        name: 测功机
+        type: INSTRUMENT
+        aliases:
+        - 测功机
+        - dynamometer
+        - dyno
+        definition: 明示的测功机使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-054
+          record_id: US_APPTRONIK|greenhouse|5988698004
+          field: duties
+          start: 2092
+          end: 2259
+          quote: Operate and configure dynamometer, benchtop, and custom test setups. Manage fixture configurations
+            and load motor modes across different actuator and gearbox variants.
+        allowed_relations: *id009
+      SK_FINANCIAL_MODELING:
+        name: 财务建模
+        type: WORK_SKILL
+        aliases:
+        - 财务建模
+        - financial model
+        definition: 明示的财务建模使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-020
+          record_id: CN_SPIRITAI|feishu|7649583773529573642
+          field: full_description
+          start: 164
+          end: 192
+          quote: 2、具备结构化分析与财务建模能力，熟练使用数据分析工具。
+        allowed_relations: *id009
+      SK_COST_ANALYSIS:
+        name: 成本分析
+        type: WORK_SKILL
+        aliases:
+        - 成本分析
+        - cost analysis
+        definition: 明示的成本分析使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-012
+          record_id: CN_SPIRITAI|feishu|7678615223214180617
+          field: duties
+          start: 572
+          end: 703
+          quote: 5.成本与市场管理:跟踪 GPU 行情、算力租赁市场价格、token 价格波动、服务器及基建硬件价格走势;建立算力、token、基建硬件成本基线;输出成本分析、比价报告,制定采购策略,落地降本目标;识别供应链风险(供货紧缺、政策、交付、服务风险),输出风险预案。
+        allowed_relations: *id009
+      SK_SUPPLIER_NEGOTIATION:
+        name: 供应商谈判
+        type: WORK_SKILL
+        aliases:
+        - 供应商谈判
+        - 采购谈判
+        - supplier negotiation
+        - 商务谈判
+        - 长协谈判
+        - negotiate
+        definition: 明示的供应商谈判使用、能力或资格
+        include: 谈判动作与供应商/采购对象均有明确正文支持；item附negotiation_object=SUPPLIER与object_evidence。
+        exclude: 客户销售谈判不纳入；泛称商务谈判只有词形不足。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V05-012
+          record_id: CN_SPIRITAI|feishu|7678615223214180617
+          text_version_hash: b0fcdc81aa4ca10082a175a85c786538370455c3139c9299d53230e769f8497f
+          field: requirements
+          start: 205
+          end: 282
+          quote: 3、完整经历供应商开发、尽调、询比价、商务谈判、合同履约全流程;具备千万级以上服务类 + 硬件类采购项目实操经验;熟悉长协框架、SLA 服务协议谈判要点。
+        allowed_relations: *id009
+      SK_INVENTORY:
+        name: 库存管理
+        type: WORK_SKILL
+        aliases:
+        - 库存管理
+        - inventory management
+        definition: 明示的库存管理使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V05-060
+          record_id: US_APPTRONIK|greenhouse|6163894004
+          text_version_hash: ea3f46d79df7d27c17edb8359e9f7751e130dfcd4d27f563f079bf8617c2a3f7
+          field: duties
+          start: 2204
+          end: 2311
+          quote: Lead regular high-stakes inventory audits and implement cycle-counting programs to maintain data
+            integrity.
+        allowed_relations: *id009
+      SK_CURRICULUM:
+        name: 课程设计
+        type: WORK_SKILL
+        aliases:
+        - 课程设计
+        - 课程开发
+        - curriculum
+        definition: 明示的课程设计使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V05-038
+          record_id: CN_XSQUARE|feishu|7660482603393321225
+          text_version_hash: 473bc016d3bfe28b7def54e1941d957026cc8141546dd1676b33d673fb21b573
+          field: requirements
+          start: 264
+          end: 322
+          quote: 5. 会使用PPT、Word等办公软件,能独立完成基础课件制作和文档撰写;有课程开发、教案编写、科普创作经验者加分。
+        allowed_relations: *id009
+      SK_VOC_ANALYSIS:
+        name: VOC分析
+        type: WORK_SKILL
+        aliases:
+        - VOC
+        - 客户反馈分析
+        - customer feedback analysis
+        definition: 明示的VOC分析使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V05-095
+          record_id: CN_XSQUARE|feishu|7643743936242305316
+          text_version_hash: f31d0e8c209ec5ba1e75fc3e9a35eb92048819447383af3f1cf3821a5abe1e41
+          field: duties
+          start: 0
+          end: 28
+          quote: 1、VOC体系运营:负责搭建VOC体系及运营,保证数据监
+        allowed_relations: *id009
+      SK_PINOCCHIO:
+        name: Pinocchio
+        type: SOFTWARE_TOOL
+        aliases:
+        - Pinocchio
+        definition: 明示的Pinocchio使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-002
+          record_id: CN_NOETIX|noetix|6
+          field: full_description
+          start: 238
+          end: 291
+          quote: 4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;
+        allowed_relations: *id009
+      SK_CASADI:
+        name: CasADi
+        type: SOFTWARE_TOOL
+        aliases:
+        - CasADi
+        definition: 明示的CasADi使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-002
+          record_id: CN_NOETIX|noetix|6
+          field: full_description
+          start: 238
+          end: 291
+          quote: 4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;
+        allowed_relations: *id009
+      SK_DRAKE:
+        name: Drake
+        type: SOFTWARE_TOOL
+        aliases:
+        - Drake
+        definition: 明示的Drake使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-052
+          record_id: US_APPTRONIK|greenhouse|6105900004
+          field: full_description
+          start: 2816
+          end: 2908
+          quote: 'Familiarity with at least some of: MuJoCo, Drake, Eigen, ROS2, Flatbuffers, BehaviorTree.CPP'
+        allowed_relations: *id009
+      SK_PYBULLET:
+        name: PyBullet
+        type: SOFTWARE_TOOL
+        aliases:
+        - PyBullet
+        definition: 明示的PyBullet使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-002
+          record_id: CN_NOETIX|noetix|6
+          field: full_description
+          start: 292
+          end: 338
+          quote: 5、熟悉MuJoCo、Isaac Gym、 Gazebo、PyBullet等机器人仿真环境；
+        allowed_relations: *id009
+      SK_RAY:
+        name: Ray
+        type: SOFTWARE_TOOL
+        aliases:
+        - Ray
+        definition: 明示的Ray使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-082
+          record_id: US_APPTRONIK|greenhouse|6085871004
+          field: full_description
+          start: 2573
+          end: 2751
+          quote: Experience with large-scale training workloads — deploying parallel simulations on cloud platforms
+            (AWS, GCP, Azure) with distributed computing frameworks (e.g., Ray, Kubernetes)
+        allowed_relations: *id009
+      SK_MLFLOW:
+        name: MLflow
+        type: SOFTWARE_TOOL
+        aliases:
+        - MLflow
+        definition: 明示的MLflow使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-041
+          record_id: US_AGILITY|greenhouse|6148969004
+          field: full_description
+          start: 3157
+          end: 3247
+          quote: Familiarity with orchestration and tracking tools (MLflow, WandB, Airflow, Kubeflow, etc.)
+        allowed_relations: *id009
+      SK_WANDB:
+        name: Weights & Biases
+        type: SOFTWARE_TOOL
+        aliases:
+        - Weights & Biases
+        - WandB
+        definition: 明示的Weights & Biases使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-041
+          record_id: US_AGILITY|greenhouse|6148969004
+          field: full_description
+          start: 3157
+          end: 3247
+          quote: Familiarity with orchestration and tracking tools (MLflow, WandB, Airflow, Kubeflow, etc.)
+        allowed_relations: *id009
+      SK_CPA:
+        name: 注册会计师
+        type: CREDENTIAL
+        aliases:
+        - CPA
+        - 注册会计师
+        definition: 明示的注册会计师使用、能力或资格
+        include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+        exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+        development_example:
+          kind: OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL
+          study_id: V05-091
+          record_id: CN_XSQUARE|feishu|7675332787448056074
+          field: full_description
+          start: 423
+          end: 501
+          quote: 3. 综合素养：商业敏感度强，逻辑清晰、数据敏锐，具备优秀的跨部门沟通协同能力，能适配高速业务节奏，结果导向、抗压能力强；持有 CPA、中级会计等证书优先。
+        allowed_relations: *id009
+      SK_WORD:
+        name: Word
+        type: SOFTWARE_TOOL
+        aliases:
+        - Microsoft Word
+        - Word
+        definition: 明确办公软件使用要求；普通英文word不自动视作软件。
+        include: 明确办公软件使用要求；普通英文word不自动视作软件。
+        exclude: 不从职能或相邻概念推断；按原文用途和承担关系记录。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V05-038
+          record_id: CN_XSQUARE|feishu|7660482603393321225
+          text_version_hash: 473bc016d3bfe28b7def54e1941d957026cc8141546dd1676b33d673fb21b573
+          field: requirements
+          start: 264
+          end: 322
+          quote: 5. 会使用PPT、Word等办公软件,能独立完成基础课件制作和文档撰写;有课程开发、教案编写、科普创作经验者加分。
+        allowed_relations: *id009
+      SK_LIFETIME_PREDICTION:
+        name: 寿命与故障间隔预测
+        type: WORK_SKILL
+        aliases:
+        - remaining useful life
+        - MTBF
+        - 寿命预测
+        definition: 本人预测寿命/故障间隔并形成结果；单纯寿命测试或出现MTBF指标不等于预测能力。
+        include: 本人预测寿命/故障间隔并形成结果；单纯寿命测试或出现MTBF指标不等于预测能力。
+        exclude: 不从职能或相邻概念推断；按原文用途和承担关系记录。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V05-044
+          record_id: US_AGILITY|greenhouse|6127729004
+          text_version_hash: 3b62ce62e2fd18c2bbb4c43403de4f327f26505dbe086856e2a55346af6df731
+          field: duties
+          start: 46
+          end: 368
+          quote: . Build models that predict MTBF and remaining useful life for specific components (actuators,
+            cameras, compute, power systems). Partner with hardware engineering to model wear-and-tear under varying
+            duty cycles, payloads, and environmental conditions, and turn those models into maintenance schedules
+            and design feedback.
+        allowed_relations: *id009
+      SK_SURVIVAL_ANALYSIS:
+        name: 生存与寿命统计分析
+        type: METHOD
+        aliases:
+        - survival analysis
+        - reliability/survival analysis
+        - 生存分析
+        definition: 明确生存/寿命统计分析方法；寿命预测目标不自动生成该方法标签。
+        include: 明确生存/寿命统计分析方法；寿命预测目标不自动生成该方法标签。
+        exclude: 不从职能或相邻概念推断；按原文用途和承担关系记录。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V05-044
+          record_id: US_AGILITY|greenhouse|6127729004
+          text_version_hash: 3b62ce62e2fd18c2bbb4c43403de4f327f26505dbe086856e2a55346af6df731
+          field: requirements
+          start: 537
+          end: 701
+          quote: 'Deep expertise in some combination of: reliability/survival analysis, time-series and anomaly
+            detection, predictive maintenance, and causal/observational inference.'
+        allowed_relations: *id009
+      SK_SIMULINK:
+        name: Simulink
+        type: SOFTWARE_TOOL
+        aliases:
+        - Simulink
+        definition: 明示Simulink仿真建模能力。
+        include: 明示Simulink仿真建模能力。
+        exclude: 不从职能或相邻概念推断；按原文用途和承担关系记录。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V05-009
+          record_id: CN_NOETIX|noetix|14
+          text_version_hash: b7fc9e9d9967925387c06dd9aa6731be913d68784872b81f380c703a7ded87a5
+          field: requirements
+          start: 104
+          end: 140
+          quote: 4、熟悉Matlab/Simulink仿真,会进行电机驱动控制建模仿真;
+        allowed_relations: *id009
+      SK_QT:
+        name: Qt
+        type: SOFTWARE_TOOL
+        aliases:
+        - Qt
+        definition: 明确Qt开发经验；Qt Quick/QML保留原表达，不自动扩工具标签。
+        include: 明确Qt开发经验；Qt Quick/QML保留原表达，不自动扩工具标签。
+        exclude: 不从职能或相邻概念推断；按原文用途和承担关系记录。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V06-004
+          record_id: CN_SPIRITAI|feishu|7646386580126910756
+          text_version_hash: f5c036f1eda95297a16ad2d184cf3b8657aaeb78cbfcf1ef02605965598324ca
+          field: requirements
+          start: 125
+          end: 215
+          quote: 3. 熟悉 C++ 编程,具备 Qt 框架开发经验,能够基于 Qt 开发跨平台原生模块或高性能 HMI 组件,熟悉 Qt Quick/QML 界面开发及与移动端混合集成方案者优先;
+        allowed_relations: *id009
+      SK_NUMPY:
+        name: NumPy
+        type: SOFTWARE_TOOL
+        aliases:
+        - NumPy
+        definition: 工具举例保留EXAMPLE关系，不视为全部必需。
+        include: 工具举例保留EXAMPLE关系，不视为全部必需。
+        exclude: 不从职能或相邻概念推断；按原文用途和承担关系记录。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V06-053
+          record_id: US_AGILITY|greenhouse|5973040004
+          text_version_hash: d3694b187e27b7ad17b2c8a6fb0b1571f521dc2f7cb74f6089274d0331f1bd69
+          field: requirements
+          start: 674
+          end: 802
+          quote: Familiarity with common computer vision and machine learning libraries such as (but not limited
+            to) PyTorch, OpenCV, NumPy, etc.
+        allowed_relations: *id009
+      SK_CAE:
+        name: CAE分析
+        type: WORK_SKILL
+        aliases:
+        - CAE
+        definition: CAE是工程分析能力，不是某个软件品牌；FEA方法可另外明示。
+        include: CAE是工程分析能力，不是某个软件品牌；FEA方法可另外明示。
+        exclude: 不从职能或相邻概念推断；按原文用途和承担关系记录。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V06-055
+          record_id: CN_SPIRITAI|feishu|7643721211734657299
+          text_version_hash: 8168bdb70c1fafa23ecfc064f9a14dcc1ff5b354fdfa6289d698d799c2c8bb60
+          field: requirements
+          start: 32
+          end: 85
+          quote: 2. 3-5 年及以上结构 + 热 CAE 仿真经验,有人形机器人、协作机器人、精密机电设备仿真经验优先;
+        allowed_relations: *id009
+      SK_GREENHOUSE:
+        name: Greenhouse招聘系统
+        type: SOFTWARE_TOOL
+        aliases:
+        - Greenhouse
+        definition: 明确招聘平台使用，举例关系保留。
+        include: 明确招聘平台使用，举例关系保留。
+        exclude: 不从职能或相邻概念推断；按原文用途和承担关系记录。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V06-060
+          record_id: US_FIGURE|greenhouse|4409868006
+          text_version_hash: ec7f60a3527302078f5856e4ac7ea9a4cd5d67afd69edacb0ded9e366ec88e8e
+          field: requirements
+          start: 477
+          end: 619
+          quote: Proficiency with recruitment tools and platforms (e.g., Greenhouse, LinkedIn Recruiter) to manage
+            a large, multi-function req load efficiently
+        allowed_relations: *id009
+      SK_LINKEDIN_RECRUITER:
+        name: LinkedIn Recruiter
+        type: SOFTWARE_TOOL
+        aliases:
+        - LinkedIn Recruiter
+        definition: 仅LinkedIn Recruiter明确工具经验；公司社交链接不足。
+        include: 仅LinkedIn Recruiter明确工具经验；公司社交链接不足。
+        exclude: 不从职能或相邻概念推断；按原文用途和承担关系记录。
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          study_id: V06-060
+          record_id: US_FIGURE|greenhouse|4409868006
+          text_version_hash: ec7f60a3527302078f5856e4ac7ea9a4cd5d67afd69edacb0ded9e366ec88e8e
+          field: requirements
+          start: 477
+          end: 619
+          quote: Proficiency with recruitment tools and platforms (e.g., Greenhouse, LinkedIn Recruiter) to manage
+            a large, multi-function req load efficiently
+        allowed_relations: *id009
+      SK_CADENCE:
+        name: Cadence EDA工具族
+        aliases:
+        - Cadence
+        definition: 电子设计自动化工具族；只记广告明示的Cadence，不推导具体Allegro或Virtuoso产品。
+        include: 广告明示工具名称，并保留局部用途、要求组与证据。
+        exclude: 不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。
+        type: SOFTWARE_TOOL
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://www.cadence.com/en_US/home/tools/system-design-and-analysis.html
+          checked: '2026-09-10'
+          purpose: 确认工具身份，非推导JD未写明的需求
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: CN_NOETIX|noetix|8
+          text_version_hash: 8fd7fe8c2cccf341f2f3d76dbb1188cfe20614ad6c41634dbf5937cbff7dd825
+          field: requirements
+          start: 59
+          end: 66
+          quote: Cadence
+      SK_LEROBOT:
+        name: LeRobot
+        aliases:
+        - LeRobot
+        definition: 机器人学习软件库、数据与训练工具；不由模型主题推导使用。
+        include: 广告明示工具名称，并保留局部用途、要求组与证据。
+        exclude: 不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。
+        type: SOFTWARE_TOOL
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://huggingface.co/docs/lerobot/index
+          checked: '2026-09-10'
+          purpose: 确认工具身份，非推导JD未写明的需求
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: CN_NOETIX|noetix|11
+          text_version_hash: 9c70a9fab4e32357c15b85c7eef39f314b4aed84a2370ca19600d5a48ebe1eb9
+          field: requirements
+          start: 200
+          end: 207
+          quote: LeRobot
+      SK_OPENPI:
+        name: OpenPi
+        aliases:
+        - OpenPi
+        - openpi
+        definition: 机器人模型训练、微调及推理软件包；仅模型Pi名称不足以证明使用OpenPi。
+        include: 广告明示工具名称，并保留局部用途、要求组与证据。
+        exclude: 不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。
+        type: SOFTWARE_TOOL
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://github.com/Physical-Intelligence/openpi
+          checked: '2026-09-10'
+          purpose: 确认工具身份，非推导JD未写明的需求
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: CN_NOETIX|noetix|11
+          text_version_hash: 9c70a9fab4e32357c15b85c7eef39f314b4aed84a2370ca19600d5a48ebe1eb9
+          field: requirements
+          start: 208
+          end: 214
+          quote: OpenPi
+      SK_KDL:
+        name: Orocos KDL
+        aliases:
+        - KDL
+        - Orocos KDL
+        definition: 运动学与动力学软件库；不从一般运动学知识自动赋值。
+        include: 广告明示工具名称，并保留局部用途、要求组与证据。
+        exclude: 不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。
+        type: SOFTWARE_TOOL
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://www.orocos.org/kdl.html
+          checked: '2026-09-10'
+          purpose: 确认工具身份，非推导JD未写明的需求
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: CN_NOETIX|noetix|7
+          text_version_hash: d523f335a4040f21c4533062c44081d90d205220c61e2bb7e1cd7d242ef40450
+          field: requirements
+          start: 74
+          end: 77
+          quote: KDL
+      SK_TRAC_IK:
+        name: TRAC-IK
+        aliases:
+        - TRAC-IK
+        - TRAC_IK
+        definition: 机器人逆运动学求解软件库；与一般逆运动学方法分开。
+        include: 广告明示工具名称，并保留局部用途、要求组与证据。
+        exclude: 不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。
+        type: SOFTWARE_TOOL
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://docs.ros.org/en/rolling/p/trac_ik/
+          checked: '2026-09-10'
+          purpose: 确认工具身份，非推导JD未写明的需求
+          repository: https://github.com/HIRO-group/trac_ik
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: CN_NOETIX|noetix|7
+          text_version_hash: d523f335a4040f21c4533062c44081d90d205220c61e2bb7e1cd7d242ef40450
+          field: requirements
+          start: 86
+          end: 93
+          quote: TRAC-IK
+      SK_ZEROMQ:
+        name: ZeroMQ
+        aliases:
+        - ZeroMQ
+        - ZMQ
+        - zmq
+        definition: 消息通信软件库；不把一般通信要求都计为ZeroMQ。
+        include: 广告明示工具名称，并保留局部用途、要求组与证据。
+        exclude: 不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。
+        type: SOFTWARE_TOOL
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://zeromq.org/
+          checked: '2026-09-10'
+          purpose: 确认工具身份，非推导JD未写明的需求
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: CN_NOETIX|noetix|7
+          text_version_hash: d523f335a4040f21c4533062c44081d90d205220c61e2bb7e1cd7d242ef40450
+          field: requirements
+          start: 157
+          end: 160
+          quote: zmq
+      SK_LCM:
+        name: LCM
+        aliases:
+        - LCM
+        - lcm
+        definition: Lightweight Communications and Marshalling通信软件库；只在工具/通信语境编码。
+        include: 广告明示工具名称，并保留局部用途、要求组与证据。
+        exclude: 不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。
+        type: SOFTWARE_TOOL
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://lcm-proj.github.io/lcm/
+          checked: '2026-09-10'
+          purpose: 确认工具身份，非推导JD未写明的需求
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: CN_NOETIX|noetix|7
+          text_version_hash: d523f335a4040f21c4533062c44081d90d205220c61e2bb7e1cd7d242ef40450
+          field: requirements
+          start: 161
+          end: 164
+          quote: lcm
+      SK_GO:
+        name: Go
+        aliases:
+        - Go
+        - Golang
+        type: SOFTWARE_TOOL
+        definition: Go编程语言或软件工具；按原文明示及局部要求关系编码。
+        include: 原文明示名称；保存语境、用途及原文证据。
+        exclude: 普通动词go不是Go语言；不推导上位或相邻软件。
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://go.dev/
+          checked: '2026-09-10'
+          purpose: 官方资料确认工具身份
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: https://jobs.ashbyhq.com/1x/3ad18b50-52b3-4fc0-995f-19cea501a6bd
+          text_version_hash: 9cbd49093782b4f320bd2307006bed92e717c301bfc9a9e1eddcec085a462b2c
+          field: full_description
+          start: 3984
+          end: 3986
+          quote: Go
+      SK_JULIA:
+        name: Julia
+        aliases:
+        - Julia
+        type: SOFTWARE_TOOL
+        definition: Julia编程语言或软件工具；按原文明示及局部要求关系编码。
+        include: 原文明示名称；保存语境、用途及原文证据。
+        exclude: 普通动词go不是Go语言；不推导上位或相邻软件。
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://julialang.org/
+          checked: '2026-09-10'
+          purpose: 官方资料确认工具身份
+        development_example:
+          kind: SYNTHETIC_TEACHING_NOT_EMPIRICAL
+          quote: 必须掌握Julia或Python。
+      SK_ZEPHYR:
+        name: Zephyr RTOS
+        aliases:
+        - Zephyr
+        - Zephyr RTOS
+        type: SOFTWARE_TOOL
+        definition: Zephyr RTOS编程语言或软件工具；按原文明示及局部要求关系编码。
+        include: 原文明示名称；保存语境、用途及原文证据。
+        exclude: 普通动词go不是Go语言；不推导上位或相邻软件。
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://docs.zephyrproject.org/latest/
+          checked: '2026-09-10'
+          purpose: 官方资料确认工具身份
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: https://jobs.ashbyhq.com/neura-robotics-gmbh/3837d88b-ccba-4b7d-9892-b8099c8162e0
+          text_version_hash: 1f5e29174aa1074066215c637d6f97735e5d7734bd9d9bc9013e8c72c86ab26c
+          field: full_description
+          start: 1286
+          end: 1292
+          quote: Zephyr
+      SK_NUTTX:
+        name: Apache NuttX
+        aliases:
+        - NuttX
+        type: SOFTWARE_TOOL
+        definition: Apache NuttX编程语言或软件工具；按原文明示及局部要求关系编码。
+        include: 原文明示名称；保存语境、用途及原文证据。
+        exclude: 普通动词go不是Go语言；不推导上位或相邻软件。
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://nuttx.apache.org/
+          checked: '2026-09-10'
+          purpose: 官方资料确认工具身份
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: https://jobs.ashbyhq.com/neura-robotics-gmbh/3837d88b-ccba-4b7d-9892-b8099c8162e0
+          text_version_hash: 1f5e29174aa1074066215c637d6f97735e5d7734bd9d9bc9013e8c72c86ab26c
+          field: full_description
+          start: 3505
+          end: 3510
+          quote: NuttX
+      SK_FAST_DDS:
+        name: Fast DDS
+        aliases:
+        - FastDDS
+        - Fast DDS
+        type: SOFTWARE_TOOL
+        definition: Fast DDS编程语言或软件工具；按原文明示及局部要求关系编码。
+        include: 原文明示名称；保存语境、用途及原文证据。
+        exclude: 普通动词go不是Go语言；不推导上位或相邻软件。
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://fast-dds.docs.eprosima.com/en/latest/
+          checked: '2026-09-10'
+          purpose: 官方资料确认工具身份
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: https://jobs.ashbyhq.com/neura-robotics-gmbh/3837d88b-ccba-4b7d-9892-b8099c8162e0
+          text_version_hash: 1f5e29174aa1074066215c637d6f97735e5d7734bd9d9bc9013e8c72c86ab26c
+          field: full_description
+          start: 1422
+          end: 1429
+          quote: FastDDS
+      SK_MICRO_XRCE_DDS:
+        name: Micro XRCE-DDS
+        aliases:
+        - Micro-XRCE-DDS
+        - Micro XRCE-DDS
+        type: SOFTWARE_TOOL
+        definition: Micro XRCE-DDS编程语言或软件工具；按原文明示及局部要求关系编码。
+        include: 原文明示名称；保存语境、用途及原文证据。
+        exclude: 普通动词go不是Go语言；不推导上位或相邻软件。
+        allowed_relations:
+        - OWN_DEVELOP
+        - OWN_USE
+        - EXPERIENCE_REQUIREMENT
+        - PROCUREMENT_OBJECT
+        - PRODUCT_DEFINITION_OBJECT
+        - RECRUITMENT_OBJECT
+        - TEACHING_OBJECT
+        - COLLABORATION_OBJECT
+        - BACKGROUND
+        - UNRESOLVED
+        source_reference:
+          url: https://micro-xrce-dds.docs.eprosima.com/en/latest/
+          checked: '2026-09-10'
+          purpose: 官方资料确认工具身份
+        development_example:
+          kind: OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE
+          record_id: https://jobs.ashbyhq.com/neura-robotics-gmbh/3837d88b-ccba-4b7d-9892-b8099c8162e0
+          text_version_hash: 1f5e29174aa1074066215c637d6f97735e5d7734bd9d9bc9013e8c72c86ab26c
+          field: full_description
+          start: 1434
+          end: 1448
+          quote: Micro-XRCE-DDS
+    missing: 不可评估、未编码、执行失败、歧义、未映射、可评估未明示及不适用分别保存。
+  activities:
+    name: 明示活动
+    version: v0.7
+    scope: 专题试点可选
+    unit: 固定正文版本的一条招聘广告
+    cardinality: zero_to_many
+    evidence: 任务与承担关系；研究和工程可共存
+    denominator: 已判读该试点维度的广告
+    maturity: *id010
+    labels:
+      ACT_RESEARCH: 需具体研究问题/对象＋方法探索或科学检验；复现、调参、性能优化、极限性能探索口号不自动纳入。
+      ACT_ENGINEERING: 工程实现、集成、调试与可运行系统交付。
+      ACT_MANUFACTURING: 实际制造、装配或采购供应执行；质量单列，不由主职能推导。
+      ACT_DEPLOYMENT: 实际现场部署、验收、维修或运行维护。
+      ACT_BUSINESS: 业务协调、客户工作及公司支持。
+      ACT_QUALITY: 验证执行、质量放行、合规及缺陷闭环。
+      ACT_ROBOT_OPERATION: 本人机器人运行、遥操或采集执行。
+      ACT_DATA_OPERATIONS: 数据生产组织、排班及数据质量运营。
+    missing: 不可评估、未编码、执行失败、歧义、未映射、可评估未明示及不适用分别保存。
+  robot_scope:
+    name: 机器人范围
+    version: v0.7
+    scope: 可选历史草案，本轮不启用
+    unit: 固定正文版本的一条招聘广告
+    cardinality: zero_to_many
+    evidence: 仅广告自身证据
+    denominator: 尚未编码，不聚合
+    maturity:
+      defined: true
+      implemented: false
+      coded: false
+      verified: false
+    labels: {}
+    missing: 不可评估、未编码、执行失败、歧义、未映射、可评估未明示及不适用分别保存。
+  work_orientation:
+    name: 旧工作导向
+    version: v0.7
+    scope: 历史草案，本轮不启用
+    unit: 固定正文版本的一条招聘广告
+    cardinality: primary_plus_secondary
+    evidence: 边界未冻结，不生成企业阶段分数
+    denominator: 尚未编码，不聚合
+    maturity:
+      defined: true
+      implemented: false
+      coded: false
+      verified: false
+    labels: {}
+    missing: 不可评估、未编码、执行失败、歧义、未映射、可评估未明示及不适用分别保存。
+  qualifications_salary:
+    name: 资历与薪资
+    version: v0.7
+    scope: 后续模块
+    unit: 固定正文版本的一条招聘广告
+    cardinality: not_enabled
+    evidence: 披露、单位及用途尚待规则
+    denominator: 只显示尚未实施
+    maturity:
+      defined: false
+      implemented: false
+      coded: false
+      verified: false
+    labels: {}
+    missing: 不可评估、未编码、执行失败、歧义、未映射、可评估未明示及不适用分别保存。
+aggregation:
+  primary: 全部纳入广告，UNKNOWN三原因、未编码和失败均保留分母。
+  mentions: 按广告/概念/语境/用途/关系去重；要求组不拆成每项硬门槛；资格单列；安全按子型。
+  coverage: 技术/技能逐列同时列全纳入数、可评估数和缺失状态；要求缺失不产生零需求。
+  forbidden:
+  - 国家代表性
+  - 广告数等于人数
+  - 活动标签生成成熟度/研发强度
+  - 开发样本一致率充当准确率
+  own_execution: 仅OWN_DEVELOP/OWN_USE且use不为NEGATED/UNRESOLVED；教学、招聘、采购、经验与背景对象另列。
+  role_structures: 每广告只计1；19个主类互斥，另统计复合组成与任选方向。分支提及不等于人数，不认定任选各项全部必备，不自动分摊权重。
+migration:
+  legacy_labels: 历史结果保留其原规则，另版判断保留来源；不自动重标610。
+  old_tasks: 已发布任务保留冻结版本；旧盲审已取消，不重开。
+  aliases:
+    RF_DATA_INFRA_OPERATIONS: 数据与分析（历史ID保留，语义已扩展）
+    RF_ROBOTICS_SOFTWARE: 软件与平台
+  deferred:
+  - 资历与薪资
+  - 强制详细任务分解
+  role_structure: 旧版本保留；不得将旧AMBIGUOUS直接批量转为结构类。本次用户要求暂不整体复核，610/1044参考及1648基线无迁移。
+mention_relations: *id009
+requirement_logic:
+  relations:
+  - ALL
+  - OR
+  - SOME_OF
+  - OR_EQUIVALENT
+  - EXAMPLE
+  - UNRESOLVED
+  contract: 每组保留use、header、证据与scope；expression为递归树，每节点有唯一id与证据，内部relation及children，叶ITEM含surface。子节点证据落在父节点；每个要求标签用requirement_node_id连接叶。ALL/OR/SOME_OF/OR_EQUIVALENT/EXAMPLE/UNRESOLVED可嵌套；UNRESOLVED附reason；SOME_OF附minimum_explicit或null。组relation等于树根，不把例子当全部必需，不把斜线默认为AND/OR。
+  examples:
+  - - Python and C++ required
+    - ALL
+    - REQUIRED
+  - - C++ and/or Python
+    - OR
+    - GENERAL_REQUIREMENT
+  - - at least some of Python, C++, SQL
+    - SOME_OF
+    - GENERAL_REQUIREMENT
+  - - Python or equivalent
+    - OR_EQUIVALENT
+    - GENERAL_REQUIREMENT
+  - - e.g. Python, C++
+    - EXAMPLE
+    - GENERAL_REQUIREMENT
+  - - No ROS experience required
+    - ALL
+    - NEGATED
+technical_context_policy: 每概念按DUTY/REQUIREMENT/BACKGROUND分别复核；字段位置不决定语境。要求连接use和group；仅OWN_DEVELOP/OWN_USE且非否定非待判读进入本人技术执行。
+safety_subtypes:
+- PRODUCT_SYSTEM
+- OCCUPATIONAL
+- INFORMATION
+- UNSPECIFIED
+skill_types:
+- SOFTWARE_TOOL
+- INSTRUMENT
+- METHOD
+- WORK_SKILL
+- CREDENTIAL
+- GENERIC_CAPABILITY
+skill_candidates_not_released:
+  SK_PMP:
+    name: PMP认证
+    type: CREDENTIAL
+    aliases:
+    - PMP
+    definition: 明示的PMP认证使用、能力或资格
+    include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+    exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+    development_example: null
+    allowed_relations: *id009
+    reason: 本次规则开发96条未定位到原文明示例，保留候选而非强行发版
+  SK_SIX_SIGMA:
+    name: 六西格玛认证
+    type: CREDENTIAL
+    aliases:
+    - Six Sigma certification
+    - 六西格玛认证
+    definition: 明示的六西格玛认证使用、能力或资格
+    include: 有原表达和局部动作/要求；设备设计不自动算设备操作技能。
+    exclude: 不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。
+    development_example: null
+    allowed_relations: *id009
+    reason: 本次规则开发96条未定位到原文明示例，保留候选而非强行发版
+coverage_contract:
+  required:
+  - assessed_fields
+  - missing_fields
+  - unchecked_fields
+  - coverage
+  - unmapped_items
+  - review_notes
+  field_partition: 三字段按已检查非空/空缺/未检查完整分区；coverage明确逐字段和逐段scope。
+  completeness: COMPLETE指本维全部非空字段与所有段落已检查，unchecked为空；PARTIAL允许主类CODED。分类完成由status表达，与阅读完整性独立；NOT_MENTIONED要求COMPLETE。
+  unmapped: 按维保存surface,evidence,candidate_concept,reason；与CODED项目可共存。
+  segments: 保留原文；派生视图按字段列连续、不重叠段，含类型、偏移及原词；内容决定语义类型。
+  language: 逐条正文与标题分开；允许ZH/EN/PT/ES/MULTILINGUAL/UNASSESSABLE；不得由公司国家推断。
+  evidence_scope: 每个已编码、状态、未映射及补充对象引文都在本维reviewed_segments覆盖范围内。允许连续已读段组成一个引文，不跨未读间隙。
+integrity: 入口重算实际fields哈希、规则YAML字节哈希、主职能字节哈希、解析表示一致性与bundle哈希；导入须绑定本地冻结manifest的文件哈希。
+decision_principles:
+  R01: 本人持续交付优先；正文支持且没有相反主责证据时，明确职能头衔可辅助判一级类。正文只写岗位方向或相关经历也可支持粗粒度归属，标LIMITED；不补造具体任务。空正文跳过；泛称Engineer/Manager不能独立决定类别。
+  R02: 多领域任务可共同组成单一整体交付，不自动成为复合。能确定单一主导时沿用具体主类及有独立证据的次责；本人明确同时承担多个不同职能的独立交付且无单一主导时归复合职能；明确招聘方向任选时归多方向招聘，均按R10/B14保存结构。职能或同时/任选关系仍不明才AMBIGUOUS。同一设计自测、使用工具和协作不产生独立组成或次责。
+  R03: 主类、依据、证据强度、复核原因分开保存；HR专家及Research Scientist适用一般粗粒度规则，不设永久个案白名单。保留用户讨论决定来源，已确认结果可使用，无需重复审批；不自动推导活动、技能、技术或子类。
+  R04: 设计自测随设计；可反复使用的仿真、评测、校准及测量工具链归仿真评测；验证执行、质量结论或缺陷闭环可分别支持制造质量供应，不要求三者同时具备。按既定流程运行机器人做回归测试仍是测试执行；场所、阶段和标题不决定类别。
+  R05: 研发原型按图加工装配归制造；本人机械设计并交付完整机电原型归机械；独立维修归服务；整机架构、要求、接口、跨域集成决策归系统工程。管理级别和研究服务对象均不替代交付。
+  R06: 综合公司规划、内部扩张、治理沟通、管理层执行支持可构成公司运营主线。无技术要求不能单独证明公司支持；客户经营与供应商采购按交易方向区分。
+  R07: 课程、课件、教材等教育技术内容纳入公司支持，面向外部教学也可；CAD/PLM配置、集成和平台管理纳入软件；使用CAD设计机械本体仍归机械。
+  R08: 内部物料、道具、库存、备料、请求队列和履约班组纳入制造质量供应；交付是物料可获得性与库存履约，服务研究或采集不因此归研究或数据。
+  R09_SECURITY_GOVERNANCE: 公司信息/数据/访问安全的制度、风险、合规与应急治理归公司支持；直接交付安全软件或平台归软件，设备固件安全归硬件；仅协调项目范围、资源和里程碑才归产品项目。可选软件开发不取代必选治理主线。
+  R10_ROLE_STRUCTURE: 区分同时承担与招聘方向任选，保存ALL/OR嵌套关系和每个分支的原文名称、具体职能、可见职责及证据。技能、工具、知识背景任选不自动等于招聘方向任选；不同招聘方向可映射同一具体职能。无方向展开时标NOT_EXPANDED并留空职责，不补写任务。未知关系保留歧义，不把既有歧义批量迁移。
+subcategories:
+  DATA_ENGINEERING_INFRA: *id001
+  DATA_PRODUCTION_GOVERNANCE: *id002
+  DATA_SCIENCE_ANALYTICS: *id003
+  DESIGN_INDUSTRIAL_CMF: *id006
+  DESIGN_INTERACTION_EXPERIENCE: *id007
+  COMMERCIAL_STRATEGY_INSIGHTS: *id004
+  CUSTOMER_EXPERIENCE_VOC: *id005
+subcategory_policy: 可选单个subcategory；有值时附subcategory_version并匹配父类。课程、CAD、运营、原型、设备服务、系统工程细项先写一级定义，不要求凑子类。不细分不影响一级CODED。
+classification_evidence:
+  classification_basis:
+  - DIRECT_DELIVERABLE
+  - TITLE_SUPPORTED_BY_BODY
+  evidence_strength:
+  - DIRECT
+  - LIMITED
+  contract: 已编码职能项目保存依据与强度；TITLE_SUPPORTED_BY_BODY附title_rationale与正文证据，使用LIMITED。来源title由冻结source保存。复核原因沿用review_notes，不增审批状态。
+skill_matching_policy: 别名仅发现候选；ASCII词使用Unicode字母/数字边界，中文相邻可识别。você不匹配VOC。句内承担与对象关系单独审；工具集成对象不一概记为本人操作技能。
+candidate_dispositions:
+  SK_WORD: 发布；V05-038有Word直接使用要求。
+  SK_LIFETIME_ANALYSIS: 拆为WORK_SKILL寿命预测与METHOD生存分析并发布，原笼统候选不再使用。
+  BUSINESS_SKILLS: 本轮保留并修复财务建模、成本分析、库存、供应商谈判、课程设计；泛称沟通/管理不堆成细碎新标签。
+  RECRUITMENT_TOOLS: 发布Greenhouse及LinkedIn Recruiter；不从招聘职位推定其他平台。
+  TECHNICAL_GAPS: 发布一般ML模型、生成式机器人策略、热管理与电池四项；子型明确时不自动重复补上位ML标签。
+semantic_contract_version: measurement-v0.7
+catalog_extension:
+  parent_bundle_hash: 3ecafba257b8b23ae9c1c5820ee4159a3adb402c91c1186f6fc51582f63e5829
+  authorization: 用户明确：能确定是工具就可以直接加入。随本批JD新增已确认工具，数量不受72项限制。
+  unchanged_dimensions:
+  - primary_role
+  - secondary_roles
+  - technical_concepts
+  - activities
+  changed_dimensions:
+  - skills
+  change: 在v0.7.1基础上加入Go、Julia、Zephyr、NuttX、Fast DDS、Micro XRCE-DDS；主职能、技术与活动语义不变。
+measurement_amendment:
+  parent_version: measurement-v0.7.4
+  authorization: 用户2026-09-14认可复合职能与多方向招聘分别分析，授权更新规则，明确暂不整体复核目前已分类岗位。
+  changed_fields:
+  - primary_role:17 concrete + 2 structural labels
+  - R02/R10/B14
+  - role_structure_policy
+  - primary aggregation
+  unchanged_concrete_label_ids: true
+  historical_results_migrated: false
+  existing_jobs_rereviewed: false
+role_structure_policy:
+  version: role-structure-v1
+  labels:
+    RF_COMPOSITE_FUNCTION: ALL
+    RF_ALTERNATIVE_DIRECTIONS: OR
+  component_labels:
+  - RF_RESEARCH_SCIENCE
+  - RF_ML_AI_ENGINEERING
+  - RF_ROBOTICS_SOFTWARE
+  - RF_CONTROL_PLANNING
+  - RF_PERCEPTION
+  - RF_DATA_INFRA_OPERATIONS
+  - RF_SIMULATION_EVALUATION
+  - RF_HARDWARE_ELECTRICAL
+  - RF_MECHANICAL_MECHATRONICS
+  - RF_MANUFACTURING_QUALITY_SUPPLY
+  - RF_DEPLOYMENT_FIELD_SERVICE
+  - RF_PRODUCT_PROGRAM
+  - RF_COMMERCIAL_CUSTOMER
+  - RF_CORPORATE_SUPPORT
+  - RF_ROBOT_OPERATIONS
+  - RF_SYSTEMS_ENGINEERING_INTEGRATION
+  - RF_INDUSTRIAL_EXPERIENCE_DESIGN
+  contract_document: docs/MEASUREMENT_RULES_V0.7.5.md
+  schema_version: 1
+  node_relations:
+  - ALL
+  - OR
+  - ROLE
+  operator_scopes:
+    ALL: JOB_RESPONSIBILITIES
+    OR: RECRUITMENT_DIRECTIONS
+  leaf_fields:
+  - id
+  - relation
+  - value
+  - surface
+  - evidence
+  - duties_status
+  - duties
+  duty_fields:
+  - summary
+  - evidence
+  duties_status:
+  - DESCRIBED
+  - NOT_EXPANDED
+  node_contract: 所有节点ID全树唯一，均有标准位置证据；运算节点有scope/rationale/至少两个children，叶value仅用原17类，surface必须来自证据。
+  evidence_contract: 关系与职责可以位于不同段落，全部证据必须在本维度已读范围；ALL直接组成必须有明示职责，OR直接方向可NOT_EXPANDED。
+  choice_cardinality: OR保存minimum_explicit与maximum_explicit：原文明示正整数或null；不推断互斥、比例或人数。
+  secondary_roles: 组成职能不得重复记为普通次职能；额外从属独立职责仍可记录。
+  interpretation_limits: 结构校验不等于语义正确，不能仅凭关键词判复合/任选，不能由结构补造其他维度。

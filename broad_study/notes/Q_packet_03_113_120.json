@@ -1,0 +1,2184 @@
+[
+  {
+    "coding_order": 113,
+    "reading_id": "E0167",
+    "company_id": "CN_XSQUARE",
+    "title": "具身智能触觉算法工程师（触觉表征方向）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7649411193690458377|6470a4893f0b4d5b13fa271a2b7777397dcd48dc6c8cbf9f49c85147f9c6a501",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位背景\n触觉感知是机器人理解接触、受力、材质和操作状态的重要能力。相比单一视觉输入,触觉能够为机器人在复杂交互过程中提供更细粒度、更实时的反馈信息,对提升操作稳定性、环境适应性和精细控制能力具有重要价值。\n本岗位主要面向机器人触觉感知与多模态学习方向,关注触觉表征、触觉 encoder、触觉与视觉/语言/动作模型的融合,以及快慢脑式决策架构中的触觉信息建模。\n岗位职责\n1. 负责触觉信号表征学习、触觉 encoder 建模及相关算法研发。\n2. 探索触觉信息与视觉、语言、动作、本体状态等多模态信息的融合方式。\n3. 研究触觉在机器人操作策略、世界模型或动作模型中的建模与使用方法。\n4. 参与快慢脑式决策架构设计,提升策略对实时触觉/力觉反馈的响应能力。\n5. 参与触觉数据处理、模型训练、实验评估和算法迭代。\n6. 与感知、控制、硬件和机器人平台相关同事协作,推动算法在真实系统中的验证。",
+      "requirements": "1. 计算机、人工智能、机器人、自动化、电子信息、机械电子等相关专业本科及以上学历。\n2. 熟悉深度学习、表征学习或多模态学习,具备扎实的模型训练与实验分析能力。\n3. 熟悉 PyTorch 等主流深度学习框架,具备良好的工程实现能力。\n4. 了解时序建模、Transformer、自监督学习、对比学习、生成式模型等相关方法中的一种或多种。\n5. 对机器人感知、操作或具身智能方向有兴趣,理解多模态信息在机器人决策中的基本作用。\n6. 具备较强的论文阅读、问题抽象和独立推进能力。\n加分项\n1. 有触觉传感器、力觉传感器、机器人操作或多模态机器人学习相关经验。\n2. 熟悉 VLA、VLM、world model、policy learning、action model 等方向。\n3. 有触觉表征、触觉语言对齐、机器人 foundation model 或具身智能相关项目经验。\n4. 有真实机器人数据采集、模型部署或闭环实验经验。\n5. 熟悉阻抗控制、柔顺控制、力控等机器人控制基础概念。",
+      "full_description": "岗位职责\n岗位背景\n触觉感知是机器人理解接触、受力、材质和操作状态的重要能力。相比单一视觉输入，触觉能够为机器人在复杂交互过程中提供更细粒度、更实时的反馈信息，对提升操作稳定性、环境适应性和精细控制能力具有重要价值。\n本岗位主要面向机器人触觉感知与多模态学习方向，关注触觉表征、触觉 encoder、触觉与视觉/语言/动作模型的融合，以及快慢脑式决策架构中的触觉信息建模。\n岗位职责\n1. 负责触觉信号表征学习、触觉 encoder 建模及相关算法研发。\n2. 探索触觉信息与视觉、语言、动作、本体状态等多模态信息的融合方式。\n3. 研究触觉在机器人操作策略、世界模型或动作模型中的建模与使用方法。\n4. 参与快慢脑式决策架构设计，提升策略对实时触觉/力觉反馈的响应能力。\n5. 参与触觉数据处理、模型训练、实验评估和算法迭代。\n6. 与感知、控制、硬件和机器人平台相关同事协作，推动算法在真实系统中的验证。\n\n任职要求\n1. 计算机、人工智能、机器人、自动化、电子信息、机械电子等相关专业本科及以上学历。\n2. 熟悉深度学习、表征学习或多模态学习，具备扎实的模型训练与实验分析能力。\n3. 熟悉 PyTorch 等主流深度学习框架，具备良好的工程实现能力。\n4. 了解时序建模、Transformer、自监督学习、对比学习、生成式模型等相关方法中的一种或多种。\n5. 对机器人感知、操作或具身智能方向有兴趣，理解多模态信息在机器人决策中的基本作用。\n6. 具备较强的论文阅读、问题抽象和独立推进能力。\n加分项\n1. 有触觉传感器、力觉传感器、机器人操作或多模态机器人学习相关经验。\n2. 熟悉 VLA、VLM、world model、policy learning、action model 等方向。\n3. 有触觉表征、触觉语言对齐、机器人 foundation model 或具身智能相关项目经验。\n4. 有真实机器人数据采集、模型部署或闭环实验经验。\n5. 熟悉阻抗控制、柔顺控制、力控等机器人控制基础概念。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 99,
+        "end": 105,
+        "quote": "深度学习框架"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 88,
+        "end": 95,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O3",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 109,
+        "end": 166,
+        "quote": "本岗位主要面向机器人触觉感知与多模态学习方向，关注触觉表征、触觉 encoder、触觉与视觉/语言/动作模型的融合"
+      },
+      {
+        "id": "O4",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 267,
+        "end": 293,
+        "quote": "机器人操作策略、世界模型或动作模型中的建模与使用方法"
+      },
+      {
+        "id": "O5",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 190,
+        "end": 221,
+        "quote": "负责触觉信号表征学习、触觉 encoder 建模及相关算法研发"
+      },
+      {
+        "id": "O6",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 226,
+        "end": 257,
+        "quote": "探索触觉信息与视觉、语言、动作、本体状态等多模态信息的融合方式"
+      },
+      {
+        "id": "O7",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 311,
+        "end": 330,
+        "quote": "提升策略对实时触觉/力觉反馈的响应能力"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 335,
+        "end": 358,
+        "quote": "参与触觉数据处理、模型训练、实验评估和算法迭代"
+      },
+      {
+        "id": "O9",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 363,
+        "end": 384,
+        "quote": "与感知、控制、硬件和机器人平台相关同事协作"
+      },
+      {
+        "id": "O10",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 48,
+        "end": 63,
+        "quote": "深度学习、表征学习或多模态学习"
+      },
+      {
+        "id": "O11",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 129,
+        "end": 140,
+        "quote": "Transformer"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 141,
+        "end": 146,
+        "quote": "自监督学习"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 147,
+        "end": 151,
+        "quote": "对比学习"
+      },
+      {
+        "id": "O14",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 152,
+        "end": 157,
+        "quote": "生成式模型"
+      },
+      {
+        "id": "O15",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 267,
+        "end": 272,
+        "quote": "机器人操作"
+      },
+      {
+        "id": "O16",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 267,
+        "end": 275,
+        "quote": "多模态机器人学习"
+      },
+      {
+        "id": "O17",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 287,
+        "end": 290,
+        "quote": "VLA"
+      },
+      {
+        "id": "O18",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 291,
+        "end": 294,
+        "quote": "VLM"
+      },
+      {
+        "id": "O19",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 307,
+        "end": 322,
+        "quote": "policy learning"
+      },
+      {
+        "id": "O20",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 357,
+        "end": 377,
+        "quote": "机器人 foundation model"
+      },
+      {
+        "id": "O21",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 410,
+        "end": 414,
+        "quote": "闭环实验"
+      },
+      {
+        "id": "O22",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 436,
+        "end": 445,
+        "quote": "机器人控制基础概念"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0167:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "触觉感知是机器人理解接触、受力、材质和操作状态的重要能力。相比单一视觉输入，触觉能够为机器人在复杂交互过程中提供更细粒度、更实时的反馈信息，对提升操作稳定性、环境适应性和精细控制能力具有重要价值。",
+        "quote": "触觉感知是机器人理解接触、受力、材质和操作状态的重要能力。相比单一视觉输入，触觉能够为机器人在复杂交互过程中提供更细粒度、更实时的反馈信息，对提升操作稳定性、环境适应性和精细控制能力具有重要价值。",
+        "field": "full_description",
+        "start": 10,
+        "end": 108
+      },
+      {
+        "id": "2",
+        "review_id": "E0167:2",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "3. 研究触觉在机器人操作策略、世界模型或动作模型中的建模与使用方法。",
+        "quote": "3. 研究触觉在机器人操作策略、世界模型或动作模型中的建模与使用方法。",
+        "field": "full_description",
+        "start": 264,
+        "end": 299
+      },
+      {
+        "id": "3",
+        "review_id": "E0167:3",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "2. 熟悉 VLA、VLM、world model、policy learning、action model 等方向。",
+        "quote": "2. 熟悉 VLA、VLM、world model、policy learning、action model 等方向。",
+        "field": "full_description",
+        "start": 692,
+        "end": 751
+      }
+    ]
+  },
+  {
+    "coding_order": 114,
+    "reading_id": "E0164",
+    "company_id": "CN_XSQUARE",
+    "title": "具身算法工程师（人机交互方向）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7652658924827134250|809da565cd8d40d7b825a63eb0e4565a07f370fc7c0b12d8558b4e0398376f08",
+    "already_coded": false,
+    "fields": {
+      "duties": "1. 负责开发、训练和部署具身智能机器人全身控制的强化学习算法,集成避障,柔顺力控,安全保护等多项功能机制,保证动作追随与力追随的平滑与稳定;\n2.提升机器人对物理世界与人类意图的主动理解和预测能力,在有接触的任务场景上实现并提升人机交互功能;\n3.多模态人机交互,引入力觉 / 触觉等交互信息辅助机器人的决策与规划,实现机器人对人类反应的多模态闭环反馈;\n4.数据平台搭建,清洗并提高多来源(动捕 / 视频 / 遥操等)的数据的质量,保证数据集在运动学与动力学上的可行性,搭建数据清洗,数据评估的闭环数据处理流程;",
+      "requirements": "1. 具有机器人学,控制,计算机科学等相关专业背景或相关行业实习经验,有强烈的自驱力\n2. 相关顶会论文 (TRO/ICRA/ICML/CVPR 等) 作者优先考虑\n3. 熟悉 RL 的原理,掌握常见的 RL 算法,如 PPO,TD3, SAC 等\n4. 具有扎实的机器人部署与真机调试经验,了解解决 sim2real gap 的做法,了解机器人的动力学物理建模\n5. 有计算机视觉领域基础,了解常见的视觉编码和表征方式,熟悉主流的 VLA 架构",
+      "full_description": "岗位职责\n1. 负责开发、训练和部署具身智能机器人全身控制的强化学习算法，集成避障，柔顺力控，安全保护等多项功能机制，保证动作追随与力追随的平滑与稳定；\n2.提升机器人对物理世界与人类意图的主动理解和预测能力，在有接触的任务场景上实现并提升人机交互功能；\n3.多模态人机交互，引入力觉 / 触觉等交互信息辅助机器人的决策与规划，实现机器人对人类反应的多模态闭环反馈；\n4.数据平台搭建，清洗并提高多来源（动捕 / 视频 / 遥操等）的数据的质量，保证数据集在运动学与动力学上的可行性，搭建数据清洗，数据评估的闭环数据处理流程；\n\n任职要求\n1. 具有机器人学，控制，计算机科学等相关专业背景或相关行业实习经验，有强烈的自驱力\n2. 相关顶会论文 (TRO/ICRA/ICML/CVPR 等) 作者优先考虑\n3. 熟悉 RL 的原理，掌握常见的 RL 算法，如 PPO，TD3, SAC 等\n4. 具有扎实的机器人部署与真机调试经验，了解解决 sim2real gap 的做法，了解机器人的动力学物理建模\n5. 有计算机视觉领域基础，了解常见的视觉编码和表征方式，熟悉主流的 VLA 架构"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 13,
+        "end": 31,
+        "quote": "具身智能机器人全身控制的强化学习算法"
+      },
+      {
+        "id": "O2",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 37,
+        "end": 58,
+        "quote": "集成避障，柔顺力控，安全保护等多项功能机制"
+      },
+      {
+        "id": "O3",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 42,
+        "end": 46,
+        "quote": "安全保护"
+      },
+      {
+        "id": "O4",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 54,
+        "end": 70,
+        "quote": "保证动作追随与力追随的平滑与稳定"
+      },
+      {
+        "id": "O5",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 186,
+        "end": 222,
+        "quote": "数据平台搭建，清洗并提高多来源（动捕 / 视频 / 遥操等）的数据的质量"
+      },
+      {
+        "id": "O6",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 244,
+        "end": 257,
+        "quote": "数据评估的闭环数据处理流程"
+      },
+      {
+        "id": "O7",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "RL"
+      },
+      {
+        "id": "O8",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 151,
+        "end": 163,
+        "quote": "sim2real gap"
+      },
+      {
+        "id": "O9",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 186,
+        "end": 191,
+        "quote": "计算机视觉"
+      },
+      {
+        "id": "O10",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 217,
+        "end": 220,
+        "quote": "VLA"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0164:1",
+        "codes": [
+          "V2_MOCAP"
+        ],
+        "names": [
+          "动作捕捉与演示数据采集"
+        ],
+        "surface": "4.数据平台搭建，清洗并提高多来源（动捕 / 视频 / 遥操等）的数据的质量，保证数据集在运动学与动力学上的可行性，搭建数据清洗，数据评估的闭环数据处理流程；",
+        "quote": "4.数据平台搭建，清洗并提高多来源（动捕 / 视频 / 遥操等）的数据的质量，保证数据集在运动学与动力学上的可行性，搭建数据清洗，数据评估的闭环数据处理流程；",
+        "field": "full_description",
+        "start": 184,
+        "end": 263
+      },
+      {
+        "id": "2",
+        "review_id": "E0164:2",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "4. 具有扎实的机器人部署与真机调试经验，了解解决 sim2real gap 的做法，了解机器人的动力学物理建模",
+        "quote": "4. 具有扎实的机器人部署与真机调试经验，了解解决 sim2real gap 的做法，了解机器人的动力学物理建模",
+        "field": "full_description",
+        "start": 395,
+        "end": 451
+      }
+    ]
+  },
+  {
+    "coding_order": 115,
+    "reading_id": "E0161",
+    "company_id": "CN_XSQUARE",
+    "title": "Robot Learning 模型全栈工程师 / 研究员",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7654878461161359652|4696495ce5de7dcce6197c299619c0192fb12b2c679321414b2f501887198526",
+    "already_coded": false,
+    "fields": {
+      "duties": "关于团队\n我们专注于机器人灵巧操作(manipulation)方向的研发,围绕数据采集、模型训练与真机部署构建完整的技术闭环。团队规模精简,研发节奏快,工程与算法紧密协作。\n\n岗位方向:\n负责机器人操作策略从数据到部署的全链路工作,包括数据处理、模型训练与真机验证。我们更看重端到端推进一条完整链路的能力,而非单一环节的深度,具备 robotics learning 基础即可。\n岗位职责:\n- 数据侧:数据清洗、对齐、可视化与质量筛查,构建可用于训练的数据集。\n- 模型侧:搭建与维护模仿学习 / VLA / WAM训练管线,负责模型训练、调参、评测与消融分析。\n- 部署侧:真机推理与闭环验证,分析失败案例并迭代优化。\n- 工程侧:维护训练与评测基础设施,保障链路的稳定性、可复现性与可扩展性。",
+      "requirements": "任职要求\n- 具备 robotics learning 基础:熟悉模仿学习 / WAM / VLA 中任一方向,理解 manipulation 的基本流程。\n- 扎实的 Python 工程能力,熟练使用 PyTorch。\n- 具备全栈能力,能够独立承接数据、模型、部署各环节的工作。\n- 结果导向,具备较快的实验迭代能力。\n 加分项\n- 真机机器人 / 机械臂 / 灵巧手相关经验。\n- 数据采集系统、遥操作相关背景。\n- 大规模 / 分布式训练经验。\n- 相关开源项目或学术成果。",
+      "full_description": "岗位职责\n关于团队\n我们专注于机器人灵巧操作（manipulation）方向的研发，围绕数据采集、模型训练与真机部署构建完整的技术闭环。团队规模精简，研发节奏快，工程与算法紧密协作。\n\n岗位方向：\n负责机器人操作策略从数据到部署的全链路工作，包括数据处理、模型训练与真机验证。我们更看重端到端推进一条完整链路的能力，而非单一环节的深度，具备 robotics learning 基础即可。\n岗位职责：\n- 数据侧：数据清洗、对齐、可视化与质量筛查，构建可用于训练的数据集。\n- 模型侧：搭建与维护模仿学习 / VLA / WAM训练管线，负责模型训练、调参、评测与消融分析。\n- 部署侧：真机推理与闭环验证，分析失败案例并迭代优化。\n- 工程侧：维护训练与评测基础设施，保障链路的稳定性、可复现性与可扩展性。\n\n任职要求\n任职要求\n- 具备 robotics learning 基础：熟悉模仿学习 / WAM / VLA 中任一方向，理解 manipulation 的基本流程。\n- 扎实的 Python 工程能力，熟练使用 PyTorch。\n- 具备全栈能力，能够独立承接数据、模型、部署各环节的工作。\n- 结果导向，具备较快的实验迭代能力。\n 加分项\n- 真机机器人 / 机械臂 / 灵巧手相关经验。\n- 数据采集系统、遥操作相关背景。\n- 大规模 / 分布式训练经验。\n- 相关开源项目或学术成果。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 85,
+        "end": 91,
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 102,
+        "end": 109,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O3",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 10,
+        "end": 41,
+        "quote": "我们专注于机器人灵巧操作（manipulation）方向的研发"
+      },
+      {
+        "id": "O4",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 94,
+        "end": 115,
+        "quote": "负责机器人操作策略从数据到部署的全链路工作"
+      },
+      {
+        "id": "O5",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 219,
+        "end": 230,
+        "quote": "构建可用于训练的数据集"
+      },
+      {
+        "id": "O6",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 238,
+        "end": 263,
+        "quote": "搭建与维护模仿学习 / VLA / WAM训练管线"
+      },
+      {
+        "id": "O7",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 243,
+        "end": 263,
+        "quote": "模仿学习 / VLA / WAM训练管线"
+      },
+      {
+        "id": "O8",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 318,
+        "end": 329,
+        "quote": "维护训练与评测基础设施"
+      },
+      {
+        "id": "O9",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 289,
+        "end": 298,
+        "quote": "真机推理与闭环验证"
+      },
+      {
+        "id": "O10",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 330,
+        "end": 348,
+        "quote": "保障链路的稳定性、可复现性与可扩展性"
+      },
+      {
+        "id": "O11",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 243,
+        "end": 247,
+        "quote": "模仿学习"
+      },
+      {
+        "id": "O12",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 250,
+        "end": 253,
+        "quote": "VLA"
+      },
+      {
+        "id": "O13",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 18,
+        "end": 30,
+        "quote": "manipulation"
+      },
+      {
+        "id": "O14",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 194,
+        "end": 200,
+        "quote": "数据采集系统"
+      },
+      {
+        "id": "O15",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 212,
+        "end": 225,
+        "quote": "大规模 / 分布式训练经验"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0161:1",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "- 数据采集系统、遥操作相关背景。",
+        "quote": "- 数据采集系统、遥操作相关背景。",
+        "field": "full_description",
+        "start": 553,
+        "end": 570
+      }
+    ]
+  },
+  {
+    "coding_order": 116,
+    "reading_id": "E0157",
+    "company_id": "CN_XSQUARE",
+    "title": "具身大模型后训练工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7659688826927761705|e47a644cdcb622e5fa7c55a7a2a315ef3c5bd6b0c197b618ad87159c9b7606a8",
+    "already_coded": false,
+    "fields": {
+      "duties": "【核心职责】\n负责具身大模型在物流、制造、家庭服务、医疗等商业化场景的后训练与落地交付,从数据、模型、算法维度提升任务成功率与执行效率;\n制定场景数据采集策略与后训练方案,打通数据采集→模型训练→评测→真机部署的全流程,高效完成场景适配;\n攻克精细操作、高频节拍、柔性物体处理等场景难点,通过数据策略调整、训练优化、模型迭代持续攻坚;\n负责模型在真实环境中的部署调试与性能优化,确保稳定运行并达到商业化交付标准;\n沉淀场景落地经验与方法论,形成可复用的标准化交付流程,支撑跨场景、跨本体的快速复制。\n",
+      "requirements": "【任职要求】\n计算机/AI/机器人/自动化等相关专业,本科及以上,硕士优先;\n熟练使用Python/C++,精通PyTorch等深度学习框架,工程能力扎实;\n具备VLA或具身大模型的微调/后训练经验,能独立完成数据准备→模型训练→真机验证全流程;\n丰富的机器人真机调试经验,能快速定位硬件延迟、传感器噪声、控制精度、动作抖动等问题并迭代优化,有驻场调试经历者优先;\n具备强问题分析与解决能力,能从数据、模型、系统多层面诊断并攻克落地难题;\n执行力强、结果导向,能在项目压力下高效推进交付;\n【加分项】\n• 机器人操作(抓取、装配、分拣等)算法的真实场景落地经验;\n• 熟悉OpenVLA、π系列、WALL-OSS、Dream-Zero等具身大模型;\n• 熟悉模仿学习、强化学习在机器人操作中的应用;\n• ICRA、CoRL、RSS、CVPR、NeurIPS等顶会论文发表或竞赛获奖。",
+      "full_description": "岗位职责\n【核心职责】\n负责具身大模型在物流、制造、家庭服务、医疗等商业化场景的后训练与落地交付，从数据、模型、算法维度提升任务成功率与执行效率；\n制定场景数据采集策略与后训练方案，打通数据采集→模型训练→评测→真机部署的全流程，高效完成场景适配；\n攻克精细操作、高频节拍、柔性物体处理等场景难点，通过数据策略调整、训练优化、模型迭代持续攻坚；\n负责模型在真实环境中的部署调试与性能优化，确保稳定运行并达到商业化交付标准；\n沉淀场景落地经验与方法论，形成可复用的标准化交付流程，支撑跨场景、跨本体的快速复制。\n\n任职要求\n【任职要求】\n计算机/AI/机器人/自动化等相关专业，本科及以上，硕士优先；\n熟练使用Python/C++，精通PyTorch等深度学习框架，工程能力扎实；\n具备VLA或具身大模型的微调/后训练经验，能独立完成数据准备→模型训练→真机验证全流程；\n丰富的机器人真机调试经验，能快速定位硬件延迟、传感器噪声、控制精度、动作抖动等问题并迭代优化，有驻场调试经历者优先；\n具备强问题分析与解决能力，能从数据、模型、系统多层面诊断并攻克落地难题；\n执行力强、结果导向，能在项目压力下高效推进交付；\n【加分项】\n• 机器人操作（抓取、装配、分拣等）算法的真实场景落地经验；\n• 熟悉OpenVLA、π系列、WALL-OSS、Dream-Zero等具身大模型；\n• 熟悉模仿学习、强化学习在机器人操作中的应用；\n• ICRA、CoRL、RSS、CVPR、NeurIPS等顶会论文发表或竞赛获奖。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 43,
+        "end": 49,
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 50,
+        "end": 53,
+        "quote": "C++"
+      },
+      {
+        "id": "O3",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 64,
+        "end": 70,
+        "quote": "深度学习框架"
+      },
+      {
+        "id": "O4",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 56,
+        "end": 63,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O5",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 9,
+        "end": 43,
+        "quote": "具身大模型在物流、制造、家庭服务、医疗等商业化场景的后训练与落地交付"
+      },
+      {
+        "id": "O6",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 69,
+        "end": 85,
+        "quote": "制定场景数据采集策略与后训练方案"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 120,
+        "end": 143,
+        "quote": "攻克精细操作、高频节拍、柔性物体处理等场景难点"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 86,
+        "end": 109,
+        "quote": "打通数据采集→模型训练→评测→真机部署的全流程"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 189,
+        "end": 205,
+        "quote": "确保稳定运行并达到商业化交付标准"
+      },
+      {
+        "id": "O10",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 81,
+        "end": 90,
+        "quote": "VLA或具身大模型"
+      },
+      {
+        "id": "O11",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 105,
+        "end": 109,
+        "quote": "数据准备"
+      },
+      {
+        "id": "O12",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 115,
+        "end": 119,
+        "quote": "真机验证"
+      },
+      {
+        "id": "O13",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 153,
+        "end": 157,
+        "quote": "控制精度"
+      },
+      {
+        "id": "O14",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 514,
+        "end": 532,
+        "quote": "机器人操作（抓取、装配、分拣等）算法"
+      },
+      {
+        "id": "O15",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 9,
+        "end": 14,
+        "quote": "具身大模型"
+      },
+      {
+        "id": "O16",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 329,
+        "end": 333,
+        "quote": "模仿学习"
+      },
+      {
+        "id": "O17",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 334,
+        "end": 338,
+        "quote": "强化学习"
+      },
+      {
+        "id": "O18",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "机器人操作"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0157:1",
+        "codes": [
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "模型后训练与对齐"
+        ],
+        "surface": "负责具身大模型在物流、制造、家庭服务、医疗等商业化场景的后训练与落地交付，从数据、模型、算法维度提升任务成功率与执行效率；",
+        "quote": "负责具身大模型在物流、制造、家庭服务、医疗等商业化场景的后训练与落地交付，从数据、模型、算法维度提升任务成功率与执行效率；",
+        "field": "full_description",
+        "start": 12,
+        "end": 73
+      },
+      {
+        "id": "2",
+        "review_id": "E0157:2",
+        "codes": [
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "模型后训练与对齐"
+        ],
+        "surface": "制定场景数据采集策略与后训练方案，打通数据采集→模型训练→评测→真机部署的全流程，高效完成场景适配；",
+        "quote": "制定场景数据采集策略与后训练方案，打通数据采集→模型训练→评测→真机部署的全流程，高效完成场景适配；",
+        "field": "full_description",
+        "start": 74,
+        "end": 124
+      },
+      {
+        "id": "3",
+        "review_id": "E0157:3",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "熟练使用Python/C++，精通PyTorch等深度学习框架，工程能力扎实；",
+        "quote": "熟练使用Python/C++，精通PyTorch等深度学习框架，工程能力扎实；",
+        "field": "full_description",
+        "start": 300,
+        "end": 339
+      },
+      {
+        "id": "4",
+        "review_id": "E0157:4",
+        "codes": [
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "模型后训练与对齐"
+        ],
+        "surface": "具备VLA或具身大模型的微调/后训练经验，能独立完成数据准备→模型训练→真机验证全流程；",
+        "quote": "具备VLA或具身大模型的微调/后训练经验，能独立完成数据准备→模型训练→真机验证全流程；",
+        "field": "full_description",
+        "start": 340,
+        "end": 384
+      }
+    ]
+  },
+  {
+    "coding_order": 117,
+    "reading_id": "E0139",
+    "company_id": "CN_XSQUARE",
+    "title": "VLA算法工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7660147596611324202|36b4d6590e5e3c5cd500922474e0e6cd87a2a266a66589c0fe98a605e07c7b9b",
+    "already_coded": false,
+    "fields": {
+      "duties": "职位描述\n1. 负责 VLA 模型训练与效果优化,验证对齐模型效果;\n2. 迭代开发公司面向社区的开源代码库,确保开源库框架简单易用;\n3. 解决 github/huggingface 等社区提出的问题,提升公司技术影响力;\n4. 参与VLA 模型相关学术 benchmark 和国内外知名公开榜单的评测,迭代优化模型效果,确保模型在各大榜单中处于领先地位;\n5. 构造VLA 模型评测体系,设计评测任务,搭建VLA 模型自动化评测流程;\n6. 跟踪最新的模型训练和优化技术,复现验证其有效价值,并将其适配到代码框架。\n",
+      "requirements": "职位要求\n1. 具有计算机科学、机器人控制、人工智能、VLA算等相关专业背景或相关行业丰富工作经验;\n2. 掌握常见VLA模型(例如PI系列、OpenVLA、diffusion policy等)原理;\n3. 熟悉机器人运动控制,有VLA模型训练优化和实际上机部署执行经验;\n4. 熟练掌握主流深度学习框架,如PyTorch、TensorFlow,具备优秀的系统级编程能力;\n5. 有LLM、Diffusion、Flow、MoE、VLA等大模型架构的分布式训练经验;\n6. 精通至少一种分布式训练框架;\n7. 具备良好的逻辑思维、沟通协作能力和学习能力,能够独立解决复杂问题;\n8. ACM等程序设计比赛、自然语言处理/多模态相关顶级会议论文或比赛获奖经历者优先考虑;\n9. 具有技术热情及技术信仰,较强的学习能力和抗压能力。",
+      "full_description": "岗位职责\n职位描述\n1. 负责 VLA 模型训练与效果优化，验证对齐模型效果；\n2. 迭代开发公司面向社区的开源代码库，确保开源库框架简单易用；\n3. 解决 github/huggingface 等社区提出的问题，提升公司技术影响力；\n4. 参与VLA 模型相关学术 benchmark 和国内外知名公开榜单的评测，迭代优化模型效果，确保模型在各大榜单中处于领先地位；\n5. 构造VLA 模型评测体系，设计评测任务，搭建VLA 模型自动化评测流程；\n6. 跟踪最新的模型训练和优化技术，复现验证其有效价值，并将其适配到代码框架。\n\n任职要求\n职位要求\n1. 具有计算机科学、机器人控制、人工智能、VLA算等相关专业背景或相关行业丰富工作经验；\n2. 掌握常见VLA模型（例如PI系列、OpenVLA、diffusion policy等）原理；\n3. 熟悉机器人运动控制，有VLA模型训练优化和实际上机部署执行经验；\n4. 熟练掌握主流深度学习框架，如PyTorch、TensorFlow，具备优秀的系统级编程能力；\n5. 有LLM、Diffusion、Flow、MoE、VLA等大模型架构的分布式训练经验；\n6. 精通至少一种分布式训练框架；\n7. 具备良好的逻辑思维、沟通协作能力和学习能力，能够独立解决复杂问题；\n8. ACM等程序设计比赛、自然语言处理/多模态相关顶级会议论文或比赛获奖经历者优先考虑；\n9. 具有技术热情及技术信仰，较强的学习能力和抗压能力。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 146,
+        "end": 152,
+        "quote": "深度学习框架"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 154,
+        "end": 161,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O3",
+        "code": "SK_TENSORFLOW",
+        "name": "TensorFlow",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 162,
+        "end": 172,
+        "quote": "TensorFlow"
+      },
+      {
+        "id": "O4",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 242,
+        "end": 249,
+        "quote": "分布式训练框架"
+      },
+      {
+        "id": "O5",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 8,
+        "end": 24,
+        "quote": "负责 VLA 模型训练与效果优化"
+      },
+      {
+        "id": "O6",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 188,
+        "end": 223,
+        "quote": "构造VLA 模型评测体系，设计评测任务，搭建VLA 模型自动化评测流程"
+      },
+      {
+        "id": "O7",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "VLA模型"
+      },
+      {
+        "id": "O8",
+        "code": "TC_GENERATIVE_POLICY",
+        "name": "生成式机器人策略",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 79,
+        "end": 95,
+        "quote": "diffusion policy"
+      },
+      {
+        "id": "O9",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 106,
+        "end": 113,
+        "quote": "机器人运动控制"
+      },
+      {
+        "id": "O10",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 115,
+        "end": 124,
+        "quote": "VLA模型训练优化"
+      },
+      {
+        "id": "O11",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 218,
+        "end": 223,
+        "quote": "大模型架构"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 224,
+        "end": 231,
+        "quote": "分布式训练经验"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 242,
+        "end": 249,
+        "quote": "分布式训练框架"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0139:1",
+        "codes": [
+          "V2_GIT",
+          "V2_HUGGINGFACE"
+        ],
+        "names": [
+          "Git",
+          "Hugging Face工具库"
+        ],
+        "surface": "3. 解决 github/huggingface 等社区提出的问题，提升公司技术影响力；",
+        "quote": "3. 解决 github/huggingface 等社区提出的问题，提升公司技术影响力；",
+        "field": "full_description",
+        "start": 73,
+        "end": 117
+      }
+    ]
+  },
+  {
+    "coding_order": 118,
+    "reading_id": "E0121",
+    "company_id": "CN_XSQUARE",
+    "title": "智算集群运维工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7668253011839600946|fb7742e477b13538e5b76806fb12afe8867737a3ef83dd204c836ac7438b229d",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n1. 负责大规模GPU集群从服务器到 Kubernetes 资源池的全生命周期运维。\n2. 负责 NVIDIA GPU 驱动、GPU Operator、Device Plugin、DCGM 和容器GPU 运行环境。\n3. 负责 IB/ROCE、RDMA、PFC/ECN、NCCL 训练网络的需求、验收与故障定位,并与IT 网络团队协作。\n4. 负责 Kubernetes 控制面、节点、CNI、CSI、容器运行时、DNS、证书和升级。\n5. 负责训练存储、共享文件系统、对象存储接入、缓存和数据挂载健康。\n6. 保障大规模分布式训练,处理调度失败、NCCL timeout、掉卡、性能退化和节点故障。\n7. 建设自动化纳管、巡检、变更、排空、恢复和退役能力。\n8. 参与值班、重大任务保障、故障复盘、容量规划和供应商协同。\n",
+      "requirements": "任职要求\n1. 5年以上 Linux/Kubernetes/HPC或智算基础设施经验,3年以上生产 Kubernetes 运维经验。\n2. 深入理解 Kubernetes 控制面、调度、网络、存储和节点故障定位。\n3. 熟悉 NVIDIA GPU 软件栈,能够分析 Xid、ECC、驱动、容器运行时和GPU 性能问题。\n4. 熟悉 InfiniBand或 ROCEV2,理解 RDMA、PFC、ECN、MTU、GID、NCCL 和拓扑。\n5. 熟悉多机多卡训练、PyTorch Distributed/MPI/NCCL 中至少一类。\n6. 熟悉 NFS、Ceph/并行文件系统、对象存储或高性能缓存中的两类以上。\n7. 具备 Python、Go、Shell 或 Ansible 自动化能力,能够把人工SOP产品化。\n8. 具备生产事故处置、变更管理、文档和跨团队沟通能力。",
+      "full_description": "岗位职责\n岗位职责\n1. 负责大规模GPU集群从服务器到 Kubernetes 资源池的全生命周期运维。\n2. 负责 NVIDIA GPU 驱动、GPU Operator、Device Plugin、DCGM 和容器GPU 运行环境。\n3. 负责 IB/ROCE、RDMA、PFC/ECN、NCCL 训练网络的需求、验收与故障定位，并与IT 网络团队协作。\n4. 负责 Kubernetes 控制面、节点、CNI、CSI、容器运行时、DNS、证书和升级。\n5. 负责训练存储、共享文件系统、对象存储接入、缓存和数据挂载健康。\n6. 保障大规模分布式训练，处理调度失败、NCCL timeout、掉卡、性能退化和节点故障。\n7. 建设自动化纳管、巡检、变更、排空、恢复和退役能力。\n8. 参与值班、重大任务保障、故障复盘、容量规划和供应商协同。\n\n任职要求\n任职要求\n1. 5年以上 Linux/Kubernetes/HPC或智算基础设施经验，3年以上生产 Kubernetes 运维经验。\n2. 深入理解 Kubernetes 控制面、调度、网络、存储和节点故障定位。\n3. 熟悉 NVIDIA GPU 软件栈，能够分析 Xid、ECC、驱动、容器运行时和GPU 性能问题。\n4. 熟悉 InfiniBand或 ROCEV2，理解 RDMA、PFC、ECN、MTU、GID、NCCL 和拓扑。\n5. 熟悉多机多卡训练、PyTorch Distributed/MPI/NCCL 中至少一类。\n6. 熟悉 NFS、Ceph/并行文件系统、对象存储或高性能缓存中的两类以上。\n7. 具备 Python、Go、Shell 或 Ansible 自动化能力，能够把人工SOP产品化。\n8. 具备生产事故处置、变更管理、文档和跨团队沟通能力。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 8,
+        "end": 46,
+        "quote": "负责大规模GPU集群从服务器到 Kubernetes 资源池的全生命周期运维"
+      },
+      {
+        "id": "O2",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 13,
+        "end": 18,
+        "quote": "Linux"
+      },
+      {
+        "id": "O3",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "Kubernetes"
+      },
+      {
+        "id": "O4",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 47,
+        "end": 65,
+        "quote": "生产 Kubernetes 运维经验"
+      },
+      {
+        "id": "O5",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "Kubernetes"
+      },
+      {
+        "id": "O6",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 231,
+        "end": 250,
+        "quote": "PyTorch Distributed"
+      },
+      {
+        "id": "O7",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 313,
+        "end": 319,
+        "quote": "Python"
+      },
+      {
+        "id": "O8",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 320,
+        "end": 322,
+        "quote": "Go"
+      },
+      {
+        "id": "O9",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 261,
+        "end": 271,
+        "quote": "保障大规模分布式训练"
+      },
+      {
+        "id": "O10",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 272,
+        "end": 304,
+        "quote": "处理调度失败、NCCL timeout、掉卡、性能退化和节点故障"
+      },
+      {
+        "id": "O11",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 140,
+        "end": 160,
+        "quote": "NCCL 训练网络的需求、验收与故障定位"
+      },
+      {
+        "id": "O12",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 99,
+        "end": 105,
+        "quote": "节点故障定位"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 224,
+        "end": 230,
+        "quote": "多机多卡训练"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0121:1",
+        "codes": [
+          "V2_NCCL"
+        ],
+        "names": [
+          "NCCL"
+        ],
+        "surface": "3. 负责 IB/ROCE、RDMA、PFC/ECN、NCCL 训练网络的需求、验收与故障定位，并与IT 网络团队协作。",
+        "quote": "3. 负责 IB/ROCE、RDMA、PFC/ECN、NCCL 训练网络的需求、验收与故障定位，并与IT 网络团队协作。",
+        "field": "full_description",
+        "start": 118,
+        "end": 178
+      },
+      {
+        "id": "2",
+        "review_id": "E0121:2",
+        "codes": [
+          "V2_NCCL"
+        ],
+        "names": [
+          "NCCL"
+        ],
+        "surface": "6. 保障大规模分布式训练，处理调度失败、NCCL timeout、掉卡、性能退化和节点故障。",
+        "quote": "6. 保障大规模分布式训练，处理调度失败、NCCL timeout、掉卡、性能退化和节点故障。",
+        "field": "full_description",
+        "start": 263,
+        "end": 310
+      },
+      {
+        "id": "3",
+        "review_id": "E0121:3",
+        "codes": [
+          "V2_PROCUREMENT"
+        ],
+        "names": [
+          "采购与供应商流程"
+        ],
+        "surface": "8. 参与值班、重大任务保障、故障复盘、容量规划和供应商协同。",
+        "quote": "8. 参与值班、重大任务保障、故障复盘、容量规划和供应商协同。",
+        "field": "full_description",
+        "start": 340,
+        "end": 371
+      },
+      {
+        "id": "4",
+        "review_id": "E0121:4",
+        "codes": [
+          "V2_NCCL"
+        ],
+        "names": [
+          "NCCL"
+        ],
+        "surface": "4. 熟悉 InfiniBand或 ROCEV2，理解 RDMA、PFC、ECN、MTU、GID、NCCL 和拓扑。",
+        "quote": "4. 熟悉 InfiniBand或 ROCEV2，理解 RDMA、PFC、ECN、MTU、GID、NCCL 和拓扑。",
+        "field": "full_description",
+        "start": 538,
+        "end": 596
+      },
+      {
+        "id": "5",
+        "review_id": "E0121:5",
+        "codes": [
+          "V2_NCCL"
+        ],
+        "names": [
+          "NCCL"
+        ],
+        "surface": "5. 熟悉多机多卡训练、PyTorch Distributed/MPI/NCCL 中至少一类。",
+        "quote": "5. 熟悉多机多卡训练、PyTorch Distributed/MPI/NCCL 中至少一类。",
+        "field": "full_description",
+        "start": 597,
+        "end": 644
+      },
+      {
+        "id": "6",
+        "review_id": "E0121:6",
+        "codes": [
+          "V2_SHELL",
+          "V2_ANSIBLE",
+          "V2_SOP_OPERATION"
+        ],
+        "names": [
+          "Shell脚本",
+          "Ansible",
+          "SOP操作与数据质量"
+        ],
+        "surface": "7. 具备 Python、Go、Shell 或 Ansible 自动化能力，能够把人工SOP产品化。",
+        "quote": "7. 具备 Python、Go、Shell 或 Ansible 自动化能力，能够把人工SOP产品化。",
+        "field": "full_description",
+        "start": 685,
+        "end": 735
+      }
+    ]
+  },
+  {
+    "coding_order": 119,
+    "reading_id": "E0328",
+    "company_id": "US_AGILITY",
+    "title": "Senior Director, AI",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|5786075004|37efb1222171e5601a964609efcc7d9e0fd54bf1d5285c34bb1e9d1a1e80d6cf",
+    "already_coded": false,
+    "fields": {
+      "duties": "Agility’s commercially deployed humanoids operate alongside teams in warehouses, manufacturing facilities, and distribution centers—tackling physically demanding and repetitive tasks while enabling workers to focus on higher-value work. With industry-leading safety standards and years of proven deployment data, we're pioneering a new era of automation that enhances human potential.\nOverview\nThe Senior Director of AI will be a pivotal leader within our cutting-edge humanoid robotics company, driving the strategic direction and execution of all artificial intelligence and machine learning initiatives. This role requires a knowledgeable technologist and a skilled manager capable of championing and leading our existing high-performing team to develop the AI foundation for the next generation of humanoid robots. The successful candidate will be instrumental in defining the AI architecture, ensuring ethical implementation, and delivering robust, real-time AI capabilities that enable our robots to interact intelligently and safely with the world.\nCore Responsibilities and Deliverables\nStrategic Leadership and Vision\nDefine and champion the overall AI strategy and roadmap in alignment with the company's product vision and business goals.\nLead the selection and integration of advanced machine learning models, algorithms, and deep learning techniques relevant to embodied AI (e.g., perception, manipulation, natural language understanding).\nFoster a culture of innovation, rigorous research, and responsible AI development that supports the team's ongoing success.\nEnsure that all AI systems adhere to the highest standards of safety, privacy, and ethical guidelines.\nPartner with Hardware and Robot Software leadership to ensure the sensor suite and embedded compute are optimized for current and future AI model architectures.\nTechnical Execution and Development\nOversee the design, development, and deployment of on-robot and cloud-based AI systems, leveraging the existing team's expertise.\nEstablish MLOps best practices for efficient model training, deployment, monitoring, and iteration.\nDrive research into novel AI solutions for complex robotics challenges, such as real-time planning, human-robot interaction, and adaptive motor control.\nDeliver production-ready AI models that meet performance, latency, and reliability requirements for commercial deployment.\nSpearhead the Sim2Real strategy, utilizing physics-based simulation (e.g., MuJoCo, Isaac Sim) to train robust policies that transfer seamlessly to hardware.\nAccelerate our data flywheel strategy to combine teleoperation, synthetic data, and fleet learning to expand the fleet performance and reliability.\nTeam Building and Hiring\nChampion the existing team's talent and represent their needs to senior leadership.\nDevelop a comprehensive hiring plan to staff and scale the AI team, including defining required roles (e.g., ML Engineers, Data Scientists, AI Researchers).\nLead recruitment, mentorship, and career development for all members of the AI team.\nManage the budget allocated for team salaries, equipment, and necessary infrastructure.\nResourcing and Budgeting\nForecast and manage the budget for cloud computing resources (GPUs, TPUs) necessary for large-scale model training and experimentation.\nSecure and allocate funding for specialized datasets and data annotation services.\nEvaluate and procure necessary software licenses and tools for AI development and simulation.\nRegularly report on expenditure and resource utilization to senior leadership.",
+      "requirements": "Advanced degree (M.S. or Ph.D.) in Computer Science, Robotics, Electrical Engineering, or a related field.\nMinimum of 8 years of experience in AI/ML, with at least 5 years in a senior leadership or directorial role.\nDemonstrated experience in developing and deploying real-time AI solutions for robotics, autonomous systems, or other mission-critical applications.\nStrong expertise in core AI domains, including computer vision, reinforcement learning, and large language models (LLMs) applied to robotics.\nProven track record of managing significant technical budgets and scaling high-performance engineering and research teams.\nExperience deploying models on resource-constrained edge devices, balancing inference speed, power consumption, and thermal limits.\nThis is a fully remote role with the option to work hybrid if a commutable distance from our Salem, OR, Pittsburgh, PA, or Fremont, CA offices.\nThe final salary offered to a successful candidate will be dependent on several factors that may include but are not limited to: market location, job-related knowledge, skills, and experience. This range may change based on geographical location and may be modified in the future.\nAnticipated Base Salary Range\n$257,000\n—\n$402,000 USD\nIn addition to base pay, our competitive total rewards package consists of the following for full-time employees:\n401(k) Plan:\nIncludes a 6% company match.\nEquity:\nCompany stock options.\nInsurance Coverage:\n100% company-paid medical, dental, vision, and short/long-term disability insurance for employees.\nBenefit Start Date:\nEligible for benefits on your first day of employment.\nWell-Being Support:\nEmployee Assistance Program (EAP).\nTime Off:\nExempt Employees:\nFlexible, unlimited PTO and 12 company holidays, including a winter shutdown.\nNon-Exempt Employees:\n10 vacation days, paid sick leave, and 12 company holidays, including a winter shutdown, annually.\nOn-Site Perks:\nCatered lunches four times a week and a variety of healthy snacks and refreshments at our Salem and Pittsburgh locations.\nParental Leave:\nGenerous paid parental leave programs.\nWork Environment:\nA culture that supports flexible work arrangements.\nGrowth Opportunities:\nProfessional development and tuition reimbursement programs.\nRelocation Assistance:\nProvided for eligible roles.\nAnnual Discretionary Bonus:\nProvided for eligible roles.\nAll of our roles are U.S.-based. Applicants must have current authorization to work in the United States.\nAgility Robotics is committed to a work environment in which all individuals are treated with respect and dignity. Each individual has the right to work in a professional atmosphere that promotes equal employment opportunities and prohibits unlawful discriminatory practices, including harassment. Therefore, it is the policy of Agility Robotics to ensure equal employment opportunity without discrimination or harassment on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, genetic information, or any other characteristic protected by law. Agility Robotics prohibits any such discrimination or harassment.\nAgility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+      "full_description": "Agility’s commercially deployed humanoids operate alongside teams in warehouses, manufacturing facilities, and distribution centers—tackling physically demanding and repetitive tasks while enabling workers to focus on higher-value work. With industry-leading safety standards and years of proven deployment data, we're pioneering a new era of automation that enhances human potential.\nOverview\nThe Senior Director of AI will be a pivotal leader within our cutting-edge humanoid robotics company, driving the strategic direction and execution of all artificial intelligence and machine learning initiatives. This role requires a knowledgeable technologist and a skilled manager capable of championing and leading our existing high-performing team to develop the AI foundation for the next generation of humanoid robots. The successful candidate will be instrumental in defining the AI architecture, ensuring ethical implementation, and delivering robust, real-time AI capabilities that enable our robots to interact intelligently and safely with the world.\nCore Responsibilities and Deliverables\nStrategic Leadership and Vision\nDefine and champion the overall AI strategy and roadmap in alignment with the company's product vision and business goals.\nLead the selection and integration of advanced machine learning models, algorithms, and deep learning techniques relevant to embodied AI (e.g., perception, manipulation, natural language understanding).\nFoster a culture of innovation, rigorous research, and responsible AI development that supports the team's ongoing success.\nEnsure that all AI systems adhere to the highest standards of safety, privacy, and ethical guidelines.\nPartner with Hardware and Robot Software leadership to ensure the sensor suite and embedded compute are optimized for current and future AI model architectures.\nTechnical Execution and Development\nOversee the design, development, and deployment of on-robot and cloud-based AI systems, leveraging the existing team's expertise.\nEstablish MLOps best practices for efficient model training, deployment, monitoring, and iteration.\nDrive research into novel AI solutions for complex robotics challenges, such as real-time planning, human-robot interaction, and adaptive motor control.\nDeliver production-ready AI models that meet performance, latency, and reliability requirements for commercial deployment.\nSpearhead the Sim2Real strategy, utilizing physics-based simulation (e.g., MuJoCo, Isaac Sim) to train robust policies that transfer seamlessly to hardware.\nAccelerate our data flywheel strategy to combine teleoperation, synthetic data, and fleet learning to expand the fleet performance and reliability.\nTeam Building and Hiring\nChampion the existing team's talent and represent their needs to senior leadership.\nDevelop a comprehensive hiring plan to staff and scale the AI team, including defining required roles (e.g., ML Engineers, Data Scientists, AI Researchers).\nLead recruitment, mentorship, and career development for all members of the AI team.\nManage the budget allocated for team salaries, equipment, and necessary infrastructure.\nResourcing and Budgeting\nForecast and manage the budget for cloud computing resources (GPUs, TPUs) necessary for large-scale model training and experimentation.\nSecure and allocate funding for specialized datasets and data annotation services.\nEvaluate and procure necessary software licenses and tools for AI development and simulation.\nRegularly report on expenditure and resource utilization to senior leadership.\nRequired Qualifications\nAdvanced degree (M.S. or Ph.D.) in Computer Science, Robotics, Electrical Engineering, or a related field.\nMinimum of 8 years of experience in AI/ML, with at least 5 years in a senior leadership or directorial role.\nDemonstrated experience in developing and deploying real-time AI solutions for robotics, autonomous systems, or other mission-critical applications.\nStrong expertise in core AI domains, including computer vision, reinforcement learning, and large language models (LLMs) applied to robotics.\nProven track record of managing significant technical budgets and scaling high-performance engineering and research teams.\nExperience deploying models on resource-constrained edge devices, balancing inference speed, power consumption, and thermal limits.\nThis is a fully remote role with the option to work hybrid if a commutable distance from our Salem, OR, Pittsburgh, PA, or Fremont, CA offices.\nThe final salary offered to a successful candidate will be dependent on several factors that may include but are not limited to: market location, job-related knowledge, skills, and experience. This range may change based on geographical location and may be modified in the future.\nAnticipated Base Salary Range\n$257,000\n—\n$402,000 USD\nIn addition to base pay, our competitive total rewards package consists of the following for full-time employees:\n401(k) Plan:\nIncludes a 6% company match.\nEquity:\nCompany stock options.\nInsurance Coverage:\n100% company-paid medical, dental, vision, and short/long-term disability insurance for employees.\nBenefit Start Date:\nEligible for benefits on your first day of employment.\nWell-Being Support:\nEmployee Assistance Program (EAP).\nTime Off:\nExempt Employees:\nFlexible, unlimited PTO and 12 company holidays, including a winter shutdown.\nNon-Exempt Employees:\n10 vacation days, paid sick leave, and 12 company holidays, including a winter shutdown, annually.\nOn-Site Perks:\nCatered lunches four times a week and a variety of healthy snacks and refreshments at our Salem and Pittsburgh locations.\nParental Leave:\nGenerous paid parental leave programs.\nWork Environment:\nA culture that supports flexible work arrangements.\nGrowth Opportunities:\nProfessional development and tuition reimbursement programs.\nRelocation Assistance:\nProvided for eligible roles.\nAnnual Discretionary Bonus:\nProvided for eligible roles.\nAll of our roles are U.S.-based. Applicants must have current authorization to work in the United States.\nAgility Robotics is committed to a work environment in which all individuals are treated with respect and dignity. Each individual has the right to work in a professional atmosphere that promotes equal employment opportunities and prohibits unlawful discriminatory practices, including harassment. Therefore, it is the policy of Agility Robotics to ensure equal employment opportunity without discrimination or harassment on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, genetic information, or any other characteristic protected by law. Agility Robotics prohibits any such discrimination or harassment.\nAgility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 2416,
+        "end": 2476,
+        "quote": "utilizing physics-based simulation (e.g., MuJoCo, Isaac Sim)"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 2416,
+        "end": 2476,
+        "quote": "utilizing physics-based simulation (e.g., MuJoCo, Isaac Sim)"
+      },
+      {
+        "id": "O3",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "duties",
+        "start": 242,
+        "end": 275,
+        "quote": "industry-leading safety standards"
+      },
+      {
+        "id": "O4",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1250,
+        "end": 1320,
+        "quote": "Lead the selection and integration of advanced machine learning models"
+      },
+      {
+        "id": "O5",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 1375,
+        "end": 1451,
+        "quote": "embodied AI (e.g., perception, manipulation, natural language understanding)"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 1375,
+        "end": 1451,
+        "quote": "embodied AI (e.g., perception, manipulation, natural language understanding)"
+      },
+      {
+        "id": "O7",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 935,
+        "end": 979,
+        "quote": "delivering robust, real-time AI capabilities"
+      },
+      {
+        "id": "O8",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1577,
+        "end": 1645,
+        "quote": "Ensure that all AI systems adhere to the highest standards of safety"
+      },
+      {
+        "id": "O9",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1647,
+        "end": 1678,
+        "quote": "privacy, and ethical guidelines"
+      },
+      {
+        "id": "O10",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 1735,
+        "end": 1793,
+        "quote": "ensure the sensor suite and embedded compute are optimized"
+      },
+      {
+        "id": "O11",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 2007,
+        "end": 2106,
+        "quote": "Establish MLOps best practices for efficient model training, deployment, monitoring, and iteration."
+      },
+      {
+        "id": "O12",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 2236,
+        "end": 2258,
+        "quote": "adaptive motor control"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 2236,
+        "end": 2258,
+        "quote": "adaptive motor control"
+      },
+      {
+        "id": "O14",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 2260,
+        "end": 2355,
+        "quote": "Deliver production-ready AI models that meet performance, latency, and reliability requirements"
+      },
+      {
+        "id": "O15",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 2416,
+        "end": 2476,
+        "quote": "utilizing physics-based simulation (e.g., MuJoCo, Isaac Sim)"
+      },
+      {
+        "id": "O16",
+        "code": "TC_SYNTHETIC_DATA",
+        "name": "合成数据",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 2581,
+        "end": 2638,
+        "quote": "combine teleoperation, synthetic data, and fleet learning"
+      },
+      {
+        "id": "O17",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 2540,
+        "end": 2577,
+        "quote": "Accelerate our data flywheel strategy"
+      },
+      {
+        "id": "O18",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "PROCUREMENT_OBJECT",
+        "field": "duties",
+        "start": 3288,
+        "end": 3370,
+        "quote": "Secure and allocate funding for specialized datasets and data annotation services."
+      },
+      {
+        "id": "O19",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "PROCUREMENT_OBJECT",
+        "field": "duties",
+        "start": 3371,
+        "end": 3464,
+        "quote": "Evaluate and procure necessary software licenses and tools for AI development and simulation."
+      },
+      {
+        "id": "O20",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 143,
+        "end": 148,
+        "quote": "AI/ML"
+      },
+      {
+        "id": "O21",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 268,
+        "end": 290,
+        "quote": "real-time AI solutions"
+      },
+      {
+        "id": "O22",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 412,
+        "end": 427,
+        "quote": "computer vision"
+      },
+      {
+        "id": "O23",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 429,
+        "end": 451,
+        "quote": "reinforcement learning"
+      },
+      {
+        "id": "O24",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 457,
+        "end": 485,
+        "quote": "large language models (LLMs)"
+      },
+      {
+        "id": "O25",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 641,
+        "end": 694,
+        "quote": "deploying models on resource-constrained edge devices"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0328:1",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "Spearhead the Sim2Real strategy, utilizing physics-based simulation (e.g., MuJoCo, Isaac Sim) to train robust policies that transfer seamlessly to hardware.",
+        "quote": "Spearhead the Sim2Real strategy, utilizing physics-based simulation (e.g., MuJoCo, Isaac Sim) to train robust policies that transfer seamlessly to hardware.",
+        "field": "full_description",
+        "start": 2383,
+        "end": 2539
+      },
+      {
+        "id": "2",
+        "review_id": "E0328:2",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "Accelerate our data flywheel strategy to combine teleoperation, synthetic data, and fleet learning to expand the fleet performance and reliability.",
+        "quote": "Accelerate our data flywheel strategy to combine teleoperation, synthetic data, and fleet learning to expand the fleet performance and reliability.",
+        "field": "full_description",
+        "start": 2540,
+        "end": 2687
+      },
+      {
+        "id": "3",
+        "review_id": "E0328:3",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$402,000 USD",
+        "quote": "$402,000 USD",
+        "field": "full_description",
+        "start": 4796,
+        "end": 4808
+      },
+      {
+        "id": "4",
+        "review_id": "E0328:4",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+        "quote": "Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+        "field": "full_description",
+        "start": 6745,
+        "end": 7089
+      }
+    ]
+  },
+  {
+    "coding_order": 120,
+    "reading_id": "E0326",
+    "company_id": "US_AGILITY",
+    "title": "Senior AI Software Engineer, Reinforcement Learning",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6127693004|872d9f1062fbc8c42fa1fd997c02e793f2bbb1c75813cd9db721f1597b740490",
+    "already_coded": false,
+    "fields": {
+      "duties": "Design, train, and deploy robust RL policies for locomotion, manipulation, whole body control, and dynamic interactions with the environment.\nIntegrate perception into RL policies to achieve obstacle-aware, collision-free motion, and perceptive manipulation.\nDevelop and maintain core RL infrastructure, including scalable training pipelines and evaluation frameworks.\nDesign and implement new simulation environments and tasks to support training and evaluation of control policies.\nCollaborate with on-robot software and deployment teams to ship production-quality policies to Digit.",
+      "requirements": "4+ years of experience developing and deploying RL policies for robotics applications.\nStrong Python skills and hands-on experience with a deep learning framework such as PyTorch.\nExperience designing reward functions, tuning hyperparameters, and implementing exploration strategies to solve complex control tasks.\nExperience with perception-in-the-loop control, integrating real-time sensory inputs for reactive or adaptive behaviors.\nProven experience deploying reinforcement learning policies on real-world bipedal or quadrupedal robots.\nFamiliarity with robot simulation environments (e.g. Mujoco-Warp, Isaac) and sim-to-real transfer.\nA collaborative approach and the ability to deliver safe, high-quality software in a fast-paced environment.\nBonus Qualifications\nAdvanced degree (MS or PhD) in Robotics, Computer Science, or a related field.\nExperience with contact-rich manipulation, including force-torque or tactile sensing.\nFamiliarity with policy distillation (e.g. teacher–student) for transferring state-based policies to perception-driven ones.\nPublications in top ML or robotics conferences (e.g. NeurIPS, ICML, CoRL, RSS, ICRA).\nThis a hybrid position based out of one of our Salem, Pittsburgh, or Fremont offices.\nThe final salary offered to a successful candidate will be dependent on several factors that may include but are not limited to: market location, job-related knowledge, skills, and experience. This range may change based on geographical location and may be modified in the future.\nAnticipated Salary Range\n$187,000\n—\n$292,000 USD\nIn addition to base pay, our competitive total rewards package consists of the following for full-time employees:\n401(k) Plan:\nIncludes a 6% company match.\nEquity:\nCompany stock options.\nInsurance Coverage:\n100% company-paid medical, dental, vision, and short/long-term disability insurance for employees.\nBenefit Start Date:\nEligible for benefits on your first day of employment.\nWell-Being Support:\nEmployee Assistance Program (EAP).\nTime Off:\nExempt Employees:\nFlexible, unlimited PTO and 12 company holidays, including a winter shutdown.\nNon-Exempt Employees:\n10 vacation days, paid sick leave, and 12 company holidays, including a winter shutdown, annually.\nOn-Site Perks:\nCatered lunches four times a week and a variety of healthy snacks and refreshments at our Salem and Pittsburgh locations.\nParental Leave:\nGenerous paid parental leave programs.\nWork Environment:\nA culture that supports flexible work arrangements.\nGrowth Opportunities:\nProfessional development and tuition reimbursement programs.\nRelocation Assistance:\nProvided for eligible roles.\nAnnual Discretionary Bonus:\nProvided for eligible roles.\nAll of our roles are U.S.-based. Applicants must have current authorization to work in the United States.\nAgility Robotics is committed to a work environment in which all individuals are treated with respect and dignity. Each individual has the right to work in a professional atmosphere that promotes equal employment opportunities and prohibits unlawful discriminatory practices, including harassment. Therefore, it is the policy of Agility Robotics to ensure equal employment opportunity without discrimination or harassment on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, genetic information, or any other characteristic protected by law. Agility Robotics prohibits any such discrimination or harassment.\nAgility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+      "full_description": "Agility’s commercially deployed humanoids operate alongside teams in warehouses, manufacturing facilities, and distribution centers—tackling physically demanding and repetitive tasks while enabling workers to focus on higher-value work. With industry-leading safety standards and years of proven deployment data, we're pioneering a new era of automation that enhances human potential.\nAgility is a pioneer. Our robot, Digit, is the first to be sold into workplaces across the globe. Our team is differentiated by its expertise in imagining, engineering, and delivering robots with advanced mobility, dexterity, intelligence, and efficiency -- robots specifically designed to work alongside people, in spaces built for people. Every day, we break through engineering challenges and invent new solutions and capabilities that will one day make robots commonplace and approachable. This work is our passion and our responsibility: our mission is to make businesses more productive and people’s lives more fulfilling.\nWhy Join Now\nDigit is one of the only humanoid robots deployed in real customer facilities today—at Schaeffler, GXO, Toyota Motor Manufacturing Canada, and Mercado Libre, with 65,000+ hours of real-world operation logged. In June 2026 we announced plans to become the first pure-play humanoid robotics company to trade publicly (ticker AGLT), in a ~$2.5B merger backed by NVIDIA, Amazon, SoftBank Vision Fund 2, and Foxconn. With $300M+ in orders for Digit and a factory built for 10,000 robots a year, we’re scaling fast—and the policies you build will ship to robots working alongside people in production, not sit in simulation.\nAbout the Role\nThe AI Controls team builds high-rate learned controllers that let Digit move robustly, efficiently, and safely in dynamic environments. As an AI Controls Engineer, you’ll develop and deploy reinforcement learning policies across humanoid locomotion, whole-body control, and manipulation—integrating perception to enable collision-free, perceptive motion in the real world.\nAbout The Work\nDesign, train, and deploy robust RL policies for locomotion, manipulation, whole body control, and dynamic interactions with the environment.\nIntegrate perception into RL policies to achieve obstacle-aware, collision-free motion, and perceptive manipulation.\nDevelop and maintain core RL infrastructure, including scalable training pipelines and evaluation frameworks.\nDesign and implement new simulation environments and tasks to support training and evaluation of control policies.\nCollaborate with on-robot software and deployment teams to ship production-quality policies to Digit.\nAbout You\n4+ years of experience developing and deploying RL policies for robotics applications.\nStrong Python skills and hands-on experience with a deep learning framework such as PyTorch.\nExperience designing reward functions, tuning hyperparameters, and implementing exploration strategies to solve complex control tasks.\nExperience with perception-in-the-loop control, integrating real-time sensory inputs for reactive or adaptive behaviors.\nProven experience deploying reinforcement learning policies on real-world bipedal or quadrupedal robots.\nFamiliarity with robot simulation environments (e.g. Mujoco-Warp, Isaac) and sim-to-real transfer.\nA collaborative approach and the ability to deliver safe, high-quality software in a fast-paced environment.\nBonus Qualifications\nAdvanced degree (MS or PhD) in Robotics, Computer Science, or a related field.\nExperience with contact-rich manipulation, including force-torque or tactile sensing.\nFamiliarity with policy distillation (e.g. teacher–student) for transferring state-based policies to perception-driven ones.\nPublications in top ML or robotics conferences (e.g. NeurIPS, ICML, CoRL, RSS, ICRA).\nThis a hybrid position based out of one of our Salem, Pittsburgh, or Fremont offices.\nThe final salary offered to a successful candidate will be dependent on several factors that may include but are not limited to: market location, job-related knowledge, skills, and experience. This range may change based on geographical location and may be modified in the future.\nAnticipated Salary Range\n$187,000\n—\n$292,000 USD\nIn addition to base pay, our competitive total rewards package consists of the following for full-time employees:\n401(k) Plan:\nIncludes a 6% company match.\nEquity:\nCompany stock options.\nInsurance Coverage:\n100% company-paid medical, dental, vision, and short/long-term disability insurance for employees.\nBenefit Start Date:\nEligible for benefits on your first day of employment.\nWell-Being Support:\nEmployee Assistance Program (EAP).\nTime Off:\nExempt Employees:\nFlexible, unlimited PTO and 12 company holidays, including a winter shutdown.\nNon-Exempt Employees:\n10 vacation days, paid sick leave, and 12 company holidays, including a winter shutdown, annually.\nOn-Site Perks:\nCatered lunches four times a week and a variety of healthy snacks and refreshments at our Salem and Pittsburgh locations.\nParental Leave:\nGenerous paid parental leave programs.\nWork Environment:\nA culture that supports flexible work arrangements.\nGrowth Opportunities:\nProfessional development and tuition reimbursement programs.\nRelocation Assistance:\nProvided for eligible roles.\nAnnual Discretionary Bonus:\nProvided for eligible roles.\nAll of our roles are U.S.-based. Applicants must have current authorization to work in the United States.\nAgility Robotics is committed to a work environment in which all individuals are treated with respect and dignity. Each individual has the right to work in a professional atmosphere that promotes equal employment opportunities and prohibits unlawful discriminatory practices, including harassment. Therefore, it is the policy of Agility Robotics to ensure equal employment opportunity without discrimination or harassment on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, genetic information, or any other characteristic protected by law. Agility Robotics prohibits any such discrimination or harassment.\nAgility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 94,
+        "end": 100,
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 139,
+        "end": 162,
+        "quote": "deep learning framework"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 171,
+        "end": 178,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O4",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 594,
+        "end": 605,
+        "quote": "Mujoco-Warp"
+      },
+      {
+        "id": "O5",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 607,
+        "end": 612,
+        "quote": "Isaac"
+      },
+      {
+        "id": "O6",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 242,
+        "end": 275,
+        "quote": "industry-leading safety standards"
+      },
+      {
+        "id": "O7",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 1661,
+        "end": 1718,
+        "quote": "The AI Controls team builds high-rate learned controllers"
+      },
+      {
+        "id": "O8",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 0,
+        "end": 44,
+        "quote": "Design, train, and deploy robust RL policies"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 142,
+        "end": 258,
+        "quote": "Integrate perception into RL policies to achieve obstacle-aware, collision-free motion, and perceptive manipulation."
+      },
+      {
+        "id": "O10",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 142,
+        "end": 179,
+        "quote": "Integrate perception into RL policies"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 207,
+        "end": 228,
+        "quote": "collision-free motion"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 259,
+        "end": 341,
+        "quote": "Develop and maintain core RL infrastructure, including scalable training pipelines"
+      },
+      {
+        "id": "O13",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 346,
+        "end": 367,
+        "quote": "evaluation frameworks"
+      },
+      {
+        "id": "O14",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 369,
+        "end": 427,
+        "quote": "Design and implement new simulation environments and tasks"
+      },
+      {
+        "id": "O15",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 48,
+        "end": 59,
+        "quote": "RL policies"
+      },
+      {
+        "id": "O16",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 331,
+        "end": 361,
+        "quote": "perception-in-the-loop control"
+      },
+      {
+        "id": "O17",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 331,
+        "end": 361,
+        "quote": "perception-in-the-loop control"
+      },
+      {
+        "id": "O18",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 375,
+        "end": 399,
+        "quote": "real-time sensory inputs"
+      },
+      {
+        "id": "O19",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 464,
+        "end": 495,
+        "quote": "reinforcement learning policies"
+      },
+      {
+        "id": "O20",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 558,
+        "end": 587,
+        "quote": "robot simulation environments"
+      },
+      {
+        "id": "O21",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 692,
+        "end": 719,
+        "quote": "safe, high-quality software"
+      },
+      {
+        "id": "O22",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 865,
+        "end": 890,
+        "quote": "contact-rich manipulation"
+      },
+      {
+        "id": "O23",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 952,
+        "end": 971,
+        "quote": "policy distillation"
+      },
+      {
+        "id": "O24",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1036,
+        "end": 1058,
+        "quote": "perception-driven ones"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0326:1",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "Familiarity with robot simulation environments (e.g. Mujoco-Warp, Isaac) and sim-to-real transfer.",
+        "quote": "Familiarity with robot simulation environments (e.g. Mujoco-Warp, Isaac) and sim-to-real transfer.",
+        "field": "full_description",
+        "start": 3187,
+        "end": 3285
+      },
+      {
+        "id": "2",
+        "review_id": "E0326:2",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$292,000 USD",
+        "quote": "$292,000 USD",
+        "field": "full_description",
+        "start": 4195,
+        "end": 4207
+      },
+      {
+        "id": "3",
+        "review_id": "E0326:3",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+        "quote": "Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+        "field": "full_description",
+        "start": 6144,
+        "end": 6488
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+﻿conclusion_id,status,question,claim,scope,evidence,limit
+A01,保留,跨职能活动,研究48/66、部署维护264/343、质量300/459位于同名职能之外。,WHOLE23 活动正例,R_cross_function.csv,活动不等于部门；部署包括模型与平台。
+A02,保留,共同承担,三组共同承担65、301、235/1599。,WHOLE23活动可判断范围,R_joint_summary.csv,共同岗位不证明流程因果。
+A03,保留,工作对象,84条中81条无命名产品归属。,固定四公司两职能,O4_attribution_seniority_unknown.csv,不以主打产品补未知。
+A04,保留,算术分解,工程总差+11.10，构成+19.45，职能内-8.35个百分点。,Galbot-Figure固定K,D2_decomposition_summary.csv,反向分量，不能发布因果贡献率。
+A05,条件保留,Q2扩展,17类1576条首轮编码；1552条为整公司主范围。,Q2-v2.1,Q4_role_coverage_final.csv,首轮覆盖不代表复核全部完成。
+A06,条件保留,同任务要求,机器人模型Python一般无条件40/90，U16；运行软件C++36/63，U24。,预设ROBOT_MODEL ROBOT_RUNTIME,Q5_prefixed_task_examples.csv,文本未知与内容误判是不同风险。
+A07,纠正,公司贡献,去掉Field AI后部署Python4/65，17有效公司仍通过组门槛。,WHOLE23 一般 无条件,Q4_leave_one_company_out_final.csv,广告加权敏感但不丧失许可。
+A08,纠正,比较资格,展示筛选和组比较资格逐格分开。,17职能22语境,Q4_display_selection.csv;Q4_task_strata_final.csv,不能笼统称小职能无组许可。
+A09,不接受,内容全部验收,实际全文复核181，种子110/340，强制161/1208。,本轮Astra复核,Q3_review_receipts.csv,剩余复核不可冒充完成；队列互相重叠。
+A10,建议,扩样决策,先收口已有编码；新增公司应针对新研究问题和供给层不足。,研究设计判断,REPORT_Astra_final.md,20加20不是当前结论成立的必要条件。

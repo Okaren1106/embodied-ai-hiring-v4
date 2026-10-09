@@ -1,0 +1,1 @@
+规范render_docx.py入口因缺少soffice.exe无法转换。改用Microsoft Word从独立临时副本导出PDF，再以pypdfium2逐页渲染。

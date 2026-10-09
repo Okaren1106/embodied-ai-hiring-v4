@@ -1,0 +1,644 @@
+[
+  {
+    "coding_order": 17,
+    "reading_id": "E0503",
+    "company_id": "US_FIGURE",
+    "title": "Humanoid Robot Operator - Commercial Site Team (LA)",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4698238006|059598924bd56fc67afd58aff5c62a2360b8342f6e639e1d1ea4b5a8cabc9dc4",
+    "already_coded": false,
+    "fields": {
+      "duties": "Ensure successful operations of the robot in the field or on customer sites.\nFollow proper equipment and robot maintenance procedures, including bring-up and shutdown.\nRun the robot, identify bugs and problems, relay feedback to the appropriate teams.\nTrack, document, and escalate issues to the appropriate engineering teams using Jira.\nAdhere to all safety procedures related to robot and teleoperation equipment.",
+      "requirements": "Willingness to own the operations of the humanoid and drive proper functioning of the robot.\nExcellent communication skills.\nDemonstrate sustained focus and attention while performing assigned tasks.\nExperience working with robots or troubleshooting mechanical systems.\nCan stand 8+ hours a day and physically manage humanoid hardware\nEmbrace constructive feedback and strive for constant improvement.\nThrive in a fast paced environment.\nValid drivers license and clean driving record\nBonus Qualifications:\nA passion for helping scale the deployment of humanoid robots.\nExcellent physical coordination, spatial awareness, and focus.\nMaster new physical tasks quickly and find the optimal way to perform them.\nThe US base hourly rate for this full-time position is $26-30/hr.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is headquartered in San Jose, CA, but this role will be based at one of our customer sites in Los Angeles.\nThis is a contract-to-hire position with the goal of transitioning to full-time employment.\nAs a Humanoid Robot Operator, you'll have the unique opportunity to work directly with our humanoid robots to test and validate new behaviors and skills.\nResponsibilities:\nEnsure successful operations of the robot in the field or on customer sites.\nFollow proper equipment and robot maintenance procedures, including bring-up and shutdown.\nRun the robot, identify bugs and problems, relay feedback to the appropriate teams.\nTrack, document, and escalate issues to the appropriate engineering teams using Jira.\nAdhere to all safety procedures related to robot and teleoperation equipment.\nRequirements:\nWillingness to own the operations of the humanoid and drive proper functioning of the robot.\nExcellent communication skills.\nDemonstrate sustained focus and attention while performing assigned tasks.\nExperience working with robots or troubleshooting mechanical systems.\nCan stand 8+ hours a day and physically manage humanoid hardware\nEmbrace constructive feedback and strive for constant improvement.\nThrive in a fast paced environment.\nValid drivers license and clean driving record\nBonus Qualifications:\nA passion for helping scale the deployment of humanoid robots.\nExcellent physical coordination, spatial awareness, and focus.\nMaster new physical tasks quickly and find the optimal way to perform them.\nThe US base hourly rate for this full-time position is $26-30/hr.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 578,
+        "end": 620,
+        "quote": "test and validate new behaviors and skills",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 338,
+        "end": 415,
+        "quote": "Adhere to all safety procedures related to robot and teleoperation equipment.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0503:1",
+        "codes": [
+          "V2_JIRA"
+        ],
+        "names": [
+          "Jira"
+        ],
+        "surface": "Track, document, and escalate issues to the appropriate engineering teams using Jira.",
+        "quote": "Track, document, and escalate issues to the appropriate engineering teams using Jira.",
+        "field": "full_description",
+        "start": 892,
+        "end": 977
+      },
+      {
+        "id": "2",
+        "review_id": "E0503:2",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "Adhere to all safety procedures related to robot and teleoperation equipment.",
+        "quote": "Adhere to all safety procedures related to robot and teleoperation equipment.",
+        "field": "full_description",
+        "start": 978,
+        "end": 1055
+      },
+      {
+        "id": "3",
+        "review_id": "E0503:3",
+        "codes": [
+          "V2_INCIDENT_SUPPORT"
+        ],
+        "names": [
+          "运行排障与事件升级"
+        ],
+        "surface": "Experience working with robots or troubleshooting mechanical systems.",
+        "quote": "Experience working with robots or troubleshooting mechanical systems.",
+        "field": "full_description",
+        "start": 1270,
+        "end": 1339
+      },
+      {
+        "id": "4",
+        "review_id": "E0503:4",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Can stand 8+ hours a day and physically manage humanoid hardware",
+        "quote": "Can stand 8+ hours a day and physically manage humanoid hardware",
+        "field": "full_description",
+        "start": 1340,
+        "end": 1404
+      },
+      {
+        "id": "5",
+        "review_id": "E0503:5",
+        "codes": [
+          "V2_JIRA"
+        ],
+        "names": [
+          "Jira"
+        ],
+        "surface": "Jira",
+        "quote": "using Jira",
+        "field": "duties",
+        "start": 326,
+        "end": 336
+      }
+    ]
+  },
+  {
+    "coding_order": 18,
+    "reading_id": "E0497",
+    "company_id": "US_FIGURE",
+    "title": "Helix Data Creator",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4585080006|42366627f587b0e8a9687158fe53283aa270f3f16d8d95909e464dd6c5f2e89e",
+    "already_coded": false,
+    "fields": {
+      "duties": "Data collection:\nWear sensor suits to perform repetitive, precise physical movements (walking, lifting, reaching) that guide the robot and generate training data, for up to 8 hours per shift.\nSOP adherence:\nFollow detailed \"Ground Truth\" movement protocols exactly, with zero deviation, to keep data consistent and high quality.\nEquipment care:\nHelp with donning and doffing sensor suits, follow proper setup and shutdown procedures, and promptly report any hardware issues to your Inventory Team Lead.\nFeedback & quality:\nFlag bugs or issues during collection, share daily feedback to improve the process, and work comfortably toward daily data-collection targets.\nSafety:\nKeep a clean, organized workspace and follow ergonomic guidelines to stay safe during repetitive tasks. We want you to speak up early about anything that doesn't feel right.",
+      "requirements": "Able to perform repetitive standing, walking, lifting, reaching, and full-range limb motions required for motion-capture across an 8+ hour shift\nExcellent physical coordination, spatial awareness, and sustained focus\nQuick to master new physical tasks and find the most efficient way to perform them\nOpen to constructive feedback and motivated to keep improving\nStrong attendance and punctuality; reliable, accountable, and able to work both independently and within a small team\nReliable transportation, and able to travel to different work sites around the Bay Area (locations change regularly)\nComfortable in a fast-paced startup environment with shifting priorities\nLegally authorized to work in the US\nBonus Qualifications:\nTechnical or hands-on background (electronics, mechanical, IT, fabrication, etc.)\nHardware/software troubleshooting experience\nVR headset experience and/or extensive video-game experience (great proxies for spatial tracking and hand-eye coordination)\nPrior robotics or motion-capture exposure\nMilitary background\nA genuine passion for robotics and helping scale the deployment of humanoid robots\nThis role begins as a six-month fixed-term agreement\n, with potential for longer-term opportunities depending on your contributions and interests. We’re looking for motivated people who want to support real-world robot development and grow with us.\nThe US base salary range for this full-time position starts at $30/hr.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is headquartered in San Jose, CA.\nWe're hiring\nHelix Data Creators\nto power our humanoid robot development. In this hands-on role, you'll wear Figure-provided sensor equipment to guide robots through human-like motions and collect the high-quality motion data that trains our AI models.\nThis is a full-time 6 month\nfixed-term\nposition, paid hourly. It's a strong entry point into robotics: high-performing Creators have opportunities to grow into\nSenior Creator\nand other lead positions as they become available.\nSchedule:\nThis is a 24/7 operation staffed across multiple rotating shifts (Day, Swing, and Night). Specific hours are listed below. Night-shift hours are eligible for a $3/hr differential ($33/hr). Some flexibility for rotation may be required.\nDay Shift - 6:30 am - 3 pm\nSwing Shift - 2:30 pm - 11 pm\nNight Shift - 10:30 pm - 7 am\nResponsibilities:\nData collection:\nWear sensor suits to perform repetitive, precise physical movements (walking, lifting, reaching) that guide the robot and generate training data, for up to 8 hours per shift.\nSOP adherence:\nFollow detailed \"Ground Truth\" movement protocols exactly, with zero deviation, to keep data consistent and high quality.\nEquipment care:\nHelp with donning and doffing sensor suits, follow proper setup and shutdown procedures, and promptly report any hardware issues to your Inventory Team Lead.\nFeedback & quality:\nFlag bugs or issues during collection, share daily feedback to improve the process, and work comfortably toward daily data-collection targets.\nSafety:\nKeep a clean, organized workspace and follow ergonomic guidelines to stay safe during repetitive tasks. We want you to speak up early about anything that doesn't feel right.\nRequirements:\nAble to perform repetitive standing, walking, lifting, reaching, and full-range limb motions required for motion-capture across an 8+ hour shift\nExcellent physical coordination, spatial awareness, and sustained focus\nQuick to master new physical tasks and find the most efficient way to perform them\nOpen to constructive feedback and motivated to keep improving\nStrong attendance and punctuality; reliable, accountable, and able to work both independently and within a small team\nReliable transportation, and able to travel to different work sites around the Bay Area (locations change regularly)\nComfortable in a fast-paced startup environment with shifting priorities\nLegally authorized to work in the US\nBonus Qualifications:\nTechnical or hands-on background (electronics, mechanical, IT, fabrication, etc.)\nHardware/software troubleshooting experience\nVR headset experience and/or extensive video-game experience (great proxies for spatial tracking and hand-eye coordination)\nPrior robotics or motion-capture exposure\nMilitary background\nA genuine passion for robotics and helping scale the deployment of humanoid robots\nThis role begins as a six-month fixed-term agreement\n, with potential for longer-term opportunities depending on your contributions and interests. We’re looking for motivated people who want to support real-world robot development and grow with us.\nThe US base salary range for this full-time position starts at $30/hr.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 207,
+        "end": 328,
+        "quote": "Follow detailed \"Ground Truth\" movement protocols exactly, with zero deviation, to keep data consistent and high quality.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 492,
+        "end": 554,
+        "quote": "collect the high-quality motion data that trains our AI models",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 712,
+        "end": 776,
+        "quote": "follow ergonomic guidelines to stay safe during repetitive tasks",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0497:1",
+        "codes": [
+          "V2_SOP_OPERATION"
+        ],
+        "names": [
+          "SOP操作与数据质量"
+        ],
+        "surface": "SOP adherence:",
+        "quote": "SOP adherence:",
+        "field": "full_description",
+        "start": 1325,
+        "end": 1339
+      },
+      {
+        "id": "2",
+        "review_id": "E0497:2",
+        "codes": [
+          "V2_INCIDENT_SUPPORT"
+        ],
+        "names": [
+          "运行排障与事件升级"
+        ],
+        "surface": "Hardware/software troubleshooting experience",
+        "quote": "Hardware/software troubleshooting experience",
+        "field": "full_description",
+        "start": 2806,
+        "end": 2850
+      }
+    ]
+  },
+  {
+    "coding_order": 19,
+    "reading_id": "E0500",
+    "company_id": "US_FIGURE",
+    "title": "Humanoid Robot Operator (Afternoon Shift)",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4644956006|0ccebf6c4659a381c713d1ea4ead12e53d9ef6dda6e699d21620bbd78d206f97",
+    "already_coded": false,
+    "fields": {
+      "duties": "Be responsible for the humanoid robot operating successfully for the Customer use case\nRun the robot constantly throughout the day/midevening, identifying bugs and problems\nTrack, document, and escalate issues to the appropriate engineering teams using Jira.\nEnsure work areas meet organizational cleanliness and organization standards.\nAdhere to all safety procedures related to robot operation and teleoperation equipment.\nFollow proper equipment and robot maintenance procedures, including bring-up and shutdown.",
+      "requirements": "Willingness to own the operations of the humanoid and drive proper functioning of the robot\nExcellent communication skills.\nDemonstrate sustained focus and attention while performing assigned tasks.\nExperience working with robots or troubleshooting mechanical systems.\nCan stand 8+ hours a day and physically manage humanoid hardware\nEmbrace constructive feedback and strive for constant improvement.\nThrive in a fast paced environment.\n5 day workweek with a mandatory weekend shift and  2 days off\nPhysical Requirements:\nLifting & Handling: Must be able to safely lift, carry, and maneuver equipment or humanoid hardware weighing up to 50 lbs independently.\nSustained Mobility: Ability to stand and move throughout the work area for the entirety of an 8+ hour shift (excluding meal/rest breaks).\nManual Effort: Capacity for frequent bending, reaching, stooping, and fine motor manipulation of robot hardware.\nBonus Qualifications:\nA passion for helping scale the deployment of learning humanoid robots.\nExcellent physical coordination, spatial awareness, and focus.\nMaster new physical tasks quickly and find the optimal way to perform them.\nThere will be a  2–3 week training process at company headquarters. Training takes place Monday through Friday from 7:30 AM–4:00 PM.\nThe US base hourly rate for this full-time position is $30/hr .\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is headquartered in San Jose, CA.\nThis is a contract-to-hire position with the goal of transitioning to full-time employment.\nAs a Humanoid Robot Operator, you'll have the unique opportunity to work directly with our humanoid robots to test and validate new behaviors and skills.\nYou will be at the forefront of our operations, deploying the robots for real commercial use cases, identifying issues, and properly filing JIRA tickets to relay failures to the appropriate teams.\nSHIFTS\n— 2:30 PM - 11:00 PM\nResponsibilities:\nBe responsible for the humanoid robot operating successfully for the Customer use case\nRun the robot constantly throughout the day/midevening, identifying bugs and problems\nTrack, document, and escalate issues to the appropriate engineering teams using Jira.\nEnsure work areas meet organizational cleanliness and organization standards.\nAdhere to all safety procedures related to robot operation and teleoperation equipment.\nFollow proper equipment and robot maintenance procedures, including bring-up and shutdown.\nRequirements:\nWillingness to own the operations of the humanoid and drive proper functioning of the robot\nExcellent communication skills.\nDemonstrate sustained focus and attention while performing assigned tasks.\nExperience working with robots or troubleshooting mechanical systems.\nCan stand 8+ hours a day and physically manage humanoid hardware\nEmbrace constructive feedback and strive for constant improvement.\nThrive in a fast paced environment.\n5 day workweek with a mandatory weekend shift and  2 days off\nPhysical Requirements:\nLifting & Handling: Must be able to safely lift, carry, and maneuver equipment or humanoid hardware weighing up to 50 lbs independently.\nSustained Mobility: Ability to stand and move throughout the work area for the entirety of an 8+ hour shift (excluding meal/rest breaks).\nManual Effort: Capacity for frequent bending, reaching, stooping, and fine motor manipulation of robot hardware.\nBonus Qualifications:\nA passion for helping scale the deployment of learning humanoid robots.\nExcellent physical coordination, spatial awareness, and focus.\nMaster new physical tasks quickly and find the optimal way to perform them.\nThere will be a  2–3 week training process at company headquarters. Training takes place Monday through Friday from 7:30 AM–4:00 PM.\nThe US base hourly rate for this full-time position is $30/hr .\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 505,
+        "end": 547,
+        "quote": "test and validate new behaviors and skills",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 337,
+        "end": 424,
+        "quote": "Adhere to all safety procedures related to robot operation and teleoperation equipment.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0500:1",
+        "codes": [
+          "V2_JIRA"
+        ],
+        "names": [
+          "Jira"
+        ],
+        "surface": "You will be at the forefront of our operations, deploying the robots for real commercial use cases, identifying issues, and properly filing JIRA tickets to relay failures to the appropriate teams.",
+        "quote": "You will be at the forefront of our operations, deploying the robots for real commercial use cases, identifying issues, and properly filing JIRA tickets to relay failures to the appropriate teams.",
+        "field": "full_description",
+        "start": 549,
+        "end": 745
+      },
+      {
+        "id": "2",
+        "review_id": "E0500:2",
+        "codes": [
+          "V2_JIRA"
+        ],
+        "names": [
+          "Jira"
+        ],
+        "surface": "Track, document, and escalate issues to the appropriate engineering teams using Jira.",
+        "quote": "Track, document, and escalate issues to the appropriate engineering teams using Jira.",
+        "field": "full_description",
+        "start": 965,
+        "end": 1050
+      },
+      {
+        "id": "3",
+        "review_id": "E0500:3",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "Adhere to all safety procedures related to robot operation and teleoperation equipment.",
+        "quote": "Adhere to all safety procedures related to robot operation and teleoperation equipment.",
+        "field": "full_description",
+        "start": 1129,
+        "end": 1216
+      },
+      {
+        "id": "4",
+        "review_id": "E0500:4",
+        "codes": [
+          "V2_INCIDENT_SUPPORT"
+        ],
+        "names": [
+          "运行排障与事件升级"
+        ],
+        "surface": "Experience working with robots or troubleshooting mechanical systems.",
+        "quote": "Experience working with robots or troubleshooting mechanical systems.",
+        "field": "full_description",
+        "start": 1521,
+        "end": 1590
+      },
+      {
+        "id": "5",
+        "review_id": "E0500:5",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Can stand 8+ hours a day and physically manage humanoid hardware",
+        "quote": "Can stand 8+ hours a day and physically manage humanoid hardware",
+        "field": "full_description",
+        "start": 1591,
+        "end": 1655
+      },
+      {
+        "id": "6",
+        "review_id": "E0500:6",
+        "codes": [
+          "V2_JIRA"
+        ],
+        "names": [
+          "Jira"
+        ],
+        "surface": "Jira",
+        "quote": "Track, document, and escalate issues to the appropriate engineering teams using Jira.",
+        "field": "duties",
+        "start": 173,
+        "end": 258
+      }
+    ]
+  },
+  {
+    "coding_order": 20,
+    "reading_id": "E0498",
+    "company_id": "US_FIGURE",
+    "title": "Helix Data Creator",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4627111006|862fbe7e9c587a10c51835e50a8a50e1ec4436164b2d1d7fe4d2402e72fe358b",
+    "already_coded": false,
+    "fields": {
+      "duties": "Wear sensor equipment to guide the robot through human-like motions\nCollect high-quality motion data used to train AI models\nFlag any issues or bugs during collection and share daily feedback with the team\nFollow proper equipment and robot maintenance procedures, including setup and shutdown\nMaintain a safe and organized workspace during all operations",
+      "requirements": "Excellent physical coordination, spatial awareness, and focus\nStay on your feet for 8+ hours a day and be engaged for extended periods during data collection\nMaster new physical tasks quickly and find the optimal way to perform them\nEmbrace constructive feedback and strive for constant improvement\nThrive in a fast paced environment\nBonus Qualifications:\nExperience working with robots or troubleshooting mechanical systems\nA passion for helping scale the deployment of learning humanoid robots\nThis role begins as a six-month fixed-term agreement\n, with potential for longer-term opportunities depending on your contributions and interests. We’re looking for motivated people who want to support real-world robot development and grow with us.\nThe US base salary range for this full-time position starts at $30/hr.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is headquartered in San Jose, CA.\nWe're hiring\nHelix Data Creators\nto power our humanoid robot development efforts in Los Angeles, CA. In this hands-on role, you'll wear Figure-provided sensor equipment to guide robots through human-like motions and collect the high-quality motion data that trains our AI models.\nThis is a full-time 6 month\nfixed-term\nposition, paid hourly. It's a strong entry point into robotics: high-performing Creators have opportunities to grow into\nSenior Creator\nand other lead positions as they become available.\nSchedule:\nThis is a 24/7 operation staffed across multiple rotating shifts (Day, Swing, and Night). Specific hours are listed below. Night-shift hours are eligible for a $3/hr differential ($33/hr). Some flexibility for rotation may be required.\nDay Shift - 6:30 am - 3 pm\nSwing Shift - 2:30 pm - 11 pm\nNight Shift - 10:30 pm - 7 am\nResponsibilities:\nWear sensor equipment to guide the robot through human-like motions\nCollect high-quality motion data used to train AI models\nFlag any issues or bugs during collection and share daily feedback with the team\nFollow proper equipment and robot maintenance procedures, including setup and shutdown\nMaintain a safe and organized workspace during all operations\nRequirements:\nExcellent physical coordination, spatial awareness, and focus\nStay on your feet for 8+ hours a day and be engaged for extended periods during data collection\nMaster new physical tasks quickly and find the optimal way to perform them\nEmbrace constructive feedback and strive for constant improvement\nThrive in a fast paced environment\nBonus Qualifications:\nExperience working with robots or troubleshooting mechanical systems\nA passion for helping scale the deployment of learning humanoid robots\nThis role begins as a six-month fixed-term agreement\n, with potential for longer-term opportunities depending on your contributions and interests. We’re looking for motivated people who want to support real-world robot development and grow with us.\nThe US base salary range for this full-time position starts at $30/hr.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 68,
+        "end": 124,
+        "quote": "Collect high-quality motion data used to train AI models",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "duties",
+        "start": 89,
+        "end": 124,
+        "quote": "motion data used to train AI models",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 293,
+        "end": 354,
+        "quote": "Maintain a safe and organized workspace during all operations",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0498:1",
+        "codes": [
+          "V2_INCIDENT_SUPPORT"
+        ],
+        "names": [
+          "运行排障与事件升级"
+        ],
+        "surface": "Experience working with robots or troubleshooting mechanical systems",
+        "quote": "Experience working with robots or troubleshooting mechanical systems",
+        "field": "full_description",
+        "start": 1885,
+        "end": 1953
+      }
+    ]
+  },
+  {
+    "coding_order": 21,
+    "reading_id": "E0507",
+    "company_id": "US_FIGURE",
+    "title": "Humanoid Robot Pilot",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4369739006|804c0050fab9b4da469a150302044dad608b4d71aaf63d9b56cdcce18589b819",
+    "already_coded": false,
+    "fields": {
+      "duties": "Wear teleoperation equipment and guide the robot through designated behaviors\nUpload collected data to our AI training system\nProactively identify issues during collection and report feedback daily to Figure's AI team\nMaintain a safe environment for both yourself and the robot during teleoperation\nFollow proper equipment and robot maintenance procedures, including bring-up and shutdown",
+      "requirements": "Excellent physical coordination, spatial awareness, and focus\nCan stand 8+ hours a day\nMaster new physical tasks quickly and find the optimal way to perform them\nEmbrace constructive feedback and strive for constant improvement\nThrive in a fast paced environment\nBonus Qualifications:\nExperience working with robots or troubleshooting mechanical systems\nA passion for helping scale the deployment of learning humanoid robots\nThis role begins as a 6 month fixed-term agreement\n, with potential for longer-term opportunities depending on your contributions and interests. We’re looking for motivated people who want to support real-world robot development and grow with us.\nThe US base salary range for this full-time position starts at $32/hr .\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is headquartered in San Jose, CA.\nAs a Humanoid Robot Pilot, you'll have the unique opportunity to work directly with our learning humanoid robots and teach them new behaviors and skills. You will be at the forefront of our operations, collecting new data to train our AI systems and working with the AI team to refine behaviors over time.\nThis is a full-time 6 month\nfixed-term\nposition, paid hourly. It's a strong entry point into robotics: high-performing Pilots have opportunities to grow into Senior Pilots and other lead positions as they become available.\nThis role requires flexibility to work across varying shifts, including nights. Travel is also required and may vary in length, from short day trips to offsite stays of up to one month.\nResponsibilities\n:\nWear teleoperation equipment and guide the robot through designated behaviors\nUpload collected data to our AI training system\nProactively identify issues during collection and report feedback daily to Figure's AI team\nMaintain a safe environment for both yourself and the robot during teleoperation\nFollow proper equipment and robot maintenance procedures, including bring-up and shutdown\nRequirements\n:\nExcellent physical coordination, spatial awareness, and focus\nCan stand 8+ hours a day\nMaster new physical tasks quickly and find the optimal way to perform them\nEmbrace constructive feedback and strive for constant improvement\nThrive in a fast paced environment\nBonus Qualifications:\nExperience working with robots or troubleshooting mechanical systems\nA passion for helping scale the deployment of learning humanoid robots\nThis role begins as a 6 month fixed-term agreement\n, with potential for longer-term opportunities depending on your contributions and interests. We’re looking for motivated people who want to support real-world robot development and grow with us.\nThe US base salary range for this full-time position starts at $32/hr .\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 78,
+        "end": 125,
+        "quote": "Upload collected data to our AI training system",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 78,
+        "end": 125,
+        "quote": "Upload collected data to our AI training system",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 218,
+        "end": 298,
+        "quote": "Maintain a safe environment for both yourself and the robot during teleoperation",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0507:1",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "Wear teleoperation equipment and guide the robot through designated behaviors",
+        "quote": "Wear teleoperation equipment and guide the robot through designated behaviors",
+        "field": "full_description",
+        "start": 1037,
+        "end": 1114
+      },
+      {
+        "id": "2",
+        "review_id": "E0507:2",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "Maintain a safe environment for both yourself and the robot during teleoperation",
+        "quote": "Maintain a safe environment for both yourself and the robot during teleoperation",
+        "field": "full_description",
+        "start": 1255,
+        "end": 1335
+      },
+      {
+        "id": "3",
+        "review_id": "E0507:3",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Can stand 8+ hours a day",
+        "quote": "Can stand 8+ hours a day",
+        "field": "full_description",
+        "start": 1503,
+        "end": 1527
+      },
+      {
+        "id": "4",
+        "review_id": "E0507:4",
+        "codes": [
+          "V2_INCIDENT_SUPPORT"
+        ],
+        "names": [
+          "运行排障与事件升级"
+        ],
+        "surface": "Experience working with robots or troubleshooting mechanical systems",
+        "quote": "Experience working with robots or troubleshooting mechanical systems",
+        "field": "full_description",
+        "start": 1726,
+        "end": 1794
+      }
+    ]
+  },
+  {
+    "coding_order": 22,
+    "reading_id": "E0502",
+    "company_id": "US_FIGURE",
+    "title": "Humanoid Robot Operator - Commercial Site Team",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4674402006|6e9c5481244f9f0f44ba6a1f3f59d730a73657393c11219996538a69f7bcf701",
+    "already_coded": false,
+    "fields": {
+      "duties": "Ensure successful operations of the robot in the field or on customer sites.\nFollow proper equipment and robot maintenance procedures, including bring-up and shutdown.\nRun the robot, identify bugs and problems, relay feedback to the appropriate teams.\nTrack, document, and escalate issues to the appropriate engineering teams using Jira.\nAdhere to all safety procedures related to robot and teleoperation equipment.",
+      "requirements": "Willingness to own the operations of the humanoid and drive proper functioning of the robot.\nExcellent communication skills.\nDemonstrate sustained focus and attention while performing assigned tasks.\nExperience working with robots or troubleshooting mechanical systems.\nCan stand 8+ hours a day and physically manage humanoid hardware\nEmbrace constructive feedback and strive for constant improvement.\nThrive in a fast paced environment.\nValid drivers license and clean driving record\nBonus Qualifications:\nA passion for helping scale the deployment of humanoid robots.\nExcellent physical coordination, spatial awareness, and focus.\nMaster new physical tasks quickly and find the optimal way to perform them.\nThe US base hourly rate for this full-time position is $26-30/hr.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended.",
+      "full_description": "Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human level intelligence. Its robots are engineered to perform a variety of tasks in the home and commercial markets. Figure is headquartered in San Jose, CA, but this role will be based at one of our customer sites in Reno, NV.\nThis is a contract-to-hire position with the goal of transitioning to full-time employment.\nAs a Humanoid Robot Operator, you'll have the unique opportunity to work directly with our humanoid robots to test and validate new behaviors and skills.\nResponsibilities:\nEnsure successful operations of the robot in the field or on customer sites.\nFollow proper equipment and robot maintenance procedures, including bring-up and shutdown.\nRun the robot, identify bugs and problems, relay feedback to the appropriate teams.\nTrack, document, and escalate issues to the appropriate engineering teams using Jira.\nAdhere to all safety procedures related to robot and teleoperation equipment.\nRequirements:\nWillingness to own the operations of the humanoid and drive proper functioning of the robot.\nExcellent communication skills.\nDemonstrate sustained focus and attention while performing assigned tasks.\nExperience working with robots or troubleshooting mechanical systems.\nCan stand 8+ hours a day and physically manage humanoid hardware\nEmbrace constructive feedback and strive for constant improvement.\nThrive in a fast paced environment.\nValid drivers license and clean driving record\nBonus Qualifications:\nA passion for helping scale the deployment of humanoid robots.\nExcellent physical coordination, spatial awareness, and focus.\nMaster new physical tasks quickly and find the optimal way to perform them.\nThe US base hourly rate for this full-time position is $26-30/hr.\nThe pay offered for this position may vary based on several individual factors, including job-related knowledge, skills, and experience. The total compensation package may also include additional components/benefits depending on the specific role. This information will be shared if an employment offer is extended."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 575,
+        "end": 617,
+        "quote": "test and validate new behaviors and skills",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 338,
+        "end": 415,
+        "quote": "Adhere to all safety procedures related to robot and teleoperation equipment.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0502:1",
+        "codes": [
+          "V2_JIRA"
+        ],
+        "names": [
+          "Jira"
+        ],
+        "surface": "Track, document, and escalate issues to the appropriate engineering teams using Jira.",
+        "quote": "Track, document, and escalate issues to the appropriate engineering teams using Jira.",
+        "field": "full_description",
+        "start": 889,
+        "end": 974
+      },
+      {
+        "id": "2",
+        "review_id": "E0502:2",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "Adhere to all safety procedures related to robot and teleoperation equipment.",
+        "quote": "Adhere to all safety procedures related to robot and teleoperation equipment.",
+        "field": "full_description",
+        "start": 975,
+        "end": 1052
+      },
+      {
+        "id": "3",
+        "review_id": "E0502:3",
+        "codes": [
+          "V2_INCIDENT_SUPPORT"
+        ],
+        "names": [
+          "运行排障与事件升级"
+        ],
+        "surface": "Experience working with robots or troubleshooting mechanical systems.",
+        "quote": "Experience working with robots or troubleshooting mechanical systems.",
+        "field": "full_description",
+        "start": 1267,
+        "end": 1336
+      },
+      {
+        "id": "4",
+        "review_id": "E0502:4",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Can stand 8+ hours a day and physically manage humanoid hardware",
+        "quote": "Can stand 8+ hours a day and physically manage humanoid hardware",
+        "field": "full_description",
+        "start": 1337,
+        "end": 1401
+      },
+      {
+        "id": "5",
+        "review_id": "E0502:5",
+        "codes": [
+          "V2_JIRA"
+        ],
+        "names": [
+          "Jira"
+        ],
+        "surface": "Jira",
+        "quote": "using Jira",
+        "field": "duties",
+        "start": 326,
+        "end": 336
+      }
+    ]
+  }
+]

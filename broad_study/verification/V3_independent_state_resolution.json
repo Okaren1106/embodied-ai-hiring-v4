@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "rows": 4402134,
+  "state_counts": {
+    "Z": 4375021,
+    "P": 18609,
+    "U": 6851,
+    "SOURCE_EXCLUDED": 1653
+  },
+  "nonzero_states": 27113,
+  "resolver_fixtures": [
+    "readable_absence",
+    "string_all_scope",
+    "unaffected_context",
+    "list_all_scope",
+    "unaffected_label",
+    "specific_label_scope",
+    "positive_survives_local_truncation",
+    "explicit_na",
+    "unresolved_branch",
+    "unresolved_other_metric",
+    "unresolved_example",
+    "scoped_unknown_does_not_spread",
+    "scoped_unknown_target"
+  ],
+  "method": "Independent sparse evidence replay, reverse-priority state construction; production resolver extracted for scoped source-exclusion fixtures. Not a semantic accuracy test."
+}

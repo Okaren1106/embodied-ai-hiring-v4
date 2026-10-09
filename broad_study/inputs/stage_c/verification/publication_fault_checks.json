@@ -1,0 +1,20 @@
+{
+  "n_pass": 3,
+  "checks": [
+    {
+      "name": "refuse_existing_output",
+      "passed": true,
+      "detail": "20260915T105656Z\\scripts\\reproduce.py\", line 9, in main\n    if out.exists():raise ValueError('REFUSE_OVERWRITE: '+str(out))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: REFUSE_OVERWRITE: D:\\Embod AI analysis\\embodied-ai-hiring-research\\.b5accept\\stage_c_reproduced\n"
+    },
+    {
+      "name": "input_drift_does_not_publish",
+      "passed": true,
+      "detail": "rch\\.b5accept\\stage_c_faults\\input_drift\\scripts\\reproduce.py\", line 33, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"D:\\Embod AI analysis\\embodied-ai-hiring-research\\.b5accept\\stage_c_faults\\input_drift\\scripts\\reproduce.py\", line 13, in main\n    if sha(ROOT/rel)!=e['sha256']:raise ValueError('RELEASE_DRIFT: '+rel)\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: RELEASE_DRIFT: inputs/stage_a_extra/activities.csv\n"
+    },
+    {
+      "name": "verification_failure_does_not_publish",
+      "passed": true,
+      "detail": "\n  File \"C:\\Users\\bestl\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['C:\\\\Users\\\\bestl\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe', '-X', 'utf8', 'D:\\\\Embod AI analysis\\\\embodied-ai-hiring-research\\\\.b5accept\\\\stage_c_faults\\\\stage_c_repro_h3y9ctn6\\\\result\\\\scripts\\\\verify.py']' returned non-zero exit status 1.\n"
+    }
+  ]
+}

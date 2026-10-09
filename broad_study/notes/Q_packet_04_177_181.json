@@ -1,0 +1,2045 @@
+[
+  {
+    "coding_order": 177,
+    "reading_id": "N0693",
+    "company_id": "US_SKILD",
+    "title": "Robotics Manipulation & Controls Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4944196008|54d41c6f9943a51eb5e6ec7895381a97f69d72640576d595ac268a964c012de2",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a versatile Robotics Manipulation & Controls Engineer to develop and implement software solutions for our manipulation systems. The ideal candidate will have experience in controls, perception, and planning. You will be working on deploying state-of-the-art learning-based algorithms on real robot setups, focused on daily manipulation tasks. This role will require close collaboration with researchers and the ML team. The ideal candidate should be comfortable with building high-quality software for robotic manipulation and deploying it on robot hardware.\nResponsibilities\nHelp design algorithms, models, and techniques for various robotic manipulation tasks.\nDesign hardware and software systems for various robotic manipulation tasks.\nWrite controllers, planners, and perception stacks for real-world robotic deployment\nWrite and maintain production-level C++ and Python code for our robotic manipulation platforms.\nCollaborate with machine learning engineers to deploy state-of-the-art models on our robots.\nContinuously improve and optimize robotic software for performance, reliability, and scalability.\nPreferred Qualifications\nBS, MS or higher degree in Computer Science, Robotics, Engineering or a related field, or equivalent practical experience.\nExperience in designing robotic manipulation systems and deploying software on real robots.\nExperience with writing controllers and knowledge of robotics (e.g., kinematics, dynamics, control, motion planning, SLAM).\nProficiency in Python and at least one deep learning library such as PyTorch, TensorFlow, JAX, etc.\nSystems-level understanding of the various software modules and their interfaces in a robotic application (ROS/ROS2, simulators, etc.).\nPublications at top-tier ML, robotics or CV conferences (e.g., NeurIPS, ICML, ICLR, CoRL, RSS, ICRA, CVPR, ECCV, ICCV).\nExperience with designing custom robot hardware solutions.\nProficiency with various robot learning techniques (RL, imitation learning, etc.).\nExperience working with modern computer vision algorithms, sensors (LiDAR, camera, radar, etc.), 3D (meshes, point clouds, etc.), segmentation, tracking, object detection.\nBase Salary Range\n$100,000\n—\n$300,000 USD",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a versatile Robotics Manipulation & Controls Engineer to develop and implement software solutions for our manipulation systems. The ideal candidate will have experience in controls, perception, and planning. You will be working on deploying state-of-the-art learning-based algorithms on real robot setups, focused on daily manipulation tasks. This role will require close collaboration with researchers and the ML team. The ideal candidate should be comfortable with building high-quality software for robotic manipulation and deploying it on robot hardware.\nResponsibilities\nHelp design algorithms, models, and techniques for various robotic manipulation tasks.\nDesign hardware and software systems for various robotic manipulation tasks.\nWrite controllers, planners, and perception stacks for real-world robotic deployment\nWrite and maintain production-level C++ and Python code for our robotic manipulation platforms.\nCollaborate with machine learning engineers to deploy state-of-the-art models on our robots.\nContinuously improve and optimize robotic software for performance, reliability, and scalability.\nPreferred Qualifications\nBS, MS or higher degree in Computer Science, Robotics, Engineering or a related field, or equivalent practical experience.\nExperience in designing robotic manipulation systems and deploying software on real robots.\nExperience with writing controllers and knowledge of robotics (e.g., kinematics, dynamics, control, motion planning, SLAM).\nProficiency in Python and at least one deep learning library such as PyTorch, TensorFlow, JAX, etc.\nSystems-level understanding of the various software modules and their interfaces in a robotic application (ROS/ROS2, simulators, etc.).\nPublications at top-tier ML, robotics or CV conferences (e.g., NeurIPS, ICML, ICLR, CoRL, RSS, ICRA, CVPR, ECCV, ICCV).\nExperience with designing custom robot hardware solutions.\nProficiency with various robot learning techniques (RL, imitation learning, etc.).\nExperience working with modern computer vision algorithms, sensors (LiDAR, camera, radar, etc.), 3D (meshes, point clouds, etc.), segmentation, tracking, object detection.\nBase Salary Range\n$100,000\n—\n$300,000 USD"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1545,
+        "end": 1640,
+        "quote": "Write and maintain production-level C++ and Python code for our robotic manipulation platforms."
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1545,
+        "end": 1640,
+        "quote": "Write and maintain production-level C++ and Python code for our robotic manipulation platforms."
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2196,
+        "end": 2217,
+        "quote": "Proficiency in Python"
+      },
+      {
+        "id": "O4",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2222,
+        "end": 2256,
+        "quote": "at least one deep learning library"
+      },
+      {
+        "id": "O5",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2265,
+        "end": 2272,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O6",
+        "code": "SK_TENSORFLOW",
+        "name": "TensorFlow",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2274,
+        "end": 2284,
+        "quote": "TensorFlow"
+      },
+      {
+        "id": "O7",
+        "code": "SK_JAX",
+        "name": "JAX",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2286,
+        "end": 2289,
+        "quote": "JAX"
+      },
+      {
+        "id": "O8",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2403,
+        "end": 2406,
+        "quote": "ROS"
+      },
+      {
+        "id": "O9",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2407,
+        "end": 2411,
+        "quote": "ROS2"
+      },
+      {
+        "id": "O10",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 686,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects."
+      },
+      {
+        "id": "O11",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1383,
+        "end": 1459,
+        "quote": "Design hardware and software systems for various robotic manipulation tasks."
+      },
+      {
+        "id": "O12",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1460,
+        "end": 1544,
+        "quote": "Write controllers, planners, and perception stacks for real-world robotic deployment"
+      },
+      {
+        "id": "O13",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1460,
+        "end": 1544,
+        "quote": "Write controllers, planners, and perception stacks for real-world robotic deployment"
+      },
+      {
+        "id": "O14",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1641,
+        "end": 1733,
+        "quote": "Collaborate with machine learning engineers to deploy state-of-the-art models on our robots."
+      },
+      {
+        "id": "O15",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1734,
+        "end": 1831,
+        "quote": "Continuously improve and optimize robotic software for performance, reliability, and scalability."
+      },
+      {
+        "id": "O16",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1980,
+        "end": 2071,
+        "quote": "Experience in designing robotic manipulation systems and deploying software on real robots."
+      },
+      {
+        "id": "O17",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2072,
+        "end": 2107,
+        "quote": "Experience with writing controllers"
+      },
+      {
+        "id": "O18",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 892,
+        "end": 899,
+        "quote": "control"
+      },
+      {
+        "id": "O19",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2172,
+        "end": 2187,
+        "quote": "motion planning"
+      },
+      {
+        "id": "O20",
+        "code": "TC_SLAM",
+        "name": "定位建图",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2189,
+        "end": 2193,
+        "quote": "SLAM"
+      },
+      {
+        "id": "O21",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2413,
+        "end": 2423,
+        "quote": "simulators"
+      },
+      {
+        "id": "O22",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2518,
+        "end": 2520,
+        "quote": "RL"
+      },
+      {
+        "id": "O23",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2667,
+        "end": 2685,
+        "quote": "imitation learning"
+      },
+      {
+        "id": "O24",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2694,
+        "end": 2865,
+        "quote": "Experience working with modern computer vision algorithms, sensors (LiDAR, camera, radar, etc.), 3D (meshes, point clouds, etc.), segmentation, tracking, object detection."
+      },
+      {
+        "id": "O25",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 163,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0693:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Write and maintain production-level C++ and Python code for our robotic manipulation platforms.",
+        "quote": "Write and maintain production-level C++ and Python code for our robotic manipulation platforms.",
+        "field": "full_description",
+        "start": 1545,
+        "end": 1640
+      },
+      {
+        "id": "2",
+        "review_id": "N0693:2",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$300,000 USD",
+        "quote": "$300,000 USD",
+        "field": "full_description",
+        "start": 2895,
+        "end": 2907
+      }
+    ]
+  },
+  {
+    "coding_order": 178,
+    "reading_id": "N0701",
+    "company_id": "US_SKILD",
+    "title": "Senior DevOps Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5181757008|7987387ffcd16facd678e88eaf21305e744dcf0dd4e861df7a875c1aabb15ec8",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are looking for a DevOps Engineer to design, build, and maintain the infrastructure that powers Skild AI’s robotics development at scale. You will own the systems that let our engineering teams move fast — from build tooling and CI/CD pipelines to cross-platform hardware-in-the-loop testing infrastructure. This is a foundational role: you will be setting up and scaling critical systems in a company that is growing quickly, working directly alongside machine learning, robotics software, and hardware engineers to keep our development cycles fast and our deployments reliable.\nResponsibilities\nOwn and scale Bazel/Skylark build infrastructure from scratch, including custom rules, toolchains, and remote caching across a multi-language codebase.\nBuild and maintain CI/CD pipelines for automated software and hardware-in-the-loop (SIL/HIL) testing using Jenkins or equivalent.\nDevelop cross-compilation toolchains and system library packages targeting ARM/aarch64 embedded Linux platforms and integrate them into the build system.\nManage cloud and on-premise infrastructure (AWS/GCP/Azure) supporting model training, simulation, and deployment.\nMaintain infrastructure-as-code (Terraform, Ansible) and own developer environment tooling to accelerate engineering iteration.\nCollaborate with ML, robotics software, and hardware engineers to resolve infrastructure bottlenecks and define tooling roadmaps.\nPreferred Qualifications\nBS, MS, or higher in Computer Science, Engineering, or a related field, or equivalent practical experience.\n5+ years in DevOps, infrastructure engineering, or build/release engineering.\nHands-on experience owning a Bazel/Skylark build system from scratch at a 100–500 person company, including custom rules, platforms, and toolchain configuration.\nExperience packaging system libraries for cross-compilation to ARM/aarch64 embedded Linux platforms.\nProven track record building automated SIL/HIL test pipelines (Jenkins or equivalent) for robotics or embedded systems.\nStrong Python and Bash scripting; solid Linux internals, Docker, and cross-compilation knowledge.\nBase Salary Range\n$100,000\n—\n$300,000 USD",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are looking for a DevOps Engineer to design, build, and maintain the infrastructure that powers Skild AI’s robotics development at scale. You will own the systems that let our engineering teams move fast — from build tooling and CI/CD pipelines to cross-platform hardware-in-the-loop testing infrastructure. This is a foundational role: you will be setting up and scaling critical systems in a company that is growing quickly, working directly alongside machine learning, robotics software, and hardware engineers to keep our development cycles fast and our deployments reliable.\nResponsibilities\nOwn and scale Bazel/Skylark build infrastructure from scratch, including custom rules, toolchains, and remote caching across a multi-language codebase.\nBuild and maintain CI/CD pipelines for automated software and hardware-in-the-loop (SIL/HIL) testing using Jenkins or equivalent.\nDevelop cross-compilation toolchains and system library packages targeting ARM/aarch64 embedded Linux platforms and integrate them into the build system.\nManage cloud and on-premise infrastructure (AWS/GCP/Azure) supporting model training, simulation, and deployment.\nMaintain infrastructure-as-code (Terraform, Ansible) and own developer environment tooling to accelerate engineering iteration.\nCollaborate with ML, robotics software, and hardware engineers to resolve infrastructure bottlenecks and define tooling roadmaps.\nPreferred Qualifications\nBS, MS, or higher in Computer Science, Engineering, or a related field, or equivalent practical experience.\n5+ years in DevOps, infrastructure engineering, or build/release engineering.\nHands-on experience owning a Bazel/Skylark build system from scratch at a 100–500 person company, including custom rules, platforms, and toolchain configuration.\nExperience packaging system libraries for cross-compilation to ARM/aarch64 embedded Linux platforms.\nProven track record building automated SIL/HIL test pipelines (Jenkins or equivalent) for robotics or embedded systems.\nStrong Python and Bash scripting; solid Linux internals, Docker, and cross-compilation knowledge.\nBase Salary Range\n$100,000\n—\n$300,000 USD"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1587,
+        "end": 1740,
+        "quote": "Develop cross-compilation toolchains and system library packages targeting ARM/aarch64 embedded Linux platforms and integrate them into the build system."
+      },
+      {
+        "id": "O2",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1674,
+        "end": 1698,
+        "quote": "embedded Linux platforms"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2707,
+        "end": 2804,
+        "quote": "Strong Python and Bash scripting; solid Linux internals, Docker, and cross-compilation knowledge."
+      },
+      {
+        "id": "O4",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2707,
+        "end": 2804,
+        "quote": "Strong Python and Bash scripting; solid Linux internals, Docker, and cross-compilation knowledge."
+      },
+      {
+        "id": "O5",
+        "code": "SK_DOCKER",
+        "name": "Docker",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2707,
+        "end": 2804,
+        "quote": "Strong Python and Bash scripting; solid Linux internals, Docker, and cross-compilation knowledge."
+      },
+      {
+        "id": "O6",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 686,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects."
+      },
+      {
+        "id": "O7",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1457,
+        "end": 1586,
+        "quote": "Build and maintain CI/CD pipelines for automated software and hardware-in-the-loop (SIL/HIL) testing using Jenkins or equivalent."
+      },
+      {
+        "id": "O8",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1587,
+        "end": 1740,
+        "quote": "Develop cross-compilation toolchains and system library packages targeting ARM/aarch64 embedded Linux platforms and integrate them into the build system."
+      },
+      {
+        "id": "O9",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1741,
+        "end": 1854,
+        "quote": "Manage cloud and on-premise infrastructure (AWS/GCP/Azure) supporting model training, simulation, and deployment."
+      },
+      {
+        "id": "O10",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 1741,
+        "end": 1854,
+        "quote": "Manage cloud and on-premise infrastructure (AWS/GCP/Azure) supporting model training, simulation, and deployment."
+      },
+      {
+        "id": "O11",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1674,
+        "end": 1698,
+        "quote": "embedded Linux platforms"
+      },
+      {
+        "id": "O12",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2616,
+        "end": 2648,
+        "quote": "automated SIL/HIL test pipelines"
+      },
+      {
+        "id": "O13",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2689,
+        "end": 2705,
+        "quote": "embedded systems"
+      },
+      {
+        "id": "O14",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 163,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0701:1",
+        "codes": [
+          "V2_HIL",
+          "V2_CI_CD"
+        ],
+        "names": [
+          "硬件在环",
+          "持续集成与交付"
+        ],
+        "surface": "We are looking for a DevOps Engineer to design, build, and maintain the infrastructure that powers Skild AI’s robotics development at scale. You will own the systems that let our engineering teams move fast — from build tooling and CI/CD pipelines to cross-platform hardware-in-the-loop testing infrastructure. This is a foundational role: you will be setting up and scaling critical systems in a company that is growing quickly, working directly alongside machine learning, robotics software, and hardware engineers to keep our development cycles fast and our deployments reliable.",
+        "quote": "We are looking for a DevOps Engineer to design, build, and maintain the infrastructure that powers Skild AI’s robotics development at scale. You will own the systems that let our engineering teams move fast — from build tooling and CI/CD pipelines to cross-platform hardware-in-the-loop testing infrastructure. This is a foundational role: you will be setting up and scaling critical systems in a company that is growing quickly, working directly alongside machine learning, robotics software, and hardware engineers to keep our development cycles fast and our deployments reliable.",
+        "field": "full_description",
+        "start": 705,
+        "end": 1287
+      },
+      {
+        "id": "2",
+        "review_id": "N0701:2",
+        "codes": [
+          "V2_BAZEL"
+        ],
+        "names": [
+          "Bazel"
+        ],
+        "surface": "Own and scale Bazel/Skylark build infrastructure from scratch, including custom rules, toolchains, and remote caching across a multi-language codebase.",
+        "quote": "Own and scale Bazel/Skylark build infrastructure from scratch, including custom rules, toolchains, and remote caching across a multi-language codebase.",
+        "field": "full_description",
+        "start": 1305,
+        "end": 1456
+      },
+      {
+        "id": "3",
+        "review_id": "N0701:3",
+        "codes": [
+          "V2_BAZEL"
+        ],
+        "names": [
+          "Bazel"
+        ],
+        "surface": "Bazel",
+        "quote": "Own and scale Bazel/Skylark build infrastructure from scratch, including custom rules, toolchains, and remote caching across a multi-language codebase.",
+        "field": "full_description",
+        "start": 1305,
+        "end": 1456
+      },
+      {
+        "id": "4",
+        "review_id": "N0701:4",
+        "codes": [],
+        "names": [],
+        "surface": "Skylark",
+        "quote": "Own and scale Bazel/Skylark build infrastructure from scratch, including custom rules, toolchains, and remote caching across a multi-language codebase.",
+        "field": "full_description",
+        "start": 1305,
+        "end": 1456
+      },
+      {
+        "id": "5",
+        "review_id": "N0701:5",
+        "codes": [
+          "V2_BAZEL"
+        ],
+        "names": [
+          "Bazel"
+        ],
+        "surface": "Bazel",
+        "quote": "Bazel",
+        "field": "full_description",
+        "start": 1319,
+        "end": 1324
+      },
+      {
+        "id": "6",
+        "review_id": "N0701:6",
+        "codes": [],
+        "names": [],
+        "surface": "Skylark",
+        "quote": "Skylark",
+        "field": "full_description",
+        "start": 1325,
+        "end": 1332
+      },
+      {
+        "id": "7",
+        "review_id": "N0701:7",
+        "codes": [
+          "V2_JENKINS",
+          "V2_HIL",
+          "V2_SAFETY_ANALYSIS",
+          "V2_CI_CD"
+        ],
+        "names": [
+          "Jenkins",
+          "硬件在环",
+          "功能安全分析与验证",
+          "持续集成与交付"
+        ],
+        "surface": "Build and maintain CI/CD pipelines for automated software and hardware-in-the-loop (SIL/HIL) testing using Jenkins or equivalent.",
+        "quote": "Build and maintain CI/CD pipelines for automated software and hardware-in-the-loop (SIL/HIL) testing using Jenkins or equivalent.",
+        "field": "full_description",
+        "start": 1457,
+        "end": 1586
+      },
+      {
+        "id": "8",
+        "review_id": "N0701:8",
+        "codes": [
+          "V2_JENKINS"
+        ],
+        "names": [
+          "Jenkins"
+        ],
+        "surface": "Jenkins",
+        "quote": "Build and maintain CI/CD pipelines for automated software and hardware-in-the-loop (SIL/HIL) testing using Jenkins or equivalent.",
+        "field": "full_description",
+        "start": 1457,
+        "end": 1586
+      },
+      {
+        "id": "9",
+        "review_id": "N0701:9",
+        "codes": [
+          "V2_JENKINS"
+        ],
+        "names": [
+          "Jenkins"
+        ],
+        "surface": "Jenkins",
+        "quote": "Jenkins",
+        "field": "full_description",
+        "start": 1564,
+        "end": 1571
+      },
+      {
+        "id": "10",
+        "review_id": "N0701:10",
+        "codes": [],
+        "names": [],
+        "surface": "ARM",
+        "quote": "Develop cross-compilation toolchains and system library packages targeting ARM/aarch64 embedded Linux platforms and integrate them into the build system.",
+        "field": "full_description",
+        "start": 1587,
+        "end": 1740
+      },
+      {
+        "id": "11",
+        "review_id": "N0701:11",
+        "codes": [],
+        "names": [],
+        "surface": "aarch64",
+        "quote": "Develop cross-compilation toolchains and system library packages targeting ARM/aarch64 embedded Linux platforms and integrate them into the build system.",
+        "field": "full_description",
+        "start": 1587,
+        "end": 1740
+      },
+      {
+        "id": "12",
+        "review_id": "N0701:12",
+        "codes": [],
+        "names": [],
+        "surface": "ARM",
+        "quote": "ARM",
+        "field": "full_description",
+        "start": 1662,
+        "end": 1665
+      },
+      {
+        "id": "13",
+        "review_id": "N0701:13",
+        "codes": [],
+        "names": [],
+        "surface": "aarch64",
+        "quote": "aarch64",
+        "field": "full_description",
+        "start": 1666,
+        "end": 1673
+      },
+      {
+        "id": "14",
+        "review_id": "N0701:14",
+        "codes": [
+          "V2_AWS",
+          "V2_GCP",
+          "V2_AZURE"
+        ],
+        "names": [
+          "Amazon Web Services",
+          "Google Cloud",
+          "Azure"
+        ],
+        "surface": "Manage cloud and on-premise infrastructure (AWS/GCP/Azure) supporting model training, simulation, and deployment.",
+        "quote": "Manage cloud and on-premise infrastructure (AWS/GCP/Azure) supporting model training, simulation, and deployment.",
+        "field": "full_description",
+        "start": 1741,
+        "end": 1854
+      },
+      {
+        "id": "15",
+        "review_id": "N0701:15",
+        "codes": [
+          "V2_AWS"
+        ],
+        "names": [
+          "Amazon Web Services"
+        ],
+        "surface": "AWS",
+        "quote": "Manage cloud and on-premise infrastructure (AWS/GCP/Azure) supporting model training, simulation, and deployment.",
+        "field": "full_description",
+        "start": 1741,
+        "end": 1854
+      },
+      {
+        "id": "16",
+        "review_id": "N0701:16",
+        "codes": [
+          "V2_GCP"
+        ],
+        "names": [
+          "Google Cloud"
+        ],
+        "surface": "GCP",
+        "quote": "Manage cloud and on-premise infrastructure (AWS/GCP/Azure) supporting model training, simulation, and deployment.",
+        "field": "full_description",
+        "start": 1741,
+        "end": 1854
+      },
+      {
+        "id": "17",
+        "review_id": "N0701:17",
+        "codes": [
+          "V2_AZURE"
+        ],
+        "names": [
+          "Azure"
+        ],
+        "surface": "Azure",
+        "quote": "Manage cloud and on-premise infrastructure (AWS/GCP/Azure) supporting model training, simulation, and deployment.",
+        "field": "full_description",
+        "start": 1741,
+        "end": 1854
+      },
+      {
+        "id": "18",
+        "review_id": "N0701:18",
+        "codes": [
+          "V2_TERRAFORM",
+          "V2_ANSIBLE"
+        ],
+        "names": [
+          "Terraform",
+          "Ansible"
+        ],
+        "surface": "Maintain infrastructure-as-code (Terraform, Ansible) and own developer environment tooling to accelerate engineering iteration.",
+        "quote": "Maintain infrastructure-as-code (Terraform, Ansible) and own developer environment tooling to accelerate engineering iteration.",
+        "field": "full_description",
+        "start": 1855,
+        "end": 1982
+      },
+      {
+        "id": "19",
+        "review_id": "N0701:19",
+        "codes": [
+          "V2_TERRAFORM"
+        ],
+        "names": [
+          "Terraform"
+        ],
+        "surface": "Terraform",
+        "quote": "Maintain infrastructure-as-code (Terraform, Ansible) and own developer environment tooling to accelerate engineering iteration.",
+        "field": "full_description",
+        "start": 1855,
+        "end": 1982
+      },
+      {
+        "id": "20",
+        "review_id": "N0701:20",
+        "codes": [
+          "V2_ANSIBLE"
+        ],
+        "names": [
+          "Ansible"
+        ],
+        "surface": "Ansible",
+        "quote": "Maintain infrastructure-as-code (Terraform, Ansible) and own developer environment tooling to accelerate engineering iteration.",
+        "field": "full_description",
+        "start": 1855,
+        "end": 1982
+      },
+      {
+        "id": "21",
+        "review_id": "N0701:21",
+        "codes": [
+          "V2_BAZEL"
+        ],
+        "names": [
+          "Bazel"
+        ],
+        "surface": "Hands-on experience owning a Bazel/Skylark build system from scratch at a 100–500 person company, including custom rules, platforms, and toolchain configuration.",
+        "quote": "Hands-on experience owning a Bazel/Skylark build system from scratch at a 100–500 person company, including custom rules, platforms, and toolchain configuration.",
+        "field": "full_description",
+        "start": 2324,
+        "end": 2485
+      },
+      {
+        "id": "22",
+        "review_id": "N0701:22",
+        "codes": [
+          "V2_JENKINS",
+          "V2_HIL",
+          "V2_SAFETY_ANALYSIS"
+        ],
+        "names": [
+          "Jenkins",
+          "硬件在环",
+          "功能安全分析与验证"
+        ],
+        "surface": "Proven track record building automated SIL/HIL test pipelines (Jenkins or equivalent) for robotics or embedded systems.",
+        "quote": "Proven track record building automated SIL/HIL test pipelines (Jenkins or equivalent) for robotics or embedded systems.",
+        "field": "full_description",
+        "start": 2587,
+        "end": 2706
+      },
+      {
+        "id": "23",
+        "review_id": "N0701:23",
+        "codes": [
+          "V2_SHELL"
+        ],
+        "names": [
+          "Shell脚本"
+        ],
+        "surface": "Strong Python and Bash scripting; solid Linux internals, Docker, and cross-compilation knowledge.",
+        "quote": "Strong Python and Bash scripting; solid Linux internals, Docker, and cross-compilation knowledge.",
+        "field": "full_description",
+        "start": 2707,
+        "end": 2804
+      },
+      {
+        "id": "24",
+        "review_id": "N0701:24",
+        "codes": [
+          "V2_SHELL"
+        ],
+        "names": [
+          "Shell脚本"
+        ],
+        "surface": "Bash",
+        "quote": "Strong Python and Bash scripting; solid Linux internals, Docker, and cross-compilation knowledge.",
+        "field": "full_description",
+        "start": 2707,
+        "end": 2804
+      },
+      {
+        "id": "25",
+        "review_id": "N0701:25",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$300,000 USD",
+        "quote": "$300,000 USD",
+        "field": "full_description",
+        "start": 2834,
+        "end": 2846
+      }
+    ]
+  },
+  {
+    "coding_order": 179,
+    "reading_id": "N0705",
+    "company_id": "US_SKILD",
+    "title": "Senior Robot Infrastructure Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5222931008|b7fac1aa63788e5009165c316deef4b62da8b660533061a89c25929e7ce1cce4",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a versatile Robotics Infrastructure Engineer to build the edge-to-cloud systems that connect, manage, update, and monitor our robot fleet at scale. Your work will span on-device software, cloud infrastructure, fleet observability, OTA updates, and reliable connectivity in real-world environments. You should be comfortable writing production-grade C++ and Python on robots while also designing secure, low-latency pipelines into cloud and web platforms. This role involves close collaboration with robotics, autonomy, hardware, deployment, and web product teams to unlock new capabilities powered by real-time robot data.\nResponsibilities\nDesign, implement, and maintain production-grade C++ and Go running directly on robotic platforms.\nBuild on-device systems for interfacing with core robotics software, managing local data buffering, and handling edge-side communication logic.\nArchitect and maintain secure, low-latency edge-to-cloud data pipelines connecting deployed robot fleets to cloud infrastructure and web platforms.\nDesign, build, and operate OTA update mechanisms for safely and reliably deploying software updates to robots in the field.\nBuild telemetry, alerting, logging, and monitoring tools across the robot operating system, cloud infrastructure, and fleet dashboards.\nOptimize edge software for reliability, performance, resource usage, and resilience under real-world deployment constraints.\nCollaborate with autonomy, hardware, deployment, and web product teams to support new features powered by live robot data and fleet-scale infrastructure.\nContinuously improve fleet reliability, observability, uptime across both device and cloud systems.\nPreferred Qualifications\n3+ years of relevant industry experience.\nStrong production programming experience in C++ and Go.\nPrior experience deploying, operating, or managing connected hardware, IoT devices, or robotic systems at scale.\nExperience architecting and managing cloud infrastructure, including services such as AWS, GCP IoT Core, EC2, S3, Lambda, or related technologies.\nDeep understanding of networking protocols commonly used in robotics, IoT, or constrained environments, such as MQTT, WebSockets, gRPC, or similar protocols.\nDemonstrated experience building or managing OTA update systems for edge devices or deployed fleets.\nStrong systems-level understanding of edge computing constraints, including CPU, memory, storage, power cycles, connectivity loss, and local data persistence.\nExperience building fleet observability systems, including telemetry, metrics, logging, alerting, monitoring, and uptime tracking.\nStrong focus on reliability, fault tolerance, self-healing infrastructure, and safe operation of deployed systems.\nExperience with OS-level OTA infrastructure or full-device update mechanisms\nBase Salary Range\n$100,000\n—\n$300,000 USD",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a versatile Robotics Infrastructure Engineer to build the edge-to-cloud systems that connect, manage, update, and monitor our robot fleet at scale. Your work will span on-device software, cloud infrastructure, fleet observability, OTA updates, and reliable connectivity in real-world environments. You should be comfortable writing production-grade C++ and Python on robots while also designing secure, low-latency pipelines into cloud and web platforms. This role involves close collaboration with robotics, autonomy, hardware, deployment, and web product teams to unlock new capabilities powered by real-time robot data.\nResponsibilities\nDesign, implement, and maintain production-grade C++ and Go running directly on robotic platforms.\nBuild on-device systems for interfacing with core robotics software, managing local data buffering, and handling edge-side communication logic.\nArchitect and maintain secure, low-latency edge-to-cloud data pipelines connecting deployed robot fleets to cloud infrastructure and web platforms.\nDesign, build, and operate OTA update mechanisms for safely and reliably deploying software updates to robots in the field.\nBuild telemetry, alerting, logging, and monitoring tools across the robot operating system, cloud infrastructure, and fleet dashboards.\nOptimize edge software for reliability, performance, resource usage, and resilience under real-world deployment constraints.\nCollaborate with autonomy, hardware, deployment, and web product teams to support new features powered by live robot data and fleet-scale infrastructure.\nContinuously improve fleet reliability, observability, uptime across both device and cloud systems.\nPreferred Qualifications\n3+ years of relevant industry experience.\nStrong production programming experience in C++ and Go.\nPrior experience deploying, operating, or managing connected hardware, IoT devices, or robotic systems at scale.\nExperience architecting and managing cloud infrastructure, including services such as AWS, GCP IoT Core, EC2, S3, Lambda, or related technologies.\nDeep understanding of networking protocols commonly used in robotics, IoT, or constrained environments, such as MQTT, WebSockets, gRPC, or similar protocols.\nDemonstrated experience building or managing OTA update systems for edge devices or deployed fleets.\nStrong systems-level understanding of edge computing constraints, including CPU, memory, storage, power cycles, connectivity loss, and local data persistence.\nExperience building fleet observability systems, including telemetry, metrics, logging, alerting, monitoring, and uptime tracking.\nStrong focus on reliability, fault tolerance, self-healing infrastructure, and safe operation of deployed systems.\nExperience with OS-level OTA infrastructure or full-device update mechanisms\nBase Salary Range\n$100,000\n—\n$300,000 USD"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 705,
+        "end": 1342,
+        "quote": "We are seeking a versatile Robotics Infrastructure Engineer to build the edge-to-cloud systems that connect, manage, update, and monitor our robot fleet at scale. Your work will span on-device software, cloud infrastructure, fleet observability, OTA updates, and reliable connectivity in real-world environments. You should be comfortable writing production-grade C++ and Python on robots while also designing secure, low-latency pipelines into cloud and web platforms. This role involves close collaboration with robotics, autonomy, hardware, deployment, and web product teams to unlock new capabilities powered by real-time robot data."
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 705,
+        "end": 1342,
+        "quote": "We are seeking a versatile Robotics Infrastructure Engineer to build the edge-to-cloud systems that connect, manage, update, and monitor our robot fleet at scale. Your work will span on-device software, cloud infrastructure, fleet observability, OTA updates, and reliable connectivity in real-world environments. You should be comfortable writing production-grade C++ and Python on robots while also designing secure, low-latency pipelines into cloud and web platforms. This role involves close collaboration with robotics, autonomy, hardware, deployment, and web product teams to unlock new capabilities powered by real-time robot data."
+      },
+      {
+        "id": "O3",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1360,
+        "end": 1458,
+        "quote": "Design, implement, and maintain production-grade C++ and Go running directly on robotic platforms."
+      },
+      {
+        "id": "O4",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1360,
+        "end": 1458,
+        "quote": "Design, implement, and maintain production-grade C++ and Go running directly on robotic platforms."
+      },
+      {
+        "id": "O5",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2457,
+        "end": 2512,
+        "quote": "Strong production programming experience in C++ and Go."
+      },
+      {
+        "id": "O6",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2457,
+        "end": 2512,
+        "quote": "Strong production programming experience in C++ and Go."
+      },
+      {
+        "id": "O7",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 686,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects."
+      },
+      {
+        "id": "O8",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1603,
+        "end": 1750,
+        "quote": "Architect and maintain secure, low-latency edge-to-cloud data pipelines connecting deployed robot fleets to cloud infrastructure and web platforms."
+      },
+      {
+        "id": "O9",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1751,
+        "end": 1874,
+        "quote": "Design, build, and operate OTA update mechanisms for safely and reliably deploying software updates to robots in the field."
+      },
+      {
+        "id": "O10",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1751,
+        "end": 1874,
+        "quote": "Design, build, and operate OTA update mechanisms for safely and reliably deploying software updates to robots in the field."
+      },
+      {
+        "id": "O11",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 705,
+        "end": 1342,
+        "quote": "We are seeking a versatile Robotics Infrastructure Engineer to build the edge-to-cloud systems that connect, manage, update, and monitor our robot fleet at scale. Your work will span on-device software, cloud infrastructure, fleet observability, OTA updates, and reliable connectivity in real-world environments. You should be comfortable writing production-grade C++ and Python on robots while also designing secure, low-latency pipelines into cloud and web platforms. This role involves close collaboration with robotics, autonomy, hardware, deployment, and web product teams to unlock new capabilities powered by real-time robot data."
+      },
+      {
+        "id": "O12",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3322,
+        "end": 3436,
+        "quote": "Strong focus on reliability, fault tolerance, self-healing infrastructure, and safe operation of deployed systems."
+      },
+      {
+        "id": "O13",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3322,
+        "end": 3436,
+        "quote": "Strong focus on reliability, fault tolerance, self-healing infrastructure, and safe operation of deployed systems."
+      },
+      {
+        "id": "O14",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 163,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0705:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "We are seeking a versatile Robotics Infrastructure Engineer to build the edge-to-cloud systems that connect, manage, update, and monitor our robot fleet at scale. Your work will span on-device software, cloud infrastructure, fleet observability, OTA updates, and reliable connectivity in real-world environments. You should be comfortable writing production-grade C++ and Python on robots while also designing secure, low-latency pipelines into cloud and web platforms. This role involves close collaboration with robotics, autonomy, hardware, deployment, and web product teams to unlock new capabilities powered by real-time robot data.",
+        "quote": "We are seeking a versatile Robotics Infrastructure Engineer to build the edge-to-cloud systems that connect, manage, update, and monitor our robot fleet at scale. Your work will span on-device software, cloud infrastructure, fleet observability, OTA updates, and reliable connectivity in real-world environments. You should be comfortable writing production-grade C++ and Python on robots while also designing secure, low-latency pipelines into cloud and web platforms. This role involves close collaboration with robotics, autonomy, hardware, deployment, and web product teams to unlock new capabilities powered by real-time robot data.",
+        "field": "full_description",
+        "start": 705,
+        "end": 1342
+      },
+      {
+        "id": "2",
+        "review_id": "N0705:2",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Design, implement, and maintain production-grade C++ and Go running directly on robotic platforms.",
+        "quote": "Design, implement, and maintain production-grade C++ and Go running directly on robotic platforms.",
+        "field": "full_description",
+        "start": 1360,
+        "end": 1458
+      },
+      {
+        "id": "3",
+        "review_id": "N0705:3",
+        "codes": [],
+        "names": [],
+        "surface": "edge-to-cloud data pipelines",
+        "quote": "Architect and maintain secure, low-latency edge-to-cloud data pipelines connecting deployed robot fleets to cloud infrastructure and web platforms.",
+        "field": "full_description",
+        "start": 1603,
+        "end": 1750
+      },
+      {
+        "id": "4",
+        "review_id": "N0705:4",
+        "codes": [],
+        "names": [],
+        "surface": "OTA",
+        "quote": "Design, build, and operate OTA update mechanisms for safely and reliably deploying software updates to robots in the field.",
+        "field": "full_description",
+        "start": 1751,
+        "end": 1874
+      },
+      {
+        "id": "5",
+        "review_id": "N0705:5",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Strong production programming experience in C++ and Go.",
+        "quote": "Strong production programming experience in C++ and Go.",
+        "field": "full_description",
+        "start": 2457,
+        "end": 2512
+      },
+      {
+        "id": "6",
+        "review_id": "N0705:6",
+        "codes": [
+          "V2_AWS",
+          "V2_GCP"
+        ],
+        "names": [
+          "Amazon Web Services",
+          "Google Cloud"
+        ],
+        "surface": "Experience architecting and managing cloud infrastructure, including services such as AWS, GCP IoT Core, EC2, S3, Lambda, or related technologies.",
+        "quote": "Experience architecting and managing cloud infrastructure, including services such as AWS, GCP IoT Core, EC2, S3, Lambda, or related technologies.",
+        "field": "full_description",
+        "start": 2626,
+        "end": 2772
+      },
+      {
+        "id": "7",
+        "review_id": "N0705:7",
+        "codes": [
+          "V2_AWS"
+        ],
+        "names": [
+          "Amazon Web Services"
+        ],
+        "surface": "AWS",
+        "quote": "AWS",
+        "field": "full_description",
+        "start": 2712,
+        "end": 2715
+      },
+      {
+        "id": "8",
+        "review_id": "N0705:8",
+        "codes": [
+          "V2_GCP"
+        ],
+        "names": [
+          "Google Cloud"
+        ],
+        "surface": "GCP IoT Core",
+        "quote": "GCP IoT Core",
+        "field": "full_description",
+        "start": 2717,
+        "end": 2729
+      },
+      {
+        "id": "9",
+        "review_id": "N0705:9",
+        "codes": [],
+        "names": [],
+        "surface": "EC2",
+        "quote": "EC2",
+        "field": "full_description",
+        "start": 2731,
+        "end": 2734
+      },
+      {
+        "id": "10",
+        "review_id": "N0705:10",
+        "codes": [],
+        "names": [],
+        "surface": "S3",
+        "quote": "S3",
+        "field": "full_description",
+        "start": 2736,
+        "end": 2738
+      },
+      {
+        "id": "11",
+        "review_id": "N0705:11",
+        "codes": [],
+        "names": [],
+        "surface": "Lambda",
+        "quote": "Lambda",
+        "field": "full_description",
+        "start": 2740,
+        "end": 2746
+      },
+      {
+        "id": "12",
+        "review_id": "N0705:12",
+        "codes": [],
+        "names": [],
+        "surface": "MQTT",
+        "quote": "MQTT",
+        "field": "full_description",
+        "start": 2885,
+        "end": 2889
+      },
+      {
+        "id": "13",
+        "review_id": "N0705:13",
+        "codes": [],
+        "names": [],
+        "surface": "WebSockets",
+        "quote": "WebSockets",
+        "field": "full_description",
+        "start": 2891,
+        "end": 2901
+      },
+      {
+        "id": "14",
+        "review_id": "N0705:14",
+        "codes": [],
+        "names": [],
+        "surface": "gRPC",
+        "quote": "gRPC",
+        "field": "full_description",
+        "start": 2903,
+        "end": 2907
+      },
+      {
+        "id": "15",
+        "review_id": "N0705:15",
+        "codes": [],
+        "names": [],
+        "surface": "OTA",
+        "quote": "Demonstrated experience building or managing OTA update systems for edge devices or deployed fleets.",
+        "field": "full_description",
+        "start": 2931,
+        "end": 3031
+      },
+      {
+        "id": "16",
+        "review_id": "N0705:16",
+        "codes": [],
+        "names": [],
+        "surface": "OTA",
+        "quote": "Experience with OS-level OTA infrastructure or full-device update mechanisms",
+        "field": "full_description",
+        "start": 3437,
+        "end": 3513
+      },
+      {
+        "id": "17",
+        "review_id": "N0705:17",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$300,000 USD",
+        "quote": "$300,000 USD",
+        "field": "full_description",
+        "start": 3543,
+        "end": 3555
+      }
+    ]
+  },
+  {
+    "coding_order": 180,
+    "reading_id": "N0711",
+    "company_id": "US_SKILD",
+    "title": "Software Engineer, Manufacturing Test Systems",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5228757008|f05ddca0873ee53e14d92bcdd414888b2f2ba84bf143bd194932e22107357cff",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe're hiring a zero-to-one software engineer to build the manufacturing test and production systems for our robot assembly line. You will own the software backbone that connects our physical hardware, factory operations, test equipment, and cloud data history. This is a highly hands-on role, you'll work directly on the floor with manufacturing, hardware, and embedded engineers to turn ambiguous production needs into robust, scalable software.\nResponsibilities\nTest Automation: Develop software to automate subassembly and full-system checkouts, including pass/fail logic, calibration, and hardware-in-the-loop (HIL) testing.\nHardware Integration: Interface test PCs and edge devices with physical systems — robots, DAQs, PLCs, sensors, actuators, cameras, motor controllers, and embedded devices over standard protocols.\nOperator Tools: Build reliable operator-facing workflows, UIs, and test executives for technicians on the floor.\nCloud & Data Pipelines: Design data models and backend services to warehouse test results, track configurations, manage quality records, and ensure build traceability.\nFactory Integration: Serve as the bridge between localized test software and broader MES/factory systems such as OpenBOM, PLM, ERP, or inventory tools.\nPreferred Qualifications\nBackground in robotics, aerospace, defense, automotive, drones, satellites, medical devices, industrial automation, consumer hardware, or complex electromechanical manufacturing.\nComfortable writing code that interfaces with both physical equipment (sensors, fixtures) and cloud APIs or databases.\nRelevant prior titles might include Manufacturing Software Engineer, Test Automation Engineer, Production Software Engineer, Robotics Software Engineer, or MES/Factory Software Engineer.\nOwnership mindset: you know how to build the scrappy first version, support it live on the factory floor, and iteratively grow it into a durable production system.\nBase Salary Range\n$100,000\n—\n$300,000 USD",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe're hiring a zero-to-one software engineer to build the manufacturing test and production systems for our robot assembly line. You will own the software backbone that connects our physical hardware, factory operations, test equipment, and cloud data history. This is a highly hands-on role, you'll work directly on the floor with manufacturing, hardware, and embedded engineers to turn ambiguous production needs into robust, scalable software.\nResponsibilities\nTest Automation: Develop software to automate subassembly and full-system checkouts, including pass/fail logic, calibration, and hardware-in-the-loop (HIL) testing.\nHardware Integration: Interface test PCs and edge devices with physical systems — robots, DAQs, PLCs, sensors, actuators, cameras, motor controllers, and embedded devices over standard protocols.\nOperator Tools: Build reliable operator-facing workflows, UIs, and test executives for technicians on the floor.\nCloud & Data Pipelines: Design data models and backend services to warehouse test results, track configurations, manage quality records, and ensure build traceability.\nFactory Integration: Serve as the bridge between localized test software and broader MES/factory systems such as OpenBOM, PLM, ERP, or inventory tools.\nPreferred Qualifications\nBackground in robotics, aerospace, defense, automotive, drones, satellites, medical devices, industrial automation, consumer hardware, or complex electromechanical manufacturing.\nComfortable writing code that interfaces with both physical equipment (sensors, fixtures) and cloud APIs or databases.\nRelevant prior titles might include Manufacturing Software Engineer, Test Automation Engineer, Production Software Engineer, Robotics Software Engineer, or MES/Factory Software Engineer.\nOwnership mindset: you know how to build the scrappy first version, support it live on the factory floor, and iteratively grow it into a durable production system.\nBase Salary Range\n$100,000\n—\n$300,000 USD"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_ERP",
+        "name": "ERP系统",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1811,
+        "end": 1962,
+        "quote": "Factory Integration: Serve as the bridge between localized test software and broader MES/factory systems such as OpenBOM, PLM, ERP, or inventory tools."
+      },
+      {
+        "id": "O2",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 686,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects."
+      },
+      {
+        "id": "O3",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1169,
+        "end": 1333,
+        "quote": "Test Automation: Develop software to automate subassembly and full-system checkouts, including pass/fail logic, calibration, and hardware-in-the-loop (HIL) testing."
+      },
+      {
+        "id": "O4",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1334,
+        "end": 1529,
+        "quote": "Hardware Integration: Interface test PCs and edge devices with physical systems — robots, DAQs, PLCs, sensors, actuators, cameras, motor controllers, and embedded devices over standard protocols."
+      },
+      {
+        "id": "O5",
+        "code": "TC_POWER_ELECTRONICS",
+        "name": "电力电子",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1334,
+        "end": 1529,
+        "quote": "Hardware Integration: Interface test PCs and edge devices with physical systems — robots, DAQs, PLCs, sensors, actuators, cameras, motor controllers, and embedded devices over standard protocols."
+      },
+      {
+        "id": "O6",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1334,
+        "end": 1529,
+        "quote": "Hardware Integration: Interface test PCs and edge devices with physical systems — robots, DAQs, PLCs, sensors, actuators, cameras, motor controllers, and embedded devices over standard protocols."
+      },
+      {
+        "id": "O7",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1643,
+        "end": 1810,
+        "quote": "Cloud & Data Pipelines: Design data models and backend services to warehouse test results, track configurations, manage quality records, and ensure build traceability."
+      },
+      {
+        "id": "O8",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1530,
+        "end": 1642,
+        "quote": "Operator Tools: Build reliable operator-facing workflows, UIs, and test executives for technicians on the floor."
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1988,
+        "end": 2166,
+        "quote": "Background in robotics, aerospace, defense, automotive, drones, satellites, medical devices, industrial automation, consumer hardware, or complex electromechanical manufacturing."
+      },
+      {
+        "id": "O10",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 163,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0711:1",
+        "codes": [
+          "V2_HIL",
+          "V2_CALIBRATION"
+        ],
+        "names": [
+          "硬件在环",
+          "传感器与系统标定"
+        ],
+        "surface": "Test Automation: Develop software to automate subassembly and full-system checkouts, including pass/fail logic, calibration, and hardware-in-the-loop (HIL) testing.",
+        "quote": "Test Automation: Develop software to automate subassembly and full-system checkouts, including pass/fail logic, calibration, and hardware-in-the-loop (HIL) testing.",
+        "field": "full_description",
+        "start": 1169,
+        "end": 1333
+      },
+      {
+        "id": "2",
+        "review_id": "N0711:2",
+        "codes": [
+          "V2_PLC",
+          "V2_DAQ"
+        ],
+        "names": [
+          "PLC",
+          "数据采集仪系统"
+        ],
+        "surface": "Hardware Integration: Interface test PCs and edge devices with physical systems — robots, DAQs, PLCs, sensors, actuators, cameras, motor controllers, and embedded devices over standard protocols.",
+        "quote": "Hardware Integration: Interface test PCs and edge devices with physical systems — robots, DAQs, PLCs, sensors, actuators, cameras, motor controllers, and embedded devices over standard protocols.",
+        "field": "full_description",
+        "start": 1334,
+        "end": 1529
+      },
+      {
+        "id": "3",
+        "review_id": "N0711:3",
+        "codes": [
+          "V2_DAQ"
+        ],
+        "names": [
+          "数据采集仪系统"
+        ],
+        "surface": "DAQs",
+        "quote": "Hardware Integration: Interface test PCs and edge devices with physical systems — robots, DAQs, PLCs, sensors, actuators, cameras, motor controllers, and embedded devices over standard protocols.",
+        "field": "full_description",
+        "start": 1334,
+        "end": 1529
+      },
+      {
+        "id": "4",
+        "review_id": "N0711:4",
+        "codes": [
+          "V2_PLC"
+        ],
+        "names": [
+          "PLC"
+        ],
+        "surface": "PLCs",
+        "quote": "Hardware Integration: Interface test PCs and edge devices with physical systems — robots, DAQs, PLCs, sensors, actuators, cameras, motor controllers, and embedded devices over standard protocols.",
+        "field": "full_description",
+        "start": 1334,
+        "end": 1529
+      },
+      {
+        "id": "5",
+        "review_id": "N0711:5",
+        "codes": [
+          "V2_MES",
+          "V2_PLM"
+        ],
+        "names": [
+          "MES系统",
+          "PLM系统"
+        ],
+        "surface": "Factory Integration: Serve as the bridge between localized test software and broader MES/factory systems such as OpenBOM, PLM, ERP, or inventory tools.",
+        "quote": "Factory Integration: Serve as the bridge between localized test software and broader MES/factory systems such as OpenBOM, PLM, ERP, or inventory tools.",
+        "field": "full_description",
+        "start": 1811,
+        "end": 1962
+      },
+      {
+        "id": "6",
+        "review_id": "N0711:6",
+        "codes": [
+          "V2_MES"
+        ],
+        "names": [
+          "MES系统"
+        ],
+        "surface": "MES",
+        "quote": "Factory Integration: Serve as the bridge between localized test software and broader MES/factory systems such as OpenBOM, PLM, ERP, or inventory tools.",
+        "field": "full_description",
+        "start": 1811,
+        "end": 1962
+      },
+      {
+        "id": "7",
+        "review_id": "N0711:7",
+        "codes": [],
+        "names": [],
+        "surface": "OpenBOM",
+        "quote": "Factory Integration: Serve as the bridge between localized test software and broader MES/factory systems such as OpenBOM, PLM, ERP, or inventory tools.",
+        "field": "full_description",
+        "start": 1811,
+        "end": 1962
+      },
+      {
+        "id": "8",
+        "review_id": "N0711:8",
+        "codes": [
+          "V2_PLM"
+        ],
+        "names": [
+          "PLM系统"
+        ],
+        "surface": "PLM",
+        "quote": "Factory Integration: Serve as the bridge between localized test software and broader MES/factory systems such as OpenBOM, PLM, ERP, or inventory tools.",
+        "field": "full_description",
+        "start": 1811,
+        "end": 1962
+      },
+      {
+        "id": "9",
+        "review_id": "N0711:9",
+        "codes": [
+          "V2_MES"
+        ],
+        "names": [
+          "MES系统"
+        ],
+        "surface": "Relevant prior titles might include Manufacturing Software Engineer, Test Automation Engineer, Production Software Engineer, Robotics Software Engineer, or MES/Factory Software Engineer.",
+        "quote": "Relevant prior titles might include Manufacturing Software Engineer, Test Automation Engineer, Production Software Engineer, Robotics Software Engineer, or MES/Factory Software Engineer.",
+        "field": "full_description",
+        "start": 2286,
+        "end": 2472
+      },
+      {
+        "id": "10",
+        "review_id": "N0711:10",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$300,000 USD",
+        "quote": "$300,000 USD",
+        "field": "full_description",
+        "start": 2666,
+        "end": 2678
+      }
+    ]
+  },
+  {
+    "coding_order": 181,
+    "reading_id": "N0668",
+    "company_id": "US_SKILD",
+    "title": "Full Stack Engineer (Frontend & Android Focus)",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5365131008|0a4dadee4f2a7e615922d02677a86fcabac6f557e9cd5b2a7c14d81271a7f7e7",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a highly skilled Full Stack Engineer with a specialization in Frontend and Androiddevelopment. In this role, you will build critical interfaces that end customers use to understand the performance of the robotics system in their application, operators use to deploy and manage fleets of robots, and operators and engineers use for debugging.\nYou will bridge the gap between complex robotic intelligence and the user experience for our commercial partners. You will be responsible for designing and implementing high-performance applications that render real-time 3D environments, telemetry, and maps. Because our robots operate in diverse and challenging customer environments, you will architect solutions that are resilient to poor network conditions or complete disconnection. We are looking for an engineer with a background in graphics or gaming who understands the intricacies of rendering and state management at scale.\nResponsibilities\nArchitect and Build Scalable Interfaces: Design and develop responsive, high-performance web and Android applications that serve as the primary interface for monitoring and controlling robotic fleets.\n3D & Map Rendering: Implement complex visualization tools in the browser and on mobile devices, rendering large-scale maps, point clouds, and 3D environments to visualize robot perception in real-time.\nResilient Networking: Engineer robust data synchronization layers that handle network-denied environments or intermittent connectivity, ensuring seamless operation and data integrity when robots go offline.\nFull Stack Development: Work across the stack, with a heavy emphasis on TypeScript/JavaScript for frontend logic and integration with backend services and robotic APIs.\nPerformance Optimization: Profile and optimize rendering pipelines and application logic to ensure smooth performance on varied hardware, from high-end workstations to mobile field devices.\nCollaboration: Work closely with robotics researchers, ML engineers, and infrastructure teams to define APIs and data formats that support rich, real-time visualization.\nBasic Qualifications\nBachelor's degree in Computer Science or related field\nStrong proficiency in JavaScript/TypeScript\nExperience with React and modern frontend development\nUnderstanding of backend development principles\nKnowledge of database design and management\nExperience with containerization (Docker)\nFamiliarity with CI/CD principles\nBasic understanding of cloud services\nPreferred Qualifications\nStrong Industry Experience: A proven track record of building and shipping complex, user-facing products at scale.\nExpert TypeScript/JavaScript Skills: Deep proficiency in modern JS ecosystems (React, Vue, or similar) and state management.\nAndroid Development: Solid experience building native or high-performance cross-platform Android applications.\nGraphics or Gaming Background: Experience with WebGL, Pixi, Three.js, OpenGL, or game engines (Unity/Unreal). You understand how to render 3D geometry and handle high-frame-rate visualizations in a browser or mobile context.\nIndoor Mapping & Spatial Data: Experience rendering complex indoor environments and floor plans. Familiarity with spatial data structures and libraries suitable for indoor navigation and visualization, rather than traditional outdoor geospatial mapping.\nOffline-First Architecture: Demonstrated ability to build systems that function reliably in network-constrained environments (CRDTs, local-first databases, optimistic UI updates).\nSystems Thinking: Ability to understand the full flow of data from a robot sensor to a user's screen.",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a highly skilled Full Stack Engineer with a specialization in Frontend and Androiddevelopment. In this role, you will build critical interfaces that end customers use to understand the performance of the robotics system in their application, operators use to deploy and manage fleets of robots, and operators and engineers use for debugging.\nYou will bridge the gap between complex robotic intelligence and the user experience for our commercial partners. You will be responsible for designing and implementing high-performance applications that render real-time 3D environments, telemetry, and maps. Because our robots operate in diverse and challenging customer environments, you will architect solutions that are resilient to poor network conditions or complete disconnection. We are looking for an engineer with a background in graphics or gaming who understands the intricacies of rendering and state management at scale.\nResponsibilities\nArchitect and Build Scalable Interfaces: Design and develop responsive, high-performance web and Android applications that serve as the primary interface for monitoring and controlling robotic fleets.\n3D & Map Rendering: Implement complex visualization tools in the browser and on mobile devices, rendering large-scale maps, point clouds, and 3D environments to visualize robot perception in real-time.\nResilient Networking: Engineer robust data synchronization layers that handle network-denied environments or intermittent connectivity, ensuring seamless operation and data integrity when robots go offline.\nFull Stack Development: Work across the stack, with a heavy emphasis on TypeScript/JavaScript for frontend logic and integration with backend services and robotic APIs.\nPerformance Optimization: Profile and optimize rendering pipelines and application logic to ensure smooth performance on varied hardware, from high-end workstations to mobile field devices.\nCollaboration: Work closely with robotics researchers, ML engineers, and infrastructure teams to define APIs and data formats that support rich, real-time visualization.\nBasic Qualifications\nBachelor's degree in Computer Science or related field\nStrong proficiency in JavaScript/TypeScript\nExperience with React and modern frontend development\nUnderstanding of backend development principles\nKnowledge of database design and management\nExperience with containerization (Docker)\nFamiliarity with CI/CD principles\nBasic understanding of cloud services\nPreferred Qualifications\nStrong Industry Experience: A proven track record of building and shipping complex, user-facing products at scale.\nExpert TypeScript/JavaScript Skills: Deep proficiency in modern JS ecosystems (React, Vue, or similar) and state management.\nAndroid Development: Solid experience building native or high-performance cross-platform Android applications.\nGraphics or Gaming Background: Experience with WebGL, Pixi, Three.js, OpenGL, or game engines (Unity/Unreal). You understand how to render 3D geometry and handle high-frame-rate visualizations in a browser or mobile context.\nIndoor Mapping & Spatial Data: Experience rendering complex indoor environments and floor plans. Familiarity with spatial data structures and libraries suitable for indoor navigation and visualization, rather than traditional outdoor geospatial mapping.\nOffline-First Architecture: Demonstrated ability to build systems that function reliably in network-constrained environments (CRDTs, local-first databases, optimistic UI updates).\nSystems Thinking: Ability to understand the full flow of data from a robot sensor to a user's screen."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_DOCKER",
+        "name": "Docker",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3103,
+        "end": 3109,
+        "quote": "Docker"
+      },
+      {
+        "id": "O2",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 175,
+        "end": 225,
+        "quote": "massive scale through data-driven machine learning"
+      },
+      {
+        "id": "O3",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1961,
+        "end": 2065,
+        "quote": "rendering large-scale maps, point clouds, and 3D environments to visualize robot perception in real-time"
+      },
+      {
+        "id": "O4",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1961,
+        "end": 2065,
+        "quote": "rendering large-scale maps, point clouds, and 3D environments to visualize robot perception in real-time"
+      },
+      {
+        "id": "O5",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4096,
+        "end": 4162,
+        "quote": "systems that function reliably in network-constrained environments"
+      },
+      {
+        "id": "O6",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 2089,
+        "end": 2273,
+        "quote": "Engineer robust data synchronization layers that handle network-denied environments or intermittent connectivity, ensuring seamless operation and data integrity when robots go offline."
+      },
+      {
+        "id": "O7",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 64,
+        "end": 162,
+        "quote": "general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0668:1",
+        "codes": [],
+        "names": [],
+        "surface": "Android",
+        "quote": "Design and develop responsive, high-performance web and Android applications",
+        "field": "full_description",
+        "start": 1705,
+        "end": 1781
+      },
+      {
+        "id": "2",
+        "review_id": "N0668:2",
+        "codes": [
+          "V2_JAVASCRIPT",
+          "V2_TYPESCRIPT"
+        ],
+        "names": [
+          "JavaScript",
+          "TypeScript"
+        ],
+        "surface": "Full Stack Development: Work across the stack, with a heavy emphasis on TypeScript/JavaScript for frontend logic and integration with backend services and robotic APIs.",
+        "quote": "Full Stack Development: Work across the stack, with a heavy emphasis on TypeScript/JavaScript for frontend logic and integration with backend services and robotic APIs.",
+        "field": "full_description",
+        "start": 2274,
+        "end": 2442
+      },
+      {
+        "id": "3",
+        "review_id": "N0668:3",
+        "codes": [
+          "V2_TYPESCRIPT"
+        ],
+        "names": [
+          "TypeScript"
+        ],
+        "surface": "TypeScript",
+        "quote": "heavy emphasis on TypeScript/JavaScript for frontend logic",
+        "field": "full_description",
+        "start": 2328,
+        "end": 2386
+      },
+      {
+        "id": "4",
+        "review_id": "N0668:4",
+        "codes": [
+          "V2_JAVASCRIPT"
+        ],
+        "names": [
+          "JavaScript"
+        ],
+        "surface": "JavaScript",
+        "quote": "heavy emphasis on TypeScript/JavaScript for frontend logic",
+        "field": "full_description",
+        "start": 2328,
+        "end": 2386
+      },
+      {
+        "id": "5",
+        "review_id": "N0668:5",
+        "codes": [
+          "V2_JAVASCRIPT",
+          "V2_TYPESCRIPT"
+        ],
+        "names": [
+          "JavaScript",
+          "TypeScript"
+        ],
+        "surface": "Strong proficiency in JavaScript/TypeScript",
+        "quote": "Strong proficiency in JavaScript/TypeScript",
+        "field": "full_description",
+        "start": 2879,
+        "end": 2922
+      },
+      {
+        "id": "6",
+        "review_id": "N0668:6",
+        "codes": [
+          "V2_JAVASCRIPT"
+        ],
+        "names": [
+          "JavaScript"
+        ],
+        "surface": "JavaScript",
+        "quote": "JavaScript",
+        "field": "full_description",
+        "start": 2901,
+        "end": 2911
+      },
+      {
+        "id": "7",
+        "review_id": "N0668:7",
+        "codes": [
+          "V2_TYPESCRIPT"
+        ],
+        "names": [
+          "TypeScript"
+        ],
+        "surface": "TypeScript",
+        "quote": "TypeScript",
+        "field": "full_description",
+        "start": 2912,
+        "end": 2922
+      },
+      {
+        "id": "8",
+        "review_id": "N0668:8",
+        "codes": [
+          "V2_REACT"
+        ],
+        "names": [
+          "React"
+        ],
+        "surface": "Experience with React and modern frontend development",
+        "quote": "Experience with React and modern frontend development",
+        "field": "full_description",
+        "start": 2923,
+        "end": 2976
+      },
+      {
+        "id": "9",
+        "review_id": "N0668:9",
+        "codes": [
+          "V2_REACT"
+        ],
+        "names": [
+          "React"
+        ],
+        "surface": "React",
+        "quote": "React",
+        "field": "full_description",
+        "start": 2939,
+        "end": 2944
+      },
+      {
+        "id": "10",
+        "review_id": "N0668:10",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "Familiarity with CI/CD principles",
+        "quote": "Familiarity with CI/CD principles",
+        "field": "full_description",
+        "start": 3111,
+        "end": 3144
+      },
+      {
+        "id": "11",
+        "review_id": "N0668:11",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "CI/CD",
+        "quote": "CI/CD",
+        "field": "full_description",
+        "start": 3128,
+        "end": 3133
+      },
+      {
+        "id": "12",
+        "review_id": "N0668:12",
+        "codes": [
+          "V2_JAVASCRIPT",
+          "V2_TYPESCRIPT",
+          "V2_REACT",
+          "V2_VUE"
+        ],
+        "names": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Vue"
+        ],
+        "surface": "Expert TypeScript/JavaScript Skills: Deep proficiency in modern JS ecosystems (React, Vue, or similar) and state management.",
+        "quote": "Expert TypeScript/JavaScript Skills: Deep proficiency in modern JS ecosystems (React, Vue, or similar) and state management.",
+        "field": "full_description",
+        "start": 3323,
+        "end": 3447
+      },
+      {
+        "id": "13",
+        "review_id": "N0668:13",
+        "codes": [
+          "V2_JAVASCRIPT"
+        ],
+        "names": [
+          "JavaScript"
+        ],
+        "surface": "JS",
+        "quote": "JS",
+        "field": "full_description",
+        "start": 3387,
+        "end": 3389
+      },
+      {
+        "id": "14",
+        "review_id": "N0668:14",
+        "codes": [
+          "V2_REACT"
+        ],
+        "names": [
+          "React"
+        ],
+        "surface": "React",
+        "quote": "React",
+        "field": "full_description",
+        "start": 3402,
+        "end": 3407
+      },
+      {
+        "id": "15",
+        "review_id": "N0668:15",
+        "codes": [
+          "V2_VUE"
+        ],
+        "names": [
+          "Vue"
+        ],
+        "surface": "Vue",
+        "quote": "Vue",
+        "field": "full_description",
+        "start": 3409,
+        "end": 3412
+      },
+      {
+        "id": "16",
+        "review_id": "N0668:16",
+        "codes": [],
+        "names": [],
+        "surface": "Android",
+        "quote": "Android",
+        "field": "full_description",
+        "start": 3537,
+        "end": 3544
+      },
+      {
+        "id": "17",
+        "review_id": "N0668:17",
+        "codes": [
+          "V2_JAVASCRIPT",
+          "V2_UNITY",
+          "V2_UNREAL"
+        ],
+        "names": [
+          "JavaScript",
+          "Unity",
+          "Unreal Engine"
+        ],
+        "surface": "Graphics or Gaming Background: Experience with WebGL, Pixi, Three.js, OpenGL, or game engines (Unity/Unreal). You understand how to render 3D geometry and handle high-frame-rate visualizations in a browser or mobile context.",
+        "quote": "Graphics or Gaming Background: Experience with WebGL, Pixi, Three.js, OpenGL, or game engines (Unity/Unreal). You understand how to render 3D geometry and handle high-frame-rate visualizations in a browser or mobile context.",
+        "field": "full_description",
+        "start": 3559,
+        "end": 3783
+      },
+      {
+        "id": "18",
+        "review_id": "N0668:18",
+        "codes": [],
+        "names": [],
+        "surface": "WebGL",
+        "quote": "WebGL",
+        "field": "full_description",
+        "start": 3606,
+        "end": 3611
+      },
+      {
+        "id": "19",
+        "review_id": "N0668:19",
+        "codes": [],
+        "names": [],
+        "surface": "Pixi",
+        "quote": "Pixi",
+        "field": "full_description",
+        "start": 3613,
+        "end": 3617
+      },
+      {
+        "id": "20",
+        "review_id": "N0668:20",
+        "codes": [
+          "V2_JAVASCRIPT"
+        ],
+        "names": [
+          "JavaScript"
+        ],
+        "surface": "Three.js",
+        "quote": "Three.js",
+        "field": "full_description",
+        "start": 3619,
+        "end": 3627
+      },
+      {
+        "id": "21",
+        "review_id": "N0668:21",
+        "codes": [],
+        "names": [],
+        "surface": "OpenGL",
+        "quote": "OpenGL",
+        "field": "full_description",
+        "start": 3629,
+        "end": 3635
+      },
+      {
+        "id": "22",
+        "review_id": "N0668:22",
+        "codes": [
+          "V2_UNITY"
+        ],
+        "names": [
+          "Unity"
+        ],
+        "surface": "Unity",
+        "quote": "Unity",
+        "field": "full_description",
+        "start": 3654,
+        "end": 3659
+      },
+      {
+        "id": "23",
+        "review_id": "N0668:23",
+        "codes": [
+          "V2_UNREAL"
+        ],
+        "names": [
+          "Unreal Engine"
+        ],
+        "surface": "Unreal",
+        "quote": "Unreal",
+        "field": "full_description",
+        "start": 3660,
+        "end": 3666
+      },
+      {
+        "id": "24",
+        "review_id": "N0668:24",
+        "codes": [],
+        "names": [],
+        "surface": "CRDTs",
+        "quote": "CRDTs",
+        "field": "full_description",
+        "start": 4164,
+        "end": 4169
+      }
+    ]
+  }
+]

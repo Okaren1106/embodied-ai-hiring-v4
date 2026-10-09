@@ -1,0 +1,32 @@
+from bootstrap import *
+def edit(name,old,new):
+ p=RUN/'scripts'/name;s=p.read_text(encoding='utf-8');assert old in s,(name,old[:80]);p.write_text(s.replace(old,new),encoding='utf-8')
+edit('s00_common.py','stage-b-targeted-v1','stage-b-evidence-integrated-v1')
+edit('s00_common.py','"d03_group_bindings.py",','"d03_group_bindings.py", "_apply_targeted.py", "s13_semantic_checks.py",')
+edit('s00_common.py','"grouping_rules_source.json", "relation_policy.json"','"grouping_rules_source.json", "relation_policy.json", "evidence_identity_baseline.json", "capital_claim_bindings.json", "supplement_sources.json", "supplement_ingestion.json"')
+# Preserve scope-specific metadata and independently address multiple assertions in one field.
+edit('s02_build_facts.py','"role": r["role"], "review_note": r.get("review_note", "")}','"role": r["role"], "review_note": r.get("review_note", ""), "fact_seq": r.get("fact_seq", 1)}')
+edit('s02_build_facts.py','split = FIELD_SPLIT.get((cid, field))','split = None if comp.get("scope_rows_materialized") else FIELD_SPLIT.get((cid, field))')
+edit('s02_build_facts.py','if x["fact"] == field}','if x["fact"] == field and x.get("fact_seq", 1) == seq}')
+edit('s02_build_facts.py','rows = [x for x in facts if x["field"] == field]','rows = [x for x in facts if x["field"] == field and x["fact_seq"] == rf.get("fact_seq", 1)]')
+for k,default in [('assertion_kind','meta.get("assertion_kind", "OBSERVATION_OR_DISCLOSURE")'),('subject_entity','meta.get("subject", comp.get("research_subject", ""))'),('product_or_business_scope','meta.get("product_scope", f.get("_label", ""))'),('event_or_period','meta.get("period_note", "")'),('aggregation','meta.get("aggregation", "single")'),('note','meta.get("note", "")')]:
+ edit('s02_build_facts.py',f'"{k}": {default},',f'"{k}": f.get("{k}", {default}),')
+edit('s02_build_facts.py','"merge_parent_field": parent_field if parent_field != field else "",','"merge_parent_field": f.get("merge_parent_field", parent_field if parent_field != field else ""),')
+# Legacy materializer is explicitly historical; fix the collision and reject unrelated-source replacements.
+p=RUN/'scripts/_apply_targeted.py';s=p.read_text(encoding='utf-8');start=s.index('    # --- Figure ---');end=s.index('    # --- Agibot ---',start);s=s[:start]+s[start:end].replace('B_US_FIGURE_004','B_US_FIGURE_006')+s[end:];s=s.replace('            doc["evidence"][i] = row','            if old.get("url") != row.get("url"):\n                raise ValueError(f"Evidence identity collision: {eid}; assign a new ID")\n            doc["evidence"][i] = row');s=s.replace('if __name__ == "__main__":','if __name__ == "__main__":\n    raise SystemExit("Historical targeted importer disabled in integrated package; rebuild with s02/s03 from sealed authored inputs.")');p.write_text(s,encoding='utf-8')
+# Export distinct capture provenance. A tool response is never called raw HTML.
+edit('s03_build_tables.py','"relation_to_inherited", "note",','"relation_to_inherited", "note", "capture_medium", "snapshot_raw_sha256", "capture_record_path", "capture_record_sha256",')
+edit('s03_build_tables.py','"snapshot_sha256": snap.get("body_text_sha256", ""),','"snapshot_sha256": snap.get("body_text_sha256", ""),\n                "capture_medium": snap.get("capture_medium", "ORIGINAL_HTTP_BYTES" if snap.get("snapshot_raw_path") else "LEGACY_TEXT_RECORD"),\n                "snapshot_raw_sha256": snap.get("raw_sha256", "") if snap.get("snapshot_raw_path") else "",\n                "capture_record_path": snap.get("capture_record_path", ""),\n                "capture_record_sha256": snap.get("capture_record_sha256", ""),')
+# Actual allocation of semantic checks happens after table generation, before verification success.
+edit('s04_verify.py','    passed = sum(1 for r in RESULTS if r["result"] == "PASS")','    from s13_semantic_checks import semantic_checks\n    for item in semantic_checks():\n        check(item["id"], item["name"], item["passed"], item["detail"])\n    passed = sum(1 for r in RESULTS if r["result"] == "PASS")')
+edit('s11_release_gate.py','    if failures:\n','    from s13_semantic_checks import semantic_checks\n    for item in semantic_checks():\n        if not item["passed"]:\n            refuse(item["id"], item["detail"])\n\n    if failures:\n')
+edit('s11_release_gate.py','    "替换 Node 检查脚本并保留原成功报告",','    "替换 Node 检查脚本并保留原成功报告",\n    "融资证据换成产品页且重建合法哈希",')
+edit('s06_rebuild_and_fault.py','    # bind the fault report to this run\'s inputs and code, so a stale report cannot','    def collide_capital_source(d):\n        p = os.path.join(d, "work", "research", "authored_US_FIGURE.json")\n        obj = json.load(open(p, encoding="utf-8"))\n        product = next(e for e in obj["evidence"] if e["evidence_id"] == "B_US_FIGURE_006")\n        for e in obj["evidence"]:\n            if e["evidence_id"] == "B_US_FIGURE_004":\n                e.update(product)\n                e["evidence_id"] = "B_US_FIGURE_004"\n        write_json(p, obj)\n        # All actual input/table hashes are legitimately rebuilt. Only source identity and semantic support are false.\n        for step, extra in [("s02_build_facts.py", []), ("s03_build_tables.py", []), ("s05_grouping.py", []), ("s01_lock_inputs.py", ["--rebuild"])]:\n            rc, output = run_script(step, d, extra=extra)\n            if rc: raise RuntimeError(output[-600:])\n    probe("融资证据换成产品页且重建合法哈希", "只替换融资证据所指来源，保留 ID；重新生成事实、表与输入锁", collide_capital_source)\n\n    # bind the fault report to this run\'s inputs and code, so a stale report cannot')
+# Temp copy depth matters on Windows. All recursive cleanup targets are checked.
+edit('s06_rebuild_and_fault.py','tmp_root = os.path.join(tempfile.gettempdir(), "stageb_repair_scratch")','tmp_root = os.path.join(tempfile.gettempdir(), "b5_scratch")\n    assert os.path.realpath(tmp_root).startswith(os.path.realpath(tempfile.gettempdir()) + os.sep)')
+edit('s06_rebuild_and_fault.py','    if os.path.exists(dest):\n','    assert os.path.realpath(dest).startswith(os.path.realpath(os.path.join(tempfile.gettempdir(), "b5_scratch")) + os.sep)\n    if os.path.exists(dest):\n')
+edit('s04_verify.py','prefix="stageb_verify_rebuild_"','prefix="b5v_"')
+# Copies contain earlier progress histories: only current doc labels, not source captures, are corrected.
+for p in list(RUN.glob('*.md'))+list((RUN/'scripts').glob('*.py')):
+ s=p.read_text(encoding='utf-8');p.write_text(s.replace('灵初','千寻智能'),encoding='utf-8')
+print('pipeline patches applied')

@@ -1,0 +1,3451 @@
+[
+  {
+    "coding_order": 73,
+    "reading_id": "N0097",
+    "company_id": "CN_GALBOT",
+    "title": "具身大模型算法工程师-工业后训练",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|d31fddcb-437f-4374-a73b-39f84851805a|114498e304f7d58314a2fc5396037590a9fd55096eecb5afa6429de4a62bfeb7",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.设计并实施具身大模型的监督微调（SFT）流程，基于工业场景的半结构化任务数据，提升模型在特定机器人任务中的指令遵循、操作精度和任务完成度；开发多任务迁移学习与增量学习框架，实现跨场景、跨机器人形态的能力迁移；探索PEFT（参数高效微调）方案设计与落地验证。\n\n2.实施RLHF及其衍生技术，将模型行为与工业任务的成功标准对齐；设计符合机器人任务特点的奖励函数，平衡任务完成度、安全性、效率与能耗等多维指标；开发并训练奖励模型，实现对机器人行为质量的准确自动评估。将离线强化学习与在线策略迭代相结合，构建可扩展的后训练闭环系统。\n\n3.开发安全层与约束机制，防止模型在工业场景中产生危险或不可控行为；设计对抗性测试与压力测试方案，评估模型在边缘场景和长尾分布下的鲁棒性；实现不确定性估计与置信度校准，提升模型决策的可解释性与可信度，构建持续监控和在线学习系统，及时发现并修复模型在实际部署中的缺陷。\n\n4.设计工业级后训练数据集构建流程，包括高质量专家遥操作数据采集、远程低成本数据标注管理、数据清洗与多模态对齐，以及训练数据的质量评估和有效性筛选；面向工业场景构建专业能力评测基准（如对齐、安全、指令跟随能力）与体系化的模型评估机制；建立层次化评测框架，确保模型上线前有经过实测校准的综合能力档案。\n\n5.优化模型推理效率，通过知识蒸馏、量化、剪枝等技术降低模型在工业边缘端的部署成本；与预训练工程师紧密协作，将后训练中发现的模型缺陷和任务需求反馈至预训练阶段，形成从预训练到后训练到部署的完整研发闭环。\n\n\n\n\n职位要求：\n\n1.计算机科学、人工智能、自动化、机器人学等相关专业硕士及以上学历，博士优先。\n\n2.3年及以上大模型微调、对齐或机器人策略学习相关研发经验，有具身模型后训练（如OpenVLA、RT系列、Pi系列等）实际项目经历者优先。\n\n3.精通Python编程，熟练掌握PyTorch等主流框架，具备复杂训练流程的手写与调试能力；深入掌握大模型训练范式，熟练使用LlaMA-Factory等主流高效微调框架，深度理解监督微调（SFT）、强化学习对齐（RLHF/DPO/GRPO）等技术原理。熟悉Hugging Face Transformers及相关工具链。\n\n4.掌握PPO、DQN、SAC等强化学习算法及其在机器人策略学习中的应用，有实际项目落地经验；具备大规模模型参数高效微调实战经验，熟悉LoRA、QLoRA、Adapter等技术的原理、选型与工程部署。\n\n5.了解模仿学习（IL/BC）、Diffusion Policy等机器人策略学习方法，有机器人仿真（Isaac Sim、MuJoCo、SAPIEN等）使用经验者优先。加分项：- 在RSS、CoRL、NeurIPS、ICRA、CVPR等顶会发表过模型对齐、后训练或机器人学习相关论文。\n\n\n\n\n加分项：\n\n- 有OpenVLA、RT系列、Pi系列等开源具身模型的SFT/RLHF实战经验，或在公开的具身/对齐排行榜上有贡献。\n\n- 具备机器人真机部署与后训练闭环经验，有模型量化、ONNX/TensorRT等推理优化工程经验。\n\n- 有工业场景（如制造、物流、港口、建筑等）的机器人或自动化项目实践经验。\n\n- 熟悉机器人操作系统ROS/ROS2，了解多传感器融合技术。\n\n- 具备前沿后训练范式工程化的实际经验。\n\n- 有公开的开源贡献（代码、模型、评测基准、技术报告等）。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1.设计并实施具身大模型的监督微调（SFT）流程，基于工业场景的半结构化任务数据，提升模型在特定机器人任务中的指令遵循、操作精度和任务完成度；开发多任务迁移学习与增量学习框架，实现跨场景、跨机器人形态的能力迁移；探索PEFT（参数高效微调）方案设计与落地验证。\n\n2.实施RLHF及其衍生技术，将模型行为与工业任务的成功标准对齐；设计符合机器人任务特点的奖励函数，平衡任务完成度、安全性、效率与能耗等多维指标；开发并训练奖励模型，实现对机器人行为质量的准确自动评估。将离线强化学习与在线策略迭代相结合，构建可扩展的后训练闭环系统。\n\n3.开发安全层与约束机制，防止模型在工业场景中产生危险或不可控行为；设计对抗性测试与压力测试方案，评估模型在边缘场景和长尾分布下的鲁棒性；实现不确定性估计与置信度校准，提升模型决策的可解释性与可信度，构建持续监控和在线学习系统，及时发现并修复模型在实际部署中的缺陷。\n\n4.设计工业级后训练数据集构建流程，包括高质量专家遥操作数据采集、远程低成本数据标注管理、数据清洗与多模态对齐，以及训练数据的质量评估和有效性筛选；面向工业场景构建专业能力评测基准（如对齐、安全、指令跟随能力）与体系化的模型评估机制；建立层次化评测框架，确保模型上线前有经过实测校准的综合能力档案。\n\n5.优化模型推理效率，通过知识蒸馏、量化、剪枝等技术降低模型在工业边缘端的部署成本；与预训练工程师紧密协作，将后训练中发现的模型缺陷和任务需求反馈至预训练阶段，形成从预训练到后训练到部署的完整研发闭环。\n\n\n\n\n职位要求：\n\n1.计算机科学、人工智能、自动化、机器人学等相关专业硕士及以上学历，博士优先。\n\n2.3年及以上大模型微调、对齐或机器人策略学习相关研发经验，有具身模型后训练（如OpenVLA、RT系列、Pi系列等）实际项目经历者优先。\n\n3.精通Python编程，熟练掌握PyTorch等主流框架，具备复杂训练流程的手写与调试能力；深入掌握大模型训练范式，熟练使用LlaMA-Factory等主流高效微调框架，深度理解监督微调（SFT）、强化学习对齐（RLHF/DPO/GRPO）等技术原理。熟悉Hugging Face Transformers及相关工具链。\n\n4.掌握PPO、DQN、SAC等强化学习算法及其在机器人策略学习中的应用，有实际项目落地经验；具备大规模模型参数高效微调实战经验，熟悉LoRA、QLoRA、Adapter等技术的原理、选型与工程部署。\n\n5.了解模仿学习（IL/BC）、Diffusion Policy等机器人策略学习方法，有机器人仿真（Isaac Sim、MuJoCo、SAPIEN等）使用经验者优先。加分项：- 在RSS、CoRL、NeurIPS、ICRA、CVPR等顶会发表过模型对齐、后训练或机器人学习相关论文。\n\n\n\n\n加分项：\n\n- 有OpenVLA、RT系列、Pi系列等开源具身模型的SFT/RLHF实战经验，或在公开的具身/对齐排行榜上有贡献。\n\n- 具备机器人真机部署与后训练闭环经验，有模型量化、ONNX/TensorRT等推理优化工程经验。\n\n- 有工业场景（如制造、物流、港口、建筑等）的机器人或自动化项目实践经验。\n\n- 熟悉机器人操作系统ROS/ROS2，了解多传感器融合技术。\n\n- 具备前沿后训练范式工程化的实际经验。\n\n- 有公开的开源贡献（代码、模型、评测基准、技术报告等）。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 789,
+        "end": 795,
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 802,
+        "end": 809,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1100,
+        "end": 1109,
+        "quote": "Isaac Sim"
+      },
+      {
+        "id": "O4",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1110,
+        "end": 1116,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O5",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1364,
+        "end": 1367,
+        "quote": "ROS"
+      },
+      {
+        "id": "O6",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1368,
+        "end": 1372,
+        "quote": "ROS2"
+      },
+      {
+        "id": "O7",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 31,
+        "quote": "设计并实施具身大模型的监督微调（SFT）流程"
+      },
+      {
+        "id": "O8",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 31,
+        "quote": "设计并实施具身大模型的监督微调（SFT）流程"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 48,
+        "end": 77,
+        "quote": "提升模型在特定机器人任务中的指令遵循、操作精度和任务完成度"
+      },
+      {
+        "id": "O10",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 141,
+        "end": 153,
+        "quote": "实施RLHF及其衍生技术"
+      },
+      {
+        "id": "O11",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 212,
+        "end": 239,
+        "quote": "开发并训练奖励模型，实现对机器人行为质量的准确自动评估"
+      },
+      {
+        "id": "O12",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 212,
+        "end": 239,
+        "quote": "开发并训练奖励模型，实现对机器人行为质量的准确自动评估"
+      },
+      {
+        "id": "O13",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 276,
+        "end": 307,
+        "quote": "开发安全层与约束机制，防止模型在工业场景中产生危险或不可控行为"
+      },
+      {
+        "id": "O14",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 411,
+        "end": 464,
+        "quote": "设计工业级后训练数据集构建流程，包括高质量专家遥操作数据采集、远程低成本数据标注管理、数据清洗与多模态对齐"
+      },
+      {
+        "id": "O15",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 721,
+        "end": 726,
+        "quote": "大模型微调"
+      },
+      {
+        "id": "O16",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 754,
+        "end": 761,
+        "quote": "OpenVLA"
+      },
+      {
+        "id": "O17",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 762,
+        "end": 766,
+        "quote": "RT系列"
+      },
+      {
+        "id": "O18",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 767,
+        "end": 771,
+        "quote": "Pi系列"
+      },
+      {
+        "id": "O19",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 832,
+        "end": 843,
+        "quote": "深入掌握大模型训练范式"
+      },
+      {
+        "id": "O20",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 885,
+        "end": 906,
+        "quote": "强化学习对齐（RLHF/DPO/GRPO）"
+      },
+      {
+        "id": "O21",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 950,
+        "end": 984,
+        "quote": "掌握PPO、DQN、SAC等强化学习算法及其在机器人策略学习中的应用"
+      },
+      {
+        "id": "O22",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 995,
+        "end": 1012,
+        "quote": "具备大规模模型参数高效微调实战经验"
+      },
+      {
+        "id": "O23",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1054,
+        "end": 1065,
+        "quote": "模仿学习（IL/BC）"
+      },
+      {
+        "id": "O24",
+        "code": "TC_GENERATIVE_POLICY",
+        "name": "生成式机器人策略",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1066,
+        "end": 1082,
+        "quote": "Diffusion Policy"
+      },
+      {
+        "id": "O25",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1100,
+        "end": 1109,
+        "quote": "Isaac Sim"
+      },
+      {
+        "id": "O26",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1110,
+        "end": 1116,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O27",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1117,
+        "end": 1123,
+        "quote": "SAPIEN"
+      },
+      {
+        "id": "O28",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1204,
+        "end": 1242,
+        "quote": "有OpenVLA、RT系列、Pi系列等开源具身模型的SFT/RLHF实战经验"
+      },
+      {
+        "id": "O29",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1204,
+        "end": 1242,
+        "quote": "有OpenVLA、RT系列、Pi系列等开源具身模型的SFT/RLHF实战经验"
+      },
+      {
+        "id": "O30",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1275,
+        "end": 1282,
+        "quote": "后训练闭环经验"
+      },
+      {
+        "id": "O31",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1375,
+        "end": 1383,
+        "quote": "多传感器融合技术"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0097:1",
+        "codes": [
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "模型后训练与对齐"
+        ],
+        "surface": "1.设计并实施具身大模型的监督微调（SFT）流程，基于工业场景的半结构化任务数据，提升模型在特定机器人任务中的指令遵循、操作精度和任务完成度；开发多任务迁移学习与增量学习框架，实现跨场景、跨机器人形态的能力迁移；探索PEFT（参数高效微调）方案设计与落地验证。",
+        "quote": "1.设计并实施具身大模型的监督微调（SFT）流程，基于工业场景的半结构化任务数据，提升模型在特定机器人任务中的指令遵循、操作精度和任务完成度；开发多任务迁移学习与增量学习框架，实现跨场景、跨机器人形态的能力迁移；探索PEFT（参数高效微调）方案设计与落地验证。",
+        "field": "full_description",
+        "start": 7,
+        "end": 137
+      },
+      {
+        "id": "2",
+        "review_id": "N0097:2",
+        "codes": [
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "模型后训练与对齐"
+        ],
+        "surface": "2.实施RLHF及其衍生技术，将模型行为与工业任务的成功标准对齐；设计符合机器人任务特点的奖励函数，平衡任务完成度、安全性、效率与能耗等多维指标；开发并训练奖励模型，实现对机器人行为质量的准确自动评估。将离线强化学习与在线策略迭代相结合，构建可扩展的后训练闭环系统。",
+        "quote": "2.实施RLHF及其衍生技术，将模型行为与工业任务的成功标准对齐；设计符合机器人任务特点的奖励函数，平衡任务完成度、安全性、效率与能耗等多维指标；开发并训练奖励模型，实现对机器人行为质量的准确自动评估。将离线强化学习与在线策略迭代相结合，构建可扩展的后训练闭环系统。",
+        "field": "full_description",
+        "start": 139,
+        "end": 272
+      },
+      {
+        "id": "3",
+        "review_id": "N0097:3",
+        "codes": [
+          "V2_CALIBRATION"
+        ],
+        "names": [
+          "传感器与系统标定"
+        ],
+        "surface": "3.开发安全层与约束机制，防止模型在工业场景中产生危险或不可控行为；设计对抗性测试与压力测试方案，评估模型在边缘场景和长尾分布下的鲁棒性；实现不确定性估计与置信度校准，提升模型决策的可解释性与可信度，构建持续监控和在线学习系统，及时发现并修复模型在实际部署中的缺陷。",
+        "quote": "3.开发安全层与约束机制，防止模型在工业场景中产生危险或不可控行为；设计对抗性测试与压力测试方案，评估模型在边缘场景和长尾分布下的鲁棒性；实现不确定性估计与置信度校准，提升模型决策的可解释性与可信度，构建持续监控和在线学习系统，及时发现并修复模型在实际部署中的缺陷。",
+        "field": "full_description",
+        "start": 274,
+        "end": 407
+      },
+      {
+        "id": "4",
+        "review_id": "N0097:4",
+        "codes": [
+          "V2_CALIBRATION",
+          "V2_POSTTRAINING",
+          "V2_TELEOP"
+        ],
+        "names": [
+          "传感器与系统标定",
+          "模型后训练与对齐",
+          "遥操作与示教"
+        ],
+        "surface": "4.设计工业级后训练数据集构建流程，包括高质量专家遥操作数据采集、远程低成本数据标注管理、数据清洗与多模态对齐，以及训练数据的质量评估和有效性筛选；面向工业场景构建专业能力评测基准（如对齐、安全、指令跟随能力）与体系化的模型评估机制；建立层次化评测框架，确保模型上线前有经过实测校准的综合能力档案。",
+        "quote": "4.设计工业级后训练数据集构建流程，包括高质量专家遥操作数据采集、远程低成本数据标注管理、数据清洗与多模态对齐，以及训练数据的质量评估和有效性筛选；面向工业场景构建专业能力评测基准（如对齐、安全、指令跟随能力）与体系化的模型评估机制；建立层次化评测框架，确保模型上线前有经过实测校准的综合能力档案。",
+        "field": "full_description",
+        "start": 409,
+        "end": 558
+      },
+      {
+        "id": "5",
+        "review_id": "N0097:5",
+        "codes": [
+          "V2_POSTTRAINING",
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型后训练与对齐",
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "5.优化模型推理效率，通过知识蒸馏、量化、剪枝等技术降低模型在工业边缘端的部署成本；与预训练工程师紧密协作，将后训练中发现的模型缺陷和任务需求反馈至预训练阶段，形成从预训练到后训练到部署的完整研发闭环。",
+        "quote": "5.优化模型推理效率，通过知识蒸馏、量化、剪枝等技术降低模型在工业边缘端的部署成本；与预训练工程师紧密协作，将后训练中发现的模型缺陷和任务需求反馈至预训练阶段，形成从预训练到后训练到部署的完整研发闭环。",
+        "field": "full_description",
+        "start": 560,
+        "end": 661
+      },
+      {
+        "id": "6",
+        "review_id": "N0097:6",
+        "codes": [
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "模型后训练与对齐"
+        ],
+        "surface": "2.3年及以上大模型微调、对齐或机器人策略学习相关研发经验，有具身模型后训练（如OpenVLA、RT系列、Pi系列等）实际项目经历者优先。",
+        "quote": "2.3年及以上大模型微调、对齐或机器人策略学习相关研发经验，有具身模型后训练（如OpenVLA、RT系列、Pi系列等）实际项目经历者优先。",
+        "field": "full_description",
+        "start": 714,
+        "end": 783
+      },
+      {
+        "id": "7",
+        "review_id": "N0097:7",
+        "codes": [
+          "V2_HUGGINGFACE",
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "Hugging Face工具库",
+          "模型后训练与对齐"
+        ],
+        "surface": "3.精通Python编程，熟练掌握PyTorch等主流框架，具备复杂训练流程的手写与调试能力；深入掌握大模型训练范式，熟练使用LlaMA-Factory等主流高效微调框架，深度理解监督微调（SFT）、强化学习对齐（RLHF/DPO/GRPO）等技术原理。熟悉Hugging Face Transformers及相关工具链。",
+        "quote": "3.精通Python编程，熟练掌握PyTorch等主流框架，具备复杂训练流程的手写与调试能力；深入掌握大模型训练范式，熟练使用LlaMA-Factory等主流高效微调框架，深度理解监督微调（SFT）、强化学习对齐（RLHF/DPO/GRPO）等技术原理。熟悉Hugging Face Transformers及相关工具链。",
+        "field": "full_description",
+        "start": 785,
+        "end": 946
+      },
+      {
+        "id": "8",
+        "review_id": "N0097:8",
+        "codes": [],
+        "names": [],
+        "surface": "LlaMA-Factory",
+        "quote": "LlaMA-Factory",
+        "field": "full_description",
+        "start": 848,
+        "end": 861
+      },
+      {
+        "id": "9",
+        "review_id": "N0097:9",
+        "codes": [
+          "V2_HUGGINGFACE"
+        ],
+        "names": [
+          "Hugging Face工具库"
+        ],
+        "surface": "Hugging Face Transformers",
+        "quote": "Hugging Face Transformers",
+        "field": "full_description",
+        "start": 914,
+        "end": 939
+      },
+      {
+        "id": "10",
+        "review_id": "N0097:10",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "4.掌握PPO、DQN、SAC等强化学习算法及其在机器人策略学习中的应用，有实际项目落地经验；具备大规模模型参数高效微调实战经验，熟悉LoRA、QLoRA、Adapter等技术的原理、选型与工程部署。",
+        "quote": "4.掌握PPO、DQN、SAC等强化学习算法及其在机器人策略学习中的应用，有实际项目落地经验；具备大规模模型参数高效微调实战经验，熟悉LoRA、QLoRA、Adapter等技术的原理、选型与工程部署。",
+        "field": "full_description",
+        "start": 948,
+        "end": 1048
+      },
+      {
+        "id": "11",
+        "review_id": "N0097:11",
+        "codes": [
+          "V2_SAPIEN",
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "SAPIEN",
+          "模型后训练与对齐"
+        ],
+        "surface": "5.了解模仿学习（IL/BC）、Diffusion Policy等机器人策略学习方法，有机器人仿真（Isaac Sim、MuJoCo、SAPIEN等）使用经验者优先。加分项：- 在RSS、CoRL、NeurIPS、ICRA、CVPR等顶会发表过模型对齐、后训练或机器人学习相关论文。",
+        "quote": "5.了解模仿学习（IL/BC）、Diffusion Policy等机器人策略学习方法，有机器人仿真（Isaac Sim、MuJoCo、SAPIEN等）使用经验者优先。加分项：- 在RSS、CoRL、NeurIPS、ICRA、CVPR等顶会发表过模型对齐、后训练或机器人学习相关论文。",
+        "field": "full_description",
+        "start": 1050,
+        "end": 1191
+      },
+      {
+        "id": "12",
+        "review_id": "N0097:12",
+        "codes": [
+          "V2_SAPIEN"
+        ],
+        "names": [
+          "SAPIEN"
+        ],
+        "surface": "SAPIEN",
+        "quote": "SAPIEN",
+        "field": "full_description",
+        "start": 1117,
+        "end": 1123
+      },
+      {
+        "id": "13",
+        "review_id": "N0097:13",
+        "codes": [
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "模型后训练与对齐"
+        ],
+        "surface": "- 有OpenVLA、RT系列、Pi系列等开源具身模型的SFT/RLHF实战经验，或在公开的具身/对齐排行榜上有贡献。",
+        "quote": "- 有OpenVLA、RT系列、Pi系列等开源具身模型的SFT/RLHF实战经验，或在公开的具身/对齐排行榜上有贡献。",
+        "field": "full_description",
+        "start": 1202,
+        "end": 1261
+      },
+      {
+        "id": "14",
+        "review_id": "N0097:14",
+        "codes": [
+          "V2_TENSORRT",
+          "V2_ONNX",
+          "V2_POSTTRAINING",
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "TensorRT",
+          "ONNX",
+          "模型后训练与对齐",
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "- 具备机器人真机部署与后训练闭环经验，有模型量化、ONNX/TensorRT等推理优化工程经验。",
+        "quote": "- 具备机器人真机部署与后训练闭环经验，有模型量化、ONNX/TensorRT等推理优化工程经验。",
+        "field": "full_description",
+        "start": 1263,
+        "end": 1312
+      },
+      {
+        "id": "15",
+        "review_id": "N0097:15",
+        "codes": [
+          "V2_ONNX"
+        ],
+        "names": [
+          "ONNX"
+        ],
+        "surface": "ONNX",
+        "quote": "ONNX",
+        "field": "full_description",
+        "start": 1289,
+        "end": 1293
+      },
+      {
+        "id": "16",
+        "review_id": "N0097:16",
+        "codes": [
+          "V2_TENSORRT"
+        ],
+        "names": [
+          "TensorRT"
+        ],
+        "surface": "TensorRT",
+        "quote": "TensorRT",
+        "field": "full_description",
+        "start": 1294,
+        "end": 1302
+      },
+      {
+        "id": "17",
+        "review_id": "N0097:17",
+        "codes": [
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "模型后训练与对齐"
+        ],
+        "surface": "- 具备前沿后训练范式工程化的实际经验。",
+        "quote": "- 具备前沿后训练范式工程化的实际经验。",
+        "field": "full_description",
+        "start": 1386,
+        "end": 1406
+      }
+    ]
+  },
+  {
+    "coding_order": 74,
+    "reading_id": "N0057",
+    "company_id": "CN_GALBOT",
+    "title": "具身智能算法实习生【人机交互方向】",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|ecb9b926-55a2-41f3-86ab-4301f85f74f0|2a4950f20d8bd542ba4da2ef81e5f65174f60bc602878eada88268763bd240b9",
+    "already_coded": false,
+    "fields": {
+      "duties": "1、负责人机交互场景下的具身智能算法研究，包括交互策略建模、多模态感知与动作生成。\n\n2、开发和优化基于强化学习或模仿学习的交互算法，提升智能体在物理环境中的交互能力。\n\n3、构建人机交互数据集，设计实验验证算法在真实或仿真环境中的性能表现。\n\n4、与机器人硬件和软件团队协作，将算法集成到实际机器人系统中进行测试验证。\n\n5、跟踪具身智能与人机交互领域的前沿技术，定期分享研究成果和技术洞察。",
+      "requirements": "",
+      "full_description": "1、负责人机交互场景下的具身智能算法研究，包括交互策略建模、多模态感知与动作生成。\n\n2、开发和优化基于强化学习或模仿学习的交互算法，提升智能体在物理环境中的交互能力。\n\n3、构建人机交互数据集，设计实验验证算法在真实或仿真环境中的性能表现。\n\n4、与机器人硬件和软件团队协作，将算法集成到实际机器人系统中进行测试验证。\n\n5、跟踪具身智能与人机交互领域的前沿技术，定期分享研究成果和技术洞察。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 21,
+        "end": 40,
+        "quote": "包括交互策略建模、多模态感知与动作生成"
+      },
+      {
+        "id": "O2",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 45,
+        "end": 66,
+        "quote": "开发和优化基于强化学习或模仿学习的交互算法"
+      },
+      {
+        "id": "O3",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 45,
+        "end": 66,
+        "quote": "开发和优化基于强化学习或模仿学习的交互算法"
+      },
+      {
+        "id": "O4",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 88,
+        "end": 121,
+        "quote": "构建人机交互数据集，设计实验验证算法在真实或仿真环境中的性能表现。"
+      },
+      {
+        "id": "O5",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 88,
+        "end": 121,
+        "quote": "构建人机交互数据集，设计实验验证算法在真实或仿真环境中的性能表现。"
+      },
+      {
+        "id": "O6",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 88,
+        "end": 121,
+        "quote": "构建人机交互数据集，设计实验验证算法在真实或仿真环境中的性能表现。"
+      }
+    ],
+    "candidates": []
+  },
+  {
+    "coding_order": 75,
+    "reading_id": "N0588",
+    "company_id": "CN_LIMX",
+    "title": "具身基础模型算法工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7613941335377414443|bb36a1b2b96f7b87039ddf9b57269b66fa3ee3e89fb6bd31374ff0789fdba05f",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n1. 构建、训练和部署人形机器人基础模型（Humanoid Foundation Model），应用于全身运动跟踪及移动操作。\n2. 探索前沿运动基础模型（BFM / WBT）、动作跟踪（Motion Tracking）算法、模仿学习以及VLA模型，结合业务预研创新，输出可落地技术方案，提升产品竞争力。\n3. 跟踪人形机器人、AI领域前沿技术，将最新成果融入研发，沉淀技术经验与专利。\n\n任职要求\n1. 硕士及以上学历，AI、机器人等相关专业，博士优先，具备扎实理论与实践能力。\n2. 在机器人/AI顶级会议或核心期刊发表论文者优先。\n3. 有良好的强化学习或多模态学习基础，有机器人真机调试经验者优先。\n4. 有全身运动跟踪器、VLA、VLM等相关项目经验者优先。",
+      "requirements": "1. 硕士及以上学历，AI、机器人等相关专业，博士优先，具备扎实理论与实践能力。\n2. 在机器人/AI顶级会议或核心期刊发表论文者优先。\n3. 有良好的强化学习或多模态学习基础，有机器人真机调试经验者优先。\n4. 有全身运动跟踪器、VLA、VLM等相关项目经验者优先。",
+      "full_description": "岗位职责\n1. 构建、训练和部署人形机器人基础模型（Humanoid Foundation Model），应用于全身运动跟踪及移动操作。\n2. 探索前沿运动基础模型（BFM / WBT）、动作跟踪（Motion Tracking）算法、模仿学习以及VLA模型，结合业务预研创新，输出可落地技术方案，提升产品竞争力。\n3. 跟踪人形机器人、AI领域前沿技术，将最新成果融入研发，沉淀技术经验与专利。\n\n任职要求\n1. 硕士及以上学历，AI、机器人等相关专业，博士优先，具备扎实理论与实践能力。\n2. 在机器人/AI顶级会议或核心期刊发表论文者优先。\n3. 有良好的强化学习或多模态学习基础，有机器人真机调试经验者优先。\n4. 有全身运动跟踪器、VLA、VLM等相关项目经验者优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 8,
+        "end": 52,
+        "quote": "构建、训练和部署人形机器人基础模型（Humanoid Foundation Model）"
+      },
+      {
+        "id": "O2",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 53,
+        "end": 68,
+        "quote": "应用于全身运动跟踪及移动操作。"
+      },
+      {
+        "id": "O3",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 53,
+        "end": 68,
+        "quote": "应用于全身运动跟踪及移动操作。"
+      },
+      {
+        "id": "O4",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 72,
+        "end": 129,
+        "quote": "探索前沿运动基础模型（BFM / WBT）、动作跟踪（Motion Tracking）算法、模仿学习以及VLA模型"
+      },
+      {
+        "id": "O5",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 281,
+        "end": 285,
+        "quote": "强化学习"
+      },
+      {
+        "id": "O6",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 286,
+        "end": 291,
+        "quote": "多模态学习"
+      },
+      {
+        "id": "O7",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 313,
+        "end": 320,
+        "quote": "全身运动跟踪器"
+      },
+      {
+        "id": "O8",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 321,
+        "end": 324,
+        "quote": "VLA"
+      },
+      {
+        "id": "O9",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 325,
+        "end": 328,
+        "quote": "VLM"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0588:1",
+        "codes": [],
+        "names": [],
+        "surface": "BFM",
+        "quote": "BFM",
+        "field": "full_description",
+        "start": 83,
+        "end": 86
+      },
+      {
+        "id": "2",
+        "review_id": "N0588:2",
+        "codes": [],
+        "names": [],
+        "surface": "WBT",
+        "quote": "WBT",
+        "field": "full_description",
+        "start": 89,
+        "end": 92
+      }
+    ]
+  },
+  {
+    "coding_order": 76,
+    "reading_id": "N0575",
+    "company_id": "CN_LIMX",
+    "title": "人形机器人VLA算法实习生",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7643646902622243114|c1fdd69f9e24076fcc25d0e468bca073c54a8518a1957e0f2974e820575f580a",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n- 参与人形机器人 VLA 模型的设计、训练与评测；\n- 研究视觉、触觉、语言、机器人状态与动作的多模态表征及融合；\n- 探索世界建模、未来状态预测、动作生成与长时序任务规划；\n- 参与人形机器人 Contact-rich 任务研发，覆盖全身交互、灵巧操作及双臂协同等方向；\n- 搭建面向人形机器人操作与全身交互的仿真 Benchmark，包括任务、场景、资产和评测体系；\n- 参与 Real-to-Sim-to-Real 工作流建设，开展数字孪生、系统辨识及仿真参数校准；\n- 探索仿真数据、真机数据及视频数据的联合利用，支持模型预训练、策略学习和 Sim-to-Real 迁移；\n- 参与真机强化学习系统研发，研究安全探索、数据高效学习、在线策略优化及仿真预训练—真机微调；\n- 在仿真和真机平台开展实验，评估模型的任务表现、鲁棒性及泛化能力；\n- 跟踪并复现具身智能、世界模型及机器人基础模型领域的前沿工作。\n\n任职要求\n- 计算机、人工智能、机器人、自动化或相关专业本科及以上在读；\n- 掌握机器学习与深度学习基础，了解计算机视觉、生成模型、模仿学习或强化学习；\n- 熟练使用 Python 和 PyTorch，具备模型训练、调试及实验分析能力；\n- 对机器人运动学、动力学、控制或接触建模有基本了解；\n- 了解至少一种机器人仿真平台，如 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、Genesis 等；\n- 具备良好的代码实现、论文阅读、实验设计和问题分析能力；\n- 对人形机器人、世界模型、触觉感知及具身智能有浓厚兴趣；\n- 每周实习不少于 4 天，实习期不少于 4 个月，可连续实习 6 个月者优先。\n加分项\n- 有 VLA、多模态模型、世界模型或机器人基础模型相关经验；\n- 有视觉—触觉学习、视频生成、未来状态预测或潜空间动力学相关经验；\n- 有模仿学习、强化学习、真机在线优化或机器人自主数据采集经验；\n- 有高自由度灵巧手、双臂机器人、人形机器人或全身控制开发经验；\n- 有 Contact-rich 任务、仿真 Benchmark 或数字孪生相关经验；\n- 有 Real-to-Sim-to-Real、Sim-to-Real、大规模并行仿真或合成数据生成经验；\n- 熟悉触觉、力/力矩等机器人传感器及多模态数据采集系统；\n- 有相关论文、竞赛经历或高质量开源项目。\n实习收获\n- 参与人形机器人从多模态数据、世界建模、仿真训练、真机强化学习到实际部署的完整研发流程；\n- 接触人形机器人、高自由度灵巧手、多模态传感器及前沿具身智能算法；\n- 表现优秀者可获得转正机会，并支持产出论文、专利或开源成果。",
+      "requirements": "- 计算机、人工智能、机器人、自动化或相关专业本科及以上在读；\n- 掌握机器学习与深度学习基础，了解计算机视觉、生成模型、模仿学习或强化学习；\n- 熟练使用 Python 和 PyTorch，具备模型训练、调试及实验分析能力；\n- 对机器人运动学、动力学、控制或接触建模有基本了解；\n- 了解至少一种机器人仿真平台，如 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、Genesis 等；\n- 具备良好的代码实现、论文阅读、实验设计和问题分析能力；\n- 对人形机器人、世界模型、触觉感知及具身智能有浓厚兴趣；\n- 每周实习不少于 4 天，实习期不少于 4 个月，可连续实习 6 个月者优先。\n加分项\n- 有 VLA、多模态模型、世界模型或机器人基础模型相关经验；\n- 有视觉—触觉学习、视频生成、未来状态预测或潜空间动力学相关经验；\n- 有模仿学习、强化学习、真机在线优化或机器人自主数据采集经验；\n- 有高自由度灵巧手、双臂机器人、人形机器人或全身控制开发经验；\n- 有 Contact-rich 任务、仿真 Benchmark 或数字孪生相关经验；\n- 有 Real-to-Sim-to-Real、Sim-to-Real、大规模并行仿真或合成数据生成经验；\n- 熟悉触觉、力/力矩等机器人传感器及多模态数据采集系统；\n- 有相关论文、竞赛经历或高质量开源项目。\n实习收获\n- 参与人形机器人从多模态数据、世界建模、仿真训练、真机强化学习到实际部署的完整研发流程；\n- 接触人形机器人、高自由度灵巧手、多模态传感器及前沿具身智能算法；\n- 表现优秀者可获得转正机会，并支持产出论文、专利或开源成果。",
+      "full_description": "岗位职责\n- 参与人形机器人 VLA 模型的设计、训练与评测；\n- 研究视觉、触觉、语言、机器人状态与动作的多模态表征及融合；\n- 探索世界建模、未来状态预测、动作生成与长时序任务规划；\n- 参与人形机器人 Contact-rich 任务研发，覆盖全身交互、灵巧操作及双臂协同等方向；\n- 搭建面向人形机器人操作与全身交互的仿真 Benchmark，包括任务、场景、资产和评测体系；\n- 参与 Real-to-Sim-to-Real 工作流建设，开展数字孪生、系统辨识及仿真参数校准；\n- 探索仿真数据、真机数据及视频数据的联合利用，支持模型预训练、策略学习和 Sim-to-Real 迁移；\n- 参与真机强化学习系统研发，研究安全探索、数据高效学习、在线策略优化及仿真预训练—真机微调；\n- 在仿真和真机平台开展实验，评估模型的任务表现、鲁棒性及泛化能力；\n- 跟踪并复现具身智能、世界模型及机器人基础模型领域的前沿工作。\n\n任职要求\n- 计算机、人工智能、机器人、自动化或相关专业本科及以上在读；\n- 掌握机器学习与深度学习基础，了解计算机视觉、生成模型、模仿学习或强化学习；\n- 熟练使用 Python 和 PyTorch，具备模型训练、调试及实验分析能力；\n- 对机器人运动学、动力学、控制或接触建模有基本了解；\n- 了解至少一种机器人仿真平台，如 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、Genesis 等；\n- 具备良好的代码实现、论文阅读、实验设计和问题分析能力；\n- 对人形机器人、世界模型、触觉感知及具身智能有浓厚兴趣；\n- 每周实习不少于 4 天，实习期不少于 4 个月，可连续实习 6 个月者优先。\n加分项\n- 有 VLA、多模态模型、世界模型或机器人基础模型相关经验；\n- 有视觉—触觉学习、视频生成、未来状态预测或潜空间动力学相关经验；\n- 有模仿学习、强化学习、真机在线优化或机器人自主数据采集经验；\n- 有高自由度灵巧手、双臂机器人、人形机器人或全身控制开发经验；\n- 有 Contact-rich 任务、仿真 Benchmark 或数字孪生相关经验；\n- 有 Real-to-Sim-to-Real、Sim-to-Real、大规模并行仿真或合成数据生成经验；\n- 熟悉触觉、力/力矩等机器人传感器及多模态数据采集系统；\n- 有相关论文、竞赛经历或高质量开源项目。\n实习收获\n- 参与人形机器人从多模态数据、世界建模、仿真训练、真机强化学习到实际部署的完整研发流程；\n- 接触人形机器人、高自由度灵巧手、多模态传感器及前沿具身智能算法；\n- 表现优秀者可获得转正机会，并支持产出论文、专利或开源成果。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 498,
+        "end": 504,
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 507,
+        "end": 514,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 579,
+        "end": 588,
+        "quote": "Isaac Sim"
+      },
+      {
+        "id": "O4",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 589,
+        "end": 598,
+        "quote": "Isaac Lab"
+      },
+      {
+        "id": "O5",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 599,
+        "end": 605,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O6",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 7,
+        "end": 31,
+        "quote": "参与人形机器人 VLA 模型的设计、训练与评测；"
+      },
+      {
+        "id": "O7",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 34,
+        "end": 63,
+        "quote": "研究视觉、触觉、语言、机器人状态与动作的多模态表征及融合；"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 96,
+        "end": 142,
+        "quote": "参与人形机器人 Contact-rich 任务研发，覆盖全身交互、灵巧操作及双臂协同等方向；"
+      },
+      {
+        "id": "O9",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 145,
+        "end": 191,
+        "quote": "搭建面向人形机器人操作与全身交互的仿真 Benchmark，包括任务、场景、资产和评测体系；"
+      },
+      {
+        "id": "O10",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 145,
+        "end": 191,
+        "quote": "搭建面向人形机器人操作与全身交互的仿真 Benchmark，包括任务、场景、资产和评测体系；"
+      },
+      {
+        "id": "O11",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 299,
+        "end": 344,
+        "quote": "参与真机强化学习系统研发，研究安全探索、数据高效学习、在线策略优化及仿真预训练—真机微调；"
+      },
+      {
+        "id": "O12",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 312,
+        "end": 343,
+        "quote": "研究安全探索、数据高效学习、在线策略优化及仿真预训练—真机微调"
+      },
+      {
+        "id": "O13",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 347,
+        "end": 379,
+        "quote": "在仿真和真机平台开展实验，评估模型的任务表现、鲁棒性及泛化能力；"
+      },
+      {
+        "id": "O14",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 455,
+        "end": 466,
+        "quote": "机器学习与深度学习基础"
+      },
+      {
+        "id": "O15",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 469,
+        "end": 474,
+        "quote": "计算机视觉"
+      },
+      {
+        "id": "O16",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 475,
+        "end": 479,
+        "quote": "生成模型"
+      },
+      {
+        "id": "O17",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 480,
+        "end": 484,
+        "quote": "模仿学习"
+      },
+      {
+        "id": "O18",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 485,
+        "end": 489,
+        "quote": "强化学习"
+      },
+      {
+        "id": "O19",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 547,
+        "end": 549,
+        "quote": "控制"
+      },
+      {
+        "id": "O20",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 550,
+        "end": 554,
+        "quote": "接触建模"
+      },
+      {
+        "id": "O21",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 579,
+        "end": 588,
+        "quote": "Isaac Sim"
+      },
+      {
+        "id": "O22",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 589,
+        "end": 598,
+        "quote": "Isaac Lab"
+      },
+      {
+        "id": "O23",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 599,
+        "end": 605,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O24",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 606,
+        "end": 612,
+        "quote": "SAPIEN"
+      },
+      {
+        "id": "O25",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 613,
+        "end": 620,
+        "quote": "Genesis"
+      },
+      {
+        "id": "O26",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 733,
+        "end": 736,
+        "quote": "VLA"
+      },
+      {
+        "id": "O27",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 737,
+        "end": 742,
+        "quote": "多模态模型"
+      },
+      {
+        "id": "O28",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 743,
+        "end": 747,
+        "quote": "世界模型"
+      },
+      {
+        "id": "O29",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 748,
+        "end": 755,
+        "quote": "机器人基础模型"
+      },
+      {
+        "id": "O30",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 764,
+        "end": 771,
+        "quote": "视觉—触觉学习"
+      },
+      {
+        "id": "O31",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 772,
+        "end": 776,
+        "quote": "视频生成"
+      },
+      {
+        "id": "O32",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 799,
+        "end": 803,
+        "quote": "模仿学习"
+      },
+      {
+        "id": "O33",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 804,
+        "end": 808,
+        "quote": "强化学习"
+      },
+      {
+        "id": "O34",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 832,
+        "end": 839,
+        "quote": "高自由度灵巧手"
+      },
+      {
+        "id": "O35",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 840,
+        "end": 845,
+        "quote": "双臂机器人"
+      },
+      {
+        "id": "O36",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 852,
+        "end": 860,
+        "quote": "全身控制开发经验"
+      },
+      {
+        "id": "O37",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 866,
+        "end": 881,
+        "quote": "Contact-rich 任务"
+      },
+      {
+        "id": "O38",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 882,
+        "end": 894,
+        "quote": "仿真 Benchmark"
+      },
+      {
+        "id": "O39",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 882,
+        "end": 894,
+        "quote": "仿真 Benchmark"
+      },
+      {
+        "id": "O40",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 896,
+        "end": 900,
+        "quote": "数字孪生"
+      },
+      {
+        "id": "O41",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 910,
+        "end": 929,
+        "quote": "Real-to-Sim-to-Real"
+      },
+      {
+        "id": "O42",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 918,
+        "end": 929,
+        "quote": "Sim-to-Real"
+      },
+      {
+        "id": "O43",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 942,
+        "end": 949,
+        "quote": "大规模并行仿真"
+      },
+      {
+        "id": "O44",
+        "code": "TC_SYNTHETIC_DATA",
+        "name": "合成数据",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 950,
+        "end": 958,
+        "quote": "合成数据生成经验"
+      },
+      {
+        "id": "O45",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 979,
+        "end": 988,
+        "quote": "多模态数据采集系统"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0575:1",
+        "codes": [
+          "V2_CALIBRATION",
+          "V2_SYSID",
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "传感器与系统标定",
+          "系统辨识",
+          "仿真与现实迁移"
+        ],
+        "surface": "- 参与 Real-to-Sim-to-Real 工作流建设，开展数字孪生、系统辨识及仿真参数校准；",
+        "quote": "- 参与 Real-to-Sim-to-Real 工作流建设，开展数字孪生、系统辨识及仿真参数校准；",
+        "field": "full_description",
+        "start": 192,
+        "end": 242
+      },
+      {
+        "id": "2",
+        "review_id": "N0575:2",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "- 探索仿真数据、真机数据及视频数据的联合利用，支持模型预训练、策略学习和 Sim-to-Real 迁移；",
+        "quote": "- 探索仿真数据、真机数据及视频数据的联合利用，支持模型预训练、策略学习和 Sim-to-Real 迁移；",
+        "field": "full_description",
+        "start": 243,
+        "end": 296
+      },
+      {
+        "id": "3",
+        "review_id": "N0575:3",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "- 跟踪并复现具身智能、世界模型及机器人基础模型领域的前沿工作。",
+        "quote": "- 跟踪并复现具身智能、世界模型及机器人基础模型领域的前沿工作。",
+        "field": "full_description",
+        "start": 380,
+        "end": 412
+      },
+      {
+        "id": "4",
+        "review_id": "N0575:4",
+        "codes": [
+          "V2_SAPIEN",
+          "V2_GENESIS"
+        ],
+        "names": [
+          "SAPIEN",
+          "Genesis"
+        ],
+        "surface": "- 了解至少一种机器人仿真平台，如 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、Genesis 等；",
+        "quote": "- 了解至少一种机器人仿真平台，如 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、Genesis 等；",
+        "field": "full_description",
+        "start": 561,
+        "end": 623
+      },
+      {
+        "id": "5",
+        "review_id": "N0575:5",
+        "codes": [
+          "V2_SAPIEN"
+        ],
+        "names": [
+          "SAPIEN"
+        ],
+        "surface": "SAPIEN",
+        "quote": "了解至少一种机器人仿真平台，如 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、Genesis 等；",
+        "field": "full_description",
+        "start": 563,
+        "end": 623
+      },
+      {
+        "id": "6",
+        "review_id": "N0575:6",
+        "codes": [
+          "V2_GENESIS"
+        ],
+        "names": [
+          "Genesis"
+        ],
+        "surface": "Genesis",
+        "quote": "了解至少一种机器人仿真平台，如 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、Genesis 等；",
+        "field": "full_description",
+        "start": 563,
+        "end": 623
+      },
+      {
+        "id": "7",
+        "review_id": "N0575:7",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "- 对人形机器人、世界模型、触觉感知及具身智能有浓厚兴趣；",
+        "quote": "- 对人形机器人、世界模型、触觉感知及具身智能有浓厚兴趣；",
+        "field": "full_description",
+        "start": 654,
+        "end": 683
+      },
+      {
+        "id": "8",
+        "review_id": "N0575:8",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "- 有 VLA、多模态模型、世界模型或机器人基础模型相关经验；",
+        "quote": "- 有 VLA、多模态模型、世界模型或机器人基础模型相关经验；",
+        "field": "full_description",
+        "start": 729,
+        "end": 760
+      },
+      {
+        "id": "9",
+        "review_id": "N0575:9",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "- 有 Real-to-Sim-to-Real、Sim-to-Real、大规模并行仿真或合成数据生成经验；",
+        "quote": "- 有 Real-to-Sim-to-Real、Sim-to-Real、大规模并行仿真或合成数据生成经验；",
+        "field": "full_description",
+        "start": 906,
+        "end": 959
+      }
+    ]
+  },
+  {
+    "coding_order": 77,
+    "reading_id": "N0573",
+    "company_id": "CN_LIMX",
+    "title": "具身智能算法工程师（VLA 模型训练与部署）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7654151446108571958|fb3e31879317c49e25f72410c6f9874266b6e1e46f30b9b4a64c941007ebc246",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n- 参与 FluxVLA 开源 codebase 的开发、维护与工程化优化，包括模型模块、训练流程、评测工具、部署接口和文档体系建设。\n- 负责 VLA 模型的开发与迭代，包括模型接入、训练脚本开发、数据适配、推理流程优化和实验复现。\n- 在仿真环境中进行模型训练、评测和调试，分析模型在不同任务中的表现，并定位失败案例与性能瓶颈。\n- 在真实机器人平台上进行模型部署、调试与验证，打通感知、决策、控制与执行链路。\n- 跟进 VLA、大模型、World Model、机器人学习等方向的前沿工作，将优秀方法转化为可复用、可扩展的工程模块。\n- 与算法、机器人、仿真和工程团队协作，提升 codebase 的稳定性、易用性、可扩展性和开源社区影响力。\n\n任职要求\n岗位要求\n- 具备扎实的工程能力，熟悉 Python / PyTorch，能够独立完成模型训练、推理、调试与工程化开发。\n- 熟悉深度学习、大模型或多模态模型相关技术，对 VLA、Vision-Language Model、机器人学习、World Model 等方向有一定理解。\n- 具备良好的代码习惯，能够编写结构清晰、可维护、可复用的代码，熟悉 Git 协作流程。\n- 具备较强的问题定位和调试能力，能够处理训练不稳定、环境依赖、推理部署、仿真与真机差异等实际工程问题。\n- 对具身智能、机器人操作、开源项目建设有浓厚兴趣，愿意持续学习和快速迭代。\n加分项（适用于所有方向）\n- 有 VLA、机器人学习、模仿学习、强化学习、Diffusion Policy、Action Chunking、World Model 等相关项目经验。\n- 有真实机器人调试、机械臂控制、仿真平台、ROS、MuJoCo、Isaac Sim、LIBERO、RoboCasa 等经验。\n- 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。\n- 有开源项目贡献经验，参与过高质量 codebase 的设计、维护或社区协作。\n- 具备较强的英文论文阅读能力，能够快速理解并复现前沿算法工作。\n你将获得\n- 深度参与 FluxVLA 开源 codebase 的核心开发，积累高质量开源项目的工程经验。\n- 接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。\n- 获得多类型真实机器人平台的调试、部署和实验经验，完整参与从仿真到真机的技术闭环。\n- 系统提升具身 AI 全栈能力，包括数据、模型、训练、仿真、部署、真机调试和工程架构设计。\n- 与具身智能方向的研究与工程团队紧密协作，共同推动开源生态和前沿技术落地。",
+      "requirements": "岗位要求\n- 具备扎实的工程能力，熟悉 Python / PyTorch，能够独立完成模型训练、推理、调试与工程化开发。\n- 熟悉深度学习、大模型或多模态模型相关技术，对 VLA、Vision-Language Model、机器人学习、World Model 等方向有一定理解。\n- 具备良好的代码习惯，能够编写结构清晰、可维护、可复用的代码，熟悉 Git 协作流程。\n- 具备较强的问题定位和调试能力，能够处理训练不稳定、环境依赖、推理部署、仿真与真机差异等实际工程问题。\n- 对具身智能、机器人操作、开源项目建设有浓厚兴趣，愿意持续学习和快速迭代。\n加分项（适用于所有方向）\n- 有 VLA、机器人学习、模仿学习、强化学习、Diffusion Policy、Action Chunking、World Model 等相关项目经验。\n- 有真实机器人调试、机械臂控制、仿真平台、ROS、MuJoCo、Isaac Sim、LIBERO、RoboCasa 等经验。\n- 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。\n- 有开源项目贡献经验，参与过高质量 codebase 的设计、维护或社区协作。\n- 具备较强的英文论文阅读能力，能够快速理解并复现前沿算法工作。\n你将获得\n- 深度参与 FluxVLA 开源 codebase 的核心开发，积累高质量开源项目的工程经验。\n- 接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。\n- 获得多类型真实机器人平台的调试、部署和实验经验，完整参与从仿真到真机的技术闭环。\n- 系统提升具身 AI 全栈能力，包括数据、模型、训练、仿真、部署、真机调试和工程架构设计。\n- 与具身智能方向的研究与工程团队紧密协作，共同推动开源生态和前沿技术落地。",
+      "full_description": "岗位职责\n- 参与 FluxVLA 开源 codebase 的开发、维护与工程化优化，包括模型模块、训练流程、评测工具、部署接口和文档体系建设。\n- 负责 VLA 模型的开发与迭代，包括模型接入、训练脚本开发、数据适配、推理流程优化和实验复现。\n- 在仿真环境中进行模型训练、评测和调试，分析模型在不同任务中的表现，并定位失败案例与性能瓶颈。\n- 在真实机器人平台上进行模型部署、调试与验证，打通感知、决策、控制与执行链路。\n- 跟进 VLA、大模型、World Model、机器人学习等方向的前沿工作，将优秀方法转化为可复用、可扩展的工程模块。\n- 与算法、机器人、仿真和工程团队协作，提升 codebase 的稳定性、易用性、可扩展性和开源社区影响力。\n\n任职要求\n岗位要求\n- 具备扎实的工程能力，熟悉 Python / PyTorch，能够独立完成模型训练、推理、调试与工程化开发。\n- 熟悉深度学习、大模型或多模态模型相关技术，对 VLA、Vision-Language Model、机器人学习、World Model 等方向有一定理解。\n- 具备良好的代码习惯，能够编写结构清晰、可维护、可复用的代码，熟悉 Git 协作流程。\n- 具备较强的问题定位和调试能力，能够处理训练不稳定、环境依赖、推理部署、仿真与真机差异等实际工程问题。\n- 对具身智能、机器人操作、开源项目建设有浓厚兴趣，愿意持续学习和快速迭代。\n加分项（适用于所有方向）\n- 有 VLA、机器人学习、模仿学习、强化学习、Diffusion Policy、Action Chunking、World Model 等相关项目经验。\n- 有真实机器人调试、机械臂控制、仿真平台、ROS、MuJoCo、Isaac Sim、LIBERO、RoboCasa 等经验。\n- 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。\n- 有开源项目贡献经验，参与过高质量 codebase 的设计、维护或社区协作。\n- 具备较强的英文论文阅读能力，能够快速理解并复现前沿算法工作。\n你将获得\n- 深度参与 FluxVLA 开源 codebase 的核心开发，积累高质量开源项目的工程经验。\n- 接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。\n- 获得多类型真实机器人平台的调试、部署和实验经验，完整参与从仿真到真机的技术闭环。\n- 系统提升具身 AI 全栈能力，包括数据、模型、训练、仿真、部署、真机调试和工程架构设计。\n- 与具身智能方向的研究与工程团队紧密协作，共同推动开源生态和前沿技术落地。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 355,
+        "end": 361,
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 364,
+        "end": 371,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 725,
+        "end": 728,
+        "quote": "ROS"
+      },
+      {
+        "id": "O4",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 729,
+        "end": 735,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O5",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 736,
+        "end": 745,
+        "quote": "Isaac Sim"
+      },
+      {
+        "id": "O6",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 75,
+        "end": 122,
+        "quote": "负责 VLA 模型的开发与迭代，包括模型接入、训练脚本开发、数据适配、推理流程优化和实验复现。"
+      },
+      {
+        "id": "O7",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 75,
+        "end": 122,
+        "quote": "负责 VLA 模型的开发与迭代，包括模型接入、训练脚本开发、数据适配、推理流程优化和实验复现。"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 7,
+        "end": 72,
+        "quote": "参与 FluxVLA 开源 codebase 的开发、维护与工程化优化，包括模型模块、训练流程、评测工具、部署接口和文档体系建设。"
+      },
+      {
+        "id": "O9",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 125,
+        "end": 143,
+        "quote": "在仿真环境中进行模型训练、评测和调试"
+      },
+      {
+        "id": "O10",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 125,
+        "end": 143,
+        "quote": "在仿真环境中进行模型训练、评测和调试"
+      },
+      {
+        "id": "O11",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 174,
+        "end": 212,
+        "quote": "在真实机器人平台上进行模型部署、调试与验证，打通感知、决策、控制与执行链路。"
+      },
+      {
+        "id": "O12",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 174,
+        "end": 212,
+        "quote": "在真实机器人平台上进行模型部署、调试与验证，打通感知、决策、控制与执行链路。"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 378,
+        "end": 394,
+        "quote": "模型训练、推理、调试与工程化开发"
+      },
+      {
+        "id": "O14",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 400,
+        "end": 404,
+        "quote": "深度学习"
+      },
+      {
+        "id": "O15",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 405,
+        "end": 408,
+        "quote": "大模型"
+      },
+      {
+        "id": "O16",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 409,
+        "end": 414,
+        "quote": "多模态模型"
+      },
+      {
+        "id": "O17",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 421,
+        "end": 424,
+        "quote": "VLA"
+      },
+      {
+        "id": "O18",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 425,
+        "end": 446,
+        "quote": "Vision-Language Model"
+      },
+      {
+        "id": "O19",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 453,
+        "end": 464,
+        "quote": "World Model"
+      },
+      {
+        "id": "O20",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 541,
+        "end": 556,
+        "quote": "训练不稳定、环境依赖、推理部署"
+      },
+      {
+        "id": "O21",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 557,
+        "end": 564,
+        "quote": "仿真与真机差异"
+      },
+      {
+        "id": "O22",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 629,
+        "end": 632,
+        "quote": "VLA"
+      },
+      {
+        "id": "O23",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 639,
+        "end": 643,
+        "quote": "模仿学习"
+      },
+      {
+        "id": "O24",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 644,
+        "end": 648,
+        "quote": "强化学习"
+      },
+      {
+        "id": "O25",
+        "code": "TC_GENERATIVE_POLICY",
+        "name": "生成式机器人策略",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 649,
+        "end": 665,
+        "quote": "Diffusion Policy"
+      },
+      {
+        "id": "O26",
+        "code": "TC_GENERATIVE_POLICY",
+        "name": "生成式机器人策略",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 666,
+        "end": 681,
+        "quote": "Action Chunking"
+      },
+      {
+        "id": "O27",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 682,
+        "end": 693,
+        "quote": "World Model"
+      },
+      {
+        "id": "O28",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 714,
+        "end": 719,
+        "quote": "机械臂控制"
+      },
+      {
+        "id": "O29",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 714,
+        "end": 719,
+        "quote": "机械臂控制"
+      },
+      {
+        "id": "O30",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 720,
+        "end": 724,
+        "quote": "仿真平台"
+      },
+      {
+        "id": "O31",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 729,
+        "end": 735,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O32",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 736,
+        "end": 745,
+        "quote": "Isaac Sim"
+      },
+      {
+        "id": "O33",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 746,
+        "end": 752,
+        "quote": "LIBERO"
+      },
+      {
+        "id": "O34",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 753,
+        "end": 761,
+        "quote": "RoboCasa"
+      },
+      {
+        "id": "O35",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 770,
+        "end": 773,
+        "quote": "大模型"
+      },
+      {
+        "id": "O36",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 774,
+        "end": 779,
+        "quote": "多模态模型"
+      },
+      {
+        "id": "O37",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 782,
+        "end": 786,
+        "quote": "部署经验"
+      },
+      {
+        "id": "O38",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 808,
+        "end": 813,
+        "quote": "分布式训练"
+      },
+      {
+        "id": "O39",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 814,
+        "end": 818,
+        "quote": "推理加速"
+      },
+      {
+        "id": "O40",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 953,
+        "end": 1005,
+        "quote": "接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0573:1",
+        "codes": [],
+        "names": [],
+        "surface": "FluxVLA",
+        "quote": "参与 FluxVLA 开源 codebase 的开发、维护与工程化优化",
+        "field": "full_description",
+        "start": 7,
+        "end": 42
+      },
+      {
+        "id": "2",
+        "review_id": "N0573:2",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "- 跟进 VLA、大模型、World Model、机器人学习等方向的前沿工作，将优秀方法转化为可复用、可扩展的工程模块。",
+        "quote": "- 跟进 VLA、大模型、World Model、机器人学习等方向的前沿工作，将优秀方法转化为可复用、可扩展的工程模块。",
+        "field": "full_description",
+        "start": 213,
+        "end": 273
+      },
+      {
+        "id": "3",
+        "review_id": "N0573:3",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "- 熟悉深度学习、大模型或多模态模型相关技术，对 VLA、Vision-Language Model、机器人学习、World Model 等方向有一定理解。",
+        "quote": "- 熟悉深度学习、大模型或多模态模型相关技术，对 VLA、Vision-Language Model、机器人学习、World Model 等方向有一定理解。",
+        "field": "full_description",
+        "start": 396,
+        "end": 474
+      },
+      {
+        "id": "4",
+        "review_id": "N0573:4",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "- 具备良好的代码习惯，能够编写结构清晰、可维护、可复用的代码，熟悉 Git 协作流程。",
+        "quote": "- 具备良好的代码习惯，能够编写结构清晰、可维护、可复用的代码，熟悉 Git 协作流程。",
+        "field": "full_description",
+        "start": 475,
+        "end": 519
+      },
+      {
+        "id": "5",
+        "review_id": "N0573:5",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "Git",
+        "quote": "熟悉 Git 协作流程。",
+        "field": "full_description",
+        "start": 507,
+        "end": 519
+      },
+      {
+        "id": "6",
+        "review_id": "N0573:6",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "- 有 VLA、机器人学习、模仿学习、强化学习、Diffusion Policy、Action Chunking、World Model 等相关项目经验。",
+        "quote": "- 有 VLA、机器人学习、模仿学习、强化学习、Diffusion Policy、Action Chunking、World Model 等相关项目经验。",
+        "field": "full_description",
+        "start": 625,
+        "end": 702
+      },
+      {
+        "id": "7",
+        "review_id": "N0573:7",
+        "codes": [],
+        "names": [],
+        "surface": "LIBERO",
+        "quote": "有真实机器人调试、机械臂控制、仿真平台、ROS、MuJoCo、Isaac Sim、LIBERO、RoboCasa 等经验。",
+        "field": "full_description",
+        "start": 705,
+        "end": 766
+      },
+      {
+        "id": "8",
+        "review_id": "N0573:8",
+        "codes": [],
+        "names": [],
+        "surface": "RoboCasa",
+        "quote": "有真实机器人调试、机械臂控制、仿真平台、ROS、MuJoCo、Isaac Sim、LIBERO、RoboCasa 等经验。",
+        "field": "full_description",
+        "start": 705,
+        "end": 766
+      },
+      {
+        "id": "9",
+        "review_id": "N0573:9",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "- 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。",
+        "quote": "- 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。",
+        "field": "full_description",
+        "start": 767,
+        "end": 822
+      },
+      {
+        "id": "10",
+        "review_id": "N0573:10",
+        "codes": [],
+        "names": [],
+        "surface": "Transformers",
+        "quote": "熟悉 Transformers、LoRA、分布式训练、推理加速等技术。",
+        "field": "full_description",
+        "start": 787,
+        "end": 822
+      },
+      {
+        "id": "11",
+        "review_id": "N0573:11",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "- 接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。",
+        "quote": "- 接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。",
+        "field": "full_description",
+        "start": 951,
+        "end": 1005
+      }
+    ]
+  },
+  {
+    "coding_order": 78,
+    "reading_id": "N0572",
+    "company_id": "CN_LIMX",
+    "title": "大模型端侧推理优化算法工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7654153276081948982|a568a2a5b89776b7dbc8430e0bb557a075d2e52a8c4f2bb3098673e13fdc581b",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n- 深度参与 FluxVLA 开源 codebase 的推理模块开发与维护，负责 VLA 模型在边缘计算平台上的高效部署，针对仿真环境与真实机器人场景进行端到端推理链路优化，确保模型在受限硬件上的实时性与稳定性。\n- 负责具身大模型（VLA / WM / WAM）及多模态模型在 NVIDIA Jetson（Orin / Thor 系列） 等边缘平台上的深度适配与性能压榨，打通从模型导出、量化、编译到运行时调度的完整部署流程，并支持 FluxVLA 在真机上的快速迭代验证。\n- 深入分析 Transformer 架构计算瓶颈，使用 CUDA / Triton / cuBLAS 等工具链开发自定义 Kernel（如 FlashAttention、MoE Gathering、量化反量化算子），针对 VLA 模型特有的多模态融合与动作解码环节进行专项加速，提升计算密度与能效比。\n- 基于 TensorRT、vLLM 等框架进行二次开发，优化显存管理、动态批处理与 KV Cache 调度策略；结合 FluxVLA 的模型结构和推理模式，设计轻量级推理引擎，降低端侧延迟。\n- 实施 INT8 / INT4 / FP8 / FP4 等量化方案，结合端侧硬件特性（DLA、Tensor Core、Matrix Core）调整量化策略，在保证任务成功率的前提下最大限度压榨吞吐；与算法团队协作，针对量化带来的精度损失进行微调或蒸馏补偿，确保仿真与真机表现一致。\n- 使用 Nsight Systems、Ncu、Omniperf 等工具定位端到端推理瓶颈（计算、显存、带宽、延迟），提出并实施软硬件协同优化方案；参与真实机器人调试，解决仿真与真机部署差异带来的性能问题，推动 FluxVLA 在真实操作任务中的高效落地。\n\n任职要求\n岗位要求\n- 具备扎实的工程能力，熟悉 Python / PyTorch，能够独立完成模型训练、推理、调试与工程化开发。\n- 熟悉深度学习、大模型或多模态模型相关技术，对 VLA、Vision-Language Model、机器人学习、World Model 等方向有一定理解。\n- 具备良好的代码习惯，能够编写结构清晰、可维护、可复用的代码，熟悉 Git 协作流程。\n- 具备较强的问题定位和调试能力，能够处理训练不稳定、环境依赖、推理部署、仿真与真机差异等实际工程问题。\n- 对具身智能、机器人操作、开源项目建设有浓厚兴趣，愿意持续学习和快速迭代。\n加分项（适用于所有方向）\n- 有 VLA、机器人学习、模仿学习、强化学习、Diffusion Policy、Action Chunking、World Model 等相关项目经验。\n- 有真实机器人调试、机械臂控制、仿真平台、ROS、MuJoCo、Isaac Sim、LIBERO、RoboCasa 等经验。\n- 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。\n- 有开源项目贡献经验，参与过高质量 codebase 的设计、维护或社区协作。\n- 具备较强的英文论文阅读能力，能够快速理解并复现前沿算法工作。\n你将获得\n- 深度参与 FluxVLA 开源 codebase 的核心开发，积累高质量开源项目的工程经验。\n- 接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。\n- 获得多类型真实机器人平台的调试、部署和实验经验，完整参与从仿真到真机的技术闭环。\n- 系统提升具身 AI 全栈能力，包括数据、模型、训练、仿真、部署、真机调试和工程架构设计。\n- 与具身智能方向的研究与工程团队紧密协作，共同推动开源生态和前沿技术落地。",
+      "requirements": "岗位要求\n- 具备扎实的工程能力，熟悉 Python / PyTorch，能够独立完成模型训练、推理、调试与工程化开发。\n- 熟悉深度学习、大模型或多模态模型相关技术，对 VLA、Vision-Language Model、机器人学习、World Model 等方向有一定理解。\n- 具备良好的代码习惯，能够编写结构清晰、可维护、可复用的代码，熟悉 Git 协作流程。\n- 具备较强的问题定位和调试能力，能够处理训练不稳定、环境依赖、推理部署、仿真与真机差异等实际工程问题。\n- 对具身智能、机器人操作、开源项目建设有浓厚兴趣，愿意持续学习和快速迭代。\n加分项（适用于所有方向）\n- 有 VLA、机器人学习、模仿学习、强化学习、Diffusion Policy、Action Chunking、World Model 等相关项目经验。\n- 有真实机器人调试、机械臂控制、仿真平台、ROS、MuJoCo、Isaac Sim、LIBERO、RoboCasa 等经验。\n- 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。\n- 有开源项目贡献经验，参与过高质量 codebase 的设计、维护或社区协作。\n- 具备较强的英文论文阅读能力，能够快速理解并复现前沿算法工作。\n你将获得\n- 深度参与 FluxVLA 开源 codebase 的核心开发，积累高质量开源项目的工程经验。\n- 接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。\n- 获得多类型真实机器人平台的调试、部署和实验经验，完整参与从仿真到真机的技术闭环。\n- 系统提升具身 AI 全栈能力，包括数据、模型、训练、仿真、部署、真机调试和工程架构设计。\n- 与具身智能方向的研究与工程团队紧密协作，共同推动开源生态和前沿技术落地。",
+      "full_description": "岗位职责\n- 深度参与 FluxVLA 开源 codebase 的推理模块开发与维护，负责 VLA 模型在边缘计算平台上的高效部署，针对仿真环境与真实机器人场景进行端到端推理链路优化，确保模型在受限硬件上的实时性与稳定性。\n- 负责具身大模型（VLA / WM / WAM）及多模态模型在 NVIDIA Jetson（Orin / Thor 系列） 等边缘平台上的深度适配与性能压榨，打通从模型导出、量化、编译到运行时调度的完整部署流程，并支持 FluxVLA 在真机上的快速迭代验证。\n- 深入分析 Transformer 架构计算瓶颈，使用 CUDA / Triton / cuBLAS 等工具链开发自定义 Kernel（如 FlashAttention、MoE Gathering、量化反量化算子），针对 VLA 模型特有的多模态融合与动作解码环节进行专项加速，提升计算密度与能效比。\n- 基于 TensorRT、vLLM 等框架进行二次开发，优化显存管理、动态批处理与 KV Cache 调度策略；结合 FluxVLA 的模型结构和推理模式，设计轻量级推理引擎，降低端侧延迟。\n- 实施 INT8 / INT4 / FP8 / FP4 等量化方案，结合端侧硬件特性（DLA、Tensor Core、Matrix Core）调整量化策略，在保证任务成功率的前提下最大限度压榨吞吐；与算法团队协作，针对量化带来的精度损失进行微调或蒸馏补偿，确保仿真与真机表现一致。\n- 使用 Nsight Systems、Ncu、Omniperf 等工具定位端到端推理瓶颈（计算、显存、带宽、延迟），提出并实施软硬件协同优化方案；参与真实机器人调试，解决仿真与真机部署差异带来的性能问题，推动 FluxVLA 在真实操作任务中的高效落地。\n\n任职要求\n岗位要求\n- 具备扎实的工程能力，熟悉 Python / PyTorch，能够独立完成模型训练、推理、调试与工程化开发。\n- 熟悉深度学习、大模型或多模态模型相关技术，对 VLA、Vision-Language Model、机器人学习、World Model 等方向有一定理解。\n- 具备良好的代码习惯，能够编写结构清晰、可维护、可复用的代码，熟悉 Git 协作流程。\n- 具备较强的问题定位和调试能力，能够处理训练不稳定、环境依赖、推理部署、仿真与真机差异等实际工程问题。\n- 对具身智能、机器人操作、开源项目建设有浓厚兴趣，愿意持续学习和快速迭代。\n加分项（适用于所有方向）\n- 有 VLA、机器人学习、模仿学习、强化学习、Diffusion Policy、Action Chunking、World Model 等相关项目经验。\n- 有真实机器人调试、机械臂控制、仿真平台、ROS、MuJoCo、Isaac Sim、LIBERO、RoboCasa 等经验。\n- 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。\n- 有开源项目贡献经验，参与过高质量 codebase 的设计、维护或社区协作。\n- 具备较强的英文论文阅读能力，能够快速理解并复现前沿算法工作。\n你将获得\n- 深度参与 FluxVLA 开源 codebase 的核心开发，积累高质量开源项目的工程经验。\n- 接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。\n- 获得多类型真实机器人平台的调试、部署和实验经验，完整参与从仿真到真机的技术闭环。\n- 系统提升具身 AI 全栈能力，包括数据、模型、训练、仿真、部署、真机调试和工程架构设计。\n- 与具身智能方向的研究与工程团队紧密协作，共同推动开源生态和前沿技术落地。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CUDA",
+        "name": "CUDA",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 270,
+        "end": 312,
+        "quote": "使用 CUDA / Triton / cuBLAS 等工具链开发自定义 Kernel"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 790,
+        "end": 796,
+        "quote": "Python"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 799,
+        "end": 806,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O4",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1160,
+        "end": 1163,
+        "quote": "ROS"
+      },
+      {
+        "id": "O5",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1164,
+        "end": 1170,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O6",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1171,
+        "end": 1180,
+        "quote": "Isaac Sim"
+      },
+      {
+        "id": "O7",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 192,
+        "end": 218,
+        "quote": "打通从模型导出、量化、编译到运行时调度的完整部署流程"
+      },
+      {
+        "id": "O8",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 114,
+        "end": 191,
+        "quote": "负责具身大模型（VLA / WM / WAM）及多模态模型在 NVIDIA Jetson（Orin / Thor 系列） 等边缘平台上的深度适配与性能压榨"
+      },
+      {
+        "id": "O9",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 92,
+        "end": 111,
+        "quote": "确保模型在受限硬件上的实时性与稳定性。"
+      },
+      {
+        "id": "O10",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 92,
+        "end": 111,
+        "quote": "确保模型在受限硬件上的实时性与稳定性。"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 709,
+        "end": 737,
+        "quote": "参与真实机器人调试，解决仿真与真机部署差异带来的性能问题"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 813,
+        "end": 829,
+        "quote": "模型训练、推理、调试与工程化开发"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 835,
+        "end": 839,
+        "quote": "深度学习"
+      },
+      {
+        "id": "O14",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 840,
+        "end": 843,
+        "quote": "大模型"
+      },
+      {
+        "id": "O15",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 844,
+        "end": 849,
+        "quote": "多模态模型"
+      },
+      {
+        "id": "O16",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 856,
+        "end": 859,
+        "quote": "VLA"
+      },
+      {
+        "id": "O17",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 860,
+        "end": 881,
+        "quote": "Vision-Language Model"
+      },
+      {
+        "id": "O18",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 888,
+        "end": 899,
+        "quote": "World Model"
+      },
+      {
+        "id": "O19",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 976,
+        "end": 991,
+        "quote": "训练不稳定、环境依赖、推理部署"
+      },
+      {
+        "id": "O20",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 992,
+        "end": 999,
+        "quote": "仿真与真机差异"
+      },
+      {
+        "id": "O21",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1064,
+        "end": 1067,
+        "quote": "VLA"
+      },
+      {
+        "id": "O22",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1074,
+        "end": 1078,
+        "quote": "模仿学习"
+      },
+      {
+        "id": "O23",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1079,
+        "end": 1083,
+        "quote": "强化学习"
+      },
+      {
+        "id": "O24",
+        "code": "TC_GENERATIVE_POLICY",
+        "name": "生成式机器人策略",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1084,
+        "end": 1100,
+        "quote": "Diffusion Policy"
+      },
+      {
+        "id": "O25",
+        "code": "TC_GENERATIVE_POLICY",
+        "name": "生成式机器人策略",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1101,
+        "end": 1116,
+        "quote": "Action Chunking"
+      },
+      {
+        "id": "O26",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1117,
+        "end": 1128,
+        "quote": "World Model"
+      },
+      {
+        "id": "O27",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1149,
+        "end": 1154,
+        "quote": "机械臂控制"
+      },
+      {
+        "id": "O28",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1149,
+        "end": 1154,
+        "quote": "机械臂控制"
+      },
+      {
+        "id": "O29",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1155,
+        "end": 1159,
+        "quote": "仿真平台"
+      },
+      {
+        "id": "O30",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1164,
+        "end": 1170,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O31",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1171,
+        "end": 1180,
+        "quote": "Isaac Sim"
+      },
+      {
+        "id": "O32",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1181,
+        "end": 1187,
+        "quote": "LIBERO"
+      },
+      {
+        "id": "O33",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1188,
+        "end": 1196,
+        "quote": "RoboCasa"
+      },
+      {
+        "id": "O34",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1205,
+        "end": 1208,
+        "quote": "大模型"
+      },
+      {
+        "id": "O35",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1209,
+        "end": 1214,
+        "quote": "多模态模型"
+      },
+      {
+        "id": "O36",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1217,
+        "end": 1221,
+        "quote": "部署经验"
+      },
+      {
+        "id": "O37",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1243,
+        "end": 1248,
+        "quote": "分布式训练"
+      },
+      {
+        "id": "O38",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1249,
+        "end": 1253,
+        "quote": "推理加速"
+      },
+      {
+        "id": "O39",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 1388,
+        "end": 1440,
+        "quote": "接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0572:1",
+        "codes": [],
+        "names": [],
+        "surface": "FluxVLA",
+        "quote": "深度参与 FluxVLA 开源 codebase 的推理模块开发与维护",
+        "field": "full_description",
+        "start": 7,
+        "end": 42
+      },
+      {
+        "id": "2",
+        "review_id": "N0572:2",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "- 负责具身大模型（VLA / WM / WAM）及多模态模型在 NVIDIA Jetson（Orin / Thor 系列） 等边缘平台上的深度适配与性能压榨，打通从模型导出、量化、编译到运行时调度的完整部署流程，并支持 FluxVLA 在真机上的快速迭代验证。",
+        "quote": "- 负责具身大模型（VLA / WM / WAM）及多模态模型在 NVIDIA Jetson（Orin / Thor 系列） 等边缘平台上的深度适配与性能压榨，打通从模型导出、量化、编译到运行时调度的完整部署流程，并支持 FluxVLA 在真机上的快速迭代验证。",
+        "field": "full_description",
+        "start": 112,
+        "end": 243
+      },
+      {
+        "id": "3",
+        "review_id": "N0572:3",
+        "codes": [
+          "V2_TRITON_COMPILER",
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "Triton GPU编程语言",
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "- 深入分析 Transformer 架构计算瓶颈，使用 CUDA / Triton / cuBLAS 等工具链开发自定义 Kernel（如 FlashAttention、MoE Gathering、量化反量化算子），针对 VLA 模型特有的多模态融合与动作解码环节进行专项加速，提升计算密度与能效比。",
+        "quote": "- 深入分析 Transformer 架构计算瓶颈，使用 CUDA / Triton / cuBLAS 等工具链开发自定义 Kernel（如 FlashAttention、MoE Gathering、量化反量化算子），针对 VLA 模型特有的多模态融合与动作解码环节进行专项加速，提升计算密度与能效比。",
+        "field": "full_description",
+        "start": 244,
+        "end": 395
+      },
+      {
+        "id": "4",
+        "review_id": "N0572:4",
+        "codes": [
+          "V2_TRITON_COMPILER"
+        ],
+        "names": [
+          "Triton GPU编程语言"
+        ],
+        "surface": "Triton",
+        "quote": "使用 CUDA / Triton / cuBLAS 等工具链开发自定义 Kernel",
+        "field": "full_description",
+        "start": 270,
+        "end": 312
+      },
+      {
+        "id": "5",
+        "review_id": "N0572:5",
+        "codes": [],
+        "names": [],
+        "surface": "cuBLAS",
+        "quote": "使用 CUDA / Triton / cuBLAS 等工具链开发自定义 Kernel",
+        "field": "full_description",
+        "start": 270,
+        "end": 312
+      },
+      {
+        "id": "6",
+        "review_id": "N0572:6",
+        "codes": [
+          "V2_TENSORRT",
+          "V2_VLLM"
+        ],
+        "names": [
+          "TensorRT",
+          "vLLM"
+        ],
+        "surface": "- 基于 TensorRT、vLLM 等框架进行二次开发，优化显存管理、动态批处理与 KV Cache 调度策略；结合 FluxVLA 的模型结构和推理模式，设计轻量级推理引擎，降低端侧延迟。",
+        "quote": "- 基于 TensorRT、vLLM 等框架进行二次开发，优化显存管理、动态批处理与 KV Cache 调度策略；结合 FluxVLA 的模型结构和推理模式，设计轻量级推理引擎，降低端侧延迟。",
+        "field": "full_description",
+        "start": 396,
+        "end": 492
+      },
+      {
+        "id": "7",
+        "review_id": "N0572:7",
+        "codes": [
+          "V2_TENSORRT"
+        ],
+        "names": [
+          "TensorRT"
+        ],
+        "surface": "TensorRT",
+        "quote": "基于 TensorRT、vLLM 等框架进行二次开发",
+        "field": "full_description",
+        "start": 398,
+        "end": 424
+      },
+      {
+        "id": "8",
+        "review_id": "N0572:8",
+        "codes": [
+          "V2_VLLM"
+        ],
+        "names": [
+          "vLLM"
+        ],
+        "surface": "vLLM",
+        "quote": "基于 TensorRT、vLLM 等框架进行二次开发",
+        "field": "full_description",
+        "start": 398,
+        "end": 424
+      },
+      {
+        "id": "9",
+        "review_id": "N0572:9",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "- 实施 INT8 / INT4 / FP8 / FP4 等量化方案，结合端侧硬件特性（DLA、Tensor Core、Matrix Core）调整量化策略，在保证任务成功率的前提下最大限度压榨吞吐；与算法团队协作，针对量化带来的精度损失进行微调或蒸馏补偿，确保仿真与真机表现一致。",
+        "quote": "- 实施 INT8 / INT4 / FP8 / FP4 等量化方案，结合端侧硬件特性（DLA、Tensor Core、Matrix Core）调整量化策略，在保证任务成功率的前提下最大限度压榨吞吐；与算法团队协作，针对量化带来的精度损失进行微调或蒸馏补偿，确保仿真与真机表现一致。",
+        "field": "full_description",
+        "start": 493,
+        "end": 634
+      },
+      {
+        "id": "10",
+        "review_id": "N0572:10",
+        "codes": [
+          "V2_NSIGHT"
+        ],
+        "names": [
+          "Nsight"
+        ],
+        "surface": "- 使用 Nsight Systems、Ncu、Omniperf 等工具定位端到端推理瓶颈（计算、显存、带宽、延迟），提出并实施软硬件协同优化方案；参与真实机器人调试，解决仿真与真机部署差异带来的性能问题，推动 FluxVLA 在真实操作任务中的高效落地。",
+        "quote": "- 使用 Nsight Systems、Ncu、Omniperf 等工具定位端到端推理瓶颈（计算、显存、带宽、延迟），提出并实施软硬件协同优化方案；参与真实机器人调试，解决仿真与真机部署差异带来的性能问题，推动 FluxVLA 在真实操作任务中的高效落地。",
+        "field": "full_description",
+        "start": 635,
+        "end": 763
+      },
+      {
+        "id": "11",
+        "review_id": "N0572:11",
+        "codes": [
+          "V2_NSIGHT"
+        ],
+        "names": [
+          "Nsight"
+        ],
+        "surface": "Nsight Systems",
+        "quote": "使用 Nsight Systems、Ncu、Omniperf 等工具定位端到端推理瓶颈",
+        "field": "full_description",
+        "start": 637,
+        "end": 680
+      },
+      {
+        "id": "12",
+        "review_id": "N0572:12",
+        "codes": [],
+        "names": [],
+        "surface": "Ncu",
+        "quote": "使用 Nsight Systems、Ncu、Omniperf 等工具定位端到端推理瓶颈",
+        "field": "full_description",
+        "start": 637,
+        "end": 680
+      },
+      {
+        "id": "13",
+        "review_id": "N0572:13",
+        "codes": [],
+        "names": [],
+        "surface": "Omniperf",
+        "quote": "使用 Nsight Systems、Ncu、Omniperf 等工具定位端到端推理瓶颈",
+        "field": "full_description",
+        "start": 637,
+        "end": 680
+      },
+      {
+        "id": "14",
+        "review_id": "N0572:14",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "- 熟悉深度学习、大模型或多模态模型相关技术，对 VLA、Vision-Language Model、机器人学习、World Model 等方向有一定理解。",
+        "quote": "- 熟悉深度学习、大模型或多模态模型相关技术，对 VLA、Vision-Language Model、机器人学习、World Model 等方向有一定理解。",
+        "field": "full_description",
+        "start": 831,
+        "end": 909
+      },
+      {
+        "id": "15",
+        "review_id": "N0572:15",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "- 具备良好的代码习惯，能够编写结构清晰、可维护、可复用的代码，熟悉 Git 协作流程。",
+        "quote": "- 具备良好的代码习惯，能够编写结构清晰、可维护、可复用的代码，熟悉 Git 协作流程。",
+        "field": "full_description",
+        "start": 910,
+        "end": 954
+      },
+      {
+        "id": "16",
+        "review_id": "N0572:16",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "Git",
+        "quote": "熟悉 Git 协作流程。",
+        "field": "full_description",
+        "start": 942,
+        "end": 954
+      },
+      {
+        "id": "17",
+        "review_id": "N0572:17",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "- 有 VLA、机器人学习、模仿学习、强化学习、Diffusion Policy、Action Chunking、World Model 等相关项目经验。",
+        "quote": "- 有 VLA、机器人学习、模仿学习、强化学习、Diffusion Policy、Action Chunking、World Model 等相关项目经验。",
+        "field": "full_description",
+        "start": 1060,
+        "end": 1137
+      },
+      {
+        "id": "18",
+        "review_id": "N0572:18",
+        "codes": [],
+        "names": [],
+        "surface": "LIBERO",
+        "quote": "有真实机器人调试、机械臂控制、仿真平台、ROS、MuJoCo、Isaac Sim、LIBERO、RoboCasa 等经验。",
+        "field": "full_description",
+        "start": 1140,
+        "end": 1201
+      },
+      {
+        "id": "19",
+        "review_id": "N0572:19",
+        "codes": [],
+        "names": [],
+        "surface": "RoboCasa",
+        "quote": "有真实机器人调试、机械臂控制、仿真平台、ROS、MuJoCo、Isaac Sim、LIBERO、RoboCasa 等经验。",
+        "field": "full_description",
+        "start": 1140,
+        "end": 1201
+      },
+      {
+        "id": "20",
+        "review_id": "N0572:20",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "- 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。",
+        "quote": "- 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。",
+        "field": "full_description",
+        "start": 1202,
+        "end": 1257
+      },
+      {
+        "id": "21",
+        "review_id": "N0572:21",
+        "codes": [],
+        "names": [],
+        "surface": "Transformers",
+        "quote": "熟悉 Transformers、LoRA、分布式训练、推理加速等技术。",
+        "field": "full_description",
+        "start": 1222,
+        "end": 1257
+      },
+      {
+        "id": "22",
+        "review_id": "N0572:22",
+        "codes": [
+          "V2_WORLD_MODEL"
+        ],
+        "names": [
+          "世界模型"
+        ],
+        "surface": "- 接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。",
+        "quote": "- 接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。",
+        "field": "full_description",
+        "start": 1386,
+        "end": 1440
+      }
+    ]
+  },
+  {
+    "coding_order": 79,
+    "reading_id": "N0526",
+    "company_id": "CN_LIMX",
+    "title": "具身智能基础模型算法实习生",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7683114416728344841|fec9c7e155e32cd11b329ec735cddc215dacf3ff61ce743f180259a3608b588d",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n参与具身智能基础模型相关算法研究，训练和部署人形机器人基础模型（Humanoid Foundation Model），应用于机器人产品。\n探索前沿运动基础模型（BFM / WBT）、动作跟踪（Motion Tracking）算法，结合业务创新，输出可落地技术方案，提升产品竞争力。\n跟踪人形机器人、AI领域前沿技术，将最新成果融入研发，沉淀技术经验。\n负责sim2real部分工作，例如电机建模，通讯延迟模拟，噪声等\n\n任职要求\n实习时间至少3个月\n硕士及以上学历，AI、机器人等相关专业，具备一定理论与实践能力。\n在机器人/AI顶级会议或核心期刊发表论文者优先。\n有良好的强化学习或多模态学习基础，有机器人真机调试经验者优先。\n有全身运动跟踪器等相关项目经验者优先。",
+      "requirements": "实习时间至少3个月\n硕士及以上学历，AI、机器人等相关专业，具备一定理论与实践能力。\n在机器人/AI顶级会议或核心期刊发表论文者优先。\n有良好的强化学习或多模态学习基础，有机器人真机调试经验者优先。\n有全身运动跟踪器等相关项目经验者优先。",
+      "full_description": "岗位职责\n参与具身智能基础模型相关算法研究，训练和部署人形机器人基础模型（Humanoid Foundation Model），应用于机器人产品。\n探索前沿运动基础模型（BFM / WBT）、动作跟踪（Motion Tracking）算法，结合业务创新，输出可落地技术方案，提升产品竞争力。\n跟踪人形机器人、AI领域前沿技术，将最新成果融入研发，沉淀技术经验。\n负责sim2real部分工作，例如电机建模，通讯延迟模拟，噪声等\n\n任职要求\n实习时间至少3个月\n硕士及以上学历，AI、机器人等相关专业，具备一定理论与实践能力。\n在机器人/AI顶级会议或核心期刊发表论文者优先。\n有良好的强化学习或多模态学习基础，有机器人真机调试经验者优先。\n有全身运动跟踪器等相关项目经验者优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 5,
+        "end": 73,
+        "quote": "参与具身智能基础模型相关算法研究，训练和部署人形机器人基础模型（Humanoid Foundation Model），应用于机器人产品。"
+      },
+      {
+        "id": "O2",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 74,
+        "end": 145,
+        "quote": "探索前沿运动基础模型（BFM / WBT）、动作跟踪（Motion Tracking）算法，结合业务创新，输出可落地技术方案，提升产品竞争力。"
+      },
+      {
+        "id": "O3",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 74,
+        "end": 145,
+        "quote": "探索前沿运动基础模型（BFM / WBT）、动作跟踪（Motion Tracking）算法，结合业务创新，输出可落地技术方案，提升产品竞争力。"
+      },
+      {
+        "id": "O4",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 181,
+        "end": 213,
+        "quote": "负责sim2real部分工作，例如电机建模，通讯延迟模拟，噪声等"
+      },
+      {
+        "id": "O5",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 181,
+        "end": 213,
+        "quote": "负责sim2real部分工作，例如电机建模，通讯延迟模拟，噪声等"
+      },
+      {
+        "id": "O6",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 292,
+        "end": 296,
+        "quote": "强化学习"
+      },
+      {
+        "id": "O7",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 297,
+        "end": 304,
+        "quote": "多模态学习基础"
+      },
+      {
+        "id": "O8",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 320,
+        "end": 339,
+        "quote": "有全身运动跟踪器等相关项目经验者优先。"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0526:1",
+        "codes": [],
+        "names": [],
+        "surface": "BFM",
+        "quote": "探索前沿运动基础模型（BFM / WBT）、动作跟踪（Motion Tracking）算法，结合业务创新，输出可落地技术方案，提升产品竞争力。",
+        "field": "full_description",
+        "start": 74,
+        "end": 145
+      },
+      {
+        "id": "2",
+        "review_id": "N0526:2",
+        "codes": [],
+        "names": [],
+        "surface": "WBT",
+        "quote": "探索前沿运动基础模型（BFM / WBT）、动作跟踪（Motion Tracking）算法，结合业务创新，输出可落地技术方案，提升产品竞争力。",
+        "field": "full_description",
+        "start": 74,
+        "end": 145
+      },
+      {
+        "id": "3",
+        "review_id": "N0526:3",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "负责sim2real部分工作，例如电机建模，通讯延迟模拟，噪声等",
+        "quote": "负责sim2real部分工作，例如电机建模，通讯延迟模拟，噪声等",
+        "field": "full_description",
+        "start": 181,
+        "end": 213
+      }
+    ]
+  },
+  {
+    "coding_order": 80,
+    "reading_id": "N0313",
+    "company_id": "CN_PAXINI",
+    "title": "具身智能算法工程师（后训练与业务优化）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|238deae3-7e6e-4cdb-9901-5f699bfd6f96|da30c04b2e8ad3d51ca18aa266c8825f875eb57940e4dde25a47dbeba73649f2",
+    "already_coded": false,
+    "fields": {
+      "duties": "1.后训练策略： 负责预训练模型的后训练（Post-training）与指令微调，针对多任务、多构型场景进行模型适配。\n2.真机部署与Sim2Real： 主导算法在真机上的部署验证，解决Sim2Real Gap问题，负责真机数据的采集标准制定与效果分析。\n3.业务场景攻坚： 深入具体业务场景（如复杂冰箱操作、传送带动态抓取），通过强化学习（RL）或模仿学习（IL）持续优化业务指标和任务成功率。\n4.区域协作： 作为技术骨干，具备在深圳/杭州两地间进行技术拆借和联合攻坚的能力。",
+      "requirements": "1.硬性背景： 本科及以上学历，机器人学、控制科学或AI相关专业。\n2.技术栈： 熟练掌握PyTorch；具备Isaac Gym/Isaac Sim等仿真环境开发经验；熟悉PPO、SAC等强化学习算法。\n3.工程能力： 具备极强的真机调试能力，熟悉ROS系统，能独立完成从算法仿真到硬件部署的闭环。\n4.优先经验： 有灵巧手操作、双臂协同或复杂物体操控的实际落地经验者优先。",
+      "full_description": "工作职责\n1.后训练策略： 负责预训练模型的后训练（Post-training）与指令微调，针对多任务、多构型场景进行模型适配。\n2.真机部署与Sim2Real： 主导算法在真机上的部署验证，解决Sim2Real Gap问题，负责真机数据的采集标准制定与效果分析。\n3.业务场景攻坚： 深入具体业务场景（如复杂冰箱操作、传送带动态抓取），通过强化学习（RL）或模仿学习（IL）持续优化业务指标和任务成功率。\n4.区域协作： 作为技术骨干，具备在深圳/杭州两地间进行技术拆借和联合攻坚的能力。\n\n任职资格\n1.硬性背景： 本科及以上学历，机器人学、控制科学或AI相关专业。\n2.技术栈： 熟练掌握PyTorch；具备Isaac Gym/Isaac Sim等仿真环境开发经验；熟悉PPO、SAC等强化学习算法。\n3.工程能力： 具备极强的真机调试能力，熟悉ROS系统，能独立完成从算法仿真到硬件部署的闭环。\n4.优先经验： 有灵巧手操作、双臂协同或复杂物体操控的实际落地经验者优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 297,
+        "end": 304,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 307,
+        "end": 316,
+        "quote": "Isaac Gym"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 317,
+        "end": 326,
+        "quote": "Isaac Sim"
+      },
+      {
+        "id": "O4",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 376,
+        "end": 381,
+        "quote": "ROS系统"
+      },
+      {
+        "id": "O5",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 5,
+        "end": 64,
+        "quote": "1.后训练策略： 负责预训练模型的后训练（Post-training）与指令微调，针对多任务、多构型场景进行模型适配。"
+      },
+      {
+        "id": "O6",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 65,
+        "end": 132,
+        "quote": "2.真机部署与Sim2Real： 主导算法在真机上的部署验证，解决Sim2Real Gap问题，负责真机数据的采集标准制定与效果分析。"
+      },
+      {
+        "id": "O7",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 65,
+        "end": 132,
+        "quote": "2.真机部署与Sim2Real： 主导算法在真机上的部署验证，解决Sim2Real Gap问题，负责真机数据的采集标准制定与效果分析。"
+      },
+      {
+        "id": "O8",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 65,
+        "end": 132,
+        "quote": "2.真机部署与Sim2Real： 主导算法在真机上的部署验证，解决Sim2Real Gap问题，负责真机数据的采集标准制定与效果分析。"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 133,
+        "end": 203,
+        "quote": "3.业务场景攻坚： 深入具体业务场景（如复杂冰箱操作、传送带动态抓取），通过强化学习（RL）或模仿学习（IL）持续优化业务指标和任务成功率。"
+      },
+      {
+        "id": "O10",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 133,
+        "end": 203,
+        "quote": "3.业务场景攻坚： 深入具体业务场景（如复杂冰箱操作、传送带动态抓取），通过强化学习（RL）或模仿学习（IL）持续优化业务指标和任务成功率。"
+      },
+      {
+        "id": "O11",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 133,
+        "end": 203,
+        "quote": "3.业务场景攻坚： 深入具体业务场景（如复杂冰箱操作、传送带动态抓取），通过强化学习（RL）或模仿学习（IL）持续优化业务指标和任务成功率。"
+      },
+      {
+        "id": "O12",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 327,
+        "end": 335,
+        "quote": "仿真环境开发经验"
+      },
+      {
+        "id": "O13",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 346,
+        "end": 352,
+        "quote": "强化学习算法"
+      },
+      {
+        "id": "O14",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 388,
+        "end": 392,
+        "quote": "算法仿真"
+      },
+      {
+        "id": "O15",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 411,
+        "end": 416,
+        "quote": "灵巧手操作"
+      },
+      {
+        "id": "O16",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 417,
+        "end": 421,
+        "quote": "双臂协同"
+      },
+      {
+        "id": "O17",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 422,
+        "end": 435,
+        "quote": "复杂物体操控的实际落地经验"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0313:1",
+        "codes": [
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "模型后训练与对齐"
+        ],
+        "surface": "1.后训练策略： 负责预训练模型的后训练（Post-training）与指令微调，针对多任务、多构型场景进行模型适配。",
+        "quote": "1.后训练策略： 负责预训练模型的后训练（Post-training）与指令微调，针对多任务、多构型场景进行模型适配。",
+        "field": "full_description",
+        "start": 5,
+        "end": 64
+      },
+      {
+        "id": "2",
+        "review_id": "N0313:2",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "2.真机部署与Sim2Real： 主导算法在真机上的部署验证，解决Sim2Real Gap问题，负责真机数据的采集标准制定与效果分析。",
+        "quote": "2.真机部署与Sim2Real： 主导算法在真机上的部署验证，解决Sim2Real Gap问题，负责真机数据的采集标准制定与效果分析。",
+        "field": "full_description",
+        "start": 65,
+        "end": 132
+      },
+      {
+        "id": "3",
+        "review_id": "N0313:3",
+        "codes": [],
+        "names": [],
+        "surface": "PPO",
+        "quote": "PPO",
+        "field": "full_description",
+        "start": 338,
+        "end": 341
+      },
+      {
+        "id": "4",
+        "review_id": "N0313:4",
+        "codes": [],
+        "names": [],
+        "surface": "SAC",
+        "quote": "SAC",
+        "field": "full_description",
+        "start": 342,
+        "end": 345
+      }
+    ]
+  }
+]

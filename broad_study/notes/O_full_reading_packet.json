@@ -1,0 +1,1029 @@
+[
+  {
+    "seq": 1,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7662274813779691786|249fc57a0c36b72bf569112410e38fcebb5c5858f057fbe9375539f317d3c994",
+    "reading_id": "N0384",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "机器人端侧模型运行与性能工程师",
+    "pilot": true,
+    "fields": {
+      "duties": "岗位职责\n岗位介绍\n-负责机器人端侧/边缘侧多模态模型运行系统的设计、开发与性能优化，将 LLM、VLM、Omni、ASR、TTS 等模型转化为可稳定运行、可双向流式调用、可低时延中断和可观测的系统级推理能力。\n-你将重点参与原生多模态模型的组件拆分、轻量化适配、端云分层运行、双向流式 API 和运行时资源治理，为机器人实时交互系统建设低延迟、高可靠的模型运行底座。\n-本岗位聚焦 Model Runtime、Inference Backend、Realtime Streaming 和 Performance Engineering，不同于常规模型转换或部署脚本开发，不负责上层 Agent 业务编排和机器人交互状态机。\n\n岗位职责\n1. 建设端侧多模态模型运行系统\n负责 LLM、VLM、Omni、ASR、TTS 等模型的统一接入与稳定运行，完成模型拆分、轻量化适配、端云分层部署和推理引擎构建。\n2.建设双向流式推理 API\n基于 gRPC 双向流、WebSocket 等协议，支持音频、视频、文本流式输入和文本、语音增量输出，并管理 Session、Deadline、序列一致性和流量反压。\n3. 建设模型流式中断能力\n实现 Streaming Infer、Cancel、Abort 和 Timeout，支持用户插话时快速停止模型生成及音频输出，并保障 Buffer、队列和 KV Cache 等运行时资源状态一致。\n4. 负责推理后端适配与性能优化\n适配 TensorRT、TensorRT-LLM、vLLM、SGLang、ONNX Runtime 及厂商 NPU/DSP 工具链，开展模型导出、量化、精度对齐和性能优化。\n5. 建设资源调度、性能与稳定性闭环\n优化多模型资源分配和音视频数据通路，建立 TTFT、首音频输出延迟、Audio-to-Audio Latency、Cancel 响应时延及 P95/P99 等性能基线，完善 Trace、自动化回归和长稳测试，并支持真实机器人联调与 Demo 交付。\n\n任职要求\n1. 本科及以上学历，计算机、软件工程、人工智能、电子信息、自动化、高性能计算等相关专业优先。\n2. 具备 3 年以上 AI 推理系统、端侧模型运行、高性能计算、异构计算、实时音视频、机器人软件、智能座舱或大模型基础设施相关经验。\n3. 熟练掌握 C++，具备良好的 Python 和 Linux 开发、调试及性能分析能力。\n4. 在以下两个方向中，至少一个方向具备深入项目经验，并对另一方向有完整理解：\n* 模型推理 Runtime、推理后端、模型服务或端侧运行系统；\n* 双向流式协议、实时音视频、异步网络或低延迟流式系统。\n5. 熟悉 TensorRT / TensorRT-LLM、vLLM / SGLang、ONNX Runtime、Triton、CUDA 或厂商 NPU/DSP 工具链中的至少一种。\n6. 理解 Transformer、LLM、VLM 或 Omni 模型的基本推理流程，熟悉 Prefill / Decode、KV Cache、Streaming Generation 和动态/静态 Shape 等概念；具备多线程、异步任务、内存管理和性能 Profiling 能力。\n\n加分项\n1. 有 Qwen-Omni 或类似原生多模态、Any-to-Any、端到端语音交互模型的拆分、流式推理或端云分层运行经验。\n2. 有 gRPC 双向流、WebSocket、RTC、Realtime API 或流式 SDK 设计经验。\n3. 有请求级 Cancel、原生流式中断、Session 资源隔离、KV Cache 回收或 Deadline 管理经验。\n4. 有 Jetson Orin、Thor、高通 SoC、地平线、昇腾等边缘 AI 平台的模型运行和性能优化经验。\n5. 熟悉 FP8 / INT8 / INT4 量化、CUDA Kernel、TensorRT Plugin、计算图优化，或有机器人、智能座舱、自动驾驶等真实端侧项目交付经验。",
+      "requirements": "1. 本科及以上学历，计算机、软件工程、人工智能、电子信息、自动化、高性能计算等相关专业优先。\n2. 具备 3 年以上 AI 推理系统、端侧模型运行、高性能计算、异构计算、实时音视频、机器人软件、智能座舱或大模型基础设施相关经验。\n3. 熟练掌握 C++，具备良好的 Python 和 Linux 开发、调试及性能分析能力。\n4. 在以下两个方向中，至少一个方向具备深入项目经验，并对另一方向有完整理解：\n* 模型推理 Runtime、推理后端、模型服务或端侧运行系统；\n* 双向流式协议、实时音视频、异步网络或低延迟流式系统。\n5. 熟悉 TensorRT / TensorRT-LLM、vLLM / SGLang、ONNX Runtime、Triton、CUDA 或厂商 NPU/DSP 工具链中的至少一种。\n6. 理解 Transformer、LLM、VLM 或 Omni 模型的基本推理流程，熟悉 Prefill / Decode、KV Cache、Streaming Generation 和动态/静态 Shape 等概念；具备多线程、异步任务、内存管理和性能 Profiling 能力。\n\n加分项\n1. 有 Qwen-Omni 或类似原生多模态、Any-to-Any、端到端语音交互模型的拆分、流式推理或端云分层运行经验。\n2. 有 gRPC 双向流、WebSocket、RTC、Realtime API 或流式 SDK 设计经验。\n3. 有请求级 Cancel、原生流式中断、Session 资源隔离、KV Cache 回收或 Deadline 管理经验。\n4. 有 Jetson Orin、Thor、高通 SoC、地平线、昇腾等边缘 AI 平台的模型运行和性能优化经验。\n5. 熟悉 FP8 / INT8 / INT4 量化、CUDA Kernel、TensorRT Plugin、计算图优化，或有机器人、智能座舱、自动驾驶等真实端侧项目交付经验。"
+    }
+  },
+  {
+    "seq": 2,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7537159555462842666|cc49bb46894c3cd02a64ad32f2aa0a856dde82ef7afc0e1341d1b7fd9541f644",
+    "reading_id": "N0440",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身算法专家/工程师",
+    "pilot": true,
+    "fields": {
+      "duties": "岗位职责\n1.设计和开发创新性的模仿学习和强化学习算法，应用于人形机器人场景任务，具备泛化能力\n2.研究并构建具备视觉、触觉、语言等多模态感知和决策能力的大模型，实现机器人在开放世界中的物理交互。\n3.优化具身算法模型结构，以支持具身算法的实现和高效运行。\n4.与跨职能团队合作，推动具身算法在实际场景中的应用\n\n任职要求\n1.计算机视觉、多模态大模型等相关领域的硕士或博士\n2.精通Python编程语言，熟悉PyTorch、JAX、TensorFlow等深度学习框架\n3.熟悉机器人模仿学习、强化学习理论，有相关领域有影响力的Paper者优先\n4.有ACT、MT-ACT、RT系列、Diffusion Policy，GO/GE World系列，PI系列，GR00T系列，HIL-SERL等算法相关研究背景经验者优先\n5.熟悉LLM/VLM/VLA，了解R3M、RFM、PaLM-E、OpenVLA，RL等多模态具身大模型经验者优先\n6.有实际的机器人、自动驾驶项目经验者优先。",
+      "requirements": "1.计算机视觉、多模态大模型等相关领域的硕士或博士\n2.精通Python编程语言，熟悉PyTorch、JAX、TensorFlow等深度学习框架\n3.熟悉机器人模仿学习、强化学习理论，有相关领域有影响力的Paper者优先\n4.有ACT、MT-ACT、RT系列、Diffusion Policy，GO/GE World系列，PI系列，GR00T系列，HIL-SERL等算法相关研究背景经验者优先\n5.熟悉LLM/VLM/VLA，了解R3M、RFM、PaLM-E、OpenVLA，RL等多模态具身大模型经验者优先\n6.有实际的机器人、自动驾驶项目经验者优先。"
+    }
+  },
+  {
+    "seq": 3,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7639194501029972278|b570bf0195ff8e4d14ac39528f8f6020505609ea3fe14451228b9c4bce3358c9",
+    "reading_id": "N0393",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "后端开发工程师-Golang",
+    "pilot": true,
+    "fields": {
+      "duties": "岗位职责\n职位描述\n1. 设计、开发和维护基于 Golang 的后端服务，确保系统的高性能和可靠性；\n2. 与前端、DevOps 以及 SRE 紧密合作，完成系统集成和部署；\n3. 编写高质量的技术文档，参与代码评审和技术分享；\n4. 主导或参与技术方案调研，原型系统搭建，工具链设计和开发等工作；\n\n任职要求\n1. 本科及以上学历，计算机、通讯等相关专业，3 年以上后端开发经验；\n2. 精通Golang，熟悉其生态和常用框架；\n3. 有IOT平台经验和熟练使用AI coding的优先；\n4. 熟悉云原生技术与微服务架构，具备分布式系统设计和开发经验；\n5. 有较强的逻辑能力和学习能力，有良好的团队沟通与协作能力，能适应创业公司的多面手优先；\n6. 有AI算法工程、网络安全、隐私保护、机器人硬件相关经验者优先，技术社区活跃者、有Github开源项目者优先。",
+      "requirements": "1. 本科及以上学历，计算机、通讯等相关专业，3 年以上后端开发经验；\n2. 精通Golang，熟悉其生态和常用框架；\n3. 有IOT平台经验和熟练使用AI coding的优先；\n4. 熟悉云原生技术与微服务架构，具备分布式系统设计和开发经验；\n5. 有较强的逻辑能力和学习能力，有良好的团队沟通与协作能力，能适应创业公司的多面手优先；\n6. 有AI算法工程、网络安全、隐私保护、机器人硬件相关经验者优先，技术社区活跃者、有Github开源项目者优先。"
+    }
+  },
+  {
+    "seq": 4,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7602463513651857710|e15bf2537cd241f12a0fccbcb95baaa0c42d496aa79377d7c2b2f1f29a01c531",
+    "reading_id": "N0406",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "后端开发工程师-灵心(偏Java)",
+    "pilot": true,
+    "fields": {
+      "duties": "岗位职责\n-主要负责灵心平台的后端开发(机器人交互的控制面)，机器人Agent的二开SDK\n-与前端、DevOps 以及 SRE 紧密合作，完成系统集成和部署；\n-编写高质量的技术文档，参与代码评审和技术分享；\n-主导或参与技术方案调研，原型系统搭建，工具链设计和开发等工作；\n\n任职要求\n-本科及以上学历，计算机、通讯等相关专业，3 年以上后端开发经验；\n-主要开发语言为Java，但是希望有golang/python的经验；\n-扎实的计算机基础知识，具有良好的 Linux、网络通信、数据结构、算法设计等能力；\n-熟悉云原生和容器化环境下的开发；\n-熟悉数据库、消息队列、缓存等技术，熟悉常见中间件；\n-有较强的逻辑能力和学习能力，有良好的团队沟通与协作能力；\n-有智能音响，数字人，语音交互等经验优先；",
+      "requirements": "-本科及以上学历，计算机、通讯等相关专业，3 年以上后端开发经验；\n-主要开发语言为Java，但是希望有golang/python的经验；\n-扎实的计算机基础知识，具有良好的 Linux、网络通信、数据结构、算法设计等能力；\n-熟悉云原生和容器化环境下的开发；\n-熟悉数据库、消息队列、缓存等技术，熟悉常见中间件；\n-有较强的逻辑能力和学习能力，有良好的团队沟通与协作能力；\n-有智能音响，数字人，语音交互等经验优先；"
+    }
+  },
+  {
+    "seq": 5,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|1cf1f907-f46c-4524-8349-75e1cae0802e|660e98dc889ea87a7f95ef6bfbd79746697f14996393dbf75e5fff4f509348a3",
+    "reading_id": "N0160",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身智能算法应用工程师-深圳",
+    "pilot": true,
+    "fields": {
+      "duties": "岗位职责： \n\n1. 针对零售、工业等真实应用场景，参与具身智能算法方案开发、模型训练、性能调优，推动具身智能机器人商业化落地\n\n2. 参与开发机器人端算法接口，支持外部团队开发具身智能落地应用\n\n3. 本岗位面向成长型人才，希望招募渴望成长为具身智能全栈工程师，或从传统机器人行业转向具身智能行业的同学\n\n\n\n\n岗位要求：\n\n1. 计算机、机器人相关背景，硕士以上学历\n\n2. 具备具身智能、工业机器人或服务机器人开发经验，完成过项目交付\n\n3. 熟练使用Python和C++，具备良好的编程习惯，丰富的Linux端开发经验\n\n4. 熟悉机器人运动学、规划控制、定位导航相关知识，了解常用算法，有算法相关科研工作者优先\n\n5. 热爱机器人，动手能力强，有机器人相关比赛（RoboMaster、RoboCon、RoboCup等）经历者优先"
+    }
+  },
+  {
+    "seq": 6,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|c4c9217c-1d95-4649-873a-2009f81e937c|e3ae3a5a40f783ec072c58bce3221cf0c161c5c245d5b1fdd0c79422c57b102d",
+    "reading_id": "N0162",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身智能算法应用工程师-北京",
+    "pilot": true,
+    "fields": {
+      "duties": "岗位职责：\n\n1. 针对零售、工业等真实应用场景，参与具身智能算法方案开发、模型训练、性能调优，推动具身智能机器人商业化落地\n\n2. 参与开发机器人端算法接口，支持外部团队开发具身智能落地应用\n\n3. 本岗位面向成长型人才，希望招募渴望成长为具身智能全栈工程师，或从传统机器人行业转向具身智能行业的同学\n\n\n\n\n 岗位要求：\n\n1. 计算机、机器人相关背景，硕士以上学历\n\n2. 具备具身智能、工业机器人或服务机器人开发经验，完成过项目交付\n\n3. 熟练使用Python和C++，具备良好的编程习惯，丰富的Linux端开发经验\n\n4. 熟悉机器人运动学、规划控制、定位导航相关知识，了解常用算法，有算法相关科研工作者优先\n\n5. 热爱机器人，动手能力强，有机器人相关比赛（RoboMaster、RoboCon、RoboCup等）经历者优先"
+    }
+  },
+  {
+    "seq": 7,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|179bbebf-f382-4d05-a51c-b58f8e262f32|ee3391f1247e44eac9517d34ec89c51d3ee8a6558e0e8e657ab507720bf5ef0e",
+    "reading_id": "N0143",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "机器人业务软件开发工程师",
+    "pilot": true,
+    "fields": {
+      "duties": "岗位职责：\n\n1、参与具身智能机器人本体侧应用软件开发，接入并集成语音识别、语音合成、大模型、多模态模型等 AI 能力，实现机器人对话、主动交互、任务理解、情绪反馈等功能。 \n\n2、基于通用智能体的开发模式，参与机器人 Agent 相关功能实现，包括工具调用、任务拆解、上下文管理、执行反馈、动作触发等模块开发。\n\n 3、根据产品和交互需求，实现语音、文本、动作、表情、灯效、屏幕等多模态交互能力，使机器人在真实场景中具备更自然的交互体验。\n\n 4、参与机器人端应用系统的性能分析和优化，包括响应延迟、启动速度、运行稳定性、CPU / 内存占用、音频链路、模型调用链路、并发任务调度等方面的优化。\n\n 5、参与机器人整机联调，包括传感器接入、音频设备调试、运动控制接口联调、应用 Demo 验证、真实场景测试和问题排查。 \n\n6、参与将原型 Demo 转化为稳定产品功能的过程，包括代码重构、接口规范化、日志完善、异常兜底、配置管理、部署适配和测试验证。 \n\n7、与算法、硬件、产品、测试团队协作，完成需求理解、技术实现、问题复现、缺陷修复和版本迭代。 \n\n\n\n\n任职要求：\n\n1、本科及以上学历，计算机、机器人、自动化、电子信息、人工智能等相关专业。\n\n 2、具备较扎实的机器人或智能硬件开发经验，能够独立完成应用模块开发、调试和问题定位，并配合硬件团队完成联调。\n\n3、熟悉 Linux 开发环境，熟悉常见的软件工程开发流程，具备良好的代码质量意识。\n\n4、熟悉 ROS / ROS2，理解节点通信、Topic、Service、Action、消息机制、状态机等常见开发方式，并有实际项目使用经验。 \n\n5、熟练掌握 Python 和 C++，能够完成机器人应用层逻辑开发、模块封装、接口适配和系统集成。 \n\n6、熟悉大模型应用开发的基本方式，熟悉通用智能体的基本方法论和开发模式，具备一定系统性能优化经验。 \n\n7、对具身智能、服务机器人、陪伴机器人、人机交互或多模态交互方向有兴趣，愿意深入真实机器人系统开发。 \n\n\n\n\n加分项\n\n熟悉 TypeScript，有 Node.js、前端工具、机器人控制台、调试平台、可视化界面或 Agent 应用开发经验者优先。 \n\n熟悉 Rust，有高性能模块、异步任务、系统工具、嵌入式 Linux、通信组件或机器人底层模块开发经验者优先。\n\n熟悉 Linux 音频系统，了解 ALSA / PulseAudio / PipeWire / PCM 设备，有麦克风采集、音频播放、回声消除、降噪、唤醒、ASR / TTS 链路调试经验者优先。 \n\n有机器人、智能硬件、边缘 AI 设备、IoT 设备或嵌入式 Linux 项目经验者优先。 \n\n有从技术 Demo 到可交付产品功能的开发经验者优先。\n\n有大模型应用、AI Agent、多模态交互、语音交互、数字人、情感计算或社交机器人相关项目经验者优先。 \n\n熟悉 Docker、CI/CD、自动化测试、远程日志、性能监控等工程化工具者优先。 \n\n有机器人比赛、科研项目、开源项目或个人机器人项目经验者优先。"
+    }
+  },
+  {
+    "seq": 8,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|7243ba59-9f88-45b1-b01e-f0a45e88b7c0|bd7ff2d466091ea7cbe4c4aa2bcb36d0d0a848465a396c3f4edd7ff47aa8b0b7",
+    "reading_id": "N0152",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "机器人应用开发工程师（具身智能 & 情感交互方向）",
+    "pilot": true,
+    "fields": {
+      "duties": "岗位职责： \n\n1. 参与具身智能机器人的应用层软件开发，围绕真实机器人场景，完成任务逻辑、状态机、行为编排与系统集成。\n\n2. 负责机器人在人机交互 / 情感交互 / 社交交互方向的应用开发，包括语音、表情、动作、灯效等多模态交互行为设计与实现。\n\n3. 基于语音识别、语音合成、大模型等能力，开发机器人对话、情绪反馈、主动交互等功能，提升机器人“可沟通性”和“拟人化体验”。\n\n4. 参与机器人感知—决策—执行闭环的应用落地，将上层交互逻辑与底层运动、感知模块进行有效衔接。\n\n5. 支持机器人实验环境搭建，包括传感器接入、整机联调、应用 Demo 与场景验证。\n\n6. 配合算法与硬件团队完成系统稳定性迭代。\n\n\n\n\n岗位要求：\n\n1. 理工类相关专业本科及以上学历（机器人、自动化、计算机、电子信息等优先）。\n\n2. 熟练使用 Linux 系统，具备良好的开发与调试习惯；熟悉 ROS / ROS2 等机器人中间件，有节点通信、消息机制、状态机使用经验。\n\n3. 熟练掌握 Python 和 C++，能够进行机器人应用层逻辑开发、接口封装与系统集成。\n\n4. 具备一定的人机交互 / 多模态交互意识，理解语音、文本、动作、表情等在机器人中的协同关系。\n\n5. 对机器人情感表达、社交交互、陪伴型/服务型机器人方向有兴趣，能够从用户体验角度设计交互流程。\n\n6. 了解常见机器人硬件，熟悉至少一种或多种通信总线（如 UART、CAN、USB、Ethernet、I2C 等），能配合硬件进行联调。\n\n7. 热爱机器人领域，有 RoboMaster、RoboCon、RoboCup 等机器人比赛或实际项目经验者优先。"
+    }
+  },
+  {
+    "seq": 9,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|ecdf1193-7946-4345-95be-3c1453d15a94|4d4c609f773b585d0070a70a059d344a0c80e21a58d595c539268e048b0586cc",
+    "reading_id": "N0876",
+    "company_id": "US_DEXTERITY",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "Senior/Staff AI Algorithms Engineer",
+    "pilot": true,
+    "fields": {
+      "duties": "About Dexterity\nAt Dexterity, we believe robots can positively transform the world. Our breakthrough technology frees people to do the creative, inspiring, problem-solving jobs that humans do best by enabling robots to handle repetitive and physically difficult work.\n \nWe’re starting with warehouse automation, where the need for smarter, more resilient supply chains impacts millions of lives and businesses worldwide. Dexterity's full-stack robotics systems pick, move, pack, and collaborate with human-like skill, awareness, and learning capabilities. Our systems are software-driven and hardware-agnostic and have already picked 100+ million goods in production. And did we mention we’re customer-obsessed? Every decision, large and small, is driven by one question – how can we empower our customers with robots to do more than they thought was possible?\n \nDexterity is one of the fastest-growing companies in robotics, backed by world-class investors such as Kleiner Perkins, Lightspeed Venture Partners, and Obvious Ventures. We’re a diverse and multidisciplinary team with a culture built on passion, trust, and dedication. Come join Dexterity and help make intelligent robots a reality!\n \nAbout the Role\nWe’re looking for an Senior/Staff AI Algorithms Engineer with deep foundations in machine learning, reinforcement learning, and optimization—and a strong drive to apply those skills to novel, high-impact problems in robotics. You will leverage techniques from machine learning, reinforcement learning, search, and optimization to solve hard sequential decision problems that require reasoning about the physical world and its dynamics. You will also stay abreast of the latest progress in reinforcement learning, task and motion planning, and other related fields in order to further enhance Dexterity’s technology foundations in Physical AI\n \nYou’ll be part of a team working across simulation, real robots, and multimodal sensor streams, applying first-principles thinking to unlock product capabilities where off-the-shelf ML solutions fall short. If you have strong research instincts but are excited to build things that are used in the real world, this role offers the chance to turn deep technical ideas into systems deployed at scale.\n \n\n\nWhat You'll Do\nDesign and prototype novel algorithms at the intersection of learning, prediction, and planning, with a focus on solving real product challenges\nApply reinforcement learning, geometric reasoning, or optimization-based methods to tackle long-horizon manipulation, sensor fusion, or decision-making under uncertainty\nTranslate open-ended problems into clear technical approaches, balancing modeling intuition with real-world constraints like latency, reliability, and partial observability\nBuild and test your algorithms across simulation and real-robot environmentsCollaborate closely with product leads, software engineers, and roboticist to bring ideas into fruition\nContribute to internal knowledge, tooling, and experimentation pipelines that level up the entire team\n\nWhat We’re Looking For\nPhD or equivalent experience in machine learning, robotics, optimization, applied math, or a related field\nStrong mathematical foundation in areas such as probability, statistics, optimization, reinforcement learning, imitation learning, and foundation models\nAbility to turn theoretical insights into practical, testable code using Python and PyTorch (or similar frameworks)\nCuriosity, initiative, and a bias toward building and debugging in real systems\nClear communication skills and an ability to collaborate across engineering and research boundaries\n\nNice to Have\nExperience with physics simulators, control stacks, or physical sensing modalities (RGBD, force-torque, etc.)\nPrior work on real-world ML deployments (e.g., autonomous vehicles, logistics, hardware-integrated ML)\nContributions to open-source ML, RL, or robotics libraries\nPrevious startup experience\n\nWhy this Role\nYou’ll work on hard, novel problems that demand first-principles thinking—not just tuning models\nYour work will run on physical systems with real constraints, feedback, and real world impact\nYou’ll be expected to and supported in owning high-impact projects from early on\nYou’ll have a chance to help shape how learning, prediction, and planning come together in next-generation robotics\n\nEqual Opportunity Employer\nWe are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status."
+    }
+  },
+  {
+    "seq": 10,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|6c8a6e37-c72a-4e93-92fe-04d3b6bcbc66|c7e0bf2f00f97cf27385710f9dba6fee88a32f41ec0814bee69b6ca43a7fb1ce",
+    "reading_id": "N0874",
+    "company_id": "US_DEXTERITY",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "Senior Robotics Manipulation Engineer",
+    "pilot": true,
+    "fields": {
+      "duties": "About Dexterity: At Dexterity, we believe robots can positively transform the world. Our breakthrough technology frees people to do the creative, inspiring, problem-solving jobs that humans do best by enabling robots to handle repetitive and physically difficult work. We’re starting with warehouse automation, where the need for smarter, more resilient supply chains impacts millions of lives and businesses around the world.   \n\nDexterity's full-stack robotics systems pick, move, pack, and collaborate with human-like skill, awareness, and learning capabilities. Our systems are software-driven, hardware-agnostic, and have already picked over 15 million goods in production. And did we mention we’re customer-obsessed?  Every decision, large and small, is driven by one question – how can we empower our customers with robots to do more than they thought was possible? \n\nDexterity is one of the fastest growing companies in robotics, backed by world-class investors such as Kleiner Perkins, Lightspeed Venture Partners, and Obvious Ventures.  We’re a diverse and multidisciplinary team with a culture built on passion, trust, and dedication.  Come join Dexterity and help make intelligent robots a reality!\n\nAs a Senior Robotics Manipulation Engineer, you will be working on a myriad of challenges related to manipulation, control, simulation and learning. You will bring a data driven approach to learned robot controls. You will also stay abreast of the latest progress in reinforcement learning, motion planning and controls, and other related fields in order to further develop Dexterity’s technology foundations in physical AI.\n\nDexterity’s robotic solutions integrate data from a multitude of sensors, including RGB cameras, depth sensors, force-torque sensors, encoders, system telemetry and human input. To better inform the planning and execution system, you may work on sensor fusion and state estimation techniques to leverage this multimodal sensory data.\n\nYou will work closely with the data platform, simulation, and robot operations teams to collect training data to improve your models.\n\nIn addition to core manipulation and controls, you will be responsible for building high quality, maintainable, and performant software. Ideally, you will possess strong software system and interface design skills.\n\n\nDay to Day Activities: \nTrain models for robotic manipulation, force control, servoing etc.\nConvert heuristics based control to learned models.\nDevelop the right state space representation for our Robotics Systems.\nCollaborate with roboticist, machine learning engineers, mechanical engineers, and product managers to find optimal system solutions.\nImplement, test, and maintain high quality software.\nLead efforts to improve the rigor and performance of models within Dexterity.\n\nRequired Skills:\nBS/MS/PhD in Computer Science or a related discipline.\n5+ years of relevant Industry or Research experience.\nStrong Python programming skills.\nKnowledge of Modern C++ and Linux.\nExperience with multiple of the following:\nArtificial Intelligence (imitation learning, reinforcement learning, deep learning, LLMs)\nDistributed ML Training Platforms (Ray or other)\nTask and Motion Planning\nSimulation\n\nNice to haves:\nExperience with Git and modern CI pipelines.\nExperience with Docker and Kubernetes\nPrevious startup experience\n\nEqual Opportunity Employer - We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status."
+    }
+  },
+  {
+    "seq": 11,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|f64ee685-10c0-4b47-932f-13a01d878388|f71a67729e861f57fc1d7bdd0e1d105a28f8d44725ee82860f8d2dabcfcdf70e",
+    "reading_id": "N0860",
+    "company_id": "US_DEXTERITY",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "Manufacturing Engineer, Document Control",
+    "pilot": true,
+    "fields": {
+      "duties": "At Dexterity, we believe robots can positively transform the world.  Our breakthrough technology frees people to do the creative, inspiring, problem-solving jobs that humans do best by enabling robots to handle repetitive and physically difficult work.\n\nWe’re starting with warehouse automation, where the need for smarter, more resilient supply chains impacts millions of lives and businesses around the world.   Dexterity's full-stack robotics systems pick, move, pack, and collaborate with human-like skill, awareness, and learning capabilities.  Our systems are software-driven, hardware-agnostic, and have already picked over 15 million goods in production.  And did we mention we’re customer-obsessed?  Every decision, large and small, is driven by one question – how can we empower our customers with robots to do more than they thought was possible?\n\nDexterity is one of the fastest growing companies in robotics, backed by world-class investors such as Kleiner Perkins, Lightspeed Venture Partners, and Obvious Ventures.  We’re a diverse and multidisciplinary team with a culture built on passion, trust, and dedication.  Come join Dexterity and help make intelligent robots a reality!\n\nWe are seeking a motivated, experienced individual to fill the role of Manufacturing Engineer, Document Control. \nIn this role, you will manage all aspects of Engineering Change Order (ECO) and Bill of Material (BOM) management, ensuring that these critical documents are accurate, up-to-date, and complete. This includes creating, updating, and maintaining BOMs, coordinating configuration management processes, and managing BOM changes through rigorous change control. Your close collaboration with Engineering, Manufacturing, and Supply Chain teams will enable you to verify component availability and specifications, along with recommending cost-saving opportunities and process improvements. \n\nThis role requires a combination of technical expertise, project management skills, and cross-functional collaboration to ensure the accuracy and efficiency of our product information management systems and successfully bring products to volume manufacturing and meet market demands.\n\n\nResponsibilities\nEnsure the accuracy and completeness of product data, including 3D models, 2D drawings, part numbering, BOM, electrical schematics, and documentation.\nOversee the generation and release of Engineering and New Product Introduction (NPI) support documentation into consumable packages for downstream internal customers, and maintain the integrity of Dexterity’s Teamcenter PLM system.\nCreate Engineering Change Orders (ECOs) through collaboration with our Engineering teams.\nPublish ECO information and reports in order to notify all relevant parties of the upcoming and completed changes.\nContinuously update the release and change management processes (and other PLM activities) to ensure tasks are performed efficiently.\nSupport, when identified, the configuration of PLM and ERP system integration.\nProvide input and feedback on Obsolescence Management including forecasting, engineering solutions, last time buy management, and coordination with supply chain and field support engineers.\nContribute to product build documentation, including Operations Methods Sheet (OMS) creation and redlines.\n\nDesired Experience\nBachelor's degree in mechanical engineering, industrial engineering, or related field.\n5+ years of hands-on experience in Manufacturing and NPI documentation.\nProven experience with the Teamcenter PLM system.\nIn-depth knowledge of PLM/BOM principles, methodologies, and best practices.\nStrong analytical skills with the ability to interpret engineering drawings, specifications, and technical documents.\nExcellent project management skills with the ability to prioritize tasks, manage timelines, and drive initiatives to completion.\nExceptional interpersonal and communication skills, with the ability to engage effectively with cross-functional teams at all levels of the organization.\nStrong ability to multi-task and switch contexts while managing multiple projects simultaneously.\nContinuous improvement oriented mindset with a focus on accuracy and data integrity.\nCAD system experience is a plus.\n\nEqual Opportunity Employer\nWe are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status."
+    }
+  },
+  {
+    "seq": 12,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|30ffd0e6-bece-4664-9650-4a904e6c6b5b|cdbf845d3dbb1ee470e1a1aa95a60fa1d396f7f369568ae26ffb4ef09f89b465",
+    "reading_id": "N0882",
+    "company_id": "US_DEXTERITY",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "Staff Engineer, Infrastructure",
+    "pilot": true,
+    "fields": {
+      "duties": "About Dexterity\n \nDexterity is the enterprise Physical AI company building intelligent robots for complex industrial work.\nDexterity's Mech systems combine the Foresight World Model, robotics, and a Physical AI platform to perform demanding logistics workflows - including trailer loading, trailer unloading, and airport baggage handling - at the speed, reliability, and safety levels required for high-volume operations. Dexterity's Foresight World Model powers real-time perception, planning, and execution across physical environments with the interpretability required for industrial deployment. Dexterity is headquartered in Redwood City, California.\nDexterity is backed by world-class investors such as Kleiner Perkins, Lightspeed Venture Partners, and Obvious Ventures. We are a diverse and multidisciplinary team with a culture built on passion, trust, and dedication.\nAbout the Role\nAs a Staff Infrastructure Engineer at Dexterity, you will design, build, and automate the infrastructure that powers Dexterity's development and production robotics systems. You'll own critical areas of our bare-metal and hybrid cloud infrastructure, including provisioning, compute, networking, Kubernetes, observability, security, and lifecycle management.\nYou'll work across Infrastructure, Software, Robotics, and other engineering teams to build secure, scalable, highly available systems while eliminating manual operational work through automation. This is a hands-on Staff-level role for an engineer who can set technical direction, solve complex infrastructure problems, and build systems that scale as Dexterity grows.\n \nWhat You'll Do\nInfrastructure Architecture & Automation\nDesign and implement end-to-end automation for provisioning and lifecycle management of bare-metal HPC infrastructure.\nAutomate commissioning, OS installation, reprovisioning, and decommissioning using Dexterity's bare-metal provisioning systems.\nBuild and maintain Infrastructure-as-Code using technologies such as Terraform, Salt, Python, and Git-based workflows.\nAutomate configuration and deployment of Linux/Ubuntu compute nodes, Kubernetes clusters, networking, storage, monitoring, logging, and authentication services.\nDevelop APIs, scripts, controllers, and automation workflows that eliminate manual steps in server provisioning and configuration.\nIntegrate physical infrastructure provisioning with fleet management and other internal infrastructure services.\nAutomate cloud infrastructure provisioning for hybrid HPC and cloud-burst use cases.\nReliability, Operations & Security\nImplement GitOps and CI/CD practices for infrastructure changes, including testing, review, rollout, and rollback.\nBuild automated hardware validation, health-checking, and diagnostic workflows.\nDevelop observability for provisioning status, failures, configuration drift, capacity, and overall infrastructure health.\nDesign and maintain secure, scalable, reliable, and highly available compute and network systems that support business objectives and service-level requirements.\nHelp establish and improve infrastructure security, reliability, compliance, and operational practices.\nTechnical Leadership\nHelp define the long-term architecture and technical direction for Dexterity's compute and infrastructure platforms.\nLead complex infrastructure initiatives from architecture and design through production deployment.\nEstablish engineering standards and best practices for infrastructure automation, reliability, security, and operational excellence.\nPartner cross-functionally to research and design the next generation of compute and acceleration infrastructure for Dexterity.\nMentor engineers and raise the technical bar through design reviews, documentation, and knowledge sharing.\nWhat We're Looking For\nRequired Qualifications\nBachelor's degree in Computer Science, Engineering, or a related technical field, or equivalent practical experience.\n10+ years of experience designing, building, and operating production infrastructure or systems at scale, with demonstrated technical leadership and ownership.\nStrong Linux/Ubuntu systems administration experience.\nStrong programming skills in Python with solid Bash/shell scripting knowledge.\nExperience with Infrastructure-as-Code tools such as Terraform or equivalent technologies.\nHands-on experience with bare-metal infrastructure provisioning and lifecycle management.\nWorking knowledge of Kubernetes deployment, operations, and lifecycle management.\nExperience with cloud infrastructure platforms such as AWS, GCP, or Azure, including API-driven provisioning.\nStrong networking fundamentals, including VLANs, DHCP, DNS, routing, bonding, and related networking concepts.\nExperience with CI/CD and Git-driven infrastructure/configuration-management practices.\nExperience developing or integrating systems using REST APIs and automation workflows.\nExperience with monitoring, logging, and observability platforms.\nStrong understanding of secure, idempotent, and reproducible infrastructure automation, with the ability to rebuild systems from code rather than relying on manual configuration.\nThe original request requires 10+ years of systems engineering at scale along with strong systems/network architecture and information-security knowledge.\nPreferred Qualifications\nExperience with bare-metal provisioning technologies such as PXE boot, DHCP, TFTP, and cloud-init.\nFamiliarity with server-management interfaces and protocols such as IPMI, Redfish, iDRAC, or iLO.\nExperience with HPC, GPU, accelerated compute, or other large-scale compute environments.\nExperience with Salt or similar configuration-management technologies.\nExperience with observability platforms such as Prometheus, Grafana, and centralized logging systems.\nFamiliarity with ISO 27001, SOC 2, or similar security and compliance frameworks.\nExperience supporting infrastructure deployed across production or customer environments.\nExperience building hybrid cloud or cloud-burst infrastructure.\nThese preferred skills preserve the more specialized technologies identified in the original request without requiring candidates to have worked with Dexterity's exact toolset.\nCompensation\nThe annual base salary range for this position is 200,000–250,000 USD.\nDexterity's total rewards may also include equity and benefits. Actual compensation will be determined based on experience, skills, scope, qualifications, market factors, and internal equity.\n \n \n\n\nEqual Opportunity Employer\nDexterity is proud to be an equal opportunity employer. We are committed to creating an inclusive workplace where all employees and applicants are treated with fairness and respect.\nAll qualified applicants will receive consideration for employment without regard to race, color, religion, religious creed, ancestry, national origin, citizenship, age, sex (including pregnancy, childbirth, breastfeeding, and related medical conditions), gender, gender identity, gender expression, sexual orientation, marital status, medical condition, genetic information, physical or mental disability, military or veteran status, or any other characteristic protected by applicable federal, state, or local law.\nDexterity is committed to providing reasonable accommodations to qualified individuals with disabilities and applicants requiring accommodations during the hiring process, consistent with applicable law. If you require an accommodation during the hiring process, please let us know."
+    }
+  },
+  {
+    "seq": 13,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4100984009|b434c171894d6cf0c34526b71f64eddfb2b0ee2d4afb6f6643fcfbe3aab33355",
+    "reading_id": "N0909",
+    "company_id": "US_NIMBLE",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "Member of Technical Staff",
+    "pilot": true,
+    "fields": {
+      "duties": "About Nimble\nNimble\nis an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, the first robot in the world capable of performing thousands of tasks across the supply chain. We’ve raised over $220M at over $1B valuation and formed a strategic alliance with FedEx to build a national network of autonomous warehouses capable of generating many billions in annual revenue. We are a hardcore and obsessed team of the world’s best engineers and operators. If you are obsessed with your craft, enjoy a high-intensity and fast moving high impact environment, are super high agency in getting hard things done and want to be part of building the world’s most legendary robotics company at the most pivotal moment in history, we want to work with you.\nWe are on a mission to empower and inspire mankind to accomplish legendary feats by inventing robots that liberate us from the menial. We will accomplish this by training robot AGI to invent and build the Autonomous Supply Chain – everything from the inside of factories and warehouses to your front door – powered by generalist superhumanoids.\nOur founding team comes from the AI labs at Stanford and Carnegie Mellon and our board of directors include famed robotics and AI legends including\nFei-Fei Li\n(Chief Scientist of AI at Google and Director of Stanford’s AI Lab),\nMarc Raibert\n(founder of Boston Dynamics), and\nSebastian Thrun\n(founder of GoogleX, Waymo; Stanford Professor and considered the father of autonomous vehicles).\nLet’s be legendary.\nWhy Join Nimble?\nAt Nimble, we are committed to building legendary products, a legendary team, and a legendary legacy. Join us and become part of an ambitious, humble, and resourceful culture where your work will leave a lasting impact on the future of robotics and commerce.\nNimble's Core Values:\nBe relentlessly resourceful\n-\nChallenge conventions and overcome obstacles.\nBe legendary\n-\nBe the very best and do work that inspires.\nBe humble\n-\nPrioritize growth, learning, and doing whatever is needed to further the mission.\nBe dependable\n-\nTake ownership and deliver with high agency.\nThe Role\nNimble is looking for a Member of Technical Staff to help us advance our robotics moonshot by designing, developing, training, and implementing robotic foundation models, Vision-Language-Action Models, general-purpose robotic AI models, and reinforcement learning algorithms controlling multi-agent robot fleets.\nYou will play a critical role in working with our all-star cross-functional team to build models with immediate applications for the world’s biggest robotics opportunity.\nResponsibilities\nDevelop and train VLAs and generalist visuomotor policies to automate thousands of tasks across the supply chain\nDevelop data collection pipelines\nDesign data annotation and labeling\nSupport implementation of models into production systems\nQualifications\nP.h.D in Robotics or Computer Science\nExperience training deep learning models for robotic manipulation or mobility\nExperience working with real robotic hardware\nExperience training models in simulation and developing simulation environments\nExperience collecting custom datasets\nExperience training on open-source datasets\nStrong track record of publishing papers and/or deploying real-world applications\nExperience with system architecture, design and development\nAdditional Requirements\nMust be able to work extended hours and weekends as needed\nMust be able to work in San Francisco\n$200,000 - $300,000 a year\nThe above range is the salary range. This position will also receive generous equity for this position.\nCulture:\nWe embrace challenges and strive to make the impossible possible each day. We’re not in this to do what’s easy or to be mediocre. We want to create something legendary and leave our mark on the world. We’re ambitious, we’re gritty, we’re humble and we’re relentlessly resourceful in pursuit of our goals. If this sounds like you then you might be a great fit!\nNimble Robotics, Inc. is an equal opportunity employer. We make all employment decisions based solely on merit. We provide equal employment opportunity to all applicants and employees without discrimination on the basis of race, color, religion, national origin, ancestry, disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, sexual orientation, age, military or veteran status, or any other characteristic protected by applicable state, federal or local laws.\nNimble's Benefits\nUnlimited Flexible Time Off\nEnjoy the time you need to travel, rejuvenate, and connect with friends and family.\nHealth Insurance\nNimble provides medical, dental, and vision insurance through several premier plans and options to support you and your family.\nPaid Parental Leave\nEnjoy paid bonding time following a birth.\nCommuter Benefits\nTake the stress out of commuting with access to fully-paid parking spots.\nReferral Bonus\nGet a cash bonus for any friend or colleagues that you refer to us that we end up hiring.\n401k\nContribute towards a 401k for retirement planning.\nEquity\nBe an owner in Nimble through our equity program\nLink:\nNimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx\nLink:\nFedEx Announces Expansion of FedEx Fulfillment With Nimble Alliance"
+    }
+  },
+  {
+    "seq": 14,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4373712009|7eff307904ac3b6a63b089169b8c6dcadef241403705dfa8f95fe715f34b5b84",
+    "reading_id": "N0923",
+    "company_id": "US_NIMBLE",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "Senior/Staff Software Engineer, Infrastructure (ML)",
+    "pilot": true,
+    "fields": {
+      "duties": "About Nimble\nNimble\nis an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, the first robot in the world capable of performing thousands of tasks across the supply chain. We’ve raised over $220M at over $1B valuation and formed a strategic alliance with FedEx to build a national network of autonomous warehouses capable of generating many billions in annual revenue. We are a hardcore and obsessed team of the world’s best engineers and operators. If you are obsessed with your craft, enjoy a high-intensity and fast moving high impact environment, are super high agency in getting hard things done and want to be part of building the world’s most legendary robotics company at the most pivotal moment in history, we want to work with you.\nWe are on a mission to empower and inspire mankind to accomplish legendary feats by inventing robots that liberate us from the menial. We will accomplish this by training robot AGI to invent and build the Autonomous Supply Chain – everything from the inside of factories and warehouses to your front door – powered by generalist superhumanoids.\nOur founding team comes from the AI labs at Stanford and Carnegie Mellon and our board of directors include famed robotics and AI legends including\nFei-Fei Li\n(Chief Scientist of AI at Google and Director of Stanford’s AI Lab),\nMarc Raibert\n(founder of Boston Dynamics), and\nSebastian Thrun\n(founder of GoogleX, Waymo; Stanford Professor and considered the father of autonomous vehicles).\nLet’s be legendary.\nWhy Join Nimble?\nAt Nimble, we are committed to building legendary products, a legendary team, and a legendary legacy. Join us and become part of an ambitious, humble, and resourceful culture where your work will leave a lasting impact on the future of robotics and commerce.\nNimble's Core Values:\nBe relentlessly resourceful\n-\nChallenge conventions and overcome obstacles.\nBe legendary\n-\nBe the very best and do work that inspires.\nBe humble\n-\nPrioritize growth, learning, and doing whatever is needed to further the mission.\nBe dependable\n-\nTake ownership and deliver with high agency.\nAbout the Role\nWe’re looking for a Software Engineer to join our ML Infrastructure team. In this role, you’ll help build the training and inference systems that power our general-purpose warehouse robots.\nYou’ll own training infrastructure end to end: keeping GPUs highly utilized, making runs reproducible, and ensuring every researcher can launch the next experiment with a single command. You’ll work closely with ML and Robotics teams to design, build, and scale the systems that turn our GPU clusters into a reliable, high-throughput platform for model development.\nResponsibilities\nDesign, develop, and maintain ML training infrastructure that enables the AI team to run training jobs efficiently, manage and iterate experiments quickly.\nBuild low-latency inference pipelines for production robotics workloads.\nDevelop, tune, and optimize low-level CUDA kernels.\nDesign training-platform systems for scalable model training, including high-throughput data ingestion, dataset sharding and sampling for distributed training.\nParticipate in and lead design reviews with peers and stakeholders to evaluate technical tradeoffs and select appropriate technologies.\nReview code and provide feedback to uphold best practices around style, correctness, testability, performance, and maintainability.\nContribute to documentation and educational materials, adapting content as systems and workflows evolve.\nMentor junior engineers and help raise the technical bar across the team.\nQualifications\nBachelor’s, Master’s, or PhD in Computer Science or a related field, or equivalent practical experience.\n4+ years of industry experience in infrastructure, distributed systems, ML systems, robotics, or a related area.\nExperience with programming languages such as Rust, Go, Python, or C++.\nExperience with ML frameworks such as PyTorch or JAX.\nStrong understanding of distributed systems, systems programming fundamentals, memory management, and performance optimization.\nExperience with Kubernetes orchestration, resource scheduling for large distributed jobs, and containerized deployment pipelines.\nAbility to debug and optimize bottlenecks across GPU memory hierarchy, networking fabric, filesystems, and multi-GPU operations.\nAbility to reason from first principles and optimize systems for both memory-bound and compute-bound workloads.\nStrong cross-functional communication skills, ownership, and a growth mindset.\nNice to Have\nHands-on experience with distributed training frameworks and techniques such as PyTorch DDP/FSDP, DeepSpeed, Megatron, or NCCL.\nHands-on experience with GPU kernel development.\nExperience with data engineering technologies such as Parquet, Arrow, or similar systems.\nCompensation\nThe pay range for this position at the start of employment is expected to be\nbetween $210,000 and $300,000/year\n. Your exact offer may vary depending on multiple individualized factors, including job-related knowledge, skills, and experience. In addition to cash compensation, this position will also receive generous equity for this position.\nCulture:\nWe embrace challenges and strive to make the impossible possible each day. We’re not in this to do what’s easy or to be mediocre. We want to create something legendary and leave our mark on the world. We’re ambitious, we’re gritty, we’re humble and we’re relentlessly resourceful in pursuit of our goals. If this sounds like you then you might be a great fit!\nNimble Robotics, Inc. is an equal opportunity employer. We make all employment decisions based solely on merit. We provide equal employment opportunity to all applicants and employees without discrimination on the basis of race, color, religion, national origin, ancestry, disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, sexual orientation, age, military or veteran status, or any other characteristic protected by applicable state, federal or local laws.\nNimble's Benefits\nUnlimited Flexible Time Off\nEnjoy the time you need to travel, rejuvenate, and connect with friends and family.\nHealth Insurance\nNimble provides medical, dental, and vision insurance through several premier plans and options to support you and your family.\nPaid Parental Leave\nEnjoy paid bonding time following a birth.\nCommuter Benefits\nTake the stress out of commuting with access to fully-paid parking spots.\nReferral Bonus\nGet a cash bonus for any friend or colleagues that you refer to us that we end up hiring.\n401k\nContribute towards a 401k for retirement planning.\nEquity\nBe an owner in Nimble through our equity program\nLink:\nNimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx\nLink:\nFedEx Announces Expansion of FedEx Fulfillment With Nimble Alliance"
+    }
+  },
+  {
+    "seq": 15,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4330406009|cb71d4c951c6d3d7e36400d9af79385277a906c63c7a14445492b562169c78b8",
+    "reading_id": "N0925",
+    "company_id": "US_NIMBLE",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "Software Engineer II, Cloud Logistics",
+    "pilot": true,
+    "fields": {
+      "duties": "About Nimble\nNimble\nis an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, the first robot in the world capable of performing thousands of tasks across the supply chain. We’ve raised over $220M at over $1B valuation and formed a strategic alliance with FedEx to build a national network of autonomous warehouses capable of generating many billions in annual revenue. We are a hardcore and obsessed team of the world’s best engineers and operators. If you are obsessed with your craft, enjoy a high-intensity and fast moving high impact environment, are super high agency in getting hard things done and want to be part of building the world’s most legendary robotics company at the most pivotal moment in history, we want to work with you.\nWe are on a mission to empower and inspire mankind to accomplish legendary feats by inventing robots that liberate us from the menial. We will accomplish this by training robot AGI to invent and build the Autonomous Supply Chain – everything from the inside of factories and warehouses to your front door – powered by generalist superhumanoids.\nOur founding team comes from the AI labs at Stanford and Carnegie Mellon and our board of directors include famed robotics and AI legends including\nFei-Fei Li\n(Chief Scientist of AI at Google and Director of Stanford’s AI Lab),\nMarc Raibert\n(founder of Boston Dynamics), and\nSebastian Thrun\n(founder of GoogleX, Waymo; Stanford Professor and considered the father of autonomous vehicles).\nLet’s be legendary.\nLink:\nNimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx\nLink:\nFedEx Announces Expansion of FedEx Fulfillment With Nimble Alliance\nWhy Join Nimble?\nAt Nimble, we are committed to building legendary products, a legendary team, and a legendary legacy. Join us and become part of an ambitious, humble, and resourceful culture where your work will leave a lasting impact on the future of robotics and commerce.\nNimble's Core Values:\nBe relentlessly resourceful\n-\nChallenge conventions and overcome obstacles.\nBe legendary\n-\nBe the very best and do work that inspires.\nBe humble\n-\nPrioritize growth, learning, and doing whatever is needed to further the mission.\nBe dependable\n-\nTake ownership and deliver with high agency.\nAbout Nimble Cloud Logistics\nNimble’s Cloud Logistics software team builds the in-house suite of cloud-native solutions that drive Nimble’s operations and customer integrations. Nimble has developed an all-in-one platform of next-generation solutions, including Warehouse Management System (“WMS”), Transportation Management System (“TMS”), Order Management System (“OMS”), Inventory Management System (“IMS”), and Returns Management System (“RMS”). The entire software stack is native, in-house developed and streamlines customer onboarding through a single integration that eliminates reliance on third-party providers.\nAbout the Role\nAs a Software Engineer II you will play a critical role in working with our world-class cross-functional team to help develop and build the world’s most advanced robotic fulfillment system! Nimble Cloud Logistics is a lean, 10-person team that is core to delivering effective solutions to Nimble’s customers. On occasion, the team is expected to work extended hours, including weekends, to launch large revenue opportunities for the company. This role is approximately 60% backend, 40% frontend focused.\nPlease note, no robotics or logistics experience required for this role.\nResponsibilities:\nDesign and develop automation workflows, write unit/integration/system tests and conducting reviews to make sure your work is rigorously designed, elegantly coded and effectively tuned for performance and quality\nPush and maintain code in production\nBe available for production support\nMeasure and debug performance bottlenecks for a suite of products\nBe able to ship a feature end to end: frontend, backend, CI, infrastructure\nBe a mentor for junior engineers\nQualifications:\nBachelors, Masters, or PhD in Computer Science or related field, or equivalent experience\n1-2+ years of industry experience\nSolid understanding of cloud security practices\nExperience building full stack cloud applications (both frontend and backend)\nExperience with REST, SQL, CI/CD, AWS, Kubernetes, message brokering, and Docker\nGood understanding of writing unit and integration tests\nStrong technical documentation skills (architecture diagrams + sequence diagramming)\nNice to have:\nTerraform\nGitlab CI\nGoLang\nGraphQL\nCompensation\nThe pay range for this position at the start of employment is expected to be\nbetween\n$140,000 and $160,000/year\n. Your exact offer may vary depending on multiple individualized factors, including job-related knowledge, skills, and experience. In addition to cash compensation, this position will also receive generous equity for this position.\nCulture:\nWe embrace challenges and strive to make the impossible possible each day. We’re not in this to do what’s easy or to be mediocre. We want to create something legendary and leave our mark on the world. We’re ambitious, we’re gritty, we’re humble and we’re relentlessly resourceful in pursuit of our goals. If this sounds like you then you might be a great fit!\nNimble Robotics, Inc. is an equal opportunity employer. We make all employment decisions based solely on merit. We provide equal employment opportunity to all applicants and employees without discrimination on the basis of race, color, religion, national origin, ancestry, disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, sexual orientation, age, military or veteran status, or any other characteristic protected by applicable state, federal or local laws.\nNimble's Benefits\nUnlimited Flexible Time Off\nEnjoy the time you need to travel, rejuvenate, and connect with friends and family.\nHealth Insurance\nNimble provides medical, dental, and vision insurance through several premier plans and options to support you and your family.\nPaid Parental Leave\nEnjoy paid bonding time following a birth.\nCommuter Benefits\nTake the stress out of commuting with access to fully paid parking spots.\nReferral Bonus\nGet a cash bonus for any friend or colleagues that you refer to us that we end up hiring.\n401k\nContribute towards a 401k for retirement planning.\nEquity\nBe an owner in Nimble through our equity program"
+    }
+  },
+  {
+    "seq": 16,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4265423009|3138199f1be4181d901b393133856f1a97c2cdd98053dadccf910cf4bca276de",
+    "reading_id": "N0927",
+    "company_id": "US_NIMBLE",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "Staff Software Engineer, Multi-Robot Coordination",
+    "pilot": true,
+    "fields": {
+      "duties": "About Nimble\nNimble\nis an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, the first robot in the world capable of performing thousands of tasks across the supply chain. We’ve raised over $220M at over $1B valuation and formed a strategic alliance with FedEx to build a national network of autonomous warehouses capable of generating many billions in annual revenue. We are a hardcore and obsessed team of the world’s best engineers and operators. If you are obsessed with your craft, enjoy a high-intensity and fast moving high impact environment, are super high agency in getting hard things done and want to be part of building the world’s most legendary robotics company at the most pivotal moment in history, we want to work with you.\nWe are on a mission to empower and inspire mankind to accomplish legendary feats by inventing robots that liberate us from the menial. We will accomplish this by training robot AGI to invent and build the Autonomous Supply Chain – everything from the inside of factories and warehouses to your front door – powered by generalist superhumanoids.\nOur founding team comes from the AI labs at Stanford and Carnegie Mellon and our board of directors include famed robotics and AI legends including\nFei-Fei Li\n(Chief Scientist of AI at Google and Director of Stanford’s AI Lab),\nMarc Raibert\n(founder of Boston Dynamics), and\nSebastian Thrun\n(founder of GoogleX, Waymo; Stanford Professor and considered the father of autonomous vehicles).\nLet’s be legendary.\nWhy Join Nimble?\nAt Nimble, we are committed to building legendary products, a legendary team, and a legendary legacy. Join us and become part of an ambitious, humble, and resourceful culture where your work will leave a lasting impact on the future of robotics and commerce.\nNimble's Core Values:\nBe relentlessly resourceful\n-\nChallenge conventions and overcome obstacles.\nBe legendary\n-\nBe the very best and do work that inspires.\nBe humble\n-\nPrioritize growth, learning, and doing whatever is needed to further the mission.\nBe dependable\n-\nTake ownership and deliver with high agency.\nRole Summary\nOur Robotics organization is looking for a deeply experienced software engineer that will design, develop, and maintain the application systems, integrations, and orchestration that enable robots to operate reliably in production environments. This includes coordinating robot behaviors, managing system state, and integrating with enterprise systems. If you thrive in a fast, high ownership and cross-functional environment, this role is for you.\nKey Responsibilities\nDesign and develop well-architected production-level software systems for robot coordination, multi-robot simulations, system state management, and operational workflows\nBuild and maintain integrations with robot platforms, warehouse management systems, APIs, services, and data systems\nImprove reliability and scalability through robust testing, observability, incident response, and performance tuning\nTriage and root-cause field issues reported from the Warehouse, driving necessary fleet software, integration, and robot software changes based on analysis and findings.\nWork closely with robotics engineers, ML engineers, multi‑robot coordination teams, and product teams\nMentor other engineers and contribute to improving team processes and technical standards.\nParticipate in and often lead design reviews, code reviews, and technical planning sessions.\nQualifications\nBachelors or Masters in Computer Science, or related field, or equivalent experience\nAt least\n6 years of experience in production‑level software development in C++, Python, or Rust\nDemonstrated experience or knowledge of distributed systems, backend services, API design, CI/CD, AWS, Kubernetes\nDemonstrated experience designing scalable systems and leading complex technical projects.\nExcellent communication skills and ability to collaborate across teams.\nA proven track record of using analysis to influence high-stakes operational and engineering changes.\nWhat else to know\nCompensation:\nThe pay range for this position at the start of employment is expected to be between $230,000 - $280,000/year. Your exact offer may vary depending on multiple individualized factors, including job-related knowledge, skills, and experience. In addition to cash compensation, this position will also receive generous equity for this position.\nCulture:\nWe embrace challenges and strive to make the impossible possible each day. We’re not in this to do what’s easy or to be mediocre. We want to create something legendary and leave our mark on the world. We’re ambitious, we’re gritty, we’re humble and we’re relentlessly resourceful in pursuit of our goals. If this sounds like you then you might be a great fit!\nNimble Robotics, Inc. is an equal opportunity employer. We make all employment decisions based solely on merit. We provide equal employment opportunity to all applicants and employees without discrimination on the basis of race, color, religion, national origin, ancestry, disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, sexual orientation, age, military or veteran status, or any other characteristic protected by applicable state, federal or local laws.\nNimble's Benefits\nUnlimited Flexible Time Off\nEnjoy the time you need to travel, rejuvenate, and connect with friends and family.\nHealth Insurance\nNimble provides medical, dental, and vision insurance through several premier plans and options to support you and your family.\nPaid Parental Leave\nEnjoy paid bonding time following a birth.\nCommuter Benefits\nTake the stress out of commuting with access to fully-paid parking spots.\nReferral Bonus\nGet a cash bonus for any friend or colleagues that you refer to us that we end up hiring.\n401k\nContribute towards a 401k for retirement planning.\nEquity\nBe an owner in Nimble through our equity program\nLink:\nNimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx\nLink:\nFedEx Announces Expansion of FedEx Fulfillment With Nimble Alliance"
+    }
+  },
+  {
+    "seq": 17,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7667458581461551379|e9c13f4651bd0858f15a99091af40bbbef5c8c83540f9639fac539f3fdbebb7b",
+    "reading_id": "N0379",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "多模融合算法工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n1. 负责多模目标语音提取、多模态语音分离、唇动识别等语音前端与多模态感知算法\n2. 面向多人重叠、强噪声和弱语音输入等复杂语音交互场景，引入唇动视觉信息作为目标说话人先验，提升目标语音提取与分离的鲁棒性\n3. 负责机器人多模态感知融合算法的设计、训练和落地，融合声学、视觉及其他感知算法输出的结构化特征\n4. 基于声学DOA、视觉目标位置、目标跟随、用户距离、置信度及历史状态等特征，设计轻量级神经网络，实现帧级或短时序的融合判断\n5.负责多源数据的时间同步、特征对齐、标签设计、样本构建、数据清洗和难例挖掘。\n6.完成模型训练、调参、评测和误差分析，持续优化模型准确率、召回率、时序稳定性、复杂场景鲁棒性和实时性能。\n7.与声学、视觉、机器人系统及交互策略团队协作，定义算法输入输出接口，并将融合结果接入机器人交互链路。\n8.负责模型部署和推理性能优化，包括模型导出、推理接口开发、延迟控制及端侧适配。\n\n任职要求\n1.计算机、人工智能、自动化、电子信息、数学等相关专业，本科及以上学历。\n2.具备扎实的机器学习和神经网络基础，理解前向传播、反向传播、常见损失函数、优化器、正则化、过拟合及模型评测方法。\n3.熟练使用 PyTorch、TensorFlow 等至少一种深度学习框架，能够独立完成数据预处理、样本构建、网络搭建、模型训练、调参、验证和模型导出。\n4.熟悉 MLP、CNN、RNN、LSTM、GRU、TCN、Attention 等常见网络结构，能够针对结构化特征及短时序数据设计轻量级融合模型。\n5.具备分类、时序建模、多特征融合或多传感器融合相关项目经验，能够处理不同来源特征之间的时间对齐、特征归一化、置信度差异和数据缺失等问题。\n6.熟悉准确率、精确率、召回率、F1、ROC-AUC 等常见评测指标，能够分析类别不均衡、误检、漏检、模型抖动及不同场景下的泛化问题。\n7.熟练使用 Python 和 Linux，具备良好的代码能力和算法工程化能力。",
+      "requirements": "1.计算机、人工智能、自动化、电子信息、数学等相关专业，本科及以上学历。\n2.具备扎实的机器学习和神经网络基础，理解前向传播、反向传播、常见损失函数、优化器、正则化、过拟合及模型评测方法。\n3.熟练使用 PyTorch、TensorFlow 等至少一种深度学习框架，能够独立完成数据预处理、样本构建、网络搭建、模型训练、调参、验证和模型导出。\n4.熟悉 MLP、CNN、RNN、LSTM、GRU、TCN、Attention 等常见网络结构，能够针对结构化特征及短时序数据设计轻量级融合模型。\n5.具备分类、时序建模、多特征融合或多传感器融合相关项目经验，能够处理不同来源特征之间的时间对齐、特征归一化、置信度差异和数据缺失等问题。\n6.熟悉准确率、精确率、召回率、F1、ROC-AUC 等常见评测指标，能够分析类别不均衡、误检、漏检、模型抖动及不同场景下的泛化问题。\n7.熟练使用 Python 和 Linux，具备良好的代码能力和算法工程化能力。"
+    }
+  },
+  {
+    "seq": 18,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7658235305758427411|27c679a24958533f9c877eecfa8fa94580f105fa6ca0b3cb50f048c3ea621c5c",
+    "reading_id": "N0386",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "多模智能交互算法专家",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n1. 原生多模态端到端交互系统研发：主导/参与 Any-to-Any / Omni-to-Omni 原生多模态交互大模型的架构设计与核心策略研发。打破级联拼接死锁，在统一网络中实现流式音频、高频 3D 视觉空间特征与语言文本的高维流式对齐，打造视听结合的多模态交互体验。\n2. 全双工流式交互体验提升：深度优化流式全双工交互机制，构建高敏捷的流式判停、无感插话、自然打断与拒识算法。攻克全双工并发与自回归解码的顺序死锁，实现百毫秒级语义接管，支持在不阻塞当前全双工业务流的前提下，异步高频调用底层技能。\n3. 交互驱动型任务闭环：以全双工交互为核心入口，结合流式多模态感知与Agentic OS ，打通机器人在复杂物理现场中长程任务的自主规划、执行与动态自进化闭环，提升任务完成成功率；构建模糊和突发事件的主动追问澄清，多模态长程任务中的必要人机信息同步，交互模型与底层本体原子技能的高效协同等。\n4. 交互沙盒演进系统：负责全双工交互的仿真练兵场(沙盒体系)构建。配合端侧“影子模式”，设计高频多模态异常数据（如长尾卡壳、打断失败片段）的“错误切片大回流”链路，并将其注入仿真沙盒进行千倍速的高烈度对抗；主导建立一套包含全双工流式评测、技能协同评测在内的多模态一致性仿真评测体系，全面加速模型交互智商的自进化。\n\n任职要求\n1. 背景与资历：计算机、人工智能、自动化、声学或相关专业硕士及以上学历；具备 3 年以上（或博士毕业后 2 年以上）在一线科技大厂、头部 AI 研究机构或前沿具身智能企业多模态/语音大模型研发的实际工程落地经验。具备极扎实的深度学习理论基础，深刻理解原生多模态大模型（Speech2Speech / Omni-to-Omni）的序列建模原理、流式架构。\n2. 具备极强的编程与工程架构能力，精通 Python，掌握 PyTorch 及主流大模型分布式训练与推理调优工具（如 Megatron-LM、DeepSpeed、vLLM 等），能通过模型、架构、链路调优解决业务痛点。熟练使用AI辅助工作提效，深度使用claude/codex，并有自己见解。\n3. 对具身智能有极大的技术热忱，具备卓越的跨团队协作与软硬一体化协同思维\n4. 作为核心成员完整参与过国内外主流原生多模态/全双工大模型底层训推、对齐及全双工状态重构者优先。\n5. 在 ICML、NeurIPS、ICLR、ICASSP、Interspeech 等国际顶级 AI 或语音学术会议/期刊上以第一作者发表过重磅多模态/全双工交互相关论文，或在知名语音/多模态 AI 竞赛中获得过 Top 名次者优先。",
+      "requirements": "1. 背景与资历：计算机、人工智能、自动化、声学或相关专业硕士及以上学历；具备 3 年以上（或博士毕业后 2 年以上）在一线科技大厂、头部 AI 研究机构或前沿具身智能企业多模态/语音大模型研发的实际工程落地经验。具备极扎实的深度学习理论基础，深刻理解原生多模态大模型（Speech2Speech / Omni-to-Omni）的序列建模原理、流式架构。\n2. 具备极强的编程与工程架构能力，精通 Python，掌握 PyTorch 及主流大模型分布式训练与推理调优工具（如 Megatron-LM、DeepSpeed、vLLM 等），能通过模型、架构、链路调优解决业务痛点。熟练使用AI辅助工作提效，深度使用claude/codex，并有自己见解。\n3. 对具身智能有极大的技术热忱，具备卓越的跨团队协作与软硬一体化协同思维\n4. 作为核心成员完整参与过国内外主流原生多模态/全双工大模型底层训推、对齐及全双工状态重构者优先。\n5. 在 ICML、NeurIPS、ICLR、ICASSP、Interspeech 等国际顶级 AI 或语音学术会议/期刊上以第一作者发表过重磅多模态/全双工交互相关论文，或在知名语音/多模态 AI 竞赛中获得过 Top 名次者优先。"
+    }
+  },
+  {
+    "seq": 19,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7658233048110942515|47ffbfe52ee83ee87eeea5ff6ce4d34484265553ef54356cdabef8ffe8bdbf27",
+    "reading_id": "N0387",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "语义动作生成算法工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n结合TTS（文本转语音）的韵律特征（音素时长、基频、能量），生成与语音同步的口型、头部姿态、手势等副语言动作\n设计多模态对齐机制，确保动作生成与语音合成的节奏、停顿、情感表达精准同步\n构建语音合成与动作生成的流式协同框架，支持实时对话场景下的低延迟、高同步度输出\n将算法能力封装为可复用的动作生成SDK/服务，支撑多元业务场景\n与机器人控制、交互系统团队紧密协作，推动技术方案的产品化落地\n\n任职要求\n•计算机、机器人学、图形学、人工智能等相关专业硕士及以上学历，博士优先，3年以上相关领域研究或开发经验\n•扎实的深度学习基础，精通PyTorch，有生成模型（Diffusion、VAE、GAN、Flow-based）的实际项目经验\n•深入了解动作生成领域，熟悉MotionGPT、HumanML3D、MotionDiffusion、PhysDiff、ASE等代表性工作\n•熟悉机器人运动学、计算机图形学中的角色动画基础，了解正向/逆向运动学、骨骼动画原理\n•具备语音合成（TTS）相关基础知识，了解声学模型、声码器、韵律建模\n熟悉动作表示与处理：SMPL/SMPL-X、BVH、AMC、运动学图（Kinematic Trees）、四元数/旋转矩阵表示\n\n加分项\n•顶级会议期刊论文发表\n•有真实机器人平台或虚拟人引擎的实际落地经验\n•熟悉实时动作生成管线，或有游戏/影视动画行业经验\n•有语音合成（TTS）或语音识别（ASR）的深入研发经验，具备多模态联合训练经验\n•熟悉物理驱动的动作生成、强化学习（RL）在动作控制中的应用\n•有开源项目贡献或相关专利",
+      "requirements": "•计算机、机器人学、图形学、人工智能等相关专业硕士及以上学历，博士优先，3年以上相关领域研究或开发经验\n•扎实的深度学习基础，精通PyTorch，有生成模型（Diffusion、VAE、GAN、Flow-based）的实际项目经验\n•深入了解动作生成领域，熟悉MotionGPT、HumanML3D、MotionDiffusion、PhysDiff、ASE等代表性工作\n•熟悉机器人运动学、计算机图形学中的角色动画基础，了解正向/逆向运动学、骨骼动画原理\n•具备语音合成（TTS）相关基础知识，了解声学模型、声码器、韵律建模\n熟悉动作表示与处理：SMPL/SMPL-X、BVH、AMC、运动学图（Kinematic Trees）、四元数/旋转矩阵表示\n\n加分项\n•顶级会议期刊论文发表\n•有真实机器人平台或虚拟人引擎的实际落地经验\n•熟悉实时动作生成管线，或有游戏/影视动画行业经验\n•有语音合成（TTS）或语音识别（ASR）的深入研发经验，具备多模态联合训练经验\n•熟悉物理驱动的动作生成、强化学习（RL）在动作控制中的应用\n•有开源项目贡献或相关专利"
+    }
+  },
+  {
+    "seq": 20,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7657507612519483702|e57eeaf2f63f26759433a9b5051e22e04436a55a263f9f6dcaa941d7b6ba237d",
+    "reading_id": "N0388",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "语音大模型后端工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n•ASR服务开发：设计并实现高吞吐量的语音识别后端服务，支持实时流式转写、时间戳对齐等功能，优化首字延迟与尾字延迟\n•TTS服务开发：构建低延迟语音合成服务，实现流式音色克隆、情感控制、多语言混合合成，优化音频流分片与传输策略\n•Omni端到端服务：开发端到端语音交互系统，支持语音到语音的直接推理，实现全双工对话能力\n•流式处理架构：设计WebSocket/HTTP2流式传输协议，实现Chunk级数据流转，优化端到端延迟至200ms以内\n•高并发系统：构建支持高并发的服务集群，实现负载均衡、弹性扩缩容、故障自动恢复\n•模型部署优化：负责大模型的推理加速（TensorRT/vLLM/TensorRT-LLM），实现GPU资源调度与多卡推理优化\n•业务中台建设：搭建语音AI业务中台，抽象通用能力，支撑多业务线快速接入\n\n任职要求\n基础要求\n•本科及以上学历，计算机、通信、电子工程等相关专业，5年以上后端开发经验\n•精通Python/Go/C++至少一门语言，具备扎实的多线程/多进程编程能力\n•深入理解流式处理架构，熟悉WebSocket、HTTP/2、GRPC等实时通信协议\n•熟悉语音AI领域，了解ASR、TTS、Omni模型原理\n•掌握大模型推理优化技术，有vLLM、TensorRT-LLM、Triton Inference Server等部署经验\n•熟悉Kubernetes、Docker等容器化部署，具备云原生架构设计能力\n核心技术栈（必备）\n•深度学习框架：PyTorch、ONNX Runtime、TensorRT\n•流式处理：WebSocket、Server-Sent Events、HTTP/2 Server Push、GRPC Streaming\n•音频处理：FFmpeg、WebRTC、Opus编码、音频分片与缓冲策略\n•服务架构：FastAPI/Go-gin、gRPC、Redis、Kafka/RabbitMQ、Nginx\n•运维监控：Prometheus、Grafana、ELK、链路追踪（Jaeger/Zipkin）\n加分项\n•有大规模语音AI服务落地经验\n•熟悉端侧推理优化，有移动端/边缘设备语音模型部署经验\n•开源语音项目贡献者（如Whisper、Kaldi、ESPnet等）\n•有全双工语音对话系统开发经验\n•熟悉大模型微调与量化技术（LoRA、QLoRA、AWQ、GGUF等）",
+      "requirements": "基础要求\n•本科及以上学历，计算机、通信、电子工程等相关专业，5年以上后端开发经验\n•精通Python/Go/C++至少一门语言，具备扎实的多线程/多进程编程能力\n•深入理解流式处理架构，熟悉WebSocket、HTTP/2、GRPC等实时通信协议\n•熟悉语音AI领域，了解ASR、TTS、Omni模型原理\n•掌握大模型推理优化技术，有vLLM、TensorRT-LLM、Triton Inference Server等部署经验\n•熟悉Kubernetes、Docker等容器化部署，具备云原生架构设计能力\n核心技术栈（必备）\n•深度学习框架：PyTorch、ONNX Runtime、TensorRT\n•流式处理：WebSocket、Server-Sent Events、HTTP/2 Server Push、GRPC Streaming\n•音频处理：FFmpeg、WebRTC、Opus编码、音频分片与缓冲策略\n•服务架构：FastAPI/Go-gin、gRPC、Redis、Kafka/RabbitMQ、Nginx\n•运维监控：Prometheus、Grafana、ELK、链路追踪（Jaeger/Zipkin）\n加分项\n•有大规模语音AI服务落地经验\n•熟悉端侧推理优化，有移动端/边缘设备语音模型部署经验\n•开源语音项目贡献者（如Whisper、Kaldi、ESPnet等）\n•有全双工语音对话系统开发经验\n•熟悉大模型微调与量化技术（LoRA、QLoRA、AWQ、GGUF等）"
+    }
+  },
+  {
+    "seq": 21,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7629327645327362331|f77f52a8bbf12e430a763db9450a3a958a7c3a7f798a692a0201b4fdca26cbb2",
+    "reading_id": "N0395",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "多模态交互模型工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n1. 训练流水线建设： 搭建与维护多模态模型训练 Pipeline（涵盖数据预处理、实验追踪、Checkpoint 管理与回归评测），支持音视频、状态序列等多模态输入。\n2. Teacher-Student 蒸馏： 使用大模型/专家模块生成 Richer Labels，设计蒸馏目标、Loss 函数与 Hard-negative 机制，将高价值能力稳定转移至端侧，摆脱对云端的在线依赖。\n3. 模型压缩与部署优化： 负责 PTQ/QAT、量化感知训练、剪枝与 KV/Cache 优化；导出 ONNX/TensorRT 等格式；在真实设备上死磕 Latency、显存、功耗与推理抖动。\n4. 质量与回归治理： 建立可复现机制，系统性归因模型失效（数据、标签、结构或部署问题）；联合团队建设 Hard slices 与回放评测。\n5. 运行时协同： 与系统侧拆分快慢路径，trade-off 端侧性能与业务收益，推动模型从“实验室能跑”跨越到“设备稳跑”。\n6. 同时需要兼顾交互语义建模与任务定义（如回应对象判断、交互时机、主动策略等）\n\n任职要求\n必备项：\n1. 计算机、人工智能相关专业本科及以上学历。\n2. 3 年以上经验，在训练工程、蒸馏压缩、部署优化中具备至少两项的深厚实战积累。\n3. 精通 PyTorch 训练体系，代码工程能力极强，能独立且稳定地维护训练仓库。\n4. 具备量化优化、ONNX/TensorRT/CUDA 推理优化经验。\n5. 具备出色的 Problem-solving 能力，能将“模型指标不升反降”精准拆解并定位根因。\n\n加分项：\n1. 拥有 Jetson / ARM / 嵌入式 AI 推理极致优化经验。\n2. 有流式模型（Streaming）、Chunked inference、端云一致性治理经验。\n3. 熟悉 FSDP / DDP / DeepSpeed 及混合精度训练。\n4. 做过端侧语音、视觉、边缘 VLM 或轻量多模态模型。",
+      "requirements": "必备项：\n1. 计算机、人工智能相关专业本科及以上学历。\n2. 3 年以上经验，在训练工程、蒸馏压缩、部署优化中具备至少两项的深厚实战积累。\n3. 精通 PyTorch 训练体系，代码工程能力极强，能独立且稳定地维护训练仓库。\n4. 具备量化优化、ONNX/TensorRT/CUDA 推理优化经验。\n5. 具备出色的 Problem-solving 能力，能将“模型指标不升反降”精准拆解并定位根因。\n\n加分项：\n1. 拥有 Jetson / ARM / 嵌入式 AI 推理极致优化经验。\n2. 有流式模型（Streaming）、Chunked inference、端云一致性治理经验。\n3. 熟悉 FSDP / DDP / DeepSpeed 及混合精度训练。\n4. 做过端侧语音、视觉、边缘 VLM 或轻量多模态模型。"
+    }
+  },
+  {
+    "seq": 22,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7621087001991498026|2379a94ff7a3f59ba11d6c026f59d2e9db93bf63f5497d43aa5ba2b732711c8c",
+    "reading_id": "N0399",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身算法工程师/专家",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n- 参与具身智能基础模型研发，覆盖 VLM/VLA/VideoGen 预训练、后训练与强化学习等关键环节，打造可跨不同机器人平台泛化的通用模型。\n- 设计多模态模型结构与训练策略，融合图像/视频/语言/触觉/动作等信息，提升理解、推理与执行能力。\n- 探索具身领域的数据配方与 scaling law，沉淀可复用的训练范式与评测结论。\n- 面向复杂任务与长时序任务，构建训练—评测—迭代闭环，持续提升成功率、稳定性与鲁棒性。\n- 与数据/系统/仿真/硬件团队协作，推进模型训练、验证、部署与迭代落地。\n- 撰写技术文档和学术论文，分享研究成果并在技术社区中展示创新技术。\n\n任职要求\n- 硕士及以上学历，计算机/机器人/AI 等相关方向。\n- 熟悉大模型训练体系，有预训练或后训练经验，对 LLM/VLM/VLA/VideoGen 有较深理解。\n- 具备强化学习相关经验（PPO/SAC 等），有 Online RL / Offline RL类训练实践经验者优先。。\n- 熟悉或跟进过主流 VLA 路线（如 π系列等），有复现/改进经验更佳。\n- 熟练 PyTorch，有大规模分布式训练经验优先。\n- 顶会论文或同等研究/工程成果优先（CVPR/NeurIPS/ICLR/RSS/ICRA/CoRL/IROS 等）",
+      "requirements": "- 硕士及以上学历，计算机/机器人/AI 等相关方向。\n- 熟悉大模型训练体系，有预训练或后训练经验，对 LLM/VLM/VLA/VideoGen 有较深理解。\n- 具备强化学习相关经验（PPO/SAC 等），有 Online RL / Offline RL类训练实践经验者优先。。\n- 熟悉或跟进过主流 VLA 路线（如 π系列等），有复现/改进经验更佳。\n- 熟练 PyTorch，有大规模分布式训练经验优先。\n- 顶会论文或同等研究/工程成果优先（CVPR/NeurIPS/ICLR/RSS/ICRA/CoRL/IROS 等）"
+    }
+  },
+  {
+    "seq": 23,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7618901874288560425|7836569b24fe2823bae537c1a1f8545d8d132523760de00cfc8b662842230076",
+    "reading_id": "N0401",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "多模态部署工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n1、部署并维护多模态感知算法/模型； 平台化推理与加速适配；\n2、建立可生产使用的质量与稳定性机制；\n3、对多模交互前端做系统级剖析与优化；\n4、建立全链路可观测体系，保障可维护性。\n\n任职要求\n一、核心能力\n1、熟悉多传感器输入的零拷贝链路设计与实现（共享内存/环形缓冲/DMABUF/DMA 等任一或多项），理解 buffer 生命周期与并发访问安全。\n2、能独立交付端侧前端感知层：从采集同步、感知推理到输入解释与时序聚合，形成可稳定运行的工程模块。\n3、具备扎实的端侧性能优化能力：能对 CPU/内存/延迟/吞吐做定量分析与系统性优化，并产出可复现的 benchmark 报告与改进闭环。\n\n二、技术栈要求\n1、精通 C/C++，熟悉多线程/锁优化/无锁队列、内存管理、编译与链接、跨平台构建（CMake 等）。\n2、熟悉端侧系统：Linux/QNX 其一或两者；具备驱动/多媒体管线/NDK 或底层接口调试经验。\n3、熟悉至少一套推理部署体系： Rockchip：RKNN 相关工具链与 Runtime 接入经验（模型转换、量化、精度对齐、性能评估） ； Jetson：TensorRT/CUDA 推理与多流并发优化经验（了解 Jetson AGX Orin 架构者优先）\n4、具备基本 CV/语音/多模态工程常识：图像采集与格式（YUV/RGB/RAW）、预处理、后处理、置信度与时序滤波等。\n5、具备工程化能力：模块化设计、接口定义、单测/集成测试、故障注入、日志与指标体系（latency breakdown、fps、drop rate、mem peak 等）。\n\n三、加分项（Nice-to-have）\n1、具备机器人/具身智能/AR/VR/智能硬件量产经验，对实时性与资源约束有实践。\n2、有音视频同步、相机多路同步、麦克风阵列、SLAM/标定、坐标系统一与传感器融合相关经验。\n3、熟悉 GStreamer/V4L2/MediaCodec/AAudio 等多媒体栈或类似框架；了解 GPU 图形/计算（OpenGL/Vulkan/OpenCL/CUDA）任一。\n4、熟悉性能剖析工具链（perf/atrace/systrace/VTune/Nsight 等任一）并能输出可行动的优化建议。 有隐私与安全意识：端侧数据最小化、权限治理、敏感数据脱敏与合规处理经验。",
+      "requirements": "一、核心能力\n1、熟悉多传感器输入的零拷贝链路设计与实现（共享内存/环形缓冲/DMABUF/DMA 等任一或多项），理解 buffer 生命周期与并发访问安全。\n2、能独立交付端侧前端感知层：从采集同步、感知推理到输入解释与时序聚合，形成可稳定运行的工程模块。\n3、具备扎实的端侧性能优化能力：能对 CPU/内存/延迟/吞吐做定量分析与系统性优化，并产出可复现的 benchmark 报告与改进闭环。\n\n二、技术栈要求\n1、精通 C/C++，熟悉多线程/锁优化/无锁队列、内存管理、编译与链接、跨平台构建（CMake 等）。\n2、熟悉端侧系统：Linux/QNX 其一或两者；具备驱动/多媒体管线/NDK 或底层接口调试经验。\n3、熟悉至少一套推理部署体系： Rockchip：RKNN 相关工具链与 Runtime 接入经验（模型转换、量化、精度对齐、性能评估） ； Jetson：TensorRT/CUDA 推理与多流并发优化经验（了解 Jetson AGX Orin 架构者优先）\n4、具备基本 CV/语音/多模态工程常识：图像采集与格式（YUV/RGB/RAW）、预处理、后处理、置信度与时序滤波等。\n5、具备工程化能力：模块化设计、接口定义、单测/集成测试、故障注入、日志与指标体系（latency breakdown、fps、drop rate、mem peak 等）。\n\n三、加分项（Nice-to-have）\n1、具备机器人/具身智能/AR/VR/智能硬件量产经验，对实时性与资源约束有实践。\n2、有音视频同步、相机多路同步、麦克风阵列、SLAM/标定、坐标系统一与传感器融合相关经验。\n3、熟悉 GStreamer/V4L2/MediaCodec/AAudio 等多媒体栈或类似框架；了解 GPU 图形/计算（OpenGL/Vulkan/OpenCL/CUDA）任一。\n4、熟悉性能剖析工具链（perf/atrace/systrace/VTune/Nsight 等任一）并能输出可行动的优化建议。 有隐私与安全意识：端侧数据最小化、权限治理、敏感数据脱敏与合规处理经验。"
+    }
+  },
+  {
+    "seq": 24,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7593280634744637732|261c1bafe3743d84f689ca83582035af7780765ee3c92ef96fb6d62e09f59fea",
+    "reading_id": "N0412",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "机器人全身运动控制工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n岗位背景\n我们正在构建面向真实人形机器人的全身 VLA（Vision-Language-Action）统一模型，目标是让机器人能够在复杂物理环境中，基于视觉与语言指令，完成稳定、可泛化的全身运动与操作任务。该岗位将深度参与从模型设计、数据构建、训练策略到仿真与真机部署的完整技术链路，是团队的核心技术角色之一。\n岗位职责\n1、全身 VLA 模型设计与研发\n参与设计和实现面向人形机器人的 Vision-Language-Action 统一模型架构\n将视觉、语言、高维状态与全身动作空间进行有效融合，支持行走、操作、交互等复杂任务\n探索适用于人形机器人的 端到端 / 分层 / 混合式 VLA 控制范式\n\n2、全身动作表示与控制接口\n设计适合人形机器人的 全身动作表示（关节空间、任务空间、分层控制等）\n将 VLA 模型输出与底层控制系统（如 WBC、阻抗控制、RL policy）进行对接\n处理稳定性、安全性、实时性等工程约束\n\n3、数据构建与训练策略\n参与构建多模态训练数据（视觉、语言、状态、动作、接触等）\n设计并实现：\n仿真数据生成与自动采集\n真机数据采集与回放\n模仿学习 / 离线 RL / 强化学习 / 后训练策略\n探索数据规模、质量与泛化能力之间的权衡\n\n4、仿真-真机闭环与模型评估\n在高保真仿真环境中验证模型能力，并推进向真实人形机器人迁移\n与测试、控制、硬件团队协作，建立模型评估指标与 benchmark\n分析模型失败案例，推动模型与数据的持续迭代\n\n5、前沿技术调研与落地\n跟踪并评估前沿工作（VLA、VLM、全身控制、世界模型等）\n将合适的方法转化为工程可落地的系统方案\n参与团队长期技术路线规划\n\n任职要求\n基本要求\n硕士及以上学历，计算机、机器人、自动化、人工智能等相关方向\n扎实的机器学习 / 深度学习基础，对模型训练与优化有实践经验\n熟练使用 Python，熟悉 PyTorch / JAX 等主流框架之一\n对机器人真实物理约束与工程落地有基本认知\n\n机器人与模型相关背景（满足部分即可）\n有以下至少一项经验：\n强化学习 / 模仿学习在机器人上的应用\n人形机器人或复杂多自由度系统控制\nVLM / 多模态模型在 embodied 场景中的应用\n理解或参与过：\nWhole-body control / motion tracking\n高维动作空间建模\n接触、稳定性、动力学约束等问题\n\n工程能力\n熟悉 Linux 开发环境，具备良好的工程实现与调试能力\n能够阅读和理解较大规模代码库\n具备一定实验设计、结果分析与复现能力\n\n加分项（非必须）\n有人形机器人、四足机器人、机械臂等真实平台经验\n熟悉 Isaac Sim / Isaac Lab / Mujoco 等仿真工具\n有大规模数据训练、分布式训练或多卡训练经验\n熟悉 ROS / ROS2、机器人中间件\n参与过 VLA / VLM / 世界模型 / Foundation Model 相关研究或开源项目\n\n技术栈示例（非限制）\n模型：Transformer、Diffusion Policy、VLM + Policy Head、World Model\n学习范式：Imitation Learning、Offline RL、RLHF、Post-Training\n仿真：Isaac Sim / Isaac Lab / Mujoco\n部署：WBC、阻抗控制、策略蒸馏、模型压缩\n\n我们能提供\n深度参与人形机器人通用智能核心模型的机会\n从数据到真机的完整技术闭环\n与算法、控制、仿真、硬件多方向工程师紧密合作\n有竞争力的薪酬与长期发展空间\n\n适合这样的人\n希望解决“如何让机器人用一个模型完成真实世界复杂任务”的问题\n对人形机器人、具身智能、全身控制有长期投入意愿\n能接受研究与工程高度交织的工作方式",
+      "requirements": "基本要求\n硕士及以上学历，计算机、机器人、自动化、人工智能等相关方向\n扎实的机器学习 / 深度学习基础，对模型训练与优化有实践经验\n熟练使用 Python，熟悉 PyTorch / JAX 等主流框架之一\n对机器人真实物理约束与工程落地有基本认知\n\n机器人与模型相关背景（满足部分即可）\n有以下至少一项经验：\n强化学习 / 模仿学习在机器人上的应用\n人形机器人或复杂多自由度系统控制\nVLM / 多模态模型在 embodied 场景中的应用\n理解或参与过：\nWhole-body control / motion tracking\n高维动作空间建模\n接触、稳定性、动力学约束等问题\n\n工程能力\n熟悉 Linux 开发环境，具备良好的工程实现与调试能力\n能够阅读和理解较大规模代码库\n具备一定实验设计、结果分析与复现能力\n\n加分项（非必须）\n有人形机器人、四足机器人、机械臂等真实平台经验\n熟悉 Isaac Sim / Isaac Lab / Mujoco 等仿真工具\n有大规模数据训练、分布式训练或多卡训练经验\n熟悉 ROS / ROS2、机器人中间件\n参与过 VLA / VLM / 世界模型 / Foundation Model 相关研究或开源项目\n\n技术栈示例（非限制）\n模型：Transformer、Diffusion Policy、VLM + Policy Head、World Model\n学习范式：Imitation Learning、Offline RL、RLHF、Post-Training\n仿真：Isaac Sim / Isaac Lab / Mujoco\n部署：WBC、阻抗控制、策略蒸馏、模型压缩\n\n我们能提供\n深度参与人形机器人通用智能核心模型的机会\n从数据到真机的完整技术闭环\n与算法、控制、仿真、硬件多方向工程师紧密合作\n有竞争力的薪酬与长期发展空间\n\n适合这样的人\n希望解决“如何让机器人用一个模型完成真实世界复杂任务”的问题\n对人形机器人、具身智能、全身控制有长期投入意愿\n能接受研究与工程高度交织的工作方式"
+    }
+  },
+  {
+    "seq": 25,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7593256909907904795|c54d84d3d0df7cbdb88320bb6e3c7eb6ab8bcfecfaa2fce659bf4cb11a5fe6a0",
+    "reading_id": "N0413",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "大模型预训练研究员",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n1、聚焦机器人具身操纵场景，负责VLA相关算法的设计与研发；\n2、深入研究VLM，VLA预训练前沿技术，提升算法的准确性与效率；\n3、在模型训练范式、模型结构、数据配比探索最佳实践方案，取得业务效果大幅提升的同时实现前沿技术突破；\n4、持续跟踪VLM，VLA领域的最新技术动态，并将其应用于实际业务场景中，推动技术落地。\n\n任职要求\n1、博士及以上学历，计算机、AI、Robotics等相关专业优先；\n2、优秀的问题分析与解决能力，能够深入解决大模型训练及应用中的复杂问题；\n3、具备数据构建、指令微调及模型开发经验；\n4、熟悉大模型相关技术，对大模型预训练、指令微调、RL等方向有深入研究和实践。\n\n加分项：\n1、有Pretrain研究或应用经验者优先，熟悉具身领域预训练方法者优先；\n2、以第一作者在ICML、ICLR、NeurIPS、ACL、RSS、ICRA等顶级学术会议发表过高影响力研究成果者优先；\n3、在ACM/ICPC、NOI/IOI、Kaggle等编程或AI竞赛中获奖者优先；\n4、主导或参与过具有广泛影响力的具身开源或闭源项目者优先。",
+      "requirements": "1、博士及以上学历，计算机、AI、Robotics等相关专业优先；\n2、优秀的问题分析与解决能力，能够深入解决大模型训练及应用中的复杂问题；\n3、具备数据构建、指令微调及模型开发经验；\n4、熟悉大模型相关技术，对大模型预训练、指令微调、RL等方向有深入研究和实践。\n\n加分项：\n1、有Pretrain研究或应用经验者优先，熟悉具身领域预训练方法者优先；\n2、以第一作者在ICML、ICLR、NeurIPS、ACL、RSS、ICRA等顶级学术会议发表过高影响力研究成果者优先；\n3、在ACM/ICPC、NOI/IOI、Kaggle等编程或AI竞赛中获奖者优先；\n4、主导或参与过具有广泛影响力的具身开源或闭源项目者优先。"
+    }
+  },
+  {
+    "seq": 26,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7582536570240436526|86504e3b58ffce059d6c45b41c03b4c8d36fce791911cde26d8918e254347f10",
+    "reading_id": "N0421",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "大模型算法工程师-强化学习",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n1、框架开发与优化：负责强化学习、模型精调、知识蒸馏等核心模块的设计与开发；\n2、工具链构建：参与开发轻量化训练框架，支持LLM、VLM等模型的快速模型微调、部署；\n3、前沿技术探索：跟踪学术动态，将最新研究成果转化为框架功能，提升产品竞争力；\n4、协作与文档：与产品团队紧密配合，提供框架级解决方案；\n\n任职要求\n1、计算机科学、数学、电子工程等相关专业硕士及以上学历，精通Python；\n2、有Megatron-LM、DeepSpeed等开源框架使用或二次开发经验，理解分布式训练、显存优化技术；\n3、熟悉 GRPO/PPO 等 RL 算法、veRL/Slime/AReaL等强化学习框架者优先；\n4、工程经验上具备大型项目架构设计能力，能独立解决性能调优、多节点调试等复杂问题；\n5、综合素养；强烈的技术热情，良好的沟通能力与团队协作精神。\n加分项\n1、在顶级会议发表过框架优化或算法相关论文；\n2、活跃于开源社区（如PyTorch、HuggingFace项目贡献者）；\n3、有LLM训练、RLHF全流程开发经验。",
+      "requirements": "1、计算机科学、数学、电子工程等相关专业硕士及以上学历，精通Python；\n2、有Megatron-LM、DeepSpeed等开源框架使用或二次开发经验，理解分布式训练、显存优化技术；\n3、熟悉 GRPO/PPO 等 RL 算法、veRL/Slime/AReaL等强化学习框架者优先；\n4、工程经验上具备大型项目架构设计能力，能独立解决性能调优、多节点调试等复杂问题；\n5、综合素养；强烈的技术热情，良好的沟通能力与团队协作精神。\n加分项\n1、在顶级会议发表过框架优化或算法相关论文；\n2、活跃于开源社区（如PyTorch、HuggingFace项目贡献者）；\n3、有LLM训练、RLHF全流程开发经验。"
+    }
+  },
+  {
+    "seq": 27,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7649953398196865331|b1bc036953720018ad8bfd436cd1589a6e475bc971fcac90bffd608511edc6af",
+    "reading_id": "N0390",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "开放平台后端工程师-golang",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n1. 负责企业级开放平台与 API Gateway 相关系统的设计、开发与维护，支撑机器人云平台能力对内、对外开放。\n2. 参与开放 API 管理、开发者应用管理、密钥管理、认证鉴权、权限控制、多租户、流量治理、审计日志、可观测性等核心能力建设。\n3. 参与 API Gateway 基础能力研发，包括路由转发、协议适配、签名校验、OAuth2 / JWT 鉴权、限流、熔断、灰度发布、访问控制等。\n4. 支撑开放平台与 IAM、业务系统、运维平台、数据平台、应用商城等系统的集成，建设统一、稳定、可扩展的平台底座。\n5. 推动平台在高可用、高性能、安全性、可维护性方面的持续优化，支撑大规模业务接入与生态开放。\n6. 与产品、架构、业务研发、SRE 团队协作，持续完善开放平台能力体系、开发者接入流程和工程规范。\n\n任职要求\n1. 3-5 年后端开发经验，具备扎实的后端工程能力，熟悉 Go 语言开发优先；有其他后端语言经验并愿意转 Go 也可以。\n2. 熟悉 REST API、WebSocket、OAuth2、JWT、API Key、签名校验等常见协议与认证机制。\n3. 了解 API Gateway、开放平台、微服务治理相关体系，有网关、鉴权、限流、配置中心、多租户、权限系统等项目经验优先。\n4. 熟悉 MySQL、Redis、MQ 等常用基础组件，具备良好的数据建模、接口设计和系统排查能力。\n5. 了解 Docker、Kubernetes、CI/CD、OpenTelemetry、日志、Trace、Metrics 等云原生与可观测性体系者优先。\n6. 具备良好的问题拆解能力、工程质量意识和团队协作能力，能够独立负责模块设计、开发、联调和上线。\n\n加分项\n1. 有开放平台、开发者平台、API 网关、IAM、OAuth2 / OIDC、权限系统相关经验。\n2. 有 Kong、APISIX、Envoy、Nginx、Istio、Spring Cloud Gateway 等网关或服务治理经验。\n3. 有多租户 SaaS、企业级平台、云平台、IoT 平台、机器人平台相关经验。\n4. 有高并发接口、流量治理、稳定性治理、灰度发布、审计合规相关经验。",
+      "requirements": "1. 3-5 年后端开发经验，具备扎实的后端工程能力，熟悉 Go 语言开发优先；有其他后端语言经验并愿意转 Go 也可以。\n2. 熟悉 REST API、WebSocket、OAuth2、JWT、API Key、签名校验等常见协议与认证机制。\n3. 了解 API Gateway、开放平台、微服务治理相关体系，有网关、鉴权、限流、配置中心、多租户、权限系统等项目经验优先。\n4. 熟悉 MySQL、Redis、MQ 等常用基础组件，具备良好的数据建模、接口设计和系统排查能力。\n5. 了解 Docker、Kubernetes、CI/CD、OpenTelemetry、日志、Trace、Metrics 等云原生与可观测性体系者优先。\n6. 具备良好的问题拆解能力、工程质量意识和团队协作能力，能够独立负责模块设计、开发、联调和上线。\n\n加分项\n1. 有开放平台、开发者平台、API 网关、IAM、OAuth2 / OIDC、权限系统相关经验。\n2. 有 Kong、APISIX、Envoy、Nginx、Istio、Spring Cloud Gateway 等网关或服务治理经验。\n3. 有多租户 SaaS、企业级平台、云平台、IoT 平台、机器人平台相关经验。\n4. 有高并发接口、流量治理、稳定性治理、灰度发布、审计合规相关经验。"
+    }
+  },
+  {
+    "seq": 28,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7611080680865302820|925474f8ee7349aec1898a384b0aa05d0f38d99197edce1abadd47e727780900",
+    "reading_id": "N0405",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "云端音视频技术工程师/专家",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n1. 主导 WebRTC 媒体服务器的选型、定制、部署与优化，编写高质量核心代码\n2. 设计支持低延迟、高并发的 SFU 架构，涵盖信令、媒体传输、NAT 穿透（TURN/STUN）、QoS 监控等全链路\n3. 优化音视频传输质量（QoS/QoE），包括抗弱网、拥塞控制、FEC、Jitter Buffer 等\n4. 对接或定制开源 WebRTC 栈，提升系统稳定性与性能\n5. 推动音视频核心技术在业务场景（如远程协作、AR 互动）中的落地与创新\n6. 跟踪 WebRTC、AV1、SFrame、WebTransport 等前沿技术，评估并引入生产环境\n\n任职要求\n1. 5 年以上音视频或实时通信领域经验，3 年以上大型分布式系统架构经验\n2. 深入掌握 WebRTC 协议栈，对 ICE、DTLS、SRTP、GCC/BWE、NACK/PLI/FEC 等有实战调优经验\n3. 熟悉主流的webrtc开源项目如 Mediasoup、LiveKit、Pion，具备大规模生产部署经验\n4. 了解音视频编解码（H.265/VP9/AV1）与硬件加速\n5. 精通 Go / C++ 之一，具备高性能网络服务开发能力（高并发、低延迟、内存优化）\n6. 熟悉 Kubernetes、微服务治理、可观测性（Prometheus/Grafana/ELK）在音视频场景的应用\n7. 具备从 0 到 1 构建高可用、可扩展音视频平台的成功案例\n8. 优秀的技术判断力、跨团队协作能力与技术领导力\n加分项：\n1. 熟悉端侧 SDK（Web/iOS/Android）与服务端协同优化\n2. GitHub 有 WebRTC 相关开源贡献",
+      "requirements": "1. 5 年以上音视频或实时通信领域经验，3 年以上大型分布式系统架构经验\n2. 深入掌握 WebRTC 协议栈，对 ICE、DTLS、SRTP、GCC/BWE、NACK/PLI/FEC 等有实战调优经验\n3. 熟悉主流的webrtc开源项目如 Mediasoup、LiveKit、Pion，具备大规模生产部署经验\n4. 了解音视频编解码（H.265/VP9/AV1）与硬件加速\n5. 精通 Go / C++ 之一，具备高性能网络服务开发能力（高并发、低延迟、内存优化）\n6. 熟悉 Kubernetes、微服务治理、可观测性（Prometheus/Grafana/ELK）在音视频场景的应用\n7. 具备从 0 到 1 构建高可用、可扩展音视频平台的成功案例\n8. 优秀的技术判断力、跨团队协作能力与技术领导力\n加分项：\n1. 熟悉端侧 SDK（Web/iOS/Android）与服务端协同优化\n2. GitHub 有 WebRTC 相关开源贡献"
+    }
+  },
+  {
+    "seq": 29,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7584754165566949651|033747a278403c4c5b527b98fbd6af499fef376f51e887357349254901098964",
+    "reading_id": "N0418",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "机器人系统软件工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n1、负责人形机器人产品相关研发类系统的方案架构设计、拆解和实现；\n2、负责整机系统性能优化，主导关键技术方案设计、技术难点公关；\n3、规划人形机器人系统整体方案及组件的标准化，参与新产品需求及技术预研方案的讨论、系统分析和技术评审工作；\n4、负责与设计相关的技术储备，积极推动技术创新工作开展，参与新技术/标准和新工具/方法的研究和跟踪。\n\n任职要求\n1、本科及以上学历，拥有8年以上C++软件研发工作经验，其中至少包含5年以上机器人/自驾行业工作经验；\n2、精通嵌入式软件、平台软件、运动控制及机器人算法等至少一种专业理论知识，对软件方面有深入开发，对算法有了解优先；\n3、拥有协作机器人或其他智能机器相关产品从0到1的经验，拥有丰富的产品量产经验者优先；\n4、具备良好的沟通能力，能跨团队沟通协作，完成系统方案的设计整定。",
+      "requirements": "1、本科及以上学历，拥有8年以上C++软件研发工作经验，其中至少包含5年以上机器人/自驾行业工作经验；\n2、精通嵌入式软件、平台软件、运动控制及机器人算法等至少一种专业理论知识，对软件方面有深入开发，对算法有了解优先；\n3、拥有协作机器人或其他智能机器相关产品从0到1的经验，拥有丰富的产品量产经验者优先；\n4、具备良好的沟通能力，能跨团队沟通协作，完成系统方案的设计整定。"
+    }
+  },
+  {
+    "seq": 30,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7571379728977840425|48a3fa66237ff87580ad23f1011767df4017b49e5d0b00f090f4e13239c17e7d",
+    "reading_id": "N0431",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "系统架构师-软件算法",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n1. 主导机器人整机软件和算法系统的需求分析， 架构设计、开发和迭代；\n2. 负责整机系统性能优化，与硬件部门共同协调关键技术方案设计、技术难点公关；\n3. 规划算法系统整体方案及组件的标准化，参与新产品需求及技术预研方案的讨论、系统分析和技术评审工作；\n4. 负责与设计相关的技术储备，积极推动技术创新工作开展，参与新技术/标准和新工具/方法的研究和跟踪；\n5. 负责分析解决系统级别的软件问题，尤其是耦合了多模块的复杂问题；\n\n任职要求\n1. 硕士及以上学历，拥有5年以上智能硬件类产品研发及团队管理经验，具备软件；\n2. 完整的做过量产项目，对感知、规控、SLAM、具身至少一个方面非常专业，其他方面有比较好的理解；\n3. 了解SoC架构，了解Linux内核及驱动，精通C/C++，精通操作系统框架、中间件、底层HAL开发；\n4. 了解主流算法框架模型，了解机器人或智驾技术原理者优先；\n5. 熟悉软件开发过程中的质量管理、版本控制和持续集成/持续部署（CI/CD）等流程。\n6. 具备出色的分析问题和解决问题的能力，良好的团队合作精神和沟通能力，能够与不同背景的团队成员有效协作。",
+      "requirements": "1. 硕士及以上学历，拥有5年以上智能硬件类产品研发及团队管理经验，具备软件；\n2. 完整的做过量产项目，对感知、规控、SLAM、具身至少一个方面非常专业，其他方面有比较好的理解；\n3. 了解SoC架构，了解Linux内核及驱动，精通C/C++，精通操作系统框架、中间件、底层HAL开发；\n4. 了解主流算法框架模型，了解机器人或智驾技术原理者优先；\n5. 熟悉软件开发过程中的质量管理、版本控制和持续集成/持续部署（CI/CD）等流程。\n6. 具备出色的分析问题和解决问题的能力，良好的团队合作精神和沟通能力，能够与不同背景的团队成员有效协作。"
+    }
+  },
+  {
+    "seq": 31,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7569070544197339430|a1de58e3624c1316ee00d22a2f9843c121a723a87733dbf00992ad22264df857",
+    "reading_id": "N0434",
+    "company_id": "CN_AGIBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "软件经理",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n职位描述：\n作为软件组的负责人，负责带领团队完成整个机器人软件系统的开发（包括但不限于镜像层、中间件层、应用软件层、整机性能优化、工具链提效），负责与平台部门共同完成App端和云端的开发交付工作，指导并约束算法团队在软件系统架构的要求进行研发和交付。\n岗位职责：\n1、主导建设端侧机器人软件模块，包括通信中间件、系统管理、OTA、端侧网络管理、研发工具链、Devops、传感器抽象集成、ethercat抽象集成、SOC内核镜像BSP调试等工作；\n2、主导机器人软件系统集成，与算法、硬件团队合作，集成算法、硬件驱动等模块；\n3、指导建设软件研效体系，提升软件研发质量与效率；\n4、具备出色的团队管理能力，具备良好的跨团队合作能力；\n\n任职要求\n1、计算机、电子、通信等相关领域本科及以上学位，8年以上相关工作经验，尤其是机器人和自驾座舱经验；\n2、有成功的复杂软硬件一体产品的成功量产经验；\n3、精通C++代码开发，精通机器人/自驾端侧软件的多项功能的开发经验；\n4、良好的职业修养，善于思考，良好的沟通能力和团队引领能力。",
+      "requirements": "1、计算机、电子、通信等相关领域本科及以上学位，8年以上相关工作经验，尤其是机器人和自驾座舱经验；\n2、有成功的复杂软硬件一体产品的成功量产经验；\n3、精通C++代码开发，精通机器人/自驾端侧软件的多项功能的开发经验；\n4、良好的职业修养，善于思考，良好的沟通能力和团队引领能力。"
+    }
+  },
+  {
+    "seq": 32,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a31553fd-a766-4095-871f-7905a88caaca|2944896a4f83dbe991a7fde7094862d304b57a5f4541e1d1a6e7122ea729ec9c",
+    "reading_id": "N0001",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身大模型算法工程师-27届",
+    "pilot": false,
+    "fields": {
+      "duties": "职位描述\n\n1、具身智能大模型的研究和开发。\n\n2、具身智能大模型的推理加速和硬件适配部署。\n\n3、持续根据产品需求迭代优化模型架构，完成对模型的数据处理，训练与优化。\n\n4、深入调研具身智能领域相关的前沿技术，跟踪业内大模型领域的最新进展并推进相关研究，探寻将最新技术应用到具身智能领域的可能性。\n\n\n\n\n该岗位为应届岗位，面向2026年9月1日-2027年12月31日毕业的应届同学。若您是社招简历，请至社招官网投递同岗位，谢谢。\n\n\n\n\n职位要求\n\n1、人工智能、计算机视觉、自然语言处理等相关领域的硕士及以上学历；\n\n2、精通Python，具有良好的深度学习基础，熟悉TensorFlow、PyTorch等深度学习框架；\n\n3、具备大模型领域的研究经验，对Transformer、BERT、GPT等模型有深入理解，具备预训练、微调、部署等流程的工作经验，有科技公司高阶技术岗位经历者优先，有发表过有影响力的学术论文者优先。\n\n4、具备优秀的学习能力，英语水平，以及良好的团队沟通与协作能力。"
+    }
+  },
+  {
+    "seq": 33,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|45838d62-28eb-4580-9041-55e09a1f2900|0224f40b316f5dbdb0a66016a996dcfeef82738ebff9848a150c73f087555e53",
+    "reading_id": "N0026",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身智能算法应用工程师-27届",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1. 针对零售、工业等真实应用场景，参与具身智能算法方案开发、模型训练、性能调优，推动具身智能机器人商业化落地\n\n2. 参与开发机器人端算法接口，支持外部团队开发具身智能落地应用\n\n3. 本岗位面向成长型人才，希望招募渴望成长为具身智能全栈工程师，或从传统机器人行业转向具身智能行业的同学\n\n \n\n岗位要求：\n\n1. 计算机、机器人相关背景，硕士以上学历\n\n2. 熟练使用Python和C++，具备良好的编程习惯，丰富的Linux端开发经验\n\n3. 熟悉机器人运动学、规划控制、定位导航相关知识，了解常用算法，有算法相关科研工作者优先\n\n4. 热爱机器人，动手能力强，有机器人相关比赛（RoboMaster、RoboCon、RoboCup等）经历者优先"
+    }
+  },
+  {
+    "seq": 34,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|bde310a9-790b-4a24-aa6e-735dbb28d9a7|d3f573e821816d122a3657d936e43f102119d1722e0209664e2eaa85792323e1",
+    "reading_id": "N0029",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身大模型后训练算法工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1、参与工业场景VLM（视觉语言模型）/VLA（视觉语言动作模型）/WAM（世界动作模型） 算法研发与优化，聚焦机器人精细操作与泛化能力的提升，助力具身大模型工业场景落地效果提升。\n\n2、负责数据驱动的模型迭代全流程工作，涵盖多模态数据采集、清洗、增强，以及模型训练、微调、性能优化，探索具身智能模型优化方案，提升机器人操作决策能力与模型泛化性、鲁棒性。\n\n3、协助完成真实机器人场景的算法测试、数据分析与迭代，跟进具身智能领域前沿技术。\n\n4、配合团队推进算法落地量产，参与解决工业场景下算法落地的核心问题，保障算法落地效果与稳定性。\n\n\n\n\n任职要求：\n\n基本背景\n\n1、硕士/博士研究生，计算机、人工智能、机器人工程、自动化等相关专业。\n\n2、对Robot Learning有深入理解，熟悉数据驱动的模型迭代方法，有相关研究或项目经验优先。\n\n核心技术能力\n\n1、熟悉VLM，VLA，WAM核心原理与架构，具备深度学习、计算机视觉基础理论与实践经验。\n\n2、熟练使用Python，熟悉PyTorch/Jax深度学习框架，有完整的VLA/WAM/VLM训练、部署、微调经验，有模型加速、推理优化经验者优先。\n\n3、熟悉$$\\pi_{0}$$，$$\\pi_{0.5}$$，$$\\pi_{0.6}^*$$，DreamZero，Lingbot-VA等主流VLA/WAM模型架构与实践细节，有相关模型调优经验优先。\n\n4、了解强化学习、模仿学习基础算法，具备真实机器人算法实际部署、调试落地经验优先。\n\n5、熟悉ROS与机器人学基础，熟悉Linux开发环境，代码规范、工程实现能力良好。\n\n\n\n\n综合素质\n\n 1、自驱力与学习能力强，对工业具身智能领域有浓厚兴趣。\n\n 2、具备良好的团队协作与沟通能力，能高效推进项目任务。\n\n 3、在机器人、人工智能相关会议或期刊有论文发表者优先。"
+    }
+  },
+  {
+    "seq": 35,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|9fe25088-22ac-4383-823a-ea9f91561f9f|dbc6cf4366f019f02a4c4c1f6c712421798adabddba6e704acea02087551ab90",
+    "reading_id": "N0030",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "3D人体算法研究员-27届",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位要求：\n\n1.负责研发多模态3D人体Tracking与生成模型，包括姿态泛化及人物动作细节优化。 \n\n2.构建多模态3D人体Tracking与生成的端到端pipeline，完成从数据处理、算法迭代到系统部署的全流程优化。 \n\n3.实现基于人物视频、语音、文本等多模态条件的3D人体生成。 \n\n4.独立验证算法方案，通过实际测试确保模型在虚拟人及具身智能场景中的稳定性。 \n\n5.与工程和产品团队紧密协作，推动技术从实验到落地的高效转化。\n\n\n\n\n岗位要求：\n\n1.硕士及以上学历，计算机、人工智能、图形学或相关专业背景。 \n\n2.精通3D人体Tracking与生成技术（SMPL/SMPL-X）。 \n\n3.熟悉ViT，Diffusion框架。 \n\n4.熟练使用PyTorch、PyTorch3D及3D工具（如Unity，Blender），具备扎实的Python/C++编程能力。 \n\n5.有具身智能、机器人仿真（Isaac Gym）或顶会论文（CVPR/ICCV/SIGGRAPH）经验者优先。 \n\n6.逻辑清晰，能快速学习新技术，对3D生成与智能体交互有强烈热情。"
+    }
+  },
+  {
+    "seq": 36,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a8c37b66-5356-45d9-9b85-8d7b40c45586|8f76406f6e97bd7e04a07b99184bc6adf9b156affdedcfbbb95af47a034c62bb",
+    "reading_id": "N0035",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "强化学习算法工程师-工业方向",
+    "pilot": false,
+    "fields": {
+      "duties": "工作内容\n\n1.参与机器人操作强化学习算法的研发与优化，协助实现抓取、放置、装配等任务的算法开发，包括离线强化学习、真机强化学习等方向。\n\n2.协助VLA+RL相关算法的实现与实验，与团队共同探索视觉‑语言模型与强化学习结合的应用方案。\n\n3.参与高保真仿真环境的搭建与调试，支持算法从仿真到真机平台的测试与部署。\n\n4.协助完成算法在真实机器人场景中的测试、数据分析与迭代优化。\n\n5.跟踪学习机器人领域前沿技术，参与团队技术调研与创新尝试。\n\n\n\n\n任职要求： \n\n1、学历与经验：\n\n硕士及以上学历，计算机、人工智能、自动化、机器人等相关专业。\n\n2、核心技术能力：\n\n了解强化学习： 理解主流RL算法（DRL、IL、Offline RL等），熟悉VLA/VLM： 了解视觉-语言模型的基本原理（如CLIP、BLIP、GPT-4V等），对多模态学习、指令跟随有实践经验者优先。\n\n扎实的工程能力： 优秀的Python/C++编程能力，熟悉Linux开发环境，具备良好的代码风格和工程化习惯。\n\n3、附加能力：\n\n具备优秀的沟通能力和团队协作精神，能够清晰地在跨职能团队（算法、软件、硬件）中阐述技术方案。\n\n对机器人技术充满热情，具备强大的自驱力、学习能力和解决复杂问题的能力。\n\n在顶级会议（如CoRL, RSS, ICRA, IROS, NeurIPS, ICML）有相关论文发表者优先。"
+    }
+  },
+  {
+    "seq": 37,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|0753d167-c2d8-4c81-9508-9430fd7a89ce|7d69d88ae4ccdb6f5a9f52486e5fea06a3ccd8a8296b4c89b1a0dad31ac55165",
+    "reading_id": "N0038",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身大模型算法工程师（工业方向）",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位描述\n\n这是一个面向工业场景的具身智能全栈研发岗位。你将深度参与具身大模型（VLA / 世界模型）从预训练、后训练对齐到操作策略部署的完整研发闭环，把前沿AI技术落地到工业真实场景中。\n\n\n\n\n一、模型研发（预训练 & 后训练）\n\n参与具身大模型（VLA / 世界模型）的预训练研发，探索 Transformer + Diffusion 的具身操作策略架构，实现从感知到控制的端到端策略学习\n\n协助构建工业场景大规模多模态数据预训练流水线（真机采集 + 仿真合成 + 互联网数据），设计数据采样策略与质量评估体系\n\n参与模型监督微调（SFT）及 RLHF / DPO / GRPO 对齐训练，设计符合机器人任务的奖励函数，平衡任务精度、安全性与效率\n\n分析模型缩放规律（Scaling Laws），通过消融实验评估数据质量与架构选型对性能的影响\n\n\n\n\n二、操作策略与真机部署\n\n参与基于模仿学习、Diffusion Policy、VLA 等算法的精细操作策略研发，实现复杂长序列任务的端到端执行\n\n参与 Sim-to-Real 迁移，利用域随机化等方法缩小仿真与真实环境差异，完成策略在工业机器人真机上的部署与性能评估\n\n构建数据飞轮闭环：遥操作数据采集 → 自动过滤 → 策略迭代优化，探索在线学习与增量学习机制\n\n\n\n\n三、数据评测与前沿工程化\n\n参与构建工业级训练数据集与专业评测基准（对齐、安全、指令跟随），建立层次化模型能力评估框架\n\n探索知识蒸馏、量化、剪枝等推理优化技术，推动模型在工业边缘端的部署\n\n跟踪 RSS、CoRL、NeurIPS 等顶会进展，与各团队协作驱动从研发到工业落地的完整闭环\n\n\n\n\n任职要求\n\n1.计算机、AI、自动化、机器人学等相关专业，2027 届硕士或博士应届毕业生；\n\n2.精通 Python，熟练 PyTorch，具备复杂网络结构的设计与调试能力；\n\n3.深入理解 Transformer 及其变体（MoE、LoRA 等）、扩散模型与大语言模型训练机制；\n\n4.熟悉强化学习（PPO / DQN / SAC）或模仿学习（IL / BC）算法，有相关课程项目或科研经验；\n\n5.熟练使用至少一种机器人仿真环境（Isaac Sim、MuJoCo、SAPIEN 等）\n\n\n\n\n加分项（具备任一即可）\n\n顶会论文：在 RSS、CoRL、NeurIPS、ICRA、CVPR 等发表过具身智能或大模型相关论文\n\n开源经验：复现或改进过 OpenVLA、RT 系列、Pi 系列等具身模型，或有公开开源贡献\n\n项目经历：有大模型预训练 / SFT / RLHF 完整项目经验，或工业机器人真机部署实战经验\n\n仿真与系统：有 Sim-to-Real 迁移成功案例，或熟悉 ROS / ROS2、多传感器融合\n\n推理优化：熟悉模型量化、ONNX / TensorRT 等推理优化工程"
+    }
+  },
+  {
+    "seq": 38,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|ecb9b926-55a2-41f3-86ab-4301f85f74f0|2a4950f20d8bd542ba4da2ef81e5f65174f60bc602878eada88268763bd240b9",
+    "reading_id": "N0057",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身智能算法实习生【人机交互方向】",
+    "pilot": false,
+    "fields": {
+      "duties": "1、负责人机交互场景下的具身智能算法研究，包括交互策略建模、多模态感知与动作生成。\n\n2、开发和优化基于强化学习或模仿学习的交互算法，提升智能体在物理环境中的交互能力。\n\n3、构建人机交互数据集，设计实验验证算法在真实或仿真环境中的性能表现。\n\n4、与机器人硬件和软件团队协作，将算法集成到实际机器人系统中进行测试验证。\n\n5、跟踪具身智能与人机交互领域的前沿技术，定期分享研究成果和技术洞察。"
+    }
+  },
+  {
+    "seq": 39,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|b7b86ba4-34a3-4167-a1b2-f74449f30c9d|080d260bf846e70ff00ad10135cbf358799408b520730a7358499e729f0bb840",
+    "reading_id": "N0061",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身大模型算法实习生【后训练方向】",
+    "pilot": false,
+    "fields": {
+      "duties": "1、参与具身大模型（VLA / World Model / Policy）的后训练（post-training）与系统级优化，包括在真实机器人环境中的性能提升与对齐。\n\n2、设计并实现基于真实交互数据的模型优化方法，如 offline/online fine-tuning、RLHF-like 反馈优化、failure-driven learning 等。\n\n3、构建模型在真实环境中的评测与优化闭环（data collection → error analysis → model update）。\n\n4、参与 sim2real 迁移与鲁棒性优化，提升模型在复杂真实场景下的泛化能力。\n\n5、与算法团队协作，推动模型从离线训练走向真实部署。"
+    }
+  },
+  {
+    "seq": 40,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|17cc9c50-4251-4e37-9582-d068ad89c232|f36097d5e1cc01e4a20d95945f02c52579100dfb4d44cab5ec60026cd32e49d9",
+    "reading_id": "N0070",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "灵巧手操作算法工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责： \n\n1. 研究开发灵巧操作数据采集系统，协同优化软硬件，参与数据采集、数据清洗、数据分析、数据增强等工作；  \n\n2. 研究可泛化的灵巧操作算法，基于模仿学习、强化学习、大模型等技术，增强操作算法的场景泛化性、任务通用性、对象多样性、动态稳定性等； \n\n3. 研究虚实迁移技术，并结合对控制算法的调试，完成从虚拟到真实的技能迁移，在真机上部署灵巧操作技能；\n\n4. 参与双灵巧手协作控制算法的设计与优化，确保复杂任务中双手的协调与精确控制；\n\n5. 参与多模态感知、任务与运动规划等研究，支持复杂场景中灵巧操作的进行。\n\n\n\n\n 岗位要求：\n\n1. 本科或以上学历，计算机、机器人、自动化、电子或相关领域专业；  \n\n2. 熟悉强化学习、模仿学习算法，有实际应用经验；\n\n3. 熟悉运动规划、机器人控制以及传感器数据融合技术；\n\n4. 有深度学习开发经验，熟悉常用深度学习框架；\n\n5. 良好的团队合作精神和沟通能力，有开放心态学习新技术；  \n\n6. 较强的动手能力，能够在实验室环境下进行调试、验证和优化；\n\n7. （加分项）有AI Habitat、Issac Gym、Issac Lab等具身智能仿真环境的使用开发经验；\n\n8. （加分项）有机器人、机器学习等领域顶会论文发表。"
+    }
+  },
+  {
+    "seq": 41,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|901a604a-d850-416e-9fdd-f853c7de02ac|d4563c51fae50b1b99bfba3c518cee8e3bdeb874f3da6d73bb14dba503dad7b9",
+    "reading_id": "N0071",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身大模型强化学习工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "职位描述\n\n1. 负责具身智能大模型强化学习（RL）相关算法的研究与开发，探索强化学习在机器人操作、具身决策以及多模态大模型 post-training 中的应用；\n\n2. 设计和优化面向具身智能的强化学习训练框架，包括但不限于 offline RL、online RL、batch online RL、residual RL、human-in-the-loop RL 等方法，提升模型在真实机器人任务中的性能、泛化能力和数据效率；\n\n3. 研究和设计适用于具身大模型的 reward model、critic、task progress / failure signal 等训练与反馈机制，充分利用成功、失败、人工接管等多类型数据，提升策略学习效果并降低 reward hacking 等风险；\n\n4. 探索大模型与强化学习相结合的训练范式，包括 LLM / VLM / VLA 等模型的 RL post-training、策略优化以及 reward-based learning，持续提升模型的推理、决策和机器人操作能力；\n\n5. 面向真实机器人训练场景，研究稳定、安全且高效的 RL 方法，包括 action / force / velocity / workspace constraint、early stop、safety shield 等安全机制，并推动算法在真实机器人系统中的落地；\n\n6. 与机器人系统、运动控制、数据及评测团队紧密合作，持续完善真机 rollout、数据回流、自动 reset、灰度评测及模型迭代闭环，并建立针对真实机器人 RL 的效果、稳定性、安全性和数据效率评测体系；\n\n7. 深入调研强化学习、具身智能和多模态大模型领域的前沿技术，跟踪业界及学术界最新进展，并探索其在具身智能大模型中的应用。\n\n\n\n\n职位要求\n\n1. 人工智能、计算机视觉、自然语言处理、机器人等相关领域硕士及以上学历；\n\n2. 具有扎实的强化学习基础和相关研究/工程经验，熟悉常见强化学习算法、Actor-Critic、Policy Optimization、Offline / Online RL、Reward Modeling 等方向中的一种或多种；\n\n3. 具有以下任一方向的研究或工程经验：\n\n- 机器人强化学习、真实机器人 RL、模仿学习或机器人策略学习；\n\n- LLM / VLM / 多模态大模型强化学习与 post-training，如 RLHF、RLAIF、基于可验证奖励的 RL、Reward Model / Critic 等；\n\n- 大模型 Agent、VLA 或具身智能模型的训练与优化；\n\n4. 对 Transformer、GPT、VLM / 多模态大模型等模型架构及训练方法有深入理解，熟悉大模型 pre-training、post-training 或强化学习训练流程者优先；\n\n5. 精通 Python，具有扎实的深度学习基础，熟悉 PyTorch 等主流深度学习框架，具备良好的算法实现、实验分析和工程落地能力；\n\n6. 具备优秀的学习能力、英文文献阅读能力以及良好的团队沟通与协作能力；有高水平论文发表、开源项目贡献或科技公司相关高阶技术岗位经历者优先。\n\n\n\n\n加分项\n\n具备以下经验之一者优先：真实机器人上的强化学习训练经验；大规模 RL / distributed rollout 训练经验；LLM / VLM RL post-training 经验；Reward Model、Process Reward、Critic / Value Model 相关经验；机器人数据采集、仿真到真机迁移或安全强化学习经验。"
+    }
+  },
+  {
+    "seq": 42,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|8180f475-77b4-4e47-b085-4a05e30dde15|2e43bcd7affdba9d29e24546ddcefa9d98afe06eb4093fa046d50de4105ec603",
+    "reading_id": "N0085",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "人形强化学习与运动控制算法工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n研发基于深度强化学习的人形机器人全身运动控制算法，实现站立、行走、跑步、跳跃、转向、下蹲及平衡恢复等能力。\n设计步态规划、全身协调及实时平衡控制算法，处理单支撑、双支撑、腾空、落地和接触切换等状态。\n研发基于人体动作数据的动作跟踪与模仿学习算法，完成人体动作重定向、接触识别和动作技能训练。\n构建强化学习训练框架，设计状态、动作、奖励、终止条件及困难片段采样机制，提升复杂动作和多技能训练效果。\n研究多技能策略蒸馏及基于Diffusion Policy、Trajectory Diffusion的生成式运动控制，实现动作生成、补全、切换和组合。\n研究测试时引导方法，支持目标速度控制、摇杆控制、路径点跟随、指定位置到达及避障等任务。\n在MuJoCo、Isaac Gym、Isaac Sim、Isaac Lab等平台进行并行训练、域随机化和Sim-to-Real验证，并完成实机部署。\n与状态估计、感知、硬件和嵌入式团队协作，融合编码器、IMU、足底力传感器、相机和激光雷达等数据，优化实时控制系统。\n\n\n\n岗位要求：\n\n学历要求：硕士及以上学历，机器人学、控制工程、计算机、人工智能、自动化等相关专业。\n\n技能要求：\n\n熟悉人形机器人运动学和动力学，掌握FK、IK、雅可比矩阵、质心动力学、接触力及全身动力学建模，熟悉Pinocchio等工具。\n熟悉双足机器人步态生成、足端规划、平衡恢复和全身控制，掌握PID、LQR、MPC、WBC、QP或阻抗控制等方法。\n熟悉PPO、SAC、DDPG、TD3等强化学习算法，具备奖励设计、课程学习、困难样本采样和大规模并行训练经验。\n具备动作模仿、运动跟踪或人体动作重定向经验，了解AMASS、LAFAN1、BVH、SMPL或SMPL-X等数据或模型。\n理解扩散模型和条件引导机制，有Diffusion Policy、轨迹扩散、时序模型或多技能策略蒸馏经验者优先。\n精通Python和C++，熟悉PyTorch及MuJoCo、Isaac Gym、Isaac Sim或Isaac Lab等仿真平台。\n熟悉域随机化、系统辨识、状态估计和Sim-to-Real，具备真实机器人部署与调试能力。\n\n工作经验要求：\n\n具有双足或人形机器人运动控制、步态规划、动作跟踪或强化学习项目经验。\n能够完成从算法设计、仿真训练到真实机器人部署的完整研发闭环。\n\n个人素质要求：\n\n具备扎实的数学、优化、控制和强化学习基础。\n具有良好的跨团队协作、论文阅读和工程落地能力。\n具备较强的动手能力、自我驱动力和机器人实验安全意识。\n\n\n\n\n加分项：\n\n具有人形机器人实机部署经验。\n具有跑步、跳跃、舞蹈、跌倒恢复或其他高动态动作研发经验。\n具有多技能策略、动作扩散、测试时引导或运动基础模型经验。\n在ICRA、IROS、RSS、CoRL、NeurIPS、ICML、ICLR、RA-L、T-RO等会议或期刊发表过相关论文。\n熟悉DeepMimic、PHC、OmniH2O、HumanPlus、HOVER、ASAP、GMT、TWIST、BeyondMimic等相关工作。"
+    }
+  },
+  {
+    "seq": 43,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|0d87a670-9932-40f0-b42f-838e85b6140f|650801cd8be61130f61b0b994bfef4ed589df787301f9824f7df4c2135b54781",
+    "reading_id": "N0090",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身大模型算法工程师-工业预训练",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1. 预训练框架与模型架构设计负责具身大模型（VLA / 世界模型）的预训练研发，围绕工业场景需求，设计并实现Transformer与Diffusion相结合的具身操作策略架构，探索VLA多模态联合建模方法，实现从感知到控制的端到端策略学习。\n\n2. 工业数据处理与训练管线搭建构建面向工业场景的大规模多模态机器人数据预训练流程，涵盖数据采集、清洗、质量评估与格式标准化等全链路工作。综合利用真机采集数据、仿真合成数据与互联网多模态数据等等，设计数据金字塔配方与采样策略，优化训练数据的多样性与覆盖度。\n\n3. 实验验证与前沿跟踪设计系统性的消融实验，深入分析模型缩放规律（Scaling Laws）、数据质量对模型性能的影响，以及架构选型的效果对比。跟踪顶会前沿进展，持续将最新算法方法论引入预训练框架，推动核心指标（成功率、泛化能力、鲁棒性）提升。\n\n4. 产业落地闭环将预训练模型的能力验证落实到工业真实任务与评测基准上，推动从模型研发到工业场景落地的完整闭环。并与机器人系统、仿真、数据等团队紧密协作，确保实验可复现与迭代效率。\n\n\n\n\n职位要求\n\n1. 计算机科学、人工智能、自动化、机器人学等相关专业硕士及以上学历，博士优先。3年及以上大模型或具身模型（如OpenVLA、Pi系列、RT系列等）研发经验，有预训练方向实际项目经历者优先。\n\n2. 深度学习基础扎实：精通Python编程语言，熟练掌握PyTorch深度学习框架，具备复杂网络结构的设计与调试能力。\n\n3.深入理解大模型架构：深度掌握Transformer及其变体（自注意力机制、KV Cache、MoE、LoRA/Adapter等），理解扩散模型与大语言模型的训练机制，了解训练稳定性与缩放规律。\n\n4.预训练技术栈：具备大规模预训练（Pretrain）、监督微调（SFT）、后训练对齐（RLHF/DPO/GRPO等）的完整项目经验。\n\n5.多模态建模经验：有VLM/VLA/世界模型方向的实际研发经验，熟悉视觉-语言-动作对齐与跨模态融合方法。\n\n6.模仿学习与强化学习：掌握模仿学习（IL/BC）、强化学习（RL）、Diffusion Policy等机器人策略学习方法，了解Sim-to-Real迁移技术。\n\n\n\n\n加分项\n\n- 在RSS、CoRL、NeurIPS、ICRA、CVPR等顶会发表过具身智能或大模型相关论文。\n\n- 有OpenVLA、RT系列、Pi系列等开源具身模型的复现、改进或自研经验。\n\n- 具备机器人真机开发与部署经验，理解真机采集、遥操作、仿真数据生成等环节。\n\n- 有工业场景（如制造、物流、港口、能源等）的机器人或自动化项目实践经验。\n\n- 有公开的开源贡献（代码、模型、基准榜单、技术报告等）。\n\n- 熟悉机器人仿真平台（Isaac Sim、MuJoCo、SAPIEN等）与多传感器融合技术。"
+    }
+  },
+  {
+    "seq": 44,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|d31fddcb-437f-4374-a73b-39f84851805a|114498e304f7d58314a2fc5396037590a9fd55096eecb5afa6429de4a62bfeb7",
+    "reading_id": "N0097",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身大模型算法工程师-工业后训练",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.设计并实施具身大模型的监督微调（SFT）流程，基于工业场景的半结构化任务数据，提升模型在特定机器人任务中的指令遵循、操作精度和任务完成度；开发多任务迁移学习与增量学习框架，实现跨场景、跨机器人形态的能力迁移；探索PEFT（参数高效微调）方案设计与落地验证。\n\n2.实施RLHF及其衍生技术，将模型行为与工业任务的成功标准对齐；设计符合机器人任务特点的奖励函数，平衡任务完成度、安全性、效率与能耗等多维指标；开发并训练奖励模型，实现对机器人行为质量的准确自动评估。将离线强化学习与在线策略迭代相结合，构建可扩展的后训练闭环系统。\n\n3.开发安全层与约束机制，防止模型在工业场景中产生危险或不可控行为；设计对抗性测试与压力测试方案，评估模型在边缘场景和长尾分布下的鲁棒性；实现不确定性估计与置信度校准，提升模型决策的可解释性与可信度，构建持续监控和在线学习系统，及时发现并修复模型在实际部署中的缺陷。\n\n4.设计工业级后训练数据集构建流程，包括高质量专家遥操作数据采集、远程低成本数据标注管理、数据清洗与多模态对齐，以及训练数据的质量评估和有效性筛选；面向工业场景构建专业能力评测基准（如对齐、安全、指令跟随能力）与体系化的模型评估机制；建立层次化评测框架，确保模型上线前有经过实测校准的综合能力档案。\n\n5.优化模型推理效率，通过知识蒸馏、量化、剪枝等技术降低模型在工业边缘端的部署成本；与预训练工程师紧密协作，将后训练中发现的模型缺陷和任务需求反馈至预训练阶段，形成从预训练到后训练到部署的完整研发闭环。\n\n\n\n\n职位要求：\n\n1.计算机科学、人工智能、自动化、机器人学等相关专业硕士及以上学历，博士优先。\n\n2.3年及以上大模型微调、对齐或机器人策略学习相关研发经验，有具身模型后训练（如OpenVLA、RT系列、Pi系列等）实际项目经历者优先。\n\n3.精通Python编程，熟练掌握PyTorch等主流框架，具备复杂训练流程的手写与调试能力；深入掌握大模型训练范式，熟练使用LlaMA-Factory等主流高效微调框架，深度理解监督微调（SFT）、强化学习对齐（RLHF/DPO/GRPO）等技术原理。熟悉Hugging Face Transformers及相关工具链。\n\n4.掌握PPO、DQN、SAC等强化学习算法及其在机器人策略学习中的应用，有实际项目落地经验；具备大规模模型参数高效微调实战经验，熟悉LoRA、QLoRA、Adapter等技术的原理、选型与工程部署。\n\n5.了解模仿学习（IL/BC）、Diffusion Policy等机器人策略学习方法，有机器人仿真（Isaac Sim、MuJoCo、SAPIEN等）使用经验者优先。加分项：- 在RSS、CoRL、NeurIPS、ICRA、CVPR等顶会发表过模型对齐、后训练或机器人学习相关论文。\n\n\n\n\n加分项：\n\n- 有OpenVLA、RT系列、Pi系列等开源具身模型的SFT/RLHF实战经验，或在公开的具身/对齐排行榜上有贡献。\n\n- 具备机器人真机部署与后训练闭环经验，有模型量化、ONNX/TensorRT等推理优化工程经验。\n\n- 有工业场景（如制造、物流、港口、建筑等）的机器人或自动化项目实践经验。\n\n- 熟悉机器人操作系统ROS/ROS2，了解多传感器融合技术。\n\n- 具备前沿后训练范式工程化的实际经验。\n\n- 有公开的开源贡献（代码、模型、评测基准、技术报告等）。"
+    }
+  },
+  {
+    "seq": 45,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|26d5a23d-d941-4863-a931-3d0b77e840ad|3ee5122b5f24be3ddb72c5467d0d898ca3e4cce346ea28aa02a363c38518e6b6",
+    "reading_id": "N0098",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "机器人学习算法工程师-工业操作策略",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.针对工业操作任务，研发和优化基于模仿学习、行为克隆、逆强化学习、Diffusion Policy等算法的精细操作策略；探索基于VLA大模型的操作策略，实现复杂长序列任务的端到端生成与鲁棒执行；开发多传感器融合下的实时策略架构，将视觉、触觉、力觉等信息融入闭环控制，提升操作的可靠性与泛化性。\n\n2.主导机器人操作策略的Sim-to-Real迁移流程，在仿真平台中完成策略的大规模并行训练与自动化测试；设计域随机化、系统辨识、动力学适配等方法，缩小仿真与真实环境之间的分布差异，提升策略迁移成功率；搭建自动化批量回归测试系统，确保策略在每次迭代后能通过严格的真机A/B验证流水线。\n\n3.负责策略在工业机器人真机上的部署、调试与性能评估，解决从仿真模型到实际硬件的延迟、通讯、控制接口等工程挑战；构建数据飞轮，设计远程/现场真机数据采集框架，实现从人工遥操作演示到自动数据过滤的闭环，持续优化策略表现；开发在线学习与增量学习机制，使机器人能在运行中根据新场景微调策略，逐步提升操作成功率与异常恢复能力。\n\n4.深入工业现场，理解具体工艺约束与操作标准，将高层次的工艺需求拆解为可训练的操作策略原子任务；与机器人系统、传感器、仿真等团队紧密协作，确保策略方案与整体系统架构的兼容性及可复现性。\n\n5.跟踪顶会的最新策略学习方法，将前沿算法进行工业适配与工程化验证；将成功的策略方案固化为可复用的框架、工具与最佳实践，提升团队整体研发效率。\n\n\n\n\n职位要求：\n\n1.计算机科学、自动化、机器人学、机械电子等相关专业硕士及以上学历，博士优先。2年及以上机器人学习或机器人操作相关研发经验，有工业场景实际项目落地经历者优先。\n\n2.深刻理解模仿学习、强化学习、Diffusion Policy、行为克隆等策略学习算法原理，具备独立实现与调优能力；精通Python，熟练使用PyTorch，具备复杂网络结构的搭建、训练与调试能力。\n\n3.熟练掌握至少一种机器人仿真环境（Isaac Sim、MuJoCo、SAPIEN、Gazebo等），能独立完成仿真场景搭建与并行化训练。\n\n4.有工业机器人或人形机器人真机调试经验，了解运动学、动力学、轨迹规划基础。\n\n5.有良好的C++或Python工程能力，理解ROS/ROS2基本通信机制，具备实时控制与硬件通讯基础知识。\n\n\n\n\n加分项：\n\n- 在CoRL、ICRA、RSS、NeurIPS等顶会发表过机器人操作策略相关论文。\n\n- 有Sim-to-Real迁移的成功案例，尤其是涉及精密装配、形变物体操作等复杂接触任务。\n\n- 熟悉视觉-语言大模型架构，或有过VLA模型在真机部署的实战经验。\n\n- 有工业场景（如新能源、汽车零部件组装、物流分拣等）的机器人自动化落地项目。\n\n- 有GPU集群使用经验，能进行大规模并行仿真训练与结果分析。\n\n- 有开源机器人学习库的贡献或深度使用经验。"
+    }
+  },
+  {
+    "seq": 46,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|c4f09105-11b3-40d5-9a68-ef70c1749937|97a09c761c1fdb717e35a6465c103d834ddb88f7db360609873f84a272f0f34b",
+    "reading_id": "N0099",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "算子开发工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.负责核心计算模块和高性能算子的开发、优化与维护；\n\n2.负责关键算子的性能分析、瓶颈定位和优化实现；\n\n3.支持不同硬件平台上的算子适配与验证；\n\n4.与系统、训练和算法同学协作，推动关键能力在业务场景中落地。\n\n\n\n\n职位要求\n\n1.本科及以上学历，计算机、软件、电子、数学等相关专业；\n\n2.熟悉 C/C++，具备扎实的数据结构与底层实现能力；\n\n3.熟悉 CUDA 或其他并行计算开发方式，具备性能优化经验；\n\n4.理解常见深度学习计算过程，有高性能计算、编译优化或算子开发经验者优先；\n\n5.具备较强的问题分析和独立攻关能力。"
+    }
+  },
+  {
+    "seq": 47,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|1dd0773a-16ed-4c96-bc8a-bc110095a73c|5e3362ddcb950566938e0684ec1f902457eb324619b0932b108e8e4eea942e6b",
+    "reading_id": "N0100",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "训练基础设施工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.负责训练基础设施建设与维护，支持模型训练任务稳定高效运行；\n\n2.负责训练流程、数据流和实验流程的工程化与自动化；\n\n3.支持低精度训练、训练性能分析和资源利用优化；\n\n4.支持强化学习相关训练/推理链路的工程实现与调优；\n\n5.与算法、算子和系统同学协作，推动训练到推理的闭环效率提升。\n\n\n\n\n职位要求\n\n1.本科及以上学历，计算机、软件、数学、自动化等相关专业；\n\n2.熟悉 Python，了解CUDA，具备较强的工程实现能力；\n\n3.熟悉主流深度学习训练框架及分布式训练基本原理；\n\n4.有低精度训练、训练性能优化、训练平台或强化学习工程经验者优先；\n\n5.具备良好的实验管理、工程规范和跨团队协作能力。"
+    }
+  },
+  {
+    "seq": 48,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|bcb752ae-3384-4e41-ac92-d17e22e0c8f5|cdd1d9e50f49ac111108d6d407fead6234ea4ef762016066a62cfa7387f186b5",
+    "reading_id": "N0102",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身大模型算法工程师-北京",
+    "pilot": false,
+    "fields": {
+      "duties": "欢迎您加入银河通用机器人这个开放、乐观、创新挑战机遇的创业团队，与我们一起探索具身智能大模型的浩瀚未来！\n\n\n\n\n职位描述：\n\n1、具身智能大模型的研究和开发。\n\n2、具身智能大模型的推理加速和硬件适配部署。\n\n3、持续根据产品需求迭代优化模型架构，完成对模型的数据处理，训练与优化。\n\n4、深入调研具身智能领域相关的前沿技术，跟踪业内大模型领域的最新进展并推进相关研究，探寻将最新技术应用到具身智能领域的可能性。\n\n\n\n\n职位要求：\n\n1、人工智能、计算机视觉、自然语言处理等相关领域的硕士及以上学历；\n\n2、精通Python，具有良好的深度学习基础，熟悉TensorFlow、PyTorch等深度学习框架；\n\n3、具备大模型领域的研究经验，对Transformer、BERT、GPT等模型有深入理解，有科技公司高阶技术岗位经历者优先，有发表过有影响力的学术论文者优先。\n\n4、具备优秀的学习能力，英语水平，以及良好的团队沟通与协作能力。"
+    }
+  },
+  {
+    "seq": 49,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|08d37754-9c8a-44b5-80af-23b4ec0f41d0|b19c54ccde9e5965434745b11c9633bb058d1dc7829f8648c65f936b23abb6eb",
+    "reading_id": "N0148",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身大模型算法工程师-苏州",
+    "pilot": false,
+    "fields": {
+      "duties": "职位描述：  \n\n参与工业具身大模型的数据采集、清洗、标注与评估。  \n\n实现并优化VLA模型在机器人控制中的推理接口，完成模型压缩与加速。  \n\n配合仿真团队生成大规模合成数据，提升模型泛化能力。  \n\n跟踪前沿大模型技术，进行快速原型验证与效果对比。  \n\n\n\n\n任职要求：  \n\n计算机/人工智能硕士，1年以上自驾或机器人VLA开发经验。   \n\n熟悉VLM，VLA，WAM核心原理与架构，具备深度学习、计算机视觉基础理论与实践经验。\n\n熟练使用Python，熟悉PyTorch/Jax深度学习框架，有完整的VLA/WAM/VLM训练、部署、微调经验，有模型加速、推理优化经验者优先。\n\n熟悉熟悉pi0，pi0.5，pi 0.6，DreamZero，Lingbot-VA等主流VLA/WAM模型架构与实践细节，有相关模型调优经验优先。\n\n具备真实机器人算法实际部署、调试落地经验优先。\n\n熟悉ROS与机器人学基础，熟悉Linux开发环境，代码规范、工程实现能力良好。"
+    }
+  },
+  {
+    "seq": 50,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|9a4ce845-16a9-4033-93d7-b216ce7e0122|af9ef603462dc1272c2366d25655615c2be9423ed4dae753478bab7c88e20f76",
+    "reading_id": "N0149",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "具身大模型算法专家（VLA/VLM）-苏州",
+    "pilot": false,
+    "fields": {
+      "duties": "职位描述：  \n\n研发用于工业具身机器人的视觉-语言-动作（VLA）大模型与可交互世界模型，实现跨任务零样本泛化。  \n\n设计适合工业环境的轻量化大模型架构（蒸馏、量化、混合专家），支持边缘端实时推理。  \n\n探索基于世界模型的预测、规划与因果推理能力，提升机器人在非结构化环境中的自主性。  \n\n带领团队构建具身多模态数据集，设计预训练与微调策略。  \n\n\n\n\n任职要求：  \n\n博士，深度学习/多模态方向，3年以上大模型（如LLaVA、PaLM-E、RT-2系列）研发经验。  \n\n熟练使用PyTorch/TensorFlow，大规模分布式训练及模型部署（TensorRT，ONNX）。  \n\n有世界模型或基于模型的强化学习论文或落地项目者优先。  \n\n优秀的算法创新与工程落地平衡能力。"
+    }
+  },
+  {
+    "seq": 51,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|6d7045d4-9874-4963-8793-35595f868889|d49bf2201e8038d060165342e4f65612726f34ede16d3f11676d329ddcb092e4",
+    "reading_id": "N0158",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "强化学习算法工程师-苏州",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责： \n\n机器人操作强化学习算法开发： 负责研发和优化用于人形机器人精细操作（如抓取、放置、装配、工具使用等）的强化学习（RL）算法，包括但不限于离线强化学习、真机强化学习等。\n\nVLA+RL后训练方案设计与实现:与视觉-语言模型团队紧密协作，共同设计并实现将大规模视觉-语言模型与强化学习策略相结合的算法框架，用于提升机器人的任务理解、泛化能力和人机交互水平。\n\n仿真与真实世界训练： 构建高保真度的物理仿真环境，主导从仿真训练到真实机器人平台迁移部署的全流程，解决sim-to-real等关键问题。\n\n技术落地与迭代： 将算法应用于实际机器人产品，通过真实场景测试持续迭代优化算法性能、稳定性和效率。\n\n技术前瞻与创新： 跟踪领域内最新进展，探索将前沿AI技术应用于机器人感知-决策-控制闭环的创新方案。\n\n\n\n\n\n\n\n任职要求：         \n\n1、学历与经验：\n\n硕士及以上学历，计算机、人工智能、自动化、机器人等相关专业\n\n2年以上强化学习相关研究或项目经验，有机器人领域（特别是操作、移动控制）实际项目经验者优先。        \n\n\n\n\n2、核心技术能力：\n\n精通强化学习： 深入理解主流RL算法（DRL、IL、Offline RL等），有使用PyTorch/TensorFlow、Isaac Gym/Mujoco等工具进行机器人控制相关算法开发的经验。\n\n熟悉VLA/VLM： 了解视觉-语言模型的基本原理（如CLIP、BLIP、GPT-4V等），对多模态学习、指令跟随有实践经验者优先。\n\n扎实的工程能力： 优秀的Python/C++编程能力，熟悉Linux开发环境，具备良好的代码风格和工程化习惯。        \n\n\n\n\n3、附加能力：\n\n具备优秀的沟通能力和团队协作精神，能够清晰地在跨职能团队（算法、软件、硬件）中阐述技术方案。\n\n对机器人技术充满热情，具备强大的自驱力、学习能力和解决复杂问题的能力。\n\n在顶级会议（如CoRL, RSS, ICRA, IROS, NeurIPS, ICML）有相关论文发表者优先。"
+    }
+  },
+  {
+    "seq": 52,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|05dcfdcf-7945-416a-abf6-df7a03c74538|bc13718952820dc2a3c5d15a8a9f66040429202bdffe35b199ca812a718d2e8b",
+    "reading_id": "N0159",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "感知算法工程师-苏州",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责:\n\n1、负责机器人在各种场景下的常用感知任务的开发与实现，包括但不限于目标检测、语义/实例分割、物体位姿估计等任务。负责感知模型的架构设计、训练、调优工作，确保感知模型能够实时高效地支持机器人导航与双臂规划任务；\n\n2、探索并开发用于物体位姿估计的轻量化模型，研究与实现基于基础模型（foundation model）的创新解决方案，优化模型在实际应用中的精度与速度；\n\n3、参与机器人3D视觉感知、三维语义分割、拓扑地图等研发。\n\n\n\n\n任职要求：\n\n1、硕士及以上学历，3-5年工作经验。熟悉主流目标检测、分割、物体位姿估计模型，至少具备对以下一种模型的深度理解与运用：YOLO系列、SAM系列、FoundationPose、SAM-6D等；\n\n2、熟悉3D点云数据处理方法，能够使用常见的点云处理库（如PCL、Open3D）进行物体检测、配准、分割和重建任务，或掌握基于深度学习的点云处理方法，如点云分割；\n\n3、熟悉Ubuntu操作系统和机器人操作系统(ROS)，能熟练使用C++、Python进行感知模块的开发与调试；\n\n4、有实际参与机器人项目开发的经验，了解机器人感知、定位、路径规划等模块的工作流程，能够有效协同其他团队成员完成复杂的机器人感知任务；\n\n5、具有创新精神，能够探索和提出新的感知任务解决方案，特别是在轻量化模型和大规模基础模型的应用上有深入研究；\n\n6、具备仿真数据采集经验，了解Issac Sim/Mujoco/Gazebo等仿真软件者优先。"
+    }
+  },
+  {
+    "seq": 53,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|7808930e-79f2-4328-a0d0-209c03008c89|dbc6cf4366f019f02a4c4c1f6c712421798adabddba6e704acea02087551ab90",
+    "reading_id": "N0163",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "3D人体算法研究员",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位要求：\n\n1.负责研发多模态3D人体Tracking与生成模型，包括姿态泛化及人物动作细节优化。 \n\n2.构建多模态3D人体Tracking与生成的端到端pipeline，完成从数据处理、算法迭代到系统部署的全流程优化。 \n\n3.实现基于人物视频、语音、文本等多模态条件的3D人体生成。 \n\n4.独立验证算法方案，通过实际测试确保模型在虚拟人及具身智能场景中的稳定性。 \n\n5.与工程和产品团队紧密协作，推动技术从实验到落地的高效转化。\n\n\n\n\n岗位要求：\n\n1.硕士及以上学历，计算机、人工智能、图形学或相关专业背景。 \n\n2.精通3D人体Tracking与生成技术（SMPL/SMPL-X）。 \n\n3.熟悉ViT，Diffusion框架。 \n\n4.熟练使用PyTorch、PyTorch3D及3D工具（如Unity，Blender），具备扎实的Python/C++编程能力。 \n\n5.有具身智能、机器人仿真（Isaac Gym）或顶会论文（CVPR/ICCV/SIGGRAPH）经验者优先。 \n\n6.逻辑清晰，能快速学习新技术，对3D生成与智能体交互有强烈热情。"
+    }
+  },
+  {
+    "seq": 54,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|2bbec48f-96e7-4999-8126-d3b3c371d689|9d2fe425758bec387ca4b90f61fe0c1048e40cfa8345b5ee172681017e716ccc",
+    "reading_id": "N0009",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "机器人系统软件开发工程师-27届校招",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1、参与机器人整机系统软件架构设计、研发、持续优化；\n\n2、参与机器人本体侧监控体系的搭建,协助完成跨模块的集成、测试；\n\n3、与周边团队协作,支持机器人仿真、SDK研发工作；\n\n4、负责机器人助手工具的开发、维护；\n\n4、处理日常软件运维问题(启动失败、依赖缺失、日志报错、进程异常、配置错误等)。\n\n\n\n\n任职要求\n\n1、计算机、人工智能等相关专业本科及以上学历；\n\n2、熟练掌握Linux环境下C/C++编程，熟悉常用数据结构和算法；\n\n3、了解RPC/发布订阅、序列化(Protobuf/FlatBuffers等)或有SDK封装经验；\n\n4、工作认真负责，具备产品意识，拥有优秀的问题分析解决能力；\n\n5、有机器人相关项目开发经验者优先。"
+    }
+  },
+  {
+    "seq": 55,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|cb550f85-d1d7-4189-be4f-2dbf046541e6|4d4396d45bf74e2f4a104a6bf5175a1f19c4a7d44d9bbc42552a3065c2f91bf6",
+    "reading_id": "N0010",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "机器人基础软件开发工程-27届校招",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n\n1.参与机器人 Linux 基础软件、中间件及系统工具开发；\n\n2.参与通信、调度、数据采集、SDK 等模块开发与优化；\n\n3.参与机器人数据闭环、仿真及 HIL 测试系统建设；\n\n4.参与系统性能分析、稳定性优化及问题定位。\n\n\n\n\n任职要求\n\n5.本科及以上学历，计算机、软件、电子、自动化等相关专业；\n\n6.熟悉 C/C++，具备良好的数据结构、算法及编程基础；\n\n7.熟悉 Linux 开发环境，了解多进程、多线程及网络编程；\n\n8.了解 TCP/IP、UDP 等网络协议；\n\n9.具备良好的学习能力、问题分析能力和团队协作能力。加分项\n\n有 ROS/ROS2、DDS、MQTT、机器人开发、嵌入式 Linux、数据采集、仿真或系统性能优化相关项目经验。"
+    }
+  },
+  {
+    "seq": 56,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|ddcbba46-c94d-4eaf-be0c-4fa63532293c|21a28ce8de92fa3d8494650b9253a5241a47fc1d50ff77029ecf34d758393c13",
+    "reading_id": "N0011",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "C++开发实习生",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n\n1. 参与机器人应用软件的设计、开发与维护，负责相关模块的代码编写和调试；\n\n2. 配合实施团队完成软件在机器人平台上的工程化部署和性能调优；\n\n3. 编写技术文档，参与代码评审，保证代码质量和规范；\n\n4. 参与机器人应用软件与整机系统的集成测试与问题排查。\n\n任职要求\n\n基本条件\n\n- 计算机、自动化、电子工程、机器人、机械工程等相关专业，本科及以上学历在校生（硕士优先）；\n\n- 能保证每周5天实习，连续实习4个月以上。\n\n专业技能\n\n- 熟练掌握C/C++编程语言，了解现代C++常用特性，有良好的编程习惯和代码风格；\n\n- 熟悉Python，能完成测试脚本开发及SDK的Python封装工作；\n\n- 熟悉Linux操作系统，掌握常用Shell命令，掌握CMake/GDB/Git等常用的开发工具的使用；\n\n- 熟悉至少一种机器人通信中间件，如ROS/ROS2、FastDDS；\n\n- 熟练运用常用的数据结构和算法，具备一定的多线程/网络编程/操作系统知识；\n\n- 具备机器人运动学、传感器等相关领域知识或开发经验者优先。\n\n软素质\n\n- 具备较强的学习能力和自驱力，能快速上手新技术；\n\n- 具有良好的团队协作意识和沟通能力。\n\n加分项\n\n- 有机器人或工业平台软件的实际开发经验；\n\n- 了解Docker、CI/CD等工程化工具。"
+    }
+  },
+  {
+    "seq": 57,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|3c594649-7f7f-4cec-ae3a-01e9bb5ead9e|d6ac943bfdc0dd2d52339ca2ec524ef2776ea8d05666ba31f5fb223ca87f465c",
+    "reading_id": "N0012",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "Agentic RL开发实习生",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n协助核心具身智能 Agent 系统的工程实现与模块开发，参与从需求到上线的完整流程\n基于大语言模型开发 Agent 的工具调用、记忆管理、任务执行等核心功能模块\n设计并实现 Agent 的自动化测试用例，定位并修复系统 bug，优化执行成功率\n跟进 AI 领域最新的 Agent 技术进展，进行技术调研与原型验证\n协助整理技术文档，参与团队技术分享与代码评审\n配合算法工程师完成 VLA（视觉 - 语言 - 动作）模型的落地与集成工作\n\n\n\n\n任职要求：\n\n计算机、自动化、数学、电子工程等相关专业本科及以上在读\n精通 Python 编程语言，有良好的代码风格和编程习惯\n了解大语言模型的基本工作原理，有 LLM 相关项目或课程经验\n有至少 1 个完整的软件开发项目经验，熟悉 Git 版本控制工具\n具备快速学习能力和解决问题的能力，对 AI 技术有浓厚兴趣\n具备良好的沟通能力和团队协作精神，能够按时完成分配的任务\n\n\n\n\n加分项（算法背景优先）\n\n有机器学习、深度学习基础，熟悉 PyTorch/TensorFlow 等深度学习框架\n有 Agent、RAG、Prompt 工程相关的项目或研究经验\n有计算机视觉、自然语言处理、机器人控制相关的开发经验\n参加过 ACM、Kaggle、全国大学生数学建模竞赛等并取得优异成绩\n有开源项目贡献经历，或在相关领域发表过论文\n熟悉 C++/Rust 等高性能编程语言\n了解 Docker、Kubernetes 等容器化技术"
+    }
+  },
+  {
+    "seq": 58,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|003e0d32-8b9a-490c-98fe-12cf0be3960f|f6a1c23f697cd6de268d61f8d0083bec7ae28e7bd8d582226ac231549472f8c6",
+    "reading_id": "N0021",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "后台开发工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n\n1、负责公司机器人相关业务系统（机器人调度、运营、运维等中后台）的服务端和接口开发\n\n2、参与业务系统线上维护、问题定位与修复，保障业务稳定运行\n\n3、持续迭代和优化系统，提升性能、可用性、可扩展性\n\n4、与产品紧密协同，将技术方案落地到机器人相关业务场景\n\n5、参与系统架构设计、技术选型、Code Review，推动工程效能提升\n\n\n\n\n任职要求\n\n1、统招硕士学历，计算机 / 软件 / 电子 / 通信等相关专业\n\n2、扎实的计算机基础：数据结构、算法、操作系统、计算机网络、数据库\n\n3、熟练掌握至少一种主流后端语言（Go / Java / Python / C++），有完整后端项目经验优先；\n\n4、熟悉至少一种主流数据库（MySQL / PostgreSQL / MongoDB）和缓存（Redis）\n\n5、了解消息队列（Kafka / RabbitMQ / RocketMQ）、微服务框架、Docker / Kubernetes\n\n6、有 ACM-ICPC / CCPC / 数学建模 / Kaggle / 顶会论文 / 开源贡献 / 机器人 / 智能硬件项目经验者优先"
+    }
+  },
+  {
+    "seq": 59,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|f7d9d2ed-2106-4618-a98f-b2084fbcfc37|da920e0eb817cd77808f39f66bbf2a75902c7cba8978b76940268a4668348c94",
+    "reading_id": "N0024",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "应用开发工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n\n1、负责机器人应用功能开发，包括人机交互逻辑、多模态响应机制、复杂动作控制、业务流程自动化等核心技能模块的设计与实现。\n\n2、基于类ROS机器人操作系统，进行应用层软件开发与模块集成，确保各功能模块稳定协同运行。\n\n3、参与应用场景的实地开发，复现并解决运行过程中的问题，优化用户体验与系统稳定性。\n\n4、编写相关技术文档（设计文档、使用手册等），确保技术资料的完整性与可追溯性。\n\n5、与产品、算法、硬件等团队协作，推动项目落地，确保产品按时交付并满足客户需求。\n\n\n\n\n任职要求\n\n1、统招硕士学历，计算机科学与技术、机器人工程、自动化等相关专业，有机器人应用开发经验者优先。\n\n2、扎实的计算机基础：数据结构、算法、计算机网络、操作系统。\n\n3、精通 C++/Python 编程语言，具备 Linux 环境下的开发经验，编码规范良好；熟悉 ROS1/ROS2 框架及相关工具链。\n\n4、热爱机器人，有机器人相关比赛（RoboMaster、RoboCon、RoboCup 等）经历者优先。\n\n5、懂硬件，熟悉常用的总线（CAN / SPI / I2C / UART / Ethernet 等）。"
+    }
+  },
+  {
+    "seq": 60,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|e9e3cd65-25d6-4091-b887-dae3efe3dce3|a7d2cb36a5690c2aa7370a67505ac29f9cd229533a79c80e6bc1b855e24b905c",
+    "reading_id": "N0050",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "具身算法生态实习生",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n\n设计并持续迭代机器人二次开发工具链，涵盖数据采集、模型训练、仿真环境、模型部署与算法应用，让开发者以最短路径跑具身智能应用流程\n\n基于强化学习、模仿学习等范式，产出高质量 Demo 与场景示例，沉淀配套文档与最佳实践，成为社区参考标准\n\n搭建 Agent 工作流，探索具身智能应用开发的新型范式，推动工具链与 LLM/VLM 能力深度融合\n\n参与 Isaac Lab、Newton、Mujoco 等主流仿真平台的集成适配，打通仿真与真机之间的端到端工作流\n\n深度对接 ROS、Hugging Face、Github 等开源生态，维护开源仓库，持续输出示例与文档，在社区建立技术影响力\n\n参与重要技术会议与开发者大会的分享演讲，代表团队在前沿社区一线发声，支持 Workshop 与 Hackathon 现场技术演示\n\n响应开发者社区的技术问题与 Issue，深度理解开发者痛点，将真实反馈反哺到工具链迭代中"
+    }
+  },
+  {
+    "seq": 61,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|9a155f23-929f-45d8-af1a-d1455c69f881|8f38f81983d851afda4ba49e945a68884a114b2da23214e80676110015f3a689",
+    "reading_id": "N0081",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "机器人软件系统工程师-人形方向",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n\n负责机器人软件系统架构设计与开发，打通操作端、服务端、机器人端及感知、决策、控制模块间的通信链路。\n负责机器人遥操作平台开发，包括实时视频、状态监控、任务下发、控制面板、地图轨迹、告警及数据回放等功能。\n负责后端服务和通信中间件建设，实现设备接入、指令分发、状态同步、权限管理、服务发现和任务调度。\n优化控制指令、状态数据、音视频及传感器数据传输，解决低延迟、丢包、弱网、断线重连和数据一致性问题。\n负责机器人数据系统建设，支持图像、视频、点云、关节状态、控制指令及任务日志的采集、存储、检索和回放。\n设计缓存、数据库、对象存储和数据管理方案，为算法训练、问题定位、仿真回放和模型评测提供支持。\n参与推理系统数据链路设计，优化感知、决策和控制模块间的数据传输、缓存和任务调度。\n负责日志监控、链路追踪、异常告警、性能分析和故障恢复，提升系统稳定性与可观测性。\n与算法、硬件、嵌入式、测试及产品团队协作，制定通信接口和数据规范，推动系统持续演进。\n\n\n\n\n任职要求\n\n本科及以上学历，计算机、通信工程、软件工程、自动化、电子信息等相关专业。\n具备机器人软件、遥操作平台、数据系统、中间件或分布式系统开发经验。\n具备前后端开发经验，熟悉React、Vue等前端框架，以及WebSocket、WebRTC或常用可视化技术。\n熟悉后端服务开发，掌握HTTP、RESTful API、RPC、gRPC、消息队列、缓存和任务调度。\n熟悉TCP/IP、UDP、DDS、ZeroMQ、ROS或ROS 2等通信协议和框架。\n了解实时音视频、视频编解码、弱网优化、时间同步和多传感器数据同步。\n熟悉关系型数据库、时序数据库、对象存储、缓存和数据检索系统。\n理解机器人感知、决策、控制及模型推理过程中的数据流和性能瓶颈。\n熟悉多线程、多进程、异步编程、网络编程和共享内存，具备高并发、低延迟系统调优经验。\n精通C++和Python，具备Linux环境下开发、部署、调试和性能分析经验。\n\n\n\n\n加分项\n\n具有人形机器人、移动机器人、机械臂或无人系统软件开发经验。\n具备机器人遥操作、数据采集、数据标注或模型评测平台建设经验。\n具备实时视频、点云、地图、轨迹或数字孪生可视化经验。\n熟悉Docker、Kubernetes及常用监控和日志系统。\n具备云边端协同、多机器人管理、远程升级或权限审计经验。"
+    }
+  },
+  {
+    "seq": 62,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a8b071ec-7941-4076-b2f6-4861a9cc783a|2abe26961faeb9e381b946c0fdf1d6319025d86847d375198df7eefcd581c3bb",
+    "reading_id": "N0091",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "机器人规控软件工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "职位描述\n\n\n\n\n核心平台开发与接口标准化：\n\n1.负责机器人规划、控制等核心功能模块的软件实现与性能优化，同时主导设计并实现标准化、易用的二次开发接口（SDK/API），确保平台功能完整且对外暴露清晰，为上层应用生态奠定基础。\n\n2.规控算法平台化集成：将算法团队的路径规划、行为决策、运动控制等研究成果，以插件化、配置化的方式集成到平台框架中，降低算法接入门槛，提升算法迭代与平台版本更新的效率。\n\n3.二次开发工具链与文档建设：开发并维护面向二次开发者的仿真调试工具、可视化分析工具、示例代码库及技术文档模板，构建完善的开发者辅助体系，降低第三方开发者的学习与接入成本。\n\n4.平台性能与可扩展性优化：分析并优化规控平台的实时性、资源占用及系统稳定性，同时确保平台架构具备良好的可扩展性，支持多种机器人形态与应用场景的二次开发需求。\n\n5.生态协同与技术支持：与内外部开发者紧密协作，快速定位并解决平台在实机测试及二次开发过程中暴露的软件缺陷与系统异常，收集开发者反馈并持续改进平台功能，推动规控开发生态的良性循环。\n\n\n\n\n职位要求\n\n基础能力\n\n1.计算机科学、自动化、电子信息、机械电子等相关专业本科及以上学历。\n\n2.五年以上Linux平台下的C++开发经验，精通C++11/14/17标准，深刻理解面向对象、泛型编程及现代C++最佳实践，具备良好的工程化编码习惯。\n\n3.出色的软件架构设计能力，能够编写结构清晰、可维护、可测试的高质量代码，熟悉设计模式与模块化开发。\n\n4.熟练掌握Linux开发环境，具备扎实的操作系统、数据结构、网络编程和多线程编程基础。\n\n\n\n\n领域知识与经验\n\n1.对机器人学有基本认知，熟悉运动学、动力学、运动规划、PID控制等基本概念。\n\n2.了解常见路径规划算法（如A*、RRT系列等）和轨迹优化方法，以及常见控制算法（如PID、MPC、LQR等）及其应用场景。\n\n3.能够理解算法原理，与算法工程师顺畅沟通，准确将算法设计转化为平台功能模块，并能从二次开发角度对接口易用性提出优化建议。\n\n\n\n\n平台化与生态构建经验（优先项）\n\n1.有机器人操作系统（ROS/ROS2）实际项目开发经验，熟悉其节点通信、消息定义、Launch文件及插件机制，具备基于ROS/ROS2进行平台二次封装的经验者优先。\n\n2.拥有在真实机器人平台（如移动机器人、机械臂、无人机等）上进行软件开发和调试的经验，有参与或维护过开源机器人项目、开发者社区或技术文档编写经验者优先。\n\n3.有设计过面向第三方开发者的SDK、插件系统或脚本绑定（如Python绑定）经验者优先，对开发者体验（DX）有敏锐感知。-"
+    }
+  },
+  {
+    "seq": 63,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|106afaad-a17d-47cb-9a8b-f764d3746190|02d7e2451c608f2533377005f36cd64f3c99a67764730f914b6022280c249317",
+    "reading_id": "N0095",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "人形机器人系统开发工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责： \n\n- 负责业务模块的设计与开发，确保代码质量和系统稳定性\n\n- 与系统团队和中间件团队深入沟通，理解底层架构和技术实现\n\n- 分析系统架构和工作原理，为业务开发提供系统层面的支持\n\n- 快速定位和解决系统层面的问题，提升整体系统性能- 设计合理的网络拓扑结构和扩展方案，确保网络架构的可扩展性和可靠性\n\n- 参与系统架构评审，提出优化建议\n\n- 编写技术文档，分享系统知识和最佳实践- 计算机科学、软件工程或相关专业本科及以上学历\n\n\n\n\n岗位要求：\n\n- 至少3年以上的软件开发经验，有系统级开发经验者优先\n\n- 熟练掌握 C++ 和 C，有扎实的代码阅读、分析与调试能力\n\n- 熟悉Linux/Unix系统，了解系统调用和内核机制\n\n- 具备良好的网络基础知识，熟悉TCP/IP、UDP等协议\n\n- 了解常见中间件（如消息队列、缓存、数据库中间件等）的工作原理\n\n- 具备网络拓扑设计和规划能力\n\n- 优秀的沟通协调能力，能够跨团队协作\n\n- 强烈的责任心和解决问题的能力"
+    }
+  },
+  {
+    "seq": 64,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|3bdbbd92-e08f-4adc-a8b0-f1037b719bd2|15ab068a5514a916f9ce51a592c4106c12b72ea963b0f99e273b7e6d5edd9a58",
+    "reading_id": "N0111",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "应用开发工程师（产线工具方向）",
+    "pilot": false,
+    "fields": {
+      "duties": "基于Qt框架开发产线自动化工具（如工控上位机、测试程序、数据采集系统等），支持高并发、低延迟的工业场景需求。\n\n设计模块化架构，实现工具与传感器、机械臂等硬件设备的稳定通信（Modbus/OPC UA等协议）。\n\n优化工具性能（内存管理、多线程调度），确保长时间运行的稳定性。\n\n与生产部门协作，分析产线痛点，快速迭代工具功能（如报表生成、异常报警、远程监控等）。\n\n提供技术文档及培训，支持现场部署与故障排查。"
+    }
+  },
+  {
+    "seq": 65,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a78eacea-6734-455e-82a4-63dfc4e3585b|fd85bf68af9c7cd2143757a2072d6fdf0cf0f9d8201bfab4784fb9d9e994e5ad",
+    "reading_id": "N0127",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "人形机器人应用开发",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1. 机器人本体应用开发：负责具身智能机器人本体上的应用层软件开发，围绕真实业务场景，完成任务逻辑、行为编排及系统集成。\n\n2. AI能力工程化：负责AI模型在机器人本体上的部署与优化；基于语音识别、语音合成、大模型等能力，开发机器人对话、情绪反馈、主动交互等功能，提升机器人的“可沟通性”与拟人化体验。\n\n3. 多模态情感交互实现：负责人机/情感/社交交互功能在机器人本体上的落地，包括语音、动作、表情等多模态交互行为的设计与工程实现。\n\n4. 感知-决策-执行闭环：参与机器人闭环系统的应用落地，将上层交互逻辑与底层运动、感知模块在本体上进行高效衔接。\n\n5. 整机调试与环境搭建：支持机器人实验环境搭建，包括传感器接入、整机联调、应用demo开发及真实场景验证。6. 跨团队协作：与算法、硬件团队紧密配合，完成功能快速迭代与问题定位。\n\n\n\n\n任职要求：\n\n1. 本科及以上学历，机器人、计算机、自动化、电子信息等相关专业。\n\n2. 熟练使用 Linux，具备良好的开发与调试习惯；熟悉 ROS/ROS2 中间件，有节点通信、消息机制、状态机等实际使用经验。\n\n3. 熟练掌握 C++ 和 Python，能够独立完成机器人应用层逻辑开发、接口封装与系统集成。\n\n4. 具备人机交互/多模态交互意识，理解语音、文本、动作、表情在机器人上的协同关系。\n\n5. 对情感表达、社交交互、陪伴型/服务型机器人方向有浓厚兴趣，能从用户体验角度设计交互流程。\n\n6. 了解常见机器人硬件（如激光雷达、深度相机、麦克风阵列、伺服电机等），能配合硬件进行联调与问题排查。\n\n7. 热爱机器人领域，有机器人比赛或实际项目经验者优先。"
+    }
+  },
+  {
+    "seq": 66,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|c8bd102d-5dcb-4e6c-953f-19be12185128|8bc0935efe7a341f938270637c4fa439cdb9203cd1a9233b45bb3fb5a5c903d7",
+    "reading_id": "N0133",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "分布式文件工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n\n负责多云统一存储中心架构设计与研发，基于分布式文件缓存存储底座，实现跨云多节点数据同步、统一数据访问能力。\n\n负责数据湖存储加速产品功能迭代、线上运维与业务支撑，持续优化分层缓存、数据预取、跨区域同步能力，保障平台稳定可靠运行。\n\n面向大模型训练、多模态数据处理场景打造 AI 存储解决方案，推动存储系统在大规模 AI 训练、推理业务落地，优化 I/O 链路，提升 GPU 算力利用率。\n\n跟进分布式高性能存储前沿技术，开展产品调研、方案预研与技术创新，持续迭代多云存储架构，解决元数据规模、跨云吞吐、数据一致性等技术挑战。\n\n任职要求\n\n本科及以上学历，分布式存储、文件系统相关领域 3~5 年研发经验。\n\n扎实计算机体系、操作系统、计算机网络基础，熟练掌握 Linux 平台后端开发（Go/C++ 优先），具备良好服务端编码与性能调优能力。\n\n具备分布式文件存储、对象存储、缓存加速系统研发经验；有 JuiceFS、Alluxio 深度实践、二次开发或性能优化经验优先。\n\n熟悉数据湖、AI 训推场景存储负载特征，拥有大规模数据集管理、跨区域数据同步项目经验加分。\n\n优秀自主学习能力，良好沟通表达与团队协作能力，能够承受业务迭代压力，主动推进技术方案落地。"
+    }
+  },
+  {
+    "seq": 67,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|6104b7de-18f6-48af-95f6-c3f995795605|80e7baa28a118d7e4ff86a23e17d637f213f32ec82c78473df6aec418ff55739",
+    "reading_id": "N0134",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "Elasticsearch 工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n\n负责 Elasticsearch 管理平台架构设计与研发，搭建多维度检索引擎底座，基于 Elasticsearch 设计、落地高性能数据检索产品，支撑复杂多条件、多维度混合检索业务需求。\n\n参与大数据实时计算平台架构设计与开发，对接实时 / 离线数据源，构建数据接入、清洗、同步、索引构建全链路检索流水线。\n\n深度理解业务检索场景，持续优化检索架构、查询策略，解决检索延迟、相关性、集群稳定性、容量规划等线上问题，推动检索平台持续迭代升级。\n\n面向内部业务与外部客户提供检索技术支撑，定位并解决集群运维、查询性能、数据一致性各类问题，沉淀检索平台标准化能力。\n\n任职要求\n\n计算机、数学、统计学等相关专业，编程基础扎实，熟悉常用数据结构与算法；熟练掌握 Java + Scala/Python/Go 至少两门编程语言。\n\n精通 Elasticsearch 核心原理，具备 ES 平台自研开发经验；熟悉集群部署、分片规划、索引设计、查询优化、监控告警、故障排查、容量治理，具备大规模集群性能调优实战经验；具备多维度检索场景落地经验优先。\n\n熟悉大数据技术生态：熟练使用 Flink 实时计算引擎、Kafka 消息队列，了解 Hadoop 生态、主流 OLAP 引擎，能够设计数据流同步至 ES 的完整链路。\n\n具备良好分布式系统、中间件架构设计能力，可以独立完成检索子系统方案设计、编码落地。\n\n具备良好沟通协调能力，逻辑清晰，较强的责任心与团队协作意识。\n\n加分项\n\n有检索相关性排序优化、向量检索、混合检索实战经验；\n\n参与过 ES 管控平台、检索中台类项目开发；\n\n有数仓建设、海量日志 / 业务数据检索落地经验。"
+    }
+  },
+  {
+    "seq": 68,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|8dfdeb56-bddb-47e0-80e5-a480abba29f8|9fabfca5eda2dff9493fc65729aa026fa4851afdc32b09bb85c07fe3df396a97",
+    "reading_id": "N0141",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "相机应用开发工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n负责相机传感器的图像采集，质量优化，解决噪声、畸变、低照度等问题，确保输出符合算法需求\n\n基于NVIDIA Jetson 平台部署优化图像处理的资源（CUDA加速等）满足嵌入式系统性能约束\n\n设计多相机同步采集方案，支持高帧率、低延迟的图像处理流程\n\n基于不同模型能完成传感器的基础的内外参的标定，输出传感器的性能测试文档\n\n\n\n\n岗位要求：\n\n- 本科及以上学历，计算机、通信、电子信息、自动控制等相关专业。\n\n- 熟悉Opencv，OpenGL等图像处理库。\n\n- 有Jetson Orin开发经验，有过libargus的使用经验。\n\n- 快速学习能力，良好的团队协作精神和敬业精神。\n\n- 有ISP（图像信号处理）经验或FPGA开发能力者优先"
+    }
+  },
+  {
+    "seq": 69,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|c543efce-d0b0-4dc8-bfae-b8b58723c7c7|a9d79c8bd6c5da0a03644ba5a0fc2296e3fb0ff690f3b6405adf516f77007eaf",
+    "reading_id": "N0153",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "服务端工程师（机器人&情感交互方向）",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责： \n\n1. 负责机器人相关的服务端系统设计与开发，为机器人端提供稳定、高可用的 API 与后台服务支持。\n\n2. 构建和维护机器人情感交互 / 人机对话相关的服务，包括对话管理、情绪状态管理、上下文记忆、用户画像等。\n\n3. 负责对接和封装 大模型 / 语音服务 / 多模态模型，为机器人端提供统一、可扩展的服务接口。\n\n4. 设计并实现机器人云端状态管理与数据同步机制，支持机器人多设备、多实例、长期运行场景。\n\n5. 负责机器人交互数据、行为日志、感知数据等的存储、分析与回放，支持算法优化和产品迭代。\n\n6. 与机器人端、算法、产品团队协作，完成端–云协议设计、版本管理和系统联调。\n\n7. 参与系统稳定性建设，包括服务监控、日志、告警、故障定位和性能优化。\n\n\n\n\n岗位要求：\n\n1. 计算机相关专业本科及以上学历，具备扎实的计算机基础。\n\n2. 熟练掌握至少一种主流服务端开发语言（Python / Go / Java 至少一种），有实际项目经验。\n\n3. 熟悉常见的服务端架构与开发模式，理解 REST / WebSocket / gRPC 等通信方式。\n\n4. 熟悉 Linux 服务器环境，具备基本的部署、调试和排障能力。\n\n5. 熟悉常见数据库与中间件（如 MySQL / PostgreSQL / Redis / Kafka / MQTT 等），能根据机器人业务合理选型。\n\n6.具备良好的工程意识，理解服务端在机器人实时性、稳定性和弱网络场景下的特殊要求"
+    }
+  },
+  {
+    "seq": 70,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|5429c29b-33fb-442e-9273-e282538c2165|2d4f72e671e66062f65646db7d20fc7bb4864cf8115f7464fce8dae226e765d1",
+    "reading_id": "N0166",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "操作系统研发工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n\n1、参与Linux内核核心模块(调度、内存、文件系统、I/O、网络协议栈等)等的设计、开发与优化；\n\n2、分析和解决内核层的性能瓶颈、稳定性及安全性问题；\n\n3、优化内存管理子系统，提升内存利用率及访问效率；\n\n4、调研并调优中断子系统，降低延迟与抖动；\n\n5、调研OS层面的高效资源调度方案，支持大规模Agent并发运行；\n\n6、协同硬件同事，实现业务的定制化需求；\n\n\n\n\n任职要求\n\n1、3年以上Linux内核或系统级软件优化经验；\n\n2、计算机、电子、通信或相关专业，统招本科以上学历；\n\n3、精通操作系统原理，掌握Linux内核分析与调试；\n\n4、熟悉CPU架构(x86/aarch64)，掌握系统性能分析工具；\n\n5、熟悉Linux内核机制(调度、内存、I/O、网络栈)，掌握系统调度优化方法；"
+    }
+  },
+  {
+    "seq": 71,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|d915dbb2-a778-44db-8419-b822a7a7aa00|cd1b09b365b2a7131533d486e5b5190723c85c8dc1e6be3bdbfa168fd4cceaaf",
+    "reading_id": "N0169",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "机器人应用接口开发工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n参与机器人应用接口与 SDK 的设计、开发与持续维护，覆盖运动控制、数据采集、传感器接入等核心能力，保障接口的稳定性与易用性基于平台接口能力，面向迎宾引导、物品分拣等典型具身智能应用场景，提供端到端的技术解决方案并参与现场调试交付负责 ROS / ROS2 相关接口的开发与维护，推动机器人软件模块的标准化与工程化编写接口文档、使用手册与示例代码，持续优化开发者的接入体验跟踪集成商与开发者的使用反馈，将真实问题转化为迭代需求，参与工具链的持续改进任职要求\n\n\n\n\n岗位要求：\n\n海内外知名高校本科及以上学历，计算机、自动化、机器人、电子信息等相关专业\n\n精通 Python，熟练掌握 C++，具备扎实的 Linux 开发基础\n\n熟悉 ROS / ROS2 生态，有机器人软件开发经验\n\n有 SDK 或框架开发经验，理解 API 设计原则，重视接口稳定性与文档规范\n\n具备良好的工程习惯，有 Git 工作流实践经验，代码可读性强\n\n\n\n\n加分项\n\n\n\n\n熟悉机器人感知、运动规划或控制相关技术，有相关模块的开发或集成经验\n\n有具体应用场景（迎宾、分拣、巡检等）完整落地或现场交付经验\n\n有 NVIDIA Jetson 等边端平台部署经验\n\n熟悉多模态传感器数据采集与处理，了解主流数据格式与工具链\n\n有对外技术文档或开发者教程写作经历"
+    }
+  },
+  {
+    "seq": 72,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|10eacc31-a1bb-4779-8c3f-fcda27db3688|30a2ec19bb7092c1174951e8f06b0751ad7c924bccb409d354bf8f71c44499fb",
+    "reading_id": "N0173",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "中间件软件高级工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.参与机器人系统的整体架构设计和软件集成工作，参与中间件系统相关调优、调度模块开发、版本升级与性能测试。确保系统的稳定性和可靠性；\n\n2.支持C++/python语言下系统/控制等模块工具链相关搭建 ；\n\n3.支持数据采集及数据回传业务；\n\n4.构建自动化的数据闭环系统。\n\n5.构建硬件在环 (HIL)测试系统，为大模型提供基建\n\n\n\n\n岗位要求：\n\n1.本科以上学历，计算机科学或电子工程相关专业，5年以上工作经验；\n\n2.熟练掌握 C/C++编程，有5年以上的面向对象软件设计和开发经验；\n\n3.有设计或参与大型应用服务的经验，精通Linux系统原理，具备较强的软件服务、系统设计、实施、集成能力；\n\n4.熟悉 TCP/IP、UDP协议栈，熟练掌握网络编程、多进程、多线程编程技术；\n\n5.有机器人或智能汽车软件开发经验，熟悉 ROS2/CyberRT/AutoSAR 标准和规范者优先；\n\n5.工作认真负责，具备产品意识，拥有优秀的问题分析解决能力。"
+    }
+  },
+  {
+    "seq": 73,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|b6936723-356c-4729-8349-3481dc52364c|d7c10b7faa57a014f4a849261454c7046832974abda6c7f575e7fc3b16e8a2e7",
+    "reading_id": "N0175",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "机器人系统软件开发工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1、负责机器人系统相关软件的设计、研发、持续优化；\n\n2、参与嵌入式环境下高实时、高可靠、高宽带互联技术研发；\n\n3、参与嵌入式环境下操作系统、内核、虚拟化技术研发；\n\n4、参与嵌入式环境下分布式实时系统技术研发。\n\n\n\n\n岗位要求：\n\n1、计算机科学本科及以上学历，有6年以上的机器人或自动驾驶的系统设计、研发工作经验；\n\n2、熟练掌握Linux环境下C/C++编程，熟悉常用数据结构和算法；\n\n3、有参与过大型或量产项目，具备较强的系统软件设计、实施、集成能力；\n\n4、对操作系统的中断、内存、调度等有深入研究和理解；\n\n5、熟悉主流中间件技术，了解 DDS/ZeroMQ标准;\n\n6、熟悉高性能互联总线如 PCIE、TSN等；\n\n7、工作认真负责，具备产品意识，拥有优秀的问题分析解决能力。"
+    }
+  },
+  {
+    "seq": 74,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|cf0601f6-fc86-44eb-bd0b-f2e0ce3189e0|a90d50a636cb92dc24b6b333fbcfb83fad238c56d238f5852e29757756433b86",
+    "reading_id": "N0176",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "具身算法生态工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n\n参与机器人二次开发生态的设计、开发与维护，确保平台与接口的易用、稳定基于强化学习、模仿学习等技术开发高质量 Demo 与场景示例，输出配套文档与最佳实践搭建 Agent 工作流，实现具身智能应用开发新型范式参与主流仿真平台的集成适配，支持仿真与真机之间工作流的端到端打通推进开发者平台与开源生态（ROS2、Hugging Face 等）的对接，维护开源仓库，持续更新示例与文档支持开发者社区的技术问题解答，参与 Issue 响应与闭环协助 Workshop 及开发者活动的技术演示与现场支持\n\n\n\n\n任职要求\n\n本科及以上学历，计算机、自动化、机器人、人工智能等相关专业\n\n3 年以上软件开发经验，精通 Python，熟悉 C++\n\n熟悉 ROS/ROS2 生态，了解机器人软件开发流程\n\n有 SDK 或框架开发经验，理解 API 设计原则\n\n有独立复现开源论文或项目的经历，动手能力强，能快速在新领域上手\n\n具备良好的代码规范与文档习惯，有 Git 工作流实践经验，重视代码可读性与可复现性"
+    }
+  },
+  {
+    "seq": 75,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|3a3f7e6d-19fb-479e-a45e-84d219d4cb89|d4fa8498209b43151e93611ffd0ffd7a5112b9d63c2dd93625d093ff8b022413",
+    "reading_id": "N0179",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "高级前端开发工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责： \n\n1、负责前端基础设施与平台性产品的架构设计与核心开发；\n\n2、通过技术手段，提升产品用户体验并满足高性能要求；\n\n3、制定开发规范，搭建工程体系，提升产品质量和开发效率；\n\n4、攻克业务场景下的技术难点，提升团队的技术氛围；\n\n5、把握前端技术发展潮流，为团队建立明确的技术发展路线。\n\n\n\n\n 岗位要求：\n\n1、本科及以上学历，有良好的数据结构和算法基础，有扎实的编程能力；\n\n2、熟悉前端主流技术栈，具备全栈开发能力，主导过中大型项目架构设计；\n\n3、丰富的前端工程化经验，熟悉前端性能优化、构建、CI/CD 等流程；\n\n4、深入掌握前端主流框架(React、threejs、Vue)核心原理，有原生Web绘图技术项目经验的优先，如scg、canvas、webgl等；\n\n5、有丰富的2D/3D图形开发经验。"
+    }
+  },
+  {
+    "seq": 76,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|2a0e4f40-41e0-439f-b49a-3c521ba1fd16|8fc0797748149040991d8f48b04c01038aaa1a0548436a26c3d793ebd8cd2c37",
+    "reading_id": "N0183",
+    "company_id": "CN_GALBOT",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "应用开发工程师",
+    "pilot": false,
+    "fields": {
+      "duties": "岗位职责\n\n1. 熟悉机器人开发，能支持具身智能机器人应用层面开发。\n\n2. 熟悉机器人硬件，能支持实验平台搭建。\n\n3. 熟悉语音相关开发和大模型应用。\n\n\n\n\n任职要求\n\n1. 理工类专业本科以上学历。\n\n2. 熟练使用Linux系统；熟悉使用ROS等机器人中间件。\n\n3. 熟悉掌握Python和C++开发。\n\n4. 热爱机器人，有机器人相关比赛（RoboMaster、RoboCon、RoboCup等）经历者优先。\n\n5. 懂硬件，熟悉常用的总线。"
+    }
+  },
+  {
+    "seq": 77,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|c09a7805-2a30-4f94-aaf4-4547fb619047|0e1d66e359f057d18f0acf20bc93b7417e4dfeada324f412b41d01546f2a1f57",
+    "reading_id": "N0859",
+    "company_id": "US_DEXTERITY",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "Head of Computer Vision and Machine Learning",
+    "pilot": false,
+    "fields": {
+      "duties": "About Dexterity: \nAt Dexterity, we believe robots can positively transform the world.  Our breakthrough technology frees people to do the creative, inspiring, problem-solving jobs that humans do best by enabling robots to handle repetitive and physically difficult work.\n \nWe’re starting with warehouse automation, where the need for smarter, more resilient supply chains impacts millions of lives and businesses around the world.   Dexterity's full-stack robotics systems pick, move, pack, and collaborate with human-like skill, awareness, and learning capabilities.  Our systems are software-driven, hardware-agnostic, and have already picked over 15 million goods in production.  And did we mention we’re customer-obsessed?  Every decision, large and small, is driven by one question – how can we empower our customers with robots to do more than they thought was possible?\n \nDexterity is one of the fastest growing companies in robotics, backed by world-class investors such as Kleiner Perkins, Lightspeed Venture Partners, and Obvious Ventures.  We’re a diverse and multidisciplinary team with a culture built on passion, trust, and dedication.  Come join Dexterity and help make intelligent robots a reality!\n\nRequired Skills:\nMS or PhD in Computer Science, or a related discipline, or equivalent experience.\n2 or more years of experience leading a team of Computer Vision or Machine Learning engineers.\nAt least 5 years of experience in building ML datasets, data pipelines and serving architecture.\nCreating a culture of developing high quality models, tests and regressions\nStrong knowledge of Modern C++ and Python.\nExperience building, maintaining and improving production code.\n\nNice to haves:\nExperience with Docker and Kubernetes.\t\nExperience with cloud infrastructure such as AWS, GCP, Azure etc. and experience using this infrastructure to create training and serving pipelines.\n\nAbout the Role\nAs the Head of CV and ML, you will be leading a team of highly qualified and talented Machine Learning and Computer Vision engineers working on Dexterity’s computer vision and data analysis initiatives. The role will involve understanding our current products and future requirements and bringing your substantial expertise to augment the products and help us to meet the future requirements. Previous experience leading CV and ML teams to create CV models, large training sets as well as robust regression pipelines is a prerequisite for this role. \n \nWe are very interested in expertise around the subfields of semantic segmentation and instance segmentation and you will be involved in keeping up to date with the latest research papers in these areas and implementing them using platforms like PyTorch or TensorFlow. Robotics data also comes in a variety of different forms that are targets for models to help us predict and analyze behaviors emerging from our robotics systems. You will oversee the overall architecture and lead development of the perfect models, in addition to identifying additional opportunities throughout our system that can be solved with machine learning. \n\nIn order to thrive in this role you will have significant experience with RGBD datasets and point clouds as they are important to the type of problems you will encounter in robotics. You will have solid experience in writing optimized code in c++ and python and mentoring other developers. You will have experience architecting models, training pipelines and serving infrastructure at scale. The end to end process of gathering and augmenting data, creating balanced training/validation/regression sets, studying the performance of different models and optimizing their quality, and finally deploying and troubleshooting the models as part of a complex robotics system will be under your supervision. \n\n\n\nEqual Opportunity Employer\nWe are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status."
+    }
+  },
+  {
+    "seq": 78,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|570a7303-09f0-485a-b24a-7d5ea187dab4|9456fe7e160ba448d33e9bf8329aa43f8d01c3a86ad90db596bc83478fd5e9a2",
+    "reading_id": "N0868",
+    "company_id": "US_DEXTERITY",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "Senior Computer Vision Engineer",
+    "pilot": false,
+    "fields": {
+      "duties": "In this role at Dexterity, you will be working on writing Computer Vision code and building Machine Learning models for computer vision. The role will involve understanding our current systems and their limitations and bringing your expertise in Computer Vision and developing ML models. Additionally, you will be responsible for updating and scaling our current ML pipelines to cover more scenarios and improve accuracy.\n\nYou will leverage your expertise around the subfields of semantic segmentation and instance segmentation, keep up to date with the latest developments in these areas and implement them using platforms like Pytorch, Tensorflow etc... Experience with RGBD datasets and point clouds is very important to the type of problems you will encounter in this role and experience in the areas of ML and CV for autonomous vehicles or robotics is very useful. In addition, a solid grounding in writing optimized code in C++ and Python. Additionally, familiarity with cloud infrastructure to build training and serving pipelines is also a key aspect to this role. \n\nAt Dexterity, our use cases require low latency inference that approaches real time and therefore you must be able to build highly performant models and serving architectures. While an understanding of open source solutions is a useful prerequisite, we also require that the candidate has experience building their own models and setting up training pipelines. The end to end process of gathering, augmenting, labeling data and curating datasets, studying performance and optimizing quality of the model, as well as training, deploying and troubleshooting models on the field will be under your purview.\n\nAbout Dexterity\nAt Dexterity, we believe robots can positively transform the world. Our breakthrough technology frees people to do the creative, inspiring, problem-solving jobs that humans do best by enabling robots to handle repetitive and physically difficult work. \n\nWe’re starting with warehouse automation, where the need for smarter, more resilient supply chains impacts millions of lives and businesses around the world.   Dexterity's full-stack robotics systems pick, move, pack, and collaborate with human-like skill, awareness, and learning capabilities.  Our systems are software-driven, hardware-agnostic, and have already picked over 15 million goods in production.  And did we mention we’re customer-obsessed?  Every decision, large and small, is driven by one question – how can we empower our customers with robots to do more than they thought was possible? \n\nDexterity is one of the fastest growing companies in robotics, backed by world-class investors such as Kleiner Perkins, Lightspeed Venture Partners, and Obvious Ventures.  We’re a diverse and multidisciplinary team with a culture built on passion, trust, and dedication.  Come join Dexterity and help make intelligent robots a reality!\n\n\nRequired Skills:\nBS/MS in Computer Science, Machine Learning or a related discipline, or equivalent experience\n5 or more years of related work experience\nExperience with OpenCV and Open3D\nPrior experience building, training and deploying production ML models from scratch using PyTorch and Tensorflow\nStrong knowledge of Modern C++ and Python\nExperience using profilers and debuggers to optimize code\nExperience building and maintaining production code\nExperience with serving architectures like NVIDIA Triton, TorchServe and Tensorflow Serving, Flask and others\nStrong academic background and knowledge of ML and academic papers\nExperience with cloud infrastructure such as AWS, GCP, Azure etc. and experience using this infrastructure to create training and serving pipelines\nAbility to trace and solve problems across interconnected systems, pipelines and applications\nExperience with Git and modern CI pipelines\n\nNice to haves:\nExperience with Docker and Kubernetes\nPrevious startup experience\n\nEqual Opportunity Employer\nWe are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status."
+    }
+  },
+  {
+    "seq": 79,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|c8a70b59-6dc2-4139-b3bf-758295777c98|2b6ca10f090e34651fb978595391ccc9ee5acb0542d5e2e44db1b73a60cf48dc",
+    "reading_id": "N0878",
+    "company_id": "US_DEXTERITY",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "Senior/Staff Machine Learning Engineer",
+    "pilot": false,
+    "fields": {
+      "duties": "About Dexterity\nAt Dexterity, we believe robots can positively transform the world. Our breakthrough technology frees people to do the creative, inspiring, problem-solving jobs that humans do best by enabling robots to handle repetitive and physically difficult work.\n\nWe’re starting with warehouse automation, where the need for smarter, more resilient supply chains impacts millions of lives and businesses worldwide. Dexterity's full-stack robotics systems pick, move, pack, and collaborate with human-like skill, awareness, and learning capabilities. Our systems are software-driven and hardware-agnostic and have already picked 100+ million goods in production. And did we mention we’re customer-obsessed? Every decision, large and small, is driven by one question – how can we empower our customers with robots to do more than they thought was possible?\n\nDexterity is one of the fastest-growing companies in robotics, backed by world-class investors such as Kleiner Perkins, Lightspeed Venture Partners, and Obvious Ventures. We’re a diverse and multidisciplinary team with a culture built on passion, trust, and dedication. Come join Dexterity and help make intelligent robots a reality!\n\nAbout the Role\nAs a Senior/Staff Machine Learning Engineer, you will be working on a myriad of challenges related to robot task and action planning. You will leverage techniques from machine learning to solve hard sequential decision problems that require reasoning about the physical world and its dynamics. You will also stay abreast of the latest progress in imitation learning, reinforcement learning, and other related fields in order to further develop Dexterity’s technology foundations in Physical AI. Additionally, you will be responsible for updating and scaling our current ML pipelines to cover more scenarios and improve accuracy.\n\nDexterity's robotic solutions integrate data from a multitude of sensors, including RGB cameras, depth sensors, force-torque sensors, encoders, system telemetry and human input. To better inform the planning algorithms, you may work on sensor fusion and state estimation techniques to leverage this multimodal sensory data.\n\nYou will also work closely with the data platform, physics simulation, and robot operations teams to develop effective and efficient ways to improve the system’s internal world model.\n\nDexterity has an expanding set of algorithmic challenges as we deploy new robotic applications, including areas such as:\n\n- Improving packing algorithms to build taller, denser, more stable structures with a wider variety of objects.\n- Solving the logistics task of moving and sorting inventory throughout a warehouse.\n- Building models that understand physics and geometry for both short- and long-horizon tasks.\n\nIn addition to curating datasets and developing/improving machine learning models, you will be responsible for building data flywheels. Ideally, you will bring data-driven productization experience and help the team broadly in qualifying, deploying and updating models.\n\n\nResponsibilities\nDesign and implement machine learning solutions across Dexterity’s robotics stack, including but not limited to perception, decision-making, action scoring, and predictive modeling\nOwn the full ML development cycle for these solutions: data curation, labeling, training, evaluation, deployment, and iteration\nBuild performant training and inference pipelines using PyTorch, with production-readiness and scalability in mind\nCollaborate closely with robotics, data platform, and simulation teams to integrate ML into real-time, latency-sensitive robotic systems\nUse profiling, monitoring, and experiments to optimize model performance and reliability\nEnsure reproducibility, traceability, and modularity across training and serving pipelines\nMaintain clean, production-quality code in Python (and C++ where required)\nHelp establish best practices for model versioning, dataset management, and ML operations\n\nRequired Skills\nDegree in Computer Science, Electrical Engineering, or Mathematics 5+ years of industry experience applying machine learning to real-world, production systemsStrong Python skills and deep experience with PyTorch\nAbility to work fluently across ML tasks, e.g., classification, regression, ranking, segmentation, and structured prediction\nStrong engineering background with experience profiling, debugging, and optimizing model and pipeline performance\nProven ability to design and maintain reliable systems, from model training to field deployment\nExperience with cloud-based infrastructure (AWS, GCP, Azure) and containerized environments (Docker)\nFamiliarity with Linux, Git, CI/CD) and software development best practices (unit/acceptance/integration testing, code reviews)\n\nNice to haves\nPrior experience in robotics, autonomous systems, or real-time ML applications\nExposure to multimodal data (e.g., RGBD, force-torque, pose estimates, telemetry)\nExperience deploying models using serving stacks like NVIDIA Triton, TorchServe, or custom low-latency frameworks\nBackground in computer vision, geometric learning, or time-series modeling\nExperience with Kubernetes, Ray or other distributed training and inference systems\nPrevious startup experience or experience in fast-paced, cross-disciplinary environments\n\nEqual Opportunity Employer\nWe are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status."
+    }
+  },
+  {
+    "seq": 80,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4226047009|c776b98c223b63d5a50077e11b408bcb7cb1eda1f28546c730b6a4900a72bbe8",
+    "reading_id": "N0895",
+    "company_id": "US_NIMBLE",
+    "role": "RF_ML_AI_ENGINEERING",
+    "title": "AI Robotics Research Engineer",
+    "pilot": false,
+    "fields": {
+      "duties": "About Nimble\nNimble\nis an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, the first robot in the world capable of performing thousands of tasks across the supply chain. We’ve raised over $220M at over $1B valuation and formed a strategic alliance with FedEx to build a national network of autonomous warehouses capable of generating many billions in annual revenue. We are a hardcore and obsessed team of the world’s best engineers and operators. If you are obsessed with your craft, enjoy a high-intensity and fast moving high impact environment, are super high agency in getting hard things done and want to be part of building the world’s most legendary robotics company at the most pivotal moment in history, we want to work with you.\nWe are on a mission to empower and inspire mankind to accomplish legendary feats by inventing robots that liberate us from the menial. We will accomplish this by training robot AGI to invent and build the Autonomous Supply Chain – everything from the inside of factories and warehouses to your front door – powered by generalist superhumanoids.\nOur founding team comes from the AI labs at Stanford and Carnegie Mellon and our board of directors include famed robotics and AI legends including\nFei-Fei Li\n(Chief Scientist of AI at Google and Director of Stanford’s AI Lab),\nMarc Raibert\n(founder of Boston Dynamics), and\nSebastian Thrun\n(founder of GoogleX, Waymo; Stanford Professor and considered the father of autonomous vehicles).\nLet’s be legendary.\nWhy Join Nimble?\nAt Nimble, we are committed to building legendary products, a legendary team, and a legendary legacy. Join us and become part of an ambitious, humble, and resourceful culture where your work will leave a lasting impact on the future of robotics and commerce.\nNimble's Core Values:\nBe relentlessly resourceful\n-\nChallenge conventions and overcome obstacles.\nBe legendary\n-\nBe the very best and do work that inspires.\nBe humble\n-\nPrioritize growth, learning, and doing whatever is needed to further the mission.\nBe dependable\n-\nTake ownership and deliver with high agency.\nThe Role\nNimble is looking for an AI Robotics Research Engineer to help us advance our robotics moonshot by designing, developing, training, and implementing robotic foundation models, Vision-Language-Action Models, general-purpose robotic AI models, and reinforcement learning algorithms controlling multi-agent robot fleets.\nYou will play a critical role in working with our all-star cross-functional team to build models with immediate applications for the world’s biggest robotics opportunity.\nResponsibilities\nDevelop and train diffusion policies, VLMs, multi-agent deep RL policies and more\nDevelop data collection pipelines\nDesign data annotation and labeling\nSupport implementation of models into production systems\nQualifications\nMasters or P.h.D in Robotics or Computer Science\nExperience training deep learning models for robotic manipulation or mobility\nExperience working with real robotic hardware\nExperience training models in simulation and developing simulation environments\nExperience collecting custom datasets\nExperience training on open-source datasets\nStrong track record of publishing papers and/or deploying real-world applications\nExperience with system architecture, design and development\nAdditional Requirements\nMust be able to work extended hours and weekends as needed\nMust be able to work in San Francisco\n$180,000 - $220,000 a year\nThe above range is the salary range. This position will also receive generous equity for this position.\nCulture:\nWe embrace challenges and strive to make the impossible possible each day. We’re not in this to do what’s easy or to be mediocre. We want to create something legendary and leave our mark on the world. We’re ambitious, we’re gritty, we’re humble and we’re relentlessly resourceful in pursuit of our goals. If this sounds like you then you might be a great fit!\nNimble Robotics, Inc. is an equal opportunity employer. We make all employment decisions based solely on merit. We provide equal employment opportunity to all applicants and employees without discrimination on the basis of race, color, religion, national origin, ancestry, disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, sexual orientation, age, military or veteran status, or any other characteristic protected by applicable state, federal or local laws.\nNimble's Benefits\nUnlimited Flexible Time Off\nEnjoy the time you need to travel, rejuvenate, and connect with friends and family.\nHealth Insurance\nNimble provides medical, dental, and vision insurance through several premier plans and options to support you and your family.\nPaid Parental Leave\nEnjoy paid bonding time following a birth.\nCommuter Benefits\nTake the stress out of commuting with access to fully-paid parking spots.\nReferral Bonus\nGet a cash bonus for any friend or colleagues that you refer to us that we end up hiring.\n401k\nContribute towards a 401k for retirement planning.\nEquity\nBe an owner in Nimble through our equity program\nLink:\nNimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx\nLink:\nFedEx Announces Expansion of FedEx Fulfillment With Nimble Alliance"
+    }
+  },
+  {
+    "seq": 81,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4371388009|3a7944f50b825d4cdc70d49c8a7c6ead56c8884e170aed290748c60a5632070d",
+    "reading_id": "N0913",
+    "company_id": "US_NIMBLE",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "Robotics Software Engineer, Nimble Brain",
+    "pilot": false,
+    "fields": {
+      "duties": "About Nimble\nNimble\nis an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, the first robot in the world capable of performing thousands of tasks across the supply chain. We’ve raised over $220M at over $1B valuation and formed a strategic alliance with FedEx to build a national network of autonomous warehouses capable of generating many billions in annual revenue. We are a hardcore and obsessed team of the world’s best engineers and operators. If you are obsessed with your craft, enjoy a high-intensity and fast moving high impact environment, are super high agency in getting hard things done and want to be part of building the world’s most legendary robotics company at the most pivotal moment in history, we want to work with you.\nWe are on a mission to empower and inspire mankind to accomplish legendary feats by inventing robots that liberate us from the menial. We will accomplish this by training robot AGI to invent and build the Autonomous Supply Chain – everything from the inside of factories and warehouses to your front door – powered by generalist superhumanoids.\nOur founding team comes from the AI labs at Stanford and Carnegie Mellon and our board of directors include famed robotics and AI legends including\nFei-Fei Li\n(Chief Scientist of AI at Google and Director of Stanford’s AI Lab),\nMarc Raibert\n(founder of Boston Dynamics), and\nSebastian Thrun\n(founder of GoogleX, Waymo; Stanford Professor and considered the father of autonomous vehicles).\nLet’s be legendary.\nAbout the Role\nNimble is looking for a\nRobotics Software Engineer\nto build the core software powering our next-generation autonomous robots. In this role, you will develop the systems that allow our robots to operate with exceptional reliability, precision, and efficiency in real production environments.\nYou will work across robot control, sensing, runtime execution, and backend services—building robust, production-grade software that scales as we deploy more robots into high-throughput warehouse operations. You’ll collaborate closely with our AI, hardware, and infrastructure teams to integrate frontier AI capabilities into practical, real-world robotics systems and to continually improve robot uptime, performance, and overall intelligence.\nThis is a rare opportunity to help define the software foundation of industry-leading intelligent robots and contribute to the long-term vision of generalized robotic autonomy at scale.\nKey Responsibilities\nDesign and implement core robotic software for\nreal-time control, manipulation, sensing pipelines, and high-reliability task execution\n.\nBuild tools and workflows for\nsensor data processing, visualization, validation, and debugging\nacross development and production environments.\nCreate\nautomated evaluation, and remote operations\n.\nWork closely with AI research teams to integrate new\nfrontier AI models\ninto production robot behaviors, ensuring predictable and safe performance.\nCollaborate with hardware engineering on seamless software–hardware integration for new robot platforms and upgrades.\nContribute hands-on to testing, profiling, and optimizing our systems for\nrobustness, low latency, and operational uptime\n.\nPreferred Qualifications\nBachelor’s degree or higher in Computer Science, Robotics, or a related engineering field.\n1+ years of software engineering experience building production systems.\nExperience integrating with robotics, IoT, or embedded device SDKs.\nProven ability to design, implement, and maintain\ncomplex, high-reliability software systems\n.\nHands-on development experience in\nRust\n.\nFamiliarity with software best practices including testing, documentation, code reviews, and robust architectural design.\nExcellent communication, ownership, and cross-functional collaboration skills.\nCompensation & Benefits\nThe pay range for this position at the start of employment is expected to be between $140,000 and $230,000/year. Your exact offer may vary depending on multiple individualized factors, including job-related knowledge, skills, and experience. In addition to cash compensation, this position will also receive generous equity for this position.\nCulture\nWe embrace challenges and strive to make the impossible possible each day. We’re not in this to do what’s easy or to be mediocre. We want to create something legendary and leave our mark on the world. We’re ambitious, we’re gritty, we’re humble and we’re relentlessly resourceful in pursuit of our goals. If this sounds like you then you might be a great fit!\nNimble Robotics, Inc. is an equal opportunity employer. We make all employment decisions based solely on merit. We provide equal employment opportunity to all applicants and employees without discrimination on the basis of race, color, religion, national origin, ancestry, disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, sexual orientation, age, military or veteran status, or any other characteristic protected by applicable state, federal or local laws.\nNimble's Benefits\nUnlimited Flexible Time Off\nEnjoy the time you need to travel, rejuvenate, and connect with friends and family.\nHealth Insurance\nNimble provides medical, dental, and vision insurance through several premier plans and options to support you and your family.\nPaid Parental Leave\nEnjoy paid bonding time following a birth.\nCommuter Benefits\nTake the stress out of commuting with access to fully-paid parking spots.\nReferral Bonus\nGet a cash bonus for any friend or colleagues that you refer to us that we end up hiring.\n401k\nContribute towards a 401k for retirement planning.\nEquity\nBe an owner in Nimble through our equity program\nLink:\nNimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx\nLink:\nFedEx Announces Expansion of FedEx Fulfillment With Nimble Alliance"
+    }
+  },
+  {
+    "seq": 82,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4101446009|1d31fea48e6112b2f3120a88302e0b7fd1ede052a2933659391d071c7bcd3b6f",
+    "reading_id": "N0918",
+    "company_id": "US_NIMBLE",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "Senior Robotics Software Engineer",
+    "pilot": false,
+    "fields": {
+      "duties": "About Nimble\nNimble\nis an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, the first robot in the world capable of performing thousands of tasks across the supply chain. We’ve raised over $220M at over $1B valuation and formed a strategic alliance with FedEx to build a national network of autonomous warehouses capable of generating many billions in annual revenue. We are a hardcore and obsessed team of the world’s best engineers and operators. If you are obsessed with your craft, enjoy a high-intensity and fast moving high impact environment, are super high agency in getting hard things done and want to be part of building the world’s most legendary robotics company at the most pivotal moment in history, we want to work with you.\nWe are on a mission to empower and inspire mankind to accomplish legendary feats by inventing robots that liberate us from the menial. We will accomplish this by training robot AGI to invent and build the Autonomous Supply Chain – everything from the inside of factories and warehouses to your front door – powered by generalist superhumanoids.\nOur founding team comes from the AI labs at Stanford and Carnegie Mellon and our board of directors include famed robotics and AI legends including\nFei-Fei Li\n(Chief Scientist of AI at Google and Director of Stanford’s AI Lab),\nMarc Raibert\n(founder of Boston Dynamics), and\nSebastian Thrun\n(founder of GoogleX, Waymo; Stanford Professor and considered the father of autonomous vehicles).\nLet’s be legendary.\nAbout the Role\nWe are looking for a Senior Software Engineer in Robotics to build the core software powering our next-generation autonomous robots. In this role, you will develop the systems that allow our robots to operate with exceptional reliability, precision, and efficiency in real production environments. You will work across robotics and autonomy—building robust, production-grade software that scales as we deploy more robots into high-throughput warehouse operations. You’ll collaborate closely with our AI, hardware, and infrastructure teams to integrate frontier AI capabilities into practical, real-world robotics systems and to continually improve robot uptime, performance, and overall intelligence.\nResponsibilities\nLead design and implementation of robot behaviors and task-level intelligence across the full robotics stack, integrating perception, planning and control into reliable end-to-end execution.\nDesign and implement task orchestration and robot behaviors across nominal and edge-case scenarios, ensuring high task success rate and robust recovery.\nDrive measurable improvements in autonomy quality, using data and operational metrics to iterate on task success rate, recovery behavior, and system reliability.\nCollaborate with hardware engineering on seamless software–hardware integration for new robot platforms and upgrades.\nParticipate and lead technical design reviews and drive architecture decisions for core subsystems and features.\nMentor cross-functional engineers and technicians, and raise the bar on reliability, testing, and operational excellence.\nTriage robotics system issues to ensure reliability of production robotics systems; help diagnose and resolve operational issues when they arise\nQualifications\nBachelors, Masters, or PhD in Computer Science, Robotics, or a related engineering field.\n5+ years of software engineering experience building production robotics systems.\nStrong proficiency in at least one of the following programming languages: Rust, Python, C++\nProven ability to design, implement, and maintain complex, high-reliability software systems.\nExperience integrating software with sensors, actuators and embedded systems.\nProven ability to design, implement, and maintain complex, high-reliability software systems.\nFamiliarity with software best practices including testing, documentation, code reviews, and robust architectural design.\nExcellent communication skills and ability to collaborate across multi-disciplinary teams\nWillingness to support production operations through an on-call rotation.\nNice to have\nExposure to automation environments such as warehousing, manufacturing, or logistics\nExperience with real-time embedded system development, with RTOS or bare-metal firmware\nExperience with safety-critical systems\nWhat else to know\nThis role is an in-office, 5 days a week role in San Francisco, CA.\n$190,000 - $250,000 a year\nThe above range is the salary range. This position will also receive generous equity!\nCulture:\nWe embrace challenges and strive to make the impossible possible each day. We’re not in this to do what’s easy or to be mediocre. We want to create something legendary and leave our mark on the world. We’re ambitious, we’re gritty, we’re humble and we’re relentlessly resourceful in pursuit of our goals. If this sounds like you then you might be a great fit!\nNimble Robotics, Inc. is an equal opportunity employer. We make all employment decisions based solely on merit. We provide equal employment opportunity to all applicants and employees without discrimination on the basis of race, color, religion, national origin, ancestry, disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, sexual orientation, age, military or veteran status, or any other characteristic protected by applicable state, federal or local laws.\nNimble's Benefits\nUnlimited Flexible Time Off\nEnjoy the time you need to travel, rejuvenate, and connect with friends and family.\nHealth Insurance\nNimble provides medical, dental, and vision insurance through several premier plans and options to support you and your family.\nPaid Parental Leave\nEnjoy paid bonding time following a birth.\nCommuter Benefits\nTake the stress out of commuting with access to fully-paid parking spots.\nReferral Bonus\nGet a cash bonus for any friend or colleagues that you refer to us that we end up hiring.\n401k\nContribute towards a 401k for retirement planning.\nEquity\nBe an owner in Nimble through our equity program\nLink:\nNimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx\nLink:\nFedEx Announces Expansion of FedEx Fulfillment With Nimble Alliance"
+    }
+  },
+  {
+    "seq": 83,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4368593009|d4c7fd92d4107f23d161a94fddacfaa93c16ced9076c50464c0a842dfe64b643",
+    "reading_id": "N0921",
+    "company_id": "US_NIMBLE",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "Senior Software Engineer, Infrastructure (SRE & Security Focused)",
+    "pilot": false,
+    "fields": {
+      "duties": "About Nimble\nNimble\nis an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, the first robot in the world capable of performing thousands of tasks across the supply chain. We’ve raised over $220M at over $1B valuation and formed a strategic alliance with FedEx to build a national network of autonomous warehouses capable of generating many billions in annual revenue. We are a hardcore and obsessed team of the world’s best engineers and operators. If you are obsessed with your craft, enjoy a high-intensity and fast moving high impact environment, are super high agency in getting hard things done and want to be part of building the world’s most legendary robotics company at the most pivotal moment in history, we want to work with you.\nWe are on a mission to empower and inspire mankind to accomplish legendary feats by inventing robots that liberate us from the menial. We will accomplish this by training robot AGI to invent and build the Autonomous Supply Chain – everything from the inside of factories and warehouses to your front door – powered by generalist superhumanoids.\nOur founding team comes from the AI labs at Stanford and Carnegie Mellon and our board of directors include famed robotics and AI legends including\nFei-Fei Li\n(Chief Scientist of AI at Google and Director of Stanford’s AI Lab),\nMarc Raibert\n(founder of Boston Dynamics), and\nSebastian Thrun\n(founder of GoogleX, Waymo; Stanford Professor and considered the father of autonomous vehicles).\nLet’s be legendary.\nWhy Join Nimble?\nAt Nimble, we are committed to building legendary products, a legendary team, and a legendary legacy. Join us and become part of an ambitious, humble, and resourceful culture where your work will leave a lasting impact on the future of robotics and commerce.\nNimble's Core Values:\nBe relentlessly resourceful\n-\nChallenge conventions and overcome obstacles.\nBe legendary\n-\nBe the very best and do work that inspires.\nBe humble\n-\nPrioritize growth, learning, and doing whatever is needed to further the mission.\nBe dependable\n-\nTake ownership and deliver with high agency.\nAbout the Role\nWe are looking for a Senior Software Engineer to join our\nInfrastructure Team\n, focused on building secure, reliable, and scalable infrastructure for Nimble’s software services, robotics products, embedded systems, and business operations.\nYou will work across cloud, production, corporate, and robot-facing systems to identify and remediate security, reliability, and operational risks in designs, implementations, integrations, and processes. This role is deeply hands-on: you will build secure-by-default platforms, improve observability, automate detection and remediation, strengthen incident response, and help engineering teams operate resilient systems in production.\nYou will be responsible for the full lifecycle of software development projects, including design, implementation, automated testing, field testing, deployment, monitoring, and production support.\nResponsibilities\nOwn and drive the infrastructure roadmap for secure, reliable, and scalable software services, robotics products, embedded systems, cloud infrastructure, and corporate systems.\nAct as a primary technical authority on security, infrastructure reliability, availability, compliance, and operational excellence across the organization.\nLead security architecture reviews, reliability reviews, production readiness reviews, code reviews, and technical planning sessions.\nDesign and implement security controls, reliability patterns, data compliance mechanisms, and guardrails for both our On-Premise and Cloud infrastructure.\nCollaborating with engineering teams to mitigate security weaknesses, reliability risks, scalability bottlenecks.\nDevelop platforms, tools, and automation that improve cloud security posture, system reliability, developer velocity, and operational efficiency.\nMentor engineers and cross-teams on secure design, reliable system architecture, operational ownership, and production engineering practices.\nDevelop observability via metrics, logs, traces, dashboards, for detection, monitoring, alerting, and remediation systems for vulnerabilities, incidents, regressions, service degradation, misconfigurations, and infrastructure drift.\nDefine and improve incident response processes, including on-call practices, runbooks, postmortems, severity frameworks, and follow-up tracking.\nDrive software engineering best practices across the team by producing high-quality, well-tested, maintainable code and raising the bar in reviews.\nQualifications\nBachelor’s, Master’s, or PhD in Computer Science or a related field, or equivalent practical experience.\nAt least 3 years of professional software engineering, infrastructure engineering, security engineering, or SRE experience.\nAbility to work autonomously, take ownership of ambiguous projects, and collaborate across teams.\nStrong proficiency in at least one of the following programming languages: Rust, Go, C++, Python, or TypeScript.\nStrong self-learning and continuous improvement mindset.\nSolid understanding of modern attack vectors, defensive mitigation strategies, secure software development practices, and cloud security fundamentals.\nExcellent written and verbal communication skills, especially when explaining technical tradeoffs, operational risks, and security concerns to cross-functional teams.\nExperience designing, deploying, securing, and operating cloud infrastructure and distributed backend systems.\nExperience with Kubernetes, containerized workloads, cloud infrastructure, IAM, secrets management, vulnerability management, and infrastructure hardening.\nExperience operating production systems, including monitoring, alerting, incident response, debugging, performance analysis, and postmortems.\nExperience conducting security architecture reviews, reliability reviews, or production readiness reviews for custom business applications or infrastructure systems.\nExperience with distributed authorization, RBAC/ACL systems, encryption-based access, secrets management, or policy engines.\nExperience with one or more Infrastructure as Code tools or frameworks such as Terraform, AWS CDK, Pulumi, CloudFormation, or similar.\nNice to Have\nExperience building, securing, or operating Kubernetes-based platforms, service meshes, container infrastructure, or deployment platforms.\nExperience with AWS, GCP, Azure, or hybrid cloud environments.\nExperience with cloud security tooling, CSPM/CWPP platforms, vulnerability scanners, policy-as-code, admission controllers, image signing, or supply-chain security tooling.\nExperience with observability stacks such as OpenTelemetry, Prometheus/VictoriaMetrics, Grafana, Datadog, or similar.\nExperience developing security automation, vulnerability management systems, policy-as-code, or infrastructure compliance tooling.\nExperience with On-Premise Infrastructure.\nExperience in the development, implementation, or audit of ISO 27001, SOC 2, or similar compliance programs.\nCompensation\nThe pay range for this position at the start of employment is expected to be\nbetween $200,000 and $260,000/year\n. Your exact offer may vary depending on multiple individualized factors, including job-related knowledge, skills, and experience. In addition to cash compensation, this position will also receive generous equity for this position.\nCulture:\nWe embrace challenges and strive to make the impossible possible each day. We’re not in this to do what’s easy or to be mediocre. We want to create something legendary and leave our mark on the world. We’re ambitious, we’re gritty, we’re humble and we’re relentlessly resourceful in pursuit of our goals. If this sounds like you then you might be a great fit!\nNimble Robotics, Inc. is an equal opportunity employer. We make all employment decisions based solely on merit. We provide equal employment opportunity to all applicants and employees without discrimination on the basis of race, color, religion, national origin, ancestry, disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, sexual orientation, age, military or veteran status, or any other characteristic protected by applicable state, federal or local laws.\nNimble's Benefits\nUnlimited Flexible Time Off\nEnjoy the time you need to travel, rejuvenate, and connect with friends and family.\nHealth Insurance\nNimble provides medical, dental, and vision insurance through several premier plans and options to support you and your family.\nPaid Parental Leave\nEnjoy paid bonding time following a birth.\nCommuter Benefits\nTake the stress out of commuting with access to fully-paid parking spots.\nReferral Bonus\nGet a cash bonus for any friend or colleagues that you refer to us that we end up hiring.\n401k\nContribute towards a 401k for retirement planning.\nEquity\nBe an owner in Nimble through our equity program\nLink:\nNimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx\nLink:\nFedEx Announces Expansion of FedEx Fulfillment With Nimble Alliance"
+    }
+  },
+  {
+    "seq": 84,
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4163470009|d060c06aefec9fac5551db41d5cfd1493af093f7f5385e8d9a920bf1c2a00ee3",
+    "reading_id": "N0922",
+    "company_id": "US_NIMBLE",
+    "role": "RF_ROBOTICS_SOFTWARE",
+    "title": "Senior Software Engineer, Robotics Platform",
+    "pilot": false,
+    "fields": {
+      "duties": "About Nimble\nNimble\nis an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, the first robot in the world capable of performing thousands of tasks across the supply chain. We’ve raised over $220M at over $1B valuation and formed a strategic alliance with FedEx to build a national network of autonomous warehouses capable of generating many billions in annual revenue. We are a hardcore and obsessed team of the world’s best engineers and operators. If you are obsessed with your craft, enjoy a high-intensity and fast moving high impact environment, are super high agency in getting hard things done and want to be part of building the world’s most legendary robotics company at the most pivotal moment in history, we want to work with you.\nWe are on a mission to empower and inspire mankind to accomplish legendary feats by inventing robots that liberate us from the menial. We will accomplish this by training robot AGI to invent and build the Autonomous Supply Chain – everything from the inside of factories and warehouses to your front door – powered by generalist superhumanoids.\nOur founding team comes from the AI labs at Stanford and Carnegie Mellon and our board of directors include famed robotics and AI legends including\nFei-Fei Li\n(Chief Scientist of AI at Google and Director of Stanford’s AI Lab),\nMarc Raibert\n(founder of Boston Dynamics), and\nSebastian Thrun\n(founder of GoogleX, Waymo; Stanford Professor and considered the father of autonomous vehicles).\nLet’s be legendary.\nWhy Join Nimble?\nAt Nimble, we are committed to building legendary products, a legendary team, and a legendary legacy. Join us and become part of an ambitious, humble, and resourceful culture where your work will leave a lasting impact on the future of robotics and commerce.\nNimble's Core Values:\nBe relentlessly resourceful\n-\nChallenge conventions and overcome obstacles.\nBe legendary\n-\nBe the very best and do work that inspires.\nBe humble\n-\nPrioritize growth, learning, and doing whatever is needed to further the mission.\nBe dependable\n-\nTake ownership and deliver with high agency.\nAbout the Role\nWe are looking for a Senior Software Engineer to join our Robotics organization, focused on building the\nbackend and robotics platform software\nthat powers our robot-enabled products. You will design and ship reliable services, APIs, and operational tooling. This role is primarily software and systems engineering working closely with robotics team.\nResponsibilities\nCollaborate with robotics, ML, and product teams to define requirements and turn them into well-architected software systems.\nDesign, build, and operate backend services and APIs that support production workflows and customer-facing features.\nOwn integrations between our multi-agent systems, cloud infrastructures, internal tooling, and robot-facing interfaces.\nBuild orchestration and state management services that coordinate long-running operational processes.\nImprove reliability and scalability through robust testing, observability, incident response, and performance tuning.\nDrive software engineering best practices across the team by producing high-quality, well-tested, maintainable code and raising the bar in reviews.\nMentor other engineers and contribute to improving team processes and technical standards.\nParticipate in and often lead design reviews, code reviews, and technical planning sessions.\nJoin an on-call rotation and help diagnose and resolve production issues.\nQualifications\nBachelors, Masters, or PhD in Computer Science or related field, or equivalent practical experience.\nAt least 3 years of professional software engineering experience.\nStrong self learning and improvement mindset.\nStrong proficiency in at least one of the following programming languages: Rust, Python, C++.\nStrong fundamentals in backend services, distributed systems, data modeling, and API design.\nDemonstrated experience designing scalable systems and leading complex technical projects.\nExcellent communication skills and ability to collaborate across teams.\nNice to have\nExperience observability stack like OpenTelemetry.\nExperience with AWS, Kubernetes, CI/CD, infrastructure-as-code, and production.\nExperience building internal developer platforms, tooling, or workflow systems.\nExposure to automation environments such as warehousing, manufacturing, or logistics.\nWhat else to know\n$180,000 - $250,000 a year\nThe above range is a starting salary range for candidates meeting the minimum qualifications. This position will also receive generous equity!\nCulture:\nWe embrace challenges and strive to make the impossible possible each day. We’re not in this to do what’s easy or to be mediocre. We want to create something legendary and leave our mark on the world. We’re ambitious, we’re gritty, we’re humble and we’re relentlessly resourceful in pursuit of our goals. If this sounds like you then you might be a great fit!\nNimble Robotics, Inc. is an equal opportunity employer. We make all employment decisions based solely on merit. We provide equal employment opportunity to all applicants and employees without discrimination on the basis of race, color, religion, national origin, ancestry, disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, sexual orientation, age, military or veteran status, or any other characteristic protected by applicable state, federal or local laws.\nNimble's Benefits\nUnlimited Flexible Time Off\nEnjoy the time you need to travel, rejuvenate, and connect with friends and family.\nHealth Insurance\nNimble provides medical, dental, and vision insurance through several premier plans and options to support you and your family.\nPaid Parental Leave\nEnjoy paid bonding time following a birth.\nCommuter Benefits\nTake the stress out of commuting with access to fully-paid parking spots.\nReferral Bonus\nGet a cash bonus for any friend or colleagues that you refer to us that we end up hiring.\n401k\nContribute towards a 401k for retirement planning.\nEquity\nBe an owner in Nimble through our equity program\nLink:\nNimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx\nLink:\nFedEx Announces Expansion of FedEx Fulfillment With Nimble Alliance"
+    }
+  }
+]

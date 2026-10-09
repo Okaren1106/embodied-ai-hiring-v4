@@ -1,0 +1,3288 @@
+{
+  "catalog_version": "Q2-v2.1",
+  "coding_version": "grok4.6-Q2-v2.1-first-pass",
+  "reader": "grok4.6",
+  "contributors": [
+    "grok4.6"
+  ],
+  "queue_sha256": "8815c0e72e571ac260f9a7ff1feb374fb21dab4613dd01ef5b22a32077a134d4",
+  "ads": {
+    "N0563": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "SPATIAL",
+      "secondary_task": "",
+      "task_evidence": "负责机器人定位、建图、重定位及三维空间表征算法研发",
+      "new": {
+        "1": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:C++ 或 Python is not the C language.",
+        "3": "OUTSIDE:Fast-LIO未单列冻结项。",
+        "4": "OUTSIDE:LIO-SAM未单列冻结项。",
+        "5": "OUTSIDE:ORB-SLAM未单列冻结项。",
+        "6": "OUTSIDE:VINS未单列冻结项。",
+        "7": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "OUTSIDE:NeRF未在该短词单列，已在3DGS句保留重建。",
+        "9": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "空间智能。三维重建/Sim2Real保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7667442014040508681|970c3573ea0d8c0a2dcddedfbec37c73936230083602fee2525792c0168dc308",
+      "company_id": "CN_LIMX",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 35,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 33,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人定位、建图、重定位及三维空间表征算法研发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "970c3573ea0d8c0a2dcddedfbec37c73936230083602fee2525792c0168dc308",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.467146+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0146": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "TACTILE_AUDIO",
+      "fine_task": "TACTILE",
+      "secondary_task": "",
+      "task_evidence": "建立接触检测、滑移检测、力信号处理、滤波、标定、补偿和可靠性测试体系",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:Python/MATLAB/C++ is not the C language.",
+        "5": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O10": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "DUTY",
+          "reason": "原标定短词不唯一，改为标定报告句。",
+          "quote": "输出传感器方案、标定报告、数据质量评估和接触感知问题清单"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "触觉力觉。标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7659791673291835658|32ac18745a5b630379d6a7d1fbd8a951f321996e9efabe3af0a1ae265a3a60f6",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 117,
+        "end": 151,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "建立接触检测、滑移检测、力信号处理、滤波、标定、补偿和可靠性测试体系"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "32ac18745a5b630379d6a7d1fbd8a951f321996e9efabe3af0a1ae265a3a60f6",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.467146+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0629": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "SLAM_BIPED",
+      "secondary_task": "",
+      "task_evidence": "设计视觉、IMU、激光雷达、UWB 四传感器紧耦合融合定位框架，基于因子图优化实现双足机器人实时位姿估计与三维建图",
+      "new": {
+        "1": [
+          [
+            "V2_KALMAN_FACTOR",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_G2O",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": "OUTSIDE:VINS未单列冻结项。",
+        "6": "OUTSIDE:Fast-LIO未单列冻结项。",
+        "7": "OUTSIDE:ORB-SLAM未单列冻结项。",
+        "8": "DUPLICATE:N0629:4",
+        "9": "DUPLICATE:N0629:4",
+        "10": [
+          [
+            "V2_EIGEN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PCL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "DUPLICATE:N0629:10",
+        "12": "DUPLICATE:N0629:10",
+        "13": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "双足SLAM。因子图/标定/g2o/GTSAM/Eigen/PCL保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|0f2d1c0b-958a-4201-9cc1-8bd475fd60dc|706da35bd095b3d721c50c3538f9f2fc3fe05dc96c4f3f3434bc0ff947d95220",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 13,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 59,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "设计视觉、IMU、激光雷达、UWB 四传感器紧耦合融合定位框架，基于因子图优化实现双足机器人实时位姿估计与三维建图"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "706da35bd095b3d721c50c3538f9f2fc3fe05dc96c4f3f3434bc0ff947d95220",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.468150+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0785": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "RECONSTRUCTION",
+      "fine_task": "NAV_3D",
+      "secondary_task": "",
+      "task_evidence": "Experience with simulation, software-in-the-loop, hardware-in-the-loop, and replay-based validation",
+      "new": {
+        "1": [
+          [
+            "V2_HIL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "三维表征导航。HIL/标定/需求追溯保留。SIL在环不是功能安全SIL。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|bb127cde-930c-446f-908d-52e2c6f24cc9|7249f21494ea40ecae2162a24e5065ea772c48589d8b0154e1eb9e79924a6fad",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 41,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 4920,
+        "end": 5019,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Experience with simulation, software-in-the-loop, hardware-in-the-loop, and replay-based validation"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "7249f21494ea40ecae2162a24e5065ea772c48589d8b0154e1eb9e79924a6fad",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.468150+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0282": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "TACTILE_AUDIO",
+      "fine_task": "MULTIMODAL",
+      "secondary_task": "",
+      "task_evidence": "负责多模态感知与决策规划的闭环算法研发",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:Python/C++ is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "多模态融合。标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|2499b117-2726-47dd-ae40-f2f570359472|899b687052446d9e2d17d00207649e9e553be144c6a27aa8fb91472f09ae2e5d",
+      "company_id": "CN_PAXINI",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 109,
+        "end": 128,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责多模态感知与决策规划的闭环算法研发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "899b687052446d9e2d17d00207649e9e553be144c6a27aa8fb91472f09ae2e5d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.468150+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0103": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "LIDAR_SLAM",
+      "secondary_task": "",
+      "task_evidence": "开发基于Lidar/Camera/IMU/GNSS等多传感器融合的标定、定位、建图算法",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "激光SLAM。标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|1569900302872608768|72f0f5e500fc9182babe09e0901b495c2f83c53d062513c94d5aec212edf7665",
+      "company_id": "CN_UNITREE",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 45,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "开发基于Lidar/Camera/IMU/GNSS等多传感器融合的标定、定位、建图算法"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "72f0f5e500fc9182babe09e0901b495c2f83c53d062513c94d5aec212edf7665",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.468150+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0938": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "PERCEPT_SW",
+      "secondary_task": "",
+      "task_evidence": "Improve and automate multi-sensor calibration routines",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:Python and C++ is not the C language.",
+        "3": "REJECT:linear algebra不是Linear工具。",
+        "4": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_EIGEN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_OPEN3D",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0938:4",
+        "6": "DUPLICATE:N0938:4",
+        "7": "DUPLICATE:N0938:4",
+        "8": "REJECT:English can is not Controller Area Network.",
+        "9": [
+          [
+            "V2_CERES",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_PCL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "10": "DUPLICATE:N0938:9",
+        "11": "DUPLICATE:N0938:9",
+        "12": "DUPLICATE:N0938:9"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "感知软件。标定/Git/Eigen/Open3D/Ceres/GTSAM/PCL保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PICKLE|lever|c2f45fac-9720-4045-b242-a556544a1734|aa298c97f2d79b7a7322674596cdff6c77b3731768561e0a99c3617f41412dbb",
+      "company_id": "US_PICKLE",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 12,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1557,
+        "end": 1611,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Improve and automate multi-sensor calibration routines"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "aa298c97f2d79b7a7322674596cdff6c77b3731768561e0a99c3617f41412dbb",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.468150+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0981": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "ATLAS_SLAM",
+      "secondary_task": "",
+      "task_evidence": "build the perception and geometric reasoning systems that give Atlas a grounded 3D understanding of the world",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "REJECT:C++ and Python is not the C language.",
+        "3": "REJECT:C++ and Python is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Atlas SLAM。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|7baac0cc17501001b4dc9dc60ee10000|b44cf1502503e46b4f891fd350ec9d83e53e193c60a1bec4191cb310494ade58",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 34,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 84,
+        "end": 193,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "build the perception and geometric reasoning systems that give Atlas a grounded 3D understanding of the world"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b44cf1502503e46b4f891fd350ec9d83e53e193c60a1bec4191cb310494ade58",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.469149+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0356": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "STAFF_PERCEPT",
+      "secondary_task": "",
+      "task_evidence": "own the architecture and technical roadmap for object perception systems used by the robot in production",
+      "new": {
+        "1": "REJECT:linear algebra不是Linear工具。",
+        "2": "REJECT:Salary USD is not Universal Scene Description.",
+        "3": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {
+        "O18": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原computer vision短词不唯一，改为几何视觉句。",
+          "quote": "familiarity with core geometric concepts in computer vision"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "感知技术负责。线性代数不记Linear。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|5973040004|d3694b187e27b7ad17b2c8a6fb0b1571f521dc2f7cb74f6089274d0331f1bd69",
+      "company_id": "US_AGILITY",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 25,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 30,
+        "end": 134,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "own the architecture and technical roadmap for object perception systems used by the robot in production"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "d3694b187e27b7ad17b2c8a6fb0b1571f521dc2f7cb74f6089274d0331f1bd69",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.469149+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0363": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "TACTILE_AUDIO",
+      "fine_task": "AV_INTERACT",
+      "secondary_task": "",
+      "task_evidence": "负责端侧视听双模态融合",
+      "new": {
+        "1": "OUTSIDE:时间同步管线未单列冻结项。",
+        "2": "OUTSIDE:ASD未单列冻结项。",
+        "3": "OUTSIDE:DOA未单列冻结项。",
+        "4": "OUTSIDE:FaceID/ReID未单列冻结项。",
+        "5": "OUTSIDE:FaceID/ReID未单列冻结项。",
+        "6": "OUTSIDE:Scene State Schema未单列冻结项。",
+        "7": "REJECT:C++、Python is not the C language.",
+        "8": "OUTSIDE:VAD未单列冻结项。",
+        "9": "OUTSIDE:ASR未单列冻结项。",
+        "10": "OUTSIDE:TTS未单列冻结项。",
+        "11": [
+          [
+            "V2_TENSORRT",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_ONNX",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_ONNX_RUNTIME",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "12": "OUTSIDE:MOT/ReID未单列冻结项。",
+        "13": "OUTSIDE:MOT/ReID未单列冻结项。",
+        "14": "OUTSIDE:MOT/ReID未单列冻结项。",
+        "15": "DUPLICATE:N0363:11",
+        "16": "DUPLICATE:N0363:11",
+        "17": "OUTSIDE:GStreamer未单列冻结项。",
+        "18": "OUTSIDE:FFmpeg未单列冻结项。",
+        "19": "REJECT:章节标题C不是C语言。",
+        "20": "OUTSIDE:Scene State未单列冻结项。",
+        "21": "OUTSIDE:Scene State未单列冻结项。",
+        "22": "OUTSIDE:VLM Prompt未单列冻结项。",
+        "23": "OUTSIDE:JSON输出未单列冻结项。",
+        "24": "OUTSIDE:DMS/OMS未单列冻结项。",
+        "25": "OUTSIDE:DMS/OMS未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "多模态交互感知。TensorRT/ONNX保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7681522364513454346|09db4b5a3bee37c8a0c92923ec44b5e013876bd8fd1418409c06f5ac77115849",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 25,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 205,
+        "end": 216,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责端侧视听双模态融合"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "09db4b5a3bee37c8a0c92923ec44b5e013876bd8fd1418409c06f5ac77115849",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.469149+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0488": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "HELIX_LOC",
+      "secondary_task": "",
+      "task_evidence": "Architect and implement real-time localization, ego-motion tracking, and state estimation systems",
+      "new": {
+        "1": "REJECT:corporate tasks不是Microsoft Office。",
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:performant C++ software is not the C language.",
+        "4": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_MOCAP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O9": {
+          "metric": "REQUIRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原visual-inertial SLAM短词无法定位，改为几何与VIO句。",
+          "quote": "Strong command of 3D geometry, visual-inertial SLAM, and computer vision techniques"
+        },
+        "O14": {
+          "metric": "PREFERRED",
+          "branch": "CHOICE",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原SLAM短词不唯一，改为同一VIO句。",
+          "quote": "Strong command of 3D geometry, visual-inertial SLAM, and computer vision techniques"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Helix定位建图。标定/动捕保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4696533006|2fba8baad858cbebda58cca3a5eaf8731394e7d101abdaa658453b3da98aae6d",
+      "company_id": "US_FIGURE",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 97,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Architect and implement real-time localization, ego-motion tracking, and state estimation systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "2fba8baad858cbebda58cca3a5eaf8731394e7d101abdaa658453b3da98aae6d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.469149+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0471": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "VLIO",
+      "secondary_task": "",
+      "task_evidence": "负责基于视觉-惯性-雷达（VLIO）融合SLAM算法研发与优化",
+      "new": {
+        "1": "OUTSIDE:LIO-SAM等开源SLAM未单列冻结项。",
+        "2": "OUTSIDE:LIO-SAM等开源SLAM未单列冻结项。",
+        "3": "OUTSIDE:LIO-SAM等开源SLAM未单列冻结项。",
+        "4": "OUTSIDE:LIO-SAM等开源SLAM未单列冻结项。",
+        "5": "OUTSIDE:LIO-SAM等开源SLAM未单列冻结项。",
+        "6": "OUTSIDE:LIO-SAM等开源SLAM未单列冻结项。",
+        "7": "OUTSIDE:LIO-SAM等开源SLAM未单列冻结项。",
+        "8": "OUTSIDE:LIO-SAM等开源SLAM未单列冻结项。",
+        "9": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "REJECT:C++/Python is not the C language.",
+        "11": [
+          [
+            "V2_CERES",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_G2O",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "12": "DUPLICATE:N0471:11",
+        "13": "DUPLICATE:N0471:11"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "VLIO SLAM。标定/Ceres/g2o保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|96953a60-ca69-4601-b8d6-186469e65c05|fc351bc46342af04d030d96b2bfe77c4cd3c2084e9c2b451f61004e4af4cb539",
+      "company_id": "CN_FOURIER",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 13,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 39,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责基于视觉-惯性-雷达（VLIO）融合SLAM算法研发与优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "fc351bc46342af04d030d96b2bfe77c4cd3c2084e9c2b451f61004e4af4cb539",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.469149+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0150": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "INDUSTRIAL_3D",
+      "secondary_task": "",
+      "task_evidence": "开发工业环境下2D/3D感知算法，包括但不限于深度估计、物体检测与分割、6D位姿估计、深度补全、场景流",
+      "new": {
+        "1": [
+          [
+            "V2_TENSORRT",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:N0150:1",
+        "3": "OUTSIDE:OpenVINO未单列冻结项。",
+        "4": [
+          [
+            "V2_PCL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_OPEN3D",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": "DUPLICATE:N0150:4",
+        "6": "DUPLICATE:N0150:4",
+        "7": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "OUTSIDE:Intel RealSense未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "工业3D感知。TensorRT/PCL/Open3D/标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|af30a502-ff36-4860-9e79-f23696cbb1ca|990991794523d44e3be40540cb542b33921ae136eb70282e9db254f51e3b0406",
+      "company_id": "CN_GALBOT",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 60,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "开发工业环境下2D/3D感知算法，包括但不限于深度估计、物体检测与分割、6D位姿估计、深度补全、场景流"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "990991794523d44e3be40540cb542b33921ae136eb70282e9db254f51e3b0406",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.469149+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0687": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "RECONSTRUCTION",
+      "fine_task": "CV_RESEARCH",
+      "secondary_task": "",
+      "task_evidence": "reconstructing 3D scenes using monocular videos, meshes, pointclouds",
+      "new": {
+        "1": [
+          [
+            "V2_AWS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_GCP",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "OUTSIDE:Neural Radiance Fields未单列冻结项。",
+        "3": "OUTSIDE:Gaussian Splats未单列冻结项。",
+        "4": "OUTSIDE:Gaussian Splats未单列冻结项。",
+        "5": "OUTSIDE:NAS未单列冻结项。",
+        "6": "DUPLICATE:N0687:1",
+        "7": "DUPLICATE:N0687:1",
+        "8": "REJECT:Experience can is not Controller Area Network.",
+        "9": "REJECT:Salary USD is not Universal Scene Description."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "视觉研究。AWS/GCP保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5248733008|cbc437e88433da878cf4dd9a957cf8dc0c680db8df93a79e8d097da00dec1435",
+      "company_id": "US_SKILD",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 24,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3412,
+        "end": 3480,
+        "method": "UNIQUE_WHITESPACE_MATCH",
+        "quote": "reconstructing 3D scenes using monocular videos, meshes, pointclouds"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "cbc437e88433da878cf4dd9a957cf8dc0c680db8df93a79e8d097da00dec1435",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.470657+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0408": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "PERCEPT_LEARN",
+      "secondary_task": "",
+      "task_evidence": "lead research and development of advanced perception systems that empower Apptronik",
+      "new": {
+        "1": [
+          [
+            "V2_WORLD_MODEL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:English can is not Controller Area Network.",
+        "3": [
+          [
+            "V2_CI_CD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_TENSORRT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ONNX",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ONNX_RUNTIME",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_MODEL_COMPRESSION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "OUTSIDE:Detectron2/YOLO未单列冻结项。",
+        "7": "DUPLICATE:E0408:5",
+        "8": "OUTSIDE:GStreamer未单列冻结项。"
+      },
+      "old_overrides": {
+        "O26": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原deep learning短词不唯一，改为深度学习模型句。",
+          "quote": "You will design and optimize deep learning models for real-time detection"
+        },
+        "O27": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原computer vision短词不唯一，改为高级感知系统句。",
+          "quote": "advanced perception systems that empower Apptronik"
+        },
+        "O29": {
+          "metric": "GENERAL",
+          "branch": "EXAMPLE",
+          "relation": "DUTY",
+          "reason": "原SLAM短词不唯一，改为感知/SLAM/检测并列句。",
+          "quote": "perception, SLAM, object detection, world modeling, and multi-sensor fusion"
+        },
+        "O33": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原computer vision短词不唯一，改为同一感知系统句。",
+          "quote": "advanced perception systems that empower Apptronik"
+        },
+        "O34": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原deep learning短词不唯一，改为同一深度学习模型句。",
+          "quote": "You will design and optimize deep learning models for real-time detection"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "感知学习。世界模型/CI/因子图/TensorRT/量化保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|5678268004|3692d843905f79e182b31a3641aebb0dc6e39628fcca12384fc744644cefff04",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 36,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 51,
+        "end": 134,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "lead research and development of advanced perception systems that empower Apptronik"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "3692d843905f79e182b31a3641aebb0dc6e39628fcca12384fc744644cefff04",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:18.470657+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0500": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "RECONSTRUCTION",
+      "fine_task": "SPATIAL_GS",
+      "secondary_task": "",
+      "task_evidence": "世界模型等方向的算法研发与工程化落地",
+      "new": {
+        "1": [
+          [
+            "V2_WORLD_MODEL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_3D_RECONSTRUCTION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0500:3",
+        "5": "DUPLICATE:N0500:3",
+        "6": [
+          [
+            "V2_WORLD_MODEL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "REJECT:C++ / Python is not the C language.",
+        "9": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "DUPLICATE:N0500:9",
+        "11": "OUTSIDE:4DGS未单列冻结项。",
+        "12": "DUPLICATE:N0500:9",
+        "13": [
+          [
+            "V2_WORLD_MODEL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "14": [
+          [
+            "V2_WORLD_MODEL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "15": "OUTSIDE:Occupancy/BEV未单列冻结项。",
+        "16": "OUTSIDE:Occupancy/BEV未单列冻结项。",
+        "17": "REJECT:端侧轻量化部署不是模型压缩。",
+        "18": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "19": "OUTSIDE:前馈dgs未单列冻结项。",
+        "20": "DUPLICATE:N0500:18",
+        "21": "OUTSIDE:Nerfstudio未单列冻结项。",
+        "22": "OUTSIDE:instant-ngp未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "空间智能。世界模型/三维重建/标定保留。轻量化部署不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|95d10fd8-b90a-4e1f-b366-0d60571cb4b7|43c5844cee5b304fb1ed779e1543180a77465f49e639cffe2955c0c5cbc19072",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 51,
+      "reviewed_candidate_count": 22,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 29,
+        "end": 47,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "世界模型等方向的算法研发与工程化落地"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "43c5844cee5b304fb1ed779e1543180a77465f49e639cffe2955c0c5cbc19072",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.310958+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0560": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "LOCAL_MAP",
+      "secondary_task": "",
+      "task_evidence": "负责激光雷达、深度相机、双目相机、IMU 等传感器的接入、标定、同步与数据处理",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_PCL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0560:3",
+        "5": [
+          [
+            "V2_NAV2",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N0560:5",
+        "7": "OUTSIDE:OctoMap未单列冻结项。",
+        "8": "OUTSIDE:Elevation Map未单列冻结项。",
+        "9": "OUTSIDE:Voxel Map未单列冻结项。",
+        "10": [
+          [
+            "V2_TENSORRT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "DUPLICATE:N0560:10"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "具身感知。标定/PCL/Nav2/TensorRT保留。C++或Python不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7667467517580953862|01ace1cf3a1809a7a0c86cec15b161b8fea9ae9065efb797bb00c930c27d9c1c",
+      "company_id": "CN_LIMX",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 38,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 13,
+        "end": 52,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责激光雷达、深度相机、双目相机、IMU 等传感器的接入、标定、同步与数据处理"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "01ace1cf3a1809a7a0c86cec15b161b8fea9ae9065efb797bb00c930c27d9c1c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.310958+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0117": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "VISION_ALGO",
+      "secondary_task": "",
+      "task_evidence": "开发通用、高效、抗干扰的2D/3D视觉算法",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_EIGEN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PCL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_OPEN3D",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O4": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原ROS短词不唯一，改为技术栈句。",
+          "quote": "熟练掌握ROS/ROS2，PCL、Open3D、OpenCV、Eigen技术栈"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "感知算法。手眼标定/Eigen/PCL/Open3D/Sim2Real保留。Python/C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7673473943270181170|d1fa09449759258516f0c0825d6da2fc708d9479491d33234612500712e342eb",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 24,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "开发通用、高效、抗干扰的2D/3D视觉算法"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "d1fa09449759258516f0c0825d6da2fc708d9479491d33234612500712e342eb",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.311462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0829": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "RECONSTRUCTION",
+      "fine_task": "3D_CV",
+      "secondary_task": "",
+      "task_evidence": "Implement production-grade computational geometry and linear algebra in C++ and Python",
+      "new": {
+        "1": "REJECT:linear algebra in C++ is not Linear or the C language.",
+        "2": "REJECT:modern C++ is not the C language.",
+        "3": "REJECT:linear algebra不是Linear工具。",
+        "4": "OUTSIDE:ICP未单列冻结项。",
+        "5": "OUTSIDE:GICP未单列冻结项。",
+        "6": "OUTSIDE:RANSAC未单列冻结项。",
+        "7": "OUTSIDE:NDT未单列冻结项。",
+        "8": [
+          [
+            "V2_EIGEN",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_CERES",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_PCL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_OPEN3D",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0829:8",
+        "10": "DUPLICATE:N0829:8",
+        "11": "DUPLICATE:N0829:8",
+        "12": "DUPLICATE:N0829:8",
+        "13": "OUTSIDE:PCD未单列冻结项。",
+        "14": "OUTSIDE:PLY未单列冻结项。",
+        "15": "OUTSIDE:E57未单列冻结项。",
+        "16": "OUTSIDE:LAS未单列冻结项。",
+        "17": [
+          [
+            "V2_CERES",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_G2O",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "18": "DUPLICATE:N0829:17",
+        "19": "DUPLICATE:N0829:17",
+        "20": "DUPLICATE:N0829:17"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "三维视觉。Eigen/Ceres/PCL/Open3D/g2o/GTSAM保留。非线优化不记Linear。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|b8127d47-3af0-4a8d-abf2-8de5e660ae8f|637038401389d4262fe015c9ddb84c2635a42913486fe6d59d916e2de4a930e6",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 27,
+      "reviewed_candidate_count": 20,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 778,
+        "end": 864,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Implement production-grade computational geometry and linear algebra in C++ and Python"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "637038401389d4262fe015c9ddb84c2635a42913486fe6d59d916e2de4a930e6",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.311462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0349": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "VISION_2D",
+      "secondary_task": "",
+      "task_evidence": "目标检测, 分割, 识别，语义理解等算法的实现",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "2D视觉。相机标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|32b0730c-3c12-489c-90ad-bacbeda58a37|68c010b1ccb958f4e24968dbcbb4887d70b9e79a4ac6d8126466d52a4a925d59",
+      "company_id": "CN_PAXINI",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 25,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "目标检测, 分割, 识别，语义理解等算法的实现"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "68c010b1ccb958f4e24968dbcbb4887d70b9e79a4ac6d8126466d52a4a925d59",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.311462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0394": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "TACTILE_AUDIO",
+      "fine_task": "SPEECH_FRONT",
+      "secondary_task": "",
+      "task_evidence": "负责传统声音前端相关算法的研发工作，包括语音活动检测（VAD）、降噪、回声消除（AEC）",
+      "new": {
+        "1": "OUTSIDE:VAD/AEC/DOA未单列冻结项。",
+        "2": "OUTSIDE:VAD/AEC/DOA未单列冻结项。",
+        "3": "OUTSIDE:VAD/AEC/DOA未单列冻结项。",
+        "4": "REJECT:孤立C不是充分C语言证据。",
+        "5": [
+          [
+            "V2_MODEL_COMPRESSION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ],
+          [
+            "V2_SHELL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "DUPLICATE:N0394:6",
+        "8": "OUTSIDE:Kaldi未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "语音前端。量化部署记压缩。C/C++未解。Shell保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7633377600430197042|a3b141d3ed2878842f7a85e182e9dd099c047b35e48f9156b580e94fe889c4d0",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 17,
+        "end": 61,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责传统声音前端相关算法的研发工作，包括语音活动检测（VAD）、降噪、回声消除（AEC）"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "a3b141d3ed2878842f7a85e182e9dd099c047b35e48f9156b580e94fe889c4d0",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.311462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0389": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "TACTILE_AUDIO",
+      "fine_task": "ACOUSTIC_FRONT",
+      "secondary_task": "",
+      "task_evidence": "主导机器人声学前端核心算法研发与优化",
+      "new": {
+        "1": "OUTSIDE:BF/AEC/DOA/VAD等声学算法未单列冻结项。",
+        "2": "OUTSIDE:BF/AEC/DOA/VAD等声学算法未单列冻结项。",
+        "3": "OUTSIDE:BF/AEC/DOA/VAD等声学算法未单列冻结项。",
+        "4": "OUTSIDE:BF/AEC/DOA/VAD等声学算法未单列冻结项。",
+        "5": "OUTSIDE:BF/AEC/DOA/VAD等声学算法未单列冻结项。",
+        "6": "OUTSIDE:BF/AEC/DOA/VAD等声学算法未单列冻结项。",
+        "7": "OUTSIDE:BF/AEC/DOA/VAD等声学算法未单列冻结项。",
+        "8": "OUTSIDE:BF/AEC/DOA/VAD等声学算法未单列冻结项。",
+        "9": "REJECT:孤立C不是充分C语言证据。",
+        "10": "OUTSIDE:DSP/声学算法未单列冻结项。",
+        "11": "OUTSIDE:DSP/声学算法未单列冻结项。",
+        "12": "OUTSIDE:DSP/声学算法未单列冻结项。",
+        "13": "OUTSIDE:DSP/声学算法未单列冻结项。",
+        "14": "OUTSIDE:DSP/声学算法未单列冻结项。",
+        "15": [
+          [
+            "V2_MODEL_COMPRESSION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "16": "OUTSIDE:Kaldi未单列冻结项。",
+        "17": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "18": "OUTSIDE:ISO 26262未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "声学前端。量化记压缩。C/C++未解。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7650132385832831241|a3d6aa29b4faed9c35f0c16f565dd3fab534a27aed34918cb5a846feeb0b4ca5",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 20,
+      "reviewed_candidate_count": 18,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 133,
+        "end": 151,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "主导机器人声学前端核心算法研发与优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "a3d6aa29b4faed9c35f0c16f565dd3fab534a27aed34918cb5a846feeb0b4ca5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.311462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0512": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "RECONSTRUCTION",
+      "fine_task": "SPATIAL_GS",
+      "secondary_task": "",
+      "task_evidence": "世界模型等方向的算法研发与工程化落地",
+      "new": {
+        "1": [
+          [
+            "V2_WORLD_MODEL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_WORLD_MODEL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_3D_RECONSTRUCTION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0512:4",
+        "6": "DUPLICATE:N0512:4",
+        "7": [
+          [
+            "V2_WORLD_MODEL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "REJECT:C++ / Python is not the C language.",
+        "10": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "DUPLICATE:N0512:10",
+        "12": "OUTSIDE:4DGS未单列冻结项。",
+        "13": "DUPLICATE:N0512:10",
+        "14": [
+          [
+            "V2_WORLD_MODEL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "15": [
+          [
+            "V2_WORLD_MODEL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "16": "OUTSIDE:Occupancy/BEV未单列冻结项。",
+        "17": "OUTSIDE:Occupancy/BEV未单列冻结项。",
+        "18": "REJECT:端侧轻量化部署不是模型压缩。",
+        "19": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "20": "OUTSIDE:前馈dgs未单列冻结项。",
+        "21": "DUPLICATE:N0512:19",
+        "22": "OUTSIDE:Nerfstudio未单列冻结项。",
+        "23": "OUTSIDE:instant-ngp未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "空间智能。世界模型/重建/标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|0da24188-bdd8-4a3b-8e2c-cbe72d211e84|bea9c120addb04ceb07d6fc2be5c6e930fc812aa0839deaeadd3a17a1d4fdf62",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 51,
+      "reviewed_candidate_count": 23,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 125,
+        "end": 143,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "世界模型等方向的算法研发与工程化落地"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "bea9c120addb04ceb07d6fc2be5c6e930fc812aa0839deaeadd3a17a1d4fdf62",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.312468+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0516": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "LIGHT_MAP",
+      "secondary_task": "",
+      "task_evidence": "负责轻量化地图方案的整体设计与技术选型，支撑多机器人平台需求",
+      "new": {
+        "1": "REJECT:轻量化地图方案不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "地图方案。轻量化不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|aa083a45-15a1-4f9e-a532-70ef70e4ae31|06d27c008fe9e53dbe8b76eeac27168b59ab150416da2623a088170f406c87c2",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 10,
+        "end": 40,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责轻量化地图方案的整体设计与技术选型，支撑多机器人平台需求"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "06d27c008fe9e53dbe8b76eeac27168b59ab150416da2623a088170f406c87c2",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.312468+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0522": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "ODOM",
+      "secondary_task": "",
+      "task_evidence": "负责基于ESKF/MSCKF/因子图的高精度多传感器融合里程计研发与维护",
+      "new": {
+        "1": [
+          [
+            "V2_KALMAN_FACTOR",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0522:1",
+        "3": "OUTSIDE:ZUPT未单列冻结项。",
+        "4": "OUTSIDE:ZUPT未单列冻结项。",
+        "5": [
+          [
+            "V2_G2O",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N0522:5",
+        "7": "DUPLICATE:N0522:5",
+        "8": "OUTSIDE:预积分未单列冻结项。",
+        "9": "DUPLICATE:N0522:5",
+        "10": "DUPLICATE:N0522:5",
+        "11": "DUPLICATE:N0522:5",
+        "12": "OUTSIDE:ZUPT未单列冻结项。",
+        "13": [
+          [
+            "V2_TENSORRT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ONNX",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_EIGEN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CERES",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_MODEL_COMPRESSION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "14": "DUPLICATE:N0522:13",
+        "15": "DUPLICATE:N0522:13",
+        "16": "OUTSIDE:NEON未单列冻结项。",
+        "17": "DUPLICATE:N0522:13",
+        "18": "DUPLICATE:N0522:13"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "里程计。因子图/标定/量化/TensorRT保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|f612687c-285e-45c8-bf80-90ee075cc0bd|e63aad18ba2d27c14f6957b07ce55167e76c99cc27d0d7fb6a47759dec95e167",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 38,
+      "reviewed_candidate_count": 18,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 103,
+        "end": 139,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责基于ESKF/MSCKF/因子图的高精度多传感器融合里程计研发与维护"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "e63aad18ba2d27c14f6957b07ce55167e76c99cc27d0d7fb6a47759dec95e167",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.312468+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0028": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "INDUSTRIAL_CV",
+      "secondary_task": "",
+      "task_evidence": "负责开发具身智能机器人落地场景中的计算机视觉算法",
+      "new": {
+        "1": "REJECT:Python和C++ is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "工业感知。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|52569262-18b9-4da8-8a84-e98e02bb4d3f|43d8c0be6d91c701368eb14542378e28dbec6d5f33ab04565d58ddca3e057558",
+      "company_id": "CN_GALBOT",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 32,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责开发具身智能机器人落地场景中的计算机视觉算法"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "43d8c0be6d91c701368eb14542378e28dbec6d5f33ab04565d58ddca3e057558",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.312468+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0114": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "SLAM",
+      "secondary_task": "",
+      "task_evidence": "搭建和维护机器人定位系统，包括激光SLAM、视觉SLAM、全局重定位、里程计等",
+      "new": {
+        "1": "REJECT:C++ is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "SLAM。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|60b66ee9-2830-4d48-a751-76b866875d2f|ff4e1225bd7a9e81a25d0154bdbcb3e35ca9bafe5fa6b906143a609aaf7ed1c1",
+      "company_id": "CN_GALBOT",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 48,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "搭建和维护机器人定位系统，包括激光SLAM、视觉SLAM、全局重定位、里程计等"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "ff4e1225bd7a9e81a25d0154bdbcb3e35ca9bafe5fa6b906143a609aaf7ed1c1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.312468+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0059": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "CV_INTERN",
+      "secondary_task": "",
+      "task_evidence": "负责开发具身智能机器人落地场景中的计算机视觉算法",
+      "new": {
+        "1": "REJECT:Python和C++ is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "感知实习。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|6dd62134-d2d0-4809-9f9f-02c6b2a704b3|1a9e0f31d18fbf42e4b805b81912405b247c167f11c40800f979ef6fd8e70cb2",
+      "company_id": "CN_GALBOT",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 32,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责开发具身智能机器人落地场景中的计算机视觉算法"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "1a9e0f31d18fbf42e4b805b81912405b247c167f11c40800f979ef6fd8e70cb2",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.313471+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0066": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "LIO",
+      "secondary_task": "",
+      "task_evidence": "负责人形机器人的激光SLAM与定位状态估计算法研发与落地",
+      "new": {
+        "1": [
+          [
+            "V2_KALMAN_FACTOR",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "OUTSIDE:Jetson未单列冻结项。",
+        "4": [
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_EIGEN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CERES",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_PCL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N0066:5",
+        "7": "DUPLICATE:N0066:5",
+        "8": "DUPLICATE:N0066:5",
+        "9": "DUPLICATE:N0066:5",
+        "10": "OUTSIDE:FAST-LIO未单列冻结项。",
+        "11": "OUTSIDE:LIO-SAM未单列冻结项。",
+        "12": "OUTSIDE:LeGO-LOAM未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "激光SLAM。因子图/标定/Eigen/Ceres/GTSAM/PCL保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|9180e8c1-a4fe-46a4-9e58-78f3d4843d3f|77a7997c521de0b253189228ef76348800542b6555c3d20dd10e5ec5dace7d9a",
+      "company_id": "CN_GALBOT",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 12,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 37,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责人形机器人的激光SLAM与定位状态估计算法研发与落地"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "77a7997c521de0b253189228ef76348800542b6555c3d20dd10e5ec5dace7d9a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.313471+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0031": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "CV_CAMPUS",
+      "secondary_task": "",
+      "task_evidence": "负责开发具身智能机器人落地场景中的计算机视觉算法",
+      "new": {
+        "1": "REJECT:Python和C++ is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "应届感知。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|af7e5e36-0da1-4b81-bdfc-26441c591d6d|53642452156ec008cc851e571c90c33febe4a3e6af9e0d4e3e9597e60f62bcdf",
+      "company_id": "CN_GALBOT",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 32,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责开发具身智能机器人落地场景中的计算机视觉算法"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "53642452156ec008cc851e571c90c33febe4a3e6af9e0d4e3e9597e60f62bcdf",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.313471+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0068": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "HUMANOID_VISION",
+      "secondary_task": "",
+      "task_evidence": "研发面向人形机器人运动场景的高速视觉感知算法",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_TENSORRT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0068:4",
+        "6": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_TENSORRT",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_ONNX",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_ONNX_RUNTIME",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0068:8",
+        "10": "DUPLICATE:N0068:8",
+        "11": "OUTSIDE:DeepStream未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "人形视觉。标定/Sim2Real/域随机化/TensorRT保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|bba8616f-b04f-4de5-b9fd-3b4d98e5caf3|94028d60782224cae3f890a3a67c1c57a64c2e4b1ef684c640774f42f193243e",
+      "company_id": "CN_GALBOT",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 46,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 29,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "研发面向人形机器人运动场景的高速视觉感知算法"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "94028d60782224cae3f890a3a67c1c57a64c2e4b1ef684c640774f42f193243e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:19.313471+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0615": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "LOC_ALGO",
+      "secondary_task": "",
+      "task_evidence": "负责定位方向的算法设计和优化，功能实现和调试、量产落地",
+      "new": {
+        "1": "REJECT:C++ is not the C language.",
+        "2": "OUTSIDE:FAST-LIO2未单列冻结项。",
+        "3": "OUTSIDE:openVINS未单列冻结项。",
+        "4": "OUTSIDE:VINS-MONO未单列冻结项。",
+        "5": "OUTSIDE:ORB-SLAM3未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "定位算法。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7379565607546669349|9562ca87f8a1b5636b389348884b176e24808a471f8ee2342af86c11e5253e42",
+      "company_id": "CN_LIMX",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 35,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责定位方向的算法设计和优化，功能实现和调试、量产落地"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "9562ca87f8a1b5636b389348884b176e24808a471f8ee2342af86c11e5253e42",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.154787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0529": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "LEGGED_SLAM",
+      "secondary_task": "",
+      "task_evidence": "负责足式机器人相关的定位、建图及多传感器融合算法研发与工程落地",
+      "new": {
+        "1": [
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0529:1",
+        "3": "DUPLICATE:N0529:1",
+        "4": "DUPLICATE:N0529:1",
+        "5": "DUPLICATE:N0529:1",
+        "6": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "REJECT:C++ is not the C language.",
+        "8": [
+          [
+            "V2_EIGEN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PCL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "DUPLICATE:N0529:8",
+        "10": "DUPLICATE:N0529:8",
+        "11": [
+          [
+            "V2_CERES",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_G2O",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_KALMAN_FACTOR",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "DUPLICATE:N0529:11",
+        "13": "DUPLICATE:N0529:11",
+        "14": "DUPLICATE:N0529:11",
+        "15": "OUTSIDE:LIO-SAM未单列冻结项。",
+        "16": "OUTSIDE:Faster-LIO未单列冻结项。",
+        "17": "OUTSIDE:Cartographer未单列冻结项。",
+        "18": "OUTSIDE:ORB-SLAM3未单列冻结项。",
+        "19": "OUTSIDE:VINS-Fusion未单列冻结项。",
+        "20": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "21": "OUTSIDE:ARM未单列冻结项。",
+        "22": "OUTSIDE:NVIDIA Jetson未单列冻结项。",
+        "23": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "24": "DUPLICATE:N0529:23",
+        "25": "DUPLICATE:N0529:23",
+        "26": "OUTSIDE:VGGT未单列冻结项。",
+        "27": "OUTSIDE:BEV未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "具身感知。滤波/标定/Eigen/PCL/Ceres/重建保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7682688742339660068|bbc386d36434b477ab2c794af0a34402c5fefe2768bcfdbed81f0c1f157d4500",
+      "company_id": "CN_LIMX",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 33,
+      "reviewed_candidate_count": 27,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 40,
+        "end": 71,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责足式机器人相关的定位、建图及多传感器融合算法研发与工程落地"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "bbc386d36434b477ab2c794af0a34402c5fefe2768bcfdbed81f0c1f157d4500",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.155787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0527": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "SLAM_INTERN",
+      "secondary_task": "",
+      "task_evidence": "参与完成传感器选型、标定、数据采集、算法评测及问题分析",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:C++或Python is not the C language.",
+        "3": [
+          [
+            "V2_EIGEN",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_PCL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "4": "DUPLICATE:N0527:3",
+        "5": "DUPLICATE:N0527:3",
+        "6": "OUTSIDE:LIO-SAM未单列冻结项。",
+        "7": "OUTSIDE:Faster-LIO未单列冻结项。",
+        "8": "OUTSIDE:Cartographer未单列冻结项。",
+        "9": "OUTSIDE:ORB-SLAM3未单列冻结项。",
+        "10": "OUTSIDE:VINS-Fusion未单列冻结项。",
+        "11": [
+          [
+            "V2_KALMAN_FACTOR",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "DUPLICATE:N0527:11",
+        "13": "DUPLICATE:N0527:11",
+        "14": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "15": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "16": "DUPLICATE:N0527:15",
+        "17": "DUPLICATE:N0527:15",
+        "18": "OUTSIDE:BEV未单列冻结项。",
+        "19": "OUTSIDE:VGGT未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "感知实习。标定/Eigen/PCL/滤波/重建保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7683102911605410084|b4a739af7ea181c443d8cbb3e22c77d9dd3ec8828cfdcc9486a2e138812eee43",
+      "company_id": "CN_LIMX",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 27,
+      "reviewed_candidate_count": 19,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 34,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与完成传感器选型、标定、数据采集、算法评测及问题分析"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b4a739af7ea181c443d8cbb3e22c77d9dd3ec8828cfdcc9486a2e138812eee43",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.155787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0298": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "WHEEL_SLAM",
+      "secondary_task": "",
+      "task_evidence": "负责轮式人形机器人室内外一体化SLAM、全局/局部重定位、多传感器融合定位核心模块的算法研发",
+      "new": {
+        "1": "OUTSIDE:Fast-LIO未单列冻结项。",
+        "2": "OUTSIDE:LIO-SAM未单列冻结项。",
+        "3": "OUTSIDE:R3LIVE未单列冻结项。",
+        "4": "OUTSIDE:ORB-SLAM3未单列冻结项。",
+        "5": "OUTSIDE:VINS未单列冻结项。",
+        "6": "OUTSIDE:NDT未单列冻结项。",
+        "7": "OUTSIDE:ICP未单列冻结项。",
+        "8": "OUTSIDE:LOAM未单列冻结项。",
+        "9": "OUTSIDE:VIO未单列冻结项。",
+        "10": "OUTSIDE:LVI-SAM未单列冻结项。",
+        "11": [
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "DUPLICATE:N0298:11",
+        "13": "DUPLICATE:N0298:11",
+        "14": "DUPLICATE:N0298:11",
+        "15": "DUPLICATE:N0298:11",
+        "16": "REJECT:C++ is not the C language.",
+        "17": "OUTSIDE:NEON未单列冻结项。",
+        "18": [
+          [
+            "V2_CERES",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_G2O",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "19": "DUPLICATE:N0298:18",
+        "20": "DUPLICATE:N0298:18",
+        "21": "DUPLICATE:N0298:18"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "轮式SLAM。滤波/Ceres/g2o/GTSAM保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|1b103764-d112-4cea-9a2e-9702c30752eb|8251c765a178dc0939523a3aa6a3f9a6370ff9cbeed8ca29083ac9aaae250b94",
+      "company_id": "CN_PAXINI",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 30,
+      "reviewed_candidate_count": 21,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 5,
+        "end": 51,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责轮式人形机器人室内外一体化SLAM、全局/局部重定位、多传感器融合定位核心模块的算法研发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "8251c765a178dc0939523a3aa6a3f9a6370ff9cbeed8ca29083ac9aaae250b94",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.155787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0293": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "WHEEL_SLAM",
+      "secondary_task": "",
+      "task_evidence": "负责轮式人形机器人室内外一体化SLAM、全局/局部重定位、多传感器融合定位核心模块的算法研发",
+      "new": {
+        "1": "OUTSIDE:Fast-LIO未单列冻结项。",
+        "2": "OUTSIDE:LIO-SAM未单列冻结项。",
+        "3": "OUTSIDE:R3LIVE未单列冻结项。",
+        "4": "OUTSIDE:ORB-SLAM3未单列冻结项。",
+        "5": "OUTSIDE:VINS未单列冻结项。",
+        "6": "OUTSIDE:NDT未单列冻结项。",
+        "7": "OUTSIDE:ICP未单列冻结项。",
+        "8": "OUTSIDE:LOAM未单列冻结项。",
+        "9": "OUTSIDE:VIO未单列冻结项。",
+        "10": "OUTSIDE:LVI-SAM未单列冻结项。",
+        "11": [
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "DUPLICATE:N0293:11",
+        "13": "DUPLICATE:N0293:11",
+        "14": "DUPLICATE:N0293:11",
+        "15": "DUPLICATE:N0293:11",
+        "16": "REJECT:C++ is not the C language.",
+        "17": "OUTSIDE:NEON未单列冻结项。",
+        "18": [
+          [
+            "V2_CERES",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_G2O",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "19": "DUPLICATE:N0293:18",
+        "20": "DUPLICATE:N0293:18",
+        "21": "DUPLICATE:N0293:18"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "轮式SLAM。滤波/Ceres/g2o/GTSAM保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|4dc2cf90-47c7-4d99-8561-1677123744bb|aad0b02464e94ca73a9513ab57b2c9c45887e6f2642af2f112dc729666ae6853",
+      "company_id": "CN_PAXINI",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 30,
+      "reviewed_candidate_count": 21,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 11,
+        "end": 57,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责轮式人形机器人室内外一体化SLAM、全局/局部重定位、多传感器融合定位核心模块的算法研发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "aad0b02464e94ca73a9513ab57b2c9c45887e6f2642af2f112dc729666ae6853",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.155787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0249": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "NAV_PERCEPT",
+      "secondary_task": "",
+      "task_evidence": "完成激光雷达、单目/双目相机、深度相机、超声、碰撞传感器等多源传感器的时空同步、联合标定与数据融合",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "OUTSIDE:OctoMap/代价地图未单列冻结项。",
+        "4": "REJECT:C++/Python is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "导航感知。联合标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|63f81dc7-671f-4a6f-b9c4-bc613bca92a2|e30ac823562720e2bc1485ce9333951d97d8c616371d2a6cac58d81cda3d0dc2",
+      "company_id": "CN_PAXINI",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 26,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 59,
+        "end": 108,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "完成激光雷达、单目/双目相机、深度相机、超声、碰撞传感器等多源传感器的时空同步、联合标定与数据融合"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "e30ac823562720e2bc1485ce9333951d97d8c616371d2a6cac58d81cda3d0dc2",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.155787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0299": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "WHEEL_SLAM",
+      "secondary_task": "",
+      "task_evidence": "负责轮式人形机器人室内外一体化SLAM、全局/局部重定位、多传感器融合定位核心模块的算法研发",
+      "new": {
+        "1": "OUTSIDE:Fast-LIO未单列冻结项。",
+        "2": "OUTSIDE:LIO-SAM未单列冻结项。",
+        "3": "OUTSIDE:R3LIVE未单列冻结项。",
+        "4": "OUTSIDE:ORB-SLAM3未单列冻结项。",
+        "5": "OUTSIDE:VINS未单列冻结项。",
+        "6": "OUTSIDE:NDT未单列冻结项。",
+        "7": "OUTSIDE:ICP未单列冻结项。",
+        "8": "OUTSIDE:LOAM未单列冻结项。",
+        "9": "OUTSIDE:VIO未单列冻结项。",
+        "10": "OUTSIDE:LVI-SAM未单列冻结项。",
+        "11": [
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "DUPLICATE:N0299:11",
+        "13": "DUPLICATE:N0299:11",
+        "14": "DUPLICATE:N0299:11",
+        "15": "DUPLICATE:N0299:11",
+        "16": "REJECT:C++ is not the C language.",
+        "17": "OUTSIDE:NEON未单列冻结项。",
+        "18": [
+          [
+            "V2_CERES",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_G2O",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "19": "DUPLICATE:N0299:18",
+        "20": "DUPLICATE:N0299:18",
+        "21": "DUPLICATE:N0299:18"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "轮式SLAM。滤波/Ceres/g2o/GTSAM保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|de0b7530-c625-4b86-a092-242de5d97d44|20eb0551bd80a49a7b7d823a153758199b39e1d5dcd3e48af46f5d1315ae67ab",
+      "company_id": "CN_PAXINI",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 30,
+      "reviewed_candidate_count": 21,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 48,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责轮式人形机器人室内外一体化SLAM、全局/局部重定位、多传感器融合定位核心模块的算法研发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "20eb0551bd80a49a7b7d823a153758199b39e1d5dcd3e48af46f5d1315ae67ab",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.156787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0252": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "HAND_POSE",
+      "secondary_task": "",
+      "task_evidence": "研发基于头戴式双目摄像头的手部跟踪与 3D 位姿估计算法",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "手部位姿。相机标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7586586495412160804|3f80a3bd86a71341ea136405a7fbf883a345545b02d769f42dcb64a416918476",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 31,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "研发基于头戴式双目摄像头的手部跟踪与 3D 位姿估计算法"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "3f80a3bd86a71341ea136405a7fbf883a345545b02d769f42dcb64a416918476",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.156787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0150": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "STATE_EST",
+      "secondary_task": "",
+      "task_evidence": "负责机器人IMU、编码器、足端力、视觉/深度等多源传感器方案选型、标定和融合",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "REJECT:C++/Python is not the C language."
+      },
+      "old_overrides": {
+        "O3": {
+          "metric": "PREFERRED",
+          "branch": "UNRESOLVED",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原ROS短词不唯一，改为仿真工具句。",
+          "quote": "熟悉ROS/ROS2、Pinocchio、MuJoCo、Isaac Sim、机器人日志系统或数据回放工具"
+        },
+        "O14": {
+          "metric": "GENERAL",
+          "branch": "CHOICE",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原SLAM短词不唯一，改为状态估计句。",
+          "quote": "熟悉EKF/UKF、惯性导航、SLAM或机器人状态估计"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "状态估计。标定/需求/滤波保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7659790677203355946|2e8a5b2eb8b0fefa4dd15ad6fbd27539d5fe1eac46eb7f4b3e37aab6c3b4b65d",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 20,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 5,
+        "end": 43,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人IMU、编码器、足端力、视觉/深度等多源传感器方案选型、标定和融合"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "2e8a5b2eb8b0fefa4dd15ad6fbd27539d5fe1eac46eb7f4b3e37aab6c3b4b65d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.156787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0409": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "SLAM_LEARN",
+      "secondary_task": "",
+      "task_evidence": "Your work will focus heavily on SLAM, visual-inertial odometry, world modeling",
+      "new": {
+        "1": [
+          [
+            "V2_WORLD_MODEL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:English can is not Controller Area Network.",
+        "3": [
+          [
+            "V2_CI_CD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_TENSORRT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ONNX",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ONNX_RUNTIME",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_MODEL_COMPRESSION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "OUTSIDE:Detectron2/YOLO未单列冻结项。",
+        "7": "OUTSIDE:ORB-SLAM/VINS/Cartographer未单列冻结项。",
+        "8": "DUPLICATE:E0409:5",
+        "9": "OUTSIDE:GStreamer未单列冻结项。"
+      },
+      "old_overrides": {
+        "O11": {
+          "metric": "DUTY_OWN_DEVELOP",
+          "branch": "UNCONDITIONAL",
+          "relation": "DUTY",
+          "reason": "原multi-sensor fusion短词不唯一，改为SLAM与多传感融合句。",
+          "quote": "alongside object detection and multi-sensor fusion, creating the foundation for robust autonomy"
+        },
+        "O25": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "DUTY",
+          "reason": "原SLAM短词不唯一，改为职责SLAM句。",
+          "quote": "Your work will focus heavily on SLAM, visual-inertial odometry, world modeling"
+        },
+        "O29": {
+          "metric": "GENERAL",
+          "branch": "CHOICE",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原perception短词不唯一，改为SLAM and perception stacks句。",
+          "quote": "deliver deployable, high-performance SLAM and perception stacks"
+        },
+        "O30": {
+          "metric": "GENERAL",
+          "branch": "CHOICE",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原SLAM短词不唯一，改为同一SLAM and perception stacks句。",
+          "quote": "deliver deployable, high-performance SLAM and perception stacks"
+        },
+        "O36": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原computer vision短词不唯一，改为复杂人类环境感知句。",
+          "quote": "understand and interact with complex human environments"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "SLAM感知学习。世界模型/CI/滤波/量化/TensorRT保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6013277004|6e3c533cca3682e60bef8a96405964c9cd28bc3955c35794e4a7566b8a1e5faf",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 38,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 172,
+        "end": 250,
+        "method": "UNIQUE_WHITESPACE_MATCH",
+        "quote": "Your work will focus heavily on\nSLAM, visual-inertial odometry, world modeling"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "6e3c533cca3682e60bef8a96405964c9cd28bc3955c35794e4a7566b8a1e5faf",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.156787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N1024": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "TACTILE_AUDIO",
+      "fine_task": "TACTILE",
+      "secondary_task": "",
+      "task_evidence": "Staff Perception Engineer specializing in tactile sensing",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "OUTSIDE:DSP滤波压缩未单列冻结项。",
+        "3": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N1024:4",
+        "6": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "OUTSIDE:IPC standards未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "触觉感知。标定/Sim2Real/Git保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|1ffa5f3d19691002041843dc62d50000|00e7838cd669f9ee5ff539713cce369141ccbcbd49d7695659eeeb6de619cb27",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 27,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 20,
+        "end": 77,
+        "method": "UNIQUE_WHITESPACE_MATCH",
+        "quote": "Staff Perception Engineer\nspecializing in tactile sensing"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "00e7838cd669f9ee5ff539713cce369141ccbcbd49d7695659eeeb6de619cb27",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.157787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0816": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "SENIOR_PERCEPT",
+      "secondary_task": "",
+      "task_evidence": "including sensor timestamps, synchronization, calibration, data quality, coordinate frames",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:production-quality C++ is not the C language.",
+        "4": [
+          [
+            "V2_CI_CD",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0816:4"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "高级感知。标定/CI保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|0a36e879-b0cf-4b04-a9fa-7df4f29219e3|2963140759395d808957ea85f551c73cdcea731b8bed73298980c68abe046b27",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 30,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1624,
+        "end": 1714,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "including sensor timestamps, synchronization, calibration, data quality, coordinate frames"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "2963140759395d808957ea85f551c73cdcea731b8bed73298980c68abe046b27",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.157787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0823": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "ROBOT_PERCEPT",
+      "secondary_task": "",
+      "task_evidence": "Comfort working close to hardware, including debugging sensor data, calibration, and real-world failures",
+      "new": {
+        "1": "REJECT:C++, Python is not the C language.",
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机器人感知。标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|1754d6f2-86a7-41d7-9c98-5121578910a0|03caf644b155d38d04ee6fca4eec24001c45a2789872210d50f7ca236cbf9b08",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 26,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3872,
+        "end": 3976,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Comfort working close to hardware, including debugging sensor data, calibration, and real-world failures"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "03caf644b155d38d04ee6fca4eec24001c45a2789872210d50f7ca236cbf9b08",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.157787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0825": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "RECONSTRUCTION",
+      "fine_task": "MAPPING_3D",
+      "secondary_task": "",
+      "task_evidence": "design and deploy advanced robot perception and 3D mapping systems",
+      "new": {
+        "1": "REJECT:Irvine office不是Microsoft Office。",
+        "2": "REJECT:project-specific documentation不是Microsoft Project。",
+        "3": "REJECT:C++ and Python is not the C language.",
+        "4": "OUTSIDE:ICP未单列冻结项。",
+        "5": "OUTSIDE:NDT未单列冻结项。",
+        "6": [
+          [
+            "V2_CERES",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_G2O",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "7": "DUPLICATE:N0825:6",
+        "8": "DUPLICATE:N0825:6",
+        "9": "DUPLICATE:N0825:6",
+        "10": [
+          [
+            "V2_PCL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_OPEN3D",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "11": "DUPLICATE:N0825:10",
+        "12": "DUPLICATE:N0825:10",
+        "13": "OUTSIDE:Autoware未单列冻结项。",
+        "14": "OUTSIDE:Ubuntu ROS实践未单列冻结项。",
+        "15": "OUTSIDE:PCD未单列冻结项。",
+        "16": "OUTSIDE:PLY未单列冻结项。",
+        "17": "OUTSIDE:E57未单列冻结项。",
+        "18": "OUTSIDE:LAS未单列冻结项。",
+        "19": "OUTSIDE:CloudCompare未单列冻结项。",
+        "20": "OUTSIDE:Leica Cyclone未单列冻结项。",
+        "21": "OUTSIDE:Faro Scene未单列冻结项。",
+        "22": "OUTSIDE:Trimble RealWorks未单列冻结项。",
+        "23": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "24": "OUTSIDE:total stations未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "三维建图。Ceres/g2o/GTSAM/PCL/Open3D/标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|8f3af86b-ded0-4c8a-a657-b89e50256bdd|3f6930dbb1a590fa9d0e768f9b2c2a3b0c19816e2f3fe088a71defceb11de344",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 24,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1472,
+        "end": 1538,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "design and deploy advanced robot perception and 3D mapping systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "3f6930dbb1a590fa9d0e768f9b2c2a3b0c19816e2f3fe088a71defceb11de344",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.157787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0490": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "OBJECT_VISION",
+      "fine_task": "HELIX_PERCEPT",
+      "secondary_task": "",
+      "task_evidence": "Develop perception systems including onboard computer vision, localization, visuomotor policies, and offline data annotation",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": "REJECT:linear algebra不是Linear工具。",
+        "3": [
+          [
+            "V2_SPARK",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:E0490:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Helix感知。Spark保留。Ray未单记。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4007375006|9e5bd52c79a602db04e3b8d78d401e91d58efa6003830ea2b71d8da0e7321e19",
+      "company_id": "US_FIGURE",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 124,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Develop perception systems including onboard computer vision, localization, visuomotor policies, and offline data annotation"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "9e5bd52c79a602db04e3b8d78d401e91d58efa6003830ea2b71d8da0e7321e19",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.158787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0565": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "LOCALIZATION",
+      "fine_task": "STATE_EST_DATA",
+      "secondary_task": "",
+      "task_evidence": "Design and implement dual-tier state estimation algorithms in modern C++",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CERES",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "7": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "REJECT:C++ is not the C language.",
+        "9": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "DUPLICATE:E0565:6"
+      },
+      "old_overrides": {
+        "O16": {
+          "metric": "PREFERRED",
+          "branch": "UNRESOLVED",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原calibration短词不唯一，改为多传感器标定工作流句。",
+          "quote": "Proven capability to design fast, reliable calibration, zeroing, and alignment workflows"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "采集状态估计。标定/遥操/Ceres/GTSAM保留。C++不记C。非线优化不记Linear。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4706280006|8289353ae8fd155f2c8aadc89d75a54ad9affa82d9825e204c439122376e513b",
+      "company_id": "US_FIGURE",
+      "role": "RF_PERCEPTION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 72,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design and implement dual-tier state estimation algorithms in modern C++"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "8289353ae8fd155f2c8aadc89d75a54ad9affa82d9825e204c439122376e513b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:51:20.158787+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    }
+  }
+}

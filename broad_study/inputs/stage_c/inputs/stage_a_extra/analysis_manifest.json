@@ -1,0 +1,445 @@
+{
+  "stage": "A",
+  "revision": "r3",
+  "title": "建立分析底表（独立验收修复版）",
+  "status": "PASSED",
+  "started_at": "2026-09-14T14:10:27.569374+00:00",
+  "finished_at": "2026-09-14T14:10:34.451026+00:00",
+  "out_dir": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r3",
+  "from_snapshot": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r2",
+  "python": "C:\\Users\\bestl\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "commands": {
+    "recompute": "python -B -X utf8 scripts/run_stage_a.py --from-snapshot . --out ../stage_a_recomputed"
+  },
+  "input_scope": "ONLY_SEALED_PACKAGE; live repository protection is checked separately by the independent acceptance audit",
+  "input_paths": {
+    "snapshot": "accepted_jobs.jsonl",
+    "extract_meta": "extract_meta.json",
+    "locked_inputs": "locked_inputs/"
+  },
+  "input_hashes_before": {
+    "accepted_jobs.jsonl": "492080a56d62bd5e7aace9e0a7543d767774f4c0bf63681b4f2b299e03d263bd",
+    "extract_meta.json": "a337845e755f782dac32ba772ca7d0d58616b3a927fc52bd6b55b19f601149cc",
+    "locked_inputs/company_boundary_events.csv": "371442bed075ef0f07bffbbfb45b1415a4d86d22d4a866fa348dafb7e31a8094",
+    "locked_inputs/company_landscape.csv": "5f7d9c4640a76961d69ac491a67f5dbafbc515a6091f88084c08ca0a494d33ec",
+    "locked_inputs/company_profiles/CN_AGIBOT.md": "519ccce42f5c8152ce53c2158293e544dca728061a02d1ef28801f624495e280",
+    "locked_inputs/company_profiles/CN_ASTRIBOT.md": "ffd7e2515c10394d23df9786ff04b8b854ae7f22991a068522b7a4795f81ba26",
+    "locked_inputs/company_profiles/CN_DEEPROBOTICS.md": "7a37d95df2e7a487527a149cdf8097277adca824f245168f527475032b16452a",
+    "locked_inputs/company_profiles/CN_FOURIER.md": "c1c264a16bad83e3ad824d8feb8ff389329027abed0114467a9ade6a5ea962b1",
+    "locked_inputs/company_profiles/CN_GALAXEA.md": "5d9c729ed78ff5a1d2129c17a42277533dd3668fa3b2c20e0412cc593000972a",
+    "locked_inputs/company_profiles/CN_GALBOT.md": "1e6a286a7689adc0011eb8a6809dafd977b75e3333340307cddee33172694077",
+    "locked_inputs/company_profiles/CN_LIMX.md": "8787b7ed9c0ce530b81f744ba8805c86641718ac550efacaf7fcf01a94545442",
+    "locked_inputs/company_profiles/CN_NOETIX.md": "a3be731bf2932e249a89627d9d47d508062a031ff5a05a6975d83d96fa9b44cf",
+    "locked_inputs/company_profiles/CN_PAXINI.md": "369662167b7c45fd15f83f480b88a1a799a50120cbbb0df2b285034216b263fe",
+    "locked_inputs/company_profiles/CN_SPIRITAI.md": "c78f804a4c44455014b14e30b65c55a4356c74fc4eb9f9319804fc506f645c49",
+    "locked_inputs/company_profiles/CN_UNITREE.md": "668b84a79fc31cffd1428ccf0108aa77303649a2a6ee26a47e432985dc50aa37",
+    "locked_inputs/company_profiles/CN_XSQUARE.md": "2f0004a9c55046b6cf3c25eb2332af5db1f37dda94b37245644e5d39d752a377",
+    "locked_inputs/company_profiles/US_AGILITY.md": "228c480e0ea14ff4ca4e88d5e700d061d116441d0c597d3eed8dba0610cc9a27",
+    "locked_inputs/company_profiles/US_AMAZON_FTR.md": "34759db6ae299e0fb5c6e3280ee05f879748833c091b028101ffff6c92e54532",
+    "locked_inputs/company_profiles/US_APPTRONIK.md": "8ea9934a7e3d873fd6622d90d06274b5bb06c96d507d83f6724d18fbd5fb5cea",
+    "locked_inputs/company_profiles/US_BOSTON_DYNAMICS.md": "7efee5e00f3ce09b8d6e4eab6532f7ed1313e0279d09ce179fcc06b173b791da",
+    "locked_inputs/company_profiles/US_DEXTERITY.md": "9d75de33728b7cbc3672e61e9f9da1464e2ccafb58d708f10e94898aaf25c063",
+    "locked_inputs/company_profiles/US_DILIGENT.md": "b1c0d297b13621824304cf445485a2d642bde5b9a85273a54d15cf0296108992",
+    "locked_inputs/company_profiles/US_FIELD_AI.md": "467ca5894aa67e107bbdf9ff6048acbfcef5e6dc34a04cb95106b23381c81dc7",
+    "locked_inputs/company_profiles/US_FIGURE.md": "af9b61c9149167fb32e6db8c5cd7f7f43eeb0a8278735bd6f6a5fa6bb1f18cc0",
+    "locked_inputs/company_profiles/US_NIMBLE.md": "e4c7f57c4a2cb477b00f5463033d21e0c8cc97f449dfce14392a7080f0ae1516",
+    "locked_inputs/company_profiles/US_PHYSICAL_INTELLIGENCE.md": "b6887faca12db2ae6afaee7aaa01153ac7cbcbc86cede16725cc133508bf2a30",
+    "locked_inputs/company_profiles/US_PICKLE.md": "fb546410e2a418047e668c7c74f176f13c1aafd2c90a05ae6d18e19898116d7c",
+    "locked_inputs/company_profiles/US_SKILD.md": "eee132999ac9461b278cb3e6d986d521cc80881f5b5e168b66b319564902dc21",
+    "locked_inputs/evidence_ledger.csv": "4d6a661c7f639edda5ccfa34c28cab2b058eb31918d93ae1f25966927e25bd72",
+    "locked_inputs/hiring_source_audit.csv": "eac283c2220cedaa5bedc972c7456080f8b11777b52b423a3a1b136bce830a31",
+    "locked_inputs/manifest.json": "8a402ef6cac7fbc0f13f387460bb7f3a5d4578cd998362d2ce4cf9cc96d496e8",
+    "locked_inputs/measurement_current.yaml": "a7d4d322fb552118e4488d26dce923284a95982aa20b068d7a1556c4f3e7015c",
+    "locked_inputs/measurement_rules_v0.7.5.yaml": "8a258e1deb29ec81c3318b4af41f2fc38321b41d5d0bbef28dfa1b9b8962cc8c",
+    "locked_inputs/status_evidence_matrix.csv": "b5cda2dec060a88b6406c7d3f992bc22670e25e9b7fb390299fc6421e8c1fe9b"
+  },
+  "input_hashes_after": {
+    "accepted_jobs.jsonl": "492080a56d62bd5e7aace9e0a7543d767774f4c0bf63681b4f2b299e03d263bd",
+    "extract_meta.json": "a337845e755f782dac32ba772ca7d0d58616b3a927fc52bd6b55b19f601149cc",
+    "locked_inputs/company_boundary_events.csv": "371442bed075ef0f07bffbbfb45b1415a4d86d22d4a866fa348dafb7e31a8094",
+    "locked_inputs/company_landscape.csv": "5f7d9c4640a76961d69ac491a67f5dbafbc515a6091f88084c08ca0a494d33ec",
+    "locked_inputs/company_profiles/CN_AGIBOT.md": "519ccce42f5c8152ce53c2158293e544dca728061a02d1ef28801f624495e280",
+    "locked_inputs/company_profiles/CN_ASTRIBOT.md": "ffd7e2515c10394d23df9786ff04b8b854ae7f22991a068522b7a4795f81ba26",
+    "locked_inputs/company_profiles/CN_DEEPROBOTICS.md": "7a37d95df2e7a487527a149cdf8097277adca824f245168f527475032b16452a",
+    "locked_inputs/company_profiles/CN_FOURIER.md": "c1c264a16bad83e3ad824d8feb8ff389329027abed0114467a9ade6a5ea962b1",
+    "locked_inputs/company_profiles/CN_GALAXEA.md": "5d9c729ed78ff5a1d2129c17a42277533dd3668fa3b2c20e0412cc593000972a",
+    "locked_inputs/company_profiles/CN_GALBOT.md": "1e6a286a7689adc0011eb8a6809dafd977b75e3333340307cddee33172694077",
+    "locked_inputs/company_profiles/CN_LIMX.md": "8787b7ed9c0ce530b81f744ba8805c86641718ac550efacaf7fcf01a94545442",
+    "locked_inputs/company_profiles/CN_NOETIX.md": "a3be731bf2932e249a89627d9d47d508062a031ff5a05a6975d83d96fa9b44cf",
+    "locked_inputs/company_profiles/CN_PAXINI.md": "369662167b7c45fd15f83f480b88a1a799a50120cbbb0df2b285034216b263fe",
+    "locked_inputs/company_profiles/CN_SPIRITAI.md": "c78f804a4c44455014b14e30b65c55a4356c74fc4eb9f9319804fc506f645c49",
+    "locked_inputs/company_profiles/CN_UNITREE.md": "668b84a79fc31cffd1428ccf0108aa77303649a2a6ee26a47e432985dc50aa37",
+    "locked_inputs/company_profiles/CN_XSQUARE.md": "2f0004a9c55046b6cf3c25eb2332af5db1f37dda94b37245644e5d39d752a377",
+    "locked_inputs/company_profiles/US_AGILITY.md": "228c480e0ea14ff4ca4e88d5e700d061d116441d0c597d3eed8dba0610cc9a27",
+    "locked_inputs/company_profiles/US_AMAZON_FTR.md": "34759db6ae299e0fb5c6e3280ee05f879748833c091b028101ffff6c92e54532",
+    "locked_inputs/company_profiles/US_APPTRONIK.md": "8ea9934a7e3d873fd6622d90d06274b5bb06c96d507d83f6724d18fbd5fb5cea",
+    "locked_inputs/company_profiles/US_BOSTON_DYNAMICS.md": "7efee5e00f3ce09b8d6e4eab6532f7ed1313e0279d09ce179fcc06b173b791da",
+    "locked_inputs/company_profiles/US_DEXTERITY.md": "9d75de33728b7cbc3672e61e9f9da1464e2ccafb58d708f10e94898aaf25c063",
+    "locked_inputs/company_profiles/US_DILIGENT.md": "b1c0d297b13621824304cf445485a2d642bde5b9a85273a54d15cf0296108992",
+    "locked_inputs/company_profiles/US_FIELD_AI.md": "467ca5894aa67e107bbdf9ff6048acbfcef5e6dc34a04cb95106b23381c81dc7",
+    "locked_inputs/company_profiles/US_FIGURE.md": "af9b61c9149167fb32e6db8c5cd7f7f43eeb0a8278735bd6f6a5fa6bb1f18cc0",
+    "locked_inputs/company_profiles/US_NIMBLE.md": "e4c7f57c4a2cb477b00f5463033d21e0c8cc97f449dfce14392a7080f0ae1516",
+    "locked_inputs/company_profiles/US_PHYSICAL_INTELLIGENCE.md": "b6887faca12db2ae6afaee7aaa01153ac7cbcbc86cede16725cc133508bf2a30",
+    "locked_inputs/company_profiles/US_PICKLE.md": "fb546410e2a418047e668c7c74f176f13c1aafd2c90a05ae6d18e19898116d7c",
+    "locked_inputs/company_profiles/US_SKILD.md": "eee132999ac9461b278cb3e6d986d521cc80881f5b5e168b66b319564902dc21",
+    "locked_inputs/evidence_ledger.csv": "4d6a661c7f639edda5ccfa34c28cab2b058eb31918d93ae1f25966927e25bd72",
+    "locked_inputs/hiring_source_audit.csv": "eac283c2220cedaa5bedc972c7456080f8b11777b52b423a3a1b136bce830a31",
+    "locked_inputs/manifest.json": "8a402ef6cac7fbc0f13f387460bb7f3a5d4578cd998362d2ce4cf9cc96d496e8",
+    "locked_inputs/measurement_current.yaml": "a7d4d322fb552118e4488d26dce923284a95982aa20b068d7a1556c4f3e7015c",
+    "locked_inputs/measurement_rules_v0.7.5.yaml": "8a258e1deb29ec81c3318b4af41f2fc38321b41d5d0bbef28dfa1b9b8962cc8c",
+    "locked_inputs/status_evidence_matrix.csv": "b5cda2dec060a88b6406c7d3f992bc22670e25e9b7fb390299fc6421e8c1fe9b"
+  },
+  "inputs_unchanged": true,
+  "output_checksums": "output_checksums.json",
+  "release_checksums": "release_checksums.json",
+  "package_id": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1",
+  "revision_watermark": {
+    "revision_count": 0,
+    "max_revision_id": null,
+    "max_revision_at": null
+  },
+  "rule_version": "measurement-v0.7.5",
+  "rule_bundle_hash": "acf40442760b06231a282064c9059edfe5ec7a46ac59a02692c9d89edc3a7920",
+  "records": 1654,
+  "n_companies": 24,
+  "extract_meta": {
+    "extracted_at": "2026-09-14T13:16:33.704152+00:00",
+    "input": {
+      "research_db": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\data\\research\\research.sqlite3",
+      "research_db_sha256": "9f1a67f3c9d658bb55205427b424e345f44cd51776f5b78bcfbe5e3572f92569",
+      "research_db_sha256_after_extract": "9f1a67f3c9d658bb55205427b424e345f44cd51776f5b78bcfbe5e3572f92569",
+      "db_unchanged": true,
+      "rules_path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\configs\\measurement_rules_v0.7.5.yaml",
+      "rules_sha256": "8a258e1deb29ec81c3318b4af41f2fc38321b41d5d0bbef28dfa1b9b8962cc8c",
+      "measurement_current": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\configs\\measurement_current.yaml",
+      "measurement_current_sha256": "a7d4d322fb552118e4488d26dce923284a95982aa20b068d7a1556c4f3e7015c",
+      "frozen_jsonl": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\outputs\\reference-expansion-2026-09-11\\accepted-reference1654-v1-2026-09-14\\reference1654.jsonl",
+      "frozen_jsonl_sha256": "58ca616a78426f817ab55728cb1c76296b509e29112c5d9689636e0297979888",
+      "frozen_manifest": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\outputs\\reference-expansion-2026-09-11\\accepted-reference1654-v1-2026-09-14\\manifest.json",
+      "frozen_manifest_sha256": "97fbf8ce6cc469a6f433e15edf2a4c7580333a02c2ad5e3c8326596828d03d53"
+    },
+    "package": {
+      "package_id": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1",
+      "dataset_kind": "ACCEPTED_REFERENCE",
+      "pointer_path": "outputs/reference-expansion-2026-09-11/current_reference.json",
+      "package_path": "outputs/reference-expansion-2026-09-11/accepted-reference1654-v1-2026-09-14",
+      "manifest_sha256": "97fbf8ce6cc469a6f433e15edf2a4c7580333a02c2ad5e3c8326596828d03d53",
+      "jsonl_sha256": "58ca616a78426f817ab55728cb1c76296b509e29112c5d9689636e0297979888",
+      "jsonl_name": "reference1654.jsonl",
+      "records": 1654,
+      "companies": 24,
+      "result_authority": "USER_ACCEPTED_REFERENCE",
+      "user_accepted": 1,
+      "human_validated": 0,
+      "rule_version": "measurement-v0.7.5",
+      "rule_bundle_hash": "acf40442760b06231a282064c9059edfe5ec7a46ac59a02692c9d89edc3a7920",
+      "created_at": "2026-09-14T09:05:43.391240+00:00",
+      "imported_at": "2026-09-14T09:51:08.742635+00:00",
+      "status": "CURRENT"
+    },
+    "current_pointer": {
+      "slot": "accepted_reference",
+      "package_id": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1",
+      "frozen_pointer_path": "outputs/reference-expansion-2026-09-11/current_reference.json",
+      "frozen_manifest_sha256": "97fbf8ce6cc469a6f433e15edf2a4c7580333a02c2ad5e3c8326596828d03d53"
+    },
+    "revision_watermark": {
+      "revision_count": 0,
+      "max_revision_id": null,
+      "max_revision_at": null
+    },
+    "import_run": {
+      "import_id": "import-deac0a1e06cc",
+      "started_at": "2026-09-14T09:51:08.741633+00:00",
+      "finished_at": "2026-09-14T09:51:10.841011+00:00",
+      "status": "COMPLETED",
+      "records_imported": 1654
+    },
+    "records": 1654,
+    "companies": [
+      "CN_AGIBOT",
+      "CN_ASTRIBOT",
+      "CN_DEEPROBOTICS",
+      "CN_FOURIER",
+      "CN_GALAXEA",
+      "CN_GALBOT",
+      "CN_LIMX",
+      "CN_NOETIX",
+      "CN_PAXINI",
+      "CN_SPIRITAI",
+      "CN_UNITREE",
+      "CN_XSQUARE",
+      "US_AGILITY",
+      "US_AMAZON_FTR",
+      "US_APPTRONIK",
+      "US_BOSTON_DYNAMICS",
+      "US_DEXTERITY",
+      "US_DILIGENT",
+      "US_FIELD_AI",
+      "US_FIGURE",
+      "US_NIMBLE",
+      "US_PHYSICAL_INTELLIGENCE",
+      "US_PICKLE",
+      "US_SKILD"
+    ],
+    "n_companies": 24,
+    "country_counts": {
+      "China": 963,
+      "US": 691
+    },
+    "observation_wave_counts": {
+      "2026-09-11": 1044,
+      "2026-08-31": 610
+    },
+    "dimension_status_counts": {
+      "primary_role": {
+        "CODED": 1606,
+        "AMBIGUOUS": 15,
+        "SOURCE_UNASSESSABLE": 31,
+        "UNMAPPED": 2
+      },
+      "secondary_roles": {
+        "NOT_MENTIONED": 1360,
+        "CODED": 263,
+        "SOURCE_UNASSESSABLE": 31
+      },
+      "technical_concepts": {
+        "CODED": 1441,
+        "NOT_MENTIONED": 203,
+        "SOURCE_UNASSESSABLE": 7,
+        "UNMAPPED": 3
+      },
+      "skills": {
+        "NOT_MENTIONED": 295,
+        "CODED": 1211,
+        "UNMAPPED": 118,
+        "SOURCE_UNASSESSABLE": 30
+      },
+      "activities": {
+        "CODED": 1618,
+        "SOURCE_UNASSESSABLE": 31,
+        "NOT_MENTIONED": 5
+      }
+    },
+    "snapshot_file": "accepted_jobs.jsonl",
+    "snapshot_sha256": "492080a56d62bd5e7aace9e0a7543d767774f4c0bf63681b4f2b299e03d263bd",
+    "note": "Snapshot is the locked analysis input. Recompute tables from this file; do not re-query the live research database by default."
+  },
+  "derived": {
+    "n_jobs": 1654,
+    "n_companies": 24,
+    "long_rows": {
+      "primary_role": 1606,
+      "secondary_roles": 283,
+      "technical_concepts": 14064,
+      "skills": 5289,
+      "activities": 3236
+    },
+    "n_status_rows": 8270,
+    "n_unmapped_rows": 5088,
+    "n_relation_trees": 6455,
+    "n_quality_issues": 2,
+    "n_t1": 24,
+    "n_t2": 528,
+    "n_aggregates": 88
+  },
+  "company_inheritance": {
+    "n_companies": 24,
+    "n_evidence_rows": 214,
+    "n_gaps": 307,
+    "missing_profiles": []
+  },
+  "verification_summary": {
+    "n_passed": 1349,
+    "n_failed": 0,
+    "n_skipped": 0,
+    "failed": []
+  },
+  "denominators": {
+    "T1_T2_default": "all accepted advertisements of the company or sample",
+    "T2_coded_subset": "advertisements with primary_status=CODED",
+    "not_included": "1648 automatic-classification baseline"
+  },
+  "outputs": {
+    "accepted_jobs.jsonl": {
+      "exists": true,
+      "bytes": 35618964,
+      "checksums_file": "output_checksums.json"
+    },
+    "extract_meta.json": {
+      "exists": true,
+      "bytes": 20829,
+      "checksums_file": "output_checksums.json"
+    },
+    "jobs.csv": {
+      "exists": true,
+      "bytes": 1479400,
+      "checksums_file": "output_checksums.json"
+    },
+    "primary_roles.csv": {
+      "exists": true,
+      "bytes": 1590511,
+      "checksums_file": "output_checksums.json"
+    },
+    "secondary_roles.csv": {
+      "exists": true,
+      "bytes": 261937,
+      "checksums_file": "output_checksums.json"
+    },
+    "technical_concepts.csv": {
+      "exists": true,
+      "bytes": 11826585,
+      "checksums_file": "output_checksums.json"
+    },
+    "skills.csv": {
+      "exists": true,
+      "bytes": 3958642,
+      "checksums_file": "output_checksums.json"
+    },
+    "activities.csv": {
+      "exists": true,
+      "bytes": 2410113,
+      "checksums_file": "output_checksums.json"
+    },
+    "dimension_status.csv": {
+      "exists": true,
+      "bytes": 3472469,
+      "checksums_file": "output_checksums.json"
+    },
+    "relations.jsonl": {
+      "exists": true,
+      "bytes": 20413677,
+      "checksums_file": "output_checksums.json"
+    },
+    "unmapped_mentions.csv": {
+      "exists": true,
+      "bytes": 4554213,
+      "checksums_file": "output_checksums.json"
+    },
+    "company_profile.csv": {
+      "exists": true,
+      "bytes": 27769,
+      "checksums_file": "output_checksums.json"
+    },
+    "company_evidence.csv": {
+      "exists": true,
+      "bytes": 248828,
+      "checksums_file": "output_checksums.json"
+    },
+    "company_gaps.csv": {
+      "exists": true,
+      "bytes": 104190,
+      "checksums_file": "output_checksums.json"
+    },
+    "company_inheritance_meta.json": {
+      "exists": true,
+      "bytes": 1346,
+      "checksums_file": "output_checksums.json"
+    },
+    "T1_sample_company.csv": {
+      "exists": true,
+      "bytes": 9367,
+      "checksums_file": "output_checksums.json"
+    },
+    "T2_company_primary_roles.csv": {
+      "exists": true,
+      "bytes": 89504,
+      "checksums_file": "output_checksums.json"
+    },
+    "T2_primary_aggregates.csv": {
+      "exists": true,
+      "bytes": 16985,
+      "checksums_file": "output_checksums.json"
+    },
+    "T1_lineage.jsonl": {
+      "exists": true,
+      "bytes": 788151,
+      "checksums_file": "output_checksums.json"
+    },
+    "T2_lineage.jsonl": {
+      "exists": true,
+      "bytes": 371847,
+      "checksums_file": "output_checksums.json"
+    },
+    "lineage_index.json": {
+      "exists": true,
+      "bytes": 1027,
+      "checksums_file": "output_checksums.json"
+    },
+    "field_mapping.md": {
+      "exists": true,
+      "bytes": 4652,
+      "checksums_file": "output_checksums.json"
+    },
+    "analysis_rules.md": {
+      "exists": true,
+      "bytes": 2997,
+      "checksums_file": "output_checksums.json"
+    },
+    "quality_issues.json": {
+      "exists": true,
+      "bytes": 4627,
+      "checksums_file": "output_checksums.json"
+    },
+    "locked_inputs/manifest.json": {
+      "exists": true,
+      "bytes": 9368,
+      "checksums_file": "output_checksums.json"
+    },
+    "README.md": {
+      "exists": true,
+      "bytes": 1808,
+      "checksums_file": "output_checksums.json"
+    },
+    "scripts/common.py": {
+      "exists": true,
+      "bytes": 9784,
+      "checksums_file": "output_checksums.json"
+    },
+    "scripts/derive_tables.py": {
+      "exists": true,
+      "bytes": 36356,
+      "checksums_file": "output_checksums.json"
+    },
+    "scripts/inherit_companies.py": {
+      "exists": true,
+      "bytes": 27947,
+      "checksums_file": "output_checksums.json"
+    },
+    "scripts/lock_inputs.py": {
+      "exists": true,
+      "bytes": 4504,
+      "checksums_file": "output_checksums.json"
+    },
+    "scripts/verify.py": {
+      "exists": true,
+      "bytes": 27333,
+      "checksums_file": "output_checksums.json"
+    },
+    "scripts/documentation.py": {
+      "exists": true,
+      "bytes": 9785,
+      "checksums_file": "output_checksums.json"
+    },
+    "scripts/run_stage_a.py": {
+      "exists": true,
+      "bytes": 7632,
+      "checksums_file": "output_checksums.json"
+    },
+    "output_checksums.json": {
+      "exists": true,
+      "bytes": 4943,
+      "checksums_file": "release_checksums.json"
+    },
+    "verification.json": {
+      "exists": true,
+      "bytes": 209456,
+      "checksums_file": "release_checksums.json"
+    },
+    "quality_report.md": {
+      "exists": true,
+      "bytes": 7904,
+      "checksums_file": "release_checksums.json"
+    }
+  }
+}

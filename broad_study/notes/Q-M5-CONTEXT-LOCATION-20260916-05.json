@@ -1,0 +1,235 @@
+{
+  "scope": "TARGETED_SOURCE_CONTEXT_ONLY",
+  "before": {
+    "task": "PROCUREMENT_SUPPLY",
+    "fine_task": "ROBOT_BOM_GLOBAL_SUPPLY_CHAIN",
+    "task_evidence": "Own sourcing strategy and supplier execution across the full robot BOM: actuators, motors, gearboxes, sensors, compute modules, PCBAs, harnessing, and mechanical / structural assemblies.",
+    "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+    "new": {
+      "1": [
+        [
+          "V2_PROCUREMENT",
+          "DUTY_OWN_USE",
+          "UNCONDITIONAL"
+        ]
+      ],
+      "2": [
+        [
+          "V2_PROCUREMENT",
+          "DUTY_OWN_USE",
+          "UNCONDITIONAL"
+        ]
+      ],
+      "3": [
+        [
+          "V2_PROCUREMENT",
+          "DUTY_OWN_USE",
+          "UNCONDITIONAL"
+        ]
+      ],
+      "4": [
+        [
+          "V2_PROCUREMENT",
+          "DUTY_OWN_DEVELOP",
+          "UNCONDITIONAL"
+        ]
+      ],
+      "5": [
+        [
+          "V2_PROCUREMENT",
+          "GENERAL",
+          "CHOICE"
+        ]
+      ],
+      "6": [
+        [
+          "V2_PROCUREMENT",
+          "GENERAL",
+          "UNCONDITIONAL"
+        ]
+      ],
+      "7": [
+        [
+          "V2_MRP",
+          "GENERAL",
+          "UNRESOLVED"
+        ],
+        [
+          "V2_DFM",
+          "GENERAL",
+          "UNRESOLVED"
+        ]
+      ],
+      "8": [
+        [
+          "V2_PROCUREMENT",
+          "GENERAL",
+          "UNCONDITIONAL"
+        ]
+      ]
+    },
+    "additions": [
+      {
+        "code": "V2_DFM",
+        "metric": "SEPARATE",
+        "branch": "COLLABORATION_OBJECT",
+        "quote": "Partner closely with mechanical, electrical, firmware, and compute engineering teams to drive design for manufacturability, supply chain resilience, and cost optimization.",
+        "reason": "与工程组协同DFM"
+      },
+      {
+        "code": "V2_LEGAL",
+        "metric": "DUTY_OWN_USE",
+        "branch": "UNCONDITIONAL",
+        "quote": "Negotiate pricing, lead times, allocation, and commercial agreements to meet aggressive cost, quality, and production targets.",
+        "reason": "商业协议谈判"
+      },
+      {
+        "code": "V2_LEGAL",
+        "metric": "GENERAL",
+        "branch": "UNCONDITIONAL",
+        "quote": "Demonstrated success negotiating pricing, lead times, allocation, and commercial agreements to meet aggressive cost, quality, and production targets.",
+        "reason": "协议谈判经验"
+      }
+    ],
+    "notes": "全机器人BOM采购与供应链体系建立；保留MRP/ERP和DFM/DFA斜线未知，采购对象不提升为研发能力。",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|45cf0996-6cdd-42ba-b810-1e5ce1e36cd7|f04ac1e0fa4b1e5b4fdc72d1ef7692eb5c13c2d92a1bbd55a888d7140b62b087",
+    "company_id": "US_PHYSICAL_INTELLIGENCE",
+    "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+    "status": "CODED_FIRST_PASS",
+    "reviewed_inherited_count": 13,
+    "reviewed_candidate_count": 8,
+    "task_evidence_location": {
+      "field": "duties",
+      "start": 2,
+      "end": 188,
+      "method": "UNIQUE_EXACT_QUOTE",
+      "quote": "Own sourcing strategy and supplier execution across the full robot BOM: actuators, motors, gearboxes, sensors, compute modules, PCBAs, harnessing, and mechanical / structural assemblies."
+    },
+    "reader": "Astra",
+    "qc_status": "PENDING_SECOND_PASS",
+    "source_version": "f04ac1e0fa4b1e5b4fdc72d1ef7692eb5c13c2d92a1bbd55a888d7140b62b087",
+    "full_text_read": true,
+    "updated_utc": "2026-09-16T06:10:01.187132+00:00"
+  },
+  "after": {
+    "task": "PROCUREMENT_SUPPLY",
+    "fine_task": "ROBOT_BOM_GLOBAL_SUPPLY_CHAIN",
+    "task_evidence": "Own sourcing strategy and supplier execution across the full robot BOM: actuators, motors, gearboxes, sensors, compute modules, PCBAs, harnessing, and mechanical / structural assemblies.",
+    "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+    "new": {
+      "1": [
+        [
+          "V2_PROCUREMENT",
+          "DUTY_OWN_USE",
+          "UNCONDITIONAL"
+        ]
+      ],
+      "2": [
+        [
+          "V2_PROCUREMENT",
+          "DUTY_OWN_USE",
+          "UNCONDITIONAL"
+        ]
+      ],
+      "3": [
+        [
+          "V2_PROCUREMENT",
+          "DUTY_OWN_USE",
+          "UNCONDITIONAL"
+        ]
+      ],
+      "4": [
+        [
+          "V2_PROCUREMENT",
+          "DUTY_OWN_DEVELOP",
+          "UNCONDITIONAL"
+        ]
+      ],
+      "5": [
+        [
+          "V2_PROCUREMENT",
+          "GENERAL",
+          "CHOICE"
+        ]
+      ],
+      "6": [
+        [
+          "V2_PROCUREMENT",
+          "GENERAL",
+          "UNCONDITIONAL"
+        ]
+      ],
+      "7": [
+        [
+          "V2_MRP",
+          "GENERAL",
+          "UNRESOLVED"
+        ],
+        [
+          "V2_DFM",
+          "GENERAL",
+          "UNRESOLVED"
+        ]
+      ],
+      "8": [
+        [
+          "V2_PROCUREMENT",
+          "GENERAL",
+          "UNCONDITIONAL"
+        ]
+      ]
+    },
+    "additions": [
+      {
+        "code": "V2_DFM",
+        "metric": "SEPARATE",
+        "branch": "COLLABORATION_OBJECT",
+        "quote": "Partner closely with mechanical, electrical, firmware, and compute engineering teams to drive design for manufacturability, supply chain resilience, and cost optimization.",
+        "reason": "与工程组协同DFM"
+      },
+      {
+        "code": "V2_LEGAL",
+        "metric": "DUTY_OWN_USE",
+        "branch": "UNCONDITIONAL",
+        "quote": "Negotiate pricing, lead times, allocation, and commercial agreements to meet aggressive cost, quality, and production targets.",
+        "reason": "商业协议谈判"
+      },
+      {
+        "code": "V2_LEGAL",
+        "metric": "GENERAL",
+        "branch": "UNCONDITIONAL",
+        "quote": "Demonstrated success negotiating pricing, lead times, allocation, and commercial agreements to meet aggressive cost, quality, and production targets.",
+        "reason": "协议谈判经验"
+      }
+    ],
+    "notes": "全机器人BOM采购与供应链体系建立；保留MRP/ERP和DFM/DFA斜线未知，采购对象不提升为研发能力。 来源坐标定向复核修正O13，语义仍为采购对象；不代表整条二次复核完成。",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|45cf0996-6cdd-42ba-b810-1e5ce1e36cd7|f04ac1e0fa4b1e5b4fdc72d1ef7692eb5c13c2d92a1bbd55a888d7140b62b087",
+    "company_id": "US_PHYSICAL_INTELLIGENCE",
+    "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+    "status": "CODED_FIRST_PASS",
+    "reviewed_inherited_count": 13,
+    "reviewed_candidate_count": 8,
+    "task_evidence_location": {
+      "field": "duties",
+      "start": 2,
+      "end": 188,
+      "method": "UNIQUE_EXACT_QUOTE",
+      "quote": "Own sourcing strategy and supplier execution across the full robot BOM: actuators, motors, gearboxes, sensors, compute modules, PCBAs, harnessing, and mechanical / structural assemblies."
+    },
+    "reader": "Astra",
+    "qc_status": "PENDING_SECOND_PASS",
+    "source_version": "f04ac1e0fa4b1e5b4fdc72d1ef7692eb5c13c2d92a1bbd55a888d7140b62b087",
+    "full_text_read": true,
+    "updated_utc": "2026-09-16T06:10:01.187132+00:00",
+    "old_overrides": {
+      "O13": {
+        "metric": "SEPARATE",
+        "branch": "EXAMPLE",
+        "relation": "PROCUREMENT_OBJECT",
+        "reason": "来源定位定向复核：原要求motors误指职责列表，移回带compute,motors,etc的要求原文；采购对象性质不变",
+        "quote": "Experience sourcing constrained or allocation-sensitive components (compute, motors, etc)",
+        "field": "requirements"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "inputs": [
+    {
+      "path": "analysis/paired/qualification_scope_summary.csv",
+      "sha256": "0855d49424235bff8f03b7f4291865e05f4af827e1b3477f8723f22d443045c6"
+    },
+    {
+      "path": "analysis/paired/qualification_scope_contrasts.csv",
+      "sha256": "9065d99c1785073addf968b88176e2596f6ad145c9bce00d81e15a7b083a33ad"
+    },
+    {
+      "path": "analysis\\example_increments\\admission_rule_contrasts.csv",
+      "sha256": "ee9ad6a5d93efa95baacbb1c1042d162993ca8cd0ce4f534b1873b56afeeb177"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "release\\figures\\Figure_1_qualification_scope.pdf",
+      "sha256": "c3321a7f5614b690082496af2c05f8f5abbe74b7d8a0db9852a9a8a0bfdceb07"
+    },
+    {
+      "path": "release\\figures\\Figure_1_qualification_scope.png",
+      "sha256": "3bf88c2d7c5badfbc252180b715979a564e566ab2b4c9eb0ef63806d6e4b769c"
+    },
+    {
+      "path": "release\\figures\\Figure_1_qualification_scope.svg",
+      "sha256": "adc167eef3146e8ceb78e49c2097b98ee175c7d9277de900cd67ecebf492347e"
+    },
+    {
+      "path": "release\\figures\\Figure_2_construct_comparison.pdf",
+      "sha256": "d8e1a0555f7a187ed094a74c0e0b2781274ec86205669fafe123f95bad1a6b00"
+    },
+    {
+      "path": "release\\figures\\Figure_2_construct_comparison.png",
+      "sha256": "9c8c11f6d9b336139910425d9a5bf9eca92bc4993bf32278182153bb7292ec12"
+    },
+    {
+      "path": "release\\figures\\Figure_2_construct_comparison.svg",
+      "sha256": "a20b447c95af6b91371315a3b664823df0b16b4e590f0d22ff7668f70ce643f4"
+    },
+    {
+      "path": "release\\figures\\figure_manifest.json",
+      "sha256": "845cf944765940b393c538bbe7adac23cf02c8d64ec926916094bae1bfdaf444"
+    }
+  ],
+  "not_sampling_intervals": true,
+  "statistical_inputs_generated_from_real_corpus": true
+}

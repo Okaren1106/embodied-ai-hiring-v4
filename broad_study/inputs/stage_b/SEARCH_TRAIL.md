@@ -1,0 +1,3 @@
+# 检索与归档范围
+
+用户追加要求补查原缺失信息。本次针对交付形态、目标场景和具名客户使用核查，新增9证据，涉及7公司。搜索工具返回见原验收目录web_records；新增页面/HTTP访问记录见supplement_records/NEW_*。原search_log中的192项派生摘要仍标DERIVED_STATUS_SUMMARY，不当作真实搜索。新增9条PAGE_REVIEW对应实际读取，原43条SEARCH计数不冒充包含本轮全部外部搜索。

@@ -1,0 +1,76 @@
+{
+  "tables": {
+    "company_facts": 667,
+    "company_evidence": 102,
+    "evidence_links": 440,
+    "capital_events": 24,
+    "company_gaps": 307,
+    "company_group_mapping": 301,
+    "company_profile": 24
+  },
+  "unique_source_urls": 88,
+  "review_cards": 16,
+  "new_evidence_vs_targeted": 15,
+  "fact_rows_added": 11,
+  "existing_fact_rows_changed": 42,
+  "changed_companies": [
+    "CN_ASTRIBOT",
+    "CN_FOURIER",
+    "CN_NOETIX",
+    "CN_SPIRITAI",
+    "US_AGILITY",
+    "US_AMAZON_FTR",
+    "US_BOSTON_DYNAMICS",
+    "US_FIGURE"
+  ],
+  "strict_coverage": {
+    "product_lines": 23,
+    "delivery_form": 19,
+    "target_markets": 20
+  },
+  "all_three": 17,
+  "none_three": [
+    "US_AMAZON_FTR"
+  ],
+  "excluded_per_dimension": {
+    "product_lines": [
+      "US_AMAZON_FTR"
+    ],
+    "delivery_form": [
+      "CN_AGIBOT",
+      "CN_DEEPROBOTICS",
+      "CN_LIMX",
+      "CN_SPIRITAI",
+      "US_AMAZON_FTR"
+    ],
+    "target_markets": [
+      "CN_AGIBOT",
+      "CN_GALAXEA",
+      "CN_UNITREE",
+      "US_AMAZON_FTR"
+    ]
+  },
+  "gap_status": {
+    "RESOLVED_FOUND": 161,
+    "NOT_YET_SEARCHED": 89,
+    "RESOLVED_PARTIAL": 37,
+    "NOT_FOUND_NOT_DEFINITE": 14,
+    "RESOLVED_NOT_APPLICABLE": 4,
+    "RESOLVED_BY_SEPARATION_RULE": 1,
+    "DEFERRED_TO_STAGE_B_BATCH_2": 1
+  },
+  "web_extract_review_cards": [
+    "IR_NOETIX_02",
+    "IR_NOETIX_03",
+    "IR_SPIRITAI_02",
+    "IR_SPIRITAI_03",
+    "IR_FAR_02",
+    "IR_FIGURE_02",
+    "IR_FOURIER_01",
+    "IR_FOURIER_02",
+    "IR_ASTRIBOT_01"
+  ],
+  "source_status_downgrade_only": [
+    "F_US_FIGURE__capital_event_figure_series_b"
+  ]
+}

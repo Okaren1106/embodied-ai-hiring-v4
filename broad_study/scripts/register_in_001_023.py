@@ -1,0 +1,382 @@
+"""First-pass adjudication for industrial/experience design coding_order 1-23. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0217":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"ID","secondary_task":"",
+ "task_evidence":"熟练掌握 Rhino、Keyshot、PS、AI等工业设计相关软件，能够高效完成外观建模、渲染和效果图制作",
+ "new":{
+  "1":[["V2_PHOTOSHOP","DUTY_OWN_USE","CHOICE"],["V2_RHINO","DUTY_OWN_USE","CHOICE"],["V2_KEYSHOT","DUTY_OWN_USE","CHOICE"],["V2_ILLUSTRATOR","DUTY_OWN_USE","CHOICE"],["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0217:1",
+  "3":"DUPLICATE:N0217:1",
+  "4":"DUPLICATE:N0217:1",
+  "5":"DUPLICATE:N0217:1",
+  "6":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "7":[["V2_PHOTOSHOP","GENERAL","CHOICE"],["V2_RHINO","GENERAL","CHOICE"],["V2_KEYSHOT","GENERAL","CHOICE"],["V2_ILLUSTRATOR","GENERAL","CHOICE"]],
+  "8":"DUPLICATE:N0217:7",
+  "9":"DUPLICATE:N0217:7",
+  "10":"DUPLICATE:N0217:7",
+  "11":"DUPLICATE:N0217:7"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"工业设计师。Rhino/Keyshot/PS/AI(Illustrator)保留。"
+},
+"N0601":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"ROBOT_ID","secondary_task":"",
+ "task_evidence":"负责新产品外观、CMF、交互设计等，创造出符合用户场景、经典极致的机器人产品",
+ "new":{
+  "1":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_UX_RESEARCH","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"机器人工业设计师。CMF/用户研究保留。"
+},
+"N0719":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DIGITAL_UX","fine_task":"UIUX","secondary_task":"",
+ "task_evidence":"Design and implement user interfaces for robot control applications using React Three Fiber",
+ "new":{
+  "1":[["V2_REACT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0719:1",
+  "3":"DUPLICATE:N0719:1",
+  "4":[["V2_BLENDER","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0719:4",
+  "6":O+"VR experiences未单列冻结项。",
+  "7":[["V2_UX_RESEARCH","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "8":[["V2_FIGMA","GENERAL","UNCONDITIONAL"]],
+  "9":"DUPLICATE:N0719:8",
+  "10":[["V2_BLENDER","GENERAL","UNCONDITIONAL"]],
+  "11":"DUPLICATE:N0719:10",
+  "12":[["V2_REACT","GENERAL","CHOICE"]],
+  "13":R+"Three.js不是JavaScript语言项。",
+  "14":O+"WebXR未单列冻结项。",
+  "15":O+"VR interface design未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"UI/UX。React/Blender/Figma/用户研究保留。Three.js不记JS。"
+},
+"N0327":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"ID_ENG","secondary_task":"",
+ "task_evidence":"跟进生产过程中的相关CMF实现、样品确认及签样等工作",
+ "new":{
+  "1":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "4":"DUPLICATE:N0327:3",
+  "5":[["V2_PHOTOSHOP","GENERAL","CHOICE"],["V2_RHINO","GENERAL","CHOICE"],["V2_KEYSHOT","GENERAL","CHOICE"],["V2_ILLUSTRATOR","GENERAL","CHOICE"]],
+  "6":"DUPLICATE:N0327:5",
+  "7":O+"Alias未单列冻结项。",
+  "8":"DUPLICATE:N0327:5",
+  "9":"DUPLICATE:N0327:5",
+  "10":"DUPLICATE:N0327:5",
+  "11":[["V2_BLENDER","PREFERRED","UNCONDITIONAL"]],
+  "12":O+"SUBD未单列冻结项。",
+  "13":"DUPLICATE:N0327:11"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"工业设计工程师。CMF/Rhino/Keyshot/PS/Blender保留。办公软件不记Office。"
+},
+"E0419":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"DIGITAL_UX","fine_task":"SENIOR_UX","secondary_task":"",
+ "task_evidence":"help define the operational workflows and end-to-end user experiences surrounding our humanoid robots",
+ "new":{
+  "1":R+"与工业设计协作不是本人承担CMF。",
+  "2":R+"与工业设计协作不是本人承担CMF。"
+ },
+ "old_overrides":{
+  "O1":{"metric":"SEPARATE","branch":"BACKGROUND","relation":"COMPANY_CONTEXT","reason":"原safety短词重复无法定位，改为含JOB SUMMARY的唯一公司挑战句。","quote":"tackling the complex challenges like safety, commercialization, and mass production to change the world for the better.\nJOB SUMMARY"}
+ },
+ "additions":[],"outside_extra":[],
+ "notes":"高级UX。协作工业设计不记CMF。安全继承改写。"
+},
+"E0087":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"ID","secondary_task":"",
+ "task_evidence":"根据产品的应用场景,分析产品的潜在或者实际使用需求,优化设计方案",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"工业设计师。无新候选。"
+},
+"N0485":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"HUMANOID_ID","secondary_task":"",
+ "task_evidence":"主导人形机器人外观设计与CMF方案，平衡美学、量产工艺与成本约束",
+ "new":{
+  "1":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CNC_PROCESS","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":R+"品牌一致性不是营销传播岗位技能。",
+  "4":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_DFM","GENERAL","UNCONDITIONAL"]],
+  "6":"DUPLICATE:N0485:5",
+  "7":"DUPLICATE:N0485:5"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"工业设计师。CMF/成型工艺/DFM保留。"
+},
+"N0817":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DIGITAL_UX","fine_task":"PRODUCT_DESIGNER","secondary_task":"",
+ "task_evidence":"Expertise in Figma as your primary design tool",
+ "new":{
+  "1":[["V2_MARKETING","SEPARATE","COLLABORATION_OBJECT"]],
+  "2":[["V2_FIGMA","GENERAL","UNCONDITIONAL"]],
+  "3":"DUPLICATE:N0817:2",
+  "4":R+"English can is not Controller Area Network.",
+  "5":R+"English can is not Controller Area Network."
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"产品设计师。Figma保留。营销为协作对象。"
+},
+"N0178":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"ID","secondary_task":"",
+ "task_evidence":"参与机器人的整体外观比例、造型与 CMF 设计",
+ "new":{
+  "1":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_PHOTOSHOP","GENERAL","CHOICE"],["V2_KEYSHOT","GENERAL","CHOICE"],["V2_ILLUSTRATOR","GENERAL","CHOICE"],["SK_NX","GENERAL","CHOICE"]],
+  "4":"DUPLICATE:N0178:3",
+  "5":"DUPLICATE:N0178:3",
+  "6":"DUPLICATE:N0178:3",
+  "7":"DUPLICATE:N0178:3",
+  "8":O+"OC渲染未单列冻结项。",
+  "9":O+"Vray未单列冻结项。",
+  "10":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"工业设计师。CMF/PS/Keyshot/UG(NX)保留。"
+},
+"E0149":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"ROBOT_ID","secondary_task":"",
+ "task_evidence":"负责机器人整体外观、比例、包覆件、CMF、品牌识别和关键交互部位设计",
+ "new":{
+  "1":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CMF_DESIGN","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_CNC_PROCESS","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_PROCUREMENT","PREFERRED","UNCONDITIONAL"],["V2_CMF_DESIGN","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"机器人工业设计。CMF/成型/供应商打样保留。品牌识别不记营销。"
+},
+"N0216":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DIGITAL_UX","fine_task":"UX_AI","secondary_task":"",
+ "task_evidence":"主导产品的交互与界面设计，从需求洞察到设计落地全流程",
+ "new":{
+  "1":[["V2_CURSOR","GENERAL","CHOICE"],["V2_CLAUDE_CODE","GENERAL","CHOICE"]],
+  "2":"DUPLICATE:N0216:1",
+  "3":"DUPLICATE:N0216:1"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"AI协同UX。Cursor/Claude Code保留。C端/审美对标Notion不记C或Notion工具。"
+},
+"N0672":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"LEAD_ID","secondary_task":"",
+ "task_evidence":"Lead industrial design strategy from concept to production.",
+ "new":{
+  "1":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_UX_RESEARCH","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_BLENDER","GENERAL","CHOICE"],["V2_RHINO","GENERAL","CHOICE"],["V2_KEYSHOT","GENERAL","CHOICE"]],
+  "6":"DUPLICATE:N0672:5",
+  "7":"DUPLICATE:N0672:5",
+  "8":"DUPLICATE:N0672:5",
+  "9":[["V2_CNC_PROCESS","GENERAL","UNCONDITIONAL"]],
+  "10":"DUPLICATE:N0672:9",
+  "11":R+"Salary USD is not Universal Scene Description."
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"首席工业设计。Rhino/Keyshot/Blender/CNC/用户研究保留。"
+},
+"N0326":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SERVICE_HUMAN_FACTORS","fine_task":"HUMAN_FACTORS","secondary_task":"",
+ "task_evidence":"通过用户研究、开发用户旅程,深入了解用户需求结合技术趋势及材料应用并将其转化为创新的设计解决方案",
+ "new":{
+  "1":[["V2_UX_RESEARCH","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":R+"品牌契合的外观不是营销传播。",
+  "3":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"人因工程师。用户研究保留。"
+},
+"N0478":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DIGITAL_UX","fine_task":"UXUI","secondary_task":"",
+ "task_evidence":"主导人形机器人操控软件的用户体验设计，完成从用户需求分析、信息架构到交互原型、视觉落地的全流程设计",
+ "new":{
+  "1":R+"工业设计相关专业不是本人承担CMF。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"UXUI。专业名称不记CMF。"
+},
+"N0772":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HRI_HARDWARE","fine_task":"ID_HRI","secondary_task":"",
+ "task_evidence":"Drive form, shape, and CMF (color/material/finish) decisions that define how the robot looks and feels.",
+ "new":{
+  "1":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "6":O+"Fusion未单列冻结项。",
+  "7":[["V2_CMF_DESIGN","PREFERRED","UNCONDITIONAL"]],
+  "8":[["V2_UX_RESEARCH","PREFERRED","UNCONDITIONAL"]],
+  "9":[["V2_BLENDER","PREFERRED","CHOICE"]],
+  "10":"DUPLICATE:N0772:9",
+  "11":O+"Maya未单列冻结项。",
+  "12":[["V2_SAFETY_ANALYSIS","PREFERRED","CHOICE"],["V2_ENV_COMPLIANCE","PREFERRED","CHOICE"]],
+  "13":"DUPLICATE:N0772:12",
+  "14":"DUPLICATE:N0772:12",
+  "15":"DUPLICATE:N0772:12",
+  "16":O+"UL未单列冻结项。",
+  "17":[["V2_DFM","PREFERRED","UNCONDITIONAL"]],
+  "18":"DUPLICATE:N0772:17",
+  "19":"DUPLICATE:N0772:17"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"HRI工业设计。CMF/Blender/SIL/CE/FCC/DFM/用户研究保留。"
+},
+"N0174":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"ID_SENIOR","secondary_task":"",
+ "task_evidence":"精通CMF及量产环节；如：机器人、机械臂、底盘等",
+ "new":{
+  "1":R+"市场研究趋势不是营销传播岗位技能。",
+  "2":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":"DUPLICATE:N0174:2",
+  "4":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "5":O+"参数化/AIGC设计软件未单列冻结项。",
+  "6":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"高级工业设计师。CMF保留。"
+},
+"E0122":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SERVICE_HUMAN_FACTORS","fine_task":"CX_EXPERT","secondary_task":"",
+ "task_evidence":"设计全触点体验流程与标准(售前 / 售中 / 售后 / 使用中)",
+ "new":{
+  "1":[["V2_SALES_CRM","SEPARATE","COLLABORATION_OBJECT"]],
+  "2":[["V2_SALES_CRM","SEPARATE","COLLABORATION_OBJECT"]],
+  "3":[["V2_UX_RESEARCH","GENERAL","UNCONDITIONAL"],["V2_SOP_OPERATION","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"用户体验专家。用户研究/SOP保留。销售为协作。"
+},
+"N0720":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DIGITAL_UX","fine_task":"FLEET_UX","secondary_task":"",
+ "task_evidence":"you will define how humans command, deploy, and collaborate with autonomous systems in the physical world",
+ "new":{
+  "1":R+"设计告警与事件响应界面不是本人承担运行排障。",
+  "2":O+"Task orchestration未单列冻结项。",
+  "3":R+"Salary USD is not Universal Scene Description."
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"车队UX。界面对象不记运行排障。"
+},
+"N0275":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"WEARABLE_ID","secondary_task":"",
+ "task_evidence":"独立完成曲面建模、渲染、CMF 色彩材质工艺设计，输出效果图、设计提案",
+ "new":{
+  "1":[["V2_UX_RESEARCH","DUTY_OWN_USE","UNCONDITIONAL"],["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_CNC_PROCESS","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":R+"品牌设计语言不是营销传播岗位技能。",
+  "5":[["V2_PHOTOSHOP","GENERAL","CHOICE"],["V2_RHINO","GENERAL","CHOICE"],["V2_KEYSHOT","GENERAL","CHOICE"],["V2_ILLUSTRATOR","GENERAL","CHOICE"],["SK_CREO","GENERAL","CHOICE"]],
+  "6":"DUPLICATE:N0275:5",
+  "7":O+"Alias未单列冻结项。",
+  "8":"DUPLICATE:N0275:5",
+  "9":"DUPLICATE:N0275:5",
+  "10":O+"Octane未单列冻结项。",
+  "11":"DUPLICATE:N0275:5",
+  "12":"DUPLICATE:N0275:5",
+  "13":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "14":"DUPLICATE:N0275:13",
+  "15":O+"IP防护未单列冻结项。",
+  "16":[["V2_BLENDER","PREFERRED","UNCONDITIONAL"]],
+  "17":"DUPLICATE:N0275:16"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"穿戴工业设计。CMF/Rhino/Keyshot/PS/CREO/成型/用户研究保留。"
+},
+"E0108":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DIGITAL_UX","fine_task":"HMI","secondary_task":"",
+ "task_evidence":"负责3D视觉、视觉界面及信息呈现方案设计,提升产品的信息表达效率与视觉体验",
+ "new":{
+  "1":R+"工业设计相关专业不是本人承担CMF。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"座舱HMI。专业名称不记CMF。"
+},
+"N0310":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"TEXTILE","secondary_task":"",
+ "task_evidence":"与设计部门协同完成机器人衣服款式设计与制版",
+ "new":{
+  "1":O+"圆机未单列冻结项。",
+  "2":O+"横机未单列冻结项。",
+  "3":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_AUTOCAD","GENERAL","CHOICE"],["V2_PHOTOSHOP","GENERAL","CHOICE"],["V2_ILLUSTRATOR","GENERAL","CHOICE"]],
+  "5":O+"CLO3D未单列冻结项。",
+  "6":"DUPLICATE:N0310:4",
+  "7":"DUPLICATE:N0310:4",
+  "8":"DUPLICATE:N0310:4"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"织物设计师。采购/AutoCAD/PS/AI保留。"
+},
+"N0303":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"INDUSTRIAL_CMF","fine_task":"PACKAGING","secondary_task":"",
+ "task_evidence":"负责产品包装全案设计，包括盒型结构、外观视觉、品牌视觉、材质工艺、标签、说明书、外箱等整体包装体系设计",
+ "new":{
+  "1":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":R+"竞品分析不是营销传播岗位技能。",
+  "3":[["V2_CMF_DESIGN","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "5":R+"印刷色彩校准不是传感器标定。",
+  "6":[["V2_PHOTOSHOP","GENERAL","CHOICE"],["V2_ILLUSTRATOR","GENERAL","CHOICE"]],
+  "7":"DUPLICATE:N0303:6",
+  "8":"DUPLICATE:N0303:6",
+  "9":O+"InDesign未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"包装设计。CMF/PS/AI保留。色彩校准不记传感器标定。"
+},
+"N0704":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HRI_HARDWARE","fine_task":"ROBOT_ANIMATOR","secondary_task":"",
+ "task_evidence":"Author robot motion in Maya (or Blender) using keyframe, procedural, and capture-based techniques",
+ "new":{
+  "1":R+"English can is not Controller Area Network.",
+  "2":[["V2_BLENDER","DUTY_OWN_USE","CHOICE"]],
+  "3":O+"Maya未单列冻结项。",
+  "4":"DUPLICATE:N0704:2",
+  "5":O+"motion libraries/retargeting未单列冻结项。",
+  "6":O+"IK未单列冻结项。",
+  "7":O+"FK未单列冻结项。",
+  "8":[["V2_MOCAP","GENERAL","UNCONDITIONAL"]],
+  "9":O+"motion capture retargeting细节未单列冻结项。",
+  "10":R+"Salary USD is not Universal Scene Description."
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"机器人动画师。Blender/动捕保留。"
+}
+}
+if __name__=='__main__':
+ register('RF_INDUSTRIAL_EXPERIENCE_DESIGN', decisions, reader='grok4.6')

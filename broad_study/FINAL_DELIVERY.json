@@ -1,0 +1,65 @@
+{
+  "status": "COMPLETE",
+  "author": "Astra",
+  "version": "core-Q2-v3",
+  "completed_utc": "2026-09-17T17:34:34.195878+00:00",
+  "M5": "COMPLETE_SPECIFIED_REVIEW_SCOPE",
+  "M6": "COMPLETE",
+  "report_markdown": "REPORT_Astra_final.md",
+  "report_word": "document/具身智能公开招聘研究_最终综合报告_Astra.docx",
+  "query_index": "index.html",
+  "two_layer_query": "two_layers.html",
+  "word_pages": 17,
+  "review_scope": {
+    "full": 469,
+    "new_full": 288,
+    "seed_done": 340,
+    "seed_total": 340,
+    "mandatory_done": 1208,
+    "mandatory_total": 1208,
+    "pending_union": 0,
+    "role_full": {
+      "RF_MECHANICAL_MECHATRONICS": 29,
+      "RF_SIMULATION_EVALUATION": 16,
+      "RF_ML_AI_ENGINEERING": 44,
+      "RF_CORPORATE_SUPPORT": 43,
+      "RF_MANUFACTURING_QUALITY_SUPPLY": 53,
+      "RF_ROBOT_OPERATIONS": 22,
+      "RF_SYSTEMS_ENGINEERING_INTEGRATION": 13,
+      "RF_CONTROL_PLANNING": 21,
+      "RF_DATA_INFRA_OPERATIONS": 20,
+      "RF_HARDWARE_ELECTRICAL": 31,
+      "RF_INDUSTRIAL_EXPERIENCE_DESIGN": 23,
+      "RF_ROBOTICS_SOFTWARE": 44,
+      "RF_DEPLOYMENT_FIELD_SERVICE": 21,
+      "RF_COMMERCIAL_CUSTOMER": 29,
+      "RF_PRODUCT_PROGRAM": 34,
+      "RF_PERCEPTION": 11,
+      "RF_RESEARCH_SCIENCE": 15
+    },
+    "role_pending": {},
+    "boundary_only": 760,
+    "unselected_second_pass": 347
+  },
+  "state_counts": {
+    "Z": 4375021,
+    "P": 18609,
+    "U": 6851,
+    "SOURCE_EXCLUDED": 1653
+  },
+  "verification_receipts": [
+    "V3_independent_state_resolution.json",
+    "astra_independent_numeric.json",
+    "V3_two_layer_independent_sql.json",
+    "astra_isolated_reproduction.json",
+    "V3_protected_inputs.json",
+    "query_v3.json"
+  ],
+  "limitations": [
+    "固定样本探索研究，不是行业普查或因果研究。",
+    "469全文、760仅边界、347继承首轮；不是全样本二次全文或独立双编码。",
+    "部署活动历史测量口径不一致，相关实质主结论已撤回。",
+    "P/Z/U及来源排除保证状态表达；数值复算不证明语义准确率。"
+  ],
+  "remaining_required_work": []
+}

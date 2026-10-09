@@ -1,0 +1,428 @@
+{
+  "n_checks": 84,
+  "n_pass": 84,
+  "n_fail": 0,
+  "checks": [
+    {
+      "name": "locked_input_count",
+      "passed": true,
+      "detail": "54"
+    },
+    {
+      "name": "unique_1654_ads_24_entities",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "two_observation_waves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "whole23_1630",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "activity_assessable_1623",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "owned_research_75",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "owned_deployment_351",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "owned_quality_466",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "owned_engineering_957",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "headline_ACT_RESEARCH",
+      "passed": true,
+      "detail": "{'activity_code': 'ACT_RESEARCH', 'activity_name': '研究探索', 'n_owned': '75', 'namesake_code': 'RF_RESEARCH_SCIENCE', 'n_namesake': '27', 'n_other_concrete': '48', 'n_structure': '0', 'n_unspecified': '0', 'share_outside_namesake': '0.64', 'note': '主职能与活动独立测量；结构与未明确状态单列，不并入其他具体职能'}"
+    },
+    {
+      "name": "headline_ACT_DEPLOYMENT",
+      "passed": true,
+      "detail": "{'activity_code': 'ACT_DEPLOYMENT', 'activity_name': '部署与维护', 'n_owned': '351', 'namesake_code': 'RF_DEPLOYMENT_FIELD_SERVICE', 'n_namesake': '80', 'n_other_concrete': '255', 'n_structure': '13', 'n_unspecified': '3', 'share_outside_namesake': '0.7720797721', 'note': '主职能与活动独立测量；结构与未明确状态单列，不并入其他具体职能'}"
+    },
+    {
+      "name": "headline_ACT_QUALITY",
+      "passed": true,
+      "detail": "{'activity_code': 'ACT_QUALITY', 'activity_name': '质量验证', 'n_owned': '466', 'namesake_code': 'RF_MANUFACTURING_QUALITY_SUPPLY', 'n_namesake': '160', 'n_other_concrete': '293', 'n_structure': '9', 'n_unspecified': '4', 'share_outside_namesake': '0.6566523605', 'note': '主职能与活动独立测量；结构与未明确状态单列，不并入其他具体职能'}"
+    },
+    {
+      "name": "headline_research_split",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "headline_deployment_other_concrete_255",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "headline_quality_other_concrete_293",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "30_role_structures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "dual_raw_RESEARCH_ENGINEERING",
+      "passed": true,
+      "detail": "('RESEARCH_ENGINEERING', 71, '71')"
+    },
+    {
+      "name": "dual_uncond_RESEARCH_ENGINEERING",
+      "passed": true,
+      "detail": "Counter({'UNCONDITIONAL_JOINT': 71})"
+    },
+    {
+      "name": "dual_no_or_RESEARCH_ENGINEERING",
+      "passed": true,
+      "detail": "{'scope': 'ALL24', 'pair_id': 'RESEARCH_ENGINEERING', 'activity_a': 'ACT_RESEARCH', 'activity_b': 'ACT_ENGINEERING', 'name_a': '研究探索', 'name_b': '工程实现', 'n_assessable': '1623', 'n_raw_dual': '71', 'n_unconditional': '71', 'n_conditional': '0', 'n_alternative': '0', 'n_unresolved': '0', 'n_no_recorded': '1552', 'n_interpretable': '1623', 'share_unconditional': '0.0437461491', 'n_companies_unconditional': '14', 'max_company': 'CN_XSQUARE', 'max_positive_contribution': '0.2112676056', 'participates_not_included': 'YES'}"
+    },
+    {
+      "name": "dual_raw_ENGINEERING_QUALITY",
+      "passed": true,
+      "detail": "('ENGINEERING_QUALITY', 308, '308')"
+    },
+    {
+      "name": "dual_uncond_ENGINEERING_QUALITY",
+      "passed": true,
+      "detail": "Counter({'UNCONDITIONAL_JOINT': 308})"
+    },
+    {
+      "name": "dual_no_or_ENGINEERING_QUALITY",
+      "passed": true,
+      "detail": "{'scope': 'ALL24', 'pair_id': 'ENGINEERING_QUALITY', 'activity_a': 'ACT_ENGINEERING', 'activity_b': 'ACT_QUALITY', 'name_a': '工程实现', 'name_b': '质量验证', 'n_assessable': '1623', 'n_raw_dual': '308', 'n_unconditional': '308', 'n_conditional': '0', 'n_alternative': '0', 'n_unresolved': '0', 'n_no_recorded': '1315', 'n_interpretable': '1623', 'share_unconditional': '0.1897720271', 'n_companies_unconditional': '23', 'max_company': 'CN_XSQUARE', 'max_positive_contribution': '0.1688311688', 'participates_not_included': 'YES'}"
+    },
+    {
+      "name": "dual_raw_ENGINEERING_DEPLOYMENT",
+      "passed": true,
+      "detail": "('ENGINEERING_DEPLOYMENT', 243, '243')"
+    },
+    {
+      "name": "dual_uncond_ENGINEERING_DEPLOYMENT",
+      "passed": true,
+      "detail": "Counter({'UNCONDITIONAL_JOINT': 243})"
+    },
+    {
+      "name": "dual_no_or_ENGINEERING_DEPLOYMENT",
+      "passed": true,
+      "detail": "{'scope': 'ALL24', 'pair_id': 'ENGINEERING_DEPLOYMENT', 'activity_a': 'ACT_ENGINEERING', 'activity_b': 'ACT_DEPLOYMENT', 'name_a': '工程实现', 'name_b': '部署与维护', 'n_assessable': '1623', 'n_raw_dual': '243', 'n_unconditional': '243', 'n_conditional': '0', 'n_alternative': '0', 'n_unresolved': '0', 'n_no_recorded': '1380', 'n_interpretable': '1623', 'share_unconditional': '0.1497227357', 'n_companies_unconditional': '22', 'max_company': 'US_FIELD_AI', 'max_positive_contribution': '0.1851851852', 'participates_not_included': 'YES'}"
+    },
+    {
+      "name": "dual_counts_71_308_243",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_complete_11_locked_before_d",
+      "passed": true,
+      "detail": "['CN_NOETIX', 'CN_SPIRITAI', 'CN_UNITREE', 'US_AGILITY', 'US_APPTRONIK', 'US_BOSTON_DYNAMICS', 'US_DILIGENT', 'US_FIGURE', 'US_NIMBLE', 'US_PICKLE', 'US_SKILD']"
+    },
+    {
+      "name": "source_complete_excludes_galbot_field_ai",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "g1_galbot_figure_k4",
+      "passed": true,
+      "detail": "['RF_CORPORATE_SUPPORT', 'RF_MANUFACTURING_QUALITY_SUPPLY', 'RF_ML_AI_ENGINEERING', 'RF_ROBOTICS_SOFTWARE']"
+    },
+    {
+      "name": "g2_agility_nimble_k0",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "g1_unified_yes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "g2_unified_inapplicable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "dep_fn_CN_AGIBOT",
+      "passed": true,
+      "detail": "('CN_AGIBOT', 82, 3, 3, {'company_id': 'CN_AGIBOT', 'company_name': 'AgiBot', 'n_assessable': '82', 'n_deployment_function': '3', 'share_deployment_function': '0.0365853659', 'n_deployment_activity_owned': '3', 'share_deployment_activity': '0.0365853659', 'n_non_deployment_function_assessable': '79', 'n_deployment_activity_outside_deployment_function': '0', 'share_deployment_activity_outside_deployment_function': '0.0', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_CN_ASTRIBOT",
+      "passed": true,
+      "detail": "('CN_ASTRIBOT', 51, 0, 5, {'company_id': 'CN_ASTRIBOT', 'company_name': 'Astribot', 'n_assessable': '51', 'n_deployment_function': '0', 'share_deployment_function': '0.0', 'n_deployment_activity_owned': '5', 'share_deployment_activity': '0.0980392157', 'n_non_deployment_function_assessable': '51', 'n_deployment_activity_outside_deployment_function': '5', 'share_deployment_activity_outside_deployment_function': '0.0980392157', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_CN_DEEPROBOTICS",
+      "passed": true,
+      "detail": "('CN_DEEPROBOTICS', 38, 2, 9, {'company_id': 'CN_DEEPROBOTICS', 'company_name': 'Deep Robotics', 'n_assessable': '38', 'n_deployment_function': '2', 'share_deployment_function': '0.0526315789', 'n_deployment_activity_owned': '9', 'share_deployment_activity': '0.2368421053', 'n_non_deployment_function_assessable': '36', 'n_deployment_activity_outside_deployment_function': '7', 'share_deployment_activity_outside_deployment_function': '0.1944444444', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_CN_FOURIER",
+      "passed": true,
+      "detail": "('CN_FOURIER', 42, 0, 6, {'company_id': 'CN_FOURIER', 'company_name': 'Fourier Intelligence', 'n_assessable': '42', 'n_deployment_function': '0', 'share_deployment_function': '0.0', 'n_deployment_activity_owned': '6', 'share_deployment_activity': '0.1428571429', 'n_non_deployment_function_assessable': '42', 'n_deployment_activity_outside_deployment_function': '6', 'share_deployment_activity_outside_deployment_function': '0.1428571429', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_CN_GALAXEA",
+      "passed": true,
+      "detail": "('CN_GALAXEA', 44, 0, 10, {'company_id': 'CN_GALAXEA', 'company_name': 'Galaxea AI', 'n_assessable': '44', 'n_deployment_function': '0', 'share_deployment_function': '0.0', 'n_deployment_activity_owned': '10', 'share_deployment_activity': '0.2272727273', 'n_non_deployment_function_assessable': '44', 'n_deployment_activity_outside_deployment_function': '10', 'share_deployment_activity_outside_deployment_function': '0.2272727273', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_CN_GALBOT",
+      "passed": true,
+      "detail": "('CN_GALBOT', 181, 2, 25, {'company_id': 'CN_GALBOT', 'company_name': 'Galbot', 'n_assessable': '181', 'n_deployment_function': '2', 'share_deployment_function': '0.0110497238', 'n_deployment_activity_owned': '25', 'share_deployment_activity': '0.138121547', 'n_non_deployment_function_assessable': '179', 'n_deployment_activity_outside_deployment_function': '24', 'share_deployment_activity_outside_deployment_function': '0.1340782123', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_CN_LIMX",
+      "passed": true,
+      "detail": "('CN_LIMX', 92, 5, 22, {'company_id': 'CN_LIMX', 'company_name': 'LimX Dynamics', 'n_assessable': '92', 'n_deployment_function': '5', 'share_deployment_function': '0.0543478261', 'n_deployment_activity_owned': '22', 'share_deployment_activity': '0.2391304348', 'n_non_deployment_function_assessable': '87', 'n_deployment_activity_outside_deployment_function': '17', 'share_deployment_activity_outside_deployment_function': '0.1954022989', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_CN_NOETIX",
+      "passed": true,
+      "detail": "('CN_NOETIX', 13, 0, 0, {'company_id': 'CN_NOETIX', 'company_name': 'Noetix', 'n_assessable': '13', 'n_deployment_function': '0', 'share_deployment_function': '0.0', 'n_deployment_activity_owned': '0', 'share_deployment_activity': '0.0', 'n_non_deployment_function_assessable': '13', 'n_deployment_activity_outside_deployment_function': '0', 'share_deployment_activity_outside_deployment_function': '0.0', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_CN_PAXINI",
+      "passed": true,
+      "detail": "('CN_PAXINI', 125, 1, 29, {'company_id': 'CN_PAXINI', 'company_name': 'PaXini Tech', 'n_assessable': '125', 'n_deployment_function': '1', 'share_deployment_function': '0.008', 'n_deployment_activity_owned': '29', 'share_deployment_activity': '0.232', 'n_non_deployment_function_assessable': '124', 'n_deployment_activity_outside_deployment_function': '28', 'share_deployment_activity_outside_deployment_function': '0.2258064516', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_CN_SPIRITAI",
+      "passed": true,
+      "detail": "('CN_SPIRITAI', 65, 1, 5, {'company_id': 'CN_SPIRITAI', 'company_name': 'Spirit AI', 'n_assessable': '65', 'n_deployment_function': '1', 'share_deployment_function': '0.0153846154', 'n_deployment_activity_owned': '5', 'share_deployment_activity': '0.0769230769', 'n_non_deployment_function_assessable': '64', 'n_deployment_activity_outside_deployment_function': '4', 'share_deployment_activity_outside_deployment_function': '0.0625', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_CN_UNITREE",
+      "passed": true,
+      "detail": "('CN_UNITREE', 26, 1, 4, {'company_id': 'CN_UNITREE', 'company_name': 'Unitree', 'n_assessable': '26', 'n_deployment_function': '1', 'share_deployment_function': '0.0384615385', 'n_deployment_activity_owned': '4', 'share_deployment_activity': '0.1538461538', 'n_non_deployment_function_assessable': '25', 'n_deployment_activity_outside_deployment_function': '3', 'share_deployment_activity_outside_deployment_function': '0.12', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_CN_XSQUARE",
+      "passed": true,
+      "detail": "('CN_XSQUARE', 198, 9, 32, {'company_id': 'CN_XSQUARE', 'company_name': 'X Square', 'n_assessable': '198', 'n_deployment_function': '9', 'share_deployment_function': '0.0454545455', 'n_deployment_activity_owned': '32', 'share_deployment_activity': '0.1616161616', 'n_non_deployment_function_assessable': '189', 'n_deployment_activity_outside_deployment_function': '23', 'share_deployment_activity_outside_deployment_function': '0.1216931217', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_AGILITY",
+      "passed": true,
+      "detail": "('US_AGILITY', 66, 2, 16, {'company_id': 'US_AGILITY', 'company_name': 'Agility Robotics', 'n_assessable': '66', 'n_deployment_function': '2', 'share_deployment_function': '0.0303030303', 'n_deployment_activity_owned': '16', 'share_deployment_activity': '0.2424242424', 'n_non_deployment_function_assessable': '64', 'n_deployment_activity_outside_deployment_function': '15', 'share_deployment_activity_outside_deployment_function': '0.234375', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_AMAZON_FTR",
+      "passed": true,
+      "detail": "('US_AMAZON_FTR', 24, 1, 8, {'company_id': 'US_AMAZON_FTR', 'company_name': 'Amazon Frontier AI and Robotics', 'n_assessable': '24', 'n_deployment_function': '1', 'share_deployment_function': '0.0416666667', 'n_deployment_activity_owned': '8', 'share_deployment_activity': '0.3333333333', 'n_non_deployment_function_assessable': '23', 'n_deployment_activity_outside_deployment_function': '7', 'share_deployment_activity_outside_deployment_function': '0.3043478261', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_APPTRONIK",
+      "passed": true,
+      "detail": "('US_APPTRONIK', 81, 2, 9, {'company_id': 'US_APPTRONIK', 'company_name': 'Apptronik', 'n_assessable': '81', 'n_deployment_function': '2', 'share_deployment_function': '0.024691358', 'n_deployment_activity_owned': '9', 'share_deployment_activity': '0.1111111111', 'n_non_deployment_function_assessable': '79', 'n_deployment_activity_outside_deployment_function': '7', 'share_deployment_activity_outside_deployment_function': '0.0886075949', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_BOSTON_DYNAMICS",
+      "passed": true,
+      "detail": "('US_BOSTON_DYNAMICS', 79, 14, 22, {'company_id': 'US_BOSTON_DYNAMICS', 'company_name': 'Boston Dynamics', 'n_assessable': '79', 'n_deployment_function': '14', 'share_deployment_function': '0.1772151899', 'n_deployment_activity_owned': '22', 'share_deployment_activity': '0.2784810127', 'n_non_deployment_function_assessable': '65', 'n_deployment_activity_outside_deployment_function': '10', 'share_deployment_activity_outside_deployment_function': '0.1538461538', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_DEXTERITY",
+      "passed": true,
+      "detail": "('US_DEXTERITY', 30, 4, 15, {'company_id': 'US_DEXTERITY', 'company_name': 'Dexterity', 'n_assessable': '30', 'n_deployment_function': '4', 'share_deployment_function': '0.1333333333', 'n_deployment_activity_owned': '15', 'share_deployment_activity': '0.5', 'n_non_deployment_function_assessable': '26', 'n_deployment_activity_outside_deployment_function': '11', 'share_deployment_activity_outside_deployment_function': '0.4230769231', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_DILIGENT",
+      "passed": true,
+      "detail": "('US_DILIGENT', 11, 1, 6, {'company_id': 'US_DILIGENT', 'company_name': 'Diligent Robotics', 'n_assessable': '11', 'n_deployment_function': '1', 'share_deployment_function': '0.0909090909', 'n_deployment_activity_owned': '6', 'share_deployment_activity': '0.5454545455', 'n_non_deployment_function_assessable': '10', 'n_deployment_activity_outside_deployment_function': '5', 'share_deployment_activity_outside_deployment_function': '0.5', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_FIELD_AI",
+      "passed": true,
+      "detail": "('US_FIELD_AI', 108, 13, 50, {'company_id': 'US_FIELD_AI', 'company_name': 'Field AI', 'n_assessable': '108', 'n_deployment_function': '13', 'share_deployment_function': '0.1203703704', 'n_deployment_activity_owned': '50', 'share_deployment_activity': '0.462962963', 'n_non_deployment_function_assessable': '95', 'n_deployment_activity_outside_deployment_function': '38', 'share_deployment_activity_outside_deployment_function': '0.4', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_FIGURE",
+      "passed": true,
+      "detail": "('US_FIGURE', 126, 14, 37, {'company_id': 'US_FIGURE', 'company_name': 'Figure', 'n_assessable': '126', 'n_deployment_function': '14', 'share_deployment_function': '0.1111111111', 'n_deployment_activity_owned': '37', 'share_deployment_activity': '0.2936507937', 'n_non_deployment_function_assessable': '112', 'n_deployment_activity_outside_deployment_function': '23', 'share_deployment_activity_outside_deployment_function': '0.2053571429', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_NIMBLE",
+      "passed": true,
+      "detail": "('US_NIMBLE', 34, 5, 13, {'company_id': 'US_NIMBLE', 'company_name': 'Nimble Robotics', 'n_assessable': '34', 'n_deployment_function': '5', 'share_deployment_function': '0.1470588235', 'n_deployment_activity_owned': '13', 'share_deployment_activity': '0.3823529412', 'n_non_deployment_function_assessable': '29', 'n_deployment_activity_outside_deployment_function': '8', 'share_deployment_activity_outside_deployment_function': '0.275862069', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_PHYSICAL_INTELLIGENCE",
+      "passed": true,
+      "detail": "('US_PHYSICAL_INTELLIGENCE', 32, 3, 8, {'company_id': 'US_PHYSICAL_INTELLIGENCE', 'company_name': 'Physical Intelligence', 'n_assessable': '32', 'n_deployment_function': '3', 'share_deployment_function': '0.09375', 'n_deployment_activity_owned': '8', 'share_deployment_activity': '0.25', 'n_non_deployment_function_assessable': '29', 'n_deployment_activity_outside_deployment_function': '5', 'share_deployment_activity_outside_deployment_function': '0.1724137931', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_PICKLE",
+      "passed": true,
+      "detail": "('US_PICKLE', 13, 0, 3, {'company_id': 'US_PICKLE', 'company_name': 'Pickle Robot', 'n_assessable': '13', 'n_deployment_function': '0', 'share_deployment_function': '0.0', 'n_deployment_activity_owned': '3', 'share_deployment_activity': '0.2307692308', 'n_non_deployment_function_assessable': '13', 'n_deployment_activity_outside_deployment_function': '3', 'share_deployment_activity_outside_deployment_function': '0.2307692308', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "dep_fn_US_SKILD",
+      "passed": true,
+      "detail": "('US_SKILD', 62, 2, 14, {'company_id': 'US_SKILD', 'company_name': 'Skild AI', 'n_assessable': '62', 'n_deployment_function': '2', 'share_deployment_function': '0.0322580645', 'n_deployment_activity_owned': '14', 'share_deployment_activity': '0.2258064516', 'n_non_deployment_function_assessable': '60', 'n_deployment_activity_outside_deployment_function': '12', 'share_deployment_activity_outside_deployment_function': '0.2', 'note': '若职能外部署活动仍高，则不能把总体部署活动率写成部署职能构成'})"
+    },
+    {
+      "name": "whole23_dep_fn_5.3",
+      "passed": true,
+      "detail": "0.053170242"
+    },
+    {
+      "name": "whole23_dep_act_22.9",
+      "passed": true,
+      "detail": "0.22896727057391303"
+    },
+    {
+      "name": "whole23_dep_out_19.2",
+      "passed": true,
+      "detail": "0.19158267488695654"
+    },
+    {
+      "name": "q2_bound_RF_ML_AI_ENGINEERING_Python",
+      "passed": true,
+      "detail": "({'role_code': 'RF_ML_AI_ENGINEERING', 'dimension': 'skills', 'label_code': 'SK_PYTHON', 'label_name': 'Python', 'main_display': 'YES', 'metric_bucket': 'GENERAL', 'branch_bucket': 'UNCONDITIONAL', 'group': 'WHOLE23', 'display_status': 'EXPLORATORY_SUMMARY', 'dominance_warning': 'NO', 'n_base': '156', 'n_relation_unknown': '23', 'n_interpretable': '133', 'n_positive': '60', 'n_companies': '23', 'n_companies_ge10': '4', 'largest_company_share': '0.1503759398', 'share_ad_weighted': '0.4511278195', 'share_company_equal': '0.4210471832', 'gate': 'PASS', 'eligible_companies_json': '[\"CN_AGIBOT\", \"CN_ASTRIBOT\", \"CN_DEEPROBOTICS\", \"CN_FOURIER\", \"CN_GALAXEA\", \"CN_GALBOT\", \"CN_LIMX\", \"CN_NOETIX\", \"CN_PAXINI\", \"CN_SPIRITAI\", \"CN_UNITREE\", \"CN_XSQUARE\", \"US_AGILITY\", \"US_APPTRONIK\", \"US_BOSTON_DYNAMICS\", \"US_DEXTERITY\", \"US_DILIGENT\", \"US_FIELD_AI\", \"US_FIGURE\", \"US_NIMBLE\", \"US_PHYSICAL_INTELLIGENCE\", \"US_PICKLE\", \"US_SKILD\"]'}, {'role_code': 'RF_ML_AI_ENGINEERING', 'label': 'Python', 'n_positive': '60', 'n_unknown': '23', 'n_base': '156', 'n_interpretable': '133', 'bound_low': '0.3846153846', 'bound_high': '0.5320512821', 'protocol_p': '60', 'protocol_u': '23', 'protocol_b': '156', 'match_protocol': 'YES'})"
+    },
+    {
+      "name": "q2_bound_RF_ROBOTICS_SOFTWARE_Linux",
+      "passed": true,
+      "detail": "({'role_code': 'RF_ROBOTICS_SOFTWARE', 'dimension': 'skills', 'label_code': 'SK_LINUX', 'label_name': 'Linux', 'main_display': 'YES', 'metric_bucket': 'GENERAL', 'branch_bucket': 'UNCONDITIONAL', 'group': 'WHOLE23', 'display_status': 'EXPLORATORY_SUMMARY', 'dominance_warning': 'NO', 'n_base': '180', 'n_relation_unknown': '3', 'n_interpretable': '177', 'n_positive': '70', 'n_companies': '22', 'n_companies_ge10': '6', 'largest_company_share': '0.1355932203', 'share_ad_weighted': '0.395480226', 'share_company_equal': '0.325747602', 'gate': 'PASS', 'eligible_companies_json': '[\"CN_AGIBOT\", \"CN_ASTRIBOT\", \"CN_DEEPROBOTICS\", \"CN_FOURIER\", \"CN_GALAXEA\", \"CN_GALBOT\", \"CN_LIMX\", \"CN_NOETIX\", \"CN_PAXINI\", \"CN_SPIRITAI\", \"CN_UNITREE\", \"CN_XSQUARE\", \"US_AGILITY\", \"US_APPTRONIK\", \"US_BOSTON_DYNAMICS\", \"US_DEXTERITY\", \"US_FIELD_AI\", \"US_FIGURE\", \"US_NIMBLE\", \"US_PHYSICAL_INTELLIGENCE\", \"US_PICKLE\", \"US_SKILD\"]'}, {'role_code': 'RF_ROBOTICS_SOFTWARE', 'label': 'Linux', 'n_positive': '70', 'n_unknown': '3', 'n_base': '180', 'n_interpretable': '177', 'bound_low': '0.3888888889', 'bound_high': '0.4055555556', 'protocol_p': '70', 'protocol_u': '3', 'protocol_b': '180', 'match_protocol': 'YES'})"
+    },
+    {
+      "name": "q2_bound_RF_ROBOTICS_SOFTWARE_C++",
+      "passed": true,
+      "detail": "({'role_code': 'RF_ROBOTICS_SOFTWARE', 'dimension': 'skills', 'label_code': 'SK_CPP', 'label_name': 'C++', 'main_display': 'YES', 'metric_bucket': 'GENERAL', 'branch_bucket': 'UNCONDITIONAL', 'group': 'WHOLE23', 'display_status': 'EXPLORATORY_SUMMARY', 'dominance_warning': 'NO', 'n_base': '180', 'n_relation_unknown': '30', 'n_interpretable': '150', 'n_positive': '42', 'n_companies': '21', 'n_companies_ge10': '4', 'largest_company_share': '0.1466666667', 'share_ad_weighted': '0.28', 'share_company_equal': '0.2289296474', 'gate': 'PASS', 'eligible_companies_json': '[\"CN_AGIBOT\", \"CN_ASTRIBOT\", \"CN_DEEPROBOTICS\", \"CN_FOURIER\", \"CN_GALAXEA\", \"CN_GALBOT\", \"CN_LIMX\", \"CN_PAXINI\", \"CN_SPIRITAI\", \"CN_UNITREE\", \"CN_XSQUARE\", \"US_AGILITY\", \"US_APPTRONIK\", \"US_BOSTON_DYNAMICS\", \"US_DEXTERITY\", \"US_FIELD_AI\", \"US_FIGURE\", \"US_NIMBLE\", \"US_PHYSICAL_INTELLIGENCE\", \"US_PICKLE\", \"US_SKILD\"]'}, {'role_code': 'RF_ROBOTICS_SOFTWARE', 'label': 'C++', 'n_positive': '42', 'n_unknown': '30', 'n_base': '180', 'n_interpretable': '150', 'bound_low': '0.2333333333', 'bound_high': '0.4', 'protocol_p': '42', 'protocol_u': '30', 'protocol_b': '180', 'match_protocol': 'YES'})"
+    },
+    {
+      "name": "q2_bound_RF_ROBOTICS_SOFTWARE_Python",
+      "passed": true,
+      "detail": "({'role_code': 'RF_ROBOTICS_SOFTWARE', 'dimension': 'skills', 'label_code': 'SK_PYTHON', 'label_name': 'Python', 'main_display': 'YES', 'metric_bucket': 'GENERAL', 'branch_bucket': 'UNCONDITIONAL', 'group': 'WHOLE23', 'display_status': 'EXPLORATORY_SUMMARY', 'dominance_warning': 'NO', 'n_base': '180', 'n_relation_unknown': '15', 'n_interpretable': '165', 'n_positive': '35', 'n_companies': '22', 'n_companies_ge10': '5', 'largest_company_share': '0.1393939394', 'share_ad_weighted': '0.2121212121', 'share_company_equal': '0.1855002595', 'gate': 'PASS', 'eligible_companies_json': '[\"CN_AGIBOT\", \"CN_ASTRIBOT\", \"CN_DEEPROBOTICS\", \"CN_FOURIER\", \"CN_GALAXEA\", \"CN_GALBOT\", \"CN_LIMX\", \"CN_NOETIX\", \"CN_PAXINI\", \"CN_SPIRITAI\", \"CN_UNITREE\", \"CN_XSQUARE\", \"US_AGILITY\", \"US_APPTRONIK\", \"US_BOSTON_DYNAMICS\", \"US_DEXTERITY\", \"US_FIELD_AI\", \"US_FIGURE\", \"US_NIMBLE\", \"US_PHYSICAL_INTELLIGENCE\", \"US_PICKLE\", \"US_SKILD\"]'}, {'role_code': 'RF_ROBOTICS_SOFTWARE', 'label': 'Python', 'n_positive': '35', 'n_unknown': '15', 'n_base': '180', 'n_interpretable': '165', 'bound_low': '0.1944444444', 'bound_high': '0.2777777778', 'protocol_p': '35', 'protocol_u': '15', 'protocol_b': '180', 'match_protocol': 'YES'})"
+    },
+    {
+      "name": "ml_base_156",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ml_joint_TC_ML_SYSTEMS_TC_FOUNDATION_MODEL",
+      "passed": true,
+      "detail": "(34, 0, {'role_code': 'RF_ML_AI_ENGINEERING', 'metric_bucket': 'DUTY_OWN_DEVELOP', 'branch_bucket': 'UNCONDITIONAL', 'scope': 'WHOLE23', 'label_a': 'TC_ML_SYSTEMS', 'name_a': '训练推理系统', 'label_b': 'TC_FOUNDATION_MODEL', 'name_b': '基础模型/VLA', 'n_base': '156', 'n_positive_joint': '34', 'n_unknown': '0', 'n_no_recorded': '122', 'n_interpretable': '156', 'share': '0.2179487179', 'n_companies_joint': '14', 'max_company': 'CN_GALBOT', 'max_positive_contribution': '0.2352941176', 'gate': 'PASS'})"
+    },
+    {
+      "name": "ml_joint_TC_ML_SYSTEMS_TC_DATA_PIPELINE",
+      "passed": true,
+      "detail": "(45, 0, {'role_code': 'RF_ML_AI_ENGINEERING', 'metric_bucket': 'DUTY_OWN_DEVELOP', 'branch_bucket': 'UNCONDITIONAL', 'scope': 'WHOLE23', 'label_a': 'TC_ML_SYSTEMS', 'name_a': '训练推理系统', 'label_b': 'TC_DATA_PIPELINE', 'name_b': '数据管线与资产', 'n_base': '156', 'n_positive_joint': '45', 'n_unknown': '0', 'n_no_recorded': '111', 'n_interpretable': '156', 'share': '0.2884615385', 'n_companies_joint': '15', 'max_company': 'CN_GALBOT', 'max_positive_contribution': '0.1333333333', 'gate': 'PASS'})"
+    },
+    {
+      "name": "ml_joint_TC_FOUNDATION_MODEL_TC_DATA_PIPELINE",
+      "passed": true,
+      "detail": "(34, 0, {'role_code': 'RF_ML_AI_ENGINEERING', 'metric_bucket': 'DUTY_OWN_DEVELOP', 'branch_bucket': 'UNCONDITIONAL', 'scope': 'WHOLE23', 'label_a': 'TC_FOUNDATION_MODEL', 'name_a': '基础模型/VLA', 'label_b': 'TC_DATA_PIPELINE', 'name_b': '数据管线与资产', 'n_base': '156', 'n_positive_joint': '34', 'n_unknown': '0', 'n_no_recorded': '122', 'n_interpretable': '156', 'share': '0.2179487179', 'n_companies_joint': '12', 'max_company': 'CN_GALBOT', 'max_positive_contribution': '0.2058823529', 'gate': 'PASS'})"
+    },
+    {
+      "name": "t6_q3_contains_splits",
+      "passed": true,
+      "detail": "在1,623条活动可判读广告中，本人承担研究探索75条，其中同名研究科学主职能27条，其他具体职能48条、结构类0条、未明确0条，同名之外64.0%。部署与维护351条，同名部署职能80条，其他具体255、结构13、未明确3，同名之外77.2%。质量验证466条，同名制造质量供应160条，其他具体293、结构9、未明确4，同名之外65.7%。整公司23与来源较完整子集方向一致（研究72.7%/70"
+    },
+    {
+      "name": "t6_q1_contains_means",
+      "passed": true,
+      "detail": "整公司范围内，部署职能占比的公司等权均值为5.3%，本人承担部署活动率均值为22.9%，非部署主职能内部的部署活动率均值为19.2%。总体部署活动明显高于部署职能构成，两类差异并存。制造实际使用组Galbot与Figure：部署职能占比分别为1.1%与11.1%，部署活动率13.8%与29.4%，非部署职能内部署活动率13.4%与20.5%。共同职能K=['RF_CORPORATE_SUPPORT', 'RF_MANUFACTURING"
+    },
+    {
+      "name": "t6_q2_no_skill_use_claim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_marked_grok46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_has_cases",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_logistics_inapplicable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "report_headline_64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "figure_F1_cross_function_activity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "figure_F2_same_function_galbot_figure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "figure_F3_deployment_composition_vs_activity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "three_main_figures",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "t5_long_has_four_cases",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "t5_profile_four",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "t5_galbot_ningde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "t5_figure_bmw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "html_no_megabyte_line",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original_c_untouched",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "researcher": "Cursor Grok 4.6"
+}

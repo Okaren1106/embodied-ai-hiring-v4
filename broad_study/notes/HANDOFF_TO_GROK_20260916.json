@@ -1,0 +1,221 @@
+{
+  "created_utc": "2026-09-16T10:12:22.531057+00:00",
+  "prepared_by": "Astra",
+  "intended_successor": "grok4.6",
+  "status": "HANDOFF_PREPARED_NOT_DISPATCHED",
+  "original_and_frozen_files_verified": 909,
+  "milestones": {
+    "M0": "COMPLETE",
+    "M1": "COMPLETE",
+    "M2": "COMPLETE",
+    "M3": "COMPLETE",
+    "M4": "COMPLETE",
+    "M5": "IN_PROGRESS",
+    "M6": "PENDING"
+  },
+  "first_pass_counts": {
+    "RF_HARDWARE_ELECTRICAL": 126,
+    "RF_MANUFACTURING_QUALITY_SUPPLY": 215,
+    "RF_ML_AI_ENGINEERING": 6
+  },
+  "total_first_pass": 347,
+  "pending_first_pass": 1229,
+  "ml_registered": [
+    "E0001",
+    "N0198",
+    "N0923",
+    "E0562",
+    "N0562",
+    "N0388"
+  ],
+  "next_batch": {
+    "role_order": 3,
+    "coding_order": [
+      7,
+      8,
+      9
+    ],
+    "reading_ids": [
+      "N1001",
+      "N0674",
+      "N0619"
+    ],
+    "state": "FULL_TEXT_SHOWN_BUT_NOT_REGISTERED",
+    "reading_note": "notes/Q_coding_03_007_009.md"
+  },
+  "q_full_second_pass_completed": 0,
+  "partial_verification": {
+    "status": "PASS_PARTIAL_ONLY",
+    "coded_ads": 347,
+    "pending_ads": 1229,
+    "candidate_decisions": 3248,
+    "semantic_evidence": 6513,
+    "explicit_ad_label_slice_states": 808920,
+    "states": {
+      "Z": 803308,
+      "P": 4340,
+      "U": 1272
+    },
+    "derived_old_semantic_changes": 907,
+    "directory_gap_records": 737,
+    "all_sources_exact": true,
+    "design_lock_checked": true,
+    "scope": "First-pass coding integrity, not completed Q2 study or second-pass acceptance",
+    "input_files_checked": 909
+  },
+  "quota": {
+    "checked_at_utc": "2026-09-16T10:12:22.531057+00:00",
+    "stop_threshold_remaining_percent": 30,
+    "main_limit_id": "codex",
+    "windows": [
+      {
+        "usedPercent": 68,
+        "windowDurationMins": 10080,
+        "resetsAt": 1790051517,
+        "remainingPercent": 32
+      }
+    ],
+    "five_hour_status": "UNAVAILABLE_FROM_TOOL",
+    "other_model_limits_not_substituted": true,
+    "stop_required": false,
+    "resume_policy": "Stop at <=30 and wait for explicit user request"
+  },
+  "files": [
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\RUN_STATE.json",
+      "sha256": "63e5926111b806b566956481a146f24ec1112c9bbb843f852efd5e6a37821b21",
+      "bytes": 1055
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\QUOTA_GUARD.json",
+      "sha256": "7f350acbf2f47ba0559d1fe893d621a594de1243cb5565babefe17a73a78e8c4",
+      "bytes": 484
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\input_manifest.json",
+      "sha256": "6e313b9a9833db21ed106a2ae846fc9ba6d3dd8f3611f6024655fe068af0edc0",
+      "bytes": 372357
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\configs\\Q_catalog_v2_frozen.json",
+      "sha256": "86ab0b0bb48f07e19c8bf44449d0e3fa27887777d41eb5b76bbe92405f7d91e5",
+      "bytes": 740160
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\configs\\Q_coding_rules_v2.json",
+      "sha256": "f895be5485b1f7d3117b8f01539fc5be05133bf8f545e9cfb61c72840a857ac4",
+      "bytes": 4036
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\configs\\Q_task_strata_v2.json",
+      "sha256": "5f8cd21f81301290a426200c122c4c4307dadfdc165dde80590bd1dc1339b7dc",
+      "bytes": 16233
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\configs\\Q_design_lock_v2.json",
+      "sha256": "f355a96d187318c2c52519378e6bc281c19f3237637ef9f8ddea04b3c3b88ceb",
+      "bytes": 1250
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\notes\\Q_semantic_review_queue.json",
+      "sha256": "8815c0e72e571ac260f9a7ff1feb374fb21dab4613dd01ef5b22a32077a134d4",
+      "bytes": 11569928
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\notes\\Q_inherited_semantics_all17.json",
+      "sha256": "5af271946ab90ec5b605da92716b1abb9630c7e638c8b4d6d7b7dbf4ca98b07e",
+      "bytes": 13631661
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\notes\\Q_coding_03_007_009.md",
+      "sha256": "c38eb652e9d48541108f4818d9b61f113d2c14f6663372f67fef0c81e14385ba",
+      "bytes": 17642
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\tables\\Q3_coding_frame.csv",
+      "sha256": "e0e34a6be1f072bab9cc5477e1f96e160bce67b137146f9b7abf3f7b132dd7a8",
+      "bytes": 345793
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\tables\\Q1_role_coverage.csv",
+      "sha256": "1ec6760b5467b8d0b3371079bf97eba1ee775e32c06df82e33c566e9c43acee3",
+      "bytes": 2685
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\verification\\Q_partial_materialization.json",
+      "sha256": "05216a8a5e148dfbfe33c9d43f574fe07d12309596febddf89f53f8755f51dd8",
+      "bytes": 518
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\scripts\\register_Q_decisions.py",
+      "sha256": "4b5eb778cb73cd004d125f0a7bb63e968a1940d5aa5b69971f11ca3e2c564d36",
+      "bytes": 3456
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\scripts\\materialize_Q_partial.py",
+      "sha256": "4b9399325190e02ea22d2f1c705939af824181454eda1ee918fe1c9e90a9ea36",
+      "bytes": 9264
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\scripts\\read_Q_coding.py",
+      "sha256": "748e7bb5c8cd8d3881bda2f87073273db39ab9ad2b9f2ffbee4de56a96741146",
+      "bytes": 3321
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\scripts\\common.py",
+      "sha256": "da493fc3b44c3268a56ecb7382c0d13496a1759982445c6fefff317e85debc42",
+      "bytes": 5018
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\reports\\R_合并验收报告_Astra.md",
+      "sha256": "39f290f3664b47a8ccd7f84cd528923a6817118ee36ccf5873a7c7db0dd980a1",
+      "bytes": 4081
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\reports\\O_工作对象研究报告_Astra.md",
+      "sha256": "f818ecdce2af9234517e63799da51da28e02d00846c65aceff721becb391769c",
+      "bytes": 6095
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\reports\\D_构成与职能内分解报告_Astra.md",
+      "sha256": "f327101226923f1e7c3ea42a620e726cc3a92e425b4aae63e7c25b44a13fe633",
+      "bytes": 4704
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\reports\\Q_M4_目录与桥接报告_Astra.md",
+      "sha256": "7614583d450bb57647ef42b850027951aa36b2c1f846ca5b3922fdfd883402b5",
+      "bytes": 3360
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\configs\\Q_adjudications\\RF_HARDWARE_ELECTRICAL.json",
+      "sha256": "43d4dee26584ee8f476bb552b2cbbc57f9906ab67d5c02b69e7c729fb4742696",
+      "bytes": 567464
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\configs\\Q_adjudications\\RF_MANUFACTURING_QUALITY_SUPPLY.json",
+      "sha256": "3b57d18001d2c87523adc1432b753225d551bf96b9c8578c0b57988525ec3b98",
+      "bytes": 746949
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_d_integrated_v2\\run_20260916_astra_v2\\configs\\Q_adjudications\\RF_ML_AI_ENGINEERING.json",
+      "sha256": "e9e1dae6b90133371bd706292000484c0a2f4fa2440d4cbb2085751b35404fb3",
+      "bytes": 23944
+    },
+    {
+      "path": "D:\\Embod AI analysis\\交付\\阶段D至阶段E_交接指令_grok4.6_20260916.md",
+      "sha256": "88c36c1d3fa0ab50cb08cd4969b7ccc61b59553b0f51aaa137a992452b3b9ccf",
+      "bytes": 19324
+    },
+    {
+      "path": "D:\\Embod AI analysis\\必读.md",
+      "sha256": "6c2fb2f7bbe25bbcf9a67dac5df0632f29ef36ffbb46cfb47a5938cf78717249",
+      "bytes": 38987
+    },
+    {
+      "path": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\必读.md",
+      "sha256": "6c2fb2f7bbe25bbcf9a67dac5df0632f29ef36ffbb46cfb47a5938cf78717249",
+      "bytes": 38987
+    }
+  ],
+  "scope": "Checkpoint integrity and handoff preparation only; not final research acceptance."
+}

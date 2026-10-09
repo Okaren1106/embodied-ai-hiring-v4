@@ -1,0 +1,128 @@
+{
+  "checks": [
+    {
+      "name": "页面脚本可执行",
+      "ok": true,
+      "detail": "no syntax/runtime error on load"
+    },
+    {
+      "name": "数据可解析",
+      "ok": true,
+      "detail": "companies=24"
+    },
+    {
+      "name": "24 家公司齐全",
+      "ok": true,
+      "detail": "n=24"
+    },
+    {
+      "name": "已查公司数与事实层一致（24 家均有记录）",
+      "ok": true,
+      "detail": "CN_AGIBOT,CN_ASTRIBOT,CN_DEEPROBOTICS,CN_FOURIER,CN_GALAXEA,CN_GALBOT,CN_LIMX,CN_NOETIX,CN_PAXINI,CN_SPIRITAI,CN_UNITREE,CN_XSQUARE,US_AGILITY,US_AMAZON_FTR,US_APPTRONIK,US_BOSTON_DYNAMICS,US_DEXTERITY,US_DILIGENT,US_FIELD_AI,US_FIGURE,US_NIMBLE,US_PHYSICAL_INTELLIGENCE,US_PICKLE,US_SKILD"
+    },
+    {
+      "name": "未查字段在页面中可见或全部已给出非未查状态",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "公司数与已查/未查划分互补为 24",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "缺口总数 307 全部在页面中",
+      "ok": true,
+      "detail": "n=307"
+    },
+    {
+      "name": "未查公司缺口无已解决标记",
+      "ok": true,
+      "detail": "n=0"
+    },
+    {
+      "name": "未知未被显示为确定值",
+      "ok": true,
+      "detail": "n=0"
+    },
+    {
+      "name": "严格比较桶与入比较标记一致",
+      "ok": true,
+      "detail": "n=0"
+    },
+    {
+      "name": "查无状态未变成确定上市组",
+      "ok": true,
+      "detail": "n=0"
+    },
+    {
+      "name": "存在可点击原始来源",
+      "ok": true,
+      "detail": "n=111"
+    },
+    {
+      "name": "观察日按公司分别显示",
+      "ok": true,
+      "detail": "2026-08-31,2026-09-11"
+    },
+    {
+      "name": "已披露金额带币种单位与性质",
+      "ok": true,
+      "detail": "n=0"
+    },
+    {
+      "name": "左侧公司列表渲染",
+      "ok": true,
+      "detail": "len=770"
+    },
+    {
+      "name": "公司列表含记录标记",
+      "ok": true,
+      "detail": "badge text present"
+    },
+    {
+      "name": "搜索可过滤公司",
+      "ok": true,
+      "detail": "has_fourier=true has_xs=false"
+    },
+    {
+      "name": "可按证据内容搜索",
+      "ok": true,
+      "detail": "PERKESO matched via evidence text"
+    },
+    {
+      "name": "筛选：含未查字段",
+      "ok": true,
+      "detail": "has_unknown=24"
+    },
+    {
+      "name": "筛选：无未查字段",
+      "ok": true,
+      "detail": "no_unknown=0"
+    },
+    {
+      "name": "已查公司详情渲染",
+      "ok": true,
+      "detail": "len=26337"
+    },
+    {
+      "name": "详情含快照路径与哈希",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "详情含原始来源链接",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "bound_to": {
+    "script_sha256": "4be3a7eb921349b5ea0cfc3bccf6b51857005bbfa8ab27b34a8b2b773c0ea3cb",
+    "index_html_sha256": "5fa1857a954bb9f9e9ecf97bb061158d3c1c77cfe12ac96da45549538a06b89a"
+  },
+  "summary": {
+    "n_checks": 23,
+    "n_pass": 23,
+    "n_fail": 0
+  }
+}

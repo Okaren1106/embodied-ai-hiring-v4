@@ -1,0 +1,214 @@
+"""First-pass adjudication for corporate-support coding_order 33-48. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+ACCT={
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"GL_ACCOUNTING","secondary_task":"",
+ "task_evidence":"负责账务核算、编制月度、季度、年度财务报表，确保账务处理准确、及时",
+ "new":{
+  "1":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"],["V2_ACCOUNTING_CREDENTIAL","PREFERRED","UNCONDITIONAL"]],
+  "2":"DUPLICATE:RID:1",
+  "3":[["V2_KINGDEE","GENERAL","CHOICE"],["V2_YONYOU","GENERAL","CHOICE"]],
+  "4":"DUPLICATE:RID:3",
+  "5":"DUPLICATE:RID:3",
+  "6":O+"Power Query未单列冻结项。",
+  "7":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"总账/财务信息化。用友金蝶保留。"
+}
+def acct(rid, extra=None, n=7):
+ d=dict(ACCT); d['new']=dict(ACCT['new'])
+ d['new']['2']='DUPLICATE:%s:1'%rid
+ d['new']['4']='DUPLICATE:%s:3'%rid
+ d['new']['5']='DUPLICATE:%s:3'%rid
+ if extra: d['new'].update(extra)
+ return d
+decisions={
+"N0640":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LEGAL","fine_task":"IP_MANAGER","secondary_task":"",
+ "task_evidence":"以专利为核心，兼顾商标与著作权的整体管理，负责公司年度商标和专利申请规划的推进与落地",
+ "new":{
+  "1":[["V2_LEGAL_CREDENTIAL","PREFERRED","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0640:1"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"知产经理。专利代理人资格保留。"
+},
+"N0054":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LEGAL","fine_task":"LEGAL_INTERN","secondary_task":"",
+ "task_evidence":"辅助业务团队处理公司业务合作过程中法律相关工作和协议条款。",
+ "new":{
+  "1":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "6":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"法务实习。"
+},
+"N0184":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LEGAL","fine_task":"LITIGATION","secondary_task":"",
+ "task_evidence":"负责公司诉讼、仲裁、行政案件的日常跟进与管理",
+ "new":{
+  "1":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":R+"学历中的法律专业不是单独的法务技能项。",
+  "4":[["V2_LEGAL","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_LEGAL","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"法务经理。学位法律不单记。"
+},
+"N0120":acct("N0120"),
+"N0112":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"GOV_PROJECTS","secondary_task":"",
+ "task_evidence":"负责国家重点研发计划、国家自然科学基金、科技重大专项及省市级重点项目的政策研究、选题策划和申报组织。",
+ "new":{
+  "1":[["V2_LEGAL","SEPARATE","COLLABORATION_OBJECT"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"项目申报。知识产权为协作对象。"
+},
+"N0122":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"FPA","secondary_task":"",
+ "task_evidence":"搭建FP&A体系和管报体系，输出经营分析报告",
+ "new":{
+  "1":O+"VBA/Python/SQL/多维表格未单列冻结项。",
+  "2":"DUPLICATE:N0122:1",
+  "3":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"],["V2_ACCOUNTING_CREDENTIAL","PREFERRED","CHOICE"]],
+  "4":"DUPLICATE:N0122:3",
+  "5":"DUPLICATE:N0122:3",
+  "6":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"FP&A专家。"
+},
+"N0048":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"IR_INTERN","secondary_task":"",
+ "task_evidence":"协助撰写、校对、整理一级基金募资相关材料",
+ "new":{
+  "1":[["V2_ACCOUNTING","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"战略投资实习。"
+},
+"N0052":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"RECRUITING_INTERN","secondary_task":"",
+ "task_evidence":"负责具身智能社招、校招、实习生岗位的招聘工作",
+ "new":{
+  "1":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"招聘实习。"
+},
+"N0121":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"GRANT_PM","secondary_task":"",
+ "task_evidence":"跟踪科技部、工信部、发改委及北京市各级政府科技政策动态，建立政策信息库与申报台账",
+ "new":{
+  "1":[["V2_PROCUREMENT","SEPARATE","COLLABORATION_OBJECT"]],
+  "2":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_PM_CREDENTIAL","PREFERRED","CHOICE"]],
+  "4":"DUPLICATE:N0121:3",
+  "5":"DUPLICATE:N0121:3"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"科研项目管理。内部采购为协作对象。"
+},
+"N0088":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"CAMPUS_RECRUITING","secondary_task":"MARKETING",
+ "task_evidence":"打造具有科技感的雇主品牌形象，策划并落地线上线下的创意招聘营销活动",
+ "new":{
+  "1":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"],["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_HR","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_HR","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"校园招聘专家。"
+},
+"N0154":acct("N0154", extra={
+  "6":O+"VLOOKUP未单列冻结项。",
+  "7":O+"数据透视表未单列冻结项。",
+  "8":O+"Power Query未单列冻结项。",
+  "9":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]]
+}),
+"N0155":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"INVESTMENT_MANAGER","secondary_task":"",
+ "task_evidence":"聚焦公司机器人投资领域负责项目挖掘、尽调、估值、谈判及投后管理全流程工作",
+ "new":{
+  "1":O+"DCF未单列冻结项。",
+  "2":O+"PE估值倍数未单列冻结项。",
+  "3":O+"PB估值倍数未单列冻结项。",
+  "4":[["V2_LEGAL","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"投资经理。法律法规记法务一般要求。"
+},
+"N0082":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"ALGO_RECRUITER","secondary_task":"",
+ "task_evidence":"独立负责并实施具体的招聘工作，及时完成岗位交付，包括但不限于：具身大模型、具身操作算法、强化学习算法、灵巧手算法等",
+ "new":{
+  "1":[["V2_HR","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"],["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_HR","PREFERRED","UNCONDITIONAL"]],
+  "6":[["V2_HR","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"算法招聘专家。"
+},
+"N0599":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LEGAL","fine_task":"LEGAL_INTERN","secondary_task":"",
+ "task_evidence":"开展国内外法律法规、政策及判例研究",
+ "new":{
+  "1":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_LEGAL","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_LEGAL","GENERAL","UNCONDITIONAL"],["V2_LEGAL_CREDENTIAL","PREFERRED","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0599:4"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"法务实习。法律职业资格优先。"
+},
+"N0586":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"HRBP","secondary_task":"",
+ "task_evidence":"深入业务部门，理解技术与业务发展状况，评估组织与人才对HR的核心需求，支撑业务目标落地。",
+ "new":{
+  "1":[["V2_HR","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"HRBP。"
+},
+"N0578":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"LND_COE","secondary_task":"",
+ "task_evidence":"搭建分层分类的培训体系与学习地图",
+ "new":{
+  "1":O+"ADDIE课程开发模型未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"培训COE。"
+}
+}
+if __name__=='__main__':
+ register('RF_CORPORATE_SUPPORT', decisions, reader='grok4.6')

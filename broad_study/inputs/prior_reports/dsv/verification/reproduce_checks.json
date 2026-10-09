@@ -1,0 +1,51 @@
+{
+  "run_id": "run_20260915T175337Z",
+  "checked_at": "2026-09-16",
+  "environment": {
+    "python": "3.12.14",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "font": "C:/Windows/Fonts/msyh.ttc"
+  },
+  "reproduction_chain": [
+    {
+      "stage": "source_to_second",
+      "command": "python scripts/reproduce.py --output tmp/stage_d_repro_p2 --plot-deps <plot deps>",
+      "status": "PASS",
+      "package_verify": {"checked": 55, "mismatch": [], "missing": []},
+      "input_verify": {"checked": 20, "drift": []},
+      "compared_files": 33,
+      "differences": []
+    },
+    {
+      "stage": "second_to_third",
+      "command": "second package: python scripts/reproduce.py --output tmp/stage_d_repro_p3",
+      "status": "PASS",
+      "package_verify": {"checked": 51, "mismatch": [], "missing": []},
+      "input_verify": {"checked": 20, "drift": []},
+      "compared_files": 33,
+      "differences": []
+    }
+  ],
+  "fault_tests": [
+    {"case": "existing_output_directory", "result": "REFUSED", "reason": "output directory already exists"},
+    {"case": "input_drift", "result": "REFUSED", "reason": "input drift", "exit": 4},
+    {"case": "package_tamper", "result": "REFUSED", "reason": "package checksum mismatch"}
+  ],
+  "figure_reproducibility": {
+    "method": "two consecutive renders compared by SHA-256",
+    "result": "byte-identical",
+    "metadata": "figure Date metadata stripped; svg hashsalt fixed to stage-d-v1"
+  },
+  "independent_checks": [
+    {"check": "three headline cross readings recomputed", "expected": "75/27, 351/80, 466/160", "result": "match"},
+    {"check": "D3 versus published T4 cross table", "cells": 168, "mismatches": 0},
+    {"check": "unknown scenario versus protocol reference", "items": 4, "result": "all match"},
+    {"check": "Q2 fixed display items versus Stage C report", "items": 11, "result": "all match"}
+  ],
+  "determinism_fixes": [
+    "all set iteration over identity keys replaced by sorted iteration",
+    "counter/largest-company selection given explicit tie-break ordering",
+    "figure date metadata stripped so PNG and SVG are byte-reproducible"
+  ]
+}

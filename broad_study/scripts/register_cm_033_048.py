@@ -1,0 +1,233 @@
+"""First-pass adjudication for commercial coding_order 33-48. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+def outside(n, extra):
+ d={str(i):O+"未单列冻结项。" for i in range(1,n+1)}
+ d.update(extra)
+ return d
+n0230={str(i):[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]] for i in range(1,16)}
+n0230.update({
+ "1":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+ "2":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+ "3":[["V2_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_SALESFORCE","DUTY_OWN_USE","EXAMPLE"],["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+ "4":"DUPLICATE:N0230:3",
+ "5":O+"纷享销客未单列冻结项。",
+ "16":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+ "17":[["V2_TABLEAU","PREFERRED","CHOICE"],["V2_POWERBI","PREFERRED","CHOICE"]],
+ "18":"DUPLICATE:N0230:17","19":"DUPLICATE:N0230:17",
+ "20":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+ "21":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+ "22":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+ "23":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+ "24":[["V2_CRM","GENERAL","CHOICE"],["V2_SALESFORCE","GENERAL","CHOICE"],["V2_HUBSPOT","GENERAL","CHOICE"]],
+ "25":"DUPLICATE:N0230:24",
+ "26":O+"纷享销客未单列冻结项。",
+ "27":"DUPLICATE:N0230:24",
+ "28":[["V2_SALES_CRM","PREFERRED","UNCONDITIONAL"]]
+})
+decisions={
+"N0227":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"INDUSTRY_BD","secondary_task":"",
+ "task_evidence":"独立完成从客户需求沟通、现场演示（Demo）、技术方案初步制定，到报价谈判、合同签约及回款的全流程，对个人销售业绩负责",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"BD经理。"
+},
+"N0204":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"SALES_OPS","secondary_task":"",
+ "task_evidence":"推动商机→立项→交付→验收→回款全流程规范运行，确保项目节点可追踪、风险可预警",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"商业运营/销售运营。"
+},
+"N0230":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"SALES_OPS","secondary_task":"",
+ "task_evidence":"协助商业化负责人搭建从线索挖掘、商机跟进、方案报价、合同审批到验收回款的端到端销售流程（LTC），建立标准化、可复制的销售运营体系。",
+ "new":n0230,
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"销售运营经理。Salesforce/HubSpot/CRM保留。纷享销客目录外。"
+},
+"N0186":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"PR_COMMS","secondary_task":"",
+ "task_evidence":"独立撰写和编辑新闻稿、媒体资料包、采访提纲、Q&A、观点文章、高管口径及背景材料。",
+ "new":{str(i):[["V2_MARKETING","DUTY_OWN_USE" if i<=5 else "GENERAL","UNCONDITIONAL"]] for i in range(1,13)},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"公关传播高级经理。"
+},
+"N0232":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"RESEARCH_SALES","secondary_task":"",
+ "task_evidence":"维护拓展核心客户，沟通需求提供定制方案达成协议，协同部门确保需求转化与产品落地。",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","SEPARATE","BACKGROUND"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"],["V2_CUSTOMER_SERVICE","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"大科研销售经理（西南）。"
+},
+"N0188":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"BRAND_DESIGN","secondary_task":"",
+ "task_evidence":"参与建立和迭代品牌VI、字体与色彩、版式、图形、插画、图标、动效及影像语言，并形成可复用的设计规范与组件。",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_CMF_DESIGN","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "5":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "6":[["V2_FIGMA","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "7":"DUPLICATE:N0188:6",
+  "8":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"],["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "9":O+"生成式AI未单列冻结项。",
+  "10":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "11":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "12":[["V2_MARKETING","GENERAL","UNCONDITIONAL"],["V2_CMF_DESIGN","GENERAL","UNCONDITIONAL"]],
+  "13":[["V2_FIGMA","GENERAL","UNCONDITIONAL"],["V2_ADOBE_CREATIVE","GENERAL","UNCONDITIONAL"]],
+  "14":"DUPLICATE:N0188:13","15":"DUPLICATE:N0188:13",
+  "16":O+"生成式AI未单列冻结项。",
+  "17":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "18":[["V2_MARKETING","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"品牌创意设计。Figma与Adobe保留。"
+},
+"N0185":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"OVERSEAS_SOCIAL","secondary_task":"",
+ "task_evidence":"制定海外传播和社媒增长策略，明确优先市场、目标受众、核心议题、渠道组合及阶段目标。",
+ "new":outside(21,{
+  "1":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "8":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "9":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "10":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "11":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "15":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "16":[["V2_PROCUREMENT","GENERAL","UNCONDITIONAL"]],
+  "17":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "18":[["V2_MARKETING","PREFERRED","UNCONDITIONAL"]],
+  "20":[["V2_MARKETING","PREFERRED","CHOICE"]],
+  "21":[["V2_MARKETING","PREFERRED","CHOICE"]]
+ }),
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"海外传播。LinkedIn/X/YouTube目录外。"
+},
+"N0209":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"RESEARCH_SALES","secondary_task":"",
+ "task_evidence":"针对科研、AI及科技企业展开识别、开发、商务洽谈和客户服务等工作，达成具有影响力和品牌效应的标杆项目",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"],["V2_CUSTOMER_SERVICE","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"大科研销售经理（中东/欧洲）。"
+},
+"N0187":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"PR_HEAD","secondary_task":"",
+ "task_evidence":"制定公司年度及阶段性公关传播策略，建立企业、技术、产品、商业化与资本市场多层议题体系",
+ "new":{str(i):[["V2_MARKETING","DUTY_OWN_DEVELOP" if i<=6 else "GENERAL","UNCONDITIONAL"]] for i in range(1,12)},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"公关传播专家。"
+},
+"N0137":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"EXHIBITION","secondary_task":"",
+ "task_evidence":"协助展览展示活动与公司路演会议的策划、协调统筹与落地执行",
+ "new":{"1":R+"学历专业法律不是法律专业职责。"},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"展会专员。专业名称不记法律职责。"
+},
+"N0130":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"VIDEO","secondary_task":"",
+ "task_evidence":"完成公司前沿产品（如人形机器人等）相关的宣传视频、短视频创意策划，撰写高质量的剧情/宣传脚本。",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","SEPARATE","BACKGROUND"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"短视频编导。"
+},
+"N0108":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_SUCCESS","fine_task":"AFTER_SALES","secondary_task":"",
+ "task_evidence":"搭建并落地全渠道售后标准：服务流程、维保规则、退换货、故障处理规范",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"售后负责人。无新候选。"
+},
+"N0123":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"CONTENT_OPS","secondary_task":"",
+ "task_evidence":"负责公司微信公众平台、视频号、小红书、抖音、B站等官方社交账号的日常内容更新与维护",
+ "new":outside(16,{
+  "1":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "7":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "13":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "14":[["V2_PHOTOSHOP","GENERAL","UNCONDITIONAL"]],
+  "16":"DUPLICATE:N0123:14"
+ }),
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"内容运营。社媒平台目录外。Photoshop保留。"
+},
+"N0126":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"EDU_PRE_SALES","secondary_task":"",
+ "task_evidence":"独立撰写面向教育行业的技术解决方案，包括专业建设方案、实训基地规划方案、产教融合合作方案、招投标技术标书等",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":R+"客户采购决策链条不是本人采购职责。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"教育售前方案。"
+},
+"N0053":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"SALES_INTERN","secondary_task":"",
+ "task_evidence":"通过电话/微信开拓新客户，介绍公司业务并收集需求",
+ "new":{
+  "1":O+"微信未单列冻结项。",
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"销售实习。"
+},
+"N0156":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"CULTURE_TOURISM","secondary_task":"",
+ "task_evidence":"负责文旅板块销售工作，聚焦具身智能场景示范区业务推广，开发地方政企大客户",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"文旅销售经理。"
+}
+}
+if __name__=='__main__':
+ register('RF_COMMERCIAL_CUSTOMER', decisions, reader='grok4.6')

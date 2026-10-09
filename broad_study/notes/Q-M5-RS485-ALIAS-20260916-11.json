@@ -1,0 +1,185 @@
+{
+  "revision_id": "Q-M5-RS485-ALIAS-20260916-11",
+  "reviewer": "grok4.6",
+  "kind": "SYSTEMATIC_SECOND_PASS_FROZEN_ALIAS",
+  "frozen_catalog_changed": false,
+  "created_utc": "2026-09-16T14:35:18.575410+00:00",
+  "records": [
+    {
+      "reading_id": "N0498",
+      "cand": "2",
+      "before": "REJECT:串口调试不是RS485。",
+      "after": [
+        [
+          "V2_RS485",
+          "PREFERRED",
+          "UNRESOLVED"
+        ]
+      ],
+      "reason": "串口/网口斜线未决，按冻结宽串口组别名计入PREFERRED UNRESOLVED。"
+    },
+    {
+      "reading_id": "N0498",
+      "cand": "3",
+      "before": "REJECT:串口不是RS485。",
+      "after": "DUPLICATE:N0498:2",
+      "reason": "同句串口短词。"
+    },
+    {
+      "reading_id": "E0076",
+      "cand": "3",
+      "before": "append",
+      "after": [
+        [
+          "V2_CAN",
+          "GENERAL",
+          "UNCONDITIONAL"
+        ],
+        [
+          "V2_ETHERCAT",
+          "GENERAL",
+          "UNCONDITIONAL"
+        ],
+        [
+          "V2_TCPIP",
+          "GENERAL",
+          "UNCONDITIONAL"
+        ],
+        [
+          "V2_RS485",
+          "GENERAL",
+          "CHOICE"
+        ]
+      ],
+      "reason": "comma列举含串口，补V2_RS485 GENERAL CHOICE。"
+    },
+    {
+      "reading_id": "N0643",
+      "cand": "2",
+      "before": "REJECT:串口/网口不是RS-485的充分证据。",
+      "after": [
+        [
+          "V2_RS485",
+          "DUTY_OWN_USE",
+          "CHOICE"
+        ]
+      ],
+      "reason": "职责列举串口、网口等，按冻结宽串口组计入。"
+    },
+    {
+      "reading_id": "N0643",
+      "cand": "6",
+      "before": "REJECT:串口通信不是RS-485的充分证据。",
+      "after": [
+        [
+          "V2_RS485",
+          "PREFERRED",
+          "UNCONDITIONAL"
+        ]
+      ],
+      "reason": "优先项串口通信，按冻结别名计入。"
+    },
+    {
+      "reading_id": "N0633",
+      "cand": "4",
+      "before": "append",
+      "after": [
+        [
+          "V2_CAN",
+          "DUTY_OWN_USE",
+          "EXAMPLE"
+        ],
+        [
+          "V2_ETHERCAT",
+          "DUTY_OWN_USE",
+          "EXAMPLE"
+        ],
+        [
+          "V2_RS485",
+          "DUTY_OWN_USE",
+          "CHOICE"
+        ]
+      ],
+      "reason": "职责列举含串口，补V2_RS485 DUTY_OWN_USE CHOICE。"
+    },
+    {
+      "reading_id": "N0633",
+      "cand": "13",
+      "before": "append",
+      "after": [
+        [
+          "V2_CAN",
+          "GENERAL",
+          "CHOICE"
+        ],
+        [
+          "V2_ETHERCAT",
+          "GENERAL",
+          "CHOICE"
+        ],
+        [
+          "V2_MODBUS",
+          "GENERAL",
+          "CHOICE"
+        ],
+        [
+          "V2_RS485",
+          "GENERAL",
+          "UNRESOLVED"
+        ]
+      ],
+      "reason": "斜线总线列举含串口，补V2_RS485 GENERAL UNRESOLVED。"
+    },
+    {
+      "reading_id": "E0031",
+      "cand": "5",
+      "before": "append",
+      "after": [
+        [
+          "V2_TCPIP",
+          "PREFERRED",
+          "CHOICE"
+        ],
+        [
+          "V2_RS485",
+          "GENERAL",
+          "CHOICE"
+        ]
+      ],
+      "reason": "任选接口含串口，补V2_RS485 GENERAL CHOICE。"
+    },
+    {
+      "reading_id": "N0078",
+      "cand": "1",
+      "before": "append",
+      "after": [
+        [
+          "V2_ETHERNET",
+          "GENERAL",
+          "CHOICE"
+        ],
+        [
+          "V2_TCPIP",
+          "GENERAL",
+          "CHOICE"
+        ],
+        [
+          "V2_CAN",
+          "GENERAL",
+          "CHOICE"
+        ],
+        [
+          "V2_ETHERCAT",
+          "GENERAL",
+          "CHOICE"
+        ],
+        [
+          "V2_RS485",
+          "GENERAL",
+          "CHOICE"
+        ]
+      ],
+      "reason": "列举含串口，补V2_RS485 GENERAL CHOICE。"
+    }
+  ]
+}

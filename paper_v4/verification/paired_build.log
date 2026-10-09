@@ -1,0 +1,223 @@
+{
+  "primary": [
+    {
+      "task": "ROBOT_MODEL",
+      "target_a": "SK_PYTHON",
+      "target_b": "SK_PYTORCH",
+      "subset": "all_ads",
+      "weighting": "ad_equal",
+      "ads": 105,
+      "firms": 22,
+      "templates": 99,
+      "M_a_pct": 69.52380952380952,
+      "M_b_pct": 79.04761904761905,
+      "Q_a_confirmed_pct": 40.0,
+      "Q_b_confirmed_pct": 20.952380952380953,
+      "Q_a_unknown_pct": 16.19047619047619,
+      "Q_b_unknown_pct": 5.714285714285714,
+      "mention_gap_pp": -9.523809523809524,
+      "confirmed_gap_pp": 19.047619047619047,
+      "Q_difference_lo_pp": 13.333333333333334,
+      "Q_difference_hi_pp": 35.23809523809524,
+      "known_nondirect_mention_gap_pp": -39.04761904761905
+    },
+    {
+      "task": "ROBOT_RUNTIME",
+      "target_a": "SK_CPP",
+      "target_b": "SK_LINUX",
+      "subset": "all_ads",
+      "weighting": "ad_equal",
+      "ads": 87,
+      "firms": 20,
+      "templates": 87,
+      "M_a_pct": 91.95402298850574,
+      "M_b_pct": 59.770114942528735,
+      "Q_a_confirmed_pct": 43.67816091954023,
+      "Q_b_confirmed_pct": 54.02298850574713,
+      "Q_a_unknown_pct": 21.839080459770116,
+      "Q_b_unknown_pct": 1.1494252873563218,
+      "mention_gap_pp": 32.18390804597701,
+      "confirmed_gap_pp": -10.344827586206897,
+      "Q_difference_lo_pp": -11.494252873563218,
+      "Q_difference_hi_pp": 11.494252873563218,
+      "known_nondirect_mention_gap_pp": 21.839080459770116
+    },
+    {
+      "task": "BOARD_CIRCUIT",
+      "target_a": "SK_ALTIUM",
+      "target_b": "V2_EMC_SIPI",
+      "subset": "all_ads",
+      "weighting": "ad_equal",
+      "ads": 56,
+      "firms": 18,
+      "templates": 56,
+      "M_a_pct": 42.857142857142854,
+      "M_b_pct": 64.28571428571429,
+      "Q_a_confirmed_pct": 8.928571428571429,
+      "Q_b_confirmed_pct": 26.785714285714285,
+      "Q_a_unknown_pct": 0.0,
+      "Q_b_unknown_pct": 0.0,
+      "mention_gap_pp": -21.428571428571427,
+      "confirmed_gap_pp": -17.857142857142858,
+      "Q_difference_lo_pp": -17.857142857142858,
+      "Q_difference_hi_pp": -17.857142857142858,
+      "known_nondirect_mention_gap_pp": -3.5714285714285716
+    }
+  ],
+  "common_mentions": [
+    {
+      "task": "ROBOT_MODEL",
+      "target_a": "SK_PYTHON",
+      "target_b": "SK_PYTORCH",
+      "subset": "both_mentioned",
+      "weighting": "ad_equal",
+      "ads": 66,
+      "firms": 18,
+      "templates": 61,
+      "M_a_pct": 100.0,
+      "M_b_pct": 100.0,
+      "Q_a_confirmed_pct": 56.06060606060606,
+      "Q_b_confirmed_pct": 27.272727272727273,
+      "Q_a_unknown_pct": 22.727272727272727,
+      "Q_b_unknown_pct": 7.575757575757576,
+      "mention_gap_pp": 0.0,
+      "confirmed_gap_pp": 28.78787878787879,
+      "Q_difference_lo_pp": 21.21212121212121,
+      "Q_difference_hi_pp": 51.515151515151516,
+      "known_nondirect_mention_gap_pp": -43.93939393939394
+    },
+    {
+      "task": "ROBOT_RUNTIME",
+      "target_a": "SK_CPP",
+      "target_b": "SK_LINUX",
+      "subset": "both_mentioned",
+      "weighting": "ad_equal",
+      "ads": 48,
+      "firms": 14,
+      "templates": 48,
+      "M_a_pct": 100.0,
+      "M_b_pct": 100.0,
+      "Q_a_confirmed_pct": 54.166666666666664,
+      "Q_b_confirmed_pct": 91.66666666666667,
+      "Q_a_unknown_pct": 33.333333333333336,
+      "Q_b_unknown_pct": 2.0833333333333335,
+      "mention_gap_pp": 0.0,
+      "confirmed_gap_pp": -37.5,
+      "Q_difference_lo_pp": -39.583333333333336,
+      "Q_difference_hi_pp": -4.166666666666667,
+      "known_nondirect_mention_gap_pp": 6.25
+    },
+    {
+      "task": "BOARD_CIRCUIT",
+      "target_a": "SK_ALTIUM",
+      "target_b": "V2_EMC_SIPI",
+      "subset": "both_mentioned",
+      "weighting": "ad_equal",
+      "ads": 17,
+      "firms": 9,
+      "templates": 17,
+      "M_a_pct": 100.0,
+      "M_b_pct": 100.0,
+      "Q_a_confirmed_pct": 29.41176470588235,
+      "Q_b_confirmed_pct": 29.41176470588235,
+      "Q_a_unknown_pct": 0.0,
+      "Q_b_unknown_pct": 0.0,
+      "mention_gap_pp": 0.0,
+      "confirmed_gap_pp": 0.0,
+      "Q_difference_lo_pp": 0.0,
+      "Q_difference_hi_pp": 0.0,
+      "known_nondirect_mention_gap_pp": 0.0
+    }
+  ],
+  "primary_semantic_envelopes": [
+    {
+      "task": "ROBOT_MODEL",
+      "target_a": "SK_PYTHON",
+      "target_b": "SK_PYTORCH",
+      "subset": "all_ads",
+      "weighting": "ad_equal",
+      "ads": 105,
+      "firms": 22,
+      "readings": 128,
+      "envelope_lo_pp": 13.333333333333334,
+      "envelope_hi_pp": 35.23809523809524,
+      "confirmed_gap_min_pp": 19.047619047619047,
+      "confirmed_gap_max_pp": 19.047619047619047
+    },
+    {
+      "task": "ROBOT_RUNTIME",
+      "target_a": "SK_CPP",
+      "target_b": "SK_LINUX",
+      "subset": "all_ads",
+      "weighting": "ad_equal",
+      "ads": 87,
+      "firms": 20,
+      "readings": 128,
+      "envelope_lo_pp": -12.64367816091954,
+      "envelope_hi_pp": 11.494252873563218,
+      "confirmed_gap_min_pp": -12.64367816091954,
+      "confirmed_gap_max_pp": -6.896551724137931
+    },
+    {
+      "task": "BOARD_CIRCUIT",
+      "target_a": "SK_ALTIUM",
+      "target_b": "V2_EMC_SIPI",
+      "subset": "all_ads",
+      "weighting": "ad_equal",
+      "ads": 56,
+      "firms": 18,
+      "readings": 128,
+      "envelope_lo_pp": -21.428571428571427,
+      "envelope_hi_pp": -17.857142857142858,
+      "confirmed_gap_min_pp": -21.428571428571427,
+      "confirmed_gap_max_pp": -17.857142857142858
+    }
+  ],
+  "leave_one_firm_out_ranges": [
+    {
+      "task": "ROBOT_MODEL",
+      "weighting": "ad_equal",
+      "lo_min": 9.183673469387756,
+      "hi_max": 38.095238095238095
+    },
+    {
+      "task": "ROBOT_MODEL",
+      "weighting": "firm_equal",
+      "lo_min": 10.566893424036282,
+      "hi_max": 32.77588813303099
+    },
+    {
+      "task": "ROBOT_RUNTIME",
+      "weighting": "ad_equal",
+      "lo_min": -14.634146341463415,
+      "hi_max": 14.285714285714286
+    },
+    {
+      "task": "ROBOT_RUNTIME",
+      "weighting": "firm_equal",
+      "lo_min": -14.342105263157896,
+      "hi_max": 10.238095238095237
+    },
+    {
+      "task": "BOARD_CIRCUIT",
+      "weighting": "ad_equal",
+      "lo_min": -21.153846153846153,
+      "hi_max": -15.09433962264151
+    },
+    {
+      "task": "BOARD_CIRCUIT",
+      "weighting": "firm_equal",
+      "lo_min": -23.529411764705884,
+      "hi_max": -14.705882352941176
+    }
+  ],
+  "checks": {
+    "primary_ads": 248,
+    "primary_pairs": 496,
+    "source_records": 248,
+    "semantic_readings": 128,
+    "unknown_not_imputed": true,
+    "primary_rows_excluded": 0,
+    "failures": 0
+  }
+}

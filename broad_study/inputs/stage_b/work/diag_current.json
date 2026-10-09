@@ -1,0 +1,1507 @@
+{
+  "source_package": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b\\run_20260914T142852Z",
+  "n_facts": 79,
+  "n_evidence": 30,
+  "n_links": 83,
+  "n_capital": 4,
+  "n_gaps": 307,
+  "n_groups": 213,
+  "authored_companies": [
+    "CN_FOURIER",
+    "CN_XSQUARE",
+    "US_AMAZON_FTR"
+  ],
+  "unsearched_companies": [
+    "CN_AGIBOT",
+    "CN_ASTRIBOT",
+    "CN_DEEPROBOTICS",
+    "CN_GALAXEA",
+    "CN_GALBOT",
+    "CN_LIMX",
+    "CN_NOETIX",
+    "CN_PAXINI",
+    "CN_SPIRITAI",
+    "CN_UNITREE",
+    "US_AGILITY",
+    "US_APPTRONIK",
+    "US_BOSTON_DYNAMICS",
+    "US_DEXTERITY",
+    "US_DILIGENT",
+    "US_FIELD_AI",
+    "US_FIGURE",
+    "US_NIMBLE",
+    "US_PHYSICAL_INTELLIGENCE",
+    "US_PICKLE",
+    "US_SKILD"
+  ],
+  "n_unsearched": 21,
+  "A_time": {
+    "n_usable_at_observation": 29,
+    "rows": [
+      {
+        "fact_id": "F_CN_FOURIER__delivery_form",
+        "field": "delivery_form",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-05-13",
+        "fact_publication_date": "2026-05-14",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_003",
+            "publication_date": "2026-06-18",
+            "event_date": "2026-06-16",
+            "relation_to_inherited": "",
+            "note_head": "交付事实以该院开业与设备入驻为准，属康复产品线；同文提到的人形机器人用于认知训练引导，见 B_CN_FOURIER_00"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_005",
+            "publication_date": "2026-05-14",
+            "event_date": "2026-05-13",
+            "relation_to_inherited": "",
+            "note_head": "交易对方官方公告，用于康复业务线的独立确认；公告通篇限定在康复与辅助机器人技术，未提人形机器人临床部署（见冲突项，未关闭"
+          }
+        ],
+        "value_head": "硬件设备销售与交付（含整院康复设备包）、临床部署与培训、远程康复系统、研究与共建合作"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__deployment_status_actual",
+        "field": "deployment_status_actual",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-05-13",
+        "fact_publication_date": "2026-05-14",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_003",
+            "publication_date": "2026-06-18",
+            "event_date": "2026-06-16",
+            "relation_to_inherited": "",
+            "note_head": "交付事实以该院开业与设备入驻为准，属康复产品线；同文提到的人形机器人用于认知训练引导，见 B_CN_FOURIER_00"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_005",
+            "publication_date": "2026-05-14",
+            "event_date": "2026-05-13",
+            "relation_to_inherited": "",
+            "note_head": "交易对方官方公告，用于康复业务线的独立确认；公告通篇限定在康复与辅助机器人技术，未提人形机器人临床部署（见冲突项，未关闭"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_006",
+            "publication_date": "",
+            "event_date": "",
+            "relation_to_inherited": "",
+            "note_head": "国家级技术转移平台的成果发布，但仍由申报单位提供；落地家数与服务人次写作「文字称」，不升级为独立确认，也不并入人形机器人"
+          }
+        ],
+        "value_head": "马来西亚 PERKESO 康复中心：整套康复设备自 2025-10 起试运营并于 2026-06-16 随中心开业正式投用；新加坡：陈笃生医"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__evidence_customer_delivery",
+        "field": "evidence_customer_delivery",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-05-13",
+        "fact_publication_date": "2026-05-14",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_003",
+            "publication_date": "2026-06-18",
+            "event_date": "2026-06-16",
+            "relation_to_inherited": "",
+            "note_head": "交付事实以该院开业与设备入驻为准，属康复产品线；同文提到的人形机器人用于认知训练引导，见 B_CN_FOURIER_00"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_005",
+            "publication_date": "2026-05-14",
+            "event_date": "2026-05-13",
+            "relation_to_inherited": "",
+            "note_head": "交易对方官方公告，用于康复业务线的独立确认；公告通篇限定在康复与辅助机器人技术，未提人形机器人临床部署（见冲突项，未关闭"
+          }
+        ],
+        "value_head": "有：PERKESO 康复中心整院康复设备交付（总价上千万元，媒体口径）；陈笃生医院康复技术部署（对方公告）"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__evidence_external_pilot",
+        "field": "evidence_external_pilot",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-05-13",
+        "fact_publication_date": "2026-05-14",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_003",
+            "publication_date": "2026-06-18",
+            "event_date": "2026-06-16",
+            "relation_to_inherited": "",
+            "note_head": "交付事实以该院开业与设备入驻为准，属康复产品线；同文提到的人形机器人用于认知训练引导，见 B_CN_FOURIER_00"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_005",
+            "publication_date": "2026-05-14",
+            "event_date": "2026-05-13",
+            "relation_to_inherited": "",
+            "note_head": "交易对方官方公告，用于康复业务线的独立确认；公告通篇限定在康复与辅助机器人技术，未提人形机器人临床部署（见冲突项，未关闭"
+          }
+        ],
+        "value_head": "有：PERKESO 康复中心 2025-10 至 2026-06 为期 8 个月的试运营；NHG 语境下的康复技术部署与评估"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__evidence_loi_intent",
+        "field": "evidence_loi_intent",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-05-13",
+        "fact_publication_date": "2026-05-14",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_005",
+            "publication_date": "2026-05-14",
+            "event_date": "2026-05-13",
+            "relation_to_inherited": "",
+            "note_head": "交易对方官方公告，用于康复业务线的独立确认；公告通篇限定在康复与辅助机器人技术，未提人形机器人临床部署（见冲突项，未关闭"
+          }
+        ],
+        "value_head": "有：与 NHG Health 的五年谅解备忘录；与名古屋大学的战略合作（后者仅媒体线索）"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__evidence_paid",
+        "field": "evidence_paid",
+        "meta_field": "",
+        "value_status": "MEDIA_STATEMENT",
+        "fact_event_date": "2026-06-16",
+        "fact_publication_date": "2026-06-18",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_003",
+            "publication_date": "2026-06-18",
+            "event_date": "2026-06-16",
+            "relation_to_inherited": "",
+            "note_head": "交付事实以该院开业与设备入驻为准，属康复产品线；同文提到的人形机器人用于认知训练引导，见 B_CN_FOURIER_00"
+          }
+        ],
+        "value_head": "PERKESO 项目总价上千万元（媒体口径，未取得合同或付款凭证）；NHG 合作未披露交易金额"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__evidence_sustained_use",
+        "field": "evidence_sustained_use",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-05-13",
+        "fact_publication_date": "2026-05-14",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_003",
+            "publication_date": "2026-06-18",
+            "event_date": "2026-06-16",
+            "relation_to_inherited": "",
+            "note_head": "交付事实以该院开业与设备入驻为准，属康复产品线；同文提到的人形机器人用于认知训练引导，见 B_CN_FOURIER_00"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_005",
+            "publication_date": "2026-05-14",
+            "event_date": "2026-05-13",
+            "relation_to_inherited": "",
+            "note_head": "交易对方官方公告，用于康复业务线的独立确认；公告通篇限定在康复与辅助机器人技术，未提人形机器人临床部署（见冲突项，未关闭"
+          }
+        ],
+        "value_head": "有：PERKESO 设备自 2025-10 起运行并延续至中心正式开业；NHG 合作关系自 2021 年延续至 2026 年五年 MOU"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__hq_or_team_location",
+        "field": "hq_or_team_location",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-05-13",
+        "fact_publication_date": "2026-05-14",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_005",
+            "publication_date": "2026-05-14",
+            "event_date": "2026-05-13",
+            "relation_to_inherited": "",
+            "note_head": "交易对方官方公告，用于康复业务线的独立确认；公告通篇限定在康复与辅助机器人技术，未提人形机器人临床部署（见冲突项，未关闭"
+          }
+        ],
+        "value_head": "上海（继承值；公司主体名称带上海，NHG 公告提到合作签署地在傅利叶上海总部）"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__latest_financing_at_observation",
+        "field": "latest_financing_at_observation",
+        "meta_field": "",
+        "value_status": "MEDIA_STATEMENT",
+        "fact_event_date": "2025-01",
+        "fact_publication_date": "2025-01-07",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_008",
+            "publication_date": "2025-01-07",
+            "event_date": "2025-01",
+            "relation_to_inherited": "",
+            "note_head": "金额按原文措辞与单位保留（近 8 亿元人民币）；事件早于 2026-09-11 观察日。"
+          }
+        ],
+        "value_head": "与上同：E 轮事件发生在 2025-01，早于 2026-09-11 观察日且已公开，可用于该时点背景"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__latest_financing_disclosed",
+        "field": "latest_financing_disclosed",
+        "meta_field": "",
+        "value_status": "MEDIA_STATEMENT",
+        "fact_event_date": "2025-01",
+        "fact_publication_date": "2025-01-07",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_008",
+            "publication_date": "2025-01-07",
+            "event_date": "2025-01",
+            "relation_to_inherited": "",
+            "note_head": "金额按原文措辞与单位保留（近 8 亿元人民币）；事件早于 2026-09-11 观察日。"
+          }
+        ],
+        "value_head": "截至本次查阅日找到的最新披露：E 轮融资总额近 8 亿元人民币（2025-01 公布，浦东创投、张江科投参与）"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__legal_entity_name",
+        "field": "legal_entity_name",
+        "meta_field": "",
+        "value_status": "INHERITED_UNVERIFIED",
+        "fact_event_date": "2026-06-16",
+        "fact_publication_date": "2026-06-18",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_001",
+            "publication_date": "",
+            "event_date": "",
+            "relation_to_inherited": "CONFIRMS_CHANNEL",
+            "note_head": "站点需先取会话 cookie 再请求，否则自身 302 循环；已按该方式取得 200。仅核渠道，不重新采集岗位。"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_003",
+            "publication_date": "2026-06-18",
+            "event_date": "2026-06-16",
+            "relation_to_inherited": "",
+            "note_head": "交付事实以该院开业与设备入驻为准，属康复产品线；同文提到的人形机器人用于认知训练引导，见 B_CN_FOURIER_00"
+          }
+        ],
+        "value_head": "上海傅利叶智能科技股份有限公司（媒体与行业记录用语）；官方招聘板以「傅利叶集团」运营"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__named_customers_or_partners",
+        "field": "named_customers_or_partners",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-05-13",
+        "fact_publication_date": "2026-05-14",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_003",
+            "publication_date": "2026-06-18",
+            "event_date": "2026-06-16",
+            "relation_to_inherited": "",
+            "note_head": "交付事实以该院开业与设备入驻为准，属康复产品线；同文提到的人形机器人用于认知训练引导，见 B_CN_FOURIER_00"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_005",
+            "publication_date": "2026-05-14",
+            "event_date": "2026-05-13",
+            "relation_to_inherited": "",
+            "note_head": "交易对方官方公告，用于康复业务线的独立确认；公告通篇限定在康复与辅助机器人技术，未提人形机器人临床部署（见冲突项，未关闭"
+          }
+        ],
+        "value_head": "马来西亚社会保险机构 PERKESO（具名机构客户，国家级康复中心）；新加坡国立医疗集团 NHG Health（具名，交易对方官网确认 MO"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__own_listing_status",
+        "field": "own_listing_status",
+        "meta_field": "",
+        "value_status": "MEDIA_STATEMENT",
+        "fact_event_date": "",
+        "fact_publication_date": "2026-07-15",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_009",
+            "publication_date": "2026-07-15",
+            "event_date": "",
+            "relation_to_inherited": "",
+            "note_head": "股改属公开可核事项但本轮未打开交易所或监管披露；记录为媒体陈述，不写成已申报或已上市。"
+          }
+        ],
+        "value_head": "未上市；有记录称已完成股份制改造并列入已启动上市进程名单，尚未递表"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__product_lines",
+        "field": "product_lines",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-06-16",
+        "fact_publication_date": "2026-06-18",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_006",
+            "publication_date": "",
+            "event_date": "",
+            "relation_to_inherited": "",
+            "note_head": "国家级技术转移平台的成果发布，但仍由申报单位提供；落地家数与服务人次写作「文字称」，不升级为独立确认，也不并入人形机器人"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_007",
+            "publication_date": "2026-06-18",
+            "event_date": "",
+            "relation_to_inherited": "",
+            "note_head": "产品数量与收入增幅为受访者口径，未见财务披露佐证；营收与融资、订单额分开记录。"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_004",
+            "publication_date": "2026-06-18",
+            "event_date": "2026-06-16",
+            "relation_to_inherited": "",
+            "note_head": "人形机器人的用途明确为非直接临床治疗（认知训练引导）；不得据此写成所有产品均已部署或人形已进入临床治疗。"
+          }
+        ],
+        "value_head": "康复线：外骨骼（ExoMotus™ M4）、上肢康复机器人（ArmMotus™ EMU）、下肢康复机器人、伽利略生物力学分析与训练系统、约 "
+      },
+      {
+        "fact_id": "F_CN_FOURIER__research_subject",
+        "field": "research_subject",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-05-13",
+        "fact_publication_date": "2026-05-14",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_003",
+            "publication_date": "2026-06-18",
+            "event_date": "2026-06-16",
+            "relation_to_inherited": "",
+            "note_head": "交付事实以该院开业与设备入驻为准，属康复产品线；同文提到的人形机器人用于认知训练引导，见 B_CN_FOURIER_00"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_005",
+            "publication_date": "2026-05-14",
+            "event_date": "2026-05-13",
+            "relation_to_inherited": "",
+            "note_head": "交易对方官方公告，用于康复业务线的独立确认；公告通篇限定在康复与辅助机器人技术，未提人形机器人临床部署（见冲突项，未关闭"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_006",
+            "publication_date": "",
+            "event_date": "",
+            "relation_to_inherited": "",
+            "note_head": "国家级技术转移平台的成果发布，但仍由申报单位提供；落地家数与服务人次写作「文字称」，不升级为独立确认，也不并入人形机器人"
+          }
+        ],
+        "value_head": "整公司多产品范围（WHOLE_COMPANY_MULTI_PRODUCT），康复业务与人形机器人分别举证"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__target_markets",
+        "field": "target_markets",
+        "meta_field": "",
+        "value_status": "MIXED_SEE_EVIDENCE",
+        "fact_event_date": "2026-05-13",
+        "fact_publication_date": "2026-05-14",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_FOURIER_003",
+            "publication_date": "2026-06-18",
+            "event_date": "2026-06-16",
+            "relation_to_inherited": "",
+            "note_head": "交付事实以该院开业与设备入驻为准，属康复产品线；同文提到的人形机器人用于认知训练引导，见 B_CN_FOURIER_00"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_005",
+            "publication_date": "2026-05-14",
+            "event_date": "2026-05-13",
+            "relation_to_inherited": "",
+            "note_head": "交易对方官方公告，用于康复业务线的独立确认；公告通篇限定在康复与辅助机器人技术，未提人形机器人临床部署（见冲突项，未关闭"
+          },
+          {
+            "evidence_id": "B_CN_FOURIER_007",
+            "publication_date": "2026-06-18",
+            "event_date": "",
+            "relation_to_inherited": "",
+            "note_head": "产品数量与收入增幅为受访者口径，未见财务披露佐证；营收与融资、订单额分开记录。"
+          }
+        ],
+        "value_head": "医疗康复（医院与康复中心）、康养／养老机构、家庭健康管理（受访者表述为阶段判断）、研究平台"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__deployment_status_actual",
+        "field": "deployment_status_actual",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-07-16",
+        "fact_publication_date": "2026-07-16",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_006",
+            "publication_date": "2026-07-16",
+            "event_date": "2026-07-16",
+            "relation_to_inherited": "",
+            "note_head": "政府网站转载的报社稿件，非政府采购或验收文件；正文称「近日」上岗、正推进场景适配，因此记录为已上岗部署而非规模化运营。"
+          },
+          {
+            "evidence_id": "B_CN_XSQUARE_007",
+            "publication_date": "2026-08-13",
+            "event_date": "2026-08-12",
+            "relation_to_inherited": "",
+            "note_head": "客户名称未披露（「头部物流企业」），故 named_customers_or_partners 不填具名客户；分拣效率与"
+          }
+        ],
+        "value_head": "已取得位于具名机构（深圳市福利服务指导中心老人颐养院）的实地上岗部署证据；物流为真实场景运行数月（客户未具名）；两条均不足以支持大规模运营"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__evidence_customer_delivery",
+        "field": "evidence_customer_delivery",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-07-16",
+        "fact_publication_date": "2026-07-13",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_006",
+            "publication_date": "2026-07-16",
+            "event_date": "2026-07-16",
+            "relation_to_inherited": "",
+            "note_head": "政府网站转载的报社稿件，非政府采购或验收文件；正文称「近日」上岗、正推进场景适配，因此记录为已上岗部署而非规模化运营。"
+          },
+          {
+            "evidence_id": "B_CN_XSQUARE_012",
+            "publication_date": "2026-07-13",
+            "event_date": "",
+            "relation_to_inherited": "",
+            "note_head": "与 B_CN_XSQUARE_006 记录同一事件的不同渠道，用于交叉印证，不当作两次独立交付。"
+          },
+          {
+            "evidence_id": "B_CN_XSQUARE_008",
+            "publication_date": "2026-07-13",
+            "event_date": "",
+            "relation_to_inherited": "",
+            "note_head": "合作方具名但未取得 58 到家一侧确认；户数为公司口径。股东关系见 B_CN_XSQUARE_009，两者分开记录。"
+          }
+        ],
+        "value_head": "有：深圳市福利服务指导中心以养老护理员岗位实际使用（政府网站渠道）；58 到家联合家政服务口径近千户（公司口径）"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__evidence_demo",
+        "field": "evidence_demo",
+        "meta_field": "",
+        "value_status": "COMPANY_SELF_REPORT",
+        "fact_event_date": "2026-08-12",
+        "fact_publication_date": "2026-08-13",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_010",
+            "publication_date": "",
+            "event_date": "",
+            "relation_to_inherited": "",
+            "note_head": "官网时间线的「2025年08月」节点同时写「完成近10亿元A+轮融资」，而本轮节点顺序与第三方报道（2025-09）存在"
+          },
+          {
+            "evidence_id": "B_CN_XSQUARE_007",
+            "publication_date": "2026-08-13",
+            "event_date": "2026-08-12",
+            "relation_to_inherited": "",
+            "note_head": "客户名称未披露（「头部物流企业」），故 named_customers_or_partners 不填具名客户；分拣效率与"
+          }
+        ],
+        "value_head": "有公开演示记录（WRC 现场多机群、WAIC 长序列任务、物流分拣直播）"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__evidence_external_pilot",
+        "field": "evidence_external_pilot",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-07-16",
+        "fact_publication_date": "2026-07-16",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_007",
+            "publication_date": "2026-08-13",
+            "event_date": "2026-08-12",
+            "relation_to_inherited": "",
+            "note_head": "客户名称未披露（「头部物流企业」），故 named_customers_or_partners 不填具名客户；分拣效率与"
+          },
+          {
+            "evidence_id": "B_CN_XSQUARE_006",
+            "publication_date": "2026-07-16",
+            "event_date": "2026-07-16",
+            "relation_to_inherited": "",
+            "note_head": "政府网站转载的报社稿件，非政府采购或验收文件；正文称「近日」上岗、正推进场景适配，因此记录为已上岗部署而非规模化运营。"
+          }
+        ],
+        "value_head": "有：物流场景与头部物流企业合作、设备在真实场景运行数月（公司口径）；养老场景为机构内实际岗位应用"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__evidence_internal_test",
+        "field": "evidence_internal_test",
+        "meta_field": "",
+        "value_status": "COMPANY_SELF_REPORT",
+        "fact_event_date": "2026-08-12",
+        "fact_publication_date": "2026-08-13",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_003",
+            "publication_date": "",
+            "event_date": "",
+            "relation_to_inherited": "",
+            "note_head": "产品清单为当前官网状态，非 2026-08-31 存档快照；官网未提供发布日期。"
+          },
+          {
+            "evidence_id": "B_CN_XSQUARE_007",
+            "publication_date": "2026-08-13",
+            "event_date": "2026-08-12",
+            "relation_to_inherited": "",
+            "note_head": "客户名称未披露（「头部物流企业」），故 named_customers_or_partners 不填具名客户；分拣效率与"
+          }
+        ],
+        "value_head": "公司自述数采工厂与真机自主进化闭环、物流分拣自主直播测试"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__founded_or_team_start_date",
+        "field": "founded_or_team_start_date",
+        "meta_field": "",
+        "value_status": "COMPANY_SELF_REPORT",
+        "fact_event_date": "2023-12",
+        "fact_publication_date": "",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_002",
+            "publication_date": "",
+            "event_date": "2023-12",
+            "relation_to_inherited": "",
+            "note_head": "月精度，不补成某月1日；未取得工商登记日佐证。"
+          }
+        ],
+        "value_head": "2023-12（公司自述成立并启动深圳运营；继承表记为 2023 年）"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__hq_or_team_location",
+        "field": "hq_or_team_location",
+        "meta_field": "",
+        "value_status": "COMPANY_SELF_REPORT",
+        "fact_event_date": "2023-12",
+        "fact_publication_date": "",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_001",
+            "publication_date": "",
+            "event_date": "2023-12",
+            "relation_to_inherited": "REPLACES_WITH_DATED_SUPPORT",
+            "note_head": "工商登记全称未从政府公示系统取得，此处为主体自述；不把自述升级为独立确认。"
+          }
+        ],
+        "value_head": "广东省深圳市南山区西丽街道留仙大道7013航天创新大厦31层（官网页脚）；另有北京、上海、深圳、合肥四地研发与运营中心的公司自述"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__latest_financing_at_observation",
+        "field": "latest_financing_at_observation",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-06",
+        "fact_publication_date": "2026-06-29",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_009",
+            "publication_date": "2026-06-29",
+            "event_date": "2026-06",
+            "relation_to_inherited": "",
+            "note_head": "估值与轮次金额均按原币种原措辞保留；同一事件在公司官网时间线（B_CN_XSQUARE_010）与第三方媒体分别记录，不"
+          }
+        ],
+        "value_head": "截至招聘观察日 2026-08-31 可用记录与上同（四轮交割发生于 2026-06，早于观察日且已公开）；轮次的精确到日日期未披露"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__latest_financing_disclosed",
+        "field": "latest_financing_disclosed",
+        "meta_field": "",
+        "value_status": "SUPPORTED_EXTERNAL",
+        "fact_event_date": "2026-06",
+        "fact_publication_date": "2026-06-29",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_009",
+            "publication_date": "2026-06-29",
+            "event_date": "2026-06",
+            "relation_to_inherited": "",
+            "note_head": "估值与轮次金额均按原币种原措辞保留；同一事件在公司官网时间线（B_CN_XSQUARE_010）与第三方媒体分别记录，不"
+          }
+        ],
+        "value_head": "截至本次查阅日：B、B+、B++、C 四轮于 2026-06 前后连续完成并全部交割，投后估值突破 200 亿元人民币；投资方含小米战投（B"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__legal_entity_name",
+        "field": "legal_entity_name",
+        "meta_field": "",
+        "value_status": "COMPANY_SELF_REPORT",
+        "fact_event_date": "2023-12",
+        "fact_publication_date": "",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_001",
+            "publication_date": "",
+            "event_date": "2023-12",
+            "relation_to_inherited": "REPLACES_WITH_DATED_SUPPORT",
+            "note_head": "工商登记全称未从政府公示系统取得，此处为主体自述；不把自述升级为独立确认。"
+          }
+        ],
+        "value_head": "自变量机器人科技（深圳）有限公司 / 自变量机器人科技有限公司（自述两种写法）"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__named_customers_or_partners",
+        "field": "named_customers_or_partners",
+        "meta_field": "",
+        "value_status": "MIXED_SEE_EVIDENCE",
+        "fact_event_date": "2026-06",
+        "fact_publication_date": "2026-06-29",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_006",
+            "publication_date": "2026-07-16",
+            "event_date": "2026-07-16",
+            "relation_to_inherited": "",
+            "note_head": "政府网站转载的报社稿件，非政府采购或验收文件；正文称「近日」上岗、正推进场景适配，因此记录为已上岗部署而非规模化运营。"
+          },
+          {
+            "evidence_id": "B_CN_XSQUARE_007",
+            "publication_date": "2026-08-13",
+            "event_date": "2026-08-12",
+            "relation_to_inherited": "",
+            "note_head": "客户名称未披露（「头部物流企业」），故 named_customers_or_partners 不填具名客户；分拣效率与"
+          },
+          {
+            "evidence_id": "B_CN_XSQUARE_008",
+            "publication_date": "2026-07-13",
+            "event_date": "",
+            "relation_to_inherited": "",
+            "note_head": "合作方具名但未取得 58 到家一侧确认；户数为公司口径。股东关系见 B_CN_XSQUARE_009，两者分开记录。"
+          },
+          {
+            "evidence_id": "B_CN_XSQUARE_009",
+            "publication_date": "2026-06-29",
+            "event_date": "2026-06",
+            "relation_to_inherited": "",
+            "note_head": "估值与轮次金额均按原币种原措辞保留；同一事件在公司官网时间线（B_CN_XSQUARE_010）与第三方媒体分别记录，不"
+          }
+        ],
+        "value_head": "深圳市社会福利服务指导中心（具名，独立渠道）；58 到家（具名，媒体记录的联合服务）；某「头部物流企业」（未具名，公司口径）；58 集团为产"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__own_listing_status",
+        "field": "own_listing_status",
+        "meta_field": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "fact_event_date": "2026-06",
+        "fact_publication_date": "2026-06-29",
+        "evidence": [
+          {
+            "evidence_id": "B_CN_XSQUARE_009",
+            "publication_date": "2026-06-29",
+            "event_date": "2026-06",
+            "relation_to_inherited": "",
+            "note_head": "估值与轮次金额均按原币种原措辞保留；同一事件在公司官网时间线（B_CN_XSQUARE_010）与第三方媒体分别记录，不"
+          }
+        ],
+        "value_head": "未上市；未检索到股改或 IPO 申报披露"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__target_markets",
+        "field": "target_markets",
+        "meta_field": "",
+        "value_status": "COMPANY_SELF_REPORT",
+        "fact_event_date": "",
+        "fact_publication_date": "2023-10",
+        "evidence": [
+          {
+            "evidence_id": "B_US_AMAZON_FTR_003",
+            "publication_date": "",
+            "event_date": "",
+            "relation_to_inherited": "CONFIRMS_AND_EXTENDS",
+            "note_head": "目标表述（scale to global operations）是方向性自述，不等于已实现部署；不写成 FAR 已服务亚"
+          },
+          {
+            "evidence_id": "B_US_AMAZON_FTR_007",
+            "publication_date": "2023-10",
+            "event_date": "",
+            "relation_to_inherited": "PARENT_CONTEXT_ONLY",
+            "note_head": "按语义规则只作母公司背景，绝不归入 FAR 自身数据；页面标题同时涉及 Digit（Agility），亦不属 FAR。"
+          }
+        ],
+        "value_head": "亚马逊自有全球运营（仓储／履约）为目标方向（官方自述方向性表述）"
+      }
+    ]
+  },
+  "B_unknown": {
+    "n_searched_not_found": 14,
+    "rows": [
+      {
+        "fact_id": "F_CN_FOURIER__evidence_repeat_order",
+        "field": "evidence_repeat_order",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__parent_relationship",
+        "field": "parent_relationship",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__evidence_production_shipment",
+        "field": "evidence_production_shipment",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__evidence_repeat_order",
+        "field": "evidence_repeat_order",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__evidence_sustained_use",
+        "field": "evidence_sustained_use",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__ma_events",
+        "field": "ma_events",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__own_listing_status",
+        "field": "own_listing_status",
+        "value": "未上市；未检索到股改或 IPO 申报披露",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__parent_relationship",
+        "field": "parent_relationship",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__deployment_status_actual",
+        "field": "deployment_status_actual",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__evidence_customer_delivery",
+        "field": "evidence_customer_delivery",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__evidence_demo",
+        "field": "evidence_demo",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__evidence_external_pilot",
+        "field": "evidence_external_pilot",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__founded_or_team_start_date",
+        "field": "founded_or_team_start_date",
+        "value": "",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__parent_listing_status",
+        "field": "parent_listing_status",
+        "value": "母公司 Amazon.com, Inc. 为纳斯达克上市公司（NASDAQ: AMZN）",
+        "value_status": "SEARCHED_NOT_FOUND",
+        "research_status": "SEARCHED_NOT_FOUND"
+      }
+    ],
+    "listing_group_rows": [
+      {
+        "company_id": "US_AMAZON_FTR",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_APPLICABLE_TEAM",
+        "basis_fact_ids": "F_US_AMAZON_FTR__own_listing_status",
+        "evidence_strength": "NOT_APPLICABLE",
+        "included_in_comparison": "YES",
+        "exclusion_reason": "",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_XSQUARE",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_LISTED",
+        "basis_fact_ids": "F_CN_XSQUARE__own_listing_status",
+        "evidence_strength": "SEARCHED_NOT_FOUND",
+        "included_in_comparison": "YES",
+        "exclusion_reason": "",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_FOURIER",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_LISTED_LISTING_PROCESS_REPORTED",
+        "basis_fact_ids": "F_CN_FOURIER__own_listing_status",
+        "evidence_strength": "MEDIA_STATEMENT",
+        "included_in_comparison": "YES",
+        "exclusion_reason": "",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_AGIBOT",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_ASTRIBOT",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_DEEPROBOTICS",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_GALAXEA",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_GALBOT",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_LIMX",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_NOETIX",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_PAXINI",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_SPIRITAI",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "CN_UNITREE",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "US_AGILITY",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "US_APPTRONIK",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "US_BOSTON_DYNAMICS",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "US_DEXTERITY",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "US_DILIGENT",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "US_FIELD_AI",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "US_FIGURE",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "US_NIMBLE",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "US_PHYSICAL_INTELLIGENCE",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "US_PICKLE",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      },
+      {
+        "company_id": "US_SKILD",
+        "dimension": "own_listing_status",
+        "group_value": "NOT_RESEARCHED",
+        "basis_fact_ids": "",
+        "evidence_strength": "",
+        "included_in_comparison": "NO",
+        "exclusion_reason": "company not researched in this run",
+        "multiple_allowed": "NO",
+        "rule_version": "stage-b-grouping-v1-2026-09-14"
+      }
+    ]
+  },
+  "C_open_questions": {
+    "n_total": 24,
+    "n_resolved": 24,
+    "n_resolved_from_unsearched": 21,
+    "unsearched_resolved_ids": [
+      "CN_AGIBOT|inherited_open_question|ENTITY_UNCLEAR|11",
+      "CN_ASTRIBOT|inherited_open_question|ENTITY_UNCLEAR|24",
+      "CN_DEEPROBOTICS|inherited_open_question|ENTITY_UNCLEAR|40",
+      "CN_GALAXEA|inherited_open_question|ENTITY_UNCLEAR|68",
+      "CN_GALBOT|inherited_open_question|ENTITY_UNCLEAR|82",
+      "CN_LIMX|inherited_open_question|ENTITY_UNCLEAR|97",
+      "CN_NOETIX|inherited_open_question|ENTITY_UNCLEAR|112",
+      "CN_PAXINI|inherited_open_question|ENTITY_UNCLEAR|126",
+      "CN_SPIRITAI|inherited_open_question|ENTITY_UNCLEAR|139",
+      "CN_UNITREE|inherited_open_question|ENTITY_UNCLEAR|154",
+      "US_AGILITY|inherited_open_question|ENTITY_UNCLEAR|177",
+      "US_APPTRONIK|inherited_open_question|ENTITY_UNCLEAR|204",
+      "US_BOSTON_DYNAMICS|inherited_open_question|ENTITY_UNCLEAR|215",
+      "US_DEXTERITY|inherited_open_question|ENTITY_UNCLEAR|230",
+      "US_DILIGENT|inherited_open_question|ENTITY_UNCLEAR|240",
+      "US_FIELD_AI|inherited_open_question|ENTITY_UNCLEAR|252",
+      "US_FIGURE|inherited_open_question|ENTITY_UNCLEAR|263",
+      "US_NIMBLE|inherited_open_question|ENTITY_UNCLEAR|274",
+      "US_PHYSICAL_INTELLIGENCE|inherited_open_question|ENTITY_UNCLEAR|285",
+      "US_PICKLE|inherited_open_question|ENTITY_UNCLEAR|296",
+      "US_SKILD|inherited_open_question|ENTITY_UNCLEAR|307"
+    ],
+    "rows": [
+      {
+        "orig_gap_id": "CN_AGIBOT|inherited_open_question|ENTITY_UNCLEAR|11",
+        "company_id": "CN_AGIBOT",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Verify paid deliveries, sustained customer operation and public job endpoint"
+      },
+      {
+        "orig_gap_id": "CN_ASTRIBOT|inherited_open_question|ENTITY_UNCLEAR|24",
+        "company_id": "CN_ASTRIBOT",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Find customer/pilot evidence and inspect dynamic careers endpoint"
+      },
+      {
+        "orig_gap_id": "CN_DEEPROBOTICS|inherited_open_question|ENTITY_UNCLEAR|40",
+        "company_id": "CN_DEEPROBOTICS",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Separate quadruped versus humanoid evidence and jobs"
+      },
+      {
+        "orig_gap_id": "CN_FOURIER|inherited_open_question|ENTITY_UNCLEAR|53",
+        "company_id": "CN_FOURIER",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Add official delivery/customer evidence and replace third-party job source if possible"
+      },
+      {
+        "orig_gap_id": "CN_GALAXEA|inherited_open_question|ENTITY_UNCLEAR|68",
+        "company_id": "CN_GALAXEA",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Corroborate customer count and resolve careers endpoint"
+      },
+      {
+        "orig_gap_id": "CN_GALBOT|inherited_open_question|ENTITY_UNCLEAR|82",
+        "company_id": "CN_GALBOT",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Careers board currently lacks jobs; deployment scale and paid-customer use remain unclear"
+      },
+      {
+        "orig_gap_id": "CN_LIMX|inherited_open_question|ENTITY_UNCLEAR|97",
+        "company_id": "CN_LIMX",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Verify customer deployments and expose public position list/IDs"
+      },
+      {
+        "orig_gap_id": "CN_NOETIX|inherited_open_question|ENTITY_UNCLEAR|112",
+        "company_id": "CN_NOETIX",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Confirm job-detail stable IDs and distinguish product support from scaled external use"
+      },
+      {
+        "orig_gap_id": "CN_PAXINI|inherited_open_question|ENTITY_UNCLEAR|126",
+        "company_id": "CN_PAXINI",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Independently verify delivery scale, customer usage and hiring board"
+      },
+      {
+        "orig_gap_id": "CN_SPIRITAI|inherited_open_question|ENTITY_UNCLEAR|139",
+        "company_id": "CN_SPIRITAI",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Verify product/customer evidence and sample Feishu stable IDs"
+      },
+      {
+        "orig_gap_id": "CN_UNITREE|inherited_open_question|ENTITY_UNCLEAR|154",
+        "company_id": "CN_UNITREE",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Verify paid-customer mix, fleet operation, production volume and closed-job retention"
+      },
+      {
+        "orig_gap_id": "CN_XSQUARE|inherited_open_question|ENTITY_UNCLEAR|167",
+        "company_id": "CN_XSQUARE",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Verify external deployments and exact Feishu field/date behavior"
+      },
+      {
+        "orig_gap_id": "US_AGILITY|inherited_open_question|ENTITY_UNCLEAR|177",
+        "company_id": "US_AGILITY",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Measure actual RoboFab output separately from announced capacity"
+      },
+      {
+        "orig_gap_id": "US_AMAZON_FTR|inherited_open_question|ENTITY_UNCLEAR|192",
+        "company_id": "US_AMAZON_FTR",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Exact team launch date and headquarters remain unknown; isolate FAR from Fulfillment Technologies and Robotics"
+      },
+      {
+        "orig_gap_id": "US_APPTRONIK|inherited_open_question|ENTITY_UNCLEAR|204",
+        "company_id": "US_APPTRONIK",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Distinguish pilots from paid recurring deployment and production output"
+      },
+      {
+        "orig_gap_id": "US_BOSTON_DYNAMICS|inherited_open_question|ENTITY_UNCLEAR|215",
+        "company_id": "US_BOSTON_DYNAMICS",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Do not transfer Spot/Stretch commercial maturity to Atlas; scheduled fleets are not completed"
+      },
+      {
+        "orig_gap_id": "US_DEXTERITY|inherited_open_question|ENTITY_UNCLEAR|230",
+        "company_id": "US_DEXTERITY",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Company-reported autonomous-action count needs customer-side corroboration"
+      },
+      {
+        "orig_gap_id": "US_DILIGENT|inherited_open_question|ENTITY_UNCLEAR|240",
+        "company_id": "US_DILIGENT",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Serve Robotics acquisition is a structural break for future firm-level series"
+      },
+      {
+        "orig_gap_id": "US_FIELD_AI|inherited_open_question|ENTITY_UNCLEAR|252",
+        "company_id": "US_FIELD_AI",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Separate partner announcements from sustained field operations"
+      },
+      {
+        "orig_gap_id": "US_FIGURE|inherited_open_question|ENTITY_UNCLEAR|263",
+        "company_id": "US_FIGURE",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Independently validate company-reported BMW utilization and future high-volume targets"
+      },
+      {
+        "orig_gap_id": "US_NIMBLE|inherited_open_question|ENTITY_UNCLEAR|274",
+        "company_id": "US_NIMBLE",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Verify fleet/site quantities and customer-side performance evidence"
+      },
+      {
+        "orig_gap_id": "US_PHYSICAL_INTELLIGENCE|inherited_open_question|ENTITY_UNCLEAR|285",
+        "company_id": "US_PHYSICAL_INTELLIGENCE",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Track downstream deployments and distinguish demos from external production use"
+      },
+      {
+        "orig_gap_id": "US_PICKLE|inherited_open_question|ENTITY_UNCLEAR|296",
+        "company_id": "US_PICKLE",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Track fulfilled orders separately from announced orders and pilots"
+      },
+      {
+        "orig_gap_id": "US_SKILD|inherited_open_question|ENTITY_UNCLEAR|307",
+        "company_id": "US_SKILD",
+        "status": "RESOLVED",
+        "open_at_end": "PARTIAL",
+        "result": "Inherited open question replaced by concrete Stage B findings",
+        "inherited_value": "Customer names, paid deployment scale and task reliability are not disclosed"
+      }
+    ]
+  },
+  "D_relations": {
+    "relation_counts": {
+      "SUPPORTS": 83
+    },
+    "n_links": 83,
+    "n_B_prefix": 83,
+    "context_evidence_marked_supports": [
+      {
+        "link_id": "L_CN_FOURIER__hiring_board_channel__B_CN_FOURIER_010",
+        "fact_id": "F_CN_FOURIER__hiring_board_channel",
+        "evidence_id": "B_CN_FOURIER_010",
+        "relation": "SUPPORTS",
+        "evidence_kind": "",
+        "access": "BODY_NOT_RETRIEVABLE"
+      },
+      {
+        "link_id": "L_US_AMAZON_FTR__target_markets__B_US_AMAZON_FTR_007",
+        "fact_id": "F_US_AMAZON_FTR__target_markets",
+        "evidence_id": "B_US_AMAZON_FTR_007",
+        "relation": "SUPPORTS",
+        "evidence_kind": "PARENT_CONTEXT_ONLY",
+        "access": "OK"
+      }
+    ]
+  },
+  "E_source_upgrade": {
+    "n_selfreport_as_external": 8,
+    "rows": [
+      {
+        "fact_id": "F_CN_XSQUARE__hiring_board_channel",
+        "field": "hiring_board_channel",
+        "evidence_ids": "B_CN_XSQUARE_004|B_CN_XSQUARE_005",
+        "decision_reason": "官网与招聘板两侧均可访问，渠道归属成立；岗位数不在本轮统计"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__research_subject",
+        "field": "research_subject",
+        "evidence_ids": "B_CN_XSQUARE_003|B_CN_XSQUARE_004",
+        "decision_reason": "官网产品与招聘入口均为公司级，无团队或子公司切分证据"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__evidence_internal_test",
+        "field": "evidence_internal_test",
+        "evidence_ids": "B_US_AMAZON_FTR_004",
+        "decision_reason": "官方岗位职责直接描述内部测试与验证活动"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__hiring_board_channel",
+        "field": "hiring_board_channel",
+        "evidence_ids": "B_US_AMAZON_FTR_001|B_US_AMAZON_FTR_004",
+        "decision_reason": "渠道可达性由官方页面直接确认"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__hq_or_team_location",
+        "field": "hq_or_team_location",
+        "evidence_ids": "B_US_AMAZON_FTR_001",
+        "decision_reason": "官方职位页字段；记团队工作地点，不写成公司总部"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__parent_relationship",
+        "field": "parent_relationship",
+        "evidence_ids": "B_US_AMAZON_FTR_002",
+        "decision_reason": "官方组织字段可核验；母公司能力不当作团队能力"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__product_lines",
+        "field": "product_lines",
+        "evidence_ids": "B_US_AMAZON_FTR_003|B_US_AMAZON_FTR_004|B_US_AMAZON_FTR_005",
+        "decision_reason": "三处官方页面口径一致；均为团队自述范围，未取得第三方确认"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__research_subject",
+        "field": "research_subject",
+        "evidence_ids": "B_US_AMAZON_FTR_002|B_US_AMAZON_FTR_003",
+        "decision_reason": "官方职位页以 FAR 团队为主体并署名 Amazon.com Services LLC；同时保留继承边界事件 B003"
+      }
+    ]
+  },
+  "F_capital": [
+    {
+      "capital_event_id": "C_CN_FOURIER__B_CN_FOURIER_008",
+      "company_id": "CN_FOURIER",
+      "event_type": "EQUITY_FINANCING",
+      "round_or_deal": "capital_events",
+      "amount_original": "",
+      "currency": "",
+      "amount_unit": "",
+      "amount_scope": "",
+      "event_date": "2025-01",
+      "publication_date": "2025-01-07",
+      "evidence_ids": "B_CN_FOURIER_008",
+      "wording_original": "傅利叶宣布完成 E 轮融资，融资总额近 8 亿元人民币，浦东创投、张江科投参与"
+    },
+    {
+      "capital_event_id": "C_CN_XSQUARE__B_CN_XSQUARE_009",
+      "company_id": "CN_XSQUARE",
+      "event_type": "EQUITY_FINANCING",
+      "round_or_deal": "latest_financing_disclosed / capital_events",
+      "amount_original": "",
+      "currency": "",
+      "amount_unit": "",
+      "amount_scope": "",
+      "event_date": "2026-06",
+      "publication_date": "2026-06-29",
+      "evidence_ids": "B_CN_XSQUARE_009",
+      "wording_original": "自变量在约两个月内连续完成 B 轮、B+ 轮、B++ 轮、C 轮并全部交割，投后估值突破 200 亿元人民币；投资方包括小米战投（B 轮领投）、国家人工智能产业投资基金、中国移动、红杉中国等"
+    },
+    {
+      "capital_event_id": "C_CN_XSQUARE__B_CN_XSQUARE_010",
+      "company_id": "CN_XSQUARE",
+      "event_type": "EQUITY_FINANCING",
+      "round_or_deal": "latest_financing_disclosed / capital_events",
+      "amount_original": "",
+      "currency": "",
+      "amount_unit": "",
+      "amount_scope": "",
+      "event_date": "",
+      "publication_date": "",
+      "evidence_ids": "B_CN_XSQUARE_010",
+      "wording_original": "公司官网时间线自述历年融资：天使轮（2023-12）、Pre-A 与 Pre-A+（2024）、Pre-A++（2025-01）、A 轮（2025-04）、近 10 亿元 A+ 轮（2025-08 节点标注为 2025-09 报道）、10 亿元 A++ 轮、B 轮由小米投资、B/B+/B++/C 四轮合计并已全部交割、估值突破 200 亿元"
+    },
+    {
+      "capital_event_id": "C_CN_XSQUARE__B_CN_XSQUARE_011",
+      "company_id": "CN_XSQUARE",
+      "event_type": "EQUITY_FINANCING",
+      "round_or_deal": "capital_events（A+轮）",
+      "amount_original": "",
+      "currency": "",
+      "amount_unit": "",
+      "amount_scope": "",
+      "event_date": "2025-09",
+      "publication_date": "2025-09",
+      "evidence_ids": "B_CN_XSQUARE_011",
+      "wording_original": "自变量完成近 10 亿元 A+ 轮融资，由阿里云领投"
+    }
+  ],
+  "G_progress": {
+    "checked_in_stage_b_distribution": {
+      "YES": 79
+    },
+    "contradiction": [
+      {
+        "fact_id": "F_CN_FOURIER__evidence_internal_test",
+        "research_status": "NOT_YET_SEARCHED",
+        "checked_in_stage_b": "YES",
+        "value_status": "NOT_YET_SEARCHED"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__evidence_production_shipment",
+        "research_status": "NOT_YET_SEARCHED",
+        "checked_in_stage_b": "YES",
+        "value_status": "NOT_YET_SEARCHED"
+      },
+      {
+        "fact_id": "F_CN_FOURIER__ma_events",
+        "research_status": "NOT_YET_SEARCHED",
+        "checked_in_stage_b": "YES",
+        "value_status": "NOT_YET_SEARCHED"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__evidence_loi_intent",
+        "research_status": "NOT_YET_SEARCHED",
+        "checked_in_stage_b": "YES",
+        "value_status": "NOT_YET_SEARCHED"
+      },
+      {
+        "fact_id": "F_CN_XSQUARE__evidence_paid",
+        "research_status": "NOT_YET_SEARCHED",
+        "checked_in_stage_b": "YES",
+        "value_status": "NOT_YET_SEARCHED"
+      },
+      {
+        "fact_id": "F_US_AMAZON_FTR__ma_events",
+        "research_status": "NOT_YET_SEARCHED",
+        "checked_in_stage_b": "YES",
+        "value_status": "NOT_YET_SEARCHED"
+      }
+    ]
+  },
+  "H_granularity": {
+    "n_company_field_with_multiple_rows": 0,
+    "detail": {}
+  }
+}

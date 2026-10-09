@@ -1,0 +1,309 @@
+{
+  "review_date": "2026-09-26",
+  "reviewer": "ijm_frontier research agent",
+  "review_type": "Visual review of all rendered reader pages, not independent human semantic validation",
+  "status": "PASS",
+  "pages_expected": 14,
+  "pages_viewed": 14,
+  "all_pages_opened_with_view_image": true,
+  "image_detail": "original",
+  "render_directory": "verification/rendered/IJM_Research_Reading_Copy",
+  "initial_artifacts_observed": {
+    "docx": "release/IJM_Research_Reading_Copy.docx",
+    "docx_sha256": "b31951034e6f5b1b8b137346795ce0d8de55a96254088e6e62e92a7000da813d",
+    "pdf": "verification/word_export_864eb3e140c24acfa9c779c8fe87deee/IJM_Research_Reading_Copy.pdf",
+    "pdf_sha256": "484a09754f317e0a0b1688923e7a8c2c21079d1d6492933984e7fcff68e27ab3",
+    "note": "Final PDF/DOCX hashes must be refreshed after the coordinator's formatting correction."
+  },
+  "issues": [
+    {
+      "id": "READER_VIS_01",
+      "page": 10,
+      "severity": "moderate",
+      "issue": "Table III header words break mid-word due to narrow category columns.",
+      "requested_action": "Narrow Minimum N/Pairs columns and allocate width to classification headers, preserving values.",
+      "status": "RESOLVED_THIRD_RENDER_VISUALLY_RECHECKED"
+    },
+    {
+      "id": "READER_VIS_02",
+      "page": 6,
+      "severity": "minor",
+      "issue": "2^7 is literal caret text rather than native superscript.",
+      "status": "RESOLVED_SECOND_RENDER_VISUALLY_RECHECKED"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "png": "page-01.png",
+      "initial_png_sha256": "e19d6a9123eec54e1db8a6b20fde4776991e2211739879f80458236a511d699f",
+      "status": "PASS",
+      "notes": "Title, abstract and introduction fit the text area; no clipping or isolated heading. Abstract uses example-admissible relations.",
+      "current_png_sha256": "e19d6a9123eec54e1db8a6b20fde4776991e2211739879f80458236a511d699f",
+      "initial_notes": "Title, abstract and introduction fit the text area; no clipping or isolated heading. Abstract uses example-admissible relations.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "e19d6a9123eec54e1db8a6b20fde4776991e2211739879f80458236a511d699f",
+      "final_png_sha256": "e19d6a9123eec54e1db8a6b20fde4776991e2211739879f80458236a511d699f"
+    },
+    {
+      "page": 2,
+      "png": "page-02.png",
+      "initial_png_sha256": "2e25a3a3faa0368dad69d852287bdb732eae540e4f5becf8a4d19ca51cdb797f",
+      "status": "PASS",
+      "notes": "Paragraph flow and inline nesting notation intact. Mason/Belt claim now specifies questionnaire response likelihood and GPA-defined engineering-student groups.",
+      "current_png_sha256": "2e25a3a3faa0368dad69d852287bdb732eae540e4f5becf8a4d19ca51cdb797f",
+      "initial_notes": "Paragraph flow and inline nesting notation intact. Mason/Belt claim now specifies questionnaire response likelihood and GPA-defined engineering-student groups.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "2e25a3a3faa0368dad69d852287bdb732eae540e4f5becf8a4d19ca51cdb797f",
+      "final_png_sha256": "2e25a3a3faa0368dad69d852287bdb732eae540e4f5becf8a4d19ca51cdb797f"
+    },
+    {
+      "page": 3,
+      "png": "page-03.png",
+      "initial_png_sha256": "0c6b9e9c9708524781d9e480a7e73d448ea59cc65db4b716101f6dc4e0ec1a57",
+      "status": "PASS",
+      "notes": "Definitions, subscripts/superscripts and GENERAL/REQUIRED versus PREFERRED distinction legible. Paragraph continues naturally onto page4.",
+      "current_png_sha256": "0c6b9e9c9708524781d9e480a7e73d448ea59cc65db4b716101f6dc4e0ec1a57",
+      "initial_notes": "Definitions, subscripts/superscripts and GENERAL/REQUIRED versus PREFERRED distinction legible. Paragraph continues naturally onto page4.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "0c6b9e9c9708524781d9e480a7e73d448ea59cc65db4b716101f6dc4e0ec1a57",
+      "final_png_sha256": "0c6b9e9c9708524781d9e480a7e73d448ea59cc65db4b716101f6dc4e0ec1a57"
+    },
+    {
+      "page": 4,
+      "png": "page-04.png",
+      "initial_png_sha256": "5bfd1915c861125b3f82473f013637a8b3dc3c6e2272105d367202252ed4b7fc",
+      "status": "PASS",
+      "notes": "All three displayed equations are complete and centered within margins; relation propagation and outer-bound caveats intact. Data heading kept with substantial text.",
+      "current_png_sha256": "5bfd1915c861125b3f82473f013637a8b3dc3c6e2272105d367202252ed4b7fc",
+      "initial_notes": "All three displayed equations are complete and centered within margins; relation propagation and outer-bound caveats intact. Data heading kept with substantial text.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "5bfd1915c861125b3f82473f013637a8b3dc3c6e2272105d367202252ed4b7fc",
+      "final_png_sha256": "5bfd1915c861125b3f82473f013637a8b3dc3c6e2272105d367202252ed4b7fc"
+    },
+    {
+      "page": 5,
+      "png": "page-05.png",
+      "initial_png_sha256": "a94f5b49988bca419b4b783f5011cda18c001f9ed42b909300c292f38ca5d193",
+      "status": "PASS",
+      "notes": "Dense methods prose fits margins with consistent spacing; no missing glyphs, overlap or isolated heading.",
+      "current_png_sha256": "a94f5b49988bca419b4b783f5011cda18c001f9ed42b909300c292f38ca5d193",
+      "initial_notes": "Dense methods prose fits margins with consistent spacing; no missing glyphs, overlap or isolated heading.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "a94f5b49988bca419b4b783f5011cda18c001f9ed42b909300c292f38ca5d193",
+      "final_png_sha256": "a94f5b49988bca419b4b783f5011cda18c001f9ed42b909300c292f38ca5d193"
+    },
+    {
+      "page": 6,
+      "png": "page-06.png",
+      "initial_png_sha256": "6380128f72bf0848e34091d72140bf89d7f47d46450f46964b3ee257c6231b31",
+      "status": "PASS",
+      "notes": "Native 2 to power7 is rendered with a legible superscript; results and Table I remain complete and within margins.",
+      "current_png_sha256": "0bb2afb94265966595403c0438562b95c7005d73e3468d58653749a484faf6dd",
+      "initial_notes": "Results and Table I start in reading order. Table rows are intact. Minor literal 2^7 notation remains at top and is queued for native superscript conversion.",
+      "final_review_basis": "second-render visual recheck; exact PNG SHA256 unchanged in third render",
+      "second_render_png_sha256": "0bb2afb94265966595403c0438562b95c7005d73e3468d58653749a484faf6dd",
+      "final_png_sha256": "0bb2afb94265966595403c0438562b95c7005d73e3468d58653749a484faf6dd"
+    },
+    {
+      "page": 7,
+      "png": "page-07.png",
+      "initial_png_sha256": "25107fa4c1496cf1520beb302bf0c21bf81476acfd76eb0a9fba1271822855ea",
+      "status": "PASS",
+      "notes": "Table I continuation repeats its header; no row clipping. Figure1 labels, legend, intervals and source note complete; section4.2 is attached to body text.",
+      "current_png_sha256": "25107fa4c1496cf1520beb302bf0c21bf81476acfd76eb0a9fba1271822855ea",
+      "initial_notes": "Table I continuation repeats its header; no row clipping. Figure1 labels, legend, intervals and source note complete; section4.2 is attached to body text.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "25107fa4c1496cf1520beb302bf0c21bf81476acfd76eb0a9fba1271822855ea",
+      "final_png_sha256": "25107fa4c1496cf1520beb302bf0c21bf81476acfd76eb0a9fba1271822855ea"
+    },
+    {
+      "page": 8,
+      "png": "page-08.png",
+      "initial_png_sha256": "8a489904557585f58906f3da6f64da8233f3448b8de8455c007baade2a9d116b",
+      "status": "PASS",
+      "notes": "Table II and notes are complete, within margins and legible. Long construct labels wrap at word boundaries. Lower whitespace is moderate and associated with next-page Figure2 placement.",
+      "current_png_sha256": "8a489904557585f58906f3da6f64da8233f3448b8de8455c007baade2a9d116b",
+      "initial_notes": "Table II and notes are complete, within margins and legible. Long construct labels wrap at word boundaries. Lower whitespace is moderate and associated with next-page Figure2 placement.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "8a489904557585f58906f3da6f64da8233f3448b8de8455c007baade2a9d116b",
+      "final_png_sha256": "8a489904557585f58906f3da6f64da8233f3448b8de8455c007baade2a9d116b"
+    },
+    {
+      "page": 9,
+      "png": "page-09.png",
+      "initial_png_sha256": "6ab72f206895609e1ae328d83f8afb3946d8494c9d16e8606f611d050f874e88",
+      "status": "PASS",
+      "notes": "Figure2 panels, axes, long labels and intervals are fully visible. Both Chinese cue characters render correctly. Source review paragraph continues onto page10 without clipping.",
+      "current_png_sha256": "6ab72f206895609e1ae328d83f8afb3946d8494c9d16e8606f611d050f874e88",
+      "initial_notes": "Figure2 panels, axes, long labels and intervals are fully visible. Both Chinese cue characters render correctly. Source review paragraph continues onto page10 without clipping.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "6ab72f206895609e1ae328d83f8afb3946d8494c9d16e8606f611d050f874e88",
+      "final_png_sha256": "6ab72f206895609e1ae328d83f8afb3946d8494c9d16e8606f611d050f874e88"
+    },
+    {
+      "page": 10,
+      "png": "page-10.png",
+      "initial_png_sha256": "367052e5cce7e50ef1379dbf91d3e504d7b2f541416c3f71d334d67b125875a2",
+      "status": "PASS",
+      "notes": "Final Table III Minimum N and classification headers wrap only at word boundaries. All cells, numeric values and table notes are legible and within margins; no clipping, overlap or isolated heading. TF shared-reading caveat remains intact.",
+      "current_png_sha256": "b948a3a602601a57aa29feca58122956b51a785f7659612f62b627b3149315fd",
+      "initial_notes": "Table III header columns force Supported and Conditional into mid-word line breaks (Supporte/d, Conditio/nal). Numeric cells are intact. Requires column-width correction; TF zero/shared-reading qualification is otherwise correctly rendered.",
+      "final_review_basis": "reopened original PNG after third render",
+      "second_render_png_sha256": "bd17a82b3751f44d5c623803fb5db6a29fa0a067ee4a2bf8ea351fddb7952b65",
+      "final_png_sha256": "b948a3a602601a57aa29feca58122956b51a785f7659612f62b627b3149315fd"
+    },
+    {
+      "page": 11,
+      "png": "page-11.png",
+      "initial_png_sha256": "744a249344420c368d363abb6c1f6e46a02a0d474f714505ae698f2e85696282",
+      "status": "PASS",
+      "notes": "Discussion and corrected Mason/Belt description read in order. No clipping or overlap; paragraph continues normally to page12.",
+      "current_png_sha256": "744a249344420c368d363abb6c1f6e46a02a0d474f714505ae698f2e85696282",
+      "initial_notes": "Discussion and corrected Mason/Belt description read in order. No clipping or overlap; paragraph continues normally to page12.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "744a249344420c368d363abb6c1f6e46a02a0d474f714505ae698f2e85696282",
+      "final_png_sha256": "744a249344420c368d363abb6c1f6e46a02a0d474f714505ae698f2e85696282"
+    },
+    {
+      "page": 12,
+      "png": "page-12.png",
+      "initial_png_sha256": "ce53f64d3805d8a10bc1dcd20b480de94e0e24871d209c8c5e57e4bdb58defe7",
+      "status": "PASS",
+      "notes": "Limits, conclusion and data/AI statement follow correctly. Headings have body text; conclusion retains clear-cue limitation.",
+      "current_png_sha256": "ce53f64d3805d8a10bc1dcd20b480de94e0e24871d209c8c5e57e4bdb58defe7",
+      "initial_notes": "Limits, conclusion and data/AI statement follow correctly. Headings have body text; conclusion retains clear-cue limitation.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "ce53f64d3805d8a10bc1dcd20b480de94e0e24871d209c8c5e57e4bdb58defe7",
+      "final_png_sha256": "ce53f64d3805d8a10bc1dcd20b480de94e0e24871d209c8c5e57e4bdb58defe7"
+    },
+    {
+      "page": 13,
+      "png": "page-13.png",
+      "initial_png_sha256": "d0acac13895251e08aff96bcdfe637ad160daa11f9591aeb069e78887225c6d3",
+      "status": "PASS",
+      "notes": "References begin after the continued venue paragraph. Hanging layout, diacritics, DOI wrapping and publication years remain readable; no clipping.",
+      "current_png_sha256": "d0acac13895251e08aff96bcdfe637ad160daa11f9591aeb069e78887225c6d3",
+      "initial_notes": "References begin after the continued venue paragraph. Hanging layout, diacritics, DOI wrapping and publication years remain readable; no clipping.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "d0acac13895251e08aff96bcdfe637ad160daa11f9591aeb069e78887225c6d3",
+      "final_png_sha256": "d0acac13895251e08aff96bcdfe637ad160daa11f9591aeb069e78887225c6d3"
+    },
+    {
+      "page": 14,
+      "png": "page-14.png",
+      "initial_png_sha256": "3fe408115c855a4ecefeaa0156352a6360a62a5eb2a93a3cd557ab423c13c0d2",
+      "status": "PASS",
+      "notes": "Last three references complete, including the OECD subtitle and Park2025. Large lower whitespace is acceptable terminal bibliography remainder, not an intervening blank page.",
+      "current_png_sha256": "3fe408115c855a4ecefeaa0156352a6360a62a5eb2a93a3cd557ab423c13c0d2",
+      "initial_notes": "Last three references complete, including the OECD subtitle and Park2025. Large lower whitespace is acceptable terminal bibliography remainder, not an intervening blank page.",
+      "final_review_basis": "initial visual inspection; exact PNG SHA256 unchanged in second and third render",
+      "second_render_png_sha256": "3fe408115c855a4ecefeaa0156352a6360a62a5eb2a93a3cd557ab423c13c0d2",
+      "final_png_sha256": "3fe408115c855a4ecefeaa0156352a6360a62a5eb2a93a3cd557ab423c13c0d2"
+    }
+  ],
+  "concept_checks": [
+    {
+      "item": "example-admissible expansion terminology",
+      "pages": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "status": "PASS"
+    },
+    {
+      "item": "Mason/Belt GPA-defined groups and stated response likelihood rather than self-perceived eligibility or observed applications",
+      "pages": [
+        2,
+        11
+      ],
+      "status": "PASS"
+    },
+    {
+      "item": "H excludes separate PREFERRED metric",
+      "pages": [
+        2,
+        3,
+        7
+      ],
+      "status": "PASS"
+    },
+    {
+      "item": "Relation-set U under Q versus P under admitted expansion; bounded recorded-unknown scope",
+      "pages": [
+        3,
+        4,
+        9,
+        10,
+        12
+      ],
+      "status": "PASS"
+    },
+    {
+      "item": "26 joint-mention confirmed zero distinct from outer bounds; exact coupled zero conditional on added shared-reading assumption",
+      "pages": [
+        10
+      ],
+      "status": "PASS"
+    },
+    {
+      "item": "OECD full subtitle and final-publication years",
+      "pages": [
+        13,
+        14
+      ],
+      "status": "PASS"
+    },
+    {
+      "item": "Supplement Table S4 to S5 cross-reference correction",
+      "status": "NOT_IN_READER_DOCUMENT_SCOPE",
+      "note": "Must be verified in supplement; not claimed visually checked here."
+    }
+  ],
+  "scope_limitations": [
+    "Numeric table values independently checked by another agent; this review checks rendering and the specified concept corrections.",
+    "No manuscript or DOCX edits were made by this reviewer.",
+    "All changed pages were reopened with view_image at original detail. Unchanged-page conclusions were carried forward only after exact PNG-SHA256 comparison."
+  ],
+  "second_render": {
+    "pdf": "verification\\word_export_9da37880dcf44b9989403d8fdee2a02f\\IJM_Research_Reading_Copy.pdf",
+    "pdf_sha256": "488af9fd78a02d1ffc7478f65f9e823c6e77f7925963ace96962a594dcad5075",
+    "docx": "release\\IJM_Research_Reading_Copy.docx",
+    "docx_sha256": "9880a5bfdd8bba5f74826caf276b6b119fbabd552f4b7c35049c341e58ddd266",
+    "changed_png_pages_from_initial": [
+      6,
+      10
+    ],
+    "changed_pages_visually_reopened": [
+      6,
+      10
+    ],
+    "unchanged_pages": 12
+  },
+  "passed": true,
+  "all_pages_pass": true,
+  "open_issues": [],
+  "final_artifacts": {
+    "docx": "release\\IJM_Research_Reading_Copy.docx",
+    "docx_sha256": "c17473a7ba5bbad0cb993ec5550cf1ede7e46ac90abee8ce6e4ad375fb035304",
+    "pdf": "verification\\word_export_3ab4f1dd50bd44eda12f8891407c605e\\IJM_Research_Reading_Copy.pdf",
+    "pdf_sha256": "d1c2ca2b7bb0dad89b516262fda35a48cf53def9848d735d6520d54376587629",
+    "pages": 14,
+    "words": 5921,
+    "source_manuscript_sha256": "47f38e5fb7efe936c634c867c7b0692126f9e496965ff517c4396305ca874f5c",
+    "source_supplement_sha256": "7615afd0474dda6fdf96238a2f496bc9d065390ec374429ceec118af27fbc4c5"
+  },
+  "final_recheck": {
+    "changed_png_pages_from_second_render": [
+      10
+    ],
+    "visually_reopened_pages": [
+      10
+    ],
+    "unchanged_pages_from_second_render": 13,
+    "all_14_pages_have_current_visual_evidence": true,
+    "layout_conclusion": "No remaining clipping, overlap, broken header words, isolated headings or inappropriate interior blank space; terminal bibliography remainder accepted."
+  }
+}

@@ -1,0 +1,817 @@
+{
+  "revision_id": "Q-M5-TARGETED-READING-20260916-02",
+  "reader": "Astra",
+  "scope": "TARGETED_ONLY_NOT_FULL_SECOND_PASS",
+  "records": [
+    {
+      "reading_id": "E0380",
+      "reason": "and other measuring tools并非or；明确本人使用卡尺、千分尺等手持量具，无任选条件，修复首轮误读。",
+      "before": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "CNC_MACHINE_PROGRAMMING_OPERATION",
+        "task_evidence": "Program and operate CNC mills, lathes, or routers according to work instructions and safety guidelines.",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_CNC_PROCESS",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_CNC_PROCESS",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "3": [
+            [
+              "V2_CNC_PROCESS",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_CNC_PROCESS",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_HAND_METROLOGY",
+              "DUTY_OWN_USE",
+              "CHOICE"
+            ]
+          ],
+          "5": [
+            [
+              "V2_CNC_PROCESS",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "6": [
+            [
+              "V2_FUSION360",
+              "GENERAL",
+              "CHOICE"
+            ],
+            [
+              "V2_MASTERCAM",
+              "GENERAL",
+              "CHOICE"
+            ]
+          ],
+          "7": [
+            [
+              "V2_CNC_PROCESS",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "8": [
+            [
+              "V2_CNC_PROCESS",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "9": [
+            [
+              "V2_HAND_METROLOGY",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "10": [
+            [
+              "V2_CNC_PROCESS",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "11": [
+            [
+              "V2_CNC_PROCESS",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "12": [
+            [
+              "V2_CNC_PROCESS",
+              "SEPARATE",
+              "BACKGROUND"
+            ]
+          ],
+          "13": "DUPLICATE:E0380:6",
+          "14": "OUTSIDE:CAM软件工作流泛称，不推出CAD或某个软件产品。",
+          "15": "DUPLICATE:E0380:9"
+        },
+        "notes": "CNC编程与机加工本人承担；calipers/micrometers/gauges全同量具类，and other measuring tools可能含非手持仪器，不把类别无条件化。视力看显示屏不等于CNC操作技能。",
+        "old_overrides": {
+          "O5": {
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧measurement tools要求误指职责；恢复资格语句。",
+            "quote": "Ability to read and use measurement tools such as calipers, micrometers, height gauges, and indicators."
+          }
+        },
+        "additions": [
+          {
+            "code": "V2_SAFETY_OPERATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Follow all safety and quality standards.",
+            "reason": "全文复核补入明确表达"
+          },
+          {
+            "code": "V2_SAFETY_OPERATION",
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "quote": "Expert knowledge of machining processes, and shop safety practices",
+            "reason": "全文复核补入明确表达"
+          },
+          {
+            "code": "V2_SOP_OPERATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "according to work instructions and safety guidelines.",
+            "reason": "全文复核补入明确表达"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6026448004|06d4717192e6b70252a1775bf582381962293e9637da01b24225fa4c23ead677",
+        "company_id": "US_APPTRONIK",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 5,
+        "reviewed_candidate_count": 15,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 1040,
+          "end": 1143,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Program and operate CNC mills, lathes, or routers according to work instructions and safety guidelines."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "06d4717192e6b70252a1775bf582381962293e9637da01b24225fa4c23ead677",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:35:03.588368+00:00"
+      },
+      "after": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "CNC_MACHINE_PROGRAMMING_OPERATION",
+        "task_evidence": "Program and operate CNC mills, lathes, or routers according to work instructions and safety guidelines.",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_CNC_PROCESS",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_CNC_PROCESS",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "3": [
+            [
+              "V2_CNC_PROCESS",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_CNC_PROCESS",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_HAND_METROLOGY",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "5": [
+            [
+              "V2_CNC_PROCESS",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "6": [
+            [
+              "V2_FUSION360",
+              "GENERAL",
+              "CHOICE"
+            ],
+            [
+              "V2_MASTERCAM",
+              "GENERAL",
+              "CHOICE"
+            ]
+          ],
+          "7": [
+            [
+              "V2_CNC_PROCESS",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "8": [
+            [
+              "V2_CNC_PROCESS",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "9": [
+            [
+              "V2_HAND_METROLOGY",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "10": [
+            [
+              "V2_CNC_PROCESS",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "11": [
+            [
+              "V2_CNC_PROCESS",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "12": [
+            [
+              "V2_CNC_PROCESS",
+              "SEPARATE",
+              "BACKGROUND"
+            ]
+          ],
+          "13": "DUPLICATE:E0380:6",
+          "14": "OUTSIDE:CAM软件工作流泛称，不推出CAD或某个软件产品。",
+          "15": "DUPLICATE:E0380:9"
+        },
+        "notes": "CNC编程与机加工本人承担；calipers/micrometers/gauges全同量具类，and other measuring tools可能含非手持仪器，不把类别无条件化。视力看显示屏不等于CNC操作技能。 定向复核：and other measuring tools并非or；明确本人使用卡尺、千分尺等手持量具，无任选条件，修复首轮误读。",
+        "old_overrides": {
+          "O5": {
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧measurement tools要求误指职责；恢复资格语句。",
+            "quote": "Ability to read and use measurement tools such as calipers, micrometers, height gauges, and indicators."
+          }
+        },
+        "additions": [
+          {
+            "code": "V2_SAFETY_OPERATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Follow all safety and quality standards.",
+            "reason": "全文复核补入明确表达"
+          },
+          {
+            "code": "V2_SAFETY_OPERATION",
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "quote": "Expert knowledge of machining processes, and shop safety practices",
+            "reason": "全文复核补入明确表达"
+          },
+          {
+            "code": "V2_SOP_OPERATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "according to work instructions and safety guidelines.",
+            "reason": "全文复核补入明确表达"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6026448004|06d4717192e6b70252a1775bf582381962293e9637da01b24225fa4c23ead677",
+        "company_id": "US_APPTRONIK",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 5,
+        "reviewed_candidate_count": 15,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 1040,
+          "end": 1143,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Program and operate CNC mills, lathes, or routers according to work instructions and safety guidelines."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "06d4717192e6b70252a1775bf582381962293e9637da01b24225fa4c23ead677",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:43:24.480807+00:00",
+        "revision_ids": [
+          "Q-M5-TARGETED-READING-20260916-02"
+        ]
+      }
+    },
+    {
+      "reading_id": "E0151",
+      "reason": "收紧HIL方法到仿真概念的上推：HIL本身不自动算TC_SIMULATION。",
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "ROBOT_TEST_SYSTEM_LEAD",
+        "task_evidence": "建立整机测试体系、DVP&R、测试计划、测试流程、数据记录规范和问题闭环机制",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_REQUIREMENTS_ENGINEERING",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_CALIBRATION",
+              "DUTY_OWN_DEVELOP",
+              "EXAMPLE"
+            ]
+          ],
+          "3": [
+            [
+              "V2_HALT_HASS",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_HIL",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_REQUIREMENTS_ENGINEERING",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_LABVIEW",
+              "PREFERRED",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_CALIBRATION",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ]
+        },
+        "notes": "整机体系建设；工具斜杠分支未知，HALT/HASS两者同属一个方法类别不把类别分支设未知。",
+        "old_overrides": {
+          "O4": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "EXAMPLE",
+            "relation": "OWN_DEVELOP",
+            "reason": "测试方案对象以等示例列举。"
+          },
+          "O5": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "EXAMPLE",
+            "relation": "OWN_DEVELOP",
+            "reason": "台架方案对象以等示例列举。"
+          },
+          "O20": {
+            "metric": "PREFERRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧优先要求误定位职责；改为加分项原句。",
+            "quote": "熟悉Python/MATLAB/LabVIEW、数据采集系统、传感器标定和可靠性分析。"
+          }
+        },
+        "additions": [
+          {
+            "code": "V2_RCA",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "推动问题从现象描述转化为数据、根因、责任人、闭环时间和验证结果。",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "V2_DAQ",
+            "metric": "PREFERRED",
+            "branch": "UNCONDITIONAL",
+            "quote": "熟悉Python/MATLAB/LabVIEW、数据采集系统、传感器标定和可靠性分析。",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "组织整机上电测试、单关节测试、子系统验证、装配准入和工程样机验收。",
+            "reason": "全文补入明确方法/要求"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7659789954071644457|5f270f049b6aee3c4122247cb87d60ad79e49b5e256435a186e306c1a11cb814",
+        "company_id": "CN_XSQUARE",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 21,
+        "reviewed_candidate_count": 4,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 2,
+          "end": 40,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "建立整机测试体系、DVP&R、测试计划、测试流程、数据记录规范和问题闭环机制"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5f270f049b6aee3c4122247cb87d60ad79e49b5e256435a186e306c1a11cb814",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:21:48.457455+00:00"
+      },
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "ROBOT_TEST_SYSTEM_LEAD",
+        "task_evidence": "建立整机测试体系、DVP&R、测试计划、测试流程、数据记录规范和问题闭环机制",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_REQUIREMENTS_ENGINEERING",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_CALIBRATION",
+              "DUTY_OWN_DEVELOP",
+              "EXAMPLE"
+            ]
+          ],
+          "3": [
+            [
+              "V2_HALT_HASS",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_HIL",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_REQUIREMENTS_ENGINEERING",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_LABVIEW",
+              "PREFERRED",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_CALIBRATION",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ]
+        },
+        "notes": "整机体系建设；工具斜杠分支未知，HALT/HASS两者同属一个方法类别不把类别分支设未知。 定向复核：收紧HIL方法到仿真概念的上推：HIL本身不自动算TC_SIMULATION。",
+        "old_overrides": {
+          "O4": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "EXAMPLE",
+            "relation": "OWN_DEVELOP",
+            "reason": "测试方案对象以等示例列举。"
+          },
+          "O5": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "EXAMPLE",
+            "relation": "OWN_DEVELOP",
+            "reason": "台架方案对象以等示例列举。"
+          },
+          "O20": {
+            "metric": "PREFERRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "旧优先要求误定位职责；改为加分项原句。",
+            "quote": "熟悉Python/MATLAB/LabVIEW、数据采集系统、传感器标定和可靠性分析。"
+          },
+          "O12": {
+            "metric": "SEPARATE",
+            "branch": "BACKGROUND",
+            "relation": "BACKGROUND",
+            "reason": "HIL单独只明示硬件在环测试；冻结TC_SIMULATION要求明示仿真器/物理仿真/环境，不能由HIL自动推出。V2_HIL一般要求正例保持。"
+          }
+        },
+        "additions": [
+          {
+            "code": "V2_RCA",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "推动问题从现象描述转化为数据、根因、责任人、闭环时间和验证结果。",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "V2_DAQ",
+            "metric": "PREFERRED",
+            "branch": "UNCONDITIONAL",
+            "quote": "熟悉Python/MATLAB/LabVIEW、数据采集系统、传感器标定和可靠性分析。",
+            "reason": "全文补入明确方法/要求"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "组织整机上电测试、单关节测试、子系统验证、装配准入和工程样机验收。",
+            "reason": "全文补入明确方法/要求"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7659789954071644457|5f270f049b6aee3c4122247cb87d60ad79e49b5e256435a186e306c1a11cb814",
+        "company_id": "CN_XSQUARE",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 21,
+        "reviewed_candidate_count": 4,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 2,
+          "end": 40,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "建立整机测试体系、DVP&R、测试计划、测试流程、数据记录规范和问题闭环机制"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5f270f049b6aee3c4122247cb87d60ad79e49b5e256435a186e306c1a11cb814",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:43:24.480807+00:00",
+        "revision_ids": [
+          "Q-M5-TARGETED-READING-20260916-02"
+        ]
+      }
+    },
+    {
+      "reading_id": "E0390",
+      "reason": "对比标点变体补核原文后，补入此前未记录的装配指引交付。",
+      "before": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "ELECTRICAL_DESIGN_AND_MANUFACTURING_SUSTAINING",
+        "task_evidence": "Provide feedback and develop processes for design for manufacturing and test (DFM, DFT) for PCBAs and wiring harnesses.",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_DFM",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_DFT",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_PROCUREMENT",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "3": [
+            [
+              "V2_EMC_SIPI",
+              "DUTY_OWN_DEVELOP",
+              "CONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_PLM",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "5": [
+            [
+              "V2_LTSPICE",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "6": "OUTSIDE:Arena未入本次目录，PLM类别已保留。",
+          "7": "DUPLICATE:E0390:5"
+        },
+        "notes": "工程更改与制造过程改进；Define and support测试as needed为条件责任，不能直接无条件化。开发调试不等于运行维护。",
+        "old_overrides": {
+          "O2": {
+            "metric": "GENERAL",
+            "branch": "CHOICE_AND_EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "including Altium or similar含示例和任选。"
+          },
+          "O6": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "CONDITIONAL",
+            "relation": "OWN_DEVELOP",
+            "reason": "测试定义责任由as needed限定。"
+          },
+          "O7": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "CONDITIONAL",
+            "relation": "OWN_DEVELOP",
+            "reason": "同句as needed条件安全测试。"
+          },
+          "O8": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "CONDITIONAL",
+            "relation": "OWN_DEVELOP",
+            "reason": "同句as needed条件测试定义；另有不受该条件限制的测试流程建设证据。"
+          }
+        },
+        "additions": [
+          {
+            "code": "V2_RCA",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Conduct root cause analysis on system failures, performance issues, and production inefficiencies to implement robust solutions.",
+            "reason": "全文复核补入明确表达"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and implement best practices for electrical assembly, testing, and quality control.",
+            "reason": "全文复核补入明确表达"
+          }
+        ],
+        "outside_extra": [
+          {
+            "quote": "PSpice",
+            "description": "仿真工具，冻结目录外。"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6131831004|dc51f5b9be0888de6723b46370b7722f7397667d0d28d89281866a5beaf8f800",
+        "company_id": "US_APPTRONIK",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 10,
+        "reviewed_candidate_count": 7,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 519,
+          "end": 638,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Provide feedback and develop processes for design for manufacturing and test (DFM, DFT) for PCBAs and wiring harnesses."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "dc51f5b9be0888de6723b46370b7722f7397667d0d28d89281866a5beaf8f800",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:35:03.588368+00:00"
+      },
+      "after": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "ELECTRICAL_DESIGN_AND_MANUFACTURING_SUSTAINING",
+        "task_evidence": "Provide feedback and develop processes for design for manufacturing and test (DFM, DFT) for PCBAs and wiring harnesses.",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_DFM",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_DFT",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_PROCUREMENT",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "3": [
+            [
+              "V2_EMC_SIPI",
+              "DUTY_OWN_DEVELOP",
+              "CONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_PLM",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "5": [
+            [
+              "V2_LTSPICE",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "6": "OUTSIDE:Arena未入本次目录，PLM类别已保留。",
+          "7": "DUPLICATE:E0390:5"
+        },
+        "notes": "工程更改与制造过程改进；Define and support测试as needed为条件责任，不能直接无条件化。开发调试不等于运行维护。 定向复核：对比标点变体补核原文后，补入此前未记录的装配指引交付。",
+        "old_overrides": {
+          "O2": {
+            "metric": "GENERAL",
+            "branch": "CHOICE_AND_EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "including Altium or similar含示例和任选。"
+          },
+          "O6": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "CONDITIONAL",
+            "relation": "OWN_DEVELOP",
+            "reason": "测试定义责任由as needed限定。"
+          },
+          "O7": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "CONDITIONAL",
+            "relation": "OWN_DEVELOP",
+            "reason": "同句as needed条件安全测试。"
+          },
+          "O8": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "CONDITIONAL",
+            "relation": "OWN_DEVELOP",
+            "reason": "同句as needed条件测试定义；另有不受该条件限制的测试流程建设证据。"
+          }
+        },
+        "additions": [
+          {
+            "code": "V2_RCA",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Conduct root cause analysis on system failures, performance issues, and production inefficiencies to implement robust solutions.",
+            "reason": "全文复核补入明确表达"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and implement best practices for electrical assembly, testing, and quality control.",
+            "reason": "全文复核补入明确表达"
+          },
+          {
+            "code": "V2_SOP_OPERATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "will be expected to develop detailed build assembly instructions and diagrams",
+            "reason": "要求段内明确未来岗位文档交付；实际编制装配指引，不只是一般沟通特质。"
+          }
+        ],
+        "outside_extra": [
+          {
+            "quote": "PSpice",
+            "description": "仿真工具，冻结目录外。"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6131831004|dc51f5b9be0888de6723b46370b7722f7397667d0d28d89281866a5beaf8f800",
+        "company_id": "US_APPTRONIK",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 10,
+        "reviewed_candidate_count": 7,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 519,
+          "end": 638,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Provide feedback and develop processes for design for manufacturing and test (DFM, DFT) for PCBAs and wiring harnesses."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "dc51f5b9be0888de6723b46370b7722f7397667d0d28d89281866a5beaf8f800",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:43:24.480807+00:00",
+        "revision_ids": [
+          "Q-M5-TARGETED-READING-20260916-02"
+        ]
+      }
+    }
+  ],
+  "before_sha256": "64e89d3100e27987f9cf7686b64d0c03c65bea8c163cecbf6589745840a5847f",
+  "after_sha256": "a12ba3edfd262ebdce0de1689d9333f0093d71b17efdd6582a0594441b69eecd"
+}

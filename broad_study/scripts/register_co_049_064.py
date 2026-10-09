@@ -1,0 +1,222 @@
+"""First-pass adjudication for corporate-support coding_order 49-64. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0576":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"EXEC_TA","secondary_task":"",
+ "task_evidence":"能独立完成高端人选初筛、深度面谈、职业诉求挖掘、薪酬总包谈判",
+ "new":{
+  "1":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_HR","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"],["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_HR","PREFERRED","UNCONDITIONAL"]],
+  "6":[["V2_HR","GENERAL","UNCONDITIONAL"]],
+  "7":[["V2_HR","PREFERRED","UNCONDITIONAL"]],
+  "8":[["V2_HR","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"高招负责人。"
+},
+"N0569":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"ROBOT_CURRICULUM","secondary_task":"",
+ "task_evidence":"该岗位负责将真实机器人产品、工程流程和项目案例，转化为可教学、可实训、可评价、可交付的课程内容",
+ "new":{
+  "1":[["V2_TELEOP","SEPARATE","BACKGROUND"]],
+  "2":O+"Python/Linux/ROS实验环境未在本职能作为广告工具项使用。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"课程内容开发。遥操为教学内容对象。"
+},
+"N0559":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"RECRUITING_COE","secondary_task":"",
+ "task_evidence":"负责公司关键岗位的招聘交付与招聘体系的系统性运营",
+ "new":{
+  "1":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "6":[["V2_HR","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "7":[["V2_HR","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "8":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "9":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "10":[["V2_HR","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "11":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "12":[["V2_HR","GENERAL","UNCONDITIONAL"]],
+  "13":[["V2_HR","PREFERRED","UNCONDITIONAL"]],
+  "14":[["V2_HR","GENERAL","UNCONDITIONAL"]],
+  "15":[["V2_HR","GENERAL","UNCONDITIONAL"]],
+  "16":[["V2_HR","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"招聘COE。"
+},
+"N0557":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"GOV_AFFAIRS","secondary_task":"",
+ "task_evidence":"持续跟踪国家、省、市、区各级政府发布的相关政策、产业规划及专项资金动态",
+ "new":{
+  "1":[["V2_SALES_CRM","SEPARATE","COLLABORATION_OBJECT"]],
+  "2":R+"PA公共事务不是DFT可测试性设计。",
+  "3":[["V2_MARKETING","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"政府事务经理。"
+},
+"N0556":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"RD_FINANCE_BP","secondary_task":"",
+ "task_evidence":"深入研发项目全生命周期，提供研发费用测算和财务评估",
+ "new":{
+  "1":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"],["V2_ACCOUNTING_CREDENTIAL","PREFERRED","CHOICE"]],
+  "3":"DUPLICATE:N0556:2",
+  "4":"DUPLICATE:N0556:2",
+  "5":"DUPLICATE:N0556:2",
+  "6":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "7":[["V2_POWERBI","GENERAL","CHOICE"],["V2_TABLEAU","GENERAL","CHOICE"]],
+  "8":"DUPLICATE:N0556:7",
+  "9":"DUPLICATE:N0556:7"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"财务BP研发。Tableau/PowerBI保留。"
+},
+"N0317":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"INTERNAL_CONTROL","secondary_task":"",
+ "task_evidence":"完善内控矩阵及流程资料",
+ "new":{
+  "1":[["V2_PROCUREMENT","SEPARATE","BACKGROUND"],["V2_SALES_CRM","SEPARATE","BACKGROUND"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"内控主管。采购销售为内控对象。"
+},
+"N0344":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"RD_PROCESS","secondary_task":"",
+ "task_evidence":"主导研发流程管理架构的规划、搭建与优化",
+ "new":{
+  "1":[["V2_PLM","PREFERRED","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0344:1",
+  "3":O+"IPD未单列冻结项。",
+  "4":O+"CMMI未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"流程管理专家。PLM保留。"
+},
+"N0258":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ADMIN_FACILITIES","fine_task":"STANDARDS_DOCS","secondary_task":"",
+ "task_evidence":"完成各研发项目全过程资料的规范化整理",
+ "new":{
+  "1":[["V2_PROCUREMENT","SEPARATE","BACKGROUND"]],
+  "2":[["V2_GIT","PREFERRED","UNCONDITIONAL"]],
+  "3":"DUPLICATE:N0258:2",
+  "4":O+"SVN未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"标准化工程师。Git版本管理保留。"
+},
+"N0357":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"INTERNAL_CONTROL","secondary_task":"",
+ "task_evidence":"围绕采购、销售、合同、资金、费用、存货、固定资产、研发项目、生产管理、信息系统权限等关键环节，梳理风险点和关键控制点",
+ "new":{
+  "1":[["V2_PROCUREMENT","SEPARATE","BACKGROUND"],["V2_SALES_CRM","SEPARATE","BACKGROUND"]],
+  "2":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_PROCUREMENT","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"内控主管。供应链审计经验记采购优先。"
+},
+"N0264":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"RECRUITING_INTERN","secondary_task":"",
+ "task_evidence":"独立完成候选人电话/线上邀约、面试时间协调、行程提醒、面试反馈同步",
+ "new":{
+  "1":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_HR","PREFERRED","UNCONDITIONAL"]],
+  "4":[["V2_HR","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_OFFICE","GENERAL","UNCONDITIONAL"]],
+  "6":"DUPLICATE:N0264:5",
+  "7":[["V2_HR","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"招聘实习。Office办公软件保留。"
+},
+"N0255":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"IR_MANAGER","secondary_task":"MARKETING",
+ "task_evidence":"统筹投资者关系全生命周期管理，搭建常态化资本市场沟通桥梁",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"投资者关系经理。"
+},
+"N0271":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ADMIN_FACILITIES","fine_task":"SHOWROOM_GUIDE","secondary_task":"MARKETING",
+ "task_evidence":"负责总部展厅及重要接待区的日常接待与讲解工作",
+ "new":{
+  "1":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"展厅讲解员。物料采购记采购。"
+},
+"N0302":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ADMIN_FACILITIES","fine_task":"TECH_VISUAL","secondary_task":"",
+ "task_evidence":"将具身智能领域技术架构和原理等复杂概念转化为清晰美观的信息图表、科普示意图及对外宣传视觉内容。",
+ "new":{
+  "1":O+"PPT/Keynote未单列冻结项。",
+  "2":O+"Origin未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"技术视觉设计师。"
+},
+"N0246":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"CORP_STRATEGY","secondary_task":"",
+ "task_evidence":"制定并持续刷新公司中长期战略规划，明确战略定位、战略路径、资源需求与风险预案。",
+ "new":{
+  "1":R+"校准战略方向不是传感器标定。",
+  "2":O+"BLM未单列冻结项。",
+  "3":O+"BSC未单列冻结项。",
+  "4":O+"OKR未单列冻结项。",
+  "5":O+"KPI未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"战略规划。战略校准拒收标定。"
+},
+"N0240":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"PUBLIC_AFFAIRS_OPS","secondary_task":"MARKETING",
+ "task_evidence":"针对展会、峰会、采访、晚宴等各类活动，明确执行流程与分工安排",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"公共事务活动执行。"
+},
+"N0251":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"STRATEGY_VP","secondary_task":"",
+ "task_evidence":"主导制定公司3~5年战略规划",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"战略VP。无新候选。"
+}
+}
+if __name__=='__main__':
+ register('RF_CORPORATE_SUPPORT', decisions, reader='grok4.6')

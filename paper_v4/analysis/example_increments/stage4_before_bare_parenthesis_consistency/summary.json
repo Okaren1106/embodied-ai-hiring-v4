@@ -1,0 +1,56 @@
+{
+  "scope": "All ROBOT_MODEL current-Q-nonpositive to Q+EXAMPLE positive transitions",
+  "n_pairs": 43,
+  "n_advertisements": 42,
+  "by_technology": {
+    "SK_PYTORCH": 42,
+    "SK_PYTHON": 1
+  },
+  "by_origin": {
+    "v3_example_clarification": 3,
+    "historical_EXAMPLE_branch": 39,
+    "v4_consistency_clarification": 1
+  },
+  "by_cue_family": {
+    "DENG_ONLY_OPEN_LIST": 25,
+    "EXPLICIT_CHINESE_RU": 5,
+    "EN_SUCH_AS": 7,
+    "EN_EG": 5,
+    "BARE_PARENTHETICAL_LIST": 1
+  },
+  "review_status": {
+    "MODEL_FULL_SOURCE_REVIEWED": 43
+  },
+  "source_evidence_occurrences_checked": 43,
+  "checks_per_evidence": 5,
+  "all_integrity_checks_pass": true,
+  "all_before_states": {
+    "Z": 43
+  },
+  "independent_human_validation": false,
+  "blind_review": false,
+  "classification_changes_made": false,
+  "full_captured_sources_saved": true,
+  "source_inputs": [
+    {
+      "path": "analysis\\paired\\qualification_scope_states.csv",
+      "sha256": "d29821f027a0e57664ad29fe0e33b24ce7c37e2dad5a885ce53d6ce68ff81c5b"
+    },
+    {
+      "path": "source_snapshot\\source_v2\\data\\inputs\\context_evidence.csv",
+      "sha256": "37a37d916bcc300eee841a3867403856ccc9cc256b0a5101bf7a538e9f58e649"
+    },
+    {
+      "path": "source_snapshot\\source_v2\\data\\inputs\\records.json",
+      "sha256": "c3bf940e3cf39fabeea2d3ae25684577f8cd6fc1e71450b9a5a60a19ab743acb"
+    },
+    {
+      "path": "source_snapshot\\data\\analysis_revision_ledger.json",
+      "sha256": "e6e43c2240465eb0d473a4b2b7cef54f492e1668823265a5a6d0471175563ad2"
+    },
+    {
+      "path": "data\\v4_source_corrections.json",
+      "sha256": "899cec45b3cbde294b212bcb8f08f62ea92fba9cf8ef546e3f67940c3a117a4e"
+    }
+  ]
+}

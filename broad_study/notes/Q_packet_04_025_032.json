@@ -1,0 +1,2220 @@
+[
+  {
+    "coding_order": 25,
+    "reading_id": "N0393",
+    "company_id": "CN_AGIBOT",
+    "title": "后端开发工程师-Golang",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7639194501029972278|b570bf0195ff8e4d14ac39528f8f6020505609ea3fe14451228b9c4bce3358c9",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n职位描述\n1. 设计、开发和维护基于 Golang 的后端服务，确保系统的高性能和可靠性；\n2. 与前端、DevOps 以及 SRE 紧密合作，完成系统集成和部署；\n3. 编写高质量的技术文档，参与代码评审和技术分享；\n4. 主导或参与技术方案调研，原型系统搭建，工具链设计和开发等工作；\n\n任职要求\n1. 本科及以上学历，计算机、通讯等相关专业，3 年以上后端开发经验；\n2. 精通Golang，熟悉其生态和常用框架；\n3. 有IOT平台经验和熟练使用AI coding的优先；\n4. 熟悉云原生技术与微服务架构，具备分布式系统设计和开发经验；\n5. 有较强的逻辑能力和学习能力，有良好的团队沟通与协作能力，能适应创业公司的多面手优先；\n6. 有AI算法工程、网络安全、隐私保护、机器人硬件相关经验者优先，技术社区活跃者、有Github开源项目者优先。",
+      "requirements": "1. 本科及以上学历，计算机、通讯等相关专业，3 年以上后端开发经验；\n2. 精通Golang，熟悉其生态和常用框架；\n3. 有IOT平台经验和熟练使用AI coding的优先；\n4. 熟悉云原生技术与微服务架构，具备分布式系统设计和开发经验；\n5. 有较强的逻辑能力和学习能力，有良好的团队沟通与协作能力，能适应创业公司的多面手优先；\n6. 有AI算法工程、网络安全、隐私保护、机器人硬件相关经验者优先，技术社区活跃者、有Github开源项目者优先。",
+      "full_description": "岗位职责\n职位描述\n1. 设计、开发和维护基于 Golang 的后端服务，确保系统的高性能和可靠性；\n2. 与前端、DevOps 以及 SRE 紧密合作，完成系统集成和部署；\n3. 编写高质量的技术文档，参与代码评审和技术分享；\n4. 主导或参与技术方案调研，原型系统搭建，工具链设计和开发等工作；\n\n任职要求\n1. 本科及以上学历，计算机、通讯等相关专业，3 年以上后端开发经验；\n2. 精通Golang，熟悉其生态和常用框架；\n3. 有IOT平台经验和熟练使用AI coding的优先；\n4. 熟悉云原生技术与微服务架构，具备分布式系统设计和开发经验；\n5. 有较强的逻辑能力和学习能力，有良好的团队沟通与协作能力，能适应创业公司的多面手优先；\n6. 有AI算法工程、网络安全、隐私保护、机器人硬件相关经验者优先，技术社区活跃者、有Github开源项目者优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 10,
+        "end": 50,
+        "quote": "1. 设计、开发和维护基于 Golang 的后端服务，确保系统的高性能和可靠性；"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 192,
+        "end": 215,
+        "quote": "2. 精通Golang，熟悉其生态和常用框架；"
+      },
+      {
+        "id": "O3",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 10,
+        "end": 50,
+        "quote": "1. 设计、开发和维护基于 Golang 的后端服务，确保系统的高性能和可靠性；"
+      },
+      {
+        "id": "O4",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 325,
+        "end": 382,
+        "quote": "6. 有AI算法工程、网络安全、隐私保护、机器人硬件相关经验者优先，技术社区活跃者、有Github开源项目者优先。"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0393:1",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "6. 有AI算法工程、网络安全、隐私保护、机器人硬件相关经验者优先，技术社区活跃者、有Github开源项目者优先。",
+        "quote": "6. 有AI算法工程、网络安全、隐私保护、机器人硬件相关经验者优先，技术社区活跃者、有Github开源项目者优先。",
+        "field": "full_description",
+        "start": 325,
+        "end": 382
+      }
+    ]
+  },
+  {
+    "coding_order": 26,
+    "reading_id": "N0390",
+    "company_id": "CN_AGIBOT",
+    "title": "开放平台后端工程师-golang",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7649953398196865331|b1bc036953720018ad8bfd436cd1589a6e475bc971fcac90bffd608511edc6af",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n1. 负责企业级开放平台与 API Gateway 相关系统的设计、开发与维护，支撑机器人云平台能力对内、对外开放。\n2. 参与开放 API 管理、开发者应用管理、密钥管理、认证鉴权、权限控制、多租户、流量治理、审计日志、可观测性等核心能力建设。\n3. 参与 API Gateway 基础能力研发，包括路由转发、协议适配、签名校验、OAuth2 / JWT 鉴权、限流、熔断、灰度发布、访问控制等。\n4. 支撑开放平台与 IAM、业务系统、运维平台、数据平台、应用商城等系统的集成，建设统一、稳定、可扩展的平台底座。\n5. 推动平台在高可用、高性能、安全性、可维护性方面的持续优化，支撑大规模业务接入与生态开放。\n6. 与产品、架构、业务研发、SRE 团队协作，持续完善开放平台能力体系、开发者接入流程和工程规范。\n\n任职要求\n1. 3-5 年后端开发经验，具备扎实的后端工程能力，熟悉 Go 语言开发优先；有其他后端语言经验并愿意转 Go 也可以。\n2. 熟悉 REST API、WebSocket、OAuth2、JWT、API Key、签名校验等常见协议与认证机制。\n3. 了解 API Gateway、开放平台、微服务治理相关体系，有网关、鉴权、限流、配置中心、多租户、权限系统等项目经验优先。\n4. 熟悉 MySQL、Redis、MQ 等常用基础组件，具备良好的数据建模、接口设计和系统排查能力。\n5. 了解 Docker、Kubernetes、CI/CD、OpenTelemetry、日志、Trace、Metrics 等云原生与可观测性体系者优先。\n6. 具备良好的问题拆解能力、工程质量意识和团队协作能力，能够独立负责模块设计、开发、联调和上线。\n\n加分项\n1. 有开放平台、开发者平台、API 网关、IAM、OAuth2 / OIDC、权限系统相关经验。\n2. 有 Kong、APISIX、Envoy、Nginx、Istio、Spring Cloud Gateway 等网关或服务治理经验。\n3. 有多租户 SaaS、企业级平台、云平台、IoT 平台、机器人平台相关经验。\n4. 有高并发接口、流量治理、稳定性治理、灰度发布、审计合规相关经验。",
+      "requirements": "1. 3-5 年后端开发经验，具备扎实的后端工程能力，熟悉 Go 语言开发优先；有其他后端语言经验并愿意转 Go 也可以。\n2. 熟悉 REST API、WebSocket、OAuth2、JWT、API Key、签名校验等常见协议与认证机制。\n3. 了解 API Gateway、开放平台、微服务治理相关体系，有网关、鉴权、限流、配置中心、多租户、权限系统等项目经验优先。\n4. 熟悉 MySQL、Redis、MQ 等常用基础组件，具备良好的数据建模、接口设计和系统排查能力。\n5. 了解 Docker、Kubernetes、CI/CD、OpenTelemetry、日志、Trace、Metrics 等云原生与可观测性体系者优先。\n6. 具备良好的问题拆解能力、工程质量意识和团队协作能力，能够独立负责模块设计、开发、联调和上线。\n\n加分项\n1. 有开放平台、开发者平台、API 网关、IAM、OAuth2 / OIDC、权限系统相关经验。\n2. 有 Kong、APISIX、Envoy、Nginx、Istio、Spring Cloud Gateway 等网关或服务治理经验。\n3. 有多租户 SaaS、企业级平台、云平台、IoT 平台、机器人平台相关经验。\n4. 有高并发接口、流量治理、稳定性治理、灰度发布、审计合规相关经验。",
+      "full_description": "岗位职责\n1. 负责企业级开放平台与 API Gateway 相关系统的设计、开发与维护，支撑机器人云平台能力对内、对外开放。\n2. 参与开放 API 管理、开发者应用管理、密钥管理、认证鉴权、权限控制、多租户、流量治理、审计日志、可观测性等核心能力建设。\n3. 参与 API Gateway 基础能力研发，包括路由转发、协议适配、签名校验、OAuth2 / JWT 鉴权、限流、熔断、灰度发布、访问控制等。\n4. 支撑开放平台与 IAM、业务系统、运维平台、数据平台、应用商城等系统的集成，建设统一、稳定、可扩展的平台底座。\n5. 推动平台在高可用、高性能、安全性、可维护性方面的持续优化，支撑大规模业务接入与生态开放。\n6. 与产品、架构、业务研发、SRE 团队协作，持续完善开放平台能力体系、开发者接入流程和工程规范。\n\n任职要求\n1. 3-5 年后端开发经验，具备扎实的后端工程能力，熟悉 Go 语言开发优先；有其他后端语言经验并愿意转 Go 也可以。\n2. 熟悉 REST API、WebSocket、OAuth2、JWT、API Key、签名校验等常见协议与认证机制。\n3. 了解 API Gateway、开放平台、微服务治理相关体系，有网关、鉴权、限流、配置中心、多租户、权限系统等项目经验优先。\n4. 熟悉 MySQL、Redis、MQ 等常用基础组件，具备良好的数据建模、接口设计和系统排查能力。\n5. 了解 Docker、Kubernetes、CI/CD、OpenTelemetry、日志、Trace、Metrics 等云原生与可观测性体系者优先。\n6. 具备良好的问题拆解能力、工程质量意识和团队协作能力，能够独立负责模块设计、开发、联调和上线。\n\n加分项\n1. 有开放平台、开发者平台、API 网关、IAM、OAuth2 / OIDC、权限系统相关经验。\n2. 有 Kong、APISIX、Envoy、Nginx、Istio、Spring Cloud Gateway 等网关或服务治理经验。\n3. 有多租户 SaaS、企业级平台、云平台、IoT 平台、机器人平台相关经验。\n4. 有高并发接口、流量治理、稳定性治理、灰度发布、审计合规相关经验。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 396,
+        "end": 408,
+        "quote": "熟悉 Go 语言开发优先"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 409,
+        "end": 429,
+        "quote": "有其他后端语言经验并愿意转 Go 也可以"
+      },
+      {
+        "id": "O3",
+        "code": "SK_DOCKER",
+        "name": "Docker",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 608,
+        "end": 684,
+        "quote": "5. 了解 Docker、Kubernetes、CI/CD、OpenTelemetry、日志、Trace、Metrics 等云原生与可观测性体系者优先。"
+      },
+      {
+        "id": "O4",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 608,
+        "end": 684,
+        "quote": "5. 了解 Docker、Kubernetes、CI/CD、OpenTelemetry、日志、Trace、Metrics 等云原生与可观测性体系者优先。"
+      },
+      {
+        "id": "O5",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 64,
+        "end": 128,
+        "quote": "2. 参与开放 API 管理、开发者应用管理、密钥管理、认证鉴权、权限控制、多租户、流量治理、审计日志、可观测性等核心能力建设。"
+      },
+      {
+        "id": "O6",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 264,
+        "end": 311,
+        "quote": "5. 推动平台在高可用、高性能、安全性、可维护性方面的持续优化，支撑大规模业务接入与生态开放。"
+      },
+      {
+        "id": "O7",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 431,
+        "end": 490,
+        "quote": "2. 熟悉 REST API、WebSocket、OAuth2、JWT、API Key、签名校验等常见协议与认证机制。"
+      },
+      {
+        "id": "O8",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 740,
+        "end": 789,
+        "quote": "1. 有开放平台、开发者平台、API 网关、IAM、OAuth2 / OIDC、权限系统相关经验。"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 899,
+        "end": 934,
+        "quote": "4. 有高并发接口、流量治理、稳定性治理、灰度发布、审计合规相关经验。"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0390:1",
+        "codes": [],
+        "names": [],
+        "surface": "OAuth2",
+        "quote": "3. 参与 API Gateway 基础能力研发，包括路由转发、协议适配、签名校验、OAuth2 / JWT 鉴权、限流、熔断、灰度发布、访问控制等。",
+        "field": "full_description",
+        "start": 129,
+        "end": 204
+      },
+      {
+        "id": "2",
+        "review_id": "N0390:2",
+        "codes": [],
+        "names": [],
+        "surface": "JWT",
+        "quote": "3. 参与 API Gateway 基础能力研发，包括路由转发、协议适配、签名校验、OAuth2 / JWT 鉴权、限流、熔断、灰度发布、访问控制等。",
+        "field": "full_description",
+        "start": 129,
+        "end": 204
+      },
+      {
+        "id": "3",
+        "review_id": "N0390:3",
+        "codes": [],
+        "names": [],
+        "surface": "IAM",
+        "quote": "4. 支撑开放平台与 IAM、业务系统、运维平台、数据平台、应用商城等系统的集成，建设统一、稳定、可扩展的平台底座。",
+        "field": "full_description",
+        "start": 205,
+        "end": 263
+      },
+      {
+        "id": "4",
+        "review_id": "N0390:4",
+        "codes": [],
+        "names": [],
+        "surface": "REST API",
+        "quote": "2. 熟悉 REST API、WebSocket、OAuth2、JWT、API Key、签名校验等常见协议与认证机制。",
+        "field": "full_description",
+        "start": 431,
+        "end": 490
+      },
+      {
+        "id": "5",
+        "review_id": "N0390:5",
+        "codes": [],
+        "names": [],
+        "surface": "WebSocket",
+        "quote": "2. 熟悉 REST API、WebSocket、OAuth2、JWT、API Key、签名校验等常见协议与认证机制。",
+        "field": "full_description",
+        "start": 431,
+        "end": 490
+      },
+      {
+        "id": "6",
+        "review_id": "N0390:6",
+        "codes": [],
+        "names": [],
+        "surface": "OAuth2",
+        "quote": "2. 熟悉 REST API、WebSocket、OAuth2、JWT、API Key、签名校验等常见协议与认证机制。",
+        "field": "full_description",
+        "start": 431,
+        "end": 490
+      },
+      {
+        "id": "7",
+        "review_id": "N0390:7",
+        "codes": [],
+        "names": [],
+        "surface": "JWT",
+        "quote": "2. 熟悉 REST API、WebSocket、OAuth2、JWT、API Key、签名校验等常见协议与认证机制。",
+        "field": "full_description",
+        "start": 431,
+        "end": 490
+      },
+      {
+        "id": "8",
+        "review_id": "N0390:8",
+        "codes": [],
+        "names": [],
+        "surface": "API Key",
+        "quote": "2. 熟悉 REST API、WebSocket、OAuth2、JWT、API Key、签名校验等常见协议与认证机制。",
+        "field": "full_description",
+        "start": 431,
+        "end": 490
+      },
+      {
+        "id": "9",
+        "review_id": "N0390:9",
+        "codes": [
+          "V2_SQL_MYSQL",
+          "V2_REDIS"
+        ],
+        "names": [
+          "MySQL",
+          "Redis"
+        ],
+        "surface": "4. 熟悉 MySQL、Redis、MQ 等常用基础组件，具备良好的数据建模、接口设计和系统排查能力。",
+        "quote": "4. 熟悉 MySQL、Redis、MQ 等常用基础组件，具备良好的数据建模、接口设计和系统排查能力。",
+        "field": "full_description",
+        "start": 556,
+        "end": 607
+      },
+      {
+        "id": "10",
+        "review_id": "N0390:10",
+        "codes": [
+          "V2_SQL_MYSQL"
+        ],
+        "names": [
+          "MySQL"
+        ],
+        "surface": "MySQL",
+        "quote": "MySQL",
+        "field": "full_description",
+        "start": 562,
+        "end": 567
+      },
+      {
+        "id": "11",
+        "review_id": "N0390:11",
+        "codes": [
+          "V2_REDIS"
+        ],
+        "names": [
+          "Redis"
+        ],
+        "surface": "Redis",
+        "quote": "Redis",
+        "field": "full_description",
+        "start": 568,
+        "end": 573
+      },
+      {
+        "id": "12",
+        "review_id": "N0390:12",
+        "codes": [],
+        "names": [],
+        "surface": "MQ",
+        "quote": "MQ",
+        "field": "full_description",
+        "start": 574,
+        "end": 576
+      },
+      {
+        "id": "13",
+        "review_id": "N0390:13",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "5. 了解 Docker、Kubernetes、CI/CD、OpenTelemetry、日志、Trace、Metrics 等云原生与可观测性体系者优先。",
+        "quote": "5. 了解 Docker、Kubernetes、CI/CD、OpenTelemetry、日志、Trace、Metrics 等云原生与可观测性体系者优先。",
+        "field": "full_description",
+        "start": 608,
+        "end": 684
+      },
+      {
+        "id": "14",
+        "review_id": "N0390:14",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "CI/CD",
+        "quote": "5. 了解 Docker、Kubernetes、CI/CD、OpenTelemetry、日志、Trace、Metrics 等云原生与可观测性体系者优先。",
+        "field": "full_description",
+        "start": 608,
+        "end": 684
+      },
+      {
+        "id": "15",
+        "review_id": "N0390:15",
+        "codes": [],
+        "names": [],
+        "surface": "OpenTelemetry",
+        "quote": "5. 了解 Docker、Kubernetes、CI/CD、OpenTelemetry、日志、Trace、Metrics 等云原生与可观测性体系者优先。",
+        "field": "full_description",
+        "start": 608,
+        "end": 684
+      },
+      {
+        "id": "16",
+        "review_id": "N0390:16",
+        "codes": [],
+        "names": [],
+        "surface": "IAM",
+        "quote": "1. 有开放平台、开发者平台、API 网关、IAM、OAuth2 / OIDC、权限系统相关经验。",
+        "field": "full_description",
+        "start": 740,
+        "end": 789
+      },
+      {
+        "id": "17",
+        "review_id": "N0390:17",
+        "codes": [],
+        "names": [],
+        "surface": "OAuth2",
+        "quote": "1. 有开放平台、开发者平台、API 网关、IAM、OAuth2 / OIDC、权限系统相关经验。",
+        "field": "full_description",
+        "start": 740,
+        "end": 789
+      },
+      {
+        "id": "18",
+        "review_id": "N0390:18",
+        "codes": [],
+        "names": [],
+        "surface": "OIDC",
+        "quote": "1. 有开放平台、开发者平台、API 网关、IAM、OAuth2 / OIDC、权限系统相关经验。",
+        "field": "full_description",
+        "start": 740,
+        "end": 789
+      },
+      {
+        "id": "19",
+        "review_id": "N0390:19",
+        "codes": [],
+        "names": [],
+        "surface": "Kong",
+        "quote": "Kong",
+        "field": "full_description",
+        "start": 795,
+        "end": 799
+      },
+      {
+        "id": "20",
+        "review_id": "N0390:20",
+        "codes": [],
+        "names": [],
+        "surface": "APISIX",
+        "quote": "APISIX",
+        "field": "full_description",
+        "start": 800,
+        "end": 806
+      },
+      {
+        "id": "21",
+        "review_id": "N0390:21",
+        "codes": [],
+        "names": [],
+        "surface": "Envoy",
+        "quote": "Envoy",
+        "field": "full_description",
+        "start": 807,
+        "end": 812
+      },
+      {
+        "id": "22",
+        "review_id": "N0390:22",
+        "codes": [],
+        "names": [],
+        "surface": "Nginx",
+        "quote": "Nginx",
+        "field": "full_description",
+        "start": 813,
+        "end": 818
+      },
+      {
+        "id": "23",
+        "review_id": "N0390:23",
+        "codes": [],
+        "names": [],
+        "surface": "Istio",
+        "quote": "Istio",
+        "field": "full_description",
+        "start": 819,
+        "end": 824
+      },
+      {
+        "id": "24",
+        "review_id": "N0390:24",
+        "codes": [],
+        "names": [],
+        "surface": "Spring Cloud Gateway",
+        "quote": "Spring Cloud Gateway",
+        "field": "full_description",
+        "start": 825,
+        "end": 845
+      }
+    ]
+  },
+  {
+    "coding_order": 27,
+    "reading_id": "N0504",
+    "company_id": "CN_DEEPROBOTICS",
+    "title": "软件开发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|7faa54d6-4ca7-49a7-b117-81cfc98b0ae0|818843206f7eb79b34f77868ba1ffb28748128347206ed5aa6957cdc62b54ebe",
+    "already_coded": false,
+    "fields": {
+      "duties": "【岗位职责】\n\n1. 负责足式机器人软件系统的设计与实现，覆盖运动控制、传感器融合、自主决策与人机交互。\n\n2. 编写产品级代码，撰写技术文档，根据反馈持续优化。\n\n3. 研究并集成外设模块，如SOC、雷达、摄像头和传感器，提升机器人功能性价比。\n\n4. 集成控制算法，与算法工程师共同设计开发感知与运动控制系统，提升机器人鲁棒性。\n\n5. 确保项目高质量按时交付，确保软件开发符合行业标准和安全规定。\n\n6. 完成上级安排的其他技术相关任务。\n\n【任职要求】\n\n1. 有计算机相关教育背景，有机器人相关比赛经验。\n\n2. 有C++开发经验，深入理解实时操作系统。\n\n3. 精通设计模式、数据结构与算法，能独立完成高复杂度系统的模块设计与实现。\n\n4. 熟练掌握Linux环境下的软件开发，包括标准库、cmake、Shell脚本，具备IPC和网络编程技能。\n\n5. 熟悉瑞芯微/全志/STM32开发，熟悉CAN/SPI/UART/RS485等常用通讯方式。\n\n6. 具有良好的代码风格，能独立高标准的完成系统的设计及开发，具有git相关使用经验。\n\n优先考虑：\n\n1. 具有Python/ROS/DDS开发经验者优先，具有USB/MIPI/蓝牙开发经验者优先。\n\n2. 自我驱动力强，结果导向，能够在快节奏环境中承受工作压力。\n\n3. 具有较强的疑难问题定位分析解决能力，有系统性能优化、解决复杂疑难问题经验者优先。",
+      "requirements": "",
+      "full_description": "【岗位职责】\n\n1. 负责足式机器人软件系统的设计与实现，覆盖运动控制、传感器融合、自主决策与人机交互。\n\n2. 编写产品级代码，撰写技术文档，根据反馈持续优化。\n\n3. 研究并集成外设模块，如SOC、雷达、摄像头和传感器，提升机器人功能性价比。\n\n4. 集成控制算法，与算法工程师共同设计开发感知与运动控制系统，提升机器人鲁棒性。\n\n5. 确保项目高质量按时交付，确保软件开发符合行业标准和安全规定。\n\n6. 完成上级安排的其他技术相关任务。\n\n【任职要求】\n\n1. 有计算机相关教育背景，有机器人相关比赛经验。\n\n2. 有C++开发经验，深入理解实时操作系统。\n\n3. 精通设计模式、数据结构与算法，能独立完成高复杂度系统的模块设计与实现。\n\n4. 熟练掌握Linux环境下的软件开发，包括标准库、cmake、Shell脚本，具备IPC和网络编程技能。\n\n5. 熟悉瑞芯微/全志/STM32开发，熟悉CAN/SPI/UART/RS485等常用通讯方式。\n\n6. 具有良好的代码风格，能独立高标准的完成系统的设计及开发，具有git相关使用经验。\n\n优先考虑：\n\n1. 具有Python/ROS/DDS开发经验者优先，具有USB/MIPI/蓝牙开发经验者优先。\n\n2. 自我驱动力强，结果导向，能够在快节奏环境中承受工作压力。\n\n3. 具有较强的疑难问题定位分析解决能力，有系统性能优化、解决复杂疑难问题经验者优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 259,
+        "end": 282,
+        "quote": "2. 有C++开发经验，深入理解实时操作系统。"
+      },
+      {
+        "id": "O2",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 331,
+        "end": 336,
+        "quote": "Linux"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 487,
+        "end": 493,
+        "quote": "Python"
+      },
+      {
+        "id": "O4",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 494,
+        "end": 497,
+        "quote": "ROS"
+      },
+      {
+        "id": "O5",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 125,
+        "end": 166,
+        "quote": "4. 集成控制算法，与算法工程师共同设计开发感知与运动控制系统，提升机器人鲁棒性。"
+      },
+      {
+        "id": "O6",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 125,
+        "end": 166,
+        "quote": "4. 集成控制算法，与算法工程师共同设计开发感知与运动控制系统，提升机器人鲁棒性。"
+      },
+      {
+        "id": "O7",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 125,
+        "end": 166,
+        "quote": "4. 集成控制算法，与算法工程师共同设计开发感知与运动控制系统，提升机器人鲁棒性。"
+      },
+      {
+        "id": "O8",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 168,
+        "end": 201,
+        "quote": "5. 确保项目高质量按时交付，确保软件开发符合行业标准和安全规定。"
+      },
+      {
+        "id": "O9",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 259,
+        "end": 282,
+        "quote": "2. 有C++开发经验，深入理解实时操作系统。"
+      },
+      {
+        "id": "O10",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 385,
+        "end": 388,
+        "quote": "瑞芯微"
+      },
+      {
+        "id": "O11",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 389,
+        "end": 391,
+        "quote": "全志"
+      },
+      {
+        "id": "O12",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 392,
+        "end": 397,
+        "quote": "STM32"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0504:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "2. 有C++开发经验，深入理解实时操作系统。",
+        "quote": "2. 有C++开发经验，深入理解实时操作系统。",
+        "field": "full_description",
+        "start": 259,
+        "end": 282
+      },
+      {
+        "id": "2",
+        "review_id": "N0504:2",
+        "codes": [
+          "V2_SHELL",
+          "V2_CMAKE"
+        ],
+        "names": [
+          "Shell脚本",
+          "CMake"
+        ],
+        "surface": "4. 熟练掌握Linux环境下的软件开发，包括标准库、cmake、Shell脚本，具备IPC和网络编程技能。",
+        "quote": "4. 熟练掌握Linux环境下的软件开发，包括标准库、cmake、Shell脚本，具备IPC和网络编程技能。",
+        "field": "full_description",
+        "start": 324,
+        "end": 378
+      },
+      {
+        "id": "3",
+        "review_id": "N0504:3",
+        "codes": [
+          "V2_CMAKE"
+        ],
+        "names": [
+          "CMake"
+        ],
+        "surface": "cmake",
+        "quote": "cmake",
+        "field": "full_description",
+        "start": 351,
+        "end": 356
+      },
+      {
+        "id": "4",
+        "review_id": "N0504:4",
+        "codes": [
+          "V2_SHELL"
+        ],
+        "names": [
+          "Shell脚本"
+        ],
+        "surface": "Shell",
+        "quote": "Shell脚本",
+        "field": "full_description",
+        "start": 357,
+        "end": 364
+      },
+      {
+        "id": "5",
+        "review_id": "N0504:5",
+        "codes": [],
+        "names": [],
+        "surface": "IPC",
+        "quote": "IPC",
+        "field": "full_description",
+        "start": 367,
+        "end": 370
+      },
+      {
+        "id": "6",
+        "review_id": "N0504:6",
+        "codes": [
+          "V2_CAN",
+          "V2_RS485",
+          "V2_SPI",
+          "V2_UART"
+        ],
+        "names": [
+          "CAN协议族",
+          "RS-485串口",
+          "SPI",
+          "UART"
+        ],
+        "surface": "5. 熟悉瑞芯微/全志/STM32开发，熟悉CAN/SPI/UART/RS485等常用通讯方式。",
+        "quote": "5. 熟悉瑞芯微/全志/STM32开发，熟悉CAN/SPI/UART/RS485等常用通讯方式。",
+        "field": "full_description",
+        "start": 380,
+        "end": 428
+      },
+      {
+        "id": "7",
+        "review_id": "N0504:7",
+        "codes": [],
+        "names": [],
+        "surface": "瑞芯微",
+        "quote": "瑞芯微",
+        "field": "full_description",
+        "start": 385,
+        "end": 388
+      },
+      {
+        "id": "8",
+        "review_id": "N0504:8",
+        "codes": [],
+        "names": [],
+        "surface": "全志",
+        "quote": "全志",
+        "field": "full_description",
+        "start": 389,
+        "end": 391
+      },
+      {
+        "id": "9",
+        "review_id": "N0504:9",
+        "codes": [],
+        "names": [],
+        "surface": "STM32",
+        "quote": "STM32",
+        "field": "full_description",
+        "start": 392,
+        "end": 397
+      },
+      {
+        "id": "10",
+        "review_id": "N0504:10",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "CAN",
+        "quote": "CAN",
+        "field": "full_description",
+        "start": 402,
+        "end": 405
+      },
+      {
+        "id": "11",
+        "review_id": "N0504:11",
+        "codes": [
+          "V2_SPI"
+        ],
+        "names": [
+          "SPI"
+        ],
+        "surface": "SPI",
+        "quote": "SPI",
+        "field": "full_description",
+        "start": 406,
+        "end": 409
+      },
+      {
+        "id": "12",
+        "review_id": "N0504:12",
+        "codes": [
+          "V2_UART"
+        ],
+        "names": [
+          "UART"
+        ],
+        "surface": "UART",
+        "quote": "UART",
+        "field": "full_description",
+        "start": 410,
+        "end": 414
+      },
+      {
+        "id": "13",
+        "review_id": "N0504:13",
+        "codes": [
+          "V2_RS485"
+        ],
+        "names": [
+          "RS-485串口"
+        ],
+        "surface": "RS485",
+        "quote": "RS485",
+        "field": "full_description",
+        "start": 415,
+        "end": 420
+      },
+      {
+        "id": "14",
+        "review_id": "N0504:14",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "6. 具有良好的代码风格，能独立高标准的完成系统的设计及开发，具有git相关使用经验。",
+        "quote": "6. 具有良好的代码风格，能独立高标准的完成系统的设计及开发，具有git相关使用经验。",
+        "field": "full_description",
+        "start": 430,
+        "end": 473
+      },
+      {
+        "id": "15",
+        "review_id": "N0504:15",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "git",
+        "quote": "6. 具有良好的代码风格，能独立高标准的完成系统的设计及开发，具有git相关使用经验。",
+        "field": "full_description",
+        "start": 430,
+        "end": 473
+      },
+      {
+        "id": "16",
+        "review_id": "N0504:16",
+        "codes": [
+          "V2_DDS",
+          "V2_USB"
+        ],
+        "names": [
+          "DDS",
+          "USB"
+        ],
+        "surface": "1. 具有Python/ROS/DDS开发经验者优先，具有USB/MIPI/蓝牙开发经验者优先。",
+        "quote": "1. 具有Python/ROS/DDS开发经验者优先，具有USB/MIPI/蓝牙开发经验者优先。",
+        "field": "full_description",
+        "start": 482,
+        "end": 530
+      },
+      {
+        "id": "17",
+        "review_id": "N0504:17",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "DDS",
+        "quote": "DDS",
+        "field": "full_description",
+        "start": 498,
+        "end": 501
+      },
+      {
+        "id": "18",
+        "review_id": "N0504:18",
+        "codes": [
+          "V2_USB"
+        ],
+        "names": [
+          "USB"
+        ],
+        "surface": "USB",
+        "quote": "USB",
+        "field": "full_description",
+        "start": 511,
+        "end": 514
+      },
+      {
+        "id": "19",
+        "review_id": "N0504:19",
+        "codes": [],
+        "names": [],
+        "surface": "MIPI",
+        "quote": "MIPI",
+        "field": "full_description",
+        "start": 515,
+        "end": 519
+      },
+      {
+        "id": "20",
+        "review_id": "N0504:20",
+        "codes": [],
+        "names": [],
+        "surface": "蓝牙",
+        "quote": "蓝牙",
+        "field": "full_description",
+        "start": 520,
+        "end": 522
+      }
+    ]
+  },
+  {
+    "coding_order": 28,
+    "reading_id": "N0511",
+    "company_id": "CN_DEEPROBOTICS",
+    "title": "算法工程师（智能体）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|ea517120-23f7-42f0-b212-02534e7b3f88|05bf2211f42e1d3e835f8e0bcdaadb274cdf68585599944863e2f76b49fcc2dd",
+    "already_coded": false,
+    "fields": {
+      "duties": "我们正在寻找机器人智能体算法工程师，负责大模型智能体、任务规划、技能调度和异常处理相关算法与系统研发，推动智能体能力在真实作业场景中的落地。\n\n岗位职责\n\n1. 参与机器人智能体系统研发，构建任务规划、技能调度、记忆管理和异常处理等核心能力。\n\n2. 基于大模型能力实现工具调用、任务拆解、技能编排和多轮任务推理，提升复杂任务执行效果。\n\n3. 建设智能体记忆系统、知识库和任务执行框架，增强系统在动态场景下的适应能力。\n\n4. 设计任务调度、状态管理和异常恢复机制，提升机器人任务执行的稳定性和鲁棒性。\n\n5. 建立智能体能力评测体系，持续优化交互逻辑、执行效率和任务成功率。\n\n6. 与机器人算法、软件和产品团队协作，推动标准化技能库与应用能力落地。\n\n任职要求\n\n1. 硕士及以上学历，计算机、人工智能、机器人、自动化等相关专业。\n\n2. 熟悉 LLM Agent 核心技术，包括 Function Calling、Tool Use、RAG、任务规划、工作流编排等。\n\n3. 具备扎实的 Python 开发能力，熟悉多进程、异步任务、服务化架构等工程实践。\n\n4. 熟悉行为树、状态机、任务规划、调度系统中的至少一种技术路线。\n\n5. 了解机器人系统基本逻辑，熟悉 ROS2 或机器人软硬件交互者优先。\n\n6. 具备较强的落地意识，能够结合真实任务场景优化系统鲁棒性和执行效率。\n\n加分项\n\n1. 有机器人智能体、自动驾驶智能体、工业智能体或复杂任务编排系统落地经验。\n\n2. 熟悉多模态大模型、具身智能、机器人技能库或任务规划系统。\n\n3. 具备 C++ 开发能力或高性能系统优化经验。\n\n有 Agent 框架、RAG 系统、工作流引擎、工具调用平台相关项目经验。",
+      "requirements": "",
+      "full_description": "我们正在寻找机器人智能体算法工程师，负责大模型智能体、任务规划、技能调度和异常处理相关算法与系统研发，推动智能体能力在真实作业场景中的落地。\n\n岗位职责\n\n1. 参与机器人智能体系统研发，构建任务规划、技能调度、记忆管理和异常处理等核心能力。\n\n2. 基于大模型能力实现工具调用、任务拆解、技能编排和多轮任务推理，提升复杂任务执行效果。\n\n3. 建设智能体记忆系统、知识库和任务执行框架，增强系统在动态场景下的适应能力。\n\n4. 设计任务调度、状态管理和异常恢复机制，提升机器人任务执行的稳定性和鲁棒性。\n\n5. 建立智能体能力评测体系，持续优化交互逻辑、执行效率和任务成功率。\n\n6. 与机器人算法、软件和产品团队协作，推动标准化技能库与应用能力落地。\n\n任职要求\n\n1. 硕士及以上学历，计算机、人工智能、机器人、自动化等相关专业。\n\n2. 熟悉 LLM Agent 核心技术，包括 Function Calling、Tool Use、RAG、任务规划、工作流编排等。\n\n3. 具备扎实的 Python 开发能力，熟悉多进程、异步任务、服务化架构等工程实践。\n\n4. 熟悉行为树、状态机、任务规划、调度系统中的至少一种技术路线。\n\n5. 了解机器人系统基本逻辑，熟悉 ROS2 或机器人软硬件交互者优先。\n\n6. 具备较强的落地意识，能够结合真实任务场景优化系统鲁棒性和执行效率。\n\n加分项\n\n1. 有机器人智能体、自动驾驶智能体、工业智能体或复杂任务编排系统落地经验。\n\n2. 熟悉多模态大模型、具身智能、机器人技能库或任务规划系统。\n\n3. 具备 C++ 开发能力或高性能系统优化经验。\n\n有 Agent 框架、RAG 系统、工作流引擎、工具调用平台相关项目经验。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 438,
+        "end": 481,
+        "quote": "3. 具备扎实的 Python 开发能力，熟悉多进程、异步任务、服务化架构等工程实践。"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 536,
+        "end": 540,
+        "quote": "ROS2"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 678,
+        "end": 686,
+        "quote": "C++ 开发能力"
+      },
+      {
+        "id": "O4",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 123,
+        "end": 168,
+        "quote": "2. 基于大模型能力实现工具调用、任务拆解、技能编排和多轮任务推理，提升复杂任务执行效果。"
+      },
+      {
+        "id": "O5",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 212,
+        "end": 252,
+        "quote": "4. 设计任务调度、状态管理和异常恢复机制，提升机器人任务执行的稳定性和鲁棒性。"
+      },
+      {
+        "id": "O6",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 254,
+        "end": 289,
+        "quote": "5. 建立智能体能力评测体系，持续优化交互逻辑、执行效率和任务成功率。"
+      },
+      {
+        "id": "O7",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 376,
+        "end": 385,
+        "quote": "LLM Agent"
+      },
+      {
+        "id": "O8",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 644,
+        "end": 650,
+        "quote": "多模态大模型"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0511:1",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "2. 熟悉 LLM Agent 核心技术，包括 Function Calling、Tool Use、RAG、任务规划、工作流编排等。",
+        "quote": "2. 熟悉 LLM Agent 核心技术，包括 Function Calling、Tool Use、RAG、任务规划、工作流编排等。",
+        "field": "full_description",
+        "start": 370,
+        "end": 436
+      },
+      {
+        "id": "2",
+        "review_id": "N0511:2",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "Function Calling",
+        "quote": "Function Calling",
+        "field": "full_description",
+        "start": 394,
+        "end": 410
+      },
+      {
+        "id": "3",
+        "review_id": "N0511:3",
+        "codes": [],
+        "names": [],
+        "surface": "Tool Use",
+        "quote": "Tool Use",
+        "field": "full_description",
+        "start": 411,
+        "end": 419
+      },
+      {
+        "id": "4",
+        "review_id": "N0511:4",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "RAG",
+        "quote": "RAG",
+        "field": "full_description",
+        "start": 420,
+        "end": 423
+      },
+      {
+        "id": "5",
+        "review_id": "N0511:5",
+        "codes": [],
+        "names": [],
+        "surface": "行为树",
+        "quote": "行为树",
+        "field": "full_description",
+        "start": 488,
+        "end": 491
+      },
+      {
+        "id": "6",
+        "review_id": "N0511:6",
+        "codes": [],
+        "names": [],
+        "surface": "状态机",
+        "quote": "状态机",
+        "field": "full_description",
+        "start": 492,
+        "end": 495
+      },
+      {
+        "id": "7",
+        "review_id": "N0511:7",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "3. 具备 C++ 开发能力或高性能系统优化经验。",
+        "quote": "3. 具备 C++ 开发能力或高性能系统优化经验。",
+        "field": "full_description",
+        "start": 672,
+        "end": 697
+      },
+      {
+        "id": "8",
+        "review_id": "N0511:8",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "有 Agent 框架、RAG 系统、工作流引擎、工具调用平台相关项目经验。",
+        "quote": "有 Agent 框架、RAG 系统、工作流引擎、工具调用平台相关项目经验。",
+        "field": "full_description",
+        "start": 699,
+        "end": 736
+      },
+      {
+        "id": "9",
+        "review_id": "N0511:9",
+        "codes": [],
+        "names": [],
+        "surface": "Agent 框架",
+        "quote": "Agent 框架",
+        "field": "full_description",
+        "start": 701,
+        "end": 709
+      },
+      {
+        "id": "10",
+        "review_id": "N0511:10",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "RAG",
+        "quote": "RAG 系统",
+        "field": "full_description",
+        "start": 710,
+        "end": 716
+      }
+    ]
+  },
+  {
+    "coding_order": 29,
+    "reading_id": "N0452",
+    "company_id": "CN_FOURIER",
+    "title": "Agent实习生",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|7e5caa9a-08ca-48c1-b6b3-235feec8b678|cd600ed756353975c07ad099efcd5d1429f45422362fbbac63a230694ff35c7d",
+    "already_coded": false,
+    "fields": {
+      "duties": "工作职责\n\n1、参与 AI Agent 应用的开发和优化，包括任务规划、工具调用、记忆管理、工作流编排等\n\n2. 基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力\n\n3. 参与 RAG、知识库、Prompt、Function Calling 等模块的开发\n\n4. 建设 Agent 的测试与评估体系，分析失败案例并持续优化效果\n\n5. 跟进大模型与 Agent 领域的新技术，快速完成原型验证\n\n6. 与产品和业务团队协作，将原型落地为可使用的功能\n\n\n\n\n\n\n\n任职要求\n\n1、计算机、软件工程、人工智能或相关专业在校生\n\n2. 熟悉 c++ ，具备良好的编码习惯和基础工程能力\n\n3. 了解大语言模型、Prompt Engineering、RAG 或 AI Agent 的基本原理\n\n4. 熟悉 HTTP、REST API、Git 等常用开发工具\n\n5. 具备独立分析问题、查阅文档和快速学习的能力\n\n6. 对 AI 产品有热情，愿意主动尝试并持续迭代\n\n7. 每周可实习 4 天及以上，连续实习 3 个月及以上",
+      "requirements": "",
+      "full_description": "工作职责\n\n1、参与 AI Agent 应用的开发和优化，包括任务规划、工具调用、记忆管理、工作流编排等\n\n2. 基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力\n\n3. 参与 RAG、知识库、Prompt、Function Calling 等模块的开发\n\n4. 建设 Agent 的测试与评估体系，分析失败案例并持续优化效果\n\n5. 跟进大模型与 Agent 领域的新技术，快速完成原型验证\n\n6. 与产品和业务团队协作，将原型落地为可使用的功能\n\n\n\n\n\n\n\n任职要求\n\n1、计算机、软件工程、人工智能或相关专业在校生\n\n2. 熟悉 c++ ，具备良好的编码习惯和基础工程能力\n\n3. 了解大语言模型、Prompt Engineering、RAG 或 AI Agent 的基本原理\n\n4. 熟悉 HTTP、REST API、Git 等常用开发工具\n\n5. 具备独立分析问题、查阅文档和快速学习的能力\n\n6. 对 AI 产品有热情，愿意主动尝试并持续迭代\n\n7. 每周可实习 4 天及以上，连续实习 3 个月及以上"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 284,
+        "end": 290,
+        "quote": "熟悉 c++"
+      },
+      {
+        "id": "O2",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 57,
+        "end": 99,
+        "quote": "基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力"
+      },
+      {
+        "id": "O3",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 150,
+        "end": 181,
+        "quote": "建设 Agent 的测试与评估体系，分析失败案例并持续优化效果"
+      },
+      {
+        "id": "O4",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 315,
+        "end": 320,
+        "quote": "大语言模型"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0452:1",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "1、参与 AI Agent 应用的开发和优化，包括任务规划、工具调用、记忆管理、工作流编排等",
+        "quote": "1、参与 AI Agent 应用的开发和优化，包括任务规划、工具调用、记忆管理、工作流编排等",
+        "field": "full_description",
+        "start": 6,
+        "end": 52
+      },
+      {
+        "id": "2",
+        "review_id": "N0452:2",
+        "codes": [],
+        "names": [],
+        "surface": "OpenAI",
+        "quote": "基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力",
+        "field": "full_description",
+        "start": 57,
+        "end": 99
+      },
+      {
+        "id": "3",
+        "review_id": "N0452:3",
+        "codes": [],
+        "names": [],
+        "surface": "Claude",
+        "quote": "基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力",
+        "field": "full_description",
+        "start": 57,
+        "end": 99
+      },
+      {
+        "id": "4",
+        "review_id": "N0452:4",
+        "codes": [],
+        "names": [],
+        "surface": "Gemini",
+        "quote": "基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力",
+        "field": "full_description",
+        "start": 57,
+        "end": 99
+      },
+      {
+        "id": "5",
+        "review_id": "N0452:5",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "3. 参与 RAG、知识库、Prompt、Function Calling 等模块的开发",
+        "quote": "3. 参与 RAG、知识库、Prompt、Function Calling 等模块的开发",
+        "field": "full_description",
+        "start": 101,
+        "end": 145
+      },
+      {
+        "id": "6",
+        "review_id": "N0452:6",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "2. 熟悉 c++ ，具备良好的编码习惯和基础工程能力",
+        "quote": "2. 熟悉 c++ ，具备良好的编码习惯和基础工程能力",
+        "field": "full_description",
+        "start": 281,
+        "end": 308
+      },
+      {
+        "id": "7",
+        "review_id": "N0452:7",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "3. 了解大语言模型、Prompt Engineering、RAG 或 AI Agent 的基本原理",
+        "quote": "3. 了解大语言模型、Prompt Engineering、RAG 或 AI Agent 的基本原理",
+        "field": "full_description",
+        "start": 310,
+        "end": 360
+      },
+      {
+        "id": "8",
+        "review_id": "N0452:8",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "4. 熟悉 HTTP、REST API、Git 等常用开发工具",
+        "quote": "4. 熟悉 HTTP、REST API、Git 等常用开发工具",
+        "field": "full_description",
+        "start": 362,
+        "end": 393
+      },
+      {
+        "id": "9",
+        "review_id": "N0452:9",
+        "codes": [],
+        "names": [],
+        "surface": "HTTP",
+        "quote": "熟悉 HTTP、REST API、Git 等常用开发工具",
+        "field": "full_description",
+        "start": 365,
+        "end": 393
+      },
+      {
+        "id": "10",
+        "review_id": "N0452:10",
+        "codes": [],
+        "names": [],
+        "surface": "REST API",
+        "quote": "熟悉 HTTP、REST API、Git 等常用开发工具",
+        "field": "full_description",
+        "start": 365,
+        "end": 393
+      },
+      {
+        "id": "11",
+        "review_id": "N0452:11",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "Git",
+        "quote": "熟悉 HTTP、REST API、Git 等常用开发工具",
+        "field": "full_description",
+        "start": 365,
+        "end": 393
+      }
+    ]
+  },
+  {
+    "coding_order": 30,
+    "reading_id": "N0483",
+    "company_id": "CN_FOURIER",
+    "title": "操作系统研发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|96a6ad05-a6da-44a0-9e6b-b3c4ace8e8d1|bda6d212bb6f2f29f979df8f816ea11d1d004cb0786540184a03f746836cecc3",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n架构与中间件设计：负责具身智能机器人软件架构设计，主导基于 ROS 2 / DDS 的通信中间件开发与优化，构建模块化、可扩展的系统框架。\n系统集成与抽象：设计并开发核心功能模块接口（控制、感知、决策），实现软硬件解耦与标准化数据流，支持算法团队高效迭代。\n性能优化与实时性：针对分布式系统的通信延迟、带宽瓶颈及实时性需求（软实时/硬实时）进行深度优化，保障控制回路的稳定性。\n基础设施构建：开发通用机器人平台工具链、仿真测试框架及诊断系统，提升研发团队的工程效率。\n\n任职要求：\n\n计算机科学、软件工程等相关专业本科及以上学历\n扎实的C++编程能力，熟悉Linux系统编程及性能调优；\n掌握ROS 1/2架构原理，具备基于DDS的分布式通信系统开发经验，理解QoS策略及实时通信机制；\n熟悉机器人软件栈分层设计，掌握实时系统、多线程/并发编程、零拷贝技术等；\n具备软件架构设计能力，熟悉设计模式、模块化开发及接口抽象，有复杂系统从0到1搭建经验。\n\n加分项：\n\n具备中大型机器人项目（人形机器人、无人车、工业自动化等）核心架构设计与中间件开发经验；\n深入理解DDS标准、Iceoryx等共享内存中间件，或具备ROS 2 RMW层定制开发经验；\n有实时操作系统集成开发，或微服务架构、容器化部署在机器人系统的落地经验；",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n架构与中间件设计：负责具身智能机器人软件架构设计，主导基于 ROS 2 / DDS 的通信中间件开发与优化，构建模块化、可扩展的系统框架。\n系统集成与抽象：设计并开发核心功能模块接口（控制、感知、决策），实现软硬件解耦与标准化数据流，支持算法团队高效迭代。\n性能优化与实时性：针对分布式系统的通信延迟、带宽瓶颈及实时性需求（软实时/硬实时）进行深度优化，保障控制回路的稳定性。\n基础设施构建：开发通用机器人平台工具链、仿真测试框架及诊断系统，提升研发团队的工程效率。\n\n任职要求：\n\n计算机科学、软件工程等相关专业本科及以上学历\n扎实的C++编程能力，熟悉Linux系统编程及性能调优；\n掌握ROS 1/2架构原理，具备基于DDS的分布式通信系统开发经验，理解QoS策略及实时通信机制；\n熟悉机器人软件栈分层设计，掌握实时系统、多线程/并发编程、零拷贝技术等；\n具备软件架构设计能力，熟悉设计模式、模块化开发及接口抽象，有复杂系统从0到1搭建经验。\n\n加分项：\n\n具备中大型机器人项目（人形机器人、无人车、工业自动化等）核心架构设计与中间件开发经验；\n深入理解DDS标准、Iceoryx等共享内存中间件，或具备ROS 2 RMW层定制开发经验；\n有实时操作系统集成开发，或微服务架构、容器化部署在机器人系统的落地经验；"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 32,
+        "end": 60,
+        "quote": "主导基于 ROS 2 / DDS 的通信中间件开发与优化"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 272,
+        "end": 282,
+        "quote": "扎实的C++编程能力"
+      },
+      {
+        "id": "O3",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 283,
+        "end": 299,
+        "quote": "熟悉Linux系统编程及性能调优"
+      },
+      {
+        "id": "O4",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 303,
+        "end": 308,
+        "quote": "ROS 1"
+      },
+      {
+        "id": "O5",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 309,
+        "end": 310,
+        "quote": "2"
+      },
+      {
+        "id": "O6",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 510,
+        "end": 528,
+        "quote": "具备ROS 2 RMW层定制开发经验"
+      },
+      {
+        "id": "O7",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 85,
+        "end": 108,
+        "quote": "设计并开发核心功能模块接口（控制、感知、决策）"
+      },
+      {
+        "id": "O8",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 85,
+        "end": 108,
+        "quote": "设计并开发核心功能模块接口（控制、感知、决策）"
+      },
+      {
+        "id": "O9",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 145,
+        "end": 183,
+        "quote": "针对分布式系统的通信延迟、带宽瓶颈及实时性需求（软实时/硬实时）进行深度优化"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 203,
+        "end": 240,
+        "quote": "开发通用机器人平台工具链、仿真测试框架及诊断系统，提升研发团队的工程效率。"
+      },
+      {
+        "id": "O11",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 203,
+        "end": 240,
+        "quote": "开发通用机器人平台工具链、仿真测试框架及诊断系统，提升研发团队的工程效率。"
+      },
+      {
+        "id": "O12",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 343,
+        "end": 349,
+        "quote": "实时通信机制"
+      },
+      {
+        "id": "O13",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 366,
+        "end": 370,
+        "quote": "实时系统"
+      },
+      {
+        "id": "O14",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 531,
+        "end": 541,
+        "quote": "实时操作系统集成开发"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0483:1",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "架构与中间件设计：负责具身智能机器人软件架构设计，主导基于 ROS 2 / DDS 的通信中间件开发与优化，构建模块化、可扩展的系统框架。",
+        "quote": "架构与中间件设计：负责具身智能机器人软件架构设计，主导基于 ROS 2 / DDS 的通信中间件开发与优化，构建模块化、可扩展的系统框架。",
+        "field": "full_description",
+        "start": 7,
+        "end": 76
+      },
+      {
+        "id": "2",
+        "review_id": "N0483:2",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "DDS",
+        "quote": "主导基于 ROS 2 / DDS 的通信中间件开发与优化",
+        "field": "full_description",
+        "start": 32,
+        "end": 60
+      },
+      {
+        "id": "3",
+        "review_id": "N0483:3",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "扎实的C++编程能力，熟悉Linux系统编程及性能调优；",
+        "quote": "扎实的C++编程能力，熟悉Linux系统编程及性能调优；",
+        "field": "full_description",
+        "start": 272,
+        "end": 300
+      },
+      {
+        "id": "4",
+        "review_id": "N0483:4",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "掌握ROS 1/2架构原理，具备基于DDS的分布式通信系统开发经验，理解QoS策略及实时通信机制；",
+        "quote": "掌握ROS 1/2架构原理，具备基于DDS的分布式通信系统开发经验，理解QoS策略及实时通信机制；",
+        "field": "full_description",
+        "start": 301,
+        "end": 350
+      },
+      {
+        "id": "5",
+        "review_id": "N0483:5",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "DDS",
+        "quote": "具备基于DDS的分布式通信系统开发经验",
+        "field": "full_description",
+        "start": 315,
+        "end": 334
+      },
+      {
+        "id": "6",
+        "review_id": "N0483:6",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "深入理解DDS标准、Iceoryx等共享内存中间件，或具备ROS 2 RMW层定制开发经验；",
+        "quote": "深入理解DDS标准、Iceoryx等共享内存中间件，或具备ROS 2 RMW层定制开发经验；",
+        "field": "full_description",
+        "start": 483,
+        "end": 529
+      },
+      {
+        "id": "7",
+        "review_id": "N0483:7",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "DDS",
+        "quote": "深入理解DDS标准、Iceoryx等共享内存中间件",
+        "field": "full_description",
+        "start": 483,
+        "end": 508
+      },
+      {
+        "id": "8",
+        "review_id": "N0483:8",
+        "codes": [],
+        "names": [],
+        "surface": "Iceoryx",
+        "quote": "深入理解DDS标准、Iceoryx等共享内存中间件",
+        "field": "full_description",
+        "start": 483,
+        "end": 508
+      }
+    ]
+  },
+  {
+    "coding_order": 31,
+    "reading_id": "N0461",
+    "company_id": "CN_FOURIER",
+    "title": "【2027届校招】Agent开发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|9d39c847-2a96-4895-bab1-edc47655d2e6|f3b61ceb77137c6f72bda32d78d2d7a979905c5cda1c0cfb8ee75b9f29bae597",
+    "already_coded": false,
+    "fields": {
+      "duties": "工作职责\n\n1. 参与 AI Agent 应用的开发和优化，包括任务规划、工具调用、记忆管理、工作流编排等；\n\n2. 基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力；\n\n3. 参与 RAG、知识库、Prompt、Function Calling 等模块的开发；\n\n4. 建设 Agent 的测试与评估体系，分析失败案例并持续优化效果；\n\n5. 跟进大模型与 Agent 领域的新技术，快速完成原型验证；\n\n6. 与产品和业务团队协作，将原型落地为可使用的功能。\n\n\n\n\n\n\n\n任职要求\n\n1.2027届毕业生，计算机、软件工程、人工智能或相关专业；\n\n2. 熟悉 c++ ，具备良好的编码习惯和基础工程能力；\n\n3. 了解大语言模型、Prompt Engineering、RAG 或 AI Agent 的基本原理；\n\n4. 熟悉 HTTP、REST API、Git 等常用开发工具；\n\n5. 具备独立分析问题、查阅文档和快速学习的能力；\n\n6. 对 AI 产品有热情，愿意主动尝试并持续迭代。",
+      "requirements": "",
+      "full_description": "工作职责\n\n1. 参与 AI Agent 应用的开发和优化，包括任务规划、工具调用、记忆管理、工作流编排等；\n\n2. 基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力；\n\n3. 参与 RAG、知识库、Prompt、Function Calling 等模块的开发；\n\n4. 建设 Agent 的测试与评估体系，分析失败案例并持续优化效果；\n\n5. 跟进大模型与 Agent 领域的新技术，快速完成原型验证；\n\n6. 与产品和业务团队协作，将原型落地为可使用的功能。\n\n\n\n\n\n\n\n任职要求\n\n1.2027届毕业生，计算机、软件工程、人工智能或相关专业；\n\n2. 熟悉 c++ ，具备良好的编码习惯和基础工程能力；\n\n3. 了解大语言模型、Prompt Engineering、RAG 或 AI Agent 的基本原理；\n\n4. 熟悉 HTTP、REST API、Git 等常用开发工具；\n\n5. 具备独立分析问题、查阅文档和快速学习的能力；\n\n6. 对 AI 产品有热情，愿意主动尝试并持续迭代。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 298,
+        "end": 304,
+        "quote": "熟悉 c++"
+      },
+      {
+        "id": "O2",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 59,
+        "end": 102,
+        "quote": "基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力；"
+      },
+      {
+        "id": "O3",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 154,
+        "end": 186,
+        "quote": "建设 Agent 的测试与评估体系，分析失败案例并持续优化效果；"
+      },
+      {
+        "id": "O4",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 330,
+        "end": 335,
+        "quote": "大语言模型"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0461:1",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "1. 参与 AI Agent 应用的开发和优化，包括任务规划、工具调用、记忆管理、工作流编排等；",
+        "quote": "1. 参与 AI Agent 应用的开发和优化，包括任务规划、工具调用、记忆管理、工作流编排等；",
+        "field": "full_description",
+        "start": 6,
+        "end": 54
+      },
+      {
+        "id": "2",
+        "review_id": "N0461:2",
+        "codes": [],
+        "names": [],
+        "surface": "OpenAI",
+        "quote": "基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力；",
+        "field": "full_description",
+        "start": 59,
+        "end": 102
+      },
+      {
+        "id": "3",
+        "review_id": "N0461:3",
+        "codes": [],
+        "names": [],
+        "surface": "Claude",
+        "quote": "基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力；",
+        "field": "full_description",
+        "start": 59,
+        "end": 102
+      },
+      {
+        "id": "4",
+        "review_id": "N0461:4",
+        "codes": [],
+        "names": [],
+        "surface": "Gemini",
+        "quote": "基于 OpenAI、Claude、Gemini 或国产大模型 API 搭建智能体能力；",
+        "field": "full_description",
+        "start": 59,
+        "end": 102
+      },
+      {
+        "id": "5",
+        "review_id": "N0461:5",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "3. 参与 RAG、知识库、Prompt、Function Calling 等模块的开发；",
+        "quote": "3. 参与 RAG、知识库、Prompt、Function Calling 等模块的开发；",
+        "field": "full_description",
+        "start": 104,
+        "end": 149
+      },
+      {
+        "id": "6",
+        "review_id": "N0461:6",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "2. 熟悉 c++ ，具备良好的编码习惯和基础工程能力；",
+        "quote": "2. 熟悉 c++ ，具备良好的编码习惯和基础工程能力；",
+        "field": "full_description",
+        "start": 295,
+        "end": 323
+      },
+      {
+        "id": "7",
+        "review_id": "N0461:7",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "3. 了解大语言模型、Prompt Engineering、RAG 或 AI Agent 的基本原理；",
+        "quote": "3. 了解大语言模型、Prompt Engineering、RAG 或 AI Agent 的基本原理；",
+        "field": "full_description",
+        "start": 325,
+        "end": 376
+      },
+      {
+        "id": "8",
+        "review_id": "N0461:8",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "4. 熟悉 HTTP、REST API、Git 等常用开发工具；",
+        "quote": "4. 熟悉 HTTP、REST API、Git 等常用开发工具；",
+        "field": "full_description",
+        "start": 378,
+        "end": 410
+      },
+      {
+        "id": "9",
+        "review_id": "N0461:9",
+        "codes": [],
+        "names": [],
+        "surface": "HTTP",
+        "quote": "熟悉 HTTP、REST API、Git 等常用开发工具；",
+        "field": "full_description",
+        "start": 381,
+        "end": 410
+      },
+      {
+        "id": "10",
+        "review_id": "N0461:10",
+        "codes": [],
+        "names": [],
+        "surface": "REST API",
+        "quote": "熟悉 HTTP、REST API、Git 等常用开发工具；",
+        "field": "full_description",
+        "start": 381,
+        "end": 410
+      },
+      {
+        "id": "11",
+        "review_id": "N0461:11",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "Git",
+        "quote": "熟悉 HTTP、REST API、Git 等常用开发工具；",
+        "field": "full_description",
+        "start": 381,
+        "end": 410
+      }
+    ]
+  },
+  {
+    "coding_order": 32,
+    "reading_id": "N0473",
+    "company_id": "CN_FOURIER",
+    "title": "集成开发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|a14e172f-7b0d-4b6b-ad8f-eb6d7c510f23|cb3dfa7c81bd5158d1def728abc39075d5e5871ba55ef9e55b8171b1d020ef42",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n\n1. 负责机器人端应用功能开发、维护及持续迭代，保障机器人软件稳定运行。\n\n2. 负责机器人各功能模块的集成与联调，包括运动控制、感知、导航、语音、交互等模块。\n\n3. 基于 ROS/ROS2 完成机器人节点、Topic、Service、Action 等接口开发及模块间通信对接。\n\n4. 负责机器人与云端/平台端的接口对接，实现设备状态、任务、日志、配置等数据交互。\n\n5. 负责机器人端软件的部署、配置、升级及现场问题排查，协助完成机器人项目交付。\n\n6. 与算法、运控、硬件及平台团队协作，定位并解决系统集成过程中的通信、性能及稳定性问题。\n\n7. 编写和维护接口文档、部署文档、调试手册等技术资料。\n\n\n\n\n任职要求\n\n1. 本科及以上学历，计算机、自动化、机器人、电子信息等相关专业。\n\n2. 具备 2 年以上 Linux 环境下的软件开发经验，有机器人相关项目经验优先。\n\n3. 熟悉 C++ 或 Python，具备良好的工程开发和问题排查能力。\n\n4. 熟悉 ROS/ROS2 基本开发，了解 Topic、Service、Action、TF 等常用机制。\n\n5. 熟悉 TCP/UDP、HTTP、WebSocket、DDS 等一种或多种通信方式。\n\n6. 熟悉 Git、CMake、Shell 等常用开发工具，能够独立完成程序编译、部署和调试。\n\n7. 具备较强的问题分析和解决能力，能够配合完成机器人现场集成、调试及交付。",
+      "requirements": "",
+      "full_description": "岗位职责\n\n1. 负责机器人端应用功能开发、维护及持续迭代，保障机器人软件稳定运行。\n\n2. 负责机器人各功能模块的集成与联调，包括运动控制、感知、导航、语音、交互等模块。\n\n3. 基于 ROS/ROS2 完成机器人节点、Topic、Service、Action 等接口开发及模块间通信对接。\n\n4. 负责机器人与云端/平台端的接口对接，实现设备状态、任务、日志、配置等数据交互。\n\n5. 负责机器人端软件的部署、配置、升级及现场问题排查，协助完成机器人项目交付。\n\n6. 与算法、运控、硬件及平台团队协作，定位并解决系统集成过程中的通信、性能及稳定性问题。\n\n7. 编写和维护接口文档、部署文档、调试手册等技术资料。\n\n\n\n\n任职要求\n\n1. 本科及以上学历，计算机、自动化、机器人、电子信息等相关专业。\n\n2. 具备 2 年以上 Linux 环境下的软件开发经验，有机器人相关项目经验优先。\n\n3. 熟悉 C++ 或 Python，具备良好的工程开发和问题排查能力。\n\n4. 熟悉 ROS/ROS2 基本开发，了解 Topic、Service、Action、TF 等常用机制。\n\n5. 熟悉 TCP/UDP、HTTP、WebSocket、DDS 等一种或多种通信方式。\n\n6. 熟悉 Git、CMake、Shell 等常用开发工具，能够独立完成程序编译、部署和调试。\n\n7. 具备较强的问题分析和解决能力，能够配合完成机器人现场集成、调试及交付。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 91,
+        "end": 146,
+        "quote": "基于 ROS/ROS2 完成机器人节点、Topic、Service、Action 等接口开发及模块间通信对接。"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 91,
+        "end": 146,
+        "quote": "基于 ROS/ROS2 完成机器人节点、Topic、Service、Action 等接口开发及模块间通信对接。"
+      },
+      {
+        "id": "O3",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 358,
+        "end": 383,
+        "quote": "具备 2 年以上 Linux 环境下的软件开发经验"
+      },
+      {
+        "id": "O4",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 405,
+        "end": 408,
+        "quote": "C++"
+      },
+      {
+        "id": "O5",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 411,
+        "end": 417,
+        "quote": "Python"
+      },
+      {
+        "id": "O6",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 443,
+        "end": 446,
+        "quote": "ROS"
+      },
+      {
+        "id": "O7",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 447,
+        "end": 451,
+        "quote": "ROS2"
+      },
+      {
+        "id": "O8",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 47,
+        "end": 86,
+        "quote": "负责机器人各功能模块的集成与联调，包括运动控制、感知、导航、语音、交互等模块。"
+      },
+      {
+        "id": "O9",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 47,
+        "end": 86,
+        "quote": "负责机器人各功能模块的集成与联调，包括运动控制、感知、导航、语音、交互等模块。"
+      },
+      {
+        "id": "O10",
+        "code": "TC_NAVIGATION",
+        "name": "导航",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 47,
+        "end": 86,
+        "quote": "负责机器人各功能模块的集成与联调，包括运动控制、感知、导航、语音、交互等模块。"
+      },
+      {
+        "id": "O11",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 30,
+        "end": 42,
+        "quote": "保障机器人软件稳定运行。"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0473:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "3. 熟悉 C++ 或 Python，具备良好的工程开发和问题排查能力。",
+        "quote": "3. 熟悉 C++ 或 Python，具备良好的工程开发和问题排查能力。",
+        "field": "full_description",
+        "start": 399,
+        "end": 435
+      },
+      {
+        "id": "2",
+        "review_id": "N0473:2",
+        "codes": [
+          "V2_DDS",
+          "V2_TCPIP"
+        ],
+        "names": [
+          "DDS",
+          "TCP/IP"
+        ],
+        "surface": "5. 熟悉 TCP/UDP、HTTP、WebSocket、DDS 等一种或多种通信方式。",
+        "quote": "5. 熟悉 TCP/UDP、HTTP、WebSocket、DDS 等一种或多种通信方式。",
+        "field": "full_description",
+        "start": 492,
+        "end": 536
+      },
+      {
+        "id": "3",
+        "review_id": "N0473:3",
+        "codes": [
+          "V2_TCPIP"
+        ],
+        "names": [
+          "TCP/IP"
+        ],
+        "surface": "TCP",
+        "quote": "熟悉 TCP/UDP、HTTP、WebSocket、DDS 等一种或多种通信方式。",
+        "field": "full_description",
+        "start": 495,
+        "end": 536
+      },
+      {
+        "id": "4",
+        "review_id": "N0473:4",
+        "codes": [
+          "V2_TCPIP"
+        ],
+        "names": [
+          "TCP/IP"
+        ],
+        "surface": "UDP",
+        "quote": "熟悉 TCP/UDP、HTTP、WebSocket、DDS 等一种或多种通信方式。",
+        "field": "full_description",
+        "start": 495,
+        "end": 536
+      },
+      {
+        "id": "5",
+        "review_id": "N0473:5",
+        "codes": [],
+        "names": [],
+        "surface": "HTTP",
+        "quote": "熟悉 TCP/UDP、HTTP、WebSocket、DDS 等一种或多种通信方式。",
+        "field": "full_description",
+        "start": 495,
+        "end": 536
+      },
+      {
+        "id": "6",
+        "review_id": "N0473:6",
+        "codes": [],
+        "names": [],
+        "surface": "WebSocket",
+        "quote": "熟悉 TCP/UDP、HTTP、WebSocket、DDS 等一种或多种通信方式。",
+        "field": "full_description",
+        "start": 495,
+        "end": 536
+      },
+      {
+        "id": "7",
+        "review_id": "N0473:7",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "DDS",
+        "quote": "熟悉 TCP/UDP、HTTP、WebSocket、DDS 等一种或多种通信方式。",
+        "field": "full_description",
+        "start": 495,
+        "end": 536
+      },
+      {
+        "id": "8",
+        "review_id": "N0473:8",
+        "codes": [
+          "V2_GIT",
+          "V2_SHELL",
+          "V2_CMAKE"
+        ],
+        "names": [
+          "Git",
+          "Shell脚本",
+          "CMake"
+        ],
+        "surface": "6. 熟悉 Git、CMake、Shell 等常用开发工具，能够独立完成程序编译、部署和调试。",
+        "quote": "6. 熟悉 Git、CMake、Shell 等常用开发工具，能够独立完成程序编译、部署和调试。",
+        "field": "full_description",
+        "start": 538,
+        "end": 585
+      },
+      {
+        "id": "9",
+        "review_id": "N0473:9",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "Git",
+        "quote": "熟悉 Git、CMake、Shell 等常用开发工具，能够独立完成程序编译、部署和调试。",
+        "field": "full_description",
+        "start": 541,
+        "end": 585
+      },
+      {
+        "id": "10",
+        "review_id": "N0473:10",
+        "codes": [
+          "V2_CMAKE"
+        ],
+        "names": [
+          "CMake"
+        ],
+        "surface": "CMake",
+        "quote": "熟悉 Git、CMake、Shell 等常用开发工具，能够独立完成程序编译、部署和调试。",
+        "field": "full_description",
+        "start": 541,
+        "end": 585
+      },
+      {
+        "id": "11",
+        "review_id": "N0473:11",
+        "codes": [
+          "V2_SHELL"
+        ],
+        "names": [
+          "Shell脚本"
+        ],
+        "surface": "Shell",
+        "quote": "熟悉 Git、CMake、Shell 等常用开发工具，能够独立完成程序编译、部署和调试。",
+        "field": "full_description",
+        "start": 541,
+        "end": 585
+      }
+    ]
+  }
+]

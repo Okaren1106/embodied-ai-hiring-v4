@@ -1,0 +1,51 @@
+==== 1 E0443 TITLE Staff Test Engineer - Actuation
+O23 TC_ACTUATOR | REQUIRED | UNCONDITIONAL | motor
+O25 TC_EMBEDDED | REQUIRED | UNCONDITIONAL | firmware
+DUTY We are seeking a Staff Test Engineer – Actuation to own the design validation and NPI test process for Apptronik's custom actuator systems. This is a hands-on, multi-disciplinary role spanning mechanical, electrical, firmware, and software testing — requiring someone who can independently drive actuator characterization and validation from initial bringup through design verification, and build the
+REQ Required Qualifications Direct hands-on experience testing and characterizing actuators, motors, or gearboxes — including operation of dynamometer or motor test stand systems. Experience with motor bringup and calibration workflows, with enough firmware and electrical fluency to diagnose calibration and drive faults independently. Strong cross-disciplinary debugging ability across mechanical, electrical, and firmware domains. Proficiency writing production-grade Python for test automation, data 
+
+==== 4 E0347 TITLE Senior Staff Software Engineer, Calibration
+O10 TC_EVALUATION | GENERAL | UNCONDITIONAL | calibration
+DUTY Design, implement, and deliver calibration systems end to end, including algorithms, fixtures, on-fixture software, data pipelines, validation, and operator workflow. Own calibration across perception sensors (RGB cameras, LiDAR, thermal imagers, and other modalities) and kinematic calibration of the robot, including joint approaches that couple sensor extrinsics with arm and whole-body kinematics
+REQ 10+ years of practical experience calibrating complex robotic or sensor-rich systems in real production environments. Track record of designing and delivering calibration systems end to end, including algorithms, fixtures, on-fixture software, validation, and operator workflow. Deep expertise across multiple sensor modalities (RGB cameras, LiDAR, thermal imagers, IMUs, encoders, etc), with working command of kinematic calibration and the coupling of sensor extrinsics to kinematics. Demonstrated 
+
+==== 12 E0045 TITLE 具身智能整机评测工程师
+O1 SK_ROS | PREFERRED | UNRESOLVED | ROS
+DUTY 1. 负责机器人整机性能评价体系的设计与搭建,制定多维度评测指标体系(如运动性能、操作精度、续航能力、稳定性等) 2. 主导竞品分析工作,系统性拆解竞品技术方案,输出竞争力对比报告 3. 设计并执行整机功能、性能、可靠性测试方案,输出量化评测结果 4. 基于评测数据,识别产品短板与改进方向,为研发团队提供优化建议 5. 跟踪行业评测标准与最佳实践,持续完善内部评价体系 6. 参与用户场景分析,确保评测指标与实际应用需求对齐
+REQ 1. 本科及以上学历,机械工程、自动化、机器人等相关专业 2. 3年以上机器人产品评测、竞品分析或系统集成测试经验 3. 熟悉机器人运动学、动力学基础,了解常见传感器(视觉、力控、IMU等)原理 4. 具备独立设计评测方案的能力,熟悉常用测试工具与数据采集方法 5. 有竞品拆解分析经验,能深入理解竞品技术架构与优劣势 6. 数据敏感度高,能从测试数据中提炼关键洞察 7. 良好的报告撰写与沟通能力,能向非技术团队清晰传递评测结论  ### 加分项 1. 有具身智能、服务机器人、工业机器人等领域整机评测经验 2. 熟悉ROS/ROS2、Gazebo、Isaac Sim等仿真与开发环境 3. 有机器人相关行业标准(如ISO 9283、ISO/TS 15066)认证或测试经验 4. 具备Python/MATLAB数据分析能力,熟悉数据可视化工具 5. 有用户研究或人机交互评估经验
+
+==== 39 E0280 TITLE 物理仿真算法工程师
+O15 TC_DATA_PIPELINE | PREFERRED | UNCONDITIONAL | AI 数据标注
+DUTY 岗位背景 当前团队在生成物理资产及用于 AI 训练的数据标注方面面临以下挑战: 物理参数(如摩擦力、关节驱动)采集耗时长 参数配置数量大,且专业要求高 产出效率低 相关人员需负责: 协助物理数据采集规范化及数据录入工作 针对 3D物理资产属性生成(尤其是刚体及软体部分)展开前沿方向研究 基于 3D 资产生成的特性需求,对现有物理引擎进行二次开发或功能优化 参与日常 Isaac 仿真环境维护、数据集引入及数据清洗工作
+REQ 满足以下任意一条或多条: 具有良好的仿真功底,对现有物理引擎或自研物理引擎有过深度二次开发或独立开发经验 具备3D物理资产生成经验,参与过高质量物理资产生成项目(例如基于图片生成模型下的布料、软体、刚体物理属性等) 3年以上或同等经验及以上的游戏引擎开发工程师(可包含实习经历) 在Nips等平台发布过模拟属性生成相关文章的优先 熟悉物理参数(摩擦力、阻尼、弹簧系数等)采集与标注流程 能理解并优化物理仿真相关算法及数据 具有良好的论文功底 标准的代码工程开发能力 良好的沟通能力和团队协作能力 加分项 熟悉 Isaac Sim 或其他仿真平台 有自主完成物理资产生成或数据集构建的项目经验 对模拟有深度理解 对 3D 物理建模、AI 数据标注及仿真优化有浓厚兴趣 收获与成长 参与前沿 3D 物理资产生成与 AI 数据标注研究 接触物理引擎二次开发及优化 深入理解刚体、软体及复杂物理系统在仿真中的表现 有机会将研究成果应用到实际训练数据生成和工业仿真场景中 必要条件: - 教育背景: 计算机科学、物理学、数学、工程学或相关领域的硕士或博士学位。 - 编程能力: 精通C++,具备扎实的软件工程基
+
+==== 40 E0255 TITLE 产测软件开发
+O5 SK_LINUX | GENERAL | UNCONDITIONAL | Linux
+O10 TC_EVALUATION | GENERAL | UNRESOLVED | 产测软件
+DUTY 1.负责新品的产测方案设计与产测上位机的开发。 2.承担产测代表的职能,负责跨部门的沟通协助。 3.负责产测相关的新技术预研与落地,逐步完成产测数据平台搭建。 4.负责产测质量的提升与产测软件的风险把控。 5.与测试工艺一起负责产测工位的落地,测试内容闭环。 6.可以独立完成一个复杂产品的全套产测软件开发。
+REQ 1. 学历背景:电子、通信、计算机科学相关专业。本科及以上学历。 2. 5年以上产测软件/工具开发经验,包括但不限于桌面上位机软件、web等,主导过完整的量产项目产测软件/工具开发和落地者优先。 3. 具备良好的编程基础,熟练掌握至少一种编程语言,如 Python, Java, C++, shell, labview等。 4. 熟练使用Linux操作系统及其命令,理解Linux的工作原理,有docker相关开关部署经验优先。 5. 掌握常用测试仪器的自动化控制方案,具有相关经验者优先。 6. 具有机器人ROS、电机控制等相关经验者优先。
+
+==== 41 E0360 TITLE Staff HiL SW Infrastructure Engineer
+O6 SK_LINUX | PREFERRED | UNCONDITIONAL | Linux
+DUTY Automation Framework Development: Design, implement, and scale test automation frameworks to support continuous firmware and software regression testing. CI/CD Pipeline Engineering: Build and manage automated pipelines using GitHub Actions to trigger firmware flashing and test execution on physical HiL runners. Real-Time Simulation Modeling: Develop high-fidelity RT models for motor, encoder, comm
+REQ 
+
+==== 46 E0407 TITLE Senior Perception Hardware Engineer
+O11 TC_PERCEPTION | GENERAL | CHOICE | computer vision
+DUTY As a Senior Perception Hardware Engineer focusing on Sensor Calibration , you will own the critical link between the physical world and our robot's autonomy stack. Apollo relies on a complex, multi-modal perception suite to navigate and manipulate its environment. Your mission is to ensure these sensors act as a unified, mathematically perfect system. You will design the physical fixtures, write t
+REQ Experience: 5+ years of industry experience in perception hardware, computer vision, or robotics, with a primary focus on sensor calibration and validation. Mathematical Foundation: Deep understanding of 3D geometry, linear algebra, coordinate frame transformations (quaternions, rotation matrices, SE(3)), and non-linear optimization (least-squares, bundle adjustment). Software Proficiency: Strong programming skills in Python and C++ . Extensive experience with computer vision libraries (OpenCV, 
+
+==== 55 E0516 TITLE Manufacturing Software Test Engineer
+O5 TC_ACTUATOR | GENERAL | EXAMPLE | actuators
+DUTY Implement improvements to our existing end of line automation software Use results from full subassembly validation campaigns to write automation tests for new hardware from scratch Spend time on the manufacturing line understanding and responding to key pain points, including troubleshooting failures, improving visibility and debuggability, and increasing test coverage to catch downstream issues 
+REQ 5+ years of industry experience. Strong proficiency in writing Python and C++ for interfacing with real hardware including actuators, sensors, relays, etc Experience with common embedded stacks: Debian Linux, Ethernet, USB, SPI, UART, SCPI Capable of reading and interpreting electronic circuit diagrams and integrating sensors and actuators Strong understanding of best practices in software engineering Bonus Qualifications: Bachelor’s or higher degree in Software, Mechanical, Electrical, or Contr
+
+==== 57 E0483 TITLE Hardware Test Intern [Fall 2026]
+O14 TC_MECHANICAL | PREFERRED | UNCONDITIONAL | mechanical
+DUTY Design and build custom scalable test stations to perform functional, performance, and reliability testing on key robotic sub-assemblies. Develop mechanical and electrical systems incorporating diverse hardware components including, DAQ, communication modules, actuators, and sensors. Facilitate the electromechanical integration of sensors, motors, and controllers, ensuring proper functionality and
+REQ Portfolio or website showcasing relevant projects and your role Pursuing a degree in Mechanical, Robotics, Mechatronics, Electrical or a related engineering field, with at least two years completed by the start of the internship Demonstrated hands-on experience designing, building, and testing mechanical or electromechanical prototypes. Familiarity version control (Git) and programming (e.g., Python, C++, C, MATLAB) Strong hands-on hardware aptitude and a proven ability to take hardware projects
+
+==== 58 E0573 TITLE Test Development Engineer — Actuation Systems
+O15 TC_ACTUATOR | GENERAL | CHOICE | actuation
+DUTY Lead the development and maintenance of highly automated, scalable actuation test systems, collaborating with mechanical, electrical, and build teams Develop scalable dyno software on Speedgoat/Simulink Real-Time — including controls, hardware abstraction layer, data acquisition, calibration, and UI — architected to support multiple test systems deployed in parallel Interface and integrate dyno ha
+REQ 8+ years of hands-on experience in dynamic motion control systems and advanced test system development Proven track record building testing solutions for actuation or motor systems, including dynamometers Hands-on experience with EtherCAT-based servo drives (Elmo, Kollmorgen, or equivalent) and PM motor control Experience integrating and calibrating analog torque sensors (HBM or equivalent) and high-resolution absolute encoders (BiSS-C or equivalent) High proficiency with Matlab/Simulink, Simuli

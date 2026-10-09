@@ -1,0 +1,138 @@
+"""First-pass adjudication for ML coding_order 81-88. Reader: grok4.6."""
+from register_Q_decisions import register
+
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0294":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"OTHER_MODEL",
+ "fine_task":"MULTIMODAL_TACTILE_VISION_SENSOR",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"负责触觉、视觉等相关多模态模型算法的构建；",
+ "new":{"1":O+"信号处理算法未单列冻结项。"},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"有大模型实践经验是加分项","description":"大模型实践为加分，不改传感器多模态主责。"}],
+ "notes":"主责传感器数据与触觉/视觉多模态模型，不是机器人动作策略。Pytorch原文拼写。"
+},
+"N0350":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"OTHER_MODEL",
+ "fine_task":"VISION_3D_DETECTION_RECONSTRUCTION",
+ "secondary_task":"",
+ "task_evidence":"2D目标检测识别，3D视觉， 3D语义分割，3D场景重建等算法的实现",
+ "new":{},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"具备模型小型化经验者加分","description":"小型化不是量化蒸馏裁剪或低秩适配的充分证据。3D场景重建未写NeRF/3DGS，不写入三维重建目录。"}],
+ "notes":"候选队列为空。3D视觉算法，属其他模型应用。"
+},
+"N0337":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"VLA_TACTILE_E2E_ACTION",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"推动视觉-语言-触觉-动作多多模态融合",
+ "new":{"1":R+"Python/C++不是C语言；斜线保持未解。"},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"主导大规模机器人操作数据的采集、处理、验证与利用,支撑摸型训练与迭代。","description":"摸型为原文错字，按模型训练理解。"}],
+ "notes":"主责VLA端到端动作生成。Pytorch或TensorFlow任选。仿真软件为熟悉项加等。"
+},
+"N0353":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"RL_RESEARCH_GENERAL_APPLICATION",
+ "secondary_task":"",
+ "task_evidence":"设计、实现和优化基于强化学习的算法，解决实际业务中的复杂问题。",
+ "new":{
+  "1":O+"Q-learning为RL算法示例。","2":O+"DQN。","3":O+"PPO。","4":O+"A3C。",
+  "5":R+"Python、C++等不是C语言；语言示例保持示例分支。",
+  "6":[["V2_AWS","PREFERRED","EXAMPLE"],["V2_GCP","PREFERRED","EXAMPLE"]],
+  "7":"DUPLICATE:N0353:6","8":"DUPLICATE:N0353:6"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"如自动驾驶、机器人控制、金融交易等","description":"应用领域示例；金融交易不改RL研究主责。"}],
+ "notes":"RL研究岗，优先经验含机器人控制但正文未限定只做机器人策略。云平台为优先示例。"
+},
+"E0075":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"HUMANOID_FOUNDATION_PRETRAIN",
+ "secondary_task":"TRAIN_INFER_INFRA",
+ "task_evidence":"负责人形机器人专属的基础模型的预训练与研究工作，探索更适合具身任务的模型架构。",
+ "new":{
+  "1":[["V2_DEEPSPEED","GENERAL","UNCONDITIONAL"],["V2_FSDP","GENERAL","EXAMPLE"]],
+  "2":"DUPLICATE:E0075:1"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"持续关注领域最新进展（如ViT, Diffusion, Mamba等）。","description":"架构关注示例；Diffusion不升为Diffusion Policy职责。"}],
+ "notes":"主责人形基础模型预训练。DeepSpeed精通，FSDP为等列表。候选2定位空，并入1。"
+},
+"E0068":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"TRAIN_INFER_INFRA",
+ "fine_task":"VLA_ONDEVICE_INFER_COMPRESS",
+ "secondary_task":"",
+ "task_evidence":"负责具身智能VLA模型在端侧的推理系统的研发和模型加速算法研究。",
+ "new":{
+  "1":[["V2_MODEL_COMPRESSION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_TRITON_COMPILER","GENERAL","UNRESOLVED"],["V2_TENSORRT","GENERAL","CHOICE_AND_EXAMPLE"],["V2_ONNX","GENERAL","CHOICE_AND_EXAMPLE"]],
+  "3":[["V2_MODEL_COMPRESSION","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_TENSORRT","PREFERRED","UNRESOLVED"],["V2_MODEL_COMPRESSION","PREFERRED","EXAMPLE"]],
+  "5":"DUPLICATE:E0068:4",
+  "6":R+"Kernel Fusion/Cuda Graph不是CUDA工具项。"
+ },
+ "old_overrides":{
+  "O7":{"metric":"DUTY_OWN_USE","branch":"UNCONDITIONAL","relation":"OWN_USE","reason":"端侧推理服务VLA模型，不是本人训练基础模型。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"熟练掌握CUDA/triton","description":"triton按GPU编译器。C++和Python分列，不记C。ONNX不是ONNX Runtime。"}],
+ "notes":"主责端侧推理与压缩。量化蒸馏稀疏剪枝明确。候选5空定位并入优先TensorRT句。"
+},
+"E0064":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"EMBODIED_POSTTRAIN_DATA_LOOP",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"负责具身模型后训练算法研究，涵盖高质量数据采集、后训练策略制定、模型调优迭代，提升模型在导航、操作等下游任务的真实环境适配能力与任务执行精度。",
+ "new":{
+  "1":[["V2_POSTTRAINING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_POSTTRAINING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_POSTTRAINING","DUTY_OWN_USE","EXAMPLE"]],
+  "4":[["V2_POSTTRAINING","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_POSTTRAINING","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_POSTTRAINING","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{
+  "O4":{"metric":"DUTY_OWN_DEVELOP","branch":"EXAMPLE","relation":"OWN_DEVELOP","reason":"导航是后训练下游任务对象。"},
+  "O5":{"metric":"DUTY_OWN_DEVELOP","branch":"EXAMPLE","relation":"OWN_DEVELOP","reason":"操作是后训练下游任务对象。"}
+ },
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责具身后训练与数据闭环。持续学习/在线学习服务后训练，不另建目录。"
+},
+"E0057":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"VLA_MANIPULATION_CLOSED_LOOP",
+ "secondary_task":"",
+ "task_evidence":"负责将多模态感知（视觉、触觉、力觉）深度集成到 VLA（Vision-Language-Action）模型架构中，实现从感知输入到灵巧操作输出的端到端闭环；",
+ "new":{
+  "1":[["V2_CALIBRATION","DUTY_OWN_USE","EXAMPLE"]],
+  "2":R+"Python/C++不是C语言；斜线保持未解。"
+ },
+ "old_overrides":{
+  "O4":{"metric":"PREFERRED","branch":"UNRESOLVED","relation":"EXPERIENCE_REQUIREMENT","reason":"原ROS短词定位为空，改为工程栈句。","quote":"包括Python/C++、Linux、ROS/ROS2"},
+  "O6":{"metric":"GENERAL","branch":"CHOICE_AND_EXAMPLE","relation":"EXPERIENCE_REQUIREMENT","reason":"PyTorch/TensorFlow等同时任选示例。"},
+  "O7":{"metric":"GENERAL","branch":"CHOICE_AND_EXAMPLE","relation":"EXPERIENCE_REQUIREMENT","reason":"同一框架等列表。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"熟练掌握vibe coding工具","description":"vibe coding未单列冻结项。"}],
+ "notes":"主责VLA操作闭环。时序同步与标定记标定示例。工程栈为优先。"
+}
+}
+if __name__=='__main__':
+ register('RF_ML_AI_ENGINEERING', decisions, reader='grok4.6')

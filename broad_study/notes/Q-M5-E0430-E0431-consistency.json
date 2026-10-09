@@ -1,0 +1,8 @@
+{
+  "note_id": "Q-M5-E0430-E0431-consistency",
+  "reviewer": "grok4.6",
+  "ads": ["E0430", "E0431"],
+  "finding": "Same normalized duties text cluster, different identity_key and Greenhouse posting IDs. Astra first-pass already distinguished Staff whole-board architecture (E0431) versus Senior subsystem/sensor-bridge FPGA PCBA (E0430), retained FPGA/VHDL/Vivado as OUTSIDE catalog gaps, and did not treat thermal constraints as thermal design. Second-pass pattern audit found no identity collision and no silent merge. Salary and seniority fields remain distinct in frozen jobs.",
+  "action": "KEEP_SEPARATE_IDENTITIES",
+  "catalog_revision": "none; FPGA tools remain OUTSIDE pending any future v2.2 with full P/Z/U backfill"
+}

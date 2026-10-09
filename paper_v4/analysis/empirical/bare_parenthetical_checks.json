@@ -1,0 +1,53 @@
+{
+  "status": "BOUNDED_SOURCE_REVIEW_COMPLETE",
+  "positive_PyTorch_pairs_reviewed": 23,
+  "example_increment_pairs_reviewed": 43,
+  "combined_distinct_target_pairs": 66,
+  "all_qualification_PyTorch_parentheses_retrieved": 12,
+  "exact_source_checks": 164,
+  "structure_counts": {
+    "EXPLICIT_LOCAL_CUE": 8,
+    "SINGLE_TARGET_WITH_EXPLICIT_EMPHASIS": 1,
+    "SINGLE_STACK_APPOSITION": 1,
+    "BARE_MULTI_FRAMEWORK_LIST": 2
+  },
+  "coupled_multi_framework_list_reading_ids": [
+    "N0798",
+    "N1044"
+  ],
+  "excluded_QP_parenthetical_cases": [
+    "E0206",
+    "E0195"
+  ],
+  "all_input_hashes_unchanged": true,
+  "inputs": [
+    {
+      "name": "frozen_states",
+      "path": "source_snapshot/analysis/ad_technology_current.csv",
+      "sha256": "a515edcae1fc6aec9520feffbdcf3578483995376db4a735e4bb045b95337b37"
+    },
+    {
+      "name": "phase4_ledger",
+      "path": "data/v4_source_corrections_phase4.json",
+      "sha256": "899cec45b3cbde294b212bcb8f08f62ea92fba9cf8ef546e3f67940c3a117a4e"
+    },
+    {
+      "name": "v3_ledger",
+      "path": "source_snapshot/data/analysis_revision_ledger.json",
+      "sha256": "e6e43c2240465eb0d473a4b2b7cef54f492e1668823265a5a6d0471175563ad2"
+    },
+    {
+      "name": "evidence",
+      "path": "source_snapshot/source_v2/data/inputs/context_evidence.csv",
+      "sha256": "37a37d916bcc300eee841a3867403856ccc9cc256b0a5101bf7a538e9f58e649"
+    },
+    {
+      "name": "sources",
+      "path": "source_snapshot/source_v2/data/inputs/records.json",
+      "sha256": "c3bf940e3cf39fabeea2d3ae25684577f8cd6fc1e71450b9a5a60a19ab743acb"
+    }
+  ],
+  "primary_state_changes": 0,
+  "independent_human_validation": false,
+  "limits": "Full captured sources were read for the four cue-free parenthetical cases; all target parent statements were read for the bounded 23 positive plus 43 increment frame. Not complete semantic revalidation of every target or source omission."
+}

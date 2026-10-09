@@ -1,0 +1,198 @@
+"""First-pass adjudication for ML coding_order 33-40. Reader: grok4.6."""
+from register_Q_decisions import register
+
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0202":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"TRAIN_INFER_INFRA",
+ "fine_task":"GPU_CLUSTER_OPS_NOT_ML_PLATFORM",
+ "secondary_task":"",
+ "task_evidence":"本岗位优先聚焦集群运维能力，平台开发作为加分项；主要负责自建 GPU 智算集群，同时对接公有云算力平台，不要求从零开发完整机器学习平台",
+ "new":{
+  "1":O+"GPU Operator未单列冻结项。",
+  "2":O+"Device Plugin未单列冻结项。",
+  "3":O+"DCGM未单列冻结项。",
+  "4":[["V2_NCCL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":O+"IB/ROCE高速训练网络未单列冻结项。",
+  "6":O+"RDMA未单列冻结项。",
+  "7":O+"PFC/ECN未单列冻结项。",
+  "8":"DUPLICATE:N0202:4",
+  "9":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "10":[["V2_SHELL","DUTY_OWN_USE","CHOICE"],["V2_ANSIBLE","DUTY_OWN_USE","CHOICE"],["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "11":"DUPLICATE:N0202:10",
+  "12":"DUPLICATE:N0202:10",
+  "13":[["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "14":O+"NVIDIA GPU软件栈泛称未单列冻结项。",
+  "15":[["V2_NCCL","GENERAL","UNCONDITIONAL"],["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "16":O+"InfiniBand / ROCE-V2未单列冻结项。",
+  "17":O+"RDMA。","18":O+"PFC。","19":O+"ECN。","20":O+"MTU。",
+  "21":"DUPLICATE:N0202:15",
+  "22":[["V2_NCCL","GENERAL","CHOICE"]],
+  "23":O+"MPI未单列冻结项。",
+  "24":"DUPLICATE:N0202:22",
+  "25":O+"并行文件系统。","26":O+"Ceph。","27":O+"NFS。","28":O+"对象存储。","29":O+"高性能缓存。",
+  "30":[["V2_SHELL","GENERAL","UNCONDITIONAL"],["V2_ANSIBLE","GENERAL","CHOICE"],["V2_SOP_OPERATION","GENERAL","UNCONDITIONAL"]],
+  "31":"DUPLICATE:N0202:30",
+  "32":"DUPLICATE:N0202:30"
+ },
+ "old_overrides":{
+  "O2":{"metric":"DUTY_OWN_USE","branch":"CHOICE","relation":"OWN_USE","reason":"Shell/Python/Ansible斜线工具，Python不是无条件唯一运维语言。"},
+  "O9":{"metric":"DUTY_OWN_USE","branch":"UNCONDITIONAL","relation":"OWN_USE","reason":"集群运维使用算力资源池，原文排除从零开发完整机器学习平台。"},
+  "O16":{"metric":"SEPARATE","branch":"NEGATED","relation":"EXPERIENCE_REQUIREMENT","reason":"明确不要求自研完整机器学习平台。"},
+  "O17":{"metric":"SEPARATE","branch":"BACKGROUND","relation":"OWN_USE","reason":"权限治理是账号与网络访问管控，不是机器人功能安全。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"机器学习平台开发能力为加分项，非硬性要求。","description":"平台开发只作加分，不改运维主责。"}],
+ "notes":"主责GPU智算集群运维与故障闭环。PyTorch Distributed / MPI / NCCL为了解项任选。C未出现。"
+},
+"N0492":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"VLA_WORLD_WAM_ARCHITECTURE",
+ "secondary_task":"TRAIN_INFER_INFRA",
+ "task_evidence":"参与面向机器人场景的VLA/世界模型/WAM等模型架构设计与优化",
+ "new":{
+  "1":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNRESOLVED"]],
+  "2":[["V2_WORLD_MODEL","DUTY_OWN_USE","EXAMPLE"]],
+  "3":"DUPLICATE:N0492:4",
+  "4":[["V2_POSTTRAINING","PREFERRED","CHOICE"]],
+  "5":[["V2_TENSORRT","GENERAL","CHOICE_AND_EXAMPLE"]],
+  "6":"DUPLICATE:N0492:5",
+  "7":[["V2_HUGGINGFACE","PREFERRED","EXAMPLE"],["V2_DEEPSPEED","PREFERRED","EXAMPLE"],["V2_VLLM","PREFERRED","EXAMPLE"]],
+  "8":"DUPLICATE:N0492:7","9":"DUPLICATE:N0492:7","10":"DUPLICATE:N0492:7"
+ },
+ "old_overrides":{
+  "O2":{"metric":"GENERAL","branch":"CHOICE_AND_EXAMPLE","relation":"EXPERIENCE_REQUIREMENT","reason":"PyTorch、TensorFlow、TensorRT等同时任选示例。"},
+  "O3":{"metric":"GENERAL","branch":"CHOICE_AND_EXAMPLE","relation":"EXPERIENCE_REQUIREMENT","reason":"同一框架等列表。"},
+  "O11":{"metric":"DUTY_OWN_DEVELOP","branch":"EXAMPLE","relation":"OWN_DEVELOP","reason":"动作生成是联合建模对象，不是已选定生成式策略。"}
+ },
+ "additions":[
+  {"code":"V2_POSTTRAINING","metric":"DUTY_OWN_DEVELOP","branch":"UNCONDITIONAL","quote":"负责大模型在机器人数据集上的训练、微调与对齐","reason":"训练之外明确写微调与对齐，记后训练职责。"}
+ ],
+ "outside_extra":[{"quote":"VLA/世界模型/WAM等模型架构","description":"WAM未展开，不按全身动作模型或世界模型单义改写；世界模型仅因同句明示而编码且斜线未解。"}],
+ "notes":"主责机器人场景模型架构。RLHF为优先任选，不等于岗位只有对齐。TensorRT与训练框架并列。"
+},
+"N0489":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"RL_FOR_CONTROL_PLANNING_MANIPULATION",
+ "secondary_task":"",
+ "task_evidence":"开展强化学习和深度学习技术在机器人运动控制、决策规划、操作等领域的算法研究；",
+ "new":{
+  "1":O+"DQN为RL算法示例。",
+  "2":O+"PPO为RL算法示例。",
+  "3":R+"python/C++不是C语言；斜线保持未解。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"了解机器人相关的仿真环境如Issac Gym, Pybullet, Gazebo等","description":"仿真器为了解示例；Issac为原文拼写。"}],
+ "notes":"主责机器人运动控制/规划/操作上的RL与深度学习。部署优化是职责之二，不改算法研究主任务。"
+},
+"N0506":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"VLA_WORLD_E2E_DECISION",
+ "secondary_task":"",
+ "task_evidence":"参与 VLA、世界模型、端到端决策等方向的算法研发与迭代，提升机器人对复杂环境的理解、规划与动作生成能力。",
+ "new":{
+  "1":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNRESOLVED"]],
+  "2":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNRESOLVED"]],
+  "3":[["V2_WORLD_MODEL","DUTY_OWN_USE","EXAMPLE"]],
+  "4":[["V2_WORLD_MODEL","GENERAL","CHOICE"]],
+  "5":[["V2_CALIBRATION","GENERAL","EXAMPLE"]],
+  "6":[["V2_WORLD_MODEL","PREFERRED","CHOICE"]]
+ },
+ "old_overrides":{
+  "O7":{"metric":"DUTY_OWN_USE","branch":"EXAMPLE","relation":"OWN_USE","reason":"导航是结合场景，不是导航岗位主责。"},
+  "O8":{"metric":"DUTY_OWN_USE","branch":"EXAMPLE","relation":"OWN_USE","reason":"操作是结合场景。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"有大模型微调、模型推理加速、多模态模型部署经验。","description":"泛称微调不自动记后训练目录。"}],
+ "notes":"VLA/世界模型/端到端决策为并列方向，世界模型斜线未解。ROS/ROS2优先斜线保持未解。"
+},
+"N0508":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"DRL_LEGGED_WHEELED_LOCOMOTION",
+ "secondary_task":"",
+ "task_evidence":"利用强化学习和深度学习技术，开发适用于腿足/轮足式机器人平台的敏捷鲁棒控制算法；",
+ "new":{
+  "1":O+"PPO为RL算法示例。","2":O+"SAC。","3":O+"DQN。","4":O+"DDPG。","5":O+"A3C。",
+  "6":R+"Python/C++不是C语言；斜线保持未解。",
+  "7":O+"RaiSim仿真器未单列冻结项。",
+  "8":[["V2_TELEOP","PREFERRED","UNRESOLVED"]]
+ },
+ "old_overrides":{
+  "O5":{"metric":"GENERAL","branch":"CHOICE_AND_EXAMPLE","relation":"EXPERIENCE_REQUIREMENT","reason":"PyTorch/TensorFlow等同时任选示例。"},
+  "O6":{"metric":"GENERAL","branch":"CHOICE_AND_EXAMPLE","relation":"EXPERIENCE_REQUIREMENT","reason":"同一框架斜线加等。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"有模仿学习、强化学习、遥操作、具身智能、多模态大模型（VLM、VLA）项目经验者优先","description":"遥操作在优先项目经验列举中，不证明本人开发遥操系统。"}],
+ "notes":"主责腿足/轮足敏捷控制的深度强化学习。真机部署是职责之二。"
+},
+"N0499":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"VLA_WORLD_E2E_PLANNING",
+ "secondary_task":"",
+ "task_evidence":"参与 VLA、世界模型、端到端决策等方向的算法研发与迭代，提升机器人对复杂环境的理解、规划与动作生成能力。",
+ "new":{
+  "1":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNRESOLVED"]],
+  "2":[["V2_WORLD_MODEL","DUTY_OWN_USE","EXAMPLE"]],
+  "3":[["V2_WORLD_MODEL","GENERAL","CHOICE"]],
+  "4":[["V2_CALIBRATION","GENERAL","EXAMPLE"]],
+  "5":[["V2_WORLD_MODEL","PREFERRED","CHOICE"]]
+ },
+ "old_overrides":{
+  "O7":{"metric":"DUTY_OWN_USE","branch":"EXAMPLE","relation":"OWN_USE","reason":"导航是结合场景。"},
+  "O8":{"metric":"DUTY_OWN_USE","branch":"EXAMPLE","relation":"OWN_USE","reason":"操作是结合场景。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"有大模型微调、模型推理加速、多模态模型部署经验。","description":"泛称微调不自动记后训练目录。"}],
+ "notes":"与同司另一条具身智能算法工程师职责高度相近，按本条全文独立编码。世界模型斜线未解。"
+},
+"N0490":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"WM_TITLE_VLA_WAM_ARCHITECTURE",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"跟踪具身智能领域最新进展，包括VLA模型、世界模型、多模态大模型等",
+ "new":{
+  "1":[["V2_WORLD_MODEL","DUTY_OWN_USE","EXAMPLE"]],
+  "2":[["V2_POSTTRAINING","PREFERRED","CHOICE"]],
+  "3":[["V2_HUGGINGFACE","PREFERRED","EXAMPLE"],["V2_DEEPSPEED","PREFERRED","EXAMPLE"],["V2_VLLM","PREFERRED","EXAMPLE"]],
+  "4":"DUPLICATE:N0490:3","5":"DUPLICATE:N0490:3","6":"DUPLICATE:N0490:3",
+  "7":R+"GitHub开源项目不是Git技能要求。",
+  "8":R+"GitHub开源项目不是Git技能要求。",
+  "9":[["V2_3D_RECONSTRUCTION","PREFERRED","EXAMPLE"]],
+  "10":O+"Diffusion泛称不是Diffusion Policy职责。",
+  "11":"DUPLICATE:N0490:9"
+ },
+ "old_overrides":{},
+ "additions":[
+  {"code":"V2_POSTTRAINING","metric":"DUTY_OWN_DEVELOP","branch":"UNCONDITIONAL","quote":"负责大模型在机器人数据集上的训练、微调与对齐","reason":"训练之外明确写微调与对齐。"}
+ ],
+ "outside_extra":[{"quote":"参与面向机器人场景的VLA/WAM等模型架构设计与优化","description":"架构句写VLA/WAM，不把WAM改写成世界模型；标题WM只把调研列举中的世界模型入码。"}],
+ "notes":"标题为WM，职责架构句未写世界模型。主任务仍记机器人模型，世界模型证据限于调研列举。"
+},
+"N0520":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"TRAIN_INFER_INFRA",
+ "fine_task":"GPU_CLUSTER_OPS_TRAINING_SUPPORT",
+ "secondary_task":"",
+ "task_evidence":"负责大规模GPU集群的日常运维，包括但不限于系统部署、配置管理、监控告警、故障排查与解决，确保集群的高效稳定运行。",
+ "new":{
+  "1":[["V2_INCIDENT_SUPPORT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SHELL","GENERAL","UNRESOLVED"]],
+  "3":"DUPLICATE:N0520:2",
+  "4":O+"阿里云为公有云示例。","5":O+"火山云。","6":O+"腾讯云。","7":O+"华为云。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"对深度学习框架(如TensorFlow、PyTorch)及其在GPU上的运行机制有一定了解。","description":"框架了解服务于集群运维，不是训练算法主责。"}],
+ "notes":"主责GPU集群运维与训练效率。Shell/Python斜线未解。K8s/Docker有实际经验者为优先。"
+}
+}
+if __name__=='__main__':
+ register('RF_ML_AI_ENGINEERING', decisions, reader='grok4.6')

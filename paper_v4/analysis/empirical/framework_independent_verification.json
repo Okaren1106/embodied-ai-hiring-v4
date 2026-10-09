@@ -1,0 +1,242 @@
+{
+  "status": "PASS",
+  "independent_arithmetic_and_source_checks": 3176,
+  "model_task_ads": 105,
+  "both_framework_mentions": 26,
+  "source_fields_scanned": 315,
+  "TensorFlow_literal_occurrences_across_fields": 53,
+  "TF_abbreviation_occurrences": 0,
+  "preferred_scope_excluded_advertisements": [
+    "N0674",
+    "N0685",
+    "N0664",
+    "N0673"
+  ],
+  "annotation_metric_counts": {
+    "GENERAL": 22,
+    "PREFERRED": 4
+  },
+  "annotation_branch_counts": {
+    "EXAMPLE": 16,
+    "UNRESOLVED": 1,
+    "CHOICE": 2,
+    "CHOICE_AND_EXAMPLE": 6,
+    "UNCONDITIONAL_OR_EXAMPLE": 1
+  },
+  "verified_harmonized_contrasts": [
+    {
+      "version": "harmonized_framework_control",
+      "subset": "all_ads",
+      "measure": "M",
+      "ads": "105",
+      "a_P": "83",
+      "a_U": "0",
+      "b_P": "26",
+      "b_U": "0",
+      "confirmed_gap_pp": "54.285714285714285",
+      "difference_lo_pp": "54.285714285714285",
+      "difference_hi_pp": "54.285714285714285"
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "all_ads",
+      "measure": "H",
+      "ads": "105",
+      "a_P": "79",
+      "a_U": "0",
+      "b_P": "22",
+      "b_U": "0",
+      "confirmed_gap_pp": "54.285714285714285",
+      "difference_lo_pp": "54.285714285714285",
+      "difference_hi_pp": "54.285714285714285"
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "all_ads",
+      "measure": "Q",
+      "ads": "105",
+      "a_P": "22",
+      "a_U": "6",
+      "b_P": "0",
+      "b_U": "2",
+      "confirmed_gap_pp": "20.952380952380953",
+      "difference_lo_pp": "19.047619047619047",
+      "difference_hi_pp": "26.666666666666668"
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "all_ads",
+      "measure": "Q_plus_example",
+      "ads": "105",
+      "a_P": "65",
+      "a_U": "4",
+      "b_P": "17",
+      "b_U": "1",
+      "confirmed_gap_pp": "45.714285714285715",
+      "difference_lo_pp": "44.76190476190476",
+      "difference_hi_pp": "49.523809523809526"
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "all_ads",
+      "measure": "Q_plus_choice_example",
+      "ads": "105",
+      "a_P": "75",
+      "a_U": "4",
+      "b_P": "21",
+      "b_U": "1",
+      "confirmed_gap_pp": "51.42857142857143",
+      "difference_lo_pp": "50.476190476190474",
+      "difference_hi_pp": "55.23809523809524"
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "both_mentioned",
+      "measure": "M",
+      "ads": "26",
+      "a_P": "26",
+      "a_U": "0",
+      "b_P": "26",
+      "b_U": "0",
+      "confirmed_gap_pp": "0.0",
+      "difference_lo_pp": "0.0",
+      "difference_hi_pp": "0.0"
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "both_mentioned",
+      "measure": "H",
+      "ads": "26",
+      "a_P": "22",
+      "a_U": "0",
+      "b_P": "22",
+      "b_U": "0",
+      "confirmed_gap_pp": "0.0",
+      "difference_lo_pp": "0.0",
+      "difference_hi_pp": "0.0"
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "both_mentioned",
+      "measure": "Q",
+      "ads": "26",
+      "a_P": "0",
+      "a_U": "2",
+      "b_P": "0",
+      "b_U": "2",
+      "confirmed_gap_pp": "0.0",
+      "difference_lo_pp": "-7.6923076923076925",
+      "difference_hi_pp": "7.6923076923076925"
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "both_mentioned",
+      "measure": "Q_plus_example",
+      "ads": "26",
+      "a_P": "17",
+      "a_U": "1",
+      "b_P": "17",
+      "b_U": "1",
+      "confirmed_gap_pp": "0.0",
+      "difference_lo_pp": "-3.8461538461538463",
+      "difference_hi_pp": "3.8461538461538463"
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "both_mentioned",
+      "measure": "Q_plus_choice_example",
+      "ads": "26",
+      "a_P": "21",
+      "a_U": "1",
+      "b_P": "21",
+      "b_U": "1",
+      "confirmed_gap_pp": "0.0",
+      "difference_lo_pp": "-3.8461538461538463",
+      "difference_hi_pp": "3.8461538461538463"
+    }
+  ],
+  "verified_coupled_diagnostics": [
+    {
+      "version": "harmonized_framework_control",
+      "subset": "all_ads",
+      "measure": "Q",
+      "ads": "105",
+      "coupled_reading_ids": "[\"N0149\", \"N0798\"]",
+      "lower_pp_under_shared_completion": "20.952380952380953",
+      "upper_pp_under_shared_completion": "24.761904761904763",
+      "assumption": "Only N0149 and N0798 U indicators share a binary completion within each named construct; other U assignments remain free."
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "all_ads",
+      "measure": "Q_plus_example",
+      "ads": "105",
+      "coupled_reading_ids": "[\"N0149\"]",
+      "lower_pp_under_shared_completion": "45.714285714285715",
+      "upper_pp_under_shared_completion": "48.57142857142857",
+      "assumption": "Only N0149 and N0798 U indicators share a binary completion within each named construct; other U assignments remain free."
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "all_ads",
+      "measure": "Q_plus_choice_example",
+      "ads": "105",
+      "coupled_reading_ids": "[\"N0149\"]",
+      "lower_pp_under_shared_completion": "51.42857142857143",
+      "upper_pp_under_shared_completion": "54.285714285714285",
+      "assumption": "Only N0149 and N0798 U indicators share a binary completion within each named construct; other U assignments remain free."
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "both_mentioned",
+      "measure": "Q",
+      "ads": "26",
+      "coupled_reading_ids": "[\"N0149\", \"N0798\"]",
+      "lower_pp_under_shared_completion": "0.0",
+      "upper_pp_under_shared_completion": "0.0",
+      "assumption": "Only N0149 and N0798 U indicators share a binary completion within each named construct; other U assignments remain free."
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "both_mentioned",
+      "measure": "Q_plus_example",
+      "ads": "26",
+      "coupled_reading_ids": "[\"N0149\"]",
+      "lower_pp_under_shared_completion": "0.0",
+      "upper_pp_under_shared_completion": "0.0",
+      "assumption": "Only N0149 and N0798 U indicators share a binary completion within each named construct; other U assignments remain free."
+    },
+    {
+      "version": "harmonized_framework_control",
+      "subset": "both_mentioned",
+      "measure": "Q_plus_choice_example",
+      "ads": "26",
+      "coupled_reading_ids": "[\"N0149\"]",
+      "lower_pp_under_shared_completion": "0.0",
+      "upper_pp_under_shared_completion": "0.0",
+      "assumption": "Only N0149 and N0798 U indicators share a binary completion within each named construct; other U assignments remain free."
+    }
+  ],
+  "inherited_and_harmonized_PyTorch_equal_after_seven_main_corrections": true,
+  "all_current_inputs_unchanged": true,
+  "inputs": [
+    {
+      "name": "sources",
+      "path": "source_snapshot/source_v2/data/inputs/records.json",
+      "sha256": "c3bf940e3cf39fabeea2d3ae25684577f8cd6fc1e71450b9a5a60a19ab743acb"
+    },
+    {
+      "name": "annotations",
+      "path": "extensions/framework_control/data/source_review_annotations.json",
+      "sha256": "02c50b968e0968dc9482d829c061a46cbca8215a8913590b48006e7eb3a0814c"
+    },
+    {
+      "name": "pytorch_scope",
+      "path": "analysis/paired/qualification_scope_states.csv",
+      "sha256": "44454b9cc4412c073551179e0177dc218716af968b4f1cadc2021418a62ea018"
+    }
+  ],
+  "source_review_type": "Supplied annotations are model full-source review, not independent human coding. This audit independently checks their arithmetic and recorded source spans.",
+  "coupled_zero_caveat": "Zero in 26 co-mentions depends on shared binary completion of the same predicate/operator for N0149 and N0798 within each construct. Independent U assignments still yield the reported nonzero outer ranges. Neither equality is a technology-demand effect.",
+  "coverage_caveat": "TensorFlow is a post hoc literal-name extension within the same 105 model advertisements; no new firm/sample representativeness or general framework equivalence is established."
+}

@@ -1,0 +1,352 @@
+{
+  "revision_id": "Q-M5-SAME-TEXT-BRANCH-20260916-03",
+  "scope": "TARGETED_ONLY_NOT_FULL_SECOND_PASS",
+  "reader": "Astra",
+  "before_sha256": "861d18cc78195f43679c4be19ea77f4c446df6af7731f4ce134c59a78e5531b0",
+  "after_sha256": "9c4aeea70b223262ce0e63ad7cfba73c1ac6d7c7c64e5e8d1d7026495e7bc4cb",
+  "records": [
+    {
+      "reading_id": "N0888",
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "PRODUCTION_TEST",
+        "task_evidence": "Create, validate, and maintain production test protocols and gating criteria from incoming inspection through final test and shipment.",
+        "inherited": "REVIEWED_ACCEPT",
+        "old_overrides": {},
+        "new": {
+          "1": [
+            [
+              "V2_RCA",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "3": [
+            [
+              "V2_CALIBRATION",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": [
+            [
+              "V2_PYTEST",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_LABVIEW",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "5": [
+            [
+              "V2_CI_CD",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "6": "DUPLICATE:N0888:4",
+          "7": "DUPLICATE:N0888:4"
+        },
+        "notes": "RCA heading supported by following full sentence lead root-cause analysis. Calibration/test is one preferred sensor-testing knowledge clause; ROS or equivalent is separate choice. CI for embedded systems is explicit continuous integration context. Framework list is illustrative, not simultaneous mandatory skills. 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DILIGENT|greenhouse|7829784003|5949516e82e5373a461a786afdc8a9125ad089cb1a78cedfbb5dee6838782243",
+        "company_id": "US_DILIGENT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 17,
+        "reviewed_candidate_count": 7,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 769,
+          "end": 903,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Create, validate, and maintain production test protocols and gating criteria from incoming inspection through final test and shipment."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5949516e82e5373a461a786afdc8a9125ad089cb1a78cedfbb5dee6838782243",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01"
+        ]
+      },
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "PRODUCTION_TEST",
+        "task_evidence": "Create, validate, and maintain production test protocols and gating criteria from incoming inspection through final test and shipment.",
+        "inherited": "REVIEWED_ACCEPT",
+        "old_overrides": {
+          "O3": {
+            "metric": "PREFERRED",
+            "branch": "CHOICE_AND_EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "与同文N0889及原文共同核对：test frameworks(...or similar)含任选和示例，不能仅保留示例。"
+          }
+        },
+        "new": {
+          "1": [
+            [
+              "V2_RCA",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": "OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。",
+          "3": [
+            [
+              "V2_CALIBRATION",
+              "PREFERRED",
+              "UNRESOLVED"
+            ]
+          ],
+          "4": [
+            [
+              "V2_PYTEST",
+              "PREFERRED",
+              "CHOICE_AND_EXAMPLE"
+            ],
+            [
+              "V2_LABVIEW",
+              "PREFERRED",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "5": [
+            [
+              "V2_CI_CD",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "6": "DUPLICATE:N0888:4",
+          "7": "DUPLICATE:N0888:4"
+        },
+        "notes": "RCA heading supported by following full sentence lead root-cause analysis. Calibration/test is one preferred sensor-testing knowledge clause; ROS or equivalent is separate choice. CI for embedded systems is explicit continuous integration context. Framework list is illustrative, not simultaneous mandatory skills. 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。 本次相同文本交叉复核修正：calibration/test为标定方法分支未知；框架例项or similar同时为任选，前文首轮旧理由以本次修订为准。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DILIGENT|greenhouse|7829784003|5949516e82e5373a461a786afdc8a9125ad089cb1a78cedfbb5dee6838782243",
+        "company_id": "US_DILIGENT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 17,
+        "reviewed_candidate_count": 7,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 769,
+          "end": 903,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Create, validate, and maintain production test protocols and gating criteria from incoming inspection through final test and shipment."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5949516e82e5373a461a786afdc8a9125ad089cb1a78cedfbb5dee6838782243",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:29:21.938207+00:00",
+        "revision_ids": [
+          "Q-M5-INCIDENT-BOUNDARY-20260916-01",
+          "Q-M5-SAME-TEXT-BRANCH-20260916-03"
+        ]
+      }
+    },
+    {
+      "reading_id": "N0886",
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "DEPLOYED_FLEET_FAILURE_INVESTIGATION",
+        "task_evidence": "own the reliability and continuous improvement of our deployed robotic fleet",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_RCA",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "3": "DUPLICATE:N0886:2",
+          "4": "DUPLICATE:N0886:2",
+          "5": [
+            [
+              "V2_CALIBRATION",
+              "PREFERRED",
+              "UNRESOLVED"
+            ]
+          ],
+          "6": [
+            [
+              "V2_CAN",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERNET",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "7": "DUPLICATE:N0886:6",
+          "8": "DUPLICATE:N0886:6",
+          "9": [
+            [
+              "V2_HIL",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "10": "OUTSIDE:Jetson平台未入冻结制造角色目录。",
+          "11": "OUTSIDE:Orin平台未入目录，不推定CUDA等。"
+        },
+        "notes": "运行中的部署车队失效调查与on-call升级清楚；实验室复现服务于已部署故障，符合运行排障。Success Looks Like出现生产FPY/provisioning模板，保留来源混杂说明，不据此扩大主任务。",
+        "additions": [
+          {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "quote": "System log analysis — read raw system/robot logs to reconstruct events and isolate failures (the backbone of most investigations).",
+            "reason": "全文复核补入明确表达"
+          },
+          {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Field Synthesis & On-Call: Turn field-technician reports into crisp problem statements; own escalated issues (on-call) to support the field team and minimize downtime.",
+            "reason": "全文复核补入明确表达"
+          },
+          {
+            "code": "V2_RCA",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "Document debugging procedures and root-cause findings; contribute to fleet reliability standards.",
+            "reason": "全文复核补入明确表达"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DILIGENT|greenhouse|7765134003|f143cc696672e34a44625cfa08715aa864fd4b15317782bfef1cd11a00a416d4",
+        "company_id": "US_DILIGENT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 21,
+        "reviewed_candidate_count": 11,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 266,
+          "end": 342,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "own the reliability and continuous improvement of our deployed robotic fleet"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "f143cc696672e34a44625cfa08715aa864fd4b15317782bfef1cd11a00a416d4",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:46:45.692137+00:00"
+      },
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "DEPLOYED_FLEET_FAILURE_INVESTIGATION",
+        "task_evidence": "own the reliability and continuous improvement of our deployed robotic fleet",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_INCIDENT_SUPPORT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": [
+            [
+              "V2_RCA",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "3": "DUPLICATE:N0886:2",
+          "4": "DUPLICATE:N0886:2",
+          "5": [
+            [
+              "V2_CALIBRATION",
+              "PREFERRED",
+              "UNRESOLVED"
+            ]
+          ],
+          "6": [
+            [
+              "V2_CAN",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERNET",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "7": "DUPLICATE:N0886:6",
+          "8": "DUPLICATE:N0886:6",
+          "9": [
+            [
+              "V2_HIL",
+              "PREFERRED",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "10": "OUTSIDE:Jetson平台未入冻结制造角色目录。",
+          "11": "OUTSIDE:Orin平台未入目录，不推定CUDA等。"
+        },
+        "notes": "运行中的部署车队失效调查与on-call升级清楚；实验室复现服务于已部署故障，符合运行排障。Success Looks Like出现生产FPY/provisioning模板，保留来源混杂说明，不据此扩大主任务。",
+        "additions": [
+          {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "quote": "System log analysis — read raw system/robot logs to reconstruct events and isolate failures (the backbone of most investigations).",
+            "reason": "全文复核补入明确表达"
+          },
+          {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "Field Synthesis & On-Call: Turn field-technician reports into crisp problem statements; own escalated issues (on-call) to support the field team and minimize downtime.",
+            "reason": "全文复核补入明确表达"
+          },
+          {
+            "code": "V2_SOP_OPERATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "Document debugging procedures and root-cause findings; contribute to fleet reliability standards.",
+            "reason": "明确编写调试程序文档，属于操作规程开发；不宣称开发新的根因分析方法。"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DILIGENT|greenhouse|7765134003|f143cc696672e34a44625cfa08715aa864fd4b15317782bfef1cd11a00a416d4",
+        "company_id": "US_DILIGENT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 21,
+        "reviewed_candidate_count": 11,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 266,
+          "end": 342,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "own the reliability and continuous improvement of our deployed robotic fleet"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "f143cc696672e34a44625cfa08715aa864fd4b15317782bfef1cd11a00a416d4",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:46:45.692137+00:00",
+        "revision_ids": [
+          "Q-M5-SAME-TEXT-BRANCH-20260916-03"
+        ]
+      }
+    }
+  ]
+}

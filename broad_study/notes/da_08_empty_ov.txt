@@ -1,0 +1,31 @@
+==== 45 E0171 TITLE 触觉力控Infra工程师
+O3 SK_ROS | GENERAL | UNRESOLVED | ROS
+DUTY - 负责多模态触觉数据采集与推理基础设施建设; - 打通夹爪、灵巧手、触觉手套等不同末端形态的触觉接入流程,实现数据采集、数据保存与推理阶段触觉数据发布; - 建立统一的数据格式、时间同步、话题发布和基础调试工具; - 与算法、控制、硬件团队协作,支持触觉数据用于模型训练、策略推理和机器人操作实验。
+REQ - 机器人、电子、自动化、计算机、机械电子等相关背景; - 熟悉 Python / C++,熟悉 ROS / ROS2; - 具备传感器接入、数据采集、通信协议、话题发布和系统调试经验; - 对硬件电路、嵌入式接口、机器人控制有基本理解,能够独立定位软硬件链路问题; - 了解机器人末端执行器、夹爪、灵巧手或数据手套等设备的集成方式; - 具备良好的工程化意识,能够打通采集、保存、训练数据准备和推理发布链路。
+
+==== 46 E0162 TITLE 大模型数据平台研发工程师
+O1 SK_PYTHON | GENERAL | CHOICE | Python
+O2 SK_GO | GENERAL | CHOICE | Go
+O3 SK_PYTHON | PREFERRED | UNCONDITIONAL | Python
+O4 SK_GO | PREFERRED | UNCONDITIONAL | Go
+O6 SK_ROS | GENERAL | UNRESOLVED | ROS
+DUTY 岗位定位 负责机器人/多模态数据湖仓与高并发数据闭环平台建设,支撑数据入湖、解析治理、任务调度、结果回流和训练数据消费。 岗位职责 1、建设多模态数据湖仓能力,包括数据接入、元数据管理、湖表建模、版本血缘、权限控制和训练集 Manifest。  2、负责机器人多源数据解析与标准化,支持 rosbag、视频、图像、JSON、点云、传感器日志等数据,并适配多机器人型号和硬件平台差异。  3、建设高并发数据平台后端与任务系统,支持任务提交、状态流转、幂等控制、异步调度、失败重试、限流、回调和可观测性。  4、建设大规模数据处理 pipeline,支撑质检、清洗、标注、Caption、特征抽取、数据回流和训练数据构建。  5、依托 AI Coding 工具完成平台前端、数据看板、管理后台和运维工具开发,具备端到端全栈交付能力。
+REQ 职位要求 1、本科及以上,计算机、软件工程、机器人、自动化等相关专业,计算机基础扎实。  2、熟练 Python 或 Go,具备高并发服务、并发编程、异步任务、工程化开发和测试经验;Python/Go 双栈优先。  3、熟悉 Linux、Shell、网络、IO、进程/线程,具备线上排查、性能分析和资源优化能力。  4、熟悉 ROS/ROS2 和 rosbag,具备机器人多源数据解析、转换、同步或性能优化经验。  5、熟悉数据湖仓或大数据技术,如 Iceberg/Paimon/Hudi、Spark/Flink、Trino/ClickHouse 等。  6、熟悉数据库、对象存储、消息队列或任务调度系统,如 PostgreSQL/MySQL、OSS/S3、Kafka、Ray、Prefect 等。  7、具备 AI 辅助全栈开发能力,能快速交付内部平台、数据看板和可视化工具;熟悉 Docker、Kubernetes、CI/CD 优先。  8、具备 Ownership,能独立完成需求分析、方案设计、开发落地、测试验证和问题复盘。 加分项 1、有大规模机器人、自动驾驶、具身智能或多模态数据平台经验
+
+==== 47 E0118 TITLE 多模态算法工程师
+O7 TC_FOUNDATION_MODEL | GENERAL | UNCONDITIONAL | 多模态大模型
+O9 TC_FOUNDATION_MODEL | PREFERRED | UNCONDITIONAL | 多模态大模型
+DUTY 职位描述 您将深度参与下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作,跟踪前沿多模态大模型进展,理解模型能力边界(理解、推理、空间/时间定位等),为具身基座模型训练提供高质量数据。  具体涉及以下任一或多项内容: 1. 多模态数据(文本、视觉、动作等)清洗、标注和格式化。构建高效的数据处理流程,支持模型训练与推理。 2. 构建分布合理的视频理解数据 (人类行为、事件识别) 和高质量 Video Caption/Temporal Grounding;构造CoT真值,进行长程行为/任务拆解,提供逻辑清晰的中间推理步骤。 3. 系统性地评估数据的集中、离散程度和形状特征,使用高维数据降维技术 (PCA, t-SNE等) 可视化和量化潜在的流形结构和数据的内在维度。
+REQ 职位要求 1、了解多模态大模型范式,熟悉多模态数据的清洗/标注/统计方式,对数据在训练中的作用和大模型能力边界有深刻理解。 2、能够设计pipeline和优化prompt,熟悉分布式数据处理,提升数据生产的质量和效率。 3、熟悉数据处理工具(如Pandas、NumPy等)并完成完整数据处理流程;熟悉Python编程,了解Linux环境和常见开发工具。 4、对数据质量和多样性有高标准,细致负责,发现并解决数据问题。 加分项: 1、有实际多模态大模型训练经验。 2、有该方向相关会议文章发表的优先。
+
+==== 49 E0344 TITLE Senior Staff Data Scientist, Robotics
+O3 SK_SURVIVAL_ANALYSIS | PREFERRED | CHOICE | survival analysis
+O4 SK_SURVIVAL_ANALYSIS | GENERAL | UNRESOLVED | survival analysis
+O17 TC_RELIABILITY | GENERAL | UNRESOLVED | reliability
+DUTY Predictive maintenance & hardware reliability . Build models that predict MTBF and remaining useful life for specific components (actuators, cameras, compute, power systems). Partner with hardware engineering to model wear-and-tear under varying duty cycles, payloads, and environmental conditions, and turn those models into maintenance schedules and design feedback. Fleet performance & RaaS unit e
+REQ 10+ years applying data science / statistical modeling to real-world problems, with a track record of owning ambiguous, high-impact problems end to end. MS or PhD in Statistics, Computer Science, Operations Research, Engineering, Physics, or a related quantitative field; or equivalent professional experience. PhD and coursework/experience in reliability engineering, survival analysis, or applied statistics preferred. Prior work in robotics, autonomous systems, hardware, IoT/connected devices, in
+
+==== 68 E0603 TITLE Data Annotation Lead
+O7 TC_ML_MODELS | GENERAL | UNCONDITIONAL | ML
+DUTY - Own annotation operations end-to-end: throughput, quality, cost, and on-time delivery across all annotation types.   - Scale the annotation workforce from 100s to 1,000s: workforce planning, org design, and the hiring and onboarding funnel.   - Build and lead a multi-layer management structure; hire, develop, and manage managers and team leads.   - Scale throughput with autolabeling and model-ba
+REQ - 7+ years leading scaled data or annotation operations, including teams in the 100s+.   - 3+ years as a manager of managers.   - Track record standing up 0→1 annotation programs.   - Deep command of annotation best practices, operations, and strategy.   - Experience integrating autolabeling and model-based annotation into human workflows; building human-in-the-loop pipelines that raise throughput without sacrificing quality.   - Fluency with operational and quality metrics; data-driven manageme

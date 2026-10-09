@@ -1,0 +1,11 @@
+﻿conclusion_id,question,status,wording,sensitivity,counterexample
+R_T6_01,Q1,SUPPORTED_DESCRIPTIVE,制造、软件、ML是本目录下样本广告总量前三；不能推断行业总体人才结构,等权/加权接近,机器人操作等权高于加权
+R_T6_02,Q3,SUPPORTED_DESCRIPTIVE,整公司研究/部署与维护/质量活动位于专门职能之外分别48/66、264/343、300/459,ALL24与S1方向一致,同名职能不是空集
+R_T6_03,Q3,ADJUDICATED,争议格复核后共同承担成立，整公司三对65、301、235/1599,关系未知0,共现不是流程依赖
+R_T6_04,Q2v1,SUPPORTED_WITH_CATALOG_LIMITS,原两职能v1读数保留；来源筛选改变组成,v1固定35项,v2新口径不是v1纠错
+R_T6_05,BUSINESS,SUPPORTED_FACTS_WITH_UNKNOWN_RESPONSIBILITIES,龙旗支持智元G2使用与共同开发；宁德时代支持银河通用S1产线使用；付款与全部运维未知,材料早于招聘观察日,招聘缺失不反推外包
+R_T6_06,EXPLANATION,SUPPORTED_WITH_COMPLETED_O_D_Q,对象、受众及构成分析已完成：84条多数产品未知；Galbot×Figure工程分解+11.10/+19.45/−8.35；Q2十七类均有L0及可行层级结果,S1–S3、等权/加权、未知边界、精确重复职责,研究科学与机器人操作无L3
+Q_T6_01,Q2,SUPPORTED_DESCRIPTIVE,"17类1,576条完成编码；目录保持Q2-v2.1；研究科学与机器人操作无组汇总主图",L0全覆盖不等于L3,硬件覆盖21家但广告分散
+Q_T6_02,Q2,EXPLORATORY_CELL_SPECIFIC,整公司一般要求下ML Python 60/135、软件Linux 70/177、控制闭环52/75；C++未知宽,未知赋值、逐一剔除、S1 29/71,部署Python被Field AI主导
+Q_T6_03,Q2,NOT_A_TASK_EQUIVALENCE,同主职能不同任务子类不可解释为同一任务的技术选择,Q4_task_strata.csv,制造测试88 vs 采购29；软件运行时87 vs 开发基础设施44
+Q_T6_04,Q2,CATALOG_LIMIT,目录外2329条，本轮不发布v2.2,缺口审计,FPGA任务存在但工具未入目录

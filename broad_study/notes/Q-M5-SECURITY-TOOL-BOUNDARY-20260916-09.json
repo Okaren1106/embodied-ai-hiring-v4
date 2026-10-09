@@ -1,0 +1,148 @@
+{
+  "revision_id": "Q-M5-SECURITY-TOOL-BOUNDARY-20260916-09",
+  "reader": "Astra",
+  "reason": "安全开发工具不能在缺少明确评测用途时自动算评测技术开发",
+  "before": {
+    "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+    "task": "OTHER",
+    "fine_task": "PRODUCT_DEVICE_EMBEDDED_CYBERSECURITY",
+    "task_evidence": "Build frameworks and systems to protect from common attacks and reverse engineering for embedded systems",
+    "new": {
+      "1": "REJECT:in-office为工作地点方式。",
+      "2": [
+        [
+          "V2_C",
+          "GENERAL",
+          "UNRESOLVED"
+        ]
+      ]
+    },
+    "old_overrides": {
+      "O3": {
+        "metric": "DUTY_OWN_USE",
+        "branch": "UNCONDITIONAL",
+        "relation": "OWN_USE",
+        "reason": "Hunt weaknesses是本人执行安全评估，不等同开发安全系统；另有自主保护框架开发。"
+      },
+      "O16": {
+        "metric": "GENERAL",
+        "branch": "UNRESOLVED",
+        "relation": "EXPERIENCE_REQUIREMENT",
+        "reason": "hardware security要求旧定位到职责，改用3年经验完整句。",
+        "quote": "3+ years of experience in the field of application/hardware security or related security role"
+      }
+    },
+    "additions": [
+      {
+        "code": "TC_SAFETY",
+        "metric": "DUTY_OWN_DEVELOP",
+        "branch": "UNCONDITIONAL",
+        "quote": "Build frameworks and systems to protect from common attacks and reverse engineering for embedded systems",
+        "reason": "明确开发产品与嵌入式系统安全保护框架，宽安全大类覆盖但不解释为机器人功能安全。"
+      },
+      {
+        "code": "TC_EVALUATION",
+        "metric": "DUTY_OWN_DEVELOP",
+        "branch": "UNCONDITIONAL",
+        "quote": "build tooling for a secure design/development lifecycle of complex hardware systems",
+        "reason": "明确开发安全设计评估相关工具，保留安全任务细分。"
+      }
+    ],
+    "outside_extra": [
+      {
+        "quote": "hardware reverse engineering, firmware security, security architecture & design, electrical engineering and design, micro-controller security, and cryptography.",
+        "description": "若干安全领域任选要求；密码学、硬件逆向等尚无冻结硬件细项，不用安全大类冒充具体工具覆盖。"
+      }
+    ],
+    "notes": "保留认可硬件主职能，细分为产品设备信息安全；TC_SAFETY冻结定义为产品/系统/作业安全，包含此处安全目标，但不可与功能安全认证要求混为一谈。",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4555450006|46cd2f884faf82510a2148a0705d043a4f4be84083b950387d75222ff6a1ec91",
+    "company_id": "US_FIGURE",
+    "role": "RF_HARDWARE_ELECTRICAL",
+    "status": "CODED_FIRST_PASS",
+    "reviewed_inherited_count": 16,
+    "reviewed_candidate_count": 2,
+    "task_evidence_location": {
+      "field": "duties",
+      "start": 301,
+      "end": 405,
+      "method": "UNIQUE_EXACT_QUOTE",
+      "quote": "Build frameworks and systems to protect from common attacks and reverse engineering for embedded systems"
+    },
+    "reader": "Astra",
+    "qc_status": "PENDING_SECOND_PASS",
+    "source_version": "46cd2f884faf82510a2148a0705d043a4f4be84083b950387d75222ff6a1ec91",
+    "full_text_read": true,
+    "updated_utc": "2026-09-16T07:50:49.471506+00:00"
+  },
+  "after": {
+    "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+    "task": "OTHER",
+    "fine_task": "PRODUCT_DEVICE_EMBEDDED_CYBERSECURITY",
+    "task_evidence": "Build frameworks and systems to protect from common attacks and reverse engineering for embedded systems",
+    "new": {
+      "1": "REJECT:in-office为工作地点方式。",
+      "2": [
+        [
+          "V2_C",
+          "GENERAL",
+          "UNRESOLVED"
+        ]
+      ]
+    },
+    "old_overrides": {
+      "O3": {
+        "metric": "DUTY_OWN_USE",
+        "branch": "UNCONDITIONAL",
+        "relation": "OWN_USE",
+        "reason": "Hunt weaknesses是本人执行安全评估，不等同开发安全系统；另有自主保护框架开发。"
+      },
+      "O16": {
+        "metric": "GENERAL",
+        "branch": "UNRESOLVED",
+        "relation": "EXPERIENCE_REQUIREMENT",
+        "reason": "hardware security要求旧定位到职责，改用3年经验完整句。",
+        "quote": "3+ years of experience in the field of application/hardware security or related security role"
+      }
+    },
+    "additions": [
+      {
+        "code": "TC_SAFETY",
+        "metric": "DUTY_OWN_DEVELOP",
+        "branch": "UNCONDITIONAL",
+        "quote": "Build frameworks and systems to protect from common attacks and reverse engineering for embedded systems",
+        "reason": "明确开发产品与嵌入式系统安全保护框架，宽安全大类覆盖但不解释为机器人功能安全。"
+      }
+    ],
+    "outside_extra": [
+      {
+        "quote": "hardware reverse engineering, firmware security, security architecture & design, electrical engineering and design, micro-controller security, and cryptography.",
+        "description": "若干安全领域任选要求；密码学、硬件逆向等尚无冻结硬件细项，不用安全大类冒充具体工具覆盖。"
+      },
+      {
+        "quote": "build tooling for a secure design/development lifecycle of complex hardware systems",
+        "description": "安全开发生命周期工具未明确为评测工具；保留原文而不补TC_EVALUATION开发。"
+      }
+    ],
+    "notes": "保留认可硬件主职能，细分为产品设备信息安全；TC_SAFETY冻结定义为产品/系统/作业安全，包含此处安全目标，但不可与功能安全认证要求混为一谈。 首轮登记后定义复查：安全开发生命周期工具未明确用于评测，撤回该补录；已有本人安全评估执行仍保留。",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4555450006|46cd2f884faf82510a2148a0705d043a4f4be84083b950387d75222ff6a1ec91",
+    "company_id": "US_FIGURE",
+    "role": "RF_HARDWARE_ELECTRICAL",
+    "status": "CODED_FIRST_PASS",
+    "reviewed_inherited_count": 16,
+    "reviewed_candidate_count": 2,
+    "task_evidence_location": {
+      "field": "duties",
+      "start": 301,
+      "end": 405,
+      "method": "UNIQUE_EXACT_QUOTE",
+      "quote": "Build frameworks and systems to protect from common attacks and reverse engineering for embedded systems"
+    },
+    "reader": "Astra",
+    "qc_status": "PENDING_SECOND_PASS",
+    "source_version": "46cd2f884faf82510a2148a0705d043a4f4be84083b950387d75222ff6a1ec91",
+    "full_text_read": true,
+    "updated_utc": "2026-09-16T07:51:18.954367+00:00"
+  },
+  "original_inputs_unchanged": true,
+  "full_second_pass": false
+}

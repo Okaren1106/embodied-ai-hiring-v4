@@ -1,0 +1,570 @@
+{
+  "revision_id": "Q-M5-THERMAL-DEFINITION-20260916-06",
+  "reviewer": "Astra",
+  "created_utc": "2026-09-16T06:44:05.983007+00:00",
+  "scope": "All inherited thermal-management occurrences in currently first-pass-coded ads; targeted definition review, not full second-pass QC",
+  "coded_ads_at_review": 236,
+  "reviewed_ads": 12,
+  "reviewed_occurrences": 14,
+  "changes": [
+    {
+      "reading_id": "E0124",
+      "evidence_id": "O4",
+      "before": null,
+      "after": {
+        "metric": "DUTY_OWN_USE",
+        "branch": "UNCONDITIONAL",
+        "relation": "OWN_USE",
+        "reason": "明确散热接口对接支持热管理概念；本人承担接口集成，未明确设计散热接口。"
+      },
+      "original": {
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7667407461385472266|62f3cd7c0a57972ea5d40e21601193d52530772f63c3ad01fde83b9bfbf20649",
+        "reading_id": "E0124",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "origin": "INHERITED_ACCEPTED",
+        "prior_context": "DUTY",
+        "prior_use": "DUTY_USE",
+        "prior_relation": "OWN_DEVELOP",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "requirement_node_id": "",
+        "field": "duties",
+        "start": 124,
+        "end": 130,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "散热接口对接"
+      }
+    },
+    {
+      "reading_id": "E0430",
+      "evidence_id": "O9",
+      "before": null,
+      "after": {
+        "metric": "SEPARATE",
+        "branch": "BACKGROUND",
+        "relation": "BACKGROUND",
+        "reason": "仅提出thermal constraints，未明确散热、热仿真、热路径或热布局；不足冻结定义，不由硬件架构职能补值。"
+      },
+      "original": {
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6144140004|34ae70bcf3937b24e4e0021e14267772a3db44ab6d165c77fdc3af098da5ea23",
+        "reading_id": "E0430",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "origin": "INHERITED_ACCEPTED",
+        "prior_context": "DUTY",
+        "prior_use": "DUTY_USE",
+        "prior_relation": "OWN_DEVELOP",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "requirement_node_id": "",
+        "field": "duties",
+        "start": 1415,
+        "end": 1460,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design for EMC, ESD, and thermal constraints."
+      }
+    },
+    {
+      "reading_id": "E0467",
+      "evidence_id": "O9",
+      "before": {
+        "metric": "DUTY_OWN_USE",
+        "branch": "UNCONDITIONAL",
+        "relation": "OWN_USE",
+        "reason": "功耗与热表现验证，非设计热管理系统"
+      },
+      "after": {
+        "metric": "SEPARATE",
+        "branch": "BACKGROUND",
+        "relation": "BACKGROUND",
+        "reason": "thermals性能验证与温度测量不明确热管理/热设计；仅保留既有评测职责，不推热设计概念。"
+      },
+      "original": {
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4615252006|93a2b5ce568ea0cc051dc0d2cb317d86a55d544ee8ed2d4a7fbbaa615ffa7e5d",
+        "reading_id": "E0467",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "origin": "INHERITED_ACCEPTED",
+        "prior_context": "DUTY",
+        "prior_use": "DUTY_USE",
+        "prior_relation": "OWN_DEVELOP",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "requirement_node_id": "",
+        "field": "duties",
+        "start": 273,
+        "end": 303,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "power consumption and thermals"
+      }
+    },
+    {
+      "reading_id": "N0339",
+      "evidence_id": "O12",
+      "before": null,
+      "after": {
+        "metric": "DUTY_OWN_DEVELOP",
+        "branch": "EXAMPLE",
+        "relation": "OWN_DEVELOP",
+        "reason": "明确热设计；电气性能、尺寸、热设计等受等示例列表支配，不列无条件职责。"
+      },
+      "original": {
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|af6281ec-f116-4987-b5a5-a1a56fbbdc8d|847c0b1da6009ea36d1f723b41b952e135596bff8a0b8b811df9a4db5524dc6d",
+        "reading_id": "N0339",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "origin": "INHERITED_ACCEPTED",
+        "prior_context": "DUTY",
+        "prior_use": "DUTY_USE",
+        "prior_relation": "OWN_DEVELOP",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "requirement_node_id": "",
+        "field": "full_description",
+        "start": 153,
+        "end": 224,
+        "method": "RECOVER_END_FROM_QUOTE",
+        "quote": "1. 使用EDA工具（如Altium Designer、PADS、Cadence等）进行PCB设计，确保电气性能、尺寸、热设计等方面的需求。 "
+      }
+    },
+    {
+      "reading_id": "N0784",
+      "evidence_id": "O13",
+      "before": {
+        "metric": "DUTY_OWN_USE",
+        "branch": "UNCONDITIONAL",
+        "relation": "OWN_USE",
+        "reason": "本人安装thermal components，不能算独立热设计。"
+      },
+      "after": {
+        "metric": "SEPARATE",
+        "branch": "BACKGROUND",
+        "relation": "BACKGROUND",
+        "reason": "thermal components安装对象不足冻结热管理定义；本广告另有明确thermal management优先要求，独立保留。"
+      },
+      "original": {
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|775c2b2c-72d2-4ac2-afbb-e2bf985340f2|c3648d5c90479c6c8f410f89c210d4e60700587d2102525f0e4d689dfcf1bb90",
+        "reading_id": "N0784",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "origin": "INHERITED_ACCEPTED",
+        "prior_context": "DUTY",
+        "prior_use": "DUTY_USE",
+        "prior_relation": "UNRESOLVED",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "requirement_node_id": "",
+        "field": "full_description",
+        "start": 1679,
+        "end": 1767,
+        "method": "RECOVER_END_FROM_QUOTE",
+        "quote": "Install mounts, enclosures, gaskets, seals, thermal components, and structural hardware."
+      }
+    },
+    {
+      "reading_id": "N0792",
+      "evidence_id": "O11",
+      "before": {
+        "metric": "DUTY_OWN_USE",
+        "branch": "UNCONDITIONAL",
+        "relation": "OWN_USE",
+        "reason": "本人安装thermal components是使用，不推为散热设计。"
+      },
+      "after": {
+        "metric": "SEPARATE",
+        "branch": "BACKGROUND",
+        "relation": "BACKGROUND",
+        "reason": "thermal components安装对象未明示散热/热仿真/热路径/热布局；不将泛称温度相关部件自动等同热管理。"
+      },
+      "original": {
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|3308afcb-a875-48b3-9045-8aa620ff963c|4e587644ef07e733bf1306423d96abf6f0b524cebd76d0e26714c4b3c2aa4ff4",
+        "reading_id": "N0792",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "origin": "INHERITED_ACCEPTED",
+        "prior_context": "DUTY",
+        "prior_use": "DUTY_USE",
+        "prior_relation": "UNRESOLVED",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "requirement_node_id": "",
+        "field": "full_description",
+        "start": 1608,
+        "end": 1696,
+        "method": "RECOVER_END_FROM_QUOTE",
+        "quote": "Install mounts, enclosures, gaskets, seals, thermal components, and structural hardware."
+      }
+    }
+  ],
+  "ledger": [
+    {
+      "reading_id": "E0014",
+      "evidence_id": "O8",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "b0fcdc81aa4ca10082a175a85c786538370455c3139c9299d53230e769f8497f",
+      "original_quote": "液冷基础设施",
+      "decision": "REVIEWED_KEEP",
+      "reason": "液冷基础设施是采购对象，维持分离语境，不计本人热设计。",
+      "effective_override": null,
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "3、算力中心建设采购:负责算力中心建设阶段物资采购,AI 服务器、GPU 加速卡、交换机、IB 网络、光模块、存储、UPS、精密空调、机柜、液冷基础设施、动环设备等硬件寻源、技术对标、商务谈判、订单、交付验收;配合基建、工程团队推进算力中心落地建设、集群部署进场、到货验收。"
+        },
+        {
+          "field": "full_description",
+          "quote": "3、算力中心建设采购：负责算力中心建设阶段物资采购，AI 服务器、GPU 加速卡、交换机、IB 网络、光模块、存储、UPS、精密空调、机柜、液冷基础设施、动环设备等硬件寻源、技术对标、商务谈判、订单、交付验收；配合基建、工程团队推进算力中心落地建设、集群部署进场、到货验收。"
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "E0124",
+      "evidence_id": "O4",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "62f3cd7c0a57972ea5d40e21601193d52530772f63c3ad01fde83b9bfbf20649",
+      "original_quote": "散热接口对接",
+      "decision": "REVISED",
+      "reason": "明确散热接口对接支持热管理概念；本人承担接口集成，未明确设计散热接口。",
+      "effective_override": {
+        "metric": "DUTY_OWN_USE",
+        "branch": "UNCONDITIONAL",
+        "relation": "OWN_USE",
+        "reason": "明确散热接口对接支持热管理概念；本人承担接口集成，未明确设计散热接口。"
+      },
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "3.  负责关节模组与整机之间的机械、电气、通信、软件及散热接口对接。 "
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "E0148",
+      "evidence_id": "O9",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "b00164a50820198743fe12ac56be5b6603ab87fac43add8081237a8a783423f9",
+      "original_quote": "热管理问题定位",
+      "decision": "REVIEWED_KEEP",
+      "reason": "配合研发定位热管理问题，维持协作语境。",
+      "effective_override": null,
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "- 配合研发团队进行结构、电气、电子硬件、嵌入式和热管理问题定位。"
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "E0151",
+      "evidence_id": "O8",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "5f270f049b6aee3c4122247cb87d60ad79e49b5e256435a186e306c1a11cb814",
+      "original_quote": "热管理和感知团队",
+      "decision": "REVIEWED_KEEP",
+      "reason": "热管理团队为协作对象，维持分离语境。",
+      "effective_override": null,
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "- 协同机械、电气、电子硬件、嵌入式、热管理和感知团队完成失效分析。"
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "E0430",
+      "evidence_id": "O9",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "34ae70bcf3937b24e4e0021e14267772a3db44ab6d165c77fdc3af098da5ea23",
+      "original_quote": "Design for EMC, ESD, and thermal constraints.",
+      "decision": "REVISED",
+      "reason": "仅提出thermal constraints，未明确散热、热仿真、热路径或热布局；不足冻结定义，不由硬件架构职能补值。",
+      "effective_override": {
+        "metric": "SEPARATE",
+        "branch": "BACKGROUND",
+        "relation": "BACKGROUND",
+        "reason": "仅提出thermal constraints，未明确散热、热仿真、热路径或热布局；不足冻结定义，不由硬件架构职能补值。"
+      },
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "Design and validate high-speed digital interfaces (CSI-2, GMSL2/FPD-Link/PoC, 10GbE) including signal integrity, impedance control, and length-matching. Architect the board's power tree for proper power sequencing and low-power consumption. Design for EMC, ESD, and thermal constraints."
+        },
+        {
+          "field": "duties",
+          "quote": "Collaborate closely with cross-functional teams, including technical lead, project managers, software, mechanical, thermal, systems engineers, and manufacturing. Act as a mentor within the electrical engineering team, guiding junior engineers on best practices for hardware design, documentation, and troubleshooting."
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "E0464",
+      "evidence_id": "O7",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "ba3568a67aa31150410d39af4dce2152e1832bd58c21ff7e732126b637876a10",
+      "original_quote": "thermal considerations",
+      "decision": "REVIEWED_KEEP",
+      "reason": "首轮已排除泛称thermal considerations，本次核对维持。",
+      "effective_override": {
+        "metric": "SEPARATE",
+        "branch": "BACKGROUND",
+        "relation": "BACKGROUND",
+        "reason": "仅thermal considerations未明确散热、热仿真、热路径或热布局设计，按冻结热管理定义不构成正例"
+      },
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "Design across analog, digital, and power domains on the same board — managing signal integrity, noise isolation, and thermal considerations"
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "E0467",
+      "evidence_id": "O9",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "93a2b5ce568ea0cc051dc0d2cb317d86a55d544ee8ed2d4a7fbbaa615ffa7e5d",
+      "original_quote": "power consumption and thermals",
+      "decision": "REVISED",
+      "reason": "thermals性能验证与温度测量不明确热管理/热设计；仅保留既有评测职责，不推热设计概念。",
+      "effective_override": {
+        "metric": "SEPARATE",
+        "branch": "BACKGROUND",
+        "relation": "BACKGROUND",
+        "reason": "thermals性能验证与温度测量不明确热管理/热设计；仅保留既有评测职责，不推热设计概念。"
+      },
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "Plan and execute subsystem and system-level validation of electrical system, actuation performance, power consumption and thermals."
+        },
+        {
+          "field": "duties",
+          "quote": "Debug complex cross-disciplinary issues across hardware, firmware, controls, and mechanics using telemetry, oscilloscopes, DAQs, power analyzers, and thermal instrumentation."
+        },
+        {
+          "field": "requirements",
+          "quote": "Skilled with lab instrumentation including oscilloscopes, power analyzers, DAQs, and thermal sensors."
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "E0479",
+      "evidence_id": "O6",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "ee29ecf4ae8b4ad8412462f4bb2d3a8f4d3c51d978a3ee81985bc0449f5d32b3",
+      "original_quote": "including structural, thermal, and electromechanical subassemblies",
+      "decision": "REVIEWED_KEEP",
+      "reason": "thermal subassemblies属于采购对象，维持分离语境。",
+      "effective_override": null,
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "Develop and execute sourcing strategies for battery cells (pouch, cylindrical, prismatic) and pack-level components, including structural, thermal, and electromechanical subassemblies."
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "N0339",
+      "evidence_id": "O12",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "847c0b1da6009ea36d1f723b41b952e135596bff8a0b8b811df9a4db5524dc6d",
+      "original_quote": "1. 使用EDA工具（如Altium Designer、PADS、Cadence等）进行PCB设计，确保电气性能、尺寸、热设计等方面的需求。 ",
+      "decision": "REVISED",
+      "reason": "明确热设计；电气性能、尺寸、热设计等受等示例列表支配，不列无条件职责。",
+      "effective_override": {
+        "metric": "DUTY_OWN_DEVELOP",
+        "branch": "EXAMPLE",
+        "relation": "OWN_DEVELOP",
+        "reason": "明确热设计；电气性能、尺寸、热设计等受等示例列表支配，不列无条件职责。"
+      },
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "1. 使用EDA工具（如Altium Designer、PADS、Cadence等）进行PCB设计，确保电气性能、尺寸、热设计等方面的需求。 "
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "N0784",
+      "evidence_id": "O13",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "c3648d5c90479c6c8f410f89c210d4e60700587d2102525f0e4d689dfcf1bb90",
+      "original_quote": "Install mounts, enclosures, gaskets, seals, thermal components, and structural hardware.",
+      "decision": "REVISED",
+      "reason": "thermal components安装对象不足冻结热管理定义；本广告另有明确thermal management优先要求，独立保留。",
+      "effective_override": {
+        "metric": "SEPARATE",
+        "branch": "BACKGROUND",
+        "relation": "BACKGROUND",
+        "reason": "thermal components安装对象不足冻结热管理定义；本广告另有明确thermal management优先要求，独立保留。"
+      },
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "●     Install mounts, enclosures, gaskets, seals, thermal components, and structural hardware."
+        },
+        {
+          "field": "duties",
+          "quote": "●     Support environmental, vibration, mechanical alignment, and thermal characterization tests led by hardware engineers."
+        },
+        {
+          "field": "duties",
+          "quote": "●     Diagnose wiring faults, mechanical misalignments, intermittent communication issues, thermal faults, and other integration failures."
+        },
+        {
+          "field": "duties",
+          "quote": "●     Understanding of thermal management, weather sealing, EMI/EMC basics, and ruggedized mechanical design."
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "N0784",
+      "evidence_id": "O23",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "c3648d5c90479c6c8f410f89c210d4e60700587d2102525f0e4d689dfcf1bb90",
+      "original_quote": "thermal management",
+      "decision": "REVIEWED_KEEP",
+      "reason": "明确Understanding of thermal management，保持优先知识要求，不由安装部件推出。",
+      "effective_override": null,
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "●     Install mounts, enclosures, gaskets, seals, thermal components, and structural hardware."
+        },
+        {
+          "field": "duties",
+          "quote": "●     Support environmental, vibration, mechanical alignment, and thermal characterization tests led by hardware engineers."
+        },
+        {
+          "field": "duties",
+          "quote": "●     Diagnose wiring faults, mechanical misalignments, intermittent communication issues, thermal faults, and other integration failures."
+        },
+        {
+          "field": "duties",
+          "quote": "●     Understanding of thermal management, weather sealing, EMI/EMC basics, and ruggedized mechanical design."
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "N0792",
+      "evidence_id": "O11",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "4e587644ef07e733bf1306423d96abf6f0b524cebd76d0e26714c4b3c2aa4ff4",
+      "original_quote": "Install mounts, enclosures, gaskets, seals, thermal components, and structural hardware.",
+      "decision": "REVISED",
+      "reason": "thermal components安装对象未明示散热/热仿真/热路径/热布局；不将泛称温度相关部件自动等同热管理。",
+      "effective_override": {
+        "metric": "SEPARATE",
+        "branch": "BACKGROUND",
+        "relation": "BACKGROUND",
+        "reason": "thermal components安装对象未明示散热/热仿真/热路径/热布局；不将泛称温度相关部件自动等同热管理。"
+      },
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "Install mounts, enclosures, gaskets, seals, thermal components, and structural hardware."
+        },
+        {
+          "field": "duties",
+          "quote": "Support environmental, vibration, mechanical alignment, and thermal characterization tests led by hardware engineers."
+        },
+        {
+          "field": "duties",
+          "quote": "Diagnose wiring faults, mechanical misalignments, intermittent communication issues, thermal faults, and other integration failures."
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "N0951",
+      "evidence_id": "O23",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "1239ee5f6082fdd1ae1a0e66b965959a5541d720e4a1197b74759a26c75237ba",
+      "original_quote": "Expertise in inverter and motor drive circuit design, including MOSFET/IGBT selection, gate driver design, power stage layout, and thermal management for brushless DC or permanent magnet synchronous motor applications",
+      "decision": "REVIEWED_KEEP",
+      "reason": "明确thermal management知识，局部including示例分支已修订。",
+      "effective_override": {
+        "metric": "GENERAL",
+        "branch": "EXAMPLE",
+        "relation": "EXPERIENCE_REQUIREMENT",
+        "reason": "包括thermal management为电路经验示例"
+      },
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "•\tLead PCB-level design of compact, high-power-density motor drive boards, including schematic capture, component selection, and collaboration with PCB layout engineers to achieve signal integrity, thermal, and EMC requirements in constrained actuator form factors"
+        },
+        {
+          "field": "duties",
+          "quote": "•\tCharacterize and optimize inverter switching performance, efficiency, and thermal behavior across the full operating envelope of FAR's actuator variants, using bench measurements and simulation to guide design decisions"
+        },
+        {
+          "field": "duties",
+          "quote": "Your day centers on the full electronics development cycle for our custom actuator drive systems. You might start by reviewing simulation results for a new inverter topology, then transition to the lab to characterize switching losses and thermal performance on a prototype motor drive board. Later in the day, you could be collaborating with motor design engineers on back-EMF waveform analysis, refining gate drive timing to optimize inverter efficiency, or working with firmware engineers to define current sensing interfaces and hardware abstraction layers."
+        },
+        {
+          "field": "duties",
+          "quote": "Across the week, you'll be involved in schematic capture and PCB layout reviews with your design team, participating in design review gates, and iterating on hardware based on test findings. You'll navigate the challenge of fitting high-performance drive electronics into compact, thermally constrained actuator packages—designing for the power density, reliability, and robustness our robots demand. Your work will span from concept and architecture through silicon bring-up, and you'll play a key role in defining the electronics roadmap for FAR's actuator portfolio."
+        },
+        {
+          "field": "duties",
+          "quote": "- Expertise in inverter and motor drive circuit design, including MOSFET/IGBT selection, gate driver design, power stage layout, and thermal management for brushless DC or permanent magnet synchronous motor applications"
+        },
+        {
+          "field": "duties",
+          "quote": "- Hands-on experience with power electronics lab characterization, including use of oscilloscopes, power analyzers, thermal cameras, and network analyzers for drive circuit validation"
+        }
+      ],
+      "full_qc_completed": false
+    },
+    {
+      "reading_id": "N0951",
+      "evidence_id": "O8",
+      "code": "TC_THERMAL_MANAGEMENT",
+      "source_version": "1239ee5f6082fdd1ae1a0e66b965959a5541d720e4a1197b74759a26c75237ba",
+      "original_quote": "Characterize and optimize inverter switching performance, efficiency, and thermal behavior across the full operating envelope of FAR's actuator variants, using bench measurements and simulation to guide design decisions",
+      "decision": "REVIEWED_KEEP",
+      "reason": "优化逆变器热行为并用仿真指导设计，结合紧凑板级布局与热要求，明确热设计工作。",
+      "effective_override": null,
+      "reviewed_context": [
+        {
+          "field": "duties",
+          "quote": "•\tLead PCB-level design of compact, high-power-density motor drive boards, including schematic capture, component selection, and collaboration with PCB layout engineers to achieve signal integrity, thermal, and EMC requirements in constrained actuator form factors"
+        },
+        {
+          "field": "duties",
+          "quote": "•\tCharacterize and optimize inverter switching performance, efficiency, and thermal behavior across the full operating envelope of FAR's actuator variants, using bench measurements and simulation to guide design decisions"
+        },
+        {
+          "field": "duties",
+          "quote": "Your day centers on the full electronics development cycle for our custom actuator drive systems. You might start by reviewing simulation results for a new inverter topology, then transition to the lab to characterize switching losses and thermal performance on a prototype motor drive board. Later in the day, you could be collaborating with motor design engineers on back-EMF waveform analysis, refining gate drive timing to optimize inverter efficiency, or working with firmware engineers to define current sensing interfaces and hardware abstraction layers."
+        },
+        {
+          "field": "duties",
+          "quote": "Across the week, you'll be involved in schematic capture and PCB layout reviews with your design team, participating in design review gates, and iterating on hardware based on test findings. You'll navigate the challenge of fitting high-performance drive electronics into compact, thermally constrained actuator packages—designing for the power density, reliability, and robustness our robots demand. Your work will span from concept and architecture through silicon bring-up, and you'll play a key role in defining the electronics roadmap for FAR's actuator portfolio."
+        },
+        {
+          "field": "duties",
+          "quote": "- Expertise in inverter and motor drive circuit design, including MOSFET/IGBT selection, gate driver design, power stage layout, and thermal management for brushless DC or permanent magnet synchronous motor applications"
+        },
+        {
+          "field": "duties",
+          "quote": "- Hands-on experience with power electronics lab characterization, including use of oscilloscopes, power analyzers, thermal cameras, and network analyzers for drive circuit validation"
+        }
+      ],
+      "full_qc_completed": false
+    }
+  ],
+  "frozen_definition": "明确散热、热仿真、热路径或热布局设计。",
+  "protected_original_reference_unchanged": true
+}

@@ -1,0 +1,36 @@
+{
+  "policy_version": "stage-b-repair-relations-v1-2026-09-14",
+  "locked_input_note": "This document is part of the locked input set. It records the policy under which every fact-to-evidence relation was reviewed row by row; the relations themselves are declared in work/pilot_facts_v2_*.json and are locked by the same input digest.",
+  "roles": {
+    "SUPPORTS": "the evidence states the assertion for this subject and scope; it counts toward establishing the value and, when it carries a date, toward the assertion's time qualification",
+    "REFUTES": "the evidence contradicts the assertion; it may qualify the date but never establishes the value",
+    "CONTEXT_ONLY": "the evidence is background for this subject (parent-company material, an unnamed counterparty, a different scope, or a weak lead); it is displayed and never establishes the value or supplies the assertion's event/publication date",
+    "REPLACES": "the evidence supersedes another source on the same point; the conflict is preserved rather than averaged",
+    "ACCESS_NOTE": "the row records an access outcome (404, blocked body, search with no hits); it can never establish a value",
+    "INHERITED_CONTEXT": "inherited local material kept for traceability only"
+  },
+  "rules_applied": [
+    "No relation is inferred from an evidence id prefix; the submitted package derived SUPPORTS from the B_ prefix, which the acceptance rejected.",
+    "Every evidence row referenced by a fact must carry an explicit relation declaration; the builder fails hard when one is missing.",
+    "Only SUPPORTS and REFUTES relations may supply a fact's event date or publication date.",
+    "A company's own material never becomes an outside confirmation: evidence with claim_nature COMPANY_SELF_REPORT keeps the fact at COMPANY_SELF_REPORT.",
+    "Hiring documents establish hiring scope and requirements; they are never used as proof that the company already performs the activity.",
+    "Parent-company material is recorded as CONTEXT_ONLY for the team-level subject and can never fill a team field.",
+    "Acceptance findings applied row by row: B_US_AMAZON_FTR_007 (parent context, not a target-market support), B_US_AMAZON_FTR_004 (page binding corrected to job 10426076, and its text used only as hiring scope plus background), B_CN_XSQUARE_008 (service coverage, not payment, repeat order or sustained use), B_CN_XSQUARE_009 (financing and shareholding, not listing status), B_CN_FOURIER_010 (access note, not a channel fact)."
+  ],
+  "counts_before_repair": {
+    "links": 83,
+    "all_supports": true,
+    "note": "83 of 83 links were SUPPORTS, which is why background and access-failure material silently supported facts."
+  },
+  "counts_after_repair": {
+    "declared_relations": 113,
+    "by_role": {
+      "SUPPORTS": 90,
+      "CONTEXT_ONLY": 18,
+      "ACCESS_NOTE": 4,
+      "REPLACES": 1
+    },
+    "note": "Counts are recomputed by s03 and reported in work/build_summary.json; the numbers here are the review ledger, not a generated total."
+  }
+}

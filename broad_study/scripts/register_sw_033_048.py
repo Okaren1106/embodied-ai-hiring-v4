@@ -1,0 +1,342 @@
+"""First-pass adjudication for software coding_order 33-48. Reader: grok4.6."""
+from register_Q_decisions import register
+
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0455":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"CAMPUS_SYSTEM_INTEGRATION",
+ "secondary_task":"",
+ "task_evidence":"1. 负责机器人端应用功能开发、维护及持续迭代，保障机器人软件稳定运行。",
+ "new":{
+  "1":R+"C++ 或 Python不是C语言。",
+  "2":[["V2_DDS","GENERAL","CHOICE"],["V2_TCPIP","GENERAL","CHOICE"]],
+  "3":"DUPLICATE:N0455:2","4":"DUPLICATE:N0455:2",
+  "5":O+"HTTP未单列冻结项。","6":O+"WebSocket未单列冻结项。",
+  "7":"DUPLICATE:N0455:2",
+  "8":[["V2_GIT","GENERAL","UNCONDITIONAL"],["V2_CMAKE","GENERAL","UNCONDITIONAL"],["V2_SHELL","GENERAL","UNCONDITIONAL"]],
+  "9":"DUPLICATE:N0455:8","10":"DUPLICATE:N0455:8","11":"DUPLICATE:N0455:8"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"校招系统集成。C++/Python拒收C。"
+},
+"N0448":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"LINUX_SYS_INTERN",
+ "secondary_task":"",
+ "task_evidence":"1. 参与机器人 Linux 软件系统的开发、集成与维护，包括系统服务、驱动、工具链及基础运行环境。",
+ "new":{
+  "1":O+"Deb未单列冻结项。","2":O+"OTA未单列冻结项。",
+  "3":[["V2_CI_CD","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":"DUPLICATE:N0448:3",
+  "5":[["V2_SHELL","DUTY_OWN_DEVELOP","CHOICE_AND_EXAMPLE"]],
+  "6":"DUPLICATE:N0448:5",
+  "7":[["V2_C","GENERAL","CHOICE"],["V2_SHELL","GENERAL","CHOICE"]],
+  "8":"DUPLICATE:N0448:7","9":"DUPLICATE:N0448:7",
+  "10":[["V2_GIT","GENERAL","UNCONDITIONAL"]],
+  "11":"DUPLICATE:N0448:10",
+  "12":O+"IP未单列冻结项。","13":O+"DNS未单列冻结项。","14":O+"DHCP未单列冻结项。","15":O+"SSH未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"实习系统研发。C或C++含明确C，按任选编码。"
+},
+"N0634":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"VOICE_HRI",
+ "secondary_task":"",
+ "task_evidence":"1、负责机器人语音交互系统的整体架构设计与落地，包括麦克风阵列选型、供应商SDK（唤醒、识别、合成、对话等）的集成与适配。",
+ "new":{
+  "1":[["V2_PROCUREMENT","DUTY_OWN_USE","PROCUREMENT_OBJECT"]],
+  "2":[["V2_PROCUREMENT","DUTY_OWN_USE","PROCUREMENT_OBJECT"]],
+  "3":R+"供应商SDK集成经验不是采购专业职责的充分证据。",
+  "4":R+"C/C++或Python不是C语言。",
+  "5":R+"单独C不是该句C/C++的充分独立证据。",
+  "6":O+"LVGL未单列冻结项。","7":O+"Flutter未单列冻结项。",
+  "8":R+"音频前端供应商方案不是采购专业职责的充分证据。",
+  "9":O+"NLU未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责语音交互。供应商选型按采购对象。C/C++拒收C。"
+},
+"N0633":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"QT_HMI",
+ "secondary_task":"",
+ "task_evidence":"1. Qt上位机软件开发：负责机器人关节模组/整机在Linux/Windows平台下的Qt上位机软件架构设计与实现。",
+ "new":{
+  "1":O+"Windows未单列冻结项。",
+  "2":[["SK_QT","DUTY_OWN_DEVELOP","CHOICE"]],
+  "3":[["SK_QT","DUTY_OWN_DEVELOP","CHOICE"]],
+  "4":[["V2_CAN","DUTY_OWN_USE","EXAMPLE"],["V2_ETHERCAT","DUTY_OWN_USE","EXAMPLE"]],
+  "5":"DUPLICATE:N0633:4",
+  "6":O+"SocketCAN未单列冻结项。",
+  "7":"DUPLICATE:N0633:4",
+  "8":R+"Qt/C++不是C语言。",
+  "9":[["SK_QT","GENERAL","EXAMPLE"]],
+  "10":[["SK_QT","GENERAL","EXAMPLE"]],
+  "11":O+"QSS未单列冻结项。",
+  "12":[["SK_QT","GENERAL","EXAMPLE"]],
+  "13":[["V2_CAN","GENERAL","CHOICE"],["V2_ETHERCAT","GENERAL","CHOICE"],["V2_MODBUS","GENERAL","CHOICE"]],
+  "14":"DUPLICATE:N0633:13","15":"DUPLICATE:N0633:13","16":"DUPLICATE:N0633:13",
+  "17":O+"SocketCAN未单列冻结项。",
+  "18":O+"QThread未单列冻结项。","19":O+"QtConcurrent未单列冻结项。",
+  "20":[["SK_QT","GENERAL","EXAMPLE"]],
+  "21":[["V2_GIT","GENERAL","UNCONDITIONAL"]],
+  "22":"DUPLICATE:N0633:21"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责Qt上位机。串口不升RS485。QML按Qt编码。"
+},
+"N0632":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"BUSINESS_APP",
+ "fine_task":"KINGDEE_ERP",
+ "secondary_task":"",
+ "task_evidence":"作为金蝶 K3 的对内负责人，承接供应链、财务的日常使用需求，快速响应并解决系统问题（功能、数据、流程、权限、报表等）。",
+ "new":{
+  "1":[["V2_KINGDEE","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_KINGDEE","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_KINGDEE","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":"DUPLICATE:N0632:3",
+  "5":[["V2_KINGDEE","DUTY_OWN_USE","COLLABORATION_OBJECT"]],
+  "6":[["V2_KINGDEE","GENERAL","EXAMPLE"]],
+  "7":R+"供应链采购模块不是采购专业职责。",
+  "8":O+"BOS未单列冻结项。",
+  "9":R+"把系统语言翻译给采购同事不是采购专业职责。",
+  "10":R+"C#/.NET不是C语言。",
+  "11":O+".NET未单列冻结项。",
+  "12":[["V2_MRP","PREFERRED","UNCONDITIONAL"]],
+  "13":[["V2_KINGDEE","PREFERRED","EXAMPLE"]],
+  "14":O+"KCCP未单列冻结项。","15":O+"KCMP未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责金蝶K3。采购模块/同事拒收采购职能。C#拒收C。"
+},
+"N0658":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"PROD_SRE",
+ "secondary_task":"",
+ "task_evidence":"1. 负责生产环境的部署、监控、维护及故障处理",
+ "new":{
+  "1":[["V2_CI_CD","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0658:1",
+  "3":[["V2_AWS","DUTY_OWN_USE","CHOICE"],["V2_GCP","DUTY_OWN_USE","CHOICE"]],
+  "4":"DUPLICATE:N0658:3",
+  "5":O+"阿里云未单列冻结项。",
+  "6":"DUPLICATE:N0658:3",
+  "7":[["V2_PROMETHEUS","DUTY_OWN_USE","EXAMPLE"],["V2_GRAFANA","DUTY_OWN_USE","EXAMPLE"]],
+  "8":"DUPLICATE:N0658:7","9":"DUPLICATE:N0658:7",
+  "10":O+"ELK未单列冻结项。",
+  "11":[["V2_SHELL","GENERAL","UNCONDITIONAL"]],
+  "12":O+"CentOS未单列冻结项。","13":O+"Ubuntu未单列冻结项。",
+  "14":"DUPLICATE:N0658:11",
+  "15":[["V2_AWS","GENERAL","CHOICE"],["V2_GCP","GENERAL","CHOICE"]],
+  "16":"DUPLICATE:N0658:15",
+  "17":O+"阿里云未单列冻结项。",
+  "18":"DUPLICATE:N0658:15",
+  "19":[["V2_JENKINS","GENERAL","EXAMPLE"],["V2_GITLAB_CI","GENERAL","EXAMPLE"],["V2_CI_CD","GENERAL","UNCONDITIONAL"]],
+  "20":"DUPLICATE:N0658:19",
+  "21":[["V2_GITLAB_CI","GENERAL","EXAMPLE"]],
+  "22":O+"ArgoCD未单列冻结项。","23":O+"Nginx未单列冻结项。","24":O+"HAProxy未单列冻结项。",
+  "25":[["V2_TERRAFORM","GENERAL","EXAMPLE"],["V2_ANSIBLE","GENERAL","EXAMPLE"]],
+  "26":"DUPLICATE:N0658:25","27":"DUPLICATE:N0658:25",
+  "28":O+"SRE未单列冻结项。","29":O+"On-Call未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责生产运维与CI/CD。GitLab CI不升Git。阿里云目录外。"
+},
+"N0654":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"DEXTEROUS_HAND_APP",
+ "secondary_task":"",
+ "task_evidence":"1. 负责灵巧手上位机及应用层软件开发，包括人机交互界面、运动控制指令、动作示教、轨迹规划、传感器数据采集与可视化等。",
+ "new":{
+  "1":[["V2_TELEOP","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_ETHERCAT","DUTY_OWN_USE","CHOICE"],["V2_CAN","DUTY_OWN_USE","CHOICE"],["V2_MODBUS","DUTY_OWN_USE","CHOICE"]],
+  "3":"DUPLICATE:N0654:2","4":"DUPLICATE:N0654:2","5":"DUPLICATE:N0654:2",
+  "6":R+"C++/Python不是C语言。",
+  "7":[["V2_ETHERCAT","GENERAL","CHOICE"],["V2_CAN","GENERAL","CHOICE"],["V2_MODBUS","GENERAL","CHOICE"],["V2_PROFINET","GENERAL","CHOICE"]],
+  "8":"DUPLICATE:N0654:7","9":"DUPLICATE:N0654:7","10":"DUPLICATE:N0654:7","11":"DUPLICATE:N0654:7",
+  "12":[["V2_TELEOP","PREFERRED","UNCONDITIONAL"]],
+  "13":[["V2_GIT","PREFERRED","UNCONDITIONAL"],["V2_CI_CD","PREFERRED","UNCONDITIONAL"]],
+  "14":"DUPLICATE:N0654:13","15":"DUPLICATE:N0654:13"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责灵巧手上位机。示教按遥操开发。C++/Python拒收C。"
+},
+"N0021":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"ROBOT_OPS_BACKEND",
+ "secondary_task":"",
+ "task_evidence":"1、负责公司机器人相关业务系统（机器人调度、运营、运维等中后台）的服务端和接口开发",
+ "new":{
+  "1":R+"Go/Java/Python/C++任选不是C语言。",
+  "2":[["V2_SQL_MYSQL","GENERAL","CHOICE"],["V2_POSTGRESQL","GENERAL","CHOICE"],["V2_MONGODB","GENERAL","CHOICE"],["V2_REDIS","GENERAL","CHOICE"]],
+  "3":"DUPLICATE:N0021:2","4":"DUPLICATE:N0021:2","5":"DUPLICATE:N0021:2","6":"DUPLICATE:N0021:2",
+  "7":[["V2_KAFKA","GENERAL","EXAMPLE"]],
+  "8":"DUPLICATE:N0021:7",
+  "9":O+"RabbitMQ未单列冻结项。","10":O+"RocketMQ未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责机器人中后台。语言任选拒收C。"
+},
+"N0095":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"HUMANOID_SYSTEM_DEV",
+ "secondary_task":"",
+ "task_evidence":"- 负责业务模块的设计与开发，确保代码质量和系统稳定性",
+ "new":{
+  "1":[["V2_C","GENERAL","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0095:1",
+  "3":O+"Unix未单列冻结项。",
+  "4":[["V2_TCPIP","GENERAL","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0095:4","6":"DUPLICATE:N0095:4"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"C++和C并列，C成立。"
+},
+"N0173":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"MIDDLEWARE_HIL",
+ "secondary_task":"",
+ "task_evidence":"1.参与机器人系统的整体架构设计和软件集成工作，参与中间件系统相关调优、调度模块开发、版本升级与性能测试。确保系统的稳定性和可靠性；",
+ "new":{
+  "1":R+"C++/python不是C语言。",
+  "2":[["V2_HIL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_C","GENERAL","UNRESOLVED"]],
+  "4":"DUPLICATE:N0173:3",
+  "5":[["V2_TCPIP","GENERAL","UNCONDITIONAL"]],
+  "6":"DUPLICATE:N0173:5","7":"DUPLICATE:N0173:5",
+  "8":O+"CyberRT未单列冻结项。","9":O+"AutoSAR未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责中间件。硬件在环HIL成立。C/C++按C未解。"
+},
+"N0183":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"EMBODIED_APP_LAYER",
+ "secondary_task":"",
+ "task_evidence":"1. 熟悉机器人开发，能支持具身智能机器人应用层面开发。",
+ "new":{
+  "1":R+"Python和C++不是C语言。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"应用层开发。C++拒收C。"
+},
+"N0009":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"CAMPUS_SYSTEM_SOFTWARE",
+ "secondary_task":"",
+ "task_evidence":"1、参与机器人整机系统软件架构设计、研发、持续优化；",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"]],
+  "2":"DUPLICATE:N0009:1",
+  "3":O+"RPC未单列冻结项。","4":O+"Protobuf未单列冻结项。","5":O+"FlatBuffers未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"校招系统软件。C/C++按C未解。"
+},
+"N0179":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"FRONTEND_PLATFORM",
+ "secondary_task":"",
+ "task_evidence":"1、负责前端基础设施与平台性产品的架构设计与核心开发；",
+ "new":{
+  "1":[["V2_CI_CD","GENERAL","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0179:1",
+  "3":[["V2_REACT","GENERAL","EXAMPLE"],["V2_VUE","GENERAL","EXAMPLE"]],
+  "4":"DUPLICATE:N0179:3",
+  "5":O+"threejs未单列冻结项。",
+  "6":"DUPLICATE:N0179:3",
+  "7":O+"scg未单列冻结项。","8":O+"canvas未单列冻结项。","9":O+"webgl未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责前端基础设施。threejs目录外。"
+},
+"N0111":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"LINE_QT_TOOLS",
+ "secondary_task":"",
+ "task_evidence":"基于Qt框架开发产线自动化工具（如工控上位机、测试程序、数据采集系统等），支持高并发、低延迟的工业场景需求。",
+ "new":{
+  "1":[["V2_MODBUS","DUTY_OWN_USE","CHOICE"]],
+  "2":"DUPLICATE:N0111:1",
+  "3":O+"OPC UA未单列冻结项。",
+  "4":R+"开发侧现场支持不是在役故障支持项的充分证据。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责产线Qt工具。故障排查不升在役事件支持。"
+},
+"N0012":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"AGENTIC_RL_INTERN",
+ "secondary_task":"",
+ "task_evidence":"协助核心具身智能 Agent 系统的工程实现与模块开发，参与从需求到上线的完整流程",
+ "new":{
+  "1":[["V2_GIT","GENERAL","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0012:1",
+  "3":[["V2_AGENT_WORKFLOW","PREFERRED","UNCONDITIONAL"]],
+  "4":R+"C++/Rust不是C语言。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"Agentic RL实习。Git成立。C++/Rust拒收C。"
+},
+"N0166":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"LINUX_KERNEL",
+ "secondary_task":"",
+ "task_evidence":"1、参与Linux内核核心模块(调度、内存、文件系统、I/O、网络协议栈等)等的设计、开发与优化；",
+ "new":{},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"候选队列为空。主责内核模块。"
+}
+}
+if __name__=='__main__':
+ register('RF_ROBOTICS_SOFTWARE', decisions, reader='grok4.6')

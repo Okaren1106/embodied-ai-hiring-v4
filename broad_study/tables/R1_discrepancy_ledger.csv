@@ -1,0 +1,17 @@
+﻿issue_id,kind,old_statement,adopted_statement,reason,evidence,status,reviewer
+R01,SCOPE,研究活动外职能64.0%与72.7%,WHOLE23为48/66；ALL24为48/75,相同数据的范围差，不是计数冲突,R_cross_function.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R02,SEMANTIC_ADJUDICATION,工程质量300+U8；工程部署231+U12,ALL24:308/1623与243/1623，U均0；WHOLE23:301/1599与235/1599,15广告20格全文、要求与树复核；原始偏移恢复或唯一引文定位；同岗不同段落可共同适用,R2_adjudication.csv;R_joint_evidence_locations.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R03,DENOMINATOR,未知退出但报告P/B,P/N主率；N=B-U；P/B和(P+U)/B为赋值界限,历史DSV待裁决时工程质量300/1615、工程部署231/1611为主率；不是300/1623和231/1623。界限保留为历史场景,R_joint_summary.csv;inputs/prior_reports/dsv/tables/D9_sensitivity_ledger.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R04,PROGRAMMING_ERROR,各职能最大贡献公司均X Square,按正例计数重新取所有并列公司；制造Figure28、软件Galbot25、ML XSquare26、公司支持Paxini21、硬件Apptronik20,旧程序将最大分母公司写入最大正例公司列；Astra旧结果也未列全并列集合,R_max_contributor_correction.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R05,PROGRAMMING_ERROR,Q3 value_company_equal,逐公司P/N算术平均，N=0不进入均值,旧DSV函数的公司实参实际是剔除参数；本轮复现8活动和3活动对的旧误算,R_DSV_company_mean_correction.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R06,ANALYTIC_CHOICE,各稿统一称来源完整子集,S1=17公司968；S2=11公司576；S3=同11公司再限正文200字符557,筛选对象不同；比例变化不能单独归因正文长度或正文完整性，更不证明招聘板采全,R_source_membership.csv;R_source_scope_summary.csv;R_S3_removed_ads.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R07,EVIDENCE_UPDATE,智元制造场景只有供应方自述,龙旗使用方兼共同开发方2026年4月和7月确认G2在产线运行与验证,保留Grok旧候选时间记录，增加本轮补证后的资格；不改写为当初已知,R_T5_new_evidence_facts.csv;R_case_selection_update.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R08,OVERCLAIM,职能与活动相互独立,职能与活动是不同测量维度，不能互相替代,交叉表不构成统计独立性结论,R_role_activity_bidirectional.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R09,OVERCLAIM,来源筛选差异证明正文详略影响,所见结果对联合筛选方案敏感,同时改变公司组成、岗位构成、来源和长度，不能识别各自因果贡献,R_Q2_v1_scope_bridge.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R10,OVERCLAIM,低覆盖K解释全公司业务模式差异,AgiBot×Galbot限企业支持与ML两类，其中仅一个技术职能,低覆盖和不同分母不能称提纯或业务模式贡献率；留给D严格算术分解,inputs/protocol_v2/研究执行书_v2.md,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R11,MEASUREMENT_BOUNDARY,ACT_DEPLOYMENT均是客户现场部署；ACT_QUALITY均是制造质量,部署与维护包含模型运行、训练环境和真机等对象；质量含安全合规,本轮原文复核发现原认可标签的实际范围更宽。保留标签，纠正Astra旧稿及研究书过窄措辞,notes/EXECUTION_AMENDMENTS.md;R2_adjudication.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R12,TREE_RULE,根ALL即可判所有两活动无条件,必须检查全部相关子分支；N0396唯一混合树没有原编码双本人承担，不影响当前三对数值,区分通用规则缺陷和当前样本数值影响,R_mixed_tree_audit.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R13,REPORTING_ERROR,DSV T6-03写300/None、231/None及20条去重广告,修订为明确P/U/B/N与15条广告20个格,None排版/字段错误；格数不等于唯一广告数,R2_adjudication.csv;R_joint_summary.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R14,OVERCLAIM,部分类别均值大于中位数，因此总体右偏,只报告具体职能的均值、中位数等分布描述；不保留总体右偏结论,本轮不新增总体分布形态假设,inputs/prior_reports/dsv/tables/D1_q1_coverage_concentration.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R15,ROLE_OF_EVIDENCE,进入产线等于付费、独立第三方验证或供应商承担全部维保,实际使用、共同开发、验证、付款与责任分别记录；未公布的合同分工仍未知,客户/使用方官方材料也可能为利益相关方自述,R_T5_new_evidence_facts.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra
+R16,PROSE_COVERAGE_ERROR,Grok正文及v2研究书称Galbot与Figure共同K约48%/48%,Galbot 82/181=45.30%；Figure 60/126=47.62%,D逐职能复算发现规划性近似表述不准确；K不变，旧Grok活动率56.1%/45.0%与本轮一致，仅覆盖文字更正,D2_decomposition_role_parts.csv;D2_K_membership.csv,RESOLVED_FOR_INTEGRATED_BASELINE,Astra

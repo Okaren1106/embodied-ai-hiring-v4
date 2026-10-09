@@ -1,0 +1,146 @@
+"""First-pass adjudication for ML coding_order 89-96. Reader: grok4.6."""
+from register_Q_decisions import register
+
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"E0055":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"TRAIN_INFER_INFRA",
+ "fine_task":"CLOUD_VLM_INFER_SERVING",
+ "secondary_task":"",
+ "task_evidence":"负责多模态大模型（VLM）在云端的高性能分布式推理系统设计、开发与全链路端到端部署。",
+ "new":{
+  "1":[["V2_VLLM","GENERAL","CHOICE_AND_EXAMPLE"],["V2_SGLANG","GENERAL","CHOICE_AND_EXAMPLE"],["V2_TENSORRT","GENERAL","CHOICE_AND_EXAMPLE"]],
+  "2":[["V2_TRITON_COMPILER","PREFERRED","UNRESOLVED"]],
+  "3":"DUPLICATE:E0055:1",
+  "4":"DUPLICATE:E0055:2"
+ },
+ "old_overrides":{
+  "O7":{"metric":"DUTY_OWN_USE","branch":"UNCONDITIONAL","relation":"OWN_USE","reason":"云侧推理服务VLM，不是本人训练基础模型。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"全局KV池化","description":"KV池化/PD分离不是量化蒸馏裁剪或低秩适配的充分证据。Python/C++不记C。TensorRT-LLM按TensorRT生态示例。"}],
+ "notes":"主责云侧VLM推理。vLLM/SGLang/TensorRT-LLM为引擎等列。CUDA/Triton算子编程记编译器未解。候选3、4并入1、2。"
+},
+"E0043":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"WORLD_MODEL_VIDEO_VLA",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"1、负责全模态世界模型的架构设计、训练方法与算法迭代，探索语言、视觉、视频、动作、触觉等模态的统一建模。",
+ "new":{
+  "1":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_WORLD_MODEL","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_WORLD_MODEL","GENERAL","CHOICE_AND_EXAMPLE"]],
+  "6":[["V2_WORLD_MODEL","PREFERRED","CHOICE_AND_EXAMPLE"]]
+ },
+ "old_overrides":{
+  "O5":{"metric":"DUTY_OWN_USE","branch":"UNCONDITIONAL","relation":"OWN_USE","reason":"职责写明参与数据采集清洗训练评测闭环，不是独立协作部门。"},
+  "O6":{"metric":"DUTY_OWN_USE","branch":"UNCONDITIONAL","relation":"OWN_USE","reason":"同上数据闭环。"},
+  "O10":{"metric":"GENERAL","branch":"CHOICE_AND_EXAMPLE","relation":"EXPERIENCE_REQUIREMENT","reason":"原VLA短词定位为空，改为熟悉多方向句。","quote":"熟悉多模态大模型、视频生成、世界模型、VLA、模仿学习、强化学习、机器人学习中的一个或多个方向。"},
+  "O14":{"metric":"PREFERRED","branch":"CHOICE_AND_EXAMPLE","relation":"EXPERIENCE_REQUIREMENT","reason":"原VLA短词定位为空，改为研发经验句。","quote":"参与过多模态大模型、视频生成模型、VLA、world model、robot foundation model的研发。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"熟悉多模态大模型、视频生成、世界模型、VLA、模仿学习、强化学习、机器人学习中的一个或多个方向。","description":"多个方向任选，不把每个方向都升为独立职责。"}],
+ "notes":"主责全模态世界模型。VLA为熟悉/加分任选。"
+},
+"E0100":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"LLM_MM_PRETRAIN_ROBOT_CONTROL",
+ "secondary_task":"TRAIN_INFER_INFRA",
+ "task_evidence":"负责基于大模型的机器人控制算法设计、训练、数据集处理、及真机部署测试；",
+ "new":{
+  "1":[["V2_MODEL_COMPRESSION","DUTY_OWN_DEVELOP","EXAMPLE"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"LoRA","description":"目录压缩项含低秩适配/LoRA，按训练效率示例编码。"}],
+ "notes":"主责大模型预训练与机器人控制算法。LoRA按压缩示例，纠正此前把LoRA当PEFT拒收的不一致。"
+},
+"E0082":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"TRAIN_INFER_INFRA",
+ "fine_task":"CLUSTER_TRAIN_INFER_PIPELINE",
+ "secondary_task":"",
+ "task_evidence":"负责大规模算力集群下AI框架的设计与建设。",
+ "new":{
+  "1":[["V2_MODEL_COMPRESSION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"量化（Quantization）、蒸馏（Distillation）","description":"量化蒸馏明确支持压缩编码。"}],
+ "notes":"主责AI Infra集群训练与低延迟推理流水线，不是VLA算法岗。"
+},
+"E0300":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"TRAIN_INFER_INFRA",
+ "fine_task":"DISTRIBUTED_TRAIN_COMPRESS_COMPILER",
+ "secondary_task":"",
+ "task_evidence":"负责大规模分布式训练，端、云推理系统的研发和优化，支持千卡级别的大规模模型训练和高性能推理；",
+ "new":{
+  "1":[["V2_MODEL_COMPRESSION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_TRITON_COMPILER","GENERAL","EXAMPLE"]],
+  "3":"DUPLICATE:E0300:2"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"MLIR, tilelang, tvm, triton，cutile","description":"Triton为编译器示例之一。量化蒸馏稀疏记压缩。"}],
+ "notes":"主责训练推理基础设施与压缩。候选3并入2。"
+},
+"E0299":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"OTHER_MODEL",
+ "fine_task":"SPEECH_MULTIMODAL_INTERACTION",
+ "secondary_task":"",
+ "task_evidence":"核心参与全双工语音交互系统及多模态交互系统的研发工作，聚焦语音识别、多模态交互、语音大模型等核心算法的优化迭代",
+ "new":{},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"候选队列为空。语音识别合成与语音大模型属其他模型应用。"
+},
+"E0293":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"WORLD_MODEL_PREDICTIVE",
+ "secondary_task":"",
+ "task_evidence":"负责研发和优化世界模型算法，构建机器人的环境感知、状态预测和决策规划能力",
+ "new":{
+  "1":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_WORLD_MODEL","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_WORLD_MODEL","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责世界模型。强化学习与仿真是基于世界模型的应用，不改主责。"
+},
+"E0289":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"RL_VLA_SIM2REAL",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"负责前沿机器人强化学习算法的研究、设计和实现",
+ "new":{
+  "1":[["V2_SIM2REAL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_SIM2REAL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":R+"熟悉C++不是C语言。",
+  "4":[["V2_TELEOP","GENERAL","EXAMPLE"]],
+  "5":[["V2_SIM2REAL","GENERAL","UNCONDITIONAL"],["V2_DOMAIN_RANDOMIZATION","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{
+  "O26":{"metric":"GENERAL","branch":"UNCONDITIONAL","relation":"EXPERIENCE_REQUIREMENT","reason":"原强化学习短词定位为空，改为原理句。","quote":"深入理解强化学习原理"},
+  "O37":{"metric":"PREFERRED","branch":"UNCONDITIONAL","relation":"EXPERIENCE_REQUIREMENT","reason":"原RL短词定位为空，改为落地经验句。","quote":"有真实机器人RL训练落地经验（非纯仿真）。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"遥操作数据采集","description":"遥操作为数据采集熟悉项，不是独立遥操作产品岗。"}],
+ "notes":"主责机器人RL与VLA。Sim2Real职责成立。熟悉C++拒收C。"
+}
+}
+if __name__=='__main__':
+ register('RF_ML_AI_ENGINEERING', decisions, reader='grok4.6')

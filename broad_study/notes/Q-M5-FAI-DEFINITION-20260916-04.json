@@ -1,0 +1,1219 @@
+{
+  "review": "TARGETED_NOT_FULL_SECOND_PASS",
+  "scope_coded_ads": 175,
+  "definition": "明确质量策划、生产件批准或首件检验流程",
+  "reviewed_hits": [
+    "E0355",
+    "N0193",
+    "N0203",
+    "N0254",
+    "E0381",
+    "N0966",
+    "N1017",
+    "N1021",
+    "N0850"
+  ],
+  "unchanged_reason": {
+    "N0193": "推动首件/试装/试测问题闭环，未明确首件检验流程；不以首件词面自动补入",
+    "E0381": "斜杠分支未知保留",
+    "E0355": "已纳入",
+    "N0203": "已纳入",
+    "N0254": "已纳入"
+  },
+  "before": {
+    "N1021": {
+      "task": "PROCESS_BUILD",
+      "fine_task": "ATLAS_LOW_VOLUME_PRODUCTION_ENGINEERING",
+      "task_evidence": "Develop, optimize, and implement rate production processes and assembly workflows for Atlas",
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "new": {
+        "1": "REJECT:can为普通情态动词。",
+        "2": [
+          [
+            "V2_DFM",
+            "SEPARATE",
+            "COLLABORATION_OBJECT"
+          ]
+        ],
+        "3": [
+          [
+            "V2_SOP_OPERATION",
+            "DUTY_OWN_DEVELOP",
+            "EXAMPLE"
+          ]
+        ],
+        "4": "OUTSIDE:原型装配调试不直接计运行事件排障。",
+        "5": "OUTSIDE:FAI首件检查不等于APQP或PPAP，保留原词不强制映射。",
+        "6": [
+          [
+            "V2_LEAN",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "DUPLICATE:N1021:6",
+        "8": "DUPLICATE:N1021:6",
+        "9": [
+          [
+            "V2_DFM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "DUPLICATE:N1021:9",
+        "11": "DUPLICATE:N1021:9",
+        "12": [
+          [
+            "V2_LEAN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "DUPLICATE:N1021:12",
+        "14": "DUPLICATE:N1021:12",
+        "15": [
+          [
+            "V2_CNC_PROCESS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "16": "DUPLICATE:N1021:15",
+        "17": [
+          [
+            "V2_PLM",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "18": "DUPLICATE:N1021:17",
+        "19": [
+          [
+            "V2_MES",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "20": "DUPLICATE:N1021:19",
+        "21": "OUTSIDE:TWI Job Instruction认证属于生产培训方法，未在质量/供应链资格清单定义中具体纳入。",
+        "22": "OUTSIDE:Job Methods培训资格保留目录外。",
+        "23": "REJECT:招聘防诈骗说明。"
+      },
+      "notes": "Atlas低量制造流程工程，不沿用其它同名制造岗的对象判断；FAI不等于PPAP。",
+      "old_overrides": {
+        "O9": {
+          "metric": "SEPARATE",
+          "branch": "COLLABORATION_OBJECT",
+          "relation": "COLLABORATION_OBJECT",
+          "reason": "本人开发工装以支持电机执行器测试，未明本人承担执行器开发/测试。"
+        },
+        "O11": {
+          "metric": "DUTY_OWN_USE",
+          "branch": "CONDITIONAL",
+          "relation": "OWN_USE",
+          "reason": "where necessary条件能力研究。"
+        }
+      },
+      "additions": [
+        {
+          "code": "V2_RCA",
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "quote": "Demonstrated experience applying Lean Manufacturing, Six Sigma, and root cause analysis methodologies to drive process improvement.",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_SOP_OPERATION",
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "quote": "Experience writing clear, concise, and detailed work instructions, SOPs, and training materials for assembly technicians.",
+          "reason": "全文复核补入明确表达"
+        }
+      ],
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|fa646ad5cb9210011b639478e32a0000|83914df6981bd1d88f04f12e0d5fa7ef7dc3f03e0dd6fb966d6ceaa2614a6985",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 23,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1904,
+        "end": 1995,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Develop, optimize, and implement rate production processes and assembly workflows for Atlas"
+      },
+      "reader": "Astra",
+      "qc_status": "PENDING_SECOND_PASS",
+      "source_version": "83914df6981bd1d88f04f12e0d5fa7ef7dc3f03e0dd6fb966d6ceaa2614a6985",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T05:46:45.691634+00:00"
+    },
+    "N0850": {
+      "task": "PROCUREMENT_SUPPLY",
+      "fine_task": "HARDWARE_SUPPLY_CONTINUITY_AND_ASSETS",
+      "task_evidence": "drive material planning, supplier performance, production readiness, inventory optimization, and cost management",
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CNC_PROCESS",
+            "SEPARATE",
+            "PROCUREMENT_OBJECT"
+          ]
+        ],
+        "3": "OUTSIDE:FAI首件检查不等于APQP或PPAP。",
+        "4": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_PROCUREMENT",
+            "REQUIRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_PROCUREMENT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_MRP",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "8": "DUPLICATE:N0850:7",
+        "9": [
+          [
+            "V2_CNC_PROCESS",
+            "SEPARATE",
+            "PROCUREMENT_OBJECT"
+          ]
+        ],
+        "10": [
+          [
+            "V2_PROCUREMENT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": [
+          [
+            "V2_MRP",
+            "PREFERRED",
+            "UNRESOLVED"
+          ],
+          [
+            "V2_PLM",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_PROCUREMENT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "DUPLICATE:N0850:11",
+        "13": "DUPLICATE:N0850:11",
+        "14": [
+          [
+            "V2_PROCUREMENT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_LEGAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "15": [
+          [
+            "V2_QUALITY_CREDENTIAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "16": "DUPLICATE:N0850:15",
+        "17": "DUPLICATE:N0850:15",
+        "18": "DUPLICATE:N0850:15",
+        "19": "REJECT:office为到岗地点。"
+      },
+      "notes": "CNC为供应商工艺对象，非本人机加工。与仅采购品类背景不同，Cross Functional Hardware Knowledge明确要求技术领域熟悉，保留原技术优先要求；证书条款明示related supply chain certification，按资格类别保留原名称不合并证书身份。",
+      "secondary_task": "MATERIAL_INVENTORY",
+      "old_overrides": {
+        "O20": {
+          "metric": "SEPARATE",
+          "branch": "COLLABORATION_OBJECT",
+          "relation": "COLLABORATION_OBJECT",
+          "reason": "support SQE、FAI与component qualification为协助；本人RMA处理不自动证明亲自首件检验。"
+        }
+      },
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|b79366eb-a2b8-4771-8f6d-5ee9d074756a|f12098f3fdd5475041927ecb91b0741976659489af0286bba08cb83c95603d4e",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 24,
+      "reviewed_candidate_count": 19,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 707,
+        "end": 819,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "drive material planning, supplier performance, production readiness, inventory optimization, and cost management"
+      },
+      "reader": "Astra",
+      "qc_status": "PENDING_SECOND_PASS",
+      "source_version": "f12098f3fdd5475041927ecb91b0741976659489af0286bba08cb83c95603d4e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T05:52:47.473653+00:00"
+    },
+    "N0966": {
+      "task": "HARDWARE_TEST_QUALITY",
+      "fine_task": "RND_QUALITY_STRATEGY_AND_DATA",
+      "task_evidence": "quality engineering function across Prototype Operations",
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:can是普通情态动词。",
+        "3": [
+          [
+            "V2_MES",
+            "DUTY_OWN_DEVELOP",
+            "UNRESOLVED"
+          ]
+        ],
+        "4": "DUPLICATE:N0966:3",
+        "5": "OUTSIDE:Tulip为原文系统名称，冻结目录外。",
+        "6": "REJECT:can是情态动词。",
+        "7": [
+          [
+            "V2_LEAN",
+            "REQUIRED",
+            "CHOICE"
+          ]
+        ],
+        "8": "DUPLICATE:N0966:7",
+        "9": [
+          [
+            "V2_MES",
+            "REQUIRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "DUPLICATE:N0966:9",
+        "11": [
+          [
+            "V2_LEAN",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_QUALITY_CREDENTIAL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "12": "DUPLICATE:N0966:11",
+        "13": "DUPLICATE:N0966:11",
+        "14": "DUPLICATE:N0966:11",
+        "15": [
+          [
+            "V2_DOE_MSA",
+            "PREFERRED",
+            "EXAMPLE"
+          ]
+        ],
+        "16": "DUPLICATE:N0966:15",
+        "17": [
+          [
+            "V2_QUALITY_STANDARDS",
+            "PREFERRED",
+            "EXAMPLE"
+          ]
+        ],
+        "18": "DUPLICATE:N0966:17",
+        "19": "DUPLICATE:N0966:17"
+      },
+      "notes": "研发质量与量产质量数据；明示不拥有Reliability/Test专门团队仍保留协作关系。MES/Tulip-based项目斜杠未展开关系；持证或培训优先分开，不能算必须有证。",
+      "additions": [
+        {
+          "code": "V2_RCA",
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "quote": "Own the 8D program as standing policy: containment first, verified root cause",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_RCA",
+          "metric": "REQUIRED",
+          "branch": "UNCONDITIONAL",
+          "quote": "with a track record of driving cross-functional root cause investigations to verified closure.",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_DOE_MSA",
+          "metric": "REQUIRED",
+          "branch": "UNCONDITIONAL",
+          "quote": "Deep working knowledge of GD&T, measurement systems analysis, process capability, first-article inspection, and process validation.",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "TC_EVALUATION",
+          "metric": "DUTY_OWN_DEVELOP",
+          "branch": "UNCONDITIONAL",
+          "quote": "Establish clear quality gates across the build sequence - subassembly, integration, end-of-line - with acceptance criteria that evolve as the product does.",
+          "reason": "全文复核补入明确表达"
+        }
+      ],
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|02c33404c9ef10015d588d0c679f0000|f13e43cbf2ab6521673c18478607a89db077fe65f32533553cb566384249daf4",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 19,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 110,
+        "end": 166,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "quality engineering function across Prototype Operations"
+      },
+      "reader": "Astra",
+      "qc_status": "PENDING_SECOND_PASS",
+      "source_version": "f13e43cbf2ab6521673c18478607a89db077fe65f32533553cb566384249daf4",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T05:38:24.350508+00:00"
+    },
+    "N1017": {
+      "task": "PROCESS_BUILD",
+      "fine_task": "MACHINING_OPERATIONS_AND_CAPACITY_LEADERSHIP",
+      "task_evidence": "direct ownership of the Precision Shop's machining operations",
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "new": {
+        "1": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:can是情态动词。",
+        "3": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N1017:4",
+        "6": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_LEAN",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N1017:7",
+        "9": "DUPLICATE:N1017:7",
+        "10": [
+          [
+            "V2_CNC_PROCESS",
+            "SEPARATE",
+            "RECRUITMENT_OBJECT"
+          ]
+        ],
+        "11": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": [
+          [
+            "V2_CNC_PROCESS",
+            "REQUIRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": [
+          [
+            "V2_CNC_PROCESS",
+            "REQUIRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "14": "DUPLICATE:N1017:13",
+        "15": "OUTSIDE:G-code独立语言未设条目，CNC编程类别已保留。",
+        "16": "OUTSIDE:M-code独立语言未设条目。",
+        "17": "OUTSIDE:CAM软件泛称不等于CAD。",
+        "18": "OUTSIDE:Cimatron未入目录。",
+        "19": "OUTSIDE:ESPRIT未入目录。",
+        "20": "OUTSIDE:HyperMill未入目录。",
+        "21": "OUTSIDE:CAD/CAM数据中CAM泛称保留目录外。",
+        "22": [
+          [
+            "V2_MES",
+            "PREFERRED",
+            "UNRESOLVED"
+          ]
+        ],
+        "23": "DUPLICATE:N1017:22",
+        "24": [
+          [
+            "V2_LEAN",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_QUALITY_CREDENTIAL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "25": "DUPLICATE:N1017:24",
+        "26": "DUPLICATE:N1017:24",
+        "27": [
+          [
+            "V2_DFM",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_QUALITY_STANDARDS",
+            "PREFERRED",
+            "EXAMPLE"
+          ]
+        ],
+        "28": "DUPLICATE:N1017:27",
+        "29": "DUPLICATE:N1017:27",
+        "30": "DUPLICATE:N1017:27",
+        "31": [
+          [
+            "V2_CNC_PROCESS",
+            "SEPARATE",
+            "BACKGROUND"
+          ]
+        ]
+      },
+      "notes": "精密加工运营、程序标准和人才计划；CNC人才获取是招聘对象，方法本人承担有独立职责证据。ERP/MES及CAD/CAM斜杠未知保留。",
+      "old_overrides": {
+        "O4": {
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "relation": "OWN_USE",
+          "reason": "明确直接拥有machining operations且加工structural and mechanism components，对象和本人关系可判。"
+        },
+        "O5": {
+          "metric": "SEPARATE",
+          "branch": "COLLABORATION_OBJECT",
+          "relation": "COLLABORATION_OBJECT",
+          "reason": "partner with Quality Control on inspection protocols为协作关系。"
+        }
+      },
+      "additions": [
+        {
+          "code": "V2_RCA",
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "quote": "Lead root cause analysis for machining-related quality escapes and delivery misses",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_RCA",
+          "metric": "REQUIRED",
+          "branch": "UNCONDITIONAL",
+          "quote": "Skilled in root cause analysis, documentation control, and structured process improvement.",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_HR",
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "quote": "Lead workforce planning for machining: headcount strategy, skills gap assessment, apprenticeship and cross-training programs, and hiring pipelines for scarce CNC talent.",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_SAFETY_OPERATION",
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "quote": "Drive adherence to quality, safety, and documentation requirements across all machining and programming operations",
+          "reason": "全文复核补入明确表达"
+        }
+      ],
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|2ecda71fdddd1001632423b240450000|dcea37bea98ab5e46c015d75bea22674ffc9b246b36fb45e59c0fbd5cbe2d88d",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 31,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1123,
+        "end": 1184,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "direct ownership of the Precision Shop's machining operations"
+      },
+      "reader": "Astra",
+      "qc_status": "PENDING_SECOND_PASS",
+      "source_version": "dcea37bea98ab5e46c015d75bea22674ffc9b246b36fb45e59c0fbd5cbe2d88d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T05:38:24.351510+00:00"
+    }
+  },
+  "after": {
+    "N1021": {
+      "task": "PROCESS_BUILD",
+      "fine_task": "ATLAS_LOW_VOLUME_PRODUCTION_ENGINEERING",
+      "task_evidence": "Develop, optimize, and implement rate production processes and assembly workflows for Atlas",
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "new": {
+        "1": "REJECT:can为普通情态动词。",
+        "2": [
+          [
+            "V2_DFM",
+            "SEPARATE",
+            "COLLABORATION_OBJECT"
+          ]
+        ],
+        "3": [
+          [
+            "V2_SOP_OPERATION",
+            "DUTY_OWN_DEVELOP",
+            "EXAMPLE"
+          ]
+        ],
+        "4": "OUTSIDE:原型装配调试不直接计运行事件排障。",
+        "5": [
+          [
+            "V2_APQP_PPAP",
+            "DUTY_OWN_DEVELOP",
+            "EXAMPLE"
+          ],
+          [
+            "V2_APQP_PPAP",
+            "DUTY_OWN_USE",
+            "EXAMPLE"
+          ]
+        ],
+        "6": [
+          [
+            "V2_LEAN",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "DUPLICATE:N1021:6",
+        "8": "DUPLICATE:N1021:6",
+        "9": [
+          [
+            "V2_DFM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "DUPLICATE:N1021:9",
+        "11": "DUPLICATE:N1021:9",
+        "12": [
+          [
+            "V2_LEAN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "DUPLICATE:N1021:12",
+        "14": "DUPLICATE:N1021:12",
+        "15": [
+          [
+            "V2_CNC_PROCESS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "16": "DUPLICATE:N1021:15",
+        "17": [
+          [
+            "V2_PLM",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "18": "DUPLICATE:N1021:17",
+        "19": [
+          [
+            "V2_MES",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "20": "DUPLICATE:N1021:19",
+        "21": "OUTSIDE:TWI Job Instruction认证属于生产培训方法，未在质量/供应链资格清单定义中具体纳入。",
+        "22": "OUTSIDE:Job Methods培训资格保留目录外。",
+        "23": "REJECT:招聘防诈骗说明。"
+      },
+      "notes": "Atlas低量制造流程工程，不沿用其它同名制造岗的对象判断；FAI不等于PPAP。 本轮FAI定义核对修订：冻结目录V2_APQP_PPAP明确含FAI/首件检验，早先不等同PPAP而排除的理由撤销；子型保持FAI，不称其为PPAP。见Q-M5-FAI-DEFINITION-20260916-04。",
+      "old_overrides": {
+        "O9": {
+          "metric": "SEPARATE",
+          "branch": "COLLABORATION_OBJECT",
+          "relation": "COLLABORATION_OBJECT",
+          "reason": "本人开发工装以支持电机执行器测试，未明本人承担执行器开发/测试。"
+        },
+        "O11": {
+          "metric": "DUTY_OWN_USE",
+          "branch": "CONDITIONAL",
+          "relation": "OWN_USE",
+          "reason": "where necessary条件能力研究。"
+        }
+      },
+      "additions": [
+        {
+          "code": "V2_RCA",
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "quote": "Demonstrated experience applying Lean Manufacturing, Six Sigma, and root cause analysis methodologies to drive process improvement.",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_SOP_OPERATION",
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "quote": "Experience writing clear, concise, and detailed work instructions, SOPs, and training materials for assembly technicians.",
+          "reason": "全文复核补入明确表达"
+        }
+      ],
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|fa646ad5cb9210011b639478e32a0000|83914df6981bd1d88f04f12e0d5fa7ef7dc3f03e0dd6fb966d6ceaa2614a6985",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 23,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1904,
+        "end": 1995,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Develop, optimize, and implement rate production processes and assembly workflows for Atlas"
+      },
+      "reader": "Astra",
+      "qc_status": "PENDING_SECOND_PASS",
+      "source_version": "83914df6981bd1d88f04f12e0d5fa7ef7dc3f03e0dd6fb966d6ceaa2614a6985",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T06:00:43.370155+00:00"
+    },
+    "N0850": {
+      "task": "PROCUREMENT_SUPPLY",
+      "fine_task": "HARDWARE_SUPPLY_CONTINUITY_AND_ASSETS",
+      "task_evidence": "drive material planning, supplier performance, production readiness, inventory optimization, and cost management",
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CNC_PROCESS",
+            "SEPARATE",
+            "PROCUREMENT_OBJECT"
+          ]
+        ],
+        "3": [
+          [
+            "V2_APQP_PPAP",
+            "SEPARATE",
+            "COLLABORATION_OBJECT"
+          ]
+        ],
+        "4": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_PROCUREMENT",
+            "REQUIRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_PROCUREMENT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_MRP",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "8": "DUPLICATE:N0850:7",
+        "9": [
+          [
+            "V2_CNC_PROCESS",
+            "SEPARATE",
+            "PROCUREMENT_OBJECT"
+          ]
+        ],
+        "10": [
+          [
+            "V2_PROCUREMENT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": [
+          [
+            "V2_MRP",
+            "PREFERRED",
+            "UNRESOLVED"
+          ],
+          [
+            "V2_PLM",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_PROCUREMENT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "DUPLICATE:N0850:11",
+        "13": "DUPLICATE:N0850:11",
+        "14": [
+          [
+            "V2_PROCUREMENT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_LEGAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "15": [
+          [
+            "V2_QUALITY_CREDENTIAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "16": "DUPLICATE:N0850:15",
+        "17": "DUPLICATE:N0850:15",
+        "18": "DUPLICATE:N0850:15",
+        "19": "REJECT:office为到岗地点。"
+      },
+      "notes": "CNC为供应商工艺对象，非本人机加工。与仅采购品类背景不同，Cross Functional Hardware Knowledge明确要求技术领域熟悉，保留原技术优先要求；证书条款明示related supply chain certification，按资格类别保留原名称不合并证书身份。 本轮FAI定义核对修订：冻结目录V2_APQP_PPAP明确含FAI/首件检验，早先不等同PPAP而排除的理由撤销；子型保持FAI，不称其为PPAP。见Q-M5-FAI-DEFINITION-20260916-04。",
+      "secondary_task": "MATERIAL_INVENTORY",
+      "old_overrides": {
+        "O20": {
+          "metric": "SEPARATE",
+          "branch": "COLLABORATION_OBJECT",
+          "relation": "COLLABORATION_OBJECT",
+          "reason": "support SQE、FAI与component qualification为协助；本人RMA处理不自动证明亲自首件检验。"
+        }
+      },
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|b79366eb-a2b8-4771-8f6d-5ee9d074756a|f12098f3fdd5475041927ecb91b0741976659489af0286bba08cb83c95603d4e",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 24,
+      "reviewed_candidate_count": 19,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 707,
+        "end": 819,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "drive material planning, supplier performance, production readiness, inventory optimization, and cost management"
+      },
+      "reader": "Astra",
+      "qc_status": "PENDING_SECOND_PASS",
+      "source_version": "f12098f3fdd5475041927ecb91b0741976659489af0286bba08cb83c95603d4e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T06:00:43.370155+00:00"
+    },
+    "N0966": {
+      "task": "HARDWARE_TEST_QUALITY",
+      "fine_task": "RND_QUALITY_STRATEGY_AND_DATA",
+      "task_evidence": "quality engineering function across Prototype Operations",
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:can是普通情态动词。",
+        "3": [
+          [
+            "V2_MES",
+            "DUTY_OWN_DEVELOP",
+            "UNRESOLVED"
+          ]
+        ],
+        "4": "DUPLICATE:N0966:3",
+        "5": "OUTSIDE:Tulip为原文系统名称，冻结目录外。",
+        "6": "REJECT:can是情态动词。",
+        "7": [
+          [
+            "V2_LEAN",
+            "REQUIRED",
+            "CHOICE"
+          ]
+        ],
+        "8": "DUPLICATE:N0966:7",
+        "9": [
+          [
+            "V2_MES",
+            "REQUIRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "DUPLICATE:N0966:9",
+        "11": [
+          [
+            "V2_LEAN",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_QUALITY_CREDENTIAL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "12": "DUPLICATE:N0966:11",
+        "13": "DUPLICATE:N0966:11",
+        "14": "DUPLICATE:N0966:11",
+        "15": [
+          [
+            "V2_DOE_MSA",
+            "PREFERRED",
+            "EXAMPLE"
+          ]
+        ],
+        "16": "DUPLICATE:N0966:15",
+        "17": [
+          [
+            "V2_QUALITY_STANDARDS",
+            "PREFERRED",
+            "EXAMPLE"
+          ]
+        ],
+        "18": "DUPLICATE:N0966:17",
+        "19": "DUPLICATE:N0966:17"
+      },
+      "notes": "研发质量与量产质量数据；明示不拥有Reliability/Test专门团队仍保留协作关系。MES/Tulip-based项目斜杠未展开关系；持证或培训优先分开，不能算必须有证。 本轮FAI定义核对修订：冻结目录V2_APQP_PPAP明确含FAI/首件检验，早先不等同PPAP而排除的理由撤销；子型保持FAI，不称其为PPAP。见Q-M5-FAI-DEFINITION-20260916-04。",
+      "additions": [
+        {
+          "code": "V2_RCA",
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "quote": "Own the 8D program as standing policy: containment first, verified root cause",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_RCA",
+          "metric": "REQUIRED",
+          "branch": "UNCONDITIONAL",
+          "quote": "with a track record of driving cross-functional root cause investigations to verified closure.",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_DOE_MSA",
+          "metric": "REQUIRED",
+          "branch": "UNCONDITIONAL",
+          "quote": "Deep working knowledge of GD&T, measurement systems analysis, process capability, first-article inspection, and process validation.",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "TC_EVALUATION",
+          "metric": "DUTY_OWN_DEVELOP",
+          "branch": "UNCONDITIONAL",
+          "quote": "Establish clear quality gates across the build sequence - subassembly, integration, end-of-line - with acceptance criteria that evolve as the product does.",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_APQP_PPAP",
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "quote": "Own first-article and process validation for critical purchased parts; qualify new and dual-source suppliers with capability evidence, not paperwork.",
+          "reason": "冻结目录明确包含首件检验；补入本人承担"
+        },
+        {
+          "code": "V2_APQP_PPAP",
+          "metric": "REQUIRED",
+          "branch": "UNCONDITIONAL",
+          "quote": "Deep working knowledge of GD&T, measurement systems analysis, process capability, first-article inspection, and process validation.",
+          "reason": "既读Required资格中的首件检验知识；与同句MSA保持要求语境一致"
+        }
+      ],
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|02c33404c9ef10015d588d0c679f0000|f13e43cbf2ab6521673c18478607a89db077fe65f32533553cb566384249daf4",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 19,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 110,
+        "end": 166,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "quality engineering function across Prototype Operations"
+      },
+      "reader": "Astra",
+      "qc_status": "PENDING_SECOND_PASS",
+      "source_version": "f13e43cbf2ab6521673c18478607a89db077fe65f32533553cb566384249daf4",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T06:00:43.370155+00:00"
+    },
+    "N1017": {
+      "task": "PROCESS_BUILD",
+      "fine_task": "MACHINING_OPERATIONS_AND_CAPACITY_LEADERSHIP",
+      "task_evidence": "direct ownership of the Precision Shop's machining operations",
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "new": {
+        "1": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:can是情态动词。",
+        "3": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N1017:4",
+        "6": [
+          [
+            "V2_CNC_PROCESS",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_LEAN",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N1017:7",
+        "9": "DUPLICATE:N1017:7",
+        "10": [
+          [
+            "V2_CNC_PROCESS",
+            "SEPARATE",
+            "RECRUITMENT_OBJECT"
+          ]
+        ],
+        "11": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": [
+          [
+            "V2_CNC_PROCESS",
+            "REQUIRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": [
+          [
+            "V2_CNC_PROCESS",
+            "REQUIRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "14": "DUPLICATE:N1017:13",
+        "15": "OUTSIDE:G-code独立语言未设条目，CNC编程类别已保留。",
+        "16": "OUTSIDE:M-code独立语言未设条目。",
+        "17": "OUTSIDE:CAM软件泛称不等于CAD。",
+        "18": "OUTSIDE:Cimatron未入目录。",
+        "19": "OUTSIDE:ESPRIT未入目录。",
+        "20": "OUTSIDE:HyperMill未入目录。",
+        "21": "OUTSIDE:CAD/CAM数据中CAM泛称保留目录外。",
+        "22": [
+          [
+            "V2_MES",
+            "PREFERRED",
+            "UNRESOLVED"
+          ]
+        ],
+        "23": "DUPLICATE:N1017:22",
+        "24": [
+          [
+            "V2_LEAN",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_QUALITY_CREDENTIAL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "25": "DUPLICATE:N1017:24",
+        "26": "DUPLICATE:N1017:24",
+        "27": [
+          [
+            "V2_DFM",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_QUALITY_STANDARDS",
+            "PREFERRED",
+            "EXAMPLE"
+          ]
+        ],
+        "28": "DUPLICATE:N1017:27",
+        "29": "DUPLICATE:N1017:27",
+        "30": "DUPLICATE:N1017:27",
+        "31": [
+          [
+            "V2_CNC_PROCESS",
+            "SEPARATE",
+            "BACKGROUND"
+          ]
+        ]
+      },
+      "notes": "精密加工运营、程序标准和人才计划；CNC人才获取是招聘对象，方法本人承担有独立职责证据。ERP/MES及CAD/CAM斜杠未知保留。 本轮FAI定义核对修订：冻结目录V2_APQP_PPAP明确含FAI/首件检验，早先不等同PPAP而排除的理由撤销；子型保持FAI，不称其为PPAP。见Q-M5-FAI-DEFINITION-20260916-04。",
+      "old_overrides": {
+        "O4": {
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "relation": "OWN_USE",
+          "reason": "明确直接拥有machining operations且加工structural and mechanism components，对象和本人关系可判。"
+        },
+        "O5": {
+          "metric": "SEPARATE",
+          "branch": "COLLABORATION_OBJECT",
+          "relation": "COLLABORATION_OBJECT",
+          "reason": "partner with Quality Control on inspection protocols为协作关系。"
+        }
+      },
+      "additions": [
+        {
+          "code": "V2_RCA",
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "quote": "Lead root cause analysis for machining-related quality escapes and delivery misses",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_RCA",
+          "metric": "REQUIRED",
+          "branch": "UNCONDITIONAL",
+          "quote": "Skilled in root cause analysis, documentation control, and structured process improvement.",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_HR",
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "quote": "Lead workforce planning for machining: headcount strategy, skills gap assessment, apprenticeship and cross-training programs, and hiring pipelines for scarce CNC talent.",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_SAFETY_OPERATION",
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "quote": "Drive adherence to quality, safety, and documentation requirements across all machining and programming operations",
+          "reason": "全文复核补入明确表达"
+        },
+        {
+          "code": "V2_APQP_PPAP",
+          "metric": "SEPARATE",
+          "branch": "COLLABORATION_OBJECT",
+          "quote": "Uphold dimensional accuracy, surface finish, and part integrity standards for all machined hardware; partner with Quality Control on inspection protocols, first-article processes, and nonconformance disposition.",
+          "reason": "与质控合作首件流程，不升级独立承担"
+        }
+      ],
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|2ecda71fdddd1001632423b240450000|dcea37bea98ab5e46c015d75bea22674ffc9b246b36fb45e59c0fbd5cbe2d88d",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 31,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1123,
+        "end": 1184,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "direct ownership of the Precision Shop's machining operations"
+      },
+      "reader": "Astra",
+      "qc_status": "PENDING_SECOND_PASS",
+      "source_version": "dcea37bea98ab5e46c015d75bea22674ffc9b246b36fb45e59c0fbd5cbe2d88d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T06:00:43.370155+00:00"
+    }
+  }
+}

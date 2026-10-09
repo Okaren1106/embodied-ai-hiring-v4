@@ -1,0 +1,913 @@
+[
+  {
+    "coding_order": 129,
+    "reading_id": "N0717",
+    "company_id": "US_SKILD",
+    "title": "Technical Recruiting Coordinator",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5162961008|d099d13a8c66e12eb21a0492243720c5bad0f159310861d12ea2bedfc9fcaa2e",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nIn this role, you'll own the logistics that keep our hiring machine running: interview scheduling, candidate communications, and tight coordination between recruiters and hiring managers. You'll also support day-to-day internal operations to keep things running smoothly behind the scenes. If you thrive in fast-moving environments, love bringing order to chaos, and care deeply about getting the details right — this is for you.\nThis is a fully in-office role (5 days/week) at our San Mateo headquarters.\nResponsibilities\nSchedule and coordinate high volumes of interviews across multiple teams and time zones\nOwn candidate communications end-to-end, ensuring a seamless and timely experience throughout\nCoordinate both virtual and onsite interviews, including logistics and panel scheduling\nPartner closely with recruiters and hiring managers to keep pipelines moving\nMaintain accurate candidate data and workflows in Greenhouse (ATS)\nTrack interview progress and proactively resolve scheduling conflicts before they become problems\nGreet and host candidates on onsite interview days, making sure every visit feels polished and welcoming\nSupport HR administrative tasks including documentation and employee record-keeping\nProvide operational support to the People team as needed\nPreferred Qualifications\n2–5 years of recruiting coordination or recruiting operations experience\nExperience supporting high-volume hiring environments\nHands-on experience with Greenhouse ATS (or a comparable system)\nExceptional organizational skills — you can juggle competing priorities without dropping the ball\nClear, professional communicator in writing and in person\nRelentlessly detail-oriented with strong follow-through\nComfortable with ambiguity and energized by a fast-paced startup environment\nAble to work in-office 5 days/week in San Mateo\nNice to have\nExperience supporting technical hiring (engineering, robotics, hardware, or AI)\nBackground in HR or People Operations",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nIn this role, you'll own the logistics that keep our hiring machine running: interview scheduling, candidate communications, and tight coordination between recruiters and hiring managers. You'll also support day-to-day internal operations to keep things running smoothly behind the scenes. If you thrive in fast-moving environments, love bringing order to chaos, and care deeply about getting the details right — this is for you.\nThis is a fully in-office role (5 days/week) at our San Mateo headquarters.\nResponsibilities\nSchedule and coordinate high volumes of interviews across multiple teams and time zones\nOwn candidate communications end-to-end, ensuring a seamless and timely experience throughout\nCoordinate both virtual and onsite interviews, including logistics and panel scheduling\nPartner closely with recruiters and hiring managers to keep pipelines moving\nMaintain accurate candidate data and workflows in Greenhouse (ATS)\nTrack interview progress and proactively resolve scheduling conflicts before they become problems\nGreet and host candidates on onsite interview days, making sure every visit feels polished and welcoming\nSupport HR administrative tasks including documentation and employee record-keeping\nProvide operational support to the People team as needed\nPreferred Qualifications\n2–5 years of recruiting coordination or recruiting operations experience\nExperience supporting high-volume hiring environments\nHands-on experience with Greenhouse ATS (or a comparable system)\nExceptional organizational skills — you can juggle competing priorities without dropping the ball\nClear, professional communicator in writing and in person\nRelentlessly detail-oriented with strong follow-through\nComfortable with ambiguity and energized by a fast-paced startup environment\nAble to work in-office 5 days/week in San Mateo\nNice to have\nExperience supporting technical hiring (engineering, robotics, hardware, or AI)\nBackground in HR or People Operations"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_GREENHOUSE",
+        "name": "Greenhouse招聘系统",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1575,
+        "end": 1641,
+        "quote": "Maintain accurate candidate data and workflows in Greenhouse (ATS)",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GREENHOUSE",
+        "name": "Greenhouse招聘系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2163,
+        "end": 2177,
+        "quote": "Greenhouse ATS",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 686,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 163,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0717:1",
+        "codes": [
+          "V2_OFFICE"
+        ],
+        "names": [
+          "Microsoft Office"
+        ],
+        "surface": "This is a fully in-office role (5 days/week) at our San Mateo headquarters.",
+        "quote": "This is a fully in-office role (5 days/week) at our San Mateo headquarters.",
+        "field": "full_description",
+        "start": 1135,
+        "end": 1210
+      },
+      {
+        "id": "2",
+        "review_id": "N0717:2",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "2–5 years of recruiting coordination or recruiting operations experience",
+        "quote": "2–5 years of recruiting coordination or recruiting operations experience",
+        "field": "full_description",
+        "start": 2011,
+        "end": 2083
+      },
+      {
+        "id": "3",
+        "review_id": "N0717:3",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Exceptional organizational skills — you can juggle competing priorities without dropping the ball",
+        "quote": "Exceptional organizational skills — you can juggle competing priorities without dropping the ball",
+        "field": "full_description",
+        "start": 2203,
+        "end": 2300
+      },
+      {
+        "id": "4",
+        "review_id": "N0717:4",
+        "codes": [
+          "V2_OFFICE"
+        ],
+        "names": [
+          "Microsoft Office"
+        ],
+        "surface": "Able to work in-office 5 days/week in San Mateo",
+        "quote": "Able to work in-office 5 days/week in San Mateo",
+        "field": "full_description",
+        "start": 2492,
+        "end": 2539
+      }
+    ]
+  },
+  {
+    "coding_order": 130,
+    "reading_id": "N0718",
+    "company_id": "US_SKILD",
+    "title": "Technical Writer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5368160008|22a25d7bc11a68da16113f5ade38add6ba65d65e374632cfac74b5349e5bfbeb",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a highly skilled Technical Writer to translate complex robotic intelligence into clear, accurate, and user-friendly documentation. In this role, you will be the connective tissue between our researchers, engineers, and the customers, operators, and developers who deploy our systems in the real world. You will own documentation across the full stack—from software architecture, APIs, and SDKs to deployment guides, operational procedures, and troubleshooting runbooks for robotic fleets in the field. Because our robots operate in diverse and challenging customer environments, your documentation must serve audiences ranging from ML researchers to field operators with no engineering background.\nResponsibilities\nDevelop and maintain comprehensive documentation for robotic intelligence software, including architecture overviews, APIs, SDKs, and codebases, serving both internal engineering teams and external developers and partners\nAuthor clear deployment, configuration, maintenance, and troubleshooting documentation that enables operators and customers to run and manage fleets of robots in production environments\nCollaborate closely with robotics researchers, ML engineers, software architects, and infrastructure teams to gather information, understand complex technical concepts, and accurately reflect product functionality and design\nOwn the documentation lifecycle end to end—from planning and drafting through review, publication, and ongoing updates—ensuring materials stay current, accurate, and easily accessible as products evolve rapidly\nEstablish and champion documentation best practices, style guidelines, and tooling; continually improve processes and content quality, and conduct peer reviews of documentation produced across teams\nMaintain consistency in terminology, style, and tone across all documentation, tailoring content for audiences ranging from expert developers to non-technical field operators\nPreferred Qualifications\nBachelor's degree in Technical Communication, English, Computer Science, Engineering, or a related field, or equivalent practical experience\nExperience as a technical writer producing documentation in a fast-paced, highly technical environment\nDemonstrated ability to explain complex technical concepts clearly and accurately to diverse audiences\nFamiliarity with software development concepts and comfort reading code (e.g., Python, C++, or similar)\nProven track record documenting complex software systems, including APIs, SDKs, and software architecture, and shipping high-quality documentation at scale\nExperience creating deployment guides, operational procedures, maintenance manuals, or assembly documentation for hardware or robotic systems\nFamiliarity with modern documentation toolchains and workflows (e.g., Markdown, Git-based docs, static site generators) and version control best practices\nPrior experience in robotics, AI, machine learning, or a related high-tech industry\nAbility to understand the full flow of data and control—from a robot's sensors and models to an operator's screen—and reflect that understanding in documentation\nExperience with tools such as Jira, Confluence, and Google Workspace for tracking, organizing, and publishing documentation\nBase Salary Range\n$100,000\n—\n$300,000 USD",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a highly skilled Technical Writer to translate complex robotic intelligence into clear, accurate, and user-friendly documentation. In this role, you will be the connective tissue between our researchers, engineers, and the customers, operators, and developers who deploy our systems in the real world. You will own documentation across the full stack—from software architecture, APIs, and SDKs to deployment guides, operational procedures, and troubleshooting runbooks for robotic fleets in the field. Because our robots operate in diverse and challenging customer environments, your documentation must serve audiences ranging from ML researchers to field operators with no engineering background.\nResponsibilities\nDevelop and maintain comprehensive documentation for robotic intelligence software, including architecture overviews, APIs, SDKs, and codebases, serving both internal engineering teams and external developers and partners\nAuthor clear deployment, configuration, maintenance, and troubleshooting documentation that enables operators and customers to run and manage fleets of robots in production environments\nCollaborate closely with robotics researchers, ML engineers, software architects, and infrastructure teams to gather information, understand complex technical concepts, and accurately reflect product functionality and design\nOwn the documentation lifecycle end to end—from planning and drafting through review, publication, and ongoing updates—ensuring materials stay current, accurate, and easily accessible as products evolve rapidly\nEstablish and champion documentation best practices, style guidelines, and tooling; continually improve processes and content quality, and conduct peer reviews of documentation produced across teams\nMaintain consistency in terminology, style, and tone across all documentation, tailoring content for audiences ranging from expert developers to non-technical field operators\nPreferred Qualifications\nBachelor's degree in Technical Communication, English, Computer Science, Engineering, or a related field, or equivalent practical experience\nExperience as a technical writer producing documentation in a fast-paced, highly technical environment\nDemonstrated ability to explain complex technical concepts clearly and accurately to diverse audiences\nFamiliarity with software development concepts and comfort reading code (e.g., Python, C++, or similar)\nProven track record documenting complex software systems, including APIs, SDKs, and software architecture, and shipping high-quality documentation at scale\nExperience creating deployment guides, operational procedures, maintenance manuals, or assembly documentation for hardware or robotic systems\nFamiliarity with modern documentation toolchains and workflows (e.g., Markdown, Git-based docs, static site generators) and version control best practices\nPrior experience in robotics, AI, machine learning, or a related high-tech industry\nAbility to understand the full flow of data and control—from a robot's sensors and models to an operator's screen—and reflect that understanding in documentation\nExperience with tools such as Jira, Confluence, and Google Workspace for tracking, organizing, and publishing documentation\nBase Salary Range\n$100,000\n—\n$300,000 USD"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3104,
+        "end": 3110,
+        "quote": "Python",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3112,
+        "end": 3115,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 686,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 209,
+        "end": 225,
+        "quote": "machine learning",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 163,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0718:1",
+        "codes": [
+          "V2_INCIDENT_SUPPORT"
+        ],
+        "names": [
+          "运行排障与事件升级"
+        ],
+        "surface": "We are seeking a highly skilled Technical Writer to translate complex robotic intelligence into clear, accurate, and user-friendly documentation. In this role, you will be the connective tissue between our researchers, engineers, and the customers, operators, and developers who deploy our systems in the real world. You will own documentation across the full stack—from software architecture, APIs, and SDKs to deployment guides, operational procedures, and troubleshooting runbooks for robotic fleets in the field. Because our robots operate in diverse and challenging customer environments, your documentation must serve audiences ranging from ML researchers to field operators with no engineering background.",
+        "quote": "We are seeking a highly skilled Technical Writer to translate complex robotic intelligence into clear, accurate, and user-friendly documentation. In this role, you will be the connective tissue between our researchers, engineers, and the customers, operators, and developers who deploy our systems in the real world. You will own documentation across the full stack—from software architecture, APIs, and SDKs to deployment guides, operational procedures, and troubleshooting runbooks for robotic fleets in the field. Because our robots operate in diverse and challenging customer environments, your documentation must serve audiences ranging from ML researchers to field operators with no engineering background.",
+        "field": "full_description",
+        "start": 705,
+        "end": 1417
+      },
+      {
+        "id": "2",
+        "review_id": "N0718:2",
+        "codes": [
+          "V2_INCIDENT_SUPPORT"
+        ],
+        "names": [
+          "运行排障与事件升级"
+        ],
+        "surface": "Author clear deployment, configuration, maintenance, and troubleshooting documentation that enables operators and customers to run and manage fleets of robots in production environments",
+        "quote": "Author clear deployment, configuration, maintenance, and troubleshooting documentation that enables operators and customers to run and manage fleets of robots in production environments",
+        "field": "full_description",
+        "start": 1657,
+        "end": 1842
+      },
+      {
+        "id": "3",
+        "review_id": "N0718:3",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Familiarity with software development concepts and comfort reading code (e.g., Python, C++, or similar)",
+        "quote": "Familiarity with software development concepts and comfort reading code (e.g., Python, C++, or similar)",
+        "field": "full_description",
+        "start": 3025,
+        "end": 3128
+      },
+      {
+        "id": "4",
+        "review_id": "N0718:4",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "Familiarity with modern documentation toolchains and workflows (e.g., Markdown, Git-based docs, static site generators) and version control best practices",
+        "quote": "Familiarity with modern documentation toolchains and workflows (e.g., Markdown, Git-based docs, static site generators) and version control best practices",
+        "field": "full_description",
+        "start": 3427,
+        "end": 3581
+      },
+      {
+        "id": "5",
+        "review_id": "N0718:5",
+        "codes": [],
+        "names": [],
+        "surface": "Markdown",
+        "quote": "Markdown",
+        "field": "full_description",
+        "start": 3497,
+        "end": 3505
+      },
+      {
+        "id": "6",
+        "review_id": "N0718:6",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "Git",
+        "quote": "Git-based docs",
+        "field": "full_description",
+        "start": 3507,
+        "end": 3521
+      },
+      {
+        "id": "7",
+        "review_id": "N0718:7",
+        "codes": [
+          "V2_JIRA",
+          "V2_CONFLUENCE",
+          "V2_GOOGLE_WORKSPACE"
+        ],
+        "names": [
+          "Jira",
+          "Confluence",
+          "Google Workspace"
+        ],
+        "surface": "Experience with tools such as Jira, Confluence, and Google Workspace for tracking, organizing, and publishing documentation",
+        "quote": "Experience with tools such as Jira, Confluence, and Google Workspace for tracking, organizing, and publishing documentation",
+        "field": "full_description",
+        "start": 3828,
+        "end": 3951
+      },
+      {
+        "id": "8",
+        "review_id": "N0718:8",
+        "codes": [
+          "V2_JIRA"
+        ],
+        "names": [
+          "Jira"
+        ],
+        "surface": "Jira",
+        "quote": "Jira",
+        "field": "full_description",
+        "start": 3858,
+        "end": 3862
+      },
+      {
+        "id": "9",
+        "review_id": "N0718:9",
+        "codes": [
+          "V2_CONFLUENCE"
+        ],
+        "names": [
+          "Confluence"
+        ],
+        "surface": "Confluence",
+        "quote": "Confluence",
+        "field": "full_description",
+        "start": 3864,
+        "end": 3874
+      },
+      {
+        "id": "10",
+        "review_id": "N0718:10",
+        "codes": [
+          "V2_GOOGLE_WORKSPACE"
+        ],
+        "names": [
+          "Google Workspace"
+        ],
+        "surface": "Google Workspace",
+        "quote": "Google Workspace",
+        "field": "full_description",
+        "start": 3880,
+        "end": 3896
+      },
+      {
+        "id": "11",
+        "review_id": "N0718:11",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$300,000 USD",
+        "quote": "$300,000 USD",
+        "field": "full_description",
+        "start": 3981,
+        "end": 3993
+      }
+    ]
+  },
+  {
+    "coding_order": 131,
+    "reading_id": "N0716",
+    "company_id": "US_SKILD",
+    "title": "Technical Recruiter, India",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5375708008|1121fbddcd9002834a62a52601e561ee1cc8b55ef6b5bd5c0dd98bc839133784",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe're looking for a Technical Recruiter to build out our presence in India, owning full-cycle recruiting for technical and engineering roles based there. You'll be part of our recruiting team based in California, while working independently to drive hiring needs in India. This is a high-ownership role for someone who wants to build a hiring function in-region from the ground up.\nResponsibilities\nOwn full-cycle recruiting for technical, engineering, and hardware/robotics roles based in India, from sourcing through offer close\nPartner with India-based and global hiring managers to define role scope, calibrate on candidate bar, and build effective sourcing strategy\nBuild and manage strong candidate pipelines through direct sourcing, referrals, and market mapping specific to the Indian tech and robotics talent landscape\nDrive an excellent candidate experience end-to-end, including timely communication and structured interview coordination across time zones\nMaintain accurate pipeline data and reporting in Greenhouse (ATS)\nPartner with the San Mateo talent team on compensation benchmarking, offer structuring, and closing strategy for India-based hires\nProvide market intelligence on Indian tech/robotics hiring trends, compensation norms, and competitor talent moves\nPreferred Qualifications\n4-5+ years of full-cycle recruiting experience, with a strong track record of closing technical talent\nA technical background or demonstrated fluency recruiting for engineering, robotics, hardware, or deep tech roles\nExperience recruiting in the Indian tech ecosystem, with an existing network of engineering/robotics talent\nComfort working independently and asynchronously as part of a distributed, US-managed team\nStrong command of Greenhouse or comparable ATS platforms\nExcellent written and verbal communication skills in English\nBackground in HR or People Operations",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe're looking for a Technical Recruiter to build out our presence in India, owning full-cycle recruiting for technical and engineering roles based there. You'll be part of our recruiting team based in California, while working independently to drive hiring needs in India. This is a high-ownership role for someone who wants to build a hiring function in-region from the ground up.\nResponsibilities\nOwn full-cycle recruiting for technical, engineering, and hardware/robotics roles based in India, from sourcing through offer close\nPartner with India-based and global hiring managers to define role scope, calibrate on candidate bar, and build effective sourcing strategy\nBuild and manage strong candidate pipelines through direct sourcing, referrals, and market mapping specific to the Indian tech and robotics talent landscape\nDrive an excellent candidate experience end-to-end, including timely communication and structured interview coordination across time zones\nMaintain accurate pipeline data and reporting in Greenhouse (ATS)\nPartner with the San Mateo talent team on compensation benchmarking, offer structuring, and closing strategy for India-based hires\nProvide market intelligence on Indian tech/robotics hiring trends, compensation norms, and competitor talent moves\nPreferred Qualifications\n4-5+ years of full-cycle recruiting experience, with a strong track record of closing technical talent\nA technical background or demonstrated fluency recruiting for engineering, robotics, hardware, or deep tech roles\nExperience recruiting in the Indian tech ecosystem, with an existing network of engineering/robotics talent\nComfort working independently and asynchronously as part of a distributed, US-managed team\nStrong command of Greenhouse or comparable ATS platforms\nExcellent written and verbal communication skills in English\nBackground in HR or People Operations"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_GREENHOUSE",
+        "name": "Greenhouse招聘系统",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1672,
+        "end": 1737,
+        "quote": "Maintain accurate pipeline data and reporting in Greenhouse (ATS)",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GREENHOUSE",
+        "name": "Greenhouse招聘系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1721,
+        "end": 1731,
+        "quote": "Greenhouse",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 686,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 163,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0716:1",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "We're looking for a Technical Recruiter to build out our presence in India, owning full-cycle recruiting for technical and engineering roles based there. You'll be part of our recruiting team based in California, while working independently to drive hiring needs in India. This is a high-ownership role for someone who wants to build a hiring function in-region from the ground up.",
+        "quote": "We're looking for a Technical Recruiter to build out our presence in India, owning full-cycle recruiting for technical and engineering roles based there. You'll be part of our recruiting team based in California, while working independently to drive hiring needs in India. This is a high-ownership role for someone who wants to build a hiring function in-region from the ground up.",
+        "field": "full_description",
+        "start": 705,
+        "end": 1086
+      },
+      {
+        "id": "2",
+        "review_id": "N0716:2",
+        "codes": [
+          "V2_HR",
+          "V2_PROCUREMENT"
+        ],
+        "names": [
+          "招聘与人力流程",
+          "采购与供应商流程"
+        ],
+        "surface": "Own full-cycle recruiting for technical, engineering, and hardware/robotics roles based in India, from sourcing through offer close",
+        "quote": "Own full-cycle recruiting for technical, engineering, and hardware/robotics roles based in India, from sourcing through offer close",
+        "field": "full_description",
+        "start": 1104,
+        "end": 1235
+      },
+      {
+        "id": "3",
+        "review_id": "N0716:3",
+        "codes": [
+          "V2_CALIBRATION",
+          "V2_PROCUREMENT"
+        ],
+        "names": [
+          "传感器与系统标定",
+          "采购与供应商流程"
+        ],
+        "surface": "Partner with India-based and global hiring managers to define role scope, calibrate on candidate bar, and build effective sourcing strategy",
+        "quote": "Partner with India-based and global hiring managers to define role scope, calibrate on candidate bar, and build effective sourcing strategy",
+        "field": "full_description",
+        "start": 1236,
+        "end": 1375
+      },
+      {
+        "id": "4",
+        "review_id": "N0716:4",
+        "codes": [
+          "V2_PROCUREMENT"
+        ],
+        "names": [
+          "采购与供应商流程"
+        ],
+        "surface": "Build and manage strong candidate pipelines through direct sourcing, referrals, and market mapping specific to the Indian tech and robotics talent landscape",
+        "quote": "Build and manage strong candidate pipelines through direct sourcing, referrals, and market mapping specific to the Indian tech and robotics talent landscape",
+        "field": "full_description",
+        "start": 1376,
+        "end": 1532
+      },
+      {
+        "id": "5",
+        "review_id": "N0716:5",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "4-5+ years of full-cycle recruiting experience, with a strong track record of closing technical talent",
+        "quote": "4-5+ years of full-cycle recruiting experience, with a strong track record of closing technical talent",
+        "field": "full_description",
+        "start": 2009,
+        "end": 2111
+      },
+      {
+        "id": "6",
+        "review_id": "N0716:6",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "A technical background or demonstrated fluency recruiting for engineering, robotics, hardware, or deep tech roles",
+        "quote": "A technical background or demonstrated fluency recruiting for engineering, robotics, hardware, or deep tech roles",
+        "field": "full_description",
+        "start": 2112,
+        "end": 2225
+      },
+      {
+        "id": "7",
+        "review_id": "N0716:7",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "Experience recruiting in the Indian tech ecosystem, with an existing network of engineering/robotics talent",
+        "quote": "Experience recruiting in the Indian tech ecosystem, with an existing network of engineering/robotics talent",
+        "field": "full_description",
+        "start": 2226,
+        "end": 2333
+      }
+    ]
+  },
+  {
+    "coding_order": 132,
+    "reading_id": "N0699",
+    "company_id": "US_SKILD",
+    "title": "Senior Accountant",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5397677008|bf799f3ec12ffd55641ab3faf50777ab37297bf742f066181a6e7ef308a65a79",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nThe Senior Accountant will be the primary accounting resource for Skild AI's US and international operations, working hands-on across accounts payable, accounts receivable, invoicing, collections, payroll, and general ledger. This is an operational, individual-contributor role for someone equally comfortable processing an AP invoice and closing the books at month-end. You'll partner closely with the US-based Controller and Finance leadership to ensure accurate, timely financial reporting, and you'll take ownership working independently across time zones.\nResponsibilities\nProcess vendor invoices end-to-end (receipt, coding, approval, payment) and manage weekly payment runs, vendor records, and statement reconciliations\nCode all AP transactions to the correct cost center and GL account in Rillet and Rootstock ERP\nGenerate and issue customer invoices, apply cash receipts, and maintain the AR subledger in QuickBooks, reconciling AR aging weekly\nCoordinate with the US Controller on revenue recognition treatment for customer contracts under ASC 606\nOwn collections end-to-end: correspondence, activity tracking, escalations, and monitoring DSO trends for the Controller\nOwn the full-cycle general ledger for the India subsidiary, including journal entries (accruals, prepayments, depreciation, intercompany) and monthly balance sheet reconciliations\nLead month-end and quarter-end close for the India entity, delivering accurate financials and variance analysis within the close calendar\nProcess and reconcile monthly payroll for India-based employees in QuickBooks, including statutory deductions (PF, ESI, PT, TDS) and coordination with HR on headcount changes\nMaintain audit-ready documentation under US GAAP and support external auditors during the annual audit\nAssist with sales and use, property, and income taxes alongside outside tax advisors, and ensure intercompany transactions are properly documented and reconciled monthly\nServe as the primary Rillet and Rootstock user across entities, maintaining chart of accounts and vendor/customer masters, and drive process improvements and system migrations as the finance stack evolves\nPreferred Qualifications\nBachelor's degree in Accounting\n5-8 years of hands-on accounting experience, with at least 2-3 years in a similar full-cycle role\nProficiency in QuickBooks (Online), with demonstrated practical, day-to-day usage\nStrong working knowledge of US GAAP, particularly revenue recognition (ASC 606), accrual accounting, and financial statement preparation\nProven experience personally processing AP, AR, collections, payroll entries, and GL journal entries — not just in a supervisory capacity\nExperience with full-cycle month-end and year-end close processes\nHigh proficiency in Microsoft Excel (pivot tables, VLOOKUP, reconciliation tools)\nStrong written and verbal communication skills, with the ability to work effectively with US-based leadership across time zones\nHigh attention to detail and personal accountability for accuracy\nCPA, CPA qualification, or in progress a plus\nExperience with intercompany accounting and multi-entity consolidations a plus\nExposure to ERP migration or implementation projects a plus\nExperience in the technology or SaaS industry a plus\nBase Salary Range\n$120,000\n—\n$200,000 USD",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nThe Senior Accountant will be the primary accounting resource for Skild AI's US and international operations, working hands-on across accounts payable, accounts receivable, invoicing, collections, payroll, and general ledger. This is an operational, individual-contributor role for someone equally comfortable processing an AP invoice and closing the books at month-end. You'll partner closely with the US-based Controller and Finance leadership to ensure accurate, timely financial reporting, and you'll take ownership working independently across time zones.\nResponsibilities\nProcess vendor invoices end-to-end (receipt, coding, approval, payment) and manage weekly payment runs, vendor records, and statement reconciliations\nCode all AP transactions to the correct cost center and GL account in Rillet and Rootstock ERP\nGenerate and issue customer invoices, apply cash receipts, and maintain the AR subledger in QuickBooks, reconciling AR aging weekly\nCoordinate with the US Controller on revenue recognition treatment for customer contracts under ASC 606\nOwn collections end-to-end: correspondence, activity tracking, escalations, and monitoring DSO trends for the Controller\nOwn the full-cycle general ledger for the India subsidiary, including journal entries (accruals, prepayments, depreciation, intercompany) and monthly balance sheet reconciliations\nLead month-end and quarter-end close for the India entity, delivering accurate financials and variance analysis within the close calendar\nProcess and reconcile monthly payroll for India-based employees in QuickBooks, including statutory deductions (PF, ESI, PT, TDS) and coordination with HR on headcount changes\nMaintain audit-ready documentation under US GAAP and support external auditors during the annual audit\nAssist with sales and use, property, and income taxes alongside outside tax advisors, and ensure intercompany transactions are properly documented and reconciled monthly\nServe as the primary Rillet and Rootstock user across entities, maintaining chart of accounts and vendor/customer masters, and drive process improvements and system migrations as the finance stack evolves\nPreferred Qualifications\nBachelor's degree in Accounting\n5-8 years of hands-on accounting experience, with at least 2-3 years in a similar full-cycle role\nProficiency in QuickBooks (Online), with demonstrated practical, day-to-day usage\nStrong working knowledge of US GAAP, particularly revenue recognition (ASC 606), accrual accounting, and financial statement preparation\nProven experience personally processing AP, AR, collections, payroll entries, and GL journal entries — not just in a supervisory capacity\nExperience with full-cycle month-end and year-end close processes\nHigh proficiency in Microsoft Excel (pivot tables, VLOOKUP, reconciliation tools)\nStrong written and verbal communication skills, with the ability to work effectively with US-based leadership across time zones\nHigh attention to detail and personal accountability for accuracy\nCPA, CPA qualification, or in progress a plus\nExperience with intercompany accounting and multi-entity consolidations a plus\nExposure to ERP migration or implementation projects a plus\nExperience in the technology or SaaS industry a plus\nBase Salary Range\n$120,000\n—\n$200,000 USD"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_ERP",
+        "name": "ERP系统",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1433,
+        "end": 1527,
+        "quote": "Code all AP transactions to the correct cost center and GL account in Rillet and Rootstock ERP",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_EXCEL",
+        "name": "Excel",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3434,
+        "end": 3515,
+        "quote": "High proficiency in Microsoft Excel (pivot tables, VLOOKUP, reconciliation tools)",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CPA",
+        "name": "注册会计师",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3710,
+        "end": 3713,
+        "quote": "CPA",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_CPA",
+        "name": "注册会计师",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3715,
+        "end": 3732,
+        "quote": "CPA qualification",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_ERP",
+        "name": "ERP系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3835,
+        "end": 3894,
+        "quote": "Exposure to ERP migration or implementation projects a plus",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 686,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 163,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0699:1",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "The Senior Accountant will be the primary accounting resource for Skild AI's US and international operations, working hands-on across accounts payable, accounts receivable, invoicing, collections, payroll, and general ledger. This is an operational, individual-contributor role for someone equally comfortable processing an AP invoice and closing the books at month-end. You'll partner closely with the US-based Controller and Finance leadership to ensure accurate, timely financial reporting, and you'll take ownership working independently across time zones.",
+        "quote": "The Senior Accountant will be the primary accounting resource for Skild AI's US and international operations, working hands-on across accounts payable, accounts receivable, invoicing, collections, payroll, and general ledger. This is an operational, individual-contributor role for someone equally comfortable processing an AP invoice and closing the books at month-end. You'll partner closely with the US-based Controller and Finance leadership to ensure accurate, timely financial reporting, and you'll take ownership working independently across time zones.",
+        "field": "full_description",
+        "start": 705,
+        "end": 1265
+      },
+      {
+        "id": "2",
+        "review_id": "N0699:2",
+        "codes": [],
+        "names": [],
+        "surface": "Rillet",
+        "quote": "Code all AP transactions to the correct cost center and GL account in Rillet and Rootstock ERP",
+        "field": "full_description",
+        "start": 1433,
+        "end": 1527
+      },
+      {
+        "id": "3",
+        "review_id": "N0699:3",
+        "codes": [],
+        "names": [],
+        "surface": "Rootstock",
+        "quote": "Code all AP transactions to the correct cost center and GL account in Rillet and Rootstock ERP",
+        "field": "full_description",
+        "start": 1433,
+        "end": 1527
+      },
+      {
+        "id": "4",
+        "review_id": "N0699:4",
+        "codes": [
+          "V2_QUICKBOOKS"
+        ],
+        "names": [
+          "QuickBooks"
+        ],
+        "surface": "Generate and issue customer invoices, apply cash receipts, and maintain the AR subledger in QuickBooks, reconciling AR aging weekly",
+        "quote": "Generate and issue customer invoices, apply cash receipts, and maintain the AR subledger in QuickBooks, reconciling AR aging weekly",
+        "field": "full_description",
+        "start": 1528,
+        "end": 1659
+      },
+      {
+        "id": "5",
+        "review_id": "N0699:5",
+        "codes": [
+          "V2_QUICKBOOKS"
+        ],
+        "names": [
+          "QuickBooks"
+        ],
+        "surface": "QuickBooks",
+        "quote": "Generate and issue customer invoices, apply cash receipts, and maintain the AR subledger in QuickBooks, reconciling AR aging weekly",
+        "field": "full_description",
+        "start": 1528,
+        "end": 1659
+      },
+      {
+        "id": "6",
+        "review_id": "N0699:6",
+        "codes": [
+          "V2_ACCOUNTING"
+        ],
+        "names": [
+          "会计财税与核算"
+        ],
+        "surface": "Coordinate with the US Controller on revenue recognition treatment for customer contracts under ASC 606",
+        "quote": "Coordinate with the US Controller on revenue recognition treatment for customer contracts under ASC 606",
+        "field": "full_description",
+        "start": 1660,
+        "end": 1763
+      },
+      {
+        "id": "7",
+        "review_id": "N0699:7",
+        "codes": [
+          "V2_ACCOUNTING"
+        ],
+        "names": [
+          "会计财税与核算"
+        ],
+        "surface": "ASC 606",
+        "quote": "Coordinate with the US Controller on revenue recognition treatment for customer contracts under ASC 606",
+        "field": "full_description",
+        "start": 1660,
+        "end": 1763
+      },
+      {
+        "id": "8",
+        "review_id": "N0699:8",
+        "codes": [
+          "V2_QUICKBOOKS",
+          "V2_HR"
+        ],
+        "names": [
+          "QuickBooks",
+          "招聘与人力流程"
+        ],
+        "surface": "Process and reconcile monthly payroll for India-based employees in QuickBooks, including statutory deductions (PF, ESI, PT, TDS) and coordination with HR on headcount changes",
+        "quote": "Process and reconcile monthly payroll for India-based employees in QuickBooks, including statutory deductions (PF, ESI, PT, TDS) and coordination with HR on headcount changes",
+        "field": "full_description",
+        "start": 2203,
+        "end": 2377
+      },
+      {
+        "id": "9",
+        "review_id": "N0699:9",
+        "codes": [
+          "V2_ACCOUNTING"
+        ],
+        "names": [
+          "会计财税与核算"
+        ],
+        "surface": "Maintain audit-ready documentation under US GAAP and support external auditors during the annual audit",
+        "quote": "Maintain audit-ready documentation under US GAAP and support external auditors during the annual audit",
+        "field": "full_description",
+        "start": 2378,
+        "end": 2480
+      },
+      {
+        "id": "10",
+        "review_id": "N0699:10",
+        "codes": [
+          "V2_ACCOUNTING"
+        ],
+        "names": [
+          "会计财税与核算"
+        ],
+        "surface": "US GAAP",
+        "quote": "Maintain audit-ready documentation under US GAAP and support external auditors during the annual audit",
+        "field": "full_description",
+        "start": 2378,
+        "end": 2480
+      },
+      {
+        "id": "11",
+        "review_id": "N0699:11",
+        "codes": [
+          "V2_ACCOUNTING"
+        ],
+        "names": [
+          "会计财税与核算"
+        ],
+        "surface": "US GAAP",
+        "quote": "US GAAP",
+        "field": "full_description",
+        "start": 2419,
+        "end": 2426
+      },
+      {
+        "id": "12",
+        "review_id": "N0699:12",
+        "codes": [
+          "V2_QUICKBOOKS"
+        ],
+        "names": [
+          "QuickBooks"
+        ],
+        "surface": "Proficiency in QuickBooks (Online), with demonstrated practical, day-to-day usage",
+        "quote": "Proficiency in QuickBooks (Online), with demonstrated practical, day-to-day usage",
+        "field": "full_description",
+        "start": 3011,
+        "end": 3092
+      },
+      {
+        "id": "13",
+        "review_id": "N0699:13",
+        "codes": [
+          "V2_QUICKBOOKS"
+        ],
+        "names": [
+          "QuickBooks"
+        ],
+        "surface": "QuickBooks",
+        "quote": "Proficiency in QuickBooks (Online), with demonstrated practical, day-to-day usage",
+        "field": "full_description",
+        "start": 3011,
+        "end": 3092
+      },
+      {
+        "id": "14",
+        "review_id": "N0699:14",
+        "codes": [
+          "V2_ACCOUNTING"
+        ],
+        "names": [
+          "会计财税与核算"
+        ],
+        "surface": "Strong working knowledge of US GAAP, particularly revenue recognition (ASC 606), accrual accounting, and financial statement preparation",
+        "quote": "Strong working knowledge of US GAAP, particularly revenue recognition (ASC 606), accrual accounting, and financial statement preparation",
+        "field": "full_description",
+        "start": 3093,
+        "end": 3229
+      },
+      {
+        "id": "15",
+        "review_id": "N0699:15",
+        "codes": [
+          "V2_ACCOUNTING"
+        ],
+        "names": [
+          "会计财税与核算"
+        ],
+        "surface": "ASC 606",
+        "quote": "revenue recognition (ASC 606)",
+        "field": "full_description",
+        "start": 3143,
+        "end": 3172
+      },
+      {
+        "id": "16",
+        "review_id": "N0699:16",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "Proven experience personally processing AP, AR, collections, payroll entries, and GL journal entries — not just in a supervisory capacity",
+        "quote": "Proven experience personally processing AP, AR, collections, payroll entries, and GL journal entries — not just in a supervisory capacity",
+        "field": "full_description",
+        "start": 3230,
+        "end": 3367
+      },
+      {
+        "id": "17",
+        "review_id": "N0699:17",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$200,000 USD",
+        "quote": "$200,000 USD",
+        "field": "full_description",
+        "start": 3977,
+        "end": 3989
+      }
+    ]
+  }
+]

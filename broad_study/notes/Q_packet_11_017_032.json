@@ -1,0 +1,3230 @@
+[
+  {
+    "coding_order": 17,
+    "reading_id": "N0613",
+    "company_id": "CN_LIMX",
+    "title": "机械结构工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7379568764038662409|fd4d64e0bd67fb106ef78036bcd3bf19820711ce04f46cd1a2c38768846454b3",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n1、负责双足、人形机器人整机或者模块机械结构设计，包括关节布局、骨架结构以及传动选型设计;\n2、参与机器人样机的装配、调试与测试，跟踪过程中的结构问题；\n3、负责零件开模设计，跟进并解决开模量产相关问题；\n4、负责URDF导出。\n\n任职要求\n1、3年以上经验，机械设计或机电一体化专业本科及以上学历；\n2、熟悉机械原理、机械加工工艺、材料、表面处理，精通至少一种3D设计软件（Creo、SolidWorks等）；\n3、能熟练对产品进行结构强度刚度分析；\n4、熟悉关节模组，轴承，丝杆，连杆等部件选型与使用。\n4、有足式机器人的开发经验优先；",
+      "requirements": "1、3年以上经验，机械设计或机电一体化专业本科及以上学历；\n2、熟悉机械原理、机械加工工艺、材料、表面处理，精通至少一种3D设计软件（Creo、SolidWorks等）；\n3、能熟练对产品进行结构强度刚度分析；\n4、熟悉关节模组，轴承，丝杆，连杆等部件选型与使用。\n4、有足式机器人的开发经验优先；",
+      "full_description": "岗位职责\n1、负责双足、人形机器人整机或者模块机械结构设计，包括关节布局、骨架结构以及传动选型设计;\n2、参与机器人样机的装配、调试与测试，跟踪过程中的结构问题；\n3、负责零件开模设计，跟进并解决开模量产相关问题；\n4、负责URDF导出。\n\n任职要求\n1、3年以上经验，机械设计或机电一体化专业本科及以上学历；\n2、熟悉机械原理、机械加工工艺、材料、表面处理，精通至少一种3D设计软件（Creo、SolidWorks等）；\n3、能熟练对产品进行结构强度刚度分析；\n4、熟悉关节模组，轴承，丝杆，连杆等部件选型与使用。\n4、有足式机器人的开发经验优先；"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CREO",
+        "name": "Creo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 193,
+        "end": 197,
+        "quote": "Creo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 198,
+        "end": 208,
+        "quote": "SolidWorks",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 7,
+        "end": 50,
+        "quote": "负责双足、人形机器人整机或者模块机械结构设计，包括关节布局、骨架结构以及传动选型设计;",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 53,
+        "end": 69,
+        "quote": "参与机器人样机的装配、调试与测试",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 160,
+        "end": 164,
+        "quote": "机械原理",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 222,
+        "end": 230,
+        "quote": "结构强度刚度分析",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 236,
+        "end": 240,
+        "quote": "关节模组",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 241,
+        "end": 243,
+        "quote": "轴承",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 244,
+        "end": 246,
+        "quote": "丝杆",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 247,
+        "end": 249,
+        "quote": "连杆",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0613:1",
+        "codes": [
+          "V2_URDF"
+        ],
+        "names": [
+          "URDF"
+        ],
+        "surface": "4、负责URDF导出。",
+        "quote": "4、负责URDF导出。",
+        "field": "full_description",
+        "start": 108,
+        "end": 119
+      },
+      {
+        "id": "2",
+        "review_id": "N0613:2",
+        "codes": [
+          "V2_URDF"
+        ],
+        "names": [
+          "URDF"
+        ],
+        "surface": "URDF",
+        "quote": "负责URDF导出。",
+        "field": "full_description",
+        "start": 110,
+        "end": 119
+      }
+    ]
+  },
+  {
+    "coding_order": 18,
+    "reading_id": "E0405",
+    "company_id": "US_APPTRONIK",
+    "title": "Senior Mechanical Engineer - Soft Good/Gloves/Grip",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6151482004|6ec5e60dbd047e931196f23412037ee68262a68e99197c6cc359789a74bcda00",
+    "already_coded": false,
+    "fields": {
+      "duties": "Apptronik is seeking a\nSenior Mechanical Engineer – Soft Goods / Gloves / Grip\nto lead the mechanical design and development of soft goods, robotic gloves, grip surfaces, and flexible protective interfaces for our humanoid robot, Apollo. This role is responsible for delivering robust, manufacturable, serviceable, and high-performance soft mechanical systems that enable dexterous manipulation, human-robot interaction, protection, sensing, and reliable operation in demanding real-world environments.\nYou will work across mechanical, electrical, controls, materials, manufacturing, systems engineering, and suppliers to develop innovative flexible and elastomeric components from concept through production. The ideal candidate combines strong mechanical engineering fundamentals with hands-on expertise in textiles, flexible materials, elastomers, grip technologies, sensor integration, and manufacturing processes.\nESSENTIAL DUTIES AND RESPONSIBILITIES or KEY ACCOUNTABILITIES\nSoft Goods & Glove Design:\nLead the mechanical design and development of robotic gloves, flexible covers, soft goods, protective interfaces, and other compliant mechanical systems for Apollo.\nFlexible Textile Engineering:\nDesign and develop products using flexible textiles and textile-based structures, including knit and woven constructions, engineered fabrics, and stretch materials. Select appropriate materials and architectures based on stretch, durability, abrasion resistance, flexibility, breathability, and environmental requirements.\nAdvanced Materials:\nDevelop and apply high-performance flexible materials such as UHMWPE, Kevlar/aramid fibers, nylon, polyester, elastomers, and other technical textiles. Evaluate material properties, constructions, and combinations to achieve required mechanical and environmental performance.\nCoatings & Environmental Protection:\nDevelop textile and flexible-material solutions incorporating water-resistant, protective, and functional coatings. Design for environmental exposure, ingress protection, abrasion, contamination, and long-term durability.\nGrip Surface Development:\nDesign elastomeric grip surfaces and compliant interfaces for robotic hands and manipulation systems. Select materials such as silicone and other elastomers and develop appropriate surface geometries, textures, durometers, and friction characteristics.\nElastomer Manufacturing:\nDevelop components using elastomer manufacturing processes including molding, overmolding, bonding, casting, and coatings. Work with manufacturing partners to optimize tooling, process capability, tolerances, and production quality.\nSensor & Wiring Integration:\nMechanically integrate tactile, pressure, force, and other sensors into gloves, grip surfaces, and soft goods. Develop robust strategies for routing, protecting, strain-relieving, and terminating wiring and flexible electrical interfaces within moving and compliant structures.\nMechanical Architecture:\nDefine mechanical architectures for flexible assemblies, attachment systems, retention features, seams, closures, reinforcement structures, grip interfaces, and interfaces to rigid robotic components.\nProtection & Performance Ratings:\nDesign and validate products against applicable performance requirements, including cut resistance, ESD protection, thermal performance, water and environmental resistance, and ingress protection.\nDesign for Serviceability:\nDevelop soft goods and glove assemblies that can be efficiently installed, removed, inspected, repaired, and replaced in the field. Establish service interfaces and modular architectures that minimize downtime and simplify maintenance.\nCAD & Design Development:\nCreate detailed mechanical designs, drawings, specifications, and prototypes using industry-standard CAD and engineering tools. Drive designs from early concepts through detailed design, prototyping, validation, and production.\nPrototype Development & Validation:\nBuild and evaluate prototypes through hands-on testing, laboratory evaluation, and robotic system testing. Develop test methods and use results to drive design improvements in durability, fit, grip performance, flexibility, and reliability.\nDFM & Production Support:\nPartner closely with Manufacturing, Supply Chain, Quality, and suppliers to optimize designs for manufacturability, assembly, cost, quality, scalability, and repeatable production.\nSupplier & Manufacturer Collaboration:\nWork directly with textile mills, soft-goods manufacturers, molding suppliers, contract manufacturers, and other partners to develop components, review manufacturing processes, resolve technical issues, and qualify production-ready designs.\nCross-Functional Integration:\nCollaborate closely with Electrical, Controls, Sensors, Systems, Firmware, Manufacturing, and Robotics teams to ensure seamless integration of mechanical, electrical, sensing, and functional requirements.\nReliability & Problem Solving:\nInvestigate failures and field issues through root-cause analysis, develop corrective actions, and drive improvements in product reliability, durability, and performance.\nTechnical Leadership:\nMentor junior engineers, establish best practices for soft goods and flexible mechanical design, and provide technical leadership across robotic glove, grip, and soft-interface development.",
+      "requirements": "Textiles & Materials:\nStrong expertise in technical textiles, knits/wovens, stretch behavior, seams, reinforcement, and high-performance fibers such as UHMWPE, Kevlar/aramid, nylon, and polyester.\nProtective Materials:\nExperience with coatings, water/contamination resistance, abrasion, tear/cut resistance, durability, and environmental protection.\nElastomers & Grip:\nExperience with silicone/elastomers, grip surfaces, friction, durometer, texture, wear, molding, overmolding, bonding, and casting.\nMechanical Design:\nAdvanced CAD experience (NX or similar) designing flexible/rigid assemblies, soft goods, elastomeric components, and rigid-to-flex interfaces.\nSensors & Electrical:\nExperience integrating sensors, wiring, connectors, and flexible electrical interfaces into moving or soft assemblies.\nTesting & Compliance:\nFamiliarity with ESD, thermal, water/IP, cut protection, tolerance analysis, material characterization, reliability, cycle testing, and design validation.\nManufacturing:\nProven ability to take products from concept through prototype, validation, and production, including DFM, assembly, inspection, repair, and supplier/manufacturer collaboration.\nHands-On Engineering:\nStrong prototyping, fabrication, troubleshooting, and mechanical problem-solving skills.\nLeadership & Communication:\nExcellent cross-functional communication; able to independently lead complex development programs, make engineering decisions, and mentor engineers.\nEDUCATION and/or EXPERIENCE\nExperience:\n6+ years in mechanical product development, especially soft goods, textiles, elastomers, wearables, or flexible systems.\nEducation:\nBachelor’s/Master’s in Mechanical, Materials, or related engineering field.\nPHYSICAL REQUIREMENTS\nProlonged periods of sitting at a desk and working on a computer\nMust be able to lift 15 pounds at times\nVision to read printed materials and a computer screen\nHearing and speech to communicate\nAbility to work hands-on with prototypes, manufacturing equipment, materials, and robotic hardware\n*This is a direct hire.  Please, no outside Agency solicitations.\nApptronik provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.",
+      "full_description": "Apptronik is a human-centered robotics company developing AI-powered robots to support humanity in every facet of life. Our flagship humanoid robot, Apollo, is built to collaborate thoughtfully with people, starting with critical industries such as manufacturing and logistics, with future applications in healthcare, the home, and beyond.\nWe operate at the cutting edge of Applied AI, applying our expertise across the full robotics stack to solve some of society's most important problems. You will join a team dedicated to bringing Apollo to market at scale, tackling the complex challenges like safety, commercialization, and mass production to change the world for the better.\nJOB SUMMARY\nApptronik is seeking a\nSenior Mechanical Engineer – Soft Goods / Gloves / Grip\nto lead the mechanical design and development of soft goods, robotic gloves, grip surfaces, and flexible protective interfaces for our humanoid robot, Apollo. This role is responsible for delivering robust, manufacturable, serviceable, and high-performance soft mechanical systems that enable dexterous manipulation, human-robot interaction, protection, sensing, and reliable operation in demanding real-world environments.\nYou will work across mechanical, electrical, controls, materials, manufacturing, systems engineering, and suppliers to develop innovative flexible and elastomeric components from concept through production. The ideal candidate combines strong mechanical engineering fundamentals with hands-on expertise in textiles, flexible materials, elastomers, grip technologies, sensor integration, and manufacturing processes.\nESSENTIAL DUTIES AND RESPONSIBILITIES or KEY ACCOUNTABILITIES\nSoft Goods & Glove Design:\nLead the mechanical design and development of robotic gloves, flexible covers, soft goods, protective interfaces, and other compliant mechanical systems for Apollo.\nFlexible Textile Engineering:\nDesign and develop products using flexible textiles and textile-based structures, including knit and woven constructions, engineered fabrics, and stretch materials. Select appropriate materials and architectures based on stretch, durability, abrasion resistance, flexibility, breathability, and environmental requirements.\nAdvanced Materials:\nDevelop and apply high-performance flexible materials such as UHMWPE, Kevlar/aramid fibers, nylon, polyester, elastomers, and other technical textiles. Evaluate material properties, constructions, and combinations to achieve required mechanical and environmental performance.\nCoatings & Environmental Protection:\nDevelop textile and flexible-material solutions incorporating water-resistant, protective, and functional coatings. Design for environmental exposure, ingress protection, abrasion, contamination, and long-term durability.\nGrip Surface Development:\nDesign elastomeric grip surfaces and compliant interfaces for robotic hands and manipulation systems. Select materials such as silicone and other elastomers and develop appropriate surface geometries, textures, durometers, and friction characteristics.\nElastomer Manufacturing:\nDevelop components using elastomer manufacturing processes including molding, overmolding, bonding, casting, and coatings. Work with manufacturing partners to optimize tooling, process capability, tolerances, and production quality.\nSensor & Wiring Integration:\nMechanically integrate tactile, pressure, force, and other sensors into gloves, grip surfaces, and soft goods. Develop robust strategies for routing, protecting, strain-relieving, and terminating wiring and flexible electrical interfaces within moving and compliant structures.\nMechanical Architecture:\nDefine mechanical architectures for flexible assemblies, attachment systems, retention features, seams, closures, reinforcement structures, grip interfaces, and interfaces to rigid robotic components.\nProtection & Performance Ratings:\nDesign and validate products against applicable performance requirements, including cut resistance, ESD protection, thermal performance, water and environmental resistance, and ingress protection.\nDesign for Serviceability:\nDevelop soft goods and glove assemblies that can be efficiently installed, removed, inspected, repaired, and replaced in the field. Establish service interfaces and modular architectures that minimize downtime and simplify maintenance.\nCAD & Design Development:\nCreate detailed mechanical designs, drawings, specifications, and prototypes using industry-standard CAD and engineering tools. Drive designs from early concepts through detailed design, prototyping, validation, and production.\nPrototype Development & Validation:\nBuild and evaluate prototypes through hands-on testing, laboratory evaluation, and robotic system testing. Develop test methods and use results to drive design improvements in durability, fit, grip performance, flexibility, and reliability.\nDFM & Production Support:\nPartner closely with Manufacturing, Supply Chain, Quality, and suppliers to optimize designs for manufacturability, assembly, cost, quality, scalability, and repeatable production.\nSupplier & Manufacturer Collaboration:\nWork directly with textile mills, soft-goods manufacturers, molding suppliers, contract manufacturers, and other partners to develop components, review manufacturing processes, resolve technical issues, and qualify production-ready designs.\nCross-Functional Integration:\nCollaborate closely with Electrical, Controls, Sensors, Systems, Firmware, Manufacturing, and Robotics teams to ensure seamless integration of mechanical, electrical, sensing, and functional requirements.\nReliability & Problem Solving:\nInvestigate failures and field issues through root-cause analysis, develop corrective actions, and drive improvements in product reliability, durability, and performance.\nTechnical Leadership:\nMentor junior engineers, establish best practices for soft goods and flexible mechanical design, and provide technical leadership across robotic glove, grip, and soft-interface development.\nSKILLS AND REQUIREMENTS\nTextiles & Materials:\nStrong expertise in technical textiles, knits/wovens, stretch behavior, seams, reinforcement, and high-performance fibers such as UHMWPE, Kevlar/aramid, nylon, and polyester.\nProtective Materials:\nExperience with coatings, water/contamination resistance, abrasion, tear/cut resistance, durability, and environmental protection.\nElastomers & Grip:\nExperience with silicone/elastomers, grip surfaces, friction, durometer, texture, wear, molding, overmolding, bonding, and casting.\nMechanical Design:\nAdvanced CAD experience (NX or similar) designing flexible/rigid assemblies, soft goods, elastomeric components, and rigid-to-flex interfaces.\nSensors & Electrical:\nExperience integrating sensors, wiring, connectors, and flexible electrical interfaces into moving or soft assemblies.\nTesting & Compliance:\nFamiliarity with ESD, thermal, water/IP, cut protection, tolerance analysis, material characterization, reliability, cycle testing, and design validation.\nManufacturing:\nProven ability to take products from concept through prototype, validation, and production, including DFM, assembly, inspection, repair, and supplier/manufacturer collaboration.\nHands-On Engineering:\nStrong prototyping, fabrication, troubleshooting, and mechanical problem-solving skills.\nLeadership & Communication:\nExcellent cross-functional communication; able to independently lead complex development programs, make engineering decisions, and mentor engineers.\nEDUCATION and/or EXPERIENCE\nExperience:\n6+ years in mechanical product development, especially soft goods, textiles, elastomers, wearables, or flexible systems.\nEducation:\nBachelor’s/Master’s in Mechanical, Materials, or related engineering field.\nPHYSICAL REQUIREMENTS\nProlonged periods of sitting at a desk and working on a computer\nMust be able to lift 15 pounds at times\nVision to read printed materials and a computer screen\nHearing and speech to communicate\nAbility to work hands-on with prototypes, manufacturing equipment, materials, and robotic hardware\n*This is a direct hire.  Please, no outside Agency solicitations.\nApptronik provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 3671,
+        "end": 3775,
+        "quote": "Create detailed mechanical designs, drawings, specifications, and prototypes using industry-standard CAD",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 529,
+        "end": 532,
+        "quote": "CAD",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_NX",
+        "name": "Siemens NX",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 545,
+        "end": 547,
+        "quote": "NX",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 562,
+        "end": 605,
+        "quote": "tackling the complex challenges like safety",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1132,
+        "end": 1160,
+        "quote": "compliant mechanical systems",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 2107,
+        "end": 2208,
+        "quote": "Design elastomeric grip surfaces and compliant interfaces for robotic hands and manipulation systems.",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 5028,
+        "end": 5098,
+        "quote": "drive improvements in product reliability, durability, and performance",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 4042,
+        "end": 4107,
+        "quote": "Develop test methods and use results to drive design improvements",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "name": "热管理与热设计",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 3301,
+        "end": 3356,
+        "quote": "thermal performance, water and environmental resistance",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 4693,
+        "end": 4801,
+        "quote": "Collaborate closely with Electrical, Controls, Sensors, Systems, Firmware, Manufacturing, and Robotics teams",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 4693,
+        "end": 4801,
+        "quote": "Collaborate closely with Electrical, Controls, Sensors, Systems, Firmware, Manufacturing, and Robotics teams",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 570,
+        "end": 595,
+        "quote": "flexible/rigid assemblies",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "name": "热管理与热设计",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 3301,
+        "end": 3308,
+        "quote": "thermal",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 903,
+        "end": 928,
+        "quote": "material characterization",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 930,
+        "end": 941,
+        "quote": "reliability",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 943,
+        "end": 979,
+        "quote": "cycle testing, and design validation",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0405:1",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "Develop components using elastomer manufacturing processes including molding, overmolding, bonding, casting, and coatings. Work with manufacturing partners to optimize tooling, process capability, tolerances, and production quality.",
+        "quote": "Develop components using elastomer manufacturing processes including molding, overmolding, bonding, casting, and coatings. Work with manufacturing partners to optimize tooling, process capability, tolerances, and production quality.",
+        "field": "full_description",
+        "start": 3079,
+        "end": 3311
+      },
+      {
+        "id": "2",
+        "review_id": "E0405:2",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Develop soft goods and glove assemblies that can be efficiently installed, removed, inspected, repaired, and replaced in the field. Establish service interfaces and modular architectures that minimize downtime and simplify maintenance.",
+        "quote": "Develop soft goods and glove assemblies that can be efficiently installed, removed, inspected, repaired, and replaced in the field. Establish service interfaces and modular architectures that minimize downtime and simplify maintenance.",
+        "field": "full_description",
+        "start": 4103,
+        "end": 4338
+      },
+      {
+        "id": "3",
+        "review_id": "E0405:3",
+        "codes": [
+          "V2_DFM"
+        ],
+        "names": [
+          "可制造与可装配设计"
+        ],
+        "surface": "DFM & Production Support:",
+        "quote": "DFM & Production Support:",
+        "field": "full_description",
+        "start": 4870,
+        "end": 4895
+      },
+      {
+        "id": "4",
+        "review_id": "E0405:4",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "Experience with silicone/elastomers, grip surfaces, friction, durometer, texture, wear, molding, overmolding, bonding, and casting.",
+        "quote": "Experience with silicone/elastomers, grip surfaces, friction, durometer, texture, wear, molding, overmolding, bonding, and casting.",
+        "field": "full_description",
+        "start": 6399,
+        "end": 6530
+      },
+      {
+        "id": "5",
+        "review_id": "E0405:5",
+        "codes": [
+          "V2_DFM"
+        ],
+        "names": [
+          "可制造与可装配设计"
+        ],
+        "surface": "Proven ability to take products from concept through prototype, validation, and production, including DFM, assembly, inspection, repair, and supplier/manufacturer collaboration.",
+        "quote": "Proven ability to take products from concept through prototype, validation, and production, including DFM, assembly, inspection, repair, and supplier/manufacturer collaboration.",
+        "field": "full_description",
+        "start": 7026,
+        "end": 7203
+      },
+      {
+        "id": "6",
+        "review_id": "E0405:6",
+        "codes": [
+          "V2_INCIDENT_SUPPORT"
+        ],
+        "names": [
+          "运行排障与事件升级"
+        ],
+        "surface": "Strong prototyping, fabrication, troubleshooting, and mechanical problem-solving skills.",
+        "quote": "Strong prototyping, fabrication, troubleshooting, and mechanical problem-solving skills.",
+        "field": "full_description",
+        "start": 7226,
+        "end": 7314
+      },
+      {
+        "id": "7",
+        "review_id": "E0405:7",
+        "codes": [],
+        "names": [],
+        "surface": "UHMWPE, Kevlar/aramid fibers, nylon, polyester, elastomers",
+        "quote": "UHMWPE, Kevlar/aramid fibers, nylon, polyester, elastomers",
+        "field": "duties",
+        "start": 1608,
+        "end": 1666
+      }
+    ]
+  },
+  {
+    "coding_order": 19,
+    "reading_id": "N1011",
+    "company_id": "US_BOSTON_DYNAMICS",
+    "title": "Senior Staff Mechanical Engineer - Atlas",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|0e2576eddd811000b0fa542f5f960000|a04f2fd13d62f7eb3bd7a49b6186bf2c7878b756ff5574cc89f173f482909b8c",
+    "already_coded": false,
+    "fields": {
+      "duties": "Boston Dynamics is looking to hire a talented\nSenior Staff Mechanical Engineer\nto join our Atlas hardware development team.\nAs a Senior Staff Mechanical Engineer, you will help us go from concept to production on hardware for our next-generation humanoid robotic platforms. This role sits at the intersection of complex mechanical design and industrialization. You will play a critical role in making Atlas even more dexterous.\nYou will be responsible for the technical leadership of a commercial product, ensuring designs meet all performance and reliability targets while fostering the professional growth of a team of design engineers through the rigor of production release.\nBoston Dynamics is a world leader in mobile robots, tackling some of the toughest robotics challenges. For years, our awe-inspiring\nviral videos on YouTube\nhave shown the world what remarkably capable robots can do. Now we are quickly becoming a recognized leader in automation solutions for industrial applications and warehouse logistics.\nWhat You’ll Do\nTechnical Leadership:\nGuide the mechanical design and release of commercial product, overseeing technical execution from initial architecture through to manufacturing.\nProduction Excellence:\nFacilitate CAD completion and lead the generation of comprehensive drawing packages, utilizing advanced GD&T and 1D/3D tolerance analysis to ensure high-quality builds.\nCollaborative Design (DFx):\nPartner with suppliers and manufacturing teams to optimize designs for assembly, cost, and long-term reliability.\nMentorship & Development:\nSupport and mentor early-career and mid-level engineers, providing technical guidance, conducting thoughtful design reviews, and fostering an inclusive team environment.\nRisk Stewardship:\nManage technical risk through FMEAs, validation planning, and detailed due diligence on moving assemblies (gears, bearings, seals, and shafts).\nWhat You Bring\nProduction Rigor\n:\nA track record of bringing complex electromechanical assemblies from architecture through production release in high-rigor environments (e.g., automotive, aerospace, wearables, or medical devices).\nTechnical Stewardship:\nHigh proficiency in 3D CAD (CATIA preferred) and PLM, with a commitment to detailed documentation, GD&T, and tolerance stack analysis.\nThoughtful Judgment:\nAbility to resolve ambiguous design challenges and balance innovation with practical manufacturing constraints.\nInterpersonal Influence:\nExperience leading cross-functional efforts and building alignment across technical teams through collaboration and clear communication.\nQualifications\nBachelor’s or Master’s degree in Mechanical Engineering or a related field.\nProfessional experience in electromechanical product design and launch (typically 7+ years).\n~10% international travel required to support the global supplier and partner network for products.\nWe are interested in every qualified candidate who is eligible to work in the United States. However, we are not able to sponsor visas for this position.\nThe salary range for this position will be clearly stated in the job posting as required by Massachusetts law. The base pay range for this position is between $135,000 - $167,000. Base pay will depend on multiple individualized factors including, but not limited to internal equity, job related knowledge, skills and experience. This range represents a good faith estimate of compensation at the time of posting.\nBoston Dynamics will never ask you to divulge your personal financial or account information as part of its recruiting process.\n#LI-MD1",
+      "requirements": "",
+      "full_description": "Boston Dynamics is looking to hire a talented\nSenior Staff Mechanical Engineer\nto join our Atlas hardware development team.\nAs a Senior Staff Mechanical Engineer, you will help us go from concept to production on hardware for our next-generation humanoid robotic platforms. This role sits at the intersection of complex mechanical design and industrialization. You will play a critical role in making Atlas even more dexterous.\nYou will be responsible for the technical leadership of a commercial product, ensuring designs meet all performance and reliability targets while fostering the professional growth of a team of design engineers through the rigor of production release.\nBoston Dynamics is a world leader in mobile robots, tackling some of the toughest robotics challenges. For years, our awe-inspiring\nviral videos on YouTube\nhave shown the world what remarkably capable robots can do. Now we are quickly becoming a recognized leader in automation solutions for industrial applications and warehouse logistics.\nWhat You’ll Do\nTechnical Leadership:\nGuide the mechanical design and release of commercial product, overseeing technical execution from initial architecture through to manufacturing.\nProduction Excellence:\nFacilitate CAD completion and lead the generation of comprehensive drawing packages, utilizing advanced GD&T and 1D/3D tolerance analysis to ensure high-quality builds.\nCollaborative Design (DFx):\nPartner with suppliers and manufacturing teams to optimize designs for assembly, cost, and long-term reliability.\nMentorship & Development:\nSupport and mentor early-career and mid-level engineers, providing technical guidance, conducting thoughtful design reviews, and fostering an inclusive team environment.\nRisk Stewardship:\nManage technical risk through FMEAs, validation planning, and detailed due diligence on moving assemblies (gears, bearings, seals, and shafts).\nWhat You Bring\nProduction Rigor\n:\nA track record of bringing complex electromechanical assemblies from architecture through production release in high-rigor environments (e.g., automotive, aerospace, wearables, or medical devices).\nTechnical Stewardship:\nHigh proficiency in 3D CAD (CATIA preferred) and PLM, with a commitment to detailed documentation, GD&T, and tolerance stack analysis.\nThoughtful Judgment:\nAbility to resolve ambiguous design challenges and balance innovation with practical manufacturing constraints.\nInterpersonal Influence:\nExperience leading cross-functional efforts and building alignment across technical teams through collaboration and clear communication.\nQualifications\nBachelor’s or Master’s degree in Mechanical Engineering or a related field.\nProfessional experience in electromechanical product design and launch (typically 7+ years).\n~10% international travel required to support the global supplier and partner network for products.\nWe are interested in every qualified candidate who is eligible to work in the United States. However, we are not able to sponsor visas for this position.\nThe salary range for this position will be clearly stated in the job posting as required by Massachusetts law. The base pay range for this position is between $135,000 - $167,000. Base pay will depend on multiple individualized factors including, but not limited to internal equity, job related knowledge, skills and experience. This range represents a good faith estimate of compensation at the time of posting.\nBoston Dynamics will never ask you to divulge your personal financial or account information as part of its recruiting process.\n#LI-MD1"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1226,
+        "end": 1363,
+        "quote": "Facilitate CAD completion and lead the generation of comprehensive drawing packages, utilizing advanced GD&T and 1D/3D tolerance analysis",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GD_T",
+        "name": "几何尺寸与公差",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1226,
+        "end": 1363,
+        "quote": "Facilitate CAD completion and lead the generation of comprehensive drawing packages, utilizing advanced GD&T and 1D/3D tolerance analysis",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_FMEA",
+        "name": "FMEA",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1781,
+        "end": 1856,
+        "quote": "FMEAs, validation planning, and detailed due diligence on moving assemblies",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2170,
+        "end": 2176,
+        "quote": "3D CAD",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2178,
+        "end": 2193,
+        "quote": "CATIA preferred",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_GD_T",
+        "name": "几何尺寸与公差",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2249,
+        "end": 2253,
+        "quote": "GD&T",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1057,
+        "end": 1118,
+        "quote": "Guide the mechanical design and release of commercial product",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1423,
+        "end": 1536,
+        "quote": "Partner with suppliers and manufacturing teams to optimize designs for assembly, cost, and long-term reliability.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1781,
+        "end": 1856,
+        "quote": "FMEAs, validation planning, and detailed due diligence on moving assemblies",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1956,
+        "end": 2037,
+        "quote": "complex electromechanical assemblies from architecture through production release",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2698,
+        "end": 2741,
+        "quote": "electromechanical product design and launch",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N1011:1",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "have shown the world what remarkably capable robots can do. Now we are quickly becoming a recognized leader in automation solutions for industrial applications and warehouse logistics.",
+        "quote": "have shown the world what remarkably capable robots can do. Now we are quickly becoming a recognized leader in automation solutions for industrial applications and warehouse logistics.",
+        "field": "full_description",
+        "start": 835,
+        "end": 1019
+      },
+      {
+        "id": "2",
+        "review_id": "N1011:2",
+        "codes": [
+          "V2_DFM"
+        ],
+        "names": [
+          "可制造与可装配设计"
+        ],
+        "surface": "Collaborative Design (DFx):",
+        "quote": "Collaborative Design (DFx):",
+        "field": "full_description",
+        "start": 1395,
+        "end": 1422
+      },
+      {
+        "id": "3",
+        "review_id": "N1011:3",
+        "codes": [
+          "V2_PLM"
+        ],
+        "names": [
+          "PLM系统"
+        ],
+        "surface": "High proficiency in 3D CAD (CATIA preferred) and PLM, with a commitment to detailed documentation, GD&T, and tolerance stack analysis.",
+        "quote": "High proficiency in 3D CAD (CATIA preferred) and PLM, with a commitment to detailed documentation, GD&T, and tolerance stack analysis.",
+        "field": "full_description",
+        "start": 2150,
+        "end": 2284
+      },
+      {
+        "id": "4",
+        "review_id": "N1011:4",
+        "codes": [
+          "V2_PLM"
+        ],
+        "names": [
+          "PLM系统"
+        ],
+        "surface": "PLM",
+        "quote": "PLM",
+        "field": "full_description",
+        "start": 2199,
+        "end": 2202
+      },
+      {
+        "id": "5",
+        "review_id": "N1011:5",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "Boston Dynamics will never ask you to divulge your personal financial or account information as part of its recruiting process.",
+        "quote": "Boston Dynamics will never ask you to divulge your personal financial or account information as part of its recruiting process.",
+        "field": "full_description",
+        "start": 3431,
+        "end": 3558
+      }
+    ]
+  },
+  {
+    "coding_order": 20,
+    "reading_id": "N0425",
+    "company_id": "CN_AGIBOT",
+    "title": "高级结构工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7574616993094748467|eaccde2b0b3478d640dc6242d29614037f69c0d30089679b5a36f9c7262d270a",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n1. 负责复杂多关节串并联机器人本体的机械设计，进行产品需求拆解、方案设计、传动设计；\n2. 进行整机方案堆叠，外形曲面设计（ID外观件面的使用拆解）及零部件的结构设计；\n3. 能够进行尺寸链分析，强度和负载校核，寿命分析等；\n4. 针对机器人的性能、精度、强度、寿命进行分析测试优化，对关键功能的设计验证闭环，可靠性设计验证闭环；\n5. 负责零件的详细设计，针对零件进行材料选择，加工工艺设计，2D图纸出图，制作BOM表；\n6. 产品样机组装验证，并将样机落地转换量产交付；\n\n任职要求\n1. 机械设计或机电一体化专业本科及以上学历，具备良好的机电耦合设计开发经验，三年以上工作经验；\n2. 熟悉机械原理、材料及加工工艺、表面处理，精通CREO、Solidworks等三维专业软件；\n3. 能熟练对产品进行结构力学分析，有较强的产品失效风险分析能力；\n4. 熟悉关节模组，轴承，丝杆，连杆，齿轮等传动部件的选型计算与使用；\n5. 出色的逻辑分析能力和产品设计能力，有较强的团队协作能力；\n6. 有产品从零到一量产开发经验优先；\n7. 有双足、四足机器人、协作机器人、扫地机、割草机工作经验优先；",
+      "requirements": "1. 机械设计或机电一体化专业本科及以上学历，具备良好的机电耦合设计开发经验，三年以上工作经验；\n2. 熟悉机械原理、材料及加工工艺、表面处理，精通CREO、Solidworks等三维专业软件；\n3. 能熟练对产品进行结构力学分析，有较强的产品失效风险分析能力；\n4. 熟悉关节模组，轴承，丝杆，连杆，齿轮等传动部件的选型计算与使用；\n5. 出色的逻辑分析能力和产品设计能力，有较强的团队协作能力；\n6. 有产品从零到一量产开发经验优先；\n7. 有双足、四足机器人、协作机器人、扫地机、割草机工作经验优先；",
+      "full_description": "岗位职责\n1. 负责复杂多关节串并联机器人本体的机械设计，进行产品需求拆解、方案设计、传动设计；\n2. 进行整机方案堆叠，外形曲面设计（ID外观件面的使用拆解）及零部件的结构设计；\n3. 能够进行尺寸链分析，强度和负载校核，寿命分析等；\n4. 针对机器人的性能、精度、强度、寿命进行分析测试优化，对关键功能的设计验证闭环，可靠性设计验证闭环；\n5. 负责零件的详细设计，针对零件进行材料选择，加工工艺设计，2D图纸出图，制作BOM表；\n6. 产品样机组装验证，并将样机落地转换量产交付；\n\n任职要求\n1. 机械设计或机电一体化专业本科及以上学历，具备良好的机电耦合设计开发经验，三年以上工作经验；\n2. 熟悉机械原理、材料及加工工艺、表面处理，精通CREO、Solidworks等三维专业软件；\n3. 能熟练对产品进行结构力学分析，有较强的产品失效风险分析能力；\n4. 熟悉关节模组，轴承，丝杆，连杆，齿轮等传动部件的选型计算与使用；\n5. 出色的逻辑分析能力和产品设计能力，有较强的团队协作能力；\n6. 有产品从零到一量产开发经验优先；\n7. 有双足、四足机器人、协作机器人、扫地机、割草机工作经验优先；"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CREO",
+        "name": "Creo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 324,
+        "end": 328,
+        "quote": "CREO",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 329,
+        "end": 339,
+        "quote": "Solidworks",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 5,
+        "end": 48,
+        "quote": "1. 负责复杂多关节串并联机器人本体的机械设计，进行产品需求拆解、方案设计、传动设计；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 119,
+        "end": 171,
+        "quote": "4. 针对机器人的性能、精度、强度、寿命进行分析测试优化，对关键功能的设计验证闭环，可靠性设计验证闭环；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 119,
+        "end": 171,
+        "quote": "4. 针对机器人的性能、精度、强度、寿命进行分析测试优化，对关键功能的设计验证闭环，可靠性设计验证闭环；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 302,
+        "end": 321,
+        "quote": "熟悉机械原理、材料及加工工艺、表面处理",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 348,
+        "end": 381,
+        "quote": "3. 能熟练对产品进行结构力学分析，有较强的产品失效风险分析能力；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 382,
+        "end": 417,
+        "quote": "4. 熟悉关节模组，轴承，丝杆，连杆，齿轮等传动部件的选型计算与使用；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 91,
+        "end": 118,
+        "quote": "3. 能够进行尺寸链分析，强度和负载校核，寿命分析等；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": []
+  },
+  {
+    "coding_order": 21,
+    "reading_id": "N0437",
+    "company_id": "CN_AGIBOT",
+    "title": "结构总监",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7566635675241187620|847632b96e6ae5b1413079f012d5c2322c8365fe2f026c9b51cddc62d385ebb5",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n职位描述\n1、负责确保本体组的交付节点与交付质量。组建和管理机械技术团队，合理分配工作任务，监督项目进度和质量，主导整机风险识别，确保项目按时交付；\n2、负责新产品的机械架构设计、结构设计和已开发产品的设计优化改进；\n3、主导精密多关节串联和并联机器人的机械结构设计、建模与运动学仿真与设计优化；\n4、负责或组织进行尺寸链分析、强度和负载校核、寿命分析等；\n5、与项目团队、供应商及其他相关部门紧密协作，解决项目实施过程中遇到的技术难题和协调问题；\n6、负责或主持编写和审核技术文档，包括设计图纸、技术规范、操作手册、设计标准等，确保文档的准确性和完整性；\n\n任职要求\n1、有6年以上机器人或3C产品的开发经验，具备项目管理和团队管理经验；\n2、具备站在整体交付目标、产品需求、多模块耦合的角度思考问题的能力；\n3、具备成熟产品的量产开发经验，熟悉金属件和塑料件等的量产制造工艺，熟悉整机/单体性能与可靠性测试方法与流程，能够平衡零件的性能、工艺及成本；\n4、熟悉自动化机械外购件（丝杆、同步带、齿轮、直线导轨）等选型计算；\n5、掌握常规机械传动方式，如带传动、链传动、齿轮传动、滚珠丝杆、连杆传动等；\n6、对机器人技术和行业趋势有独到的理解和热情，具有良好的团队合作意识。",
+      "requirements": "1、有6年以上机器人或3C产品的开发经验，具备项目管理和团队管理经验；\n2、具备站在整体交付目标、产品需求、多模块耦合的角度思考问题的能力；\n3、具备成熟产品的量产开发经验，熟悉金属件和塑料件等的量产制造工艺，熟悉整机/单体性能与可靠性测试方法与流程，能够平衡零件的性能、工艺及成本；\n4、熟悉自动化机械外购件（丝杆、同步带、齿轮、直线导轨）等选型计算；\n5、掌握常规机械传动方式，如带传动、链传动、齿轮传动、滚珠丝杆、连杆传动等；\n6、对机器人技术和行业趋势有独到的理解和热情，具有良好的团队合作意识。",
+      "full_description": "岗位职责\n职位描述\n1、负责确保本体组的交付节点与交付质量。组建和管理机械技术团队，合理分配工作任务，监督项目进度和质量，主导整机风险识别，确保项目按时交付；\n2、负责新产品的机械架构设计、结构设计和已开发产品的设计优化改进；\n3、主导精密多关节串联和并联机器人的机械结构设计、建模与运动学仿真与设计优化；\n4、负责或组织进行尺寸链分析、强度和负载校核、寿命分析等；\n5、与项目团队、供应商及其他相关部门紧密协作，解决项目实施过程中遇到的技术难题和协调问题；\n6、负责或主持编写和审核技术文档，包括设计图纸、技术规范、操作手册、设计标准等，确保文档的准确性和完整性；\n\n任职要求\n1、有6年以上机器人或3C产品的开发经验，具备项目管理和团队管理经验；\n2、具备站在整体交付目标、产品需求、多模块耦合的角度思考问题的能力；\n3、具备成熟产品的量产开发经验，熟悉金属件和塑料件等的量产制造工艺，熟悉整机/单体性能与可靠性测试方法与流程，能够平衡零件的性能、工艺及成本；\n4、熟悉自动化机械外购件（丝杆、同步带、齿轮、直线导轨）等选型计算；\n5、掌握常规机械传动方式，如带传动、链传动、齿轮传动、滚珠丝杆、连杆传动等；\n6、对机器人技术和行业趋势有独到的理解和热情，具有良好的团队合作意识。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 114,
+        "end": 153,
+        "quote": "3、主导精密多关节串联和并联机器人的机械结构设计、建模与运动学仿真与设计优化；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 114,
+        "end": 153,
+        "quote": "3、主导精密多关节串联和并联机器人的机械结构设计、建模与运动学仿真与设计优化；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 154,
+        "end": 183,
+        "quote": "4、负责或组织进行尺寸链分析、强度和负载校核、寿命分析等；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 361,
+        "end": 432,
+        "quote": "3、具备成熟产品的量产开发经验，熟悉金属件和塑料件等的量产制造工艺，熟悉整机/单体性能与可靠性测试方法与流程，能够平衡零件的性能、工艺及成本；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 361,
+        "end": 432,
+        "quote": "3、具备成熟产品的量产开发经验，熟悉金属件和塑料件等的量产制造工艺，熟悉整机/单体性能与可靠性测试方法与流程，能够平衡零件的性能、工艺及成本；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 433,
+        "end": 467,
+        "quote": "4、熟悉自动化机械外购件（丝杆、同步带、齿轮、直线导轨）等选型计算；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 468,
+        "end": 506,
+        "quote": "5、掌握常规机械传动方式，如带传动、链传动、齿轮传动、滚珠丝杆、连杆传动等；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 154,
+        "end": 183,
+        "quote": "4、负责或组织进行尺寸链分析、强度和负载校核、寿命分析等；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0437:1",
+        "codes": [
+          "V2_PROCUREMENT"
+        ],
+        "names": [
+          "采购与供应商流程"
+        ],
+        "surface": "5、与项目团队、供应商及其他相关部门紧密协作，解决项目实施过程中遇到的技术难题和协调问题；",
+        "quote": "5、与项目团队、供应商及其他相关部门紧密协作，解决项目实施过程中遇到的技术难题和协调问题；",
+        "field": "full_description",
+        "start": 184,
+        "end": 229
+      }
+    ]
+  },
+  {
+    "coding_order": 22,
+    "reading_id": "N0234",
+    "company_id": "CN_ASTRIBOT",
+    "title": "结构设计工程师（MD 方向）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_ASTRIBOT|moka|2144c919-c976-4576-81ea-c931bdb55864|7fb76056f61c42fc671e1ecf99b260ee6200f89b7ddd9d97e4e571a1e6370f22",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n\n负责机器人结构设计，包括但不限于\n\n金属骨架（铝合金/钢件）结构方案设计\n\n塑胶外壳、装饰件及功能件的结构设计与优化\n\n根据产品需求，完成从方案设计 → 3D建模 → 工程图输出 → 试产跟进的完整结构设计流程\n负责零部件的强度、刚度、装配、可靠性、成本及可制造性设计\n与工业设计、电子、算法及生产团队协作，推动产品按计划落地\n对接供应商，参与塑胶模具、压铸模具的评审、DFM、模具问题分析及优化\n参与样机试装、问题定位及结构改进，支持量产导入\n\n任职要求\n\n本科及以上学历，机械设计、机械工程、材料或相关专业\n\n\n\n\n3年以上结构设计经验，有机器人、自动化设备、智能硬件相关经验者优先\n\n\n\n\n熟练使用以下设计软件之一或多种：\n\nCreo（熟练）\n\nSolidWorks（熟练）\n\n熟悉曲面建模（外观件、复杂曲面壳体）\n\n\n\n\n熟悉常见材料及工艺：\n\n塑胶材料（ABS、PC、PC+ABS 等）\n\n金属材料（铝合金、钢件）\n\n了解塑胶模具、压铸模具的基本结构与设计要点\n\n\n\n\n具备良好的工程意识：\n\n装配公差、结构强度、成本控制\n\n可制造性、可维护性设计\n\n\n\n\n责任心强，具备良好的沟通能力和团队协作意识\n\n\n\n\n加分项（非必须）\n\n有机器人本体 / 机械臂 / 服务机器人 / 工业设备结构经验\n有量产项目经验，参与过模具开模、试模、量产爬坡\n了解有限元分析（强度 / 振动 / 热）\n有跨专业协作经验（ID / EE / 算法）",
+      "requirements": "",
+      "full_description": "岗位职责\n\n负责机器人结构设计，包括但不限于\n\n金属骨架（铝合金/钢件）结构方案设计\n\n塑胶外壳、装饰件及功能件的结构设计与优化\n\n根据产品需求，完成从方案设计 → 3D建模 → 工程图输出 → 试产跟进的完整结构设计流程\n负责零部件的强度、刚度、装配、可靠性、成本及可制造性设计\n与工业设计、电子、算法及生产团队协作，推动产品按计划落地\n对接供应商，参与塑胶模具、压铸模具的评审、DFM、模具问题分析及优化\n参与样机试装、问题定位及结构改进，支持量产导入\n\n任职要求\n\n本科及以上学历，机械设计、机械工程、材料或相关专业\n\n\n\n\n3年以上结构设计经验，有机器人、自动化设备、智能硬件相关经验者优先\n\n\n\n\n熟练使用以下设计软件之一或多种：\n\nCreo（熟练）\n\nSolidWorks（熟练）\n\n熟悉曲面建模（外观件、复杂曲面壳体）\n\n\n\n\n熟悉常见材料及工艺：\n\n塑胶材料（ABS、PC、PC+ABS 等）\n\n金属材料（铝合金、钢件）\n\n了解塑胶模具、压铸模具的基本结构与设计要点\n\n\n\n\n具备良好的工程意识：\n\n装配公差、结构强度、成本控制\n\n可制造性、可维护性设计\n\n\n\n\n责任心强，具备良好的沟通能力和团队协作意识\n\n\n\n\n加分项（非必须）\n\n有机器人本体 / 机械臂 / 服务机器人 / 工业设备结构经验\n有量产项目经验，参与过模具开模、试模、量产爬坡\n了解有限元分析（强度 / 振动 / 热）\n有跨专业协作经验（ID / EE / 算法）"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CREO",
+        "name": "Creo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 322,
+        "end": 330,
+        "quote": "Creo（熟练）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 332,
+        "end": 346,
+        "quote": "SolidWorks（熟练）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 582,
+        "end": 602,
+        "quote": "了解有限元分析（强度 / 振动 / 热）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 24,
+        "end": 42,
+        "quote": "金属骨架（铝合金/钢件）结构方案设计",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 112,
+        "end": 140,
+        "quote": "负责零部件的强度、刚度、装配、可靠性、成本及可制造性设计",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 266,
+        "end": 299,
+        "quote": "3年以上结构设计经验，有机器人、自动化设备、智能硬件相关经验者优先",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 420,
+        "end": 441,
+        "quote": "了解塑胶模具、压铸模具的基本结构与设计要点",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 458,
+        "end": 472,
+        "quote": "装配公差、结构强度、成本控制",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 526,
+        "end": 557,
+        "quote": "有机器人本体 / 机械臂 / 服务机器人 / 工业设备结构经验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 582,
+        "end": 602,
+        "quote": "了解有限元分析（强度 / 振动 / 热）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0234:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "与工业设计、电子、算法及生产团队协作，推动产品按计划落地",
+        "quote": "与工业设计、电子、算法及生产团队协作，推动产品按计划落地",
+        "field": "full_description",
+        "start": 141,
+        "end": 169
+      },
+      {
+        "id": "2",
+        "review_id": "N0234:2",
+        "codes": [
+          "V2_DFM",
+          "V2_CNC_PROCESS",
+          "V2_PROCUREMENT"
+        ],
+        "names": [
+          "可制造与可装配设计",
+          "加工与成型工艺",
+          "采购与供应商流程"
+        ],
+        "surface": "对接供应商，参与塑胶模具、压铸模具的评审、DFM、模具问题分析及优化",
+        "quote": "对接供应商，参与塑胶模具、压铸模具的评审、DFM、模具问题分析及优化",
+        "field": "full_description",
+        "start": 170,
+        "end": 204
+      },
+      {
+        "id": "3",
+        "review_id": "N0234:3",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "了解塑胶模具、压铸模具的基本结构与设计要点",
+        "quote": "了解塑胶模具、压铸模具的基本结构与设计要点",
+        "field": "full_description",
+        "start": 420,
+        "end": 441
+      }
+    ]
+  },
+  {
+    "coding_order": 23,
+    "reading_id": "N0505",
+    "company_id": "CN_DEEPROBOTICS",
+    "title": "机械工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|3c87ff00-5bde-4084-ad6d-7ec7824c7a33|de398b0e7b30d89f8f11b222be01cbb142088aa2fc3d5c136783910aaf8f4e6e",
+    "already_coded": false,
+    "fields": {
+      "duties": "职责描述：\n\n1.独立完成机器人产品的结构设计、器件选型和强度校核工作；\n\n2.负责产品3D/2D、爆炸图、零件明细表等产品生产文件的编写； \n\n3.负责产品的开发、跟进打样和设计验证优化工作；\n\n4.负责零件的开模、跟模、供应商沟通等(包括塑料和金属等零件的开模)；\n\n5.负责量产产品的维护工作，解决生产过程中遇到的各种问题。\n\n\n\n\n任职要求：\n\n1.机械类专业本科及以上学历； \n\n2.3年以上机械及结构设计工作经验，有规模化量产产品经验者优先； \n\n3.熟悉产品加工工艺；熟悉钣金/金属材料/塑料材料性能，具备注塑模具及冲压模具的相关知识；\n\n4.具有强度和刚度分析能力者优先；\n\n5.具有机器人系统仿真经验者优先；\n\n6.良好的创新精神和团队精神，沟通能力好，乐于接受挑战，能承受一定的工作压力。",
+      "requirements": "",
+      "full_description": "职责描述：\n\n1.独立完成机器人产品的结构设计、器件选型和强度校核工作；\n\n2.负责产品3D/2D、爆炸图、零件明细表等产品生产文件的编写； \n\n3.负责产品的开发、跟进打样和设计验证优化工作；\n\n4.负责零件的开模、跟模、供应商沟通等(包括塑料和金属等零件的开模)；\n\n5.负责量产产品的维护工作，解决生产过程中遇到的各种问题。\n\n\n\n\n任职要求：\n\n1.机械类专业本科及以上学历； \n\n2.3年以上机械及结构设计工作经验，有规模化量产产品经验者优先； \n\n3.熟悉产品加工工艺；熟悉钣金/金属材料/塑料材料性能，具备注塑模具及冲压模具的相关知识；\n\n4.具有强度和刚度分析能力者优先；\n\n5.具有机器人系统仿真经验者优先；\n\n6.良好的创新精神和团队精神，沟通能力好，乐于接受挑战，能承受一定的工作压力。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 7,
+        "end": 36,
+        "quote": "1.独立完成机器人产品的结构设计、器件选型和强度校核工作；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 73,
+        "end": 97,
+        "quote": "3.负责产品的开发、跟进打样和设计验证优化工作；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 197,
+        "end": 212,
+        "quote": "3年以上机械及结构设计工作经验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 230,
+        "end": 275,
+        "quote": "3.熟悉产品加工工艺；熟悉钣金/金属材料/塑料材料性能，具备注塑模具及冲压模具的相关知识；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 277,
+        "end": 294,
+        "quote": "4.具有强度和刚度分析能力者优先；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 296,
+        "end": 313,
+        "quote": "5.具有机器人系统仿真经验者优先；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0505:1",
+        "codes": [
+          "V2_PROCUREMENT"
+        ],
+        "names": [
+          "采购与供应商流程"
+        ],
+        "surface": "4.负责零件的开模、跟模、供应商沟通等(包括塑料和金属等零件的开模)；",
+        "quote": "4.负责零件的开模、跟模、供应商沟通等(包括塑料和金属等零件的开模)；",
+        "field": "full_description",
+        "start": 99,
+        "end": 134
+      },
+      {
+        "id": "2",
+        "review_id": "N0505:2",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "3.熟悉产品加工工艺；熟悉钣金/金属材料/塑料材料性能，具备注塑模具及冲压模具的相关知识；",
+        "quote": "3.熟悉产品加工工艺；熟悉钣金/金属材料/塑料材料性能，具备注塑模具及冲压模具的相关知识；",
+        "field": "full_description",
+        "start": 230,
+        "end": 275
+      }
+    ]
+  },
+  {
+    "coding_order": 24,
+    "reading_id": "N0523",
+    "company_id": "CN_DEEPROBOTICS",
+    "title": "减速器设计专家",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|bf7e846e-e32c-46c4-853c-91836da29923|275029649751fd39cf02e1ccd7930714605b9555e6c8cf30eede1e54e07aee5b",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1、负责机器人关节用精密减速器（谐波减速器、行星减速器、RV减速器等）的设计、仿真与优化工作；\n\n2、负责减速器材料选型、传动效率分析、寿命测试及可靠性验证，确保产品性能达标；\n\n3、主导解决减速器在高速、高负载、高精度工况下的振动、噪声、发热等关键技术难题；\n\n4、负责关键结构件的有限元分析（静强度、疲劳强度、动力学），保障零件及整机的可靠性；\n\n5、负责供应商技术评估与开发，支持客户端重大技术问题的分析与闭环；\n\n6、跟踪行业动态与竞品技术趋势，推动产品持续迭代，提升市场竞争力。\n\n\n\n\n任职要求：\n\n1、统招本科及以上学历，机械设计、齿轮传动等相关专业；\n\n2、5年以上精密减速器设计经验，熟悉机器人关节传动系统者优先；\n\n3、掌握谐波减速器、行星减速器、RV减速器等精密减速器的工作原理与设计方法；\n\n4、精通齿轮传动计算，熟练使用行业软件；\n\n5、具备减速器成功量产项目全流程经验者优先考虑。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1、负责机器人关节用精密减速器（谐波减速器、行星减速器、RV减速器等）的设计、仿真与优化工作；\n\n2、负责减速器材料选型、传动效率分析、寿命测试及可靠性验证，确保产品性能达标；\n\n3、主导解决减速器在高速、高负载、高精度工况下的振动、噪声、发热等关键技术难题；\n\n4、负责关键结构件的有限元分析（静强度、疲劳强度、动力学），保障零件及整机的可靠性；\n\n5、负责供应商技术评估与开发，支持客户端重大技术问题的分析与闭环；\n\n6、跟踪行业动态与竞品技术趋势，推动产品持续迭代，提升市场竞争力。\n\n\n\n\n任职要求：\n\n1、统招本科及以上学历，机械设计、齿轮传动等相关专业；\n\n2、5年以上精密减速器设计经验，熟悉机器人关节传动系统者优先；\n\n3、掌握谐波减速器、行星减速器、RV减速器等精密减速器的工作原理与设计方法；\n\n4、精通齿轮传动计算，熟练使用行业软件；\n\n5、具备减速器成功量产项目全流程经验者优先考虑。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 139,
+        "end": 181,
+        "quote": "4、负责关键结构件的有限元分析（静强度、疲劳强度、动力学），保障零件及整机的可靠性；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 7,
+        "end": 54,
+        "quote": "1、负责机器人关节用精密减速器（谐波减速器、行星减速器、RV减速器等）的设计、仿真与优化工作；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 7,
+        "end": 54,
+        "quote": "1、负责机器人关节用精密减速器（谐波减速器、行星减速器、RV减速器等）的设计、仿真与优化工作；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 7,
+        "end": 54,
+        "quote": "1、负责机器人关节用精密减速器（谐波减速器、行星减速器、RV减速器等）的设计、仿真与优化工作；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 56,
+        "end": 95,
+        "quote": "2、负责减速器材料选型、传动效率分析、寿命测试及可靠性验证，确保产品性能达标；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 56,
+        "end": 95,
+        "quote": "2、负责减速器材料选型、传动效率分析、寿命测试及可靠性验证，确保产品性能达标；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "name": "热管理与热设计",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 97,
+        "end": 137,
+        "quote": "3、主导解决减速器在高速、高负载、高精度工况下的振动、噪声、发热等关键技术难题；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 139,
+        "end": 181,
+        "quote": "4、负责关键结构件的有限元分析（静强度、疲劳强度、动力学），保障零件及整机的可靠性；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 292,
+        "end": 323,
+        "quote": "2、5年以上精密减速器设计经验，熟悉机器人关节传动系统者优先；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 292,
+        "end": 323,
+        "quote": "2、5年以上精密减速器设计经验，熟悉机器人关节传动系统者优先；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 308,
+        "end": 322,
+        "quote": "熟悉机器人关节传动系统者优先",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 325,
+        "end": 363,
+        "quote": "3、掌握谐波减速器、行星减速器、RV减速器等精密减速器的工作原理与设计方法；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 325,
+        "end": 363,
+        "quote": "3、掌握谐波减速器、行星减速器、RV减速器等精密减速器的工作原理与设计方法；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 365,
+        "end": 385,
+        "quote": "4、精通齿轮传动计算，熟练使用行业软件；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 387,
+        "end": 411,
+        "quote": "5、具备减速器成功量产项目全流程经验者优先考虑。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0523:1",
+        "codes": [
+          "V2_PROCUREMENT"
+        ],
+        "names": [
+          "采购与供应商流程"
+        ],
+        "surface": "5、负责供应商技术评估与开发，支持客户端重大技术问题的分析与闭环；",
+        "quote": "5、负责供应商技术评估与开发，支持客户端重大技术问题的分析与闭环；",
+        "field": "full_description",
+        "start": 183,
+        "end": 216
+      }
+    ]
+  },
+  {
+    "coding_order": 25,
+    "reading_id": "N0497",
+    "company_id": "CN_DEEPROBOTICS",
+    "title": "机械工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|ed83e87f-7d38-416b-a52c-6f8862a31407|96f737206178257e9a016e1752d1b732e3d14dd3a9a3560b18f23a65b5dc238c",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.参与机器人产品的结构设计、器件选型和强度校核工作，完成结构方案输出；\n\n2.独立完成产品3D/2D、爆炸图、零件明细表等产品设计文件的编写；\n\n3.负责产品的开发、跟进打样和设计验证优化工作；\n\n4.负责产品量产后的维护工作，解决生产过程中遇到的各种问题；\n\n任职要求：\n\n1.机械、机器人、机电、车辆工程、自动化等相关专业硕士及以上学历；\n\n2.熟悉机械结构设计基础知识，具备一定的钣金/金属材料/塑料材料性能和注塑模具、冲压模具的相关知识\n\n3.能熟练使用SolidWorks三维建模软件，了解基础的结构仿真工具者优先；\n\n4.具有机器人、无人机等相关机械实习和竞赛项目经验者优先；\n\n5.良好的沟通与团队协作能力，能够积极主动参与项目推动。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1.参与机器人产品的结构设计、器件选型和强度校核工作，完成结构方案输出；\n\n2.独立完成产品3D/2D、爆炸图、零件明细表等产品设计文件的编写；\n\n3.负责产品的开发、跟进打样和设计验证优化工作；\n\n4.负责产品量产后的维护工作，解决生产过程中遇到的各种问题；\n\n任职要求：\n\n1.机械、机器人、机电、车辆工程、自动化等相关专业硕士及以上学历；\n\n2.熟悉机械结构设计基础知识，具备一定的钣金/金属材料/塑料材料性能和注塑模具、冲压模具的相关知识\n\n3.能熟练使用SolidWorks三维建模软件，了解基础的结构仿真工具者优先；\n\n4.具有机器人、无人机等相关机械实习和竞赛项目经验者优先；\n\n5.良好的沟通与团队协作能力，能够积极主动参与项目推动。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 234,
+        "end": 255,
+        "quote": "能熟练使用SolidWorks三维建模软件",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 7,
+        "end": 43,
+        "quote": "1.参与机器人产品的结构设计、器件选型和强度校核工作，完成结构方案输出；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 81,
+        "end": 105,
+        "quote": "3.负责产品的开发、跟进打样和设计验证优化工作；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 181,
+        "end": 230,
+        "quote": "2.熟悉机械结构设计基础知识，具备一定的钣金/金属材料/塑料材料性能和注塑模具、冲压模具的相关知识",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 256,
+        "end": 270,
+        "quote": "了解基础的结构仿真工具者优先",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 273,
+        "end": 302,
+        "quote": "4.具有机器人、无人机等相关机械实习和竞赛项目经验者优先；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0497:1",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "2.熟悉机械结构设计基础知识，具备一定的钣金/金属材料/塑料材料性能和注塑模具、冲压模具的相关知识",
+        "quote": "2.熟悉机械结构设计基础知识，具备一定的钣金/金属材料/塑料材料性能和注塑模具、冲压模具的相关知识",
+        "field": "full_description",
+        "start": 181,
+        "end": 230
+      }
+    ]
+  },
+  {
+    "coding_order": 26,
+    "reading_id": "N0462",
+    "company_id": "CN_FOURIER",
+    "title": "【2027届校招】电机研发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|54e94b66-13d9-4b7a-b37a-21160196e7ac|20955f53f6a8b249c526a7c914fc521a2d8baaafa70f89260085e32552a55330",
+    "already_coded": false,
+    "fields": {
+      "duties": "职责描述：\n\n1.开展新产品新项目的电机产品设计开发，以及现有产品的优化； \n\n2.根据项目要求及相关技术条件，转换为电机设计输入需求，如电机的转速、扭矩、温升、尺寸、重量等，以确定电机开发平台；\n\n3.负责电机电磁仿真计算，能独立优化电机的负面效应，比如齿槽效应、电磁共振、提升效率、高频电磁谐振等问题；\n\n4.负责绘制输出全套电机设计图纸（定/转子冲片、总装图、绕组图等）；\n\n5.负责编制电机产品测试大纲并协助测试； \n\n6.负责对接外部供应商，进行技术交底，主导样机试制与性能验证，解决制造过程中的技术难题；\n\n7. 严格控制电机成本，在性能、可靠性与成本之间做出最佳平衡；\n\n8.竞品分析，资料整理总结，分享，归档等相关工作。\n\n\n\n\n任职要求： \n\n1.电机、电力电子、机械设计、自动化等相关专业本科及以上学历；\n\n2.熟练使用三维二维制图软件;\n\n3.熟练使用ansoft、Maxwell等电磁分析软件； \n\n4.熟悉电机结构、原理及制造工艺流程，以及关键零部件的选型规则、材料特性； \n\n5.具有良好的沟通能力和执行力，有较强的责任心。",
+      "requirements": "",
+      "full_description": "职责描述：\n\n1.开展新产品新项目的电机产品设计开发，以及现有产品的优化； \n\n2.根据项目要求及相关技术条件，转换为电机设计输入需求，如电机的转速、扭矩、温升、尺寸、重量等，以确定电机开发平台；\n\n3.负责电机电磁仿真计算，能独立优化电机的负面效应，比如齿槽效应、电磁共振、提升效率、高频电磁谐振等问题；\n\n4.负责绘制输出全套电机设计图纸（定/转子冲片、总装图、绕组图等）；\n\n5.负责编制电机产品测试大纲并协助测试； \n\n6.负责对接外部供应商，进行技术交底，主导样机试制与性能验证，解决制造过程中的技术难题；\n\n7. 严格控制电机成本，在性能、可靠性与成本之间做出最佳平衡；\n\n8.竞品分析，资料整理总结，分享，归档等相关工作。\n\n\n\n\n任职要求： \n\n1.电机、电力电子、机械设计、自动化等相关专业本科及以上学历；\n\n2.熟练使用三维二维制图软件;\n\n3.熟练使用ansoft、Maxwell等电磁分析软件； \n\n4.熟悉电机结构、原理及制造工艺流程，以及关键零部件的选型规则、材料特性； \n\n5.具有良好的沟通能力和执行力，有较强的责任心。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 37,
+        "quote": "开展新产品新项目的电机产品设计开发，以及现有产品的优化；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 157,
+        "end": 189,
+        "quote": "负责绘制输出全套电机设计图纸（定/转子冲片、总装图、绕组图等）；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 102,
+        "end": 125,
+        "quote": "负责电机电磁仿真计算，能独立优化电机的负面效应",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 193,
+        "end": 211,
+        "quote": "负责编制电机产品测试大纲并协助测试；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 272,
+        "end": 291,
+        "quote": "在性能、可靠性与成本之间做出最佳平衡；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 333,
+        "end": 335,
+        "quote": "电机",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_POWER_ELECTRONICS",
+        "name": "电力电子",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 336,
+        "end": 340,
+        "quote": "电力电子",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 414,
+        "end": 430,
+        "quote": "熟悉电机结构、原理及制造工艺流程",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 414,
+        "end": 430,
+        "quote": "熟悉电机结构、原理及制造工艺流程",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 387,
+        "end": 393,
+        "quote": "ansoft",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 394,
+        "end": 401,
+        "quote": "Maxwell",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0462:1",
+        "codes": [
+          "V2_PROCUREMENT"
+        ],
+        "names": [
+          "采购与供应商流程"
+        ],
+        "surface": "6.负责对接外部供应商，进行技术交底，主导样机试制与性能验证，解决制造过程中的技术难题；",
+        "quote": "6.负责对接外部供应商，进行技术交底，主导样机试制与性能验证，解决制造过程中的技术难题；",
+        "field": "full_description",
+        "start": 214,
+        "end": 258
+      },
+      {
+        "id": "2",
+        "review_id": "N0462:2",
+        "codes": [
+          "V2_ANSYS"
+        ],
+        "names": [
+          "ANSYS"
+        ],
+        "surface": "3.熟练使用ansoft、Maxwell等电磁分析软件； ",
+        "quote": "3.熟练使用ansoft、Maxwell等电磁分析软件； ",
+        "field": "full_description",
+        "start": 381,
+        "end": 410
+      },
+      {
+        "id": "3",
+        "review_id": "N0462:3",
+        "codes": [
+          "V2_ANSYS"
+        ],
+        "names": [
+          "ANSYS"
+        ],
+        "surface": "ansoft",
+        "quote": "熟练使用ansoft、Maxwell等电磁分析软件；",
+        "field": "full_description",
+        "start": 383,
+        "end": 409
+      },
+      {
+        "id": "4",
+        "review_id": "N0462:4",
+        "codes": [],
+        "names": [],
+        "surface": "Maxwell",
+        "quote": "熟练使用ansoft、Maxwell等电磁分析软件；",
+        "field": "full_description",
+        "start": 383,
+        "end": 409
+      }
+    ]
+  },
+  {
+    "coding_order": 27,
+    "reading_id": "N0445",
+    "company_id": "CN_FOURIER",
+    "title": "机械结构实习生",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|5907e018-22ae-474f-9d34-7c9eda93606c|3f3d9bd55d20e8e545b8eea2fe908e13935a4caabec689eb9faac7d0049c0cce",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n协助负责人形机器人结构设计，参与轻量化、稳定性及可靠性相关的设计优化工作；\n协助完成机器人关键零部件（如关节模组、轴承等）的选型评估与对比分析；\n参与结构相关的实验测试，协助分析并解决样机及产品中的结构问题；\n完成上级安排的其他技术或文档类工作。\n\n任职要求：\n\n本科或硕士在读，机械设计制造及其自动化或相关机械专业；\n有机械设计相关课程项目、竞赛或实习经验者优先，具备一定独立完成小模块结构设计的能力；\n熟悉至少一种常见绘图软件，如 SolidWorks、CATIA、Creo 等；\n对压铸模、冲压模、塑料模等常见制造工艺有基本了解，愿意学习开模可行性分析方法；\n了解静力学分析基本概念，有使用 Simulation、Ansys 等工具进行简单分析经验者优先；\n具备较强的学习能力和动手能力，乐于接受新技术与新思路；\n良好的沟通能力和团队协作意识；\n责任心强，能合理安排时间，按时完成分配的工作任务。\n\n加分项（可选）：\n\n有机器人相关结构设计经验（含课程项目、实验室课题或竞赛）；\n了解公差分析、热设计或振动控制等进阶结构设计知识；\n有基本画图能力外的仿真或手板制作经验。\n\n我们希望你：\n\n对机器人结构设计有热情，愿意深入理解“设计-制造-测试”的全过程；\n细心、踏实，既能独立承担小任务，也乐于团队协作；\n善于总结和提问，能在实践中持续改进设计思路。\n\n你将获得：\n\n参与真实人形机器人产品结构开发流程，积累从概念到落地的项目经验；\n接触关节模组、轻量化设计、可靠性测试等关键结构与制造技术；\n与经验丰富的机械工程师协作，获得系统性的设计指导与反馈；\n在开放、务实、以结果为导向的团队氛围中快速成长。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n协助负责人形机器人结构设计，参与轻量化、稳定性及可靠性相关的设计优化工作；\n协助完成机器人关键零部件（如关节模组、轴承等）的选型评估与对比分析；\n参与结构相关的实验测试，协助分析并解决样机及产品中的结构问题；\n完成上级安排的其他技术或文档类工作。\n\n任职要求：\n\n本科或硕士在读，机械设计制造及其自动化或相关机械专业；\n有机械设计相关课程项目、竞赛或实习经验者优先，具备一定独立完成小模块结构设计的能力；\n熟悉至少一种常见绘图软件，如 SolidWorks、CATIA、Creo 等；\n对压铸模、冲压模、塑料模等常见制造工艺有基本了解，愿意学习开模可行性分析方法；\n了解静力学分析基本概念，有使用 Simulation、Ansys 等工具进行简单分析经验者优先；\n具备较强的学习能力和动手能力，乐于接受新技术与新思路；\n良好的沟通能力和团队协作意识；\n责任心强，能合理安排时间，按时完成分配的工作任务。\n\n加分项（可选）：\n\n有机器人相关结构设计经验（含课程项目、实验室课题或竞赛）；\n了解公差分析、热设计或振动控制等进阶结构设计知识；\n有基本画图能力外的仿真或手板制作经验。\n\n我们希望你：\n\n对机器人结构设计有热情，愿意深入理解“设计-制造-测试”的全过程；\n细心、踏实，既能独立承担小任务，也乐于团队协作；\n善于总结和提问，能在实践中持续改进设计思路。\n\n你将获得：\n\n参与真实人形机器人产品结构开发流程，积累从概念到落地的项目经验；\n接触关节模组、轻量化设计、可靠性测试等关键结构与制造技术；\n与经验丰富的机械工程师协作，获得系统性的设计指导与反馈；\n在开放、务实、以结果为导向的团队氛围中快速成长。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 225,
+        "end": 235,
+        "quote": "SolidWorks",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 236,
+        "end": 241,
+        "quote": "CATIA",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CREO",
+        "name": "Creo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 242,
+        "end": 246,
+        "quote": "Creo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 7,
+        "end": 44,
+        "quote": "协助负责人形机器人结构设计，参与轻量化、稳定性及可靠性相关的设计优化工作；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 7,
+        "end": 44,
+        "quote": "协助负责人形机器人结构设计，参与轻量化、稳定性及可靠性相关的设计优化工作；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 80,
+        "end": 111,
+        "quote": "参与结构相关的实验测试，协助分析并解决样机及产品中的结构问题；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 167,
+        "end": 189,
+        "quote": "有机械设计相关课程项目、竞赛或实习经验者优先",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 190,
+        "end": 208,
+        "quote": "具备一定独立完成小模块结构设计的能力",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 420,
+        "end": 432,
+        "quote": "有机器人相关结构设计经验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "name": "热管理与热设计",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 457,
+        "end": 460,
+        "quote": "热设计",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 485,
+        "end": 487,
+        "quote": "仿真",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0445:1",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "协助负责人形机器人结构设计，参与轻量化、稳定性及可靠性相关的设计优化工作；",
+        "quote": "协助负责人形机器人结构设计，参与轻量化、稳定性及可靠性相关的设计优化工作；",
+        "field": "full_description",
+        "start": 7,
+        "end": 44
+      },
+      {
+        "id": "2",
+        "review_id": "N0445:2",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "对压铸模、冲压模、塑料模等常见制造工艺有基本了解，愿意学习开模可行性分析方法；",
+        "quote": "对压铸模、冲压模、塑料模等常见制造工艺有基本了解，愿意学习开模可行性分析方法；",
+        "field": "full_description",
+        "start": 250,
+        "end": 289
+      },
+      {
+        "id": "3",
+        "review_id": "N0445:3",
+        "codes": [
+          "V2_ANSYS"
+        ],
+        "names": [
+          "ANSYS"
+        ],
+        "surface": "了解静力学分析基本概念，有使用 Simulation、Ansys 等工具进行简单分析经验者优先；",
+        "quote": "了解静力学分析基本概念，有使用 Simulation、Ansys 等工具进行简单分析经验者优先；",
+        "field": "full_description",
+        "start": 290,
+        "end": 338
+      },
+      {
+        "id": "4",
+        "review_id": "N0445:4",
+        "codes": [],
+        "names": [],
+        "surface": "Simulation",
+        "quote": "有使用 Simulation、Ansys 等工具进行简单分析经验者优先",
+        "field": "full_description",
+        "start": 302,
+        "end": 337
+      },
+      {
+        "id": "5",
+        "review_id": "N0445:5",
+        "codes": [
+          "V2_ANSYS"
+        ],
+        "names": [
+          "ANSYS"
+        ],
+        "surface": "Ansys",
+        "quote": "有使用 Simulation、Ansys 等工具进行简单分析经验者优先",
+        "field": "full_description",
+        "start": 302,
+        "end": 337
+      },
+      {
+        "id": "6",
+        "review_id": "N0445:6",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "接触关节模组、轻量化设计、可靠性测试等关键结构与制造技术；",
+        "quote": "接触关节模组、轻量化设计、可靠性测试等关键结构与制造技术；",
+        "field": "full_description",
+        "start": 628,
+        "end": 657
+      }
+    ]
+  },
+  {
+    "coding_order": 28,
+    "reading_id": "N0464",
+    "company_id": "CN_FOURIER",
+    "title": "【2027届校招】机械研发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|5ad1c9ad-38ef-424c-80af-4f8d3f82c62c|cef2602df8ea185a33d7b0ca899bb126a8f607e98d6f12e00e22177c853c156f",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.负责人形机器人结构设计，确保结构兼顾轻量化、稳定性和可靠性；\n\n2.负责机器人关键零部件的选型，包括：关节模组、轴承等；\n\n3.负责产品实验过程中遇到的问题的分析及解决；\n\n4.负责上级授权范围内的其他专项工作，确保关键节点的信息畅通与执行落地，保证任务目标的高质量达成。\n\n\n\n\n任职要求：\n\n1.机械设计制造及其自动化或相关机械专业，本科及以上学历；\n\n3.熟悉各类常见画图软件；\n\n4.熟悉压铸模，冲压模等金属模，塑料模工艺，可对零部件进行开模可行性评估及优化；\n\n5.熟悉simulation、ansys进行静力学分析，并根据结果优化结构设计，熟悉动力学分析者优先；\n\n6.具备创新思维和解决问题的能力，能够提出并实施创新设计方案；\n\n7.良好的跨部门沟通协调能力和团队合作精神；\n\n8.能够承受工作压力，按时完成项目任务，具有较强的责任感和学习能力；\n\n9.具备较强的动手能力，熟悉常用的测量工具、装配工具及使用方法。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1.负责人形机器人结构设计，确保结构兼顾轻量化、稳定性和可靠性；\n\n2.负责机器人关键零部件的选型，包括：关节模组、轴承等；\n\n3.负责产品实验过程中遇到的问题的分析及解决；\n\n4.负责上级授权范围内的其他专项工作，确保关键节点的信息畅通与执行落地，保证任务目标的高质量达成。\n\n\n\n\n任职要求：\n\n1.机械设计制造及其自动化或相关机械专业，本科及以上学历；\n\n3.熟悉各类常见画图软件；\n\n4.熟悉压铸模，冲压模等金属模，塑料模工艺，可对零部件进行开模可行性评估及优化；\n\n5.熟悉simulation、ansys进行静力学分析，并根据结果优化结构设计，熟悉动力学分析者优先；\n\n6.具备创新思维和解决问题的能力，能够提出并实施创新设计方案；\n\n7.良好的跨部门沟通协调能力和团队合作精神；\n\n8.能够承受工作压力，按时完成项目任务，具有较强的责任感和学习能力；\n\n9.具备较强的动手能力，熟悉常用的测量工具、装配工具及使用方法。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 39,
+        "quote": "负责人形机器人结构设计，确保结构兼顾轻量化、稳定性和可靠性；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 39,
+        "quote": "负责人形机器人结构设计，确保结构兼顾轻量化、稳定性和可靠性；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 247,
+        "end": 284,
+        "quote": "熟悉simulation、ansys进行静力学分析，并根据结果优化结构设计",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 247,
+        "end": 284,
+        "quote": "熟悉simulation、ansys进行静力学分析，并根据结果优化结构设计",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 408,
+        "end": 412,
+        "quote": "测量工具",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 73,
+        "end": 94,
+        "quote": "负责产品实验过程中遇到的问题的分析及解决；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0464:1",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "1.负责人形机器人结构设计，确保结构兼顾轻量化、稳定性和可靠性；",
+        "quote": "1.负责人形机器人结构设计，确保结构兼顾轻量化、稳定性和可靠性；",
+        "field": "full_description",
+        "start": 7,
+        "end": 39
+      },
+      {
+        "id": "2",
+        "review_id": "N0464:2",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "4.熟悉压铸模，冲压模等金属模，塑料模工艺，可对零部件进行开模可行性评估及优化；",
+        "quote": "4.熟悉压铸模，冲压模等金属模，塑料模工艺，可对零部件进行开模可行性评估及优化；",
+        "field": "full_description",
+        "start": 203,
+        "end": 243
+      },
+      {
+        "id": "3",
+        "review_id": "N0464:3",
+        "codes": [
+          "V2_ANSYS"
+        ],
+        "names": [
+          "ANSYS"
+        ],
+        "surface": "5.熟悉simulation、ansys进行静力学分析，并根据结果优化结构设计，熟悉动力学分析者优先；",
+        "quote": "5.熟悉simulation、ansys进行静力学分析，并根据结果优化结构设计，熟悉动力学分析者优先；",
+        "field": "full_description",
+        "start": 245,
+        "end": 296
+      },
+      {
+        "id": "4",
+        "review_id": "N0464:4",
+        "codes": [],
+        "names": [],
+        "surface": "simulation",
+        "quote": "熟悉simulation、ansys进行静力学分析，并根据结果优化结构设计",
+        "field": "full_description",
+        "start": 247,
+        "end": 284
+      },
+      {
+        "id": "5",
+        "review_id": "N0464:5",
+        "codes": [
+          "V2_ANSYS"
+        ],
+        "names": [
+          "ANSYS"
+        ],
+        "surface": "ansys",
+        "quote": "熟悉simulation、ansys进行静力学分析，并根据结果优化结构设计",
+        "field": "full_description",
+        "start": 247,
+        "end": 284
+      }
+    ]
+  },
+  {
+    "coding_order": 29,
+    "reading_id": "N0463",
+    "company_id": "CN_FOURIER",
+    "title": "【2027届校招】仿真工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|e295eee5-8fde-4edd-9883-11ef58ba8910|f7f5db7556ca87ce0c33b5e6edd36af2b99f5d05799afb842b80d0baa36aebf1",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n\n1.负责机器人结构件有限元分析，包括静强度、刚度、模态及疲劳分析；\n\n2.负责3D打印件、碳纤维复合材料件CAE建模和性能评估；\n\n3.根据仿真结果提出结构优化方案，协助机械设计迭代；\n\n4.建立材料数据库和仿真分析流程；\n\n5.支撑人形机器人产品结构可靠性验证。\n\n\n\n\n【任职要求】\n\n1.机械、工程力学等相关专业本科及以上学历；\n\n2.熟练使用常用的CAE软件：ANSYS/Abaqus/Hypermesh；\n\n3.掌握有限元理论、材料力学、结构动力学；\n\n4.有复杂机械结构强度分析经验；\n\n5.了解常规材料测试方法，具有一定的复合材料、3D打印材料各向异性分析能力；\n\n6.具备从问题定义、建模、分析到优化的完整能力；\n\n7.具有应力、应变、振动测试经历者优先。",
+      "requirements": "",
+      "full_description": "岗位职责\n\n1.负责机器人结构件有限元分析，包括静强度、刚度、模态及疲劳分析；\n\n2.负责3D打印件、碳纤维复合材料件CAE建模和性能评估；\n\n3.根据仿真结果提出结构优化方案，协助机械设计迭代；\n\n4.建立材料数据库和仿真分析流程；\n\n5.支撑人形机器人产品结构可靠性验证。\n\n\n\n\n【任职要求】\n\n1.机械、工程力学等相关专业本科及以上学历；\n\n2.熟练使用常用的CAE软件：ANSYS/Abaqus/Hypermesh；\n\n3.掌握有限元理论、材料力学、结构动力学；\n\n4.有复杂机械结构强度分析经验；\n\n5.了解常规材料测试方法，具有一定的复合材料、3D打印材料各向异性分析能力；\n\n6.具备从问题定义、建模、分析到优化的完整能力；\n\n7.具有应力、应变、振动测试经历者优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 8,
+        "end": 39,
+        "quote": "负责机器人结构件有限元分析，包括静强度、刚度、模态及疲劳分析；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CAE",
+        "name": "CAE分析",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 43,
+        "end": 70,
+        "quote": "负责3D打印件、碳纤维复合材料件CAE建模和性能评估；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CAE",
+        "name": "CAE分析",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 184,
+        "end": 187,
+        "quote": "CAE",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_FEA",
+        "name": "有限元分析",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 219,
+        "end": 224,
+        "quote": "有限元理论",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 8,
+        "end": 39,
+        "quote": "负责机器人结构件有限元分析，包括静强度、刚度、模态及疲劳分析；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 74,
+        "end": 98,
+        "quote": "根据仿真结果提出结构优化方案，协助机械设计迭代；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 43,
+        "end": 70,
+        "quote": "负责3D打印件、碳纤维复合材料件CAE建模和性能评估；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 121,
+        "end": 138,
+        "quote": "支撑人形机器人产品结构可靠性验证。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 230,
+        "end": 235,
+        "quote": "结构动力学",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 240,
+        "end": 253,
+        "quote": "有复杂机械结构强度分析经验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 258,
+        "end": 268,
+        "quote": "了解常规材料测试方法",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 324,
+        "end": 341,
+        "quote": "具有应力、应变、振动测试经历者优先",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 184,
+        "end": 187,
+        "quote": "CAE",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 219,
+        "end": 224,
+        "quote": "有限元理论",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 74,
+        "end": 98,
+        "quote": "根据仿真结果提出结构优化方案，协助机械设计迭代；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 102,
+        "end": 117,
+        "quote": "建立材料数据库和仿真分析流程；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0463:1",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "2.负责3D打印件、碳纤维复合材料件CAE建模和性能评估；",
+        "quote": "2.负责3D打印件、碳纤维复合材料件CAE建模和性能评估；",
+        "field": "full_description",
+        "start": 41,
+        "end": 70
+      },
+      {
+        "id": "2",
+        "review_id": "N0463:2",
+        "codes": [
+          "V2_ANSYS",
+          "V2_ABAQUS",
+          "V2_HYPERMESH"
+        ],
+        "names": [
+          "ANSYS",
+          "Abaqus",
+          "HyperMesh"
+        ],
+        "surface": "2.熟练使用常用的CAE软件：ANSYS/Abaqus/Hypermesh；",
+        "quote": "2.熟练使用常用的CAE软件：ANSYS/Abaqus/Hypermesh；",
+        "field": "full_description",
+        "start": 175,
+        "end": 213
+      },
+      {
+        "id": "3",
+        "review_id": "N0463:3",
+        "codes": [
+          "V2_ANSYS"
+        ],
+        "names": [
+          "ANSYS"
+        ],
+        "surface": "ANSYS",
+        "quote": "熟练使用常用的CAE软件：ANSYS/Abaqus/Hypermesh；",
+        "field": "full_description",
+        "start": 177,
+        "end": 213
+      },
+      {
+        "id": "4",
+        "review_id": "N0463:4",
+        "codes": [
+          "V2_ABAQUS"
+        ],
+        "names": [
+          "Abaqus"
+        ],
+        "surface": "Abaqus",
+        "quote": "熟练使用常用的CAE软件：ANSYS/Abaqus/Hypermesh；",
+        "field": "full_description",
+        "start": 177,
+        "end": 213
+      },
+      {
+        "id": "5",
+        "review_id": "N0463:5",
+        "codes": [
+          "V2_HYPERMESH"
+        ],
+        "names": [
+          "HyperMesh"
+        ],
+        "surface": "Hypermesh",
+        "quote": "熟练使用常用的CAE软件：ANSYS/Abaqus/Hypermesh；",
+        "field": "full_description",
+        "start": 177,
+        "end": 213
+      },
+      {
+        "id": "6",
+        "review_id": "N0463:6",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "5.了解常规材料测试方法，具有一定的复合材料、3D打印材料各向异性分析能力；",
+        "quote": "5.了解常规材料测试方法，具有一定的复合材料、3D打印材料各向异性分析能力；",
+        "field": "full_description",
+        "start": 256,
+        "end": 294
+      }
+    ]
+  },
+  {
+    "coding_order": 30,
+    "reading_id": "N0477",
+    "company_id": "CN_FOURIER",
+    "title": "电机研发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|ef90c796-c674-473d-93f5-7fdadfb26444|0905382c977d1388b6070a1910cded8e185c73d5d861456d6fde30e70030c8f4",
+    "already_coded": false,
+    "fields": {
+      "duties": "职责描述：\n\n1. 开展新产品新项目的电机产品设计开发，以及现有产品的优化； \n\n2. 根据项目要求及相关技术条件，转换为电机设计输入需求，如电机的转速、扭矩、温升、尺寸、重量等，以确定电机开发平台；\n\n3. 负责电机电磁仿真计算，能独立优化电机的负面效应，比如齿槽效应、电磁共振、提升效率、高频电磁谐振等问题；\n\n4. 负责绘制输出全套电机设计图纸（定/转子冲片、总装图、绕组图等）；\n\n5. 负责编制电机产品测试大纲并协助测试； \n\n6. 负责对接外部供应商，进行技术交底，主导样机试制与性能验证，解决制造过程中的技术难题。 严格控制电机成本，在性能、可靠性与成本之间做出最-佳平衡；\n\n7. 竞品分析，资料整理总结，分享，归档。\n\n\n\n\n任职要求： \n\n1. 电机、电力电子、机械设计、自动化等相关专业本科及以上学历，三年以上相关工作经验；\n\n2. 熟练的使用三维二维制图软件;\n\n3. 熟练使用ansoft、Maxwell等电磁分析软件； \n\n4. 熟悉电机结构、原理及制造工艺流程，以及关键零部件的选型规则、材料特性 ； \n\n5. 具有良好的沟通能力和执行力，有较强的责任心。",
+      "requirements": "",
+      "full_description": "职责描述：\n\n1. 开展新产品新项目的电机产品设计开发，以及现有产品的优化； \n\n2. 根据项目要求及相关技术条件，转换为电机设计输入需求，如电机的转速、扭矩、温升、尺寸、重量等，以确定电机开发平台；\n\n3. 负责电机电磁仿真计算，能独立优化电机的负面效应，比如齿槽效应、电磁共振、提升效率、高频电磁谐振等问题；\n\n4. 负责绘制输出全套电机设计图纸（定/转子冲片、总装图、绕组图等）；\n\n5. 负责编制电机产品测试大纲并协助测试； \n\n6. 负责对接外部供应商，进行技术交底，主导样机试制与性能验证，解决制造过程中的技术难题。 严格控制电机成本，在性能、可靠性与成本之间做出最-佳平衡；\n\n7. 竞品分析，资料整理总结，分享，归档。\n\n\n\n\n任职要求： \n\n1. 电机、电力电子、机械设计、自动化等相关专业本科及以上学历，三年以上相关工作经验；\n\n2. 熟练的使用三维二维制图软件;\n\n3. 熟练使用ansoft、Maxwell等电磁分析软件； \n\n4. 熟悉电机结构、原理及制造工艺流程，以及关键零部件的选型规则、材料特性 ； \n\n5. 具有良好的沟通能力和执行力，有较强的责任心。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 10,
+        "end": 38,
+        "quote": "开展新产品新项目的电机产品设计开发，以及现有产品的优化；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 161,
+        "end": 193,
+        "quote": "负责绘制输出全套电机设计图纸（定/转子冲片、总装图、绕组图等）；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 105,
+        "end": 128,
+        "quote": "负责电机电磁仿真计算，能独立优化电机的负面效应",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 198,
+        "end": 216,
+        "quote": "负责编制电机产品测试大纲并协助测试；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 274,
+        "end": 294,
+        "quote": "在性能、可靠性与成本之间做出最-佳平衡；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 333,
+        "end": 335,
+        "quote": "电机",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_POWER_ELECTRONICS",
+        "name": "电力电子",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 336,
+        "end": 340,
+        "quote": "电力电子",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 429,
+        "end": 445,
+        "quote": "熟悉电机结构、原理及制造工艺流程",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 429,
+        "end": 445,
+        "quote": "熟悉电机结构、原理及制造工艺流程",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 401,
+        "end": 407,
+        "quote": "ansoft",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 408,
+        "end": 415,
+        "quote": "Maxwell",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0477:1",
+        "codes": [
+          "V2_PROCUREMENT"
+        ],
+        "names": [
+          "采购与供应商流程"
+        ],
+        "surface": "6. 负责对接外部供应商，进行技术交底，主导样机试制与性能验证，解决制造过程中的技术难题。 严格控制电机成本，在性能、可靠性与成本之间做出最-佳平衡；",
+        "quote": "6. 负责对接外部供应商，进行技术交底，主导样机试制与性能验证，解决制造过程中的技术难题。 严格控制电机成本，在性能、可靠性与成本之间做出最-佳平衡；",
+        "field": "full_description",
+        "start": 219,
+        "end": 294
+      },
+      {
+        "id": "2",
+        "review_id": "N0477:2",
+        "codes": [
+          "V2_ANSYS"
+        ],
+        "names": [
+          "ANSYS"
+        ],
+        "surface": "3. 熟练使用ansoft、Maxwell等电磁分析软件； ",
+        "quote": "3. 熟练使用ansoft、Maxwell等电磁分析软件； ",
+        "field": "full_description",
+        "start": 394,
+        "end": 424
+      },
+      {
+        "id": "3",
+        "review_id": "N0477:3",
+        "codes": [
+          "V2_ANSYS"
+        ],
+        "names": [
+          "ANSYS"
+        ],
+        "surface": "ansoft",
+        "quote": "熟练使用ansoft、Maxwell等电磁分析软件；",
+        "field": "full_description",
+        "start": 397,
+        "end": 423
+      },
+      {
+        "id": "4",
+        "review_id": "N0477:4",
+        "codes": [],
+        "names": [],
+        "surface": "Maxwell",
+        "quote": "熟练使用ansoft、Maxwell等电磁分析软件；",
+        "field": "full_description",
+        "start": 397,
+        "end": 423
+      }
+    ]
+  },
+  {
+    "coding_order": 31,
+    "reading_id": "N0617",
+    "company_id": "CN_GALAXEA",
+    "title": "机械结构工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|04fc7263-f995-41a9-b866-b3af728e03fb|aca7f454eaab0c9ba567bb7a355b4bc4e45695e4df901d8a4e7430889506307c",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n1. 参与机器人相关产品的结构设计与方案迭代，协助完成三维建模、装配设计及工程图纸输出；\n2. 协助进行零件选型、材料对比、公差配合设计及BOM清单整理；\n3. 配合团队完成样机装配、调试、测试及问题记录与结构优化；\n4. 协助完成研发文档整理、图纸归档、实验数据记录等日常研发支持工作；\n5. 参与结构仿真、干涉检查、可靠性验证等相关辅助工作。",
+      "requirements": "任职要求\n1. 2027届本科及以上学历，机械设计、机械工程、机器人工程、机电一体化等相关专业；\n2. 熟练使用SolidWorks/CATIA/UG等至少一种三维设计软件，掌握CAD制图；\n3. 具备基本机械结构设计知识，了解传动机构、连杆结构、轻量化设计优先；\n4. 对机械臂、灵巧手、人形机器人等领域有兴趣，动手能力强，乐于钻研优先；\n5. 有RC,RM机器人比赛经验优先",
+      "full_description": "工作职责\n岗位职责\n1. 参与机器人相关产品的结构设计与方案迭代，协助完成三维建模、装配设计及工程图纸输出；\n2. 协助进行零件选型、材料对比、公差配合设计及BOM清单整理；\n3. 配合团队完成样机装配、调试、测试及问题记录与结构优化；\n4. 协助完成研发文档整理、图纸归档、实验数据记录等日常研发支持工作；\n5. 参与结构仿真、干涉检查、可靠性验证等相关辅助工作。\n\n任职资格\n任职要求\n1. 2027届本科及以上学历，机械设计、机械工程、机器人工程、机电一体化等相关专业；\n2. 熟练使用SolidWorks/CATIA/UG等至少一种三维设计软件，掌握CAD制图；\n3. 具备基本机械结构设计知识，了解传动机构、连杆结构、轻量化设计优先；\n4. 对机械臂、灵巧手、人形机器人等领域有兴趣，动手能力强，乐于钻研优先；\n5. 有RC,RM机器人比赛经验优先"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 246,
+        "end": 256,
+        "quote": "SolidWorks",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CATIA",
+        "name": "CATIA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 257,
+        "end": 262,
+        "quote": "CATIA",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_NX",
+        "name": "Siemens NX",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 263,
+        "end": 265,
+        "quote": "UG",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 279,
+        "end": 284,
+        "quote": "CAD制图",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 13,
+        "end": 54,
+        "quote": "参与机器人相关产品的结构设计与方案迭代，协助完成三维建模、装配设计及工程图纸输出；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 158,
+        "end": 183,
+        "quote": "参与结构仿真、干涉检查、可靠性验证等相关辅助工作。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 158,
+        "end": 183,
+        "quote": "参与结构仿真、干涉检查、可靠性验证等相关辅助工作。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 91,
+        "end": 118,
+        "quote": "配合团队完成样机装配、调试、测试及问题记录与结构优化；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 293,
+        "end": 301,
+        "quote": "机械结构设计知识",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 304,
+        "end": 308,
+        "quote": "传动机构",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 309,
+        "end": 313,
+        "quote": "连杆结构",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 314,
+        "end": 319,
+        "quote": "轻量化设计",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0617:1",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "3. 具备基本机械结构设计知识，了解传动机构、连杆结构、轻量化设计优先；",
+        "quote": "3. 具备基本机械结构设计知识，了解传动机构、连杆结构、轻量化设计优先；",
+        "field": "full_description",
+        "start": 286,
+        "end": 322
+      }
+    ]
+  },
+  {
+    "coding_order": 32,
+    "reading_id": "N0641",
+    "company_id": "CN_GALAXEA",
+    "title": "结构高级/资深工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|7ad92ef2-67eb-48b6-9f93-d694ebd8a9dd|cc1a8952a0851f5aed47e45e11965531cd6512a602243f5ad0ec56582e6d3024",
+    "already_coded": false,
+    "fields": {
+      "duties": "星海图，作为具身智能赛道百亿级独角兽，以全栈自研筑牢技术壁垒——从核心模组、机器人本体，到VLA基础模型、EDP开发平台实现全链路自主研发，稳居行业技术前沿。现诚邀优秀的结构工程师加入，以专业之力赋能智能机器人研发，与我们并肩，一起开启机器人新时代，共筑具身智能的星辰大海。\n\n岗位职责:\n1. 负责机器人整机机械系统方案设计、结构优化与整机集成，保障整机可靠性、运动性能与装配工艺落地。\n2. 负责关节模组、减速器、灵巧手、躯干 / 腿部等核心部件结构开发，完成仿真、强度校核、公差分析与工程图输出。\n3. 主导整机样机试制、装配调试、测试验证与问题整改，支撑小批量量产。\n4. 与驱动、控制、算法团队协同，完成整机联调与性能迭代。",
+      "requirements": "任职要求：\n1. 本科及以上，机械设计 / 机电一体化相关专业，5 年及以上人形机器人 / 双足机器人整机结构开发经验。\n2. 必须有人形机器人整机项目经历，熟悉整机架构、核心部件集成、整机装配与测试流程。\n3. 精通结构设计、仿真分析、公差配合、材料选型与加工工艺；熟练使用 SolidWorks 等设计工具。\n4. 具备整机可靠性、轻量化、散热与强度优化能力；有量产导入经验优先。",
+      "full_description": "工作职责\n星海图，作为具身智能赛道百亿级独角兽，以全栈自研筑牢技术壁垒——从核心模组、机器人本体，到VLA基础模型、EDP开发平台实现全链路自主研发，稳居行业技术前沿。现诚邀优秀的结构工程师加入，以专业之力赋能智能机器人研发，与我们并肩，一起开启机器人新时代，共筑具身智能的星辰大海。\n\n岗位职责:\n1. 负责机器人整机机械系统方案设计、结构优化与整机集成，保障整机可靠性、运动性能与装配工艺落地。\n2. 负责关节模组、减速器、灵巧手、躯干 / 腿部等核心部件结构开发，完成仿真、强度校核、公差分析与工程图输出。\n3. 主导整机样机试制、装配调试、测试验证与问题整改，支撑小批量量产。\n4. 与驱动、控制、算法团队协同，完成整机联调与性能迭代。\n\n任职资格\n任职要求：\n1. 本科及以上，机械设计 / 机电一体化相关专业，5 年及以上人形机器人 / 双足机器人整机结构开发经验。\n2. 必须有人形机器人整机项目经历，熟悉整机架构、核心部件集成、整机装配与测试流程。\n3. 精通结构设计、仿真分析、公差配合、材料选型与加工工艺；熟练使用 SolidWorks 等设计工具。\n4. 具备整机可靠性、轻量化、散热与强度优化能力；有量产导入经验优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 468,
+        "end": 478,
+        "quote": "SolidWorks",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 49,
+        "end": 74,
+        "quote": "到VLA基础模型、EDP开发平台实现全链路自主研发",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 153,
+        "end": 198,
+        "quote": "负责机器人整机机械系统方案设计、结构优化与整机集成，保障整机可靠性、运动性能与装配工艺落地",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 153,
+        "end": 198,
+        "quote": "负责机器人整机机械系统方案设计、结构优化与整机集成，保障整机可靠性、运动性能与装配工艺落地",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 235,
+        "end": 255,
+        "quote": "完成仿真、强度校核、公差分析与工程图输出",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 260,
+        "end": 283,
+        "quote": "主导整机样机试制、装配调试、测试验证与问题整改",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 296,
+        "end": 309,
+        "quote": "与驱动、控制、算法团队协同",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 361,
+        "end": 389,
+        "quote": "5 年及以上人形机器人 / 双足机器人整机结构开发经验。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 408,
+        "end": 431,
+        "quote": "熟悉整机架构、核心部件集成、整机装配与测试流程",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 438,
+        "end": 442,
+        "quote": "结构设计",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 443,
+        "end": 447,
+        "quote": "仿真分析",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 491,
+        "end": 496,
+        "quote": "整机可靠性",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "name": "热管理与热设计",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 501,
+        "end": 503,
+        "quote": "散热",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0641:1",
+        "codes": [],
+        "names": [],
+        "surface": "EDP",
+        "quote": "到VLA基础模型、EDP开发平台实现全链路自主研发",
+        "field": "full_description",
+        "start": 49,
+        "end": 74
+      },
+      {
+        "id": "2",
+        "review_id": "N0641:2",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "4. 具备整机可靠性、轻量化、散热与强度优化能力；有量产导入经验优先。",
+        "quote": "4. 具备整机可靠性、轻量化、散热与强度优化能力；有量产导入经验优先。",
+        "field": "full_description",
+        "start": 486,
+        "end": 521
+      }
+    ]
+  }
+]

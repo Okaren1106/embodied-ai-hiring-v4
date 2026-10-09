@@ -1,0 +1,32 @@
+
+## E0206 CN_XSQUARE RF_ML_AI_ENGINEERING 灵巧手算法工程师
+TASK ROBOT_MODEL DEXTEROUS_VLA_IL_RL
+REVIEW ["UNKNOWN"]
+F1 岗位职责
+F2 参与灵巧手在具身场景下的算法研发（VLA / 模仿学习 / RL / Sim2Real），从实验设计到真机验证的全流程。
+F4 任职要求
+F5 硬性要求
+F6 - 第一学历 Top2 或海外同级；博士非必须。
+F7 - 具身/机器人/AI 方向顶会一作 ≥1 篇（认定范围：CoRL、RSS、ICRA、IROS、ICML、NeurIPS）。
+F8 - 深度学习框架熟练（PyTorch 为主）；能独立推进实验闭环。
+F9 优先
+F10 - 近 2 年内有高影响力项目或论文（发表 ≤2 年且引用 >50）。
+F11 - 灵巧手/真机部署经历。
+F12 面试重点：sense（技术判断力）+ passion（自驱与投入度）。
+D1 参与灵巧手在具身场景下的算法研发(VLA / 模仿学习 / RL / Sim2Real),从实验设计到真机验证的全流程。
+R2 - 第一学历 Top2 或海外同级;博士非必须。
+R3 - 具身/机器人/AI 方向顶会一作 ≥1 篇(认定范围:CoRL、RSS、ICRA、IROS、ICML、NeurIPS)。
+R4 - 深度学习框架熟练(PyTorch 为主);能独立推进实验闭环。
+R6 - 近 2 年内有高影响力项目或论文(发表 ≤2 年且引用 >50)。
+R8 面试重点:sense(技术判断力)+ passion(自驱与投入度)。
+EV E0206:O1 SK_GENERIC_ML_FRAMEWORK REQUIRED/UNCONDITIONAL @R4
+EV E0206:O2 SK_PYTORCH REQUIRED/UNCONDITIONAL @R4
+EV E0206:O3 TC_MANIPULATION DUTY_OWN_DEVELOP/UNCONDITIONAL @D1
+EV E0206:O4 TC_FOUNDATION_MODEL DUTY_OWN_DEVELOP/UNCONDITIONAL @D1
+EV E0206:O5 TC_IL DUTY_OWN_DEVELOP/UNCONDITIONAL @D1
+EV E0206:O6 TC_RL DUTY_OWN_DEVELOP/UNCONDITIONAL @D1
+EV E0206:O7 TC_SIMULATION DUTY_OWN_DEVELOP/UNCONDITIONAL @D1
+EV E0206:O8 TC_EVALUATION DUTY_OWN_DEVELOP/UNCONDITIONAL @D1
+EV E0206:O9 TC_MANIPULATION PREFERRED/UNRESOLVED @D1
+EV E0206:1:0 V2_SIM2REAL DUTY_OWN_DEVELOP/UNRESOLVED @F2
+NOTES 短岗。VLA/IL/RL/Sim2Real斜线任选，Sim2Real记未解职责。

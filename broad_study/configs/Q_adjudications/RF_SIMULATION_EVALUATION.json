@@ -1,0 +1,5327 @@
+{
+  "catalog_version": "Q2-v2.1",
+  "coding_version": "grok4.6-Q2-v2.1-first-pass",
+  "reader": "grok4.6",
+  "contributors": [
+    "grok4.6"
+  ],
+  "queue_sha256": "8815c0e72e571ac260f9a7ff1feb374fb21dab4613dd01ef5b22a32077a134d4",
+  "ads": {
+    "E0443": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "ACTUATOR_TEST",
+      "secondary_task": "",
+      "task_evidence": "own the design validation and NPI test process for Apptronik's custom actuator systems",
+      "new": {
+        "1": "REJECT:We are seeking不是CAN。",
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_SYSID",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_SYSID",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_SYSID",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "REJECT:can demonstrate不是CAN。"
+      },
+      "old_overrides": {
+        "O23": {
+          "metric": "REQUIRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原motor短词不唯一，改为执行器电机测功句。",
+          "quote": "Direct hands-on experience testing and characterizing actuators, motors, or gearboxes"
+        },
+        "O25": {
+          "metric": "REQUIRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原firmware短词不唯一，改为电机bringup与固件诊断句。",
+          "quote": "Experience with motor bringup and calibration workflows, with enough firmware and electrical fluency to diagnose calibration and drive faults independently"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "执行器测试。标定/辨识/Sim2Real保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|5988698004|1c7f443e5db82ec975a051ab8ca91592797338787b9ad8fcae275f51eda7a426",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 34,
+      "reviewed_candidate_count": 10,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 52,
+        "end": 138,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "own the design validation and NPI test process for Apptronik's custom actuator systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "1c7f443e5db82ec975a051ab8ca91592797338787b9ad8fcae275f51eda7a426",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.813996+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0087": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "EVAL_PLATFORM",
+      "secondary_task": "",
+      "task_evidence": "我们正在建设面向具身智能模型研发的统一仿真与评测基础设施",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:Python/C++ is not the C language.",
+        "3": [
+          [
+            "V2_CI_CD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_SAPIEN",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_MANISKILL",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": "DUPLICATE:N0087:4",
+        "6": "DUPLICATE:N0087:4",
+        "7": [
+          [
+            "V2_MANISKILL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "8": "OUTSIDE:Genie Sim未单列冻结项。",
+        "9": "OUTSIDE:RoboDojo未单列冻结项。",
+        "10": "DUPLICATE:N0087:7",
+        "11": "OUTSIDE:RoboCasa未单列冻结项。",
+        "12": "OUTSIDE:LIBERO未单列冻结项。",
+        "13": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "14": [
+          [
+            "V2_SLURM",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "15": "DUPLICATE:N0087:14",
+        "16": [
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "17": [
+          [
+            "V2_USD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_URDF",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_MJCF",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SDF",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "18": "DUPLICATE:N0087:17",
+        "19": "DUPLICATE:N0087:17",
+        "20": "DUPLICATE:N0087:17",
+        "21": "DUPLICATE:N0087:17",
+        "22": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "23": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "仿真评测平台。DR/Sim2Real/资产格式/Slurm/遥操保留。材质不记CMF。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|87b113dd-bcec-4be2-a27b-0fa2d4632a09|225d757af2db3969ad1105255d818a7b90abca016903d7948f55d47b383f9f30",
+      "company_id": "CN_GALBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 66,
+      "reviewed_candidate_count": 23,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 6,
+        "end": 34,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "我们正在建设面向具身智能模型研发的统一仿真与评测基础设施"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "225d757af2db3969ad1105255d818a7b90abca016903d7948f55d47b383f9f30",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.813996+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0372": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "PHYSICS",
+      "secondary_task": "",
+      "task_evidence": "开发并维护共享仿真软件框架，重点负责物理引擎集成",
+      "new": {
+        "1": "REJECT:向量化物理仿真不是模型压缩。",
+        "2": [
+          [
+            "V2_URDF",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_MJCF",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0372:2",
+        "4": "DUPLICATE:N0372:2",
+        "5": [
+          [
+            "V2_SYSID",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "DUPLICATE:N0372:6",
+        "8": [
+          [
+            "V2_PHYSX",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_BULLET",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0372:8",
+        "10": "DUPLICATE:N0372:8",
+        "11": "OUTSIDE:IPC coupler未单列冻结项。",
+        "12": [
+          [
+            "V2_UNREAL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_GENESIS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "13": "DUPLICATE:N0372:12",
+        "14": "DUPLICATE:N0372:12",
+        "15": "REJECT:编写向量化代码不是模型压缩。",
+        "16": [
+          [
+            "V2_DDS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_AIMRT",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "17": "DUPLICATE:N0372:16",
+        "18": "DUPLICATE:N0372:16"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "物理引擎。URDF/SysID/Git/PhysX/Genesis/DDS保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7676076269284854052|0a9b5bd2311ac35f9fa889f1c46afa1f8870b9827c7b03247745cb32c322b597",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 25,
+      "reviewed_candidate_count": 18,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 31,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "开发并维护共享仿真软件框架，重点负责物理引擎集成"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "0a9b5bd2311ac35f9fa889f1c46afa1f8870b9827c7b03247745cb32c322b597",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.815002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0347": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "CALIBRATION",
+      "fine_task": "PROD_CAL",
+      "secondary_task": "",
+      "task_evidence": "Design, implement, and deliver calibration systems end to end",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "14": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "15": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "16": "REJECT:C++ and Python is not the C language.",
+        "17": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "18": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "19": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "20": "REJECT:Salary USD is not Universal Scene Description.",
+        "21": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {
+        "O10": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原calibration短词不唯一，改为交付标定系统句。",
+          "quote": "Track record of designing and delivering calibration systems end to end, including algorithms, fixtures, on-fixture software, validation, and operator workflow"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "生产标定软件。标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6127713004|344791d96299ea79ed257e6754df88b9b7b3bd46335a0a39666a0c5646427d53",
+      "company_id": "US_AGILITY",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 21,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 61,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design, implement, and deliver calibration systems end to end"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "344791d96299ea79ed257e6754df88b9b7b3bd46335a0a39666a0c5646427d53",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.815002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0449": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MODEL_EVAL",
+      "fine_task": "VLA_INTERN",
+      "secondary_task": "",
+      "task_evidence": "参与VLA前沿算法的复现、实验与性能评测",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "VLA评测实习。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|f7b0b23d-b5ff-4b38-9b75-707a95d57062|b357b3ecdf4fd21a24138e904bb331306aa8f052a23ad11287f01f34596da0c8",
+      "company_id": "CN_FOURIER",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 23,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与VLA前沿算法的复现、实验与性能评测"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b357b3ecdf4fd21a24138e904bb331306aa8f052a23ad11287f01f34596da0c8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.815002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0517": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "PCBA_TEST",
+      "secondary_task": "",
+      "task_evidence": "Own test coverage strategy for all custom PCBAs across the product",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": [
+          [
+            "V2_DFT",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_DFT",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_DFT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_DFT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_EPLAN",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "8": "DUPLICATE:E0517:7"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "PCBA产测。DFT/排障/EPLAN保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4574399006|82f81b0866bc9edf9d95f9c0144c666144becd729db4d10736439ab49ae18c8b",
+      "company_id": "US_FIGURE",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 66,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own test coverage strategy for all custom PCBAs across the product"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "82f81b0866bc9edf9d95f9c0144c666144becd729db4d10736439ab49ae18c8b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.816002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0843": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SOFTWARE_TEST_INFRA",
+      "fine_task": "TEST_INFRA",
+      "secondary_task": "",
+      "task_evidence": "Integrate testing into CI/CD pipelines and developer workflows",
+      "new": {
+        "1": [
+          [
+            "V2_CI_CD",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0843:1",
+        "3": [
+          [
+            "V2_CI_CD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0843:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "测试基础设施。CI/CD保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|07553f09-627e-4639-92c2-af5a25e6fe0e|72e3a4585d13730bdbc93e4efac321a1ce934c0a29cd79492c8a21cf09cb451c",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1087,
+        "end": 1149,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Integrate testing into CI/CD pipelines and developer workflows"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "72e3a4585d13730bdbc93e4efac321a1ce934c0a29cd79492c8a21cf09cb451c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.816002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0979": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SOFTWARE_TEST_INFRA",
+      "fine_task": "CONTROLS_REL",
+      "secondary_task": "",
+      "task_evidence": "Develop automated Python diagnostic scripts",
+      "new": {
+        "1": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:C++ is not the C language.",
+        "3": "REJECT:C++ and Python is not the C language.",
+        "4": [
+          [
+            "V2_PANDAS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0979:4",
+        "6": [
+          [
+            "V2_SNOWFLAKE",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_LOOKER",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "7": "DUPLICATE:N0979:6",
+        "8": "DUPLICATE:N0979:6",
+        "9": [
+          [
+            "V2_AIRFLOW",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GCP",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_BAZEL",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GTEST",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "10": "DUPLICATE:N0979:9",
+        "11": "DUPLICATE:N0979:9",
+        "12": "DUPLICATE:N0979:9",
+        "13": "DUPLICATE:N0979:9"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "运控可靠性。排障脚本/Pandas/Looker/Airflow/Bazel保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|0e2576eddd811001b241d769ea1b0000|351d74a87cb9b9d35e243dc7fbff6cab37d8abedfd238e45989f4c0c7356258c",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 23,
+      "reviewed_candidate_count": 13,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 999,
+        "end": 1042,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Develop automated Python diagnostic scripts"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "351d74a87cb9b9d35e243dc7fbff6cab37d8abedfd238e45989f4c0c7356258c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.816002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0627": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "PROD_TEST",
+      "secondary_task": "",
+      "task_evidence": "主导人形机器人生产所需各类非标测试设备、专用生产测试工具的全流程开发工作",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "SEPARATE",
+            "COLLABORATION_OBJECT"
+          ]
+        ],
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "生产测试设备。外协供应商为协作。排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|a03a02cb-c3ff-4daf-ac1d-f1783ba64997|90f347c9d20d8bce76659cb724c6d176a1e310e8de54ded3346afe641023bcc5",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 18,
+        "end": 54,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "主导人形机器人生产所需各类非标测试设备、专用生产测试工具的全流程开发工作"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "90f347c9d20d8bce76659cb724c6d176a1e310e8de54ded3346afe641023bcc5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.816002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0707": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "SIM_ENG",
+      "secondary_task": "",
+      "task_evidence": "we are building the world's first general purpose robotic intelligence",
+      "new": {
+        "1": "REJECT:Python, C++ is not the C language.",
+        "2": "OUTSIDE:inverse rendering未单列冻结项。",
+        "3": "OUTSIDE:photogrammetry未单列冻结项。",
+        "4": "REJECT:Salary USD is not Universal Scene Description."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "仿真工程师。薪资USD剔除。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4091609008|3a1c1caa7657d277473f8edd754344a84120caeaa51581bb11c879d27523baec",
+      "company_id": "US_SKILD",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 30,
+        "end": 100,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "we are building the world's first general purpose robotic intelligence"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "3a1c1caa7657d277473f8edd754344a84120caeaa51581bb11c879d27523baec",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.817002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0940": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "SIM_SW",
+      "secondary_task": "",
+      "task_evidence": "Collaborate with software and testing teams to integrate simulation into development pipelines and CI/CD workflows",
+      "new": {
+        "1": [
+          [
+            "V2_CI_CD",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0940:1",
+        "3": [
+          [
+            "V2_CI_CD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0940:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "仿真软件。CI/CD保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PICKLE|lever|120446c8-6386-43c9-8bbd-f967b039430f|1494a13c74be888494f0e44271f189cf243dbb71e54dcb081c0cad3c9829971c",
+      "company_id": "US_PICKLE",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1148,
+        "end": 1262,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Collaborate with software and testing teams to integrate simulation into development pipelines and CI/CD workflows"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "1494a13c74be888494f0e44271f189cf243dbb71e54dcb081c0cad3c9829971c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.817002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0045": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "SYSTEM_EVAL",
+      "fine_task": "WHOLE_EVAL",
+      "secondary_task": "",
+      "task_evidence": "负责机器人整机性能评价体系的设计与搭建",
+      "new": {
+        "1": "REJECT:量化评测结果不是模型压缩。",
+        "2": [
+          [
+            "V2_UX_RESEARCH",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O1": {
+          "metric": "PREFERRED",
+          "branch": "UNRESOLVED",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原ROS短词不唯一，改为仿真环境加分句。",
+          "quote": "熟悉ROS/ROS2、Gazebo、Isaac Sim等仿真与开发环境"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "整机评测。用户研究加分保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7646667543261169963|1386ce69eb3b6b73da8a4781c84da9387de5a6a9563f633589ae449dcb7b9746",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 22,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人整机性能评价体系的设计与搭建"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "1386ce69eb3b6b73da8a4781c84da9387de5a6a9563f633589ae449dcb7b9746",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.817002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0915": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SOFTWARE_TEST_INFRA",
+      "fine_task": "ROBOT_SW_TEST",
+      "secondary_task": "",
+      "task_evidence": "Owns full robot-stack test case management and regression testing",
+      "new": {
+        "1": "REJECT:Series C funding is not the C language.",
+        "2": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "REJECT:Python and Rust (or C++) is not the C language.",
+        "7": "OUTSIDE:自动化测试框架短词未单列冻结项。",
+        "8": [
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机器人软件测试。HIL/排障/需求追溯保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4332151009|2236ef73293570f52a581fa887729b829130b20c4f5d23fd62cb9de669829198",
+      "company_id": "US_NIMBLE",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 19,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2418,
+        "end": 2483,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Owns full robot-stack test case management and regression testing"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "2236ef73293570f52a581fa887729b829130b20c4f5d23fd62cb9de669829198",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.818002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0942": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "FAR_TEST",
+      "secondary_task": "",
+      "task_evidence": "support the development of test infrastructure for next-generation robotic systems",
+      "new": {
+        "1": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:Python, C++ is not the C language.",
+        "3": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:English can is not Controller Area Network.",
+        "6": "REJECT:Python, C++ is not the C language.",
+        "7": [
+          [
+            "V2_DAQ",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N0942:7",
+        "9": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_RS485",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "10": "DUPLICATE:N0942:9",
+        "11": "DUPLICATE:N0942:9",
+        "12": "DUPLICATE:N0942:9",
+        "13": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CI_CD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "14": "DUPLICATE:N0942:13",
+        "15": "DUPLICATE:N0942:13",
+        "16": [
+          [
+            "V2_HIL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "17": "DUPLICATE:N0942:16",
+        "18": [
+          [
+            "V2_GRAFANA",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_FOXGLOVE",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "19": "DUPLICATE:N0942:18",
+        "20": "DUPLICATE:N0942:18",
+        "21": "OUTSIDE:FPGA测试平台未单列冻结项。",
+        "22": "REJECT:洛杉矶县安全合作声明不是客户服务流程。",
+        "23": "REJECT:Recruiting Partner不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "FAR测试基础设施。HIL/DAQ/总线/Git/CI/可视化保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AMAZON_FTR|amazon|10492631|ccbce099eaeaa5a145bb2a55384b260f738de4967fcb1d1280d549cf29182dec",
+      "company_id": "US_AMAZON_FTR",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 41,
+      "reviewed_candidate_count": 23,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 52,
+        "end": 134,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "support the development of test infrastructure for next-generation robotic systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "ccbce099eaeaa5a145bb2a55384b260f738de4967fcb1d1280d549cf29182dec",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.818002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0854": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "MFG_TEST",
+      "secondary_task": "",
+      "task_evidence": "Help document test procedures, configuration, and calibration steps",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "REJECT:English can is not Controller Area Network.",
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ],
+          [
+            "V2_STRUCTURED_TEXT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_LADDER",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_FBD",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "6": "DUPLICATE:N0854:5",
+        "7": "DUPLICATE:N0854:5",
+        "8": "DUPLICATE:N0854:5",
+        "9": "DUPLICATE:N0854:5"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "制造测试。标定/排障/PLC语言/C未解保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|b797d144-159f-4467-a54e-b88da612d244|3731f734730c39451520f0f21d98e0d8ca9d6d0db34f8c7c667c56e408111a96",
+      "company_id": "US_DEXTERITY",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2183,
+        "end": 2250,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Help document test procedures, configuration, and calibration steps"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "3731f734730c39451520f0f21d98e0d8ca9d6d0db34f8c7c667c56e408111a96",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.818002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0528": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "TECH_ART",
+      "secondary_task": "",
+      "task_evidence": "将实拍图片及尺寸信息转化为 Isaac Sim 中可交互的场景与物体资产",
+      "new": {
+        "1": [
+          [
+            "V2_USD",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_BLENDER",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CODEX",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ]
+        ],
+        "3": "OUTSIDE:GPT-6未单列冻结项。",
+        "4": "DUPLICATE:N0528:2",
+        "5": "DUPLICATE:N0528:2",
+        "6": [
+          [
+            "V2_BLENDER",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "DUPLICATE:N0528:6",
+        "8": "OUTSIDE:UV材质基础不是工业CMF。",
+        "9": [
+          [
+            "V2_UNITY",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_UNREAL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_OMNIVERSE",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_USD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "DUPLICATE:N0528:9",
+        "11": "DUPLICATE:N0528:9",
+        "12": "DUPLICATE:N0528:9",
+        "13": "DUPLICATE:N0528:9",
+        "14": "DUPLICATE:N0528:2",
+        "15": "OUTSIDE:GPT-6未单列冻结项。",
+        "16": "DUPLICATE:N0528:2",
+        "17": "DUPLICATE:N0528:2",
+        "18": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "19": "DUPLICATE:N0528:18",
+        "20": "DUPLICATE:N0528:18",
+        "21": "OUTSIDE:混元3D未单列冻结项。",
+        "22": "OUTSIDE:Meshy未单列冻结项。",
+        "23": "OUTSIDE:Tripo未单列冻结项。",
+        "24": "OUTSIDE:Rodin未单列冻结项。",
+        "25": [
+          [
+            "V2_HOUDINI",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "26": "DUPLICATE:N0528:25",
+        "27": [
+          [
+            "V2_OMNIVERSE",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "28": "DUPLICATE:N0528:27"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "技术美术仿真资产。USD/Blender/Codex/重建/Houdini保留。材质不记CMF。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7683048146947016998|a2e25fffab0ba137c2aa79efcd04e583ca76edb4e734f4c6603de95c8cca752e",
+      "company_id": "CN_LIMX",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 24,
+      "reviewed_candidate_count": 28,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 43,
+        "end": 79,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "将实拍图片及尺寸信息转化为 Isaac Sim 中可交互的场景与物体资产"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "a2e25fffab0ba137c2aa79efcd04e583ca76edb4e734f4c6603de95c8cca752e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:08.819002+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0281": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "ALGO_SIM",
+      "secondary_task": "",
+      "task_evidence": "构建快速原型系统",
+      "new": {
+        "1": "REJECT:Python/C++ is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "仿真算法。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|13263de0-795e-4ab4-a2d3-52c531129f4c|6af289eb681ed98f02807740c08da81cdab0fda2242156a67b7f60024a351ddc",
+      "company_id": "CN_PAXINI",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 57,
+        "end": 65,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "构建快速原型系统"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "6af289eb681ed98f02807740c08da81cdab0fda2242156a67b7f60024a351ddc",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.288518+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0160": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "NAV_SIM",
+      "secondary_task": "",
+      "task_evidence": "负责具身导航仿真系统搭建与维护",
+      "new": {
+        "1": [
+          [
+            "V2_HABITAT",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ]
+        ],
+        "2": [
+          [
+            "V2_NAV2",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_USD",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_URDF",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_MJCF",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_UNITY",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_UNREAL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_HABITAT",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": [
+          [
+            "V2_RVIZ",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_URDF",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "REJECT:Python / C++ is not the C language.",
+        "7": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_OMNIVERSE",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_HABITAT",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_MANISKILL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "10": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": [
+          [
+            "V2_CI_CD",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "导航仿真。Habitat/Nav2/USD/DR/标定保留。材质随机化不记CMF。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7655586503791692038|59f36739d1c8acc5e63530b0749b806781d8fd3a8bcb014d78dff9ba345b1d9f",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 42,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 18,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责具身导航仿真系统搭建与维护"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "59f36739d1c8acc5e63530b0749b806781d8fd3a8bcb014d78dff9ba345b1d9f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.289520+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0376": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CALIBRATION",
+      "fine_task": "HAND_HIL",
+      "secondary_task": "",
+      "task_evidence": "Develop and execute procedures for hands calibration",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_POWER_SUPPLY",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:E0376:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "灵巧手集成。标定/HIL/测试电源保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6016652004|f553632f4fc52084528df9dc24ae4bcc6e4c5556e0f5f2d5ff634d8142f1fdad",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1084,
+        "end": 1136,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Develop and execute procedures for hands calibration"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "f553632f4fc52084528df9dc24ae4bcc6e4c5556e0f5f2d5ff634d8142f1fdad",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.289520+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0180": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SOFTWARE_TEST_INFRA",
+      "fine_task": "SDK_CICD",
+      "secondary_task": "",
+      "task_evidence": "负责CICD相关工具链开发与插件配置",
+      "new": {
+        "1": [
+          [
+            "V2_CI_CD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0180:1",
+        "3": [
+          [
+            "V2_SHELL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0180:3",
+        "5": [
+          [
+            "V2_JENKINS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N0180:5"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "SDK测试开发。CI/Shell/Jenkins保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|00a583ef-50e4-4563-9eb1-6bdc60308eac|1ef01a378508885f720439081ebf02c88b65cc829f3ae0283c1b92625dbb42ad",
+      "company_id": "CN_GALBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 30,
+        "end": 48,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责CICD相关工具链开发与插件配置"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "1ef01a378508885f720439081ebf02c88b65cc829f3ae0283c1b92625dbb42ad",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.289520+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0439": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "EMBODIED_SIM",
+      "secondary_task": "",
+      "task_evidence": "负责研发并优化具身智能仿真工具",
+      "new": {
+        "1": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0439:1",
+        "3": [
+          [
+            "V2_BLENDER",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_UNITY",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_UNREAL",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": "OUTSIDE:CoppeliaSim未单列冻结项。",
+        "5": "DUPLICATE:N0439:3",
+        "6": "DUPLICATE:N0439:3",
+        "7": "DUPLICATE:N0439:3",
+        "8": [
+          [
+            "V2_DDS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_AIMRT",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0439:8",
+        "10": "DUPLICATE:N0439:8",
+        "11": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "具身仿真。Git/引擎/DDS/重建保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7551337580840552767|bae2d38bb7c82554d912cad12bb4cd6037314351043c440307f6df104675b86b",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 19,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 5,
+        "end": 20,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责研发并优化具身智能仿真工具"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "bae2d38bb7c82554d912cad12bb4cd6037314351043c440307f6df104675b86b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.290520+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0410": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "PROD_SW",
+      "secondary_task": "",
+      "task_evidence": "开发生产测试、售后维修相关的工具",
+      "new": {
+        "1": "REJECT:C# is not the C language.",
+        "2": "OUTSIDE:.NET未单列冻结项。",
+        "3": "OUTSIDE:.Net 8未单列冻结项。",
+        "4": "OUTSIDE:WPF未单列冻结项。",
+        "5": "OUTSIDE:Avalonia未单列冻结项。",
+        "6": "OUTSIDE:MVVM/Prism未单列冻结项。",
+        "7": "OUTSIDE:MVVM/Prism未单列冻结项。",
+        "8": "OUTSIDE:MVVM/Prism未单列冻结项。",
+        "9": [
+          [
+            "V2_POWER_SUPPLY",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "DUPLICATE:N0410:9",
+        "11": "REJECT:C# Web不是C语言。",
+        "12": [
+          [
+            "V2_AGENT_WORKFLOW",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "DUPLICATE:N0410:12"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "产测开发。程控电源/Agent保留。C#不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7594369660427127078|aa73ab1a2a2883281b5f45592ea5b233ad056cbd7dcb68bcf405b979261ead45",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 6,
+      "reviewed_candidate_count": 13,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 13,
+        "end": 29,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "开发生产测试、售后维修相关的工具"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "aa73ab1a2a2883281b5f45592ea5b233ad056cbd7dcb68bcf405b979261ead45",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.290520+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0380": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MODEL_EVAL",
+      "fine_task": "MM_EVAL",
+      "secondary_task": "",
+      "task_evidence": "建立并维护机器人交互与感知指标体系",
+      "new": {
+        "1": "REJECT:轻量化仿真不是模型压缩。",
+        "2": "OUTSIDE:pyannote未单列冻结项。",
+        "3": "OUTSIDE:DCASE未单列冻结项。",
+        "4": "OUTSIDE:shadow mode未单列冻结项。",
+        "5": "OUTSIDE:canary未单列冻结项。",
+        "6": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "OUTSIDE:Replicator未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "多模态评测。sim2real校准保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7665279337424652587|684fa7fac32a7efeb796d24741660583a023378830cad4c1feca0368269f764c",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 27,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 25,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "建立并维护机器人交互与感知指标体系"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "684fa7fac32a7efeb796d24741660583a023378830cad4c1feca0368269f764c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.290520+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0373": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "RL_SIM",
+      "secondary_task": "",
+      "task_evidence": "负责面向强化学习训练的大规模并行仿真能力研发与优化",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0373:2",
+        "4": [
+          [
+            "V2_GENESIS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": "DUPLICATE:N0373:4",
+        "6": "OUTSIDE:RLinf未单列冻结项。",
+        "7": "OUTSIDE:Stable-Baselines3未单列冻结项。",
+        "8": "OUTSIDE:SERL未单列冻结项。",
+        "9": "OUTSIDE:NVIDIA Warp未单列冻结项。",
+        "10": [
+          [
+            "V2_DDS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_AIMRT",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "11": "DUPLICATE:N0373:10",
+        "12": "DUPLICATE:N0373:10",
+        "13": [
+          [
+            "V2_SYSID",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "RL仿真。Sim2Real/Genesis/DDS/辨识/DR保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7676076081133111598|ea68e201b5d9c860675ad1f6579604bb3a45a3ce25a72a03009552cbbc35099f",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 26,
+      "reviewed_candidate_count": 13,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 32,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责面向强化学习训练的大规模并行仿真能力研发与优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "ea68e201b5d9c860675ad1f6579604bb3a45a3ce25a72a03009552cbbc35099f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.291526+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0056": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "PHYS_INTERN",
+      "secondary_task": "",
+      "task_evidence": "负责机器人URDF导出和物理参数的准确测量",
+      "new": {
+        "1": [
+          [
+            "V2_URDF",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0056:1",
+        "3": [
+          [
+            "V2_URDF",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0056:3",
+        "5": "OUTSIDE:Newton未单列冻结项。",
+        "6": "REJECT:Python 或 C++ is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "物理仿真实习。URDF保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|26e28271-1fb1-4bf2-a91e-7fc4d20e7e60|e0a36df8f8a5c60bcc6455506cb3175ba790529660d83c43fc34a6ebb814ba55",
+      "company_id": "CN_GALBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 28,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人URDF导出和物理参数的准确测量"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "e0a36df8f8a5c60bcc6455506cb3175ba790529660d83c43fc34a6ebb814ba55",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.291526+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0182": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SOFTWARE_TEST_INFRA",
+      "fine_task": "SIM_TEST",
+      "secondary_task": "",
+      "task_evidence": "负责仿真系统CICD相关工具链开发与配置",
+      "new": {
+        "1": [
+          [
+            "V2_CI_CD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0182:1",
+        "3": [
+          [
+            "V2_SHELL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0182:3",
+        "5": [
+          [
+            "V2_JENKINS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N0182:5"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "仿真系统测试。CI/Shell/Jenkins保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|5e57e450-58cf-4ca0-bade-401d69ecf53b|9ae8e59b234d0067d8d232d1cb21526b7d258baa08e73f7415f609830940d358",
+      "company_id": "CN_GALBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 28,
+        "end": 48,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责仿真系统CICD相关工具链开发与配置"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "9ae8e59b234d0067d8d232d1cb21526b7d258baa08e73f7415f609830940d358",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.291526+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0076": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "RL_ALGO",
+      "secondary_task": "",
+      "task_evidence": "负责机器人仿真数据生成与训练闭环系统的研发",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "仿真强化学习。MPC/阻抗/Sim2Real保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|5f9096d2-544b-4a3c-b402-cac7c425d6dc|94acfdead75031cc79737ba5566457bbc2759e44b4156829275bcb90fc8b0d6d",
+      "company_id": "CN_GALBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 48,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 10,
+        "end": 31,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人仿真数据生成与训练闭环系统的研发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "94acfdead75031cc79737ba5566457bbc2759e44b4156829275bcb90fc8b0d6d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.291526+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0058": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "SIM_INTERN",
+      "secondary_task": "",
+      "task_evidence": "协助搭建和维护机器人仿真平台",
+      "new": {
+        "1": [
+          [
+            "V2_CMAKE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:N0058:1",
+        "3": [
+          [
+            "V2_SAPIEN",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "4": "DUPLICATE:N0058:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "仿真实习。CMake/SAPIEN保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|74dd7623-2b14-4b57-9690-52f2f69b1c9a|8ca1b3822a0e249232b6dffff4bd332521664303312b79386b2a06df85e50595",
+      "company_id": "CN_GALBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 10,
+        "end": 24,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "协助搭建和维护机器人仿真平台"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "8ca1b3822a0e249232b6dffff4bd332521664303312b79386b2a06df85e50595",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.292515+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0145": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "INDUSTRIAL_SIM",
+      "secondary_task": "",
+      "task_evidence": "搭建高保真工业机器人仿真环境",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CI_CD",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0145:2",
+        "4": "REJECT:C++/Python扩展仿真器不是C语言。",
+        "5": "OUTSIDE:OPC UA未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "工业仿真。DR/CI保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|e2591c14-bb8f-46e2-9df5-b082814c76c0|d2d8c40ca8a351eb12f7d0ff4ff4b4bb65f5781de6a84b25bd511541afed65d3",
+      "company_id": "CN_GALBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 10,
+        "end": 24,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "搭建高保真工业机器人仿真环境"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "d2d8c40ca8a351eb12f7d0ff4ff4b4bb65f5781de6a84b25bd511541afed65d3",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.292515+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0027": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "CAMPUS_SIM",
+      "secondary_task": "",
+      "task_evidence": "参与仿真平台核心模块研发",
+      "new": {
+        "1": [
+          [
+            "V2_SAPIEN",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ],
+          [
+            "V2_MANISKILL",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:N0027:1",
+        "3": "DUPLICATE:N0027:1",
+        "4": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:C++ is not the C language.",
+        "6": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "DUPLICATE:N0027:6",
+        "8": [
+          [
+            "V2_SAPIEN",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_MANISKILL",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0027:8",
+        "10": "DUPLICATE:N0027:8",
+        "11": [
+          [
+            "V2_MANISKILL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "12": "OUTSIDE:RoboCasa未单列冻结项。",
+        "13": "OUTSIDE:LIBERO未单列冻结项。",
+        "14": "OUTSIDE:RoboTwin未单列冻结项。",
+        "15": "OUTSIDE:RoboDojo未单列冻结项。",
+        "16": "DUPLICATE:N0027:11",
+        "17": [
+          [
+            "V2_SLURM",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "18": "DUPLICATE:N0027:17",
+        "19": [
+          [
+            "V2_USD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_URDF",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_MJCF",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SDF",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "20": "DUPLICATE:N0027:19",
+        "21": "DUPLICATE:N0027:19",
+        "22": "DUPLICATE:N0027:19",
+        "23": "DUPLICATE:N0027:19",
+        "24": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "25": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "26": "DUPLICATE:N0027:25",
+        "27": "DUPLICATE:N0027:25",
+        "28": "DUPLICATE:N0027:25"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "应届仿真。SAPIEN/ManiSkill/资产格式/DR保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|f086a152-a160-42b4-bcbf-526f4f17022f|b2ac72c15adfe220daa34807273caa369ccac8475758bbdf6835d211fd6fd53c",
+      "company_id": "CN_GALBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 44,
+      "reviewed_candidate_count": 28,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 184,
+        "end": 196,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与仿真平台核心模块研发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b2ac72c15adfe220daa34807273caa369ccac8475758bbdf6835d211fd6fd53c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.292515+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0034": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "INDUSTRIAL_SIM",
+      "secondary_task": "",
+      "task_evidence": "搭建高保真工业机器人仿真环境",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "OUTSIDE:CoppeliaSim未单列冻结项。",
+        "3": "OUTSIDE:Webots未单列冻结项。",
+        "4": "REJECT:C++/Python扩展仿真器不是C语言。",
+        "5": "OUTSIDE:OPC UA未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "工业仿真。DR保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|f3c1ab79-d48a-46c5-98aa-4487285bd73a|21c7afc648ed8196fb4a4b41490b4c6dadbdc87c32e5e9f0d956473b0d344102",
+      "company_id": "CN_GALBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 11,
+        "end": 25,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "搭建高保真工业机器人仿真环境"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "21c7afc648ed8196fb4a4b41490b4c6dadbdc87c32e5e9f0d956473b0d344102",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.293582+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0170": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "CTRL_SIM",
+      "secondary_task": "",
+      "task_evidence": "设计并实现机器人仿真平台（基于 MuJoCo、Isaac Sim、Gazebo 等）的物理参数自动校准框架",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:量化仿真误差不是模型压缩。",
+        "4": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_SYSID",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_BULLET",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "7": "DUPLICATE:N0170:6",
+        "8": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_SYSID",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "REJECT:C++ 和 Python is not the C language.",
+        "11": "OUTSIDE:OpenRTM未单列冻结项。",
+        "12": [
+          [
+            "V2_EIGEN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "DUPLICATE:N0170:12",
+        "14": "OUTSIDE:RBDL未单列冻结项。",
+        "15": [
+          [
+            "V2_OCS2",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "16": "DUPLICATE:N0170:15",
+        "17": "OUTSIDE:mujoco_mpc未单列冻结项。",
+        "18": [
+          [
+            "V2_SYSID",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "运控仿真。校准/辨识/Bullet/Eigen/OCS2保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|f422eb93-00d1-407f-ad27-ad6d660fd0a3|5721311b287e4075148b8e4b54cabd7c1e4afdc2ffec1bfbbe61596cd753bcc8",
+      "company_id": "CN_GALBOT",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 36,
+      "reviewed_candidate_count": 18,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 41,
+        "end": 94,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "设计并实现机器人仿真平台（基于 MuJoCo、Isaac Sim、Gazebo 等）的物理参数自动校准框架"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "5721311b287e4075148b8e4b54cabd7c1e4afdc2ffec1bfbbe61596cd753bcc8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:10.293582+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0544": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MODEL_EVAL",
+      "fine_task": "BENCH_INTERN",
+      "secondary_task": "",
+      "task_evidence": "参与机器人操作任务 Benchmark 的设计",
+      "new": {
+        "1": [
+          [
+            "V2_SOP_OPERATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_JAVASCRIPT",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": "DUPLICATE:N0544:2",
+        "4": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0544:4",
+        "6": [
+          [
+            "V2_SOP_OPERATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "评测实习。SOP/JS/Git保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7676293481741338899|6c7e8a8dc2e59ebf2b88944ff9acd451961cd5da02ea07be39f32f0ae621c793",
+      "company_id": "CN_LIMX",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 31,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与机器人操作任务 Benchmark 的设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "6c7e8a8dc2e59ebf2b88944ff9acd451961cd5da02ea07be39f32f0ae621c793",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.669173+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0283": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "COMP_PHYS",
+      "secondary_task": "",
+      "task_evidence": "负责对传感器的物理原理进行设计，包括对相关的物理场进行模拟",
+      "new": {
+        "1": [
+          [
+            "V2_SCIPY",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0283:1",
+        "3": "OUTSIDE:逆问题未单列冻结项。",
+        "4": "OUTSIDE:参数估计未单列冻结项。",
+        "5": "OUTSIDE:正则化未单列冻结项。",
+        "6": "OUTSIDE:Tikhonov未单列冻结项。",
+        "7": "OUTSIDE:时间序列处理未单列冻结项。",
+        "8": "OUTSIDE:谱分析未单列冻结项。",
+        "9": "OUTSIDE:降噪未单列冻结项。",
+        "10": [
+          [
+            "V2_FE_TOPOLOGY",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "OUTSIDE:数值方法泛称未单列。",
+        "12": "DUPLICATE:N0283:10",
+        "13": "OUTSIDE:差分方法未单列冻结项。",
+        "14": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "15": "OUTSIDE:Matplotlib未单列冻结项。",
+        "16": "OUTSIDE:ParaView未单列冻结项。",
+        "17": "DUPLICATE:N0283:14"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "计算物理。SciPy/有限元数值/Git保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|552e4587-1776-4ad4-a5ee-80a1189ac80d|e333b4a3074762f0eb8052f395cdb54884cc6a94954f43fb6c449818167012f6",
+      "company_id": "CN_PAXINI",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 17,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 31,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责对传感器的物理原理进行设计，包括对相关的物理场进行模拟"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "e333b4a3074762f0eb8052f395cdb54884cc6a94954f43fb6c449818167012f6",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.670174+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0358": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "SENSOR_EQ",
+      "secondary_task": "",
+      "task_evidence": "负责触觉传感器、关节扭矩传感器、多维力 / 压力传感器专用非标检测设备从零研发",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0358:1",
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_SOP_OPERATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_TCPIP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_MODBUS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PLC",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "DUPLICATE:N0358:6",
+        "8": "DUPLICATE:N0358:6",
+        "9": "DUPLICATE:N0358:6"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "检测设备。PID/标定/SOP/Modbus/PLC保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|5617aafc-1d4f-4276-a2fb-f4947dacabc2|a49021de32f5e75f56752c20290a0d506656f4861f72260458c80c9e14cb427b",
+      "company_id": "CN_PAXINI",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 46,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责触觉传感器、关节扭矩传感器、多维力 / 压力传感器专用非标检测设备从零研发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "a49021de32f5e75f56752c20290a0d506656f4861f72260458c80c9e14cb427b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.670174+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0295": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "SIM_EXT",
+      "secondary_task": "",
+      "task_evidence": "基于 Omniverse Kit 和 USD 标准，设计并开发模块化的 Extension",
+      "new": {
+        "1": [
+          [
+            "V2_OMNIVERSE",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_USD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0295:1",
+        "3": "DUPLICATE:N0295:1",
+        "4": "REJECT:Python/C++ API不是C语言。",
+        "5": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "OUTSIDE:设计模式未单列冻结项。",
+        "7": "OUTSIDE:敏捷开发流程未单列冻结项。",
+        "8": "REJECT:Python/C++ is not the C language.",
+        "9": "OUTSIDE:计算机图形学Mesh/Shader未单列冻结项。",
+        "10": "OUTSIDE:计算机图形学Mesh/Shader未单列冻结项。",
+        "11": "OUTSIDE:计算机图形学Mesh/Shader未单列冻结项。",
+        "12": "REJECT:github个人主页不是Git协作。",
+        "13": "REJECT:github个人主页不是Git协作。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "仿真器扩展。Omniverse/USD/Sim2Real保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|ade64979-cd98-43b8-997f-552c2d061ec6|7139a69646bfdec1f04004efc3f9bd9df51c89a177de2d37b33c1c84ef902c83",
+      "company_id": "CN_PAXINI",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 24,
+      "reviewed_candidate_count": 13,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 47,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "基于 Omniverse Kit 和 USD 标准，设计并开发模块化的 Extension"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "7139a69646bfdec1f04004efc3f9bd9df51c89a177de2d37b33c1c84ef902c83",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.671174+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0359": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "CAE_SOLVER",
+      "secondary_task": "",
+      "task_evidence": "负责自主CAE求解器的架构设计与核心算法开发",
+      "new": {
+        "1": "REJECT:孤立C不是充分C语言证据。",
+        "2": "OUTSIDE:MPI未单列冻结项。",
+        "3": "OUTSIDE:OpenMP未单列冻结项。",
+        "4": "OUTSIDE:Newmark未单列冻结项。",
+        "5": "OUTSIDE:HHT未单列冻结项。",
+        "6": "OUTSIDE:显式中心差分未单列冻结项。",
+        "7": "OUTSIDE:iFEM理论未单列冻结项。",
+        "8": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ],
+          [
+            "V2_EIGEN",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "9": "OUTSIDE:CSR未单列冻结项。",
+        "10": "OUTSIDE:COO未单列冻结项。",
+        "11": "OUTSIDE:LU未单列冻结项。",
+        "12": "OUTSIDE:Cholesky未单列冻结项。",
+        "13": "OUTSIDE:CG未单列冻结项。",
+        "14": "OUTSIDE:GMRES未单列冻结项。",
+        "15": "OUTSIDE:PETSc未单列冻结项。",
+        "16": "DUPLICATE:N0359:8",
+        "17": "OUTSIDE:Trilinos未单列冻结项。",
+        "18": [
+          [
+            "V2_KALMAN_FACTOR",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "19": "DUPLICATE:N0359:18",
+        "20": "OUTSIDE:贝叶斯反演未单列冻结项。",
+        "21": "OUTSIDE:PINNs未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "计算力学。C未解/Eigen/Kalman加分保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|c40c5fde-f723-4438-a00c-6bd7e3a11c29|8ce9056c6145efda24fb9504c444a9cbf53f33e04770604799f940678c95c40d",
+      "company_id": "CN_PAXINI",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 21,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 24,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责自主CAE求解器的架构设计与核心算法开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "8ce9056c6145efda24fb9504c444a9cbf53f33e04770604799f940678c95c40d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.671174+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0066": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MODEL_EVAL",
+      "fine_task": "EMBODIED_EVAL",
+      "secondary_task": "",
+      "task_evidence": "设计并维护具身智能系统的评测体系",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "模型评测。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7593171249192241446|08c067d3ef7c0a40192a64fdd2f78798d40d6f7f6695b36f2002bce36f3f0385",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 18,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "设计并维护具身智能系统的评测体系"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "08c067d3ef7c0a40192a64fdd2f78798d40d6f7f6695b36f2002bce36f3f0385",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.671174+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0280": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "PHYS_ASSET",
+      "secondary_task": "",
+      "task_evidence": "针对 3D物理资产属性生成（尤其是刚体及软体部分）展开前沿方向研究",
+      "new": {
+        "1": "REJECT:C++ is not the C language."
+      },
+      "old_overrides": {
+        "O15": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原AI数据标注短词不唯一，改为兴趣句。",
+          "quote": "对 3D 物理建模、AI 数据标注及仿真优化有浓厚兴趣"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "物理资产生成。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7527580576992413978|5b44c584a74e1aefde4947a34ac209294a533236204bdb67c3fd000b60aeb79d",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "full_description",
+        "start": 115,
+        "end": 148,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "针对 3D物理资产属性生成（尤其是刚体及软体部分）展开前沿方向研究"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "5b44c584a74e1aefde4947a34ac209294a533236204bdb67c3fd000b60aeb79d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.671174+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0255": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "MFG_SW",
+      "secondary_task": "",
+      "task_evidence": "负责新品的产测方案设计与产测上位机的开发",
+      "new": {
+        "1": [
+          [
+            "V2_SHELL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_LABVIEW",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:E0255:1"
+      },
+      "old_overrides": {
+        "O5": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原Linux短词不唯一，改为操作系统句。",
+          "quote": "熟练使用Linux操作系统及其命令，理解Linux的工作原理"
+        },
+        "O10": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原产测软件短词不唯一，改为年限经验句。",
+          "quote": "5年以上产测软件/工具开发经验，包括但不限于桌面上位机软件、web等"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "产测软件。Shell/LabVIEW保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7580330794947987721|1e59d159c8e1b294953e52e7a592d24bfeede9ada4a2cc21035ddfdc66f1dbb8",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 22,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责新品的产测方案设计与产测上位机的开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "1e59d159c8e1b294953e52e7a592d24bfeede9ada4a2cc21035ddfdc66f1dbb8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.671174+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0360": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "SOFTWARE_TEST_INFRA",
+      "fine_task": "HIL_SW",
+      "secondary_task": "",
+      "task_evidence": "Build and manage automated pipelines using GitHub Actions to trigger firmware flashing and test execution on physical HiL runners",
+      "new": {
+        "1": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CI_CD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CI_CD",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_GIT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_GITHUB_ACTIONS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_HIL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CAN",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_ETHERCAT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_I2C",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SPI",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_POWER_SUPPLY",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_GIT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_GITHUB_ACTIONS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_HIL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_GITHUB_ACTIONS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_ETHERNET",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_I2C",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SPI",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_UART",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": [
+          [
+            "V2_ETHERCAT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": [
+          [
+            "V2_POWER_SUPPLY",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "REJECT:Salary USD is not Universal Scene Description.",
+        "14": "REJECT:第三方招聘免责声明不是人力资源技能项。",
+        "15": "OUTSIDE:Acontis未单列冻结项。",
+        "16": "DUPLICATE:E0360:9"
+      },
+      "old_overrides": {
+        "O6": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原Linux短词不唯一，改为GitHub runner工作站句。",
+          "quote": "Configure and maintain Linux-based workstations as GitHub Actions self-hosted runners"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "HiL软件基建。HIL/GHA/总线/电源保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6105233004|babe3330e11a76c5bdbfdad39ad8e2d99527447ac8123a25acec20b5bf107438",
+      "company_id": "US_AGILITY",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 29,
+      "reviewed_candidate_count": 16,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 182,
+        "end": 311,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Build and manage automated pipelines using GitHub Actions to trigger firmware flashing and test execution on physical HiL runners"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "babe3330e11a76c5bdbfdad39ad8e2d99527447ac8123a25acec20b5bf107438",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.672685+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0336": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "MFG_TEST",
+      "secondary_task": "",
+      "task_evidence": "Serve as the technical owner and architect for manufacturing test systems",
+      "new": {
+        "1": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DFT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_I2C",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SPI",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_UART",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_FREE_RTOS",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_HIL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_MES",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "REJECT:Salem office不是Microsoft Office。",
+        "7": "REJECT:Salary USD is not Universal Scene Description.",
+        "8": "REJECT:第三方招聘免责声明不是人力资源技能项。",
+        "9": "DUPLICATE:E0336:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "制造测试。DFT/DFM/总线/HIL/MES保留。I2C句中C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6113669004|50859fc4d39fd838dfd769045c124191c4fbb701895195741915ec625fdc3ed0",
+      "company_id": "US_AGILITY",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 73,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Serve as the technical owner and architect for manufacturing test systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "50859fc4d39fd838dfd769045c124191c4fbb701895195741915ec625fdc3ed0",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.672685+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0354": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "MFG_TEST_MGR",
+      "secondary_task": "",
+      "task_evidence": "Build, lead, and mentor a high-performing Manufacturing Test Engineering team",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_DOE_MSA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_DFT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_LABVIEW",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_POWER_SUPPLY",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_DFT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_I2C",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SPI",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_UART",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_MES",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_TESTSTAND",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": [
+          [
+            "V2_LEAN",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "REJECT:Salem office不是Microsoft Office。",
+        "12": "REJECT:Salary USD is not Universal Scene Description.",
+        "13": "REJECT:第三方招聘免责声明不是人力资源技能项。",
+        "14": "DUPLICATE:E0354:2",
+        "15": "DUPLICATE:E0354:5",
+        "16": "DUPLICATE:E0354:9"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "制造测试管理。标定/GRR/DFT/LabVIEW/MES保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6127920004|f3273b2d1aecceecdaca59c029551d75a2eedc2c497ec13202008c717af0d43f",
+      "company_id": "US_AGILITY",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 19,
+      "reviewed_candidate_count": 16,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 39,
+        "end": 116,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Build, lead, and mentor a high-performing Manufacturing Test Engineering team"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "f3273b2d1aecceecdaca59c029551d75a2eedc2c497ec13202008c717af0d43f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.672685+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0962": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "SYNTH_DATA",
+      "secondary_task": "",
+      "task_evidence": "focusing on high-fidelity synthetic data generation",
+      "new": {
+        "1": [
+          [
+            "V2_USD",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0962:1",
+        "3": "OUTSIDE:OpenVDB未单列冻结项。",
+        "4": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:English can is not Controller Area Network.",
+        "6": "REJECT:familiarity with C++ is not the C language.",
+        "7": [
+          [
+            "V2_USD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N0962:7",
+        "9": "OUTSIDE:OpenVDB未单列冻结项。",
+        "10": [
+          [
+            "V2_BLENDER",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_HOUDINI",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_UNITY",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_UNREAL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "11": "DUPLICATE:N0962:10",
+        "12": "DUPLICATE:N0962:10",
+        "13": "DUPLICATE:N0962:10",
+        "14": "DUPLICATE:N0962:10",
+        "15": "REJECT:洛杉矶县安全合作声明不是客户服务流程。",
+        "16": "REJECT:Recruiting Partner不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "合成数据仿真。USD/Sim2Real/DCC工具保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AMAZON_FTR|amazon|10450289|dd0b1a04a449c8fff592087dc0f884cd911001a2c432ba0925b14e8afef35b7b",
+      "company_id": "US_AMAZON_FTR",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 16,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 88,
+        "end": 139,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "focusing on high-fidelity synthetic data generation"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "dd0b1a04a449c8fff592087dc0f884cd911001a2c432ba0925b14e8afef35b7b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.673692+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0417": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "CORE_SIM",
+      "secondary_task": "",
+      "task_evidence": "Contribute to the architecture and development of the core simulation platform",
+      "new": {
+        "1": "REJECT:fast enough for RL不是C语言。",
+        "2": [
+          [
+            "V2_CI_CD",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:C++ and/or Python is not the C language.",
+        "5": [
+          [
+            "V2_CI_CD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_SYSID",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_AWS",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GCP",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_AZURE",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "8": "DUPLICATE:E0417:7"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "核心仿真平台。CI/Sim2Real/辨识/云保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6085871004|cc1bf4c0d9f6395673e1aa36b4effa8f915c0ed2b83af6b444062b1584f83aa0",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 21,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 549,
+        "end": 627,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Contribute to the architecture and development of the core simulation platform"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "cc1bf4c0d9f6395673e1aa36b4effa8f915c0ed2b83af6b444062b1584f83aa0",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.673692+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0407": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "CALIBRATION",
+      "fine_task": "SENSOR_CAL",
+      "secondary_task": "",
+      "task_evidence": "you will own the critical link between the physical world and our robot's autonomy stack",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_PTP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "REJECT:linear algebra不是Linear工具。",
+        "14": "REJECT:Python and C++ is not the C language.",
+        "15": [
+          [
+            "V2_CERES",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_G2O",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_PCL",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "16": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "17": "DUPLICATE:E0407:15",
+        "18": "DUPLICATE:E0407:15"
+      },
+      "old_overrides": {
+        "O11": {
+          "metric": "GENERAL",
+          "branch": "CHOICE",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原computer vision短词不唯一，改为感知硬件年限句。",
+          "quote": "5+ years of industry experience in perception hardware, computer vision, or robotics, with a primary focus on sensor calibration and validation"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "感知硬件标定。标定/PTP/Ceres/g2o/PCL保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6145262004|7f11327f3f9ebca17fa63697f9acc31b989f408285c8d36cf79bed852223b015",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 18,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 74,
+        "end": 162,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "you will own the critical link between the physical world and our robot's autonomy stack"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "7f11327f3f9ebca17fa63697f9acc31b989f408285c8d36cf79bed852223b015",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.674712+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N1012": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "MFG_TEST",
+      "secondary_task": "",
+      "task_evidence": "architect and implement the critical test systems that bring our groundbreaking robots",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "REJECT:project management不是Microsoft Project。",
+        "3": [
+          [
+            "V2_DFT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_DFT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_POWER_SUPPLY",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N1012:5",
+        "7": "OUTSIDE:Windows未单列冻结项。",
+        "8": [
+          [
+            "V2_DFM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "DUPLICATE:N1012:8",
+        "10": "REJECT:C++ is not the C language.",
+        "11": [
+          [
+            "V2_LEAN",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "DUPLICATE:N1012:11",
+        "13": "DUPLICATE:N1012:11",
+        "14": [
+          [
+            "V2_PLM",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "15": "DUPLICATE:N1012:14",
+        "16": "OUTSIDE:Arena未单列冻结项。",
+        "17": "REJECT:招聘流程声明不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "制造测试开发。DFT/电源/精益/PLM保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|119dd2f867411001677dea4c7cac0000|1e1d993fafa150992c3be2021efe9d5ac66f40b901e89e7b29c919e0037f8ab2",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 26,
+      "reviewed_candidate_count": 17,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 108,
+        "end": 194,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "architect and implement the critical test systems that bring our groundbreaking robots"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "1e1d993fafa150992c3be2021efe9d5ac66f40b901e89e7b29c919e0037f8ab2",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.674712+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0968": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SOFTWARE_TEST_INFRA",
+      "fine_task": "SQA",
+      "secondary_task": "",
+      "task_evidence": "ensuring the high quality, reliability, and performance of our integrated robotics ecosystem",
+      "new": {
+        "1": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "OUTSIDE:web与嵌入式自动化框架未单列冻结项。",
+        "3": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_CI_CD",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N0968:5",
+        "7": [
+          [
+            "V2_PLAYWRIGHT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N0968:7",
+        "9": [
+          [
+            "V2_JAVASCRIPT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_TYPESCRIPT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_PYTEST",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "DUPLICATE:N0968:9",
+        "11": "DUPLICATE:N0968:9",
+        "12": "DUPLICATE:N0968:9",
+        "13": [
+          [
+            "V2_HIL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "14": "DUPLICATE:N0968:13",
+        "15": "OUTSIDE:系统思维质量方法未单列冻结项。",
+        "16": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_JENKINS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_CI_CD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "17": "OUTSIDE:version control泛称。",
+        "18": "OUTSIDE:build systems泛称。",
+        "19": "DUPLICATE:N0968:16",
+        "20": "DUPLICATE:N0968:16",
+        "21": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "22": "OUTSIDE:BuildKite未单列冻结项。",
+        "23": "DUPLICATE:N0968:16",
+        "24": [
+          [
+            "V2_JAVASCRIPT",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_REACT",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "25": "DUPLICATE:N0968:24",
+        "26": "OUTSIDE:HTML未单列冻结项。",
+        "27": "OUTSIDE:CSS未单列冻结项。",
+        "28": "OUTSIDE:RESTful APIs未单列冻结项。",
+        "29": [
+          [
+            "V2_JIRA",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_TESTRAIL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "30": "DUPLICATE:N0968:29",
+        "31": "DUPLICATE:N0968:29",
+        "32": [
+          [
+            "V2_PROJECT_METHOD",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "33": "DUPLICATE:N0968:32",
+        "34": "DUPLICATE:N0968:32"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Spot SQA。HIL/Playwright/pytest/Git/Jenkins/Jira保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|1feb95062e6b10015709a9e8feca0000|1ae629b77d30835ade3717545ecdd18390acb7445f9cdb564f41727e70a1e016",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 34,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 74,
+        "end": 166,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "ensuring the high quality, reliability, and performance of our integrated robotics ecosystem"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "1ae629b77d30835ade3717545ecdd18390acb7445f9cdb564f41727e70a1e016",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:11.674712+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0969": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "THERMAL_CFD",
+      "secondary_task": "",
+      "task_evidence": "defining the global thermal management strategy and multi-physics simulation roadmap",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "REJECT:English can is not Controller Area Network.",
+        "3": "OUTSIDE:CFD评价流程未单列冻结项。",
+        "4": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": "DUPLICATE:N0969:4",
+        "6": "OUTSIDE:STAR-CCM+未单列冻结项。",
+        "7": "OUTSIDE:Simcenter Flotherm未单列冻结项。",
+        "8": "OUTSIDE:UDF未单列冻结项。",
+        "9": [
+          [
+            "V2_DAQ",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "REJECT:Python, C++ is not the C language.",
+        "11": "REJECT:招聘流程声明不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "热流体仿真。ANSYS/DAQ保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|6ed2c499d4db10014fae6901b0320000|c3c1179af8080997d9482b3a5389aad516d07000ab4b0c8a17af8c1c27488045",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 25,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 236,
+        "end": 320,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "defining the global thermal management strategy and multi-physics simulation roadmap"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "c3c1179af8080997d9482b3a5389aad516d07000ab4b0c8a17af8c1c27488045",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.255909+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0978": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "TEST_SW",
+      "secondary_task": "",
+      "task_evidence": "You will own the test software and automation frameworks that drive board flashing",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Python and/or C++ is not the C language.",
+        "4": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0978:4",
+        "6": "OUTSIDE:Universal Robots未单列冻结项。",
+        "7": "OUTSIDE:FANUC未单列冻结项。",
+        "8": [
+          [
+            "V2_LABVIEW",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_TESTSTAND",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0978:8",
+        "10": "DUPLICATE:N0978:8",
+        "11": [
+          [
+            "V2_PLM",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "OUTSIDE:Arena未单列冻结项。",
+        "13": "OUTSIDE:Enovia未单列冻结项。",
+        "14": [
+          [
+            "V2_MES",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "15": "DUPLICATE:N0978:14",
+        "16": [
+          [
+            "V2_PLC",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "17": "DUPLICATE:N0978:16",
+        "18": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "测试软件自动化。标定/Git/LabVIEW/PLM/MES/PLC保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|7ec4f36fb78a1001a356e058640d0001|e3483d1138b9eadc3ca82138c03bc4ed4d2c676333101ceebdc7597d74185b55",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 18,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1338,
+        "end": 1420,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "You will own the test software and automation frameworks that drive board flashing"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "e3483d1138b9eadc3ca82138c03bc4ed4d2c676333101ceebdc7597d74185b55",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.256910+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N1005": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "ELEC_MFG_TEST",
+      "secondary_task": "",
+      "task_evidence": "Provide design for test (DFT) recommendations for test coverage",
+      "new": {
+        "1": [
+          [
+            "V2_DFT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N1005:1",
+        "3": "REJECT:project management不是Microsoft Project。",
+        "4": [
+          [
+            "V2_DFT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_DAQ",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_POWER_SUPPLY",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N1005:5",
+        "7": "DUPLICATE:N1005:5",
+        "8": "REJECT:Python or C++ is not the C language.",
+        "9": [
+          [
+            "V2_LABVIEW",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_TESTSTAND",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "10": "DUPLICATE:N1005:9",
+        "11": "DUPLICATE:N1005:9",
+        "12": [
+          [
+            "V2_PLM",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "DUPLICATE:N1005:12",
+        "14": "OUTSIDE:Arena未单列冻结项。",
+        "15": "OUTSIDE:Enovia未单列冻结项。",
+        "16": [
+          [
+            "V2_MES",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "17": "DUPLICATE:N1005:16",
+        "18": "OUTSIDE:Windows未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "电气制造测试。DFT/DAQ/LabVIEW/PLM/MES保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|e43cb2508bb01001fc0edc3c1fa30000|84d07b7b1d23734b4fccf30f789e4d3d382d61c58576de604a4090011d6c1a72",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 29,
+      "reviewed_candidate_count": 18,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1634,
+        "end": 1697,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Provide design for test (DFT) recommendations for test coverage"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "84d07b7b1d23734b4fccf30f789e4d3d382d61c58576de604a4090011d6c1a72",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.256910+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0797": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CALIBRATION",
+      "fine_task": "SENSOR_CAL",
+      "secondary_task": "",
+      "task_evidence": "help advance the sensor calibration systems that power our autonomous robots",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:C++ and Python is not the C language.",
+        "6": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "REJECT:project-specific documentation不是Microsoft Project。",
+        "8": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "REJECT:C++ and Python is not the C language.",
+        "10": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": [
+          [
+            "V2_PCL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_OPEN3D",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "12": "DUPLICATE:N0797:11",
+        "13": "DUPLICATE:N0797:11",
+        "14": "OUTSIDE:Kalibr未单列冻结项。",
+        "15": [
+          [
+            "V2_CERES",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_G2O",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GTSAM",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "16": "DUPLICATE:N0797:15",
+        "17": "DUPLICATE:N0797:15",
+        "18": "DUPLICATE:N0797:15",
+        "19": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "传感器标定。标定/PCL/Open3D/Ceres保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|1ff2ae13-b4a7-4800-a52e-d1c858924861|928cac9f3ea45cff3479c3ebcfd40eae707b6ac82ac3b79329a787c83d1e3271",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 25,
+      "reviewed_candidate_count": 19,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 575,
+        "end": 651,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "help advance the sensor calibration systems that power our autonomous robots"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "928cac9f3ea45cff3479c3ebcfd40eae707b6ac82ac3b79329a787c83d1e3271",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.256910+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0831": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "MULTIAGENT",
+      "secondary_task": "",
+      "task_evidence": "Calibrate simulation to real-world telemetry with field teams and reduce the sim-to-real gap",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Python and C++ is not the C language.",
+        "4": [
+          [
+            "V2_GENESIS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": "DUPLICATE:N0831:4",
+        "6": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "REJECT:robotics' hardest不是CAN。",
+        "8": "REJECT:English can is not Controller Area Network."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "多智能体仿真。标定/Sim2Real/DR/Genesis保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|2f3a7e60-d285-4404-8d39-96f6b1d350e8|3124a1fdd888ba4a3efd40ff60c7da47e5c087024ed5846eb893cee01be3b056",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 26,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1726,
+        "end": 1818,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Calibrate simulation to real-world telemetry with field teams and reduce the sim-to-real gap"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "3124a1fdd888ba4a3efd40ff60c7da47e5c087024ed5846eb893cee01be3b056",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.257909+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0826": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "SIM_EVAL",
+      "secondary_task": "",
+      "task_evidence": "maintain and extend simulation systems",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "REJECT:C++ and/or Python is not the C language.",
+        "3": [
+          [
+            "V2_UNITY",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_UNREAL",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": "DUPLICATE:N0826:3",
+        "5": "DUPLICATE:N0826:3",
+        "6": [
+          [
+            "V2_URDF",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SDF",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "DUPLICATE:N0826:6",
+        "8": "DUPLICATE:N0826:6",
+        "9": [
+          [
+            "V2_HIL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": [
+          [
+            "V2_GIT",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GITHUB_ACTIONS",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_BAZEL",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_CMAKE",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_OMNIVERSE",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_PHYSX",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_USD",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "DUPLICATE:N0826:10",
+        "12": "DUPLICATE:N0826:10",
+        "13": "DUPLICATE:N0826:10",
+        "14": "DUPLICATE:N0826:10",
+        "15": "DUPLICATE:N0826:10",
+        "16": "DUPLICATE:N0826:10"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "仿真评测软件。引擎/资产/HIL/Omniverse/GHA保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|eff30cb0-3457-476c-8367-0dd436f36b0f|07b72d2c0086e09ac1237b868493da4ed09c14c3e73877e1ec1924582d1a9297",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 39,
+      "reviewed_candidate_count": 16,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 992,
+        "end": 1030,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "maintain and extend simulation systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "07b72d2c0086e09ac1237b868493da4ed09c14c3e73877e1ec1924582d1a9297",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.257909+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0516": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "EOL_SW",
+      "secondary_task": "",
+      "task_evidence": "Implement improvements to our existing end of line automation software",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Python and C++ is not the C language.",
+        "4": [
+          [
+            "V2_ETHERNET",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SPI",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_UART",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_USB",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O5": {
+          "metric": "GENERAL",
+          "branch": "EXAMPLE",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原actuators短词不唯一，改为硬件接口句。",
+          "quote": "Strong proficiency in writing Python and C++ for interfacing with real hardware including actuators, sensors, relays, etc"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "制造软件测试。排障/总线保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4414646006|3d517085bcf00b2cbf2e73188082fb049ddc2fc773f180948f2f968f88e6689b",
+      "company_id": "US_FIGURE",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 70,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Implement improvements to our existing end of line automation software"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "3d517085bcf00b2cbf2e73188082fb049ddc2fc773f180948f2f968f88e6689b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.257909+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0513": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "ELEC_EOL",
+      "secondary_task": "",
+      "task_evidence": "Design and validate EOL testers for various systems of the Humanoid",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": [
+          [
+            "V2_PLC",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_DAQ",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_POWER_SUPPLY",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ETHERNET",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_RS485",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": [
+          [
+            "V2_EPLAN",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "电气产测。PLC/DAQ/总线/EPLAN保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4573670006|b98f1cd2332bf352071b8d1298c80f2292a5cd1f5e2868e9007b895966ed0934",
+      "company_id": "US_FIGURE",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 67,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design and validate EOL testers for various systems of the Humanoid"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "b98f1cd2332bf352071b8d1298c80f2292a5cd1f5e2868e9007b895966ed0934",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.258909+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0483": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "HW_INTERN",
+      "secondary_task": "",
+      "task_evidence": "Design and build custom scalable test stations",
+      "new": {
+        "1": [
+          [
+            "V2_DAQ",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CNC_PROCESS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:E0483:1",
+        "5": "DUPLICATE:E0483:2",
+        "6": "DUPLICATE:E0483:2"
+      },
+      "old_overrides": {
+        "O14": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原mechanical短词不唯一，改为机电原型句。",
+          "quote": "Demonstrated hands-on experience designing, building, and testing mechanical or electromechanical prototypes"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "硬件测试实习。DAQ/Git/C未解/3D打印工艺保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4613067006|1519a14193fc35da72a2d70b06d9e46edf43d0fad86fc6b9423695a45e1031f8",
+      "company_id": "US_FIGURE",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 46,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design and build custom scalable test stations"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "1519a14193fc35da72a2d70b06d9e46edf43d0fad86fc6b9423695a45e1031f8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.258909+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0573": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "HARDWARE_TEST_INFRA",
+      "fine_task": "ACT_TEST",
+      "secondary_task": "",
+      "task_evidence": "Lead the development and maintenance of highly automated, scalable actuation test systems",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_ETHERCAT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "REJECT:BiSS-C不是C语言。",
+        "8": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "DUPLICATE:E0573:8"
+      },
+      "old_overrides": {
+        "O15": {
+          "metric": "GENERAL",
+          "branch": "CHOICE",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原actuation短词不唯一，改为测功机经验句。",
+          "quote": "Proven track record building testing solutions for actuation or motor systems, including dynamometers"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "执行器测试开发。标定/EtherCAT/Git保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4703944006|33f09184456b077eaf8571202bddcd3808c64e84df9c711c107ab7bc66dd4779",
+      "company_id": "US_FIGURE",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 24,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 89,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Lead the development and maintenance of highly automated, scalable actuation test systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "33f09184456b077eaf8571202bddcd3808c64e84df9c711c107ab7bc66dd4779",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.258909+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0902": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SOFTWARE_TEST_INFRA",
+      "fine_task": "HIL_AUTO",
+      "secondary_task": "",
+      "task_evidence": "Builds and maintains automated HIL frameworks, dashboards",
+      "new": {
+        "1": "REJECT:Series C funding is not the C language.",
+        "2": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CAN",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_ETHERNET",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_I2C",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DAQ",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0902:4",
+        "6": "DUPLICATE:N0902:4",
+        "7": "DUPLICATE:N0902:4",
+        "8": "DUPLICATE:N0902:4",
+        "9": [
+          [
+            "V2_HIL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": [
+          [
+            "V2_JENKINS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_CI_CD",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "DUPLICATE:N0902:10",
+        "12": "DUPLICATE:N0902:10",
+        "13": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ETHERNET",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_USB",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "14": "DUPLICATE:N0902:13",
+        "15": "DUPLICATE:N0902:13",
+        "16": "DUPLICATE:N0902:13",
+        "17": "OUTSIDE:Serial未单列冻结项。",
+        "18": [
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "HIL自动化。HIL/总线/Jenkins/需求追溯保留。C++不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4332168009|3c9bf37813391ee7fc8520e03aa0d1898c36ebe0f0adb3a7ba828bfcc6d89752",
+      "company_id": "US_NIMBLE",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 23,
+      "reviewed_candidate_count": 18,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2510,
+        "end": 2567,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Builds and maintains automated HIL frameworks, dashboards"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "3c9bf37813391ee7fc8520e03aa0d1898c36ebe0f0adb3a7ba828bfcc6d89752",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.259909+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0680": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "PHYS_SCI",
+      "secondary_task": "",
+      "task_evidence": "lead advancements in the simulation and physics-solving backbone",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:C++ and Python is not the C language.",
+        "6": [
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "REJECT:Salary USD is not Universal Scene Description."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "物理仿真科学家。Sim2Real/标定/DR保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5028697008|f84d27d37bac1ad62cae5ce78f8c838317d466354d28c5011a0f219205f66fd5",
+      "company_id": "US_SKILD",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 754,
+        "end": 818,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "lead advancements in the simulation and physics-solving backbone"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "f84d27d37bac1ad62cae5ce78f8c838317d466354d28c5011a0f219205f66fd5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.259909+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0714": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SIM_PLATFORM",
+      "fine_task": "TECH_ANIM",
+      "secondary_task": "",
+      "task_evidence": "Build high-quality motion capture systems",
+      "new": {
+        "1": [
+          [
+            "V2_MOCAP",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0714:1",
+        "3": [
+          [
+            "V2_MOCAP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0714:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "技术动画。动捕保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5031015008|bf3649d711d8f60e4fdd3137023d607f5007bf6258c0b80db4a3aee2149a15bf",
+      "company_id": "US_SKILD",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1120,
+        "end": 1161,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Build high-quality motion capture systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "bf3649d711d8f60e4fdd3137023d607f5007bf6258c0b80db4a3aee2149a15bf",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.259909+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0713": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CALIBRATION",
+      "fine_task": "SYSID",
+      "secondary_task": "",
+      "task_evidence": "Plan and run system identification across all Skild robot platforms",
+      "new": {
+        "1": [
+          [
+            "V2_SYSID",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SYSID",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0713:2",
+        "4": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_SYSID",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_SYSID",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_KALMAN_FACTOR",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "REJECT:Python and C++ is not the C language.",
+        "11": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "系统辨识控制。辨识/HIL/Sim2Real/标定/Kalman保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5239937008|8f60583206caefe776fe0d1db728befc198e6d7248e90d710baea669b6ce96ac",
+      "company_id": "US_SKILD",
+      "role": "RF_SIMULATION_EVALUATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 31,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1078,
+        "end": 1145,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Plan and run system identification across all Skild robot platforms"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "8f60583206caefe776fe0d1db728befc198e6d7248e90d710baea669b6ce96ac",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:14:13.260909+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    }
+  }
+}

@@ -1,0 +1,1625 @@
+{
+  "n_evidence": 30,
+  "evidence": [
+    {
+      "evidence_id": "B_CN_FOURIER_001",
+      "company_id": "CN_FOURIER",
+      "field": "hiring_board_channel",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "CONFIRMS_CHANNEL",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://app.mokahr.com/social-recruitment/fftai/126181",
+      "snapshot_id": "moka_social_2026",
+      "snapshot_text_path": "evidence_snapshots\\CN_FOURIER__moka_social_2026.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "站点需先取会话 cookie 再请求，否则自身 302 循环；已按该方式取得 200。仅核渠道，不重新采集岗位。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_FOURIER__hiring_board_channel",
+          "field": "hiring_board_channel",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "官网招聘入口 /fourier/join + Moka 两个官方频道（社招 126181、校招 147078）；官网静态"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__hiring_source_history",
+          "field": "hiring_source_history",
+          "value_status": "CONFLICT_RESOLVED_BY_SEPARATION",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "历史资料卡使用 BOSS 直聘第三方板（E_CN_004，2026-08-27 查阅）；2026-09-11 认证广告来"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__legal_entity_name",
+          "field": "legal_entity_name",
+          "value_status": "INHERITED_UNVERIFIED",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "上海傅利叶智能科技股份有限公司（媒体与行业记录用语）；官方招聘板以「傅利叶集团」运营"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_FOURIER_002",
+      "company_id": "CN_FOURIER",
+      "field": "hiring_board_channel",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://app.mokahr.com/campus-recruitment/fftai/147078",
+      "snapshot_id": "moka_campus_2026",
+      "snapshot_text_path": "evidence_snapshots\\CN_FOURIER__moka_campus_2026.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "两个频道对应独立招募类型，与本轮 2026-09-11 认证广告并存的观察范围无关，不作为岗位计数依据。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_FOURIER__hiring_board_channel",
+          "field": "hiring_board_channel",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "官网招聘入口 /fourier/join + Moka 两个官方频道（社招 126181、校招 147078）；官网静态"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__hiring_source_history",
+          "field": "hiring_source_history",
+          "value_status": "CONFLICT_RESOLVED_BY_SEPARATION",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "历史资料卡使用 BOSS 直聘第三方板（E_CN_004，2026-08-27 查阅）；2026-09-11 认证广告来"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_FOURIER_003",
+      "company_id": "CN_FOURIER",
+      "field": "named_customers_or_partners / evidence_customer_delivery（具名机构交付）",
+      "claim_nature": "MEDIA_STATEMENT",
+      "source_nature": "MEDIA",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2026-06-18",
+      "event_date": "2026-06-16",
+      "url": "http://m.eeo.com.cn/2026/0618/920334.shtml",
+      "snapshot_id": "eeo_malaysia",
+      "snapshot_text_path": "evidence_snapshots\\CN_FOURIER__eeo_malaysia.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "交付事实以该院开业与设备入驻为准，属康复产品线；同文提到的人形机器人用于认知训练引导，见 B_CN_FOURIER_004。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_FOURIER__delivery_form",
+          "field": "delivery_form",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "硬件设备销售与交付（含整院康复设备包）、临床部署与培训、远程康复系统、研究与共建合作"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__deployment_status_actual",
+          "field": "deployment_status_actual",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "马来西亚 PERKESO 康复中心：整套康复设备自 2025-10 起试运营并于 2026-06-16 随中心开业正式投"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__evidence_customer_delivery",
+          "field": "evidence_customer_delivery",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：PERKESO 康复中心整院康复设备交付（总价上千万元，媒体口径）；陈笃生医院康复技术部署（对方公告）"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__evidence_external_pilot",
+          "field": "evidence_external_pilot",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：PERKESO 康复中心 2025-10 至 2026-06 为期 8 个月的试运营；NHG 语境下的康复技术部署与"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__evidence_paid",
+          "field": "evidence_paid",
+          "value_status": "MEDIA_STATEMENT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "PERKESO 项目总价上千万元（媒体口径，未取得合同或付款凭证）；NHG 合作未披露交易金额"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__evidence_sustained_use",
+          "field": "evidence_sustained_use",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：PERKESO 设备自 2025-10 起运行并延续至中心正式开业；NHG 合作关系自 2021 年延续至 2026"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__legal_entity_name",
+          "field": "legal_entity_name",
+          "value_status": "INHERITED_UNVERIFIED",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "上海傅利叶智能科技股份有限公司（媒体与行业记录用语）；官方招聘板以「傅利叶集团」运营"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__named_customers_or_partners",
+          "field": "named_customers_or_partners",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "马来西亚社会保险机构 PERKESO（具名机构客户，国家级康复中心）；新加坡国立医疗集团 NHG Health（具名，交"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__research_subject",
+          "field": "research_subject",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "整公司多产品范围（WHOLE_COMPANY_MULTI_PRODUCT），康复业务与人形机器人分别举证"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__target_markets",
+          "field": "target_markets",
+          "value_status": "MIXED_SEE_EVIDENCE",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "医疗康复（医院与康复中心）、康养／养老机构、家庭健康管理（受访者表述为阶段判断）、研究平台"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_FOURIER_004",
+      "company_id": "CN_FOURIER",
+      "field": "evidence_customer_delivery（人形机器人单列）",
+      "claim_nature": "MEDIA_STATEMENT",
+      "source_nature": "MEDIA",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2026-06-18",
+      "event_date": "2026-06-16",
+      "url": "http://m.eeo.com.cn/2026/0618/920334.shtml",
+      "snapshot_id": "eeo_malaysia",
+      "snapshot_text_path": "evidence_snapshots\\CN_FOURIER__eeo_malaysia.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "人形机器人的用途明确为非直接临床治疗（认知训练引导）；不得据此写成所有产品均已部署或人形已进入临床治疗。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_FOURIER__product_lines",
+          "field": "product_lines",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "康复线：外骨骼（ExoMotus™ M4）、上肢康复机器人（ArmMotus™ EMU）、下肢康复机器人、伽利略生物力学"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_FOURIER_005",
+      "company_id": "CN_FOURIER",
+      "field": "named_customers_or_partners（交易对方官方确认）",
+      "claim_nature": "INDEPENDENT_CHANNEL_STATEMENT",
+      "source_nature": "COUNTERPARTY_CONFIRMATION",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2026-05-14",
+      "event_date": "2026-05-13",
+      "url": "https://www.nhghealth.com.sg/news/nhg-health-and-fourier-rehab-advance-rehabilitation-robotics-and-healthcare-innovation-further",
+      "snapshot_id": "nhg_official_partnership",
+      "snapshot_text_path": "evidence_snapshots\\CN_FOURIER__nhg_official_partnership.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "交易对方官方公告，用于康复业务线的独立确认；公告通篇限定在康复与辅助机器人技术，未提人形机器人临床部署（见冲突项，未关闭）。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_FOURIER__delivery_form",
+          "field": "delivery_form",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "硬件设备销售与交付（含整院康复设备包）、临床部署与培训、远程康复系统、研究与共建合作"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__deployment_status_actual",
+          "field": "deployment_status_actual",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "马来西亚 PERKESO 康复中心：整套康复设备自 2025-10 起试运营并于 2026-06-16 随中心开业正式投"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__evidence_customer_delivery",
+          "field": "evidence_customer_delivery",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：PERKESO 康复中心整院康复设备交付（总价上千万元，媒体口径）；陈笃生医院康复技术部署（对方公告）"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__evidence_external_pilot",
+          "field": "evidence_external_pilot",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：PERKESO 康复中心 2025-10 至 2026-06 为期 8 个月的试运营；NHG 语境下的康复技术部署与"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__evidence_loi_intent",
+          "field": "evidence_loi_intent",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：与 NHG Health 的五年谅解备忘录；与名古屋大学的战略合作（后者仅媒体线索）"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__evidence_sustained_use",
+          "field": "evidence_sustained_use",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：PERKESO 设备自 2025-10 起运行并延续至中心正式开业；NHG 合作关系自 2021 年延续至 2026"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__hq_or_team_location",
+          "field": "hq_or_team_location",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "上海（继承值；公司主体名称带上海，NHG 公告提到合作签署地在傅利叶上海总部）"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__named_customers_or_partners",
+          "field": "named_customers_or_partners",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "马来西亚社会保险机构 PERKESO（具名机构客户，国家级康复中心）；新加坡国立医疗集团 NHG Health（具名，交"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__research_subject",
+          "field": "research_subject",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "整公司多产品范围（WHOLE_COMPANY_MULTI_PRODUCT），康复业务与人形机器人分别举证"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__target_markets",
+          "field": "target_markets",
+          "value_status": "MIXED_SEE_EVIDENCE",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "医疗康复（医院与康复中心）、康养／养老机构、家庭健康管理（受访者表述为阶段判断）、研究平台"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_FOURIER_006",
+      "company_id": "CN_FOURIER",
+      "field": "product_lines（康复产品线与型号）",
+      "claim_nature": "PUBLISHED_BY_THIRD_PARTY_FROM_PROVIDER",
+      "source_nature": "GOVERNMENT_OR_STANDARDS",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://www.kczg.org.cn/fruit/detail?id=726999",
+      "snapshot_id": "kczg_rehab_port",
+      "snapshot_text_path": "evidence_snapshots\\CN_FOURIER__kczg_rehab_port.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "国家级技术转移平台的成果发布，但仍由申报单位提供；落地家数与服务人次写作「文字称」，不升级为独立确认，也不并入人形机器人字段。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_FOURIER__deployment_status_actual",
+          "field": "deployment_status_actual",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "马来西亚 PERKESO 康复中心：整套康复设备自 2025-10 起试运营并于 2026-06-16 随中心开业正式投"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__evidence_demo",
+          "field": "evidence_demo",
+          "value_status": "MEDIA_AND_THIRD_PARTY_RECORD",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "有：WRC 2025 展出 GR-3 与升级版具身智能康复港；WAIC 2026 发布管家系统与陪伴新品"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__product_lines",
+          "field": "product_lines",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "康复线：外骨骼（ExoMotus™ M4）、上肢康复机器人（ArmMotus™ EMU）、下肢康复机器人、伽利略生物力学"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__research_subject",
+          "field": "research_subject",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "整公司多产品范围（WHOLE_COMPANY_MULTI_PRODUCT），康复业务与人形机器人分别举证"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_FOURIER_007",
+      "company_id": "CN_FOURIER",
+      "field": "product_lines（康复产品广度）",
+      "claim_nature": "COMPANY_SELF_REPORT_REPORTED_BY_MEDIA",
+      "source_nature": "MEDIA",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2026-06-18",
+      "event_date": "",
+      "url": "http://m.eeo.com.cn/2026/0618/920334.shtml",
+      "snapshot_id": "eeo_malaysia",
+      "snapshot_text_path": "evidence_snapshots\\CN_FOURIER__eeo_malaysia.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "产品数量与收入增幅为受访者口径，未见财务披露佐证；营收与融资、订单额分开记录。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_FOURIER__product_lines",
+          "field": "product_lines",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "康复线：外骨骼（ExoMotus™ M4）、上肢康复机器人（ArmMotus™ EMU）、下肢康复机器人、伽利略生物力学"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__target_markets",
+          "field": "target_markets",
+          "value_status": "MIXED_SEE_EVIDENCE",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "医疗康复（医院与康复中心）、康养／养老机构、家庭健康管理（受访者表述为阶段判断）、研究平台"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_FOURIER_008",
+      "company_id": "CN_FOURIER",
+      "field": "capital_events",
+      "claim_nature": "MEDIA_STATEMENT",
+      "source_nature": "MEDIA",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2025-01-07",
+      "event_date": "2025-01",
+      "url": "http://www.zqrb.cn/gscy/qiyexinxi/2025-01-07/A1736251630437.html",
+      "snapshot_id": "zqrb_fourier_e",
+      "snapshot_text_path": "evidence_snapshots\\CN_FOURIER__zqrb_fourier_e.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "金额按原文措辞与单位保留（近 8 亿元人民币）；事件早于 2026-09-11 观察日。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_FOURIER__latest_financing_at_observation",
+          "field": "latest_financing_at_observation",
+          "value_status": "MEDIA_STATEMENT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "与上同：E 轮事件发生在 2025-01，早于 2026-09-11 观察日且已公开，可用于该时点背景"
+        },
+        {
+          "fact_id": "F_CN_FOURIER__latest_financing_disclosed",
+          "field": "latest_financing_disclosed",
+          "value_status": "MEDIA_STATEMENT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "截至本次查阅日找到的最新披露：E 轮融资总额近 8 亿元人民币（2025-01 公布，浦东创投、张江科投参与）"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_FOURIER_009",
+      "company_id": "CN_FOURIER",
+      "field": "own_listing_status",
+      "claim_nature": "MEDIA_STATEMENT",
+      "source_nature": "MEDIA",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2026-07-15",
+      "event_date": "",
+      "url": "http://www.jushenyanxishe.com/archives/500620",
+      "snapshot_id": "jushenyanxishe_ipo",
+      "snapshot_text_path": "evidence_snapshots\\CN_FOURIER__jushenyanxishe_ipo.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "股改属公开可核事项但本轮未打开交易所或监管披露；记录为媒体陈述，不写成已申报或已上市。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_FOURIER__own_listing_status",
+          "field": "own_listing_status",
+          "value_status": "MEDIA_STATEMENT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "未上市；有记录称已完成股份制改造并列入已启动上市进程名单，尚未递表"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_FOURIER_010",
+      "company_id": "CN_FOURIER",
+      "field": "access_note：官网正文不可静态取得",
+      "claim_nature": "ACCESS_NOTE",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "BODY_NOT_RETRIEVABLE",
+      "relation_to_inherited": "",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://www.fftai.com/fourier/join",
+      "snapshot_id": "official_join",
+      "snapshot_text_path": "evidence_snapshots\\CN_FOURIER__official_join.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "记录为访问受阻而非事实不存在；官网路由枚举（/rehab/solution、/rehab/galileo、/grx/gr3、/grnano、/ecosystem/*、/investor）见 CN_FOURIER__official_join",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_FOURIER__hiring_board_channel",
+          "field": "hiring_board_channel",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "官网招聘入口 /fourier/join + Moka 两个官方频道（社招 126181、校招 147078）；官网静态"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_001",
+      "company_id": "CN_XSQUARE",
+      "field": "legal_entity_name",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "REPLACES_WITH_DATED_SUPPORT",
+      "publication_date": "",
+      "event_date": "2023-12",
+      "url": "https://x2robot.com/about",
+      "snapshot_id": "about_retry",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__about_retry.txt",
+      "linked_inherited_evidence": "E_CN_017",
+      "note_head": "工商登记全称未从政府公示系统取得，此处为主体自述；不把自述升级为独立确认。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_XSQUARE__hq_or_team_location",
+          "field": "hq_or_team_location",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "广东省深圳市南山区西丽街道留仙大道7013航天创新大厦31层（官网页脚）；另有北京、上海、深圳、合肥四地研发与运营中心的"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__legal_entity_name",
+          "field": "legal_entity_name",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "自变量机器人科技（深圳）有限公司 / 自变量机器人科技有限公司（自述两种写法）"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_002",
+      "company_id": "CN_XSQUARE",
+      "field": "founded_or_team_start_date",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "",
+      "event_date": "2023-12",
+      "url": "https://x2robot.com/about",
+      "snapshot_id": "about_retry",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__about_retry.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "月精度，不补成某月1日；未取得工商登记日佐证。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_XSQUARE__founded_or_team_start_date",
+          "field": "founded_or_team_start_date",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "2023-12（公司自述成立并启动深圳运营；继承表记为 2023 年）"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_003",
+      "company_id": "CN_XSQUARE",
+      "field": "product_lines",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://x2robot.com/about",
+      "snapshot_id": "about_retry",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__about_retry.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "产品清单为当前官网状态，非 2026-08-31 存档快照；官网未提供发布日期。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_XSQUARE__delivery_form",
+          "field": "delivery_form",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "硬件本体、核心零部件与数采设备全栈自研；具身基础模型与开源训练代码；开发者平台；系统集成与服务未见公司外证据"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__evidence_internal_test",
+          "field": "evidence_internal_test",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "公司自述数采工厂与真机自主进化闭环、物流分拣自主直播测试"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__product_lines",
+          "field": "product_lines",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "量子1号 / 量子1号 Pro、量子2号（具身轮式仿人形）、五指灵巧手（单手20自由度）、无本体数采系统 XR Zero"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__research_subject",
+          "field": "research_subject",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "整公司公开招聘（WHOLE_COMPANY），继承范围未变"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_004",
+      "company_id": "CN_XSQUARE",
+      "field": "hiring_board_channel",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "CONFIRMS_CHANNEL",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://x2robot.com/join",
+      "snapshot_id": "x2join_careers",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__x2join_careers.txt",
+      "linked_inherited_evidence": "E_HIRE_001",
+      "note_head": "只用于确认渠道归属与范围，未重新采集岗位；本次不统计职位数。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_XSQUARE__hiring_board_channel",
+          "field": "hiring_board_channel",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "官网 careers 入口 /join + 飞书板 x2-robot.jobs.feishu.cn（社招、校招两个入口）"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__research_subject",
+          "field": "research_subject",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "整公司公开招聘（WHOLE_COMPANY），继承范围未变"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_005",
+      "company_id": "CN_XSQUARE",
+      "field": "hiring_board_scope",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://x2-robot.jobs.feishu.cn/index/position/list",
+      "snapshot_id": "x2jobs_feishu",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__x2jobs_feishu.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "渠道可达性检查；岗位条目依赖前端渲染，本轮不做岗位统计。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_XSQUARE__hiring_board_channel",
+          "field": "hiring_board_channel",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "官网 careers 入口 /join + 飞书板 x2-robot.jobs.feishu.cn（社招、校招两个入口）"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_006",
+      "company_id": "CN_XSQUARE",
+      "field": "evidence_customer_delivery / named_customers_or_partners",
+      "claim_nature": "INDEPENDENT_CHANNEL_STATEMENT",
+      "source_nature": "GOVERNMENT_OR_STANDARDS",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2026-07-16",
+      "event_date": "2026-07-16",
+      "url": "https://fgw.sz.gov.cn/ztztl/qtztzl/szscjmyjjfzzhfwpt/mqfc/myqyfzdt/content/post_12909775.html",
+      "snapshot_id": "szfgw_nursing_2026",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__szfgw_nursing_2026.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "政府网站转载的报社稿件，非政府采购或验收文件；正文称「近日」上岗、正推进场景适配，因此记录为已上岗部署而非规模化运营。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_XSQUARE__deployment_status_actual",
+          "field": "deployment_status_actual",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "已取得位于具名机构（深圳市福利服务指导中心老人颐养院）的实地上岗部署证据；物流为真实场景运行数月（客户未具名）；两条均不"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__evidence_customer_delivery",
+          "field": "evidence_customer_delivery",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：深圳市福利服务指导中心以养老护理员岗位实际使用（政府网站渠道）；58 到家联合家政服务口径近千户（公司口径）"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__evidence_external_pilot",
+          "field": "evidence_external_pilot",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：物流场景与头部物流企业合作、设备在真实场景运行数月（公司口径）；养老场景为机构内实际岗位应用"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__named_customers_or_partners",
+          "field": "named_customers_or_partners",
+          "value_status": "MIXED_SEE_EVIDENCE",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "深圳市社会福利服务指导中心（具名，独立渠道）；58 到家（具名，媒体记录的联合服务）；某「头部物流企业」（未具名，公司口"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_007",
+      "company_id": "CN_XSQUARE",
+      "field": "evidence_external_pilot / target_markets",
+      "claim_nature": "COMPANY_SELF_REPORT_REPORTED_BY_MEDIA",
+      "source_nature": "MEDIA",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2026-08-13",
+      "event_date": "2026-08-12",
+      "url": "https://finance.cnr.cn/ycbd/20260813/t20260813_527761058.shtml",
+      "snapshot_id": "cnr_sorting",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__cnr_sorting.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "客户名称未披露（「头部物流企业」），故 named_customers_or_partners 不填具名客户；分拣效率与准确率均为公司口径，未独立复测。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_XSQUARE__deployment_status_actual",
+          "field": "deployment_status_actual",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "已取得位于具名机构（深圳市福利服务指导中心老人颐养院）的实地上岗部署证据；物流为真实场景运行数月（客户未具名）；两条均不"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__evidence_demo",
+          "field": "evidence_demo",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有公开演示记录（WRC 现场多机群、WAIC 长序列任务、物流分拣直播）"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__evidence_external_pilot",
+          "field": "evidence_external_pilot",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：物流场景与头部物流企业合作、设备在真实场景运行数月（公司口径）；养老场景为机构内实际岗位应用"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__evidence_internal_test",
+          "field": "evidence_internal_test",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "公司自述数采工厂与真机自主进化闭环、物流分拣自主直播测试"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__named_customers_or_partners",
+          "field": "named_customers_or_partners",
+          "value_status": "MIXED_SEE_EVIDENCE",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "深圳市社会福利服务指导中心（具名，独立渠道）；58 到家（具名，媒体记录的联合服务）；某「头部物流企业」（未具名，公司口"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_008",
+      "company_id": "CN_XSQUARE",
+      "field": "evidence_paid / 合作方",
+      "claim_nature": "COMPANY_SELF_REPORT_REPORTED_BY_MEDIA",
+      "source_nature": "MEDIA",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2026-07-13",
+      "event_date": "",
+      "url": "https://www.ceweekly.cn/economic/industry/2026/0713/497222.html",
+      "snapshot_id": "ceweekly_0755",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__ceweekly_0755.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "合作方具名但未取得 58 到家一侧确认；户数为公司口径。股东关系见 B_CN_XSQUARE_009，两者分开记录。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_XSQUARE__evidence_customer_delivery",
+          "field": "evidence_customer_delivery",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：深圳市福利服务指导中心以养老护理员岗位实际使用（政府网站渠道）；58 到家联合家政服务口径近千户（公司口径）"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__named_customers_or_partners",
+          "field": "named_customers_or_partners",
+          "value_status": "MIXED_SEE_EVIDENCE",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "深圳市社会福利服务指导中心（具名，独立渠道）；58 到家（具名，媒体记录的联合服务）；某「头部物流企业」（未具名，公司口"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_009",
+      "company_id": "CN_XSQUARE",
+      "field": "latest_financing_disclosed / capital_events",
+      "claim_nature": "MEDIA_STATEMENT",
+      "source_nature": "MEDIA",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2026-06-29",
+      "event_date": "2026-06",
+      "url": "https://finance.cnr.cn/ycbd/20260629/t20260629_527682368.shtml",
+      "snapshot_id": "cnr_x2_four_rounds",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__cnr_x2_four_rounds.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "估值与轮次金额均按原币种原措辞保留；同一事件在公司官网时间线（B_CN_XSQUARE_010）与第三方媒体分别记录，不重复计为独立事件。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_XSQUARE__latest_financing_at_observation",
+          "field": "latest_financing_at_observation",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "截至招聘观察日 2026-08-31 可用记录与上同（四轮交割发生于 2026-06，早于观察日且已公开）；轮次的精确到"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__latest_financing_disclosed",
+          "field": "latest_financing_disclosed",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "截至本次查阅日：B、B+、B++、C 四轮于 2026-06 前后连续完成并全部交割，投后估值突破 200 亿元人民币；"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__named_customers_or_partners",
+          "field": "named_customers_or_partners",
+          "value_status": "MIXED_SEE_EVIDENCE",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "深圳市社会福利服务指导中心（具名，独立渠道）；58 到家（具名，媒体记录的联合服务）；某「头部物流企业」（未具名，公司口"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__own_listing_status",
+          "field": "own_listing_status",
+          "value_status": "SEARCHED_NOT_FOUND",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "未上市；未检索到股改或 IPO 申报披露"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_010",
+      "company_id": "CN_XSQUARE",
+      "field": "latest_financing_disclosed / capital_events",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://x2robot.com/about",
+      "snapshot_id": "about_retry",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__about_retry.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "官网时间线的「2025年08月」节点同时写「完成近10亿元A+轮融资」，而本轮节点顺序与第三方报道（2025-09）存在月份差异，记入冲突待核；公司自述金额不升级为独立确认。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_XSQUARE__evidence_demo",
+          "field": "evidence_demo",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有公开演示记录（WRC 现场多机群、WAIC 长序列任务、物流分拣直播）"
+        },
+        {
+          "fact_id": "F_CN_XSQUARE__target_markets",
+          "field": "target_markets",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "工业制造、物流、养老、家居（公司自述「已逐步进入」）"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_011",
+      "company_id": "CN_XSQUARE",
+      "field": "capital_events（A+轮）",
+      "claim_nature": "MEDIA_STATEMENT",
+      "source_nature": "MEDIA",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2025-09",
+      "event_date": "2025-09",
+      "url": "https://www.chinastarmarket.cn/detail/2139526",
+      "snapshot_id": "chinastarmarket_x2_a_plus",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__chinastarmarket_x2_a_plus.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "与官网时间线「2025年08月」节点存在月份差异，按原措辞分别记录，不合并成一个日期。",
+      "referenced_by": []
+    },
+    {
+      "evidence_id": "B_CN_XSQUARE_012",
+      "company_id": "CN_XSQUARE",
+      "field": "evidence_customer_delivery（养老）",
+      "claim_nature": "MEDIA_STATEMENT",
+      "source_nature": "MEDIA",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "2026-07-13",
+      "event_date": "",
+      "url": "https://www.ceweekly.cn/economic/industry/2026/0713/497222.html",
+      "snapshot_id": "ceweekly_0755",
+      "snapshot_text_path": "evidence_snapshots\\CN_XSQUARE__ceweekly_0755.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "与 B_CN_XSQUARE_006 记录同一事件的不同渠道，用于交叉印证，不当作两次独立交付。",
+      "referenced_by": [
+        {
+          "fact_id": "F_CN_XSQUARE__evidence_customer_delivery",
+          "field": "evidence_customer_delivery",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "有：深圳市福利服务指导中心以养老护理员岗位实际使用（政府网站渠道）；58 到家联合家政服务口径近千户（公司口径）"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_US_AMAZON_FTR_001",
+      "company_id": "US_AMAZON_FTR",
+      "field": "hq_or_team_location",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "RESOLVES_INHERITED_UNKNOWN",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://www.amazon.jobs/en/jobs/10426076/technical-lab-manager-robotics-r-d-frontier-ai-robotics",
+      "snapshot_id": "job_detail_10426076",
+      "snapshot_text_path": "evidence_snapshots\\US_AMAZON_FTR__job_detail_10426076.txt",
+      "linked_inherited_evidence": "E_US_023|E_US_024|B003",
+      "note_head": "该字段直接解答继承缺口「headquarters UNKNOWN」；地点为职位工作地，非公司注册地，故记团队地点而非总部。",
+      "referenced_by": [
+        {
+          "fact_id": "F_US_AMAZON_FTR__hiring_board_channel",
+          "field": "hiring_board_channel",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "amazon.jobs 官方检索与职位详情（公开、无需登录）；本轮只做渠道与范围核对，未重新采集岗位"
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__hq_or_team_location",
+          "field": "hq_or_team_location",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "USA, CA, San Francisco（两个 FAR 职位详情页的 Job details 一致）"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_US_AMAZON_FTR_002",
+      "company_id": "US_AMAZON_FTR",
+      "field": "parent_relationship / 组织归属",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://www.amazon.jobs/en/jobs/10426076/technical-lab-manager-robotics-r-d-frontier-ai-robotics",
+      "snapshot_id": "job_detail_10426076",
+      "snapshot_text_path": "evidence_snapshots\\US_AMAZON_FTR__job_detail_10426076.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "官方把 FAR 岗位挂在 Amazon Robotics 组织下，属行政归属；不据此把 FAR 等同于 Amazon Robotics，也不把后者规模当作 FAR 事实。",
+      "referenced_by": [
+        {
+          "fact_id": "F_US_AMAZON_FTR__legal_entity_name",
+          "field": "legal_entity_name",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "Amazon.com Services LLC（FAR 岗位署名雇主）；团队名称 Frontier AI & Robot"
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__own_listing_status",
+          "field": "own_listing_status",
+          "value_status": "NOT_APPLICABLE",
+          "time_applicability": "NOT_TIME_SENSITIVE",
+          "value_head": "不适用（非独立法人；研究主体为母公司内团队）"
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__parent_relationship",
+          "field": "parent_relationship",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "母公司 Amazon；FAR 岗位在官方职位详情中挂在 Amazon Robotics 组织标签下，行政归属与团队边界并"
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__research_subject",
+          "field": "research_subject",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "亚马逊内具名团队 Frontier AI & Robotics（FAR）；继承 company_id US_AMAZON"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_US_AMAZON_FTR_003",
+      "company_id": "US_AMAZON_FTR",
+      "field": "product_lines / 技术与产品范围",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "CONFIRMS_AND_EXTENDS",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://www.amazon.jobs/en/jobs/10426076/technical-lab-manager-robotics-r-d-frontier-ai-robotics",
+      "snapshot_id": "job_detail_10426076",
+      "snapshot_text_path": "evidence_snapshots\\US_AMAZON_FTR__job_detail_10426076.txt",
+      "linked_inherited_evidence": "E_US_023",
+      "note_head": "目标表述（scale to global operations）是方向性自述，不等于已实现部署；不写成 FAR 已服务亚马逊运营。",
+      "referenced_by": [
+        {
+          "fact_id": "F_US_AMAZON_FTR__delivery_form",
+          "field": "delivery_form",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "研究与原型硬件开发为主；无对外销售产品的官方证据"
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__deployment_status_actual",
+          "field": "deployment_status_actual",
+          "value_status": "SEARCHED_NOT_FOUND",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": ""
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__product_lines",
+          "field": "product_lines",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "前沿机器人基础模型与端到端学习系统、多模态感知与自适应操作；高自由度机器人原型硬件（执行器、传感器、机电集成）；公开代码"
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__research_subject",
+          "field": "research_subject",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "亚马逊内具名团队 Frontier AI & Robotics（FAR）；继承 company_id US_AMAZON"
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__target_markets",
+          "field": "target_markets",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "亚马逊自有全球运营（仓储／履约）为目标方向（官方自述方向性表述）"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_US_AMAZON_FTR_004",
+      "company_id": "US_AMAZON_FTR",
+      "field": "product_lines（原型硬件）",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "CONFIRMS_AND_EXTENDS",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://www.amazon.jobs/en/jobs/10424277/member-of-technical-staff-hardware-science-frontier-ai-robotics-far",
+      "snapshot_id": "amz_job_10424277",
+      "snapshot_text_path": "evidence_snapshots\\US_AMAZON_FTR__amz_job_10424277.txt",
+      "linked_inherited_evidence": "E_US_024",
+      "note_head": "两个不同 job id 的独立页面对高自由度原型硬件作同一表述，仍属同一发布者口径，不当作两个独立来源。",
+      "referenced_by": [
+        {
+          "fact_id": "F_US_AMAZON_FTR__delivery_form",
+          "field": "delivery_form",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "研究与原型硬件开发为主；无对外销售产品的官方证据"
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__evidence_internal_test",
+          "field": "evidence_internal_test",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "有：原型硬件装配、集成、bring-up 验证、HIL 测试与失效分析为岗位明确职责"
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__hiring_board_channel",
+          "field": "hiring_board_channel",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "amazon.jobs 官方检索与职位详情（公开、无需登录）；本轮只做渠道与范围核对，未重新采集岗位"
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__product_lines",
+          "field": "product_lines",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "前沿机器人基础模型与端到端学习系统、多模态感知与自适应操作；高自由度机器人原型硬件（执行器、传感器、机电集成）；公开代码"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_US_AMAZON_FTR_005",
+      "company_id": "US_AMAZON_FTR",
+      "field": "product_lines（软件与数据）",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://github.com/amazon-far",
+      "snapshot_id": "gh_org",
+      "snapshot_text_path": "evidence_snapshots\\US_AMAZON_FTR__gh_org.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "仓库最后更新时间是代码活动时间，不是团队成立日；该页不作为成立日期证据。",
+      "referenced_by": [
+        {
+          "fact_id": "F_US_AMAZON_FTR__legal_entity_name",
+          "field": "legal_entity_name",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "Amazon.com Services LLC（FAR 岗位署名雇主）；团队名称 Frontier AI & Robot"
+        },
+        {
+          "fact_id": "F_US_AMAZON_FTR__product_lines",
+          "field": "product_lines",
+          "value_status": "SUPPORTED_EXTERNAL",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": "前沿机器人基础模型与端到端学习系统、多模态感知与自适应操作；高自由度机器人原型硬件（执行器、传感器、机电集成）；公开代码"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_US_AMAZON_FTR_006",
+      "company_id": "US_AMAZON_FTR",
+      "field": "boundary：FAR 与 FTR 区分",
+      "claim_nature": "ACCESS_NOTE",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "HTTP_ERROR",
+      "relation_to_inherited": "",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://www.amazon.jobs/en/teams/ftr",
+      "snapshot_id": "ftr_team_page",
+      "snapshot_text_path": "evidence_snapshots\\US_AMAZON_FTR__ftr_team_page.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "访问受阻记录：该路径不存在不等于 FTR 团队不存在；边界结论只依据 FAR 一侧的官方页与检索记录。",
+      "referenced_by": []
+    },
+    {
+      "evidence_id": "B_US_AMAZON_FTR_007",
+      "company_id": "US_AMAZON_FTR",
+      "field": "evidence_demo（母公司背景，不归 FAR）",
+      "claim_nature": "COMPANY_SELF_REPORT",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "PARENT_CONTEXT_ONLY",
+      "publication_date": "2023-10",
+      "event_date": "",
+      "url": "https://www.aboutamazon.com/news/operations/amazon-introduces-new-robotics-solutions",
+      "snapshot_id": "aboutamazon_robotics",
+      "snapshot_text_path": "evidence_snapshots\\US_AMAZON_FTR__aboutamazon_robotics.txt",
+      "linked_inherited_evidence": "E_US_021",
+      "note_head": "按语义规则只作母公司背景，绝不归入 FAR 自身数据；页面标题同时涉及 Digit（Agility），亦不属 FAR。",
+      "referenced_by": [
+        {
+          "fact_id": "F_US_AMAZON_FTR__target_markets",
+          "field": "target_markets",
+          "value_status": "COMPANY_SELF_REPORT",
+          "time_applicability": "USABLE_AT_OBSERVATION",
+          "value_head": "亚马逊自有全球运营（仓储／履约）为目标方向（官方自述方向性表述）"
+        }
+      ]
+    },
+    {
+      "evidence_id": "B_US_AMAZON_FTR_008",
+      "company_id": "US_AMAZON_FTR",
+      "field": "成立时间检索",
+      "claim_nature": "SEARCH_RECORD",
+      "source_nature": "OFFICIAL_COMPANY",
+      "access_status": "OK",
+      "relation_to_inherited": "",
+      "publication_date": "",
+      "event_date": "",
+      "url": "https://www.aboutamazon.com/search?searchTerm=Frontier%20AI%20and%20Robotics",
+      "snapshot_id": "aboutamazon_search_far",
+      "snapshot_text_path": "evidence_snapshots\\US_AMAZON_FTR__aboutamazon_search_far.txt",
+      "linked_inherited_evidence": "",
+      "note_head": "团队起始日仍为未知；同时记录见 search_log.jsonl 的多轮中英文检索。",
+      "referenced_by": [
+        {
+          "fact_id": "F_US_AMAZON_FTR__founded_or_team_start_date",
+          "field": "founded_or_team_start_date",
+          "value_status": "SEARCHED_NOT_FOUND",
+          "time_applicability": "DATE_UNKNOWN",
+          "value_head": ""
+        }
+      ]
+    }
+  ],
+  "n_links": 83,
+  "links": [
+    {
+      "link_id": "L_CN_FOURIER__delivery_form__B_CN_FOURIER_003",
+      "fact_id": "F_CN_FOURIER__delivery_form",
+      "evidence_id": "B_CN_FOURIER_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__delivery_form__B_CN_FOURIER_005",
+      "fact_id": "F_CN_FOURIER__delivery_form",
+      "evidence_id": "B_CN_FOURIER_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__deployment_status_actual__B_CN_FOURIER_003",
+      "fact_id": "F_CN_FOURIER__deployment_status_actual",
+      "evidence_id": "B_CN_FOURIER_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__deployment_status_actual__B_CN_FOURIER_005",
+      "fact_id": "F_CN_FOURIER__deployment_status_actual",
+      "evidence_id": "B_CN_FOURIER_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__deployment_status_actual__B_CN_FOURIER_006",
+      "fact_id": "F_CN_FOURIER__deployment_status_actual",
+      "evidence_id": "B_CN_FOURIER_006",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__evidence_customer_delivery__B_CN_FOURIER_003",
+      "fact_id": "F_CN_FOURIER__evidence_customer_delivery",
+      "evidence_id": "B_CN_FOURIER_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__evidence_customer_delivery__B_CN_FOURIER_005",
+      "fact_id": "F_CN_FOURIER__evidence_customer_delivery",
+      "evidence_id": "B_CN_FOURIER_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__evidence_demo__B_CN_FOURIER_006",
+      "fact_id": "F_CN_FOURIER__evidence_demo",
+      "evidence_id": "B_CN_FOURIER_006",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__evidence_external_pilot__B_CN_FOURIER_003",
+      "fact_id": "F_CN_FOURIER__evidence_external_pilot",
+      "evidence_id": "B_CN_FOURIER_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__evidence_external_pilot__B_CN_FOURIER_005",
+      "fact_id": "F_CN_FOURIER__evidence_external_pilot",
+      "evidence_id": "B_CN_FOURIER_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__evidence_loi_intent__B_CN_FOURIER_005",
+      "fact_id": "F_CN_FOURIER__evidence_loi_intent",
+      "evidence_id": "B_CN_FOURIER_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__evidence_paid__B_CN_FOURIER_003",
+      "fact_id": "F_CN_FOURIER__evidence_paid",
+      "evidence_id": "B_CN_FOURIER_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__evidence_sustained_use__B_CN_FOURIER_003",
+      "fact_id": "F_CN_FOURIER__evidence_sustained_use",
+      "evidence_id": "B_CN_FOURIER_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__evidence_sustained_use__B_CN_FOURIER_005",
+      "fact_id": "F_CN_FOURIER__evidence_sustained_use",
+      "evidence_id": "B_CN_FOURIER_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__hiring_board_channel__B_CN_FOURIER_001",
+      "fact_id": "F_CN_FOURIER__hiring_board_channel",
+      "evidence_id": "B_CN_FOURIER_001",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__hiring_board_channel__B_CN_FOURIER_002",
+      "fact_id": "F_CN_FOURIER__hiring_board_channel",
+      "evidence_id": "B_CN_FOURIER_002",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__hiring_board_channel__B_CN_FOURIER_010",
+      "fact_id": "F_CN_FOURIER__hiring_board_channel",
+      "evidence_id": "B_CN_FOURIER_010",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__hiring_source_history__B_CN_FOURIER_001",
+      "fact_id": "F_CN_FOURIER__hiring_source_history",
+      "evidence_id": "B_CN_FOURIER_001",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__hiring_source_history__B_CN_FOURIER_002",
+      "fact_id": "F_CN_FOURIER__hiring_source_history",
+      "evidence_id": "B_CN_FOURIER_002",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__hq_or_team_location__B_CN_FOURIER_005",
+      "fact_id": "F_CN_FOURIER__hq_or_team_location",
+      "evidence_id": "B_CN_FOURIER_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__latest_financing_at_observation__B_CN_FOURIER_008",
+      "fact_id": "F_CN_FOURIER__latest_financing_at_observation",
+      "evidence_id": "B_CN_FOURIER_008",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__latest_financing_disclosed__B_CN_FOURIER_008",
+      "fact_id": "F_CN_FOURIER__latest_financing_disclosed",
+      "evidence_id": "B_CN_FOURIER_008",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__legal_entity_name__B_CN_FOURIER_001",
+      "fact_id": "F_CN_FOURIER__legal_entity_name",
+      "evidence_id": "B_CN_FOURIER_001",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__legal_entity_name__B_CN_FOURIER_003",
+      "fact_id": "F_CN_FOURIER__legal_entity_name",
+      "evidence_id": "B_CN_FOURIER_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__named_customers_or_partners__B_CN_FOURIER_003",
+      "fact_id": "F_CN_FOURIER__named_customers_or_partners",
+      "evidence_id": "B_CN_FOURIER_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__named_customers_or_partners__B_CN_FOURIER_005",
+      "fact_id": "F_CN_FOURIER__named_customers_or_partners",
+      "evidence_id": "B_CN_FOURIER_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__own_listing_status__B_CN_FOURIER_009",
+      "fact_id": "F_CN_FOURIER__own_listing_status",
+      "evidence_id": "B_CN_FOURIER_009",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__product_lines__B_CN_FOURIER_004",
+      "fact_id": "F_CN_FOURIER__product_lines",
+      "evidence_id": "B_CN_FOURIER_004",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__product_lines__B_CN_FOURIER_006",
+      "fact_id": "F_CN_FOURIER__product_lines",
+      "evidence_id": "B_CN_FOURIER_006",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__product_lines__B_CN_FOURIER_007",
+      "fact_id": "F_CN_FOURIER__product_lines",
+      "evidence_id": "B_CN_FOURIER_007",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__research_subject__B_CN_FOURIER_003",
+      "fact_id": "F_CN_FOURIER__research_subject",
+      "evidence_id": "B_CN_FOURIER_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__research_subject__B_CN_FOURIER_005",
+      "fact_id": "F_CN_FOURIER__research_subject",
+      "evidence_id": "B_CN_FOURIER_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__research_subject__B_CN_FOURIER_006",
+      "fact_id": "F_CN_FOURIER__research_subject",
+      "evidence_id": "B_CN_FOURIER_006",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__target_markets__B_CN_FOURIER_003",
+      "fact_id": "F_CN_FOURIER__target_markets",
+      "evidence_id": "B_CN_FOURIER_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__target_markets__B_CN_FOURIER_005",
+      "fact_id": "F_CN_FOURIER__target_markets",
+      "evidence_id": "B_CN_FOURIER_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_FOURIER__target_markets__B_CN_FOURIER_007",
+      "fact_id": "F_CN_FOURIER__target_markets",
+      "evidence_id": "B_CN_FOURIER_007",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__delivery_form__B_CN_XSQUARE_003",
+      "fact_id": "F_CN_XSQUARE__delivery_form",
+      "evidence_id": "B_CN_XSQUARE_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__deployment_status_actual__B_CN_XSQUARE_006",
+      "fact_id": "F_CN_XSQUARE__deployment_status_actual",
+      "evidence_id": "B_CN_XSQUARE_006",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__deployment_status_actual__B_CN_XSQUARE_007",
+      "fact_id": "F_CN_XSQUARE__deployment_status_actual",
+      "evidence_id": "B_CN_XSQUARE_007",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__evidence_customer_delivery__B_CN_XSQUARE_006",
+      "fact_id": "F_CN_XSQUARE__evidence_customer_delivery",
+      "evidence_id": "B_CN_XSQUARE_006",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__evidence_customer_delivery__B_CN_XSQUARE_008",
+      "fact_id": "F_CN_XSQUARE__evidence_customer_delivery",
+      "evidence_id": "B_CN_XSQUARE_008",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__evidence_customer_delivery__B_CN_XSQUARE_012",
+      "fact_id": "F_CN_XSQUARE__evidence_customer_delivery",
+      "evidence_id": "B_CN_XSQUARE_012",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__evidence_demo__B_CN_XSQUARE_007",
+      "fact_id": "F_CN_XSQUARE__evidence_demo",
+      "evidence_id": "B_CN_XSQUARE_007",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__evidence_demo__B_CN_XSQUARE_010",
+      "fact_id": "F_CN_XSQUARE__evidence_demo",
+      "evidence_id": "B_CN_XSQUARE_010",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__evidence_external_pilot__B_CN_XSQUARE_006",
+      "fact_id": "F_CN_XSQUARE__evidence_external_pilot",
+      "evidence_id": "B_CN_XSQUARE_006",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__evidence_external_pilot__B_CN_XSQUARE_007",
+      "fact_id": "F_CN_XSQUARE__evidence_external_pilot",
+      "evidence_id": "B_CN_XSQUARE_007",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__evidence_internal_test__B_CN_XSQUARE_003",
+      "fact_id": "F_CN_XSQUARE__evidence_internal_test",
+      "evidence_id": "B_CN_XSQUARE_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__evidence_internal_test__B_CN_XSQUARE_007",
+      "fact_id": "F_CN_XSQUARE__evidence_internal_test",
+      "evidence_id": "B_CN_XSQUARE_007",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__founded_or_team_start_date__B_CN_XSQUARE_002",
+      "fact_id": "F_CN_XSQUARE__founded_or_team_start_date",
+      "evidence_id": "B_CN_XSQUARE_002",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__hiring_board_channel__B_CN_XSQUARE_004",
+      "fact_id": "F_CN_XSQUARE__hiring_board_channel",
+      "evidence_id": "B_CN_XSQUARE_004",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__hiring_board_channel__B_CN_XSQUARE_005",
+      "fact_id": "F_CN_XSQUARE__hiring_board_channel",
+      "evidence_id": "B_CN_XSQUARE_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__hq_or_team_location__B_CN_XSQUARE_001",
+      "fact_id": "F_CN_XSQUARE__hq_or_team_location",
+      "evidence_id": "B_CN_XSQUARE_001",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__latest_financing_at_observation__B_CN_XSQUARE_009",
+      "fact_id": "F_CN_XSQUARE__latest_financing_at_observation",
+      "evidence_id": "B_CN_XSQUARE_009",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__latest_financing_disclosed__B_CN_XSQUARE_009",
+      "fact_id": "F_CN_XSQUARE__latest_financing_disclosed",
+      "evidence_id": "B_CN_XSQUARE_009",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__legal_entity_name__B_CN_XSQUARE_001",
+      "fact_id": "F_CN_XSQUARE__legal_entity_name",
+      "evidence_id": "B_CN_XSQUARE_001",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__named_customers_or_partners__B_CN_XSQUARE_006",
+      "fact_id": "F_CN_XSQUARE__named_customers_or_partners",
+      "evidence_id": "B_CN_XSQUARE_006",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__named_customers_or_partners__B_CN_XSQUARE_007",
+      "fact_id": "F_CN_XSQUARE__named_customers_or_partners",
+      "evidence_id": "B_CN_XSQUARE_007",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__named_customers_or_partners__B_CN_XSQUARE_008",
+      "fact_id": "F_CN_XSQUARE__named_customers_or_partners",
+      "evidence_id": "B_CN_XSQUARE_008",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__named_customers_or_partners__B_CN_XSQUARE_009",
+      "fact_id": "F_CN_XSQUARE__named_customers_or_partners",
+      "evidence_id": "B_CN_XSQUARE_009",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__own_listing_status__B_CN_XSQUARE_009",
+      "fact_id": "F_CN_XSQUARE__own_listing_status",
+      "evidence_id": "B_CN_XSQUARE_009",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__product_lines__B_CN_XSQUARE_003",
+      "fact_id": "F_CN_XSQUARE__product_lines",
+      "evidence_id": "B_CN_XSQUARE_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__research_subject__B_CN_XSQUARE_003",
+      "fact_id": "F_CN_XSQUARE__research_subject",
+      "evidence_id": "B_CN_XSQUARE_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__research_subject__B_CN_XSQUARE_004",
+      "fact_id": "F_CN_XSQUARE__research_subject",
+      "evidence_id": "B_CN_XSQUARE_004",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_CN_XSQUARE__target_markets__B_CN_XSQUARE_010",
+      "fact_id": "F_CN_XSQUARE__target_markets",
+      "evidence_id": "B_CN_XSQUARE_010",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__delivery_form__B_US_AMAZON_FTR_003",
+      "fact_id": "F_US_AMAZON_FTR__delivery_form",
+      "evidence_id": "B_US_AMAZON_FTR_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__delivery_form__B_US_AMAZON_FTR_004",
+      "fact_id": "F_US_AMAZON_FTR__delivery_form",
+      "evidence_id": "B_US_AMAZON_FTR_004",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__deployment_status_actual__B_US_AMAZON_FTR_003",
+      "fact_id": "F_US_AMAZON_FTR__deployment_status_actual",
+      "evidence_id": "B_US_AMAZON_FTR_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__evidence_internal_test__B_US_AMAZON_FTR_004",
+      "fact_id": "F_US_AMAZON_FTR__evidence_internal_test",
+      "evidence_id": "B_US_AMAZON_FTR_004",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__founded_or_team_start_date__B_US_AMAZON_FTR_008",
+      "fact_id": "F_US_AMAZON_FTR__founded_or_team_start_date",
+      "evidence_id": "B_US_AMAZON_FTR_008",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__hiring_board_channel__B_US_AMAZON_FTR_001",
+      "fact_id": "F_US_AMAZON_FTR__hiring_board_channel",
+      "evidence_id": "B_US_AMAZON_FTR_001",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__hiring_board_channel__B_US_AMAZON_FTR_004",
+      "fact_id": "F_US_AMAZON_FTR__hiring_board_channel",
+      "evidence_id": "B_US_AMAZON_FTR_004",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__hq_or_team_location__B_US_AMAZON_FTR_001",
+      "fact_id": "F_US_AMAZON_FTR__hq_or_team_location",
+      "evidence_id": "B_US_AMAZON_FTR_001",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__legal_entity_name__B_US_AMAZON_FTR_002",
+      "fact_id": "F_US_AMAZON_FTR__legal_entity_name",
+      "evidence_id": "B_US_AMAZON_FTR_002",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__legal_entity_name__B_US_AMAZON_FTR_005",
+      "fact_id": "F_US_AMAZON_FTR__legal_entity_name",
+      "evidence_id": "B_US_AMAZON_FTR_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__own_listing_status__B_US_AMAZON_FTR_002",
+      "fact_id": "F_US_AMAZON_FTR__own_listing_status",
+      "evidence_id": "B_US_AMAZON_FTR_002",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__parent_relationship__B_US_AMAZON_FTR_002",
+      "fact_id": "F_US_AMAZON_FTR__parent_relationship",
+      "evidence_id": "B_US_AMAZON_FTR_002",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__product_lines__B_US_AMAZON_FTR_003",
+      "fact_id": "F_US_AMAZON_FTR__product_lines",
+      "evidence_id": "B_US_AMAZON_FTR_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__product_lines__B_US_AMAZON_FTR_004",
+      "fact_id": "F_US_AMAZON_FTR__product_lines",
+      "evidence_id": "B_US_AMAZON_FTR_004",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__product_lines__B_US_AMAZON_FTR_005",
+      "fact_id": "F_US_AMAZON_FTR__product_lines",
+      "evidence_id": "B_US_AMAZON_FTR_005",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__research_subject__B_US_AMAZON_FTR_002",
+      "fact_id": "F_US_AMAZON_FTR__research_subject",
+      "evidence_id": "B_US_AMAZON_FTR_002",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__research_subject__B_US_AMAZON_FTR_003",
+      "fact_id": "F_US_AMAZON_FTR__research_subject",
+      "evidence_id": "B_US_AMAZON_FTR_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__target_markets__B_US_AMAZON_FTR_003",
+      "fact_id": "F_US_AMAZON_FTR__target_markets",
+      "evidence_id": "B_US_AMAZON_FTR_003",
+      "relation": "SUPPORTS"
+    },
+    {
+      "link_id": "L_US_AMAZON_FTR__target_markets__B_US_AMAZON_FTR_007",
+      "fact_id": "F_US_AMAZON_FTR__target_markets",
+      "evidence_id": "B_US_AMAZON_FTR_007",
+      "relation": "SUPPORTS"
+    }
+  ]
+}

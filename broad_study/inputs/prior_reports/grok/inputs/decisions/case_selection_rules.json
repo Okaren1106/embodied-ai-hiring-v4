@@ -1,0 +1,36 @@
+{
+  "rules_id": "CASE_SELECTION_RULES_V1",
+  "locked_before_pair_choice": true,
+  "max_groups": 2,
+  "max_companies": 4,
+  "do_not_rank_by_activity_rate_gap": true,
+  "manufacturing_group": {
+    "group_id": "CASE_G1_MANUFACTURING_OBSERVED",
+    "required": [
+      "scope_main_company=YES",
+      "stratum=SYSTEM_PRODUCTS",
+      "scene=MANUFACTURING with state=OBSERVED_USE"
+    ],
+    "evidence_preference": [
+      "CUSTOMER_CONFIRMED_USE or COUNTERPARTY_CONFIRMATION or decision_reason containing 客户确认/直接客户",
+      "COMPANY_SELF_REPORT",
+      "MEDIA_STATEMENT"
+    ],
+    "unified_weight_requires_at_least_two_common_concrete_functions_with_ge10_assessable_ads": true,
+    "pair_choice": "Among eligible companies, choose the pair with the largest common-function set K (|K|>=2); ties by evidence rank then lexicographic company_id pair.",
+    "observation_date_difference_is_recorded_not_a_disqualifier": true,
+    "country_difference_is_not_interpreted_as_national_effect": true
+  },
+  "logistics_group": {
+    "group_id": "CASE_G2_LOGISTICS_DELIVERY",
+    "required": [
+      "scope_main_company=YES",
+      "scene=LOGISTICS with state=OBSERVED_USE"
+    ],
+    "prefer_contrasting_delivery": "If one ROBOT_OPERATED_SERVICE company qualifies, pair it with a SYSTEM_PRODUCTS logistics observed-use company that has the strongest customer-side evidence. Multi-product companies are lower priority because product-scene assignment of hiring is unclear.",
+    "unified_weight_not_required": "If |K|<2, keep company point values and mark unified-weight comparison INAPPLICABLE.",
+    "small_n_companies_are_not_preferred_when_a_larger_official_board_exists": true
+  },
+  "exclude_and_record_all_candidates": true,
+  "anti_example_search": "Search all candidates meeting the same scene/scope conditions; do not only keep companies that fit an expected hiring mix."
+}

@@ -1,0 +1,36 @@
+{
+  "state_rows": 496,
+  "source_spans": 456,
+  "all_spans_and_hashes_verified": true,
+  "Q_subset_H_subset_M": true,
+  "H_metric_evidence_reconciled": true,
+  "classification_changed_by_construct_step": false,
+  "v4_state_overlay_used": true,
+  "scope_alternatives_are_different_constructs": true,
+  "independent_human_validation": false,
+  "existing_example_clarifications_applied": 3,
+  "v4_scope_clarifications_applied": 7,
+  "inputs": [
+    {
+      "path": "analysis\\v4_ad_technology_current.csv",
+      "sha256": "892f9214f477b4df30aaae7a4e62458fc02128642562b9befb0d4ad78d32f4db"
+    },
+    {
+      "path": "source_snapshot\\source_v2\\data\\inputs\\context_index.csv",
+      "sha256": "a1a2d3196d4c321e6d866f6e97e2325dfdbeb6250a95751fe30f1ff9e66093c3"
+    },
+    {
+      "path": "source_snapshot\\source_v2\\data\\inputs\\context_evidence.csv",
+      "sha256": "37a37d916bcc300eee841a3867403856ccc9cc256b0a5101bf7a538e9f58e649"
+    },
+    {
+      "path": "source_snapshot\\data\\analysis_revision_ledger.json",
+      "sha256": "e6e43c2240465eb0d473a4b2b7cef54f492e1668823265a5a6d0471175563ad2"
+    },
+    {
+      "path": "data\\v4_source_corrections.json",
+      "sha256": "e8f4930401c4bee4494bd2bdb922489828d56349d91e9818b148aaf6e796d515"
+    }
+  ],
+  "failures": 0
+}

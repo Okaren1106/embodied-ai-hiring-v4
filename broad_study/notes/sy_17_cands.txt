@@ -1,0 +1,413 @@
+==== 1 N0595 nC=2 nI=7 empty=[]
+TITLE 机器人系统工程师
+DUTY 岗位职责 1、负责机器人整机系统方案设计与技术架构规划； 2、组织并协调电气、控制、机械等多专业研发工作； 3、参与整机功能定义、接口设计与模块集成； 4、跟踪系统测试、调试及问题分析，确保系统性能稳定； 5、协助项目经理进行研发进度与风险管理。  任职要求 1、研究生及以上学历，机电、自动化、电子、计算机等相关专业，5年以上机器人相关经验，有机器人项目经验（人形、移动、工业等）者优先； 2、掌握机器人系统组成（主控、驱动、传感器、通信
+1 V2_CAN,V2_ETHERCAT | •熟悉 EtherCAT、CAN、ROS、Linux 等
+2 V2_ETHERCAT | 熟悉 EtherCAT、CAN、ROS、Linux 等
+
+==== 2 E0125 nC=8 nI=27 empty=['O13:TC_ACTUATOR:电机']
+TITLE 关节模组专家
+DUTY 1. 负责关节模组在整机中的技术选型、性能匹配、集成应用和问题闭环,保障人形机器人整机运动性能与可靠性。  2.  根据机器人各关节的负载谱和运动需求,分解峰值/持续转矩、转速、减速比、惯量、回程间隙、刚度、效率、温升、噪声、寿命及安全性等指标。  3.  负责关节模组与整机机械、电气、通信、软件和控制系统之间的接口定义,包括安装定位、结构连接、线束、供电、通信、散热、零位及安全机制等。  4.  主导解决关节模组在整机开发和运行过程中
+1 V2_REQUIREMENTS_ENGINEERING | 3.  负责关节模组与整机机械、电气、通信、软件和控制系统之间的接口定义，包括安装定位、结构连接、线束、供电、通信、散热、零位及安全机制等。 
+2 V2_PROCUREMENT | 8.  负责关节模组供应商技术评估、方案评审和问题推动，审核供应商的设计改进、失效分析、8D报告及验证结果。 
+3 V2_PROCUREMENT | 9.  根据整机测试数据和现场问题，向供应商提出明确的技术改进要求，推动模组软硬件版本迭代。 
+4 V2_PROCUREMENT | 10.  建立不同型号、不同供应商关节模组的性能数据库、故障案例库和选型规范。 
+5 V2_SYSID,V2_CLASSICAL_CONTROL | 5.  熟悉FOC、电流环、速度环、位置环、力矩控制、阻抗控制、摩擦补偿和系统辨识，能够结合控制数据判断模组问题。 
+6 V2_PROCUREMENT | 8.  具备较强的跨专业问题分析能力，能够组织机械、电子、软件、控制、测试及供应商共同完成问题闭环。 
+7 V2_PROCUREMENT | 9.  具备供应商技术管理能力，能够判断供应商分析结论的合理性，不依赖供应商单方面定位问题。 
+8 V2_PROCUREMENT | 11.  有批量质量问题处理、失效分析、可靠性验证或供应商整改经验者优先。
+
+==== 3 N0871 nC=38 nI=13 empty=[]
+TITLE Senior Functional Safety Engineer
+DUTY About Dexterity At Dexterity, we believe robots can positively transform the world. Our breakthrough technology frees people to do the creative, inspiring, problem-solving jobs that humans do best by enabling robots to h
+1 V2_CAN | At Dexterity, we believe robots can positively transform the world. Our breakthrough technology frees people to do the creative, inspiring, problem-so
+2 V2_CAN | Dexterity's full-stack robotics systems pick, move, pack, and collaborate with human-like skill, awareness, and learning capabilities. Our systems are
+3 V2_SAFETY_ANALYSIS | Collaborate with Hardware, System, and Software teams on safety analyses, including risk assessment, failure modes and effects analysis (FMEA), fault 
+4 V2_SAFETY_ANALYSIS | Collaborate with Hardware, System, and Software teams on safety analyses, including risk assessment, failure modes and effects analysis (FMEA), fault 
+5 V2_SAFETY_ANALYSIS | Define functional safety requirements for robotic systems, subsystems, and components, specifying safety functions, performance criteria, and SIL base
+6 V2_SOP_OPERATION,V2_INCIDENT_SUPPORT | Develop Standard Operating Procedures (SOPs) and tools for training, troubleshooting, and maintaining functional safety systems in customers' sites at
+7 V2_SAFETY_STANDARDS | Knowledge of relevant domestic and international standards such as ANSI/RIA
+8 V2_SAFETY_STANDARDS | ANSI/RIA R15.06
+9 V2_SAFETY_STANDARDS | , ANSI/RIA
+10 V2_SAFETY_STANDARDS | ANSI/RIA R15.08
+11 V2_SAFETY_STANDARDS | , ISO 10218, ISO 12100, ISO 13849, NFPA79, UL 1740, UL3100, IEC 60204, IEC 61496, IEC 61508, and IEC 62061.
+12 V2_SAFETY_STANDARDS | ISO 10218
+13 V2_SAFETY_STANDARDS | ISO 12100
+14 V2_SAFETY_STANDARDS | ISO 13849
+15 V2_SAFETY_STANDARDS | NFPA79
+16 V2_SAFETY_STANDARDS | UL 1740
+17 V2_SAFETY_STANDARDS | UL3100
+18 V2_SAFETY_STANDARDS | IEC 60204
+19 - | IEC 61496
+20 V2_SAFETY_STANDARDS | IEC 61508
+21 V2_SAFETY_STANDARDS | IEC 62061
+22 V2_EMC_SIPI,V2_ENV_COMPLIANCE | Familiarity with CE directives such as the Machinery Regulation and EMC Directive. Professional certification in functional safety or compliance (e.g.
+23 - | Machinery Regulation
+24 V2_EMC_SIPI,V2_ENV_COMPLIANCE | EMC Directive
+25 - | CFSE
+26 - | CMSE
+27 - | CECE
+28 V2_STRUCTURED_TEXT,V2_LADDER,V2_FBD | Experience with programming languages such as Structured Text, Ladder Logic, Function Block Diagrams, etc.
+29 V2_STRUCTURED_TEXT | Structured Text
+30 V2_LADDER | Ladder Logic
+31 V2_FBD | Function Block Diagrams
+32 V2_PLC | Experience with electronics systems, including PLCs, microcontrollers, and/or mixed-signal designs.
+33 V2_PLC | PLCs
+34 V2_ETHERCAT,V2_ETHERNET,V2_PROFINET,V2_MODBUS | Familiarity with industrial communication protocols and their utilization for safety-rated communication, such as PROFINET, Ethernet/IP, EtherCAT/FSoE
+35 V2_PROFINET | PROFINET
+36 V2_ETHERNET | Ethernet/IP
+37 V2_ETHERCAT | EtherCAT/FSoE
+38 V2_MODBUS | MODBUS
+
+==== 4 E0349 nC=6 nI=8 empty=[]
+TITLE Senior Staff Systems Integration Engineer (Tech Lead)
+DUTY System Bring-Up,  Integration, & Strategy Architect the strategy for the bring-up and integration of full humanoid robotic systems, managing competing priorities across the team to ensure alignment with broader program  
+1 V2_INCIDENT_SUPPORT | Issue Triage & Root Cause Analysis
+2 V2_INCIDENT_SUPPORT | Drive definitive technical decisions during the triage of critical failures, seamlessly blending deep domain expertise with a comprehensive understand
+3 V2_INCIDENT_SUPPORT | Drive a culture of continuous technical growth by building the scalable diagnostic frameworks and mentorship systems required to structurally uplevel 
+4 V2_OFFICE | This a hybrid position based out of one of our Fremont, CA office.
+5 V2_USD | $281,000 USD
+6 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+
+==== 5 E0101 nC=0 nI=1 empty=[]
+TITLE 产品安全架构工程师
+DUTY 1. 负责宇树机器人产品的安全,挖掘安全风险,向业务方输出具体解决方案; 2. 负责机器人场景的安全需求评审和技术方案安全评审。
+
+==== 6 N0933 nC=7 nI=26 empty=[]
+TITLE Physical AI Architect
+DUTY About Us At Pickle Robot, we're on a mission to automate global supply chains with Physical AI. Our robots work alongside warehouse teams to unload trucks and containers — one of the toughest, most understaffed jobs in l
+1 V2_CLASSICAL_CONTROL | Lead the application of diffusion-based policy learning and optimal control techniques to robot manipulation and picking tasks, with a focus on real-w
+2 V2_CLASSICAL_CONTROL | Define the technical roadmap for how diffusion models and optimal control complement each other in Pickle Robot's autonomy architecture, and build int
+3 V2_CLASSICAL_CONTROL,V2_PATH_SEARCH | Deep subject matter expertise in diffusion models applied to robot learning (e.g., diffusion policies, score-based generative models for behavior clon
+4 - | NVIDIA Jetson
+5 - | ARM SoCs
+6 - | FPGAs
+7 V2_C | Proficiency in Python and C++; familiarity with ROS 2 or equivalent robotics middleware
+
+==== 7 E0035 nC=1 nI=14 empty=[]
+TITLE 机器人系统工程师
+DUTY 岗位职责 1. 负责机器人整机系统架构规划与整体方案设计,统筹机械、电控、感知、运控、VLA、测试等多模块整合,完成方案论证与落地,保障整机性能、稳定性及安全性达标。 2. 主导机器人软硬件整机集成、联调与性能优化,总体把控操作、视觉、导航、通讯等核心系统调试与测试,牵头排查解决复杂系统性问题。 3. 对接产品及客户需求,拆解技术指标与研发难点,输出规范的系统设计技术文档,跟进项目研发、测试、试制、量产全流程,把控交付质量与技术风险。 
+1 V2_CAN,V2_ETHERCAT | 2. 熟悉机器人整机架构，精通运动控制、SLAM导航、传感检测、CAN/EtherCAT总线通讯等核心技术，具备独立做系统方案、整机联调、问题攻坚的能力。
+
+==== 8 E0567 nC=6 nI=22 empty=['O4:SK_CPP:C++', 'O5:SK_CPP:C++', 'O13:TC_ACTUATOR:actuation']
+TITLE Systems Integration Engineer - Actuation Systems
+DUTY Collaborate on the system-level deployment of actuators within the humanoid robot, including interfaces, behavior, and performance at the robot level. Collaborate on calibration strategies and end-of-line bring-up. Defin
+1 V2_OFFICE | Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human 
+2 V2_CALIBRATION | Collaborate on calibration strategies and end-of-line bring-up.
+3 V2_SYSID | Collaborate with controls engineers to synthesize and tune high‑bandwidth controllers; conduct system identification and data analysis to characterize
+4 V2_C | ‑based development environments and capability to read C++.
+5 V2_C | Proficiency in C++
+6 V2_ETHERCAT,V2_ETHERNET,V2_I2C,V2_SPI | Working knowledge of communication buses and protocols like Ethernet, Ethercat, Serial, SPI and I2C.
+
+==== 9 N0236 nC=3 nI=5 empty=[]
+TITLE 研发管理总监
+DUTY  一、产品研发与项目交付 1. 主导公司新产品研发项目从立项到量产交付的全过程管理，包括需求澄清、方案设计、开发实现、测试验证及量产导入，对产品研发的进度、质量与成本承担直接责任；   2. 负责制定各产品线的研发里程碑计划，建立项目进度追踪与风险预警机制，确保关键节点按时达成，主动识别并解决影响交付的阻塞项；   3. 深度参与各产品的关键技术决策，在产品方案选型、架构设计、核心指标定义等关键环节发挥决策作用，反向推动产品线完善新产品
+1 V2_CALIBRATION | 3. 深度参与各产品的关键技术决策，在产品方案选型、架构设计、核心指标定义等关键环节发挥决策作用，反向推动产品线完善新产品布局，提升产品竞争力；  
+2 V2_REQUIREMENTS_ENGINEERING | 1. 统筹公司全产品矩阵研发过程中各技术领域（系统底层、硬件平台、上层应用、测试验证）的协同工作，确保不同技术方向在方案设计、接口定义和交付节奏上形成有效衔接；  
+3 V2_MODEL_COMPRESSION | 1. 具备将工程经验转化为可量化、可执行的研发标准的能力，有成功推行跨团队技术规范或研发流程优化的实际经验；  ​
+
+==== 10 N0438 nC=0 nI=5 empty=[]
+TITLE 系统架构师
+DUTY 岗位职责 职位描述 1，制定具身本体核心技术路径与关键技术方向，深度跟踪竞品，明确产品需求并制定路线图和发展策略； 2，主导具身本体产品的方案架构设计，协调机械、电子、软件、力控等多专业团队，确保设计到量产全过程符合技术标准； 3，带领团队完成方案架构、关键部件设计、本体优化、测试及生产验证全流程； 4，参与可量产性评估与优化，协同解决批量生产中的软硬件问题。  任职要求 1，机器人学、机械工程、电子工程、自动化等相关专业硕士及以上学历
+
+==== 11 E0592 nC=2 nI=16 empty=[]
+TITLE Robot Integration Engineer
+DUTY - Robot Platform Fleet Integration: Be the accountable owner for a robot platform’s successful integration into the fleet, driving closure on system issues across electrical, mechanical, and software interfaces.  - Accep
+1 V2_CAN | - Fleet Acceptance Testing: Drive and execute fleet acceptance testing per defined criteria; assess data and results to determine whether robot units 
+2 V2_INCIDENT_SUPPORT | - Robot Platform Sustainment: Monitor and maintain the health and performance of the platform in the fleet; create bring-up procedures and troubleshoo
+
+==== 12 N0827 nC=26 nI=28 empty=[]
+TITLE Senior Sensor & Perception Engineer, Robotics Hardware
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_CALIBRATION | As a Sensor Systems Engineer on the Hardware Team, you will contribute to the design, integration, calibration, and validation of the sensing systems 
+2 V2_CAN,V2_ETHERNET,V2_I2C,V2_USB,V2_GMSL | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+3 V2_USB | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+4 V2_ETHERNET | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+5 V2_I2C | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+6 V2_CAN | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+7 V2_GMSL | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+8 V2_EMC_SIPI | Performance Characterization: Evaluate sensor performance (spatial resolution, temporal drift, EMI noise, sync errors etc.). Test under real-world env
+9 V2_CALIBRATION | Calibration: Design and execute both intrinsic and extrinsic calibrations. Build alignment rigs and calibration boards as needed.
+10 V2_CALIBRATION | Monitor: Develop protocols for monitoring the sensing system health, data quality, and calibration status during field deployments.
+11 V2_HR | Experience Level: We are recruiting across a wide range of experience levels from entry level engineers to senior and staff engineers.
+12 V2_CALIBRATION | Lab Skills: Hands-on testing, calibration, and debugging skills (oscilloscopes, logs, vibration/thermal setups)
+13 V2_CAN,V2_ETHERNET,V2_I2C,V2_USB,V2_GMSL | Communication Protocols: Experience with protocols such as USB, Ethernet, GMSL, CAN, I2C, and CSI.
+14 V2_USB | USB
+15 V2_ETHERNET | Ethernet
+16 V2_GMSL | GMSL
+17 V2_CAN | CAN
+18 V2_I2C | I2C
+19 - | CSI
+20 V2_PTP,V2_NTP | Computer & Software: Experience working with ROS/ROS2, sensor drivers, coordinate transforms (TF), and timing protocols (PTP, NTP, etc.).
+21 - | TF
+22 V2_PTP | PTP
+23 V2_NTP | NTP
+24 V2_CALIBRATION | Calibration & Characterization: Experience designing and executing intrinsic, extrinsic, and temporal calibrations, along with sensor characterization
+25 V2_RVIZ | Simulation: Experience high-fidelity simulation environments (Gazebo, Isaac Sim, RViz) for sensor modeling.
+26 V2_RVIZ | RViz
+
+==== 13 N0924 nC=1 nI=10 empty=[]
+TITLE Senior Systems Integration Engineer
+DUTY About Nimble Nimble is an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, 
+1 V2_C | Nimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx
+
+==== 14 N0988 nC=17 nI=21 empty=[]
+TITLE Staff Systems Engineer - Atlas Humanoid Product
+DUTY The Systems Engineering, Integration, and Test (SEIT) Department of Boston Dynamics (BD) seeks a highly talented Systems Engineer (SE) who is passionate about working with an exceptional team of roboticists to develop th
+1 V2_JAMA | Build knowhow on Jama tool functionality to customize and configure the tool in support of the product team’s evolving needs.  Ensure requirements are
+2 V2_JAMA | Build knowhow on Jama tool functionality to customize and configure the tool in support of the product team’s evolving needs.
+3 V2_JAMA | Experience working intimately with a specialized requirements management tool.  Expertise in Jama is especially helpful.
+4 V2_JAMA | Expertise in Jama is especially helpful.
+5 V2_REQUIREMENTS_ENGINEERING | Reliability & robustness engineering methodologies, including boundary and parameter diagramming, DFMEA, DVP&R, root cause analysis, statistical metho
+6 V2_REQUIREMENTS_ENGINEERING | DVP&R
+7 V2_JIRA,V2_JAMA,V2_TESTRAIL,V2_GOOGLE_WORKSPACE | Software tools including Jama, Jira, Google Suite, Altium, Testrails, Python, Matlab.
+8 V2_JAMA | Jama
+9 V2_JIRA | Jira
+10 V2_GOOGLE_WORKSPACE | Google Suite
+11 V2_TESTRAIL | Testrails
+12 V2_EMC_SIPI,V2_SAFETY_STANDARDS | Familiarity with relevant electrical standards, IEC 62368, IEC 60204, along with WiFi, Cellular, and EMI compliance.
+13 V2_SAFETY_STANDARDS | IEC 62368
+14 V2_SAFETY_STANDARDS | IEC 60204
+15 - | WiFi
+16 - | Cellular
+17 V2_EMC_SIPI | EMI compliance
+
+==== 15 N0078 nC=8 nI=14 empty=[]
+TITLE 机器人系统工程师（嵌入式方向）
+DUTY 岗位职责  1. 深入理解现有机器人系统架构，梳理计算平台、MCU、传感器、执行器及其他设备之间的通信关系和数据链路，负责给出系统扩展开发方案。  2. 负责产品的稳定性调试，性能瓶颈优化，分析解决实际的问题；根据现场问题，结合日志、抓包、代码、波形及系统运行状态，定位软硬件边界和问题根因。  3. 协同硬件、嵌入式、算法、控制及应用软件团队，明确问题归属，制定解决方案。  4. 参与嵌入式的mcu固件，上层应用的和相关工具的开发。  
+1 V2_CAN,V2_ETHERCAT,V2_ETHERNET,V2_TCPIP,V2_RS485 | 3. 熟悉嵌入式网络架构及常见通信技术，如 Ethernet、TCP/IP、UDP、CAN/CAN FD、EtherCAT、串口等。
+2 V2_ETHERNET | Ethernet
+3 V2_TCPIP | TCP/IP
+4 V2_TCPIP | UDP
+5 V2_CAN | CAN/CAN FD
+6 V2_CAN | CAN/CAN FD
+7 V2_ETHERCAT | EtherCAT
+8 - | RTOS 系统
+
+==== 16 E0156 nC=3 nI=15 empty=[]
+TITLE 机器人系统架构师
+DUTY - 定义整机自由度、关节配置、传感器架构、电气架构、算力架构、通信架构和安全架构。 - 牵头完成系统架构方案、关键接口定义、整机指标分解、BOM初版和风险清单。 - 统筹机械、电气、电子硬件、嵌入式、热管理、触觉/力觉、测试等模块的接口边界。 - 在工程样机阶段判断哪些指标必须实现、哪些指标可以后置,控制需求膨胀和架构返工。 - 组织架构评审、设计冻结评审、装配准入评审和工程样机验收。
+1 V2_REQUIREMENTS_ENGINEERING | - 牵头完成系统架构方案、关键接口定义、整机指标分解、BOM初版和风险清单。
+2 V2_REQUIREMENTS_ENGINEERING | - 具备复杂机电系统架构设计经验，能够进行指标分解、接口定义和技术取舍。
+3 V2_EMC_SIPI | - 熟悉功能安全、整机EMC、可靠性测试、热管理或高功率密度执行器。
+
+==== 17 E0317 nC=6 nI=7 empty=[]
+TITLE Manager, Robot Diagnostics & Analysis
+DUTY Organizational Leadership & Strategy Build, lead, and develop a high-performing diagnostics and analysis team. Define the vision, strategy, and operating model for engineering diagnostics across the robot platform. Estab
+1 V2_INCIDENT_SUPPORT | We are seeking a Manager, Robot Diagnostics & Analysis to lead and scale a high-impact organization responsible for engineering issue triage, technica
+2 V2_INCIDENT_SUPPORT | This role owns the strategy, execution, and evolution of the organization's diagnostic and investigation capabilities. You will lead a team of triage 
+3 V2_INCIDENT_SUPPORT | Drive issue triage, fault isolation, root cause analysis, and ownership attribution.
+4 V2_OFFICE | This a hybrid position based out of our Fremont office.
+5 V2_USD | $240,000 USD
+6 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+
+==== 18 E0041 nC=1 nI=5 empty=[]
+TITLE 灵巧手机械工程师
+DUTY 1、负责人形机器人末端灵巧执行器-灵巧手、夹爪的产品Roadmap、设计开发和量产落地工作,综合性能、体积重量、成本等指标,明确需求规格,确定技术路线,按照产品级完成开发和量产交付。 2、协同机械、硬件、软件、算法、测试、装配、供应链等团队,对接外部供应商,对末端灵巧执行器产品的全生命周期负责,完成产品迭代,交付内外部客户。 3、牵头对灵巧执行器开发、测试和量产过程中出现的各种问题进行系统性分析、排查并推动问题的解决。 4、负责三指夹爪
+1 V2_PROCUREMENT | 2、协同机械、硬件、软件、算法、测试、装配、供应链等团队，对接外部供应商，对末端灵巧执行器产品的全生命周期负责，完成产品迭代，交付内外部客户。
+
+==== 19 E0534 nC=0 nI=16 empty=[]
+TITLE Power Systems Integration Intern [Fall 2026]
+DUTY Design and conduct measurements to characterize power bus performance to validate strategies for robust operation. Develop methods to reliably expand the performance envelope, in consideration of cross-functional impacts
+
+==== 20 N0367 nC=33 nI=22 empty=[]
+TITLE 声学系统工程师
+DUTY 岗位职责 1、负责机器人产品声学系统整体方案设计，涵盖声学硬件设计与选型、声学结构设计、系统集成与性能匹配，对整机声学性能、问题定位和量产一致性负责； 2、声学硬件： 完成麦克风阵列、扬声器、音频Codec、DSP 等核心器件选型，主导音频原理图设计与 PCB 布局审查，负责信号完整性分析、阻抗匹配及EMC/EMI设计与整改； 3、声学结构：负责音腔设计、导音管/出音孔布局、密封结构方案，完成声学腔体仿真与优化（声学有限元/边界元分析）
+1 V2_EMC_SIPI | 2、声学硬件： 完成麦克风阵列、扬声器、音频Codec、DSP 等核心器件选型，主导音频原理图设计与 PCB 布局审查，负责信号完整性分析、阻抗匹配及EMC/EMI设计与整改；
+2 V2_EMC_SIPI | 2、声学硬件： 完成麦克风阵列、扬声器、音频Codec、DSP 等核心器件选型，主导音频原理图设计与 PCB 布局审查，负责信号完整性分析、阻抗匹配及EMC/EMI设计与整改；
+3 V2_EMC_SIPI | 2、声学硬件： 完成麦克风阵列、扬声器、音频Codec、DSP 等核心器件选型，主导音频原理图设计与 PCB 布局审查，负责信号完整性分析、阻抗匹配及EMC/EMI设计与整改；
+4 V2_AUDIO_PRECISION,V2_SOUNDCHECK | 5、测试调试：制定声学测试方案，完成灵敏度、频响、信噪比、THD+N、指向性等关键指标量测；使用音频分析仪（Audio Precision、SoundCheck 等）进行系统级调试；
+5 V2_AUDIO_PRECISION | 5、测试调试：制定声学测试方案，完成灵敏度、频响、信噪比、THD+N、指向性等关键指标量测；使用音频分析仪（Audio Precision、SoundCheck 等）进行系统级调试；
+6 V2_SOUNDCHECK | 5、测试调试：制定声学测试方案，完成灵敏度、频响、信噪比、THD+N、指向性等关键指标量测；使用音频分析仪（Audio Precision、SoundCheck 等）进行系统级调试；
+7 - | 音频分析仪
+8 V2_CALIBRATION | 6、算法协同： 配合算法团队完成麦克风阵列标定、AEC/ANS/AGC、波束形成等音频前处理的硬件与结构适配联调；
+9 - | 6、算法协同： 配合算法团队完成麦克风阵列标定、AEC/ANS/AGC、波束形成等音频前处理的硬件与结构适配联调；
+10 - | 6、算法协同： 配合算法团队完成麦克风阵列标定、AEC/ANS/AGC、波束形成等音频前处理的硬件与结构适配联调；
+11 - | 6、算法协同： 配合算法团队完成麦克风阵列标定、AEC/ANS/AGC、波束形成等音频前处理的硬件与结构适配联调；
+12 - | AEC
+13 - | ANS
+14 - | AGC
+15 V2_DFM,V2_PROCUREMENT | 7、量产导入： 跟进修模、试产阶段验证，解决漏音、共振异响、密封不良、装配应力衰减等量产声学问题；输出设计文档、DFM 报告、BOM 维护及供应商技术对接。
+16 V2_DFM | 7、量产导入： 跟进修模、试产阶段验证，解决漏音、共振异响、密封不良、装配应力衰减等量产声学问题；输出设计文档、DFM 报告、BOM 维护及供应商技术对接。
+17 V2_DFM | DFM
+18 V2_PADS | 3、电路设计： 熟练掌握模拟与数字音频电路设计，精通至少一种主流 EDA 工具（Altium/Cadence/Pads），能独立完成原理图设计与 PCB 审查；
+19 V2_PADS | Pads
+20 V2_ANSYS,V2_COMSOL | 4、声学仿真： 熟悉 COMSOL、ANSYS、Virtual.Lab 等声学仿真软件中至少一种，能独立完成音腔/声场仿真分析；
+21 V2_COMSOL | COMSOL
+22 V2_ANSYS | ANSYS
+23 - | Virtual.Lab
+24 V2_CNC_PROCESS | 5、结构设计： 精通 SolidWorks 或 Creo 等 3D 建模工具，熟练输出 2D 工程图，熟悉塑胶/金属/硅胶等材料特性及注塑、CNC 等加工工艺，具备扎实的 GD&T 公差管控能力；
+25 V2_CNC_PROCESS | 熟悉塑胶/金属/硅胶等材料特性及注塑、CNC 等加工工艺
+26 V2_SPECTRUM_ANALYZER | 7、测试能力： 熟练使用音频分析仪、示波器、频谱仪等测试设备，了解音频信号处理基本原理（AEC/ANS/AGC、波束成形）；
+27 V2_SPECTRUM_ANALYZER | 频谱仪
+28 V2_DFM | 8、工程方法： 熟悉 DFM/DFA 方法论，有 FMEA/8D 实践经验，能独立分析与解决声学异常问题；
+29 V2_DFM | DFA
+30 V2_ENV_COMPLIANCE | 5、了解 RoHS、CE、FCC 等认证中声学相关测试要求者优先。
+31 V2_ENV_COMPLIANCE | 5、了解 RoHS、CE、FCC 等认证中声学相关测试要求者优先。
+32 V2_ENV_COMPLIANCE | 5、了解 RoHS、CE、FCC 等认证中声学相关测试要求者优先。
+33 V2_ENV_COMPLIANCE | 5、了解 RoHS、CE、FCC 等认证中声学相关测试要求者优先。
+
+==== 21 N0443 nC=0 nI=3 empty=[]
+TITLE 本体研发总监
+DUTY 岗位职责 1、负责机器人产品相关研发类系统的方案架构设计、拆解和实现； 2、负责整机系统性能优化，主导关键技术方案设计、技术难点公关； 3、规划机器人系统整体方案及组件的标准化，参与新产品需求及技术预研方案的讨论、系统分析和技术评审工作； 4、负责与设计相关的技术储备，积极推动技术创新工作开展，参与新技术/标准和新工具/方法的研究和跟踪。 5、 拥有协作机器人或其他智能机器人相关产品从0到1的经验，拥有丰富的产品量产经验；  任职要求 
+
+==== 22 E0350 nC=6 nI=8 empty=[]
+TITLE Senior Systems Engineer
+DUTY System Architecture & Integration: Define and document system and subsystem architectures spanning mechanical, electrical, firmware, and software domains. Drive trade studies with focus on simplicity, performance, cost, 
+1 V2_REQUIREMENTS_ENGINEERING | Strong proficiency with V-model systems engineering approaches, adapted for rapid development
+2 V2_SAFETY_STANDARDS | Compliance and standards expertise: Knowledge of relevant industry standards (ISO 13849, IEC 61508, ANSI/RIA R15.06, or similar) and regulatory framew
+3 V2_OFFICE | This a hybrid position based out of one of our Fremont, CA office.
+4 V2_USD | $221,000 USD
+5 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+6 V2_REQUIREMENTS_ENGINEERING | V-model systems engineering approaches
+
+==== 23 E0366 nC=10 nI=15 empty=['O1:SK_FTA:FTA', 'O12:TC_SAFETY:safety']
+TITLE Staff Systems Engineer, Functional Safety
+DUTY Robotics Development Requirements Management: Define system and subsystem architectures spanning all domains (mechanical, electrical, firmware, and software) with embedded functional safety, and drive trade studies to ba
+1 V2_CAN,V2_JAMA | V&V Definition : Define, own, and decompose detailed, verifiable requirements in Jama that can be delivered to Integration and Testing teams for Verif
+2 V2_SAFETY_STANDARDS | 3+ years working on system safety or functional safety projects and use of functional safety standards such as ISO 13849, IEC 61508, ISO 26262, IEC 62
+3 V2_SAFETY_ANALYSIS | Understanding of safety lifecycle processes, hazard analysis (HARA, HAZOP, FTA, FMEA), safety integrity levels, and safety architecture principles
+4 V2_REQUIREMENTS_ENGINEERING | Strong familiarity with the V-model approach to safety-critical systems engineering, including how to adapt it for rapid development environments
+5 V2_ANSYS,V2_JAMA | Proficiency in using safety analysis tools (e.g., ANSYS medini analyze, PTC Windchill FTA, ItemIS) and requirements management platforms (Jama, DOORS,
+6 V2_USD | $248,000 USD
+7 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+8 V2_JAMA | Jama
+9 SK_WINDCHILL,SK_FTA,V2_ANSYS | ANSYS medini analyze, PTC Windchill FTA, ItemIS
+10 - | DOORS, Polarion
+
+==== 24 E0320 nC=15 nI=15 empty=['O8:TC_SAFETY:functional safety']
+TITLE Principal Robotics Functional Safety Engineer
+DUTY Lead functional safety efforts from concept through deployment, including compliance with the machinery directive, ISO 13849, IEC 62061, IEC 61508, and applicable mobile robot standards such as ANSI/RIA R15.08. Drive arc
+1 V2_SAFETY_STANDARDS | Lead functional safety efforts from concept through deployment, including compliance with the machinery directive, ISO 13849, IEC 62061, IEC 61508, an
+2 V2_SAFETY_ANALYSIS | Create and maintain core safety deliverables: risk assessments, safety requirement specifications (SRS), FMEDA, SISTEMA analyses, validation plans, an
+3 V2_ENV_COMPLIANCE | Oversee third-party vendors and labs for verification and validation (V&V) activities, including work supporting CE marking and other regulatory certi
+4 V2_SAFETY_STANDARDS,V2_ENV_COMPLIANCE | Coordinate with the compliance team on electrical safety, hazardous materials, and environmental/radio regulations (e.g., NFPA 79, IEC 60204-1, REACH,
+5 V2_SAFETY_STANDARDS | Deep familiarity with functional safety lifecycle practices and deliverables aligned with ISO 13849, IEC 61508, or similar frameworks.
+6 V2_SAFETY_STANDARDS | Familiarity with applicable safety standards for mobile and industrial robots, including ANSI/RIA R15.08 and the ISO 10218 series.
+7 V2_SAFETY_ANALYSIS | Experience with safety analysis tools such as SISTEMA.
+8 V2_INCIDENT_SUPPORT | Experience supporting or leading field deployment of robotic systems, including customer interaction, on-site troubleshooting, configuration, or valid
+9 V2_ENV_COMPLIANCE | Prior involvement in CE marking and regulatory certifications.
+10 V2_SAFETY_STANDARDS | Deep experience with industrial mobile robot (IMR) safety, including traditional risk reduction methods and safety-rated devices (e.g., E-stops) align
+11 V2_OFFICE | This is a hybrid position based out of our Fremont office.
+12 V2_USD | $269,000 USD
+13 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+14 V2_SAFETY_ANALYSIS | FMEDA, SISTEMA analyses
+15 - | TUV Functional Safety Engineer certification or equivalent.
+
+==== 25 N0820 nC=17 nI=25 empty=[]
+TITLE Senior Reality Capture Engineer, Robotics Hardware
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_THERMAL_CAMERA,V2_CALIBRATION | In this role on the Hardware Team at Field AI, you will deliver the sensor modules that turn our robots into data-collection platforms for customers. 
+2 - | Candidates should be familiar with concepts and workflows such as laser scanning, photogrammetry, digital twins, BIM, and deviation and change analysi
+3 V2_CALIBRATION | You will collaborate with the product team to select the right sensor for customers from hard industries such as construction and manufacturing. You w
+4 V2_THERMAL_CAMERA | Sensor Selection & Evaluation: Evaluate and select sensors for reality capture and mapping, such as LiDAR, depth cameras, GNSS/RTK, and PTZ/thermal ca
+5 V2_PTP,V2_CALIBRATION | Calibration & Time Sync: Own multi-sensor calibration, including intrinsics, extrinsics, boresight alignment, and timing (PTP, PPS) across custom LiDA
+6 V2_PTP | Calibration & Time Sync: Own multi-sensor calibration, including intrinsics, extrinsics, boresight alignment, and timing (PTP, PPS) across custom LiDA
+7 - | Calibration & Time Sync: Own multi-sensor calibration, including intrinsics, extrinsics, boresight alignment, and timing (PTP, PPS) across custom LiDA
+8 V2_C | Mechanical & Electrical Integration: Work with the mechanical and electrical teams to design the integration unit that mounts sensors onto the robot i
+9 V2_CALIBRATION | Testing & Validation: Test sensor performance, calibration accuracy, and point cloud repeatability under real-world conditions, vibration, shock, and 
+10 - | Mapping & Reality Capture: Familiarity with point cloud registration, photogrammetry and reconstruction, digital twin and BIM workflows, and deviation
+11 - | FARO
+12 - | Leica
+13 - | Trimble
+14 V2_ENV_COMPLIANCE | Industry Exposure: Experience in construction, manufacturing, industrial, mining, or oil and gas environments, including hazardous-area (ATEX, IECEx, 
+15 V2_ENV_COMPLIANCE | ATEX
+16 V2_ENV_COMPLIANCE | IECEx
+17 - | Class I Div 1/2
+
+==== 26 N0774 nC=14 nI=17 empty=[]
+TITLE Lead Functional Safety Engineer-Federal
+DUTY Who are We? Field AIis transforming how robots interact with the real world. We are building risk-aware, reliable, and field-ready AI systems that address the most complex challenges in robotics, unlocking the full poten
+1 V2_CAN,V2_PLC | In this role, you will serve as the team’s resident safety expert and primary individual contributor, owning our approach to UGV functional safety. Fi
+2 V2_PLC | Select, integrate, and configure Safety PLCs, safety lidars, and related hardware components.
+3 V2_PLC | Select, integrate, and configure Safety PLCs, safety lidars, and related hardware components.
+4 V2_PLC,V2_LADDER | Directly write, implement, and test ladder logic and safety configurations on the PLCs.
+5 V2_PLC | Deep, hands-on expertise in configuring, programming, and debugging Safety PLCs.
+6 V2_PLC | Safety PLCs
+7 V2_SAFETY_STANDARDS | Familiarity with relevant safety standards (e.g., ISO 13849, ISO 3691-4, IEC 61508, or ANSI/RIA R15.08).
+8 V2_SAFETY_STANDARDS | ISO 13849
+9 - | ISO 3691-4
+10 V2_SAFETY_STANDARDS | IEC 61508
+11 V2_SAFETY_STANDARDS | ANSI/RIA R15.08
+12 V2_C | Familiarity with software interfaces (ROS/ROS2, C++) to better understand the handoff between safety systems and the autonomy stack.
+13 V2_C | This position is for our FieldAI Federal Team.  This team works on projects connected to the U.S. government which requires U.S. Person eligibility.  
+14 V2_OFFICE | At Field AI, we believe the most effective way to collaborate and solve complex challenges is by working together in person. This is a fully onsite ro
+
+==== 27 N0734 nC=7 nI=18 empty=[]
+TITLE Director of Safety Engineering, Robotics & Autonomous Systems
+DUTY Field AI builds autonomous robotic systems designed to operate in complex, unstructured, and safety-critical real-world environments. Our robots work alongside humans in outdoor settings where uncertainty, scale, and ope
+1 V2_SAFETY_STANDARDS | Guide interpretation and application of relevant standards (e.g., ISO 12100, IEC 61508, ISO 13849, ISO 10218)
+2 V2_SAFETY_STANDARDS | Guide interpretation and application of relevant standards (e.g., ISO 12100, IEC 61508, ISO 13849, ISO 10218)
+3 V2_SAFETY_STANDARDS | Guide interpretation and application of relevant standards (e.g., ISO 12100, IEC 61508, ISO 13849, ISO 10218)
+4 V2_SAFETY_STANDARDS | Guide interpretation and application of relevant standards (e.g., ISO 12100, IEC 61508, ISO 13849, ISO 10218)
+5 V2_SAFETY_STANDARDS | Guide interpretation and application of relevant standards (e.g., ISO 12100, IEC 61508, ISO 13849, ISO 10218)
+6 V2_INCIDENT_SUPPORT | Field Risk & Incident Management
+7 - | TÜV Functional Safety Engineer
+
+==== 28 N0806 nC=4 nI=28 empty=[]
+TITLE Robotics Engineer, Humanoid System Integration
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_CALIBRATION | Own robot bring-up, calibration, configuration, diagnostics, and validation workflows.
+2 V2_C | Strong C++ and Python skills in Linux-based robotics environments.
+3 V2_CALIBRATION | Experience with ROS/ROS2, robot middleware, drivers, calibration, diagnostics, logging, and distributed systems.
+4 V2_CALIBRATION | You've built the tooling that made other engineers faster: calibration pipelines, regression harnesses, telemetry dashboards, or release gates that pr
+
+==== 29 N0835 nC=28 nI=26 empty=[]
+TITLE Sensor Systems Engineer, Autonomous Vehicles - Federal
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_CALIBRATION | As a Perception Systems Engineer on the Federal Team, you will contribute to the design, integration, calibration, and validation of the sensing and c
+2 V2_CAN,V2_ETHERNET,V2_I2C,V2_USB,V2_GMSL | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+3 V2_USB | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+4 V2_ETHERNET | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+5 V2_I2C | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+6 V2_CAN | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+7 V2_GMSL | Systems Integration: Integrate sensors with electrical (USB, Ethernet, I2C, CAN, GMSL), mechanical (mounts, jigs, isolation), and software (configurat
+8 V2_EMC_SIPI | Performance Characterization: Evaluate sensor performance (spatial resolution, temporal drift, EMI noise, sync errors etc.). Test under real-world env
+9 V2_CALIBRATION | Calibration: Design and execute both intrinsic and extrinsic calibrations. Build alignment rigs and calibration boards as needed.
+10 V2_CALIBRATION | Monitor: Develop protocols for monitoring the sensing system health, data quality, and calibration status during field deployments.
+11 V2_HR | Experience Level: We are recruiting across a wide range of experience levels from entry level engineers to senior and staff engineers.
+12 V2_CALIBRATION | Lab Skills: Hands-on testing, calibration, and debugging skills (oscilloscopes, logs, vibration/thermal setups)
+13 V2_CAN,V2_ETHERNET,V2_I2C,V2_USB,V2_GMSL | Communication Protocols: Experience with protocols such as USB, Ethernet, GMSL, CAN, I2C, and CSI.
+14 V2_USB | USB
+15 V2_ETHERNET | Ethernet
+16 V2_GMSL | GMSL
+17 V2_CAN | CAN
+18 V2_I2C | I2C
+19 - | CSI
+20 V2_PTP,V2_NTP | Computer & Software: Experience working with ROS/ROS2, sensor drivers, coordinate transforms (TF), and timing protocols (PTP, NTP, etc.).
+21 - | TF
+22 V2_PTP | PTP
+23 V2_NTP | NTP
+24 V2_CALIBRATION | Calibration & Characterization: Experience designing and executing intrinsic, extrinsic, and temporal calibrations, along with sensor characterization
+25 V2_RVIZ | Simulation: Experience high-fidelity simulation environments (Gazebo, Isaac Sim, RViz) for sensor modeling.
+26 V2_RVIZ | RViz
+27 V2_C | This position is for our FieldAI Federal Team.  This team works on projects connected to the U.S. government which requires U.S. Person eligibility.  
+28 V2_OFFICE | At Field AI, we believe the most effective way to collaborate and solve complex challenges is by working together in person. This is a fully onsite ro
+
+==== 30 N0810 nC=16 nI=42 empty=[]
+TITLE Robotics Systems Integration Engineer, Robotics Hardware
+DUTY About Us Field AI is transforming how robots interact with the real world. We are building risk-aware, reliable, and field-ready AI systems that address the most complex challenges in robotics, unlocking the full potenti
+1 V2_SIM2REAL | As a Robotics Integration Engineer on the Hardware Team at Field AI, you will bring new robot platforms into our fleet and ensure that they operate at
+2 V2_SIM2REAL | Sim-to-Real: Validate and adapt RL-based autonomy policies from simulation (Isaac, Gazebo, MuJoCo) to real-world performance on terrain, stairs, and u
+3 V2_HIL,V2_SAFETY_ANALYSIS | Testing & Validation: Use SIL/HIL testing to ensure integrated systems are safe, reliable, and ready for field operation. Test features such as safety
+4 - | Implement e-stop and redundancy/fault-tolerant safety layers, contributing to functional safety (ISO 26262, ASIL) as practices mature.
+5 - | Implement e-stop and redundancy/fault-tolerant safety layers, contributing to functional safety (ISO 26262, ASIL) as practices mature.
+6 V2_C | Software: Hands-on experience with middleware (ROS/ROS2) and computing languages (python, C++).
+7 V2_SIM2REAL | Sim-to-Real Experience: Comfort working across the sim-to-real gap, validating RL or autonomy policies from simulation (Isaac, Gazebo, MuJoCo) on phys
+8 V2_CAN,V2_ETHERCAT | Communication Protocols: Familiarity with CAN bus, EtherCAT, or similar real-time robotics communication protocols.
+9 V2_CAN | CAN bus
+10 V2_ETHERCAT | EtherCAT
+11 - | ISO 26262
+12 - | ASIL
+13 - | SOTIF/ISO 21448
+14 V2_CLASSICAL_CONTROL,V2_PATH_SEARCH | Advanced Controls: Experience with whole-body control, impedance/admittance control, MPC, or trajectory optimization for legged or manipulator systems
+15 V2_CLASSICAL_CONTROL | MPC
+16 V2_TELEOP | Fleet & Infrastructure: Experience with multi-robot fleet operations, auto-docking/charging infrastructure, or teleoperation systems
+
+==== 31 E0568 nC=5 nI=21 empty=[]
+TITLE Systems Integration Engineer - Hand Subsystem
+DUTY Integrate multi‐DOF robotic hands with the humanoid control stack. Plan and execute behaviors to validate motion, sensing and control at the system level Own calibration strategies and end‐of‐line bring-up. Create and im
+1 V2_OFFICE | Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human 
+2 V2_CALIBRATION | Own calibration strategies and end‑of‑line bring-up.
+3 V2_SYSID | Collaborate with controls engineers to synthesize and tune high‑bandwidth controllers for hand actuators; conduct system identification and data analy
+4 V2_C | C++ and Python
+5 V2_ETHERCAT,V2_ETHERNET,V2_I2C,V2_SPI | Working knowledge of communication buses and protocols like Ethernet, Ethercat, Serial, SPI and I2C.

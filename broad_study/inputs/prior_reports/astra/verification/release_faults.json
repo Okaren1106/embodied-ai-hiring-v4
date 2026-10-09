@@ -1,0 +1,37 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "fixture_scope": "minimal sealed fixtures exercise pre-execution guards; no live research input mutated",
+  "checks": [
+    {
+      "test": "existing_output",
+      "reason": "REFUSE_OVERWRITE",
+      "rejected": true,
+      "no_new_output": "existing directory left unchanged"
+    },
+    {
+      "test": "release_inventory_minimal_sealed_fixture",
+      "reason": "RELEASE_INVENTORY_DRIFT",
+      "rejected": true,
+      "no_new_output": true
+    },
+    {
+      "test": "input_release_hash_minimal_sealed_fixture",
+      "reason": "RELEASE_DRIFT",
+      "rejected": true,
+      "no_new_output": true
+    },
+    {
+      "test": "input_inner_lock_minimal_sealed_fixture",
+      "reason": "INPUT_DRIFT",
+      "rejected": true,
+      "no_new_output": true
+    },
+    {
+      "test": "evidence_inner_lock_minimal_sealed_fixture",
+      "reason": "EVIDENCE_DRIFT",
+      "rejected": true,
+      "no_new_output": true
+    }
+  ]
+}

@@ -1,0 +1,3004 @@
+{
+  "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\configs\\measurement_rules_v0.7.5.yaml",
+  "sha256": "8a258e1deb29ec81c3318b4af41f2fc38321b41d5d0bbef28dfa1b9b8962cc8c",
+  "source_version": "measurement-v0.7.5",
+  "purpose": "Definition reference only; frozen v1 computations retain accepted tags and locked rules",
+  "labels": {
+    "skills": {
+      "SK_PYTHON": {
+        "name": "Python",
+        "aliases": [
+          "Python"
+        ],
+        "definition": "广告明示的Python知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-002",
+          "record_id": "CN_NOETIX|noetix|6",
+          "field": "full_description",
+          "start": 238,
+          "end": 291,
+          "quote": "4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_CPP": {
+        "name": "C++",
+        "aliases": [
+          "C++"
+        ],
+        "definition": "广告明示的C++知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-002",
+          "record_id": "CN_NOETIX|noetix|6",
+          "field": "full_description",
+          "start": 238,
+          "end": 291,
+          "quote": "4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_CSHARP": {
+        "name": "C#",
+        "aliases": [
+          "C#"
+        ],
+        "definition": "广告明示的C#知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "HISTORICAL_LABEL_SYNTHETIC_ONLY_PENDING_EMPIRICAL",
+          "quote": "明确要求熟悉C#"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_ROS": {
+        "name": "ROS",
+        "aliases": [
+          "ROS"
+        ],
+        "definition": "广告明示的ROS知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-002",
+          "record_id": "CN_NOETIX|noetix|6",
+          "field": "full_description",
+          "start": 238,
+          "end": 291,
+          "quote": "4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_ROS2": {
+        "name": "ROS 2",
+        "aliases": [
+          "ROS2",
+          "ROS 2"
+        ],
+        "definition": "广告明示的ROS 2知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-002",
+          "record_id": "CN_NOETIX|noetix|6",
+          "field": "full_description",
+          "start": 238,
+          "end": 291,
+          "quote": "4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_PYTORCH": {
+        "name": "PyTorch",
+        "aliases": [
+          "PyTorch"
+        ],
+        "definition": "广告明示的PyTorch知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-003",
+          "record_id": "CN_NOETIX|noetix|11",
+          "field": "full_description",
+          "start": 278,
+          "end": 339,
+          "quote": "2. 具备深度学习、计算机视觉、自然语言处理等相关方向扎实理论基础，熟练掌握 PyTorch或Jax 等主流深度学习框架；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_TENSORFLOW": {
+        "name": "TensorFlow",
+        "aliases": [
+          "TensorFlow"
+        ],
+        "definition": "广告明示的TensorFlow知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-035",
+          "record_id": "CN_XSQUARE|feishu|7576522272380799283",
+          "field": "duties",
+          "start": 75,
+          "end": 147,
+          "quote": "2. 基于 PyTorch/TensorFlow 等框架搭建 端到端深度估计训练 pipeline,包含数据增强、预处理、label 工程等等。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_JAX": {
+        "name": "JAX",
+        "aliases": [
+          "Jax",
+          "JAX"
+        ],
+        "definition": "广告明示的JAX知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-003",
+          "record_id": "CN_NOETIX|noetix|11",
+          "field": "full_description",
+          "start": 278,
+          "end": 339,
+          "quote": "2. 具备深度学习、计算机视觉、自然语言处理等相关方向扎实理论基础，熟练掌握 PyTorch或Jax 等主流深度学习框架；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_CUDA": {
+        "name": "CUDA",
+        "aliases": [
+          "CUDA"
+        ],
+        "definition": "广告明示的CUDA知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "HISTORICAL_LABEL_SYNTHETIC_ONLY_PENDING_EMPIRICAL",
+          "quote": "明确要求熟悉CUDA"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_MATLAB": {
+        "name": "MATLAB",
+        "aliases": [
+          "MATLAB"
+        ],
+        "definition": "广告明示的MATLAB知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-009",
+          "record_id": "CN_NOETIX|noetix|14",
+          "field": "full_description",
+          "start": 223,
+          "end": 259,
+          "quote": "4、熟悉Matlab/Simulink仿真，会进行电机驱动控制建模仿真；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_MUJOCO": {
+        "name": "MuJoCo",
+        "aliases": [
+          "MuJoCo"
+        ],
+        "definition": "广告明示的MuJoCo知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-002",
+          "record_id": "CN_NOETIX|noetix|6",
+          "field": "full_description",
+          "start": 292,
+          "end": 338,
+          "quote": "5、熟悉MuJoCo、Isaac Gym、 Gazebo、PyBullet等机器人仿真环境；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_ISAAC": {
+        "name": "Isaac",
+        "aliases": [
+          "Isaac",
+          "Isaac Gym",
+          "IsaacGym",
+          "Isaac Lab",
+          "IsaacLab"
+        ],
+        "definition": "广告明示的Isaac知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-002",
+          "record_id": "CN_NOETIX|noetix|6",
+          "field": "full_description",
+          "start": 292,
+          "end": 338,
+          "quote": "5、熟悉MuJoCo、Isaac Gym、 Gazebo、PyBullet等机器人仿真环境；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://isaac-sim.github.io/IsaacLab/main/index.html",
+          "checked": "2026-09-10",
+          "purpose": "保留原Isaac族标签，原文surface区分Gym/Lab产品"
+        }
+      },
+      "SK_GAZEBO": {
+        "name": "Gazebo",
+        "aliases": [
+          "Gazebo"
+        ],
+        "definition": "广告明示的Gazebo知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-002",
+          "record_id": "CN_NOETIX|noetix|6",
+          "field": "full_description",
+          "start": 292,
+          "end": 338,
+          "quote": "5、熟悉MuJoCo、Isaac Gym、 Gazebo、PyBullet等机器人仿真环境；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_OPENCV": {
+        "name": "OpenCV",
+        "aliases": [
+          "OpenCV"
+        ],
+        "definition": "广告明示的OpenCV知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-055",
+          "record_id": "US_APPTRONIK|greenhouse|6145262004",
+          "field": "full_description",
+          "start": 3499,
+          "end": 3621,
+          "quote": ". Extensive experience with computer vision libraries (OpenCV, PCL) and optimization frameworks (e.g., Ceres Solver, g2o)."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_JAVA": {
+        "name": "Java",
+        "aliases": [
+          "Java"
+        ],
+        "definition": "广告明示的Java知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "HISTORICAL_LABEL_SYNTHETIC_ONLY_PENDING_EMPIRICAL",
+          "quote": "明确要求熟悉Java"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_RUST": {
+        "name": "Rust",
+        "aliases": [
+          "Rust"
+        ],
+        "definition": "广告明示的Rust知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "HISTORICAL_LABEL_SYNTHETIC_ONLY_PENDING_EMPIRICAL",
+          "quote": "明确要求熟悉Rust"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_SQL": {
+        "name": "SQL",
+        "aliases": [
+          "SQL"
+        ],
+        "definition": "广告明示的SQL知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-044",
+          "record_id": "US_AGILITY|greenhouse|6127729004",
+          "field": "full_description",
+          "start": 3906,
+          "end": 4002,
+          "quote": "Strong software fundamentals — production-quality Python, comfort in SQL and modern data stacks."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_LINUX": {
+        "name": "Linux",
+        "aliases": [
+          "Linux"
+        ],
+        "definition": "广告明示的Linux知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-005",
+          "record_id": "CN_NOETIX|noetix|4",
+          "field": "duties",
+          "start": 50,
+          "end": 82,
+          "quote": "3、开发Linux系统应用程序,满足产品的功能、性能、功耗需求;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_DOCKER": {
+        "name": "Docker",
+        "aliases": [
+          "Docker"
+        ],
+        "definition": "广告明示的Docker知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-054",
+          "record_id": "US_APPTRONIK|greenhouse|5988698004",
+          "field": "full_description",
+          "start": 5211,
+          "end": 5285,
+          "quote": "Docker, scripting, or infrastructure tooling for test automation at scale."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_KUBERNETES": {
+        "name": "Kubernetes",
+        "aliases": [
+          "Kubernetes",
+          "K8s"
+        ],
+        "definition": "广告明示的Kubernetes知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-041",
+          "record_id": "US_AGILITY|greenhouse|6148969004",
+          "field": "duties",
+          "start": 199,
+          "end": 285,
+          "quote": "Develop reliable workflows across cloud compute, Kubernetes, and continuous automation"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_CAD": {
+        "name": "CAD泛称",
+        "aliases": [
+          "CAD"
+        ],
+        "definition": "广告明示的CAD泛称知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-018",
+          "record_id": "CN_SPIRITAI|feishu|7656723036259240243",
+          "field": "full_description",
+          "start": 302,
+          "end": 343,
+          "quote": "3. 熟练使用solidworks、CAD，具备扎实的机械设计基础、电气装配知识；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_SOLIDWORKS": {
+        "name": "SolidWorks",
+        "aliases": [
+          "SolidWorks"
+        ],
+        "definition": "广告明示的SolidWorks知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-018",
+          "record_id": "CN_SPIRITAI|feishu|7656723036259240243",
+          "field": "full_description",
+          "start": 302,
+          "end": 343,
+          "quote": "3. 熟练使用solidworks、CAD，具备扎实的机械设计基础、电气装配知识；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_CATIA": {
+        "name": "CATIA",
+        "aliases": [
+          "CATIA"
+        ],
+        "definition": "广告明示的CATIA知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "SOFTWARE_TOOL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-062",
+          "record_id": "US_FIGURE|greenhouse|4672013006",
+          "field": "full_description",
+          "start": 1346,
+          "end": 1370,
+          "quote": "Experience with CATIA V6"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_GD_T": {
+        "name": "几何尺寸与公差",
+        "aliases": [
+          "GD&T",
+          "几何尺寸与公差"
+        ],
+        "definition": "广告明示的几何尺寸与公差知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "METHOD",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-047",
+          "record_id": "US_AGILITY|greenhouse|6138024004",
+          "field": "full_description",
+          "start": 4925,
+          "end": 4975,
+          "quote": "Knowledge of GD&T and ASME Y14 drafting standards."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_FEA": {
+        "name": "有限元分析",
+        "aliases": [
+          "FEA",
+          "有限元分析"
+        ],
+        "definition": "广告明示的有限元分析知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "METHOD",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-062",
+          "record_id": "US_FIGURE|greenhouse|4672013006",
+          "field": "full_description",
+          "start": 1573,
+          "end": 1649,
+          "quote": "Experience with FEA, simulation tools, or basic programming (Python, MATLAB)"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_PCB": {
+        "name": "PCB设计",
+        "aliases": [
+          "PCB设计",
+          "PCB design"
+        ],
+        "definition": "广告明示的PCB设计知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "WORK_SKILL",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-036",
+          "record_id": "CN_XSQUARE|feishu|7600292625098934591",
+          "field": "duties",
+          "start": 0,
+          "end": 51,
+          "quote": "1、负责硬件部门对应PCB设计(含原理图、结构图导入、器件布局、PCB走线及优化等),输出PCB文件;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_SPC": {
+        "name": "统计过程控制",
+        "aliases": [
+          "SPC",
+          "统计过程控制"
+        ],
+        "definition": "广告明示的统计过程控制知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "METHOD",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-044",
+          "record_id": "US_AGILITY|greenhouse|6127729004",
+          "field": "full_description",
+          "start": 4806,
+          "end": 4896,
+          "quote": "Exposure to manufacturing quality systems (end-of-line test, SPC, yield/defect analytics)."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_GENERIC_LANGUAGE": {
+        "name": "编程语言泛称",
+        "aliases": [
+          "编程语言",
+          "programming languages"
+        ],
+        "definition": "广告明示的编程语言泛称知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "GENERIC_CAPABILITY",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-007",
+          "record_id": "CN_NOETIX|noetix|15",
+          "field": "full_description",
+          "start": 93,
+          "end": 129,
+          "quote": "1、熟悉Python，Pytorch等编程语言，熟悉Linux操作系统；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_GENERIC_ML_FRAMEWORK": {
+        "name": "机器学习框架泛称",
+        "aliases": [
+          "机器学习框架",
+          "深度学习框架"
+        ],
+        "definition": "广告明示的机器学习框架泛称知识、能力或工具使用",
+        "include": "必须有原词和局部用途语境；别名只辅助规范化。",
+        "exclude": "不从职能、相邻技能、公司或上位概念补值。",
+        "type": "GENERIC_CAPABILITY",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-003",
+          "record_id": "CN_NOETIX|noetix|11",
+          "field": "full_description",
+          "start": 278,
+          "end": 339,
+          "quote": "2. 具备深度学习、计算机视觉、自然语言处理等相关方向扎实理论基础，熟练掌握 PyTorch或Jax 等主流深度学习框架；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_EXCEL": {
+        "name": "Excel",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Excel"
+        ],
+        "definition": "明示的Excel使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-012",
+          "record_id": "CN_SPIRITAI|feishu|7678615223214180617",
+          "field": "full_description",
+          "start": 1189,
+          "end": 1253,
+          "quote": "4、对算力市场行情、价格波动、供应链风险有敏感度；具备成本拆解、数据分析能力，熟练 Excel，能够独立输出比价、成本分析报告。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_SHEETS": {
+        "name": "Google Sheets",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Google Sheets"
+        ],
+        "definition": "明示的Google Sheets使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-060",
+          "record_id": "US_APPTRONIK|greenhouse|6163894004",
+          "field": "full_description",
+          "start": 3306,
+          "end": 3423,
+          "quote": "Advanced proficiency in ERP/MRP software (e.g., NetSuite, Oracle, SAP) and data analysis tools (Excel/Google Sheets)."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_POWERPOINT": {
+        "name": "PowerPoint",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "PowerPoint",
+          "PPT"
+        ],
+        "definition": "明示的PowerPoint使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-038",
+          "record_id": "CN_XSQUARE|feishu|7660482603393321225",
+          "field": "duties",
+          "start": 81,
+          "end": 153,
+          "quote": "2. 配合制作课程配套资料,包括课件PPT、实验指导手册、练习题、案例解析等,确保内容准确、易懂,贴合学习场景(高校/职业教育/技能培训均可)。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_ERP": {
+        "name": "ERP系统",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "ERP"
+        ],
+        "definition": "明示的ERP系统使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-047",
+          "record_id": "US_AGILITY|greenhouse|6138024004",
+          "field": "duties",
+          "start": 634,
+          "end": 676,
+          "quote": "Own the integration with ERP/Manufacturing"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_WMS": {
+        "name": "WMS仓储系统",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "WMS"
+        ],
+        "definition": "明示的WMS仓储系统使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-011",
+          "record_id": "CN_SPIRITAI|feishu|7659717011135744306",
+          "field": "duties",
+          "start": 98,
+          "end": 145,
+          "quote": "3. 行业业务集成与流程编排,设计低代码机器人工作流编排引擎,打通客户侧 MES/WMS等系统"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_HRIS": {
+        "name": "HRIS人事系统",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "HRIS"
+        ],
+        "definition": "明示的HRIS人事系统使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-096",
+          "record_id": "US_FIGURE|greenhouse|4702555006",
+          "field": "duties",
+          "start": 2388,
+          "end": 2459,
+          "quote": "Familiaridad con herramientas de HRIS (sistemas de gestión de RR. HH.)."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_NX": {
+        "name": "Siemens NX",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Siemens NX",
+          "NX"
+        ],
+        "definition": "明示的Siemens NX使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V05-051",
+          "record_id": "US_APPTRONIK|greenhouse|6150237004",
+          "text_version_hash": "39b78868eec7d0b1c3b87c707b2eddee4d632dacad5c9dbd275e6d03a5446b72",
+          "field": "duties",
+          "start": 627,
+          "end": 885,
+          "quote": "Establish and enforce company-wide CAD standards using Siemens NX. Drive best practices for large assembly management, top-down master modeling, and seamless PLM integration (e.g., Teamcenter) to ensure a clean, scalable digital twin across the organization."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_TEAMCENTER": {
+        "name": "Teamcenter",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Teamcenter"
+        ],
+        "definition": "明示的Teamcenter使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-051",
+          "record_id": "US_APPTRONIK|greenhouse|6150237004",
+          "field": "duties",
+          "start": 627,
+          "end": 885,
+          "quote": "Establish and enforce company-wide CAD standards using Siemens NX. Drive best practices for large assembly management, top-down master modeling, and seamless PLM integration (e.g., Teamcenter) to ensure a clean, scalable digital twin across the organization."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_CREO": {
+        "name": "Creo",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Creo"
+        ],
+        "definition": "明示的Creo使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-037",
+          "record_id": "CN_XSQUARE|feishu|7592092386681211162",
+          "field": "full_description",
+          "start": 186,
+          "end": 216,
+          "quote": "2、具备一定械结构设计基础，熟练设计CREO等三维设计软件；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_WINDCHILL": {
+        "name": "Windchill",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Windchill"
+        ],
+        "definition": "明示的Windchill使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V05-047",
+          "record_id": "US_AGILITY|greenhouse|6138024004",
+          "text_version_hash": "0d5d79e33786b702e57a78d5ab9ae8e6d947cdbc8edc92650ce08b9a7ac639af",
+          "field": "requirements",
+          "start": 0,
+          "end": 217,
+          "quote": "10-15 years of hands-on experience with Creo/ Windchill, including practical ownership of vault structure, workflows, permissions, metadata, custom properties, revision management, release processes, and user support."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_ALTIUM": {
+        "name": "Altium",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Altium"
+        ],
+        "definition": "明示的Altium使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-047",
+          "record_id": "US_AGILITY|greenhouse|6138024004",
+          "field": "duties",
+          "start": 243,
+          "end": 301,
+          "quote": "Maintain and improve integration with Altium or equivalent"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_FMEA": {
+        "name": "FMEA",
+        "type": "METHOD",
+        "aliases": [
+          "FMEA",
+          "DFMEA",
+          "PFMEA",
+          "Failure Mode and Effects Analysis",
+          "失效模式与影响分析",
+          "故障模式与影响分析"
+        ],
+        "definition": "明示的FMEA使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "泛称失效模式、失败分析和模型失效不是FMEA方法。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V05-031",
+          "record_id": "CN_XSQUARE|feishu|7580327783005587722",
+          "text_version_hash": "37e36908f9f74ace07546ccbbb02b32d527641d85f8ac37c6d78a94adef68ffd",
+          "field": "duties",
+          "start": 368,
+          "end": 476,
+          "quote": "2、失效分析与闭环管理:对测试中发现的失效进行精准定位与根因分析(结构疲劳、电气失效、润滑失效、算法漂移等),运用FTA、FMEA等工具建立并维护故障模式库,协同硬件、软件、结构团队推动设计改进,验证修复措施有效性。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_FTA": {
+        "name": "故障树分析",
+        "type": "METHOD",
+        "aliases": [
+          "FTA",
+          "Fault Tree"
+        ],
+        "definition": "明示的故障树分析使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-031",
+          "record_id": "CN_XSQUARE|feishu|7580327783005587722",
+          "field": "duties",
+          "start": 368,
+          "end": 476,
+          "quote": "2、失效分析与闭环管理:对测试中发现的失效进行精准定位与根因分析(结构疲劳、电气失效、润滑失效、算法漂移等),运用FTA、FMEA等工具建立并维护故障模式库,协同硬件、软件、结构团队推动设计改进,验证修复措施有效性。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_8D": {
+        "name": "8D问题解决",
+        "type": "METHOD",
+        "aliases": [
+          "8D"
+        ],
+        "definition": "明示的8D问题解决使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-031",
+          "record_id": "CN_XSQUARE|feishu|7580327783005587722",
+          "field": "full_description",
+          "start": 816,
+          "end": 881,
+          "quote": "4、失效分析能力：熟练掌握FMEA、FTA、8D等失效分析工具，具备从测试现象定位至根因（结构、电气、软件、算法）的系统分析能力。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_MINITAB": {
+        "name": "Minitab",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Minitab"
+        ],
+        "definition": "明示的Minitab使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-031",
+          "record_id": "CN_XSQUARE|feishu|7580327783005587722",
+          "field": "full_description",
+          "start": 882,
+          "end": 964,
+          "quote": "5、测试仪器与工具：熟练操作振动台、环境试验箱、数据采集系统、示波器、逻辑分析仪、扭矩传感器等测试设备；掌握minitab，JMP，GRR、CPK等数据分析工工具。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_JMP": {
+        "name": "JMP",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "JMP"
+        ],
+        "definition": "明示的JMP使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-031",
+          "record_id": "CN_XSQUARE|feishu|7580327783005587722",
+          "field": "full_description",
+          "start": 882,
+          "end": 964,
+          "quote": "5、测试仪器与工具：熟练操作振动台、环境试验箱、数据采集系统、示波器、逻辑分析仪、扭矩传感器等测试设备；掌握minitab，JMP，GRR、CPK等数据分析工工具。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_OSCILLOSCOPE": {
+        "name": "示波器",
+        "type": "INSTRUMENT",
+        "aliases": [
+          "示波器",
+          "oscilloscope"
+        ],
+        "definition": "明示的示波器使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-031",
+          "record_id": "CN_XSQUARE|feishu|7580327783005587722",
+          "field": "full_description",
+          "start": 882,
+          "end": 964,
+          "quote": "5、测试仪器与工具：熟练操作振动台、环境试验箱、数据采集系统、示波器、逻辑分析仪、扭矩传感器等测试设备；掌握minitab，JMP，GRR、CPK等数据分析工工具。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_LOGIC_ANALYZER": {
+        "name": "逻辑分析仪",
+        "type": "INSTRUMENT",
+        "aliases": [
+          "逻辑分析仪",
+          "logic analyzer"
+        ],
+        "definition": "明示的逻辑分析仪使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-031",
+          "record_id": "CN_XSQUARE|feishu|7580327783005587722",
+          "field": "full_description",
+          "start": 882,
+          "end": 964,
+          "quote": "5、测试仪器与工具：熟练操作振动台、环境试验箱、数据采集系统、示波器、逻辑分析仪、扭矩传感器等测试设备；掌握minitab，JMP，GRR、CPK等数据分析工工具。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_MULTIMETER": {
+        "name": "万用表",
+        "type": "INSTRUMENT",
+        "aliases": [
+          "万用表",
+          "multimeter"
+        ],
+        "definition": "明示的万用表使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-081",
+          "record_id": "CN_XSQUARE|feishu|7663408546771863858",
+          "field": "full_description",
+          "start": 269,
+          "end": 340,
+          "quote": "1、了解机器人关节模组或新能源电驱动核心系统(机械、电子)基本组成，知晓简单试验设备(如万用表、卡尺、基础测试仪、测功机、示波器)的使用方法;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_DYNAMOMETER": {
+        "name": "测功机",
+        "type": "INSTRUMENT",
+        "aliases": [
+          "测功机",
+          "dynamometer",
+          "dyno"
+        ],
+        "definition": "明示的测功机使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-054",
+          "record_id": "US_APPTRONIK|greenhouse|5988698004",
+          "field": "duties",
+          "start": 2092,
+          "end": 2259,
+          "quote": "Operate and configure dynamometer, benchtop, and custom test setups. Manage fixture configurations and load motor modes across different actuator and gearbox variants."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_FINANCIAL_MODELING": {
+        "name": "财务建模",
+        "type": "WORK_SKILL",
+        "aliases": [
+          "财务建模",
+          "financial model"
+        ],
+        "definition": "明示的财务建模使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-020",
+          "record_id": "CN_SPIRITAI|feishu|7649583773529573642",
+          "field": "full_description",
+          "start": 164,
+          "end": 192,
+          "quote": "2、具备结构化分析与财务建模能力，熟练使用数据分析工具。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_COST_ANALYSIS": {
+        "name": "成本分析",
+        "type": "WORK_SKILL",
+        "aliases": [
+          "成本分析",
+          "cost analysis"
+        ],
+        "definition": "明示的成本分析使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-012",
+          "record_id": "CN_SPIRITAI|feishu|7678615223214180617",
+          "field": "duties",
+          "start": 572,
+          "end": 703,
+          "quote": "5.成本与市场管理:跟踪 GPU 行情、算力租赁市场价格、token 价格波动、服务器及基建硬件价格走势;建立算力、token、基建硬件成本基线;输出成本分析、比价报告,制定采购策略,落地降本目标;识别供应链风险(供货紧缺、政策、交付、服务风险),输出风险预案。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_SUPPLIER_NEGOTIATION": {
+        "name": "供应商谈判",
+        "type": "WORK_SKILL",
+        "aliases": [
+          "供应商谈判",
+          "采购谈判",
+          "supplier negotiation",
+          "商务谈判",
+          "长协谈判",
+          "negotiate"
+        ],
+        "definition": "明示的供应商谈判使用、能力或资格",
+        "include": "谈判动作与供应商/采购对象均有明确正文支持；item附negotiation_object=SUPPLIER与object_evidence。",
+        "exclude": "客户销售谈判不纳入；泛称商务谈判只有词形不足。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V05-012",
+          "record_id": "CN_SPIRITAI|feishu|7678615223214180617",
+          "text_version_hash": "b0fcdc81aa4ca10082a175a85c786538370455c3139c9299d53230e769f8497f",
+          "field": "requirements",
+          "start": 205,
+          "end": 282,
+          "quote": "3、完整经历供应商开发、尽调、询比价、商务谈判、合同履约全流程;具备千万级以上服务类 + 硬件类采购项目实操经验;熟悉长协框架、SLA 服务协议谈判要点。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_INVENTORY": {
+        "name": "库存管理",
+        "type": "WORK_SKILL",
+        "aliases": [
+          "库存管理",
+          "inventory management"
+        ],
+        "definition": "明示的库存管理使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V05-060",
+          "record_id": "US_APPTRONIK|greenhouse|6163894004",
+          "text_version_hash": "ea3f46d79df7d27c17edb8359e9f7751e130dfcd4d27f563f079bf8617c2a3f7",
+          "field": "duties",
+          "start": 2204,
+          "end": 2311,
+          "quote": "Lead regular high-stakes inventory audits and implement cycle-counting programs to maintain data integrity."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_CURRICULUM": {
+        "name": "课程设计",
+        "type": "WORK_SKILL",
+        "aliases": [
+          "课程设计",
+          "课程开发",
+          "curriculum"
+        ],
+        "definition": "明示的课程设计使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V05-038",
+          "record_id": "CN_XSQUARE|feishu|7660482603393321225",
+          "text_version_hash": "473bc016d3bfe28b7def54e1941d957026cc8141546dd1676b33d673fb21b573",
+          "field": "requirements",
+          "start": 264,
+          "end": 322,
+          "quote": "5. 会使用PPT、Word等办公软件,能独立完成基础课件制作和文档撰写;有课程开发、教案编写、科普创作经验者加分。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_VOC_ANALYSIS": {
+        "name": "VOC分析",
+        "type": "WORK_SKILL",
+        "aliases": [
+          "VOC",
+          "客户反馈分析",
+          "customer feedback analysis"
+        ],
+        "definition": "明示的VOC分析使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V05-095",
+          "record_id": "CN_XSQUARE|feishu|7643743936242305316",
+          "text_version_hash": "f31d0e8c209ec5ba1e75fc3e9a35eb92048819447383af3f1cf3821a5abe1e41",
+          "field": "duties",
+          "start": 0,
+          "end": 28,
+          "quote": "1、VOC体系运营:负责搭建VOC体系及运营,保证数据监"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_PINOCCHIO": {
+        "name": "Pinocchio",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Pinocchio"
+        ],
+        "definition": "明示的Pinocchio使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-002",
+          "record_id": "CN_NOETIX|noetix|6",
+          "field": "full_description",
+          "start": 238,
+          "end": 291,
+          "quote": "4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_CASADI": {
+        "name": "CasADi",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "CasADi"
+        ],
+        "definition": "明示的CasADi使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-002",
+          "record_id": "CN_NOETIX|noetix|6",
+          "field": "full_description",
+          "start": 238,
+          "end": 291,
+          "quote": "4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_DRAKE": {
+        "name": "Drake",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Drake"
+        ],
+        "definition": "明示的Drake使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-052",
+          "record_id": "US_APPTRONIK|greenhouse|6105900004",
+          "field": "full_description",
+          "start": 2816,
+          "end": 2908,
+          "quote": "Familiarity with at least some of: MuJoCo, Drake, Eigen, ROS2, Flatbuffers, BehaviorTree.CPP"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_PYBULLET": {
+        "name": "PyBullet",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "PyBullet"
+        ],
+        "definition": "明示的PyBullet使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-002",
+          "record_id": "CN_NOETIX|noetix|6",
+          "field": "full_description",
+          "start": 292,
+          "end": 338,
+          "quote": "5、熟悉MuJoCo、Isaac Gym、 Gazebo、PyBullet等机器人仿真环境；"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_RAY": {
+        "name": "Ray",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Ray"
+        ],
+        "definition": "明示的Ray使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-082",
+          "record_id": "US_APPTRONIK|greenhouse|6085871004",
+          "field": "full_description",
+          "start": 2573,
+          "end": 2751,
+          "quote": "Experience with large-scale training workloads — deploying parallel simulations on cloud platforms (AWS, GCP, Azure) with distributed computing frameworks (e.g., Ray, Kubernetes)"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_MLFLOW": {
+        "name": "MLflow",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "MLflow"
+        ],
+        "definition": "明示的MLflow使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-041",
+          "record_id": "US_AGILITY|greenhouse|6148969004",
+          "field": "full_description",
+          "start": 3157,
+          "end": 3247,
+          "quote": "Familiarity with orchestration and tracking tools (MLflow, WandB, Airflow, Kubeflow, etc.)"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_WANDB": {
+        "name": "Weights & Biases",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Weights & Biases",
+          "WandB"
+        ],
+        "definition": "明示的Weights & Biases使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-041",
+          "record_id": "US_AGILITY|greenhouse|6148969004",
+          "field": "full_description",
+          "start": 3157,
+          "end": 3247,
+          "quote": "Familiarity with orchestration and tracking tools (MLflow, WandB, Airflow, Kubeflow, etc.)"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_CPA": {
+        "name": "注册会计师",
+        "type": "CREDENTIAL",
+        "aliases": [
+          "CPA",
+          "注册会计师"
+        ],
+        "definition": "明示的注册会计师使用、能力或资格",
+        "include": "有原表达和局部动作/要求；设备设计不自动算设备操作技能。",
+        "exclude": "不从职位、上位工具、同类产品或技术主题推断；仅对象提及须另记承担关系。",
+        "development_example": {
+          "kind": "OBSERVED_DEVELOPMENT_LEXICAL_EXAMPLE_NOT_AUTOLABEL",
+          "study_id": "V05-091",
+          "record_id": "CN_XSQUARE|feishu|7675332787448056074",
+          "field": "full_description",
+          "start": 423,
+          "end": 501,
+          "quote": "3. 综合素养：商业敏感度强，逻辑清晰、数据敏锐，具备优秀的跨部门沟通协同能力，能适配高速业务节奏，结果导向、抗压能力强；持有 CPA、中级会计等证书优先。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_WORD": {
+        "name": "Word",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Microsoft Word",
+          "Word"
+        ],
+        "definition": "明确办公软件使用要求；普通英文word不自动视作软件。",
+        "include": "明确办公软件使用要求；普通英文word不自动视作软件。",
+        "exclude": "不从职能或相邻概念推断；按原文用途和承担关系记录。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V05-038",
+          "record_id": "CN_XSQUARE|feishu|7660482603393321225",
+          "text_version_hash": "473bc016d3bfe28b7def54e1941d957026cc8141546dd1676b33d673fb21b573",
+          "field": "requirements",
+          "start": 264,
+          "end": 322,
+          "quote": "5. 会使用PPT、Word等办公软件,能独立完成基础课件制作和文档撰写;有课程开发、教案编写、科普创作经验者加分。"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_LIFETIME_PREDICTION": {
+        "name": "寿命与故障间隔预测",
+        "type": "WORK_SKILL",
+        "aliases": [
+          "remaining useful life",
+          "MTBF",
+          "寿命预测"
+        ],
+        "definition": "本人预测寿命/故障间隔并形成结果；单纯寿命测试或出现MTBF指标不等于预测能力。",
+        "include": "本人预测寿命/故障间隔并形成结果；单纯寿命测试或出现MTBF指标不等于预测能力。",
+        "exclude": "不从职能或相邻概念推断；按原文用途和承担关系记录。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V05-044",
+          "record_id": "US_AGILITY|greenhouse|6127729004",
+          "text_version_hash": "3b62ce62e2fd18c2bbb4c43403de4f327f26505dbe086856e2a55346af6df731",
+          "field": "duties",
+          "start": 46,
+          "end": 368,
+          "quote": ". Build models that predict MTBF and remaining useful life for specific components (actuators, cameras, compute, power systems). Partner with hardware engineering to model wear-and-tear under varying duty cycles, payloads, and environmental conditions, and turn those models into maintenance schedules and design feedback."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_SURVIVAL_ANALYSIS": {
+        "name": "生存与寿命统计分析",
+        "type": "METHOD",
+        "aliases": [
+          "survival analysis",
+          "reliability/survival analysis",
+          "生存分析"
+        ],
+        "definition": "明确生存/寿命统计分析方法；寿命预测目标不自动生成该方法标签。",
+        "include": "明确生存/寿命统计分析方法；寿命预测目标不自动生成该方法标签。",
+        "exclude": "不从职能或相邻概念推断；按原文用途和承担关系记录。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V05-044",
+          "record_id": "US_AGILITY|greenhouse|6127729004",
+          "text_version_hash": "3b62ce62e2fd18c2bbb4c43403de4f327f26505dbe086856e2a55346af6df731",
+          "field": "requirements",
+          "start": 537,
+          "end": 701,
+          "quote": "Deep expertise in some combination of: reliability/survival analysis, time-series and anomaly detection, predictive maintenance, and causal/observational inference."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_SIMULINK": {
+        "name": "Simulink",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Simulink"
+        ],
+        "definition": "明示Simulink仿真建模能力。",
+        "include": "明示Simulink仿真建模能力。",
+        "exclude": "不从职能或相邻概念推断；按原文用途和承担关系记录。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V05-009",
+          "record_id": "CN_NOETIX|noetix|14",
+          "text_version_hash": "b7fc9e9d9967925387c06dd9aa6731be913d68784872b81f380c703a7ded87a5",
+          "field": "requirements",
+          "start": 104,
+          "end": 140,
+          "quote": "4、熟悉Matlab/Simulink仿真,会进行电机驱动控制建模仿真;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_QT": {
+        "name": "Qt",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Qt"
+        ],
+        "definition": "明确Qt开发经验；Qt Quick/QML保留原表达，不自动扩工具标签。",
+        "include": "明确Qt开发经验；Qt Quick/QML保留原表达，不自动扩工具标签。",
+        "exclude": "不从职能或相邻概念推断；按原文用途和承担关系记录。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V06-004",
+          "record_id": "CN_SPIRITAI|feishu|7646386580126910756",
+          "text_version_hash": "f5c036f1eda95297a16ad2d184cf3b8657aaeb78cbfcf1ef02605965598324ca",
+          "field": "requirements",
+          "start": 125,
+          "end": 215,
+          "quote": "3. 熟悉 C++ 编程,具备 Qt 框架开发经验,能够基于 Qt 开发跨平台原生模块或高性能 HMI 组件,熟悉 Qt Quick/QML 界面开发及与移动端混合集成方案者优先;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_NUMPY": {
+        "name": "NumPy",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "NumPy"
+        ],
+        "definition": "工具举例保留EXAMPLE关系，不视为全部必需。",
+        "include": "工具举例保留EXAMPLE关系，不视为全部必需。",
+        "exclude": "不从职能或相邻概念推断；按原文用途和承担关系记录。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V06-053",
+          "record_id": "US_AGILITY|greenhouse|5973040004",
+          "text_version_hash": "d3694b187e27b7ad17b2c8a6fb0b1571f521dc2f7cb74f6089274d0331f1bd69",
+          "field": "requirements",
+          "start": 674,
+          "end": 802,
+          "quote": "Familiarity with common computer vision and machine learning libraries such as (but not limited to) PyTorch, OpenCV, NumPy, etc."
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_CAE": {
+        "name": "CAE分析",
+        "type": "WORK_SKILL",
+        "aliases": [
+          "CAE"
+        ],
+        "definition": "CAE是工程分析能力，不是某个软件品牌；FEA方法可另外明示。",
+        "include": "CAE是工程分析能力，不是某个软件品牌；FEA方法可另外明示。",
+        "exclude": "不从职能或相邻概念推断；按原文用途和承担关系记录。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V06-055",
+          "record_id": "CN_SPIRITAI|feishu|7643721211734657299",
+          "text_version_hash": "8168bdb70c1fafa23ecfc064f9a14dcc1ff5b354fdfa6289d698d799c2c8bb60",
+          "field": "requirements",
+          "start": 32,
+          "end": 85,
+          "quote": "2. 3-5 年及以上结构 + 热 CAE 仿真经验,有人形机器人、协作机器人、精密机电设备仿真经验优先;"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_GREENHOUSE": {
+        "name": "Greenhouse招聘系统",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "Greenhouse"
+        ],
+        "definition": "明确招聘平台使用，举例关系保留。",
+        "include": "明确招聘平台使用，举例关系保留。",
+        "exclude": "不从职能或相邻概念推断；按原文用途和承担关系记录。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V06-060",
+          "record_id": "US_FIGURE|greenhouse|4409868006",
+          "text_version_hash": "ec7f60a3527302078f5856e4ac7ea9a4cd5d67afd69edacb0ded9e366ec88e8e",
+          "field": "requirements",
+          "start": 477,
+          "end": 619,
+          "quote": "Proficiency with recruitment tools and platforms (e.g., Greenhouse, LinkedIn Recruiter) to manage a large, multi-function req load efficiently"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_LINKEDIN_RECRUITER": {
+        "name": "LinkedIn Recruiter",
+        "type": "SOFTWARE_TOOL",
+        "aliases": [
+          "LinkedIn Recruiter"
+        ],
+        "definition": "仅LinkedIn Recruiter明确工具经验；公司社交链接不足。",
+        "include": "仅LinkedIn Recruiter明确工具经验；公司社交链接不足。",
+        "exclude": "不从职能或相邻概念推断；按原文用途和承担关系记录。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V06-060",
+          "record_id": "US_FIGURE|greenhouse|4409868006",
+          "text_version_hash": "ec7f60a3527302078f5856e4ac7ea9a4cd5d67afd69edacb0ded9e366ec88e8e",
+          "field": "requirements",
+          "start": 477,
+          "end": 619,
+          "quote": "Proficiency with recruitment tools and platforms (e.g., Greenhouse, LinkedIn Recruiter) to manage a large, multi-function req load efficiently"
+        },
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ]
+      },
+      "SK_CADENCE": {
+        "name": "Cadence EDA工具族",
+        "aliases": [
+          "Cadence"
+        ],
+        "definition": "电子设计自动化工具族；只记广告明示的Cadence，不推导具体Allegro或Virtuoso产品。",
+        "include": "广告明示工具名称，并保留局部用途、要求组与证据。",
+        "exclude": "不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。",
+        "type": "SOFTWARE_TOOL",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://www.cadence.com/en_US/home/tools/system-design-and-analysis.html",
+          "checked": "2026-09-10",
+          "purpose": "确认工具身份，非推导JD未写明的需求"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "CN_NOETIX|noetix|8",
+          "text_version_hash": "8fd7fe8c2cccf341f2f3d76dbb1188cfe20614ad6c41634dbf5937cbff7dd825",
+          "field": "requirements",
+          "start": 59,
+          "end": 66,
+          "quote": "Cadence"
+        }
+      },
+      "SK_LEROBOT": {
+        "name": "LeRobot",
+        "aliases": [
+          "LeRobot"
+        ],
+        "definition": "机器人学习软件库、数据与训练工具；不由模型主题推导使用。",
+        "include": "广告明示工具名称，并保留局部用途、要求组与证据。",
+        "exclude": "不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。",
+        "type": "SOFTWARE_TOOL",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://huggingface.co/docs/lerobot/index",
+          "checked": "2026-09-10",
+          "purpose": "确认工具身份，非推导JD未写明的需求"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "CN_NOETIX|noetix|11",
+          "text_version_hash": "9c70a9fab4e32357c15b85c7eef39f314b4aed84a2370ca19600d5a48ebe1eb9",
+          "field": "requirements",
+          "start": 200,
+          "end": 207,
+          "quote": "LeRobot"
+        }
+      },
+      "SK_OPENPI": {
+        "name": "OpenPi",
+        "aliases": [
+          "OpenPi",
+          "openpi"
+        ],
+        "definition": "机器人模型训练、微调及推理软件包；仅模型Pi名称不足以证明使用OpenPi。",
+        "include": "广告明示工具名称，并保留局部用途、要求组与证据。",
+        "exclude": "不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。",
+        "type": "SOFTWARE_TOOL",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://github.com/Physical-Intelligence/openpi",
+          "checked": "2026-09-10",
+          "purpose": "确认工具身份，非推导JD未写明的需求"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "CN_NOETIX|noetix|11",
+          "text_version_hash": "9c70a9fab4e32357c15b85c7eef39f314b4aed84a2370ca19600d5a48ebe1eb9",
+          "field": "requirements",
+          "start": 208,
+          "end": 214,
+          "quote": "OpenPi"
+        }
+      },
+      "SK_KDL": {
+        "name": "Orocos KDL",
+        "aliases": [
+          "KDL",
+          "Orocos KDL"
+        ],
+        "definition": "运动学与动力学软件库；不从一般运动学知识自动赋值。",
+        "include": "广告明示工具名称，并保留局部用途、要求组与证据。",
+        "exclude": "不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。",
+        "type": "SOFTWARE_TOOL",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://www.orocos.org/kdl.html",
+          "checked": "2026-09-10",
+          "purpose": "确认工具身份，非推导JD未写明的需求"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "CN_NOETIX|noetix|7",
+          "text_version_hash": "d523f335a4040f21c4533062c44081d90d205220c61e2bb7e1cd7d242ef40450",
+          "field": "requirements",
+          "start": 74,
+          "end": 77,
+          "quote": "KDL"
+        }
+      },
+      "SK_TRAC_IK": {
+        "name": "TRAC-IK",
+        "aliases": [
+          "TRAC-IK",
+          "TRAC_IK"
+        ],
+        "definition": "机器人逆运动学求解软件库；与一般逆运动学方法分开。",
+        "include": "广告明示工具名称，并保留局部用途、要求组与证据。",
+        "exclude": "不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。",
+        "type": "SOFTWARE_TOOL",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://docs.ros.org/en/rolling/p/trac_ik/",
+          "checked": "2026-09-10",
+          "purpose": "确认工具身份，非推导JD未写明的需求",
+          "repository": "https://github.com/HIRO-group/trac_ik"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "CN_NOETIX|noetix|7",
+          "text_version_hash": "d523f335a4040f21c4533062c44081d90d205220c61e2bb7e1cd7d242ef40450",
+          "field": "requirements",
+          "start": 86,
+          "end": 93,
+          "quote": "TRAC-IK"
+        }
+      },
+      "SK_ZEROMQ": {
+        "name": "ZeroMQ",
+        "aliases": [
+          "ZeroMQ",
+          "ZMQ",
+          "zmq"
+        ],
+        "definition": "消息通信软件库；不把一般通信要求都计为ZeroMQ。",
+        "include": "广告明示工具名称，并保留局部用途、要求组与证据。",
+        "exclude": "不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。",
+        "type": "SOFTWARE_TOOL",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://zeromq.org/",
+          "checked": "2026-09-10",
+          "purpose": "确认工具身份，非推导JD未写明的需求"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "CN_NOETIX|noetix|7",
+          "text_version_hash": "d523f335a4040f21c4533062c44081d90d205220c61e2bb7e1cd7d242ef40450",
+          "field": "requirements",
+          "start": 157,
+          "end": 160,
+          "quote": "zmq"
+        }
+      },
+      "SK_LCM": {
+        "name": "LCM",
+        "aliases": [
+          "LCM",
+          "lcm"
+        ],
+        "definition": "Lightweight Communications and Marshalling通信软件库；只在工具/通信语境编码。",
+        "include": "广告明示工具名称，并保留局部用途、要求组与证据。",
+        "exclude": "不从公司、岗位主类、相邻方法或泛称推导；不因仅提到厂商而推导具体产品。",
+        "type": "SOFTWARE_TOOL",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://lcm-proj.github.io/lcm/",
+          "checked": "2026-09-10",
+          "purpose": "确认工具身份，非推导JD未写明的需求"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "CN_NOETIX|noetix|7",
+          "text_version_hash": "d523f335a4040f21c4533062c44081d90d205220c61e2bb7e1cd7d242ef40450",
+          "field": "requirements",
+          "start": 161,
+          "end": 164,
+          "quote": "lcm"
+        }
+      },
+      "SK_GO": {
+        "name": "Go",
+        "aliases": [
+          "Go",
+          "Golang"
+        ],
+        "type": "SOFTWARE_TOOL",
+        "definition": "Go编程语言或软件工具；按原文明示及局部要求关系编码。",
+        "include": "原文明示名称；保存语境、用途及原文证据。",
+        "exclude": "普通动词go不是Go语言；不推导上位或相邻软件。",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://go.dev/",
+          "checked": "2026-09-10",
+          "purpose": "官方资料确认工具身份"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "https://jobs.ashbyhq.com/1x/3ad18b50-52b3-4fc0-995f-19cea501a6bd",
+          "text_version_hash": "9cbd49093782b4f320bd2307006bed92e717c301bfc9a9e1eddcec085a462b2c",
+          "field": "full_description",
+          "start": 3984,
+          "end": 3986,
+          "quote": "Go"
+        }
+      },
+      "SK_JULIA": {
+        "name": "Julia",
+        "aliases": [
+          "Julia"
+        ],
+        "type": "SOFTWARE_TOOL",
+        "definition": "Julia编程语言或软件工具；按原文明示及局部要求关系编码。",
+        "include": "原文明示名称；保存语境、用途及原文证据。",
+        "exclude": "普通动词go不是Go语言；不推导上位或相邻软件。",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://julialang.org/",
+          "checked": "2026-09-10",
+          "purpose": "官方资料确认工具身份"
+        },
+        "development_example": {
+          "kind": "SYNTHETIC_TEACHING_NOT_EMPIRICAL",
+          "quote": "必须掌握Julia或Python。"
+        }
+      },
+      "SK_ZEPHYR": {
+        "name": "Zephyr RTOS",
+        "aliases": [
+          "Zephyr",
+          "Zephyr RTOS"
+        ],
+        "type": "SOFTWARE_TOOL",
+        "definition": "Zephyr RTOS编程语言或软件工具；按原文明示及局部要求关系编码。",
+        "include": "原文明示名称；保存语境、用途及原文证据。",
+        "exclude": "普通动词go不是Go语言；不推导上位或相邻软件。",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://docs.zephyrproject.org/latest/",
+          "checked": "2026-09-10",
+          "purpose": "官方资料确认工具身份"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "https://jobs.ashbyhq.com/neura-robotics-gmbh/3837d88b-ccba-4b7d-9892-b8099c8162e0",
+          "text_version_hash": "1f5e29174aa1074066215c637d6f97735e5d7734bd9d9bc9013e8c72c86ab26c",
+          "field": "full_description",
+          "start": 1286,
+          "end": 1292,
+          "quote": "Zephyr"
+        }
+      },
+      "SK_NUTTX": {
+        "name": "Apache NuttX",
+        "aliases": [
+          "NuttX"
+        ],
+        "type": "SOFTWARE_TOOL",
+        "definition": "Apache NuttX编程语言或软件工具；按原文明示及局部要求关系编码。",
+        "include": "原文明示名称；保存语境、用途及原文证据。",
+        "exclude": "普通动词go不是Go语言；不推导上位或相邻软件。",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://nuttx.apache.org/",
+          "checked": "2026-09-10",
+          "purpose": "官方资料确认工具身份"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "https://jobs.ashbyhq.com/neura-robotics-gmbh/3837d88b-ccba-4b7d-9892-b8099c8162e0",
+          "text_version_hash": "1f5e29174aa1074066215c637d6f97735e5d7734bd9d9bc9013e8c72c86ab26c",
+          "field": "full_description",
+          "start": 3505,
+          "end": 3510,
+          "quote": "NuttX"
+        }
+      },
+      "SK_FAST_DDS": {
+        "name": "Fast DDS",
+        "aliases": [
+          "FastDDS",
+          "Fast DDS"
+        ],
+        "type": "SOFTWARE_TOOL",
+        "definition": "Fast DDS编程语言或软件工具；按原文明示及局部要求关系编码。",
+        "include": "原文明示名称；保存语境、用途及原文证据。",
+        "exclude": "普通动词go不是Go语言；不推导上位或相邻软件。",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://fast-dds.docs.eprosima.com/en/latest/",
+          "checked": "2026-09-10",
+          "purpose": "官方资料确认工具身份"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "https://jobs.ashbyhq.com/neura-robotics-gmbh/3837d88b-ccba-4b7d-9892-b8099c8162e0",
+          "text_version_hash": "1f5e29174aa1074066215c637d6f97735e5d7734bd9d9bc9013e8c72c86ab26c",
+          "field": "full_description",
+          "start": 1422,
+          "end": 1429,
+          "quote": "FastDDS"
+        }
+      },
+      "SK_MICRO_XRCE_DDS": {
+        "name": "Micro XRCE-DDS",
+        "aliases": [
+          "Micro-XRCE-DDS",
+          "Micro XRCE-DDS"
+        ],
+        "type": "SOFTWARE_TOOL",
+        "definition": "Micro XRCE-DDS编程语言或软件工具；按原文明示及局部要求关系编码。",
+        "include": "原文明示名称；保存语境、用途及原文证据。",
+        "exclude": "普通动词go不是Go语言；不推导上位或相邻软件。",
+        "allowed_relations": [
+          "OWN_DEVELOP",
+          "OWN_USE",
+          "EXPERIENCE_REQUIREMENT",
+          "PROCUREMENT_OBJECT",
+          "PRODUCT_DEFINITION_OBJECT",
+          "RECRUITMENT_OBJECT",
+          "TEACHING_OBJECT",
+          "COLLABORATION_OBJECT",
+          "BACKGROUND",
+          "UNRESOLVED"
+        ],
+        "source_reference": {
+          "url": "https://micro-xrce-dds.docs.eprosima.com/en/latest/",
+          "checked": "2026-09-10",
+          "purpose": "官方资料确认工具身份"
+        },
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "record_id": "https://jobs.ashbyhq.com/neura-robotics-gmbh/3837d88b-ccba-4b7d-9892-b8099c8162e0",
+          "text_version_hash": "1f5e29174aa1074066215c637d6f97735e5d7734bd9d9bc9013e8c72c86ab26c",
+          "field": "full_description",
+          "start": 1434,
+          "end": 1448,
+          "quote": "Micro-XRCE-DDS"
+        }
+      }
+    },
+    "technical_concepts": {
+      "TC_FOUNDATION_MODEL": {
+        "name": "基础模型/VLA",
+        "type": "METHOD",
+        "definition": "明示基础模型、VLA或大规模预训练模型",
+        "include": "明示基础模型、VLA或大规模预训练模型",
+        "exclude": "只写AI或公司机器人愿景",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_RL": {
+        "name": "强化学习",
+        "type": "METHOD",
+        "definition": "明示强化学习方法",
+        "include": "明示强化学习方法",
+        "exclude": "控制或奖励一词不足",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_IL": {
+        "name": "模仿学习",
+        "type": "METHOD",
+        "definition": "明示模仿学习/行为克隆",
+        "include": "明示模仿学习/行为克隆",
+        "exclude": "采集示教不自动意味着模仿学习",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_MOTION_PLANNING": {
+        "name": "运动规划",
+        "type": "PROBLEM",
+        "definition": "明示轨迹或运动规划问题",
+        "include": "明示轨迹或运动规划问题",
+        "exclude": "项目计划不是运动规划",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_CONTROL": {
+        "name": "控制闭环",
+        "type": "PROBLEM",
+        "definition": "明示运动控制、动力学闭环、控制器",
+        "include": "明示运动控制、动力学闭环、控制器",
+        "exclude": "一般管理控制或仅训练模型",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_MANIPULATION": {
+        "name": "操作与灵巧操作",
+        "type": "PROBLEM",
+        "definition": "明示机器人抓取、操作或灵巧手操作",
+        "include": "明示机器人抓取、操作或灵巧手操作",
+        "exclude": "亲自操作设备不自动属于操作算法",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_PERCEPTION": {
+        "name": "感知与融合",
+        "type": "PROBLEM",
+        "definition": "明示视觉感知或传感器融合",
+        "include": "明示视觉感知或传感器融合",
+        "exclude": "使用图像或传感器硬件本身不足",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_SLAM": {
+        "name": "定位建图",
+        "type": "PROBLEM",
+        "definition": "明示SLAM或定位建图",
+        "include": "明示SLAM或定位建图",
+        "exclude": "导航不机械拆出SLAM",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_NAVIGATION": {
+        "name": "导航",
+        "type": "PROBLEM",
+        "definition": "明示自主导航",
+        "include": "明示自主导航",
+        "exclude": "SLAM不机械推导导航",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_ML_SYSTEMS": {
+        "name": "训练推理系统",
+        "type": "SYSTEM",
+        "definition": "明示训练基础设施、推理服务或训练编排",
+        "include": "明示训练基础设施、推理服务或训练编排",
+        "exclude": "通用软件不因服务AI自动纳入",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_DATA_PIPELINE": {
+        "name": "数据管线与资产",
+        "type": "SYSTEM",
+        "definition": "明示数据集、清洗标注管线、数据质量或资产",
+        "include": "明示数据集、清洗标注管线、数据质量或资产",
+        "exclude": "一般数据分析不自动纳入",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_SIMULATION": {
+        "name": "仿真环境",
+        "type": "SYSTEM",
+        "definition": "明示仿真器、物理仿真或仿真环境",
+        "include": "明示仿真器、物理仿真或仿真环境",
+        "exclude": "自身设计自测不等于仿真",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_SYNTHETIC_DATA": {
+        "name": "合成数据",
+        "type": "METHOD",
+        "definition": "明示生成或使用合成数据",
+        "include": "明示生成或使用合成数据",
+        "exclude": "仿真环境不自动意味着合成数据",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_EVALUATION": {
+        "name": "评测与表征",
+        "type": "PROBLEM",
+        "definition": "明示测量表征、基准评测或测试评价",
+        "include": "明示测量表征、基准评测或测试评价",
+        "exclude": "此概念不决定仿真评测主职能",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_EMBEDDED": {
+        "name": "嵌入式系统",
+        "type": "SYSTEM",
+        "definition": "明示嵌入式系统、固件或微控制器",
+        "include": "明示嵌入式系统、固件或微控制器",
+        "exclude": "仅硬件背景不自动纳入",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_REALTIME": {
+        "name": "实时系统",
+        "type": "SYSTEM",
+        "definition": "明示实时执行、实时系统或实时调度",
+        "include": "明示实时执行、实时系统或实时调度",
+        "exclude": "高性能不自动意味着实时",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_MECHANICAL": {
+        "name": "机械结构",
+        "type": "SYSTEM",
+        "definition": "明示结构、机构或机械传动",
+        "include": "明示结构、机构或机械传动",
+        "exclude": "工厂场所本身不足",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_ACTUATOR": {
+        "name": "执行器",
+        "type": "SYSTEM",
+        "definition": "明示执行器或电机",
+        "include": "明示执行器或电机",
+        "exclude": "电力电子不自动拆出执行器",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_POWER_ELECTRONICS": {
+        "name": "电力电子",
+        "type": "SYSTEM",
+        "definition": "明示电源、电机驱动或功率电路",
+        "include": "明示电源、电机驱动或功率电路",
+        "exclude": "执行器不自动拆出电力电子；电池、热管理不自动归入。",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_SAFETY": {
+        "name": "安全",
+        "type": "QUALITY",
+        "definition": "明示产品、系统或作业安全目标",
+        "include": "明示产品、系统或作业安全目标",
+        "exclude": "泛称合规须判明与安全关系",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_RELIABILITY": {
+        "name": "可靠性",
+        "type": "QUALITY",
+        "definition": "明示系统可靠性、寿命或故障目标",
+        "include": "明示系统可靠性、寿命或故障目标",
+        "exclude": "稳定团队等背景修辞不足",
+        "evidence": "职责、要求、背景分别记录；不得从主职能推导。"
+      },
+      "TC_ML_MODELS": {
+        "name": "机器学习模型",
+        "type": "METHOD",
+        "definition": "明确机器学习、监督学习、深度神经模型等对象；不把一般模型自动标成基础模型。",
+        "include": "明确机器学习、监督学习、深度神经模型等对象；不把一般模型自动标成基础模型。",
+        "exclude": "仅模型一词可能是物理模型；有具体子型时不自动补上位重复计数。",
+        "evidence": "每概念独立按职责/要求/背景及承担关系编码；不由主类或上位主题生成。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V06-053",
+          "record_id": "US_AGILITY|greenhouse|5973040004",
+          "text_version_hash": "d3694b187e27b7ad17b2c8a6fb0b1571f521dc2f7cb74f6089274d0331f1bd69",
+          "field": "requirements",
+          "start": 1167,
+          "end": 1229,
+          "quote": "Experience developing ML models for 3 or 6 dof pose estimation"
+        }
+      },
+      "TC_GENERATIVE_POLICY": {
+        "name": "生成式机器人策略",
+        "type": "METHOD",
+        "definition": "明确Diffusion Policy、Flow Matching、ACT等生成式动作策略模型。",
+        "include": "明确Diffusion Policy、Flow Matching、ACT等生成式动作策略模型。",
+        "exclude": "一般生成式AI或泛称控制算法不足，不自动等于VLA。",
+        "evidence": "每概念独立按职责/要求/背景及承担关系编码；不由主类或上位主题生成。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V06-054",
+          "record_id": "CN_XSQUARE|feishu|7517122388887095571",
+          "text_version_hash": "84c3bb1e757660ce2c5ec7ae695fe54c5f00a41fd50311038851b816f4fdd8f8",
+          "field": "requirements",
+          "start": 298,
+          "end": 388,
+          "quote": "2. 生成式策略模型: 熟悉Diffusion Policy、Flow Matching、Action Chunking Transformer等生成式机器人策略模型的原理与实现。"
+        }
+      },
+      "TC_THERMAL_MANAGEMENT": {
+        "name": "热管理与热设计",
+        "type": "SYSTEM",
+        "definition": "明确散热、热仿真、热路径或热布局设计。",
+        "include": "明确散热、热仿真、热路径或热布局设计。",
+        "exclude": "一般热情或硬件主题不足；热管理不自动标电力电子。",
+        "evidence": "每概念独立按职责/要求/背景及承担关系编码；不由主类或上位主题生成。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V06-055",
+          "record_id": "CN_SPIRITAI|feishu|7643721211734657299",
+          "text_version_hash": "8168bdb70c1fafa23ecfc064f9a14dcc1ff5b354fdfa6289d698d799c2c8bb60",
+          "field": "duties",
+          "start": 181,
+          "end": 235,
+          "quote": "4.  负责人形机器人热仿真及热管理设计,评估散热方案,优化导热路径、散热结构及热布局,提升持续工作能力; "
+        }
+      },
+      "TC_BATTERY": {
+        "name": "电池系统",
+        "type": "SYSTEM",
+        "definition": "明确电池组、电芯、电池系统设计或使用对象。",
+        "include": "明确电池组、电芯、电池系统设计或使用对象。",
+        "exclude": "电源电路、电机驱动不自动补电池；电池提及也不自动补电力电子。",
+        "evidence": "每概念独立按职责/要求/背景及承担关系编码；不由主类或上位主题生成。",
+        "development_example": {
+          "kind": "OBSERVED_AI_REVIEWED_DEVELOPMENT_EXAMPLE",
+          "study_id": "V06-059",
+          "record_id": "US_FIGURE|greenhouse|4697354006",
+          "text_version_hash": "ee29ecf4ae8b4ad8412462f4bb2d3a8f4d3c51d978a3ee81985bc0449f5d32b3",
+          "field": "duties",
+          "start": 36,
+          "end": 220,
+          "quote": "Develop and execute sourcing strategies for battery cells (pouch, cylindrical, prismatic) and pack-level components, including structural, thermal, and electromechanical subassemblies."
+        }
+      }
+    }
+  }
+}

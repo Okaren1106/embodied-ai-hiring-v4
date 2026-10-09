@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "arithmetic_and_identity_checks": 11083,
+  "source_coding_independently_validated": false,
+  "unknown_bounds": "Unrestricted Q-state outer assignment bounds; no sharpness claim.",
+  "full_sample_pairing_algebra": [
+    {
+      "task": "ROBOT_MODEL",
+      "paired_confirmed_gap_pp": 19.047619047619047,
+      "v4_marginal_difference_pp": 19.047619047619047,
+      "v3_historical_marginal_difference_pp": 18.095238095238095,
+      "same_version_identical": true
+    },
+    {
+      "task": "ROBOT_RUNTIME",
+      "paired_confirmed_gap_pp": -10.344827586206897,
+      "v4_marginal_difference_pp": -10.344827586206897,
+      "v3_historical_marginal_difference_pp": -10.344827586206897,
+      "same_version_identical": true
+    },
+    {
+      "task": "BOARD_CIRCUIT",
+      "paired_confirmed_gap_pp": -17.857142857142858,
+      "v4_marginal_difference_pp": -17.857142857142858,
+      "v3_historical_marginal_difference_pp": -17.857142857142858,
+      "same_version_identical": true
+    }
+  ],
+  "flagged_task_boundary_ads": 4,
+  "diagnostic_ads": 94,
+  "undocumented_task_support_must_not_be_called_verified": true,
+  "conceptual_findings_file": "audit/paired_analysis_conceptual_audit.md"
+}

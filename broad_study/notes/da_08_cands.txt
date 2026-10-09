@@ -1,0 +1,722 @@
+==== 1 N0205 nC=1 nI=3 empty=[]
+TITLE 数采场运营负责人-扬州
+DUTY 岗位定位  作为数采场经营管理第一责任人，对数采场有效产能、数据质量和项目交付负责；通过独立核验、验收、整改和绩效考核，对运营商实施全过程履约管理。     岗位职责  承接经营及产能目标，制定并落实月、周、日生产计划，对有效产能达成负责； 监督运营商人员投入、出勤、设备使用、生产进度和数据质量，独立核验运营数据并推动问题整改； 统筹数采任务导入、试采、产能爬坡、批量生产、质检返工及最终交付； 优化数采工艺、排班和资源配置，持续提升人效
+1 V2_PROCUREMENT | 有第三方运营商、外包团队、承包商或供应商管理经验，能够建立监督、验收、整改和考核闭环；
+
+==== 2 N0728 nC=27 nI=14 empty=[]
+TITLE Data Platform Engineer, Autonomy Analytics
+DUTY What You'll Get To Do Design and build the data platform, frameworks, and developer tooling that power ingestion across Field AI. Handle the realities of field data: intermittent connectivity, large sensor payloads (LiDA
+1 V2_CAN | Develop connectors and APIs (REST/gRPC, webhooks, CDC) so internal teams can feed data in and consume curated datasets reliably.
+2 - | Develop connectors and APIs (REST/gRPC, webhooks, CDC) so internal teams can feed data in and consume curated datasets reliably.
+3 - | Develop connectors and APIs (REST/gRPC, webhooks, CDC) so internal teams can feed data in and consume curated datasets reliably.
+4 - | Develop connectors and APIs (REST/gRPC, webhooks, CDC) so internal teams can feed data in and consume curated datasets reliably.
+5 - | CDC
+6 V2_C | (C++, Scala, or Java a plus).
+7 - | Scala
+8 V2_KAFKA | streaming systems (Kafka, Kinesis, Pub/Sub)
+9 V2_KAFKA | Kafka
+10 - | Kinesis
+11 - | Pub/Sub
+12 V2_AIRFLOW | Airflow or Dagster
+13 V2_AIRFLOW | Airflow
+14 - | Dagster
+15 V2_SNOWFLAKE,V2_DATABRICKS | warehouse or lakehouse (BigQuery, Snowflake, Databricks, Redshift)
+16 - | BigQuery
+17 V2_SNOWFLAKE | Snowflake
+18 V2_DATABRICKS | Databricks
+19 - | Redshift
+20 - | ELT
+21 - | Fivetran
+22 - | Airbyte
+23 - | Debezium
+24 V2_INCIDENT_SUPPORT | Experience building for data quality: testing, monitoring, lineage, and incident response.
+25 V2_MCAP,V2_ROSBAG | ROS/ROS2, MCAP, or rosbag
+26 V2_MCAP | MCAP
+27 V2_ROSBAG | rosbag
+
+==== 3 N0571 nC=13 nI=40 empty=[]
+TITLE 具身智能 Ego 数据算法工程师
+DUTY 岗位职责 - 探索 EgoCentric 数据在具身大模型中的应用，推动其在机器人学习、任务理解与策略训练中的落地。 - 负责机器人真机 Benchmark 的设计与搭建，包括任务定义、评测指标设计、自动化评测流程开发及结果分析。 - 支持 FluxVLA 等 VLA 模型训练与评测所需的数据生产、数据清洗、质量评估与持续迭代。 - 建设机器人真机与仿真环境的数据管理体系，涵盖数据组织、版本管理、数据检索、数据资产沉淀等方向。 - 参与
+1 V2_WORLD_MODEL | - 跟踪机器人学习、VLA、World Model、模仿学习等前沿方向，参与开源数据集接入、数据分析与实验验证。
+2 V2_TELEOP | - 主导建立 UMI、遥操作、真机、仿真等多源机器人数据的标准化生产规范与评测体系。
+3 V2_WORLD_MODEL | - 熟悉深度学习、大模型或多模态模型相关技术，对 VLA、Vision-Language Model、机器人学习、World Model 等方向有一定理解。
+4 V2_GIT | - 具备良好的代码习惯，能够编写结构清晰、可维护、可复用的代码，熟悉 Git 协作流程。
+5 V2_GIT | Git
+6 V2_WORLD_MODEL | - 有 VLA、机器人学习、模仿学习、强化学习、Diffusion Policy、Action Chunking、World Model 等相关项目经验。
+7 - | LIBERO
+8 - | RoboCasa
+9 V2_MODEL_COMPRESSION | - 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。
+10 - | Transformers
+11 V2_MODEL_COMPRESSION | LoRA
+12 - | 深度参与 FluxVLA 开源 codebase 的核心开发，积累高质量开源项目的工程经验。
+13 V2_WORLD_MODEL | - 接触 VLA、大模型、World Model、机器人学习等具身智能前沿方向，提升算法理解与工程落地能力。
+
+==== 4 N0404 nC=5 nI=17 empty=[]
+TITLE 大模型数据标注工程师
+DUTY 岗位职责 1. 负责基于 VLM 的具身智能数据预标注体系建设，通过模型微调提升系统对机器人操作、环境感知等复杂场景的 2D/3D 自动化识别精度。 2. 主导构建涵盖 2D 图像语义、3D 点云空间位置及多模态文本描述的自动化标注流水线，实现从原始传感器数据到高质量训练集的快速转化。 3. 研发并优化在线自动打标（Online Labeling）系统，支持在数据采集过程中实时生成伪标签，并基于模型置信度进行自动化的数据初筛。 4. 制
+1 V2_POSTTRAINING | 2. 深入理解 VLM（如 CLIP, LLaVA 等）的架构原理，精通 SFT、RLHF 等微调技术，并有实际的多模态数据处理项目背景。
+2 - | CLIP
+3 - | LLaVA
+4 V2_POSTTRAINING | 精通 SFT、RLHF 等微调技术
+5 V2_POSTTRAINING | 精通 SFT、RLHF 等微调技术
+
+==== 5 E0364 nC=17 nI=13 empty=[]
+TITLE Staff Software Engineer, Data Platform
+DUTY Data Ingestion: Design and implement scalable data pipelines for ingesting and processing telemetry, logs and sensor data from our fleet of robots and associated cloud software Data Agents: Develop and maintain data inge
+1 V2_SPARK,V2_KAFKA | Big Data Processing: Implement solutions to prepare high volume, high velocity data for analysis using technologies such as Spark, Kafka or equivalent
+2 V2_AWS | Cloud Platform: Build and optimize tools for internal stakeholders for business intelligence and long-horizon fleet analytics and forecasting using ex
+3 V2_AWS,V2_GCP,V2_AZURE | 5+ years of strong experience in building and scaling cloud-based data platforms with familiarity in cloud providers like AWS, GCP or Azure.
+4 V2_SPARK,V2_FLINK,V2_KAFKA | Proficient in big data frameworks like Spark, Kafka, Beam, Flink etc
+5 V2_PARQUET | Familiarity with OSS data formats like Parquet, Arrow, Iceberg and protocols like Avro and Protobuf.
+6 V2_PROMETHEUS | Experience with observability tools(e.g. OpenTelemetry, Prometheus etc) and implementing metrics, tracing and logging systems
+7 V2_DATABRICKS,V2_UNITY | Data catalog experience (Datahub, Amundsen, Databricks Unity Catalog)
+8 V2_DATABRICKS | Experience with Databricks
+9 V2_BAZEL | Experience with Bazel/Blaze or other build systems
+10 V2_C | Experience with C++, Rust
+11 V2_MCAP | Experience with robot data formats like mcap, ROS etc and data playback and visualization tooling like Rerun etc.
+12 V2_USD | $299,000 USD
+13 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+14 - | fluentbit, OpenTelemetry
+15 V2_AWS | AWS S3, Athena, Sagemaker
+16 V2_SPARK,V2_FLINK,V2_KAFKA | Spark, Kafka, Beam, Flink
+17 V2_DATABRICKS,V2_UNITY | Datahub, Amundsen, Databricks Unity Catalog
+
+==== 6 E0170 nC=2 nI=10 empty=[]
+TITLE Umi无本体算法工程师
+DUTY 1、XR Zero工业级数据管线搭建:负责开源无本体数据集与真实机器人自采数据的采集、筛选、清洗及规范化处理;构建自动化数据质量评估与筛选管线,确保数据多样性、质量与规模化供应;  2、VLA/WAM模型研发与部署:深度参与基于UMI/EGO数据的VLA/WAM模型预训练、后训练及真实机器人部署工作,包括模型架构选型、训练策略设计、性能优化及闭环验证;重点探索并优化UMI/EGO数据在预训练与后训练阶段的动态配比策略。 
+1 V2_POSTTRAINING |  2、VLA/WAM模型研发与部署：深度参与基于UMI/EGO数据的VLA/WAM模型预训练、后训练及真实机器人部署工作，包括模型架构选型、训练策略设计、性能优化及闭环验证；重点探索并优化UMI/EGO数据在预训练与后训练阶段的动态配比策略。
+2 V2_GIT,V2_PANDAS | 4. 精通 Python 编程，熟练使用 Pandas、NumPy 等核心数据处理工具，能够独立完成完整的数据处理流程开发；熟悉 Linux 环境与 Git 等常用开发工具，具备良好的工程开发规范。
+
+==== 7 N0101 nC=5 nI=26 empty=[]
+TITLE 具身多模态大模型算法工程师（数据方向）
+DUTY 1.负责具身多模态大模型的数据闭环建设：设计并落地从数据清洗、标注、筛选、验证到入库的数据处理体系，统一团队内数据标准，构建可复用的数据pipeline，支撑模型持续迭代。  2.负责模型侧的数据蒸馏与数据质量优化：设计高质量数据蒸馏方案（包括teacher-student、轨迹筛选、reward-based filtering等）构建数据质量评估指标体系（成功率、可学习性、多样性等）持续提升训练数据质量，支撑基模能力提升  3.负责具
+1 V2_POSTTRAINING | 3.负责具身智能大模型的训练与迭代优化：参与VLA（Vision-Language-Action）模型训练（预训练 / SFT / RL / imitation learning）优化训练策略（loss设计、数据配比、multi-task学习等）分析训练问题（如策略偏移、过拟合、动作退化等）
+2 V2_POSTTRAINING | 能够独立设计数据清洗、筛选、验证流程理解数据对模型性能的影响机制（数据分布、偏差、噪声等）熟悉常见训练范式：imitation learning 、offline RL / RLHF等
+3 V2_PANDAS,V2_SPARK | 熟悉大规模数据处理（Python / NumPy / Pandas / Spark等）
+4 V2_PANDAS | Pandas
+5 V2_SPARK | Spark
+
+==== 8 E0073 nC=1 nI=15 empty=[]
+TITLE 具身智能AI平台研发工程师
+DUTY 1、负责数据工厂平台的业务流程开发,实现数据采集任务派发、人员/设备调度、数据标注、质量监控等全流程管理功能。 2、参与统一资源调度引擎的开发与维护,协调数据采集、模型训练与评测的资源分配。 3、负责MLOps平台的功能模块开发,支持VLA模型的训练与评测流程。 4、参与跨云-边-端系统的功能实现与性能优化,确保系统的稳定性与可靠性。 5、与机器人团队、算法团队紧密协作,参与开发自动化工具,提升研发效率。 6、持续优化数据存储与处理流程
+1 V2_SQL_MYSQL,V2_POSTGRESQL,V2_MONGODB | 5、熟悉MySQL、PostgreSQL、MongoDB等数据库，具备数据库设计与优化能力。
+
+==== 9 E0556 nC=2 nI=4 empty=[]
+TITLE Shift Coordinator, Data Creators (SP)
+DUTY A Figure é uma empresa de robótica e IA que desenvolve robôs humanoides autônomos de uso geral. O objetivo da empresa é lançar robôs humanoides com inteligência de nível humano. Seus robôs são projetados para executar um
+1 V2_MS_PROJECT | Atuar em parceria com os Project Coordinators e o time de Data Quality para identificar e resolver problemas no momento da criação dos dados.
+2 V2_MOCAP | Experiência com robótica, sistemas autônomos, captura de movimento (motion capture) ou dados para IA física.
+
+==== 10 E0591 nC=1 nI=3 empty=[]
+TITLE Shift Lead
+DUTY - Onsite Floor Operations: Provide daily boots-on-the-ground leadership to drive data collection, verify availability of stations, props, and staffing, and ensure production continues smoothly during disruptions or staff
+1 V2_CAN | -  Clear, direct communicator who can translate operational gaps into structured feedback for technical teams; outstanding collaboration skills in cro
+
+==== 11 N0510 nC=5 nI=12 empty=[]
+TITLE 具身智能算法专家（自动标注）
+DUTY 【工作职责】  - 负责具身导航数据自动标注算法研发与体系建设，提升标注效率，降低标注成本  - 探索预训练模型、弱监督学习、主动学习等技术在自动标注中的应用  - 建立标注质量评测与迭代机制，设计评测指标，建立评测流程  - 统筹自动标注工具链建设，与标注平台、数据平台对接  - 带领算法团队，指导算法工程师的工作  - 输出算法设计文档、技术方案，组织技术评审  【岗位要求】  - 硕士及以上学历，计算机、电子工程、自动化、数学等相
+1 V2_MCAP | - 有很强的成本意识与效率意识5、加分项：有自动驾驶、具身智能、大模型数据闭环、数据标注平台或 AI 工具链相关经验优先，熟悉 ROS、MCAP、OpenDrive、Apollo、Autoware 等数据生态者优先。
+2 V2_MCAP | MCAP
+3 - | OpenDrive
+4 - | Apollo
+5 - | Autoware
+
+==== 12 N0991 nC=8 nI=7 empty=[]
+TITLE Data Operations Supervisor- 1st shift
+DUTY Boston Dynamics is a world leader in mobile robots, tackling some of the toughest robotics challenges. We combine the principles of dynamic control and balance with sophisticated mechanical designs, cutting-edge electron
+1 V2_TELEOP | The RMAC team plays a critical role in advancing this mission by delivering high-impact capabilities that enable scalable, reliable, and cutting-edge 
+2 V2_TELEOP | Oversee contractors and internal employees responsible for ML annotation tasks, robot teleoperation, and building data assets.
+3 V2_JIRA | Strong written and verbal communication skills. Email, chat, Jira, slide decks, and documents will all be part of the workflow.
+4 V2_JIRA | Email, chat, Jira, slide decks, and documents will all be part of the workflow.
+5 - | VR
+6 V2_JIRA,V2_GOOGLE_WORKSPACE | Ideal candidates will also have experience with Google Workspace, Jira, and other tools
+7 V2_GOOGLE_WORKSPACE | Google Workspace
+8 V2_JIRA | Jira
+
+==== 13 N0715 nC=1 nI=3 empty=[]
+TITLE Technical Product Manager - Data Annotation & Labelling
+DUTY Company Overview At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine lea
+1 V2_USD | $300,000 USD
+
+==== 14 N0956 nC=8 nI=19 empty=[]
+TITLE Member of Technical Staff, PM-T, Frontier AI & Robotics (FAR)
+DUTY Description We are seeking a Product Manager, Data Strategy & Physical AI to define and execute the long-term product vision for FAR's AI-powered robotics platform. The intersection of foundation models and physical inte
+1 V2_CAN | We are seeking a Product Manager, Data Strategy & Physical AI to define and execute the long-term product vision for FAR's AI-powered robotics platfor
+2 - | Partner with operations, privacy, legal, and security teams to build enterprise-grade data management pipelines that programmatically enforce data min
+3 - | Partner with operations, privacy, legal, and security teams to build enterprise-grade data management pipelines that programmatically enforce data min
+4 V2_MODEL_COMPRESSION | Data Quality & Token Curation: Implement automated telemetry filtering and dataset pruning strategies to identify high-value operational logs, elimina
+5 V2_CAN | What sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's computational infrastructure and 
+6 - | MLOps
+7 V2_CUSTOMER_SERVICE | Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adher
+8 V2_HR | for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.
+
+==== 15 E0079 nC=0 nI=2 empty=[]
+TITLE 机器人数据运营工程师
+DUTY 1. 负责机器人数据工程的全流程实施,包括数据采集、清洗、审核、标注、归档、上传等。 2. 负责分析和解决数据采集过程中遇到的机器人硬件异常、网络通信故障、数采软件及系统异常。 3. 负责制定和实施数据采集规范、质量评估标准、数采员培训教程、数据版本控制方法。 4. 负责机器人数据采集方案的落实,包括机器人硬件管理、场景搭建、任务分配、数采员排班等。 5. 负责数据资产的全生命周期管理与运营(版本管理、质量度量、安全合规) ,保证数据规
+
+==== 16 N0316 nC=4 nI=35 empty=[]
+TITLE 具身数据算法工程师
+DUTY 1. 负责具身智能数据体系建设   - 构建高质量数据获取与管理流程，支撑具身智能模型训练与迭代   - 设计数据标准（状态、动作、视觉、多模态信息等）及数据结构 2. 设计与实现高效数据采集方案   - 基于真实机器人、仿真环境（如遥操作、自动采集等）进行数据获取   - 探索多种数据来源：人类演示（teleoperation）、仿真生成、自监督采集等   - 提升数据采集效率与覆盖多样性 3. 数据质量评估与优化   - 定义“高质
+1 V2_TELEOP |   - 基于真实机器人、仿真环境（如遥操作、自动采集等）进行数据获取
+2 V2_TELEOP |   - 探索多种数据来源：人类演示（teleoperation）、仿真生成、自监督采集等
+3 V2_C |   - 扎实的编程能力（Python / C++）
+4 V2_TELEOP |   - 有遥操作数据采集或人类演示数据经验
+
+==== 17 N0901 nC=3 nI=11 empty=[]
+TITLE Head of Data Collection Operations, Nimble Brain
+DUTY About Nimble Nimble is an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, 
+1 V2_C | Nimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx
+2 V2_PROCUREMENT | In this role, you will manage the operational systems and teams responsible for sourcing, collecting, labeling, auditing, and delivering the data that
+3 V2_SOP_OPERATION | Continuously improve tooling, documentation, and standard operating procedures for data operations as Nimble scales.
+
+==== 18 N0214 nC=8 nI=9 empty=[]
+TITLE 大数据开发工程师（湖仓一体）
+DUTY 【工作职责】  1.负责具身智能数据基础设施架构建设  2.构建 PB-EB 级多模态数据基础设施，支撑视频、图片、日志、标签等数据统一管理；  3.建设面向端到端模型训练的数据供应链（Data Supply Chain），支撑数据生产、治理、交付及持续迭代；  4.建设元数据、Catalog、权限治理、数据质量、数据血缘等基础能力；  5.建设统一数据服务能力，支撑训练、分析、评测及业务系统的数据访问；  6.建设数据开发、数据分析、
+1 V2_C | 3.熟悉至少一门主流工程语言：Python / Java / Go / C++；
+2 V2_SPARK,V2_FLINK | 5.熟悉 Spark、Flink、Trino 等计算引擎；
+3 V2_SPARK | Spark
+4 V2_FLINK | Flink
+5 - | Trino
+6 - | Iceberg
+7 - | Paimon
+8 - | Hudi
+
+==== 19 N0729 nC=30 nI=22 empty=[]
+TITLE Data Platform Engineer, Data Pipelines
+DUTY Location: Irvine, CA Field AI is transforming how robots interact with the real world. We are building risk-aware, reliable, and field-ready AI systems that address the most complex challenges in robotics, unlocking the 
+1 V2_CAN | Develop connectors and APIs (REST/gRPC, webhooks, CDC) so internal teams can feed data in and consume curated datasets reliably.
+2 - | Develop connectors and APIs (REST/gRPC, webhooks, CDC) so internal teams can feed data in and consume curated datasets reliably.
+3 - | Develop connectors and APIs (REST/gRPC, webhooks, CDC) so internal teams can feed data in and consume curated datasets reliably.
+4 - | Develop connectors and APIs (REST/gRPC, webhooks, CDC) so internal teams can feed data in and consume curated datasets reliably.
+5 - | CDC
+6 V2_C | (C++, Scala, or Java a plus).
+7 - | Scala
+8 V2_KAFKA | streaming systems (Kafka, Kinesis, Pub/Sub)
+9 V2_KAFKA | Kafka
+10 - | Kinesis
+11 - | Pub/Sub
+12 V2_AIRFLOW | Airflow or Dagster
+13 V2_AIRFLOW | Airflow
+14 - | Dagster
+15 V2_SNOWFLAKE,V2_DATABRICKS | warehouse or lakehouse (BigQuery, Snowflake, Databricks, Redshift)
+16 - | BigQuery
+17 V2_SNOWFLAKE | Snowflake
+18 V2_DATABRICKS | Databricks
+19 - | Redshift
+20 - | ELT
+21 - | Fivetran
+22 - | Airbyte
+23 - | Debezium
+24 V2_INCIDENT_SUPPORT | Experience building for data quality: testing, monitoring, lineage, and incident response.
+25 V2_MCAP,V2_ROSBAG | ROS/ROS2, MCAP, or rosbag
+26 V2_MCAP | MCAP
+27 V2_ROSBAG | rosbag
+28 V2_DBT | dbt
+29 V2_DBT | dbt
+30 V2_OFFICE | Field AI believes in-person collaboration is essential for tackling complex challenges. These are fully onsite roles based in our Irvine office, with 
+
+==== 20 N0417 nC=7 nI=9 empty=[]
+TITLE 分布式数据工程师
+DUTY 岗位职责 1. 端到云数据回传系统：构建从千台级机器人到云端的实时数据回传链路，解决跨地域、弱网环境下的高吞吐、低延迟传输问题，确保数据完整性与时序一致性。 2. 云端数据存储与管理：设计并实现 PB 级规模的数据存储系统，支持高并发写入与高效读取，满足训练侧对数据吞吐量的极致需求。 3. 分布式数据流水线：构建从数据采集、传输、存储到训练消费的端到端流水线，实现数据的高效流转，消除训练过程中的 I/O 瓶颈。 4. 系统可靠性与可观测
+1 V2_C | 1. 扎实的软件工程基础：精通 Python，具备 C++/Rust 等系统编程语言经验；有良好的代码设计能力与工程实践习惯。
+2 V2_TCPIP | 3. 计算机网络：熟悉 TCP/IP 协议栈，理解网络传输的性能优化原理；有弱网环境下的系统设计经验者优先。
+3 V2_TCPIP | 3. 计算机网络：熟悉 TCP/IP 协议栈，理解网络传输的性能优化原理；有弱网环境下的系统设计经验者优先。
+4 V2_KAFKA | 4. 分布式中间件：熟悉主流消息队列（Kafka/RabbitMQ）、对象存储（S3）、数据库等中间件的原理与使用，具备生产环境下的调优经验。
+5 V2_KAFKA | Kafka
+6 - | RabbitMQ
+7 - | S3
+
+==== 21 N0430 nC=7 nI=11 empty=[]
+TITLE 分布式数据工程师
+DUTY 岗位职责 岗位背景 我们是智元机器人具身研究中心的 Infra 团队，正在为千台级机器人（Embodied AI）构建连接"物理世界"与"云端训练"的闭环数据基础设施。 本岗位聚焦于大规模分布式数据系统的构建。你需要将物理分布在不同地点的数千台机器人产生的数据，实时、可靠地回传至云端，并高效接入大规模分布式训练集群。这是一个需要足够 Scale、足够健壮的分布式系统工程挑战。 核心职责 1. 端到云数据回传系统：构建从千台级机器人到云端
+1 V2_C | 1. 扎实的软件工程基础：精通 Python，具备 C++/Rust 等系统编程语言经验；有良好的代码设计能力与工程实践习惯。
+2 V2_TCPIP | 3. 计算机网络：熟悉 TCP/IP 协议栈，理解网络传输的性能优化原理；有弱网环境下的系统设计经验者优先。
+3 V2_TCPIP | 3. 计算机网络：熟悉 TCP/IP 协议栈，理解网络传输的性能优化原理；有弱网环境下的系统设计经验者优先。
+4 V2_KAFKA | 4. 分布式中间件：熟悉主流消息队列（Kafka/RabbitMQ）、对象存储（S3）、数据库等中间件的原理与使用，具备生产环境下的调优经验。
+5 V2_KAFKA | Kafka
+6 - | RabbitMQ
+7 - | S3
+
+==== 22 N0407 nC=9 nI=6 empty=[]
+TITLE 数据闭环工程师(指标+数据集)
+DUTY 岗位职责 1、运营指标体系建设 -制定机器人的运营指标树 -开发运营指标和数据看板用于追踪机器人运营情况 2、交互质量保障 -开发交互运营指标和看板 -开发机器人交互的离线评测指标，结合用户行为数据优化测试方案，提升语音交互用户体验 -维护数据清洗和筛选的pipeline，用于测试数据集更新 3、数据分析 -从运营看板和指标中定期得出基础分析，指导后续的研发方向 4、协作与交付 与产品、开发团队协作，参与需求评审、测试计划制定及缺陷跟踪
+1 V2_SPARK,V2_PYTEST | -掌握python，熟悉常用库，例如：pyspark，requests，pytest的使用
+2 V2_SPARK | pyspark
+3 - | requests
+4 V2_PYTEST | pytest
+5 - | -熟悉语音交互流程和测试：覆盖ASR（语音识别）、NLU（自然语言理解）、TTS（语音合成）
+6 - | -熟悉语音交互流程和测试：覆盖ASR（语音识别）、NLU（自然语言理解）、TTS（语音合成）
+7 - | -熟悉语音交互流程和测试：覆盖ASR（语音识别）、NLU（自然语言理解）、TTS（语音合成）
+8 V2_CI_CD | -熟悉Docker等工具，支持CI/CD流程集成
+9 V2_CI_CD | -熟悉Docker等工具，支持CI/CD流程集成
+
+==== 23 N0215 nC=1 nI=10 empty=[]
+TITLE 数据闭环工程师
+DUTY 【岗位职责】  1.负责数据闭环体系的设计，制定数据采集、标注、训练、验证到闭环回流的整体战略和技术路线；  2.推进数据处理流程的统一化，构建数据处理pipeline，标准化数据质量校验流程。  3.推动数据平台与下游算法模块系统的深度集成，支撑端到端算法快速迭代；  4.结合车队运营和量产闭环需求，制定数据采集与筛选策略，提升数据价值密度，降低数据处理与训练成本；  5.建立数据与模型的质量评价体系，推动自动化评测与验证标准化，确保
+1 - | 模型管理(MLOps)
+
+==== 24 N0487 nC=10 nI=31 empty=[]
+TITLE 具身智能数据算法工程师
+DUTY 参与构建具身智能数据闭环，从数据采集、自动标注、仿真生成到挖掘增强，全方位支撑模型训练与迭代。具体工作包括但不限于：  1、自动标注与操作数据处理：开发操作数据的自动标注算法（关键点检测、动作切片、抓取轨迹提取等），构建预标注pipeline与人机协同标注流程，建立质量评估体系，持续提升标注效率与覆盖率。  2、仿真数据生成：搭建仿真环境，开发多样化场景数据生成pipeline，研究Sim-to-Real迁移算法与Diffusion M
+1 V2_SIM2REAL,V2_MODEL_COMPRESSION | 2、仿真数据生成：搭建仿真环境，开发多样化场景数据生成pipeline，研究Sim-to-Real迁移算法与Diffusion Model合成数据方案，建立域差异量化评估体系。
+2 - | 3、数据挖掘与增强：研发数据挖掘算法自动发现高价值片段与长尾case，设计主动学习策略指导采集优先级，基于生成模型（SD/ControlNet等）开发数据增强方案，解决少样本场景数据不足问题。
+3 - | 3、数据挖掘与增强：研发数据挖掘算法自动发现高价值片段与长尾case，设计主动学习策略指导采集优先级，基于生成模型（SD/ControlNet等）开发数据增强方案，解决少样本场景数据不足问题。
+4 V2_UNITY,V2_UNREAL,V2_SIM2REAL,V2_CMF_DESIGN | 仿真方向：熟悉Isaac Sim/Isaac Lab或Unity/Unreal等仿真平台；了解3D场景建模、材质、光照渲染基础及Sim-to-Real Gap相关技术。
+5 V2_UNITY | Unity
+6 V2_UNREAL | Unreal
+7 V2_TELEOP | 有机器人操作/遥操作数据、仿真数据生成或合成数据项目经验
+8 V2_3D_RECONSTRUCTION | 有3D重建（NeRF/Gaussian Splatting）或Diffusion Model/视频生成模型经验
+9 V2_3D_RECONSTRUCTION | 3D重建（NeRF/Gaussian Splatting）
+10 - | 3D重建（NeRF/Gaussian Splatting）
+
+==== 25 N0513 nC=7 nI=19 empty=[]
+TITLE 数据引擎工程师（具身智能）
+DUTY 岗位定位  负责具身智能数据平台的数据引擎建设，面向大规模多模态数据场景，构建数据接入、湖仓存储、分布式处理、混合检索和数据治理能力，为平台服务、算法训练、评测分析和 MLOps 链路提供稳定、高效的数据底座。     岗位职责  1、负责具身智能数据引擎建设，支撑多来源、多模态、大规模数据的统一接入、处理、检索和服务化输出。  2、建设 PB 级多模态数据湖仓能力，提升数据分层组织、统一管理、高效访问和存储成本优化能力。  3、建设大
+1 V2_C | 3、精通 Python、C++、Java 中至少一种语言，熟练使用SQL，熟悉Linux、对象存储、分布式文件系统、批处理/流处理、任务调度、数据校验等基础技术。
+2 V2_PARQUET,V2_MCAP,V2_ROSBAG | 5、加分项：有自动驾驶/具身智能数据闭环经验；熟悉具身或自驾相关数据格式，如 ROS/ROS2、rosbag/MCAP、HDF5、Parquet/Arrow 等；有湖仓架构、多模态数据处理、传感器数据处理、数据集生产相关经验。
+3 V2_ROSBAG | rosbag
+4 V2_MCAP | MCAP
+5 - | HDF5
+6 V2_PARQUET | Parquet
+7 - | Arrow
+
+==== 26 N0507 nC=2 nI=12 empty=[]
+TITLE 数据平台工程师（具身智能）
+DUTY 岗位定位负责具身智能数据平台建设，围绕数据生产、标注协作、问题分析、评测分析和数据闭环，沉淀面向算法、数据产线和具身软件团队的通用平台能力。     岗位职责  1、参与数据平台服务层的架构设计与核心能力建设，抽象数据资产、数据集、任务、流程、Case、评测等平台对象，形成稳定、可扩展的平台服务能力。  2、负责标注平台能力建设，支持多模态数据标注、任务分发、质检审核、进度追踪和结果管理，提升数据生产效率与质量。  3、建设问题分析与评
+1 V2_TYPESCRIPT | 3、精通 Python、Go、Java、TypeScript 中至少一种语言，熟悉前后端开发范式、数据库、对象存储、缓存等技术。
+2 V2_TYPESCRIPT | TypeScript
+
+==== 27 N0494 nC=0 nI=9 empty=[]
+TITLE 算法工程师（自动标注）
+DUTY 【岗位职责】  1. 负责具身导航数据自动标注算法研发，提升标注效率与质量  2. 探索预训练模型、弱监督学习、主动学习等技术在自动标注中的应用  3. 参与自动标注评测体系建设，设计评测指标，建立评测流程  4. 配合自动标注工具链建设，提供算法支持  5. 跟踪自动标注领域前沿技术，持续优化算法效果  6. 输出算法设计文档、技术方案，组织技术评审  【任职要求】  1. 计算机、电子工程、自动化、数学等相关专业  2. 熟悉预训练
+
+==== 28 N0151 nC=4 nI=15 empty=[]
+TITLE 机器人全栈工程师（初/中/高级）
+DUTY 本岗位聚焦机器人数采全链路、模型训练准备及技术创新，寻找热爱机器人行业的机器人全栈工程师（覆盖初/中/高各级能力），负责各类数据采集和处理链路搭建、数据治理及模型训练前期准备工作，与行业顶尖团队并肩，共同加速具身智能落地干活。  * 利用扎实的机器人系统、控制、感知等全栈知识，搭建并优化机器人数据采集链路，负责机器人真机数采与无本体数采方案设计与落地，保障各类采集数据的完整性、准确性、有效性。  * 负责数据清洗、标注、格式转换及数据集
+1 V2_INCIDENT_SUPPORT | * 基于机器人操作系统完成相关开发、仿真调试，配合完成真机数采、无本体数采相关的整机联调、故障排查，沉淀技术文档与标准化流程（高级岗需主导链路架构设计）。
+2 V2_C,V2_INCIDENT_SUPPORT | * 技术能力：熟悉基础通信及工业总线，能完成真机数采、无本体数采链路的数据协议设计实现与故障排查（高级岗需精通数采链路架构设计与复杂故障攻坚）。掌握C/C++、Python，熟悉机器人操作系统、Linux基础，具备机器人全栈知识，掌握数据采集、数据治理及模型训练基础，能完成对应职位层级的数据采集与模
+3 V2_C | C
+4 V2_HR | * 极具竞争力的薪酬（按能力层级匹配）。
+
+==== 29 N0161 nC=6 nI=4 empty=[]
+TITLE 机器人数采管理
+DUTY 职位描述：  1.负责搭建和验证具身智能数据采集标注工作流程；  2.负责管理数据采集/标注任务、工具和团队；  3.负责调研、测试、导入数据采集、标注平台或者供应商；  4.负责收集解决数据采集标注工程中的各种问题，并给数据平台产品、供应商提出优化建议；  5.负责沟通、导入、管理数采/标注需求，跟踪算法团队完成数据到算法的闭环验证流程。     职位要求：  1.计算机、软件工程、机器人、自动化相关专业应届毕业生或者1~2年工作经验
+1 V2_PROCUREMENT | 3.负责调研、测试、导入数据采集、标注平台或者供应商；
+2 V2_PROCUREMENT | 4.负责收集解决数据采集标注工程中的各种问题，并给数据平台产品、供应商提出优化建议；
+3 V2_BLENDER,V2_UNREAL | 4.了解DCC设计流程，熟悉unreal、blender等3D制作渲染工具的优先；
+4 - | 了解DCC设计流程
+5 V2_UNREAL | unreal
+6 V2_BLENDER | blender
+
+==== 30 N0037 nC=3 nI=14 empty=[]
+TITLE 具身基建全栈开发工程师-27届
+DUTY 本岗位聚焦机器人数采全链路、模型训练准备及技术创新，寻找热爱机器人行业的具身基建全栈选手，负责各类数据采集和处理链路搭建、数据治理及模型训练前期准备工作，与行业顶尖团队并肩，共同加速具身智能落地干活。     * 利用扎实的机器人系统、控制、感知等全栈知识，搭建并优化机器人数据采集链路，负责机器人真机数采与无本体数采方案设计与落地，保障各类采集数据的完整性、准确性、有效性。  * 负责数据清洗、标注、格式转换及数据集构建，完成模型训练前
+1 V2_INCIDENT_SUPPORT | * 基于机器人操作系统完成相关开发、仿真调试，配合完成真机数采、无本体数采相关的整机联调、故障排查，沉淀技术文档与标准化流程。
+2 V2_C,V2_INCIDENT_SUPPORT | * 技术能力：熟悉基础通信及工业总线，能完成真机数采、无本体数采链路的数据协议设计实现与故障排查。掌握C/C++、Python，熟悉机器人操作系统、Linux基础，具备机器人全栈知识，掌握数据采集、数据治理及模型训练基础，能完成对应职位层级的数据采集与模型准备相关开发调试。
+3 V2_C | C/C++
+
+==== 31 N0131 nC=9 nI=12 empty=[]
+TITLE 后端开发工程师（多模态标注平台）
+DUTY 职位职责  负责机器人多模态标注平台的后端和数据基础设施建设，支持视频、点云、3D 轨迹、关节动作、语言指令、任务分段、成功/失败、奖励/偏好等标注任务； 设计并实现 Session、Episode、Event、Annotation 等核心数据模型，保证标注结果具备版本管理、数据血缘和可复现能力； 建设 MCAP 数据处理和可视化服务，支持多相机视频、点云、TF、关节状态和动作序列的时间同步展示，为前端标注工作台提供高效数据接口； 使用
+1 V2_MCAP | 建设 MCAP 数据处理和可视化服务，支持多相机视频、点云、TF、关节状态和动作序列的时间同步展示，为前端标注工作台提供高效数据接口；
+2 V2_MCAP | 建设 MCAP 数据处理和可视化服务
+3 V2_MCAP | 建设从原始 MCAP 到派生资产、Episode、标注结果、质量评估和训练数据集的 Pipeline，保证任务可重试、结果可追踪、过程可审计；
+4 V2_POSTGRESQL | 熟悉 PostgreSQL、对象存储和数据服务设计，理解预签名 URL、分片上传、Range 请求、权限隔离和数据生命周期管理；
+5 V2_POSTGRESQL | 熟悉 PostgreSQL、对象存储和数据服务设计
+6 V2_TYPESCRIPT,V2_REACT,V2_VUE | 具备 TypeScript/React 或 Vue 基础，能够理解并协作开发复杂的标注工作台；
+7 V2_TYPESCRIPT | TypeScript
+8 V2_REACT | React
+9 V2_VUE | Vue
+
+==== 32 N0089 nC=11 nI=14 empty=[]
+TITLE 机器人数据质量工程师
+DUTY 岗位职责：    - 负责机器人多模态数据全生命周期质量管控，覆盖采集、质检、标注、清洗、入库、复用全链路，确保数据符合准确性、完整性、一致性、时效性、规范性要求，对数据交付质量负责。    - 制定数据采集、标注、质检规范，建立数据缺陷处理流程，实现数据质量可追溯、可审计。    - 开发自动化质检工具，提升质检效率与数据质量，和模型团队共同定义机器人专用数据质量指标并开展数据治理和评估优化。    - 运用FMEA、SPC等质量方法
+1 - | 通过PDCA循环持续改进质量体系
+2 V2_MCAP,V2_ROSBAG |   - 熟悉机器人多模态传感器数据特性，熟悉真机遥操、UMI、Ego等数采方案的质量维护要点，熟悉rosbag/mcap等数据格式，了解具身智能数据逻辑者优先。
+3 - | UMI
+4 - | Ego
+5 V2_ROSBAG | rosbag
+6 V2_MCAP | mcap
+7 - | GB/T 36344-2018
+8 - | ISO/IEC 5259
+9 - | PDCA
+10 V2_C,V2_SHELL |   - 熟练Python，熟练使用SQL、Shell，能独立开发自动化质检脚本与数据处理工具；了解C++、熟悉机器人常用传感器者优先。
+11 V2_SHELL | Shell
+
+==== 33 N0135 nC=12 nI=8 empty=[]
+TITLE OLAP 研发工程师（模型数据挖掘方向）
+DUTY 工作职责  面向AI 模型数据挖掘、样本筛选、特征探查场景，搭建数据挖掘服务平台，负责平台设计、功能迭代与落地，支撑模型训练前的数据探查、样本过滤、特征统计、离线分析等核心业务。  支撑 PB 级模型样本数据集，实现高并发特征查询、多维样本筛选、批量特征导出、样本统计分析，持续优化查询时延与吞吐，保障模型迭代的数据交付效率。  构建湖仓一体数据链路，打通上游样本数据接入、实时 / 离线计算、模型训练数据输出全流程，实现批流统一的样本数据
+1 - | 3~5 年分布式大数据、OLAP 引擎研发经验
+2 V2_CLICKHOUSE | 深入掌握 Apache Doris，有源码调优、二次开发经验；熟悉 StarRocks/ClickHouse/Trino/Iceberg 等湖仓相关技术优先。
+3 - | 深入掌握 Apache Doris，有源码调优、二次开发经验
+4 - | StarRocks
+5 V2_CLICKHOUSE | ClickHouse
+6 - | Trino
+7 - | Iceberg
+8 V2_C | 扎实计算机基础，精通数据结构、分布式系统理论；熟练掌握 Java/go/C++，具备分布式系统性能 Profiling、故障诊断、线上调优能力。
+9 V2_SPARK,V2_FLINK | 熟悉湖仓一体架构，了解 Iceberg、Spark、Flink、对象存储、分布式文件系统；有大规模样本数据集管理、特征挖掘、数据探查相关落地经验加分。
+10 - | 熟悉湖仓一体架构，了解 Iceberg、Spark、Flink、对象存储、分布式文件系统
+11 V2_SPARK | 熟悉湖仓一体架构，了解 Iceberg、Spark、Flink、对象存储、分布式文件系统
+12 V2_FLINK | 熟悉湖仓一体架构，了解 Iceberg、Spark、Flink、对象存储、分布式文件系统
+
+==== 34 N0094 nC=23 nI=30 empty=[]
+TITLE 具身数据工程师 · SDK / 工具链方向
+DUTY 我们正在为下一代具身基座模型 / VLA（视觉-语言-动作）模型打造覆盖全生命周期的训练数据平台，贯通预训练到后训练的整链路。  我们处理的不是单一来源的数据，而是一座完整的 具身数据金字塔——跨越多种采集形态，以及保真度与规模之间的权衡。  你的工作，就是让这座金字塔的每一层数据都做到「干净、对齐、可用、可度量」，直接决定模型 Scaling 的上限。     岗位职责  数据 SDK 与服务开发（核心职责） 设计并实现具身数据 Py
+1 V2_POSTTRAINING | 我们正在为下一代具身基座模型 / VLA（视觉-语言-动作）模型打造覆盖全生命周期的训练数据平台，贯通预训练到后训练的整链路。
+2 V2_AWS | 声明式数据获取能力建设 支持算法团队以类 SQL 或 DSL 的方式声明式获取数据（如「某时间段 + 某场景 + 某配比」的数据子集）；设计类似 AWS ARN 的资源定位机制，对接底层多模态数据库，实现数据的灵活检索与路由。
+3 - | 类 SQL 或 DSL
+4 V2_AWS | 设计类似 AWS ARN 的资源定位机制
+5 V2_AIRFLOW | 数据处理算子开发 将质量校验、清洗、标注、配比等业务逻辑抽象为单一职责的数据处理算子，集成至 Airflow / Ray 等调度框架，支撑数据生产链路的高吞吐与高容错。
+6 V2_AIRFLOW | 集成至 Airflow / Ray 等调度框架
+7 V2_MCAP,V2_ROSBAG | 数据格式与加载优化 攻克 LeRobot / mcap / ROS bag / HDF5 等具身与智驾数据格式的解析与解码加速、视频硬解、帧级随机访问、多模态时间对齐等核心工程问题，支撑十万小时级数据的高效加载与训练对接。
+8 V2_MCAP | LeRobot / mcap / ROS bag / HDF5
+9 SK_ROS,V2_ROSBAG | LeRobot / mcap / ROS bag / HDF5
+10 - | LeRobot / mcap / ROS bag / HDF5
+11 - | 设计 DSL
+12 V2_MCAP,V2_ROSBAG | 具身 / 智驾数据领域经验：精通 LeRobot / mcap / ROS bag / HDF5 等至少两种具身或智驾常用数据格式；在机器人 / 智驾 / 多模态感知领域有 2 年以上数据工程经验，处理过多模态时序数据（图像 / 视频 / 动作 / 力觉 / 语言指令等）。
+13 V2_MCAP | mcap
+14 SK_ROS,V2_ROSBAG | ROS bag
+15 - | HDF5
+16 V2_C,V2_PROJECT_METHOD | Python 工程能力：5 年以上 Python 开发经验，精通现代 Python 工程实践（类型标注 / dataclass / asyncio / 性能剖析等），具备扎实的 SDK / 库 / 接口设计与封装能力，能独立完成复杂模块的设计、开发、调试与性能优化；能用 C++ 做关键路径底层性能加
+17 - | dataclass
+18 - | asyncio
+19 V2_AIRFLOW | 数据 Pipeline 与算子编排：开发或主导过数据生产 / 离线处理 Pipeline；能将业务逻辑拆解为单一职责算子并集成至 Airflow / Ray 等框架；熟悉 DAG 编排、高并发调度与容错机制。
+20 V2_AIRFLOW | Airflow
+21 - | Open-X-Embodiment
+22 - | DROID
+23 V2_CALIBRATION | 理解 RGB / 深度 / LiDAR / IMU / 力-力矩 / 触觉 / 关节编码器等多模态传感器原理，熟悉标定、时间同步与坐标系对齐；
+
+==== 35 N0309 nC=2 nI=4 empty=[]
+TITLE 数据采集厂长
+DUTY 1.全面负责数据采集工厂的日常运营，对数据采集任务的交付质量、效率、成本及安全负最终责任，并建立关键指标体系进行持续监控与分析； 2.负责主导新开发机器人或数据采集产品在工厂的导入与部署全过程，同时，负责评估其数据采集能力，设计并落地采集方案、工艺流程与质量标准； 3.基于对机器人技术、数据业务的深入理解，持续优化数据采集的作业流程、效率工具与运营管理体系； 4.统筹协调生产、设备、研发、质量等资源，主导分析并解决在应用新产品进行复杂数
+1 V2_RCA | 6.建立并主导根本原因分析（RCA）机制，对运营中的重大异常、质量偏差与效率损失进行深度复盘，将分析结论转化为有效的预防措施与流程规范；
+2 V2_RCA | 6.建立并主导根本原因分析（RCA）机制，对运营中的重大异常、质量偏差与效率损失进行深度复盘，将分析结论转化为有效的预防措施与流程规范；
+
+==== 36 N0305 nC=0 nI=12 empty=[]
+TITLE 场景设计工程师
+DUTY 1.场景与物料核心设计：主导多模态具身智能数据采集的场景架构设计，结合业务需求与模型训练目标完成物品选型，确保场景覆盖核心应用场景与边缘案例；建立场景设计标准化流程，输出可落地的场景方案文档。 2.全维度质量管控：从场景真实性、逻辑合理性、采集设备兼容性、数据模型可用性、采集员操作便捷性及成本可控性六大维度构建质量评估体系，持续优化采集方案。 3.采集任务全生命周期管理：制定采集任务排期计划，精准下发任务指令；撰写清晰、规范的任务书；全
+
+==== 37 E0072 nC=3 nI=14 empty=[]
+TITLE 具身智能大数据平台/引擎开发工程师
+DUTY 1、负责具身智能大数据平台/引擎架构设计与核心组件开发,构建高吞吐、低延迟的数据采集、存储与处理 pipeline,支撑PB级具身智能数据的高效流转。 2、主导数据清洗与自动化质检流程建设,设计可扩展的数据质量监控体系,实现从原始数据到训练数据集的全链路质量保障。 3、搭建自动化标注基建与数据血缘管理系统,支持标注任务的高效分发、结果回收与版本追溯,为VLA模型训练提供高质量数据支持。 4、开发用户行为分析、机器人运行数据分析等内部数据
+1 V2_SPARK,V2_FLINK,V2_KAFKA | 2、精通Hadoop、Spark、Flink、Kafka等大数据技术栈，具备大规模分布式数据处理系统设计与调优能力。
+2 V2_CLICKHOUSE | 4、熟悉HDFS、OSS/S3、HBase、ClickHouse等存储系统，具备PB级数据存储与查询优化经验。
+3 V2_SPARK,V2_FLINK,V2_KAFKA | Hadoop、Spark、Flink、Kafka
+
+==== 38 E0065 nC=1 nI=8 empty=[]
+TITLE 具身数据模型算法工程师
+DUTY 1. 数据质检/清洗链路研发:负责多模态(视觉、触觉、语言、Action)数据的清洗算法研发,包括异常数据剔除、低质量数据拦截,隐私脱敏、时空对齐等。 2. 预标注模型研发:研发具身领域的预标注大模型,解决具身领域细粒度标注难题,提升数据生产效率。 3. 数据去重与挖掘:实现基于视觉+动作+语义的高效去重算法;开发核心场景的数据挖掘脚本,从海量原始数据中筛选出高价值、高复杂度的样本。 4. 多样性分析与可视化:构建数据分布的统计与可视化
+1 V2_MODEL_COMPRESSION | 4. 多样性分析与可视化：构建数据分布的统计与可视化工具，量化分析数据的多样性指标，为数据采集策略提供依据。
+
+==== 39 E0027 nC=2 nI=10 empty=[]
+TITLE 具身智能数据质检测试工程师
+DUTY 1. 搭建具身智能多模态采集数据的质检体系与量化标准,覆盖视觉图像、激光点云、IMU、标定参数等数据类型,围绕完整性、畸变、画质、时序同步、合规性等维度制定质检规则。 2. 开发自动化质检工具与脚本,基于Python、OpenCV等实现画质校验(亮度、模糊、噪点、过曝欠曝)、畸变检测、丢帧识别、多传感器同步校验等能力,嵌入数采入库流水线,前置拦截低质数据。 3. 对质检异常进行根因定位,区分数采设备故障、传感器ISP调教偏差、标定失准、
+1 V2_CALIBRATION,V2_MODEL_COMPRESSION | 1. 搭建具身智能多模态采集数据的质检体系与量化标准，覆盖视觉图像、激光点云、IMU、标定参数等数据类型，围绕完整性、畸变、画质、时序同步、合规性等维度制定质检规则。
+2 V2_CALIBRATION | 3. 对质检异常进行根因定位，区分数采设备故障、传感器ISP调教偏差、标定失准、采集流程不规范等成因，对接硬件、数采、ISP调教团队推动问题源头整改。
+
+==== 40 E0081 nC=0 nI=2 empty=[]
+TITLE 数据管线⼯程师
+DUTY 1. 设计高吞吐量数据流水线,用于摄取、验证和转换机器人多模态数据(如视频、本体感受、动作数据)。 2. 构建存储系统与元数据索引,实现大规模数据集的高效管理; 3. 开发研究工具,用于调试、可视化和实验分析。 4. 与大模型算法团队、数据采集团队、工程训练团队密切合作,建立数据系统迭代流程;
+
+==== 41 E0083 nC=1 nI=4 empty=[]
+TITLE 具身数据评估⼯程师
+DUTY 1. 设计并实现机器人多模态交互数据的分布建模与处理体系,对大规模具身数据进行价值评估; 2. 设计自动化数据筛选、难例挖掘与负样本生成机制,实现高质量数据的规模化生产与迭代优化; 3. 建立面向具身智能模型的评估体系,定义数据质量与模型性能之间的量化指标; 4. 与模型算法与训练团队协同,构建“数据–模型”协同进化机制,持续提升机器人操作泛化;
+1 V2_MODEL_COMPRESSION | 3. 建⽴⾯向具身智能模型的评估体系，定义数据质量与模型性能之间的量化指标；
+
+==== 42 E0297 nC=4 nI=12 empty=[]
+TITLE 多模态算法工程师（深圳/北京）
+DUTY 您将深度参与下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作,跟踪前沿多模态大模型进展,理解模型能力边界(理解、推理、空间/时间定位等),为具身基座模型训练提供高质量数据。  具体涉及以下任一或多项内容: 1. 多模态数据(文本、视觉、动作等)清洗、标注和格式化。构建高效的数据处理流程,支持模型训练与推理。 2. 构建分布合理的视频理解数据 (人类行为、事件识别) 和高质量 Video Caption/Temporal
+1 V2_MODEL_COMPRESSION | 3. 系统性地评估数据的集中、离散程度和形状特征，使用高维数据降维技术 (PCA, t-SNE等) 可视化和量化潜在的流形结构和数据的内在维度。
+2 V2_PANDAS | 3、熟悉数据处理工具（如Pandas、NumPy等）并完成完整数据处理流程；熟悉Python编程，了解Linux环境和常见开发工具。
+3 - | PCA, t-SNE
+4 V2_PANDAS | Pandas
+
+==== 43 E0202 nC=0 nI=1 empty=[]
+TITLE 数据运营管理（外包）
+DUTY 1.负责采集团队日常管理:人员排班、任务分配、目标拆解、过程督导与绩效考核,打造高执行力团队,确保数据采集任务按时、按量、按质完成。 2.负责现场调度与效率管理:像调度运力一样动态分配采集任务,监控实时进度,快速处理异常,持续提升团队人均产出与整体效率。 3.负责设备与系统管理:统一管理采集设备、终端、平台系统,确保设备完好、数量充足,异常及时上报并推动快速修复,保障作业不停摆。 4. 负责现场问题处理:实时监控作业现场、快速发现、反馈
+
+==== 44 E0201 nC=4 nI=3 empty=[]
+TITLE 具身数据运营管理（正式）
+DUTY 1.具身智能数据项目全生命周期管理:负责机器人训练数据的采集、清洗、标注、质检、交付全流程项目管理,确保数据按时按质交付给算法团队,支撑具身智能模型训练迭代。 2.数据采集方案设计与供应商管理:根据算法需求(视觉/动作/触觉/语音等模态),设计数据采集方案,评估和管理数据供应商(外包团队、动捕服务商、遥操作团队等),控制成本与质量。 3.数据采集工艺流程搭建与优化:建立并持续优化具身数据采集标准操作流程(SOP),包括采集环境搭建、设备
+1 V2_PROCUREMENT,V2_TELEOP,V2_MOCAP | 2.数据采集方案设计与供应商管理：根据算法需求（视觉/动作/触觉/语音等模态），设计数据采集方案，评估和管理数据供应商（外包团队、动捕服务商、遥操作团队等），控制成本与质量。
+2 V2_SOP_OPERATION | 3.数据采集工艺流程搭建与优化：建立并持续优化具身数据采集标准操作流程(SOP)，包括采集环境搭建、设备选型、人员培训、数据格式规范等，提升采集效率和数据质量。
+3 V2_CURSOR,V2_CLAUDE_CODE | 2.专业能力： 熟悉项目全流程管理方法，能有效管控研发与交付两类项目，具备风险识别与应对能力；具备一定的技术理解能力能够与合作团队高效沟通，准确传递需求与约束；熟练使用 AI辅助工具(Claude code/Cursor等)提升效率，具备基本系统设计思维。
+4 V2_CURSOR,V2_CLAUDE_CODE | 熟练使用 AI辅助工具(Claude code/Cursor等)提升效率
+
+==== 45 E0171 nC=1 nI=13 empty=['O3:SK_ROS:ROS']
+TITLE 触觉力控Infra工程师
+DUTY - 负责多模态触觉数据采集与推理基础设施建设; - 打通夹爪、灵巧手、触觉手套等不同末端形态的触觉接入流程,实现数据采集、数据保存与推理阶段触觉数据发布; - 建立统一的数据格式、时间同步、话题发布和基础调试工具; - 与算法、控制、硬件团队协作,支持触觉数据用于模型训练、策略推理和机器人操作实验。
+1 V2_C | - 熟悉 Python / C++，熟悉 ROS / ROS2；
+
+==== 46 E0162 nC=7 nI=20 empty=['O1:SK_PYTHON:Python', 'O2:SK_GO:Go', 'O3:SK_PYTHON:Python', 'O4:SK_GO:Go', 'O6:SK_ROS:ROS']
+TITLE 大模型数据平台研发工程师
+DUTY 岗位定位 负责机器人/多模态数据湖仓与高并发数据闭环平台建设,支撑数据入湖、解析治理、任务调度、结果回流和训练数据消费。 岗位职责 1、建设多模态数据湖仓能力,包括数据接入、元数据管理、湖表建模、版本血缘、权限控制和训练集 Manifest。  2、负责机器人多源数据解析与标准化,支持 rosbag、视频、图像、JSON、点云、传感器日志等数据,并适配多机器人型号和硬件平台差异。  3、建设高并发数据平台后端与任务系统,支持任务提交、状
+1 V2_ROSBAG | 2、负责机器人多源数据解析与标准化，支持 rosbag、视频、图像、JSON、点云、传感器日志等数据，并适配多机器人型号和硬件平台差异。 
+2 V2_SHELL | 3、熟悉 Linux、Shell、网络、IO、进程/线程，具备线上排查、性能分析和资源优化能力。 
+3 V2_ROSBAG | 4、熟悉 ROS/ROS2 和 rosbag，具备机器人多源数据解析、转换、同步或性能优化经验。 
+4 V2_SPARK,V2_FLINK,V2_CLICKHOUSE | 5、熟悉数据湖仓或大数据技术，如 Iceberg/Paimon/Hudi、Spark/Flink、Trino/ClickHouse 等。 
+5 V2_SQL_MYSQL,V2_POSTGRESQL,V2_KAFKA | 6、熟悉数据库、对象存储、消息队列或任务调度系统，如 PostgreSQL/MySQL、OSS/S3、Kafka、Ray、Prefect 等。 
+6 V2_CI_CD | 7、具备 AI 辅助全栈开发能力，能快速交付内部平台、数据看板和可视化工具；熟悉 Docker、Kubernetes、CI/CD 优先。 
+7 V2_CALIBRATION | 2、熟悉多机器人型号适配、传感器标准化、时间同步、标定管理。 
+
+==== 47 E0118 nC=2 nI=9 empty=['O7:TC_FOUNDATION_MODEL:多模态大模型', 'O9:TC_FOUNDATION_MODEL:多模态大模型']
+TITLE 多模态算法工程师
+DUTY 职位描述 您将深度参与下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作,跟踪前沿多模态大模型进展,理解模型能力边界(理解、推理、空间/时间定位等),为具身基座模型训练提供高质量数据。  具体涉及以下任一或多项内容: 1. 多模态数据(文本、视觉、动作等)清洗、标注和格式化。构建高效的数据处理流程,支持模型训练与推理。 2. 构建分布合理的视频理解数据 (人类行为、事件识别) 和高质量 Video Caption/Tem
+1 V2_MODEL_COMPRESSION | 3. 系统性地评估数据的集中、离散程度和形状特征，使用高维数据降维技术 (PCA, t-SNE等) 可视化和量化潜在的流形结构和数据的内在维度。
+2 V2_PANDAS | 3、熟悉数据处理工具（如Pandas、NumPy等）并完成完整数据处理流程；熟悉Python编程，了解Linux环境和常见开发工具。
+
+==== 48 E0307 nC=19 nI=7 empty=[]
+TITLE Continuous Improvement Analyst
+DUTY Own process improvement initiatives end-to-end using a structured, DMAIC style approach: define the problem and establish a quantitative baseline, identify root cause, implement the change, and measure results afterward 
+1 V2_CAN | You will work closely with operations and supply chain teams to analyze processes, surface inefficiencies, and translate business needs into clear, ac
+2 V2_LEAN | Own process improvement initiatives end-to-end using a structured, DMAIC style approach: define the problem and establish a quantitative baseline, ide
+3 V2_CAN | Gather and validate business requirements from stakeholders across operations and translate them into structured requirements, process maps, and docum
+4 V2_JIRA | Work with data from multiple systems including ERP platforms, operational databases, Jira and reporting tools to produce accurate, reliable analysis.
+5 V2_CAN | Document current-state processes and help define future-state workflows in a clear, repeatable format that functional teams can use and maintain.
+6 V2_LEAN | Lean Six Sigma certification or equivalent experience. Comfortable using Lean tools (value stream mapping, waste reduction) to improve flow and effici
+7 V2_VISIO,V2_MIRO | Experience with process mapping and collaboration tools (e.g., Visio, Lucidchart, Miro, or similar).
+8 V2_CAN | You have direct experience working in or supporting operations, manufacturing, or supply chain environments and can establish credibility with functio
+9 V2_CAN | You are thorough and precise in your work. Your documentation, requirements, and analysis are clear enough that someone else can act on them without h
+10 V2_CAN | You work well independently. You can take a clear mandate and run with it, managing your own time, priorities, and output without close oversight.
+11 V2_JIRA,V2_MS_PROJECT | Familiarity with project or task tracking tools (e.g., Planner, Project, Jira).
+12 V2_POWERBI | Experience with Power BI or similar BI platforms at a level beyond basic reporting.
+13 V2_OFFICE | This is an onsite position at our Salem office.
+14 V2_USD | $125,000 USD
+15 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+16 V2_LEAN | Lean Six Sigma certification or equivalent experience
+17 V2_VISIO,V2_MIRO | Visio, Lucidchart, Miro
+18 V2_JIRA,V2_MS_PROJECT | Planner, Project, Jira
+19 V2_POWERBI | Power BI or similar BI platforms
+
+==== 49 E0344 nC=4 nI=18 empty=['O3:SK_SURVIVAL_ANALYSIS:survival analysis', 'O4:SK_SURVIVAL_ANALYSIS:survival analysis', 'O17:TC_RELIABILITY:reliability']
+TITLE Senior Staff Data Scientist, Robotics
+DUTY Predictive maintenance & hardware reliability . Build models that predict MTBF and remaining useful life for specific components (actuators, cameras, compute, power systems). Partner with hardware engineering to model we
+1 V2_RCA | . Build detection and RCA tooling that surfaces anomalies in fleet behavior early and helps engineers get from symptom to cause faster.
+2 V2_CAN | Experience working with large-scale, messy, multi-modal operational data (sensor/telemetry, logs, event streams) and the judgment to know when the dat
+3 V2_USD | $340,000 USD
+4 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+
+==== 50 N0959 nC=8 nI=16 empty=[]
+TITLE Member of Technical Staff - Data Platform Engineer, Frontier AI Robotics
+DUTY Description At Frontier AI & Robotics, we're not just advancing robotics – we're reimagining it from the ground up. Our team is building the future of intelligent robotics through frontier foundation models and end-to-en
+1 V2_CAN | What sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's massive computational infrastruct
+2 V2_TYPESCRIPT,V2_REACT | In this role you will build and maintain the data infrastructure that powers our robotics manipulation research. You'll work alongside our existing te
+3 V2_TYPESCRIPT | distributed compute on Kubernetes, streaming data infrastructure, columnar lakehouse storage, and a TypeScript/React frontend.
+4 V2_REACT | distributed compute on Kubernetes, streaming data infrastructure, columnar lakehouse storage, and a TypeScript/React frontend.
+5 V2_CAN | What matters is that you can ship full-stack data infrastructure real users depend on, treat researchers as collaborators rather than customers, and h
+6 - | Experience with data pipeline design, ETL processes, and data management systems
+7 V2_CUSTOMER_SERVICE | Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adher
+8 V2_HR | for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.
+
+==== 51 N1022 nC=8 nI=7 empty=[]
+TITLE Data Operations Supervisor- 2nd shift
+DUTY Boston Dynamics is a world leader in mobile robots, tackling some of the toughest robotics challenges. We combine the principles of dynamic control and balance with sophisticated mechanical designs, cutting-edge electron
+1 V2_TELEOP | The RMAC team plays a critical role in advancing this mission by delivering high-impact capabilities that enable scalable, reliable, and cutting-edge 
+2 V2_TELEOP | Oversee contractors and internal employees responsible for ML annotation tasks, robot teleoperation, and building data assets.
+3 V2_JIRA | Strong written and verbal communication skills. Email, chat, Jira, slide decks, and documents will all be part of the workflow.
+4 V2_JIRA | Email, chat, Jira, slide decks, and documents will all be part of the workflow.
+5 - | VR
+6 V2_JIRA,V2_GOOGLE_WORKSPACE | Ideal candidates will also have experience with Google Workspace, Jira, and other tools
+7 V2_GOOGLE_WORKSPACE | Google Workspace
+8 V2_JIRA | Jira
+
+==== 52 N1020 nC=0 nI=12 empty=[]
+TITLE Technical Program Manager, Atlas Data Operations
+DUTY Boston Dynamics is a world leader in mobile robots, tackling some of the toughest robotics challenges. We combine the principles of dynamic control and balance with sophisticated mechanical designs, cutting-edge electron
+
+==== 53 N0812 nC=12 nI=19 empty=[]
+TITLE Senior Data Operations Engineer
+DUTY FieldAI is transforming how robots interact with the real world. Our growing R&D team is based in Boston, where we develop risk-aware, reliable, field-ready AI systems that tackle the hardest problems in robotics and unl
+1 V2_TELEOP,V2_MOCAP | Run motion capture, teleoperation, and human-subjects data collection sessions yourself — the fastest way to dogfood and stress-test tooling and proto
+2 V2_MOCAP | Motion capture systems (e.g., Vicon, OptiTrack, markerless/IMU)
+3 - | Vicon
+4 - | OptiTrack
+5 V2_CNC_PROCESS | 3D scanning and 3D printing
+6 - | IRB/consent familiarity a plus
+7 V2_BLENDER,V2_UNITY | Blender or Unity
+8 V2_BLENDER | Blender
+9 V2_UNITY | Unity
+10 V2_CAN | High ownership: you can take an open-ended ask (“troubleshoot why this data had issues ”) and run with it without much hand-holding.
+11 V2_CAN | FieldAI is tackling one of robotics’ hardest problems: deploying robots in unstructured, previously unknown environments. Our Field Foundational Model
+12 V2_CAN | Solving problems at this scale takes a team as unique as the mission. We are looking for people who push beyond conventional approaches, enjoy tacklin
+
+==== 54 N0836 nC=29 nI=16 empty=[]
+TITLE Software Engineer, Data Engineering
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_AIRFLOW | Build reliable ingestion, transformation, and orchestration workflows using tools such as Airflow.
+2 V2_AIRFLOW | Build reliable ingestion, transformation, and orchestration workflows using tools such as Airflow.
+3 V2_AWS | Work with cloud infrastructure on AWS, including object storage, compute, databases, queues, and data processing services.
+4 V2_AWS | Work with cloud infrastructure on AWS, including object storage, compute, databases, queues, and data processing services.
+5 V2_AIRFLOW | Familiarity with Airflow or similar workflow orchestration tools.
+6 V2_AIRFLOW | Airflow
+7 V2_AWS | Experience with AWS services such as S3, Lambda, ECS, EC2, RDS, Redshift, Glue, Athena, SQS, or related systems.
+8 - | S3
+9 - | Lambda
+10 - | ECS
+11 - | EC2
+12 - | RDS
+13 - | Redshift
+14 - | Glue
+15 - | Athena
+16 - | SQS
+17 V2_INCIDENT_SUPPORT | Good understanding of testing, monitoring, debugging, and incident response for production systems.
+18 V2_AWS,V2_TERRAFORM | Experience with AWS CDK, Terraform, CloudFormation, or other infrastructure-as-code tools.
+19 V2_AWS | AWS CDK
+20 V2_TERRAFORM | Terraform
+21 - | CloudFormation
+22 V2_SNOWFLAKE,V2_DATABRICKS | Experience with data lake or warehouse systems such as Redshift, Snowflake, BigQuery, Databricks, or Athena.
+23 - | Redshift
+24 V2_SNOWFLAKE | Snowflake
+25 - | BigQuery
+26 V2_DATABRICKS | Databricks
+27 - | Athena
+28 V2_CI_CD | Familiarity with CI/CD and modern DevOps practices.
+29 V2_CI_CD | Familiarity with CI/CD and modern DevOps practices.
+
+==== 55 E0486 nC=8 nI=8 empty=[]
+TITLE Helix AI Engineer, Data Infrastructure
+DUTY Design, build, and maintain tools and software components that offload, store, manipulate and provide access to robot data Architect and manage storage and compute resources across on-premise and cloud environments at a 
+1 V2_OFFICE | Figure is an AI Robotics company developing a general purpose humanoid. Our humanoid robot is designed for commercial tasks and the home. We are based
+2 V2_SQL_MYSQL,V2_POSTGRESQL,V2_REDIS | Experience using and managing data stores (Postgres, MySQL, ElasticSearch, Redis, etc.).
+3 V2_AWS,V2_GCP,V2_AZURE | Experience managing cloud infrastructure (AWS, Azure, GCP)
+4 V2_SLURM | Experience with job scheduling / orchestration tools (SLURM, Kubernetes, LSF, etc.)
+5 V2_TERRAFORM,V2_ANSIBLE | Experience with configuration management tools (Ansible, Terraform, Puppet, Chef, etc.)
+6 V2_SQL_MYSQL,V2_POSTGRESQL,V2_REDIS | Postgres, MySQL, ElasticSearch, Redis
+7 V2_SLURM | SLURM
+8 V2_TERRAFORM,V2_ANSIBLE | Ansible, Terraform, Puppet, Chef
+
+==== 56 E0458 nC=5 nI=4 empty=[]
+TITLE Data Strategy Associate
+DUTY Specific responsibilities include: Own end-to-end execution of running robot data collection in diverse residential homes (e.g., deployments—scheduling dates, managing bookings, and ensuring sites are ready for data coll
+1 V2_OFFICE | Figure is an AI Robotics company developing a general purpose humanoid. Our Humanoid is designed for corporate tasks targeting labor shortages and job
+2 V2_MS_PROJECT | 3-5 years in program management (especially for operations), consulting, investment banking, startup project management, or similar roles
+3 V2_GOOGLE_WORKSPACE | Proficiency in Google Workspace (e.g., Sheets) and operational management tools
+4 V2_CAN | Low ego, team player with can-do attitude
+5 V2_GOOGLE_WORKSPACE | Google Workspace
+
+==== 57 E0511 nC=7 nI=14 empty=[]
+TITLE Lead, Data Quality - Partnerships
+DUTY Own the full external vendor portfolio for Data Quality: sourcing, evaluation, onboarding, and offboarding of data labeling and review partners. Negotiate commercial terms, statements of work, and contracts, and manage p
+1 V2_MS_PROJECT,V2_CALIBRATION | As External Partnerships Lead, you'll own Figure's external data vendor portfolio for Data Quality: who we work with, what we hold them to, and how th
+2 V2_PROCUREMENT | Own the full external vendor portfolio for Data Quality: sourcing, evaluation, onboarding, and offboarding of data labeling and review partners.
+3 V2_MS_PROJECT | Serve as the senior owner when a project rotates to external support, directing the Project Coordinators running that work.
+4 V2_CALIBRATION | Stand up calibration exercises and golden set checks with each vendor so external output matches internal standards.
+5 V2_MS_PROJECT | Plan capacity and ramp with vendors to meet project timelines, including surge needs and new regions.
+6 V2_MS_PROJECT | Coordinate with internal Project Coordinators and leadership on which projects rotate to which vendors and when.
+7 V2_CALIBRATION | Experience setting quality standards, acceptance criteria, and audit or calibration processes that external teams executed against.
+
+==== 58 E0537 nC=11 nI=4 empty=[]
+TITLE Project Coordinator, Data Creators
+DUTY Own a data collection project end to end, from setup through delivery, against timeline and quality targets. Serve as the primary point of contact with a Helix engineer for your project, and translate data requirements i
+1 V2_CAN,V2_MS_PROJECT | As a Project Coordinator, you'll own a data collection project end to end, from setup through delivery. You'll be the primary point of contact between
+2 V2_MS_PROJECT | Own a data collection project end to end, from setup through delivery, against timeline and quality targets.
+3 V2_MS_PROJECT | Serve as the primary point of contact with a Helix engineer for your project, and translate data requirements into an executable capture plan.
+4 V2_MS_PROJECT | Ensure on-time delivery of your project's data; track progress and manage dependencies.
+5 V2_MS_PROJECT | Write and maintain project-level SOPs, and update them through post-project retros.
+6 V2_MS_PROJECT | Contribute to task design and capture setup for your project type.
+7 V2_MS_PROJECT | 2+ years in operations, data collection, production coordination, or a related field, with demonstrated ownership of a project or workstream end to en
+8 V2_MS_PROJECT | Experience keeping a project on schedule and managing dependencies across people, hardware, and facilities.
+9 V2_MS_PROJECT | Clear communication and the ability to be the single point of contact for a project.
+10 V2_MOCAP | Background in robotics, autonomous systems, motion capture, or physical AI data.
+11 V2_MOCAP | Familiarity with motion capture or wearable sensor hardware
+
+==== 59 E0538 nC=11 nI=14 empty=[]
+TITLE Project Coordinator, Data Quality
+DUTY Own review guidelines and acceptance criteria for your project; handle escalated edge cases that fall outside existing guidance. Contribute to golden set construction for your project type. Run project-level audit cycles
+1 V2_OFFICE | Figure is an AI Robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human 
+2 V2_CAN,V2_MS_PROJECT | As a Project Coordinator, you'll own a full project lifecycle within Data Quality — from defining review guidelines to running audit cycles to managin
+3 V2_MS_PROJECT | Own review guidelines and acceptance criteria for your project; handle escalated edge cases that fall outside existing guidance.
+4 V2_MS_PROJECT | Contribute to golden set construction for your project type.
+5 V2_MS_PROJECT | Run project-level audit cycles and feed findings directly back into guideline updates.
+6 V2_MS_PROJECT | Write and maintain project-level SOPs; update them through post-project retros.
+7 V2_MS_PROJECT,V2_CALIBRATION | Design project-specific training materials and calibration exercises.
+8 V2_MS_PROJECT | Serve as the primary contact for project-level vendor coordination, including communicating SLA expectations.
+9 V2_MS_PROJECT | Translate quality requirements into actionable review guidelines; act as first point of contact for project-level clarifications.
+10 V2_MS_PROJECT | 4+ years of experience in data quality, data labeling operations, or content/data review roles, with demonstrated ownership of a project or workstream
+11 V2_CALIBRATION | Experience designing training or calibration programs for review teams.
+
+==== 60 E0510 nC=3 nI=3 empty=[]
+TITLE Lead, Data Operations Global Expansion
+DUTY Day one, you will own Figure’s data operations expansion: the strategy for where we go next and the team that gets us there. You’ll stand up new sites against volume, quality, and velocity targets, build the playbook tha
+1 V2_OFFICE | Figure is an AI Robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human 
+2 V2_MS_PROJECT | Highly organized with strong project management instincts, comfortable managing multiple sites, partners, and workstreams simultaneously and keeping a
+3 V2_OFFICE | A commitment to 5 days/week in-office collaboration
+
+==== 61 E0457 nC=0 nI=5 empty=[]
+TITLE Data Collection Quality Support
+DUTY Review data collection sessions against established quality standards Identify and document issues including technique inconsistencies, incomplete sequences, and edge-case scenarios Produce qualitative assessment reports
+
+==== 62 E0451 nC=3 nI=5 empty=[]
+TITLE AI Data Operations Manager
+DUTY Day one, you will own a meaningful piece of Figure's data collection operation. You'll be hitting volume, quality, and velocity targets, building the systems that get us there, and partnering across engineering, product,
+1 V2_PROCUREMENT | Sourcing, negotiating, and managing relationships with local partners, agencies, and vendors to accelerate growth
+2 V2_MS_PROJECT | Highly organized with strong project management instincts — comfortable managing multiple contributors, sessions, or sites simultaneously and keeping 
+3 V2_OFFICE | A commitment to 5 days/week in-office collaboration
+
+==== 63 E0539 nC=3 nI=4 empty=[]
+TITLE Project Lead, Data Creators (CDMX)
+DUTY Figure es una empresa de robótica e IA que desarrolla robots humanoides autónomos de uso general. El objetivo de la empresa es lanzar robots humanoides con inteligencia de nivel humano. Nuestros robots están diseñados pa
+1 V2_C | Estamos construyendo la base de datos que dará vida a nuestros robots humanoides. El equipo de Data Operations crea y hace la curaduría de los datos q
+2 V2_MS_PROJECT | Trabajar en conjunto con los Project Coordinators y el equipo de Data Quality para identificar y resolver problemas en el momento de la creación de lo
+3 V2_MOCAP | Experiencia en robótica, sistemas autónomos, captura de movimiento (motion capture) o datos para IA física.
+
+==== 64 N0897 nC=2 nI=5 empty=[]
+TITLE Data Collection Manager, Nimble Brain
+DUTY About Nimble Nimble is an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, 
+1 V2_C | Nimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx
+2 V2_HR | Hire at volume in partnership with recruiting: run working interviews, make offer decisions for operators and supervisors, and manage the pipeline thr
+
+==== 65 N0899 nC=4 nI=14 empty=[]
+TITLE Data Quality & Annotation Manager
+DUTY About Nimble Nimble is an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, 
+1 V2_C | Nimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx
+2 V2_TELEOP | 3+ years in data operations, annotation/labeling operations, or data collection QA for ML systems — robotics, autonomy, or teleoperation data strongly
+3 - | BI tools
+4 - | AI-assisted
+
+==== 66 N0898 nC=3 nI=5 empty=[]
+TITLE Data Collection Supervisor
+DUTY About Nimble Nimble is an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, 
+1 V2_C | Nimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx
+2 V2_INCIDENT_SUPPORT | Coordinate with on-site technicians to keep rigs running — triage issues fast, minimize downtime, and log what broke and why.
+3 V2_MOCAP | Experience in robotics, AV, motion capture, or AI data collection — or any environment where quality was measured per unit of work.
+
+==== 67 E0578 nC=2 nI=13 empty=[]
+TITLE ML Infra Engineer (Data Systems)
+DUTY - Data Ingestion & Processing: Design and build high-throughput pipelines that validate, transform, and featurize raw multimodal data.   - Batch & Streaming Systems: Operate large-scale batch and streaming workflows over
+1 V2_SPARK,V2_FLINK,V2_CLICKHOUSE |  - Experience with systems like ClickHouse, Ray, Flink, Spark, or similar.
+2 V2_SPARK,V2_FLINK,V2_CLICKHOUSE | ClickHouse, Ray, Flink, Spark
+
+==== 68 E0603 nC=2 nI=11 empty=['O7:TC_ML_MODELS:ML']
+TITLE Data Annotation Lead
+DUTY - Own annotation operations end-to-end: throughput, quality, cost, and on-time delivery across all annotation types.   - Scale the annotation workforce from 100s to 1,000s: workforce planning, org design, and the hiring 
+1 V2_CALIBRATION |  - Define and continuously raise the quality bar: rubrics, calibration, audit/QA loops, and quality-adjusted productivity.
+2 V2_MS_PROJECT |  - Partner with research and project leads to translate annotation needs into clear instructions, rubrics, and SLAs.
+
+==== 69 E0608 nC=0 nI=5 empty=[]
+TITLE Software Engineer, Data Quality
+DUTY - Own external data QA & audit: Build and run the end-to-end QA process for multimodal data ingested from third-party vendors and partners — sampling strategy, review workflows, pass/fail decisions, and audit trails — so
+
+==== 70 N0703 nC=7 nI=14 empty=[]
+TITLE Senior Master Annotator
+DUTY Company Overview At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine lea
+1 V2_CAN | We are looking for a highly detail-oriented and technically strong Senior Master Annotator to define, maintain, and continuously improve annotation st
+2 V2_CALIBRATION | This role will act as the gold standard authority for labeling tasks, own Inter-Annotator Agreement (IAA) measurement, train and calibrate annotators,
+3 - | Design and implement Inter-Annotator Agreement (IAA) frameworks (e.g., Cohen’s/Fleiss’ kappa, tolerance-based agreement models) and produce regular qu
+4 - | Design and implement Inter-Annotator Agreement (IAA) frameworks (e.g., Cohen’s/Fleiss’ kappa, tolerance-based agreement models) and produce regular qu
+5 - | Cohen’s/Fleiss’ kappa
+6 V2_CALIBRATION | Lead onboarding and ongoing training for annotators, including structured calibration sessions
+7 - | Inter-Annotator Agreement methodologies
+
+==== 71 N0679 nC=4 nI=5 empty=[]
+TITLE Operations Program Manager – Data Infrastructure - India
+DUTY Company Overview At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine lea
+1 V2_OFFICE | We are looking for a Operations Program Manager – Data Infrastructure to design and scale operational processes that power our robotics foundation mod
+2 V2_LEAN | Strong foundation in Six Sigma, Lean methodologies, and operational optimization
+3 V2_LEAN | Six Sigma
+4 V2_LEAN | Lean methodologies
+
+==== 72 N0682 nC=1 nI=4 empty=[]
+TITLE Program Manager - Data Collection & Annotation - India
+DUTY Company Overview At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine lea
+1 - | Drive end-to-end program management for egocentric/UMI/teleops data collection and annotation workflows

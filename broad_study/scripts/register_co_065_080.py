@@ -1,0 +1,199 @@
+"""First-pass adjudication for corporate-support coding_order 65-80. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0297":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"ECOSYSTEM_STANDARDS","secondary_task":"",
+ "task_evidence":"负责公司具身智能/AI业务线的产业生态建设",
+ "new":{
+  "1":R+"学历中的法律专业不是单独的法务技能项。",
+  "2":[["V2_LEGAL","SEPARATE","COLLABORATION_OBJECT"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"生态合作。法律团队为协作对象。"
+},
+"N0244":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"EXPENSE_ACCOUNTING","secondary_task":"",
+ "task_evidence":"负责各类费用报销、对公付款单据的审核工作",
+ "new":{
+  "1":[["V2_ACCOUNTING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_ACCOUNTING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"],["V2_ACCOUNTING_CREDENTIAL","PREFERRED","UNCONDITIONAL"]],
+  "4":"DUPLICATE:N0244:3",
+  "5":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "7":[["V2_KINGDEE","GENERAL","UNCONDITIONAL"]],
+  "8":"DUPLICATE:N0244:7",
+  "9":O+"分贝通未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"费用会计。金蝶保留。"
+},
+"N0267":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"STANDARDS_RESEARCH","secondary_task":"",
+ "task_evidence":"主导或参与传感器、机器人、人工智能等领域国家/行业标准的制修订工作",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"技术研究员标准。无新候选。"
+},
+"N0261":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"TECH_STANDARDS","secondary_task":"",
+ "task_evidence":"负责公司国标、行标新项目立项申报文稿、答辩材料、佐证资料的撰写",
+ "new":{
+  "1":[["V2_OFFICE","GENERAL","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0261:1"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"技术标准。Office办公软件保留。"
+},
+"N0319":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"FINANCE_BP","secondary_task":"",
+ "task_evidence":"负责公司全板块经营数据的收集、整理与分析",
+ "new":{
+  "1":[["V2_SALES_CRM","SEPARATE","BACKGROUND"]],
+  "2":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_ACCOUNTING","PREFERRED","UNCONDITIONAL"],["V2_ACCOUNTING_CREDENTIAL","PREFERRED","CHOICE"]],
+  "4":"DUPLICATE:N0319:3",
+  "5":"DUPLICATE:N0319:3",
+  "6":[["V2_SAP","GENERAL","CHOICE"],["V2_KINGDEE","GENERAL","CHOICE"],["V2_YONYOU","GENERAL","CHOICE"]],
+  "7":O+"Power Query未单列冻结项。",
+  "8":"DUPLICATE:N0319:6",
+  "9":"DUPLICATE:N0319:6",
+  "10":"DUPLICATE:N0319:6"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"财务BP。销售订单为分析对象。用友金蝶SAP保留。"
+},
+"N0276":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"IR","secondary_task":"",
+ "task_evidence":"建立和维护公司与投资者的关系，包括与潜在和现有投资者的沟通和交流",
+ "new":{
+  "1":O+"估值与营收预测未单列冻结项。",
+  "2":"DUPLICATE:N0276:1"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"投资者关系。估值术语目录外。"
+},
+"N0360":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"TECH_RESEARCH_WRITER","secondary_task":"",
+ "task_evidence":"跟踪具身智能算法前沿进展，建立技术动态分享机制",
+ "new":{
+  "1":[["V2_SALES_CRM","SEPARATE","COLLABORATION_OBJECT"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"技术研究员。销售为材料支撑对象。"
+},
+"N0318":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"SENIOR_FINANCE_MGR","secondary_task":"",
+ "task_evidence":"通过内外部审计识别财务规范和内控问题,推动整改措施落地",
+ "new":{
+  "1":[["V2_ACCOUNTING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_PROCUREMENT","SEPARATE","BACKGROUND"]],
+  "3":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0318:4"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"高级财务经理。客户供应商资料为尽调对象。"
+},
+"E0060":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"STAFF_ACCOUNTING","secondary_task":"",
+ "task_evidence":"负责公司日常账务处理,包括审核原始凭证、编制记账凭证、登记各类账簿",
+ "new":{
+  "1":[["V2_ACCOUNTING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_ACCOUNTING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"],["V2_ACCOUNTING_CREDENTIAL","PREFERRED","UNCONDITIONAL"]],
+  "4":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_YONYOU","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"财务会计。用友保留。"
+},
+"E0054":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"GOV_PROJECT_MGR","secondary_task":"",
+ "task_evidence":"开展政府科技项目、专项资金及科研课题的策划与申报",
+ "new":{
+  "1":[["V2_GIT","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"科技项目经理。Git协同研发保留。"
+},
+"E0053":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"GOV_RELATIONS","secondary_task":"",
+ "task_evidence":"拓展工信部、发改委、网信办等相关政府部门关系",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"政府关系经理。无新候选。"
+},
+"E0037":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"EMBODIED_RECRUITER","secondary_task":"",
+ "task_evidence":"主导技术/业务岗位从需求分析、渠道开源、面试评估到Offer谈判的全流程",
+ "new":{
+  "1":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"],["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "5":[["V2_HR","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_URDF","SEPARATE","BACKGROUND"],["V2_CLASSICAL_CONTROL","SEPARATE","BACKGROUND"],["V2_WORLD_MODEL","SEPARATE","BACKGROUND"],["V2_POSTTRAINING","SEPARATE","BACKGROUND"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"具身智能招聘。技术词为识人对象。"
+},
+"E0023":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"CASHIER","secondary_task":"",
+ "task_evidence":"负责日常现金及银行款项的收付操作",
+ "new":{
+  "1":[["V2_ACCOUNTING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_YONYOU","GENERAL","UNCONDITIONAL"]],
+  "4":"DUPLICATE:E0023:3"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"财务出纳。用友保留。"
+},
+"E0022":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"INDUSTRY_POLICY","secondary_task":"",
+ "task_evidence":"主导撰写符合政府话语体系的高质量报告、方案、汇报方案、发言稿等材料",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"产业政策研究。无新候选。"
+},
+"E0021":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ADMIN_FACILITIES","fine_task":"ADMIN_LEAD","secondary_task":"",
+ "task_evidence":"制定行政战略规划并推动落地实施",
+ "new":{
+  "1":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"行政主管。办公用品采购记采购。"
+},
+"E0292":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"HR_EXPERT_POOL","secondary_task":"",
+ "task_evidence":"目前在招聘HR各个专家岗位,背景合适的都可以投递",
+ "new":{
+  "1":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_HR","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"HR专家池。正文写明HR岗位。"
+}
+}
+if __name__=='__main__':
+ register('RF_CORPORATE_SUPPORT', decisions, reader='grok4.6')

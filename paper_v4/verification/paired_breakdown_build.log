@@ -1,0 +1,68 @@
+[
+  {
+    "task": "ROBOT_MODEL",
+    "subset": "all_ads",
+    "weighting": "ad_equal",
+    "readings": 128,
+    "directions": "1",
+    "minimum_pair_state_edits_over_readings": 14,
+    "maximum_pair_state_edits_over_readings": 16,
+    "minimum_advertisements_edited_over_readings": 7,
+    "maximum_advertisements_edited_over_readings": 8
+  },
+  {
+    "task": "ROBOT_MODEL",
+    "subset": "all_ads",
+    "weighting": "firm_equal",
+    "readings": 128,
+    "directions": "1",
+    "minimum_pair_state_edits_over_readings": 4,
+    "maximum_pair_state_edits_over_readings": 5,
+    "minimum_advertisements_edited_over_readings": 4,
+    "maximum_advertisements_edited_over_readings": 4
+  },
+  {
+    "task": "ROBOT_MODEL",
+    "subset": "all_ads",
+    "weighting": "firm_template_equal",
+    "readings": 128,
+    "directions": "1",
+    "minimum_pair_state_edits_over_readings": 4,
+    "maximum_pair_state_edits_over_readings": 5,
+    "minimum_advertisements_edited_over_readings": 4,
+    "maximum_advertisements_edited_over_readings": 4
+  },
+  {
+    "task": "ROBOT_MODEL",
+    "subset": "both_mentioned",
+    "weighting": "ad_equal",
+    "readings": 128,
+    "directions": "1",
+    "minimum_pair_state_edits_over_readings": 14,
+    "maximum_pair_state_edits_over_readings": 15,
+    "minimum_advertisements_edited_over_readings": 7,
+    "maximum_advertisements_edited_over_readings": 8
+  },
+  {
+    "task": "ROBOT_MODEL",
+    "subset": "both_mentioned",
+    "weighting": "firm_equal",
+    "readings": 128,
+    "directions": "1",
+    "minimum_pair_state_edits_over_readings": 4,
+    "maximum_pair_state_edits_over_readings": 4,
+    "minimum_advertisements_edited_over_readings": 3,
+    "maximum_advertisements_edited_over_readings": 3
+  },
+  {
+    "task": "ROBOT_MODEL",
+    "subset": "both_mentioned",
+    "weighting": "firm_template_equal",
+    "readings": 128,
+    "directions": "1",
+    "minimum_pair_state_edits_over_readings": 4,
+    "maximum_pair_state_edits_over_readings": 4,
+    "minimum_advertisements_edited_over_readings": 3,
+    "maximum_advertisements_edited_over_readings": 3
+  }
+]

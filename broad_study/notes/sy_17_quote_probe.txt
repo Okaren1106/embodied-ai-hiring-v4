@@ -1,0 +1,163 @@
+==== 1 N0595 TITLE None
+EVID_TRY 岗位职责 / 1、负责机器人整机系统方案设计与技术架
+DUTY0 岗位职责 / 1、负责机器人整机系统方案设计与技术架构规划； / 2、组织并协调电气、控制、机械等多专业研发工作； / 3、参与整机功能定义、接口设计与模块集成； / 4、跟踪系统测试、调试及问题分析，确保系统性能稳定； / 5、协助项目经理进行研发进度与风险管理。 /  / 任职要求 / 1、研究生及以上学历，机电、自动化、电子、计算机等相关专业，5年以上机器人相关经验，有机器人项目经验
+INH SK_ROS|ROS ; SK_LINUX|Linux ; TC_CONTROL|组织并协调电气、控制、机械等多专业研发工作； ; TC_MECHANICAL|组织并协调电气、控制、机械等多专业研发工作； ; TC_EVALUATION|跟踪系统测试、调试及问题分析，确保系统性能稳定； ; TC_RELIABILITY|跟踪系统测试、调试及问题分析，确保系统性能稳定； ; TC_CONTROL|主控
+
+==== 2 E0125 TITLE None
+EVID_TRY 1. 负责关节模组在整机中的技术选型、性能匹配、
+DUTY0 1. 负责关节模组在整机中的技术选型、性能匹配、集成应用和问题闭环,保障人形机器人整机运动性能与可靠性。  / 2.  根据机器人各关节的负载谱和运动需求,分解峰值/持续转矩、转速、减速比、惯量、回程间隙、刚度、效率、温升、噪声、寿命及安全性等指标。  / 3.  负责关节模组与整机机械、电气、通信、软件和控制系统之间的接口定义,包括安装定位、结构连接、线束、供电、
+INH SK_8D|审核供应商的设计改进、失效分析、8D报告及验证结果 ; TC_ACTUATOR|负责关节模组在整机中的技术选型、性能匹配、集成应用和问题闭环 ; TC_CONTROL|控制系统之间的接口定义 ; TC_MECHANICAL|安装定位、结构连接、线束、供电、通信、散热、零位及安全机制 ; TC_POWER_ELECTRONICS|线束供电 ; TC_THERMAL_MANAGEMENT|通信、散热、零位及安全机制 ; TC_SAFETY|安全机制 ; TC_RELIABILITY|保障人形机器人整机运动性能与可靠性 ; TC_EVALUATION|负责关节模组台架测试、整机工况测试和联合调试 ; TC_ACTUATOR|机器人关节 ; TC_CONTROL|伺服系统 ; TC_MECHANICAL|精密传动 ; TC_ACTUATOR|电机 ; TC_MECHANICAL|减速器 ; TC_MECHANICAL|轴承 ; TC_POWER_ELECTRONICS|驱动控制器 ; TC_EMBEDDED|嵌入式软件 ; TC_ACTUATOR|永磁同步电机 ; TC_MECHANICAL|谐波/行星减速器 ; TC_POWER_ELECTRONICS|伺服驱动器 ; TC_RELIABILITY|常见失效模式及诊断方法 ; TC_CONTROL|FOC、电流环、速度环、位置环、力矩控制、阻抗控制、摩擦补偿和系统辨识 ; TC_EVALUATION|关节模组的测试方法 ; TC_RELIABILITY|寿命等测试方案 ; TC_RELIABILITY|失效分析
+
+==== 3 N0871 TITLE None
+EVID_TRY About Dexterity / At Dexte
+DUTY0 About Dexterity / At Dexterity, we believe robots can positively transform the world. Our breakthrough technology frees people to do the creative, inspiring, problem-solving jobs tha
+INH SK_FMEA|Collaborate with Hardware, System, and S ; SK_FTA|Collaborate with Hardware, System, and S ; SK_GENERIC_LANGUAGE|programming languages ; TC_MANIPULATION|Dexterity's full-stack robotics systems  ; TC_SAFETY|Design safety architectures for robotic  ; TC_RELIABILITY|Design safety architectures for robotic  ; TC_EVALUATION|Define and execute safety validation and ; TC_SAFETY|Define and execute safety validation and ; TC_SAFETY|10+ years of relevant experience in func ; TC_EMBEDDED|microcontrollers ; TC_SAFETY|safety-rated communication ; TC_SAFETY|Familiarity with functional safety compo ; TC_SAFETY|Support the implementation of functional
+
+==== 4 E0349 TITLE None
+EVID_TRY System Bring-Up,  Integr
+DUTY0 System Bring-Up,  Integration, & Strategy / Architect the strategy for the bring-up and integration of full humanoid robotic systems, managing competing priorities across the team to
+INH TC_SAFETY|industry-leading safety standards ; TC_MANIPULATION|ensuring robot mobility, manipulation, p ; TC_PERCEPTION|ensuring robot mobility, manipulation, p ; TC_EVALUATION|nominal path functional testing & edge-c ; TC_CONTROL|control systems ; TC_DATA_PIPELINE|data-logging systems ; TC_EVALUATION|automated test frameworks ; TC_SAFETY|safety-critical domains
+
+==== 5 E0101 TITLE None
+EVID_TRY 1. 负责宇树机器人产品的安全,挖掘安全风险,向
+DUTY0 1. 负责宇树机器人产品的安全,挖掘安全风险,向业务方输出具体解决方案; / 2. 负责机器人场景的安全需求评审和技术方案安全评审。
+INH TC_SAFETY|负责宇树机器人产品的安全,挖掘安全风险,向业务方输出具体解决方案
+
+==== 6 N0933 TITLE None
+EVID_TRY About Us / At Pickle Robot
+DUTY0 About Us / At Pickle Robot, we're on a mission to automate global supply chains with Physical AI. Our robots work alongside warehouse teams to unload trucks and containers — one of t
+INH SK_PYTHON|Python ; SK_CPP|C++ ; SK_ROS2|ROS 2 ; TC_PERCEPTION|Serve as the technical architect for Pic ; TC_CONTROL|Serve as the technical architect for Pic ; TC_GENERATIVE_POLICY|Lead the application of diffusion-based  ; TC_CONTROL|Lead the application of diffusion-based  ; TC_MANIPULATION|Lead the application of diffusion-based  ; TC_RELIABILITY|Lead the application of diffusion-based  ; TC_ACTUATOR|Drive hardware integration across sensor ; TC_EMBEDDED|Drive hardware integration across sensor ; TC_MECHANICAL|Drive hardware integration across sensor ; TC_ML_SYSTEMS|Identify and resolve performance bottlen ; TC_GENERATIVE_POLICY|diffusion models applied to robot learni ; TC_GENERATIVE_POLICY|diffusion policies ; TC_IL|behavior cloning ; TC_CONTROL|optimal control theory and practice ; TC_CONTROL|MPC ; TC_MOTION_PLANNING|trajectory optimization ; TC_CONTROL|feedback control ; TC_EMBEDDED|embedded compute ; TC_ACTUATOR|actuator interfaces ; TC_REALTIME|Experience with real-time systems constr ; TC_ML_MODELS|Experience with real-time systems constr ; TC_RELIABILITY|Strong systems-level thinking — you desi
+
+==== 7 E0035 TITLE None
+EVID_TRY 岗位职责 / 1. 负责机器人整机系统架构规划与整体
+DUTY0 岗位职责 / 1. 负责机器人整机系统架构规划与整体方案设计,统筹机械、电控、感知、运控、VLA、测试等多模块整合,完成方案论证与落地,保障整机性能、稳定性及安全性达标。 / 2. 主导机器人软硬件整机集成、联调与性能优化,总体把控操作、视觉、导航、通讯等核心系统调试与测试,牵头排查解决复杂系统性问题。 / 3. 对接产品及客户需求,拆解技术指标与研发难点,输出规范的系
+INH TC_MECHANICAL|统筹机械、电控、感知、运控、VLA、测试等多模块整合 ; TC_CONTROL|运控 ; TC_PERCEPTION|视觉、导航、通讯等核心系统调试与测试 ; TC_FOUNDATION_MODEL|VLA ; TC_NAVIGATION|导航 ; TC_EVALUATION|主导机器人软硬件整机集成、联调与性能优化，总体把控操作、视觉、导航、通讯等核心系 ; TC_SAFETY|保障整机性能、稳定性及安全性达标 ; TC_CONTROL|运动控制 ; TC_SLAM|SLAM ; TC_NAVIGATION|导航 ; TC_MECHANICAL|机械、电路图纸 ; TC_EMBEDDED|嵌入式 ; TC_CONTROL|机器人控制平台 ; TC_EVALUATION|测试验证经验
+
+==== 8 E0567 TITLE None
+EVID_TRY Collaborate on the syste
+DUTY0 Collaborate on the system-level deployment of actuators within the humanoid robot, including interfaces, behavior, and performance at the robot level. / Collaborate on calibration st
+INH SK_MATLAB|Matlab ; SK_PYTHON|Python ; SK_LINUX|Linux ; SK_CPP|C++ ; SK_CPP|C++ ; SK_CAD|CAD ; TC_ACTUATOR|system-level deployment of actuators wit ; TC_CONTROL|Incorporate sensing and feedback systems ; TC_REALTIME|Develop real-time diagnostic algorithms  ; TC_EVALUATION|Define and execute design-validation and ; TC_RELIABILITY|ensure quality and reliability targets a ; TC_MECHANICAL|debugging of mechanical, electrical and  ; TC_ACTUATOR|actuation ; TC_MANIPULATION|manipulation ; TC_EVALUATION|testing infrastructure ; TC_CONTROL|control engineering ; TC_CONTROL|control tuning
+of motion systems ; TC_MECHANICAL|mechanics ; TC_CONTROL|controls ; TC_EVALUATION|validation, instrumentation, and system- ; TC_ACTUATOR|electro-actuation systems ; TC_ACTUATOR|actuators
+
+==== 9 N0236 TITLE None
+EVID_TRY 一、产品研发与项目交付 / 1. 主导公司新产品研
+DUTY0  一、产品研发与项目交付 / 1. 主导公司新产品研发项目从立项到量产交付的全过程管理，包括需求澄清、方案设计、开发实现、测试验证及量产导入，对产品研发的进度、质量与成本承担直接责任；   / 2. 负责制定各产品线的研发里程碑计划，建立项目进度追踪与风险预警机制，确保关键节点按时达成，主动识别并解决影响交付的阻塞项；   / 3. 深度参与各产品的关键技术决策，在产品
+INH TC_RELIABILITY|2. 组织并主导各产品线的技术方案评审与设计审查，对系统架构的合理性、硬件设计的 ; TC_EVALUATION|2. 组织并主导各产品线的技术方案评审与设计审查，对系统架构的合理性、硬件设计的 ; TC_EVALUATION|2. 推动可复用技术资产跨产品线的沉淀与建设（通用中间件、标准化硬件模组、基础软 ; TC_EMBEDDED|2. 具备10年以上智能硬件、机器人或复杂嵌入式系统研发经验，其中至少5年技术团 ; TC_EMBEDDED|1. 技术功底扎实，精通嵌入式系统、硬件工程、上层软件架构等技术方向并有出色的产
+
+==== 10 N0438 TITLE None
+EVID_TRY 岗位职责 / 职位描述 / 1，制定具身本体核心技术路径
+DUTY0 岗位职责 / 职位描述 / 1，制定具身本体核心技术路径与关键技术方向，深度跟踪竞品，明确产品需求并制定路线图和发展策略； / 2，主导具身本体产品的方案架构设计，协调机械、电子、软件、力控等多专业团队，确保设计到量产全过程符合技术标准； / 3，带领团队完成方案架构、关键部件设计、本体优化、测试及生产验证全流程； / 4，参与可量产性评估与优化，协同解决批量生产中的软硬件问题
+INH TC_MECHANICAL|协调机械、电子、软件、力控等多专业团队 ; TC_CONTROL|协调机械、电子、软件、力控等多专业团队 ; TC_EVALUATION|带领团队完成方案架构、关键部件设计、本体优化、测试及生产验证全流程； ; TC_MECHANICAL|机械传动 ; TC_CONTROL|运动控制
+
+==== 11 E0592 TITLE None
+EVID_TRY - Robot Platform Fleet I
+DUTY0 - Robot Platform Fleet Integration: Be the accountable owner for a robot platform’s successful integration into the fleet, driving closure on system issues across electrical, mecha
+INH SK_PYTHON|Python ; SK_ROS|ROS ; TC_FOUNDATION_MODEL|developing foundation models and learnin ; TC_RELIABILITY|The Fleet team owns the readiness, relia ; TC_EVALUATION|data collection and evaluation that powe ; TC_MECHANICAL|system issues across electrical, mechani ; TC_EVALUATION|Define acceptance tests, criteria, and p ; TC_RELIABILITY|Own MTBF for integrated platforms and le ; TC_EVALUATION|system verification and validation testi ; TC_MECHANICAL|electromechanical systems ; TC_ACTUATOR|actuators ; TC_EVALUATION|automated tests ; TC_RELIABILITY|improve reliability ; TC_MANIPULATION|mobile manipulators ; TC_EVALUATION|automated test execution ; TC_DATA_PIPELINE|data pipelines
+
+==== 12 N0827 TITLE None
+EVID_TRY FieldAI’s Irvine team is
+DUTY0 FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build ris
+INH SK_ROS|embedded compute (CPUs, GPUs, microcontr ; SK_ROS|Systems Integration: Integrate sensors w ; SK_OSCILLOSCOPE|oscilloscopes ; SK_ROS|ROS ; SK_ROS2|ROS2 ; SK_GAZEBO|Gazebo ; SK_ISAAC|Isaac Sim ; TC_FOUNDATION_MODEL|Our Field Foundational Models™ raise the ; TC_PERCEPTION|Our Field Foundational Models™ raise the ; TC_SLAM|Our Field Foundational Models™ raise the ; TC_MANIPULATION|Our Field Foundational Models™ raise the ; TC_SAFETY|Our Field Foundational Models™ raise the ; TC_RELIABILITY|we build risk-aware, reliable, field-rea ; TC_EMBEDDED|embedded compute (CPUs, GPUs, microcontr ; TC_POWER_ELECTRONICS|embedded compute (CPUs, GPUs, microcontr ; TC_MECHANICAL|embedded compute (CPUs, GPUs, microcontr ; TC_THERMAL_MANAGEMENT|embedded compute (CPUs, GPUs, microcontr ; TC_MECHANICAL|Systems Integration: Integrate sensors w ; TC_EVALUATION|Performance Characterization: Evaluate s ; TC_RELIABILITY|Performance Characterization: Evaluate s ; TC_EVALUATION|Calibration: Design and execute both int ; TC_PERCEPTION|Hands-On Sensors Experience: Hands-on wo ; TC_EVALUATION|testing, calibration, and debugging skil ; TC_RELIABILITY|vibration/thermal setups ; TC_EVALUATION|Calibration & Characterization: Experien
+
+==== 13 N0924 TITLE None
+EVID_TRY About Nimble / Nimble / is a
+DUTY0 About Nimble / Nimble / is an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary
+INH TC_ML_MODELS|We’re training robot AGI to power a prop ; TC_MANIPULATION|Own and execute the robot picking and pa ; TC_MECHANICAL|pinpoint mechanical or software bottlene ; TC_PERCEPTION|Collaborate with robotics software and A ; TC_RELIABILITY|improve robotic grasp-ability, robustnes ; TC_EVALUATION|Conduct deep-dive technical investigatio ; TC_EVALUATION|hardware validation ; TC_MECHANICAL|mechatronics ; TC_CONTROL|Proven expertise in optimizing performan ; TC_EVALUATION|A track record of leading "end-to-end" p
+
+==== 14 N0988 TITLE None
+EVID_TRY The Systems Engineering,
+DUTY0 The Systems Engineering, Integration, and Test (SEIT) Department of Boston Dynamics (BD) seeks a highly talented / Systems Engineer / (SE) who is passionate about working with an excep
+INH SK_FMEA|trade studies, DFMEAs, design reviews, a ; SK_FMEA|DFMEA ; SK_ALTIUM|Altium ; SK_PYTHON|Python ; SK_MATLAB|Matlab ; TC_SAFETY|Help develop a compatible set of perform ; TC_RELIABILITY|Help develop a compatible set of perform ; TC_EVALUATION|trade studies, DFMEAs, design reviews, a ; TC_MECHANICAL|systems engineering of complex mechatron ; TC_MECHANICAL|electronics technology development with  ; TC_MANIPULATION|Mobile robotics, robotic manipulation, a ; TC_PERCEPTION|Mobile robotics, robotic manipulation, a ; TC_RELIABILITY|Reliability & robustness engineering met ; TC_EVALUATION|DVP&R ; TC_SAFETY|Safety-critical system development. ; TC_EMBEDDED|microcontrollers ; TC_BATTERY|batteries ; TC_BATTERY|BMS ; TC_POWER_ELECTRONICS|chargers ; TC_SAFETY|IEC 62368 ; TC_SAFETY|IEC 60204
+
+==== 15 N0078 TITLE None
+EVID_TRY 岗位职责 /  / 1. 深入理解现有机器人系统架构，梳
+DUTY0 岗位职责 /  / 1. 深入理解现有机器人系统架构，梳理计算平台、MCU、传感器、执行器及其他设备之间的通信关系和数据链路，负责给出系统扩展开发方案。 /  / 2. 负责产品的稳定性调试，性能瓶颈优化，分析解决实际的问题；根据现场问题，结合日志、抓包、代码、波形及系统运行状态，定位软硬件边界和问题根因。 /  / 3. 协同硬件、嵌入式、算法、控制及应用软件团队，明确问题归属，
+INH SK_LINUX|嵌入式 Linux ; TC_EMBEDDED|梳理计算平台、MCU、传感器、执行器及其他设备之间的通信关系和数据链路 ; TC_ACTUATOR|梳理计算平台、MCU、传感器、执行器及其他设备之间的通信关系和数据链路 ; TC_EMBEDDED|参与嵌入式的mcu固件，上层应用的和相关工具的开发 ; TC_CONTROL|协同硬件、嵌入式、算法、控制及应用软件团队 ; TC_EMBEDDED|嵌入式系统 ; TC_EMBEDDED|熟悉嵌入式网络架构 ; TC_EMBEDDED|嵌入式 Linux ; TC_REALTIME|RTOS 系统 ; TC_EMBEDDED|RTOS 系统 ; TC_PERCEPTION|感知 ; TC_SLAM|定位 ; TC_CONTROL|控制 ; TC_RELIABILITY|负责产品的稳定性调试，性能瓶颈优化，分析解决实际的问题
+
+==== 16 E0156 TITLE None
+EVID_TRY - 定义整机自由度、关节配置、传感器架构、电气架
+DUTY0 - 定义整机自由度、关节配置、传感器架构、电气架构、算力架构、通信架构和安全架构。 / - 牵头完成系统架构方案、关键接口定义、整机指标分解、BOM初版和风险清单。 / - 统筹机械、电气、电子硬件、嵌入式、热管理、触觉/力觉、测试等模块的接口边界。 / - 在工程样机阶段判断哪些指标必须实现、哪些指标可以后置,控制需求膨胀和架构返工。 / - 组织架构评审、设计冻结评审、
+INH TC_SAFETY|定义整机自由度、关节配置、传感器架构、电气架构、算力架构、通信架构和安全架构 ; TC_ACTUATOR|关节配置 ; TC_MECHANICAL|统筹机械、电气、电子硬件、嵌入式、热管理、触觉/力觉、测试等模块的接口边界 ; TC_EMBEDDED|嵌入式、热管理、触觉/力觉、测试等模块的接口边界 ; TC_THERMAL_MANAGEMENT|热管理、触觉/力觉、测试等模块的接口边界 ; TC_EVALUATION|工程样机验收 ; TC_MECHANICAL|机械 ; TC_CONTROL|电控 ; TC_EMBEDDED|嵌入式 ; TC_SAFETY|安全保护 ; TC_SAFETY|功能安全 ; TC_RELIABILITY|可靠性测试 ; TC_EVALUATION|可靠性测试 ; TC_THERMAL_MANAGEMENT|热管理 ; TC_ACTUATOR|高功率密度执行器
+
+==== 17 E0317 TITLE None
+EVID_TRY Organizational Leadershi
+DUTY0 Organizational Leadership & Strategy / Build, lead, and develop a high-performing diagnostics and analysis team. / Define the vision, strategy, and operating model for engineering diag
+INH TC_SAFETY|industry-leading safety standards ; TC_EMBEDDED|rapidly diagnose complex robot failures  ; TC_CONTROL|Lead investigation of complex robot fail ; TC_RELIABILITY|Identify systemic risks, recurring failu ; TC_EVALUATION|test ; TC_RELIABILITY|reliability ; TC_CONTROL|controls
+
+==== 18 E0041 TITLE None
+EVID_TRY 1、负责人形机器人末端灵巧执行器-灵巧手、夹爪的
+DUTY0 1、负责人形机器人末端灵巧执行器-灵巧手、夹爪的产品Roadmap、设计开发和量产落地工作,综合性能、体积重量、成本等指标,明确需求规格,确定技术路线,按照产品级完成开发和量产交付。 / 2、协同机械、硬件、软件、算法、测试、装配、供应链等团队,对接外部供应商,对末端灵巧执行器产品的全生命周期负责,完成产品迭代,交付内外部客户。 / 3、牵头对灵巧执行器开发、测试和
+INH TC_ACTUATOR|负责人形机器人末端灵巧执行器-灵巧手、夹爪的产品Roadmap、设计开发和量产落 ; TC_EVALUATION|对灵巧执行器开发、测试和量产过程中出现的各种问题进行系统性分析、排查并推动问题的 ; TC_MECHANICAL|灵巧手/夹爪结构方案 ; TC_MECHANICAL|机械 ; TC_CONTROL|伺服
+
+==== 19 E0534 TITLE None
+EVID_TRY Design and conduct measu
+DUTY0 Design and conduct measurements to characterize power bus performance to validate strategies for robust operation. / Develop methods to reliably expand the performance envelope, in c
+INH SK_OSCILLOSCOPE|using diagnostic tools such as oscillosc ; SK_MULTIMETER|using diagnostic tools such as oscillosc ; SK_LINUX|Linux ; SK_PYTHON|Python ; TC_POWER_ELECTRONICS|Design and conduct measurements to chara ; TC_EVALUATION|Design and conduct measurements to chara ; TC_EMBEDDED|Perform hands-on debugging of embedded s ; TC_THERMAL_MANAGEMENT|bridge the gap between physical hardware ; TC_CONTROL|bridge the gap between physical hardware ; TC_RELIABILITY|ensuring that operation is reliable, saf ; TC_SAFETY|ensuring that operation is reliable, saf ; TC_BATTERY|Battery design and operation considerati ; TC_ACTUATOR|motor control theory ; TC_CONTROL|motor control theory ; TC_SIMULATION|simulation of power systems ; TC_POWER_ELECTRONICS|simulation of power systems
+
+==== 20 N0367 TITLE None
+EVID_TRY 岗位职责 / 1、负责机器人产品声学系统整体方案设计
+DUTY0 岗位职责 / 1、负责机器人产品声学系统整体方案设计，涵盖声学硬件设计与选型、声学结构设计、系统集成与性能匹配，对整机声学性能、问题定位和量产一致性负责； / 2、声学硬件： 完成麦克风阵列、扬声器、音频Codec、DSP 等核心器件选型，主导音频原理图设计与 PCB 布局审查，负责信号完整性分析、阻抗匹配及EMC/EMI设计与整改； / 3、声学结构：负责音腔设计、导
+INH SK_PCB|2、声学硬件： 完成麦克风阵列、扬声器、音频Codec、DSP 等核心器件选型， ; SK_FEA|3、声学结构：负责音腔设计、导音管/出音孔布局、密封结构方案，完成声学腔体仿真与 ; SK_PCB|能独立完成原理图设计与 PCB 审查 ; SK_ALTIUM|Altium ; SK_CADENCE|Cadence ; SK_SOLIDWORKS|SolidWorks ; SK_CREO|Creo ; SK_GD_T|具备扎实的 GD&T 公差管控能力 ; SK_OSCILLOSCOPE|示波器 ; SK_FMEA|FMEA ; SK_8D|8D ; SK_GD_T|4、电声集成：负责 MEMS 麦克风、微型扬声器等电声器件的结构集成与装配方案， ; TC_MECHANICAL|3、声学结构：负责音腔设计、导音管/出音孔布局、密封结构方案，完成声学腔体仿真与 ; TC_SIMULATION|3、声学结构：负责音腔设计、导音管/出音孔布局、密封结构方案，完成声学腔体仿真与 ; TC_EVALUATION|5、测试调试：制定声学测试方案，完成灵敏度、频响、信噪比、THD+N、指向性等关 ; TC_SIMULATION|能独立完成音腔/声场仿真分析 ; TC_EVALUATION|6、声学理论： 具备扎实的声学理论功底，熟悉电声器件特性与测试方法，了解 Hel ; TC_MECHANICAL|6、声学理论： 具备扎实的声学理论功底，熟悉电声器件特性与测试方法，了解 Hel ; TC_EVALUATION|7、测试能力： 熟练使用音频分析仪、示波器、频谱仪等测试设备，了解音频信号处理基 ; TC_MECHANICAL|2、同时具备声学硬件电路设计与声学结构设计双重能力者优先； ; TC_MECHANICAL|4、熟悉防水结构设计（IP67/IP68）及防水透声膜选型与贴合工艺者优先； ; TC_EVALUATION|5、了解 RoHS、CE、FCC 等认证中声学相关测试要求者优先。
+
+==== 21 N0443 TITLE None
+EVID_TRY 岗位职责 / 1、负责机器人产品相关研发类系统的方案
+DUTY0 岗位职责 / 1、负责机器人产品相关研发类系统的方案架构设计、拆解和实现； / 2、负责整机系统性能优化，主导关键技术方案设计、技术难点公关； / 3、规划机器人系统整体方案及组件的标准化，参与新产品需求及技术预研方案的讨论、系统分析和技术评审工作； / 4、负责与设计相关的技术储备，积极推动技术创新工作开展，参与新技术/标准和新工具/方法的研究和跟踪。 / 5、 拥有协作机器
+INH TC_MECHANICAL|机械 ; TC_ACTUATOR|电机 ; TC_MECHANICAL|关节
+
+==== 22 E0350 TITLE None
+EVID_TRY System Architecture & In
+DUTY0 System Architecture & Integration: Define and document system and subsystem architectures spanning mechanical, electrical, firmware, and software domains. Drive trade studies with 
+INH TC_SAFETY|industry-leading safety standards ; TC_EMBEDDED|architectures spanning mechanical, elect ; TC_SAFETY|Facilitate functional safety analysis in ; TC_RELIABILITY|Implement design improvements that direc ; TC_EVALUATION|Participate in design reviews, integrati ; TC_SAFETY|Functional safety ; TC_EVALUATION|system-level validation strategies ; TC_RELIABILITY|reliability
+
+==== 23 E0366 TITLE None
+EVID_TRY Robotics Development / Req
+DUTY0 Robotics Development / Requirements Management: Define system and subsystem architectures spanning all domains (mechanical, electrical, firmware, and software) with embedded function
+INH SK_FTA|FTA ; SK_FMEA|FMEA ; TC_SAFETY|industry-leading safety standards ; TC_SAFETY|take ownership of complex safety-critica ; TC_EMBEDDED|architectures spanning all domains (mech ; TC_EVALUATION|Drive system-level verification of safet ; TC_PERCEPTION|including emergency stop and human detec ; TC_SAFETY|system safety ; TC_SAFETY|functional safety ; TC_SAFETY|safety-critical robotics ; TC_SAFETY|safety lifecycle processes ; TC_SAFETY|safety ; TC_EVALUATION|verification and validation strategies ; TC_ML_MODELS|AI/ML ; TC_SAFETY|safety considerations
+
+==== 24 E0320 TITLE None
+EVID_TRY Lead functional safety e
+DUTY0 Lead functional safety efforts from concept through deployment, including compliance with the machinery directive, ISO 13849, IEC 62061, IEC 61508, and applicable mobile robot stan
+INH TC_SAFETY|industry-leading safety standards ; TC_SAFETY|Drive architecture-level safety decision ; TC_EMBEDDED|define, communicate, and validate safety ; TC_CONTROL|define, communicate, and validate safety ; TC_PERCEPTION|collaborate closely with hardware, softw ; TC_EVALUATION|Oversee third-party vendors and labs for ; TC_ML_MODELS|Help design and validate functional safe ; TC_SAFETY|functional safety ; TC_EVALUATION|V&V activities ; TC_SAFETY|safety analysis ; TC_SAFETY|safety firmware ; TC_EMBEDDED|safety firmware ; TC_SAFETY|safety of the intended functionality ; TC_PERCEPTION|perception ; TC_ML_MODELS|AI/ML-enabled systems
+
+==== 25 N0820 TITLE None
+EVID_TRY FieldAI’s Irvine team is
+DUTY0 FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build ris
+INH TC_FOUNDATION_MODEL|Our Field Foundational Models™ raise the ; TC_PERCEPTION|Our Field Foundational Models™ raise the ; TC_SLAM|Our Field Foundational Models™ raise the ; TC_MANIPULATION|Our Field Foundational Models™ raise the ; TC_SAFETY|Our Field Foundational Models™ raise the ; TC_RELIABILITY|we build risk-aware, reliable, field-rea ; TC_MECHANICAL|Ruggedization: Own mounting and enclosur ; TC_RELIABILITY|Ruggedization: Own mounting and enclosur ; TC_EVALUATION|Calibration & Time Sync: Own multi-senso ; TC_DATA_PIPELINE|Data Pipelines: Build and maintain data  ; TC_PERCEPTION|Data Pipelines: Build and maintain data  ; TC_SLAM|Data Pipelines: Build and maintain data  ; TC_EVALUATION|Testing & Validation: Test sensor perfor ; TC_RELIABILITY|Testing & Validation: Test sensor perfor ; TC_MECHANICAL|Cross-Domain Engineering: Strong foundat ; TC_PERCEPTION|Data & Signal Processing Fluency: Workin ; TC_MECHANICAL|Mechatronics & Integration: Experience w ; TC_RELIABILITY|Mechatronics & Integration: Experience w ; TC_RELIABILITY|Field Robotics: Experience working with  ; TC_PERCEPTION|Mapping & Reality Capture: Familiarity w ; TC_SLAM|Mapping & Reality Capture: Familiarity w ; TC_SAFETY|hazardous-area ; TC_PERCEPTION|perception work ; TC_PERCEPTION|Candidates should be familiar with conce ; TC_ML_MODELS|with already-globally-deployed solutions
+
+==== 26 N0774 TITLE None
+EVID_TRY Who are We? / Field AIis t
+DUTY0 Who are We? / Field AIis transforming how robots interact with the real world. We are building risk-aware, reliable, and field-ready AI systems that address the most complex challeng
+INH SK_ROS|ROS ; SK_ROS2|ROS2 ; SK_CPP|C++ ; TC_FOUNDATION_MODEL|Our Field Foundational Models™ set a new ; TC_PERCEPTION|Our Field Foundational Models™ set a new ; TC_SLAM|Our Field Foundational Models™ set a new ; TC_MANIPULATION|Our Field Foundational Models™ set a new ; TC_SAFETY|ensuring our approach is explainable and ; TC_ML_MODELS|pure transformer-based architectures ; TC_SAFETY|Architect the functional safety systems  ; TC_CONTROL|Design and implement non-line-of-sight s ; TC_RELIABILITY|Troubleshoot, debug, and optimize system ; TC_EVALUATION|Establish scalable safety testing and va ; TC_EVALUATION|Deploy, verify, and validate safety syst ; TC_SAFETY|Safety PLCs ; TC_SAFETY|hardware safety components ; TC_SAFETY|safety standards
+
+==== 27 N0734 TITLE None
+EVID_TRY Field AI builds autonomo
+DUTY0 Field AI builds autonomous robotic systems designed to operate in complex, unstructured, and safety-critical real-world environments. Our robots work alongside humans in outdoor se
+INH TC_FOUNDATION_MODEL|We are solving one of the world’s most c ; TC_PERCEPTION|We are solving one of the world’s most c ; TC_SLAM|We are solving one of the world’s most c ; TC_MANIPULATION|We are solving one of the world’s most c ; TC_SAFETY|We are solving one of the world’s most c ; TC_SAFETY|Review and approve safety architectures, ; TC_NAVIGATION|Guide safety approaches for:
+Autonomous  ; TC_PERCEPTION|Guide safety approaches for:
+Autonomous  ; TC_RELIABILITY|Fault tolerance, degraded modes, and fai ; TC_ML_MODELS|Oversee safety treatment of
+AI/ML-driven ; TC_SAFETY|product safety ; TC_SAFETY|functional safety ; TC_SAFETY|Proven experience leading
+system-level s ; TC_MECHANICAL|Proven experience leading
+system-level s ; TC_SAFETY|Deep understanding of
+real-world robotic ; TC_SAFETY|Functional Safety certification ; TC_ML_MODELS|Background in AI/ML-enabled systems and  ; TC_SAFETY|Background in AI/ML-enabled systems and 
+
+==== 28 N0806 TITLE None
+EVID_TRY FieldAI’s Irvine team is
+DUTY0 FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build ris
+INH SK_CPP|Strong C++ and Python skills in Linux-ba ; SK_PYTHON|Strong C++ and Python skills in Linux-ba ; SK_LINUX|Strong C++ and Python skills in Linux-ba ; SK_ROS|ROS ; SK_ROS2|ROS2 ; TC_FOUNDATION_MODEL|Our Field Foundational Models™ raise the ; TC_PERCEPTION|Our Field Foundational Models™ raise the ; TC_SLAM|Our Field Foundational Models™ raise the ; TC_MANIPULATION|Our Field Foundational Models™ raise the ; TC_SAFETY|Our Field Foundational Models™ raise the ; TC_RELIABILITY|we build risk-aware, reliable, field-rea ; TC_PERCEPTION|bringing together perception, localizati ; TC_SLAM|bringing together perception, localizati ; TC_MANIPULATION|bringing together perception, localizati ; TC_CONTROL|bringing together perception, localizati ; TC_EVALUATION|Own robot bring-up, calibration, configu ; TC_RELIABILITY|Integrate humanoid subsystems into a rel ; TC_EVALUATION|calibration ; TC_PERCEPTION|Understanding of perception, planning, c ; TC_CONTROL|Understanding of perception, planning, c ; TC_MANIPULATION|Understanding of perception, planning, c ; TC_EMBEDDED|Understanding of perception, planning, c ; TC_MANIPULATION|You've integrated a humanoid or legged/m ; TC_MANIPULATION|You've owned the interfaces between loco ; TC_PERCEPTION|You've owned the interfaces between loco
+
+==== 29 N0835 TITLE None
+EVID_TRY FieldAI’s Irvine team is
+DUTY0 FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build ris
+INH SK_ROS|Systems Integration: Integrate sensors w ; SK_OSCILLOSCOPE|oscilloscopes ; SK_ROS|ROS ; SK_ROS2|ROS2 ; SK_GAZEBO|Gazebo ; SK_ISAAC|Isaac Sim ; TC_FOUNDATION_MODEL|Our Field Foundational Models™ set a new ; TC_PERCEPTION|Our Field Foundational Models™ set a new ; TC_SLAM|Our Field Foundational Models™ set a new ; TC_MANIPULATION|Our Field Foundational Models™ set a new ; TC_SAFETY|Our Field Foundational Models™ set a new ; TC_RELIABILITY|We are building risk-aware, reliable, an ; TC_MECHANICAL|Systems Integration: Integrate sensors w ; TC_EVALUATION|Performance Characterization: Evaluate s ; TC_RELIABILITY|Performance Characterization: Evaluate s ; TC_EVALUATION|Calibration: Design and execute both int ; TC_PERCEPTION|Hands-On Sensors Experience: Hands-on wo ; TC_EVALUATION|testing, calibration, and debugging skil ; TC_RELIABILITY|vibration/thermal setups ; TC_EVALUATION|Calibration & Characterization: Experien ; TC_SIMULATION|high-fidelity simulation environments ; TC_RELIABILITY|Field Environments: Experience developin ; TC_MECHANICAL|Systems Level Robotics: Fluency across s ; TC_EVALUATION|Calibration: Design and execute both int ; TC_EVALUATION|Develop QA checks for incoming units.
+
+==== 30 N0810 TITLE None
+EVID_TRY About Us / Field AI is tra
+DUTY0 About Us / Field AI is transforming how robots interact with the real world. We are building risk-aware, reliable, and field-ready AI systems that address the most complex challenges
+INH SK_ROS|Build software abstraction layers betwee ; SK_ROS2|Build software abstraction layers betwee ; SK_ISAAC|Validate and adapt RL-based autonomy pol ; SK_GAZEBO|Validate and adapt RL-based autonomy pol ; SK_MUJOCO|Validate and adapt RL-based autonomy pol ; SK_ROS|ROS ; SK_ROS2|ROS2 ; SK_PYTHON|python ; SK_CPP|C++ ; SK_ISAAC|Isaac ; SK_GAZEBO|Gazebo ; SK_MUJOCO|MuJoCo ; SK_GENERIC_LANGUAGE|computing languages ; TC_RELIABILITY|We are building risk-aware, reliable, an ; TC_CONTROL|Build software abstraction layers betwee ; TC_NAVIGATION|Ensure navigation and controls stacks ru ; TC_CONTROL|Ensure navigation and controls stacks ru ; TC_MECHANICAL|designing and integrating mechanical (sa ; TC_POWER_ELECTRONICS|designing and integrating mechanical (sa ; TC_RL|Validate and adapt RL-based autonomy pol ; TC_SIMULATION|Validate and adapt RL-based autonomy pol ; TC_EVALUATION|Use SIL/HIL testing to ensure integrated ; TC_SAFETY|Use SIL/HIL testing to ensure integrated ; TC_RELIABILITY|Use SIL/HIL testing to ensure integrated ; TC_SAFETY|Implement e-stop and redundancy/fault-to
+
+==== 31 E0568 TITLE None
+EVID_TRY Integrate multi‐DOF robo
+DUTY0 Integrate multi‐DOF robotic hands with the humanoid control stack. / Plan and execute behaviors to validate motion, sensing and control at the system level / Own calibration strategies
+INH SK_CPP|C++ ; SK_PYTHON|Python ; SK_LINUX|Linux ; SK_MATLAB|Matlab ; SK_SIMULINK|Simulink ; SK_CAD|CAD ; TC_ACTUATOR|hand actuators ; TC_CONTROL|Integrate position, torque and tactile s ; TC_REALTIME|Develop real-time diagnostic algorithms ; TC_EVALUATION|Own calibration strategies and end‑of‑li ; TC_RELIABILITY|ensure that each hand meets quality and  ; TC_EMBEDDED|integrate algorithms, embedded systems a ; TC_MECHANICAL|debugging of mechanical, electrical and  ; TC_ACTUATOR|actuation ; TC_MANIPULATION|manipulation ; TC_EMBEDDED|embedded development ; TC_CONTROL|control tuning
+of motion systems ; TC_MECHANICAL|mechanics ; TC_CONTROL|controls ; TC_EVALUATION|lab equipment
+for validation ; TC_ACTUATOR|robotic hands actuation systems

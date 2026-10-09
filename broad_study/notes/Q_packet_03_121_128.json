@@ -1,0 +1,3429 @@
+[
+  {
+    "coding_order": 121,
+    "reading_id": "E0341",
+    "company_id": "US_AGILITY",
+    "title": "Senior Software Engineer, AI/ML Platform",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6148969004|501834c08bdf70597af6d2c6c327a1b74e04a3ab6dcbcd70aa4a550053c3736c",
+    "already_coded": false,
+    "fields": {
+      "duties": "Execution and Technical Ownership\nContribute to the design and implementation of the ML platform for orchestrating the end to end AI flywheel of data processing, training, evaluation, and deployment\nDevelop reliable workflows across cloud compute, Kubernetes, and continuous automation\nBuild core infrastructure components such as the model registry, feature store and experiment tracking tooling.\nOwn developer-facing APIs and CLI tools that make ML workflows simple and reproducible.\nImplement the CI/CD lifecycle for ML that enable continuous retraining, automated testing, and seamless model delivery to production environments\nCollaboration\nWork closely with the Staff ML Infra Engineer and cross-functional stakeholders (AI researchers and robotics engineers) to understand requirements and translate them into scalable solutions/systems.\nPartner with data platform engineers to integrate ML orchestration and metadata tracking tools with our existing data lake and pipelines.\nEngineering Excellence, Growth and Impact\n:\nApply MLOps best practices: reproducibility, lineage, rollback, monitoring and governance.\nMentor junior engineers and influence the broader cloud platform organization’s roadmap.\nContribute to internal discussions on platform architecture, reliability, and scalability alongside the broader ML and data platform team\nWhat We’re Aiming For (MLOps Level 2)\nVersion-controlled ML pipelines (data, code, and config)\nAutomated and reproducible model training and evaluation\nContinuous integration and delivery for ML workflows\nCentralized experiment tracking and performance visualization\nStandardized model packaging and deployment to production\nMonitoring of models post-deployment",
+      "requirements": "5+ years of software engineering experience, with at least 2+ years working on ML infrastructure, data platforms or MLOps systems in production environments.\nExperience building and maintaining components of modern ML platforms—such as experiment tracking, model registries, training pipelines, or deployment systems\nFamiliarity with orchestration and tracking tools (MLflow, WandB, Airflow, Kubeflow, etc.)\nProficiency with cloud-native platforms (AWS, GCP, or Azure), containers, and IaC (e.g., CDK, Terraform)\nHands-on experience with processing or modeling multimodal data(sensor logs, camera streams, behaviour traces etc).\nComfortable collaborating cross-functionally with research scientists, data engineers, and robotics/autonomy teams to ship infrastructure used by others\nBonus Qualifications\nExperience with robotics, autonomous vehicles, drones or embedded ML.\nContributions to open-source ML infrastructure or MLOps tooling a plus.\nWhy This Role?\nBuild from the start\nJoin at a pivotal moment - help shape the ML platform layer as its being defined, not inherited.\nHigh impact\n: Your work will directly enable faster, safer, and more intelligent robotic behaviors at scale\nTechnical Frontier\n: You will work directly on enabling the next frontier of AI in real production settings\nRemote-friendly\nwith a strong engineering culture and a fully distributed team.\nThe final salary offered to a successful candidate will be dependent on several factors that may include but are not limited to: market location, job-related knowledge, skills, and experience. This range may change based on geographical location and may be modified in the future.\nAnticipated Base Salary Range\n$197,000\n—\n$307,000 USD\nIn addition to base pay, our competitive total rewards package consists of the following for full-time employees:\n401(k) Plan:\nIncludes a 6% company match.\nEquity:\nCompany stock options.\nInsurance Coverage:\n100% company-paid medical, dental, vision, and short/long-term disability insurance for employees.\nBenefit Start Date:\nEligible for benefits on your first day of employment.\nWell-Being Support:\nEmployee Assistance Program (EAP).\nTime Off:\nExempt Employees:\nFlexible, unlimited PTO and 12 company holidays, including a winter shutdown.\nNon-Exempt Employees:\n10 vacation days, paid sick leave, and 12 company holidays, including a winter shutdown, annually.\nOn-Site Perks:\nCatered lunches four times a week and a variety of healthy snacks and refreshments at our Salem and Pittsburgh locations.\nParental Leave:\nGenerous paid parental leave programs.\nWork Environment:\nA culture that supports flexible work arrangements.\nGrowth Opportunities:\nProfessional development and tuition reimbursement programs.\nRelocation Assistance:\nProvided for eligible roles.\nAnnual Discretionary Bonus:\nProvided for eligible roles.\nAll of our roles are U.S.-based. Applicants must have current authorization to work in the United States.\nAgility Robotics is committed to a work environment in which all individuals are treated with respect and dignity. Each individual has the right to work in a professional atmosphere that promotes equal employment opportunities and prohibits unlawful discriminatory practices, including harassment. Therefore, it is the policy of Agility Robotics to ensure equal employment opportunity without discrimination or harassment on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, genetic information, or any other characteristic protected by law. Agility Robotics prohibits any such discrimination or harassment.\nAgility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+      "full_description": "Agility’s commercially deployed humanoids operate alongside teams in warehouses, manufacturing facilities, and distribution centers—tackling physically demanding and repetitive tasks while enabling workers to focus on higher-value work. With industry-leading safety standards and years of proven deployment data, we're pioneering a new era of automation that enhances human potential.\nAbout The Role\nJoin the team building the machine learning platform to power fleet-scale humanoid robotics. As a senior engineer on the ML Infrastructure and Platform group, you will help\narchitect\nand\nbuild\nthe foundational infrastructure for AI and machine learning operations at Agility. This includes the platform layer for data collection and processing, training, sim and real evaluation, and model management and observability.\nYour work will empower our AI teams across perception, controls, skills, and innovation to build and deploy next-generation robot foundation models and end-to-end policies for humanoid robots by providing tools to develop and operationalize machine learning at scale.\nKey Responsibilities\nExecution and Technical Ownership\nContribute to the design and implementation of the ML platform for orchestrating the end to end AI flywheel of data processing, training, evaluation, and deployment\nDevelop reliable workflows across cloud compute, Kubernetes, and continuous automation\nBuild core infrastructure components such as the model registry, feature store and experiment tracking tooling.\nOwn developer-facing APIs and CLI tools that make ML workflows simple and reproducible.\nImplement the CI/CD lifecycle for ML that enable continuous retraining, automated testing, and seamless model delivery to production environments\nCollaboration\nWork closely with the Staff ML Infra Engineer and cross-functional stakeholders (AI researchers and robotics engineers) to understand requirements and translate them into scalable solutions/systems.\nPartner with data platform engineers to integrate ML orchestration and metadata tracking tools with our existing data lake and pipelines.\nEngineering Excellence, Growth and Impact\n:\nApply MLOps best practices: reproducibility, lineage, rollback, monitoring and governance.\nMentor junior engineers and influence the broader cloud platform organization’s roadmap.\nContribute to internal discussions on platform architecture, reliability, and scalability alongside the broader ML and data platform team\nWhat We’re Aiming For (MLOps Level 2)\nVersion-controlled ML pipelines (data, code, and config)\nAutomated and reproducible model training and evaluation\nContinuous integration and delivery for ML workflows\nCentralized experiment tracking and performance visualization\nStandardized model packaging and deployment to production\nMonitoring of models post-deployment\nRequired Qualifications\n5+ years of software engineering experience, with at least 2+ years working on ML infrastructure, data platforms or MLOps systems in production environments.\nExperience building and maintaining components of modern ML platforms—such as experiment tracking, model registries, training pipelines, or deployment systems\nFamiliarity with orchestration and tracking tools (MLflow, WandB, Airflow, Kubeflow, etc.)\nProficiency with cloud-native platforms (AWS, GCP, or Azure), containers, and IaC (e.g., CDK, Terraform)\nHands-on experience with processing or modeling multimodal data(sensor logs, camera streams, behaviour traces etc).\nComfortable collaborating cross-functionally with research scientists, data engineers, and robotics/autonomy teams to ship infrastructure used by others\nBonus Qualifications\nExperience with robotics, autonomous vehicles, drones or embedded ML.\nContributions to open-source ML infrastructure or MLOps tooling a plus.\nWhy This Role?\nBuild from the start\nJoin at a pivotal moment - help shape the ML platform layer as its being defined, not inherited.\nHigh impact\n: Your work will directly enable faster, safer, and more intelligent robotic behaviors at scale\nTechnical Frontier\n: You will work directly on enabling the next frontier of AI in real production settings\nRemote-friendly\nwith a strong engineering culture and a fully distributed team.\nThe final salary offered to a successful candidate will be dependent on several factors that may include but are not limited to: market location, job-related knowledge, skills, and experience. This range may change based on geographical location and may be modified in the future.\nAnticipated Base Salary Range\n$197,000\n—\n$307,000 USD\nIn addition to base pay, our competitive total rewards package consists of the following for full-time employees:\n401(k) Plan:\nIncludes a 6% company match.\nEquity:\nCompany stock options.\nInsurance Coverage:\n100% company-paid medical, dental, vision, and short/long-term disability insurance for employees.\nBenefit Start Date:\nEligible for benefits on your first day of employment.\nWell-Being Support:\nEmployee Assistance Program (EAP).\nTime Off:\nExempt Employees:\nFlexible, unlimited PTO and 12 company holidays, including a winter shutdown.\nNon-Exempt Employees:\n10 vacation days, paid sick leave, and 12 company holidays, including a winter shutdown, annually.\nOn-Site Perks:\nCatered lunches four times a week and a variety of healthy snacks and refreshments at our Salem and Pittsburgh locations.\nParental Leave:\nGenerous paid parental leave programs.\nWork Environment:\nA culture that supports flexible work arrangements.\nGrowth Opportunities:\nProfessional development and tuition reimbursement programs.\nRelocation Assistance:\nProvided for eligible roles.\nAnnual Discretionary Bonus:\nProvided for eligible roles.\nAll of our roles are U.S.-based. Applicants must have current authorization to work in the United States.\nAgility Robotics is committed to a work environment in which all individuals are treated with respect and dignity. Each individual has the right to work in a professional atmosphere that promotes equal employment opportunities and prohibits unlawful discriminatory practices, including harassment. Therefore, it is the policy of Agility Robotics to ensure equal employment opportunity without discrimination or harassment on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, genetic information, or any other characteristic protected by law. Agility Robotics prohibits any such discrimination or harassment.\nAgility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 199,
+        "end": 285,
+        "quote": "Develop reliable workflows across cloud compute, Kubernetes, and continuous automation"
+      },
+      {
+        "id": "O2",
+        "code": "SK_MLFLOW",
+        "name": "MLflow",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 368,
+        "end": 374,
+        "quote": "MLflow"
+      },
+      {
+        "id": "O3",
+        "code": "SK_WANDB",
+        "name": "Weights & Biases",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 376,
+        "end": 381,
+        "quote": "WandB"
+      },
+      {
+        "id": "O4",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 242,
+        "end": 275,
+        "quote": "industry-leading safety standards"
+      },
+      {
+        "id": "O5",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 286,
+        "end": 397,
+        "quote": "Build core infrastructure components such as the model registry, feature store and experiment tracking tooling."
+      },
+      {
+        "id": "O6",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 694,
+        "end": 743,
+        "quote": "platform layer for data collection and processing"
+      },
+      {
+        "id": "O7",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 755,
+        "end": 778,
+        "quote": "sim and real evaluation"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 755,
+        "end": 778,
+        "quote": "sim and real evaluation"
+      },
+      {
+        "id": "O9",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 835,
+        "end": 967,
+        "quote": "empower our AI teams across perception, controls, skills, and innovation to build and deploy next-generation robot foundation models"
+      },
+      {
+        "id": "O10",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 843,
+        "end": 907,
+        "quote": "our AI teams across perception, controls, skills, and innovation"
+      },
+      {
+        "id": "O11",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 843,
+        "end": 907,
+        "quote": "our AI teams across perception, controls, skills, and innovation"
+      },
+      {
+        "id": "O12",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1245,
+        "end": 1296,
+        "quote": "platform architecture, reliability, and scalability"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "ML infrastructure"
+      },
+      {
+        "id": "O14",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 98,
+        "end": 112,
+        "quote": "data platforms"
+      },
+      {
+        "id": "O15",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 116,
+        "end": 129,
+        "quote": "MLOps systems"
+      },
+      {
+        "id": "O16",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 208,
+        "end": 227,
+        "quote": "modern ML platforms"
+      },
+      {
+        "id": "O17",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 860,
+        "end": 871,
+        "quote": "embedded ML"
+      },
+      {
+        "id": "O18",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "ML infrastructure"
+      },
+      {
+        "id": "O19",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 923,
+        "end": 936,
+        "quote": "MLOps tooling"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0341:1",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "Implement the CI/CD lifecycle for ML that enable continuous retraining, automated testing, and seamless model delivery to production environments",
+        "quote": "Implement the CI/CD lifecycle for ML that enable continuous retraining, automated testing, and seamless model delivery to production environments",
+        "field": "full_description",
+        "start": 1595,
+        "end": 1740
+      },
+      {
+        "id": "2",
+        "review_id": "E0341:2",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "Continuous integration and delivery for ML workflows",
+        "quote": "Continuous integration and delivery for ML workflows",
+        "field": "full_description",
+        "start": 2606,
+        "end": 2658
+      },
+      {
+        "id": "3",
+        "review_id": "E0341:3",
+        "codes": [
+          "V2_AIRFLOW"
+        ],
+        "names": [
+          "Apache Airflow"
+        ],
+        "surface": "Familiarity with orchestration and tracking tools (MLflow, WandB, Airflow, Kubeflow, etc.)",
+        "quote": "Familiarity with orchestration and tracking tools (MLflow, WandB, Airflow, Kubeflow, etc.)",
+        "field": "full_description",
+        "start": 3157,
+        "end": 3247
+      },
+      {
+        "id": "4",
+        "review_id": "E0341:4",
+        "codes": [
+          "V2_AWS",
+          "V2_GCP",
+          "V2_AZURE",
+          "V2_TERRAFORM"
+        ],
+        "names": [
+          "Amazon Web Services",
+          "Google Cloud",
+          "Azure",
+          "Terraform"
+        ],
+        "surface": "Proficiency with cloud-native platforms (AWS, GCP, or Azure), containers, and IaC (e.g., CDK, Terraform)",
+        "quote": "Proficiency with cloud-native platforms (AWS, GCP, or Azure), containers, and IaC (e.g., CDK, Terraform)",
+        "field": "full_description",
+        "start": 3248,
+        "end": 3352
+      },
+      {
+        "id": "5",
+        "review_id": "E0341:5",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$307,000 USD",
+        "quote": "$307,000 USD",
+        "field": "full_description",
+        "start": 4536,
+        "end": 4548
+      },
+      {
+        "id": "6",
+        "review_id": "E0341:6",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+        "quote": "Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+        "field": "full_description",
+        "start": 6485,
+        "end": 6829
+      },
+      {
+        "id": "7",
+        "review_id": "E0341:7",
+        "codes": [
+          "V2_AWS",
+          "V2_GCP",
+          "V2_AZURE"
+        ],
+        "names": [
+          "Amazon Web Services",
+          "Google Cloud",
+          "Azure"
+        ],
+        "surface": "AWS, GCP, or Azure",
+        "quote": "AWS, GCP, or Azure",
+        "field": "requirements",
+        "start": 449,
+        "end": 467
+      },
+      {
+        "id": "8",
+        "review_id": "E0341:8",
+        "codes": [
+          "V2_TERRAFORM"
+        ],
+        "names": [
+          "Terraform"
+        ],
+        "surface": "CDK, Terraform",
+        "quote": "CDK, Terraform",
+        "field": "requirements",
+        "start": 497,
+        "end": 511
+      }
+    ]
+  },
+  {
+    "coding_order": 122,
+    "reading_id": "N0957",
+    "company_id": "US_AMAZON_FTR",
+    "title": "Member of Technical Staff - Robot Manipulation & Learning, Frontier AI Robotics",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AMAZON_FTR|amazon|10418413|02b03c0ff654ab6b836b468823f6938f9623e9e1b1968ab605068af52bd2e786",
+    "already_coded": false,
+    "fields": {
+      "duties": "Description\nWe are seeking to hire software engineers who are excited about research for robot manipulation with the goal of developing manipulation systems at human-level performance. Our strategy focuses on a real2sim2real pipeline that learns from large scale human videos and leverage simulation and reinforcement learning to bridge the human-to-robot embodiment gap.\nKey job responsibilities\n•\tLearning manipulation: Design and implement robot learning algorithms for manipulation\n•\tLeverage vision models to extract 3D hand-object manipulation information from real-world situations\n•\tDevelop large-scale real2sim2real pipeline for manipulation\n•\tMultimodal Sensor Fusion: Integrate tactile sensing, proprioception and vision into the learning pipeline\nAbout the team\nAt Frontier AI & Robotics (FAR), we're not just advancing robotics – we're reimagining it from the ground up. Our team is building the future of intelligent robotics through frontier foundation models and end-to-end learned systems. We tackle some of the most challenging problems in AI and robotics, from developing sophisticated perception systems to creating adaptive manipulation strategies that work in complex, real-world scenarios.\nWhat sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's massive computational infrastructure and rich real-world datasets to train and deploy state-of-the-art foundation models. Our work spans the full spectrum of robotics intelligence – from multimodal perception using images, videos, and sensor data, to sophisticated manipulation strategies that can handle diverse real-world scenarios. We're building systems that don't just work in the lab, but scale to meet the demands of Amazon's global operations.\nJoin us if you're excited about pushing the boundaries of what's possible in robotics, working with world-class researchers, and seeing your innovations deployed at unprecedented scale.\nBasic Qualifications\n- 5+ years of non-internship professional software development experience\n- 5+ years of programming with at least one software programming language experience\n- 5+ years of leading design or architecture (design patterns, reliability and scaling) of new and existing systems experience\n- Experience as a mentor, tech lead or leading an engineering team\n- Bachelor's degree in computer science or equivalent\nPreferred Qualifications\n- 5+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience\n- Experience with robotic manipulation\n- Experience/knowledge developing RL for manipulation\n- Experience with extracting human manipulation from large scale video and/or mocap data\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\nLos Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit\nhttps://amazon.jobs/content/en/how-we-hire/accommodations\nfor more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.\nOur compensation reflects the cost of labor across several U.S. geographic markets. The base pay for this position ranges from $150,000/year in our lowest geographic market up to $300,000/year in our highest geographic market. Pay is based on a number of factors, including market location, and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. Applicants should apply via our internal or external career site.",
+      "requirements": "",
+      "full_description": "Description\nWe are seeking to hire software engineers who are excited about research for robot manipulation with the goal of developing manipulation systems at human-level performance. Our strategy focuses on a real2sim2real pipeline that learns from large scale human videos and leverage simulation and reinforcement learning to bridge the human-to-robot embodiment gap.\nKey job responsibilities\n•\tLearning manipulation: Design and implement robot learning algorithms for manipulation\n•\tLeverage vision models to extract 3D hand-object manipulation information from real-world situations\n•\tDevelop large-scale real2sim2real pipeline for manipulation\n•\tMultimodal Sensor Fusion: Integrate tactile sensing, proprioception and vision into the learning pipeline\nAbout the team\nAt Frontier AI & Robotics (FAR), we're not just advancing robotics – we're reimagining it from the ground up. Our team is building the future of intelligent robotics through frontier foundation models and end-to-end learned systems. We tackle some of the most challenging problems in AI and robotics, from developing sophisticated perception systems to creating adaptive manipulation strategies that work in complex, real-world scenarios.\nWhat sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's massive computational infrastructure and rich real-world datasets to train and deploy state-of-the-art foundation models. Our work spans the full spectrum of robotics intelligence – from multimodal perception using images, videos, and sensor data, to sophisticated manipulation strategies that can handle diverse real-world scenarios. We're building systems that don't just work in the lab, but scale to meet the demands of Amazon's global operations.\nJoin us if you're excited about pushing the boundaries of what's possible in robotics, working with world-class researchers, and seeing your innovations deployed at unprecedented scale.\nBasic Qualifications\n- 5+ years of non-internship professional software development experience\n- 5+ years of programming with at least one software programming language experience\n- 5+ years of leading design or architecture (design patterns, reliability and scaling) of new and existing systems experience\n- Experience as a mentor, tech lead or leading an engineering team\n- Bachelor's degree in computer science or equivalent\nPreferred Qualifications\n- 5+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience\n- Experience with robotic manipulation\n- Experience/knowledge developing RL for manipulation\n- Experience with extracting human manipulation from large scale video and/or mocap data\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\nLos Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit\nhttps://amazon.jobs/content/en/how-we-hire/accommodations\nfor more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.\nOur compensation reflects the cost of labor across several U.S. geographic markets. The base pay for this position ranges from $150,000/year in our lowest geographic market up to $300,000/year in our highest geographic market. Pay is based on a number of factors, including market location, and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. Applicants should apply via our internal or external career site."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_GENERIC_LANGUAGE",
+        "name": "编程语言泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2065,
+        "end": 2147,
+        "quote": "5+ years of programming with at least one software programming language experience"
+      },
+      {
+        "id": "O2",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 399,
+        "end": 485,
+        "quote": "Learning manipulation: Design and implement robot learning algorithms for manipulation"
+      },
+      {
+        "id": "O3",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 280,
+        "end": 370,
+        "quote": "leverage simulation and reinforcement learning to bridge the human-to-robot embodiment gap"
+      },
+      {
+        "id": "O4",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 280,
+        "end": 370,
+        "quote": "leverage simulation and reinforcement learning to bridge the human-to-robot embodiment gap"
+      },
+      {
+        "id": "O5",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 488,
+        "end": 588,
+        "quote": "Leverage vision models to extract 3D hand-object manipulation information from real-world situations"
+      },
+      {
+        "id": "O6",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 591,
+        "end": 650,
+        "quote": "Develop large-scale real2sim2real pipeline for manipulation"
+      },
+      {
+        "id": "O7",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 653,
+        "end": 758,
+        "quote": "Multimodal Sensor Fusion: Integrate tactile sensing, proprioception and vision into the learning pipeline"
+      },
+      {
+        "id": "O8",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 948,
+        "end": 1005,
+        "quote": "frontier foundation models and end-to-end learned systems"
+      },
+      {
+        "id": "O9",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 1371,
+        "end": 1395,
+        "quote": "rich real-world datasets"
+      },
+      {
+        "id": "O10",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2150,
+        "end": 2274,
+        "quote": "5+ years of leading design or architecture (design patterns, reliability and scaling) of new and existing systems experience"
+      },
+      {
+        "id": "O11",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2423,
+        "end": 2593,
+        "quote": "5+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience"
+      },
+      {
+        "id": "O12",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2596,
+        "end": 2632,
+        "quote": "Experience with robotic manipulation"
+      },
+      {
+        "id": "O13",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2635,
+        "end": 2686,
+        "quote": "Experience/knowledge developing RL for manipulation"
+      },
+      {
+        "id": "O14",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2635,
+        "end": 2686,
+        "quote": "Experience/knowledge developing RL for manipulation"
+      },
+      {
+        "id": "O15",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 399,
+        "end": 485,
+        "quote": "Learning manipulation: Design and implement robot learning algorithms for manipulation"
+      },
+      {
+        "id": "O16",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 1080,
+        "end": 1123,
+        "quote": "developing sophisticated perception systems"
+      },
+      {
+        "id": "O17",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 1127,
+        "end": 1212,
+        "quote": "creating adaptive manipulation strategies that work in complex, real-world scenarios."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0957:1",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "What sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's massive computational infrastructure and rich real-world datasets to train and deploy state-of-the-art foundation models. Our work spans the full spectrum of robotics intelligence – from multimodal perception using images, videos, and sensor data, to sophisticated manipulation strategies that can handle diverse real-world scenarios. We're building systems that don't just work in the lab, but scale to meet the demands of Amazon's global operations.",
+        "quote": "What sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's massive computational infrastructure and rich real-world datasets to train and deploy state-of-the-art foundation models. Our work spans the full spectrum of robotics intelligence – from multimodal perception using images, videos, and sensor data, to sophisticated manipulation strategies that can handle diverse real-world scenarios. We're building systems that don't just work in the lab, but scale to meet the demands of Amazon's global operations.",
+        "field": "full_description",
+        "start": 1213,
+        "end": 1781
+      },
+      {
+        "id": "2",
+        "review_id": "N0957:2",
+        "codes": [
+          "V2_MOCAP"
+        ],
+        "names": [
+          "动作捕捉与演示数据采集"
+        ],
+        "surface": "- Experience with extracting human manipulation from large scale video and/or mocap data",
+        "quote": "- Experience with extracting human manipulation from large scale video and/or mocap data",
+        "field": "full_description",
+        "start": 2687,
+        "end": 2775
+      },
+      {
+        "id": "3",
+        "review_id": "N0957:3",
+        "codes": [
+          "V2_MOCAP"
+        ],
+        "names": [
+          "动作捕捉与演示数据采集"
+        ],
+        "surface": "mocap",
+        "quote": "mocap data",
+        "field": "full_description",
+        "start": 2765,
+        "end": 2775
+      },
+      {
+        "id": "4",
+        "review_id": "N0957:4",
+        "codes": [
+          "V2_CUSTOMER_SERVICE"
+        ],
+        "names": [
+          "客户与医院服务流程"
+        ],
+        "surface": "Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+        "quote": "Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+        "field": "full_description",
+        "start": 2931,
+        "end": 3922
+      },
+      {
+        "id": "5",
+        "review_id": "N0957:5",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.",
+        "quote": "for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.",
+        "field": "full_description",
+        "start": 4401,
+        "end": 4517
+      }
+    ]
+  },
+  {
+    "coding_order": 123,
+    "reading_id": "N0954",
+    "company_id": "US_AMAZON_FTR",
+    "title": "Member of Technical Staff - Infrastructure Engineer, Frontier AI & Robotics (FAR)",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AMAZON_FTR|amazon|10440313|91d9dd3767332b1fd3dfbe186d2107f5e34b4cac61ceacaa04be960011045e8a",
+    "already_coded": false,
+    "fields": {
+      "duties": "Description\nAmazon’s Frontier AI & Robotics (FAR) team is seeking a Member of Technical Staff, Infrastructure to build and scale the foundational systems that power our robotics research and development platform. In this role, you will design and operate the distributed infrastructure that enables our researchers and engineers to train foundation models, run large-scale experiments, and deploy intelligent robotic systems at Amazon scale.\nJoin the next revolution in robotics, where you’ll work alongside world-renowned AI pioneers to push the boundaries of what’s possible in robotic intelligence. As a Member of Technical Staff focused on Infrastructure, you’ll build the critical platform layer that accelerates every aspect of FAR’s research — from high-throughput data pipelines and experiment management systems to low-latency model serving and configuration delivery for robotic deployments.\nThis role is deeply technical and focuses on performance, scalability, and reliability at scale. You will design systems that support volumes of training data, operate with strict latency requirements, and provide the compute and data foundation that enables breakthrough research across FAR’s robotics ecosystem.\nKey job responsibilities\n•\tDesign and build scalable compute and data infrastructure to support model training, inferencing, and eval for frontier AI/Robotics development\n•\tLead large technical initiatives and shape the architecture of FAR’s research platform infrastructure\n•\tDevelop tooling and frameworks that accelerate research workflows, including dataset management, visualization, and quality assessment systems\n•\tOptimize query performance and data availability for experimentation and analytics workflows used by research teams\n•\tImprove the performance, efficiency, and reliability of FAR’s core compute and storage infrastructure, ensuring systems remain fast and stable at scales\n•\tBuild highly scalable experimentation and analytics infrastructure to support model evaluation, A/B testing, and feature performance\n•\tCollaborate directly with science and robotics teams to support research projects through both infrastructure development and hands-on technical contribution\nBasic Qualifications\n- 5+ years of distributed systems experience\n- Bachelor's degree in Computer Science or a related field\n- Proficiency in Python and at least one systems or backend programming language (e.g., Go, Java, C++)\n- Experience with cloud infrastructure platforms (AWS, GCP, or Azure), including compute, storage, and networking services\n- Experience building or maintaining data pipelines, ETL systems, or ML training/serving infrastructure\n- Understanding of system reliability principles including monitoring, observability, fault tolerance, and on-call operational practices\nPreferred Qualifications\n- Experience supporting AI/ML research workflows, including building and optimizing training stack, experiment tracking, dataset management, or model deployment infrastructure\n- Familiarity with robotics platforms, simulation environments, or real-time systems with strict latency requirements\n- Experience with large-scale data processing frameworks (e.g., Apache Spark, Flink, or Ray) and query optimization for analytics workloads\n- Demonstrated ability to lead large technical initiatives and influence architectural decisions across cross-functional teams\n- Experience building developer tooling, internal platforms, or self-service infrastructure systems that improve research or engineering productivity\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\nLos Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit\nhttps://amazon.jobs/content/en/how-we-hire/accommodations\nfor more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.\nOur compensation reflects the cost of labor across several U.S. geographic markets. The base pay for this position ranges from $150,000/year in our lowest geographic market up to $300,000/year in our highest geographic market. Pay is based on a number of factors, including market location, and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. Applicants should apply via our internal or external career site.",
+      "requirements": "",
+      "full_description": "Description\nAmazon’s Frontier AI & Robotics (FAR) team is seeking a Member of Technical Staff, Infrastructure to build and scale the foundational systems that power our robotics research and development platform. In this role, you will design and operate the distributed infrastructure that enables our researchers and engineers to train foundation models, run large-scale experiments, and deploy intelligent robotic systems at Amazon scale.\nJoin the next revolution in robotics, where you’ll work alongside world-renowned AI pioneers to push the boundaries of what’s possible in robotic intelligence. As a Member of Technical Staff focused on Infrastructure, you’ll build the critical platform layer that accelerates every aspect of FAR’s research — from high-throughput data pipelines and experiment management systems to low-latency model serving and configuration delivery for robotic deployments.\nThis role is deeply technical and focuses on performance, scalability, and reliability at scale. You will design systems that support volumes of training data, operate with strict latency requirements, and provide the compute and data foundation that enables breakthrough research across FAR’s robotics ecosystem.\nKey job responsibilities\n•\tDesign and build scalable compute and data infrastructure to support model training, inferencing, and eval for frontier AI/Robotics development\n•\tLead large technical initiatives and shape the architecture of FAR’s research platform infrastructure\n•\tDevelop tooling and frameworks that accelerate research workflows, including dataset management, visualization, and quality assessment systems\n•\tOptimize query performance and data availability for experimentation and analytics workflows used by research teams\n•\tImprove the performance, efficiency, and reliability of FAR’s core compute and storage infrastructure, ensuring systems remain fast and stable at scales\n•\tBuild highly scalable experimentation and analytics infrastructure to support model evaluation, A/B testing, and feature performance\n•\tCollaborate directly with science and robotics teams to support research projects through both infrastructure development and hands-on technical contribution\nBasic Qualifications\n- 5+ years of distributed systems experience\n- Bachelor's degree in Computer Science or a related field\n- Proficiency in Python and at least one systems or backend programming language (e.g., Go, Java, C++)\n- Experience with cloud infrastructure platforms (AWS, GCP, or Azure), including compute, storage, and networking services\n- Experience building or maintaining data pipelines, ETL systems, or ML training/serving infrastructure\n- Understanding of system reliability principles including monitoring, observability, fault tolerance, and on-call operational practices\nPreferred Qualifications\n- Experience supporting AI/ML research workflows, including building and optimizing training stack, experiment tracking, dataset management, or model deployment infrastructure\n- Familiarity with robotics platforms, simulation environments, or real-time systems with strict latency requirements\n- Experience with large-scale data processing frameworks (e.g., Apache Spark, Flink, or Ray) and query optimization for analytics workloads\n- Demonstrated ability to lead large technical initiatives and influence architectural decisions across cross-functional teams\n- Experience building developer tooling, internal platforms, or self-service infrastructure systems that improve research or engineering productivity\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\nLos Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit\nhttps://amazon.jobs/content/en/how-we-hire/accommodations\nfor more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.\nOur compensation reflects the cost of labor across several U.S. geographic markets. The base pay for this position ranges from $150,000/year in our lowest geographic market up to $300,000/year in our highest geographic market. Pay is based on a number of factors, including market location, and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. Applicants should apply via our internal or external career site."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2346,
+        "end": 2352,
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2417,
+        "end": 2419,
+        "quote": "Go"
+      },
+      {
+        "id": "O3",
+        "code": "SK_JAVA",
+        "name": "Java",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2421,
+        "end": 2425,
+        "quote": "Java"
+      },
+      {
+        "id": "O4",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2427,
+        "end": 2430,
+        "quote": "C++"
+      },
+      {
+        "id": "O5",
+        "code": "SK_RAY",
+        "name": "Ray",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3203,
+        "end": 3206,
+        "quote": "Ray"
+      },
+      {
+        "id": "O6",
+        "code": "SK_GENERIC_LANGUAGE",
+        "name": "编程语言泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2370,
+        "end": 2409,
+        "quote": "systems or backend programming language"
+      },
+      {
+        "id": "O7",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1243,
+        "end": 1386,
+        "quote": "Design and build scalable compute and data infrastructure to support model training, inferencing, and eval for frontier AI/Robotics development"
+      },
+      {
+        "id": "O8",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1493,
+        "end": 1635,
+        "quote": "Develop tooling and frameworks that accelerate research workflows, including dataset management, visualization, and quality assessment systems"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1756,
+        "end": 1857,
+        "quote": "Improve the performance, efficiency, and reliability of FAR’s core compute and storage infrastructure"
+      },
+      {
+        "id": "O10",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1911,
+        "end": 2043,
+        "quote": "Build highly scalable experimentation and analytics infrastructure to support model evaluation, A/B testing, and feature performance"
+      },
+      {
+        "id": "O11",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 291,
+        "end": 355,
+        "quote": "enables our researchers and engineers to train foundation models"
+      },
+      {
+        "id": "O12",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2592,
+        "end": 2606,
+        "quote": "data pipelines"
+      },
+      {
+        "id": "O13",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2608,
+        "end": 2619,
+        "quote": "ETL systems"
+      },
+      {
+        "id": "O14",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2624,
+        "end": 2658,
+        "quote": "ML training/serving infrastructure"
+      },
+      {
+        "id": "O15",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2661,
+        "end": 2795,
+        "quote": "Understanding of system reliability principles including monitoring, observability, fault tolerance, and on-call operational practices"
+      },
+      {
+        "id": "O16",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2905,
+        "end": 2919,
+        "quote": "training stack"
+      },
+      {
+        "id": "O17",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2921,
+        "end": 2940,
+        "quote": "experiment tracking"
+      },
+      {
+        "id": "O18",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2942,
+        "end": 2960,
+        "quote": "dataset management"
+      },
+      {
+        "id": "O19",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2965,
+        "end": 2996,
+        "quote": "model deployment infrastructure"
+      },
+      {
+        "id": "O20",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3036,
+        "end": 3059,
+        "quote": "simulation environments"
+      },
+      {
+        "id": "O21",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3064,
+        "end": 3114,
+        "quote": "real-time systems with strict latency requirements"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0954:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "- Proficiency in Python and at least one systems or backend programming language (e.g., Go, Java, C++)",
+        "quote": "- Proficiency in Python and at least one systems or backend programming language (e.g., Go, Java, C++)",
+        "field": "full_description",
+        "start": 2329,
+        "end": 2431
+      },
+      {
+        "id": "2",
+        "review_id": "N0954:2",
+        "codes": [
+          "V2_AWS",
+          "V2_GCP",
+          "V2_AZURE"
+        ],
+        "names": [
+          "Amazon Web Services",
+          "Google Cloud",
+          "Azure"
+        ],
+        "surface": "- Experience with cloud infrastructure platforms (AWS, GCP, or Azure), including compute, storage, and networking services",
+        "quote": "- Experience with cloud infrastructure platforms (AWS, GCP, or Azure), including compute, storage, and networking services",
+        "field": "full_description",
+        "start": 2432,
+        "end": 2554
+      },
+      {
+        "id": "3",
+        "review_id": "N0954:3",
+        "codes": [
+          "V2_AWS"
+        ],
+        "names": [
+          "Amazon Web Services"
+        ],
+        "surface": "AWS",
+        "quote": "AWS",
+        "field": "full_description",
+        "start": 2482,
+        "end": 2485
+      },
+      {
+        "id": "4",
+        "review_id": "N0954:4",
+        "codes": [
+          "V2_GCP"
+        ],
+        "names": [
+          "Google Cloud"
+        ],
+        "surface": "GCP",
+        "quote": "GCP",
+        "field": "full_description",
+        "start": 2487,
+        "end": 2490
+      },
+      {
+        "id": "5",
+        "review_id": "N0954:5",
+        "codes": [
+          "V2_AZURE"
+        ],
+        "names": [
+          "Azure"
+        ],
+        "surface": "Azure",
+        "quote": "Azure",
+        "field": "full_description",
+        "start": 2495,
+        "end": 2500
+      },
+      {
+        "id": "6",
+        "review_id": "N0954:6",
+        "codes": [],
+        "names": [],
+        "surface": "ETL",
+        "quote": "ETL systems",
+        "field": "full_description",
+        "start": 2608,
+        "end": 2619
+      },
+      {
+        "id": "7",
+        "review_id": "N0954:7",
+        "codes": [
+          "V2_SPARK",
+          "V2_FLINK"
+        ],
+        "names": [
+          "Apache Spark",
+          "Flink"
+        ],
+        "surface": "- Experience with large-scale data processing frameworks (e.g., Apache Spark, Flink, or Ray) and query optimization for analytics workloads",
+        "quote": "- Experience with large-scale data processing frameworks (e.g., Apache Spark, Flink, or Ray) and query optimization for analytics workloads",
+        "field": "full_description",
+        "start": 3115,
+        "end": 3254
+      },
+      {
+        "id": "8",
+        "review_id": "N0954:8",
+        "codes": [
+          "V2_SPARK"
+        ],
+        "names": [
+          "Apache Spark"
+        ],
+        "surface": "Apache Spark",
+        "quote": "Apache Spark",
+        "field": "full_description",
+        "start": 3179,
+        "end": 3191
+      },
+      {
+        "id": "9",
+        "review_id": "N0954:9",
+        "codes": [
+          "V2_FLINK"
+        ],
+        "names": [
+          "Flink"
+        ],
+        "surface": "Flink",
+        "quote": "Flink",
+        "field": "full_description",
+        "start": 3193,
+        "end": 3198
+      },
+      {
+        "id": "10",
+        "review_id": "N0954:10",
+        "codes": [
+          "V2_CUSTOMER_SERVICE"
+        ],
+        "names": [
+          "客户与医院服务流程"
+        ],
+        "surface": "Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+        "quote": "Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+        "field": "full_description",
+        "start": 3687,
+        "end": 4678
+      },
+      {
+        "id": "11",
+        "review_id": "N0954:11",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.",
+        "quote": "for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.",
+        "field": "full_description",
+        "start": 5157,
+        "end": 5273
+      }
+    ]
+  },
+  {
+    "coding_order": 124,
+    "reading_id": "E0414",
+    "company_id": "US_APPTRONIK",
+    "title": "Senior Reinforcement Learning Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|5813673004|872285101f7c31f1e690b593b2ae06cac8fa94abf6ac731da12904c5e54a41c3",
+    "already_coded": false,
+    "fields": {
+      "duties": "The Senior Reinforcement Learning  Engineer is a key, hands-on role focused on achieving state-of-the-art performance on our humanoid robots. This engineer will leverage their deep expertise in RL to solve critical locomotion and manipulation challenges and deliver breakthrough results on physical hardware. The primary focus of this role is to rapidly implement, iterate, and deploy advanced learning algorithms to push the boundaries of what our robots can do. As a senior member of the team, this individual will also be responsible for mentoring junior engineers, elevating the team's overall technical capabilities through their guidance and expertise.\nESSENTIAL DUTIES AND RESPONSIBILITIES or KEY ACCOUNTABILITIES\nImplement and deploy state-of-the-art RL algorithms to achieve ambitious, world-class performance on dynamic locomotion and manipulation tasks with physical hardware.\nDrive the entire development cycle, from prototyping in simulation to robustly transferring and fine-tuning policies on the robot.\nOptimize and scale the RL training pipeline for faster iteration, contributing to core infrastructure for high-throughput simulation and distributed training.\nMentor junior engineers by providing technical guidance, conducting insightful code reviews, and sharing best practices in reinforcement learning and software development.\nCollaborate closely with the robotics and hardware teams to diagnose system-level issues and co-develop solutions that enable more complex learned behaviors.\nAnalyze and present hardware results to guide future technical directions and demonstrate progress on key company objectives.\nDevelop and refine motion retargeting pipelines to translate human demonstration data (mocap, teleoperation) into robust reference trajectories for reinforcement learning.",
+      "requirements": "Deep, hands-on expertise (5+ years) with common RL frameworks (e.g., PyTorch, JAX) and high-fidelity physics simulators (e.g., MuJoCo, IsaacGym)\nMastery of Python for rapid prototyping and training, alongside strong proficiency in C++ for developing performant, deployable code.\nExperience building or utilizing large-scale, distributed training pipelines and a strong intuition for their optimization.\nA strong theoretical understanding of modern reinforcement learning, including deep expertise in areas like imitation learning, model-based RL, and sim-to-real transfer techniques.\nA strong intuition for robot dynamics and controls theory, with the ability to apply these principles to guide and constrain learning-based approaches.\nA results-oriented mindset with a passion for seeing complex algorithms work on real-world hardware.\nEDUCATION and/or EXPERIENCE\nA PhD or MS in Computer Science, Robotics, or a related field, with 2+ years industry experience strongly preferred.\nA proven track record of successfully deploying learning-based policies on physical robotic systems, especially legged robots or manipulators.\nDemonstrated experience mentoring or providing technical guidance to other engineers in a team environment.\nA strong publication record in relevant conferences or journals (e.g., CoRL, RSS, ICRA) is a significant plus.\nPHYSICAL REQUIREMENTS\nProlonged periods of sitting at a desk and working on a computer\nMust be able to lift 15 pounds at times\nVision to read printed materials and a computer screen\nHearing and speech to communicate\n*This is a direct hire.  Please, no outside Agency solicitations.\nApptronik provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.",
+      "full_description": "Apptronik is a human-centered robotics company developing AI-powered robots to support humanity in every facet of life. Our flagship humanoid robot, Apollo, is built to collaborate thoughtfully with people, starting with critical industries such as manufacturing and logistics, with future applications in healthcare, the home, and beyond.\nWe operate at the cutting edge of Applied AI, applying our expertise across the full robotics stack to solve some of society's most important problems. You will join a team dedicated to bringing Apollo to market at scale, tackling the complex challenges like safety, commercialization, and mass production to change the world for the better.\nJOB SUMMARY\nThe Senior Reinforcement Learning  Engineer is a key, hands-on role focused on achieving state-of-the-art performance on our humanoid robots. This engineer will leverage their deep expertise in RL to solve critical locomotion and manipulation challenges and deliver breakthrough results on physical hardware. The primary focus of this role is to rapidly implement, iterate, and deploy advanced learning algorithms to push the boundaries of what our robots can do. As a senior member of the team, this individual will also be responsible for mentoring junior engineers, elevating the team's overall technical capabilities through their guidance and expertise.\nESSENTIAL DUTIES AND RESPONSIBILITIES or KEY ACCOUNTABILITIES\nImplement and deploy state-of-the-art RL algorithms to achieve ambitious, world-class performance on dynamic locomotion and manipulation tasks with physical hardware.\nDrive the entire development cycle, from prototyping in simulation to robustly transferring and fine-tuning policies on the robot.\nOptimize and scale the RL training pipeline for faster iteration, contributing to core infrastructure for high-throughput simulation and distributed training.\nMentor junior engineers by providing technical guidance, conducting insightful code reviews, and sharing best practices in reinforcement learning and software development.\nCollaborate closely with the robotics and hardware teams to diagnose system-level issues and co-develop solutions that enable more complex learned behaviors.\nAnalyze and present hardware results to guide future technical directions and demonstrate progress on key company objectives.\nDevelop and refine motion retargeting pipelines to translate human demonstration data (mocap, teleoperation) into robust reference trajectories for reinforcement learning.\nSKILLS AND REQUIREMENTS\nDeep, hands-on expertise (5+ years) with common RL frameworks (e.g., PyTorch, JAX) and high-fidelity physics simulators (e.g., MuJoCo, IsaacGym)\nMastery of Python for rapid prototyping and training, alongside strong proficiency in C++ for developing performant, deployable code.\nExperience building or utilizing large-scale, distributed training pipelines and a strong intuition for their optimization.\nA strong theoretical understanding of modern reinforcement learning, including deep expertise in areas like imitation learning, model-based RL, and sim-to-real transfer techniques.\nA strong intuition for robot dynamics and controls theory, with the ability to apply these principles to guide and constrain learning-based approaches.\nA results-oriented mindset with a passion for seeing complex algorithms work on real-world hardware.\nEDUCATION and/or EXPERIENCE\nA PhD or MS in Computer Science, Robotics, or a related field, with 2+ years industry experience strongly preferred.\nA proven track record of successfully deploying learning-based policies on physical robotic systems, especially legged robots or manipulators.\nDemonstrated experience mentoring or providing technical guidance to other engineers in a team environment.\nA strong publication record in relevant conferences or journals (e.g., CoRL, RSS, ICRA) is a significant plus.\nPHYSICAL REQUIREMENTS\nProlonged periods of sitting at a desk and working on a computer\nMust be able to lift 15 pounds at times\nVision to read printed materials and a computer screen\nHearing and speech to communicate\n*This is a direct hire.  Please, no outside Agency solicitations.\nApptronik provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 41,
+        "end": 61,
+        "quote": "common RL frameworks"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 69,
+        "end": 76,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O3",
+        "code": "SK_JAX",
+        "name": "JAX",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 78,
+        "end": 81,
+        "quote": "JAX"
+      },
+      {
+        "id": "O4",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 127,
+        "end": 133,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O5",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 135,
+        "end": 143,
+        "quote": "IsaacGym"
+      },
+      {
+        "id": "O6",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 156,
+        "end": 162,
+        "quote": "Python"
+      },
+      {
+        "id": "O7",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 231,
+        "end": 234,
+        "quote": "C++"
+      },
+      {
+        "id": "O8",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 562,
+        "end": 605,
+        "quote": "tackling the complex challenges like safety"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 721,
+        "end": 772,
+        "quote": "Implement and deploy state-of-the-art RL algorithms"
+      },
+      {
+        "id": "O10",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 822,
+        "end": 863,
+        "quote": "dynamic locomotion and manipulation tasks"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 929,
+        "end": 954,
+        "quote": "prototyping in simulation"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1019,
+        "end": 1062,
+        "quote": "Optimize and scale the RL training pipeline"
+      },
+      {
+        "id": "O13",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1634,
+        "end": 1719,
+        "quote": "Develop and refine motion retargeting pipelines to translate human demonstration data"
+      },
+      {
+        "id": "O14",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 41,
+        "end": 61,
+        "quote": "common RL frameworks"
+      },
+      {
+        "id": "O15",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 87,
+        "end": 119,
+        "quote": "high-fidelity physics simulators"
+      },
+      {
+        "id": "O16",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 325,
+        "end": 355,
+        "quote": "distributed training pipelines"
+      },
+      {
+        "id": "O17",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 448,
+        "end": 470,
+        "quote": "reinforcement learning"
+      },
+      {
+        "id": "O18",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 511,
+        "end": 529,
+        "quote": "imitation learning"
+      },
+      {
+        "id": "O19",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 531,
+        "end": 545,
+        "quote": "model-based RL"
+      },
+      {
+        "id": "O20",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 551,
+        "end": 582,
+        "quote": "sim-to-real transfer techniques"
+      },
+      {
+        "id": "O21",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 607,
+        "end": 641,
+        "quote": "robot dynamics and controls theory"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0414:1",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "The Senior Reinforcement Learning  Engineer is a key, hands-on role focused on achieving state-of-the-art performance on our humanoid robots. This engineer will leverage their deep expertise in RL to solve critical locomotion and manipulation challenges and deliver breakthrough results on physical hardware. The primary focus of this role is to rapidly implement, iterate, and deploy advanced learning algorithms to push the boundaries of what our robots can do. As a senior member of the team, this individual will also be responsible for mentoring junior engineers, elevating the team's overall technical capabilities through their guidance and expertise.",
+        "quote": "The Senior Reinforcement Learning  Engineer is a key, hands-on role focused on achieving state-of-the-art performance on our humanoid robots. This engineer will leverage their deep expertise in RL to solve critical locomotion and manipulation challenges and deliver breakthrough results on physical hardware. The primary focus of this role is to rapidly implement, iterate, and deploy advanced learning algorithms to push the boundaries of what our robots can do. As a senior member of the team, this individual will also be responsible for mentoring junior engineers, elevating the team's overall technical capabilities through their guidance and expertise.",
+        "field": "full_description",
+        "start": 694,
+        "end": 1352
+      },
+      {
+        "id": "2",
+        "review_id": "E0414:2",
+        "codes": [
+          "V2_TELEOP",
+          "V2_MOCAP"
+        ],
+        "names": [
+          "遥操作与示教",
+          "动作捕捉与演示数据采集"
+        ],
+        "surface": "Develop and refine motion retargeting pipelines to translate human demonstration data (mocap, teleoperation) into robust reference trajectories for reinforcement learning.",
+        "quote": "Develop and refine motion retargeting pipelines to translate human demonstration data (mocap, teleoperation) into robust reference trajectories for reinforcement learning.",
+        "field": "full_description",
+        "start": 2328,
+        "end": 2499
+      },
+      {
+        "id": "3",
+        "review_id": "E0414:3",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Mastery of Python for rapid prototyping and training, alongside strong proficiency in C++ for developing performant, deployable code.",
+        "quote": "Mastery of Python for rapid prototyping and training, alongside strong proficiency in C++ for developing performant, deployable code.",
+        "field": "full_description",
+        "start": 2669,
+        "end": 2802
+      },
+      {
+        "id": "4",
+        "review_id": "E0414:4",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "A strong theoretical understanding of modern reinforcement learning, including deep expertise in areas like imitation learning, model-based RL, and sim-to-real transfer techniques.",
+        "quote": "A strong theoretical understanding of modern reinforcement learning, including deep expertise in areas like imitation learning, model-based RL, and sim-to-real transfer techniques.",
+        "field": "full_description",
+        "start": 2927,
+        "end": 3107
+      }
+    ]
+  },
+  {
+    "coding_order": 125,
+    "reading_id": "E0435",
+    "company_id": "US_APPTRONIK",
+    "title": "Staff MLOps Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6008787004|01fa1aedd5f375829b76f7bd7c6bd3a18173e7ca4f53de2d2d0e278248e0f00c",
+    "already_coded": false,
+    "fields": {
+      "duties": "Apptronik is seeking a Staff MLOps Engineer to own the technical direction of our MLOps platform — the system of record for datasets, experiments, model artifacts, and serving paths that connects teleoperation data collection on one side to deployed autonomy on Apollo on the other. In this role, you will set the architecture for the platform layer above the training cluster: dataset lifecycle, experiment tracking, model registry, evaluation harnesses, and the serving / packaging path that delivers trained policies to robots in the field. You will lead by influence across MLOps, Autonomy, Data Platform, and TeleOp — establishing the standards, contracts, and tooling that turn one-off research code into a repeatable, auditable pipeline from data to deployed model. This is a hands-on technical leadership role, not a management position; you will be a primary contributor while mentoring the engineers around you, and partnering closely with the Training Infrastructure engineer who owns the cluster layer beneath the platform.\nESSENTIAL DUTIES AND RESPONSIBILITIES\nPlatform Architecture & Ownership\nTechnical Direction:\nOwn the technical direction for the MLOps platform — define subsystem interfaces, drive architecture decisions, and establish engineering standards for how datasets, experiments, and models move through Apptronik's systems.\nCross-Team Authority:\nServe as the primary technical point of contact for Autonomy, Data Platform, and TeleOp on all matters of model lifecycle and platform contracts.\nDataset Lifecycle & Versioning\nVersioning & Lineage:\nDesign and operate the dataset layer end-to-end — versioning, lineage, splits, and labeling-integration handoff.\nReproducibility:\nEnsure every trained model can be traced back to the exact data and code that produced it.\nModel Registry & Artifact Management\nRegistry:\nBuild and operate a first-class model registry — versioned artifacts, metadata, evaluation results, lineage, and approval workflows.\nPromotion Path:\nDefine the promotion path from \"trained\" to \"qualified\" to \"deployed to robot.\"\nEvaluation & Qualification Harnesses\nAutomated Evaluation:\nDefine the offline benchmarks, simulation rollouts, and policy-gating harnesses that any model must pass before reaching Apollo.\nMetrics Framework:\nDevelop the metrics framework that the autonomy team trusts to gate releases.\nServing, Packaging & Deployment to Robot\nOn-Robot Path:\nOwn the path from registered model to running inference on Apollo — packaging (ONNX, TensorRT, torch.compile), versioning on-robot, rollback, and observability of deployed policy behavior.\nTelemetry Seam:\nCoordinate with Connect and Data Platform on the deploy-and-telemetry seam back from the fleet.\nMentorship & Cross-Functional Leadership\nMentorship:\nMentor mid-level and senior engineers on the MLOps team through code review, design review, and direct collaboration.\nInfluence:\nPartner with the Training Infrastructure engineer on the cluster/platform contract, and influence research workflows across Autonomy to standardize on the platform's primitives.",
+      "requirements": "Deep proficiency in Python and at least one systems-level language (Go, Rust, or C++), with demonstrated ability to make and defend architectural tradeoffs in production ML platforms\nProven experience owning and delivering an MLOps platform end-to-end — dataset lifecycle, experiment tracking, model registry, evaluation, and serving — at a company that ships models to production\nExpertise across the model lifecycle: dataset versioning (DVC, LakeFS, Delta, or equivalent), experiment tracking (MLflow, W&B, Determined), model registry, and policy serving\nStrong background designing service-oriented systems on Kubernetes; comfortable with the contract between platform APIs and underlying compute infrastructure\nExperience defining evaluation and qualification frameworks for ML models where the cost of a regression is high (robotics, safety-critical, or production-customer-facing)\nExperience leading technical projects end-to-end: architecture, implementation, validation, and iteration\nDemonstrated ability to lead by influence across teams — setting standards that other engineers adopt voluntarily, and mentoring engineers around you\nProficiency with cloud infrastructure (AWS, GCP, or Azure), Docker, Git, and modern CI/CD workflows\nEDUCATION and/or EXPERIENCE\nMaster's degree in Computer Science, Machine Learning, or a related technical field preferred; Bachelor's considered with exceptional experience.\n8+ years of professional software engineering experience in ML platforms or related infrastructure, OR 4+ years of direct, hands-on experience owning an MLOps platform that shipped models to production.\nPreferred Qualifications:\nExperience deploying ML models to edge or embedded targets (on-device inference, ONNX Runtime, TensorRT, robot fleets)\nExperience with RL training and evaluation infrastructure for embodied agents (rollout workers, replay buffers, sim-eval harnesses)\nFamiliarity with humanoid robotics, dexterous manipulation, or teleoperation data domains\nExperience with simulation-in-the-loop evaluation (IsaacSim, MuJoCo, or equivalent)\nFamiliarity with policy gating, shadow deployments, or staged rollout strategies for autonomy\nOpen-source contributions to MLOps platform tooling (MLflow, BentoML, KServe, Ray Serve, etc.)\nPHYSICAL REQUIREMENTS\nProlonged periods of sitting at a desk and working on a computer\nMust be able to lift 15 pounds at times\nVision to read printed materials and a computer screen\nHearing and speech to communicate\n*This is a direct hire.  Please, no outside Agency solicitations.\nApptronik provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.",
+      "full_description": "Apptronik is a human-centered robotics company developing AI-powered robots to support humanity in every facet of life. Our flagship humanoid robot, Apollo, is built to collaborate thoughtfully with people, starting with critical industries such as manufacturing and logistics, with future applications in healthcare, the home, and beyond.\nWe operate at the cutting edge of Applied AI, applying our expertise across the full robotics stack to solve some of society's most important problems. You will join a team dedicated to bringing Apollo to market at scale, tackling the complex challenges like safety, commercialization, and mass production to change the world for the better.\nJOB SUMMARY\nApptronik is seeking a Staff MLOps Engineer to own the technical direction of our MLOps platform — the system of record for datasets, experiments, model artifacts, and serving paths that connects teleoperation data collection on one side to deployed autonomy on Apollo on the other. In this role, you will set the architecture for the platform layer above the training cluster: dataset lifecycle, experiment tracking, model registry, evaluation harnesses, and the serving / packaging path that delivers trained policies to robots in the field. You will lead by influence across MLOps, Autonomy, Data Platform, and TeleOp — establishing the standards, contracts, and tooling that turn one-off research code into a repeatable, auditable pipeline from data to deployed model. This is a hands-on technical leadership role, not a management position; you will be a primary contributor while mentoring the engineers around you, and partnering closely with the Training Infrastructure engineer who owns the cluster layer beneath the platform.\nESSENTIAL DUTIES AND RESPONSIBILITIES\nPlatform Architecture & Ownership\nTechnical Direction:\nOwn the technical direction for the MLOps platform — define subsystem interfaces, drive architecture decisions, and establish engineering standards for how datasets, experiments, and models move through Apptronik's systems.\nCross-Team Authority:\nServe as the primary technical point of contact for Autonomy, Data Platform, and TeleOp on all matters of model lifecycle and platform contracts.\nDataset Lifecycle & Versioning\nVersioning & Lineage:\nDesign and operate the dataset layer end-to-end — versioning, lineage, splits, and labeling-integration handoff.\nReproducibility:\nEnsure every trained model can be traced back to the exact data and code that produced it.\nModel Registry & Artifact Management\nRegistry:\nBuild and operate a first-class model registry — versioned artifacts, metadata, evaluation results, lineage, and approval workflows.\nPromotion Path:\nDefine the promotion path from \"trained\" to \"qualified\" to \"deployed to robot.\"\nEvaluation & Qualification Harnesses\nAutomated Evaluation:\nDefine the offline benchmarks, simulation rollouts, and policy-gating harnesses that any model must pass before reaching Apollo.\nMetrics Framework:\nDevelop the metrics framework that the autonomy team trusts to gate releases.\nServing, Packaging & Deployment to Robot\nOn-Robot Path:\nOwn the path from registered model to running inference on Apollo — packaging (ONNX, TensorRT, torch.compile), versioning on-robot, rollback, and observability of deployed policy behavior.\nTelemetry Seam:\nCoordinate with Connect and Data Platform on the deploy-and-telemetry seam back from the fleet.\nMentorship & Cross-Functional Leadership\nMentorship:\nMentor mid-level and senior engineers on the MLOps team through code review, design review, and direct collaboration.\nInfluence:\nPartner with the Training Infrastructure engineer on the cluster/platform contract, and influence research workflows across Autonomy to standardize on the platform's primitives.\nSKILLS AND REQUIREMENTS\nDeep proficiency in Python and at least one systems-level language (Go, Rust, or C++), with demonstrated ability to make and defend architectural tradeoffs in production ML platforms\nProven experience owning and delivering an MLOps platform end-to-end — dataset lifecycle, experiment tracking, model registry, evaluation, and serving — at a company that ships models to production\nExpertise across the model lifecycle: dataset versioning (DVC, LakeFS, Delta, or equivalent), experiment tracking (MLflow, W&B, Determined), model registry, and policy serving\nStrong background designing service-oriented systems on Kubernetes; comfortable with the contract between platform APIs and underlying compute infrastructure\nExperience defining evaluation and qualification frameworks for ML models where the cost of a regression is high (robotics, safety-critical, or production-customer-facing)\nExperience leading technical projects end-to-end: architecture, implementation, validation, and iteration\nDemonstrated ability to lead by influence across teams — setting standards that other engineers adopt voluntarily, and mentoring engineers around you\nProficiency with cloud infrastructure (AWS, GCP, or Azure), Docker, Git, and modern CI/CD workflows\nEDUCATION and/or EXPERIENCE\nMaster's degree in Computer Science, Machine Learning, or a related technical field preferred; Bachelor's considered with exceptional experience.\n8+ years of professional software engineering experience in ML platforms or related infrastructure, OR 4+ years of direct, hands-on experience owning an MLOps platform that shipped models to production.\nPreferred Qualifications:\nExperience deploying ML models to edge or embedded targets (on-device inference, ONNX Runtime, TensorRT, robot fleets)\nExperience with RL training and evaluation infrastructure for embodied agents (rollout workers, replay buffers, sim-eval harnesses)\nFamiliarity with humanoid robotics, dexterous manipulation, or teleoperation data domains\nExperience with simulation-in-the-loop evaluation (IsaacSim, MuJoCo, or equivalent)\nFamiliarity with policy gating, shadow deployments, or staged rollout strategies for autonomy\nOpen-source contributions to MLOps platform tooling (MLflow, BentoML, KServe, Ray Serve, etc.)\nPHYSICAL REQUIREMENTS\nProlonged periods of sitting at a desk and working on a computer\nMust be able to lift 15 pounds at times\nVision to read printed materials and a computer screen\nHearing and speech to communicate\n*This is a direct hire.  Please, no outside Agency solicitations.\nApptronik provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 20,
+        "end": 26,
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GENERIC_LANGUAGE",
+        "name": "编程语言泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 44,
+        "end": 66,
+        "quote": "systems-level language"
+      },
+      {
+        "id": "O3",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 68,
+        "end": 70,
+        "quote": "Go"
+      },
+      {
+        "id": "O4",
+        "code": "SK_RUST",
+        "name": "Rust",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 72,
+        "end": 76,
+        "quote": "Rust"
+      },
+      {
+        "id": "O5",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 81,
+        "end": 84,
+        "quote": "C++"
+      },
+      {
+        "id": "O6",
+        "code": "SK_MLFLOW",
+        "name": "MLflow",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "MLflow"
+      },
+      {
+        "id": "O7",
+        "code": "SK_WANDB",
+        "name": "Weights & Biases",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 504,
+        "end": 507,
+        "quote": "W&B"
+      },
+      {
+        "id": "O8",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 613,
+        "end": 623,
+        "quote": "Kubernetes"
+      },
+      {
+        "id": "O9",
+        "code": "SK_DOCKER",
+        "name": "Docker",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1203,
+        "end": 1209,
+        "quote": "Docker"
+      },
+      {
+        "id": "O10",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 2038,
+        "end": 2046,
+        "quote": "IsaacSim"
+      },
+      {
+        "id": "O11",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 2048,
+        "end": 2054,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O12",
+        "code": "SK_MLFLOW",
+        "name": "MLflow",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "MLflow"
+      },
+      {
+        "id": "O13",
+        "code": "SK_RAY",
+        "name": "Ray",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 2243,
+        "end": 2252,
+        "quote": "Ray Serve"
+      },
+      {
+        "id": "O14",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 562,
+        "end": 605,
+        "quote": "tackling the complex challenges like safety"
+      },
+      {
+        "id": "O15",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 2412,
+        "end": 2477,
+        "quote": "Own the path from registered model to running inference on Apollo"
+      },
+      {
+        "id": "O16",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1574,
+        "end": 1621,
+        "quote": "Design and operate the dataset layer end-to-end"
+      },
+      {
+        "id": "O17",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 2130,
+        "end": 2209,
+        "quote": "Define the offline benchmarks, simulation rollouts, and policy-gating harnesses"
+      },
+      {
+        "id": "O18",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 2161,
+        "end": 2180,
+        "quote": "simulation rollouts"
+      },
+      {
+        "id": "O19",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1842,
+        "end": 1888,
+        "quote": "Build and operate a first-class model registry"
+      },
+      {
+        "id": "O20",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 159,
+        "end": 182,
+        "quote": "production ML platforms"
+      },
+      {
+        "id": "O21",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "MLOps platform"
+      },
+      {
+        "id": "O22",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 378,
+        "end": 395,
+        "quote": "dataset lifecycle"
+      },
+      {
+        "id": "O23",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "evaluation"
+      },
+      {
+        "id": "O24",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 419,
+        "end": 437,
+        "quote": "dataset versioning"
+      },
+      {
+        "id": "O25",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 522,
+        "end": 556,
+        "quote": "model registry, and policy serving"
+      },
+      {
+        "id": "O26",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 735,
+        "end": 774,
+        "quote": "evaluation and qualification frameworks"
+      },
+      {
+        "id": "O27",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "ML models"
+      },
+      {
+        "id": "O28",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 839,
+        "end": 854,
+        "quote": "safety-critical"
+      },
+      {
+        "id": "O29",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "ML models"
+      },
+      {
+        "id": "O30",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1688,
+        "end": 1704,
+        "quote": "embedded targets"
+      },
+      {
+        "id": "O31",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1706,
+        "end": 1725,
+        "quote": "on-device inference"
+      },
+      {
+        "id": "O32",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1781,
+        "end": 1783,
+        "quote": "RL"
+      },
+      {
+        "id": "O33",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 360,
+        "end": 368,
+        "quote": "training"
+      },
+      {
+        "id": "O34",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1797,
+        "end": 1822,
+        "quote": "evaluation infrastructure"
+      },
+      {
+        "id": "O35",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1877,
+        "end": 1895,
+        "quote": "sim-eval harnesses"
+      },
+      {
+        "id": "O36",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1933,
+        "end": 1955,
+        "quote": "dexterous manipulation"
+      },
+      {
+        "id": "O37",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1960,
+        "end": 1986,
+        "quote": "teleoperation data domains"
+      },
+      {
+        "id": "O38",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 2003,
+        "end": 2036,
+        "quote": "simulation-in-the-loop evaluation"
+      },
+      {
+        "id": "O39",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 2003,
+        "end": 2036,
+        "quote": "simulation-in-the-loop evaluation"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0435:1",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "Apptronik is seeking a Staff MLOps Engineer to own the technical direction of our MLOps platform — the system of record for datasets, experiments, model artifacts, and serving paths that connects teleoperation data collection on one side to deployed autonomy on Apollo on the other. In this role, you will set the architecture for the platform layer above the training cluster: dataset lifecycle, experiment tracking, model registry, evaluation harnesses, and the serving / packaging path that delivers trained policies to robots in the field. You will lead by influence across MLOps, Autonomy, Data Platform, and TeleOp — establishing the standards, contracts, and tooling that turn one-off research code into a repeatable, auditable pipeline from data to deployed model. This is a hands-on technical leadership role, not a management position; you will be a primary contributor while mentoring the engineers around you, and partnering closely with the Training Infrastructure engineer who owns the cluster layer beneath the platform.",
+        "quote": "Apptronik is seeking a Staff MLOps Engineer to own the technical direction of our MLOps platform — the system of record for datasets, experiments, model artifacts, and serving paths that connects teleoperation data collection on one side to deployed autonomy on Apollo on the other. In this role, you will set the architecture for the platform layer above the training cluster: dataset lifecycle, experiment tracking, model registry, evaluation harnesses, and the serving / packaging path that delivers trained policies to robots in the field. You will lead by influence across MLOps, Autonomy, Data Platform, and TeleOp — establishing the standards, contracts, and tooling that turn one-off research code into a repeatable, auditable pipeline from data to deployed model. This is a hands-on technical leadership role, not a management position; you will be a primary contributor while mentoring the engineers around you, and partnering closely with the Training Infrastructure engineer who owns the cluster layer beneath the platform.",
+        "field": "full_description",
+        "start": 694,
+        "end": 1729
+      },
+      {
+        "id": "2",
+        "review_id": "E0435:2",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Ensure every trained model can be traced back to the exact data and code that produced it.",
+        "quote": "Ensure every trained model can be traced back to the exact data and code that produced it.",
+        "field": "full_description",
+        "start": 2398,
+        "end": 2488
+      },
+      {
+        "id": "3",
+        "review_id": "E0435:3",
+        "codes": [
+          "V2_TENSORRT",
+          "V2_ONNX"
+        ],
+        "names": [
+          "TensorRT",
+          "ONNX"
+        ],
+        "surface": "Own the path from registered model to running inference on Apollo — packaging (ONNX, TensorRT, torch.compile), versioning on-robot, rollback, and observability of deployed policy behavior.",
+        "quote": "Own the path from registered model to running inference on Apollo — packaging (ONNX, TensorRT, torch.compile), versioning on-robot, rollback, and observability of deployed policy behavior.",
+        "field": "full_description",
+        "start": 3106,
+        "end": 3294
+      },
+      {
+        "id": "4",
+        "review_id": "E0435:4",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Deep proficiency in Python and at least one systems-level language (Go, Rust, or C++), with demonstrated ability to make and defend architectural tradeoffs in production ML platforms",
+        "quote": "Deep proficiency in Python and at least one systems-level language (Go, Rust, or C++), with demonstrated ability to make and defend architectural tradeoffs in production ML platforms",
+        "field": "full_description",
+        "start": 3791,
+        "end": 3973
+      },
+      {
+        "id": "5",
+        "review_id": "E0435:5",
+        "codes": [
+          "V2_GIT",
+          "V2_AWS",
+          "V2_GCP",
+          "V2_AZURE",
+          "V2_CI_CD"
+        ],
+        "names": [
+          "Git",
+          "Amazon Web Services",
+          "Google Cloud",
+          "Azure",
+          "持续集成与交付"
+        ],
+        "surface": "Proficiency with cloud infrastructure (AWS, GCP, or Azure), Docker, Git, and modern CI/CD workflows",
+        "quote": "Proficiency with cloud infrastructure (AWS, GCP, or Azure), Docker, Git, and modern CI/CD workflows",
+        "field": "full_description",
+        "start": 4934,
+        "end": 5033
+      },
+      {
+        "id": "6",
+        "review_id": "E0435:6",
+        "codes": [
+          "V2_TENSORRT",
+          "V2_ONNX",
+          "V2_ONNX_RUNTIME"
+        ],
+        "names": [
+          "TensorRT",
+          "ONNX",
+          "ONNX Runtime"
+        ],
+        "surface": "Experience deploying ML models to edge or embedded targets (on-device inference, ONNX Runtime, TensorRT, robot fleets)",
+        "quote": "Experience deploying ML models to edge or embedded targets (on-device inference, ONNX Runtime, TensorRT, robot fleets)",
+        "field": "full_description",
+        "start": 5437,
+        "end": 5555
+      },
+      {
+        "id": "7",
+        "review_id": "E0435:7",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "Familiarity with humanoid robotics, dexterous manipulation, or teleoperation data domains",
+        "quote": "Familiarity with humanoid robotics, dexterous manipulation, or teleoperation data domains",
+        "field": "full_description",
+        "start": 5688,
+        "end": 5777
+      },
+      {
+        "id": "8",
+        "review_id": "E0435:8",
+        "codes": [
+          "V2_TENSORRT",
+          "V2_ONNX"
+        ],
+        "names": [
+          "TensorRT",
+          "ONNX"
+        ],
+        "surface": "ONNX, TensorRT, torch.compile",
+        "quote": "ONNX, TensorRT, torch.compile",
+        "field": "duties",
+        "start": 2491,
+        "end": 2520
+      },
+      {
+        "id": "9",
+        "review_id": "E0435:9",
+        "codes": [],
+        "names": [],
+        "surface": "DVC, LakeFS, Delta",
+        "quote": "DVC, LakeFS, Delta",
+        "field": "requirements",
+        "start": 439,
+        "end": 457
+      },
+      {
+        "id": "10",
+        "review_id": "E0435:10",
+        "codes": [],
+        "names": [],
+        "surface": "Determined",
+        "quote": "Determined",
+        "field": "requirements",
+        "start": 509,
+        "end": 519
+      },
+      {
+        "id": "11",
+        "review_id": "E0435:11",
+        "codes": [],
+        "names": [],
+        "surface": "BentoML, KServe",
+        "quote": "BentoML, KServe",
+        "field": "requirements",
+        "start": 2226,
+        "end": 2241
+      }
+    ]
+  },
+  {
+    "coding_order": 126,
+    "reading_id": "E0415",
+    "company_id": "US_APPTRONIK",
+    "title": "Senior Reinforcement Learning Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6142286004|0142c1baeb33620359ebcc3e7fb2045f7e13b4bbdbf330169eacd6939b8c7b64",
+    "already_coded": false,
+    "fields": {
+      "duties": "The Senior Reinforcement Learning  Engineer is a key, hands-on role focused on achieving state-of-the-art performance on our humanoid robots. This engineer will leverage their deep expertise in RL to solve critical locomotion and manipulation challenges and deliver breakthrough results on physical hardware. The primary focus of this role is to rapidly implement, iterate, and deploy advanced learning algorithms to push the boundaries of what our robots can do. As a senior member of the team, this individual will also be responsible for mentoring junior engineers, elevating the team's overall technical capabilities through their guidance and expertise.\nESSENTIAL DUTIES AND RESPONSIBILITIES or KEY ACCOUNTABILITIES\nImplement and deploy state-of-the-art RL algorithms to achieve ambitious, world-class performance on dynamic locomotion and manipulation tasks with physical hardware.\nDrive the entire development cycle, from prototyping in simulation to robustly transferring and fine-tuning policies on the robot.\nOptimize and scale the RL training pipeline for faster iteration, contributing to core infrastructure for high-throughput simulation and distributed training.\nMentor junior engineers by providing technical guidance, conducting insightful code reviews, and sharing best practices in reinforcement learning and software development.\nCollaborate closely with the robotics and hardware teams to diagnose system-level issues and co-develop solutions that enable more complex learned behaviors.\nAnalyze and present hardware results to guide future technical directions and demonstrate progress on key company objectives.\nDevelop and refine motion retargeting pipelines to translate human demonstration data (mocap, teleoperation) into robust reference trajectories for reinforcement learning.",
+      "requirements": "Deep, hands-on expertise (5+ years) with common RL frameworks (e.g., PyTorch, JAX) and high-fidelity physics simulators (e.g., MuJoCo, IsaacGym)\nMastery of Python for rapid prototyping and training, alongside strong proficiency in C++ for developing performant, deployable code.\nExperience building or utilizing large-scale, distributed training pipelines and a strong intuition for their optimization.\nA strong theoretical understanding of modern reinforcement learning, including deep expertise in areas like imitation learning, model-based RL, and sim-to-real transfer techniques.\nA strong intuition for robot dynamics and controls theory, with the ability to apply these principles to guide and constrain learning-based approaches.\nA results-oriented mindset with a passion for seeing complex algorithms work on real-world hardware.\nEDUCATION and/or EXPERIENCE\nA PhD or MS in Computer Science, Robotics, or a related field, with 2+ years industry experience strongly preferred.\nA proven track record of successfully deploying learning-based policies on physical robotic systems, especially legged robots or manipulators.\nDemonstrated experience mentoring or providing technical guidance to other engineers in a team environment.\nA strong publication record in relevant conferences or journals (e.g., CoRL, RSS, ICRA) is a significant plus.\nPHYSICAL REQUIREMENTS\nProlonged periods of sitting at a desk and working on a computer\nMust be able to lift 15 pounds at times\nVision to read printed materials and a computer screen\nHearing and speech to communicate",
+      "full_description": "Apptronik is a human-centered robotics company developing AI-powered robots to support humanity in every facet of life. Our flagship humanoid robot, Apollo, is built to collaborate thoughtfully with people, starting with critical industries such as manufacturing and logistics, with future applications in healthcare, the home, and beyond.\nWe operate at the cutting edge of Applied AI, applying our expertise across the full robotics stack to solve some of society's most important problems. You will join a team dedicated to bringing Apollo to market at scale, tackling the complex challenges like safety, commercialization, and mass production to change the world for the better.\nJOB SUMMARY\nThe Senior Reinforcement Learning  Engineer is a key, hands-on role focused on achieving state-of-the-art performance on our humanoid robots. This engineer will leverage their deep expertise in RL to solve critical locomotion and manipulation challenges and deliver breakthrough results on physical hardware. The primary focus of this role is to rapidly implement, iterate, and deploy advanced learning algorithms to push the boundaries of what our robots can do. As a senior member of the team, this individual will also be responsible for mentoring junior engineers, elevating the team's overall technical capabilities through their guidance and expertise.\nESSENTIAL DUTIES AND RESPONSIBILITIES or KEY ACCOUNTABILITIES\nImplement and deploy state-of-the-art RL algorithms to achieve ambitious, world-class performance on dynamic locomotion and manipulation tasks with physical hardware.\nDrive the entire development cycle, from prototyping in simulation to robustly transferring and fine-tuning policies on the robot.\nOptimize and scale the RL training pipeline for faster iteration, contributing to core infrastructure for high-throughput simulation and distributed training.\nMentor junior engineers by providing technical guidance, conducting insightful code reviews, and sharing best practices in reinforcement learning and software development.\nCollaborate closely with the robotics and hardware teams to diagnose system-level issues and co-develop solutions that enable more complex learned behaviors.\nAnalyze and present hardware results to guide future technical directions and demonstrate progress on key company objectives.\nDevelop and refine motion retargeting pipelines to translate human demonstration data (mocap, teleoperation) into robust reference trajectories for reinforcement learning.\nSKILLS AND REQUIREMENTS\nDeep, hands-on expertise (5+ years) with common RL frameworks (e.g., PyTorch, JAX) and high-fidelity physics simulators (e.g., MuJoCo, IsaacGym)\nMastery of Python for rapid prototyping and training, alongside strong proficiency in C++ for developing performant, deployable code.\nExperience building or utilizing large-scale, distributed training pipelines and a strong intuition for their optimization.\nA strong theoretical understanding of modern reinforcement learning, including deep expertise in areas like imitation learning, model-based RL, and sim-to-real transfer techniques.\nA strong intuition for robot dynamics and controls theory, with the ability to apply these principles to guide and constrain learning-based approaches.\nA results-oriented mindset with a passion for seeing complex algorithms work on real-world hardware.\nEDUCATION and/or EXPERIENCE\nA PhD or MS in Computer Science, Robotics, or a related field, with 2+ years industry experience strongly preferred.\nA proven track record of successfully deploying learning-based policies on physical robotic systems, especially legged robots or manipulators.\nDemonstrated experience mentoring or providing technical guidance to other engineers in a team environment.\nA strong publication record in relevant conferences or journals (e.g., CoRL, RSS, ICRA) is a significant plus.\nPHYSICAL REQUIREMENTS\nProlonged periods of sitting at a desk and working on a computer\nMust be able to lift 15 pounds at times\nVision to read printed materials and a computer screen\nHearing and speech to communicate\nCompensation:\nThe annual compensation for this position is $230,000 - $260,000 (USD)\n*This is a direct hire.  Please, no outside Agency solicitations.\nApptronik provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 41,
+        "end": 61,
+        "quote": "common RL frameworks"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 69,
+        "end": 76,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O3",
+        "code": "SK_JAX",
+        "name": "JAX",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 78,
+        "end": 81,
+        "quote": "JAX"
+      },
+      {
+        "id": "O4",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 127,
+        "end": 133,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O5",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 135,
+        "end": 143,
+        "quote": "IsaacGym"
+      },
+      {
+        "id": "O6",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 156,
+        "end": 162,
+        "quote": "Python"
+      },
+      {
+        "id": "O7",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 231,
+        "end": 234,
+        "quote": "C++"
+      },
+      {
+        "id": "O8",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 562,
+        "end": 605,
+        "quote": "tackling the complex challenges like safety"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 721,
+        "end": 772,
+        "quote": "Implement and deploy state-of-the-art RL algorithms"
+      },
+      {
+        "id": "O10",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 822,
+        "end": 863,
+        "quote": "dynamic locomotion and manipulation tasks"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 929,
+        "end": 954,
+        "quote": "prototyping in simulation"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1019,
+        "end": 1062,
+        "quote": "Optimize and scale the RL training pipeline"
+      },
+      {
+        "id": "O13",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1634,
+        "end": 1719,
+        "quote": "Develop and refine motion retargeting pipelines to translate human demonstration data"
+      },
+      {
+        "id": "O14",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 41,
+        "end": 61,
+        "quote": "common RL frameworks"
+      },
+      {
+        "id": "O15",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 87,
+        "end": 119,
+        "quote": "high-fidelity physics simulators"
+      },
+      {
+        "id": "O16",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 325,
+        "end": 355,
+        "quote": "distributed training pipelines"
+      },
+      {
+        "id": "O17",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 448,
+        "end": 470,
+        "quote": "reinforcement learning"
+      },
+      {
+        "id": "O18",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 511,
+        "end": 529,
+        "quote": "imitation learning"
+      },
+      {
+        "id": "O19",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 531,
+        "end": 545,
+        "quote": "model-based RL"
+      },
+      {
+        "id": "O20",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 551,
+        "end": 582,
+        "quote": "sim-to-real transfer techniques"
+      },
+      {
+        "id": "O21",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 607,
+        "end": 641,
+        "quote": "robot dynamics and controls theory"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0415:1",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "The Senior Reinforcement Learning  Engineer is a key, hands-on role focused on achieving state-of-the-art performance on our humanoid robots. This engineer will leverage their deep expertise in RL to solve critical locomotion and manipulation challenges and deliver breakthrough results on physical hardware. The primary focus of this role is to rapidly implement, iterate, and deploy advanced learning algorithms to push the boundaries of what our robots can do. As a senior member of the team, this individual will also be responsible for mentoring junior engineers, elevating the team's overall technical capabilities through their guidance and expertise.",
+        "quote": "The Senior Reinforcement Learning  Engineer is a key, hands-on role focused on achieving state-of-the-art performance on our humanoid robots. This engineer will leverage their deep expertise in RL to solve critical locomotion and manipulation challenges and deliver breakthrough results on physical hardware. The primary focus of this role is to rapidly implement, iterate, and deploy advanced learning algorithms to push the boundaries of what our robots can do. As a senior member of the team, this individual will also be responsible for mentoring junior engineers, elevating the team's overall technical capabilities through their guidance and expertise.",
+        "field": "full_description",
+        "start": 694,
+        "end": 1352
+      },
+      {
+        "id": "2",
+        "review_id": "E0415:2",
+        "codes": [
+          "V2_TELEOP",
+          "V2_MOCAP"
+        ],
+        "names": [
+          "遥操作与示教",
+          "动作捕捉与演示数据采集"
+        ],
+        "surface": "Develop and refine motion retargeting pipelines to translate human demonstration data (mocap, teleoperation) into robust reference trajectories for reinforcement learning.",
+        "quote": "Develop and refine motion retargeting pipelines to translate human demonstration data (mocap, teleoperation) into robust reference trajectories for reinforcement learning.",
+        "field": "full_description",
+        "start": 2328,
+        "end": 2499
+      },
+      {
+        "id": "3",
+        "review_id": "E0415:3",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Mastery of Python for rapid prototyping and training, alongside strong proficiency in C++ for developing performant, deployable code.",
+        "quote": "Mastery of Python for rapid prototyping and training, alongside strong proficiency in C++ for developing performant, deployable code.",
+        "field": "full_description",
+        "start": 2669,
+        "end": 2802
+      },
+      {
+        "id": "4",
+        "review_id": "E0415:4",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "A strong theoretical understanding of modern reinforcement learning, including deep expertise in areas like imitation learning, model-based RL, and sim-to-real transfer techniques.",
+        "quote": "A strong theoretical understanding of modern reinforcement learning, including deep expertise in areas like imitation learning, model-based RL, and sim-to-real transfer techniques.",
+        "field": "full_description",
+        "start": 2927,
+        "end": 3107
+      },
+      {
+        "id": "5",
+        "review_id": "E0415:5",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "The annual compensation for this position is $230,000 - $260,000 (USD)",
+        "quote": "The annual compensation for this position is $230,000 - $260,000 (USD)",
+        "field": "full_description",
+        "start": 4098,
+        "end": 4168
+      }
+    ]
+  },
+  {
+    "coding_order": 127,
+    "reading_id": "N1044",
+    "company_id": "US_BOSTON_DYNAMICS",
+    "title": "Research Scientist, VLA Models - Atlas",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|046e34147a991001f6fd612f55950000|fe51d7a7c0d0e7993e766acecf1df9e9bfeceaa4c7f69f5d51935a65cff0bfaf",
+    "already_coded": false,
+    "fields": {
+      "duties": "As a\nVLA Research Scientist\non the Atlas team, you will architect, train, and deploy the large-scale behavior models that enable high-performance dexterous manipulation on Atlas. Your work will focus on building models that take multimodal input (vision, language, task context, robot state), and produce grounded actions that generalize across manipulation tasks, embodiments, and environments.\nYou will design large-scale behavior cloning and imitation learning pipelines, build hierarchical skill systems, and integrate learned components into a complex, real-world robotic system. You’ll collaborate closely with robotics, controls, and software teams, and rapidly test your work on state-of-the-art humanoid hardware.\nHow You Will Make an Impact:\nArchitect and train end-to-end VLA and Large Behavior Models for mobile manipulation on Atlas.\nBuild large-scale imitation learning pipelines that learn from human demonstrations, teleoperation, and simulation data.\nDevelop policies capable of few-shot generalization across diverse manipulation tasks.\nCreate hierarchical behavior systems that combine learned skills into long-horizon behaviors.\nIntegrate your models into Atlas’s autonomy stack in collaboration with controls and platform teams.\nDeploy, debug, and iterate your models directly on physical hardware.\nWrite high-quality, maintainable Python and C++ code that fits into a large production codebase.\nWe’re Looking For:\nMS with 3+ years of experience\nor\nPhD in Machine Learning, Robotics, Computer Science, or related fields.\nPrior experience training and deploying learned policies for complex behaviors in robots or simulated characters.\nStrong background in:\nBehavior cloning / imitation learning\nDiffusion policies, ACT, or other modern BC architectures\nLarge behavior models or sequence modeling\nMultimodal (vision/language/action) learning\nExperience with modern ML frameworks (PyTorch, JAX) and large-scale training workflows.\nStrong analytical and debugging skills; ability to write reliable, well-structured research code.\nNice to Have:\nHands-on experience deploying learned policies on real robots.\nExperience creating or curating large demonstration datasets (teleop, human demos, ego-centric video).\nExperience with RL as a complementary tool within behavior learning pipelines.\nPublications in top-tier ML or robotics conferences (e.g., CoRL, RSS, ICRA, NeurIPS).\nExperience contributing to large C++ or Python codebases.\nWhy Join Us:\nDirect access to an advanced humanoid robot—test your models on hardware quickly and often.\nA collaborative, inclusive team that values diverse perspectives and identities.\nThe opportunity to do applied VLA research with real-world impact.\nA mission-focused environment where your work will define the future of general-purpose humanoids.",
+      "requirements": "",
+      "full_description": "As a\nVLA Research Scientist\non the Atlas team, you will architect, train, and deploy the large-scale behavior models that enable high-performance dexterous manipulation on Atlas. Your work will focus on building models that take multimodal input (vision, language, task context, robot state), and produce grounded actions that generalize across manipulation tasks, embodiments, and environments.\nYou will design large-scale behavior cloning and imitation learning pipelines, build hierarchical skill systems, and integrate learned components into a complex, real-world robotic system. You’ll collaborate closely with robotics, controls, and software teams, and rapidly test your work on state-of-the-art humanoid hardware.\nHow You Will Make an Impact:\nArchitect and train end-to-end VLA and Large Behavior Models for mobile manipulation on Atlas.\nBuild large-scale imitation learning pipelines that learn from human demonstrations, teleoperation, and simulation data.\nDevelop policies capable of few-shot generalization across diverse manipulation tasks.\nCreate hierarchical behavior systems that combine learned skills into long-horizon behaviors.\nIntegrate your models into Atlas’s autonomy stack in collaboration with controls and platform teams.\nDeploy, debug, and iterate your models directly on physical hardware.\nWrite high-quality, maintainable Python and C++ code that fits into a large production codebase.\nWe’re Looking For:\nMS with 3+ years of experience\nor\nPhD in Machine Learning, Robotics, Computer Science, or related fields.\nPrior experience training and deploying learned policies for complex behaviors in robots or simulated characters.\nStrong background in:\nBehavior cloning / imitation learning\nDiffusion policies, ACT, or other modern BC architectures\nLarge behavior models or sequence modeling\nMultimodal (vision/language/action) learning\nExperience with modern ML frameworks (PyTorch, JAX) and large-scale training workflows.\nStrong analytical and debugging skills; ability to write reliable, well-structured research code.\nNice to Have:\nHands-on experience deploying learned policies on real robots.\nExperience creating or curating large demonstration datasets (teleop, human demos, ego-centric video).\nExperience with RL as a complementary tool within behavior learning pipelines.\nPublications in top-tier ML or robotics conferences (e.g., CoRL, RSS, ICRA, NeurIPS).\nExperience contributing to large C++ or Python codebases.\nWhy Join Us:\nDirect access to an advanced humanoid robot—test your models on hardware quickly and often.\nA collaborative, inclusive team that values diverse perspectives and identities.\nThe opportunity to do applied VLA research with real-world impact.\nA mission-focused environment where your work will define the future of general-purpose humanoids."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1320,
+        "end": 1416,
+        "quote": "Write high-quality, maintainable Python and C++ code that fits into a large production codebase."
+      },
+      {
+        "id": "O2",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1320,
+        "end": 1416,
+        "quote": "Write high-quality, maintainable Python and C++ code that fits into a large production codebase."
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1900,
+        "end": 1907,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O4",
+        "code": "SK_JAX",
+        "name": "JAX",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1909,
+        "end": 1912,
+        "quote": "JAX"
+      },
+      {
+        "id": "O5",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2426,
+        "end": 2429,
+        "quote": "C++"
+      },
+      {
+        "id": "O6",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2433,
+        "end": 2439,
+        "quote": "Python"
+      },
+      {
+        "id": "O7",
+        "code": "SK_GENERIC_ML_FRAMEWORK",
+        "name": "机器学习框架泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1878,
+        "end": 1898,
+        "quote": "modern ML frameworks"
+      },
+      {
+        "id": "O8",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 752,
+        "end": 846,
+        "quote": "Architect and train end-to-end VLA and Large Behavior Models for mobile manipulation on Atlas."
+      },
+      {
+        "id": "O9",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 752,
+        "end": 846,
+        "quote": "Architect and train end-to-end VLA and Large Behavior Models for mobile manipulation on Atlas."
+      },
+      {
+        "id": "O10",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 847,
+        "end": 967,
+        "quote": "Build large-scale imitation learning pipelines that learn from human demonstrations, teleoperation, and simulation data."
+      },
+      {
+        "id": "O11",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 847,
+        "end": 967,
+        "quote": "Build large-scale imitation learning pipelines that learn from human demonstrations, teleoperation, and simulation data."
+      },
+      {
+        "id": "O12",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 847,
+        "end": 967,
+        "quote": "Build large-scale imitation learning pipelines that learn from human demonstrations, teleoperation, and simulation data."
+      },
+      {
+        "id": "O13",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 847,
+        "end": 967,
+        "quote": "Build large-scale imitation learning pipelines that learn from human demonstrations, teleoperation, and simulation data."
+      },
+      {
+        "id": "O14",
+        "code": "TC_SYNTHETIC_DATA",
+        "name": "合成数据",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 951,
+        "end": 966,
+        "quote": "simulation data"
+      },
+      {
+        "id": "O15",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 1149,
+        "end": 1249,
+        "quote": "Integrate your models into Atlas’s autonomy stack in collaboration with controls and platform teams."
+      },
+      {
+        "id": "O16",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1582,
+        "end": 1598,
+        "quote": "learned policies"
+      },
+      {
+        "id": "O17",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1634,
+        "end": 1654,
+        "quote": "simulated characters"
+      },
+      {
+        "id": "O18",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1678,
+        "end": 1715,
+        "quote": "Behavior cloning / imitation learning"
+      },
+      {
+        "id": "O19",
+        "code": "TC_GENERATIVE_POLICY",
+        "name": "生成式机器人策略",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1716,
+        "end": 1734,
+        "quote": "Diffusion policies"
+      },
+      {
+        "id": "O20",
+        "code": "TC_GENERATIVE_POLICY",
+        "name": "生成式机器人策略",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1736,
+        "end": 1739,
+        "quote": "ACT"
+      },
+      {
+        "id": "O21",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1757,
+        "end": 1773,
+        "quote": "BC architectures"
+      },
+      {
+        "id": "O22",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1774,
+        "end": 1795,
+        "quote": "Large behavior models"
+      },
+      {
+        "id": "O23",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1799,
+        "end": 1816,
+        "quote": "sequence modeling"
+      },
+      {
+        "id": "O24",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1817,
+        "end": 1861,
+        "quote": "Multimodal (vision/language/action) learning"
+      },
+      {
+        "id": "O25",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1918,
+        "end": 1948,
+        "quote": "large-scale training workflows"
+      },
+      {
+        "id": "O26",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2157,
+        "end": 2185,
+        "quote": "large demonstration datasets"
+      },
+      {
+        "id": "O27",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2244,
+        "end": 2246,
+        "quote": "RL"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N1044:1",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "Build large-scale imitation learning pipelines that learn from human demonstrations, teleoperation, and simulation data.",
+        "quote": "Build large-scale imitation learning pipelines that learn from human demonstrations, teleoperation, and simulation data.",
+        "field": "full_description",
+        "start": 847,
+        "end": 967
+      },
+      {
+        "id": "2",
+        "review_id": "N1044:2",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Write high-quality, maintainable Python and C++ code that fits into a large production codebase.",
+        "quote": "Write high-quality, maintainable Python and C++ code that fits into a large production codebase.",
+        "field": "full_description",
+        "start": 1320,
+        "end": 1416
+      },
+      {
+        "id": "3",
+        "review_id": "N1044:3",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Experience contributing to large C++ or Python codebases.",
+        "quote": "Experience contributing to large C++ or Python codebases.",
+        "field": "full_description",
+        "start": 2393,
+        "end": 2450
+      }
+    ]
+  },
+  {
+    "coding_order": 128,
+    "reading_id": "N1014",
+    "company_id": "US_BOSTON_DYNAMICS",
+    "title": "Staff Reinforcement Learning Research Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|2ecda71fdddd1001aab52a1468b40001|a5788de9d60fdf5f6cd6a86f50dd0520af6b1c9a6284e5aa1b6f949ae60b5438",
+    "already_coded": false,
+    "fields": {
+      "duties": "Do you want to build the scalable reinforcement learning framework that powers the next generation of humanoid and quadruped robots? As a\nStaff RL Research Engineer,\nyou'll own the RL stack, including massively parallel simulation, domain randomization, policy optimization, and on-robot deployment. Your job is to make the pipeline fast, reliable, and reproducible. You'll work alongside world-class engineers and scientists pushing the boundaries of whole-body control and dexterous manipulation.\nIn this role, you will:\nImplement on-policy and off-policy learning algorithms\nScale GPU-accelerated simulation to generate millions of samples per second\nCrack sim-to-real to produce policies that transfer to the physical robot\nIntegrate RL with VLAs to fine-tune and distill large multimodal policies\nMake deployment easy, fast, and reproducible\nBuild visualization tools that enable data-driven research\nRequired Qualifications\nMS with 3+ years of experience, or PhD, in ML, Robotics, or a related field\nDeployed policies on physical robots with attention to latency, robustness, and safety\nExpertise with RL toolboxes (RSL-RL, CleanRL, RLlib, Stable Baselines)\nExpertise with simulation and rendering tooling (Isaac Lab, MuJoCo, MjWarp, MjLab)\nProficient in PyTorch and/or JAX, plus inference runtimes (ONNX, Triton, TensorRT)\nSolid software fundamentals: Bazel, monorepos, Docker, CI/CD\nThe ideal candidate has:\nBuilt production-grade RL training pipelines\nDeep knowledge of GPU-accelerated physics simulation\nApplied RL to humanoid locomotion, whole-body control, or dexterous manipulation\nWorked on sim-to-real transfer, domain randomization, or system identification\nExperience with heterogeneous compute clusters and Kubernetes\nWhy join us?\nOwnership of the company wide RL tools powering all of our robots\nDirect access to the compute infrastructure to run large-scale experiments\nThe chance to help define what’s possible in real-world robotics\nThe salary or hourly pay range for this position will be clearly stated in the job posting as required by Massachusetts law. The base pay range for this position is between $155,284.34- $200,000. Base pay will depend on multiple individualized factors including, but not limited to internal equity, job related knowledge, skills and experience. This range represents a good faith estimate of compensation at the time of posting. Boston Dynamics offers a generous Benefits package including medical, dental vision, 401(k), paid time off and an annual bonus structure. Additional details regarding these benefit plans will be provided if an employee receives an offer for employment.",
+      "requirements": "",
+      "full_description": "Do you want to build the scalable reinforcement learning framework that powers the next generation of humanoid and quadruped robots? As a\nStaff RL Research Engineer,\nyou'll own the RL stack, including massively parallel simulation, domain randomization, policy optimization, and on-robot deployment. Your job is to make the pipeline fast, reliable, and reproducible. You'll work alongside world-class engineers and scientists pushing the boundaries of whole-body control and dexterous manipulation.\nIn this role, you will:\nImplement on-policy and off-policy learning algorithms\nScale GPU-accelerated simulation to generate millions of samples per second\nCrack sim-to-real to produce policies that transfer to the physical robot\nIntegrate RL with VLAs to fine-tune and distill large multimodal policies\nMake deployment easy, fast, and reproducible\nBuild visualization tools that enable data-driven research\nRequired Qualifications\nMS with 3+ years of experience, or PhD, in ML, Robotics, or a related field\nDeployed policies on physical robots with attention to latency, robustness, and safety\nExpertise with RL toolboxes (RSL-RL, CleanRL, RLlib, Stable Baselines)\nExpertise with simulation and rendering tooling (Isaac Lab, MuJoCo, MjWarp, MjLab)\nProficient in PyTorch and/or JAX, plus inference runtimes (ONNX, Triton, TensorRT)\nSolid software fundamentals: Bazel, monorepos, Docker, CI/CD\nThe ideal candidate has:\nBuilt production-grade RL training pipelines\nDeep knowledge of GPU-accelerated physics simulation\nApplied RL to humanoid locomotion, whole-body control, or dexterous manipulation\nWorked on sim-to-real transfer, domain randomization, or system identification\nExperience with heterogeneous compute clusters and Kubernetes\nWhy join us?\nOwnership of the company wide RL tools powering all of our robots\nDirect access to the compute infrastructure to run large-scale experiments\nThe chance to help define what’s possible in real-world robotics\nThe salary or hourly pay range for this position will be clearly stated in the job posting as required by Massachusetts law. The base pay range for this position is between $155,284.34- $200,000. Base pay will depend on multiple individualized factors including, but not limited to internal equity, job related knowledge, skills and experience. This range represents a good faith estimate of compensation at the time of posting. Boston Dynamics offers a generous Benefits package including medical, dental vision, 401(k), paid time off and an annual bonus structure. Additional details regarding these benefit plans will be provided if an employee receives an offer for employment."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1213,
+        "end": 1222,
+        "quote": "Isaac Lab"
+      },
+      {
+        "id": "O2",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1224,
+        "end": 1230,
+        "quote": "MuJoCo"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1261,
+        "end": 1268,
+        "quote": "PyTorch"
+      },
+      {
+        "id": "O4",
+        "code": "SK_JAX",
+        "name": "JAX",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1276,
+        "end": 1279,
+        "quote": "JAX"
+      },
+      {
+        "id": "O5",
+        "code": "SK_DOCKER",
+        "name": "Docker",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1377,
+        "end": 1383,
+        "quote": "Docker"
+      },
+      {
+        "id": "O6",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1725,
+        "end": 1735,
+        "quote": "Kubernetes"
+      },
+      {
+        "id": "O7",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 523,
+        "end": 577,
+        "quote": "Implement on-policy and off-policy learning algorithms"
+      },
+      {
+        "id": "O8",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 578,
+        "end": 653,
+        "quote": "Scale GPU-accelerated simulation to generate millions of samples per second"
+      },
+      {
+        "id": "O9",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 578,
+        "end": 653,
+        "quote": "Scale GPU-accelerated simulation to generate millions of samples per second"
+      },
+      {
+        "id": "O10",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 728,
+        "end": 801,
+        "quote": "Integrate RL with VLAs to fine-tune and distill large multimodal policies"
+      },
+      {
+        "id": "O11",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 728,
+        "end": 801,
+        "quote": "Integrate RL with VLAs to fine-tune and distill large multimodal policies"
+      },
+      {
+        "id": "O12",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 315,
+        "end": 366,
+        "quote": "make the pipeline fast, reliable, and reproducible."
+      },
+      {
+        "id": "O13",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 401,
+        "end": 498,
+        "quote": "engineers and scientists pushing the boundaries of whole-body control and dexterous manipulation."
+      },
+      {
+        "id": "O14",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 401,
+        "end": 498,
+        "quote": "engineers and scientists pushing the boundaries of whole-body control and dexterous manipulation."
+      },
+      {
+        "id": "O15",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1006,
+        "end": 1092,
+        "quote": "Deployed policies on physical robots with attention to latency, robustness, and safety"
+      },
+      {
+        "id": "O16",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1006,
+        "end": 1092,
+        "quote": "Deployed policies on physical robots with attention to latency, robustness, and safety"
+      },
+      {
+        "id": "O17",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1108,
+        "end": 1120,
+        "quote": "RL toolboxes"
+      },
+      {
+        "id": "O18",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1179,
+        "end": 1211,
+        "quote": "simulation and rendering tooling"
+      },
+      {
+        "id": "O19",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1286,
+        "end": 1304,
+        "quote": "inference runtimes"
+      },
+      {
+        "id": "O20",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1422,
+        "end": 1460,
+        "quote": "production-grade RL training pipelines"
+      },
+      {
+        "id": "O21",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1422,
+        "end": 1460,
+        "quote": "production-grade RL training pipelines"
+      },
+      {
+        "id": "O22",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1479,
+        "end": 1513,
+        "quote": "GPU-accelerated physics simulation"
+      },
+      {
+        "id": "O23",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1522,
+        "end": 1524,
+        "quote": "RL"
+      },
+      {
+        "id": "O24",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1528,
+        "end": 1547,
+        "quote": "humanoid locomotion"
+      },
+      {
+        "id": "O25",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1549,
+        "end": 1567,
+        "quote": "whole-body control"
+      },
+      {
+        "id": "O26",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1572,
+        "end": 1594,
+        "quote": "dexterous manipulation"
+      },
+      {
+        "id": "O27",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1605,
+        "end": 1625,
+        "quote": "sim-to-real transfer"
+      },
+      {
+        "id": "O28",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1627,
+        "end": 1647,
+        "quote": "domain randomization"
+      },
+      {
+        "id": "O29",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1652,
+        "end": 1673,
+        "quote": "system identification"
+      },
+      {
+        "id": "O30",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1690,
+        "end": 1720,
+        "quote": "heterogeneous compute clusters"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N1014:1",
+        "codes": [
+          "V2_DOMAIN_RANDOMIZATION"
+        ],
+        "names": [
+          "域随机化"
+        ],
+        "surface": "you'll own the RL stack, including massively parallel simulation, domain randomization, policy optimization, and on-robot deployment. Your job is to make the pipeline fast, reliable, and reproducible. You'll work alongside world-class engineers and scientists pushing the boundaries of whole-body control and dexterous manipulation.",
+        "quote": "you'll own the RL stack, including massively parallel simulation, domain randomization, policy optimization, and on-robot deployment. Your job is to make the pipeline fast, reliable, and reproducible. You'll work alongside world-class engineers and scientists pushing the boundaries of whole-body control and dexterous manipulation.",
+        "field": "full_description",
+        "start": 166,
+        "end": 498
+      },
+      {
+        "id": "2",
+        "review_id": "N1014:2",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "Crack sim-to-real to produce policies that transfer to the physical robot",
+        "quote": "Crack sim-to-real to produce policies that transfer to the physical robot",
+        "field": "full_description",
+        "start": 654,
+        "end": 727
+      },
+      {
+        "id": "3",
+        "review_id": "N1014:3",
+        "codes": [],
+        "names": [],
+        "surface": "RSL-RL",
+        "quote": "RSL-RL",
+        "field": "full_description",
+        "start": 1122,
+        "end": 1128
+      },
+      {
+        "id": "4",
+        "review_id": "N1014:4",
+        "codes": [],
+        "names": [],
+        "surface": "CleanRL",
+        "quote": "CleanRL",
+        "field": "full_description",
+        "start": 1130,
+        "end": 1137
+      },
+      {
+        "id": "5",
+        "review_id": "N1014:5",
+        "codes": [],
+        "names": [],
+        "surface": "RLlib",
+        "quote": "RLlib",
+        "field": "full_description",
+        "start": 1139,
+        "end": 1144
+      },
+      {
+        "id": "6",
+        "review_id": "N1014:6",
+        "codes": [],
+        "names": [],
+        "surface": "Stable Baselines",
+        "quote": "Stable Baselines",
+        "field": "full_description",
+        "start": 1146,
+        "end": 1162
+      },
+      {
+        "id": "7",
+        "review_id": "N1014:7",
+        "codes": [],
+        "names": [],
+        "surface": "MjWarp",
+        "quote": "MjWarp",
+        "field": "full_description",
+        "start": 1232,
+        "end": 1238
+      },
+      {
+        "id": "8",
+        "review_id": "N1014:8",
+        "codes": [],
+        "names": [],
+        "surface": "MjLab",
+        "quote": "MjLab",
+        "field": "full_description",
+        "start": 1240,
+        "end": 1245
+      },
+      {
+        "id": "9",
+        "review_id": "N1014:9",
+        "codes": [
+          "V2_TENSORRT",
+          "V2_ONNX",
+          "V2_TRITON_COMPILER"
+        ],
+        "names": [
+          "TensorRT",
+          "ONNX",
+          "Triton GPU编程语言"
+        ],
+        "surface": "Proficient in PyTorch and/or JAX, plus inference runtimes (ONNX, Triton, TensorRT)",
+        "quote": "Proficient in PyTorch and/or JAX, plus inference runtimes (ONNX, Triton, TensorRT)",
+        "field": "full_description",
+        "start": 1247,
+        "end": 1329
+      },
+      {
+        "id": "10",
+        "review_id": "N1014:10",
+        "codes": [
+          "V2_ONNX"
+        ],
+        "names": [
+          "ONNX"
+        ],
+        "surface": "ONNX",
+        "quote": "ONNX",
+        "field": "full_description",
+        "start": 1306,
+        "end": 1310
+      },
+      {
+        "id": "11",
+        "review_id": "N1014:11",
+        "codes": [
+          "V2_TRITON_COMPILER"
+        ],
+        "names": [
+          "Triton GPU编程语言"
+        ],
+        "surface": "Triton",
+        "quote": "Triton",
+        "field": "full_description",
+        "start": 1312,
+        "end": 1318
+      },
+      {
+        "id": "12",
+        "review_id": "N1014:12",
+        "codes": [
+          "V2_TENSORRT"
+        ],
+        "names": [
+          "TensorRT"
+        ],
+        "surface": "TensorRT",
+        "quote": "TensorRT",
+        "field": "full_description",
+        "start": 1320,
+        "end": 1328
+      },
+      {
+        "id": "13",
+        "review_id": "N1014:13",
+        "codes": [
+          "V2_BAZEL",
+          "V2_CI_CD"
+        ],
+        "names": [
+          "Bazel",
+          "持续集成与交付"
+        ],
+        "surface": "Solid software fundamentals: Bazel, monorepos, Docker, CI/CD",
+        "quote": "Solid software fundamentals: Bazel, monorepos, Docker, CI/CD",
+        "field": "full_description",
+        "start": 1330,
+        "end": 1390
+      },
+      {
+        "id": "14",
+        "review_id": "N1014:14",
+        "codes": [
+          "V2_BAZEL"
+        ],
+        "names": [
+          "Bazel"
+        ],
+        "surface": "Bazel",
+        "quote": "Bazel",
+        "field": "full_description",
+        "start": 1359,
+        "end": 1364
+      },
+      {
+        "id": "15",
+        "review_id": "N1014:15",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "CI/CD",
+        "quote": "CI/CD",
+        "field": "full_description",
+        "start": 1385,
+        "end": 1390
+      },
+      {
+        "id": "16",
+        "review_id": "N1014:16",
+        "codes": [
+          "V2_SYSID",
+          "V2_SIM2REAL",
+          "V2_DOMAIN_RANDOMIZATION"
+        ],
+        "names": [
+          "系统辨识",
+          "仿真与现实迁移",
+          "域随机化"
+        ],
+        "surface": "Worked on sim-to-real transfer, domain randomization, or system identification",
+        "quote": "Worked on sim-to-real transfer, domain randomization, or system identification",
+        "field": "full_description",
+        "start": 1595,
+        "end": 1673
+      }
+    ]
+  }
+]

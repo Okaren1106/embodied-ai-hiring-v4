@@ -1,0 +1,2363 @@
+{
+  "catalog_version": "Q2-v2.1",
+  "coding_version": "grok4.6-Q2-v2.1-first-pass",
+  "reader": "grok4.6",
+  "contributors": [
+    "grok4.6"
+  ],
+  "queue_sha256": "8815c0e72e571ac260f9a7ff1feb374fb21dab4613dd01ef5b22a32077a134d4",
+  "ads": {
+    "N0595": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "ARCH",
+      "secondary_task": "",
+      "task_evidence": "负责机器人整机系统方案设计与技术架构规划",
+      "new": {
+        "1": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:N0595:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "整机系统。CAN/EtherCAT保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7570913172300138798|540919279977795e0d0304cc1897efd2ddb7f1715452526ba8fa96401e73b3ad",
+      "company_id": "CN_LIMX",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 27,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人整机系统方案设计与技术架构规划"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "540919279977795e0d0304cc1897efd2ddb7f1715452526ba8fa96401e73b3ad",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.830469+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0125": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "SUBSYSTEM",
+      "fine_task": "JOINT_MODULE",
+      "secondary_task": "",
+      "task_evidence": "负责关节模组在整机中的技术选型、性能匹配、集成应用和问题闭环",
+      "new": {
+        "1": [
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_SYSID",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_PROCUREMENT",
+            "SEPARATE",
+            "COLLABORATION_OBJECT"
+          ]
+        ],
+        "7": [
+          [
+            "V2_PROCUREMENT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_PROCUREMENT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O13": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原电机短词不唯一，改为关节模组电机减速器原理句。",
+          "quote": "对一体化关节模组具有系统级理解，熟悉电机、减速器、轴承、编码器、力矩传感器、制动器、驱动控制器和嵌入式软件的基本原理及相互影响"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "关节模组。接口/供应商/辨识控制保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7667407443098585398|51e011ae89209f80566af5c30d5524f9448d62794330e9672c00361095016713",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 27,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 33,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责关节模组在整机中的技术选型、性能匹配、集成应用和问题闭环"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "51e011ae89209f80566af5c30d5524f9448d62794330e9672c00361095016713",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.830469+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0871": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "FUNCTIONAL_SAFETY",
+      "fine_task": "FS_ENG",
+      "secondary_task": "",
+      "task_evidence": "Define functional safety requirements for robotic systems",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "REJECT:English can is not Controller Area Network.",
+        "3": [
+          [
+            "V2_SAFETY_ANALYSIS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0871:3",
+        "5": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_SOP_OPERATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N0871:7",
+        "9": "DUPLICATE:N0871:7",
+        "10": "DUPLICATE:N0871:7",
+        "11": "DUPLICATE:N0871:7",
+        "12": "DUPLICATE:N0871:7",
+        "13": "DUPLICATE:N0871:7",
+        "14": "DUPLICATE:N0871:7",
+        "15": "DUPLICATE:N0871:7",
+        "16": "DUPLICATE:N0871:7",
+        "17": "DUPLICATE:N0871:7",
+        "18": "DUPLICATE:N0871:7",
+        "19": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "20": "DUPLICATE:N0871:7",
+        "21": "DUPLICATE:N0871:7",
+        "22": [
+          [
+            "V2_EMC_SIPI",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_ENV_COMPLIANCE",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "23": [
+          [
+            "V2_ENV_COMPLIANCE",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "24": "DUPLICATE:N0871:22",
+        "25": "OUTSIDE:CFSE认证未单列冻结项。",
+        "26": "OUTSIDE:CMSE认证未单列冻结项。",
+        "27": "OUTSIDE:CECE认证未单列冻结项。",
+        "28": [
+          [
+            "V2_STRUCTURED_TEXT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_LADDER",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_FBD",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "29": "DUPLICATE:N0871:28",
+        "30": "DUPLICATE:N0871:28",
+        "31": "DUPLICATE:N0871:28",
+        "32": [
+          [
+            "V2_PLC",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "33": "DUPLICATE:N0871:32",
+        "34": [
+          [
+            "V2_PROFINET",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ETHERNET",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_MODBUS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "35": "DUPLICATE:N0871:34",
+        "36": "DUPLICATE:N0871:34",
+        "37": "DUPLICATE:N0871:34",
+        "38": "DUPLICATE:N0871:34"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "功能安全。标准/PLC/安全通信保留。SIL按功能安全记。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|db04a1c5-c1c5-4eee-ab5f-8527ab1b751b|ffe2270d9fa182dbeae9a7f12ce346b7c56ab67e4fc572e6da2fbbc396fba2a3",
+      "company_id": "US_DEXTERITY",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 38,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1999,
+        "end": 2056,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Define functional safety requirements for robotic systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "ffe2270d9fa182dbeae9a7f12ce346b7c56ab67e4fc572e6da2fbbc396fba2a3",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.830469+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0349": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "INTEGRATION_TL",
+      "secondary_task": "",
+      "task_evidence": "Architect the strategy for the bring-up and integration of full humanoid robotic systems",
+      "new": {
+        "1": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_RCA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:office location不是Microsoft Office。",
+        "5": "REJECT:Salary USD is not Universal Scene Description.",
+        "6": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "整机集成技术负责人。排障/RCA保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6083311004|a91d7e5660b007090a704a618959d71a56652e6411de111623cac6686520076b",
+      "company_id": "US_AGILITY",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 42,
+        "end": 130,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Architect the strategy for the bring-up and integration of full humanoid robotic systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "a91d7e5660b007090a704a618959d71a56652e6411de111623cac6686520076b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.830469+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0101": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "FUNCTIONAL_SAFETY",
+      "fine_task": "PRODUCT_SAFETY",
+      "secondary_task": "",
+      "task_evidence": "负责宇树机器人产品的安全",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "产品安全架构。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|1968169946630324224|c0343bc9531737bc00fcba38b04e4ad53c02916ba389b67aa0f7e17f6f5fdbd5",
+      "company_id": "CN_UNITREE",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 1,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 15,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责宇树机器人产品的安全"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "c0343bc9531737bc00fcba38b04e4ad53c02916ba389b67aa0f7e17f6f5fdbd5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.831991+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0933": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "PHYSICAL_AI_ARCH",
+      "secondary_task": "",
+      "task_evidence": "Lead the application of diffusion-based policy learning",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "OUTSIDE:NVIDIA Jetson未单列冻结项。",
+        "5": "OUTSIDE:ARM SoCs未单列冻结项。",
+        "6": "OUTSIDE:FPGA未单列冻结项。",
+        "7": "REJECT:Python and C++ is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Physical AI架构。最优控制/轨迹优化保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PICKLE|lever|46d7584f-6646-4f7c-9a21-3aade83ba2b1|33764d1f031ad52465033ca1f2fae43df860ae8fb565a2144544744681c4ce5f",
+      "company_id": "US_PICKLE",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 26,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1043,
+        "end": 1098,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Lead the application of diffusion-based policy learning"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "33764d1f031ad52465033ca1f2fae43df860ae8fb565a2144544744681c4ce5f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.831991+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0035": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "ARCH",
+      "secondary_task": "",
+      "task_evidence": "负责机器人整机系统架构规划与整体方案设计",
+      "new": {
+        "1": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "整机系统。CAN/EtherCAT保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7659963411342543150|ffc2f119ef786096e8493386ac877024ba4f008c7046c6b63a8ec31ea87968d1",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 28,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人整机系统架构规划与整体方案设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "ffc2f119ef786096e8493386ac877024ba4f008c7046c6b63a8ec31ea87968d1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.831991+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0567": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "SUBSYSTEM",
+      "fine_task": "ACTUATION",
+      "secondary_task": "",
+      "task_evidence": "Collaborate on the system-level deployment of actuators within the humanoid robot",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_SYSID",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:C++ is not the C language.",
+        "5": "REJECT:C++ is not the C language.",
+        "6": [
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ETHERNET",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_I2C",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_SPI",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O4": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原C++短词不唯一，改为能读C++句。",
+          "quote": "capability to read C++"
+        },
+        "O5": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原C++短词不唯一，改为Proficiency in C++句。",
+          "quote": "Proficiency in C++"
+        },
+        "O13": {
+          "metric": "GENERAL",
+          "branch": "CHOICE",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原actuation短词不唯一，改为执行器集成经验句。",
+          "quote": "with a focus on actuation, manipulation or integration"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "执行器系统集成。标定/辨识/总线保留。Serial不记RS485。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4626247006|bc498307647467053b358c79d91d14d271e69635780036b9b67c81e2c27eb4cc",
+      "company_id": "US_FIGURE",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 81,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Collaborate on the system-level deployment of actuators within the humanoid robot"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "bc498307647467053b358c79d91d14d271e69635780036b9b67c81e2c27eb4cc",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.831991+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0236": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "TECHNICAL_LEADERSHIP",
+      "fine_task": "RND_DIR",
+      "secondary_task": "",
+      "task_evidence": "主导公司新产品研发项目从立项到量产交付的全过程管理",
+      "new": {
+        "1": "REJECT:关键环节不是传感器标定。",
+        "2": [
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:可量化研发标准不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "研发管理总监。接口协同保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|544440e1-eb56-4c31-87bb-14f4c98f6311|160b31ccaad7694d595eeed0a67e2516439f930c9a15f2af47f63b5857a5a21a",
+      "company_id": "CN_PAXINI",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 16,
+        "end": 41,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "主导公司新产品研发项目从立项到量产交付的全过程管理"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "160b31ccaad7694d595eeed0a67e2516439f930c9a15f2af47f63b5857a5a21a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.833013+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0438": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "ARCH",
+      "secondary_task": "",
+      "task_evidence": "制定具身本体核心技术路径与关键技术方向",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "系统架构师。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7566189579809163526|516d48fb424833734d9e71c444de696420048d0ba66a60773dd402904c0f37c6",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 12,
+        "end": 31,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "制定具身本体核心技术路径与关键技术方向"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "516d48fb424833734d9e71c444de696420048d0ba66a60773dd402904c0f37c6",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.833013+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0592": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "FLEET_INTEG",
+      "secondary_task": "",
+      "task_evidence": "Drive and execute fleet acceptance testing",
+      "new": {
+        "1": "REJECT:Fleet Acceptance Testing不是CAN。",
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机队集成。排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|8e9830f4-89ba-46e6-ab73-648c550aaf3c|ee77204d77fc3f671a6e90877555591217916e8ffb40d9d21f1a9fd03243b926",
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 370,
+        "end": 412,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Drive and execute fleet acceptance testing"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "ee77204d77fc3f671a6e90877555591217916e8ffb40d9d21f1a9fd03243b926",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.833013+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0827": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SUBSYSTEM",
+      "fine_task": "SENSOR",
+      "secondary_task": "",
+      "task_evidence": "As a Sensor Systems Engineer on the Hardware Team, you will contribute to the design, integration, calibration",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_USB",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_ETHERNET",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_I2C",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CAN",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_GMSL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0827:2",
+        "4": "DUPLICATE:N0827:2",
+        "5": "DUPLICATE:N0827:2",
+        "6": "DUPLICATE:N0827:2",
+        "7": "DUPLICATE:N0827:2",
+        "8": [
+          [
+            "V2_EMC_SIPI",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "REJECT:招募各年限工程师不是人力资源技能项。",
+        "12": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "DUPLICATE:N0827:2",
+        "14": "DUPLICATE:N0827:2",
+        "15": "DUPLICATE:N0827:2",
+        "16": "DUPLICATE:N0827:2",
+        "17": "DUPLICATE:N0827:2",
+        "18": "DUPLICATE:N0827:2",
+        "19": "OUTSIDE:CSI未单列冻结项。",
+        "20": [
+          [
+            "V2_PTP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_NTP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "21": "OUTSIDE:TF坐标变换未单列冻结项。",
+        "22": "DUPLICATE:N0827:20",
+        "23": "DUPLICATE:N0827:20",
+        "24": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "25": [
+          [
+            "V2_RVIZ",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "26": "DUPLICATE:N0827:25"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "传感系统集成。标定/总线/PTP/RViz保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|0c026e5f-99c5-419d-9458-1f2db08fcb8f|ebf272f365631c8426843f017300ef3e310570dc59af98cb5304bfcabb60be10",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 28,
+      "reviewed_candidate_count": 26,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1560,
+        "end": 1670,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "As a Sensor Systems Engineer on the Hardware Team, you will contribute to the design, integration, calibration"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "ebf272f365631c8426843f017300ef3e310570dc59af98cb5304bfcabb60be10",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.833013+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0924": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "INTEG",
+      "secondary_task": "",
+      "task_evidence": "Own and execute the robot picking",
+      "new": {
+        "1": "REJECT:Series C funding is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "系统集成。融资轮次不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4398427009|4f513bb7973b8fac9a817b13856a4a2ea1b118328d41a021d3f541bcd20ab043",
+      "company_id": "US_NIMBLE",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3207,
+        "end": 3240,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own and execute the robot picking"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "4f513bb7973b8fac9a817b13856a4a2ea1b118328d41a021d3f541bcd20ab043",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.833995+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0988": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "SEIT",
+      "secondary_task": "",
+      "task_evidence": "The Systems Engineering, Integration, and Test (SEIT) Department of Boston Dynamics",
+      "new": {
+        "1": [
+          [
+            "V2_JAMA",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0988:1",
+        "3": [
+          [
+            "V2_JAMA",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0988:3",
+        "5": [
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_RCA",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N0988:5",
+        "7": [
+          [
+            "V2_JAMA",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_JIRA",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_GOOGLE_WORKSPACE",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_TESTRAIL",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "8": "DUPLICATE:N0988:7",
+        "9": "DUPLICATE:N0988:7",
+        "10": "DUPLICATE:N0988:7",
+        "11": "DUPLICATE:N0988:7",
+        "12": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_EMC_SIPI",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "DUPLICATE:N0988:12",
+        "14": "DUPLICATE:N0988:12",
+        "15": "OUTSIDE:WiFi未单列冻结项。",
+        "16": "OUTSIDE:Cellular未单列冻结项。",
+        "17": "DUPLICATE:N0988:12"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Atlas系统工程。Jama/Jira/TestRail/电气标准保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|bb0f7e4a0b5e100107a3ca63e1100000|b2a7291605b30f10f14a81b48ed93f44694efcb270386c0f08e77d28ac5706fa",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 21,
+      "reviewed_candidate_count": 17,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 83,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "The Systems Engineering, Integration, and Test (SEIT) Department of Boston Dynamics"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "b2a7291605b30f10f14a81b48ed93f44694efcb270386c0f08e77d28ac5706fa",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.833995+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0078": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "EMBEDDED_SYS",
+      "secondary_task": "",
+      "task_evidence": "深入理解现有机器人系统架构",
+      "new": {
+        "1": [
+          [
+            "V2_ETHERNET",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_TCPIP",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_CAN",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_RS485",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:N0078:1",
+        "3": "DUPLICATE:N0078:1",
+        "4": "REJECT:UDP is not TCP/IP.",
+        "5": "DUPLICATE:N0078:1",
+        "6": "DUPLICATE:N0078:1",
+        "7": "DUPLICATE:N0078:1",
+        "8": "OUTSIDE:RTOS未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "嵌入式系统。串口不记RS485。UDP不记TCP/IP。 二次复核Q-M5-RS485-ALIAS-20260916-11：冻结V2_RS485别名含串口/RS232。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|3ed782b2-5066-4e95-a4dc-1451cfb4dbde|5c6d2348e52438f0e57f4e184337e079eac8293de4de9b392d255ebbb0d18d45",
+      "company_id": "CN_GALBOT",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 22,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "深入理解现有机器人系统架构"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_REVISED",
+      "source_version": "5c6d2348e52438f0e57f4e184337e079eac8293de4de9b392d255ebbb0d18d45",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:35:18.575410+00:00",
+      "revision_ids": [
+        "Q-M5-RS485-ALIAS-20260916-11"
+      ],
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0156": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "ARCH",
+      "secondary_task": "",
+      "task_evidence": "定义整机自由度、关节配置、传感器架构",
+      "new": {
+        "1": [
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:E0156:1",
+        "3": [
+          [
+            "V2_EMC_SIPI",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "整机架构。接口分解/EMC保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7659785619082578217|be0f0f0af826c3540eb121efb15397475c704b98d4c98024b90bc67a3a9e88f0",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 20,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "定义整机自由度、关节配置、传感器架构"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "be0f0f0af826c3540eb121efb15397475c704b98d4c98024b90bc67a3a9e88f0",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:23.833995+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0317": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DIAGNOSTICS",
+      "fine_task": "DIAG_MGR",
+      "secondary_task": "",
+      "task_evidence": "Build, lead, and develop a high-performing diagnostics and analysis team",
+      "new": {
+        "1": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:office location不是Microsoft Office。",
+        "5": "REJECT:Salary USD is not Universal Scene Description.",
+        "6": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "诊断分析管理。排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6017803004|1bf6bd2211ec7bef1f40ab1678504db793813df0c38ea211662d56044e357619",
+      "company_id": "US_AGILITY",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 37,
+        "end": 109,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Build, lead, and develop a high-performing diagnostics and analysis team"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "1bf6bd2211ec7bef1f40ab1678504db793813df0c38ea211662d56044e357619",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.957140+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0041": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SUBSYSTEM",
+      "fine_task": "DEXTEROUS_HAND",
+      "secondary_task": "",
+      "task_evidence": "负责人形机器人末端灵巧执行器",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "灵巧手系统。供应商对接保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7654044518296209683|93e09d698a92bacd5921aca43b1672f836edb103d4334c40c2128d564922e644",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 16,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责人形机器人末端灵巧执行器"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "93e09d698a92bacd5921aca43b1672f836edb103d4334c40c2128d564922e644",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.958144+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0534": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SUBSYSTEM",
+      "fine_task": "POWER_BUS",
+      "secondary_task": "",
+      "task_evidence": "Design and conduct measurements to characterize power bus performance",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "电源系统集成实习。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4702104006|a4311ffeb250a6fb54d09b0ab570f7b95f2fd7d85c0e4e67324d6bfc6ef6914f",
+      "company_id": "US_FIGURE",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 69,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design and conduct measurements to characterize power bus performance"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "a4311ffeb250a6fb54d09b0ab570f7b95f2fd7d85c0e4e67324d6bfc6ef6914f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.958144+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0367": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SUBSYSTEM",
+      "fine_task": "ACOUSTICS",
+      "secondary_task": "",
+      "task_evidence": "负责机器人产品声学系统整体方案设计",
+      "new": {
+        "1": [
+          [
+            "V2_EMC_SIPI",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0367:1",
+        "3": "DUPLICATE:N0367:1",
+        "4": [
+          [
+            "V2_AUDIO_PRECISION",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ],
+          [
+            "V2_SOUNDCHECK",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ]
+        ],
+        "5": "DUPLICATE:N0367:4",
+        "6": "DUPLICATE:N0367:4",
+        "7": "OUTSIDE:音频分析仪泛称未单列冻结项。",
+        "8": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "OUTSIDE:AEC未单列冻结项。",
+        "10": "OUTSIDE:ANS未单列冻结项。",
+        "11": "OUTSIDE:AGC未单列冻结项。",
+        "12": "OUTSIDE:AEC未单列冻结项。",
+        "13": "OUTSIDE:ANS未单列冻结项。",
+        "14": "OUTSIDE:AGC未单列冻结项。",
+        "15": [
+          [
+            "V2_DFM",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "16": "DUPLICATE:N0367:15",
+        "17": "DUPLICATE:N0367:15",
+        "18": [
+          [
+            "V2_PADS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "19": "DUPLICATE:N0367:18",
+        "20": [
+          [
+            "V2_COMSOL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "21": "DUPLICATE:N0367:20",
+        "22": "DUPLICATE:N0367:20",
+        "23": "OUTSIDE:Virtual.Lab未单列冻结项。",
+        "24": [
+          [
+            "V2_CNC_PROCESS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "25": "DUPLICATE:N0367:24",
+        "26": [
+          [
+            "V2_SPECTRUM_ANALYZER",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "27": "DUPLICATE:N0367:26",
+        "28": [
+          [
+            "V2_DFM",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "29": "DUPLICATE:N0367:28",
+        "30": [
+          [
+            "V2_ENV_COMPLIANCE",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "31": "DUPLICATE:N0367:30",
+        "32": "DUPLICATE:N0367:30",
+        "33": "DUPLICATE:N0367:30"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "声学系统。EMC/音频仪/标定/DFM/加工/认证保留。DFA记入DFM。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7677468472355391753|801ac10a3e413a4c3298e3b96b700164d898908725b3daa742f29db49d66a438",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 33,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 24,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人产品声学系统整体方案设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "801ac10a3e413a4c3298e3b96b700164d898908725b3daa742f29db49d66a438",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.959146+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0443": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "TECHNICAL_LEADERSHIP",
+      "fine_task": "BODY_RND",
+      "secondary_task": "",
+      "task_evidence": "负责机器人产品相关研发类系统的方案架构设计",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "本体研发总监。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7368853735701760307|054d99d2a900b9af9f2c5a3ef11450e4653f67c79e6b01f809f02ffbbc23f6f0",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 28,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人产品相关研发类系统的方案架构设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "054d99d2a900b9af9f2c5a3ef11450e4653f67c79e6b01f809f02ffbbc23f6f0",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.959146+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0350": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "SYS_ENG",
+      "secondary_task": "",
+      "task_evidence": "Define and document system and subsystem architectures spanning mechanical",
+      "new": {
+        "1": [
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:office location不是Microsoft Office。",
+        "4": "REJECT:Salary USD is not Universal Scene Description.",
+        "5": "REJECT:第三方招聘免责声明不是人力资源技能项。",
+        "6": "DUPLICATE:E0350:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "系统工程师。V模型/安全标准保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|5833390004|4a43f400f94589d61c2379fd9da6dd843497599143ca06e5b973f1de268abb4b",
+      "company_id": "US_AGILITY",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 35,
+        "end": 109,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Define and document system and subsystem architectures spanning mechanical"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "4a43f400f94589d61c2379fd9da6dd843497599143ca06e5b973f1de268abb4b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.959146+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0366": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "FUNCTIONAL_SAFETY",
+      "fine_task": "FS_SYS",
+      "secondary_task": "",
+      "task_evidence": "Define system and subsystem architectures spanning all domains",
+      "new": {
+        "1": [
+          [
+            "V2_JAMA",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_SAFETY_ANALYSIS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_REQUIREMENTS_ENGINEERING",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_ANSYS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "SK_WINDCHILL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "SK_FTA",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_JAMA",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "6": "REJECT:Salary USD is not Universal Scene Description.",
+        "7": "REJECT:第三方招聘免责声明不是人力资源技能项。",
+        "8": "DUPLICATE:E0366:1",
+        "9": "DUPLICATE:E0366:5",
+        "10": "OUTSIDE:DOORS/Polarion未单列冻结项。"
+      },
+      "old_overrides": {
+        "O1": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原FTA短词不唯一，改为危害分析工具句。",
+          "quote": "hazard analysis (HARA, HAZOP, FTA, FMEA)"
+        },
+        "O12": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原safety短词不唯一，改为嵌入功能安全架构句。",
+          "quote": "with embedded functional safety"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "功能安全系统。Jama/标准/分析/ANSYS/Windchill保留。V&V句中can不记CAN。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|5986772004|d616a4117eb690cf331213a1505a3266074b0c18c9d05e742618ae8fcefc8797",
+      "company_id": "US_AGILITY",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 10,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 46,
+        "end": 108,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Define system and subsystem architectures spanning all domains"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "d616a4117eb690cf331213a1505a3266074b0c18c9d05e742618ae8fcefc8797",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.960165+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0320": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "FUNCTIONAL_SAFETY",
+      "fine_task": "FS_PRINCIPAL",
+      "secondary_task": "",
+      "task_evidence": "Lead functional safety efforts from concept through deployment",
+      "new": {
+        "1": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SAFETY_ANALYSIS",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_ENV_COMPLIANCE",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_ENV_COMPLIANCE",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_SAFETY_ANALYSIS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_ENV_COMPLIANCE",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "REJECT:office location不是Microsoft Office。",
+        "12": "REJECT:Salary USD is not Universal Scene Description.",
+        "13": "REJECT:第三方招聘免责声明不是人力资源技能项。",
+        "14": "DUPLICATE:E0320:2",
+        "15": "OUTSIDE:TUV Functional Safety Engineer认证未单列冻结项。"
+      },
+      "old_overrides": {
+        "O8": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "SKILL_REQUIREMENT",
+          "reason": "原functional safety短词不唯一，改为七年功能安全经验句。",
+          "quote": "including 7+ years focused on functional safety"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "首席功能安全。标准/分析/认证/现场排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6138236004|f5bd2f9ec80e557333fefaf7c8580426d35211fe3ad5229a05eee5fb6cb7ed43",
+      "company_id": "US_AGILITY",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 15,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 62,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Lead functional safety efforts from concept through deployment"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "f5bd2f9ec80e557333fefaf7c8580426d35211fe3ad5229a05eee5fb6cb7ed43",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.960165+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0820": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SUBSYSTEM",
+      "fine_task": "REALITY_CAPTURE",
+      "secondary_task": "",
+      "task_evidence": "you will deliver the sensor modules that turn our robots into data-collection platforms",
+      "new": {
+        "1": [
+          [
+            "V2_THERMAL_CAMERA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "OUTSIDE:photogrammetry/BIM未单列冻结项。",
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_THERMAL_CAMERA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_PTP",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N0820:5",
+        "7": "OUTSIDE:PPS未单列冻结项。",
+        "8": "REJECT:Mechanical & Electrical Integration不是C语言。",
+        "9": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "OUTSIDE:photogrammetry/BIM未单列冻结项。",
+        "11": "OUTSIDE:FARO未单列冻结项。",
+        "12": "OUTSIDE:Leica未单列冻结项。",
+        "13": "OUTSIDE:Trimble未单列冻结项。",
+        "14": [
+          [
+            "V2_ENV_COMPLIANCE",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "15": "DUPLICATE:N0820:14",
+        "16": "DUPLICATE:N0820:14",
+        "17": "DUPLICATE:N0820:14"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "实景采集传感。热像/标定/PTP/危险区认证保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|1915cec4-ea54-4a2a-b82c-48a19428b9d3|b54bbbde916fe83fde66b8d044758328123983ad8fce9ec03aafd95e63a6c682",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 25,
+      "reviewed_candidate_count": 17,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1286,
+        "end": 1373,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "you will deliver the sensor modules that turn our robots into data-collection platforms"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b54bbbde916fe83fde66b8d044758328123983ad8fce9ec03aafd95e63a6c682",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.960518+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0774": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "FUNCTIONAL_SAFETY",
+      "fine_task": "UGV_FS",
+      "secondary_task": "",
+      "task_evidence": "you will serve as the team",
+      "new": {
+        "1": "REJECT:English can is not CAN; 本句亦未写PLC。",
+        "2": [
+          [
+            "V2_PLC",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0774:2",
+        "4": [
+          [
+            "V2_PLC",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_LADDER",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0774:2",
+        "6": "DUPLICATE:N0774:2",
+        "7": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N0774:7",
+        "9": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "DUPLICATE:N0774:7",
+        "11": "DUPLICATE:N0774:7",
+        "12": "REJECT:C++ is not the C language.",
+        "13": "REJECT:U.S. Person eligibility不是C语言。",
+        "14": "REJECT:onsite role不是Microsoft Office。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "联邦功能安全。Safety PLC/Ladder/标准保留。ISO 3691-4记入安全标准。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|419de42d-f316-4177-a488-718be62b233f|3464c3f8b8c4775ef3e73f8b3bae62690c4391b3a72d4319763ae89707ff677e",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 14,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 921,
+        "end": 947,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "you will serve as the team"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "3464c3f8b8c4775ef3e73f8b3bae62690c4391b3a72d4319763ae89707ff677e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.961024+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0734": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "FUNCTIONAL_SAFETY",
+      "fine_task": "SAFETY_DIR",
+      "secondary_task": "",
+      "task_evidence": "Field AI builds autonomous robotic systems designed to operate in complex",
+      "new": {
+        "1": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0734:1",
+        "3": "DUPLICATE:N0734:1",
+        "4": "DUPLICATE:N0734:1",
+        "5": "DUPLICATE:N0734:1",
+        "6": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "OUTSIDE:TUV Functional Safety Engineer认证未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "安全工程总监。标准/事件管理保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|740972be-d76a-49d3-9a74-28ba02ed6336|1257229c3c9e935873ebb380bcc3f09d06a6b3fb9415ee73576cfc9c8c34845a",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 73,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Field AI builds autonomous robotic systems designed to operate in complex"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "1257229c3c9e935873ebb380bcc3f09d06a6b3fb9415ee73576cfc9c8c34845a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.961561+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0806": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "HUMANOID_INTEG",
+      "secondary_task": "",
+      "task_evidence": "Own robot bring-up, calibration, configuration, diagnostics, and validation workflows",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:C++ and Python is not the C language.",
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "人形系统集成。标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|95ff2df3-4408-47f3-a2c5-295d8067bb30|30447e26307183394bea2742e8f0f4258a0c5fd8f618dde00e335b55ed2aaba9",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 28,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1318,
+        "end": 1403,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own robot bring-up, calibration, configuration, diagnostics, and validation workflows"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "30447e26307183394bea2742e8f0f4258a0c5fd8f618dde00e335b55ed2aaba9",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.962083+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0835": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SUBSYSTEM",
+      "fine_task": "SENSOR_FED",
+      "secondary_task": "",
+      "task_evidence": "As a Perception Systems Engineer on the Federal Team",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_USB",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_ETHERNET",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_I2C",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CAN",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_GMSL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0835:2",
+        "4": "DUPLICATE:N0835:2",
+        "5": "DUPLICATE:N0835:2",
+        "6": "DUPLICATE:N0835:2",
+        "7": "DUPLICATE:N0835:2",
+        "8": [
+          [
+            "V2_EMC_SIPI",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "REJECT:招募各年限工程师不是人力资源技能项。",
+        "12": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "DUPLICATE:N0835:2",
+        "14": "DUPLICATE:N0835:2",
+        "15": "DUPLICATE:N0835:2",
+        "16": "DUPLICATE:N0835:2",
+        "17": "DUPLICATE:N0835:2",
+        "18": "DUPLICATE:N0835:2",
+        "19": "OUTSIDE:CSI未单列冻结项。",
+        "20": [
+          [
+            "V2_PTP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_NTP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "21": "OUTSIDE:TF坐标变换未单列冻结项。",
+        "22": "DUPLICATE:N0835:20",
+        "23": "DUPLICATE:N0835:20",
+        "24": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "25": [
+          [
+            "V2_RVIZ",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "26": "DUPLICATE:N0835:25",
+        "27": "REJECT:U.S. Person eligibility不是C语言。",
+        "28": "REJECT:onsite role不是Microsoft Office。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "联邦传感系统。标定/总线/PTP/RViz保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|c0932811-6a6e-45b4-bced-4d0efe50d427|75d43cfa606010d2aea029a1a0177392aed204ecc08ededc77f71167f5d3d730",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 26,
+      "reviewed_candidate_count": 28,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1643,
+        "end": 1695,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "As a Perception Systems Engineer on the Federal Team"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "75d43cfa606010d2aea029a1a0177392aed204ecc08ededc77f71167f5d3d730",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.962083+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0810": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "WHOLE_ROBOT",
+      "fine_task": "HW_INTEG",
+      "secondary_task": "",
+      "task_evidence": "As a Robotics Integration Engineer on the Hardware Team at Field AI",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_HIL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SAFETY_ANALYSIS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_SAFETY_ANALYSIS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0810:4",
+        "6": "REJECT:python, C++ is not the C language.",
+        "7": [
+          [
+            "V2_SIM2REAL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0810:8",
+        "10": "DUPLICATE:N0810:8",
+        "11": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "DUPLICATE:N0810:11",
+        "13": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "14": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PATH_SEARCH",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "15": "DUPLICATE:N0810:14",
+        "16": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "硬件系统集成。Sim2Real/HIL/总线/安全标准/遥操保留。SIL/HIL中HIL保留，功能安全记在ISO 26262句。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|f8b38e05-ef2e-40bf-9f53-842c8955a135|ef6d582b5f5c7224438daf91b13342d0e49e2800cb19321e6a6a41b9dde9fafa",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 42,
+      "reviewed_candidate_count": 16,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 526,
+        "end": 593,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "As a Robotics Integration Engineer on the Hardware Team at Field AI"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "ef6d582b5f5c7224438daf91b13342d0e49e2800cb19321e6a6a41b9dde9fafa",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.962602+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0568": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "SUBSYSTEM",
+      "fine_task": "HAND",
+      "secondary_task": "",
+      "task_evidence": "Plan and execute behaviors to validate motion, sensing and control at the system level",
+      "new": {
+        "1": "REJECT:company office boilerplate不是Microsoft Office。",
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_SYSID",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:C++ and Python is not the C language.",
+        "5": [
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ETHERNET",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_I2C",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_SPI",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "灵巧手系统集成。标定/辨识/总线保留。Serial不记RS485。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4612612006|22d05a6507ed4e4b597d5a7a5fb455c618646e74ad2110153484e375402fa622",
+      "company_id": "US_FIGURE",
+      "role": "RF_SYSTEMS_ENGINEERING_INTEGRATION",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 21,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 67,
+        "end": 153,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Plan and execute behaviors to validate motion, sensing and control at the system level"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "22d05a6507ed4e4b597d5a7a5fb455c618646e74ad2110153484e375402fa622",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:22:24.962602+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    }
+  }
+}

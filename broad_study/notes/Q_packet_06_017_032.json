@@ -1,0 +1,5537 @@
+[
+  {
+    "coding_order": 17,
+    "reading_id": "N0983",
+    "company_id": "US_BOSTON_DYNAMICS",
+    "title": "Staff Robotics Engineer- Spot Manipulation",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|7ec4f36fb78a1000c18f5617aad10000|33aacf6e87276127c2563f033151fb1ee27ddf1b7c9c6cfa834a724d0e00a1ee",
+    "already_coded": false,
+    "fields": {
+      "duties": "Do you have a passion for applying state-of-the-art controls and kinematic planning to solve real-world manipulation problems? As a\nStaff Robotics Engineer\non the\nSpot Manipulation\nteam, you will play a pivotal role in tackling some of the most challenging physical interaction problems in mobile robotics. Your role will encompass a broad range of responsibilities across the manipulation stack, including low-level arm control, force dynamics, inverse kinematics, and path planning. Success in this position requires a blend of deep technical expertise, innovation, empathy for customer needs, and collaborative teamwork within a dynamic, multidisciplinary environment.\nDay-to-Day Activities:\nLead the development of novel control algorithms to enhance Spot’s arm manipulation, grasping, and physical interaction capabilities.\nConduct thorough hardware testing and debugging using our in-house Spot fleet.\nProduce highly reliable, maintainable, and easily testable production C++ code.\nServe as a senior technical contributor, driving architectural decisions across the arm control stack.\nFacilitate design reviews and foster collaborative problem-solving with cross-functional engineering teams.\nWe are looking for:\nMaster's degree (or equivalent experience) in Robotics, Mechanical Engineering, Computer Science, or a related field.\n3+ years of experience deploying controls and manipulation software on real-world hardware systems.\nHigh proficiency in C++ programming.\nDeep expertise in rigid-body dynamics, inverse kinematics, and classical control systems (e.g., impedance/force control, operational space control).\nStrong analytical, spatial reasoning, and hardware debugging skills.\nNice to Have:\nExperience with kinematic path planning and trajectory optimization.\nBackground in rigid-body simulation and Python.\nExposure to modern learning-based techniques for manipulation (e.g., RL, visual policy learning/VLAs).\nPhD in Robotics, Mechanical Engineering, Computer Science, or a related field.\nWe are interested in every qualified candidate who is eligible to work in the United States. However, we are not able to sponsor visas for this position.\nThe base pay range for this position is between $140,000 to $180,000 annually. Base pay will depend on multiple individualized factors including, but not limited to internal equity, job related knowledge, skills and experience. This range represents a good faith estimate of compensation at the time of posting. Boston Dynamics offers a generous Benefits package including medical, dental vision, 401(k), paid time off and a annual bonus structure. Additional details regarding these benefit plans will be provided if an employee receives an offer for employment.",
+      "requirements": "",
+      "full_description": "Do you have a passion for applying state-of-the-art controls and kinematic planning to solve real-world manipulation problems? As a\nStaff Robotics Engineer\non the\nSpot Manipulation\nteam, you will play a pivotal role in tackling some of the most challenging physical interaction problems in mobile robotics. Your role will encompass a broad range of responsibilities across the manipulation stack, including low-level arm control, force dynamics, inverse kinematics, and path planning. Success in this position requires a blend of deep technical expertise, innovation, empathy for customer needs, and collaborative teamwork within a dynamic, multidisciplinary environment.\nDay-to-Day Activities:\nLead the development of novel control algorithms to enhance Spot’s arm manipulation, grasping, and physical interaction capabilities.\nConduct thorough hardware testing and debugging using our in-house Spot fleet.\nProduce highly reliable, maintainable, and easily testable production C++ code.\nServe as a senior technical contributor, driving architectural decisions across the arm control stack.\nFacilitate design reviews and foster collaborative problem-solving with cross-functional engineering teams.\nWe are looking for:\nMaster's degree (or equivalent experience) in Robotics, Mechanical Engineering, Computer Science, or a related field.\n3+ years of experience deploying controls and manipulation software on real-world hardware systems.\nHigh proficiency in C++ programming.\nDeep expertise in rigid-body dynamics, inverse kinematics, and classical control systems (e.g., impedance/force control, operational space control).\nStrong analytical, spatial reasoning, and hardware debugging skills.\nNice to Have:\nExperience with kinematic path planning and trajectory optimization.\nBackground in rigid-body simulation and Python.\nExposure to modern learning-based techniques for manipulation (e.g., RL, visual policy learning/VLAs).\nPhD in Robotics, Mechanical Engineering, Computer Science, or a related field.\nWe are interested in every qualified candidate who is eligible to work in the United States. However, we are not able to sponsor visas for this position.\nThe base pay range for this position is between $140,000 to $180,000 annually. Base pay will depend on multiple individualized factors including, but not limited to internal equity, job related knowledge, skills and experience. This range represents a good faith estimate of compensation at the time of posting. Boston Dynamics offers a generous Benefits package including medical, dental vision, 401(k), paid time off and a annual bonus structure. Additional details regarding these benefit plans will be provided if an employee receives an offer for employment."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 967,
+        "end": 987,
+        "quote": "production C++ code.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1457,
+        "end": 1473,
+        "quote": "C++ programming.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1815,
+        "end": 1821,
+        "quote": "Python",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 695,
+        "end": 828,
+        "quote": "Lead the development of novel control algorithms to enhance Spot’s arm manipulation, grasping, and physical interaction capabilities.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 695,
+        "end": 828,
+        "quote": "Lead the development of novel control algorithms to enhance Spot’s arm manipulation, grasping, and physical interaction capabilities.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 407,
+        "end": 484,
+        "quote": "low-level arm control, force dynamics, inverse kinematics, and path planning.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 407,
+        "end": 484,
+        "quote": "low-level arm control, force dynamics, inverse kinematics, and path planning.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 829,
+        "end": 907,
+        "quote": "Conduct thorough hardware testing and debugging using our in-house Spot fleet.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 908,
+        "end": 987,
+        "quote": "Produce highly reliable, maintainable, and easily testable production C++ code.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1360,
+        "end": 1436,
+        "quote": "deploying controls and manipulation software on real-world hardware systems.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1360,
+        "end": 1436,
+        "quote": "deploying controls and manipulation software on real-world hardware systems.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1492,
+        "end": 1622,
+        "quote": "rigid-body dynamics, inverse kinematics, and classical control systems (e.g., impedance/force control, operational space control).",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1722,
+        "end": 1774,
+        "quote": "kinematic path planning and trajectory optimization.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1789,
+        "end": 1810,
+        "quote": "rigid-body simulation",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1842,
+        "end": 1884,
+        "quote": "learning-based techniques for manipulation",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1842,
+        "end": 1884,
+        "quote": "learning-based techniques for manipulation",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1892,
+        "end": 1894,
+        "quote": "RL",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1896,
+        "end": 1918,
+        "quote": "visual policy learning",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O19",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1919,
+        "end": 1923,
+        "quote": "VLAs",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0983:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Produce highly reliable, maintainable, and easily testable production C++ code.",
+        "quote": "Produce highly reliable, maintainable, and easily testable production C++ code.",
+        "field": "full_description",
+        "start": 908,
+        "end": 987
+      },
+      {
+        "id": "2",
+        "review_id": "N0983:2",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "High proficiency in C++ programming.",
+        "quote": "High proficiency in C++ programming.",
+        "field": "full_description",
+        "start": 1437,
+        "end": 1473
+      },
+      {
+        "id": "3",
+        "review_id": "N0983:3",
+        "codes": [
+          "V2_PATH_SEARCH"
+        ],
+        "names": [
+          "路径搜索与轨迹优化"
+        ],
+        "surface": "Experience with kinematic path planning and trajectory optimization.",
+        "quote": "Experience with kinematic path planning and trajectory optimization.",
+        "field": "full_description",
+        "start": 1706,
+        "end": 1774
+      }
+    ]
+  },
+  {
+    "coding_order": 18,
+    "reading_id": "N0939",
+    "company_id": "US_PICKLE",
+    "title": "Senior Robotic Software Engineer, Navigation",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PICKLE|lever|a5628620-50a5-4f65-826f-45ff3b611d40|15851e00d5aedf2b5f20cdf988ed11ceaea8192ed907b0774135e23c03f6f34d",
+    "already_coded": false,
+    "fields": {
+      "duties": "About this role:\nPickle is seeking a dynamic, driven Senior Software Engineer, Navigation, to enhance the speed and safety of our autonomous mobile robots. If you are experienced with and passionate about navigation and controls algorithms for mobile robots, and thrive on solving real-world robotics challenges, we’d love to hear from you. \n\n\nWhat You’ll Accomplish:\nLead a team of engineers to design and optimize navigation and mobility controls algorithms to enhance the speed and safety of our autonomous mobile robot.\nCollaborate with cross-functional teams to integrate your contributions into the broader hardware and software system.\nPlay a key role in designing and contributing to the architecture of scalable software systems that support the deployment of multiple robots in diverse and dynamic environments.\nAct as a mentor to other software engineers to improve the team’s overall capabilities in planning and control\n\nWho You Are:\nA software engineer with over 5 years of experience or a Master's Degree or higher with 3 years of experience working in robotics environments.\nIndustry experience developing navigation algorithms for mobile robots is required.\nProficient in Python. Experience with C++ is a strong plus.\nExperienced with motion planning and controls for robotics systems, with a strong understanding of navigation systems and non-holonomic mobile robots.\nA deep understanding of robot kinematics and dynamics is required.\nExperience with graph search methods for planning, such as A*, RRT, and/or PRM is required.\nExperience with mathematical optimization techniques, including convex optimization and nonlinear programming, is required.\nExperience with trajectory optimization and/or model-predictive control is a strong plus.\nExperience with collision avoidance and autonomous recovery behaviors is a strong plus\nExperience with mathematical optimization for motion planning is strongly preferred.\nExperience with machine learning techniques for motion planning, such as behavior cloning and diffusion policies, is a strong plus.\nExperience with control algorithms for mobile robots, such as PID, Pure Pursuit, and/or LQR is required\nExperienced with shipping and supporting navigation features for a fleet of mobile robots\nExperienced in leading a team of engineers through a Scrum process is preferred.\nCollaborative and communicative, focusing discussions on problem-solving ideas and experiments to drive product innovation.\nExperienced in working with complex algorithms and capable of optimizing for performance and reliability.\nDetail-oriented, but with a system-level mindset. Capable of debugging complex problems while maintaining system integrity.\nWilling to work in the office from our Charlestown, MA location at least three days per week.\n\nPay at Pickle At Pickle Robot Company, we believe transparency builds trust. The salary range listed here is provided in accordance with Massachusetts law and reflects what we reasonably and in good faith expect to offer for this role. We often consider candidates at different levels of seniority, and final compensation will reflect the level at which a candidate is hired, along with factors like experience and location.   Pickle Perks  Pickle provides best-in-class benefits, including health, dental, and vision insurance; unlimited vacation; paid federal and state holidays; 401(k) contributions of 5% of your salary; company-covered travel expenses; and other perks to make your working life more fun, comfortable, and productive. \n \nPay at Pickle\nAt Pickle Robot Company, we believe transparency builds trust. The salary range listed here is provided in accordance with Massachusetts law and reflects what we reasonably and in good faith expect to offer for this role. We often consider candidates at different levels of seniority, and final compensation will reflect the level at which a candidate is hired, along with factors like experience and location.\n \nPickle Perks  \nPickle provides best-in-class benefits, including health, dental, and vision insurance; unlimited vacation; paid federal and state holidays; 401(k) contributions of 5% of your salary; company-covered travel expenses; and other perks to make your working life more fun, comfortable, and productive.",
+      "requirements": "",
+      "full_description": "About this role:\nPickle is seeking a dynamic, driven Senior Software Engineer, Navigation, to enhance the speed and safety of our autonomous mobile robots. If you are experienced with and passionate about navigation and controls algorithms for mobile robots, and thrive on solving real-world robotics challenges, we’d love to hear from you. \n\n\nWhat You’ll Accomplish:\nLead a team of engineers to design and optimize navigation and mobility controls algorithms to enhance the speed and safety of our autonomous mobile robot.\nCollaborate with cross-functional teams to integrate your contributions into the broader hardware and software system.\nPlay a key role in designing and contributing to the architecture of scalable software systems that support the deployment of multiple robots in diverse and dynamic environments.\nAct as a mentor to other software engineers to improve the team’s overall capabilities in planning and control\n\nWho You Are:\nA software engineer with over 5 years of experience or a Master's Degree or higher with 3 years of experience working in robotics environments.\nIndustry experience developing navigation algorithms for mobile robots is required.\nProficient in Python. Experience with C++ is a strong plus.\nExperienced with motion planning and controls for robotics systems, with a strong understanding of navigation systems and non-holonomic mobile robots.\nA deep understanding of robot kinematics and dynamics is required.\nExperience with graph search methods for planning, such as A*, RRT, and/or PRM is required.\nExperience with mathematical optimization techniques, including convex optimization and nonlinear programming, is required.\nExperience with trajectory optimization and/or model-predictive control is a strong plus.\nExperience with collision avoidance and autonomous recovery behaviors is a strong plus\nExperience with mathematical optimization for motion planning is strongly preferred.\nExperience with machine learning techniques for motion planning, such as behavior cloning and diffusion policies, is a strong plus.\nExperience with control algorithms for mobile robots, such as PID, Pure Pursuit, and/or LQR is required\nExperienced with shipping and supporting navigation features for a fleet of mobile robots\nExperienced in leading a team of engineers through a Scrum process is preferred.\nCollaborative and communicative, focusing discussions on problem-solving ideas and experiments to drive product innovation.\nExperienced in working with complex algorithms and capable of optimizing for performance and reliability.\nDetail-oriented, but with a system-level mindset. Capable of debugging complex problems while maintaining system integrity.\nWilling to work in the office from our Charlestown, MA location at least three days per week.\n\nPay at Pickle At Pickle Robot Company, we believe transparency builds trust. The salary range listed here is provided in accordance with Massachusetts law and reflects what we reasonably and in good faith expect to offer for this role. We often consider candidates at different levels of seniority, and final compensation will reflect the level at which a candidate is hired, along with factors like experience and location.   Pickle Perks  Pickle provides best-in-class benefits, including health, dental, and vision insurance; unlimited vacation; paid federal and state holidays; 401(k) contributions of 5% of your salary; company-covered travel expenses; and other perks to make your working life more fun, comfortable, and productive. \n \nPay at Pickle\nAt Pickle Robot Company, we believe transparency builds trust. The salary range listed here is provided in accordance with Massachusetts law and reflects what we reasonably and in good faith expect to offer for this role. We often consider candidates at different levels of seniority, and final compensation will reflect the level at which a candidate is hired, along with factors like experience and location.\n \nPickle Perks  \nPickle provides best-in-class benefits, including health, dental, and vision insurance; unlimited vacation; paid federal and state holidays; 401(k) contributions of 5% of your salary; company-covered travel expenses; and other perks to make your working life more fun, comfortable, and productive."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1189,
+        "end": 1195,
+        "quote": "Python",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1213,
+        "end": 1233,
+        "quote": "C++ is a strong plus",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_NAVIGATION",
+        "name": "导航",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 368,
+        "end": 523,
+        "quote": "Lead a team of engineers to design and optimize navigation and mobility controls algorithms to enhance the speed and safety of our autonomous mobile robot.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 368,
+        "end": 523,
+        "quote": "Lead a team of engineers to design and optimize navigation and mobility controls algorithms to enhance the speed and safety of our autonomous mobile robot.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 368,
+        "end": 523,
+        "quote": "Lead a team of engineers to design and optimize navigation and mobility controls algorithms to enhance the speed and safety of our autonomous mobile robot.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_NAVIGATION",
+        "name": "导航",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1091,
+        "end": 1174,
+        "quote": "Industry experience developing navigation algorithms for mobile robots is required.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1235,
+        "end": 1385,
+        "quote": "Experienced with motion planning and controls for robotics systems, with a strong understanding of navigation systems and non-holonomic mobile robots.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1235,
+        "end": 1385,
+        "quote": "Experienced with motion planning and controls for robotics systems, with a strong understanding of navigation systems and non-holonomic mobile robots.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_NAVIGATION",
+        "name": "导航",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1235,
+        "end": 1385,
+        "quote": "Experienced with motion planning and controls for robotics systems, with a strong understanding of navigation systems and non-holonomic mobile robots.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1386,
+        "end": 1452,
+        "quote": "A deep understanding of robot kinematics and dynamics is required.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1469,
+        "end": 1502,
+        "quote": "graph search methods for planning",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1685,
+        "end": 1708,
+        "quote": "trajectory optimization",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1716,
+        "end": 1740,
+        "quote": "model-predictive control",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1759,
+        "end": 1845,
+        "quote": "Experience with collision avoidance and autonomous recovery behaviors is a strong plus",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1846,
+        "end": 1930,
+        "quote": "Experience with mathematical optimization for motion planning is strongly preferred.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1979,
+        "end": 1994,
+        "quote": "motion planning",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2004,
+        "end": 2020,
+        "quote": "behavior cloning",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_GENERATIVE_POLICY",
+        "name": "生成式机器人策略",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2025,
+        "end": 2043,
+        "quote": "diffusion policies",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O19",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2079,
+        "end": 2115,
+        "quote": "control algorithms for mobile robots",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O20",
+        "code": "TC_NAVIGATION",
+        "name": "导航",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2167,
+        "end": 2256,
+        "quote": "Experienced with shipping and supporting navigation features for a fleet of mobile robots",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O21",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2462,
+        "end": 2567,
+        "quote": "Experienced in working with complex algorithms and capable of optimizing for performance and reliability.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0939:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Proficient in Python. Experience with C++ is a strong plus.",
+        "quote": "Proficient in Python. Experience with C++ is a strong plus.",
+        "field": "full_description",
+        "start": 1175,
+        "end": 1234
+      },
+      {
+        "id": "2",
+        "review_id": "N0939:2",
+        "codes": [
+          "V2_PATH_SEARCH"
+        ],
+        "names": [
+          "路径搜索与轨迹优化"
+        ],
+        "surface": "Experience with graph search methods for planning, such as A*, RRT, and/or PRM is required.",
+        "quote": "Experience with graph search methods for planning, such as A*, RRT, and/or PRM is required.",
+        "field": "full_description",
+        "start": 1453,
+        "end": 1544
+      },
+      {
+        "id": "3",
+        "review_id": "N0939:3",
+        "codes": [
+          "V2_PATH_SEARCH"
+        ],
+        "names": [
+          "路径搜索与轨迹优化"
+        ],
+        "surface": "A*",
+        "quote": "A*",
+        "field": "full_description",
+        "start": 1512,
+        "end": 1514
+      },
+      {
+        "id": "4",
+        "review_id": "N0939:4",
+        "codes": [
+          "V2_PATH_SEARCH"
+        ],
+        "names": [
+          "路径搜索与轨迹优化"
+        ],
+        "surface": "RRT",
+        "quote": "RRT",
+        "field": "full_description",
+        "start": 1516,
+        "end": 1519
+      },
+      {
+        "id": "5",
+        "review_id": "N0939:5",
+        "codes": [
+          "V2_PATH_SEARCH"
+        ],
+        "names": [
+          "路径搜索与轨迹优化"
+        ],
+        "surface": "PRM",
+        "quote": "PRM",
+        "field": "full_description",
+        "start": 1528,
+        "end": 1531
+      },
+      {
+        "id": "6",
+        "review_id": "N0939:6",
+        "codes": [
+          "V2_PATH_SEARCH"
+        ],
+        "names": [
+          "路径搜索与轨迹优化"
+        ],
+        "surface": "Experience with trajectory optimization and/or model-predictive control is a strong plus.",
+        "quote": "Experience with trajectory optimization and/or model-predictive control is a strong plus.",
+        "field": "full_description",
+        "start": 1669,
+        "end": 1758
+      },
+      {
+        "id": "7",
+        "review_id": "N0939:7",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "Experience with control algorithms for mobile robots, such as PID, Pure Pursuit, and/or LQR is required",
+        "quote": "Experience with control algorithms for mobile robots, such as PID, Pure Pursuit, and/or LQR is required",
+        "field": "full_description",
+        "start": 2063,
+        "end": 2166
+      },
+      {
+        "id": "8",
+        "review_id": "N0939:8",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "PID",
+        "quote": "PID",
+        "field": "full_description",
+        "start": 2125,
+        "end": 2128
+      },
+      {
+        "id": "9",
+        "review_id": "N0939:9",
+        "codes": [],
+        "names": [],
+        "surface": "Pure Pursuit",
+        "quote": "Pure Pursuit",
+        "field": "full_description",
+        "start": 2130,
+        "end": 2142
+      },
+      {
+        "id": "10",
+        "review_id": "N0939:10",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "LQR",
+        "quote": "LQR",
+        "field": "full_description",
+        "start": 2151,
+        "end": 2154
+      },
+      {
+        "id": "11",
+        "review_id": "N0939:11",
+        "codes": [
+          "V2_PROJECT_METHOD"
+        ],
+        "names": [
+          "项目计划与风险管理"
+        ],
+        "surface": "Experienced in leading a team of engineers through a Scrum process is preferred.",
+        "quote": "Experienced in leading a team of engineers through a Scrum process is preferred.",
+        "field": "full_description",
+        "start": 2257,
+        "end": 2337
+      },
+      {
+        "id": "12",
+        "review_id": "N0939:12",
+        "codes": [
+          "V2_PROJECT_METHOD"
+        ],
+        "names": [
+          "项目计划与风险管理"
+        ],
+        "surface": "Scrum",
+        "quote": "Experienced in leading a team of engineers through a Scrum process is preferred.",
+        "field": "full_description",
+        "start": 2257,
+        "end": 2337
+      },
+      {
+        "id": "13",
+        "review_id": "N0939:13",
+        "codes": [
+          "V2_OFFICE"
+        ],
+        "names": [
+          "Microsoft Office"
+        ],
+        "surface": "Willing to work in the office from our Charlestown, MA location at least three days per week.",
+        "quote": "Willing to work in the office from our Charlestown, MA location at least three days per week.",
+        "field": "full_description",
+        "start": 2692,
+        "end": 2785
+      }
+    ]
+  },
+  {
+    "coding_order": 19,
+    "reading_id": "E0097",
+    "company_id": "CN_UNITREE",
+    "title": "机器人运动控制算法工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|1526050171207548928|ddede1a9a0e83cd7b4db6ea73976c2317a7aac892c13fb489c4db9674fb9ed38",
+    "already_coded": false,
+    "fields": {
+      "duties": "1. 负责足式机器人的运动控制算法的开发、调试和测试;\n2. 构造编写机器人控制相关的SDK,给内部同事或客户使用;\n3. 辅助参与产品的规划设计,给机械、电子等硬件出设计意见;\n4. 机器人相关测试、生产用程序的编写。",
+      "requirements": "",
+      "full_description": "1. 负责足式机器人的运动控制算法的开发、调试和测试；\n2. 构造编写机器人控制相关的SDK，给内部同事或客户使用；\n3. 辅助参与产品的规划设计，给机械、电子等硬件出设计意见；\n4. 机器人相关测试、生产用程序的编写。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 3,
+        "end": 26,
+        "quote": "负责足式机器人的运动控制算法的开发、调试和测试",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 93,
+        "end": 109,
+        "quote": "机器人相关测试、生产用程序的编写",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 74,
+        "end": 88,
+        "quote": "给机械、电子等硬件出设计意见",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": []
+  },
+  {
+    "coding_order": 20,
+    "reading_id": "N0624",
+    "company_id": "CN_GALAXEA",
+    "title": "机器人运动控制算法高级工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|cf213db3-3c64-4884-a991-967541a19e48|61cff554a918367f83c6cd7da67541afc30fa10c4c0b1cf54ff44aebaf782d48",
+    "already_coded": false,
+    "fields": {
+      "duties": "1. 负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器（夹爪/灵巧手）。\n2. 开发并优化机器人运动学、动力学建模工具，进行动力学参数辨识，保法在实机上的准确性与稳定性。\n3. 实现逆运动学（IK）、优化控制（QP/MPC）等核心算法，并在机器人平台上验证、调优。\n4. 针对实际任务场景（操作、搬运、协作），实现运动/力控的闭环控制方案。\n5. 与硬件、模型和系统工程团队紧密合作，推动算法从仿真快速迁移到实机。",
+      "requirements": "任职要求\n1.机器人、自动化、控制、计算机或相关专业硕士及以上学历, 3到5年工作经验，或具备同等能力的工程经验。\n2.扎实的机器人学基础，熟悉运动学、动力学建模，理解控制原理并能转化为可执行代码。\n3.熟练掌握 C++ 编程，具备良好的代码风格与工程习惯；熟悉 ROS / ROS 2 开发。\n4.有实际机器人调试经验，能够在复杂环境下分析并解决算法与硬件耦合问题。\n5.熟悉机器人运控算法工具链（kdl, ocs2, pinocchio, mujoco），能够独立完成算法实现与调优。\n6. 结果导向，能承受实机调试压力，具备责任心与团队协作精神。\n加分项\n1.在实际机器人平台上实现过 QP/MPC 控制器 或 全身协调控制。\n2.有灵巧手、夹爪的运动/力控实操经验。\n3.有机器人竞赛或开源项目的落地经验（如 RoboCup、ROS 控制库贡献）。",
+      "full_description": "工作职责\n1. 负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器（夹爪/灵巧手）。\n2. 开发并优化机器人运动学、动力学建模工具，进行动力学参数辨识，保法在实机上的准确性与稳定性。\n3. 实现逆运动学（IK）、优化控制（QP/MPC）等核心算法，并在机器人平台上验证、调优。\n4. 针对实际任务场景（操作、搬运、协作），实现运动/力控的闭环控制方案。\n5. 与硬件、模型和系统工程团队紧密合作，推动算法从仿真快速迁移到实机。\n\n任职资格\n任职要求\n1.机器人、自动化、控制、计算机或相关专业硕士及以上学历, 3到5年工作经验，或具备同等能力的工程经验。\n2.扎实的机器人学基础，熟悉运动学、动力学建模，理解控制原理并能转化为可执行代码。\n3.熟练掌握 C++ 编程，具备良好的代码风格与工程习惯；熟悉 ROS / ROS 2 开发。\n4.有实际机器人调试经验，能够在复杂环境下分析并解决算法与硬件耦合问题。\n5.熟悉机器人运控算法工具链（kdl, ocs2, pinocchio, mujoco），能够独立完成算法实现与调优。\n6. 结果导向，能承受实机调试压力，具备责任心与团队协作精神。\n加分项\n1.在实际机器人平台上实现过 QP/MPC 控制器 或 全身协调控制。\n2.有灵巧手、夹爪的运动/力控实操经验。\n3.有机器人竞赛或开源项目的落地经验（如 RoboCup、ROS 控制库贡献）。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 342,
+        "end": 345,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 367,
+        "end": 370,
+        "quote": "ROS",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 373,
+        "end": 378,
+        "quote": "ROS 2",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_KDL",
+        "name": "Orocos KDL",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 435,
+        "end": 438,
+        "quote": "kdl",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_PINOCCHIO",
+        "name": "Pinocchio",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 446,
+        "end": 455,
+        "quote": "pinocchio",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 457,
+        "end": 463,
+        "quote": "mujoco",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 157,
+        "end": 191,
+        "quote": "针对实际任务场景（操作、搬运、协作），实现运动/力控的闭环控制方案。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 8,
+        "end": 57,
+        "quote": "负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器（夹爪/灵巧手）。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 213,
+        "end": 228,
+        "quote": "推动算法从仿真快速迁移到实机。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 139,
+        "end": 153,
+        "quote": "并在机器人平台上验证、调优。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 91,
+        "end": 106,
+        "quote": "保法在实机上的准确性与稳定性。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 319,
+        "end": 323,
+        "quote": "控制原理",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 457,
+        "end": 463,
+        "quote": "mujoco",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 531,
+        "end": 541,
+        "quote": "QP/MPC 控制器",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 544,
+        "end": 550,
+        "quote": "全身协调控制",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 555,
+        "end": 558,
+        "quote": "灵巧手",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 559,
+        "end": 561,
+        "quote": "夹爪",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 562,
+        "end": 571,
+        "quote": "运动/力控实操经验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0624:1",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "3. 实现逆运动学（IK）、优化控制（QP/MPC）等核心算法，并在机器人平台上验证、调优。",
+        "quote": "3. 实现逆运动学（IK）、优化控制（QP/MPC）等核心算法，并在机器人平台上验证、调优。",
+        "field": "full_description",
+        "start": 107,
+        "end": 153
+      },
+      {
+        "id": "2",
+        "review_id": "N0624:2",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "3.熟练掌握 C++ 编程，具备良好的代码风格与工程习惯；熟悉 ROS / ROS 2 开发。",
+        "quote": "3.熟练掌握 C++ 编程，具备良好的代码风格与工程习惯；熟悉 ROS / ROS 2 开发。",
+        "field": "full_description",
+        "start": 335,
+        "end": 382
+      },
+      {
+        "id": "3",
+        "review_id": "N0624:3",
+        "codes": [
+          "V2_OCS2"
+        ],
+        "names": [
+          "OCS2"
+        ],
+        "surface": "5.熟悉机器人运控算法工具链（kdl, ocs2, pinocchio, mujoco），能够独立完成算法实现与调优。",
+        "quote": "5.熟悉机器人运控算法工具链（kdl, ocs2, pinocchio, mujoco），能够独立完成算法实现与调优。",
+        "field": "full_description",
+        "start": 420,
+        "end": 479
+      },
+      {
+        "id": "4",
+        "review_id": "N0624:4",
+        "codes": [
+          "V2_OCS2"
+        ],
+        "names": [
+          "OCS2"
+        ],
+        "surface": "ocs2",
+        "quote": "ocs2",
+        "field": "full_description",
+        "start": 440,
+        "end": 444
+      },
+      {
+        "id": "5",
+        "review_id": "N0624:5",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "1.在实际机器人平台上实现过 QP/MPC 控制器 或 全身协调控制。",
+        "quote": "1.在实际机器人平台上实现过 QP/MPC 控制器 或 全身协调控制。",
+        "field": "full_description",
+        "start": 516,
+        "end": 551
+      }
+    ]
+  },
+  {
+    "coding_order": 21,
+    "reading_id": "N0476",
+    "company_id": "CN_FOURIER",
+    "title": "电机控制算法工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|46e2ceb5-ee53-4312-8edd-c9d208bcee9e|54e552a51b1e81c4dbf5f02ba3957d96e23d5e3574a5aaad2c0a88c85b98fa25",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.负责机器人平台电机控制算法（FOC/无感估算）的开发、优化与维护；\n\n2.开发并调试嵌入式底层驱动(编码器、力矩传感器等),实现 PMSM 的高性能控制；\n\n3.各控制环路参数调试与整定，性能分析等；\n\n4.优化控制性能，包括效率、动态响应、噪声、温升等；\n\n5.参与硬件方案评审与系统联调，分析并解决电机控制相关问题（过流、摩擦力、采样噪声等）；\n\n6.与硬件、结构、算法、测试等多团队协作，推动产品从样机到量产落地。\n\n\n\n\n任职要求：\n\n1.精通ST MCU平台的底层驱动开发；\n\n2.熟练掌握多任务调度、DMA、ADC/PWM/Timer 等关键模块；\n\n3.精通 C/C++编程，具备良好的代码规范与文档编写习惯；\n\n4.深入理解 FOC（磁场定向控制）理论与实现；\n\n5.具备丰富的 PMSM调试经验，可以独立完成各环路调参；\n\n6.熟悉常见 有感 /无感控制、PID、滤波算法；\n\n7.具备 Matlab / Simulink 仿真与模型验证经验优先；\n\n8.本科及以上学历，自动化、电气工程、电子信息、计算机 等相关专业。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1.负责机器人平台电机控制算法（FOC/无感估算）的开发、优化与维护；\n\n2.开发并调试嵌入式底层驱动(编码器、力矩传感器等),实现 PMSM 的高性能控制；\n\n3.各控制环路参数调试与整定，性能分析等；\n\n4.优化控制性能，包括效率、动态响应、噪声、温升等；\n\n5.参与硬件方案评审与系统联调，分析并解决电机控制相关问题（过流、摩擦力、采样噪声等）；\n\n6.与硬件、结构、算法、测试等多团队协作，推动产品从样机到量产落地。\n\n\n\n\n任职要求：\n\n1.精通ST MCU平台的底层驱动开发；\n\n2.熟练掌握多任务调度、DMA、ADC/PWM/Timer 等关键模块；\n\n3.精通 C/C++编程，具备良好的代码规范与文档编写习惯；\n\n4.深入理解 FOC（磁场定向控制）理论与实现；\n\n5.具备丰富的 PMSM调试经验，可以独立完成各环路调参；\n\n6.熟悉常见 有感 /无感控制、PID、滤波算法；\n\n7.具备 Matlab / Simulink 仿真与模型验证经验优先；\n\n8.本科及以上学历，自动化、电气工程、电子信息、计算机 等相关专业。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 298,
+        "end": 301,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_MATLAB",
+        "name": "MATLAB",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 412,
+        "end": 418,
+        "quote": "Matlab",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_SIMULINK",
+        "name": "Simulink",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 421,
+        "end": 429,
+        "quote": "Simulink",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 42,
+        "quote": "负责机器人平台电机控制算法（FOC/无感估算）的开发、优化与维护；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 46,
+        "end": 70,
+        "quote": "开发并调试嵌入式底层驱动(编码器、力矩传感器等)",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 71,
+        "end": 85,
+        "quote": "实现 PMSM 的高性能控制",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 187,
+        "end": 205,
+        "quote": "与硬件、结构、算法、测试等多团队协作",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 233,
+        "end": 250,
+        "quote": "精通ST MCU平台的底层驱动开发",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 325,
+        "end": 346,
+        "quote": "深入理解 FOC（磁场定向控制）理论与实现",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 357,
+        "end": 365,
+        "quote": "PMSM调试经验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 366,
+        "end": 377,
+        "quote": "可以独立完成各环路调参",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 430,
+        "end": 441,
+        "quote": "仿真与模型验证经验优先",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 430,
+        "end": 441,
+        "quote": "仿真与模型验证经验优先",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 382,
+        "end": 404,
+        "quote": "熟悉常见 有感 /无感控制、PID、滤波算法",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0476:1",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "1.负责机器人平台电机控制算法（FOC/无感估算）的开发、优化与维护；",
+        "quote": "1.负责机器人平台电机控制算法（FOC/无感估算）的开发、优化与维护；",
+        "field": "full_description",
+        "start": 7,
+        "end": 42
+      },
+      {
+        "id": "2",
+        "review_id": "N0476:2",
+        "codes": [],
+        "names": [],
+        "surface": "ST MCU",
+        "quote": "精通ST MCU平台的底层驱动开发；",
+        "field": "full_description",
+        "start": 233,
+        "end": 251
+      },
+      {
+        "id": "3",
+        "review_id": "N0476:3",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "3.精通 C/C++编程，具备良好的代码规范与文档编写习惯；",
+        "quote": "3.精通 C/C++编程，具备良好的代码规范与文档编写习惯；",
+        "field": "full_description",
+        "start": 291,
+        "end": 321
+      },
+      {
+        "id": "4",
+        "review_id": "N0476:4",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "C",
+        "quote": "精通 C/C++编程",
+        "field": "full_description",
+        "start": 293,
+        "end": 303
+      },
+      {
+        "id": "5",
+        "review_id": "N0476:5",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "4.深入理解 FOC（磁场定向控制）理论与实现；",
+        "quote": "4.深入理解 FOC（磁场定向控制）理论与实现；",
+        "field": "full_description",
+        "start": 323,
+        "end": 347
+      },
+      {
+        "id": "6",
+        "review_id": "N0476:6",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "6.熟悉常见 有感 /无感控制、PID、滤波算法；",
+        "quote": "6.熟悉常见 有感 /无感控制、PID、滤波算法；",
+        "field": "full_description",
+        "start": 380,
+        "end": 405
+      }
+    ]
+  },
+  {
+    "coding_order": 22,
+    "reading_id": "N0648",
+    "company_id": "CN_GALAXEA",
+    "title": "运控算法工程师（27届实习）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|19849423-e9fc-4dfe-a2da-58f6894da182|73acb3d1b7034adc7c239a2f50eb858cdf722b7c79724bf2a696d0c22ed33d0d",
+    "already_coded": false,
+    "fields": {
+      "duties": "星海图，作为具身智能赛道百亿级独角兽，以全栈自研筑牢技术壁垒——从核心模组、机器人本体，到VLA基础模型、EDP开发平台实现全链路自主研发，稳居行业技术前沿。现诚邀优秀的27届同学加入，以专业之力赋能智能机器人研发，与我们并肩，一起开启机器人新时代，共筑具身智能的星辰大海。\n1.   负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器（夹爪/灵巧手）。\n2.   开发并优化机器人运动学、动力学建模工具，进行动力学参数辨识，保法在实机上的准确性与稳定性。\n3.   实现逆运动学（IK）、优化控制（QP/MPC）等核心算法，并在机器人平台上验证、调优。\n4.   针对实际任务场景（操作、搬运、协作），实现运动/力控的闭环控制方案。\n5.  与硬件、模型和系统工程团队紧密合作，推动算法从仿真快速迁移到实机。\n",
+      "requirements": "1. 2027届硕士及以上学历机器人、自动化、控制、计算机或相关专业\n2. 熟悉运动学、动力学建模，理解控制原理并能转化为可执行代码。\n3. 熟练掌握 C++ 编程，具备良好的代码风格与工程习惯；熟悉 ROS / ROS 2 开发。\n4. 有实际机器人调试经验，能够在复杂环境下分析并解决算法与硬件耦合问题。\n\n我们提供\n1. 一对一导师带教+完善培养体系，开通校招绿色通道，实习表现优秀者可快速转正；\n2. 深耕前沿赛道核心项目，携手全球顶尖伙伴，与行业精英并肩成长；\n3. 技术驱动型团队，尊重创新与想法，让实习生的每一份努力都能转化为成长动力；\n4. 行业领先的实习薪资，用不完的token和算力资源，舒适的工作环境与自由创新的工作氛围。",
+      "full_description": "工作职责\n星海图，作为具身智能赛道百亿级独角兽，以全栈自研筑牢技术壁垒——从核心模组、机器人本体，到VLA基础模型、EDP开发平台实现全链路自主研发，稳居行业技术前沿。现诚邀优秀的27届同学加入，以专业之力赋能智能机器人研发，与我们并肩，一起开启机器人新时代，共筑具身智能的星辰大海。\n1.   负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器（夹爪/灵巧手）。\n2.   开发并优化机器人运动学、动力学建模工具，进行动力学参数辨识，保法在实机上的准确性与稳定性。\n3.   实现逆运动学（IK）、优化控制（QP/MPC）等核心算法，并在机器人平台上验证、调优。\n4.   针对实际任务场景（操作、搬运、协作），实现运动/力控的闭环控制方案。\n5.  与硬件、模型和系统工程团队紧密合作，推动算法从仿真快速迁移到实机。\n\n\n任职资格\n1. 2027届硕士及以上学历机器人、自动化、控制、计算机或相关专业\n2. 熟悉运动学、动力学建模，理解控制原理并能转化为可执行代码。\n3. 熟练掌握 C++ 编程，具备良好的代码风格与工程习惯；熟悉 ROS / ROS 2 开发。\n4. 有实际机器人调试经验，能够在复杂环境下分析并解决算法与硬件耦合问题。\n\n我们提供\n1. 一对一导师带教+完善培养体系，开通校招绿色通道，实习表现优秀者可快速转正；\n2. 深耕前沿赛道核心项目，携手全球顶尖伙伴，与行业精英并肩成长；\n3. 技术驱动型团队，尊重创新与想法，让实习生的每一份努力都能转化为成长动力；\n4. 行业领先的实习薪资，用不完的token和算力资源，舒适的工作环境与自由创新的工作氛围。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 459,
+        "end": 462,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 484,
+        "end": 487,
+        "quote": "ROS",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 490,
+        "end": 495,
+        "quote": "ROS 2",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 49,
+        "end": 74,
+        "quote": "到VLA基础模型、EDP开发平台实现全链路自主研发",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 148,
+        "end": 171,
+        "quote": "负责轮式仿人型机器人全身运动控制算法研发与落地",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 303,
+        "end": 336,
+        "quote": "针对实际任务场景（操作、搬运、协作），实现运动/力控的闭环控制方案",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 360,
+        "end": 374,
+        "quote": "推动算法从仿真快速迁移到实机",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 283,
+        "end": 296,
+        "quote": "并在机器人平台上验证、调优",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 433,
+        "end": 449,
+        "quote": "理解控制原理并能转化为可执行代码",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 172,
+        "end": 196,
+        "quote": "包括底盘、躯干、双臂和末端执行器（夹爪/灵巧手）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 203,
+        "end": 247,
+        "quote": "开发并优化机器人运动学、动力学建模工具，进行动力学参数辨识，保法在实机上的准确性与稳定性",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0648:1",
+        "codes": [],
+        "names": [],
+        "surface": "EDP",
+        "quote": "到VLA基础模型、EDP开发平台实现全链路自主研发",
+        "field": "full_description",
+        "start": 49,
+        "end": 74
+      },
+      {
+        "id": "2",
+        "review_id": "N0648:2",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "3.   实现逆运动学（IK）、优化控制（QP/MPC）等核心算法，并在机器人平台上验证、调优。",
+        "quote": "3.   实现逆运动学（IK）、优化控制（QP/MPC）等核心算法，并在机器人平台上验证、调优。",
+        "field": "full_description",
+        "start": 249,
+        "end": 297
+      },
+      {
+        "id": "3",
+        "review_id": "N0648:3",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "3. 熟练掌握 C++ 编程，具备良好的代码风格与工程习惯；熟悉 ROS / ROS 2 开发。",
+        "quote": "3. 熟练掌握 C++ 编程，具备良好的代码风格与工程习惯；熟悉 ROS / ROS 2 开发。",
+        "field": "full_description",
+        "start": 451,
+        "end": 499
+      }
+    ]
+  },
+  {
+    "coding_order": 23,
+    "reading_id": "N0623",
+    "company_id": "CN_GALAXEA",
+    "title": "机器人导航算法工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|ca47e2dd-7f80-4fbb-a7db-b8d33b64120e|f576abd5c7489e0491c6b8ad1f3befa1d06342862e73685ad4e78faeadad1c18",
+    "already_coded": false,
+    "fields": {
+      "duties": "1.全局与局部路径规划\n- 负责基于激光雷达点云的全局路径规划算法（A* / Dijkstra / Hybrid A* / RRT* 等）开发与持续优化\n- 设计并落地局部轨迹规划与动态避障算法（DWA / TEB / MPC / MPPI 等），满足轮式底盘运动学约束\n- 解决狭窄通道、动态障碍物、未知区域等复杂场景下的路径可行性、平滑性与实时性\n- 构建分层代价地图（Costmap）机制，支持行人、AGV、机械臂等动态/静态障碍物分层管理\n2.自主避障与状态估计\n- 基于激光雷达实现实时障碍物检测、跟踪与碰撞预测\n- 实现未知环境下的安全探索与边界扩展策略\n3. 自主回充与行为决策\n- 设计自主回充行为树（Behavior Tree），覆盖：低电量预警 → 充电桩搜索 → 对接引导 → 充电握手 → 异常重试 → 恢复作业\n- 实现回充末端高精度对接控制（视觉辅助 + 激光雷达精定位）\n- 开发任务调度与异常恢复策略（路径阻塞重规划、传感器失效降级运行、长时运行自恢复）\n4 系统集成与性能优化\n- 基于 ROS2 完成导航算法模块的实时化部署与性能调优（控制周期 ≥ 100Hz）\n- 支撑工厂直播等长时运行场景下的导航稳定性与可靠性验证",
+      "requirements": "1. 硕士及以上学历，计算机、自动化、机器人、电子工程等相关专业\n2. 3 年以上移动机器人/无人车/人形机器人导航算法开发经验，有量产或长期运行项目落地经验\n3. 精通 ROS/ROS2 导航框架（Nav2 / Move Base），熟悉 Costmap、Planner、Controller、Behavior Tree 全链路\n4. 扎实的 C++ 编程功底，熟悉实时系统开发，具备算法性能 profiling 与优化经验\n5. 熟悉激光雷达点云处理、SLAM 建图（Cartographer / GMapping / LIO-SAM 等）及定位算法",
+      "full_description": "工作职责\n1.全局与局部路径规划\n- 负责基于激光雷达点云的全局路径规划算法（A* / Dijkstra / Hybrid A* / RRT* 等）开发与持续优化\n- 设计并落地局部轨迹规划与动态避障算法（DWA / TEB / MPC / MPPI 等），满足轮式底盘运动学约束\n- 解决狭窄通道、动态障碍物、未知区域等复杂场景下的路径可行性、平滑性与实时性\n- 构建分层代价地图（Costmap）机制，支持行人、AGV、机械臂等动态/静态障碍物分层管理\n2.自主避障与状态估计\n- 基于激光雷达实现实时障碍物检测、跟踪与碰撞预测\n- 实现未知环境下的安全探索与边界扩展策略\n3. 自主回充与行为决策\n- 设计自主回充行为树（Behavior Tree），覆盖：低电量预警 → 充电桩搜索 → 对接引导 → 充电握手 → 异常重试 → 恢复作业\n- 实现回充末端高精度对接控制（视觉辅助 + 激光雷达精定位）\n- 开发任务调度与异常恢复策略（路径阻塞重规划、传感器失效降级运行、长时运行自恢复）\n4 系统集成与性能优化\n- 基于 ROS2 完成导航算法模块的实时化部署与性能调优（控制周期 ≥ 100Hz）\n- 支撑工厂直播等长时运行场景下的导航稳定性与可靠性验证\n\n任职资格\n1. 硕士及以上学历，计算机、自动化、机器人、电子工程等相关专业\n2. 3 年以上移动机器人/无人车/人形机器人导航算法开发经验，有量产或长期运行项目落地经验\n3. 精通 ROS/ROS2 导航框架（Nav2 / Move Base），熟悉 Costmap、Planner、Controller、Behavior Tree 全链路\n4. 扎实的 C++ 编程功底，熟悉实时系统开发，具备算法性能 profiling 与优化经验\n5. 熟悉激光雷达点云处理、SLAM 建图（Cartographer / GMapping / LIO-SAM 等）及定位算法"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 463,
+        "end": 504,
+        "quote": "基于 ROS2 完成导航算法模块的实时化部署与性能调优（控制周期 ≥ 100Hz）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 626,
+        "end": 629,
+        "quote": "ROS",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 630,
+        "end": 634,
+        "quote": "ROS2",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 713,
+        "end": 716,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 19,
+        "end": 81,
+        "quote": "负责基于激光雷达点云的全局路径规划算法（A* / Dijkstra / Hybrid A* / RRT* 等）开发与持续优化",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_NAVIGATION",
+        "name": "导航",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 304,
+        "end": 328,
+        "quote": "设计自主回充行为树（Behavior Tree）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 376,
+        "end": 405,
+        "quote": "实现回充末端高精度对接控制（视觉辅助 + 激光雷达精定位）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 243,
+        "end": 266,
+        "quote": "基于激光雷达实现实时障碍物检测、跟踪与碰撞预测",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_SLAM",
+        "name": "定位建图",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 183,
+        "end": 202,
+        "quote": "构建分层代价地图（Costmap）机制",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 269,
+        "end": 288,
+        "quote": "实现未知环境下的安全探索与边界扩展策略",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 463,
+        "end": 504,
+        "quote": "基于 ROS2 完成导航算法模块的实时化部署与性能调优（控制周期 ≥ 100Hz）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 507,
+        "end": 533,
+        "quote": "支撑工厂直播等长时运行场景下的导航稳定性与可靠性验证",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 507,
+        "end": 533,
+        "quote": "支撑工厂直播等长时运行场景下的导航稳定性与可靠性验证",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_NAVIGATION",
+        "name": "导航",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 596,
+        "end": 604,
+        "quote": "导航算法开发经验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_NAVIGATION",
+        "name": "导航",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 635,
+        "end": 639,
+        "quote": "导航框架",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_SLAM",
+        "name": "定位建图",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 661,
+        "end": 668,
+        "quote": "Costmap",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 669,
+        "end": 676,
+        "quote": "Planner",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 677,
+        "end": 687,
+        "quote": "Controller",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O19",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 724,
+        "end": 730,
+        "quote": "实时系统开发",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O20",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 759,
+        "end": 767,
+        "quote": "激光雷达点云处理",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O21",
+        "code": "TC_SLAM",
+        "name": "定位建图",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 768,
+        "end": 775,
+        "quote": "SLAM 建图",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O22",
+        "code": "TC_SLAM",
+        "name": "定位建图",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 813,
+        "end": 817,
+        "quote": "定位算法",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0623:1",
+        "codes": [
+          "V2_PATH_SEARCH"
+        ],
+        "names": [
+          "路径搜索与轨迹优化"
+        ],
+        "surface": "- 负责基于激光雷达点云的全局路径规划算法（A* / Dijkstra / Hybrid A* / RRT* 等）开发与持续优化",
+        "quote": "- 负责基于激光雷达点云的全局路径规划算法（A* / Dijkstra / Hybrid A* / RRT* 等）开发与持续优化",
+        "field": "full_description",
+        "start": 17,
+        "end": 81
+      },
+      {
+        "id": "2",
+        "review_id": "N0623:2",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "- 设计并落地局部轨迹规划与动态避障算法（DWA / TEB / MPC / MPPI 等），满足轮式底盘运动学约束",
+        "quote": "- 设计并落地局部轨迹规划与动态避障算法（DWA / TEB / MPC / MPPI 等），满足轮式底盘运动学约束",
+        "field": "full_description",
+        "start": 82,
+        "end": 140
+      },
+      {
+        "id": "3",
+        "review_id": "N0623:3",
+        "codes": [
+          "V2_NAV2"
+        ],
+        "names": [
+          "Nav2"
+        ],
+        "surface": "3. 精通 ROS/ROS2 导航框架（Nav2 / Move Base），熟悉 Costmap、Planner、Controller、Behavior Tree 全链路",
+        "quote": "3. 精通 ROS/ROS2 导航框架（Nav2 / Move Base），熟悉 Costmap、Planner、Controller、Behavior Tree 全链路",
+        "field": "full_description",
+        "start": 620,
+        "end": 705
+      },
+      {
+        "id": "4",
+        "review_id": "N0623:4",
+        "codes": [
+          "V2_NAV2"
+        ],
+        "names": [
+          "Nav2"
+        ],
+        "surface": "Nav2",
+        "quote": "Nav2",
+        "field": "full_description",
+        "start": 640,
+        "end": 644
+      },
+      {
+        "id": "5",
+        "review_id": "N0623:5",
+        "codes": [],
+        "names": [],
+        "surface": "Move Base",
+        "quote": "Move Base",
+        "field": "full_description",
+        "start": 647,
+        "end": 656
+      },
+      {
+        "id": "6",
+        "review_id": "N0623:6",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "4. 扎实的 C++ 编程功底，熟悉实时系统开发，具备算法性能 profiling 与优化经验",
+        "quote": "4. 扎实的 C++ 编程功底，熟悉实时系统开发，具备算法性能 profiling 与优化经验",
+        "field": "full_description",
+        "start": 706,
+        "end": 753
+      },
+      {
+        "id": "7",
+        "review_id": "N0623:7",
+        "codes": [],
+        "names": [],
+        "surface": "Cartographer",
+        "quote": "Cartographer",
+        "field": "full_description",
+        "start": 776,
+        "end": 788
+      },
+      {
+        "id": "8",
+        "review_id": "N0623:8",
+        "codes": [],
+        "names": [],
+        "surface": "GMapping",
+        "quote": "GMapping",
+        "field": "full_description",
+        "start": 791,
+        "end": 799
+      },
+      {
+        "id": "9",
+        "review_id": "N0623:9",
+        "codes": [],
+        "names": [],
+        "surface": "LIO-SAM",
+        "quote": "LIO-SAM",
+        "field": "full_description",
+        "start": 802,
+        "end": 809
+      }
+    ]
+  },
+  {
+    "coding_order": 24,
+    "reading_id": "N0167",
+    "company_id": "CN_GALBOT",
+    "title": "机器人全身规划算法工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|2199fc90-aa85-4c5c-878e-a3e73a417287|b870d7791fca9652abfa5e46f3eed5ff7803534ea4f5a2b2bc6747a3f6d7dc8c",
+    "already_coded": false,
+    "fields": {
+      "duties": "职位描述\n\n1、负责机器人动作通过性的方向研究；\n\n2、负责机器人整身规划软件的框架设计及开发；\n\n3、负责机器人姿态最优相关算法的设计及开发；\n\n4、负责learning-base相关算法的应用；\n\n5、编写相关规范或技术文档；\n\n\n\n\n职位要求\n\n1、机器人、人工智能、自动驾驶等专业，硕士及以上学历，至少 5年工作经验（含研究经历）；\n\n2、熟悉多自由度刚体机器人的运动学及现代控制；\n\n3、熟练掌握主流的规划类算法，熟悉主流避障类方法；\n\n4、熟悉最优化理论，熟练使用相关求解器及开源库；\n\n5、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；\n\n6、熟练掌握至少一种机器人运动控制仿真软件，如Mojuco, Webots, Gazebo等；\n\n7、熟悉或了解状态预测和多机协同优先；\n\n8、具备良好的团队合作精神，工作认真负责，具有较强的自学能力；\n\n\n\n\n加分项：\n\n1、发表过机器人领域顶会 paper；\n\n2、参与过仿人形、协作、无人机等前沿项目；\n\n3、有人工智能前沿应用的经验。",
+      "requirements": "",
+      "full_description": "职位描述\n\n1、负责机器人动作通过性的方向研究；\n\n2、负责机器人整身规划软件的框架设计及开发；\n\n3、负责机器人姿态最优相关算法的设计及开发；\n\n4、负责learning-base相关算法的应用；\n\n5、编写相关规范或技术文档；\n\n\n\n\n职位要求\n\n1、机器人、人工智能、自动驾驶等专业，硕士及以上学历，至少 5年工作经验（含研究经历）；\n\n2、熟悉多自由度刚体机器人的运动学及现代控制；\n\n3、熟练掌握主流的规划类算法，熟悉主流避障类方法；\n\n4、熟悉最优化理论，熟练使用相关求解器及开源库；\n\n5、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；\n\n6、熟练掌握至少一种机器人运动控制仿真软件，如Mojuco, Webots, Gazebo等；\n\n7、熟悉或了解状态预测和多机协同优先；\n\n8、具备良好的团队合作精神，工作认真负责，具有较强的自学能力；\n\n\n\n\n加分项：\n\n1、发表过机器人领域顶会 paper；\n\n2、参与过仿人形、协作、无人机等前沿项目；\n\n3、有人工智能前沿应用的经验。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 258,
+        "end": 261,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 262,
+        "end": 268,
+        "quote": "Python",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_GENERIC_LANGUAGE",
+        "name": "编程语言泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 269,
+        "end": 273,
+        "quote": "编程语言",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 309,
+        "end": 315,
+        "quote": "Mojuco",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_GAZEBO",
+        "name": "Gazebo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 325,
+        "end": 331,
+        "quote": "Gazebo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 28,
+        "end": 48,
+        "quote": "负责机器人整身规划软件的框架设计及开发；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 76,
+        "end": 99,
+        "quote": "负责learning-base相关算法的应用；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 174,
+        "end": 195,
+        "quote": "熟悉多自由度刚体机器人的运动学及现代控制；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 199,
+        "end": 222,
+        "quote": "熟练掌握主流的规划类算法，熟悉主流避障类方法；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 296,
+        "end": 307,
+        "quote": "机器人运动控制仿真软件",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 296,
+        "end": 307,
+        "quote": "机器人运动控制仿真软件",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0167:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "5、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；",
+        "quote": "5、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；",
+        "field": "full_description",
+        "start": 250,
+        "end": 284
+      },
+      {
+        "id": "2",
+        "review_id": "N0167:2",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "C",
+        "quote": "C",
+        "field": "full_description",
+        "start": 256,
+        "end": 257
+      },
+      {
+        "id": "3",
+        "review_id": "N0167:3",
+        "codes": [],
+        "names": [],
+        "surface": "Webots",
+        "quote": "Webots",
+        "field": "full_description",
+        "start": 317,
+        "end": 323
+      }
+    ]
+  },
+  {
+    "coding_order": 25,
+    "reading_id": "N0146",
+    "company_id": "CN_GALBOT",
+    "title": "具身操作算法工程师（力控方向）-苏州",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|23e99c6c-271a-4695-accb-2ef0a875e715|de2b502a3d54073eab2e4c403bee3101e61d487b9e753ef60245639c187c7a00",
+    "already_coded": false,
+    "fields": {
+      "duties": "职位描述：  \n\n开发工业场景下的机器人自主抓取与操作算法，支持稀疏/杂乱/半结构化物体的位姿估计、抓点生成及轨迹规划。  \n\n实现基于力/触觉的柔顺控制，完成装配、插拔、打磨等精密操作。  融合视觉与触觉反馈，提升操作成功率与鲁棒性。  \n\n在仿真与实际机器人上完成算法部署与性能调优。  \n\n\n\n\n任职要求：  \n\n机器人/控制/计算机硕士，3年以上机械臂操作算法经验。  \n\n精通C++/Python，熟悉MoveIt、OMPL、TracIK等规划库。  \n\n有基于深度强化学习的抓取或操作项目经历。  \n\n熟悉力控（阻抗/导纳）或遥操作者优先。",
+      "requirements": "",
+      "full_description": "职位描述：  \n\n开发工业场景下的机器人自主抓取与操作算法，支持稀疏/杂乱/半结构化物体的位姿估计、抓点生成及轨迹规划。  \n\n实现基于力/触觉的柔顺控制，完成装配、插拔、打磨等精密操作。  融合视觉与触觉反馈，提升操作成功率与鲁棒性。  \n\n在仿真与实际机器人上完成算法部署与性能调优。  \n\n\n\n\n任职要求：  \n\n机器人/控制/计算机硕士，3年以上机械臂操作算法经验。  \n\n精通C++/Python，熟悉MoveIt、OMPL、TracIK等规划库。  \n\n有基于深度强化学习的抓取或操作项目经历。  \n\n熟悉力控（阻抗/导纳）或遥操作者优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 193,
+        "end": 196,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 197,
+        "end": 203,
+        "quote": "Python",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_TRAC_IK",
+        "name": "TRAC-IK",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 218,
+        "end": 224,
+        "quote": "TracIK",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 60,
+        "quote": "开发工业场景下的机器人自主抓取与操作算法，支持稀疏/杂乱/半结构化物体的位姿估计、抓点生成及轨迹规划。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 60,
+        "quote": "开发工业场景下的机器人自主抓取与操作算法，支持稀疏/杂乱/半结构化物体的位姿估计、抓点生成及轨迹规划。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 60,
+        "quote": "开发工业场景下的机器人自主抓取与操作算法，支持稀疏/杂乱/半结构化物体的位姿估计、抓点生成及轨迹规划。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 64,
+        "end": 94,
+        "quote": "实现基于力/触觉的柔顺控制，完成装配、插拔、打磨等精密操作。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 122,
+        "end": 144,
+        "quote": "在仿真与实际机器人上完成算法部署与性能调优。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 173,
+        "end": 187,
+        "quote": "3年以上机械臂操作算法经验。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 233,
+        "end": 253,
+        "quote": "有基于深度强化学习的抓取或操作项目经历。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 233,
+        "end": 253,
+        "quote": "有基于深度强化学习的抓取或操作项目经历。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 259,
+        "end": 268,
+        "quote": "力控（阻抗/导纳）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 204,
+        "end": 229,
+        "quote": "熟悉MoveIt、OMPL、TracIK等规划库。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0146:1",
+        "codes": [
+          "V2_C",
+          "V2_MOVEIT",
+          "V2_OMPL"
+        ],
+        "names": [
+          "C语言",
+          "MoveIt",
+          "OMPL"
+        ],
+        "surface": "精通C++/Python，熟悉MoveIt、OMPL、TracIK等规划库。  ",
+        "quote": "精通C++/Python，熟悉MoveIt、OMPL、TracIK等规划库。  ",
+        "field": "full_description",
+        "start": 191,
+        "end": 231
+      },
+      {
+        "id": "2",
+        "review_id": "N0146:2",
+        "codes": [
+          "V2_MOVEIT"
+        ],
+        "names": [
+          "MoveIt"
+        ],
+        "surface": "MoveIt",
+        "quote": "MoveIt",
+        "field": "full_description",
+        "start": 206,
+        "end": 212
+      },
+      {
+        "id": "3",
+        "review_id": "N0146:3",
+        "codes": [
+          "V2_OMPL"
+        ],
+        "names": [
+          "OMPL"
+        ],
+        "surface": "OMPL",
+        "quote": "OMPL",
+        "field": "full_description",
+        "start": 213,
+        "end": 217
+      },
+      {
+        "id": "4",
+        "review_id": "N0146:4",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "熟悉力控（阻抗/导纳）或遥操作者优先。",
+        "quote": "熟悉力控（阻抗/导纳）或遥操作者优先。",
+        "field": "full_description",
+        "start": 257,
+        "end": 276
+      }
+    ]
+  },
+  {
+    "coding_order": 26,
+    "reading_id": "N0139",
+    "company_id": "CN_GALBOT",
+    "title": "双足人形机器人控制算法工程师（WBC/MPC方向）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|2e3f96b0-b0b5-4a9f-8e34-41cc999dd749|307cebbbbed3f710420a986164b9b96de5ad054e925d5b7f919358fdaef7273c",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n\n算法设计与开发：\n\n主导或参与基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试。\n\n深入研究机器人动力学模型，构建高保真、高实时性的控制优化问题。\n\n优化控制算法的性能，包括稳定性、鲁棒性、能量效率和对不确定性的适应能力。\n\n\n\n\n仿真与验证：\n\n利用MuJoCo, Isaac Sim, Gazebo等物理仿真环境，进行控制算法的快速迭代与验证。\n\n设计并执行全面的仿真测试用例，覆盖各种步态、地形及外部扰动场景。\n\n通过仿真分析算法性能，定位问题，并主导算法的改进与提升。\n\n\n\n\n工程实现与部署：\n\n将经过仿真验证的控制算法，高效地部署到实体机器人硬件上。\n\n与硬件团队紧密协作，解决传感器数据处理、实时通信、计算资源限制等工程挑战。\n\n负责代码的优化，确保控制回路满足严格的实时性要求。\n\n\n\n\n实验与分析：\n\n主导实体机器人的实验测试，收集并分析实验数据，评估算法在实际系统中的表现。\n\n基于实验结果，与团队合作持续迭代算法设计，实现从仿真到实物的快速迁移\n\n\n\n\n岗位要求\n\n学历与专业： \n\n硕士及以上学历，机器人学、控制科学与工程、计算机科学、自动化或相关专业。\n\n\n\n\n核心理论与算法：\n\n扎实的机器人运动学、动力学（浮动基座建模）与优化控制理论基础。\n\n必须精通全身动力学控制（WBC） 和 模型预测控制（MPC） 的原理与实现。\n\n\n\n\n工具与平台：\n\n必须精通 C++ 和 Python，并在 Linux (Ubuntu) 环境下有丰富的开发经验。\n\n必须精通 ROS/ROS2 框架。\n\n拥有至少一种动力学计算库（如 Pinocchio, RBDL, Drake）的实战经验。\n\n拥有至少一种优化求解器（如 OSQP, Acados, qpOASES）的使用经验。\n\n拥有至少一种仿真工具（如 MuJoCo, Isaac Sim, Gazebo）的使用经验。\n\n\n\n\n个人特质：\n\n具备出色的分析问题、解决问题的能力，优秀的团队协作精神，以及对机器人技术的极高热情。\n\n\n\n\n优先考虑条件：\n\n拥有双足、四足或人形机器人相关项目的实际开发经验。\n\n拥有处理足式机器人关键问题（如接触力优化、步态规划、状态估计）的经验。\n\n了解实时系统（如Preempt-RT, RTOS）或拥有嵌入式开发经验。\n\n在顶级机器人或控制会议（如T-RO, RSS, ICRA, IROS）上发表过相关论文。",
+      "requirements": "",
+      "full_description": "岗位职责\n\n算法设计与开发：\n\n主导或参与基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试。\n\n深入研究机器人动力学模型，构建高保真、高实时性的控制优化问题。\n\n优化控制算法的性能，包括稳定性、鲁棒性、能量效率和对不确定性的适应能力。\n\n\n\n\n仿真与验证：\n\n利用MuJoCo, Isaac Sim, Gazebo等物理仿真环境，进行控制算法的快速迭代与验证。\n\n设计并执行全面的仿真测试用例，覆盖各种步态、地形及外部扰动场景。\n\n通过仿真分析算法性能，定位问题，并主导算法的改进与提升。\n\n\n\n\n工程实现与部署：\n\n将经过仿真验证的控制算法，高效地部署到实体机器人硬件上。\n\n与硬件团队紧密协作，解决传感器数据处理、实时通信、计算资源限制等工程挑战。\n\n负责代码的优化，确保控制回路满足严格的实时性要求。\n\n\n\n\n实验与分析：\n\n主导实体机器人的实验测试，收集并分析实验数据，评估算法在实际系统中的表现。\n\n基于实验结果，与团队合作持续迭代算法设计，实现从仿真到实物的快速迁移\n\n\n\n\n岗位要求\n\n学历与专业： \n\n硕士及以上学历，机器人学、控制科学与工程、计算机科学、自动化或相关专业。\n\n\n\n\n核心理论与算法：\n\n扎实的机器人运动学、动力学（浮动基座建模）与优化控制理论基础。\n\n必须精通全身动力学控制（WBC） 和 模型预测控制（MPC） 的原理与实现。\n\n\n\n\n工具与平台：\n\n必须精通 C++ 和 Python，并在 Linux (Ubuntu) 环境下有丰富的开发经验。\n\n必须精通 ROS/ROS2 框架。\n\n拥有至少一种动力学计算库（如 Pinocchio, RBDL, Drake）的实战经验。\n\n拥有至少一种优化求解器（如 OSQP, Acados, qpOASES）的使用经验。\n\n拥有至少一种仿真工具（如 MuJoCo, Isaac Sim, Gazebo）的使用经验。\n\n\n\n\n个人特质：\n\n具备出色的分析问题、解决问题的能力，优秀的团队协作精神，以及对机器人技术的极高热情。\n\n\n\n\n优先考虑条件：\n\n拥有双足、四足或人形机器人相关项目的实际开发经验。\n\n拥有处理足式机器人关键问题（如接触力优化、步态规划、状态估计）的经验。\n\n了解实时系统（如Preempt-RT, RTOS）或拥有嵌入式开发经验。\n\n在顶级机器人或控制会议（如T-RO, RSS, ICRA, IROS）上发表过相关论文。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 138,
+        "end": 188,
+        "quote": "利用MuJoCo, Isaac Sim, Gazebo等物理仿真环境，进行控制算法的快速迭代与验证。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 138,
+        "end": 188,
+        "quote": "利用MuJoCo, Isaac Sim, Gazebo等物理仿真环境，进行控制算法的快速迭代与验证。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_GAZEBO",
+        "name": "Gazebo",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 138,
+        "end": 188,
+        "quote": "利用MuJoCo, Isaac Sim, Gazebo等物理仿真环境，进行控制算法的快速迭代与验证。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 602,
+        "end": 650,
+        "quote": "必须精通 C++ 和 Python，并在 Linux (Ubuntu) 环境下有丰富的开发经验。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 602,
+        "end": 650,
+        "quote": "必须精通 C++ 和 Python，并在 Linux (Ubuntu) 环境下有丰富的开发经验。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 602,
+        "end": 650,
+        "quote": "必须精通 C++ 和 Python，并在 Linux (Ubuntu) 环境下有丰富的开发经验。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 657,
+        "end": 660,
+        "quote": "ROS",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 661,
+        "end": 665,
+        "quote": "ROS2",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "SK_PINOCCHIO",
+        "name": "Pinocchio",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 686,
+        "end": 695,
+        "quote": "Pinocchio",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "SK_DRAKE",
+        "name": "Drake",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 703,
+        "end": 708,
+        "quote": "Drake",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 774,
+        "end": 780,
+        "quote": "MuJoCo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 782,
+        "end": 791,
+        "quote": "Isaac Sim",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "SK_GAZEBO",
+        "name": "Gazebo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 793,
+        "end": 799,
+        "quote": "Gazebo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 21,
+        "end": 53,
+        "quote": "基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 21,
+        "end": 53,
+        "quote": "基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 69,
+        "end": 86,
+        "quote": "构建高保真、高实时性的控制优化问题",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 138,
+        "end": 188,
+        "quote": "利用MuJoCo, Isaac Sim, Gazebo等物理仿真环境，进行控制算法的快速迭代与验证。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 190,
+        "end": 204,
+        "quote": "设计并执行全面的仿真测试用例",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O19",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 518,
+        "end": 549,
+        "quote": "扎实的机器人运动学、动力学（浮动基座建模）与优化控制理论基础。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O20",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "REQUIRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 551,
+        "end": 589,
+        "quote": "必须精通全身动力学控制（WBC） 和 模型预测控制（MPC） 的原理与实现。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O21",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 767,
+        "end": 771,
+        "quote": "仿真工具",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O22",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 916,
+        "end": 921,
+        "quote": "接触力优化",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O23",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 922,
+        "end": 926,
+        "quote": "步态规划",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O24",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 940,
+        "end": 944,
+        "quote": "实时系统",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O25",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 964,
+        "end": 973,
+        "quote": "拥有嵌入式开发经验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0139:1",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "主导或参与基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试。",
+        "quote": "主导或参与基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试。",
+        "field": "full_description",
+        "start": 16,
+        "end": 54
+      },
+      {
+        "id": "2",
+        "review_id": "N0139:2",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "MPC",
+        "quote": "基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试",
+        "field": "full_description",
+        "start": 21,
+        "end": 53
+      },
+      {
+        "id": "3",
+        "review_id": "N0139:3",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "WBC",
+        "quote": "基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试",
+        "field": "full_description",
+        "start": 21,
+        "end": 53
+      },
+      {
+        "id": "4",
+        "review_id": "N0139:4",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "必须精通全身动力学控制（WBC） 和 模型预测控制（MPC） 的原理与实现。",
+        "quote": "必须精通全身动力学控制（WBC） 和 模型预测控制（MPC） 的原理与实现。",
+        "field": "full_description",
+        "start": 551,
+        "end": 589
+      },
+      {
+        "id": "5",
+        "review_id": "N0139:5",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "WBC",
+        "quote": "必须精通全身动力学控制（WBC） 和 模型预测控制（MPC） 的原理与实现。",
+        "field": "full_description",
+        "start": 551,
+        "end": 589
+      },
+      {
+        "id": "6",
+        "review_id": "N0139:6",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "MPC",
+        "quote": "必须精通全身动力学控制（WBC） 和 模型预测控制（MPC） 的原理与实现。",
+        "field": "full_description",
+        "start": 551,
+        "end": 589
+      },
+      {
+        "id": "7",
+        "review_id": "N0139:7",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "必须精通 C++ 和 Python，并在 Linux (Ubuntu) 环境下有丰富的开发经验。",
+        "quote": "必须精通 C++ 和 Python，并在 Linux (Ubuntu) 环境下有丰富的开发经验。",
+        "field": "full_description",
+        "start": 602,
+        "end": 650
+      },
+      {
+        "id": "8",
+        "review_id": "N0139:8",
+        "codes": [],
+        "names": [],
+        "surface": "Ubuntu",
+        "quote": "必须精通 C++ 和 Python，并在 Linux (Ubuntu) 环境下有丰富的开发经验。",
+        "field": "full_description",
+        "start": 602,
+        "end": 650
+      },
+      {
+        "id": "9",
+        "review_id": "N0139:9",
+        "codes": [],
+        "names": [],
+        "surface": "RBDL",
+        "quote": "RBDL",
+        "field": "full_description",
+        "start": 697,
+        "end": 701
+      },
+      {
+        "id": "10",
+        "review_id": "N0139:10",
+        "codes": [
+          "V2_OSQP",
+          "V2_QPOASES"
+        ],
+        "names": [
+          "OSQP",
+          "qpOASES"
+        ],
+        "surface": "拥有至少一种优化求解器（如 OSQP, Acados, qpOASES）的使用经验。",
+        "quote": "拥有至少一种优化求解器（如 OSQP, Acados, qpOASES）的使用经验。",
+        "field": "full_description",
+        "start": 717,
+        "end": 759
+      },
+      {
+        "id": "11",
+        "review_id": "N0139:11",
+        "codes": [
+          "V2_OSQP"
+        ],
+        "names": [
+          "OSQP"
+        ],
+        "surface": "OSQP",
+        "quote": "OSQP",
+        "field": "full_description",
+        "start": 731,
+        "end": 735
+      },
+      {
+        "id": "12",
+        "review_id": "N0139:12",
+        "codes": [],
+        "names": [],
+        "surface": "Acados",
+        "quote": "Acados",
+        "field": "full_description",
+        "start": 737,
+        "end": 743
+      },
+      {
+        "id": "13",
+        "review_id": "N0139:13",
+        "codes": [
+          "V2_QPOASES"
+        ],
+        "names": [
+          "qpOASES"
+        ],
+        "surface": "qpOASES",
+        "quote": "qpOASES",
+        "field": "full_description",
+        "start": 745,
+        "end": 752
+      },
+      {
+        "id": "14",
+        "review_id": "N0139:14",
+        "codes": [],
+        "names": [],
+        "surface": "Preempt-RT",
+        "quote": "Preempt-RT",
+        "field": "full_description",
+        "start": 946,
+        "end": 956
+      },
+      {
+        "id": "15",
+        "review_id": "N0139:15",
+        "codes": [],
+        "names": [],
+        "surface": "RTOS",
+        "quote": "RTOS",
+        "field": "full_description",
+        "start": 958,
+        "end": 962
+      }
+    ]
+  },
+  {
+    "coding_order": 27,
+    "reading_id": "N0055",
+    "company_id": "CN_GALBOT",
+    "title": "机器人规控算法实习生",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|3c7b0b80-260a-4089-b453-c9eb12f08b6b|19f107db34e2cda6742521b6db20d9262db489c5421aa25252f5f86566f894d5",
+    "already_coded": false,
+    "fields": {
+      "duties": "职位描述\n\n核心算法落地：参与机器人规划与控制软件的架构设计与代码实现，负责具体模块的开发，并将算法部署于实际机器人平台，解决从仿真到现实（Sim-to-Real）的工程问题。\n\n系统建模与仿真验证：构建和调试机器人的运动学/动力学模型，在仿真环境（Mujoco、Isaac Sim）中进行算法验证，并配合硬件团队完成真机调试与性能标定。\n\n复杂任务求解与优化：针对实际业务需求，设计鲁棒的规划控制策略，并在真实场景下迭代算法，提升机器人的任务成功率。\n\n前沿技术探索：跟踪并参与研发行业前沿技术，包括但不限于全身规划、全身控制、柔顺力控等领域，探索机器人的性能边界，并尝试将学术成果转化为可运行的工程代码。\n\n\n\n\n\n\n\n职位要求\n\n学术背景：控制科学与工程、机器人、自动化、计算机等相关专业，本科及以上学历在读。\n\n\n\n\n基本技能（满足至少一项）：\n\n控制理论：掌握经典/现代控制理论，了解预测控制（MPC）、鲁棒控制、阻抗控制或智能控制算法，有实际调参或应用经验者优先。\n\n规划算法：熟悉主流路径规划算法（如 A、RRT、DWA）及轨迹优化方法，了解其适用场景及局限性。\n\n数值优化：了解最优化理论与数值优化方法，熟悉二次规划（QP）求解器（如 OSQP、qpOASES）的使用。\n\n\n\n\n工程能力：\n\n扎实的 C/C++ 编程基础，熟悉现代 C++（C++11/14/17）特性，具备良好的代码风格和文档习惯；\n\n熟练使用 Python/Matlab 进行快速原型验证；\n\n熟悉 Linux 开发环境，掌握 Git、CMake、GDB 等常用工具；\n\n有实际机器人调试经验，能独立分析传感器数据、定位代码问题，并在真实硬件上迭代算法。\n\n\n\n\n工具链：\n\n了解机器人动力学库（如 Pinocchio、RBDL）的应用；\n\n熟悉至少一种物理仿真环境（Mujoco、Bullet、PyBullet 或 Isaac Gym）；\n\n熟悉 ROS/ROS2 者优先。\n\n\n\n\n基础素质：\n\n对机器人技术有热情，具备极强的自驱力和抗压能力，愿意深入钻研问题本质。\n\n良好的团队沟通能力，能够高效协作，主动推进问题解决。\n\n\n\n\n【加分项：让你脱颖而出的经历】\n\n学术成果：在机器人或相关领域顶级会议/期刊（如 ICRA, IROS, CoRL, RSS）发表过论文。\n\n项目经验：有仿人形机器人、四足机器人或协作机械臂的实际项目参与经验，熟悉完整的上机调试流程，能提供演示视频或代码仓库者优先。\n\nAI融合：有将强化学习（RL）、模仿学习等人工智能算法应用于机器人控制的实际经验。\n\n工程贡献：参与过开源机器人项目，或有自己的技术博客/笔记，能体现对工程问题的思考。\n\n\n\n\n【实习待遇与吸引力】\n\n硬核场景：直接参与头部具身智能机器人项目的研发，负责产品级代码的编写与优化，拒绝“打杂”，直面真实硬件挑战。\n\n技术视野：与清华、北大等背景的业内大牛共事，快速提升工程落地与理论结合的能力。\n\n资源支持：充足的GPU算力集群和先进的机器人实验平台，鼓励你大胆尝试、快速验证。\n\n发展机会：表现优异者有转正机会，且可深度参与定义下一代机器人的形态与智能。",
+      "requirements": "",
+      "full_description": "职位描述\n\n核心算法落地：参与机器人规划与控制软件的架构设计与代码实现，负责具体模块的开发，并将算法部署于实际机器人平台，解决从仿真到现实（Sim-to-Real）的工程问题。\n\n系统建模与仿真验证：构建和调试机器人的运动学/动力学模型，在仿真环境（Mujoco、Isaac Sim）中进行算法验证，并配合硬件团队完成真机调试与性能标定。\n\n复杂任务求解与优化：针对实际业务需求，设计鲁棒的规划控制策略，并在真实场景下迭代算法，提升机器人的任务成功率。\n\n前沿技术探索：跟踪并参与研发行业前沿技术，包括但不限于全身规划、全身控制、柔顺力控等领域，探索机器人的性能边界，并尝试将学术成果转化为可运行的工程代码。\n\n\n\n\n\n\n\n职位要求\n\n学术背景：控制科学与工程、机器人、自动化、计算机等相关专业，本科及以上学历在读。\n\n\n\n\n基本技能（满足至少一项）：\n\n控制理论：掌握经典/现代控制理论，了解预测控制（MPC）、鲁棒控制、阻抗控制或智能控制算法，有实际调参或应用经验者优先。\n\n规划算法：熟悉主流路径规划算法（如 A、RRT、DWA）及轨迹优化方法，了解其适用场景及局限性。\n\n数值优化：了解最优化理论与数值优化方法，熟悉二次规划（QP）求解器（如 OSQP、qpOASES）的使用。\n\n\n\n\n工程能力：\n\n扎实的 C/C++ 编程基础，熟悉现代 C++（C++11/14/17）特性，具备良好的代码风格和文档习惯；\n\n熟练使用 Python/Matlab 进行快速原型验证；\n\n熟悉 Linux 开发环境，掌握 Git、CMake、GDB 等常用工具；\n\n有实际机器人调试经验，能独立分析传感器数据、定位代码问题，并在真实硬件上迭代算法。\n\n\n\n\n工具链：\n\n了解机器人动力学库（如 Pinocchio、RBDL）的应用；\n\n熟悉至少一种物理仿真环境（Mujoco、Bullet、PyBullet 或 Isaac Gym）；\n\n熟悉 ROS/ROS2 者优先。\n\n\n\n\n基础素质：\n\n对机器人技术有热情，具备极强的自驱力和抗压能力，愿意深入钻研问题本质。\n\n良好的团队沟通能力，能够高效协作，主动推进问题解决。\n\n\n\n\n【加分项：让你脱颖而出的经历】\n\n学术成果：在机器人或相关领域顶级会议/期刊（如 ICRA, IROS, CoRL, RSS）发表过论文。\n\n项目经验：有仿人形机器人、四足机器人或协作机械臂的实际项目参与经验，熟悉完整的上机调试流程，能提供演示视频或代码仓库者优先。\n\nAI融合：有将强化学习（RL）、模仿学习等人工智能算法应用于机器人控制的实际经验。\n\n工程贡献：参与过开源机器人项目，或有自己的技术博客/笔记，能体现对工程问题的思考。\n\n\n\n\n【实习待遇与吸引力】\n\n硬核场景：直接参与头部具身智能机器人项目的研发，负责产品级代码的编写与优化，拒绝“打杂”，直面真实硬件挑战。\n\n技术视野：与清华、北大等背景的业内大牛共事，快速提升工程落地与理论结合的能力。\n\n资源支持：充足的GPU算力集群和先进的机器人实验平台，鼓励你大胆尝试、快速验证。\n\n发展机会：表现优异者有转正机会，且可深度参与定义下一代机器人的形态与智能。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 119,
+        "end": 149,
+        "quote": "在仿真环境（Mujoco、Isaac Sim）中进行算法验证",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 119,
+        "end": 149,
+        "quote": "在仿真环境（Mujoco、Isaac Sim）中进行算法验证",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 561,
+        "end": 564,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 570,
+        "end": 593,
+        "quote": "熟悉现代 C++（C++11/14/17）特性",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 616,
+        "end": 622,
+        "quote": "Python",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_MATLAB",
+        "name": "MATLAB",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 623,
+        "end": 629,
+        "quote": "Matlab",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 641,
+        "end": 654,
+        "quote": "熟悉 Linux 开发环境",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "SK_PINOCCHIO",
+        "name": "Pinocchio",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 744,
+        "end": 753,
+        "quote": "Pinocchio",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 778,
+        "end": 784,
+        "quote": "Mujoco",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "SK_PYBULLET",
+        "name": "PyBullet",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 792,
+        "end": 800,
+        "quote": "PyBullet",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 803,
+        "end": 812,
+        "quote": "Isaac Gym",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 819,
+        "end": 822,
+        "quote": "ROS",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 823,
+        "end": 827,
+        "quote": "ROS2",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 13,
+        "end": 45,
+        "quote": "参与机器人规划与控制软件的架构设计与代码实现，负责具体模块的开发",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 13,
+        "end": 45,
+        "quote": "参与机器人规划与控制软件的架构设计与代码实现，负责具体模块的开发",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 119,
+        "end": 149,
+        "quote": "在仿真环境（Mujoco、Isaac Sim）中进行算法验证",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 119,
+        "end": 149,
+        "quote": "在仿真环境（Mujoco、Isaac Sim）中进行算法验证",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 383,
+        "end": 394,
+        "quote": "掌握经典/现代控制理论",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O19",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 397,
+        "end": 406,
+        "quote": "预测控制（MPC）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O20",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 407,
+        "end": 411,
+        "quote": "鲁棒控制",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O21",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 412,
+        "end": 416,
+        "quote": "阻抗控制",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O22",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 417,
+        "end": 423,
+        "quote": "智能控制算法",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O23",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 445,
+        "end": 455,
+        "quote": "熟悉主流路径规划算法",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O24",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 469,
+        "end": 475,
+        "quote": "轨迹优化方法",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O25",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 778,
+        "end": 784,
+        "quote": "Mujoco",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O26",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 785,
+        "end": 791,
+        "quote": "Bullet",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O27",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 792,
+        "end": 800,
+        "quote": "PyBullet",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O28",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 803,
+        "end": 812,
+        "quote": "Isaac Gym",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O29",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1054,
+        "end": 1062,
+        "quote": "强化学习（RL）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O30",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1063,
+        "end": 1067,
+        "quote": "模仿学习",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O31",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1077,
+        "end": 1082,
+        "quote": "机器人控制",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O32",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 424,
+        "end": 437,
+        "quote": "有实际调参或应用经验者优先",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0055:1",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "核心算法落地：参与机器人规划与控制软件的架构设计与代码实现，负责具体模块的开发，并将算法部署于实际机器人平台，解决从仿真到现实（Sim-to-Real）的工程问题。",
+        "quote": "核心算法落地：参与机器人规划与控制软件的架构设计与代码实现，负责具体模块的开发，并将算法部署于实际机器人平台，解决从仿真到现实（Sim-to-Real）的工程问题。",
+        "field": "full_description",
+        "start": 6,
+        "end": 88
+      },
+      {
+        "id": "2",
+        "review_id": "N0055:2",
+        "codes": [
+          "V2_CALIBRATION"
+        ],
+        "names": [
+          "传感器与系统标定"
+        ],
+        "surface": "系统建模与仿真验证：构建和调试机器人的运动学/动力学模型，在仿真环境（Mujoco、Isaac Sim）中进行算法验证，并配合硬件团队完成真机调试与性能标定。",
+        "quote": "系统建模与仿真验证：构建和调试机器人的运动学/动力学模型，在仿真环境（Mujoco、Isaac Sim）中进行算法验证，并配合硬件团队完成真机调试与性能标定。",
+        "field": "full_description",
+        "start": 90,
+        "end": 169
+      },
+      {
+        "id": "3",
+        "review_id": "N0055:3",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "控制理论：掌握经典/现代控制理论，了解预测控制（MPC）、鲁棒控制、阻抗控制或智能控制算法，有实际调参或应用经验者优先。",
+        "quote": "控制理论：掌握经典/现代控制理论，了解预测控制（MPC）、鲁棒控制、阻抗控制或智能控制算法，有实际调参或应用经验者优先。",
+        "field": "full_description",
+        "start": 378,
+        "end": 438
+      },
+      {
+        "id": "4",
+        "review_id": "N0055:4",
+        "codes": [
+          "V2_PATH_SEARCH"
+        ],
+        "names": [
+          "路径搜索与轨迹优化"
+        ],
+        "surface": "规划算法：熟悉主流路径规划算法（如 A、RRT、DWA）及轨迹优化方法，了解其适用场景及局限性。",
+        "quote": "规划算法：熟悉主流路径规划算法（如 A、RRT、DWA）及轨迹优化方法，了解其适用场景及局限性。",
+        "field": "full_description",
+        "start": 440,
+        "end": 488
+      },
+      {
+        "id": "5",
+        "review_id": "N0055:5",
+        "codes": [
+          "V2_OSQP",
+          "V2_QPOASES",
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "OSQP",
+          "qpOASES",
+          "经典与最优控制方法"
+        ],
+        "surface": "数值优化：了解最优化理论与数值优化方法，熟悉二次规划（QP）求解器（如 OSQP、qpOASES）的使用。",
+        "quote": "数值优化：了解最优化理论与数值优化方法，熟悉二次规划（QP）求解器（如 OSQP、qpOASES）的使用。",
+        "field": "full_description",
+        "start": 490,
+        "end": 543
+      },
+      {
+        "id": "6",
+        "review_id": "N0055:6",
+        "codes": [
+          "V2_OSQP"
+        ],
+        "names": [
+          "OSQP"
+        ],
+        "surface": "OSQP",
+        "quote": "OSQP",
+        "field": "full_description",
+        "start": 526,
+        "end": 530
+      },
+      {
+        "id": "7",
+        "review_id": "N0055:7",
+        "codes": [
+          "V2_QPOASES"
+        ],
+        "names": [
+          "qpOASES"
+        ],
+        "surface": "qpOASES",
+        "quote": "qpOASES",
+        "field": "full_description",
+        "start": 531,
+        "end": 538
+      },
+      {
+        "id": "8",
+        "review_id": "N0055:8",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "扎实的 C/C++ 编程基础，熟悉现代 C++（C++11/14/17）特性，具备良好的代码风格和文档习惯；",
+        "quote": "扎实的 C/C++ 编程基础，熟悉现代 C++（C++11/14/17）特性，具备良好的代码风格和文档习惯；",
+        "field": "full_description",
+        "start": 555,
+        "end": 609
+      },
+      {
+        "id": "9",
+        "review_id": "N0055:9",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "C",
+        "quote": "C",
+        "field": "full_description",
+        "start": 559,
+        "end": 560
+      },
+      {
+        "id": "10",
+        "review_id": "N0055:10",
+        "codes": [
+          "V2_GIT",
+          "V2_CMAKE",
+          "V2_GDB"
+        ],
+        "names": [
+          "Git",
+          "CMake",
+          "GDB"
+        ],
+        "surface": "熟悉 Linux 开发环境，掌握 Git、CMake、GDB 等常用工具；",
+        "quote": "熟悉 Linux 开发环境，掌握 Git、CMake、GDB 等常用工具；",
+        "field": "full_description",
+        "start": 641,
+        "end": 678
+      },
+      {
+        "id": "11",
+        "review_id": "N0055:11",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "Git",
+        "quote": "Git",
+        "field": "full_description",
+        "start": 658,
+        "end": 661
+      },
+      {
+        "id": "12",
+        "review_id": "N0055:12",
+        "codes": [
+          "V2_CMAKE"
+        ],
+        "names": [
+          "CMake"
+        ],
+        "surface": "CMake",
+        "quote": "CMake",
+        "field": "full_description",
+        "start": 662,
+        "end": 667
+      },
+      {
+        "id": "13",
+        "review_id": "N0055:13",
+        "codes": [
+          "V2_GDB"
+        ],
+        "names": [
+          "GDB"
+        ],
+        "surface": "GDB",
+        "quote": "GDB",
+        "field": "full_description",
+        "start": 668,
+        "end": 671
+      },
+      {
+        "id": "14",
+        "review_id": "N0055:14",
+        "codes": [],
+        "names": [],
+        "surface": "RBDL",
+        "quote": "RBDL",
+        "field": "full_description",
+        "start": 754,
+        "end": 758
+      },
+      {
+        "id": "15",
+        "review_id": "N0055:15",
+        "codes": [
+          "V2_BULLET"
+        ],
+        "names": [
+          "Bullet"
+        ],
+        "surface": "熟悉至少一种物理仿真环境（Mujoco、Bullet、PyBullet 或 Isaac Gym）；",
+        "quote": "熟悉至少一种物理仿真环境（Mujoco、Bullet、PyBullet 或 Isaac Gym）；",
+        "field": "full_description",
+        "start": 765,
+        "end": 814
+      },
+      {
+        "id": "16",
+        "review_id": "N0055:16",
+        "codes": [
+          "V2_BULLET"
+        ],
+        "names": [
+          "Bullet"
+        ],
+        "surface": "Bullet",
+        "quote": "Bullet",
+        "field": "full_description",
+        "start": 785,
+        "end": 791
+      }
+    ]
+  },
+  {
+    "coding_order": 28,
+    "reading_id": "N0129",
+    "company_id": "CN_GALBOT",
+    "title": "电机开发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|4d1af2cc-b42c-48b2-bf1f-a3d5f2d46d50|ecfe5f2d0574f849c545a6bfd4a0832ca39b6603a5a6ca384719e8d8b9d24d4f",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n\n- 负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试，需完成技术文档编写。\n\n - 制定测试方案，整定PID参数，提升电机性能，配合硬件优化驱动电路。\n\n - 配合完成电机在产品中的落地使用。\n\n - 探索新型电机技术（如直驱电机、空心杯电机）在机器人中的应用。\n\n任职要求\n\n- 本科及以上学历，电机工程、自动化、电力电子等相关专业。  \n\n - 熟练使用电机驱动开发工具（如TI C2000、STM32 MCU、PLECS）。  \n\n - 了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。  \n\n - 具备硬件基础，能阅读电路图。\n\n - 熟练掌握电机对外的接口协议(CAN，485，ethercat等)。",
+      "requirements": "",
+      "full_description": "岗位职责\n\n- 负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试，需完成技术文档编写。\n\n - 制定测试方案，整定PID参数，提升电机性能，配合硬件优化驱动电路。\n\n - 配合完成电机在产品中的落地使用。\n\n - 探索新型电机技术（如直驱电机、空心杯电机）在机器人中的应用。\n\n任职要求\n\n- 本科及以上学历，电机工程、自动化、电力电子等相关专业。  \n\n - 熟练使用电机驱动开发工具（如TI C2000、STM32 MCU、PLECS）。  \n\n - 了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。  \n\n - 具备硬件基础，能阅读电路图。\n\n - 熟练掌握电机对外的接口协议(CAN，485，ethercat等)。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 8,
+        "end": 40,
+        "quote": "负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 115,
+        "end": 145,
+        "quote": "探索新型电机技术（如直驱电机、空心杯电机）在机器人中的应用。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 56,
+        "end": 89,
+        "quote": "制定测试方案，整定PID参数，提升电机性能，配合硬件优化驱动电路。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_POWER_ELECTRONICS",
+        "name": "电力电子",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 78,
+        "end": 88,
+        "quote": "配合硬件优化驱动电路",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 212,
+        "end": 221,
+        "quote": "STM32 MCU",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 236,
+        "end": 280,
+        "quote": "了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 236,
+        "end": 280,
+        "quote": "了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0129:1",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "- 负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试，需完成技术文档编写。",
+        "quote": "- 负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试，需完成技术文档编写。",
+        "field": "full_description",
+        "start": 6,
+        "end": 51
+      },
+      {
+        "id": "2",
+        "review_id": "N0129:2",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "FOC",
+        "quote": "负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试",
+        "field": "full_description",
+        "start": 8,
+        "end": 40
+      },
+      {
+        "id": "3",
+        "review_id": "N0129:3",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": " - 制定测试方案，整定PID参数，提升电机性能，配合硬件优化驱动电路。",
+        "quote": " - 制定测试方案，整定PID参数，提升电机性能，配合硬件优化驱动电路。",
+        "field": "full_description",
+        "start": 53,
+        "end": 89
+      },
+      {
+        "id": "4",
+        "review_id": "N0129:4",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "PID",
+        "quote": "整定PID参数",
+        "field": "full_description",
+        "start": 63,
+        "end": 70
+      },
+      {
+        "id": "5",
+        "review_id": "N0129:5",
+        "codes": [],
+        "names": [],
+        "surface": "TI C2000",
+        "quote": "TI C2000",
+        "field": "full_description",
+        "start": 203,
+        "end": 211
+      },
+      {
+        "id": "6",
+        "review_id": "N0129:6",
+        "codes": [],
+        "names": [],
+        "surface": "STM32 MCU",
+        "quote": "STM32 MCU",
+        "field": "full_description",
+        "start": 212,
+        "end": 221
+      },
+      {
+        "id": "7",
+        "review_id": "N0129:7",
+        "codes": [],
+        "names": [],
+        "surface": "PLECS",
+        "quote": "PLECS",
+        "field": "full_description",
+        "start": 222,
+        "end": 227
+      },
+      {
+        "id": "8",
+        "review_id": "N0129:8",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": " - 了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。  ",
+        "quote": " - 了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。  ",
+        "field": "full_description",
+        "start": 233,
+        "end": 282
+      },
+      {
+        "id": "9",
+        "review_id": "N0129:9",
+        "codes": [
+          "V2_CLASSICAL_CONTROL"
+        ],
+        "names": [
+          "经典与最优控制方法"
+        ],
+        "surface": "FOC",
+        "quote": "了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。",
+        "field": "full_description",
+        "start": 236,
+        "end": 280
+      },
+      {
+        "id": "10",
+        "review_id": "N0129:10",
+        "codes": [],
+        "names": [],
+        "surface": "DTC",
+        "quote": "了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。",
+        "field": "full_description",
+        "start": 236,
+        "end": 280
+      },
+      {
+        "id": "11",
+        "review_id": "N0129:11",
+        "codes": [],
+        "names": [],
+        "surface": "SVPWM",
+        "quote": "了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。",
+        "field": "full_description",
+        "start": 236,
+        "end": 280
+      },
+      {
+        "id": "12",
+        "review_id": "N0129:12",
+        "codes": [
+          "V2_CAN",
+          "V2_ETHERCAT"
+        ],
+        "names": [
+          "CAN协议族",
+          "EtherCAT"
+        ],
+        "surface": " - 熟练掌握电机对外的接口协议(CAN，485，ethercat等)。",
+        "quote": " - 熟练掌握电机对外的接口协议(CAN，485，ethercat等)。",
+        "field": "full_description",
+        "start": 303,
+        "end": 339
+      },
+      {
+        "id": "13",
+        "review_id": "N0129:13",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "CAN",
+        "quote": "CAN",
+        "field": "full_description",
+        "start": 320,
+        "end": 323
+      },
+      {
+        "id": "14",
+        "review_id": "N0129:14",
+        "codes": [],
+        "names": [],
+        "surface": "485",
+        "quote": "485",
+        "field": "full_description",
+        "start": 324,
+        "end": 327
+      },
+      {
+        "id": "15",
+        "review_id": "N0129:15",
+        "codes": [
+          "V2_ETHERCAT"
+        ],
+        "names": [
+          "EtherCAT"
+        ],
+        "surface": "ethercat",
+        "quote": "ethercat",
+        "field": "full_description",
+        "start": 328,
+        "end": 336
+      }
+    ]
+  },
+  {
+    "coding_order": 29,
+    "reading_id": "N0043",
+    "company_id": "CN_GALBOT",
+    "title": "机器人规划控制算法实习生",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|5066ee8c-dd84-4db0-ba5f-b8d855437c7c|2d67d78219514da6695b14730f894e0e9e4eefa8d40f09aa6306489573ffab3d",
+    "already_coded": false,
+    "fields": {
+      "duties": "职位描述\n\n1、参与机器人动作通过性的方向研究；\n\n2、参与机器人整身规划软件的框架设计及开发；\n\n3、参与机器人姿态最优相关算法的设计及开发；\n\n4、负责机器人现场实施、调试。\n\n\n\n\n职位要求\n\n1、机器人、人工智能、自动驾驶等专业；\n\n2、熟练掌握主流的规划类算法，熟悉主流避障类方法；\n\n3、熟悉最优化理论，熟练使用相关求解器及开源库；\n\n4、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；\n\n5、熟练掌握至少一种机器人运动控制仿真软件，如Mujoco, Webots, Gazebo等；\n\n6、具备良好的团队合作精神，工作认真负责，具有较强的自学能力。",
+      "requirements": "",
+      "full_description": "职位描述\n\n1、参与机器人动作通过性的方向研究；\n\n2、参与机器人整身规划软件的框架设计及开发；\n\n3、参与机器人姿态最优相关算法的设计及开发；\n\n4、负责机器人现场实施、调试。\n\n\n\n\n职位要求\n\n1、机器人、人工智能、自动驾驶等专业；\n\n2、熟练掌握主流的规划类算法，熟悉主流避障类方法；\n\n3、熟悉最优化理论，熟练使用相关求解器及开源库；\n\n4、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；\n\n5、熟练掌握至少一种机器人运动控制仿真软件，如Mujoco, Webots, Gazebo等；\n\n6、具备良好的团队合作精神，工作认真负责，具有较强的自学能力。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 182,
+        "end": 185,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 186,
+        "end": 192,
+        "quote": "Python",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_GENERIC_LANGUAGE",
+        "name": "编程语言泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 193,
+        "end": 197,
+        "quote": "编程语言",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 233,
+        "end": 239,
+        "quote": "Mujoco",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_GAZEBO",
+        "name": "Gazebo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 249,
+        "end": 255,
+        "quote": "Gazebo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 28,
+        "end": 48,
+        "quote": "参与机器人整身规划软件的框架设计及开发；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 52,
+        "end": 72,
+        "quote": "参与机器人姿态最优相关算法的设计及开发；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 123,
+        "end": 135,
+        "quote": "熟练掌握主流的规划类算法",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 220,
+        "end": 231,
+        "quote": "机器人运动控制仿真软件",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 220,
+        "end": 231,
+        "quote": "机器人运动控制仿真软件",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0043:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "4、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；",
+        "quote": "4、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；",
+        "field": "full_description",
+        "start": 174,
+        "end": 208
+      },
+      {
+        "id": "2",
+        "review_id": "N0043:2",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "C",
+        "quote": "C/C++/Python",
+        "field": "full_description",
+        "start": 180,
+        "end": 192
+      },
+      {
+        "id": "3",
+        "review_id": "N0043:3",
+        "codes": [],
+        "names": [],
+        "surface": "Webots",
+        "quote": "Webots",
+        "field": "full_description",
+        "start": 241,
+        "end": 247
+      }
+    ]
+  },
+  {
+    "coding_order": 30,
+    "reading_id": "N0164",
+    "company_id": "CN_GALBOT",
+    "title": "具身智能算法工程师-操作方向",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|55282b8e-ec8b-4c57-a6a5-eb508addac54|b80e10d42baf54b2c8d939c296b49586fc361811e0c50fd9a41e5bbb82ef21ec",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.参与机器人与人工智能算法研发，应用于室内移动操作平台的决策、规划与控制；\n\n2.对所开发算法进行仿真测试、性能测试、集成测试，积极推动产品落地，并及时解决算法缺陷、优化算法性能。\n\n3.跟踪最新的机器人与人工智能技术，独立进行技术研究和创新。\n\n4.协同团队合作，与工程师、研究员和其他相关团队合作，将算法集成到实际应用中。\n\n\n\n\n岗位要求：\n\n1、计算机科学、自动化或相关专业，硕士及以上学历；\n\n2、具备扎实的数学基础，理解凸优化、矩阵理论、数理统计、李群和李代数等相关知识者优先；熟悉机器学习、计算机视觉、传感器融合的基本理论和方法，有相关论文发表或参与有参加过机器人比赛者优先；\n\n3、熟练掌握C++和Python等编程语言，能够进行算法开发和实现，有边缘设备开发经验者优先；熟悉机器人和人工智能相关的开发和调试工具，如ROS、OpenCV、PyTorch等；\n\n4、熟悉机器人学习及最优控制，以及Gazebo、Isaac Sim/Gym/Orbit、Sapien、PyBullet、iGibson、Mujoco等相关仿真工具者优先；\n\n5、良好的团队合作和沟通能力，能够与多学科团队合作完成项目；\n\n6、能够流利读写英文文档，理解相关技术资料和论文。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1.参与机器人与人工智能算法研发，应用于室内移动操作平台的决策、规划与控制；\n\n2.对所开发算法进行仿真测试、性能测试、集成测试，积极推动产品落地，并及时解决算法缺陷、优化算法性能。\n\n3.跟踪最新的机器人与人工智能技术，独立进行技术研究和创新。\n\n4.协同团队合作，与工程师、研究员和其他相关团队合作，将算法集成到实际应用中。\n\n\n\n\n岗位要求：\n\n1、计算机科学、自动化或相关专业，硕士及以上学历；\n\n2、具备扎实的数学基础，理解凸优化、矩阵理论、数理统计、李群和李代数等相关知识者优先；熟悉机器学习、计算机视觉、传感器融合的基本理论和方法，有相关论文发表或参与有参加过机器人比赛者优先；\n\n3、熟练掌握C++和Python等编程语言，能够进行算法开发和实现，有边缘设备开发经验者优先；熟悉机器人和人工智能相关的开发和调试工具，如ROS、OpenCV、PyTorch等；\n\n4、熟悉机器人学习及最优控制，以及Gazebo、Isaac Sim/Gym/Orbit、Sapien、PyBullet、iGibson、Mujoco等相关仿真工具者优先；\n\n5、良好的团队合作和沟通能力，能够与多学科团队合作完成项目；\n\n6、能够流利读写英文文档，理解相关技术资料和论文。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 311,
+        "end": 314,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 315,
+        "end": 321,
+        "quote": "Python",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_GENERIC_LANGUAGE",
+        "name": "编程语言泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 322,
+        "end": 326,
+        "quote": "编程语言",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 374,
+        "end": 377,
+        "quote": "ROS",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_OPENCV",
+        "name": "OpenCV",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 378,
+        "end": 384,
+        "quote": "OpenCV",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 385,
+        "end": 392,
+        "quote": "PyTorch",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "SK_GAZEBO",
+        "name": "Gazebo",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 413,
+        "end": 419,
+        "quote": "Gazebo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 420,
+        "end": 439,
+        "quote": "Isaac Sim/Gym/Orbit",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "SK_PYBULLET",
+        "name": "PyBullet",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 447,
+        "end": 455,
+        "quote": "PyBullet",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 464,
+        "end": 470,
+        "quote": "Mujoco",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 45,
+        "quote": "参与机器人与人工智能算法研发，应用于室内移动操作平台的决策、规划与控制；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 45,
+        "quote": "参与机器人与人工智能算法研发，应用于室内移动操作平台的决策、规划与控制；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 45,
+        "quote": "参与机器人与人工智能算法研发，应用于室内移动操作平台的决策、规划与控制；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 49,
+        "end": 71,
+        "quote": "对所开发算法进行仿真测试、性能测试、集成测试",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 49,
+        "end": 71,
+        "quote": "对所开发算法进行仿真测试、性能测试、集成测试",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 253,
+        "end": 279,
+        "quote": "熟悉机器学习、计算机视觉、传感器融合的基本理论和方法",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 253,
+        "end": 279,
+        "quote": "熟悉机器学习、计算机视觉、传感器融合的基本理论和方法",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 400,
+        "end": 405,
+        "quote": "机器人学习",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O19",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 406,
+        "end": 410,
+        "quote": "最优控制",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O20",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 413,
+        "end": 419,
+        "quote": "Gazebo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O21",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 420,
+        "end": 439,
+        "quote": "Isaac Sim/Gym/Orbit",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O22",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 440,
+        "end": 446,
+        "quote": "Sapien",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O23",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 447,
+        "end": 455,
+        "quote": "PyBullet",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O24",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 456,
+        "end": 463,
+        "quote": "iGibson",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O25",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 464,
+        "end": 470,
+        "quote": "Mujoco",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0164:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "3、熟练掌握C++和Python等编程语言，能够进行算法开发和实现，有边缘设备开发经验者优先；熟悉机器人和人工智能相关的开发和调试工具，如ROS、OpenCV、PyTorch等；",
+        "quote": "3、熟练掌握C++和Python等编程语言，能够进行算法开发和实现，有边缘设备开发经验者优先；熟悉机器人和人工智能相关的开发和调试工具，如ROS、OpenCV、PyTorch等；",
+        "field": "full_description",
+        "start": 305,
+        "end": 394
+      },
+      {
+        "id": "2",
+        "review_id": "N0164:2",
+        "codes": [
+          "V2_SAPIEN"
+        ],
+        "names": [
+          "SAPIEN"
+        ],
+        "surface": "4、熟悉机器人学习及最优控制，以及Gazebo、Isaac Sim/Gym/Orbit、Sapien、PyBullet、iGibson、Mujoco等相关仿真工具者优先；",
+        "quote": "4、熟悉机器人学习及最优控制，以及Gazebo、Isaac Sim/Gym/Orbit、Sapien、PyBullet、iGibson、Mujoco等相关仿真工具者优先；",
+        "field": "full_description",
+        "start": 396,
+        "end": 481
+      },
+      {
+        "id": "3",
+        "review_id": "N0164:3",
+        "codes": [
+          "V2_SAPIEN"
+        ],
+        "names": [
+          "SAPIEN"
+        ],
+        "surface": "Sapien",
+        "quote": "Sapien",
+        "field": "full_description",
+        "start": 440,
+        "end": 446
+      },
+      {
+        "id": "4",
+        "review_id": "N0164:4",
+        "codes": [],
+        "names": [],
+        "surface": "iGibson",
+        "quote": "iGibson",
+        "field": "full_description",
+        "start": 456,
+        "end": 463
+      }
+    ]
+  },
+  {
+    "coding_order": 31,
+    "reading_id": "N0077",
+    "company_id": "CN_GALBOT",
+    "title": "人机交互算法工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|57c62c9d-f3e8-4ff8-9703-f0b6eb622fb4|395afbe73ef0701e4c45a84865662e7bbf9c6b68c1dcc7cfc0f4b98d486d8eb5",
+    "already_coded": false,
+    "fields": {
+      "duties": "职位描述：\n\n1、构建面向机器人的多模态交互Pipeline：融合视觉/语音/语言输入，将数字人动作生成逻辑转化为机器人可执行的关节轨迹/行为指令，兼顾运动学约束与交互自然性。\n\n2、将2D/3D数字人领域的成熟技术适配到机器人平台，解决机器人在人机交互中的肢体表达、手势协同、非语言反馈等关键问题。\n\n3、针对机器人物理限制（自由度、运动范围、延迟、安全性），对源自数字人的动作序列进行重定向（Retargeting）、平滑优化与可行性校验，确保生成动作在真机/仿真环境中稳定可执行。\n\n4、独立设计迁移验证方案，在Isaac Sim/MuJoCo等仿真环境及真实机器人平台上完成算法闭环测试，量化评估交互自然度、响应延迟与用户接受度。\n\n5、与机器人控制、感知、语音团队紧密协作，推动“数字人交互逻辑→机器人行为落地”的技术转化，沉淀可复用的跨域迁移方法论。\n\n\n\n\n职位要求：\n\n1、硕士及以上学历，计算机、人工智能、机器人、动画或相关专业背景。\n\n2、具备2D/3D数字人研发经验（如动作生成、语音驱动、表情/手势建模、SMPL/SMPL-X/FLAME应用等），并清晰理解如何将虚拟动作映射到物理实体，有跨域迁移实践者优先。\n\n3、熟悉多模态交互技术栈，了解LLM/VLM在意图理解中的应用，熟练掌握Transformer、Diffusion等生成架构，关注时序连续性与物理可行性约束。\n\n4、熟练使用PyTorch，了解机器人基础概念（如正/逆运动学）；掌握3D工具链（Unity/Unreal/Blender/PyTorch3D）与Python/C++工程能力。\n\n5、有具身智能、机器人仿真（Isaac Gym/MuJoCo）、sim2real迁移经验，或在CVPR/ICCV/SIGGRAPH/ACM MM/IROS等顶会发表论文者优先。\n\n6、逻辑清晰，具备技术抽象与跨域迁移思维，能快速学习机器人领域知识，对“用数字人技术赋能实体机器人交互”有强烈自驱力。",
+      "requirements": "",
+      "full_description": "职位描述：\n\n1、构建面向机器人的多模态交互Pipeline：融合视觉/语音/语言输入，将数字人动作生成逻辑转化为机器人可执行的关节轨迹/行为指令，兼顾运动学约束与交互自然性。\n\n2、将2D/3D数字人领域的成熟技术适配到机器人平台，解决机器人在人机交互中的肢体表达、手势协同、非语言反馈等关键问题。\n\n3、针对机器人物理限制（自由度、运动范围、延迟、安全性），对源自数字人的动作序列进行重定向（Retargeting）、平滑优化与可行性校验，确保生成动作在真机/仿真环境中稳定可执行。\n\n4、独立设计迁移验证方案，在Isaac Sim/MuJoCo等仿真环境及真实机器人平台上完成算法闭环测试，量化评估交互自然度、响应延迟与用户接受度。\n\n5、与机器人控制、感知、语音团队紧密协作，推动“数字人交互逻辑→机器人行为落地”的技术转化，沉淀可复用的跨域迁移方法论。\n\n\n\n\n职位要求：\n\n1、硕士及以上学历，计算机、人工智能、机器人、动画或相关专业背景。\n\n2、具备2D/3D数字人研发经验（如动作生成、语音驱动、表情/手势建模、SMPL/SMPL-X/FLAME应用等），并清晰理解如何将虚拟动作映射到物理实体，有跨域迁移实践者优先。\n\n3、熟悉多模态交互技术栈，了解LLM/VLM在意图理解中的应用，熟练掌握Transformer、Diffusion等生成架构，关注时序连续性与物理可行性约束。\n\n4、熟练使用PyTorch，了解机器人基础概念（如正/逆运动学）；掌握3D工具链（Unity/Unreal/Blender/PyTorch3D）与Python/C++工程能力。\n\n5、有具身智能、机器人仿真（Isaac Gym/MuJoCo）、sim2real迁移经验，或在CVPR/ICCV/SIGGRAPH/ACM MM/IROS等顶会发表论文者优先。\n\n6、逻辑清晰，具备技术抽象与跨域迁移思维，能快速学习机器人领域知识，对“用数字人技术赋能实体机器人交互”有强烈自驱力。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 258,
+        "end": 297,
+        "quote": "在Isaac Sim/MuJoCo等仿真环境及真实机器人平台上完成算法闭环测试",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 258,
+        "end": 297,
+        "quote": "在Isaac Sim/MuJoCo等仿真环境及真实机器人平台上完成算法闭环测试",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 602,
+        "end": 613,
+        "quote": "熟练使用PyTorch",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 673,
+        "end": 679,
+        "quote": "Python",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 680,
+        "end": 683,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 704,
+        "end": 713,
+        "quote": "Isaac Gym",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 714,
+        "end": 720,
+        "quote": "MuJoCo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 44,
+        "end": 73,
+        "quote": "将数字人动作生成逻辑转化为机器人可执行的关节轨迹/行为指令",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 31,
+        "end": 43,
+        "quote": "融合视觉/语音/语言输入",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 154,
+        "end": 180,
+        "quote": "针对机器人物理限制（自由度、运动范围、延迟、安全性）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 258,
+        "end": 297,
+        "quote": "在Isaac Sim/MuJoCo等仿真环境及真实机器人平台上完成算法闭环测试",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 258,
+        "end": 297,
+        "quote": "在Isaac Sim/MuJoCo等仿真环境及真实机器人平台上完成算法闭环测试",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 323,
+        "end": 341,
+        "quote": "与机器人控制、感知、语音团队紧密协作",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 323,
+        "end": 341,
+        "quote": "与机器人控制、感知、语音团队紧密协作",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 532,
+        "end": 550,
+        "quote": "了解LLM/VLM在意图理解中的应用",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 555,
+        "end": 566,
+        "quote": "Transformer",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 567,
+        "end": 576,
+        "quote": "Diffusion",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 704,
+        "end": 713,
+        "quote": "Isaac Gym",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O19",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 714,
+        "end": 720,
+        "quote": "MuJoCo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O20",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 722,
+        "end": 734,
+        "quote": "sim2real迁移经验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0077:1",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "4、独立设计迁移验证方案，在Isaac Sim/MuJoCo等仿真环境及真实机器人平台上完成算法闭环测试，量化评估交互自然度、响应延迟与用户接受度。",
+        "quote": "4、独立设计迁移验证方案，在Isaac Sim/MuJoCo等仿真环境及真实机器人平台上完成算法闭环测试，量化评估交互自然度、响应延迟与用户接受度。",
+        "field": "full_description",
+        "start": 245,
+        "end": 319
+      },
+      {
+        "id": "2",
+        "review_id": "N0077:2",
+        "codes": [],
+        "names": [],
+        "surface": "SMPL",
+        "quote": "SMPL",
+        "field": "full_description",
+        "start": 464,
+        "end": 468
+      },
+      {
+        "id": "3",
+        "review_id": "N0077:3",
+        "codes": [],
+        "names": [],
+        "surface": "SMPL-X",
+        "quote": "SMPL-X",
+        "field": "full_description",
+        "start": 469,
+        "end": 475
+      },
+      {
+        "id": "4",
+        "review_id": "N0077:4",
+        "codes": [],
+        "names": [],
+        "surface": "FLAME",
+        "quote": "FLAME",
+        "field": "full_description",
+        "start": 476,
+        "end": 481
+      },
+      {
+        "id": "5",
+        "review_id": "N0077:5",
+        "codes": [
+          "V2_C",
+          "V2_BLENDER",
+          "V2_UNITY",
+          "V2_UNREAL"
+        ],
+        "names": [
+          "C语言",
+          "Blender",
+          "Unity",
+          "Unreal Engine"
+        ],
+        "surface": "4、熟练使用PyTorch，了解机器人基础概念（如正/逆运动学）；掌握3D工具链（Unity/Unreal/Blender/PyTorch3D）与Python/C++工程能力。",
+        "quote": "4、熟练使用PyTorch，了解机器人基础概念（如正/逆运动学）；掌握3D工具链（Unity/Unreal/Blender/PyTorch3D）与Python/C++工程能力。",
+        "field": "full_description",
+        "start": 600,
+        "end": 688
+      },
+      {
+        "id": "6",
+        "review_id": "N0077:6",
+        "codes": [
+          "V2_UNITY"
+        ],
+        "names": [
+          "Unity"
+        ],
+        "surface": "Unity",
+        "quote": "Unity",
+        "field": "full_description",
+        "start": 641,
+        "end": 646
+      },
+      {
+        "id": "7",
+        "review_id": "N0077:7",
+        "codes": [
+          "V2_UNREAL"
+        ],
+        "names": [
+          "Unreal Engine"
+        ],
+        "surface": "Unreal",
+        "quote": "Unreal",
+        "field": "full_description",
+        "start": 647,
+        "end": 653
+      },
+      {
+        "id": "8",
+        "review_id": "N0077:8",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "Blender",
+        "quote": "Blender",
+        "field": "full_description",
+        "start": 654,
+        "end": 661
+      },
+      {
+        "id": "9",
+        "review_id": "N0077:9",
+        "codes": [],
+        "names": [],
+        "surface": "PyTorch3D",
+        "quote": "PyTorch3D",
+        "field": "full_description",
+        "start": 662,
+        "end": 671
+      },
+      {
+        "id": "10",
+        "review_id": "N0077:10",
+        "codes": [
+          "V2_SIM2REAL"
+        ],
+        "names": [
+          "仿真与现实迁移"
+        ],
+        "surface": "5、有具身智能、机器人仿真（Isaac Gym/MuJoCo）、sim2real迁移经验，或在CVPR/ICCV/SIGGRAPH/ACM MM/IROS等顶会发表论文者优先。",
+        "quote": "5、有具身智能、机器人仿真（Isaac Gym/MuJoCo）、sim2real迁移经验，或在CVPR/ICCV/SIGGRAPH/ACM MM/IROS等顶会发表论文者优先。",
+        "field": "full_description",
+        "start": 690,
+        "end": 778
+      }
+    ]
+  },
+  {
+    "coding_order": 32,
+    "reading_id": "N0063",
+    "company_id": "CN_GALBOT",
+    "title": "重定向算法实习生",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|5c53daa9-38b5-4ef0-9646-0ac65e25b4b7|a58225665ee908f2c12dba6e2964247f6d0dfc38a828c573a40746f645bd8519",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1、负责人体/人形机器人动作生成（motion generation）与重定向（retargeting）算法的设计、开发与优化，实现从人类动作到机器人动作的高质量映射。\n\n2、 负责多源动作数据处理与建模，包括动捕数据（mocap）、视频提取动作、仿真数据等，完成清洗、对齐、标注及标准化流程建设。\n\n3、设计并实现跨骨骼结构（human → humanoid）的动作重定向算法，解决关节自由度不一致、比例差异、约束冲突等问题，保证动作自然性与物理可行性。特别是涉及场景和地形下的motion retargeting算法开发，优化地形的接触等。\n\n4、参与动作生成模型的开发与优化（如基于 diffusion / VAE / transformer 的 motion model），提升动作多样性、连贯性与可控性。结合物理仿真或控制约束（如接触、平衡、动力学限制），优化生成动作在真实机器人或仿真环境中的可执行性。优化动作处理与生成系统性能，支持离线数据处理与在线生成需求（如实时动作驱动）。\n\n5、与算法（RL / 感知）、控制、仿真、软件团队协作，打通从感知 → 动作生成 → 控制执行的完整链路。\n\n6、负责动作相关问题的分析与调试，包括动作异常（抖动、穿模、失稳）、轨迹不连续、接触不合理等问题定位与修复。\n\n\n\n\n岗位要求：\n\n1、本科及以上学历，计算机、自动化、机器人、图形学、动画、电子信息等相关专业。\n\n2、具备动作生成、角色动画（character animation）或机器人运动相关经验，有 motion retargeting / motion synthesis 项目经验优先。\n\n3、熟悉人体与机器人运动建模方法，包括骨骼系统（skeleton）、关节表示（Euler / quaternion）、前向/逆向运动学（FK/IK）。\n\n4、熟悉常见动作处理与生成方法，例如: Motion matching / motion graph ,  IK-based retargeting （GMR，omniretarget), Learning-based motion generation（diffusion、VAE、transformer等）\n\n5、熟悉至少一种仿真或动画工具链，如MuJoCo / Isaac Gym, Blender / Unity 或其他物理引擎/动画系统\n\n6、精通 Python 或 C++，具备良好的数据处理与算法实现能力，熟悉 NumPy / PyTorch 等工具优先。\n\n7、熟悉动捕数据格式与处理流程（如 BVH、FBX 等），具备动作数据清洗与调优经验。\n\n8、具备良好的数学基础（线性代数、优化方法、概率统计），能够理解并实现相关算法。具备良好的工程能力与系统意识，能够将算法模块落地为稳定可复用的系统组件。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1、负责人体/人形机器人动作生成（motion generation）与重定向（retargeting）算法的设计、开发与优化，实现从人类动作到机器人动作的高质量映射。\n\n2、 负责多源动作数据处理与建模，包括动捕数据（mocap）、视频提取动作、仿真数据等，完成清洗、对齐、标注及标准化流程建设。\n\n3、设计并实现跨骨骼结构（human → humanoid）的动作重定向算法，解决关节自由度不一致、比例差异、约束冲突等问题，保证动作自然性与物理可行性。特别是涉及场景和地形下的motion retargeting算法开发，优化地形的接触等。\n\n4、参与动作生成模型的开发与优化（如基于 diffusion / VAE / transformer 的 motion model），提升动作多样性、连贯性与可控性。结合物理仿真或控制约束（如接触、平衡、动力学限制），优化生成动作在真实机器人或仿真环境中的可执行性。优化动作处理与生成系统性能，支持离线数据处理与在线生成需求（如实时动作驱动）。\n\n5、与算法（RL / 感知）、控制、仿真、软件团队协作，打通从感知 → 动作生成 → 控制执行的完整链路。\n\n6、负责动作相关问题的分析与调试，包括动作异常（抖动、穿模、失稳）、轨迹不连续、接触不合理等问题定位与修复。\n\n\n\n\n岗位要求：\n\n1、本科及以上学历，计算机、自动化、机器人、图形学、动画、电子信息等相关专业。\n\n2、具备动作生成、角色动画（character animation）或机器人运动相关经验，有 motion retargeting / motion synthesis 项目经验优先。\n\n3、熟悉人体与机器人运动建模方法，包括骨骼系统（skeleton）、关节表示（Euler / quaternion）、前向/逆向运动学（FK/IK）。\n\n4、熟悉常见动作处理与生成方法，例如: Motion matching / motion graph ,  IK-based retargeting （GMR，omniretarget), Learning-based motion generation（diffusion、VAE、transformer等）\n\n5、熟悉至少一种仿真或动画工具链，如MuJoCo / Isaac Gym, Blender / Unity 或其他物理引擎/动画系统\n\n6、精通 Python 或 C++，具备良好的数据处理与算法实现能力，熟悉 NumPy / PyTorch 等工具优先。\n\n7、熟悉动捕数据格式与处理流程（如 BVH、FBX 等），具备动作数据清洗与调优经验。\n\n8、具备良好的数学基础（线性代数、优化方法、概率统计），能够理解并实现相关算法。具备良好的工程能力与系统意识，能够将算法模块落地为稳定可复用的系统组件。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_MUJOCO",
+        "name": "MuJoCo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 963,
+        "end": 969,
+        "quote": "MuJoCo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 972,
+        "end": 981,
+        "quote": "Isaac Gym",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1018,
+        "end": 1024,
+        "quote": "Python",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1027,
+        "end": 1030,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_NUMPY",
+        "name": "NumPy",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1051,
+        "end": 1056,
+        "quote": "NumPy",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1059,
+        "end": 1066,
+        "quote": "PyTorch",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 9,
+        "end": 70,
+        "quote": "负责人体/人形机器人动作生成（motion generation）与重定向（retargeting）算法的设计、开发与优化",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 96,
+        "end": 156,
+        "quote": "负责多源动作数据处理与建模，包括动捕数据（mocap）、视频提取动作、仿真数据等，完成清洗、对齐、标注及标准化流程建设。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_SYNTHETIC_DATA",
+        "name": "合成数据",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 96,
+        "end": 156,
+        "quote": "负责多源动作数据处理与建模，包括动捕数据（mocap）、视频提取动作、仿真数据等，完成清洗、对齐、标注及标准化流程建设。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_GENERATIVE_POLICY",
+        "name": "生成式机器人策略",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 283,
+        "end": 347,
+        "quote": "参与动作生成模型的开发与优化（如基于 diffusion / VAE / transformer 的 motion model）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 364,
+        "end": 389,
+        "quote": "结合物理仿真或控制约束（如接触、平衡、动力学限制）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 364,
+        "end": 389,
+        "quote": "结合物理仿真或控制约束（如接触、平衡、动力学限制）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 428,
+        "end": 452,
+        "quote": "支持离线数据处理与在线生成需求（如实时动作驱动）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_RL",
+        "name": "强化学习",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 457,
+        "end": 482,
+        "quote": "与算法（RL / 感知）、控制、仿真、软件团队协作",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 457,
+        "end": 482,
+        "quote": "与算法（RL / 感知）、控制、仿真、软件团队协作",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 457,
+        "end": 482,
+        "quote": "与算法（RL / 感知）、控制、仿真、软件团队协作",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 457,
+        "end": 482,
+        "quote": "与算法（RL / 感知）、控制、仿真、软件团队协作",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 621,
+        "end": 625,
+        "quote": "动作生成",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O19",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 662,
+        "end": 708,
+        "quote": "有 motion retargeting / motion synthesis 项目经验优先",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O20",
+        "code": "TC_MOTION_PLANNING",
+        "name": "运动规划",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 842,
+        "end": 862,
+        "quote": "IK-based retargeting",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O21",
+        "code": "TC_GENERATIVE_POLICY",
+        "name": "生成式机器人策略",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 883,
+        "end": 943,
+        "quote": "Learning-based motion generation（diffusion、VAE、transformer等）",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O22",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 963,
+        "end": 969,
+        "quote": "MuJoCo",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O23",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 972,
+        "end": 981,
+        "quote": "Isaac Gym",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O24",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1104,
+        "end": 1117,
+        "quote": "具备动作数据清洗与调优经验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0063:1",
+        "codes": [
+          "V2_MOCAP"
+        ],
+        "names": [
+          "动作捕捉与演示数据采集"
+        ],
+        "surface": "2、 负责多源动作数据处理与建模，包括动捕数据（mocap）、视频提取动作、仿真数据等，完成清洗、对齐、标注及标准化流程建设。",
+        "quote": "2、 负责多源动作数据处理与建模，包括动捕数据（mocap）、视频提取动作、仿真数据等，完成清洗、对齐、标注及标准化流程建设。",
+        "field": "full_description",
+        "start": 93,
+        "end": 156
+      },
+      {
+        "id": "2",
+        "review_id": "N0063:2",
+        "codes": [],
+        "names": [],
+        "surface": "GMR",
+        "quote": "GMR",
+        "field": "full_description",
+        "start": 864,
+        "end": 867
+      },
+      {
+        "id": "3",
+        "review_id": "N0063:3",
+        "codes": [],
+        "names": [],
+        "surface": "omniretarget",
+        "quote": "omniretarget",
+        "field": "full_description",
+        "start": 868,
+        "end": 880
+      },
+      {
+        "id": "4",
+        "review_id": "N0063:4",
+        "codes": [
+          "V2_BLENDER",
+          "V2_UNITY"
+        ],
+        "names": [
+          "Blender",
+          "Unity"
+        ],
+        "surface": "5、熟悉至少一种仿真或动画工具链，如MuJoCo / Isaac Gym, Blender / Unity 或其他物理引擎/动画系统",
+        "quote": "5、熟悉至少一种仿真或动画工具链，如MuJoCo / Isaac Gym, Blender / Unity 或其他物理引擎/动画系统",
+        "field": "full_description",
+        "start": 945,
+        "end": 1011
+      },
+      {
+        "id": "5",
+        "review_id": "N0063:5",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "Blender",
+        "quote": "Blender",
+        "field": "full_description",
+        "start": 983,
+        "end": 990
+      },
+      {
+        "id": "6",
+        "review_id": "N0063:6",
+        "codes": [
+          "V2_UNITY"
+        ],
+        "names": [
+          "Unity"
+        ],
+        "surface": "Unity",
+        "quote": "Unity",
+        "field": "full_description",
+        "start": 993,
+        "end": 998
+      },
+      {
+        "id": "7",
+        "review_id": "N0063:7",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "6、精通 Python 或 C++，具备良好的数据处理与算法实现能力，熟悉 NumPy / PyTorch 等工具优先。",
+        "quote": "6、精通 Python 或 C++，具备良好的数据处理与算法实现能力，熟悉 NumPy / PyTorch 等工具优先。",
+        "field": "full_description",
+        "start": 1013,
+        "end": 1073
+      },
+      {
+        "id": "8",
+        "review_id": "N0063:8",
+        "codes": [
+          "V2_MOCAP"
+        ],
+        "names": [
+          "动作捕捉与演示数据采集"
+        ],
+        "surface": "7、熟悉动捕数据格式与处理流程（如 BVH、FBX 等），具备动作数据清洗与调优经验。",
+        "quote": "7、熟悉动捕数据格式与处理流程（如 BVH、FBX 等），具备动作数据清洗与调优经验。",
+        "field": "full_description",
+        "start": 1075,
+        "end": 1118
+      },
+      {
+        "id": "9",
+        "review_id": "N0063:9",
+        "codes": [],
+        "names": [],
+        "surface": "BVH",
+        "quote": "BVH",
+        "field": "full_description",
+        "start": 1093,
+        "end": 1096
+      },
+      {
+        "id": "10",
+        "review_id": "N0063:10",
+        "codes": [],
+        "names": [],
+        "surface": "FBX",
+        "quote": "FBX",
+        "field": "full_description",
+        "start": 1097,
+        "end": 1100
+      }
+    ]
+  }
+]

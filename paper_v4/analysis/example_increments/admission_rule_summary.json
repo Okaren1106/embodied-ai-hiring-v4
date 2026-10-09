@@ -1,0 +1,61 @@
+{
+  "version": "v4_seven_corrections_relation_set_propagation",
+  "interpretation": "Admission-rule alternatives, not truth corrections; baseline Q unchanged. Narrower admission alternatives restore excluded increments to their current Q states.",
+  "expanded_scope_definition": "Current production Q_plus_example includes known EXAMPLE qualifications plus UNCONDITIONAL_OR_EXAMPLE relation sets whose two readings both qualify under the expanded construct. The latter are not labelled known EXAMPLE.",
+  "explicit_cues_admitted": [
+    "such as",
+    "e.g.",
+    "如"
+  ],
+  "explicit_cues_not_observed_in_increment_set": [
+    "for example",
+    "例如",
+    "including"
+  ],
+  "deng_only_is_separate": true,
+  "n_reviewed_increments": 44,
+  "known_counterexample": "N0798 and N1044 bare parenthetical lists lack explicit example cues; current Q=U but both admitted relation readings enter expanded scope.",
+  "classification_changes_made": false,
+  "independent_human_validation": false,
+  "by_company": {
+    "Spirit AI": 1,
+    "X Square": 12,
+    "Agility Robotics": 1,
+    "Apptronik": 3,
+    "Figure": 6,
+    "Galbot": 5,
+    "Astribot": 3,
+    "AgiBot": 1,
+    "Fourier Intelligence": 2,
+    "Deep Robotics": 5,
+    "Galaxea AI": 1,
+    "Field AI": 2,
+    "Boston Dynamics": 2
+  },
+  "by_cue": {
+    "DENG_ONLY_OPEN_LIST": 25,
+    "EXPLICIT_CHINESE_RU": 5,
+    "EN_SUCH_AS": 7,
+    "EN_EG": 5,
+    "BARE_PARENTHETICAL_LIST": 2
+  },
+  "repeated_parent_groups": 8,
+  "inputs": [
+    {
+      "path": "analysis\\paired\\qualification_scope_states.csv",
+      "sha256": "44454b9cc4412c073551179e0177dc218716af968b4f1cadc2021418a62ea018"
+    },
+    {
+      "path": "analysis\\paired\\paired_advertisements.csv",
+      "sha256": "9a64d200ce7f54f75f34788c238ac37f2c72f3a232518bfbb0fbbbd2311e0947"
+    },
+    {
+      "path": "work\\literature_validation\\review_annotations.json",
+      "sha256": "c3b4e23e74e83c088e259412b2916f6799bdf019f731670b51572f83890f0627"
+    },
+    {
+      "path": "analysis\\example_increments\\example_increment_ledger.csv",
+      "sha256": "a1b3cc3547edcf2e0eb2ff50dca1aa6558b38bd98e392895bf8f80d847baebf9"
+    }
+  ]
+}

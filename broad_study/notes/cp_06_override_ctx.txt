@@ -1,0 +1,65 @@
+==== 11 E0348 TITLE Senior Staff Software Engineer, Motion Planning
+O1 SK_CPP | GENERAL | UNCONDITIONAL | C++
+O17 TC_MOTION_PLANNING | GENERAL | UNCONDITIONAL | planning
+O18 TC_CONTROL | GENERAL | UNCONDITIONAL | control
+O20 TC_MANIPULATION | PREFERRED | UNCONDITIONAL | manipulation
+O26 TC_MOTION_PLANNING | PREFERRED | UNCONDITIONAL | motion planning
+DUTY Own and drive the technical roadmap for collision-free motion planning across whole-body motion, manipulation, grasping, and loco-manipulation Design, implement, test, and deploy motion planning and trajectory optimization algorithms for humanoid robots Architect motion planning systems for modularity, observability, and clean integration with perception, state estimation, and control Develop algo
+REQ Experience developing and deploying manipulation algorithms on high-DOF robots Industry experience deploying mobile manipulation robots in real-world commercial applications Proven expertise in sample-based motion planning, trajectory optimization, and model predictive control (MPC) with a track record of shipping these algorithms to production Expertise developing planning and optimization algorithms subject to geometric and kinodynamic constraints, including contact, friction, and collision De
+
+==== 45 E0003 TITLE 强化学习算法工程师
+O12 TC_RL | GENERAL | UNCONDITIONAL | 强化学习
+O14 TC_RL | PREFERRED | UNCONDITIONAL | 强化学习
+DUTY 1、负责基于强化学习的四足/轮足运动控制算法研发及落地应用; 2、根据实际项目需求实现、改造和优化算法,解决实际问题; 3、研究前沿机器人强化学习、模仿学习算法。
+REQ 1、熟悉Python,Pytorch等编程语言,熟悉Linux操作系统; 熟悉深度学习(MLP, CNN, RNN, tranformer等)算法,了解强化学习(Q-Learning、PPO)算法; 2、了解主流机器人仿真平台如IsaacGym, Isaaclab, Mujoco, Pybullet等; 3、拥有良好的沟通能力,优秀的学习能力,较强的分析和解决实际问题的能力,动手能力强,对运动控制感兴趣; 4、工作经验0-2年。 加分项:做过基于强化学习、模仿学习的机器人控制任务;有机器人/learning方向顶会顶刊论文。
+
+==== 47 E0004 TITLE 强化学习运控算法工程师
+O3 SK_ROS | GENERAL | UNRESOLVED | ROS
+DUTY 1、负责基于强化学习的双足运动控制算法研发及算法极限性能探索(可0到1培养); 2、负责通过机器人运动学、动力学、控制理论知识分析机器人结构并提出改进意见; 3、根据实际项目需求实现、改造和优化算法; 4、持续研究最新强化学习、模仿学习算法。
+REQ 1、机器人、机械自动化、电子信息等相关专业背景,硕士及以上学历; 2、掌握机器人动力学、优化理论、凸优化、变分法、数值计算等相关知识; 3、熟悉传统控制(PID、LQR、阻抗控制等)、最优控制(MPC 等); 4、熟练使用C++/Python,了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具; 5、熟悉MuJoCo、Isaac Gym、 Gazebo、PyBullet等机器人仿真环境; 6、有过基于强化学习、模仿学习的机器人控制任务相关经验优先。
+
+==== 56 E0295 TITLE 运动控制算法工程师
+O3 SK_ROS | GENERAL | UNRESOLVED | ROS
+DUTY 负责运动控制算法的研发与优化,包括但不限于以下方向: 1、传统控制优化:设计并优化 PID、反馈线性化、阻抗控制等算法,以提升运动精度和鲁棒性; 2、最优控制与轨迹优化:应用轨迹优化和MPC等方法,实现优化轨迹跟踪、约束控制等功能; 3、基于动力学模型的全身控制:应用操作空间控制(Operational Space Control)的方法,实现全身控制(Whole-Body Control),并利用系统辨识来实现高性能控制; 4、全身控制:研究适用于双臂,灵巧手,轮式、双足等复杂机器人系统的协调运动控制; 5、多约束优化与实时控制:结合动力学约束、接触建模、力/位置混合控制,运用数值优化(QP、SQP、iLQR 等)实现高效实时控制。
+REQ 1、学历背景:硕士及以上学历,机器人、控制工程、计算机科学、机械电子、应用数学等相关专业(博士优先); 2、数学基础扎实:掌握机器人动力学、优化理论、凸优化、变分法、数值计算等相关知识; 3、控制算法:熟悉传统控制(PID、LQR、阻抗控制、反馈线性化等)、最优控制(MPC、iLQR、DDP 等)、操作空间控制(OSC,WBC),有 QP-based WBC 经验者优先; 4、编程与工具:熟练使用 C++/Python,了解 ROS/ROS2、Pinocchio、CasADi 等生态工具; 5、仿真环境:熟悉 MuJoCo、Drake、Isaac Gym、Gazebo、PyBullet等机器人仿真环境。  优先考虑: 具备以下至少一项经验者优先: 1、机器人实操经验(如机械臂、灵巧手,轮式/双足/四足机器人、无人机等); 2、发表过高水平论文(如 ICRA、IROS、RSS、NeurIPS、CoRL)或有优秀开源项目。
+
+==== 57 E0276 TITLE 电机控制算法工程师
+O8 TC_ACTUATOR | GENERAL | UNCONDITIONAL | 电机
+O10 TC_CONTROL | GENERAL | UNCONDITIONAL | 电机控制算法
+O13 TC_ACTUATOR | GENERAL | UNCONDITIONAL | 无刷电机
+DUTY 1、负责机器人关节电机高性能控制器的方案设计、建模仿真、并于嵌入式合作完成软件开发; 2、设计、开发电机高精度状态反馈算法,如位置、速度、力矩等; 3、协同硬件、结构工程师设计机电系统方案。如硬件参与硬件选型、电机传感器布置方案等; 4、优化电机控制器电流环响应及探索提高电流环带宽的算法; 5、开发实现电机在线、离线参数辨识算法; 6、负责相关领域的先进技术探究和积累,并进行产品化应用。
+REQ 1、本科及以上学历,自动化、机械电子、控制理论与控制工程等相关专业; 2、具有丰富的编程经验,熟悉C语言/matlab,熟悉使用simulink进行电机建模和仿真; 3、具有良好的电机理论知识,精通PMSM、步进电机等电机控制算法,如有感、无感FOC算法、MTPA、死区补偿/优化等; 4、熟悉常用的电机参数辨识方法,有电机本体高温下控制性能优化更佳; 5、熟悉自动控制原理、数字信号处理,对电机控制控制器频域设计有深刻理解; 6、熟悉无刷电机常用传感器特性及相应的标定标定算法。如线性霍尔、磁编码器; 7、具有扎实的电机驱动硬件知识,可以指导硬件工程师,对电机控制核心器件做选型和参数选择指导。如功率MOS管、电流采样运放等; 8、有无刷电机电流环响应优化经验优先; 9、有人型机器人关节电机控制算法开发经验优先。
+
+==== 58 E0274 TITLE 导航算法工程师
+O2 SK_ROS | GENERAL | EXAMPLE | ROS1
+O3 SK_ROS2 | GENERAL | EXAMPLE | ROS2
+O4 SK_CPP | GENERAL | EXAMPLE | C++
+O7 SK_CPP | GENERAL | EXAMPLE | C++
+O9 SK_ROS | GENERAL | CHOICE | ROS1
+O10 SK_ROS2 | GENERAL | CHOICE | ROS2
+DUTY 1、负责移动机器人导航算法开发,包含但不局限于全局路径规划、局部规划算法优化; 2、负责高性能和高精度的规划调度模块开发和优化,负责与移动机器人其他各模块的系统集成和调试工作; 3、负责优化动态路径规划算法(如改进A*、RRT*、DWA等),解决低矮障碍物、狭窄通道等高难度场景的避障问题,解决机器人贴边清扫问题; 4、负责探索前沿规划方向,包含基于拓扑图的全局路径规划,基于动态障碍的规划等; 5、负责基于栅格地图、高程地图、OCC、BEV等地图的局部规划算法开发; 6、负责导航算法相关文档撰写等。
+REQ 1、熟悉Linux系统,以及ROS1、ROS2、C++、Python等; 2、熟练掌握C、C++及python等语言编程开发,有较强的逻辑分析能力及良好的编程习惯; 3、熟悉ROS1或ROS2系统搭建,熟悉机器人规划控制相关算法,包括全局规划、局部规划、轨迹优化、障碍处理等; 4、熟悉DWA、TEB、MPC、PID等常用的运动控制算法至少1~2个以上; 5、有移动机器人、无人车、无人机等开发经验者或相关竞赛获奖者优先考虑; 6、富有创新精神,充满激情,乐于接受挑战,良好的沟通技巧和团队合作精神; 7、具有阅读文献的能力,具有良好的沟通和团队合作习惯,求知欲强。
+
+==== 59 E0236 TITLE 机器人控制工程师
+O5 SK_ROS | GENERAL | UNRESOLVED | ROS
+DUTY - 主导从算法设计 → 仿真验证 → 真机联调 → 工程落地的完整研发流程。 - 负责人形机器人遥操作核心算法的开发与优化,包括轨迹优化与重定向、柔顺控制、力位混合控制与自适应策略等,支撑机械臂、人形机器人等设备的精准灵巧操作。 - 基于Gazebo、Mujoco等仿真工具搭建仿真测试环境,完成算法的仿真验证、性能评估与迭代优化。 - 分析并解决机器人实际操作中出现的噪声、抖动、延迟、误差等问题,优化实时性、稳定性与控制精度。 - 参与系统集成与联调,参与多模态融合方案的设计,推动算法在真机的工程化落地,解决部署中的问题。 - 跟踪并探索领域前沿技术在遥操作中的融合与应用,撰写相关技术文档与报告,推动团队技术积累与成果转化。
+REQ - 自动化、机器人、机电工程、人工智能等相关专业,本科及以上学历,2年以上算法开发经验者优先。 - 熟悉C++/Python,有ROS/ROS2、Gazebo、Isaac Sim等机器人仿真与实验经验。 - 掌握机器人运动学与动力学基础,熟悉PID、MPC等控制策略,具备扎实的数学与系统建模基础。 - 具备遥操作系统、力控算法设计、动态建模与参数辨识、传感器融合与实时系统开发等经验者优先。 - 具备良好的问题解决能力、协作精神与沟通能力,能快速定位并解决研发过程中的技术问题。 - 加分项:有VR设备/力反馈设备开发经验;参与过工业/医疗遥操作项目落地;在ICRA/IROS等顶会发表论文。
+
+==== 60 E0183 TITLE 嵌入式软件工程师（控制）
+O3 SK_ROS | GENERAL | UNRESOLVED | ROS
+DUTY 1.负责机器人控制算法的开发,调试,部署; 2.负责机器人执行器的驱动开发; 3.负责开发对控制命令,进行逆运动学转换开发; 4.负责伺服电机 FOC 参数适配、力矩观测与滤; 5.负责关节柔顺控制、碰撞检测、被动柔顺防磕碰。
+REQ 1.本科及以上学历,计算机、电子、通信、自动控制等相关专业,5年及以上工作经验; 2.熟练掌握Python与C++编程,精通Ubuntu, ROS/ROS2; 3.具备线性代数基础,熟悉坐标转换、机器人相关知识,如正逆运动学; 4.熟练掌握 LQR 最优控制、极点配置、卡尔曼滤波 EKF/UKF、姿态滤波、噪声抑制; 5.熟练掌握模型预测控制 MPC; 6.熟悉前沿的机器人数据结构,如URDF等; 7.有机器人相关的竞赛或者项目经验优先。
+
+==== 61 E0143 TITLE 力反馈控制算法工程师
+O4 SK_ROS | GENERAL | UNRESOLVED | ROS
+DUTY 1、主导力反馈系统整体技术链路,包括主端力反馈臂控制、主从交互、力/位置信号处理、反馈算法、安全约束及系统联调。 2、负责力反馈控制算法开发与优化,包括阻抗控制、导纳控制、力反射、虚拟墙、接触检测、力限幅及稳定性控制等。 3、针对力反馈过程中的振荡、反弹、接触不稳定和高频抖动等问题,设计并实现稳定化方法。 4、负责力反馈机械臂的运动控制相关问题,包括奇异点规避、关节限位、速度/加速度约束、轨迹平滑及安全控制。 5、搭建力反馈性能测试体系,评估透明度、稳定性、跟随误差、力反馈精度、延迟敏感性及接触交互体验。
+REQ 1、机器人、机械、控制、机械电子、自动化或相关专业本科及以上学历,5年以上机器人控制、力反馈、遥操作或相关研发经验。 2、有主导完成力反馈控制系统或遥操作控制系统开发、部署和调试的实际经验。 4、熟悉机器人运动学、动力学、雅可比矩阵、奇异点分析与冗余度控制。熟悉阻抗/导纳控制、双边遥操作、力反射、接触控制、虚拟环境或虚拟墙等相关方法。 5、理解力反馈系统中的稳定性问题,能够处理接触反弹、振荡、抖动、延迟导致的不稳定等工程问题。 6、熟练使用 C++ 或 Python,具备 Linux、ROS/ROS2、实时控制或机器人中间件开发经验。 7、具备较强的系统分析、实验设计和现场调试能力。 8、熟悉各类商业化力反馈机械臂/主操作臂的整体架构。  加分项 1、熟悉力反馈机械臂的整机设计、嵌软架构,以及电机、减速器、编码器、力/力矩传感器及驱动器选型与控制接口。 2、有医疗机器人、工业遥操作、人形机器人、VR 交互或高精度机械臂的力反馈控制经验。
+
+==== 63 E0342 TITLE Senior Software Engineer, Navigation
+O4 SK_CPP | GENERAL | UNCONDITIONAL | C++
+O5 SK_ROS | GENERAL | UNRESOLVED | ROS
+O19 TC_MOTION_PLANNING | GENERAL | UNCONDITIONAL | motion planning
+O20 TC_MOTION_PLANNING | GENERAL | UNCONDITIONAL | motion planning
+O22 TC_PERCEPTION | GENERAL | UNCONDITIONAL | perceived environment data
+DUTY Design, implement, and deploy 3D motion planning algorithms for locomotion, with an emphasis on whole-body collision-aware motion execution in real-time. Own the core components of our navigation stack, specifically the local planning maps, terrain models, and grid map representations used for path and motion planning with collision avoidance. Advance our locomotion capabilities by developing and 
+REQ 5+ years of professional experience in robotics, specifically developing and deploying real-time navigation and motion planning systems for autonomous mobile platforms (humanoids, quadrupeds, autonomous vehicles). Expertise in 3D/volumetric map representations (e.g., octomaps, voxel grids) for local path planning and collision avoidance. Deep technical understanding of locomotion-specific path and motion planning algorithms, including sampling-based planners (RRT/PRM), optimization-based methods

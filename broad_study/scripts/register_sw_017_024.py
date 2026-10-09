@@ -1,0 +1,158 @@
+"""First-pass adjudication for software coding_order 17-24. Reader: grok4.6."""
+from register_Q_decisions import register
+
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0311":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"WEB_FRONTEND",
+ "secondary_task":"",
+ "task_evidence":"1、负责web系统和桌面端的功能开发。",
+ "new":{
+  "1":[["V2_JAVASCRIPT","GENERAL","UNCONDITIONAL"],["V2_TYPESCRIPT","GENERAL","UNCONDITIONAL"]],
+  "2":O+"HTML5未单列冻结项。","3":O+"CSS3未单列冻结项。",
+  "4":"DUPLICATE:N0311:1","5":"DUPLICATE:N0311:1",
+  "6":[["V2_JAVASCRIPT","GENERAL","UNCONDITIONAL"],["V2_REACT","GENERAL","EXAMPLE"],["V2_VUE","GENERAL","EXAMPLE"]],
+  "7":"DUPLICATE:N0311:6","8":"DUPLICATE:N0311:6","9":"DUPLICATE:N0311:6",
+  "10":O+"Vite未单列冻结项。","11":O+"Webpack未单列冻结项。",
+  "12":[["V2_NODEJS","PREFERRED","EXAMPLE"]],
+  "13":"DUPLICATE:N0311:12",
+  "14":O+"Electron未单列冻结项。","15":O+"Flutter未单列冻结项。",
+  "16":R+"ECharts/Three.js不是JavaScript语言项的充分证据。",
+  "17":O+"ECharts未单列冻结项。",
+  "18":R+"Three.js不是JavaScript语言项的充分证据。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责Web/桌面前端。可视化库不升JavaScript。"
+},
+"E0008":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"EMBEDDED_LINUX_SDK",
+ "secondary_task":"",
+ "task_evidence":"2、设计并开发嵌入式产品的SDK和解决方案;",
+ "new":{
+  "1":R+"学历CE不是产品环境认证。",
+  "2":[["V2_C","GENERAL","UNRESOLVED"]],
+  "3":[["V2_C","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_ETHERCAT","GENERAL","UNCONDITIONAL"],["V2_CAN","GENERAL","UNCONDITIONAL"]],
+  "5":"DUPLICATE:E0008:2",
+  "6":"DUPLICATE:E0008:4"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责嵌入式Linux SDK。C/C++按C未解；精通C语言单独成立。CE拒收认证。"
+},
+"E0098":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"APP_WEB_FRONTEND",
+ "secondary_task":"",
+ "task_evidence":"1.负责主线产品APP及Web系统、推广活动等前端页面的开发和优化;",
+ "new":{},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"候选队列为空。主责APP/Web前端。"
+},
+"E0485":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"BUSINESS_APP",
+ "fine_task":"HELIX_BACKEND_IDENTITY_PAYMENTS",
+ "secondary_task":"DEV_INFRA",
+ "task_evidence":"Design and build the core auth and identity service, including KYC integration.",
+ "new":{
+  "1":R+"in-office/5 days不是Microsoft Office。",
+  "2":[["V2_CI_CD","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_AWS","GENERAL","CHOICE"],["V2_GCP","GENERAL","CHOICE"],["V2_TERRAFORM","GENERAL","EXAMPLE"],["V2_CI_CD","GENERAL","UNCONDITIONAL"]],
+  "4":"DUPLICATE:E0485:3",
+  "5":"DUPLICATE:E0485:3"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责Helix身份支付等业务后端，次责云平台。办公室要求拒收Office。"
+},
+"N0434":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"SOFTWARE_TEAM_LEAD_STACK",
+ "secondary_task":"ROBOT_CLOUD_UI",
+ "task_evidence":"作为软件组的负责人，负责带领团队完成整个机器人软件系统的开发（包括但不限于镜像层、中间件层、应用软件层、整机性能优化、工具链提效），负责与平台部门共同完成App端和云端的开发交付工作，指导并约束算法团队在软件系统架构的要求进行研发和交付。",
+ "new":{
+  "1":[["V2_ETHERCAT","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":O+"OTA未单列冻结项。",
+  "3":O+"Devops未作为持续集成项单列。",
+  "4":"DUPLICATE:N0434:1",
+  "5":R+"C++不是C语言。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责端侧软件栈管理。EtherCAT抽象集成成立。"
+},
+"N0431":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"SOFTWARE_ALGO_ARCHITECTURE",
+ "secondary_task":"",
+ "task_evidence":"1. 主导机器人整机软件和算法系统的需求分析， 架构设计、开发和迭代；",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"]],
+  "2":"DUPLICATE:N0431:1",
+  "3":O+"HAL未单列冻结项。",
+  "4":[["V2_CI_CD","GENERAL","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0431:4"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责整机软件算法架构。C/C++按C未解。"
+},
+"N0418":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"HUMANOID_SYSTEM_SOFTWARE",
+ "secondary_task":"",
+ "task_evidence":"1、负责人形机器人产品相关研发类系统的方案架构设计、拆解和实现；",
+ "new":{
+  "1":R+"C++不是C语言。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责人形系统软件架构。C++拒收C。"
+},
+"N0405":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"CLOUD_WEBRTC_MEDIA",
+ "secondary_task":"",
+ "task_evidence":"1. 主导 WebRTC 媒体服务器的选型、定制、部署与优化，编写高质量核心代码",
+ "new":{
+  "1":O+"WebRTC未单列冻结项。","2":O+"TURN未单列冻结项。","3":O+"STUN未单列冻结项。",
+  "4":O+"WebRTC未单列冻结项。","5":O+"AV1未单列冻结项。","6":O+"SFrame未单列冻结项。","7":O+"WebTransport未单列冻结项。",
+  "8":O+"AV1未单列冻结项。",
+  "9":O+"WebRTC未单列冻结项。","10":O+"ICE未单列冻结项。","11":O+"DTLS未单列冻结项。","12":O+"SRTP未单列冻结项。",
+  "13":O+"GCC/BWE未单列冻结项。","14":O+"NACK/PLI/FEC未单列冻结项。",
+  "15":O+"Mediasoup未单列冻结项。","16":O+"LiveKit未单列冻结项。","17":O+"Pion未单列冻结项。",
+  "18":O+"H.265未单列冻结项。","19":O+"VP9未单列冻结项。",
+  "20":R+"Go / C++之一不是C语言。",
+  "21":[["V2_PROMETHEUS","GENERAL","EXAMPLE"],["V2_GRAFANA","GENERAL","EXAMPLE"]],
+  "22":"DUPLICATE:N0405:21","23":"DUPLICATE:N0405:21",
+  "24":O+"ELK未单列冻结项。",
+  "25":O+"iOS未单列冻结项。","26":O+"Android未单列冻结项。",
+  "27":R+"GitHub开源贡献不是Git工具项的充分证据。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责云端音视频。WebRTC等目录外。GitHub拒收Git。"
+}
+}
+if __name__=='__main__':
+ register('RF_ROBOTICS_SOFTWARE', decisions, reader='grok4.6')

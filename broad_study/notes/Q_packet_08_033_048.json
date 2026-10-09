@@ -1,0 +1,3513 @@
+[
+  {
+    "coding_order": 33,
+    "reading_id": "N0135",
+    "company_id": "CN_GALBOT",
+    "title": "OLAP 研发工程师（模型数据挖掘方向）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|da54b680-55b1-4244-8034-392a49659beb|8b438897535ecefe246047c577331e188449a3fc4d831c183418e198c76136bd",
+    "already_coded": false,
+    "fields": {
+      "duties": "工作职责\n\n面向AI 模型数据挖掘、样本筛选、特征探查场景，搭建数据挖掘服务平台，负责平台设计、功能迭代与落地，支撑模型训练前的数据探查、样本过滤、特征统计、离线分析等核心业务。\n\n支撑 PB 级模型样本数据集，实现高并发特征查询、多维样本筛选、批量特征导出、样本统计分析，持续优化查询时延与吞吐，保障模型迭代的数据交付效率。\n\n构建湖仓一体数据链路，打通上游样本数据接入、实时 / 离线计算、模型训练数据输出全流程，实现批流统一的样本数据管理。\n\n深度开展内核调优、源码优化、生态组件开发；针对模型挖掘场景的大扫描、多维度过滤、高并发特征探查负载，优化查询优化器、存储层、缓存策略、分区调度，降低算力与存储成本。\n\n协同算法、AI 训练团队，挖掘模型迭代过程中的各类数据痛点；参与数据中台、特征查询平台建设，跟进 OLAP 前沿技术调研，沉淀 AI 场景下大规模数据挖掘最佳实践。\n\n任职要求\n\n本科及以上学历，3~5 年分布式大数据、OLAP 引擎研发经验，有 AI 样本 / 特征数据平台建设经验优先。\n\n深入掌握 Apache Doris，有源码调优、二次开发经验；熟悉 StarRocks/ClickHouse/Trino/Iceberg 等湖仓相关技术优先。\n\n扎实计算机基础，精通数据结构、分布式系统理论；熟练掌握 Java/go/C++，具备分布式系统性能 Profiling、故障诊断、线上调优能力。\n\n熟悉湖仓一体架构，了解 Iceberg、Spark、Flink、对象存储、分布式文件系统；有大规模样本数据集管理、特征挖掘、数据探查相关落地经验加分。\n\n具备平台化架构设计思路，能够通过工具化、组件化方式解决业务问题；良好沟通协作能力，可和算法团队对齐模型数据挖掘需求，主动推动技术方案落地。",
+      "requirements": "",
+      "full_description": "工作职责\n\n面向AI 模型数据挖掘、样本筛选、特征探查场景，搭建数据挖掘服务平台，负责平台设计、功能迭代与落地，支撑模型训练前的数据探查、样本过滤、特征统计、离线分析等核心业务。\n\n支撑 PB 级模型样本数据集，实现高并发特征查询、多维样本筛选、批量特征导出、样本统计分析，持续优化查询时延与吞吐，保障模型迭代的数据交付效率。\n\n构建湖仓一体数据链路，打通上游样本数据接入、实时 / 离线计算、模型训练数据输出全流程，实现批流统一的样本数据管理。\n\n深度开展内核调优、源码优化、生态组件开发；针对模型挖掘场景的大扫描、多维度过滤、高并发特征探查负载，优化查询优化器、存储层、缓存策略、分区调度，降低算力与存储成本。\n\n协同算法、AI 训练团队，挖掘模型迭代过程中的各类数据痛点；参与数据中台、特征查询平台建设，跟进 OLAP 前沿技术调研，沉淀 AI 场景下大规模数据挖掘最佳实践。\n\n任职要求\n\n本科及以上学历，3~5 年分布式大数据、OLAP 引擎研发经验，有 AI 样本 / 特征数据平台建设经验优先。\n\n深入掌握 Apache Doris，有源码调优、二次开发经验；熟悉 StarRocks/ClickHouse/Trino/Iceberg 等湖仓相关技术优先。\n\n扎实计算机基础，精通数据结构、分布式系统理论；熟练掌握 Java/go/C++，具备分布式系统性能 Profiling、故障诊断、线上调优能力。\n\n熟悉湖仓一体架构，了解 Iceberg、Spark、Flink、对象存储、分布式文件系统；有大规模样本数据集管理、特征挖掘、数据探查相关落地经验加分。\n\n具备平台化架构设计思路，能够通过工具化、组件化方式解决业务问题；良好沟通协作能力，可和算法团队对齐模型数据挖掘需求，主动推动技术方案落地。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_JAVA",
+        "name": "Java",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 565,
+        "end": 569,
+        "quote": "Java",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 570,
+        "end": 572,
+        "quote": "go",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 573,
+        "end": 576,
+        "quote": "C++",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 30,
+        "end": 89,
+        "quote": "搭建数据挖掘服务平台，负责平台设计、功能迭代与落地，支撑模型训练前的数据探查、样本过滤、特征统计、离线分析等核心业务。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 6,
+        "end": 29,
+        "quote": "面向AI 模型数据挖掘、样本筛选、特征探查场景",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 176,
+        "end": 208,
+        "quote": "打通上游样本数据接入、实时 / 离线计算、模型训练数据输出全流程",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 431,
+        "end": 453,
+        "quote": "有 AI 样本 / 特征数据平台建设经验优先",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 656,
+        "end": 685,
+        "quote": "有大规模样本数据集管理、特征挖掘、数据探查相关落地经验加分",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0135:1",
+        "codes": [],
+        "names": [],
+        "surface": "OLAP",
+        "quote": "3~5 年分布式大数据、OLAP 引擎研发经验",
+        "field": "full_description",
+        "start": 407,
+        "end": 430
+      },
+      {
+        "id": "2",
+        "review_id": "N0135:2",
+        "codes": [
+          "V2_CLICKHOUSE"
+        ],
+        "names": [
+          "ClickHouse"
+        ],
+        "surface": "深入掌握 Apache Doris，有源码调优、二次开发经验；熟悉 StarRocks/ClickHouse/Trino/Iceberg 等湖仓相关技术优先。",
+        "quote": "深入掌握 Apache Doris，有源码调优、二次开发经验；熟悉 StarRocks/ClickHouse/Trino/Iceberg 等湖仓相关技术优先。",
+        "field": "full_description",
+        "start": 456,
+        "end": 535
+      },
+      {
+        "id": "3",
+        "review_id": "N0135:3",
+        "codes": [],
+        "names": [],
+        "surface": "Apache Doris",
+        "quote": "深入掌握 Apache Doris，有源码调优、二次开发经验",
+        "field": "full_description",
+        "start": 456,
+        "end": 486
+      },
+      {
+        "id": "4",
+        "review_id": "N0135:4",
+        "codes": [],
+        "names": [],
+        "surface": "StarRocks",
+        "quote": "StarRocks",
+        "field": "full_description",
+        "start": 490,
+        "end": 499
+      },
+      {
+        "id": "5",
+        "review_id": "N0135:5",
+        "codes": [
+          "V2_CLICKHOUSE"
+        ],
+        "names": [
+          "ClickHouse"
+        ],
+        "surface": "ClickHouse",
+        "quote": "ClickHouse",
+        "field": "full_description",
+        "start": 500,
+        "end": 510
+      },
+      {
+        "id": "6",
+        "review_id": "N0135:6",
+        "codes": [],
+        "names": [],
+        "surface": "Trino",
+        "quote": "Trino",
+        "field": "full_description",
+        "start": 511,
+        "end": 516
+      },
+      {
+        "id": "7",
+        "review_id": "N0135:7",
+        "codes": [],
+        "names": [],
+        "surface": "Iceberg",
+        "quote": "Iceberg",
+        "field": "full_description",
+        "start": 517,
+        "end": 524
+      },
+      {
+        "id": "8",
+        "review_id": "N0135:8",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "扎实计算机基础，精通数据结构、分布式系统理论；熟练掌握 Java/go/C++，具备分布式系统性能 Profiling、故障诊断、线上调优能力。",
+        "quote": "扎实计算机基础，精通数据结构、分布式系统理论；熟练掌握 Java/go/C++，具备分布式系统性能 Profiling、故障诊断、线上调优能力。",
+        "field": "full_description",
+        "start": 537,
+        "end": 609
+      },
+      {
+        "id": "9",
+        "review_id": "N0135:9",
+        "codes": [
+          "V2_SPARK",
+          "V2_FLINK"
+        ],
+        "names": [
+          "Apache Spark",
+          "Flink"
+        ],
+        "surface": "熟悉湖仓一体架构，了解 Iceberg、Spark、Flink、对象存储、分布式文件系统；有大规模样本数据集管理、特征挖掘、数据探查相关落地经验加分。",
+        "quote": "熟悉湖仓一体架构，了解 Iceberg、Spark、Flink、对象存储、分布式文件系统；有大规模样本数据集管理、特征挖掘、数据探查相关落地经验加分。",
+        "field": "full_description",
+        "start": 611,
+        "end": 686
+      },
+      {
+        "id": "10",
+        "review_id": "N0135:10",
+        "codes": [],
+        "names": [],
+        "surface": "Iceberg",
+        "quote": "熟悉湖仓一体架构，了解 Iceberg、Spark、Flink、对象存储、分布式文件系统",
+        "field": "full_description",
+        "start": 611,
+        "end": 655
+      },
+      {
+        "id": "11",
+        "review_id": "N0135:11",
+        "codes": [
+          "V2_SPARK"
+        ],
+        "names": [
+          "Apache Spark"
+        ],
+        "surface": "Spark",
+        "quote": "熟悉湖仓一体架构，了解 Iceberg、Spark、Flink、对象存储、分布式文件系统",
+        "field": "full_description",
+        "start": 611,
+        "end": 655
+      },
+      {
+        "id": "12",
+        "review_id": "N0135:12",
+        "codes": [
+          "V2_FLINK"
+        ],
+        "names": [
+          "Flink"
+        ],
+        "surface": "Flink",
+        "quote": "熟悉湖仓一体架构，了解 Iceberg、Spark、Flink、对象存储、分布式文件系统",
+        "field": "full_description",
+        "start": 611,
+        "end": 655
+      }
+    ]
+  },
+  {
+    "coding_order": 34,
+    "reading_id": "N0094",
+    "company_id": "CN_GALBOT",
+    "title": "具身数据工程师 · SDK / 工具链方向",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|f2b57e98-3d15-4f91-b7ee-4d88cc5ed3e9|c6b85f090314c916dd0408b77ec8d3d21848b4503ab5d292bb4018af70362d87",
+    "already_coded": false,
+    "fields": {
+      "duties": "我们正在为下一代具身基座模型 / VLA（视觉-语言-动作）模型打造覆盖全生命周期的训练数据平台，贯通预训练到后训练的整链路。\n\n我们处理的不是单一来源的数据，而是一座完整的 具身数据金字塔——跨越多种采集形态，以及保真度与规模之间的权衡。\n\n你的工作，就是让这座金字塔的每一层数据都做到「干净、对齐、可用、可度量」，直接决定模型 Scaling 的上限。\n\n\n\n\n岗位职责\n\n数据 SDK 与服务开发（核心职责） 设计并实现具身数据 Python SDK，围绕 Dataset / Episode / Frame / Tag / Modality 等核心抽象提供高易用接口；封装数据查询、加载、变换、导出等能力，支持灵活返回多模态数据（图像 / 视频 / 动作 / 力觉 / 语言指令等），让算法团队以最小成本获取所需数据。\n声明式数据获取能力建设 支持算法团队以类 SQL 或 DSL 的方式声明式获取数据（如「某时间段 + 某场景 + 某配比」的数据子集）；设计类似 AWS ARN 的资源定位机制，对接底层多模态数据库，实现数据的灵活检索与路由。\n数据处理算子开发 将质量校验、清洗、标注、配比等业务逻辑抽象为单一职责的数据处理算子，集成至 Airflow / Ray 等调度框架，支撑数据生产链路的高吞吐与高容错。\n数据格式与加载优化 攻克 LeRobot / mcap / ROS bag / HDF5 等具身与智驾数据格式的解析与解码加速、视频硬解、帧级随机访问、多模态时间对齐等核心工程问题，支撑十万小时级数据的高效加载与训练对接。\n数据资产管理 建设数据集版本管理、血缘追踪、可复现的 training recipe 机制，确保算法团队能够精确复现任意历史训练数据配置，保障数据可信、可复现、可审计。\n\n\n\n\n岗位要求：\n\n数据服务能力建设经验：主导或核心参与过面向算法 / 业务团队的数据 SDK / 数据查询接口 / 数据服务的设计与开发；有为下游用户提供「声明式数据获取」能力的实战经验（如设计 DSL、类 SQL 接口、资源定位符等）。\n具身 / 智驾数据领域经验：精通 LeRobot / mcap / ROS bag / HDF5 等至少两种具身或智驾常用数据格式；在机器人 / 智驾 / 多模态感知领域有 2 年以上数据工程经验，处理过多模态时序数据（图像 / 视频 / 动作 / 力觉 / 语言指令等）。\nPython 工程能力：5 年以上 Python 开发经验，精通现代 Python 工程实践（类型标注 / dataclass / asyncio / 性能剖析等），具备扎实的 SDK / 库 / 接口设计与封装能力，能独立完成复杂模块的设计、开发、调试与性能优化；能用 C++ 做关键路径底层性能加速者加分。\n数据 Pipeline 与算子编排：开发或主导过数据生产 / 离线处理 Pipeline；能将业务逻辑拆解为单一职责算子并集成至 Airflow / Ray 等框架；熟悉 DAG 编排、高并发调度与容错机制。\n多模态数据处理：具备以下至少两项的实际工程经验——视频解码加速（硬解 / 关键帧索引 / 帧级随机访问）、多模态时间戳对齐、大规模数据缓存与加载优化。\n\n加分项\n\n读过 LeRobot / Open-X-Embodiment / DROID 等开源具身数据集的源码与数据规范；\n理解 RGB / 深度 / LiDAR / IMU / 力-力矩 / 触觉 / 关节编码器等多模态传感器原理，熟悉标定、时间同步与坐标系对齐；\n具备相关底层功底：机器人动力学 / 运动学、时序信号对齐、SLAM / 多视图几何等；\n有将 Agent / LLM 工具链落地到数据服务或数据生产的经验；\n有十万小时级具身 / 机器人数据系统的建设经验；\n有 VLA / VLM 模型训练数据流程的协作经验。",
+      "requirements": "",
+      "full_description": "我们正在为下一代具身基座模型 / VLA（视觉-语言-动作）模型打造覆盖全生命周期的训练数据平台，贯通预训练到后训练的整链路。\n\n我们处理的不是单一来源的数据，而是一座完整的 具身数据金字塔——跨越多种采集形态，以及保真度与规模之间的权衡。\n\n你的工作，就是让这座金字塔的每一层数据都做到「干净、对齐、可用、可度量」，直接决定模型 Scaling 的上限。\n\n\n\n\n岗位职责\n\n数据 SDK 与服务开发（核心职责） 设计并实现具身数据 Python SDK，围绕 Dataset / Episode / Frame / Tag / Modality 等核心抽象提供高易用接口；封装数据查询、加载、变换、导出等能力，支持灵活返回多模态数据（图像 / 视频 / 动作 / 力觉 / 语言指令等），让算法团队以最小成本获取所需数据。\n声明式数据获取能力建设 支持算法团队以类 SQL 或 DSL 的方式声明式获取数据（如「某时间段 + 某场景 + 某配比」的数据子集）；设计类似 AWS ARN 的资源定位机制，对接底层多模态数据库，实现数据的灵活检索与路由。\n数据处理算子开发 将质量校验、清洗、标注、配比等业务逻辑抽象为单一职责的数据处理算子，集成至 Airflow / Ray 等调度框架，支撑数据生产链路的高吞吐与高容错。\n数据格式与加载优化 攻克 LeRobot / mcap / ROS bag / HDF5 等具身与智驾数据格式的解析与解码加速、视频硬解、帧级随机访问、多模态时间对齐等核心工程问题，支撑十万小时级数据的高效加载与训练对接。\n数据资产管理 建设数据集版本管理、血缘追踪、可复现的 training recipe 机制，确保算法团队能够精确复现任意历史训练数据配置，保障数据可信、可复现、可审计。\n\n\n\n\n岗位要求：\n\n数据服务能力建设经验：主导或核心参与过面向算法 / 业务团队的数据 SDK / 数据查询接口 / 数据服务的设计与开发；有为下游用户提供「声明式数据获取」能力的实战经验（如设计 DSL、类 SQL 接口、资源定位符等）。\n具身 / 智驾数据领域经验：精通 LeRobot / mcap / ROS bag / HDF5 等至少两种具身或智驾常用数据格式；在机器人 / 智驾 / 多模态感知领域有 2 年以上数据工程经验，处理过多模态时序数据（图像 / 视频 / 动作 / 力觉 / 语言指令等）。\nPython 工程能力：5 年以上 Python 开发经验，精通现代 Python 工程实践（类型标注 / dataclass / asyncio / 性能剖析等），具备扎实的 SDK / 库 / 接口设计与封装能力，能独立完成复杂模块的设计、开发、调试与性能优化；能用 C++ 做关键路径底层性能加速者加分。\n数据 Pipeline 与算子编排：开发或主导过数据生产 / 离线处理 Pipeline；能将业务逻辑拆解为单一职责算子并集成至 Airflow / Ray 等框架；熟悉 DAG 编排、高并发调度与容错机制。\n多模态数据处理：具备以下至少两项的实际工程经验——视频解码加速（硬解 / 关键帧索引 / 帧级随机访问）、多模态时间戳对齐、大规模数据缓存与加载优化。\n\n加分项\n\n读过 LeRobot / Open-X-Embodiment / DROID 等开源具身数据集的源码与数据规范；\n理解 RGB / 深度 / LiDAR / IMU / 力-力矩 / 触觉 / 关节编码器等多模态传感器原理，熟悉标定、时间同步与坐标系对齐；\n具备相关底层功底：机器人动力学 / 运动学、时序信号对齐、SLAM / 多视图几何等；\n有将 Agent / LLM 工具链落地到数据服务或数据生产的经验；\n有十万小时级具身 / 机器人数据系统的建设经验；\n有 VLA / VLM 模型训练数据流程的协作经验。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 208,
+        "end": 228,
+        "quote": "设计并实现具身数据 Python SDK",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_SQL",
+        "name": "SQL",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 376,
+        "end": 405,
+        "quote": "支持算法团队以类 SQL 或 DSL 的方式声明式获取数据",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_RAY",
+        "name": "Ray",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 521,
+        "end": 544,
+        "quote": "集成至 Airflow / Ray 等调度框架",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_LEROBOT",
+        "name": "LeRobot",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 573,
+        "end": 626,
+        "quote": "攻克 LeRobot / mcap / ROS bag / HDF5 等具身与智驾数据格式的解析与解码加速",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_SQL",
+        "name": "SQL",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 864,
+        "end": 872,
+        "quote": "类 SQL 接口",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_LEROBOT",
+        "name": "LeRobot",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 899,
+        "end": 906,
+        "quote": "LeRobot",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1032,
+        "end": 1049,
+        "quote": "5 年以上 Python 开发经验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1153,
+        "end": 1175,
+        "quote": "能用 C++ 做关键路径底层性能加速者加分。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "SK_RAY",
+        "name": "Ray",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1251,
+        "end": 1254,
+        "quote": "Ray",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "SK_LEROBOT",
+        "name": "LeRobot",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1366,
+        "end": 1373,
+        "quote": "LeRobot",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 4,
+        "end": 48,
+        "quote": "为下一代具身基座模型 / VLA（视觉-语言-动作）模型打造覆盖全生命周期的训练数据平台",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 32,
+        "end": 62,
+        "quote": "打造覆盖全生命周期的训练数据平台，贯通预训练到后训练的整链路",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 208,
+        "end": 228,
+        "quote": "设计并实现具身数据 Python SDK",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 899,
+        "end": 906,
+        "quote": "LeRobot",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 909,
+        "end": 913,
+        "quote": "mcap",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 916,
+        "end": 923,
+        "quote": "ROS bag",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 926,
+        "end": 930,
+        "quote": "HDF5",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 960,
+        "end": 965,
+        "quote": "多模态感知",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O19",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1194,
+        "end": 1220,
+        "quote": "开发或主导过数据生产 / 离线处理 Pipeline",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O20",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1343,
+        "end": 1355,
+        "quote": "大规模数据缓存与加载优化",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O21",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1366,
+        "end": 1373,
+        "quote": "LeRobot",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O22",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1376,
+        "end": 1393,
+        "quote": "Open-X-Embodiment",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O23",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1396,
+        "end": 1401,
+        "quote": "DROID",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O24",
+        "code": "TC_SLAM",
+        "name": "定位建图",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1521,
+        "end": 1525,
+        "quote": "SLAM",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O25",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1528,
+        "end": 1533,
+        "quote": "多视图几何",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O26",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1547,
+        "end": 1550,
+        "quote": "LLM",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O27",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1571,
+        "end": 1595,
+        "quote": "有十万小时级具身 / 机器人数据系统的建设经验；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O28",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1596,
+        "end": 1622,
+        "quote": "有 VLA / VLM 模型训练数据流程的协作经验。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O29",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1596,
+        "end": 1622,
+        "quote": "有 VLA / VLM 模型训练数据流程的协作经验。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O30",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 487,
+        "end": 520,
+        "quote": "将质量校验、清洗、标注、配比等业务逻辑抽象为单一职责的数据处理算子",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0094:1",
+        "codes": [
+          "V2_POSTTRAINING"
+        ],
+        "names": [
+          "模型后训练与对齐"
+        ],
+        "surface": "我们正在为下一代具身基座模型 / VLA（视觉-语言-动作）模型打造覆盖全生命周期的训练数据平台，贯通预训练到后训练的整链路。",
+        "quote": "我们正在为下一代具身基座模型 / VLA（视觉-语言-动作）模型打造覆盖全生命周期的训练数据平台，贯通预训练到后训练的整链路。",
+        "field": "full_description",
+        "start": 0,
+        "end": 63
+      },
+      {
+        "id": "2",
+        "review_id": "N0094:2",
+        "codes": [
+          "V2_AWS"
+        ],
+        "names": [
+          "Amazon Web Services"
+        ],
+        "surface": "声明式数据获取能力建设 支持算法团队以类 SQL 或 DSL 的方式声明式获取数据（如「某时间段 + 某场景 + 某配比」的数据子集）；设计类似 AWS ARN 的资源定位机制，对接底层多模态数据库，实现数据的灵活检索与路由。",
+        "quote": "声明式数据获取能力建设 支持算法团队以类 SQL 或 DSL 的方式声明式获取数据（如「某时间段 + 某场景 + 某配比」的数据子集）；设计类似 AWS ARN 的资源定位机制，对接底层多模态数据库，实现数据的灵活检索与路由。",
+        "field": "full_description",
+        "start": 364,
+        "end": 477
+      },
+      {
+        "id": "3",
+        "review_id": "N0094:3",
+        "codes": [],
+        "names": [],
+        "surface": "DSL",
+        "quote": "类 SQL 或 DSL",
+        "field": "full_description",
+        "start": 383,
+        "end": 394
+      },
+      {
+        "id": "4",
+        "review_id": "N0094:4",
+        "codes": [
+          "V2_AWS"
+        ],
+        "names": [
+          "Amazon Web Services"
+        ],
+        "surface": "AWS ARN",
+        "quote": "设计类似 AWS ARN 的资源定位机制",
+        "field": "full_description",
+        "start": 432,
+        "end": 452
+      },
+      {
+        "id": "5",
+        "review_id": "N0094:5",
+        "codes": [
+          "V2_AIRFLOW"
+        ],
+        "names": [
+          "Apache Airflow"
+        ],
+        "surface": "数据处理算子开发 将质量校验、清洗、标注、配比等业务逻辑抽象为单一职责的数据处理算子，集成至 Airflow / Ray 等调度框架，支撑数据生产链路的高吞吐与高容错。",
+        "quote": "数据处理算子开发 将质量校验、清洗、标注、配比等业务逻辑抽象为单一职责的数据处理算子，集成至 Airflow / Ray 等调度框架，支撑数据生产链路的高吞吐与高容错。",
+        "field": "full_description",
+        "start": 478,
+        "end": 562
+      },
+      {
+        "id": "6",
+        "review_id": "N0094:6",
+        "codes": [
+          "V2_AIRFLOW"
+        ],
+        "names": [
+          "Apache Airflow"
+        ],
+        "surface": "Airflow",
+        "quote": "集成至 Airflow / Ray 等调度框架",
+        "field": "full_description",
+        "start": 521,
+        "end": 544
+      },
+      {
+        "id": "7",
+        "review_id": "N0094:7",
+        "codes": [
+          "V2_MCAP",
+          "V2_ROSBAG"
+        ],
+        "names": [
+          "MCAP",
+          "ROS bag"
+        ],
+        "surface": "数据格式与加载优化 攻克 LeRobot / mcap / ROS bag / HDF5 等具身与智驾数据格式的解析与解码加速、视频硬解、帧级随机访问、多模态时间对齐等核心工程问题，支撑十万小时级数据的高效加载与训练对接。",
+        "quote": "数据格式与加载优化 攻克 LeRobot / mcap / ROS bag / HDF5 等具身与智驾数据格式的解析与解码加速、视频硬解、帧级随机访问、多模态时间对齐等核心工程问题，支撑十万小时级数据的高效加载与训练对接。",
+        "field": "full_description",
+        "start": 563,
+        "end": 674
+      },
+      {
+        "id": "8",
+        "review_id": "N0094:8",
+        "codes": [
+          "V2_MCAP"
+        ],
+        "names": [
+          "MCAP"
+        ],
+        "surface": "mcap",
+        "quote": "LeRobot / mcap / ROS bag / HDF5",
+        "field": "full_description",
+        "start": 576,
+        "end": 607
+      },
+      {
+        "id": "9",
+        "review_id": "N0094:9",
+        "codes": [
+          "SK_ROS",
+          "V2_ROSBAG"
+        ],
+        "names": [
+          "ROS",
+          "ROS bag"
+        ],
+        "surface": "ROS bag",
+        "quote": "LeRobot / mcap / ROS bag / HDF5",
+        "field": "full_description",
+        "start": 576,
+        "end": 607
+      },
+      {
+        "id": "10",
+        "review_id": "N0094:10",
+        "codes": [],
+        "names": [],
+        "surface": "HDF5",
+        "quote": "LeRobot / mcap / ROS bag / HDF5",
+        "field": "full_description",
+        "start": 576,
+        "end": 607
+      },
+      {
+        "id": "11",
+        "review_id": "N0094:11",
+        "codes": [],
+        "names": [],
+        "surface": "DSL",
+        "quote": "设计 DSL",
+        "field": "full_description",
+        "start": 857,
+        "end": 863
+      },
+      {
+        "id": "12",
+        "review_id": "N0094:12",
+        "codes": [
+          "V2_MCAP",
+          "V2_ROSBAG"
+        ],
+        "names": [
+          "MCAP",
+          "ROS bag"
+        ],
+        "surface": "具身 / 智驾数据领域经验：精通 LeRobot / mcap / ROS bag / HDF5 等至少两种具身或智驾常用数据格式；在机器人 / 智驾 / 多模态感知领域有 2 年以上数据工程经验，处理过多模态时序数据（图像 / 视频 / 动作 / 力觉 / 语言指令等）。",
+        "quote": "具身 / 智驾数据领域经验：精通 LeRobot / mcap / ROS bag / HDF5 等至少两种具身或智驾常用数据格式；在机器人 / 智驾 / 多模态感知领域有 2 年以上数据工程经验，处理过多模态时序数据（图像 / 视频 / 动作 / 力觉 / 语言指令等）。",
+        "field": "full_description",
+        "start": 882,
+        "end": 1019
+      },
+      {
+        "id": "13",
+        "review_id": "N0094:13",
+        "codes": [
+          "V2_MCAP"
+        ],
+        "names": [
+          "MCAP"
+        ],
+        "surface": "mcap",
+        "quote": "mcap",
+        "field": "full_description",
+        "start": 909,
+        "end": 913
+      },
+      {
+        "id": "14",
+        "review_id": "N0094:14",
+        "codes": [
+          "SK_ROS",
+          "V2_ROSBAG"
+        ],
+        "names": [
+          "ROS",
+          "ROS bag"
+        ],
+        "surface": "ROS bag",
+        "quote": "ROS bag",
+        "field": "full_description",
+        "start": 916,
+        "end": 923
+      },
+      {
+        "id": "15",
+        "review_id": "N0094:15",
+        "codes": [],
+        "names": [],
+        "surface": "HDF5",
+        "quote": "HDF5",
+        "field": "full_description",
+        "start": 926,
+        "end": 930
+      },
+      {
+        "id": "16",
+        "review_id": "N0094:16",
+        "codes": [
+          "V2_C",
+          "V2_PROJECT_METHOD"
+        ],
+        "names": [
+          "C语言",
+          "项目计划与风险管理"
+        ],
+        "surface": "Python 工程能力：5 年以上 Python 开发经验，精通现代 Python 工程实践（类型标注 / dataclass / asyncio / 性能剖析等），具备扎实的 SDK / 库 / 接口设计与封装能力，能独立完成复杂模块的设计、开发、调试与性能优化；能用 C++ 做关键路径底层性能加速者加分。",
+        "quote": "Python 工程能力：5 年以上 Python 开发经验，精通现代 Python 工程实践（类型标注 / dataclass / asyncio / 性能剖析等），具备扎实的 SDK / 库 / 接口设计与封装能力，能独立完成复杂模块的设计、开发、调试与性能优化；能用 C++ 做关键路径底层性能加速者加分。",
+        "field": "full_description",
+        "start": 1020,
+        "end": 1175
+      },
+      {
+        "id": "17",
+        "review_id": "N0094:17",
+        "codes": [],
+        "names": [],
+        "surface": "dataclass",
+        "quote": "dataclass",
+        "field": "full_description",
+        "start": 1074,
+        "end": 1083
+      },
+      {
+        "id": "18",
+        "review_id": "N0094:18",
+        "codes": [],
+        "names": [],
+        "surface": "asyncio",
+        "quote": "asyncio",
+        "field": "full_description",
+        "start": 1086,
+        "end": 1093
+      },
+      {
+        "id": "19",
+        "review_id": "N0094:19",
+        "codes": [
+          "V2_AIRFLOW"
+        ],
+        "names": [
+          "Apache Airflow"
+        ],
+        "surface": "数据 Pipeline 与算子编排：开发或主导过数据生产 / 离线处理 Pipeline；能将业务逻辑拆解为单一职责算子并集成至 Airflow / Ray 等框架；熟悉 DAG 编排、高并发调度与容错机制。",
+        "quote": "数据 Pipeline 与算子编排：开发或主导过数据生产 / 离线处理 Pipeline；能将业务逻辑拆解为单一职责算子并集成至 Airflow / Ray 等框架；熟悉 DAG 编排、高并发调度与容错机制。",
+        "field": "full_description",
+        "start": 1176,
+        "end": 1280
+      },
+      {
+        "id": "20",
+        "review_id": "N0094:20",
+        "codes": [
+          "V2_AIRFLOW"
+        ],
+        "names": [
+          "Apache Airflow"
+        ],
+        "surface": "Airflow",
+        "quote": "Airflow",
+        "field": "full_description",
+        "start": 1241,
+        "end": 1248
+      },
+      {
+        "id": "21",
+        "review_id": "N0094:21",
+        "codes": [],
+        "names": [],
+        "surface": "Open-X-Embodiment",
+        "quote": "Open-X-Embodiment",
+        "field": "full_description",
+        "start": 1376,
+        "end": 1393
+      },
+      {
+        "id": "22",
+        "review_id": "N0094:22",
+        "codes": [],
+        "names": [],
+        "surface": "DROID",
+        "quote": "DROID",
+        "field": "full_description",
+        "start": 1396,
+        "end": 1401
+      },
+      {
+        "id": "23",
+        "review_id": "N0094:23",
+        "codes": [
+          "V2_CALIBRATION"
+        ],
+        "names": [
+          "传感器与系统标定"
+        ],
+        "surface": "理解 RGB / 深度 / LiDAR / IMU / 力-力矩 / 触觉 / 关节编码器等多模态传感器原理，熟悉标定、时间同步与坐标系对齐；",
+        "quote": "理解 RGB / 深度 / LiDAR / IMU / 力-力矩 / 触觉 / 关节编码器等多模态传感器原理，熟悉标定、时间同步与坐标系对齐；",
+        "field": "full_description",
+        "start": 1420,
+        "end": 1491
+      }
+    ]
+  },
+  {
+    "coding_order": 35,
+    "reading_id": "N0309",
+    "company_id": "CN_PAXINI",
+    "title": "数据采集厂长",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|20f8de39-639a-468b-8f12-17138504906b|fac0b06f0c5375d1f89bd9846c652142d98fdf455c5b300543741a68a180ceda",
+    "already_coded": false,
+    "fields": {
+      "duties": "1.全面负责数据采集工厂的日常运营，对数据采集任务的交付质量、效率、成本及安全负最终责任，并建立关键指标体系进行持续监控与分析；\n2.负责主导新开发机器人或数据采集产品在工厂的导入与部署全过程，同时，负责评估其数据采集能力，设计并落地采集方案、工艺流程与质量标准；\n3.基于对机器人技术、数据业务的深入理解，持续优化数据采集的作业流程、效率工具与运营管理体系；\n4.统筹协调生产、设备、研发、质量等资源，主导分析并解决在应用新产品进行复杂数据采集任务时遇到的技术难题与系统性协作障碍，确保关键项目交付；\n5.作为运营端技术负责人，深度参与新产品（数据采集硬件+软件）可行性的前期评估，同时，基于生产场景分析，提出可制造性、可采集性改进建议；\n6.建立并主导根本原因分析（RCA）机制，对运营中的重大异常、质量偏差与效率损失进行深度复盘，将分析结论转化为有效的预防措施与流程规范；\n7.负责工厂的安全生产管理与风险控制，确保所有数据采集活动符合规范；\n8.作为工厂的核心接口，与总部的产品、研发团队保持紧密协同，精准分析并传达运营需求，确保技术路线与业务目标对齐。",
+      "requirements": "1.本科及以上学历，机器人工程、自动化、计算机科学、机电一体化等相关专业；\n2.具备5年以上机器人、自动驾驶或AI数据服务行业的工厂、实验室或数据中心运营管理经验；\n3.扎实的机器人学、感知系统或软件系统专业知识，能深入理解数据采集任务的技术内核与挑战；\n4.具备出色的技术管理、流程设计与优化能力，擅长解决复杂的技术运营问题；\n5.具备卓越的领导力与跨部门推动能力，能有效激励技术型团队；\n6.对数据业务与机器人前沿技术有强烈热情，目标导向，能在困难环境中引领团队达成目标。",
+      "full_description": "工作职责\n1.全面负责数据采集工厂的日常运营，对数据采集任务的交付质量、效率、成本及安全负最终责任，并建立关键指标体系进行持续监控与分析；\n2.负责主导新开发机器人或数据采集产品在工厂的导入与部署全过程，同时，负责评估其数据采集能力，设计并落地采集方案、工艺流程与质量标准；\n3.基于对机器人技术、数据业务的深入理解，持续优化数据采集的作业流程、效率工具与运营管理体系；\n4.统筹协调生产、设备、研发、质量等资源，主导分析并解决在应用新产品进行复杂数据采集任务时遇到的技术难题与系统性协作障碍，确保关键项目交付；\n5.作为运营端技术负责人，深度参与新产品（数据采集硬件+软件）可行性的前期评估，同时，基于生产场景分析，提出可制造性、可采集性改进建议；\n6.建立并主导根本原因分析（RCA）机制，对运营中的重大异常、质量偏差与效率损失进行深度复盘，将分析结论转化为有效的预防措施与流程规范；\n7.负责工厂的安全生产管理与风险控制，确保所有数据采集活动符合规范；\n8.作为工厂的核心接口，与总部的产品、研发团队保持紧密协同，精准分析并传达运营需求，确保技术路线与业务目标对齐。\n\n任职资格\n1.本科及以上学历，机器人工程、自动化、计算机科学、机电一体化等相关专业；\n2.具备5年以上机器人、自动驾驶或AI数据服务行业的工厂、实验室或数据中心运营管理经验；\n3.扎实的机器人学、感知系统或软件系统专业知识，能深入理解数据采集任务的技术内核与挑战；\n4.具备出色的技术管理、流程设计与优化能力，擅长解决复杂的技术运营问题；\n5.具备卓越的领导力与跨部门推动能力，能有效激励技术型团队；\n6.对数据业务与机器人前沿技术有强烈热情，目标导向，能在困难环境中引领团队达成目标。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 70,
+        "end": 137,
+        "quote": "2.负责主导新开发机器人或数据采集产品在工厂的导入与部署全过程，同时，负责评估其数据采集能力，设计并落地采集方案、工艺流程与质量标准；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 70,
+        "end": 137,
+        "quote": "2.负责主导新开发机器人或数据采集产品在工厂的导入与部署全过程，同时，负责评估其数据采集能力，设计并落地采集方案、工艺流程与质量标准；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 395,
+        "end": 429,
+        "quote": "7.负责工厂的安全生产管理与风险控制，确保所有数据采集活动符合规范；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 586,
+        "end": 590,
+        "quote": "感知系统",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0309:1",
+        "codes": [
+          "V2_RCA"
+        ],
+        "names": [
+          "根因分析方法"
+        ],
+        "surface": "6.建立并主导根本原因分析（RCA）机制，对运营中的重大异常、质量偏差与效率损失进行深度复盘，将分析结论转化为有效的预防措施与流程规范；",
+        "quote": "6.建立并主导根本原因分析（RCA）机制，对运营中的重大异常、质量偏差与效率损失进行深度复盘，将分析结论转化为有效的预防措施与流程规范；",
+        "field": "full_description",
+        "start": 326,
+        "end": 394
+      },
+      {
+        "id": "2",
+        "review_id": "N0309:2",
+        "codes": [
+          "V2_RCA"
+        ],
+        "names": [
+          "根因分析方法"
+        ],
+        "surface": "RCA",
+        "quote": "6.建立并主导根本原因分析（RCA）机制，对运营中的重大异常、质量偏差与效率损失进行深度复盘，将分析结论转化为有效的预防措施与流程规范；",
+        "field": "full_description",
+        "start": 326,
+        "end": 394
+      }
+    ]
+  },
+  {
+    "coding_order": 36,
+    "reading_id": "N0305",
+    "company_id": "CN_PAXINI",
+    "title": "场景设计工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|53861bcc-75a3-41da-ae7a-24211177ee90|bde405bbae319cd005a12b4df8c8499e8f5e4f71aa914dd276563fc3c4fa93b1",
+    "already_coded": false,
+    "fields": {
+      "duties": "1.场景与物料核心设计：主导多模态具身智能数据采集的场景架构设计，结合业务需求与模型训练目标完成物品选型，确保场景覆盖核心应用场景与边缘案例；建立场景设计标准化流程，输出可落地的场景方案文档。\n2.全维度质量管控：从场景真实性、逻辑合理性、采集设备兼容性、数据模型可用性、采集员操作便捷性及成本可控性六大维度构建质量评估体系，持续优化采集方案。\n3.采集任务全生命周期管理：制定采集任务排期计划，精准下发任务指令；撰写清晰、规范的任务书；全程跟进任务执行进度，及时解答采集员疑问，处理突发问题。\n4.物料数据化管理：协助搭建并维护场景物料数据库，实现物料信息（规格、用途、库存、损耗等）的系统化、可视化管理，保障物料高效复用与动态补给。\n5.跨部门协同协作：与数据产品经理对齐数据需求与产品目标，与项目经理同步项目进度与资源配置，与采集团队紧密配合，确保数据产品的产量、质量双达标。",
+      "requirements": "1.本科及以上学历，数据科学、计算机科学与技术、软件工程、自动化、机器人工程等相关专业背景。\n2.熟悉多模态数据（文本、图像、音频、触觉数据等）采集原理与系统架构，具备相关开发、优化或项目实施经验者优先。\n3.逻辑思维缜密，细节把控能力强，工作耐心负责，具备良好的问题分析与解决能力。\n4.具备优秀的沟通表达能力与跨部门协作意识，能高效推进任务落地。\n5.对具身智能、机器人技术领域有浓厚兴趣，愿意主动探索创新。\n加分项\n1.有具身智能数据采集场景设计、任务管理相关工作经验者。\n2.有多模态数据采集系统的开发、调试与优化的相关工作经验者。\n3.具备数据库搭建与管理经验，熟悉物料管理逻辑与流程优化方法。\n4.参与过机器人感知、具身智能相关项目，了解模型训练对数据的核心需求。",
+      "full_description": "工作职责\n1.场景与物料核心设计：主导多模态具身智能数据采集的场景架构设计，结合业务需求与模型训练目标完成物品选型，确保场景覆盖核心应用场景与边缘案例；建立场景设计标准化流程，输出可落地的场景方案文档。\n2.全维度质量管控：从场景真实性、逻辑合理性、采集设备兼容性、数据模型可用性、采集员操作便捷性及成本可控性六大维度构建质量评估体系，持续优化采集方案。\n3.采集任务全生命周期管理：制定采集任务排期计划，精准下发任务指令；撰写清晰、规范的任务书；全程跟进任务执行进度，及时解答采集员疑问，处理突发问题。\n4.物料数据化管理：协助搭建并维护场景物料数据库，实现物料信息（规格、用途、库存、损耗等）的系统化、可视化管理，保障物料高效复用与动态补给。\n5.跨部门协同协作：与数据产品经理对齐数据需求与产品目标，与项目经理同步项目进度与资源配置，与采集团队紧密配合，确保数据产品的产量、质量双达标。\n\n任职资格\n1.本科及以上学历，数据科学、计算机科学与技术、软件工程、自动化、机器人工程等相关专业背景。\n2.熟悉多模态数据（文本、图像、音频、触觉数据等）采集原理与系统架构，具备相关开发、优化或项目实施经验者优先。\n3.逻辑思维缜密，细节把控能力强，工作耐心负责，具备良好的问题分析与解决能力。\n4.具备优秀的沟通表达能力与跨部门协作意识，能高效推进任务落地。\n5.对具身智能、机器人技术领域有浓厚兴趣，愿意主动探索创新。\n加分项\n1.有具身智能数据采集场景设计、任务管理相关工作经验者。\n2.有多模态数据采集系统的开发、调试与优化的相关工作经验者。\n3.具备数据库搭建与管理经验，熟悉物料管理逻辑与流程优化方法。\n4.参与过机器人感知、具身智能相关项目，了解模型训练对数据的核心需求。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_INVENTORY",
+        "name": "库存管理",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 253,
+        "end": 323,
+        "quote": "4.物料数据化管理：协助搭建并维护场景物料数据库，实现物料信息（规格、用途、库存、损耗等）的系统化、可视化管理，保障物料高效复用与动态补给。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_INVENTORY",
+        "name": "库存管理",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 674,
+        "end": 705,
+        "quote": "3.具备数据库搭建与管理经验，熟悉物料管理逻辑与流程优化方法。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 5,
+        "end": 101,
+        "quote": "1.场景与物料核心设计：主导多模态具身智能数据采集的场景架构设计，结合业务需求与模型训练目标完成物品选型，确保场景覆盖核心应用场景与边缘案例；建立场景设计标准化流程，输出可落地的场景方案文档。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 5,
+        "end": 101,
+        "quote": "1.场景与物料核心设计：主导多模态具身智能数据采集的场景架构设计，结合业务需求与模型训练目标完成物品选型，确保场景覆盖核心应用场景与边缘案例；建立场景设计标准化流程，输出可落地的场景方案文档。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 102,
+        "end": 177,
+        "quote": "2.全维度质量管控：从场景真实性、逻辑合理性、采集设备兼容性、数据模型可用性、采集员操作便捷性及成本可控性六大维度构建质量评估体系，持续优化采集方案。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 102,
+        "end": 177,
+        "quote": "2.全维度质量管控：从场景真实性、逻辑合理性、采集设备兼容性、数据模型可用性、采集员操作便捷性及成本可控性六大维度构建质量评估体系，持续优化采集方案。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 452,
+        "end": 484,
+        "quote": "熟悉多模态数据（文本、图像、音频、触觉数据等）采集原理与系统架构",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 485,
+        "end": 504,
+        "quote": "具备相关开发、优化或项目实施经验者优先",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 614,
+        "end": 642,
+        "quote": "1.有具身智能数据采集场景设计、任务管理相关工作经验者。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 643,
+        "end": 673,
+        "quote": "2.有多模态数据采集系统的开发、调试与优化的相关工作经验者。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 706,
+        "end": 741,
+        "quote": "4.参与过机器人感知、具身智能相关项目，了解模型训练对数据的核心需求。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 706,
+        "end": 741,
+        "quote": "4.参与过机器人感知、具身智能相关项目，了解模型训练对数据的核心需求。",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": []
+  },
+  {
+    "coding_order": 37,
+    "reading_id": "E0072",
+    "company_id": "CN_SPIRITAI",
+    "title": "具身智能大数据平台/引擎开发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7577650581163657491|1822ef362f6c8dfe4ed8e190bf807dd8a5be25e917bbe5d51cc95c698db3dcc9",
+    "already_coded": false,
+    "fields": {
+      "duties": "1、负责具身智能大数据平台/引擎架构设计与核心组件开发,构建高吞吐、低延迟的数据采集、存储与处理 pipeline,支撑PB级具身智能数据的高效流转。\n2、主导数据清洗与自动化质检流程建设,设计可扩展的数据质量监控体系,实现从原始数据到训练数据集的全链路质量保障。\n3、搭建自动化标注基建与数据血缘管理系统,支持标注任务的高效分发、结果回收与版本追溯,为VLA模型训练提供高质量数据支持。\n4、开发用户行为分析、机器人运行数据分析等内部数据分析平台,建立数据可视化能力,驱动数据采集策略与模型迭代的持续优化。\n5、与算法团队深度协作,构建数据质量与模型性能的正反馈机制,将模型预测能力转化为数据清洗与质检的自动化工具。\n6、持续优化大数据平台成本与性能,探索前沿数据处理技术在具身智能场景下的应用落地。",
+      "requirements": "1、计算机相关专业本科及以上学历,3年以上大数据开发经验。\n2、精通Hadoop、Spark、Flink、Kafka等大数据技术栈,具备大规模分布式数据处理系统设计与调优能力。\n3、精通Python、Java/Scala、SQL,具备扎实的编码能力与数据建模能力。\n4、熟悉HDFS、OSS/S3、HBase、ClickHouse等存储系统,具备PB级数据存储与查询优化经验。\n5、熟悉Docker、Kubernetes等容器化技术,具备大数据组件云原生部署与运维经验。\n6. 有机器学习数据 pipeline、MLOps或数据质量监控体系建设经验者优先。\n7. 对具身智能、机器人或自动驾驶数据闭环有深入理解者优先。\n8. 具备良好的系统设计与跨团队协作能力,能平衡数据成本、开发效率与系统可扩展性。",
+      "full_description": "岗位职责\n1、负责具身智能大数据平台/引擎架构设计与核心组件开发，构建高吞吐、低延迟的数据采集、存储与处理 pipeline，支撑PB级具身智能数据的高效流转。\n2、主导数据清洗与自动化质检流程建设，设计可扩展的数据质量监控体系，实现从原始数据到训练数据集的全链路质量保障。\n3、搭建自动化标注基建与数据血缘管理系统，支持标注任务的高效分发、结果回收与版本追溯，为VLA模型训练提供高质量数据支持。\n4、开发用户行为分析、机器人运行数据分析等内部数据分析平台，建立数据可视化能力，驱动数据采集策略与模型迭代的持续优化。\n5、与算法团队深度协作，构建数据质量与模型性能的正反馈机制，将模型预测能力转化为数据清洗与质检的自动化工具。\n6、持续优化大数据平台成本与性能，探索前沿数据处理技术在具身智能场景下的应用落地。\n\n任职要求\n1、计算机相关专业本科及以上学历，3年以上大数据开发经验。\n2、精通Hadoop、Spark、Flink、Kafka等大数据技术栈，具备大规模分布式数据处理系统设计与调优能力。\n3、精通Python、Java/Scala、SQL，具备扎实的编码能力与数据建模能力。\n4、熟悉HDFS、OSS/S3、HBase、ClickHouse等存储系统，具备PB级数据存储与查询优化经验。\n5、熟悉Docker、Kubernetes等容器化技术，具备大数据组件云原生部署与运维经验。\n6. 有机器学习数据 pipeline、MLOps或数据质量监控体系建设经验者优先。\n7. 对具身智能、机器人或自动驾驶数据闭环有深入理解者优先。\n8. 具备良好的系统设计与跨团队协作能力，能平衡数据成本、开发效率与系统可扩展性。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 93,
+        "end": 99,
+        "quote": "Python",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_JAVA",
+        "name": "Java",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 100,
+        "end": 104,
+        "quote": "Java",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_SQL",
+        "name": "SQL",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 111,
+        "end": 114,
+        "quote": "SQL",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_DOCKER",
+        "name": "Docker",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 193,
+        "end": 199,
+        "quote": "Docker",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 200,
+        "end": 210,
+        "quote": "Kubernetes",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 135,
+        "end": 153,
+        "quote": "搭建自动化标注基建与数据血缘管理系统",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 176,
+        "end": 193,
+        "quote": "为VLA模型训练提供高质量数据支持",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 285,
+        "end": 308,
+        "quote": "将模型预测能力转化为数据清洗与质检的自动化工具",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 125,
+        "end": 131,
+        "quote": "数据建模能力",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 173,
+        "end": 187,
+        "quote": "PB级数据存储与查询优化经验",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 240,
+        "end": 255,
+        "quote": "机器学习数据 pipeline",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 256,
+        "end": 261,
+        "quote": "MLOps",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 101,
+        "end": 109,
+        "quote": "数据质量监控体系",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 296,
+        "end": 300,
+        "quote": "数据闭环",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0072:1",
+        "codes": [
+          "V2_SPARK",
+          "V2_FLINK",
+          "V2_KAFKA"
+        ],
+        "names": [
+          "Apache Spark",
+          "Flink",
+          "Kafka"
+        ],
+        "surface": "2、精通Hadoop、Spark、Flink、Kafka等大数据技术栈，具备大规模分布式数据处理系统设计与调优能力。",
+        "quote": "2、精通Hadoop、Spark、Flink、Kafka等大数据技术栈，具备大规模分布式数据处理系统设计与调优能力。",
+        "field": "full_description",
+        "start": 393,
+        "end": 451
+      },
+      {
+        "id": "2",
+        "review_id": "E0072:2",
+        "codes": [
+          "V2_CLICKHOUSE"
+        ],
+        "names": [
+          "ClickHouse"
+        ],
+        "surface": "4、熟悉HDFS、OSS/S3、HBase、ClickHouse等存储系统，具备PB级数据存储与查询优化经验。",
+        "quote": "4、熟悉HDFS、OSS/S3、HBase、ClickHouse等存储系统，具备PB级数据存储与查询优化经验。",
+        "field": "full_description",
+        "start": 496,
+        "end": 551
+      },
+      {
+        "id": "3",
+        "review_id": "E0072:3",
+        "codes": [
+          "V2_SPARK",
+          "V2_FLINK",
+          "V2_KAFKA"
+        ],
+        "names": [
+          "Apache Spark",
+          "Flink",
+          "Kafka"
+        ],
+        "surface": "",
+        "quote": "Hadoop、Spark、Flink、Kafka",
+        "field": "requirements",
+        "start": 34,
+        "end": 58
+      }
+    ]
+  },
+  {
+    "coding_order": 38,
+    "reading_id": "E0065",
+    "company_id": "CN_SPIRITAI",
+    "title": "具身数据模型算法工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7597315896877680959|d0b49caa2b243da97a1a84ee419447d81b82b28c71aee723cadf2d469e36c457",
+    "already_coded": false,
+    "fields": {
+      "duties": "1. 数据质检/清洗链路研发:负责多模态(视觉、触觉、语言、Action)数据的清洗算法研发,包括异常数据剔除、低质量数据拦截,隐私脱敏、时空对齐等。\n2. 预标注模型研发:研发具身领域的预标注大模型,解决具身领域细粒度标注难题,提升数据生产效率。\n3. 数据去重与挖掘:实现基于视觉+动作+语义的高效去重算法;开发核心场景的数据挖掘脚本,从海量原始数据中筛选出高价值、高复杂度的样本。\n4. 多样性分析与可视化:构建数据分布的统计与可视化工具,量化分析数据的多样性指标,为数据采集策略提供依据。",
+      "requirements": "1. 专业背景:硕士及以上学历,计算机或相关专业,具备良好的数学基础和逻辑思维能力。\n2. 代码能力:熟练掌握Python,熟悉PyTorch/TensorFlow等深度学习框架;同时熟练掌握vibe coding工具,有很强的算法设计思维,能独立完成算法模块的开发与部署。\n3. 领域技能:熟悉VLM/VLA领域最新技术,有相关领域数据管线上的算法落地经验,有很强的数据问题分析能力,具有业务上的自闭环能力。\n4. 加分项:对机器人、具身智能充满热情,有相关论文产出,数据竞赛获奖经历或开源数据集贡献优先。",
+      "full_description": "岗位职责\n1. 数据质检/清洗链路研发：负责多模态（视觉、触觉、语言、Action）数据的清洗算法研发，包括异常数据剔除、低质量数据拦截，隐私脱敏、时空对齐等。\n2. 预标注模型研发：研发具身领域的预标注大模型，解决具身领域细粒度标注难题，提升数据生产效率。\n3. 数据去重与挖掘：实现基于视觉+动作+语义的高效去重算法；开发核心场景的数据挖掘脚本，从海量原始数据中筛选出高价值、高复杂度的样本。\n4. 多样性分析与可视化：构建数据分布的统计与可视化工具，量化分析数据的多样性指标，为数据采集策略提供依据。\n\n任职要求\n1. 专业背景：硕士及以上学历，计算机或相关专业，具备良好的数学基础和逻辑思维能力。\n2. 代码能力：熟练掌握Python，熟悉PyTorch/TensorFlow等深度学习框架；同时熟练掌握vibe coding工具，有很强的算法设计思维，能独立完成算法模块的开发与部署。\n3. 领域技能：熟悉VLM/VLA领域最新技术，有相关领域数据管线上的算法落地经验，有很强的数据问题分析能力，具有业务上的自闭环能力。\n4. 加分项：对机器人、具身智能充满热情，有相关论文产出，数据竞赛获奖经历或开源数据集贡献优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 55,
+        "end": 61,
+        "quote": "Python",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTORCH",
+        "name": "PyTorch",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 64,
+        "end": 71,
+        "quote": "PyTorch",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_TENSORFLOW",
+        "name": "TensorFlow",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 72,
+        "end": 82,
+        "quote": "TensorFlow",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 20,
+        "end": 51,
+        "quote": "负责多模态（视觉、触觉、语言、Action）数据的清洗算法研发",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 87,
+        "end": 100,
+        "quote": "研发具身领域的预标注大模型",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 64,
+        "end": 68,
+        "quote": "隐私脱敏",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 148,
+        "end": 155,
+        "quote": "VLM/VLA",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 167,
+        "end": 179,
+        "quote": "数据管线上的算法落地经验",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0065:1",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "4. 多样性分析与可视化：构建数据分布的统计与可视化工具，量化分析数据的多样性指标，为数据采集策略提供依据。",
+        "quote": "4. 多样性分析与可视化：构建数据分布的统计与可视化工具，量化分析数据的多样性指标，为数据采集策略提供依据。",
+        "field": "full_description",
+        "start": 199,
+        "end": 253
+      }
+    ]
+  },
+  {
+    "coding_order": 39,
+    "reading_id": "E0027",
+    "company_id": "CN_SPIRITAI",
+    "title": "具身智能数据质检测试工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7667395072321276211|078446ba6582e4f0081cd441d42e3cdef189e53a0fb69c6c0421a958721c453d",
+    "already_coded": false,
+    "fields": {
+      "duties": "1. 搭建具身智能多模态采集数据的质检体系与量化标准,覆盖视觉图像、激光点云、IMU、标定参数等数据类型,围绕完整性、畸变、画质、时序同步、合规性等维度制定质检规则。\n2. 开发自动化质检工具与脚本,基于Python、OpenCV等实现画质校验(亮度、模糊、噪点、过曝欠曝)、畸变检测、丢帧识别、多传感器同步校验等能力,嵌入数采入库流水线,前置拦截低质数据。\n3. 对质检异常进行根因定位,区分数采设备故障、传感器ISP调教偏差、标定失准、采集流程不规范等成因,对接硬件、数采、ISP调教团队推动问题源头整改。\n4. 沉淀数据失效模式库,持续迭代质检规则与工具效率,保障训练、评测所用数据的质量合规,支撑模型迭代的数据供给。",
+      "requirements": "- 本科及以上,计算机、图像处理、自动化、机器人等相关专业,2年以上数据质检或测试开发相关经验。\n- 熟悉多传感器数据采集链路,掌握图像画质、畸变、时序同步、数据完整性等质量维度的判定逻辑,可独立设计质检方案。\n- 具备测试开发能力,熟练使用Python,掌握OpenCV、NumPy等工具,可独立开发自动化质检脚本。\n- 了解摄像头ISP调校、数采设备基本原理,具备从数据质量反向追溯硬件/调教问题的分析能力。\n- 有自动驾驶/具身智能行业数据质检、自动化质检流水线搭建经验者优先。\n- 逻辑严谨,责任心强,具备良好的跨团队协同与问题推进能力。",
+      "full_description": "岗位职责\n1. 搭建具身智能多模态采集数据的质检体系与量化标准，覆盖视觉图像、激光点云、IMU、标定参数等数据类型，围绕完整性、畸变、画质、时序同步、合规性等维度制定质检规则。\n2. 开发自动化质检工具与脚本，基于Python、OpenCV等实现画质校验（亮度、模糊、噪点、过曝欠曝）、畸变检测、丢帧识别、多传感器同步校验等能力，嵌入数采入库流水线，前置拦截低质数据。\n3. 对质检异常进行根因定位，区分数采设备故障、传感器ISP调教偏差、标定失准、采集流程不规范等成因，对接硬件、数采、ISP调教团队推动问题源头整改。\n4. 沉淀数据失效模式库，持续迭代质检规则与工具效率，保障训练、评测所用数据的质量合规，支撑模型迭代的数据供给。\n\n任职要求\n- 本科及以上，计算机、图像处理、自动化、机器人等相关专业，2年以上数据质检或测试开发相关经验。\n- 熟悉多传感器数据采集链路，掌握图像画质、畸变、时序同步、数据完整性等质量维度的判定逻辑，可独立设计质检方案。\n- 具备测试开发能力，熟练使用Python，掌握OpenCV、NumPy等工具，可独立开发自动化质检脚本。\n- 了解摄像头ISP调校、数采设备基本原理，具备从数据质量反向追溯硬件/调教问题的分析能力。\n- 有自动驾驶/具身智能行业数据质检、自动化质检流水线搭建经验者优先。\n- 逻辑严谨，责任心强，具备良好的跨团队协同与问题推进能力。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 100,
+        "end": 122,
+        "quote": "基于Python、OpenCV等实现画质校验",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_OPENCV",
+        "name": "OpenCV",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 100,
+        "end": 122,
+        "quote": "基于Python、OpenCV等实现画质校验",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 102,
+        "end": 108,
+        "quote": "Python",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_OPENCV",
+        "name": "OpenCV",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 109,
+        "end": 115,
+        "quote": "OpenCV",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_NUMPY",
+        "name": "NumPy",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 137,
+        "end": 142,
+        "quote": "NumPy",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 165,
+        "end": 183,
+        "quote": "嵌入数采入库流水线，前置拦截低质数据",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 105,
+        "end": 164,
+        "quote": "基于Python、OpenCV等实现画质校验（亮度、模糊、噪点、过曝欠曝）、畸变检测、丢帧识别、多传感器同步校验等能力",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 53,
+        "end": 63,
+        "quote": "多传感器数据采集链路",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 66,
+        "end": 94,
+        "quote": "图像画质、畸变、时序同步、数据完整性等质量维度的判定逻辑",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 221,
+        "end": 238,
+        "quote": "数据质检、自动化质检流水线搭建经验",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0027:1",
+        "codes": [
+          "V2_CALIBRATION",
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "传感器与系统标定",
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "1. 搭建具身智能多模态采集数据的质检体系与量化标准，覆盖视觉图像、激光点云、IMU、标定参数等数据类型，围绕完整性、畸变、画质、时序同步、合规性等维度制定质检规则。",
+        "quote": "1. 搭建具身智能多模态采集数据的质检体系与量化标准，覆盖视觉图像、激光点云、IMU、标定参数等数据类型，围绕完整性、畸变、画质、时序同步、合规性等维度制定质检规则。",
+        "field": "full_description",
+        "start": 5,
+        "end": 88
+      },
+      {
+        "id": "2",
+        "review_id": "E0027:2",
+        "codes": [
+          "V2_CALIBRATION"
+        ],
+        "names": [
+          "传感器与系统标定"
+        ],
+        "surface": "3. 对质检异常进行根因定位，区分数采设备故障、传感器ISP调教偏差、标定失准、采集流程不规范等成因，对接硬件、数采、ISP调教团队推动问题源头整改。",
+        "quote": "3. 对质检异常进行根因定位，区分数采设备故障、传感器ISP调教偏差、标定失准、采集流程不规范等成因，对接硬件、数采、ISP调教团队推动问题源头整改。",
+        "field": "full_description",
+        "start": 185,
+        "end": 260
+      }
+    ]
+  },
+  {
+    "coding_order": 40,
+    "reading_id": "E0081",
+    "company_id": "CN_UNITREE",
+    "title": "数据管线⼯程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|2046858311420084224|4ff137f6a79a49f98123e75600ce6ab3f891bad0932c59b64baad03f2c627b44",
+    "already_coded": false,
+    "fields": {
+      "duties": "1. 设计高吞吐量数据流水线,用于摄取、验证和转换机器人多模态数据(如视频、本体感受、动作数据)。\n2. 构建存储系统与元数据索引,实现大规模数据集的高效管理;\n3. 开发研究工具,用于调试、可视化和实验分析。\n4. 与大模型算法团队、数据采集团队、工程训练团队密切合作,建立数据系统迭代流程;",
+      "requirements": "",
+      "full_description": "1. 设计⾼吞吐量数据流⽔线，⽤于摄取、验证和转换机器⼈多模态数据（如视频、本体感受、动作数据）。\n2. 构建存储系统与元数据索引，实现⼤规模数据集的⾼效管理；\n3. 开发研究⼯具，⽤于调试、可视化和实验分析。\n4. 与⼤模型算法团队、数据采集团队、⼯程训练团队密切合作，建⽴数据系统迭代流程；"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 53,
+        "end": 79,
+        "quote": "构建存储系统与元数据索引,实现大规模数据集的高效管理",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 109,
+        "end": 135,
+        "quote": "与大模型算法团队、数据采集团队、工程训练团队密切合作",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": []
+  },
+  {
+    "coding_order": 41,
+    "reading_id": "E0083",
+    "company_id": "CN_UNITREE",
+    "title": "具身数据评估⼯程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|2046858623123980288|07db847c96a7587d1d969c7457022f474ccabf231bd250eb79fccf35d499f450",
+    "already_coded": false,
+    "fields": {
+      "duties": "1. 设计并实现机器人多模态交互数据的分布建模与处理体系,对大规模具身数据进行价值评估;\n2. 设计自动化数据筛选、难例挖掘与负样本生成机制,实现高质量数据的规模化生产与迭代优化;\n3. 建立面向具身智能模型的评估体系,定义数据质量与模型性能之间的量化指标;\n4. 与模型算法与训练团队协同,构建“数据–模型”协同进化机制,持续提升机器人操作泛化;",
+      "requirements": "",
+      "full_description": "1. 设计并实现机器⼈多模态交互数据的分布建模与处理体系，对⼤规模具身数据进⾏价值评估；\n2. 设计⾃动化数据筛选、难例挖掘与负样本⽣成机制，实现⾼质量数据的规模化⽣产与迭代优化；\n3. 建⽴⾯向具身智能模型的评估体系，定义数据质量与模型性能之间的量化指标；\n4. 与模型算法与训练团队协同，构建“数据–模型”协同进化机制，持续提升机器⼈操作泛化；"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 48,
+        "end": 70,
+        "quote": "设计自动化数据筛选、难例挖掘与负样本生成机制",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 94,
+        "end": 109,
+        "quote": "建立面向具身智能模型的评估体系",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 98,
+        "end": 104,
+        "quote": "具身智能模型",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 162,
+        "end": 173,
+        "quote": "持续提升机器人操作泛化",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0083:1",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "3. 建⽴⾯向具身智能模型的评估体系，定义数据质量与模型性能之间的量化指标；",
+        "quote": "3. 建⽴⾯向具身智能模型的评估体系，定义数据质量与模型性能之间的量化指标；",
+        "field": "full_description",
+        "start": 91,
+        "end": 129
+      }
+    ]
+  },
+  {
+    "coding_order": 42,
+    "reading_id": "E0297",
+    "company_id": "CN_XSQUARE",
+    "title": "多模态算法工程师（深圳/北京）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7508596961512458533|db393b22f45abcd07e6fa5b0c243225f6fb024052985103782a3b79529dbc078",
+    "already_coded": false,
+    "fields": {
+      "duties": "您将深度参与下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作,跟踪前沿多模态大模型进展,理解模型能力边界(理解、推理、空间/时间定位等),为具身基座模型训练提供高质量数据。\n\n具体涉及以下任一或多项内容:\n1. 多模态数据(文本、视觉、动作等)清洗、标注和格式化。构建高效的数据处理流程,支持模型训练与推理。\n2. 构建分布合理的视频理解数据 (人类行为、事件识别) 和高质量 Video Caption/Temporal Grounding;构造CoT真值,进行长程行为/任务拆解,提供逻辑清晰的中间推理步骤。\n3. 系统性地评估数据的集中、离散程度和形状特征,使用高维数据降维技术 (PCA, t-SNE等) 可视化和量化潜在的流形结构和数据的内在维度。\n",
+      "requirements": "1、了解多模态大模型范式,熟悉多模态数据的清洗/标注/统计方式,对数据在训练中的作用和大模型能力边界有深刻理解。\n2、能够设计pipeline和优化prompt,熟悉分布式数据处理,提升数据生产的质量和效率。\n3、熟悉数据处理工具(如Pandas、NumPy等)并完成完整数据处理流程;熟悉Python编程,了解Linux环境和常见开发工具。\n4、对数据质量和多样性有高标准,细致负责,发现并解决数据问题。\n加分项:\n1、有实际多模态大模型训练经验。\n2、有该方向相关会议文章发表的优先。",
+      "full_description": "岗位职责\n您将深度参与下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作，跟踪前沿多模态大模型进展，理解模型能力边界（理解、推理、空间/时间定位等），为具身基座模型训练提供高质量数据。\n\n具体涉及以下任一或多项内容：\n1. 多模态数据（文本、视觉、动作等）清洗、标注和格式化。构建高效的数据处理流程，支持模型训练与推理。\n2. 构建分布合理的视频理解数据 (人类行为、事件识别) 和高质量 Video Caption/Temporal Grounding；构造CoT真值，进行长程行为/任务拆解，提供逻辑清晰的中间推理步骤。\n3. 系统性地评估数据的集中、离散程度和形状特征，使用高维数据降维技术 (PCA, t-SNE等) 可视化和量化潜在的流形结构和数据的内在维度。\n\n任职要求\n1、了解多模态大模型范式，熟悉多模态数据的清洗/标注/统计方式，对数据在训练中的作用和大模型能力边界有深刻理解。\n2、能够设计pipeline和优化prompt，熟悉分布式数据处理，提升数据生产的质量和效率。\n3、熟悉数据处理工具（如Pandas、NumPy等）并完成完整数据处理流程；熟悉Python编程，了解Linux环境和常见开发工具。\n4、对数据质量和多样性有高标准，细致负责，发现并解决数据问题。\n加分项：\n1、有实际多模态大模型训练经验。\n2、有该方向相关会议文章发表的优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_NUMPY",
+        "name": "NumPy",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 124,
+        "end": 129,
+        "quote": "NumPy",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 145,
+        "end": 151,
+        "quote": "Python",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 156,
+        "end": 161,
+        "quote": "Linux",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 78,
+        "end": 94,
+        "quote": "为具身基座模型训练提供高质量数据",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 120,
+        "end": 145,
+        "quote": "多模态数据（文本、视觉、动作等）清洗、标注和格式化",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 269,
+        "end": 290,
+        "quote": "系统性地评估数据的集中、离散程度和形状特征",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 4,
+        "end": 12,
+        "quote": "多模态大模型范式",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 131,
+        "end": 133,
+        "quote": "清洗",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 83,
+        "end": 90,
+        "quote": "分布式数据处理",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 134,
+        "end": 142,
+        "quote": "完整数据处理流程",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 175,
+        "end": 183,
+        "quote": "数据质量和多样性",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 214,
+        "end": 224,
+        "quote": "多模态大模型训练经验",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0297:1",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "3. 系统性地评估数据的集中、离散程度和形状特征，使用高维数据降维技术 (PCA, t-SNE等) 可视化和量化潜在的流形结构和数据的内在维度。",
+        "quote": "3. 系统性地评估数据的集中、离散程度和形状特征，使用高维数据降维技术 (PCA, t-SNE等) 可视化和量化潜在的流形结构和数据的内在维度。",
+        "field": "full_description",
+        "start": 271,
+        "end": 343
+      },
+      {
+        "id": "2",
+        "review_id": "E0297:2",
+        "codes": [
+          "V2_PANDAS"
+        ],
+        "names": [
+          "Pandas"
+        ],
+        "surface": "3、熟悉数据处理工具（如Pandas、NumPy等）并完成完整数据处理流程；熟悉Python编程，了解Linux环境和常见开发工具。",
+        "quote": "3、熟悉数据处理工具（如Pandas、NumPy等）并完成完整数据处理流程；熟悉Python编程，了解Linux环境和常见开发工具。",
+        "field": "full_description",
+        "start": 455,
+        "end": 521
+      },
+      {
+        "id": "3",
+        "review_id": "E0297:3",
+        "codes": [],
+        "names": [],
+        "surface": "PCA, t-SNE",
+        "quote": "PCA, t-SNE",
+        "field": "duties",
+        "start": 303,
+        "end": 313
+      },
+      {
+        "id": "4",
+        "review_id": "E0297:4",
+        "codes": [
+          "V2_PANDAS"
+        ],
+        "names": [
+          "Pandas"
+        ],
+        "surface": "Pandas",
+        "quote": "Pandas",
+        "field": "requirements",
+        "start": 117,
+        "end": 123
+      }
+    ]
+  },
+  {
+    "coding_order": 43,
+    "reading_id": "E0202",
+    "company_id": "CN_XSQUARE",
+    "title": "数据运营管理（外包）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7629247332186458387|e06dcf046399272d1d45a4787c3bb55f8104f4207cdf7ebbe9a371b6c7b02328",
+    "already_coded": false,
+    "fields": {
+      "duties": "1.负责采集团队日常管理:人员排班、任务分配、目标拆解、过程督导与绩效考核,打造高执行力团队,确保数据采集任务按时、按量、按质完成。\n2.负责现场调度与效率管理:像调度运力一样动态分配采集任务,监控实时进度,快速处理异常,持续提升团队人均产出与整体效率。\n3.负责设备与系统管理:统一管理采集设备、终端、平台系统,确保设备完好、数量充足,异常及时上报并推动快速修复,保障作业不停摆。\n4. 负责现场问题处理:实时监控作业现场、快速发现、反馈、解决流程卡点、人员状态、任务拥堵等问题,保障稳定运行。\n5. 负责流程优化与效率提升:持续复盘作业瓶颈,优化流程、简化动作、提升标准化,用精益管理思路持续降本提效。职位要求。",
+      "requirements": "1. 本科及以上学历、管理类、工业工程、计算机相关专业优先;有自动驾驶或具身数据采集、数据标注、大规模团队运营管理经验优先,其次考虑有外卖、网约车、同城配送、仓储分拣、现场运力调度、生产班组管理经验。\n2.熟悉人员管理、任务调度、现场管控、效率提升、绩效考核,能带团队、能盯结果;\n3.善于沟通协调,能作为业务现场与技术团队之间的桥梁,推动问题快速落地。",
+      "full_description": "岗位职责\n1.负责采集团队日常管理：人员排班、任务分配、目标拆解、过程督导与绩效考核，打造高执行力团队，确保数据采集任务按时、按量、按质完成。\n2.负责现场调度与效率管理：像调度运力一样动态分配采集任务，监控实时进度，快速处理异常，持续提升团队人均产出与整体效率。\n3.负责设备与系统管理：统一管理采集设备、终端、平台系统，确保设备完好、数量充足，异常及时上报并推动快速修复，保障作业不停摆。\n4. 负责现场问题处理：实时监控作业现场、快速发现、反馈、解决流程卡点、人员状态、任务拥堵等问题，保障稳定运行。\n5. 负责流程优化与效率提升：持续复盘作业瓶颈，优化流程、简化动作、提升标准化，用精益管理思路持续降本提效。职位要求。\n\n任职要求\n1. 本科及以上学历、管理类、工业工程、计算机相关专业优先；有自动驾驶或具身数据采集、数据标注、大规模团队运营管理经验优先，其次考虑有外卖、网约车、同城配送、仓储分拣、现场运力调度、生产班组管理经验。\n2.熟悉人员管理、任务调度、现场管控、效率提升、绩效考核，能带团队、能盯结果；\n3.善于沟通协调，能作为业务现场与技术团队之间的桥梁，推动问题快速落地。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 47,
+        "end": 65,
+        "quote": "确保数据采集任务按时、按量、按质完成",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": []
+  },
+  {
+    "coding_order": 44,
+    "reading_id": "E0201",
+    "company_id": "CN_XSQUARE",
+    "title": "具身数据运营管理（正式）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7629250005233207598|eefc1313de64a26d21df8ae684ccb4e502ca1c2519a2ee11be3db73a7293e0f3",
+    "already_coded": false,
+    "fields": {
+      "duties": "1.具身智能数据项目全生命周期管理:负责机器人训练数据的采集、清洗、标注、质检、交付全流程项目管理,确保数据按时按质交付给算法团队,支撑具身智能模型训练迭代。\n2.数据采集方案设计与供应商管理:根据算法需求(视觉/动作/触觉/语音等模态),设计数据采集方案,评估和管理数据供应商(外包团队、动捕服务商、遥操作团队等),控制成本与质量。\n3.数据采集工艺流程搭建与优化:建立并持续优化具身数据采集标准操作流程(SOP),包括采集环境搭建、设备选型、人员培训、数据格式规范等,提升采集效率和数据质量。\n4.项目计划制定与跨团队协调:制定详细项目计划(时间表/里程碑/资源计划),协调内部算法团队、产品团队、外部合作伙伴,确保项目信息同步、风险可控。\n5、数据分析与报告编写:基于项目数据、客户需求、业务场景,开展数据分析工作,独立转写相应报告,满足采集需求提高交付效果。",
+      "requirements": "核心能力:\n1.背景: 本科及以上,计算机科学、人工智能、自动化、数据科学、机器人等相关专业。对AI和具身智能有浓厚兴趣,关注大模型、机器人领域动态。\n2.专业能力: 熟悉项目全流程管理方法,能有效管控研发与交付两类项目,具备风险识别与应对能力;具备一定的技术理解能力能够与合作团队高效沟通,准确传递需求与约束;熟练使用 AI辅助工具(Claude code/Cursor等)提升效率,具备基本系统设计思维。\n3.能力: 具备强 Ownership 意识,沟通协调能力强,能适应偏现场的工作环境。\n4、综合素质:具有自驱力、责任心强,能独当一面,遇到问题主动协调推动解决;具备较强的学习能力,能够快速理解产品与服务逻辑;抗压能力强,能够在多项目并行、多方协同的环境中稳定推进工作。",
+      "full_description": "岗位职责\n1.具身智能数据项目全生命周期管理：负责机器人训练数据的采集、清洗、标注、质检、交付全流程项目管理，确保数据按时按质交付给算法团队，支撑具身智能模型训练迭代。\n2.数据采集方案设计与供应商管理：根据算法需求（视觉/动作/触觉/语音等模态），设计数据采集方案，评估和管理数据供应商（外包团队、动捕服务商、遥操作团队等），控制成本与质量。\n3.数据采集工艺流程搭建与优化：建立并持续优化具身数据采集标准操作流程(SOP)，包括采集环境搭建、设备选型、人员培训、数据格式规范等，提升采集效率和数据质量。\n4.项目计划制定与跨团队协调：制定详细项目计划（时间表/里程碑/资源计划），协调内部算法团队、产品团队、外部合作伙伴，确保项目信息同步、风险可控。\n5、数据分析与报告编写：基于项目数据、客户需求、业务场景，开展数据分析工作，独立转写相应报告，满足采集需求提高交付效果。\n\n任职要求\n核心能力：\n1.背景： 本科及以上，计算机科学、人工智能、自动化、数据科学、机器人等相关专业。对AI和具身智能有浓厚兴趣，关注大模型、机器人领域动态。\n2.专业能力： 熟悉项目全流程管理方法，能有效管控研发与交付两类项目，具备风险识别与应对能力；具备一定的技术理解能力能够与合作团队高效沟通，准确传递需求与约束；熟练使用 AI辅助工具(Claude code/Cursor等)提升效率，具备基本系统设计思维。\n3.能力： 具备强 Ownership 意识，沟通协调能力强，能适应偏现场的工作环境。\n4、综合素质：具有自驱力、责任心强，能独当一面，遇到问题主动协调推动解决；具备较强的学习能力，能够快速理解产品与服务逻辑；抗压能力强，能够在多项目并行、多方协同的环境中稳定推进工作。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 236,
+        "end": 247,
+        "quote": "提升采集效率和数据质量",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 66,
+        "end": 78,
+        "quote": "支撑具身智能模型训练迭代",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 63,
+        "end": 66,
+        "quote": "大模型",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0201:1",
+        "codes": [
+          "V2_PROCUREMENT",
+          "V2_TELEOP",
+          "V2_MOCAP"
+        ],
+        "names": [
+          "采购与供应商流程",
+          "遥操作与示教",
+          "动作捕捉与演示数据采集"
+        ],
+        "surface": "2.数据采集方案设计与供应商管理：根据算法需求（视觉/动作/触觉/语音等模态），设计数据采集方案，评估和管理数据供应商（外包团队、动捕服务商、遥操作团队等），控制成本与质量。",
+        "quote": "2.数据采集方案设计与供应商管理：根据算法需求（视觉/动作/触觉/语音等模态），设计数据采集方案，评估和管理数据供应商（外包团队、动捕服务商、遥操作团队等），控制成本与质量。",
+        "field": "full_description",
+        "start": 85,
+        "end": 172
+      },
+      {
+        "id": "2",
+        "review_id": "E0201:2",
+        "codes": [
+          "V2_SOP_OPERATION"
+        ],
+        "names": [
+          "SOP操作与数据质量"
+        ],
+        "surface": "3.数据采集工艺流程搭建与优化：建立并持续优化具身数据采集标准操作流程(SOP)，包括采集环境搭建、设备选型、人员培训、数据格式规范等，提升采集效率和数据质量。",
+        "quote": "3.数据采集工艺流程搭建与优化：建立并持续优化具身数据采集标准操作流程(SOP)，包括采集环境搭建、设备选型、人员培训、数据格式规范等，提升采集效率和数据质量。",
+        "field": "full_description",
+        "start": 173,
+        "end": 253
+      },
+      {
+        "id": "3",
+        "review_id": "E0201:3",
+        "codes": [
+          "V2_CURSOR",
+          "V2_CLAUDE_CODE"
+        ],
+        "names": [
+          "Cursor",
+          "Claude Code"
+        ],
+        "surface": "2.专业能力： 熟悉项目全流程管理方法，能有效管控研发与交付两类项目，具备风险识别与应对能力；具备一定的技术理解能力能够与合作团队高效沟通，准确传递需求与约束；熟练使用 AI辅助工具(Claude code/Cursor等)提升效率，具备基本系统设计思维。",
+        "quote": "2.专业能力： 熟悉项目全流程管理方法，能有效管控研发与交付两类项目，具备风险识别与应对能力；具备一定的技术理解能力能够与合作团队高效沟通，准确传递需求与约束；熟练使用 AI辅助工具(Claude code/Cursor等)提升效率，具备基本系统设计思维。",
+        "field": "full_description",
+        "start": 471,
+        "end": 599
+      },
+      {
+        "id": "4",
+        "review_id": "E0201:4",
+        "codes": [
+          "V2_CURSOR",
+          "V2_CLAUDE_CODE"
+        ],
+        "names": [
+          "Cursor",
+          "Claude Code"
+        ],
+        "surface": "Claude code/Cursor",
+        "quote": "熟练使用 AI辅助工具(Claude code/Cursor等)提升效率",
+        "field": "requirements",
+        "start": 156,
+        "end": 192
+      }
+    ]
+  },
+  {
+    "coding_order": 45,
+    "reading_id": "E0171",
+    "company_id": "CN_XSQUARE",
+    "title": "触觉力控Infra工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7646764817688758578|545c29d2422f5452003b176ca327da056f9664dbce21e2aa74045464b36ef3aa",
+    "already_coded": false,
+    "fields": {
+      "duties": "- 负责多模态触觉数据采集与推理基础设施建设;\n- 打通夹爪、灵巧手、触觉手套等不同末端形态的触觉接入流程,实现数据采集、数据保存与推理阶段触觉数据发布;\n- 建立统一的数据格式、时间同步、话题发布和基础调试工具;\n- 与算法、控制、硬件团队协作,支持触觉数据用于模型训练、策略推理和机器人操作实验。",
+      "requirements": "- 机器人、电子、自动化、计算机、机械电子等相关背景;\n- 熟悉 Python / C++,熟悉 ROS / ROS2;\n- 具备传感器接入、数据采集、通信协议、话题发布和系统调试经验;\n- 对硬件电路、嵌入式接口、机器人控制有基本理解,能够独立定位软硬件链路问题;\n- 了解机器人末端执行器、夹爪、灵巧手或数据手套等设备的集成方式;\n- 具备良好的工程化意识,能够打通采集、保存、训练数据准备和推理发布链路。",
+      "full_description": "岗位职责\n- 负责多模态触觉数据采集与推理基础设施建设；\n- 打通夹爪、灵巧手、触觉手套等不同末端形态的触觉接入流程，实现数据采集、数据保存与推理阶段触觉数据发布；\n- 建立统一的数据格式、时间同步、话题发布和基础调试工具；\n- 与算法、控制、硬件团队协作，支持触觉数据用于模型训练、策略推理和机器人操作实验。\n\n任职要求\n- 机器人、电子、自动化、计算机、机械电子等相关背景；\n- 熟悉 Python / C++，熟悉 ROS / ROS2；\n- 具备传感器接入、数据采集、通信协议、话题发布和系统调试经验；\n- 对硬件电路、嵌入式接口、机器人控制有基本理解，能够独立定位软硬件链路问题；\n- 了解机器人末端执行器、夹爪、灵巧手或数据手套等设备的集成方式；\n- 具备良好的工程化意识，能够打通采集、保存、训练数据准备和推理发布链路。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 33,
+        "end": 39,
+        "quote": "Python",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 42,
+        "end": 45,
+        "quote": "C++",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "ROS",
+        "method": "UNRESOLVED_LOCATION"
+      },
+      {
+        "id": "O4",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 55,
+        "end": 59,
+        "quote": "ROS2",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 80,
+        "end": 106,
+        "quote": "建立统一的数据格式、时间同步、话题发布和基础调试工具",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 2,
+        "end": 22,
+        "quote": "负责多模态触觉数据采集与推理基础设施建设",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 124,
+        "end": 149,
+        "quote": "支持触觉数据用于模型训练、策略推理和机器人操作实验",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 110,
+        "end": 123,
+        "quote": "与算法、控制、硬件团队协作",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 102,
+        "end": 107,
+        "quote": "嵌入式接口",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 108,
+        "end": 113,
+        "quote": "机器人控制",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 138,
+        "end": 146,
+        "quote": "机器人末端执行器",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 191,
+        "end": 197,
+        "quote": "训练数据准备",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 198,
+        "end": 204,
+        "quote": "推理发布链路",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0171:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "- 熟悉 Python / C++，熟悉 ROS / ROS2；",
+        "quote": "- 熟悉 Python / C++，熟悉 ROS / ROS2；",
+        "field": "full_description",
+        "start": 190,
+        "end": 222
+      }
+    ]
+  },
+  {
+    "coding_order": 46,
+    "reading_id": "E0162",
+    "company_id": "CN_XSQUARE",
+    "title": "大模型数据平台研发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7654864943757691145|af8cb6488c55a4283f530759450c690a84e58aae0fdf068d2643c041d013dbc5",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位定位\n负责机器人/多模态数据湖仓与高并发数据闭环平台建设,支撑数据入湖、解析治理、任务调度、结果回流和训练数据消费。\n岗位职责\n1、建设多模态数据湖仓能力,包括数据接入、元数据管理、湖表建模、版本血缘、权限控制和训练集 Manifest。 \n2、负责机器人多源数据解析与标准化,支持 rosbag、视频、图像、JSON、点云、传感器日志等数据,并适配多机器人型号和硬件平台差异。 \n3、建设高并发数据平台后端与任务系统,支持任务提交、状态流转、幂等控制、异步调度、失败重试、限流、回调和可观测性。 \n4、建设大规模数据处理 pipeline,支撑质检、清洗、标注、Caption、特征抽取、数据回流和训练数据构建。 \n5、依托 AI Coding 工具完成平台前端、数据看板、管理后台和运维工具开发,具备端到端全栈交付能力。",
+      "requirements": "职位要求\n1、本科及以上,计算机、软件工程、机器人、自动化等相关专业,计算机基础扎实。 \n2、熟练 Python 或 Go,具备高并发服务、并发编程、异步任务、工程化开发和测试经验;Python/Go 双栈优先。 \n3、熟悉 Linux、Shell、网络、IO、进程/线程,具备线上排查、性能分析和资源优化能力。 \n4、熟悉 ROS/ROS2 和 rosbag,具备机器人多源数据解析、转换、同步或性能优化经验。 \n5、熟悉数据湖仓或大数据技术,如 Iceberg/Paimon/Hudi、Spark/Flink、Trino/ClickHouse 等。 \n6、熟悉数据库、对象存储、消息队列或任务调度系统,如 PostgreSQL/MySQL、OSS/S3、Kafka、Ray、Prefect 等。 \n7、具备 AI 辅助全栈开发能力,能快速交付内部平台、数据看板和可视化工具;熟悉 Docker、Kubernetes、CI/CD 优先。 \n8、具备 Ownership,能独立完成需求分析、方案设计、开发落地、测试验证和问题复盘。\n加分项\n1、有大规模机器人、自动驾驶、具身智能或多模态数据平台经验。 \n2、熟悉多机器人型号适配、传感器标准化、时间同步、标定管理。 \n3、有训练集构建、数据血缘/版本管理、湖仓优化或大规模数据回刷经验。",
+      "full_description": "岗位职责\n岗位定位\n负责机器人/多模态数据湖仓与高并发数据闭环平台建设，支撑数据入湖、解析治理、任务调度、结果回流和训练数据消费。\n岗位职责\n1、建设多模态数据湖仓能力，包括数据接入、元数据管理、湖表建模、版本血缘、权限控制和训练集 Manifest。 \n2、负责机器人多源数据解析与标准化，支持 rosbag、视频、图像、JSON、点云、传感器日志等数据，并适配多机器人型号和硬件平台差异。 \n3、建设高并发数据平台后端与任务系统，支持任务提交、状态流转、幂等控制、异步调度、失败重试、限流、回调和可观测性。 \n4、建设大规模数据处理 pipeline，支撑质检、清洗、标注、Caption、特征抽取、数据回流和训练数据构建。 \n5、依托 AI Coding 工具完成平台前端、数据看板、管理后台和运维工具开发，具备端到端全栈交付能力。\n\n任职要求\n职位要求\n1、本科及以上，计算机、软件工程、机器人、自动化等相关专业，计算机基础扎实。 \n2、熟练 Python 或 Go，具备高并发服务、并发编程、异步任务、工程化开发和测试经验；Python/Go 双栈优先。 \n3、熟悉 Linux、Shell、网络、IO、进程/线程，具备线上排查、性能分析和资源优化能力。 \n4、熟悉 ROS/ROS2 和 rosbag，具备机器人多源数据解析、转换、同步或性能优化经验。 \n5、熟悉数据湖仓或大数据技术，如 Iceberg/Paimon/Hudi、Spark/Flink、Trino/ClickHouse 等。 \n6、熟悉数据库、对象存储、消息队列或任务调度系统，如 PostgreSQL/MySQL、OSS/S3、Kafka、Ray、Prefect 等。 \n7、具备 AI 辅助全栈开发能力，能快速交付内部平台、数据看板和可视化工具；熟悉 Docker、Kubernetes、CI/CD 优先。 \n8、具备 Ownership，能独立完成需求分析、方案设计、开发落地、测试验证和问题复盘。\n加分项\n1、有大规模机器人、自动驾驶、具身智能或多模态数据平台经验。 \n2、熟悉多机器人型号适配、传感器标准化、时间同步、标定管理。 \n3、有训练集构建、数据血缘/版本管理、湖仓优化或大规模数据回刷经验。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "Python",
+        "method": "UNRESOLVED_LOCATION"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "Go",
+        "method": "UNRESOLVED_LOCATION"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "Python",
+        "method": "UNRESOLVED_LOCATION"
+      },
+      {
+        "id": "O4",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "Go",
+        "method": "UNRESOLVED_LOCATION"
+      },
+      {
+        "id": "O5",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 113,
+        "end": 118,
+        "quote": "Linux",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "ROS",
+        "method": "UNRESOLVED_LOCATION"
+      },
+      {
+        "id": "O7",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 167,
+        "end": 171,
+        "quote": "ROS2",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "SK_RAY",
+        "name": "Ray",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 335,
+        "end": 338,
+        "quote": "Ray",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "SK_DOCKER",
+        "name": "Docker",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 392,
+        "end": 398,
+        "quote": "Docker",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 399,
+        "end": 409,
+        "quote": "Kubernetes",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 259,
+        "end": 313,
+        "quote": "建设大规模数据处理 pipeline，支撑质检、清洗、标注、Caption、特征抽取、数据回流和训练数据构建",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 234,
+        "end": 249,
+        "quote": "失败重试、限流、回调和可观测性",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 183,
+        "end": 205,
+        "quote": "机器人多源数据解析、转换、同步或性能优化经验",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 212,
+        "end": 222,
+        "quote": "数据湖仓或大数据技术",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 491,
+        "end": 498,
+        "quote": "多模态数据平台",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O16",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 528,
+        "end": 532,
+        "quote": "标定管理",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O17",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 538,
+        "end": 543,
+        "quote": "训练集构建",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O18",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 544,
+        "end": 553,
+        "quote": "数据血缘/版本管理",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O19",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 554,
+        "end": 558,
+        "quote": "湖仓优化",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O20",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 559,
+        "end": 568,
+        "quote": "大规模数据回刷经验",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0162:1",
+        "codes": [
+          "V2_ROSBAG"
+        ],
+        "names": [
+          "ROS bag"
+        ],
+        "surface": "2、负责机器人多源数据解析与标准化，支持 rosbag、视频、图像、JSON、点云、传感器日志等数据，并适配多机器人型号和硬件平台差异。 ",
+        "quote": "2、负责机器人多源数据解析与标准化，支持 rosbag、视频、图像、JSON、点云、传感器日志等数据，并适配多机器人型号和硬件平台差异。 ",
+        "field": "full_description",
+        "start": 128,
+        "end": 197
+      },
+      {
+        "id": "2",
+        "review_id": "E0162:2",
+        "codes": [
+          "V2_SHELL"
+        ],
+        "names": [
+          "Shell脚本"
+        ],
+        "surface": "3、熟悉 Linux、Shell、网络、IO、进程/线程，具备线上排查、性能分析和资源优化能力。 ",
+        "quote": "3、熟悉 Linux、Shell、网络、IO、进程/线程，具备线上排查、性能分析和资源优化能力。 ",
+        "field": "full_description",
+        "start": 484,
+        "end": 533
+      },
+      {
+        "id": "3",
+        "review_id": "E0162:3",
+        "codes": [
+          "V2_ROSBAG"
+        ],
+        "names": [
+          "ROS bag"
+        ],
+        "surface": "4、熟悉 ROS/ROS2 和 rosbag，具备机器人多源数据解析、转换、同步或性能优化经验。 ",
+        "quote": "4、熟悉 ROS/ROS2 和 rosbag，具备机器人多源数据解析、转换、同步或性能优化经验。 ",
+        "field": "full_description",
+        "start": 534,
+        "end": 583
+      },
+      {
+        "id": "4",
+        "review_id": "E0162:4",
+        "codes": [
+          "V2_SPARK",
+          "V2_FLINK",
+          "V2_CLICKHOUSE"
+        ],
+        "names": [
+          "Apache Spark",
+          "Flink",
+          "ClickHouse"
+        ],
+        "surface": "5、熟悉数据湖仓或大数据技术，如 Iceberg/Paimon/Hudi、Spark/Flink、Trino/ClickHouse 等。 ",
+        "quote": "5、熟悉数据湖仓或大数据技术，如 Iceberg/Paimon/Hudi、Spark/Flink、Trino/ClickHouse 等。 ",
+        "field": "full_description",
+        "start": 584,
+        "end": 653
+      },
+      {
+        "id": "5",
+        "review_id": "E0162:5",
+        "codes": [
+          "V2_SQL_MYSQL",
+          "V2_POSTGRESQL",
+          "V2_KAFKA"
+        ],
+        "names": [
+          "MySQL",
+          "PostgreSQL",
+          "Kafka"
+        ],
+        "surface": "6、熟悉数据库、对象存储、消息队列或任务调度系统，如 PostgreSQL/MySQL、OSS/S3、Kafka、Ray、Prefect 等。 ",
+        "quote": "6、熟悉数据库、对象存储、消息队列或任务调度系统，如 PostgreSQL/MySQL、OSS/S3、Kafka、Ray、Prefect 等。 ",
+        "field": "full_description",
+        "start": 654,
+        "end": 726
+      },
+      {
+        "id": "6",
+        "review_id": "E0162:6",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "7、具备 AI 辅助全栈开发能力，能快速交付内部平台、数据看板和可视化工具；熟悉 Docker、Kubernetes、CI/CD 优先。 ",
+        "quote": "7、具备 AI 辅助全栈开发能力，能快速交付内部平台、数据看板和可视化工具；熟悉 Docker、Kubernetes、CI/CD 优先。 ",
+        "field": "full_description",
+        "start": 727,
+        "end": 796
+      },
+      {
+        "id": "7",
+        "review_id": "E0162:7",
+        "codes": [
+          "V2_CALIBRATION"
+        ],
+        "names": [
+          "传感器与系统标定"
+        ],
+        "surface": "2、熟悉多机器人型号适配、传感器标准化、时间同步、标定管理。 ",
+        "quote": "2、熟悉多机器人型号适配、传感器标准化、时间同步、标定管理。 ",
+        "field": "full_description",
+        "start": 879,
+        "end": 910
+      }
+    ]
+  },
+  {
+    "coding_order": 47,
+    "reading_id": "E0118",
+    "company_id": "CN_XSQUARE",
+    "title": "多模态算法工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7672276158764140809|bce511770d3033f9b5c7bc53b218d932a2647be0ad5745d001159aa9f98896fe",
+    "already_coded": false,
+    "fields": {
+      "duties": "职位描述\n您将深度参与下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作,跟踪前沿多模态大模型进展,理解模型能力边界(理解、推理、空间/时间定位等),为具身基座模型训练提供高质量数据。\n\n具体涉及以下任一或多项内容:\n1. 多模态数据(文本、视觉、动作等)清洗、标注和格式化。构建高效的数据处理流程,支持模型训练与推理。\n2. 构建分布合理的视频理解数据 (人类行为、事件识别) 和高质量 Video Caption/Temporal Grounding;构造CoT真值,进行长程行为/任务拆解,提供逻辑清晰的中间推理步骤。\n3. 系统性地评估数据的集中、离散程度和形状特征,使用高维数据降维技术 (PCA, t-SNE等) 可视化和量化潜在的流形结构和数据的内在维度。",
+      "requirements": "职位要求\n1、了解多模态大模型范式,熟悉多模态数据的清洗/标注/统计方式,对数据在训练中的作用和大模型能力边界有深刻理解。\n2、能够设计pipeline和优化prompt,熟悉分布式数据处理,提升数据生产的质量和效率。\n3、熟悉数据处理工具(如Pandas、NumPy等)并完成完整数据处理流程;熟悉Python编程,了解Linux环境和常见开发工具。\n4、对数据质量和多样性有高标准,细致负责,发现并解决数据问题。\n加分项:\n1、有实际多模态大模型训练经验。\n2、有该方向相关会议文章发表的优先。",
+      "full_description": "岗位职责\n职位描述\n您将深度参与下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作，跟踪前沿多模态大模型进展，理解模型能力边界（理解、推理、空间/时间定位等），为具身基座模型训练提供高质量数据。\n\n具体涉及以下任一或多项内容：\n1. 多模态数据（文本、视觉、动作等）清洗、标注和格式化。构建高效的数据处理流程，支持模型训练与推理。\n2. 构建分布合理的视频理解数据 (人类行为、事件识别) 和高质量 Video Caption/Temporal Grounding；构造CoT真值，进行长程行为/任务拆解，提供逻辑清晰的中间推理步骤。\n3. 系统性地评估数据的集中、离散程度和形状特征，使用高维数据降维技术 (PCA, t-SNE等) 可视化和量化潜在的流形结构和数据的内在维度。\n\n任职要求\n职位要求\n1、了解多模态大模型范式，熟悉多模态数据的清洗/标注/统计方式，对数据在训练中的作用和大模型能力边界有深刻理解。\n2、能够设计pipeline和优化prompt，熟悉分布式数据处理，提升数据生产的质量和效率。\n3、熟悉数据处理工具（如Pandas、NumPy等）并完成完整数据处理流程；熟悉Python编程，了解Linux环境和常见开发工具。\n4、对数据质量和多样性有高标准，细致负责，发现并解决数据问题。\n加分项：\n1、有实际多模态大模型训练经验。\n2、有该方向相关会议文章发表的优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_NUMPY",
+        "name": "NumPy",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 129,
+        "end": 134,
+        "quote": "NumPy",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 150,
+        "end": 156,
+        "quote": "Python",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 161,
+        "end": 166,
+        "quote": "Linux",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 11,
+        "end": 44,
+        "quote": "下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 146,
+        "end": 157,
+        "quote": "构建高效的数据处理流程",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 33,
+        "end": 44,
+        "quote": "数据真值构建与评测工作",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "多模态大模型",
+        "method": "UNRESOLVED_LOCATION"
+      },
+      {
+        "id": "O8",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 20,
+        "end": 36,
+        "quote": "多模态数据的清洗/标注/统计方式",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "多模态大模型",
+        "method": "UNRESOLVED_LOCATION"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0118:1",
+        "codes": [
+          "V2_MODEL_COMPRESSION"
+        ],
+        "names": [
+          "模型压缩与推理优化方法"
+        ],
+        "surface": "3. 系统性地评估数据的集中、离散程度和形状特征，使用高维数据降维技术 (PCA, t-SNE等) 可视化和量化潜在的流形结构和数据的内在维度。",
+        "quote": "3. 系统性地评估数据的集中、离散程度和形状特征，使用高维数据降维技术 (PCA, t-SNE等) 可视化和量化潜在的流形结构和数据的内在维度。",
+        "field": "full_description",
+        "start": 276,
+        "end": 348
+      },
+      {
+        "id": "2",
+        "review_id": "E0118:2",
+        "codes": [
+          "V2_PANDAS"
+        ],
+        "names": [
+          "Pandas"
+        ],
+        "surface": "3、熟悉数据处理工具（如Pandas、NumPy等）并完成完整数据处理流程；熟悉Python编程，了解Linux环境和常见开发工具。",
+        "quote": "3、熟悉数据处理工具（如Pandas、NumPy等）并完成完整数据处理流程；熟悉Python编程，了解Linux环境和常见开发工具。",
+        "field": "full_description",
+        "start": 465,
+        "end": 531
+      }
+    ]
+  },
+  {
+    "coding_order": 48,
+    "reading_id": "E0307",
+    "company_id": "US_AGILITY",
+    "title": "Continuous Improvement Analyst",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|5990022004|7ef771bd5efd86c8b1545d6ac88aa3f2918a7ba4ec5fdbdbaf5473d8dea9abf5",
+    "already_coded": false,
+    "fields": {
+      "duties": "Own process improvement initiatives end-to-end using a structured, DMAIC style approach: define the problem and establish a quantitative baseline, identify root cause, implement the change, and measure results afterward to confirm the improvement is statistically real, not just anecdotally better, and sustained over time\nGather and validate business requirements from stakeholders across operations and translate them into structured requirements, process maps, and documentation that program managers, technical teams, or leadership can act on with confidence.\nBuild trackers and reports in Excel or Google Sheets to give teams a consistent view of performance. Partner with the BI team when something needs to become a governed dashboard or ongoing monitoring.\nWork with data from multiple systems including ERP platforms, operational databases, Jira and reporting tools to produce accurate, reliable analysis.\nPartner with program managers to support cross-functional initiatives, providing analytical grounding and requirements discipline to programs that need it.\nDocument current-state processes and help define future-state workflows in a clear, repeatable format that functional teams can use and maintain.\nPilot process changes on a subset of the workflow, validate results against the baseline, and coordinate full rollout once the improvement is confirmed.\nHelp teams understand how system changes affect their day to day work and support adoption through documentation and communication.\nSupport the upcoming ERP transition by translating improved processes into the new system and helping teams adopt new workflows through the cutover.\nCommunicate findings and recommendations clearly to both working-level teams and senior stakeholders, adjusting depth and framing for the audience.",
+      "requirements": "Lean Six Sigma certification or equivalent experience. Comfortable using Lean tools (value stream mapping, waste reduction) to improve flow and efficiency and DMAIC discipline to reduce variability and prove with quantitative before/after metrics that a change actually worked and held\n3+ years of hands on experience in operations, manufacturing or supply chain environments\nExperience with process mapping and collaboration tools (e.g., Visio, Lucidchart, Miro, or similar).\nYou have direct experience working in or supporting operations, manufacturing, or supply chain environments and can establish credibility with functional partners quickly.\nAdvanced proficiency in Excel or Google Sheets (pivot tables, lookups, basic formulas, Apps Script).\nYou are a strong analytical thinker who moves from data to insight to recommendation without getting lost in the middle.\nYou are thorough and precise in your work. Your documentation, requirements, and analysis are clear enough that someone else can act on them without having to come back with questions.\nYou work well independently. You can take a clear mandate and run with it, managing your own time, priorities, and output without close oversight.\nYou are a natural translator between business teams and technical or analytical work. You know how to ask the right questions, listen well, and capture what people actually need.\nFamiliarity with project or task tracking tools (e.g., Planner, Project, Jira).\nYou communicate clearly in writing and in person, and you adjust your style based on who you’re talking to.\nYou are curious about how things work and not satisfied with surface-level answers. You dig until you understand the real problem.\nBonus Points\nBackground in a high-growth, operationally complex environment such as robotics, aerospace, defense, or advanced manufacturing.\nExperience with Power BI or similar BI platforms at a level beyond basic reporting.\nExperience supporting an ERP or major systems migration via process documentation, user training, and adoption\nLocation\nThis is an onsite position at our Salem office.\nThe final salary offered to a successful candidate will be dependent on several factors that may include but are not limited to: job-related knowledge, skills, and experience. Agility Robotics is a multi-state employer and this salary range may not reflect positions who work in other locations. These ranges may be modified in the future.\nAnticipated Base Salary Range\n$96,000\n—\n$125,000 USD\nIn addition to base pay, our competitive total rewards package consists of the following for full-time employees:\n401(k) Plan:\nIncludes a 6% company match.\nEquity:\nCompany stock options.\nInsurance Coverage:\n100% company-paid medical, dental, vision, and short/long-term disability insurance for employees.\nBenefit Start Date:\nEligible for benefits on your first day of employment.\nWell-Being Support:\nEmployee Assistance Program (EAP).\nTime Off:\nExempt Employees:\nFlexible, unlimited PTO and 12 company holidays, including a winter shutdown.\nNon-Exempt Employees:\n10 vacation days, paid sick leave, and 12 company holidays, including a winter shutdown, annually.\nOn-Site Perks:\nCatered lunches four times a week and a variety of healthy snacks and refreshments at our Salem and Pittsburgh locations.\nParental Leave:\nGenerous paid parental leave programs.\nWork Environment:\nA culture that supports flexible work arrangements.\nGrowth Opportunities:\nProfessional development and tuition reimbursement programs.\nRelocation Assistance:\nProvided for eligible roles.\nAnnual Discretionary Bonus:\nProvided for eligible roles.\nAll of our roles are U.S.-based. Applicants must have current authorization to work in the United States.\nAgility Robotics is committed to a work environment in which all individuals are treated with respect and dignity. Each individual has the right to work in a professional atmosphere that promotes equal employment opportunities and prohibits unlawful discriminatory practices, including harassment. Therefore, it is the policy of Agility Robotics to ensure equal employment opportunity without discrimination or harassment on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, genetic information, or any other characteristic protected by law. Agility Robotics prohibits any such discrimination or harassment.\nAgility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+      "full_description": "Agility’s commercially deployed humanoids operate alongside teams in warehouses, manufacturing facilities, and distribution centers—tackling physically demanding and repetitive tasks while enabling workers to focus on higher-value work. With industry-leading safety standards and years of proven deployment data, we're pioneering a new era of automation that enhances human potential.\nAbout the Role\nAgility Robotics is scaling its operations and doing it deliberately. As a Continuous Improvement Analyst, you will be embedded at the intersection of our Program Management Team and our Operations and Supply Chain functions, helping the business understand how work gets done today and what it needs to look like tomorrow.\nYou will work closely with operations and supply chain teams to analyze processes, surface inefficiencies, and translate business needs into clear, actionable requirements. You will be a trusted partner to functional leaders who need someone who can come in, get up to speed quickly, and produce work that holds up.\nIn the near term, this means mapping and improving how work happens today within our existing systems. As we transition off our current ERP in the months ahead, that work may also extend to translating improved processes into the new system.\nThis role is a strong fit for someone with direct experience in operational environments who brings analytical rigor, sound judgment, and the ability to work independently once given a clear mandate.\nAbout the Work\nOwn process improvement initiatives end-to-end using a structured, DMAIC style approach: define the problem and establish a quantitative baseline, identify root cause, implement the change, and measure results afterward to confirm the improvement is statistically real, not just anecdotally better, and sustained over time\nGather and validate business requirements from stakeholders across operations and translate them into structured requirements, process maps, and documentation that program managers, technical teams, or leadership can act on with confidence.\nBuild trackers and reports in Excel or Google Sheets to give teams a consistent view of performance. Partner with the BI team when something needs to become a governed dashboard or ongoing monitoring.\nWork with data from multiple systems including ERP platforms, operational databases, Jira and reporting tools to produce accurate, reliable analysis.\nPartner with program managers to support cross-functional initiatives, providing analytical grounding and requirements discipline to programs that need it.\nDocument current-state processes and help define future-state workflows in a clear, repeatable format that functional teams can use and maintain.\nPilot process changes on a subset of the workflow, validate results against the baseline, and coordinate full rollout once the improvement is confirmed.\nHelp teams understand how system changes affect their day to day work and support adoption through documentation and communication.\nSupport the upcoming ERP transition by translating improved processes into the new system and helping teams adopt new workflows through the cutover.\nCommunicate findings and recommendations clearly to both working-level teams and senior stakeholders, adjusting depth and framing for the audience.\nAbout You\nLean Six Sigma certification or equivalent experience. Comfortable using Lean tools (value stream mapping, waste reduction) to improve flow and efficiency and DMAIC discipline to reduce variability and prove with quantitative before/after metrics that a change actually worked and held\n3+ years of hands on experience in operations, manufacturing or supply chain environments\nExperience with process mapping and collaboration tools (e.g., Visio, Lucidchart, Miro, or similar).\nYou have direct experience working in or supporting operations, manufacturing, or supply chain environments and can establish credibility with functional partners quickly.\nAdvanced proficiency in Excel or Google Sheets (pivot tables, lookups, basic formulas, Apps Script).\nYou are a strong analytical thinker who moves from data to insight to recommendation without getting lost in the middle.\nYou are thorough and precise in your work. Your documentation, requirements, and analysis are clear enough that someone else can act on them without having to come back with questions.\nYou work well independently. You can take a clear mandate and run with it, managing your own time, priorities, and output without close oversight.\nYou are a natural translator between business teams and technical or analytical work. You know how to ask the right questions, listen well, and capture what people actually need.\nFamiliarity with project or task tracking tools (e.g., Planner, Project, Jira).\nYou communicate clearly in writing and in person, and you adjust your style based on who you’re talking to.\nYou are curious about how things work and not satisfied with surface-level answers. You dig until you understand the real problem.\nBonus Points\nBackground in a high-growth, operationally complex environment such as robotics, aerospace, defense, or advanced manufacturing.\nExperience with Power BI or similar BI platforms at a level beyond basic reporting.\nExperience supporting an ERP or major systems migration via process documentation, user training, and adoption\nLocation\nThis is an onsite position at our Salem office.\nThe final salary offered to a successful candidate will be dependent on several factors that may include but are not limited to: job-related knowledge, skills, and experience. Agility Robotics is a multi-state employer and this salary range may not reflect positions who work in other locations. These ranges may be modified in the future.\nAnticipated Base Salary Range\n$96,000\n—\n$125,000 USD\nIn addition to base pay, our competitive total rewards package consists of the following for full-time employees:\n401(k) Plan:\nIncludes a 6% company match.\nEquity:\nCompany stock options.\nInsurance Coverage:\n100% company-paid medical, dental, vision, and short/long-term disability insurance for employees.\nBenefit Start Date:\nEligible for benefits on your first day of employment.\nWell-Being Support:\nEmployee Assistance Program (EAP).\nTime Off:\nExempt Employees:\nFlexible, unlimited PTO and 12 company holidays, including a winter shutdown.\nNon-Exempt Employees:\n10 vacation days, paid sick leave, and 12 company holidays, including a winter shutdown, annually.\nOn-Site Perks:\nCatered lunches four times a week and a variety of healthy snacks and refreshments at our Salem and Pittsburgh locations.\nParental Leave:\nGenerous paid parental leave programs.\nWork Environment:\nA culture that supports flexible work arrangements.\nGrowth Opportunities:\nProfessional development and tuition reimbursement programs.\nRelocation Assistance:\nProvided for eligible roles.\nAnnual Discretionary Bonus:\nProvided for eligible roles.\nAll of our roles are U.S.-based. Applicants must have current authorization to work in the United States.\nAgility Robotics is committed to a work environment in which all individuals are treated with respect and dignity. Each individual has the right to work in a professional atmosphere that promotes equal employment opportunities and prohibits unlawful discriminatory practices, including harassment. Therefore, it is the policy of Agility Robotics to ensure equal employment opportunity without discrimination or harassment on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, genetic information, or any other characteristic protected by law. Agility Robotics prohibits any such discrimination or harassment.\nAgility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_EXCEL",
+        "name": "Excel",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 564,
+        "end": 616,
+        "quote": "Build trackers and reports in Excel or Google Sheets",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_SHEETS",
+        "name": "Google Sheets",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 564,
+        "end": 616,
+        "quote": "Build trackers and reports in Excel or Google Sheets",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ERP",
+        "name": "ERP系统",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 765,
+        "end": 825,
+        "quote": "Work with data from multiple systems including ERP platforms",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_EXCEL",
+        "name": "Excel",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 594,
+        "end": 599,
+        "quote": "Excel",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_SHEETS",
+        "name": "Google Sheets",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 603,
+        "end": 616,
+        "quote": "Google Sheets",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_ERP",
+        "name": "ERP系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1951,
+        "end": 1954,
+        "quote": "ERP",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 242,
+        "end": 275,
+        "quote": "industry-leading safety standards",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0307:1",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "You will work closely with operations and supply chain teams to analyze processes, surface inefficiencies, and translate business needs into clear, actionable requirements. You will be a trusted partner to functional leaders who need someone who can come in, get up to speed quickly, and produce work that holds up.",
+        "quote": "You will work closely with operations and supply chain teams to analyze processes, surface inefficiencies, and translate business needs into clear, actionable requirements. You will be a trusted partner to functional leaders who need someone who can come in, get up to speed quickly, and produce work that holds up.",
+        "field": "full_description",
+        "start": 724,
+        "end": 1039
+      },
+      {
+        "id": "2",
+        "review_id": "E0307:2",
+        "codes": [
+          "V2_LEAN"
+        ],
+        "names": [
+          "精益与六西格玛方法"
+        ],
+        "surface": "Own process improvement initiatives end-to-end using a structured, DMAIC style approach: define the problem and establish a quantitative baseline, identify root cause, implement the change, and measure results afterward to confirm the improvement is statistically real, not just anecdotally better, and sustained over time",
+        "quote": "Own process improvement initiatives end-to-end using a structured, DMAIC style approach: define the problem and establish a quantitative baseline, identify root cause, implement the change, and measure results afterward to confirm the improvement is statistically real, not just anecdotally better, and sustained over time",
+        "field": "full_description",
+        "start": 1497,
+        "end": 1819
+      },
+      {
+        "id": "3",
+        "review_id": "E0307:3",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Gather and validate business requirements from stakeholders across operations and translate them into structured requirements, process maps, and documentation that program managers, technical teams, or leadership can act on with confidence.",
+        "quote": "Gather and validate business requirements from stakeholders across operations and translate them into structured requirements, process maps, and documentation that program managers, technical teams, or leadership can act on with confidence.",
+        "field": "full_description",
+        "start": 1820,
+        "end": 2060
+      },
+      {
+        "id": "4",
+        "review_id": "E0307:4",
+        "codes": [
+          "V2_JIRA"
+        ],
+        "names": [
+          "Jira"
+        ],
+        "surface": "Work with data from multiple systems including ERP platforms, operational databases, Jira and reporting tools to produce accurate, reliable analysis.",
+        "quote": "Work with data from multiple systems including ERP platforms, operational databases, Jira and reporting tools to produce accurate, reliable analysis.",
+        "field": "full_description",
+        "start": 2262,
+        "end": 2411
+      },
+      {
+        "id": "5",
+        "review_id": "E0307:5",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Document current-state processes and help define future-state workflows in a clear, repeatable format that functional teams can use and maintain.",
+        "quote": "Document current-state processes and help define future-state workflows in a clear, repeatable format that functional teams can use and maintain.",
+        "field": "full_description",
+        "start": 2568,
+        "end": 2713
+      },
+      {
+        "id": "6",
+        "review_id": "E0307:6",
+        "codes": [
+          "V2_LEAN"
+        ],
+        "names": [
+          "精益与六西格玛方法"
+        ],
+        "surface": "Lean Six Sigma certification or equivalent experience. Comfortable using Lean tools (value stream mapping, waste reduction) to improve flow and efficiency and DMAIC discipline to reduce variability and prove with quantitative before/after metrics that a change actually worked and held",
+        "quote": "Lean Six Sigma certification or equivalent experience. Comfortable using Lean tools (value stream mapping, waste reduction) to improve flow and efficiency and DMAIC discipline to reduce variability and prove with quantitative before/after metrics that a change actually worked and held",
+        "field": "full_description",
+        "start": 3306,
+        "end": 3591
+      },
+      {
+        "id": "7",
+        "review_id": "E0307:7",
+        "codes": [
+          "V2_VISIO",
+          "V2_MIRO"
+        ],
+        "names": [
+          "Visio",
+          "Miro"
+        ],
+        "surface": "Experience with process mapping and collaboration tools (e.g., Visio, Lucidchart, Miro, or similar).",
+        "quote": "Experience with process mapping and collaboration tools (e.g., Visio, Lucidchart, Miro, or similar).",
+        "field": "full_description",
+        "start": 3682,
+        "end": 3782
+      },
+      {
+        "id": "8",
+        "review_id": "E0307:8",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "You have direct experience working in or supporting operations, manufacturing, or supply chain environments and can establish credibility with functional partners quickly.",
+        "quote": "You have direct experience working in or supporting operations, manufacturing, or supply chain environments and can establish credibility with functional partners quickly.",
+        "field": "full_description",
+        "start": 3783,
+        "end": 3954
+      },
+      {
+        "id": "9",
+        "review_id": "E0307:9",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "You are thorough and precise in your work. Your documentation, requirements, and analysis are clear enough that someone else can act on them without having to come back with questions.",
+        "quote": "You are thorough and precise in your work. Your documentation, requirements, and analysis are clear enough that someone else can act on them without having to come back with questions.",
+        "field": "full_description",
+        "start": 4177,
+        "end": 4361
+      },
+      {
+        "id": "10",
+        "review_id": "E0307:10",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "You work well independently. You can take a clear mandate and run with it, managing your own time, priorities, and output without close oversight.",
+        "quote": "You work well independently. You can take a clear mandate and run with it, managing your own time, priorities, and output without close oversight.",
+        "field": "full_description",
+        "start": 4362,
+        "end": 4508
+      },
+      {
+        "id": "11",
+        "review_id": "E0307:11",
+        "codes": [
+          "V2_JIRA",
+          "V2_MS_PROJECT"
+        ],
+        "names": [
+          "Jira",
+          "Microsoft Project"
+        ],
+        "surface": "Familiarity with project or task tracking tools (e.g., Planner, Project, Jira).",
+        "quote": "Familiarity with project or task tracking tools (e.g., Planner, Project, Jira).",
+        "field": "full_description",
+        "start": 4688,
+        "end": 4767
+      },
+      {
+        "id": "12",
+        "review_id": "E0307:12",
+        "codes": [
+          "V2_POWERBI"
+        ],
+        "names": [
+          "Power BI"
+        ],
+        "surface": "Experience with Power BI or similar BI platforms at a level beyond basic reporting.",
+        "quote": "Experience with Power BI or similar BI platforms at a level beyond basic reporting.",
+        "field": "full_description",
+        "start": 5148,
+        "end": 5231
+      },
+      {
+        "id": "13",
+        "review_id": "E0307:13",
+        "codes": [
+          "V2_OFFICE"
+        ],
+        "names": [
+          "Microsoft Office"
+        ],
+        "surface": "This is an onsite position at our Salem office.",
+        "quote": "This is an onsite position at our Salem office.",
+        "field": "full_description",
+        "start": 5352,
+        "end": 5399
+      },
+      {
+        "id": "14",
+        "review_id": "E0307:14",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$125,000 USD",
+        "quote": "$125,000 USD",
+        "field": "full_description",
+        "start": 5780,
+        "end": 5792
+      },
+      {
+        "id": "15",
+        "review_id": "E0307:15",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+        "quote": "Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+        "field": "full_description",
+        "start": 7729,
+        "end": 8073
+      },
+      {
+        "id": "16",
+        "review_id": "E0307:16",
+        "codes": [
+          "V2_LEAN"
+        ],
+        "names": [
+          "精益与六西格玛方法"
+        ],
+        "surface": "Lean Six Sigma certification or equivalent experience",
+        "quote": "Lean Six Sigma certification or equivalent experience",
+        "field": "requirements",
+        "start": 0,
+        "end": 53
+      },
+      {
+        "id": "17",
+        "review_id": "E0307:17",
+        "codes": [
+          "V2_VISIO",
+          "V2_MIRO"
+        ],
+        "names": [
+          "Visio",
+          "Miro"
+        ],
+        "surface": "Visio, Lucidchart, Miro",
+        "quote": "Visio, Lucidchart, Miro",
+        "field": "requirements",
+        "start": 439,
+        "end": 462
+      },
+      {
+        "id": "18",
+        "review_id": "E0307:18",
+        "codes": [
+          "V2_JIRA",
+          "V2_MS_PROJECT"
+        ],
+        "names": [
+          "Jira",
+          "Microsoft Project"
+        ],
+        "surface": "Planner, Project, Jira",
+        "quote": "Planner, Project, Jira",
+        "field": "requirements",
+        "start": 1437,
+        "end": 1459
+      },
+      {
+        "id": "19",
+        "review_id": "E0307:19",
+        "codes": [
+          "V2_POWERBI"
+        ],
+        "names": [
+          "Power BI"
+        ],
+        "surface": "Power BI or similar BI platforms",
+        "quote": "Power BI or similar BI platforms",
+        "field": "requirements",
+        "start": 1858,
+        "end": 1890
+      }
+    ]
+  }
+]

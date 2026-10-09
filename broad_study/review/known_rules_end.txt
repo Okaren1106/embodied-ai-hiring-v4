@@ -1,0 +1,264 @@
+DEF TC_POWER_ELECTRONICS 明示电源、电机驱动或功率电路 ['电力电子']
+DEF V2_GIT 广告明确提及Git作为工具、系统、格式、协议或相关能力。 ['git', 'GitHub', 'GitLab']
+DEF V2_TCPIP 广告明确提及TCP/IP作为工具、系统、格式、协议或相关能力。 ['TCP/IP', 'TCP', 'UDP']
+DEF V2_MOCAP 明确身体动作捕捉、传感服/控制器示范数据采集 ['motion capture', 'mocap', 'motion capture suits', '动作捕捉', '动捕']
+
+FULL N0977
+
+## N0977 US_BOSTON_DYNAMICS RF_MANUFACTURING_QUALITY_SUPPLY Staff Manufacturing Engineer
+TASK PROCESS_BUILD MANUFACTURING_PROCESS
+REVIEW ["UNKNOWN", "CATALOG_BOUNDARY"]
+F1 As a
+F2 Staff Manufacturing Engineer
+F3 at Boston Dynamics, you will help build and enhance our development plant's manufacturing systems that enable predictable production outputs. As part of the Manufacturing Engineering team, you work on introducing changes to our robots, stabilizing and ramping up production while also managing the continuous improvement of the production of our products. Every day, you will collaborate with our Quality, Test, and OPM teams to define and understand blocking production problems and create and execute solutions to those problems. To thrive in this role, you must have experience in and be excited by fast-paced New Product Introduction environments and be highly motivated to drive efficiency and stability at all costs. If you are looking to work amongst colleagues who are collaborative, mission-driven, values-focused, and looking to have a positive impact on the world of robotics, come and join us!
+F4 [原字节同已全文复读 N0980:full_description:10] Boston Dynamics is a world lea … s, our awe-inspiring
+F5 viral videos on YouTube
+F6 [原字节同已全文复读 N0980:full_description:12] have shown the world what rema … warehouse logistics.
+F7 How you will make an impact:
+F8 Collaborate with Hardware Engineering to provide DFM/DFA (Design for Manufacturing & Assembly) input throughout product development, ensuring manufacturability and serviceability.
+F9 Design, fabricate, and validate custom fixtures, tools, and jigs to support mechanical assembly, precision alignment, and testing of electric motors and actuators, ensuring ergonomic and repeatable processes.
+F10 Define assembly sequences, work instructions, and process documentation, including standard operating procedures (SOPs), visual aids, and training materials for assembly technicians.
+F11 Support prototype builds in a hands-on capacity, troubleshooting assembly issues, identifying root causes, and driving corrective actions to improve processes and product designs.
+F12 Implement process controls to ensure build quality, dimensional accuracy, and alignment with product performance requirements.
+F13 Lead continuous improvement initiatives, applying Lean Manufacturing and Six Sigma methodologies to improve process efficiency, reduce cycle times, and increase yield.
+F14 Drive tooling and equipment validation, ensuring custom fixtures and tools are fully qualified for use in production, including performing capability studies where necessary.
+F15 You bring:
+F16 Bachelor's degree in Manufacturing, Mechanical, Industrial, Electrical Engineering, or a related field; Master’s degree a plus.
+F17 At least 5 years of relevant experience in manufacturing engineering, process development, or advanced manufacturing, preferably in robotics, aerospace, or complex electromechanical systems.
+F18 Strong proficiency in CAD software (SolidWorks, CATIA, or similar) for tool/fixture design and review of engineering drawings and strong understanding of GD&T (Geometric Dimensioning & Tolerancing)
+F19 Experience with creating and approving change orders associated with products, procedures, and BOMs.
+F20 Proven track record of DFM/DFA collaboration with design teams to drive manufacturable and serviceable product designs.
+F21 Hands-on experience with additive manufacturing, rapid prototyping, machining (e.g. Mill, Lathe) and fabrication (e.g. Welding, Grinding, Bending) techniques for developing and validating custom tooling, jigs, and fixtures to support precision mechanical assembly
+F22 Experience writing clear, concise, and detailed work instructions, SOPs, and training materials for assembly technicians.
+F23 Experience working in production environments, with an ability to adapt processes for continuously evolving product designs.
+F24 Demonstrated experience applying Lean Manufacturing, Six Sigma, and root cause analysis methodologies to drive process improvement.
+F25 Excellent problem-solving skills with the ability to troubleshoot complex mechanical and electromechanical assemblies.
+F26 Comfortable working in cross-functional teams, balancing technical, schedule, and cost considerations in a fast-paced environment.
+F27 Strong communication skills, with the ability to present technical concepts and influence stakeholders across engineering, operations, and leadership teams.
+F28 Experience supporting on-site prototype builds and providing direct manufacturing floor support - balancing countermeasures and corrective-actions.
+F29 Nice to have:
+F30 Experience supporting robotics development programs, particularly New Product Introduction (NPI).
+F31 Experience with Product Lifecycle Management (PLM) systems for engineering change control and manufacturing documentation management (e.g. Arena, Enovia)
+F32 Experience with Manufacturing Execution Systems (MES)/Platforms (e.g. Tulip, Delmia)
+F33 Experience working in a research-to-product transition environment, where designs and processes evolve rapidly.
+F34 Experience in design for mass production of multi-part products and assemblies [DFM, DFA]
+F35 Working experience with quality processes and  systems (process control, 8D and other RCCA frameworks, etc.)
+F36 [原字节同已全文复读 N1035:full_description:33] We are interested in every qua … s for this position.
+F37 The salary or hourly pay range for this position will be clearly stated in the job posting as required by Massachusetts law. The base pay range for this position is between $116,000.00– $147,000.00. Base pay will depend on multiple individualized factors including, but not limited to internal equity, job related knowledge, skills and experience. This range represents a good faith estimate of compensation at the time of posting.
+F38 [原字节同已全文复读 N0994:full_description:34] Boston Dynamics will never ask …  recruiting process.
+EV N0977:O1 SK_CAD GENERAL/UNCONDITIONAL @F18
+EV N0977:O2 SK_SOLIDWORKS GENERAL/CHOICE @F18
+EV N0977:O3 SK_CATIA GENERAL/CHOICE @F18
+EV N0977:O4 SK_GD_T GENERAL/UNCONDITIONAL @F18
+EV N0977:O5 SK_8D PREFERRED/EXAMPLE @F35
+EV N0977:O6 TC_MECHANICAL DUTY_OWN_DEVELOP/UNCONDITIONAL @F9
+EV N0977:O7 TC_EVALUATION DUTY_OWN_DEVELOP/UNCONDITIONAL @F9
+EV N0977:O8 TC_ACTUATOR SEPARATE/UNCONDITIONAL @F9
+EV N0977:O9 TC_MECHANICAL DUTY_OWN_DEVELOP/UNCONDITIONAL @F14
+EV N0977:O10 TC_EVALUATION DUTY_OWN_USE/UNCONDITIONAL @F14
+EV N0977:O11 TC_MECHANICAL GENERAL/UNCONDITIONAL @F21
+EV N0977:O12 TC_EVALUATION GENERAL/UNCONDITIONAL @F21
+EV N0977:O13 TC_MECHANICAL GENERAL/UNCONDITIONAL @F25
+EV N0977:2:0 V2_DFM SEPARATE/COLLABORATION_OBJECT @F8
+EV N0977:3:0 V2_SOP_OPERATION DUTY_OWN_DEVELOP/UNCONDITIONAL @F10
+EV N0977:5:0 V2_LEAN DUTY_OWN_USE/UNCONDITIONAL @F13
+EV N0977:8:0 V2_DFM GENERAL/UNCONDITIONAL @F20
+EV N0977:9:0 V2_LEAN GENERAL/UNCONDITIONAL @F24
+EV N0977:9:1 V2_RCA GENERAL/UNCONDITIONAL @F24
+EV N0977:12:0 V2_PLM PREFERRED/UNCONDITIONAL @F31
+EV N0977:16:0 V2_MES PREFERRED/UNCONDITIONAL @F32
+EV N0977:20:0 V2_DFM PREFERRED/UNCONDITIONAL @F34
+EV N0977:21:0 V2_RCA PREFERRED/EXAMPLE @F35
+EV N0977:ADD1 V2_RCA DUTY_OWN_USE/UNCONDITIONAL @F11
+CAND N0977:1 REJECT:can是英语情态动词，不是CAN总线 @F6
+CAND N0977:4 OUTSIDE:冻结V2_INCIDENT_SUPPORT限于运行中的排障、恢复、工单与升级；本提及为开发/原型/测试调试或未分对象的一般调试，未明示运行维护，不作为该窄类别正例。 @F11
+CAND N0977:14 OUTSIDE:Arena为PLM示例产品；保留泛PLM类别，具体产品未单列 @F31
+CAND N0977:15 OUTSIDE:Enovia为PLM示例产品；不归Windchill或Teamcenter @F31
+CAND N0977:18 OUTSIDE:Tulip为MES示例产品，具体产品不在有限目录 @F32
+CAND N0977:19 OUTSIDE:Delmia为MES示例产品，具体产品不在有限目录 @F32
+CAND N0977:23 REJECT:招聘反诈骗说明，不是本人HR职责 @F38
+NOTES PLM and MES are preferred category-level experience; e.g. applies to named brands, not to the category itself. Original actuator relation unknown retained: tooling for actuator assembly/test does not establish actuator development ownership. 本轮运行排障边界定向复核：开发调试不直接纳入；见Q-M5-INCIDENT-BOUNDARY-20260916-01。
+
+FULL E0325
+
+## E0325 US_AGILITY RF_RESEARCH_SCIENCE Senior AI Research Engineer
+TASK ROBOT_LEARNING POLICY
+REVIEW ["SEEDED_SAMPLE", "DERIVED_CONTEXT_OR_OBJECT_CORRECTION"]
+F1 [原字节同已全文复读 E0325:full_description:1] Agility’s commercially deploye … ces human potential.
+F2 About The Role
+F3 [原字节同已全文复读 E0325:full_description:3] The AI innovation team at Agil … red into production.
+F4 About the Work
+F5 [原字节同已全文复读 E0325:full_description:5] Design, train, and deploy robu … ith the environment.
+F6 [原字节同已全文复读 E0325:full_description:6] Develop core reinforcement lea … aluation frameworks.
+F7 [原字节同已全文复读 E0325:full_description:7] Design and implement new simul … of control policies.
+F8 Develop, design, and test imitation learning methods
+F9 [原字节同已全文复读 E0325:full_description:9] Collaborate with Robotics Soft … ferred to production
+F10 About You
+F11 [原字节同已全文复读 E0325:full_description:11] 3+ years of experience develop … g-from-demonstration
+F12 [原字节同已全文复读 E0325:full_description:12] Strong programming skills in P … rks such as PyTorch.
+F13 [原字节同已全文复读 E0325:full_description:13] Experience with modern learnin … like DiffusionPolicy
+F14 [原字节同已全文复读 E0325:full_description:14] Experience with robot data col …  manipulation tasks.
+F15 [原字节同已全文复读 E0325:full_description:15] Ability to work collaborativel … igh-quality software
+F16 MS in Robotics, Computer Science, or a related field.
+F17 Bonus Points
+F18 PhD in Robotics, Computer Science, or a related field.
+F19 [原字节同已全文复读 E0325:full_description:19] Publications in top ML or robo … L, CoRL, RSS, ICRA).
+F20 [原字节同已全文复读 E0325:full_description:20] Familiarity with robot simulat … transfer techniques.
+F21 [原字节同已全文复读 E0325:full_description:21] Experience with modern reinfor … d whole-body control
+F22 Experience with writing performant, high quality software in C++
+F23 [原字节同已全文复读 E0325:full_description:23] This a hybrid position based o …  or Fremont offices.
+F24 [原字节同已全文复读 E0325:full_description:24] The final salary offered to a  … ified in the future.
+F25 Anticipated Salary Range
+F26 $195,000
+F27 —
+F28 $304,000 USD
+F29 [原字节同已全文复读 E0325:full_description:29] In addition to base pay, our c … full-time employees:
+F30 401(k) Plan:
+F31 Includes a 6% company match.
+F32 Equity:
+F33 Company stock options.
+F34 Insurance Coverage:
+F35 [原字节同已全文复读 E0325:full_description:35] 100% company-paid medical, den … rance for employees.
+F36 Benefit Start Date:
+F37 Eligible for benefits on your first day of employment.
+F38 Well-Being Support:
+F39 Employee Assistance Program (EAP).
+F40 Time Off:
+F41 Exempt Employees:
+F42 [原字节同已全文复读 E0325:full_description:42] Flexible, unlimited PTO and 12 … g a winter shutdown.
+F43 Non-Exempt Employees:
+F44 [原字节同已全文复读 E0325:full_description:44] 10 vacation days, paid sick le …  shutdown, annually.
+F45 On-Site Perks:
+F46 [原字节同已全文复读 E0325:full_description:46] Catered lunches four times a w … ittsburgh locations.
+F47 Parental Leave:
+F48 Generous paid parental leave programs.
+F49 Work Environment:
+F50 A culture that supports flexible work arrangements.
+F51 Growth Opportunities:
+F52 Professional development and tuition reimbursement programs.
+F53 Relocation Assistance:
+F54 Provided for eligible roles.
+F55 Annual Discretionary Bonus:
+F56 Provided for eligible roles.
+F57 [原字节同已全文复读 E0325:full_description:57] All of our roles are U.S.-base … n the United States.
+F58 [原字节同已全文复读 E0325:full_description:58] Agility Robotics is committed  … ation or harassment.
+F59 [原字节同已全文复读 E0325:full_description:59] Agility Robotics does not acce … ease apply directly.
+R46 Provided for eligible roles.
+R49 [原字节同已全文复读 E0325:requirements:49] Agility Robotics does not acce … ease apply directly.
+EV E0325:O1 SK_PYTHON GENERAL/UNCONDITIONAL @F12
+EV E0325:O2 SK_GENERIC_ML_FRAMEWORK GENERAL/UNCONDITIONAL @F12
+EV E0325:O3 SK_PYTORCH GENERAL/EXAMPLE @F12
+EV E0325:O4 SK_MUJOCO PREFERRED/EXAMPLE @F20
+EV E0325:O5 SK_ISAAC PREFERRED/EXAMPLE @F20
+EV E0325:O6 SK_CPP PREFERRED/UNCONDITIONAL @F22
+EV E0325:O7 TC_SAFETY SEPARATE/UNRESOLVED @F1
+EV E0325:O8 TC_FOUNDATION_MODEL SEPARATE/UNRESOLVED @F3
+EV E0325:O9 TC_IL DUTY_OWN_DEVELOP/UNCONDITIONAL @F8
+EV E0325:O10 TC_RL DUTY_OWN_DEVELOP/UNCONDITIONAL @F3
+EV E0325:O11 TC_ML_SYSTEMS DUTY_OWN_DEVELOP/UNCONDITIONAL @F6
+EV E0325:O12 TC_EVALUATION DUTY_OWN_DEVELOP/UNCONDITIONAL @F6
+EV E0325:O13 TC_SIMULATION DUTY_OWN_DEVELOP/UNCONDITIONAL @F7
+EV E0325:O14 TC_MANIPULATION DUTY_OWN_DEVELOP/UNCONDITIONAL @F5
+EV E0325:O15 TC_IL GENERAL/UNCONDITIONAL @F11
+EV E0325:O16 TC_IL GENERAL/UNCONDITIONAL @F13
+EV E0325:O17 TC_GENERATIVE_POLICY GENERAL/EXAMPLE @F13
+EV E0325:O18 TC_DATA_PIPELINE GENERAL/UNCONDITIONAL @F14
+EV E0325:O19 TC_EVALUATION GENERAL/UNCONDITIONAL @F14
+EV E0325:O20 TC_MANIPULATION GENERAL/UNCONDITIONAL @F14
+EV E0325:O21 TC_SAFETY GENERAL/UNCONDITIONAL @F15
+EV E0325:O22 TC_SIMULATION PREFERRED/UNCONDITIONAL @F20
+EV E0325:O23 TC_RL PREFERRED/UNCONDITIONAL @F6
+EV E0325:O24 TC_MANIPULATION PREFERRED/UNCONDITIONAL @F5
+EV E0325:O25 TC_CONTROL PREFERRED/UNCONDITIONAL @F21
+EV E0325:3:0 V2_SIM2REAL GENERAL/UNCONDITIONAL @F20
+CAND E0325:1 REJECT:English can is not Controller Area Network. @F3
+CAND E0325:2 REJECT:English can is not Controller Area Network. @F9
+CAND E0325:4 REJECT:C++ is not the C language. @F22
+CAND E0325:5 REJECT:Salary USD is not Universal Scene Description. @F28
+CAND E0325:6 REJECT:第三方招聘免责声明不是人力资源技能项。 @F59
+NOTES AI研究工程师。Sim2Real保留。
+
+FULL E0502
+
+## E0502 US_FIGURE RF_ROBOT_OPERATIONS Humanoid Robot Operator - Commercial Site Team
+TASK CUSTOMER_OPERATION SITE_OP
+REVIEW ["SEEDED_SAMPLE"]
+F1 [原字节同已全文复读 E0502:full_description:1] Figure is an AI robotics compa … r sites in Reno, NV.
+F2 [原字节同已全文复读 E0505:full_description:2] This is a contract-to-hire pos … ull-time employment.
+F3 [原字节同已全文复读 E0505:full_description:3] As a Humanoid Robot Operator,  … ehaviors and skills.
+F4 Responsibilities:
+F5 [原字节同已全文复读 E0502:full_description:5] Ensure successful operations o … r on customer sites.
+F6 [原字节同已全文复读 E0505:full_description:13] Follow proper equipment and ro … ing-up and shutdown.
+F7 [原字节同已全文复读 E0502:full_description:7] Run the robot, identify bugs a … e appropriate teams.
+F8 [原字节同已全文复读 E0505:full_description:10] Track, document, and escalate  … ng teams using Jira.
+F9 [原字节同已全文复读 E0502:full_description:9] Adhere to all safety procedure … operation equipment.
+F10 Requirements:
+F11 [原字节同已全文复读 E0502:full_description:11] Willingness to own the operati … ioning of the robot.
+F12 Excellent communication skills.
+F13 [原字节同已全文复读 E0505:full_description:17] Demonstrate sustained focus an … ming assigned tasks.
+F14 Experience working with robots or troubleshooting mechanical systems.
+F15 Can stand 8+ hours a day and physically manage humanoid hardware
+F16 Embrace constructive feedback and strive for constant improvement.
+F17 Thrive in a fast paced environment.
+F18 Valid drivers license and clean driving record
+F19 Bonus Qualifications:
+F20 A passion for helping scale the deployment of humanoid robots.
+F21 Excellent physical coordination, spatial awareness, and focus.
+F22 [原字节同已全文复读 E0505:full_description:30] Master new physical tasks quic … way to perform them.
+F23 The US base hourly rate for this full-time position is $26-30/hr.
+F24 [原字节同已全文复读 E0505:full_description:33] The pay offered for this posit … t offer is extended.
+EV E0502:O1 TC_EVALUATION DUTY_OWN_USE/UNCONDITIONAL @F3
+EV E0502:O2 TC_SAFETY DUTY_OWN_USE/UNCONDITIONAL @F9
+EV E0502:1:0 V2_JIRA DUTY_OWN_USE/UNCONDITIONAL @F8
+EV E0502:2:0 V2_TELEOP DUTY_OWN_USE/UNCONDITIONAL @F9
+EV E0502:3:0 V2_INCIDENT_SUPPORT PREFERRED/UNCONDITIONAL @F14
+CAND E0502:4 REJECT:Can stand is not Controller Area Network. @F15
+NOTES 客户现场操作。Jira/遥操/排障保留。
+
+MOCAP [('N0063:1:0', 'DUTY_OWN_USE', 'UNCONDITIONAL', '2、 负责多源动作数据处理与建模，包括动捕数据（mocap）、视频提取动作、仿真数据等，完成清洗、对齐、标注及标准化流程建设。'), ('N0063:4:0', 'GENERAL', 'CHOICE', '5、熟悉至少一种仿真或动画工具链，如MuJoCo / Isaac Gym, Blender / Unity 或其他物理引擎/动画系统'), ('N0063:4:1', 'GENERAL', 'CHOICE', '5、熟悉至少一种仿真或动画工具链，如MuJoCo / Isaac Gym, Blender / Unity 或其他物理引擎/动画系统'), ('N0063:8:0', 'GENERAL', 'UNCONDITIONAL', '7、熟悉动捕数据格式与处理流程（如 BVH、FBX 等），具备动作数据清洗与调优经验。')]
+CHECK E0600:O8 TC_POWER_ELECTRONICS DUTY_OWN_USE UNCONDITIONAL Repair electrical systems including wiring, circuits, power supplies
+CHECK N0995:O12 TC_POWER_ELECTRONICS DUTY_OWN_DEVELOP UNCONDITIONAL Develop circuit designs for motor drives, power supplies, analog sensing, microcontrollers, and high-speed communications
+CHECK N0339:O9 TC_POWER_ELECTRONICS DUTY_OWN_DEVELOP UNCONDITIONAL 1. 负责产品的电路原理设计，涵盖模拟电路、数字电路、射频电路、电源管理等多个领域。 
+CHECK N0218:O5 TC_POWER_ELECTRONICS DUTY_OWN_DEVELOP EXAMPLE ◦ 完成电机驱动、电源管理、传感器接口等模块的原理图设计
+CHECK N0496:O3 TC_POWER_ELECTRONICS DUTY_OWN_DEVELOP EXAMPLE 1.负责机器人硬件电路元器件选型，原理图开发，包括ARM嵌入式系统、电源、电池管理、电机驱动等，完成设计文档输出；
+CHECK N0480:O5 TC_POWER_ELECTRONICS DUTY_OWN_DEVELOP UNCONDITIONAL 负责公司人形机器人核心硬件系统的方案设计与开发，涵盖主控板、电源系统、传感器接口、驱动控制相关硬件模块。
+CHECK N0639:O6 TC_POWER_ELECTRONICS DUTY_OWN_DEVELOP EXAMPLE 负责人形机器人各类硬件PCB板的Layout设计，包括主控板、关节驱动板、电源管理板、传感器板、通信板等
+CHECK N0656:O6 TC_POWER_ELECTRONICS DUTY_OWN_USE EXAMPLE 负责机器人控制策略开发、整机电源及功耗管理等业务开发
+CHECK N0019:O5 TC_POWER_ELECTRONICS DUTY_OWN_DEVELOP EXAMPLE 电源管理电路、接口电路等，完成原理图设计、PCB 设计与优化
+CHECK N0609:O5 TC_POWER_ELECTRONICS DUTY_OWN_DEVELOP UNCONDITIONAL 负责MOSFET、IGBT、SiC等功率器件及其驱动、采样、保护和电源类芯片的选型与应用开发；
+CHECK E0302:O7 TC_POWER_ELECTRONICS DUTY_OWN_DEVELOP EXAMPLE 电源及功耗管理等业务开发
+CHECK E0155:O1 TC_POWER_ELECTRONICS DUTY_OWN_DEVELOP UNCONDITIONAL 设计整机供电架构、电源分配
+CHECK E0147:O6 TC_POWER_ELECTRONICS DUTY_OWN_DEVELOP UNCONDITIONAL 支持电机驱动、电流采样、编码器采集、IMU/力觉传感器采集、电源转换和通信接口
+CHECK E0476:O7 TC_POWER_ELECTRONICS SEPARATE TEST_OBJECT verify the functionality of microcontrollers, communication buses, power systems, and sensors
+CHECK N0977:O9 TC_MECHANICAL SEPARATE TEST_OBJECT Drive tooling and equipment
+CHECK N0125:O3 TC_POWER_ELECTRONICS DUTY_OWN_USE UNCONDITIONAL 负责电源、信号测试方面的技术难题攻关，故障分析，测试方法改进
+CHECK N0323:O12 TC_EMBEDDED SEPARATE TEST_OBJECT 4、负责驱动与底层接口测试：设备接入驱动层（Camera/CSI、Ethernet、CAN、USB、modbus等）的功能、兼容性、稳定性测试
+CHECK N0274:O1 SK_CPP SEPARATE TEST_OBJECT 3、SDK接口测试：负责机器人SDK（C++/Python）的接口功能、性能、压力、异常输入及版本兼容性测试
+CHECK N0274:O2 SK_PYTHON SEPARATE TEST_OBJECT 3、SDK接口测试：负责机器人SDK（C++/Python）的接口功能、性能、压力、异常输入及版本兼容性测试
+CHECK N0335:O12 TC_EMBEDDED SEPARATE TEST_OBJECT 4、负责驱动与底层接口测试：设备接入驱动层（Camera/CSI、Ethernet、CAN、USB、modbus等）的功能、兼容性、稳定性测试
+CHECK N0262:O6 TC_NAVIGATION SEPARATE TEST_OBJECT 2、基于产品开发文档设计对应的测试用例；
+CHECK N0263:O1 SK_CPP SEPARATE TEST_OBJECT 2、SDK接口测试：负责机器人SDK（C++/Python）的接口功能、性能、压力、异常输入及版本兼容性测试 
+CHECK N0263:O2 SK_PYTHON SEPARATE TEST_OBJECT 2、SDK接口测试：负责机器人SDK（C++/Python）的接口功能、性能、压力、异常输入及版本兼容性测试 
+CHECK N0268:O1 SK_CPP SEPARATE TEST_OBJECT 2、SDK接口测试：负责机器人SDK（C++/Python）的接口功能、性能、压力、异常输入及版本兼容性测试
+CHECK N0268:O2 SK_PYTHON SEPARATE TEST_OBJECT 2、SDK接口测试：负责机器人SDK（C++/Python）的接口功能、性能、压力、异常输入及版本兼容性测试
+CHECK E0182:O4 TC_POWER_ELECTRONICS DUTY_OWN_USE EXAMPLE 电源完整性及纹波时序测试、电机驱动单板测试等
+CHECK E0590:O10 TC_POWER_ELECTRONICS DUTY_OWN_USE EXAMPLE Repair electrical systems including wiring, circuits, power supplies
+CHECK N0915:O10 TC_EMBEDDED SEPARATE TEST_OBJECT regression testing for new software and firmware.
+CHECK N0942:O13 TC_PERCEPTION SEPARATE TEST_OBJECT Develop test automation software in Python, C++, or equivalent languages to exercise actuators, sensors, vision systems, and communication interfaces.
+CHECK E0360:O15 TC_ACTUATOR SEPARATE SIMULATION_OR_TEST_OBJECT RT models for motor, encoder
+CHECK E0360:O16 TC_EMBEDDED SEPARATE SIMULATION_OR_TEST_OBJECT continuous firmware and software regression testing
+CHECK E0360:O17 TC_POWER_ELECTRONICS DUTY_OWN_USE UNCONDITIONAL SCPI-controlled power supplies
+REJECT_CHECK N0038 N0038:8 REJECT:LoRA/MoE不是模型压缩目录的充分证据。 3.深入理解 Transformer 及其变体（MoE、LoRA 等）、扩散模型与大语言模型训练机制；
+REJECT_CHECK N0090 N0090:2 REJECT:KV Cache/LoRA/Adapter不是模型压缩目录的充分证据。 3.深入理解大模型架构：深度掌握Transformer及其变体（自注意力机制、KV Cache、MoE、LoRA/Adapter等），理解扩散模型与大语言模型的训练机制，了解训练稳定性与缩放规律。
+REJECT_CHECK N0078 N0078:4 REJECT:UDP is not TCP/IP. UDP
+REJECT_CHECK N0097 N0097:10 REJECT:LoRA/QLoRA/Adapter是参数高效微调，不是量化蒸馏裁剪的充分证据。 4.掌握PPO、DQN、SAC等强化学习算法及其在机器人策略学习中的应用，有实际项目落地经验；具备大规模模型参数高效微调实战经验，熟悉LoRA、QLoRA、Adapter等技术的原理、选型与工程部署。
+REJECT_CHECK N0573 N0573:9 REJECT:LoRA不是量化蒸馏裁剪的充分证据。 - 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。
+REJECT_CHECK N0572 N0572:20 REJECT:LoRA不是量化蒸馏裁剪的充分证据。 - 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。
+REJECT_CHECK N0571 N0571:9 REJECT:LoRA/分布式训练不是模型压缩。 - 有大模型、多模态模型训练或部署经验，熟悉 Transformers、LoRA、分布式训练、推理加速等技术。
+REJECT_CHECK N0571 N0571:11 REJECT:LoRA不是模型压缩。 LoRA
+REJECT_CHECK E0177 E0177:10 REJECT:UDP不是TCP/IP。 - 熟悉ROS2生态及其实时扩展、熟悉UDP协议                                                
+REJECT_CHECK N0947 N0947:2 REJECT:you'll/can is not Controller Area Network. In this role, you'll balance innovative technical exploration with practical implementation, collaborating with platform teams to ensure your models and algorithms perform robustly in dynamic real-world environments. You’ll have the freedom to pursue ambitious research directions while leveraging Amazon’s vast computational resources to tackle ambiguous problems in areas like very large multi-modal robotic foundation models and efficient, promptable model architectures that can scale across diverse robotic applications.
+REJECT_CHECK N0950 N0950:2 REJECT:you'll/can is not Controller Area Network. In this role, you'll balance innovative technical exploration with practical implementation, collaborating with platform teams to ensure your models and algorithms perform robustly in dynamic real-world environments. You'll have access to Amazon's vast computational resources, enabling you to tackle ambitious problems in areas like very large multi-modal robotic foundation models and efficient, promptable model architectures that can scale across diverse robotic applications.
+REJECT_CHECK N0945 N0945:2 REJECT:you'll/can is not Controller Area Network. In this role, you'll balance innovative technical exploration with practical implementation, collaborating with platform teams to ensure your models and algorithms perform robustly in dynamic real-world environments. You'll have access to Amazon's vast computational resources, enabling you to tackle ambitious problems in areas like very large multi-modal robotic foundation models and efficient, promptable model architectures that can scale across diverse robotic applications.
+REJECT_CHECK N0944 N0944:2 REJECT:you'll/can is not Controller Area Network. In this role, you'll balance innovative technical exploration with practical implementation, collaborating with platform teams to ensure your models and algorithms perform robustly in dynamic real-world environments. You'll have access to Amazon's vast computational resources, enabling you to tackle ambitious problems in areas like very large multi-modal robotic foundation models and efficient, promptable model architectures that can scale across diverse robotic applications.
+REJECT_CHECK N0782 N0782:5 REJECT:UDP不是TCP/IP专指。 UDP

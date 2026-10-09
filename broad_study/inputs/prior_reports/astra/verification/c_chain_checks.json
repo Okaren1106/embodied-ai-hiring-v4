@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "target": "repro_c_second",
+      "data_report_chart_byte_identical": 60,
+      "self_manifest_valid": true
+    },
+    {
+      "target": "repro_c_third",
+      "data_report_chart_byte_identical": 60,
+      "self_manifest_valid": true
+    }
+  ],
+  "README_second_third_identical": true,
+  "faults": [
+    {
+      "test": "existing_output",
+      "rejected": true,
+      "reason": "REFUSE_OVERWRITE"
+    },
+    {
+      "test": "input_hash_drift_minimal_sealed_fixture",
+      "rejected": true,
+      "reason": "RELEASE_DRIFT",
+      "no_output_published": true
+    }
+  ],
+  "originals_modified": false
+}

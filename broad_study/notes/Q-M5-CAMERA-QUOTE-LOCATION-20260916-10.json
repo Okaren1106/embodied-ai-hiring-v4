@@ -1,0 +1,559 @@
+{
+  "revision_id": "Q-M5-CAMERA-QUOTE-LOCATION-20260916-10",
+  "reason": "同一广告camera pipelines重复，改用已读完整原句使引用唯一；语义不变",
+  "changes": [
+    {
+      "reading_id": "N0660",
+      "before": {
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "task": "FIRMWARE",
+        "fine_task": "TEGRA_CAMERA_LINUX_DRIVER_SYNCHRONIZATION",
+        "task_evidence": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces.",
+        "new": {
+          "1": "OUTSIDE:NVIDIA Tegra平台细项缺失。",
+          "2": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "BACKGROUND"
+            ]
+          ],
+          "3": [
+            [
+              "V2_CALIBRATION",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "4": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "5": [
+            [
+              "V2_I2C",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_GMSL",
+              "DUTY_OWN_USE",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "6": "OUTSIDE:MIPI CSI-2接口细项缺失。",
+          "7": "DUPLICATE:N0660:5",
+          "8": "OUTSIDE:FPD-Link接口可替代项目录缺失。",
+          "9": "DUPLICATE:N0660:5",
+          "10": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "BACKGROUND"
+            ]
+          ],
+          "11": [
+            [
+              "V2_C",
+              "PREFERRED",
+              "UNRESOLVED"
+            ]
+          ],
+          "12": "DUPLICATE:N0660:11",
+          "13": [
+            [
+              "V2_I2C",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_GMSL",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "14": "OUTSIDE:MIPI CSI-2优先示例接口目录缺项。",
+          "15": "DUPLICATE:N0660:13",
+          "16": "DUPLICATE:N0660:13",
+          "17": "OUTSIDE:FPD-Link优先示例接口目录缺项。",
+          "18": "OUTSIDE:V4L2底层接口目录缺项。",
+          "19": [
+            [
+              "V2_PTP",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "20": "DUPLICATE:N0660:19",
+          "21": "OUTSIDE:PPS精确时序选项目录缺项。",
+          "22": "REJECT:USD薪酬币种。"
+        },
+        "old_overrides": {
+          "O16": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "embedded camera experience包括board-level validation，保留including示例。"
+          }
+        },
+        "additions": [
+          {
+            "code": "SK_LINUX",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces.",
+            "reason": "岗位全文明确Tegra Linux摄像头栈，开发驱动和设备树属于Linux底层开发。"
+          },
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "Work directly with camera vendors and hardware partners to define requirements for custom cameras, including sensors, optics, frame rates, exposure behavior, synchronization, timestamping, calibration needs, mechanical constraints, thermal constraints, and image-quality targets.",
+            "reason": "与外部相机伙伴协作定义参数和接口约束。"
+          }
+        ],
+        "outside_extra": [
+          {
+            "quote": "camera pipelines",
+            "description": "相机运行采集/传输路径不是数据集清洗标注或资产管线，不补TC_DATA_PIPELINE。"
+          }
+        ],
+        "notes": "本广告整段标题为Preferred Qualifications，资历和技术均保留优先；低层驱动开发明确，校准参数API不等于本人执行标定，实际标定在另条本人生命周期示例中。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5235631008|1eb6fe0547bfe28a94d50821c8eeb81b539d446fe4cf08ce78a080c2f5b7de74",
+        "company_id": "US_SKILD",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 20,
+        "reviewed_candidate_count": 22,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 2022,
+          "end": 2233,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "1eb6fe0547bfe28a94d50821c8eeb81b539d446fe4cf08ce78a080c2f5b7de74",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:55:51.323750+00:00"
+      },
+      "after": {
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "task": "FIRMWARE",
+        "fine_task": "TEGRA_CAMERA_LINUX_DRIVER_SYNCHRONIZATION",
+        "task_evidence": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces.",
+        "new": {
+          "1": "OUTSIDE:NVIDIA Tegra平台细项缺失。",
+          "2": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "BACKGROUND"
+            ]
+          ],
+          "3": [
+            [
+              "V2_CALIBRATION",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "4": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "5": [
+            [
+              "V2_I2C",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_GMSL",
+              "DUTY_OWN_USE",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "6": "OUTSIDE:MIPI CSI-2接口细项缺失。",
+          "7": "DUPLICATE:N0660:5",
+          "8": "OUTSIDE:FPD-Link接口可替代项目录缺失。",
+          "9": "DUPLICATE:N0660:5",
+          "10": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "BACKGROUND"
+            ]
+          ],
+          "11": [
+            [
+              "V2_C",
+              "PREFERRED",
+              "UNRESOLVED"
+            ]
+          ],
+          "12": "DUPLICATE:N0660:11",
+          "13": [
+            [
+              "V2_I2C",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_GMSL",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "14": "OUTSIDE:MIPI CSI-2优先示例接口目录缺项。",
+          "15": "DUPLICATE:N0660:13",
+          "16": "DUPLICATE:N0660:13",
+          "17": "OUTSIDE:FPD-Link优先示例接口目录缺项。",
+          "18": "OUTSIDE:V4L2底层接口目录缺项。",
+          "19": [
+            [
+              "V2_PTP",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "20": "DUPLICATE:N0660:19",
+          "21": "OUTSIDE:PPS精确时序选项目录缺项。",
+          "22": "REJECT:USD薪酬币种。"
+        },
+        "old_overrides": {
+          "O16": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "embedded camera experience包括board-level validation，保留including示例。"
+          }
+        },
+        "additions": [
+          {
+            "code": "SK_LINUX",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces.",
+            "reason": "岗位全文明确Tegra Linux摄像头栈，开发驱动和设备树属于Linux底层开发。"
+          },
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "Work directly with camera vendors and hardware partners to define requirements for custom cameras, including sensors, optics, frame rates, exposure behavior, synchronization, timestamping, calibration needs, mechanical constraints, thermal constraints, and image-quality targets.",
+            "reason": "与外部相机伙伴协作定义参数和接口约束。"
+          }
+        ],
+        "outside_extra": [
+          {
+            "quote": "Design reliable, low-latency camera pipelines for real-time robotic systems, with careful attention to buffering, memory movement, CPU/GPU interaction, scheduling, throughput, timing jitter, and dropped-frame behavior.",
+            "description": "相机运行采集/传输路径不是数据集清洗标注或资产管线，不补TC_DATA_PIPELINE。"
+          }
+        ],
+        "notes": "本广告整段标题为Preferred Qualifications，资历和技术均保留优先；低层驱动开发明确，校准参数API不等于本人执行标定，实际标定在另条本人生命周期示例中。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5235631008|1eb6fe0547bfe28a94d50821c8eeb81b539d446fe4cf08ce78a080c2f5b7de74",
+        "company_id": "US_SKILD",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 20,
+        "reviewed_candidate_count": 22,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 2022,
+          "end": 2233,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "1eb6fe0547bfe28a94d50821c8eeb81b539d446fe4cf08ce78a080c2f5b7de74",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:57:40.227889+00:00"
+      }
+    },
+    {
+      "reading_id": "N0661",
+      "before": {
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "task": "FIRMWARE",
+        "fine_task": "TEGRA_CAMERA_LINUX_DRIVER_SYNCHRONIZATION",
+        "task_evidence": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces.",
+        "new": {
+          "1": "OUTSIDE:NVIDIA Tegra平台细项缺失。",
+          "2": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "BACKGROUND"
+            ]
+          ],
+          "3": [
+            [
+              "V2_CALIBRATION",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "4": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "5": [
+            [
+              "V2_I2C",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_GMSL",
+              "DUTY_OWN_USE",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "6": "OUTSIDE:MIPI CSI-2接口细项缺失。",
+          "7": "DUPLICATE:N0661:5",
+          "8": "OUTSIDE:FPD-Link接口可替代项目录缺失。",
+          "9": "DUPLICATE:N0661:5",
+          "10": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "BACKGROUND"
+            ]
+          ],
+          "11": [
+            [
+              "V2_C",
+              "PREFERRED",
+              "UNRESOLVED"
+            ]
+          ],
+          "12": "DUPLICATE:N0661:11",
+          "13": [
+            [
+              "V2_I2C",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_GMSL",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "14": "OUTSIDE:MIPI CSI-2优先示例接口目录缺项。",
+          "15": "DUPLICATE:N0661:13",
+          "16": "DUPLICATE:N0661:13",
+          "17": "OUTSIDE:FPD-Link优先示例接口目录缺项。",
+          "18": "OUTSIDE:V4L2底层接口目录缺项。",
+          "19": [
+            [
+              "V2_PTP",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "20": "DUPLICATE:N0661:19",
+          "21": "OUTSIDE:PPS精确时序选项目录缺项。"
+        },
+        "old_overrides": {
+          "O16": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "embedded camera experience包括board-level validation，保留including示例。"
+          }
+        },
+        "additions": [
+          {
+            "code": "SK_LINUX",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces.",
+            "reason": "岗位全文明确Tegra Linux摄像头栈，开发驱动和设备树属于Linux底层开发。"
+          },
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "Work directly with camera vendors and hardware partners to define requirements for custom cameras, including sensors, optics, frame rates, exposure behavior, synchronization, timestamping, calibration needs, mechanical constraints, thermal constraints, and image-quality targets.",
+            "reason": "与外部相机伙伴协作定义参数和接口约束。"
+          }
+        ],
+        "outside_extra": [
+          {
+            "quote": "camera pipelines",
+            "description": "相机运行采集/传输路径不是数据集清洗标注或资产管线，不补TC_DATA_PIPELINE。"
+          }
+        ],
+        "notes": "本广告整段标题为Preferred Qualifications，资历和技术均保留优先；低层驱动开发明确，校准参数API不等于本人执行标定，实际标定在另条本人生命周期示例中。 印度广告已全文阅读，与N0660研究正文同文但本条无薪酬段，独立身份保留。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5263541008|f3c05f557c0d83c4af052986002d3c1de43b3c00790d073696290ae714da374f",
+        "company_id": "US_SKILD",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 20,
+        "reviewed_candidate_count": 21,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 2022,
+          "end": 2233,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "f3c05f557c0d83c4af052986002d3c1de43b3c00790d073696290ae714da374f",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:56:55.804571+00:00"
+      },
+      "after": {
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "task": "FIRMWARE",
+        "fine_task": "TEGRA_CAMERA_LINUX_DRIVER_SYNCHRONIZATION",
+        "task_evidence": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces.",
+        "new": {
+          "1": "OUTSIDE:NVIDIA Tegra平台细项缺失。",
+          "2": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "BACKGROUND"
+            ]
+          ],
+          "3": [
+            [
+              "V2_CALIBRATION",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "4": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "5": [
+            [
+              "V2_I2C",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_GMSL",
+              "DUTY_OWN_USE",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "6": "OUTSIDE:MIPI CSI-2接口细项缺失。",
+          "7": "DUPLICATE:N0661:5",
+          "8": "OUTSIDE:FPD-Link接口可替代项目录缺失。",
+          "9": "DUPLICATE:N0661:5",
+          "10": [
+            [
+              "V2_CALIBRATION",
+              "SEPARATE",
+              "BACKGROUND"
+            ]
+          ],
+          "11": [
+            [
+              "V2_C",
+              "PREFERRED",
+              "UNRESOLVED"
+            ]
+          ],
+          "12": "DUPLICATE:N0661:11",
+          "13": [
+            [
+              "V2_I2C",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_GMSL",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "14": "OUTSIDE:MIPI CSI-2优先示例接口目录缺项。",
+          "15": "DUPLICATE:N0661:13",
+          "16": "DUPLICATE:N0661:13",
+          "17": "OUTSIDE:FPD-Link优先示例接口目录缺项。",
+          "18": "OUTSIDE:V4L2底层接口目录缺项。",
+          "19": [
+            [
+              "V2_PTP",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "20": "DUPLICATE:N0661:19",
+          "21": "OUTSIDE:PPS精确时序选项目录缺项。"
+        },
+        "old_overrides": {
+          "O16": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "embedded camera experience包括board-level validation，保留including示例。"
+          }
+        },
+        "additions": [
+          {
+            "code": "SK_LINUX",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces.",
+            "reason": "岗位全文明确Tegra Linux摄像头栈，开发驱动和设备树属于Linux底层开发。"
+          },
+          {
+            "code": "V2_REQUIREMENTS_ENGINEERING",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "Work directly with camera vendors and hardware partners to define requirements for custom cameras, including sensors, optics, frame rates, exposure behavior, synchronization, timestamping, calibration needs, mechanical constraints, thermal constraints, and image-quality targets.",
+            "reason": "与外部相机伙伴协作定义参数和接口约束。"
+          }
+        ],
+        "outside_extra": [
+          {
+            "quote": "Design reliable, low-latency camera pipelines for real-time robotic systems, with careful attention to buffering, memory movement, CPU/GPU interaction, scheduling, throughput, timing jitter, and dropped-frame behavior.",
+            "description": "相机运行采集/传输路径不是数据集清洗标注或资产管线，不补TC_DATA_PIPELINE。"
+          }
+        ],
+        "notes": "本广告整段标题为Preferred Qualifications，资历和技术均保留优先；低层驱动开发明确，校准参数API不等于本人执行标定，实际标定在另条本人生命周期示例中。 印度广告已全文阅读，与N0660研究正文同文但本条无薪酬段，独立身份保留。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5263541008|f3c05f557c0d83c4af052986002d3c1de43b3c00790d073696290ae714da374f",
+        "company_id": "US_SKILD",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 20,
+        "reviewed_candidate_count": 21,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 2022,
+          "end": 2233,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "Develop and maintain low-level camera software, including sensor configuration, camera drivers, device-tree changes, capture-path validation, timestamp handling, metadata handling, and camera control interfaces."
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "f3c05f557c0d83c4af052986002d3c1de43b3c00790d073696290ae714da374f",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:57:40.227889+00:00"
+      }
+    }
+  ],
+  "full_second_pass": false
+}

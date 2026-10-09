@@ -1,0 +1,596 @@
+{
+  "version": "1.0",
+  "scenes": {
+    "MANUFACTURING": "制造产线",
+    "LOGISTICS": "仓储与物流",
+    "FIELD_INSPECTION": "基础设施/野外巡检",
+    "HEALTHCARE_CARE": "医疗与照护",
+    "RETAIL_SERVICE": "零售及商业服务",
+    "HOME": "家庭使用",
+    "RESEARCH_EDUCATION": "科研与教育",
+    "UNSPECIFIED": "终端场景未确立"
+  },
+  "membership_positive_states": [
+    "OBSERVED_USE",
+    "OBSERVED_DONATION",
+    "OBSERVED_RESEARCH_USE",
+    "CURRENT_OFFER",
+    "CURRENT_TARGET"
+  ],
+  "interpretation": "公司在观察时点与该应用存在明确连接，可来自现行定位或使用；不等于全部已部署或商业主业。不同状态不得合并解释为已交付。",
+  "assignments": [
+    {
+      "company_id": "CN_AGIBOT",
+      "scene": "MANUFACTURING",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_CN_AGIBOT__deployment_status_actual__2"
+      ],
+      "selected_claim": "G2在龙旗平板产线并线及均胜零部件装配",
+      "decision_reason": "公司自述，非客户原文确认。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_AGIBOT",
+      "scene": "LOGISTICS",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_AGIBOT__target_markets__2"
+      ],
+      "selected_claim": "物流仓储为公告列举的应用范围",
+      "decision_reason": "不将产量改写成交付量。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_ASTRIBOT",
+      "scene": "RETAIL_SERVICE",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_CN_ASTRIBOT__deployment_status_actual",
+        "F_CN_ASTRIBOT__target_markets"
+      ],
+      "selected_claim": "报道列机器人MART零售商业落地",
+      "decision_reason": "限报道所述零售，不外推其他服务行业。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_DEEPROBOTICS",
+      "scene": "FIELD_INSPECTION",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_CN_DEEPROBOTICS__deployment_status_actual__2"
+      ],
+      "selected_claim": "X30/SPock新加坡电缆隧道巡检试点",
+      "decision_reason": "具体型号来自供应方。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_DEEPROBOTICS",
+      "scene": "RESEARCH_EDUCATION",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_DEEPROBOTICS__target_markets"
+      ],
+      "selected_claim": "列举教育科研为应用场景",
+      "decision_reason": "",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_DEEPROBOTICS",
+      "scene": "LOGISTICS",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_DEEPROBOTICS__target_markets"
+      ],
+      "selected_claim": "列举物流运输为场景",
+      "decision_reason": "宽泛定位，没有对应客户现场。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_FOURIER",
+      "scene": "HEALTHCARE_CARE",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_CN_FOURIER__deployment_status_actual",
+        "F_CN_FOURIER__product_lines_rehab"
+      ],
+      "selected_claim": "康复中心与医院的康复设备部署",
+      "decision_reason": "不能与院内物流或养老照护当成同一任务。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_FOURIER",
+      "scene": "MANUFACTURING",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_FOURIER__target_markets"
+      ],
+      "selected_claim": "GRW面向制造重载辅助",
+      "decision_reason": "产品定位，不是已运行工厂。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_FOURIER",
+      "scene": "LOGISTICS",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_FOURIER__target_markets"
+      ],
+      "selected_claim": "GRW面向仓储物流",
+      "decision_reason": "产品定位。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_FOURIER",
+      "scene": "HOME",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_FOURIER__target_markets_domestic_rehab"
+      ],
+      "selected_claim": "国内康复及居家场景定位",
+      "decision_reason": "主体是康复产品；不得扩展成GR系列已进入家庭。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_FOURIER",
+      "scene": "HOME",
+      "state": "DEMONSTRATED_TASK",
+      "basis_fact_ids": [
+        "F_CN_FOURIER__evidence_demo__3"
+      ],
+      "selected_claim": "WAIC展台居家Demo",
+      "decision_reason": "演示单列，不作居家部署。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_GALAXEA",
+      "scene": "RESEARCH_EDUCATION",
+      "state": "BACKGROUND_DATE_UNKNOWN",
+      "basis_fact_ids": [
+        "F_CN_GALAXEA__target_markets"
+      ],
+      "selected_claim": "R1科研与R1 Lite数据采集定位",
+      "decision_reason": "产品页无日期，退出观察时点场景统计。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_GALBOT",
+      "scene": "RETAIL_SERVICE",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_CN_GALBOT__deployment_status_actual"
+      ],
+      "selected_claim": "香港自营机器人零售门店营业",
+      "decision_reason": "",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_GALBOT",
+      "scene": "MANUFACTURING",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_CN_GALBOT__deployment_status_actual__2"
+      ],
+      "selected_claim": "宁德时代模组和电池包生产作业",
+      "decision_reason": "直接客户确认。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_GALBOT",
+      "scene": "RETAIL_SERVICE",
+      "state": "FUTURE_PLAN",
+      "basis_fact_ids": [
+        "F_CN_GALBOT__target_markets"
+      ],
+      "selected_claim": "旅游区扩展及图书馆/博物馆讲解",
+      "decision_reason": "计划部分不计已发生业务。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_LIMX",
+      "scene": "RESEARCH_EDUCATION",
+      "state": "CURRENT_OFFER",
+      "basis_fact_ids": [
+        "F_CN_LIMX__delivery_form__2",
+        "F_CN_LIMX__target_markets__2"
+      ],
+      "selected_claim": "TRON1科研/教学平台发售和预订",
+      "decision_reason": "未由预订推断履约。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_LIMX",
+      "scene": "RETAIL_SERVICE",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_LIMX__target_markets"
+      ],
+      "selected_claim": "商业服务",
+      "decision_reason": "宽泛现行定位；当前具体落地未据此确立。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_LIMX",
+      "scene": "FIELD_INSPECTION",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_LIMX__target_markets"
+      ],
+      "selected_claim": "全地形巡检",
+      "decision_reason": "宽泛现行定位；当前具体落地未据此确立。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_LIMX",
+      "scene": "MANUFACTURING",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_LIMX__target_markets"
+      ],
+      "selected_claim": "工业应用",
+      "decision_reason": "宽泛现行定位；当前具体落地未据此确立。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_NOETIX",
+      "scene": "RESEARCH_EDUCATION",
+      "state": "OBSERVED_DONATION",
+      "basis_fact_ids": [
+        "F_CN_NOETIX__deployment_status_actual",
+        "F_CN_NOETIX__target_markets"
+      ],
+      "selected_claim": "两台BUMI捐赠学校用于AI教学",
+      "decision_reason": "教育应用连接可成立，付费市场不能据此成立。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_PAXINI",
+      "scene": "UNSPECIFIED",
+      "state": "END_USE_UNSPECIFIED",
+      "basis_fact_ids": [
+        "F_CN_PAXINI__target_markets"
+      ],
+      "selected_claim": "触觉部件为具身产业基础配置",
+      "decision_reason": "缺少清楚终端任务；不从比亚迪标题归汽车产线。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_SPIRITAI",
+      "scene": "MANUFACTURING",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_CN_SPIRITAI__deployment_status_actual__2"
+      ],
+      "selected_claim": "小墨在宁德时代中州电池PACK产线插接",
+      "decision_reason": "媒体陈述。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_SPIRITAI",
+      "scene": "RETAIL_SERVICE",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_SPIRITAI__target_markets"
+      ],
+      "selected_claim": "零售门店及Moz2的商超、酒旅、办公楼宇",
+      "decision_reason": "产品面向领域，不等于全部部署。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_SPIRITAI",
+      "scene": "HOME",
+      "state": "LONG_TERM_GOAL",
+      "basis_fact_ids": [
+        "F_CN_SPIRITAI__target_markets__2"
+      ],
+      "selected_claim": "家庭服务长期目标",
+      "decision_reason": "退出当前家庭业务组。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_UNITREE",
+      "scene": "RESEARCH_EDUCATION",
+      "state": "OBSERVED_RESEARCH_USE",
+      "basis_fact_ids": [
+        "F_CN_UNITREE__target_markets"
+      ],
+      "selected_claim": "TWIST2实际使用Unitree G1开展遥操作和数据采集研究",
+      "decision_reason": "第三方科研使用；不推断厂商主要目标市场或收入。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_UNITREE",
+      "scene": "FIELD_INSPECTION",
+      "state": "BACKGROUND_DATE_UNKNOWN",
+      "basis_fact_ids": [
+        "F_CN_UNITREE__target_markets__2"
+      ],
+      "selected_claim": "现行变电站、矿井、炼化与城市基础设施巡检页",
+      "decision_reason": "无日期，不用于观察时点主比较。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_XSQUARE",
+      "scene": "HEALTHCARE_CARE",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_CN_XSQUARE__product_lines",
+        "F_CN_XSQUARE__deployment_status_actual"
+      ],
+      "selected_claim": "0755在深圳具名养老机构上岗",
+      "decision_reason": "该场景具名，其他场景分别处理。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_XSQUARE",
+      "scene": "LOGISTICS",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_CN_XSQUARE__deployment_status_actual"
+      ],
+      "selected_claim": "物流真实场景运行数月",
+      "decision_reason": "客户未具名，公司运行陈述；不记外部具名客户确认。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_XSQUARE",
+      "scene": "MANUFACTURING",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_XSQUARE__target_markets"
+      ],
+      "selected_claim": "自述逐步进入工业制造",
+      "decision_reason": "没有据此确认具名工厂。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "CN_XSQUARE",
+      "scene": "HOME",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_CN_XSQUARE__target_markets"
+      ],
+      "selected_claim": "自述逐步进入家居",
+      "decision_reason": "无具名家庭现场，不作已交付家庭。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_AGILITY",
+      "scene": "LOGISTICS",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_US_AGILITY__deployment_status_actual"
+      ],
+      "selected_claim": "GXO SPANX仓库料箱搬运",
+      "decision_reason": "客户商业部署确认。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_AMAZON_FTR",
+      "scene": "UNSPECIFIED",
+      "state": "TEAM_BACKGROUND",
+      "basis_fact_ids": [
+        "F_US_AMAZON_FTR__target_markets"
+      ],
+      "selected_claim": "现行团队页面向Amazon内部运营研究",
+      "decision_reason": "页面无日期，且不映射成对外商业行业。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_APPTRONIK",
+      "scene": "MANUFACTURING",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_US_APPTRONIK__target_markets"
+      ],
+      "selected_claim": "初始制造业",
+      "decision_reason": "后续计划在同一条事实中另行分离。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_APPTRONIK",
+      "scene": "LOGISTICS",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_US_APPTRONIK__target_markets"
+      ],
+      "selected_claim": "初始仓储物流",
+      "decision_reason": "后续计划在同一条事实中另行分离。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_APPTRONIK",
+      "scene": "RETAIL_SERVICE",
+      "state": "FUTURE_PLAN",
+      "basis_fact_ids": [
+        "F_US_APPTRONIK__target_markets"
+      ],
+      "selected_claim": "后续扩展至零售、医疗并最终家庭",
+      "decision_reason": "不能加入当前相应场景。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_APPTRONIK",
+      "scene": "HEALTHCARE_CARE",
+      "state": "FUTURE_PLAN",
+      "basis_fact_ids": [
+        "F_US_APPTRONIK__target_markets"
+      ],
+      "selected_claim": "后续扩展至零售、医疗并最终家庭",
+      "decision_reason": "不能加入当前相应场景。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_APPTRONIK",
+      "scene": "HOME",
+      "state": "FUTURE_PLAN",
+      "basis_fact_ids": [
+        "F_US_APPTRONIK__target_markets"
+      ],
+      "selected_claim": "后续扩展至零售、医疗并最终家庭",
+      "decision_reason": "不能加入当前相应场景。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_BOSTON_DYNAMICS",
+      "scene": "LOGISTICS",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_US_BOSTON_DYNAMICS__deployment_status_actual"
+      ],
+      "selected_claim": "DHL Stretch商业使用",
+      "decision_reason": "限Stretch，不外推Atlas。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_BOSTON_DYNAMICS",
+      "scene": "MANUFACTURING",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_US_BOSTON_DYNAMICS__target_markets",
+        "F_US_BOSTON_DYNAMICS__product_lines"
+      ],
+      "selected_claim": "Atlas工业物料搬运与企业工作流",
+      "decision_reason": "当前产品定位，不以Stretch运行替代Atlas运行。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_DEXTERITY",
+      "scene": "LOGISTICS",
+      "state": "CURRENT_OFFER",
+      "basis_fact_ids": [
+        "F_US_DEXTERITY__product_lines",
+        "F_US_DEXTERITY__delivery_form",
+        "F_US_DEXTERITY__target_markets"
+      ],
+      "selected_claim": "Mech卡车装载、码垛、拣选产品应用",
+      "decision_reason": "工业场地中的物流任务，不据工业一词加入制造工艺组。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_DILIGENT",
+      "scene": "HEALTHCARE_CARE",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_US_DILIGENT__deployment_status_actual",
+        "F_US_DILIGENT__target_markets"
+      ],
+      "selected_claim": "Moxi院内样本等物资运送",
+      "decision_reason": "医疗场所物流任务，与康复治疗/养老不同。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_FIELD_AI",
+      "scene": "FIELD_INSPECTION",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_US_FIELD_AI__target_markets"
+      ],
+      "selected_claim": "建筑、能源与巡检",
+      "decision_reason": "公司自述定位。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_FIELD_AI",
+      "scene": "MANUFACTURING",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_US_FIELD_AI__target_markets"
+      ],
+      "selected_claim": "制造",
+      "decision_reason": "未据总体部署自述确立具体制造工序。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_FIELD_AI",
+      "scene": "LOGISTICS",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_US_FIELD_AI__target_markets"
+      ],
+      "selected_claim": "城市配送",
+      "decision_reason": "与仓库作业的任务差别在窄口径中保留。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_FIGURE",
+      "scene": "MANUFACTURING",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_US_FIGURE__deployment_status_actual"
+      ],
+      "selected_claim": "BMW Figure02车身车间运行",
+      "decision_reason": "限历史F02，F03到厂不是已运行。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_FIGURE",
+      "scene": "HOME",
+      "state": "CURRENT_TARGET",
+      "basis_fact_ids": [
+        "F_US_FIGURE__product_lines",
+        "F_US_FIGURE__target_markets"
+      ],
+      "selected_claim": "Figure03设计面向家庭使用",
+      "decision_reason": "非家庭交付确认。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_NIMBLE",
+      "scene": "LOGISTICS",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_US_NIMBLE__deployment_status_actual",
+        "F_US_NIMBLE__delivery_form"
+      ],
+      "selected_claim": "自有机器人履单中心启用并提供3PL",
+      "decision_reason": "运营服务，非外售机器人。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "scene": "HOME",
+      "state": "DEMONSTRATED_TASK",
+      "basis_fact_ids": [
+        "F_US_PHYSICAL_INTELLIGENCE__target_markets"
+      ],
+      "selected_claim": "洗衣、叠衣、做咖啡、装袋研究演示",
+      "decision_reason": "任务环境不能当商业家庭定位或付费客户。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "scene": "UNSPECIFIED",
+      "state": "END_USE_UNSPECIFIED",
+      "basis_fact_ids": [
+        "F_US_PHYSICAL_INTELLIGENCE__target_markets"
+      ],
+      "selected_claim": "未给商业行业清单",
+      "decision_reason": "",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_PICKLE",
+      "scene": "LOGISTICS",
+      "state": "OBSERVED_USE",
+      "basis_fact_ids": [
+        "F_US_PICKLE__deployment_status_actual",
+        "F_US_PICKLE__target_markets"
+      ],
+      "selected_claim": "分拨中心/仓库卡车卸货系统运行",
+      "decision_reason": "公司运行自述。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    },
+    {
+      "company_id": "US_SKILD",
+      "scene": "UNSPECIFIED",
+      "state": "END_USE_UNSPECIFIED",
+      "basis_fact_ids": [
+        "F_US_SKILD__target_markets"
+      ],
+      "selected_claim": "跨形态控制，没有已确立终端行业清单",
+      "decision_reason": "机器人形态不是行业。",
+      "judgement_kind": "ANALYST_CLASSIFICATION_FROM_FROZEN_FACTS"
+    }
+  ]
+}

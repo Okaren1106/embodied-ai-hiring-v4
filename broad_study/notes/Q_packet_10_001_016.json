@@ -1,0 +1,2742 @@
+[
+  {
+    "coding_order": 1,
+    "reading_id": "N0217",
+    "company_id": "CN_ASTRIBOT",
+    "title": "工业设计师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_ASTRIBOT|moka|aa0460de-e389-4ce7-b84c-b4195ed4bda5|5ab5044ce3416589cb1fd47f9fa9709b610ced2f3423ff9fde9e38d89bbcb561",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1：熟练掌握 Rhino、Keyshot、PS、AI等工业设计相关软件，能够高效完成外观建模、渲染和效果图制作；\n\n2：了解机械结构与电子布局，能配合结构工程师，平衡外观美感与内部结构及功能实现；\n\n3：有包装箱，平面设计经验\n\n\n\n\n职位要求：\n\n1：本科学历，工业设计、设计类相关专业；\n\n2：熟练使用各类设计软件，如Rhino，Keyshot, Photoshop，AI等，具备较强的曲面建模能力；\n\n3：积极主动，有持续热情和责任心，对设计品质有追求；善于表达自己的观点和吸纳别人的建议；\n\n4：需提供个人设计作品集；",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1：熟练掌握 Rhino、Keyshot、PS、AI等工业设计相关软件，能够高效完成外观建模、渲染和效果图制作；\n\n2：了解机械结构与电子布局，能配合结构工程师，平衡外观美感与内部结构及功能实现；\n\n3：有包装箱，平面设计经验\n\n\n\n\n职位要求：\n\n1：本科学历，工业设计、设计类相关专业；\n\n2：熟练使用各类设计软件，如Rhino，Keyshot, Photoshop，AI等，具备较强的曲面建模能力；\n\n3：积极主动，有持续热情和责任心，对设计品质有追求；善于表达自己的观点和吸纳别人的建议；\n\n4：需提供个人设计作品集；"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 65,
+        "end": 105,
+        "quote": "2：了解机械结构与电子布局，能配合结构工程师，平衡外观美感与内部结构及功能实现；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0217:1",
+        "codes": [
+          "V2_PHOTOSHOP",
+          "V2_RHINO",
+          "V2_KEYSHOT",
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "Adobe Photoshop",
+          "Rhino",
+          "KeyShot",
+          "工业外观与CMF"
+        ],
+        "surface": "1：熟练掌握 Rhino、Keyshot、PS、AI等工业设计相关软件，能够高效完成外观建模、渲染和效果图制作；",
+        "quote": "1：熟练掌握 Rhino、Keyshot、PS、AI等工业设计相关软件，能够高效完成外观建模、渲染和效果图制作；",
+        "field": "full_description",
+        "start": 7,
+        "end": 63
+      },
+      {
+        "id": "2",
+        "review_id": "N0217:2",
+        "codes": [
+          "V2_RHINO"
+        ],
+        "names": [
+          "Rhino"
+        ],
+        "surface": "Rhino",
+        "quote": "Rhino",
+        "field": "full_description",
+        "start": 14,
+        "end": 19
+      },
+      {
+        "id": "3",
+        "review_id": "N0217:3",
+        "codes": [
+          "V2_KEYSHOT"
+        ],
+        "names": [
+          "KeyShot"
+        ],
+        "surface": "Keyshot",
+        "quote": "Keyshot",
+        "field": "full_description",
+        "start": 20,
+        "end": 27
+      },
+      {
+        "id": "4",
+        "review_id": "N0217:4",
+        "codes": [
+          "V2_PHOTOSHOP"
+        ],
+        "names": [
+          "Adobe Photoshop"
+        ],
+        "surface": "PS",
+        "quote": "PS",
+        "field": "full_description",
+        "start": 28,
+        "end": 30
+      },
+      {
+        "id": "5",
+        "review_id": "N0217:5",
+        "codes": [],
+        "names": [],
+        "surface": "AI",
+        "quote": "AI",
+        "field": "full_description",
+        "start": 31,
+        "end": 33
+      },
+      {
+        "id": "6",
+        "review_id": "N0217:6",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "1：本科学历，工业设计、设计类相关专业；",
+        "quote": "1：本科学历，工业设计、设计类相关专业；",
+        "field": "full_description",
+        "start": 132,
+        "end": 152
+      },
+      {
+        "id": "7",
+        "review_id": "N0217:7",
+        "codes": [
+          "V2_PHOTOSHOP",
+          "V2_RHINO",
+          "V2_KEYSHOT"
+        ],
+        "names": [
+          "Adobe Photoshop",
+          "Rhino",
+          "KeyShot"
+        ],
+        "surface": "2：熟练使用各类设计软件，如Rhino，Keyshot, Photoshop，AI等，具备较强的曲面建模能力；",
+        "quote": "2：熟练使用各类设计软件，如Rhino，Keyshot, Photoshop，AI等，具备较强的曲面建模能力；",
+        "field": "full_description",
+        "start": 154,
+        "end": 209
+      },
+      {
+        "id": "8",
+        "review_id": "N0217:8",
+        "codes": [
+          "V2_RHINO"
+        ],
+        "names": [
+          "Rhino"
+        ],
+        "surface": "Rhino",
+        "quote": "Rhino",
+        "field": "full_description",
+        "start": 168,
+        "end": 173
+      },
+      {
+        "id": "9",
+        "review_id": "N0217:9",
+        "codes": [
+          "V2_KEYSHOT"
+        ],
+        "names": [
+          "KeyShot"
+        ],
+        "surface": "Keyshot",
+        "quote": "Keyshot",
+        "field": "full_description",
+        "start": 174,
+        "end": 181
+      },
+      {
+        "id": "10",
+        "review_id": "N0217:10",
+        "codes": [
+          "V2_PHOTOSHOP"
+        ],
+        "names": [
+          "Adobe Photoshop"
+        ],
+        "surface": "Photoshop",
+        "quote": "Photoshop",
+        "field": "full_description",
+        "start": 183,
+        "end": 192
+      },
+      {
+        "id": "11",
+        "review_id": "N0217:11",
+        "codes": [],
+        "names": [],
+        "surface": "AI",
+        "quote": "AI",
+        "field": "full_description",
+        "start": 193,
+        "end": 195
+      }
+    ]
+  },
+  {
+    "coding_order": 2,
+    "reading_id": "N0601",
+    "company_id": "CN_LIMX",
+    "title": "机器人工业设计师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7528349791530289450|298672a2e0a636afc1428ffed1adc2613a808aba1ce5e4241f0e0185da6779f5",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n1、负责具身智能机器人整机与配件工业设计，准确理解和承接产品设计需求；\n2、负责新产品外观、CMF、交互设计等，创造出符合用户场景、经典极致的机器人产品；\n3、和产品经理一起，进行市场和用户研究，洞察市场机会和用户需求，定义新产品概念方案；\n4、与产品、研发、供应链紧密配合，探索具身智能不同阶段的形态最优解，发现新的市场机会和用户价值点，为公司新5、产品方向提供战略支撑；\n6、负责概念方案及效果图输出，构建三维模型和渲染图，输出不同阶段的产品设计提案；\n7、紧跟产品开发各阶段、跟踪设计方案的实现。不断挖掘产品的用户价值，实现产品设计目标的闭环及持续提升。\n\n任职要求\n1、本科及以上学历，5～10年工作经验，工业设计、产品设计、建筑设计相关专业方向，有机器人、交通工具类设计项目上市经验优先；\n2、善于洞察，创新意识强、兴趣广泛，具有系统性思考的能力，善于沟通、团队精神强；\n3、能处理大量复杂变量、自我驱动能力强，具备快速学习和较强的抗压能力；\n4、有较高的审美能力，对设计趋势极度敏感、对设计有自己独立见解；\n5、有较强的手绘和3D造型功底，能熟练运用手绘、建模、渲染、后期相关软件，具备较强的动手能力；\n6、至少有一项国际设计大奖一作荣誉。",
+      "requirements": "1、本科及以上学历，5～10年工作经验，工业设计、产品设计、建筑设计相关专业方向，有机器人、交通工具类设计项目上市经验优先；\n2、善于洞察，创新意识强、兴趣广泛，具有系统性思考的能力，善于沟通、团队精神强；\n3、能处理大量复杂变量、自我驱动能力强，具备快速学习和较强的抗压能力；\n4、有较高的审美能力，对设计趋势极度敏感、对设计有自己独立见解；\n5、有较强的手绘和3D造型功底，能熟练运用手绘、建模、渲染、后期相关软件，具备较强的动手能力；\n6、至少有一项国际设计大奖一作荣誉。",
+      "full_description": "岗位职责\n1、负责具身智能机器人整机与配件工业设计，准确理解和承接产品设计需求；\n2、负责新产品外观、CMF、交互设计等，创造出符合用户场景、经典极致的机器人产品；\n3、和产品经理一起，进行市场和用户研究，洞察市场机会和用户需求，定义新产品概念方案；\n4、与产品、研发、供应链紧密配合，探索具身智能不同阶段的形态最优解，发现新的市场机会和用户价值点，为公司新5、产品方向提供战略支撑；\n6、负责概念方案及效果图输出，构建三维模型和渲染图，输出不同阶段的产品设计提案；\n7、紧跟产品开发各阶段、跟踪设计方案的实现。不断挖掘产品的用户价值，实现产品设计目标的闭环及持续提升。\n\n任职要求\n1、本科及以上学历，5～10年工作经验，工业设计、产品设计、建筑设计相关专业方向，有机器人、交通工具类设计项目上市经验优先；\n2、善于洞察，创新意识强、兴趣广泛，具有系统性思考的能力，善于沟通、团队精神强；\n3、能处理大量复杂变量、自我驱动能力强，具备快速学习和较强的抗压能力；\n4、有较高的审美能力，对设计趋势极度敏感、对设计有自己独立见解；\n5、有较强的手绘和3D造型功底，能熟练运用手绘、建模、渲染、后期相关软件，具备较强的动手能力；\n6、至少有一项国际设计大奖一作荣誉。"
+    },
+    "inherited": [],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0601:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "1、负责具身智能机器人整机与配件工业设计，准确理解和承接产品设计需求；",
+        "quote": "1、负责具身智能机器人整机与配件工业设计，准确理解和承接产品设计需求；",
+        "field": "full_description",
+        "start": 5,
+        "end": 40
+      },
+      {
+        "id": "2",
+        "review_id": "N0601:2",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "2、负责新产品外观、CMF、交互设计等，创造出符合用户场景、经典极致的机器人产品；",
+        "quote": "2、负责新产品外观、CMF、交互设计等，创造出符合用户场景、经典极致的机器人产品；",
+        "field": "full_description",
+        "start": 41,
+        "end": 82
+      },
+      {
+        "id": "3",
+        "review_id": "N0601:3",
+        "codes": [
+          "V2_UX_RESEARCH"
+        ],
+        "names": [
+          "用户研究与体验设计方法"
+        ],
+        "surface": "3、和产品经理一起，进行市场和用户研究，洞察市场机会和用户需求，定义新产品概念方案；",
+        "quote": "3、和产品经理一起，进行市场和用户研究，洞察市场机会和用户需求，定义新产品概念方案；",
+        "field": "full_description",
+        "start": 83,
+        "end": 125
+      },
+      {
+        "id": "4",
+        "review_id": "N0601:4",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "1、本科及以上学历，5～10年工作经验，工业设计、产品设计、建筑设计相关专业方向，有机器人、交通工具类设计项目上市经验优先；",
+        "quote": "1、本科及以上学历，5～10年工作经验，工业设计、产品设计、建筑设计相关专业方向，有机器人、交通工具类设计项目上市经验优先；",
+        "field": "full_description",
+        "start": 292,
+        "end": 354
+      }
+    ]
+  },
+  {
+    "coding_order": 3,
+    "reading_id": "N0719",
+    "company_id": "US_SKILD",
+    "title": "UI/UX Designer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4483820008|65b310b0576f5d5f6abc31862d2856b1d58f1487510560347f334c8999b8f750",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a creative and technically skilled UI/UX Designer to join our robotics team in crafting intuitive interfaces for robot control applications and web platforms. This role combines traditional UI/UX design with 3D visualization and interaction design, requiring both artistic vision and technical implementation skills.\nResponsibilities\nDesign and implement user interfaces for robot control applications using React Three Fiber\nCreate and optimize 3D models and meshes using Blender for various applications\nDesign intuitive dashboards and monitoring interfaces for robot management systems\nDevelop immersive VR experiences for robot interaction and control\nCreate responsive web designs for company platforms and products\nCollaborate with development team to ensure proper implementation of designs\nConduct user research and usability testing to improve interface designs\nBasic Qualifications\nBachelor's degree in Design, Computer Science, or related field\nStrong portfolio demonstrating UI/UX design skills\nProficiency with Figma or similar design tools\nBasic understanding of web technologies and responsive design\nStrong visual design skills and attention to detail\nPreferred Qualifications\nExperience with 3D modeling and Blender\nKnowledge of React Three Fiber or Three.js\nExperience with WebXR or VR interface design\nUnderstanding of 3D visualization and interaction patterns\nExperience with motion design and animations\nPrevious work on dashboards or control system interfaces",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a creative and technically skilled UI/UX Designer to join our robotics team in crafting intuitive interfaces for robot control applications and web platforms. This role combines traditional UI/UX design with 3D visualization and interaction design, requiring both artistic vision and technical implementation skills.\nResponsibilities\nDesign and implement user interfaces for robot control applications using React Three Fiber\nCreate and optimize 3D models and meshes using Blender for various applications\nDesign intuitive dashboards and monitoring interfaces for robot management systems\nDevelop immersive VR experiences for robot interaction and control\nCreate responsive web designs for company platforms and products\nCollaborate with development team to ensure proper implementation of designs\nConduct user research and usability testing to improve interface designs\nBasic Qualifications\nBachelor's degree in Design, Computer Science, or related field\nStrong portfolio demonstrating UI/UX design skills\nProficiency with Figma or similar design tools\nBasic understanding of web technologies and responsive design\nStrong visual design skills and attention to detail\nPreferred Qualifications\nExperience with 3D modeling and Blender\nKnowledge of React Three Fiber or Three.js\nExperience with WebXR or VR interface design\nUnderstanding of 3D visualization and interaction patterns\nExperience with motion design and animations\nPrevious work on dashboards or control system interfaces"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 686,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1518,
+        "end": 1590,
+        "quote": "Conduct user research and usability testing to improve interface designs",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 17,
+        "end": 163,
+        "quote": "At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0719:1",
+        "codes": [
+          "V2_REACT"
+        ],
+        "names": [
+          "React"
+        ],
+        "surface": "Design and implement user interfaces for robot control applications using React Three Fiber",
+        "quote": "Design and implement user interfaces for robot control applications using React Three Fiber",
+        "field": "full_description",
+        "start": 1054,
+        "end": 1145
+      },
+      {
+        "id": "2",
+        "review_id": "N0719:2",
+        "codes": [
+          "V2_REACT"
+        ],
+        "names": [
+          "React"
+        ],
+        "surface": "React Three Fiber",
+        "quote": "Design and implement user interfaces for robot control applications using React Three Fiber",
+        "field": "full_description",
+        "start": 1054,
+        "end": 1145
+      },
+      {
+        "id": "3",
+        "review_id": "N0719:3",
+        "codes": [
+          "V2_REACT"
+        ],
+        "names": [
+          "React"
+        ],
+        "surface": "React Three Fiber",
+        "quote": "React Three Fiber",
+        "field": "full_description",
+        "start": 1128,
+        "end": 1145
+      },
+      {
+        "id": "4",
+        "review_id": "N0719:4",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "Create and optimize 3D models and meshes using Blender for various applications",
+        "quote": "Create and optimize 3D models and meshes using Blender for various applications",
+        "field": "full_description",
+        "start": 1146,
+        "end": 1225
+      },
+      {
+        "id": "5",
+        "review_id": "N0719:5",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "Blender",
+        "quote": "Create and optimize 3D models and meshes using Blender for various applications",
+        "field": "full_description",
+        "start": 1146,
+        "end": 1225
+      },
+      {
+        "id": "6",
+        "review_id": "N0719:6",
+        "codes": [],
+        "names": [],
+        "surface": "VR",
+        "quote": "Develop immersive VR experiences for robot interaction and control",
+        "field": "full_description",
+        "start": 1309,
+        "end": 1375
+      },
+      {
+        "id": "7",
+        "review_id": "N0719:7",
+        "codes": [
+          "V2_UX_RESEARCH"
+        ],
+        "names": [
+          "用户研究与体验设计方法"
+        ],
+        "surface": "Conduct user research and usability testing to improve interface designs",
+        "quote": "Conduct user research and usability testing to improve interface designs",
+        "field": "full_description",
+        "start": 1518,
+        "end": 1590
+      },
+      {
+        "id": "8",
+        "review_id": "N0719:8",
+        "codes": [
+          "V2_FIGMA"
+        ],
+        "names": [
+          "Figma"
+        ],
+        "surface": "Proficiency with Figma or similar design tools",
+        "quote": "Proficiency with Figma or similar design tools",
+        "field": "full_description",
+        "start": 1727,
+        "end": 1773
+      },
+      {
+        "id": "9",
+        "review_id": "N0719:9",
+        "codes": [
+          "V2_FIGMA"
+        ],
+        "names": [
+          "Figma"
+        ],
+        "surface": "Figma",
+        "quote": "Figma",
+        "field": "full_description",
+        "start": 1744,
+        "end": 1749
+      },
+      {
+        "id": "10",
+        "review_id": "N0719:10",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "Experience with 3D modeling and Blender",
+        "quote": "Experience with 3D modeling and Blender",
+        "field": "full_description",
+        "start": 1913,
+        "end": 1952
+      },
+      {
+        "id": "11",
+        "review_id": "N0719:11",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "Blender",
+        "quote": "Experience with 3D modeling and Blender",
+        "field": "full_description",
+        "start": 1913,
+        "end": 1952
+      },
+      {
+        "id": "12",
+        "review_id": "N0719:12",
+        "codes": [
+          "V2_JAVASCRIPT",
+          "V2_REACT"
+        ],
+        "names": [
+          "JavaScript",
+          "React"
+        ],
+        "surface": "Knowledge of React Three Fiber or Three.js",
+        "quote": "Knowledge of React Three Fiber or Three.js",
+        "field": "full_description",
+        "start": 1953,
+        "end": 1995
+      },
+      {
+        "id": "13",
+        "review_id": "N0719:13",
+        "codes": [
+          "V2_JAVASCRIPT"
+        ],
+        "names": [
+          "JavaScript"
+        ],
+        "surface": "Three.js",
+        "quote": "Three.js",
+        "field": "full_description",
+        "start": 1987,
+        "end": 1995
+      },
+      {
+        "id": "14",
+        "review_id": "N0719:14",
+        "codes": [],
+        "names": [],
+        "surface": "WebXR",
+        "quote": "WebXR",
+        "field": "full_description",
+        "start": 2012,
+        "end": 2017
+      },
+      {
+        "id": "15",
+        "review_id": "N0719:15",
+        "codes": [],
+        "names": [],
+        "surface": "VR",
+        "quote": "VR interface design",
+        "field": "full_description",
+        "start": 2021,
+        "end": 2040
+      }
+    ]
+  },
+  {
+    "coding_order": 4,
+    "reading_id": "N0327",
+    "company_id": "CN_PAXINI",
+    "title": "工业设计工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|5d641e0c-998b-400a-bc91-f2678ee5cd9e|b9da110fbde8974f7aad6d34ed178d2da60c00800ebaed43325352e4d24534e3",
+    "already_coded": false,
+    "fields": {
+      "duties": "1.负责创新产品ID方案设计输出（调研分析、概念表达、方案细化）设计提案到产品化落地的全链路设计输出及品质把控;\n2.联动产品，研发，市场等部门，推动设计高质量落地；\n3.协助完成设计规范的制定及后续迭代更新；\n4.跟进生产过程中的相关CMF实现、样品确认及签样等工作；\n5.对现有产品相关资料变更维护;",
+      "requirements": "1.产品设计、工业设计相关专业，本科以上学历，艺术设计专业背景；\n2.5年以上产品设计经验，熟悉产品开发流程，可独立完成产品设计方案；\n3.优秀的设计创新力和审美眼光，具备把设计创意落地实现能力\n4.对行业设计趋势敏锐，有很好的洞察能力 ，充满探索热情；\n5.熟悉常见的CMF、了解基础的机械结构知识并推动设计落地；\n6.精通Rhino\\Alias、Keyshot、PS、AI等软件，掌握Soildworks/CREO及办公软件；\n加分项：掌握SUBD、BLENDER等建模工具",
+      "full_description": "工作职责\n1.负责创新产品ID方案设计输出（调研分析、概念表达、方案细化）设计提案到产品化落地的全链路设计输出及品质把控;\n2.联动产品，研发，市场等部门，推动设计高质量落地；\n3.协助完成设计规范的制定及后续迭代更新；\n4.跟进生产过程中的相关CMF实现、样品确认及签样等工作；\n5.对现有产品相关资料变更维护;\n\n任职资格\n1.产品设计、工业设计相关专业，本科以上学历，艺术设计专业背景；\n2.5年以上产品设计经验，熟悉产品开发流程，可独立完成产品设计方案；\n3.优秀的设计创新力和审美眼光，具备把设计创意落地实现能力\n4.对行业设计趋势敏锐，有很好的洞察能力 ，充满探索热情；\n5.熟悉常见的CMF、了解基础的机械结构知识并推动设计落地；\n6.精通Rhino\\Alias、Keyshot、PS、AI等软件，掌握Soildworks/CREO及办公软件；\n加分项：掌握SUBD、BLENDER等建模工具"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 358,
+        "end": 368,
+        "quote": "Soildworks",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CREO",
+        "name": "Creo",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 369,
+        "end": 373,
+        "quote": "CREO",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 292,
+        "end": 322,
+        "quote": "5.熟悉常见的CMF、了解基础的机械结构知识并推动设计落地；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0327:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "4.跟进生产过程中的相关CMF实现、样品确认及签样等工作；",
+        "quote": "4.跟进生产过程中的相关CMF实现、样品确认及签样等工作；",
+        "field": "full_description",
+        "start": 111,
+        "end": 140
+      },
+      {
+        "id": "2",
+        "review_id": "N0327:2",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "1.产品设计、工业设计相关专业，本科以上学历，艺术设计专业背景；",
+        "quote": "1.产品设计、工业设计相关专业，本科以上学历，艺术设计专业背景；",
+        "field": "full_description",
+        "start": 164,
+        "end": 196
+      },
+      {
+        "id": "3",
+        "review_id": "N0327:3",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "5.熟悉常见的CMF、了解基础的机械结构知识并推动设计落地；",
+        "quote": "5.熟悉常见的CMF、了解基础的机械结构知识并推动设计落地；",
+        "field": "full_description",
+        "start": 292,
+        "end": 322
+      },
+      {
+        "id": "4",
+        "review_id": "N0327:4",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "CMF",
+        "quote": "5.熟悉常见的CMF、了解基础的机械结构知识并推动设计落地；",
+        "field": "full_description",
+        "start": 292,
+        "end": 322
+      },
+      {
+        "id": "5",
+        "review_id": "N0327:5",
+        "codes": [
+          "V2_PHOTOSHOP",
+          "V2_RHINO",
+          "V2_KEYSHOT"
+        ],
+        "names": [
+          "Adobe Photoshop",
+          "Rhino",
+          "KeyShot"
+        ],
+        "surface": "6.精通Rhino\\Alias、Keyshot、PS、AI等软件，掌握Soildworks/CREO及办公软件；",
+        "quote": "6.精通Rhino\\Alias、Keyshot、PS、AI等软件，掌握Soildworks/CREO及办公软件；",
+        "field": "full_description",
+        "start": 323,
+        "end": 379
+      },
+      {
+        "id": "6",
+        "review_id": "N0327:6",
+        "codes": [
+          "V2_RHINO"
+        ],
+        "names": [
+          "Rhino"
+        ],
+        "surface": "Rhino",
+        "quote": "Rhino",
+        "field": "full_description",
+        "start": 327,
+        "end": 332
+      },
+      {
+        "id": "7",
+        "review_id": "N0327:7",
+        "codes": [],
+        "names": [],
+        "surface": "Alias",
+        "quote": "Alias",
+        "field": "full_description",
+        "start": 333,
+        "end": 338
+      },
+      {
+        "id": "8",
+        "review_id": "N0327:8",
+        "codes": [
+          "V2_KEYSHOT"
+        ],
+        "names": [
+          "KeyShot"
+        ],
+        "surface": "Keyshot",
+        "quote": "Keyshot",
+        "field": "full_description",
+        "start": 339,
+        "end": 346
+      },
+      {
+        "id": "9",
+        "review_id": "N0327:9",
+        "codes": [
+          "V2_PHOTOSHOP"
+        ],
+        "names": [
+          "Adobe Photoshop"
+        ],
+        "surface": "PS",
+        "quote": "PS",
+        "field": "full_description",
+        "start": 347,
+        "end": 349
+      },
+      {
+        "id": "10",
+        "review_id": "N0327:10",
+        "codes": [],
+        "names": [],
+        "surface": "AI",
+        "quote": "AI",
+        "field": "full_description",
+        "start": 350,
+        "end": 352
+      },
+      {
+        "id": "11",
+        "review_id": "N0327:11",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "加分项：掌握SUBD、BLENDER等建模工具",
+        "quote": "加分项：掌握SUBD、BLENDER等建模工具",
+        "field": "full_description",
+        "start": 380,
+        "end": 403
+      },
+      {
+        "id": "12",
+        "review_id": "N0327:12",
+        "codes": [],
+        "names": [],
+        "surface": "SUBD",
+        "quote": "SUBD",
+        "field": "full_description",
+        "start": 386,
+        "end": 390
+      },
+      {
+        "id": "13",
+        "review_id": "N0327:13",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "BLENDER",
+        "quote": "BLENDER",
+        "field": "full_description",
+        "start": 391,
+        "end": 398
+      }
+    ]
+  },
+  {
+    "coding_order": 5,
+    "reading_id": "E0419",
+    "company_id": "US_APPTRONIK",
+    "title": "Senior UX Designer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6111627004|41c06a3f989054e86dd2037d77bf021c291c0c159508b73b8475909a81ff62a5",
+    "already_coded": false,
+    "fields": {
+      "duties": "Apptronik is seeking a Senior UX Designer to help define the operational workflows and end-to-end user experiences surrounding our humanoid robots.\nThis role is ideal for a systems-oriented designer who enjoys unpacking complex real-world workflows, collaborating across disciplines, and translating ambiguous operational needs into thoughtful, human-centered experiences. You will focus on defining and improving workflows that span physical interaction, operational processes, onboarding, deployment, servicing, training, and other human touchpoints surrounding the robot experience.\nReporting to the Director of UX, you will partner closely with Product, Industrial Design, Research, and Engineering teams to help shape how users understand, interact with, deploy, and work alongside robotic systems in real-world environments.\nThis role requires strong systems thinking, service and workflow design skills, and the ability to create clarity within complex and evolving operational environments.\nESSENTIAL DUTIES AND RESPONSIBILITIES or KEY ACCOUNTABILITIES\nDefine operational workflows and end-to-end user experiences surrounding humanoid robot deployment, onboarding, servicing, maintenance, training, and day-to-day operation\nDesign and map user journeys, workflow definitions, interaction flows, and operational concepts across physical and digital touchpoints\nCollaborate closely with Product, Industrial Design, UX Research, and Engineering teams to define human-centered operational experiences\nHelp shape interaction moments that influence trust, communication clarity, user mental models, and robot legibility within real-world environments\nTranslate ambiguous requirements, technical constraints, and operational needs into actionable workflow definitions and experience concepts\nCreate design artifacts including workflow maps, storyboards, behavioral definitions, prototypes, and future-state concepts\nContribute to evaluative and generative research efforts by helping identify workflow assumptions, operational risks, and opportunities for improvement\nCollaborate with UX Research to better understand user behaviors, operational needs, and experience quality across deployment and usage scenarios\nWork effectively in a fast-moving environment where workflows, product requirements, and operational assumptions may evolve rapidly as robotic systems mature\nUp to 10% travel may be expected to participate in research at customer sites\nEDUCATION and/or EXPERIENCE\n6+ years of experience in UX design, service design, workflow design, interaction design, or related experience-focused disciplines\nStrong portfolio demonstrating systems thinking, workflow architecture, service design, and operational experience design across complex environments\nExperience designing end-to-end workflows involving physical products, operational systems, or multi-touchpoint user experiences\nAbility to think critically about user mental models, communication clarity, trust, onboarding, and operational usability\nStrong communication and collaboration skills across multidisciplinary technical teams\nExperience working through ambiguity and helping define structure within evolving problem spaces\nAbility to create clear workflow definitions, journey maps, interaction concepts, and operational experience frameworks\nExperience collaborating closely with product managers, engineers, researchers, and designers\nNice to Have\nExperience working in robotics, automation, industrial systems, logistics, mobility, healthcare, or other operationally complex environments\nExperience with service design, operational workflow design, or cross-touchpoint experience design\nFamiliarity with human-robot interaction concepts, behavioral systems, or embodied interaction design\nExperience contributing to prototyping or concept development for physical and digital experiences\nExposure to usability testing, evaluative research, or operational validation workflows\nPHYSICAL REQUIREMENTS\nAbility to perform physical tasks throughout the workday, including standing, walking, bending, kneeling, climbing, and reaching\nAbility to lift, carry, push, or pull up to 50 pounds as required\nAbility to safely use ladders, lifts, power tools, and other facility equipment\nAbility to work in mechanical rooms, warehouses, offices, and other facility spaces\nVision and hearing sufficient to safely perform job duties and communicate effectively\nAbility to respond to facility emergencies, including outside of normal business hours, as required\n*This is a direct hire.  Please, no outside Agency solicitations.\nApptronik provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.",
+      "requirements": "",
+      "full_description": "Apptronik is a human-centered robotics company developing AI-powered robots to support humanity in every facet of life. Our flagship humanoid robot, Apollo, is built to collaborate thoughtfully with people, starting with critical industries such as manufacturing and logistics, with future applications in healthcare, the home, and beyond.\nWe operate at the cutting edge of Applied AI, applying our expertise across the full robotics stack to solve some of society's most important problems. You will join a team dedicated to bringing Apollo to market at scale, tackling the complex challenges like safety, commercialization, and mass production to change the world for the better.\nApptronik is a human-centered robotics company developing AI-powered robots to support humanity in every facet of life. Our flagship humanoid robot, Apollo, is built to collaborate thoughtfully with people, starting with critical industries such as manufacturing and logistics, with future applications in healthcare, the home, and beyond.\nWe operate at the cutting edge of embodied AI, applying our expertise across the full robotics stack to solve some of society's most important problems. You will join a team dedicated to bringing Apollo to market at scale, tackling the complex challenges like safety, commercialization, and mass production to change the world for the better.\nJOB SUMMARY\nApptronik is seeking a Senior UX Designer to help define the operational workflows and end-to-end user experiences surrounding our humanoid robots.\nThis role is ideal for a systems-oriented designer who enjoys unpacking complex real-world workflows, collaborating across disciplines, and translating ambiguous operational needs into thoughtful, human-centered experiences. You will focus on defining and improving workflows that span physical interaction, operational processes, onboarding, deployment, servicing, training, and other human touchpoints surrounding the robot experience.\nReporting to the Director of UX, you will partner closely with Product, Industrial Design, Research, and Engineering teams to help shape how users understand, interact with, deploy, and work alongside robotic systems in real-world environments.\nThis role requires strong systems thinking, service and workflow design skills, and the ability to create clarity within complex and evolving operational environments.\nESSENTIAL DUTIES AND RESPONSIBILITIES or KEY ACCOUNTABILITIES\nDefine operational workflows and end-to-end user experiences surrounding humanoid robot deployment, onboarding, servicing, maintenance, training, and day-to-day operation\nDesign and map user journeys, workflow definitions, interaction flows, and operational concepts across physical and digital touchpoints\nCollaborate closely with Product, Industrial Design, UX Research, and Engineering teams to define human-centered operational experiences\nHelp shape interaction moments that influence trust, communication clarity, user mental models, and robot legibility within real-world environments\nTranslate ambiguous requirements, technical constraints, and operational needs into actionable workflow definitions and experience concepts\nCreate design artifacts including workflow maps, storyboards, behavioral definitions, prototypes, and future-state concepts\nContribute to evaluative and generative research efforts by helping identify workflow assumptions, operational risks, and opportunities for improvement\nCollaborate with UX Research to better understand user behaviors, operational needs, and experience quality across deployment and usage scenarios\nWork effectively in a fast-moving environment where workflows, product requirements, and operational assumptions may evolve rapidly as robotic systems mature\nUp to 10% travel may be expected to participate in research at customer sites\nEDUCATION and/or EXPERIENCE\n6+ years of experience in UX design, service design, workflow design, interaction design, or related experience-focused disciplines\nStrong portfolio demonstrating systems thinking, workflow architecture, service design, and operational experience design across complex environments\nExperience designing end-to-end workflows involving physical products, operational systems, or multi-touchpoint user experiences\nAbility to think critically about user mental models, communication clarity, trust, onboarding, and operational usability\nStrong communication and collaboration skills across multidisciplinary technical teams\nExperience working through ambiguity and helping define structure within evolving problem spaces\nAbility to create clear workflow definitions, journey maps, interaction concepts, and operational experience frameworks\nExperience collaborating closely with product managers, engineers, researchers, and designers\nNice to Have\nExperience working in robotics, automation, industrial systems, logistics, mobility, healthcare, or other operationally complex environments\nExperience with service design, operational workflow design, or cross-touchpoint experience design\nFamiliarity with human-robot interaction concepts, behavioral systems, or embodied interaction design\nExperience contributing to prototyping or concept development for physical and digital experiences\nExposure to usability testing, evaluative research, or operational validation workflows\nPHYSICAL REQUIREMENTS\nAbility to perform physical tasks throughout the workday, including standing, walking, bending, kneeling, climbing, and reaching\nAbility to lift, carry, push, or pull up to 50 pounds as required\nAbility to safely use ladders, lifts, power tools, and other facility equipment\nAbility to work in mechanical rooms, warehouses, offices, and other facility spaces\nVision and hearing sufficient to safely perform job duties and communicate effectively\nAbility to respond to facility emergencies, including outside of normal business hours, as required\n*This is a direct hire.  Please, no outside Agency solicitations.\nApptronik provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "tackling the complex challenges like safety",
+        "method": "UNRESOLVED_LOCATION"
+      },
+      {
+        "id": "O2",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 3876,
+        "end": 3893,
+        "quote": "usability testing",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 3919,
+        "end": 3951,
+        "quote": "operational validation workflows",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 4180,
+        "end": 4248,
+        "quote": "safely use ladders, lifts, power tools, and other facility equipment",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0419:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Reporting to the Director of UX, you will partner closely with Product, Industrial Design, Research, and Engineering teams to help shape how users understand, interact with, deploy, and work alongside robotic systems in real-world environments.",
+        "quote": "Reporting to the Director of UX, you will partner closely with Product, Industrial Design, Research, and Engineering teams to help shape how users understand, interact with, deploy, and work alongside robotic systems in real-world environments.",
+        "field": "full_description",
+        "start": 1963,
+        "end": 2207
+      },
+      {
+        "id": "2",
+        "review_id": "E0419:2",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Collaborate closely with Product, Industrial Design, UX Research, and Engineering teams to define human-centered operational experiences",
+        "quote": "Collaborate closely with Product, Industrial Design, UX Research, and Engineering teams to define human-centered operational experiences",
+        "field": "full_description",
+        "start": 2745,
+        "end": 2881
+      }
+    ]
+  },
+  {
+    "coding_order": 6,
+    "reading_id": "E0087",
+    "company_id": "CN_UNITREE",
+    "title": "工业设计师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|1968196722727321600|bcb47a27e090a465843dd223502c619370708356ec8f9e6bfe01aeef1d2709db",
+    "already_coded": false,
+    "fields": {
+      "duties": "1.根据产品的应用场景,分析产品的潜在或者实际使用需求,优化设计方案;\n2.独立完成或配合团队完成产品设计工作;\n3.完成公司产品创意设计以及后续开发及生产跟进;\n4.熟悉常用材料的特性及加工工艺;",
+      "requirements": "",
+      "full_description": "1．根据产品的应用场景，分析产品的潜在或者实际使用需求，优化设计方案；\n2．独立完成或配合团队完成产品设计工作；\n3．完成公司产品创意设计以及后续开发及生产跟进；\n4．熟悉常用材料的特性及加工工艺；"
+    },
+    "inherited": [],
+    "candidates": []
+  },
+  {
+    "coding_order": 7,
+    "reading_id": "N0485",
+    "company_id": "CN_FOURIER",
+    "title": "工业设计师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|d8d628ab-e31f-401b-a665-faacf2ce25f8|258f249cd7758fd65e0bf24173fa7cd072a0985830c49173d95fc56f0e1c63f5",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n\n主导人形机器人外观设计与CMF方案，平衡美学、量产工艺与成本约束\n使用建模工具完成高质量3D建模、渲染与原型设计\n与机械结构工程师紧密配合，确保外观设计与内部结构、散热、传感器布局的无缝集成\n跟进手板制作、可靠性测试及量产导入，解决注塑、钣金、表面处理等工艺问题\n研究行业设计趋势与新材料应用，持续优化产品用户体验与品牌一致性\n\n任职资格\n\n工业设计专业，本科及以上学历，2年以上智能硬件或消费电子设计经验\n熟悉3D建模软件，具备优秀的手绘/数字草图能力\n熟悉塑料/金属成型工艺、表面处理及装配结构，有量产项目经验\n良好的跨部门沟通与推动力，能在技术限制下实现设计创新\n\n加分项\n\n有人形机器人、无人机或复杂机械类产品设计经验\n熟悉DFM/DFA原则，能独立完成结构可行性评估\n具备动画/动效基础，理解机器人运动姿态对外观的影响",
+      "requirements": "",
+      "full_description": "岗位职责\n\n主导人形机器人外观设计与CMF方案，平衡美学、量产工艺与成本约束\n使用建模工具完成高质量3D建模、渲染与原型设计\n与机械结构工程师紧密配合，确保外观设计与内部结构、散热、传感器布局的无缝集成\n跟进手板制作、可靠性测试及量产导入，解决注塑、钣金、表面处理等工艺问题\n研究行业设计趋势与新材料应用，持续优化产品用户体验与品牌一致性\n\n任职资格\n\n工业设计专业，本科及以上学历，2年以上智能硬件或消费电子设计经验\n熟悉3D建模软件，具备优秀的手绘/数字草图能力\n熟悉塑料/金属成型工艺、表面处理及装配结构，有量产项目经验\n良好的跨部门沟通与推动力，能在技术限制下实现设计创新\n\n加分项\n\n有人形机器人、无人机或复杂机械类产品设计经验\n熟悉DFM/DFA原则，能独立完成结构可行性评估\n具备动画/动效基础，理解机器人运动姿态对外观的影响"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 63,
+        "end": 101,
+        "quote": "与机械结构工程师紧密配合，确保外观设计与内部结构、散热、传感器布局的无缝集成",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "name": "热管理与热设计",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 63,
+        "end": 101,
+        "quote": "与机械结构工程师紧密配合，确保外观设计与内部结构、散热、传感器布局的无缝集成",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 102,
+        "end": 137,
+        "quote": "跟进手板制作、可靠性测试及量产导入，解决注塑、钣金、表面处理等工艺问题",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 102,
+        "end": 137,
+        "quote": "跟进手板制作、可靠性测试及量产导入，解决注塑、钣金、表面处理等工艺问题",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 251,
+        "end": 255,
+        "quote": "装配结构",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 332,
+        "end": 344,
+        "quote": "能独立完成结构可行性评估",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0485:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "主导人形机器人外观设计与CMF方案，平衡美学、量产工艺与成本约束",
+        "quote": "主导人形机器人外观设计与CMF方案，平衡美学、量产工艺与成本约束",
+        "field": "full_description",
+        "start": 6,
+        "end": 38
+      },
+      {
+        "id": "2",
+        "review_id": "N0485:2",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "跟进手板制作、可靠性测试及量产导入，解决注塑、钣金、表面处理等工艺问题",
+        "quote": "跟进手板制作、可靠性测试及量产导入，解决注塑、钣金、表面处理等工艺问题",
+        "field": "full_description",
+        "start": 102,
+        "end": 137
+      },
+      {
+        "id": "3",
+        "review_id": "N0485:3",
+        "codes": [
+          "V2_MARKETING"
+        ],
+        "names": [
+          "营销内容与传播"
+        ],
+        "surface": "研究行业设计趋势与新材料应用，持续优化产品用户体验与品牌一致性",
+        "quote": "研究行业设计趋势与新材料应用，持续优化产品用户体验与品牌一致性",
+        "field": "full_description",
+        "start": 138,
+        "end": 169
+      },
+      {
+        "id": "4",
+        "review_id": "N0485:4",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "工业设计专业，本科及以上学历，2年以上智能硬件或消费电子设计经验",
+        "quote": "工业设计专业，本科及以上学历，2年以上智能硬件或消费电子设计经验",
+        "field": "full_description",
+        "start": 177,
+        "end": 209
+      },
+      {
+        "id": "5",
+        "review_id": "N0485:5",
+        "codes": [
+          "V2_DFM"
+        ],
+        "names": [
+          "可制造与可装配设计"
+        ],
+        "surface": "熟悉DFM/DFA原则，能独立完成结构可行性评估",
+        "quote": "熟悉DFM/DFA原则，能独立完成结构可行性评估",
+        "field": "full_description",
+        "start": 320,
+        "end": 344
+      },
+      {
+        "id": "6",
+        "review_id": "N0485:6",
+        "codes": [
+          "V2_DFM"
+        ],
+        "names": [
+          "可制造与可装配设计"
+        ],
+        "surface": "DFM",
+        "quote": "熟悉DFM/DFA原则，能独立完成结构可行性评估",
+        "field": "full_description",
+        "start": 320,
+        "end": 344
+      },
+      {
+        "id": "7",
+        "review_id": "N0485:7",
+        "codes": [
+          "V2_DFM"
+        ],
+        "names": [
+          "可制造与可装配设计"
+        ],
+        "surface": "DFA",
+        "quote": "熟悉DFM/DFA原则，能独立完成结构可行性评估",
+        "field": "full_description",
+        "start": 320,
+        "end": 344
+      }
+    ]
+  },
+  {
+    "coding_order": 8,
+    "reading_id": "N0817",
+    "company_id": "US_FIELD_AI",
+    "title": "Senior Product Designer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|96fc7a54-5dbf-486e-a857-4346646c44e1|5d2e8c8c3978746a0fadbafd858ec6fbd6226ed54b47204d423d9a39284d3770",
+    "already_coded": false,
+    "fields": {
+      "duties": "FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI systems that solve the hardest problems in robotics and unlock the full potential of embodied intelligence. If you want your work to ship, get tested on hardware, and improve through real deployments, Irvine is the place. We go beyond typical data-driven approaches or pure transformer-only architectures, combining rigorous engineering with learning systems proven in globally deployed solutions that deliver results today and get better every time our robots run in the field.\n\n\nWe're looking for a Senior Product Designer to craft the design voice for our product by creating polished customer interactive experience for a new category of technology. You'll bring a strategic design thinking, strong visual identity and aesthetic sensibility to everything you touch — defining the look, feel, and design language that makes our platform unmistakably FieldAI. Beyond the visual, you'll shape how customers operate their robots and unlock the insights and value that matter to their business. This isn't about a single screen or feature — it's about building a cohesive, intuitive experience for how humans work with autonomous robots at scale.\n\n\nWhat You'll Get To Do:\nDefine and own the visual identity and design language across our customer interactive experience — establishing the aesthetic standard that makes every surface of the product feel premium, intentional, and cohesive\nCreate and maintain a comprehensive design system, including design policies and primitives, visual style guide, design tokens, and documented interaction patterns that scale across the platform.\nBring an intuitive sense to how users work with robots across a variety of sites, environments, and use cases — translating complex robotic operations into clear, elegant industrial workflows\nDesign data products that communicate value — helping users not just see the rich data our systems generate, but understand what it means and act on it with confidence\nOwn design ops end-to-end: establish governance, versioning, and contribution processes for the design system to ensure consistency as the product and team grow\nCollaborate closely with product, marketing, and engineering, teams to bring designs from concept to production — ensuring what ships matches the vision\nChampion the user through research, feedback, and advocacy — whether they're field operators, site managers, or enterprise decision-makers\n\nWhat You Bring:\n5+ years of experience in systems design with a strong portfolio demonstrating visual craft and shipped digital products (complex platforms, interactive tools, or multi-layered applications preferred)\nProven experience building and maintaining design systems from the ground up — including component libraries, style guides, design tokens, and usage documentation\nAn understanding of Human-Robot Interaction (HRI) — whether through academic study, professional experience, or deep personal curiosity, you appreciate the unique challenges of designing for systems where humans and robots collaborate\nExpertise in Figma as your primary design tool\nStrong data visualization skills — the ability to make complex information clear, useful, and beautiful\nSystems thinking — you can craft a single interaction and understand how it fits into a broader platform and design language\nExcellent written and verbal communication skills — you can articulate design decisions, give and receive feedback gracefully, and collaborate across disciplines\n\nWhat Will Set You Apart:\nExperience designing for robotics, autonomous systems, IoT, or other hardware-software products\nBackground in platform-level UX where information architecture, navigation patterns, and scalability are as important as any individual screen\nFamiliarity with real-time data interfaces, mapping, or geospatial UX\nExperience designing for multi-site or multi-environment use cases\nComfort with prototyping interactions and micro-animations\nTrack record of establishing design culture and evangelizing design system adoption across engineering teams\n\nOur salary range is generous and we consider each individual’s background and experience when determining final compensation. Base pay may vary based on role scope, job-related knowledge, skills, experience, and the Irvine, California market.\n \nWhy Join FieldAI in Irvine?\nIn Irvine, you will work where the robots are. Our local team builds and tests systems on real hardware with real sensors, then ships them to operate in unstructured, previously unknown environments around the world. We are solving one of robotics’ hardest challenges: reliable deployment outside the lab. Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use.\nYou will collaborate with a world-class team that thrives on creativity, resilience, and bold thinking. We bring deep experience from organizations such as DeepMind, NASA JPL, Boston Dynamics, NVIDIA, Amazon, Tesla Autopilot, Cruise, Zoox, Toyota Research Institute, and SpaceX, along with a track record of field deployments and strong performance in DARPA challenge segments.\n \nBe Part of the Next Robotics Revolution\nWe are looking for builders who want their work to leave the whiteboard and show up on robots. If you enjoy tackling tough, uncharted questions and working across disciplines, you will find your people here. Our teams span AI, software, robotics engineering, product, field deployment, and technical communication, all focused on shipping systems that perform in the real world.\n \nOur headquarters is in Irvine, and we partner closely with teams there as well as colleagues across the US and around the world. Join us in Southern California and help define what dependable, field-ready autonomy looks like.\n \nWe value diverse perspectives and are committed to fostering an inclusive workplace. We evaluate candidates and employees based on merit, qualifications, and performance, and we do not discriminate on the basis of race, color, gender, national origin, ethnicity, veteran status, disability status, age, sexual orientation, gender identity, marital status, or any other legally protected status.",
+      "requirements": "",
+      "full_description": "FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI systems that solve the hardest problems in robotics and unlock the full potential of embodied intelligence. If you want your work to ship, get tested on hardware, and improve through real deployments, Irvine is the place. We go beyond typical data-driven approaches or pure transformer-only architectures, combining rigorous engineering with learning systems proven in globally deployed solutions that deliver results today and get better every time our robots run in the field.\n\n\nWe're looking for a Senior Product Designer to craft the design voice for our product by creating polished customer interactive experience for a new category of technology. You'll bring a strategic design thinking, strong visual identity and aesthetic sensibility to everything you touch — defining the look, feel, and design language that makes our platform unmistakably FieldAI. Beyond the visual, you'll shape how customers operate their robots and unlock the insights and value that matter to their business. This isn't about a single screen or feature — it's about building a cohesive, intuitive experience for how humans work with autonomous robots at scale.\n\n\nWhat You'll Get To Do:\nDefine and own the visual identity and design language across our customer interactive experience — establishing the aesthetic standard that makes every surface of the product feel premium, intentional, and cohesive\nCreate and maintain a comprehensive design system, including design policies and primitives, visual style guide, design tokens, and documented interaction patterns that scale across the platform.\nBring an intuitive sense to how users work with robots across a variety of sites, environments, and use cases — translating complex robotic operations into clear, elegant industrial workflows\nDesign data products that communicate value — helping users not just see the rich data our systems generate, but understand what it means and act on it with confidence\nOwn design ops end-to-end: establish governance, versioning, and contribution processes for the design system to ensure consistency as the product and team grow\nCollaborate closely with product, marketing, and engineering, teams to bring designs from concept to production — ensuring what ships matches the vision\nChampion the user through research, feedback, and advocacy — whether they're field operators, site managers, or enterprise decision-makers\n\nWhat You Bring:\n5+ years of experience in systems design with a strong portfolio demonstrating visual craft and shipped digital products (complex platforms, interactive tools, or multi-layered applications preferred)\nProven experience building and maintaining design systems from the ground up — including component libraries, style guides, design tokens, and usage documentation\nAn understanding of Human-Robot Interaction (HRI) — whether through academic study, professional experience, or deep personal curiosity, you appreciate the unique challenges of designing for systems where humans and robots collaborate\nExpertise in Figma as your primary design tool\nStrong data visualization skills — the ability to make complex information clear, useful, and beautiful\nSystems thinking — you can craft a single interaction and understand how it fits into a broader platform and design language\nExcellent written and verbal communication skills — you can articulate design decisions, give and receive feedback gracefully, and collaborate across disciplines\n\nWhat Will Set You Apart:\nExperience designing for robotics, autonomous systems, IoT, or other hardware-software products\nBackground in platform-level UX where information architecture, navigation patterns, and scalability are as important as any individual screen\nFamiliarity with real-time data interfaces, mapping, or geospatial UX\nExperience designing for multi-site or multi-environment use cases\nComfort with prototyping interactions and micro-animations\nTrack record of establishing design culture and evangelizing design system adoption across engineering teams\n\nOur salary range is generous and we consider each individual’s background and experience when determining final compensation. Base pay may vary based on role scope, job-related knowledge, skills, experience, and the Irvine, California market.\n \nWhy Join FieldAI in Irvine?\nIn Irvine, you will work where the robots are. Our local team builds and tests systems on real hardware with real sensors, then ships them to operate in unstructured, previously unknown environments around the world. We are solving one of robotics’ hardest challenges: reliable deployment outside the lab. Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use.\nYou will collaborate with a world-class team that thrives on creativity, resilience, and bold thinking. We bring deep experience from organizations such as DeepMind, NASA JPL, Boston Dynamics, NVIDIA, Amazon, Tesla Autopilot, Cruise, Zoox, Toyota Research Institute, and SpaceX, along with a track record of field deployments and strong performance in DARPA challenge segments.\n \nBe Part of the Next Robotics Revolution\nWe are looking for builders who want their work to leave the whiteboard and show up on robots. If you enjoy tackling tough, uncharted questions and working across disciplines, you will find your people here. Our teams span AI, software, robotics engineering, product, field deployment, and technical communication, all focused on shipping systems that perform in the real world.\n \nOur headquarters is in Irvine, and we partner closely with teams there as well as colleagues across the US and around the world. Join us in Southern California and help define what dependable, field-ready autonomy looks like.\n \nWe value diverse perspectives and are committed to fostering an inclusive workplace. We evaluate candidates and employees based on merit, qualifications, and performance, and we do not discriminate on the basis of race, color, gender, national origin, ethnicity, veteran status, disability status, age, sexual orientation, gender identity, marital status, or any other legally protected status."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 4814,
+        "end": 4982,
+        "quote": "Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 4814,
+        "end": 4982,
+        "quote": "Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_SLAM",
+        "name": "定位建图",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 4814,
+        "end": 4982,
+        "quote": "Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 4814,
+        "end": 4982,
+        "quote": "Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 4814,
+        "end": 4982,
+        "quote": "Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 168,
+        "end": 221,
+        "quote": "we build risk-aware, reliable, field-ready AI systems",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3946,
+        "end": 3971,
+        "quote": "real-time data interfaces",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0817:1",
+        "codes": [
+          "V2_MARKETING"
+        ],
+        "names": [
+          "营销内容与传播"
+        ],
+        "surface": "Collaborate closely with product, marketing, and engineering, teams to bring designs from concept to production — ensuring what ships matches the vision",
+        "quote": "Collaborate closely with product, marketing, and engineering, teams to bring designs from concept to production — ensuring what ships matches the vision",
+        "field": "full_description",
+        "start": 2318,
+        "end": 2470
+      },
+      {
+        "id": "2",
+        "review_id": "N0817:2",
+        "codes": [
+          "V2_FIGMA"
+        ],
+        "names": [
+          "Figma"
+        ],
+        "surface": "Expertise in Figma as your primary design tool",
+        "quote": "Expertise in Figma as your primary design tool",
+        "field": "full_description",
+        "start": 3226,
+        "end": 3272
+      },
+      {
+        "id": "3",
+        "review_id": "N0817:3",
+        "codes": [
+          "V2_FIGMA"
+        ],
+        "names": [
+          "Figma"
+        ],
+        "surface": "Figma",
+        "quote": "Expertise in Figma as your primary design tool",
+        "field": "full_description",
+        "start": 3226,
+        "end": 3272
+      },
+      {
+        "id": "4",
+        "review_id": "N0817:4",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Systems thinking — you can craft a single interaction and understand how it fits into a broader platform and design language",
+        "quote": "Systems thinking — you can craft a single interaction and understand how it fits into a broader platform and design language",
+        "field": "full_description",
+        "start": 3377,
+        "end": 3501
+      },
+      {
+        "id": "5",
+        "review_id": "N0817:5",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Excellent written and verbal communication skills — you can articulate design decisions, give and receive feedback gracefully, and collaborate across disciplines",
+        "quote": "Excellent written and verbal communication skills — you can articulate design decisions, give and receive feedback gracefully, and collaborate across disciplines",
+        "field": "full_description",
+        "start": 3502,
+        "end": 3663
+      }
+    ]
+  },
+  {
+    "coding_order": 9,
+    "reading_id": "N0178",
+    "company_id": "CN_GALBOT",
+    "title": "工业设计师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|08fed545-9ef3-4088-8c61-06a728c48258|f1410f12c93111383605d6a776dbf47bc6ec031b8b40b1df6cbf88e5aab77b39",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责\n\n参与未来场景与趋势研究，建立概念方向与故事板表达参与机器人的整体外观比例、造型与 CMF 设计\n\n在机械结构约束下进行造型探索与快速 3D 验证\n\n擅长团队协作，推动外观到样机落地\n\n参与交互设计定义输出高质量渲染、动效、等展示物料\n\n\n\n\n任职要求\n\n1、工业设计相关专业，本科及以上学历，5年以上相关经验；\n\n2、有AI智能硬件/消费电子等相关设计经验，获得过IF、红点、Good Design、idea等国际大奖者优先；\n\n3、草图及建模、渲染能力优异，手段不限，熟练运用PS、AI、UG、SolidWorks、keyshot、OC、Vray等设计软件；\n\n4、精通工业设计流程，具备完整的从产品定义、创意设计方案到高质量产品交付的能力；\n\n5、有产品创新意识，思维活跃，趋势洞察力强，对产品理念、设计理念、量产工艺有独立思考力和把控力；\n\n6、有责任有担当，胆大心细，工作积极主动、配合意识强、较强的逻辑能力。",
+      "requirements": "",
+      "full_description": "岗位职责\n\n参与未来场景与趋势研究，建立概念方向与故事板表达参与机器人的整体外观比例、造型与 CMF 设计\n\n在机械结构约束下进行造型探索与快速 3D 验证\n\n擅长团队协作，推动外观到样机落地\n\n参与交互设计定义输出高质量渲染、动效、等展示物料\n\n\n\n\n任职要求\n\n1、工业设计相关专业，本科及以上学历，5年以上相关经验；\n\n2、有AI智能硬件/消费电子等相关设计经验，获得过IF、红点、Good Design、idea等国际大奖者优先；\n\n3、草图及建模、渲染能力优异，手段不限，熟练运用PS、AI、UG、SolidWorks、keyshot、OC、Vray等设计软件；\n\n4、精通工业设计流程，具备完整的从产品定义、创意设计方案到高质量产品交付的能力；\n\n5、有产品创新意识，思维活跃，趋势洞察力强，对产品理念、设计理念、量产工艺有独立思考力和把控力；\n\n6、有责任有担当，胆大心细，工作积极主动、配合意识强、较强的逻辑能力。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 254,
+        "end": 264,
+        "quote": "SolidWorks",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 55,
+        "end": 78,
+        "quote": "在机械结构约束下进行造型探索与快速 3D 验证",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 55,
+        "end": 78,
+        "quote": "在机械结构约束下进行造型探索与快速 3D 验证",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0178:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "参与未来场景与趋势研究，建立概念方向与故事板表达参与机器人的整体外观比例、造型与 CMF 设计",
+        "quote": "参与未来场景与趋势研究，建立概念方向与故事板表达参与机器人的整体外观比例、造型与 CMF 设计",
+        "field": "full_description",
+        "start": 6,
+        "end": 53
+      },
+      {
+        "id": "2",
+        "review_id": "N0178:2",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "1、工业设计相关专业，本科及以上学历，5年以上相关经验；",
+        "quote": "1、工业设计相关专业，本科及以上学历，5年以上相关经验；",
+        "field": "full_description",
+        "start": 133,
+        "end": 161
+      },
+      {
+        "id": "3",
+        "review_id": "N0178:3",
+        "codes": [
+          "V2_PHOTOSHOP",
+          "V2_KEYSHOT"
+        ],
+        "names": [
+          "Adobe Photoshop",
+          "KeyShot"
+        ],
+        "surface": "3、草图及建模、渲染能力优异，手段不限，熟练运用PS、AI、UG、SolidWorks、keyshot、OC、Vray等设计软件；",
+        "quote": "3、草图及建模、渲染能力优异，手段不限，熟练运用PS、AI、UG、SolidWorks、keyshot、OC、Vray等设计软件；",
+        "field": "full_description",
+        "start": 221,
+        "end": 286
+      },
+      {
+        "id": "4",
+        "review_id": "N0178:4",
+        "codes": [
+          "V2_PHOTOSHOP"
+        ],
+        "names": [
+          "Adobe Photoshop"
+        ],
+        "surface": "PS",
+        "quote": "PS",
+        "field": "full_description",
+        "start": 245,
+        "end": 247
+      },
+      {
+        "id": "5",
+        "review_id": "N0178:5",
+        "codes": [],
+        "names": [],
+        "surface": "AI",
+        "quote": "AI",
+        "field": "full_description",
+        "start": 248,
+        "end": 250
+      },
+      {
+        "id": "6",
+        "review_id": "N0178:6",
+        "codes": [
+          "SK_NX"
+        ],
+        "names": [
+          "Siemens NX"
+        ],
+        "surface": "UG",
+        "quote": "UG",
+        "field": "full_description",
+        "start": 251,
+        "end": 253
+      },
+      {
+        "id": "7",
+        "review_id": "N0178:7",
+        "codes": [
+          "V2_KEYSHOT"
+        ],
+        "names": [
+          "KeyShot"
+        ],
+        "surface": "keyshot",
+        "quote": "keyshot",
+        "field": "full_description",
+        "start": 265,
+        "end": 272
+      },
+      {
+        "id": "8",
+        "review_id": "N0178:8",
+        "codes": [],
+        "names": [],
+        "surface": "OC",
+        "quote": "OC",
+        "field": "full_description",
+        "start": 273,
+        "end": 275
+      },
+      {
+        "id": "9",
+        "review_id": "N0178:9",
+        "codes": [],
+        "names": [],
+        "surface": "Vray",
+        "quote": "Vray",
+        "field": "full_description",
+        "start": 276,
+        "end": 280
+      },
+      {
+        "id": "10",
+        "review_id": "N0178:10",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "4、精通工业设计流程，具备完整的从产品定义、创意设计方案到高质量产品交付的能力；",
+        "quote": "4、精通工业设计流程，具备完整的从产品定义、创意设计方案到高质量产品交付的能力；",
+        "field": "full_description",
+        "start": 288,
+        "end": 328
+      }
+    ]
+  },
+  {
+    "coding_order": 10,
+    "reading_id": "E0149",
+    "company_id": "CN_XSQUARE",
+    "title": "机器人工业设计工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7659791206579341622|80852bf4c4a6bddd29278a8cdf3a6d85b83c6f87ead112af86d1bbfe8fbec7be",
+    "already_coded": false,
+    "fields": {
+      "duties": "- 负责机器人整体外观、比例、包覆件、CMF、品牌识别和关键交互部位设计。\n- 设计头部、躯干、手臂、腿部和外壳包覆件,兼顾安全、亲和、维护、散热和装配。\n- 与机械团队协作,定义外观边界、维护开口、安装方式和可制造方案。\n- 参与家庭场景体验设计,包括亲和感、压迫感、安全感、动作表达和用户可理解性。\n- 输出草图、效果图、CMF方案、外观结构边界和样机展示方案。",
+      "requirements": "- 工业设计、人机工程、产品设计等相关专业背景。\n- 具备消费级硬件、智能硬件、机器人或车载产品外观设计经验。\n- 能与结构、热管理、电气和制造团队协作,不只停留在概念图。\n- 熟悉材料、表面处理、软包覆、注塑、钣金或快速样件工艺。\n加分项\n- 做过消费电子、车载产品、机器人外观、医疗康养设备、儿童/家庭产品。\n- 有CMF落地、样机制作、供应商打样和小批量导入经验。\n- 理解家庭机器人“亲和、安全、低压迫感、低恐怖谷”的设计要求。",
+      "full_description": "岗位职责\n- 负责机器人整体外观、比例、包覆件、CMF、品牌识别和关键交互部位设计。\n- 设计头部、躯干、手臂、腿部和外壳包覆件，兼顾安全、亲和、维护、散热和装配。\n- 与机械团队协作，定义外观边界、维护开口、安装方式和可制造方案。\n- 参与家庭场景体验设计，包括亲和感、压迫感、安全感、动作表达和用户可理解性。\n- 输出草图、效果图、CMF方案、外观结构边界和样机展示方案。\n\n任职要求\n- 工业设计、人机工程、产品设计等相关专业背景。\n- 具备消费级硬件、智能硬件、机器人或车载产品外观设计经验。\n- 能与结构、热管理、电气和制造团队协作，不只停留在概念图。\n- 熟悉材料、表面处理、软包覆、注塑、钣金或快速样件工艺。\n加分项\n- 做过消费电子、车载产品、机器人外观、医疗康养设备、儿童/家庭产品。\n- 有CMF落地、样机制作、供应商打样和小批量导入经验。\n- 理解家庭机器人“亲和、安全、低压迫感、低恐怖谷”的设计要求。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 60,
+        "end": 76,
+        "quote": "兼顾安全、亲和、维护、散热和装配",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "name": "热管理与热设计",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 60,
+        "end": 76,
+        "quote": "兼顾安全、亲和、维护、散热和装配",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 85,
+        "end": 115,
+        "quote": "与机械团队协作，定义外观边界、维护开口、安装方式和可制造方案",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "duties",
+        "start": 171,
+        "end": 173,
+        "quote": "结构",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_THERMAL_MANAGEMENT",
+        "name": "热管理与热设计",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "requirements",
+        "start": 63,
+        "end": 66,
+        "quote": "热管理",
+        "method": "UNIQUE_EXACT_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 199,
+        "end": 201,
+        "quote": "安全",
+        "method": "UNIQUE_EXACT_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0149:1",
+        "codes": [
+          "V2_MARKETING",
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "营销内容与传播",
+          "工业外观与CMF"
+        ],
+        "surface": "- 负责机器人整体外观、比例、包覆件、CMF、品牌识别和关键交互部位设计。",
+        "quote": "- 负责机器人整体外观、比例、包覆件、CMF、品牌识别和关键交互部位设计。",
+        "field": "full_description",
+        "start": 5,
+        "end": 42
+      },
+      {
+        "id": "2",
+        "review_id": "E0149:2",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "- 输出草图、效果图、CMF方案、外观结构边界和样机展示方案。",
+        "quote": "- 输出草图、效果图、CMF方案、外观结构边界和样机展示方案。",
+        "field": "full_description",
+        "start": 157,
+        "end": 188
+      },
+      {
+        "id": "3",
+        "review_id": "E0149:3",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "- 工业设计、人机工程、产品设计等相关专业背景。",
+        "quote": "- 工业设计、人机工程、产品设计等相关专业背景。",
+        "field": "full_description",
+        "start": 195,
+        "end": 219
+      },
+      {
+        "id": "4",
+        "review_id": "E0149:4",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "- 熟悉材料、表面处理、软包覆、注塑、钣金或快速样件工艺。",
+        "quote": "- 熟悉材料、表面处理、软包覆、注塑、钣金或快速样件工艺。",
+        "field": "full_description",
+        "start": 282,
+        "end": 311
+      },
+      {
+        "id": "5",
+        "review_id": "E0149:5",
+        "codes": [
+          "V2_PROCUREMENT",
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "采购与供应商流程",
+          "工业外观与CMF"
+        ],
+        "surface": "- 有CMF落地、样机制作、供应商打样和小批量导入经验。",
+        "quote": "- 有CMF落地、样机制作、供应商打样和小批量导入经验。",
+        "field": "full_description",
+        "start": 352,
+        "end": 380
+      }
+    ]
+  },
+  {
+    "coding_order": 11,
+    "reading_id": "N0216",
+    "company_id": "CN_ASTRIBOT",
+    "title": "用户体验设计师（AI 协同方向）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_ASTRIBOT|moka|330f7925-905c-491f-92d8-81e5c66f8c85|e85fd4a5390dd932143688db754b5d0634496729c40f963c6fabd89d16b6bb56",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位名称：用户体验设计师（AI 协同方向） 我们在做什么 我们正在打造下一代人机交互产品 —— 一套让人与机器人自然协作的智能终端体验。从网页到移动端，从控制台到完整生态，由设计组定义产品的视觉语言、交互规范和体验标准。 你会做什么 - 主导产品的交互与界面设计，从需求洞察到设计落地全流程 - 用 AI 编程工具把设计直接落成可上线的代码 - 维护和演进设计系统，统一产品的视觉与交互语言 我们要什么人 5 年以上 UI / 用户体验设计经验，C 端背景优先。 审美与视觉能力（核心） - 视觉敏锐度过硬：对版式、字体、色彩、留白、节奏有深入理解，能拿捏\"克制\"与\"丰富\"的边界 - 设计品味在线：作品集能看出对细节、质感、层次的追求，不靠装饰营造高级感 - 风格审美与当下一线工具型产品同频（Linear / Vercel / Notion / Arc 等），不沉迷过时的拟物或重质感装饰 交互与系统化能力 - 交互设计扎实：信息架构、状态、反馈、流程都拿得起 - 设计系统思维是默认配置：组件化、token 化、规范化的工作方式不是加分项，是基本盘 AI 协同能力（关键） - 重度 AI 工具使用者，离开 AI 会浑身难受 - 能熟练用 Claude Code / Cursor 等工具把设计落到代码里，独立产出可上线成果 - 持续关注 AI 工具的演进，对新模型、新工具有自己的尝试和判断 成长心态 - 对自己的成长有强烈要求，愿意持续学习与补课 - 把 AI 视为协作伙伴而非威胁；相信\"懂设计 + 懂 AI\"是未来设计师的护城河 加分项 - 在视觉设计 / 品牌设计 / 动效设计中至少有一项跨界能力 - 主导维护过完整的设计系统，且有可看的成果 - 作品被一线产品、媒体或设计社区收录、讨论过 投递方式 附 作品集 + 一个你做过的真实项目可访问链接（线上产品、可预览 Demo、可点开的页面均可）。这一项是关键门槛 —— 我们要看到的是落地到真实场景里的成果，不是概念稿。",
+      "requirements": "",
+      "full_description": "岗位名称：用户体验设计师（AI 协同方向） 我们在做什么 我们正在打造下一代人机交互产品 —— 一套让人与机器人自然协作的智能终端体验。从网页到移动端，从控制台到完整生态，由设计组定义产品的视觉语言、交互规范和体验标准。 你会做什么 - 主导产品的交互与界面设计，从需求洞察到设计落地全流程 - 用 AI 编程工具把设计直接落成可上线的代码 - 维护和演进设计系统，统一产品的视觉与交互语言 我们要什么人 5 年以上 UI / 用户体验设计经验，C 端背景优先。 审美与视觉能力（核心） - 视觉敏锐度过硬：对版式、字体、色彩、留白、节奏有深入理解，能拿捏\"克制\"与\"丰富\"的边界 - 设计品味在线：作品集能看出对细节、质感、层次的追求，不靠装饰营造高级感 - 风格审美与当下一线工具型产品同频（Linear / Vercel / Notion / Arc 等），不沉迷过时的拟物或重质感装饰 交互与系统化能力 - 交互设计扎实：信息架构、状态、反馈、流程都拿得起 - 设计系统思维是默认配置：组件化、token 化、规范化的工作方式不是加分项，是基本盘 AI 协同能力（关键） - 重度 AI 工具使用者，离开 AI 会浑身难受 - 能熟练用 Claude Code / Cursor 等工具把设计落到代码里，独立产出可上线成果 - 持续关注 AI 工具的演进，对新模型、新工具有自己的尝试和判断 成长心态 - 对自己的成长有强烈要求，愿意持续学习与补课 - 把 AI 视为协作伙伴而非威胁；相信\"懂设计 + 懂 AI\"是未来设计师的护城河 加分项 - 在视觉设计 / 品牌设计 / 动效设计中至少有一项跨界能力 - 主导维护过完整的设计系统，且有可看的成果 - 作品被一线产品、媒体或设计社区收录、讨论过 投递方式 附 作品集 + 一个你做过的真实项目可访问链接（线上产品、可预览 Demo、可点开的页面均可）。这一项是关键门槛 —— 我们要看到的是落地到真实场景里的成果，不是概念稿。"
+    },
+    "inherited": [],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0216:1",
+        "codes": [
+          "V2_C",
+          "V2_NOTION",
+          "V2_LINEAR",
+          "V2_CURSOR",
+          "V2_CLAUDE_CODE",
+          "V2_MARKETING",
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "C语言",
+          "Notion",
+          "Linear",
+          "Cursor",
+          "Claude Code",
+          "营销内容与传播",
+          "工业外观与CMF"
+        ],
+        "surface": "岗位名称：用户体验设计师（AI 协同方向） 我们在做什么 我们正在打造下一代人机交互产品 —— 一套让人与机器人自然协作的智能终端体验。从网页到移动端，从控制台到完整生态，由设计组定义产品的视觉语言、交互规范和体验标准。 你会做什么 - 主导产品的交互与界面设计，从需求洞察到设计落地全流程 - 用 AI 编程工具把设计直接落成可上线的代码 - 维护和演进设计系统，统一产品的视觉与交互语言 我们要什么人 5 年以上 UI / 用户体验设计经验，C 端背景优先。 审美与视觉能力（核心） - 视觉敏锐度过硬：对版式、字体、色彩、留白、节奏有深入理解，能拿捏\"克制\"与\"丰富\"的边界 - 设计品味在线：作品集能看出对细节、质感、层次的追求，不靠装饰营造高级感 - 风格审美与当下一线工具型产品同频（Linear / Vercel / Notion / Arc 等），不沉迷过时的拟物或重质感装饰 交互与系统化能力 - 交互设计扎实：信息架构、状态、反馈、流程都拿得起 - 设计系统思维是默认配置：组件化、token 化、规范化的工作方式不是加分项，是基本盘 AI 协同能力（关键） - 重度 AI 工具使用者，离开 AI 会浑身难受 - 能熟练用 Claude Code / Cursor 等工具把设计落到代码里，独立产出可上线成果 - 持续关注 AI 工具的演进，对新模型、新工具有自己的尝试和判断 成长心态 - 对自己的成长有强烈要求，愿意持续学习与补课 - 把 AI 视为协作伙伴而非威胁；相信\"懂设计 + 懂 AI\"是未来设计师的护城河 加分项 - 在视觉设计 / 品牌设计 / 动效设计中至少有一项跨界能力 - 主导维护过完整的设计系统，且有可看的成果 - 作品被一线产品、媒体或设计社区收录、讨论过 投递方式 附 作品集 + 一个你做过的真实项目可访问链接（线上产品、可预览 Demo、可点开的页面均可）。这一项是关键门槛 —— 我们要看到的是落地到真实场景里的成果，不是概念稿。",
+        "quote": "岗位名称：用户体验设计师（AI 协同方向） 我们在做什么 我们正在打造下一代人机交互产品 —— 一套让人与机器人自然协作的智能终端体验。从网页到移动端，从控制台到完整生态，由设计组定义产品的视觉语言、交互规范和体验标准。 你会做什么 - 主导产品的交互与界面设计，从需求洞察到设计落地全流程 - 用 AI 编程工具把设计直接落成可上线的代码 - 维护和演进设计系统，统一产品的视觉与交互语言 我们要什么人 5 年以上 UI / 用户体验设计经验，C 端背景优先。 审美与视觉能力（核心） - 视觉敏锐度过硬：对版式、字体、色彩、留白、节奏有深入理解，能拿捏\"克制\"与\"丰富\"的边界 - 设计品味在线：作品集能看出对细节、质感、层次的追求，不靠装饰营造高级感 - 风格审美与当下一线工具型产品同频（Linear / Vercel / Notion / Arc 等），不沉迷过时的拟物或重质感装饰 交互与系统化能力 - 交互设计扎实：信息架构、状态、反馈、流程都拿得起 - 设计系统思维是默认配置：组件化、token 化、规范化的工作方式不是加分项，是基本盘 AI 协同能力（关键） - 重度 AI 工具使用者，离开 AI 会浑身难受 - 能熟练用 Claude Code / Cursor 等工具把设计落到代码里，独立产出可上线成果 - 持续关注 AI 工具的演进，对新模型、新工具有自己的尝试和判断 成长心态 - 对自己的成长有强烈要求，愿意持续学习与补课 - 把 AI 视为协作伙伴而非威胁；相信\"懂设计 + 懂 AI\"是未来设计师的护城河 加分项 - 在视觉设计 / 品牌设计 / 动效设计中至少有一项跨界能力 - 主导维护过完整的设计系统，且有可看的成果 - 作品被一线产品、媒体或设计社区收录、讨论过 投递方式 附 作品集 + 一个你做过的真实项目可访问链接（线上产品、可预览 Demo、可点开的页面均可）。这一项是关键门槛 —— 我们要看到的是落地到真实场景里的成果，不是概念稿。",
+        "field": "full_description",
+        "start": 0,
+        "end": 845
+      },
+      {
+        "id": "2",
+        "review_id": "N0216:2",
+        "codes": [
+          "V2_CLAUDE_CODE"
+        ],
+        "names": [
+          "Claude Code"
+        ],
+        "surface": "Claude Code",
+        "quote": "Claude Code",
+        "field": "full_description",
+        "start": 523,
+        "end": 534
+      },
+      {
+        "id": "3",
+        "review_id": "N0216:3",
+        "codes": [
+          "V2_CURSOR"
+        ],
+        "names": [
+          "Cursor"
+        ],
+        "surface": "Cursor",
+        "quote": "Cursor",
+        "field": "full_description",
+        "start": 537,
+        "end": 543
+      }
+    ]
+  },
+  {
+    "coding_order": 12,
+    "reading_id": "N0672",
+    "company_id": "US_SKILD",
+    "title": "Lead Industrial Designer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4552462008|f759b3a01e26b109a5a02e33076f7ec91ff2c0c27c4be8fb4ddcfa4bedd77447",
+    "already_coded": false,
+    "fields": {
+      "duties": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a Lead Industrial Designer to drive the design and user experience of our next-generation robotic systems. In this role, you will collaborate with engineering, software, and UX teams to create intuitive, functional, and visually compelling robotic solutions. Your designs will shape human-robot interaction, blending practicality with innovation.\nResponsibilities\nLead industrial design strategy from concept to production.\nDevelop and refine concepts through sketches, CAD models, and prototypes.\nEnsure feasibility and manufacturability in collaboration with engineering teams.\nDefine materials, finishes, and ergonomics for optimal usability.\nConduct user research and usability testing to enhance interaction design.\nAlign designs with branding for a cohesive product experience.\nPresent concepts to stakeholders and leadership.\nStay ahead of industry trends and emerging technologies.\nPreferred Qualifications\nBachelor’s or Master’s in Industrial Design, Product Design, or related field.\n7+ years of experience in industrial design, with a strong portfolio in robotics, automation, or hardware.\nProficiency in CAD software (SolidWorks, Rhino, etc.) and rendering tools (KeyShot, Blender).\nExperience with human-centered design and ergonomic principles.\nStrong knowledge of materials, manufacturing, and production techniques.\nExperience designing robotic systems, consumer electronics, or automation products.\nFamiliarity with UI/UX principles for hardware interfaces.\nKnowledge of rapid prototyping (3D printing, CNC machining).\nUnderstanding of mechanical engineering and hardware collaboration.\nBase Salary Range\n$100,000\n—\n$300,000 USD",
+      "requirements": "",
+      "full_description": "Company Overview\nAt Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine learning is the key to unlocking these capabilities for the widespread deployment of robots within society. Our team consists of individuals with varying levels of experience and backgrounds, from new graduates to domain experts. Relevant industry experience is important, but ultimately less so than your demonstrated abilities and attitude. We are looking for passionate individuals who are eager to explore uncharted waters and contribute to our innovative projects.\nPosition Overview\nWe are seeking a Lead Industrial Designer to drive the design and user experience of our next-generation robotic systems. In this role, you will collaborate with engineering, software, and UX teams to create intuitive, functional, and visually compelling robotic solutions. Your designs will shape human-robot interaction, blending practicality with innovation.\nResponsibilities\nLead industrial design strategy from concept to production.\nDevelop and refine concepts through sketches, CAD models, and prototypes.\nEnsure feasibility and manufacturability in collaboration with engineering teams.\nDefine materials, finishes, and ergonomics for optimal usability.\nConduct user research and usability testing to enhance interaction design.\nAlign designs with branding for a cohesive product experience.\nPresent concepts to stakeholders and leadership.\nStay ahead of industry trends and emerging technologies.\nPreferred Qualifications\nBachelor’s or Master’s in Industrial Design, Product Design, or related field.\n7+ years of experience in industrial design, with a strong portfolio in robotics, automation, or hardware.\nProficiency in CAD software (SolidWorks, Rhino, etc.) and rendering tools (KeyShot, Blender).\nExperience with human-centered design and ergonomic principles.\nStrong knowledge of materials, manufacturing, and production techniques.\nExperience designing robotic systems, consumer electronics, or automation products.\nFamiliarity with UI/UX principles for hardware interfaces.\nKnowledge of rapid prototyping (3D printing, CNC machining).\nUnderstanding of mechanical engineering and hardware collaboration.\nBase Salary Range\n$100,000\n—\n$300,000 USD"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1144,
+        "end": 1217,
+        "quote": "Develop and refine concepts through sketches, CAD models, and prototypes.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1836,
+        "end": 1848,
+        "quote": "CAD software",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1850,
+        "end": 1860,
+        "quote": "SolidWorks",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 175,
+        "end": 225,
+        "quote": "massive scale through data-driven machine learning",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1366,
+        "end": 1440,
+        "quote": "Conduct user research and usability testing to enhance interaction design.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2273,
+        "end": 2295,
+        "quote": "mechanical engineering",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 64,
+        "end": 162,
+        "quote": "general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0672:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Lead industrial design strategy from concept to production.",
+        "quote": "Lead industrial design strategy from concept to production.",
+        "field": "full_description",
+        "start": 1084,
+        "end": 1143
+      },
+      {
+        "id": "2",
+        "review_id": "N0672:2",
+        "codes": [
+          "V2_UX_RESEARCH"
+        ],
+        "names": [
+          "用户研究与体验设计方法"
+        ],
+        "surface": "Conduct user research and usability testing to enhance interaction design.",
+        "quote": "Conduct user research and usability testing to enhance interaction design.",
+        "field": "full_description",
+        "start": 1366,
+        "end": 1440
+      },
+      {
+        "id": "3",
+        "review_id": "N0672:3",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Bachelor’s or Master’s in Industrial Design, Product Design, or related field.",
+        "quote": "Bachelor’s or Master’s in Industrial Design, Product Design, or related field.",
+        "field": "full_description",
+        "start": 1635,
+        "end": 1713
+      },
+      {
+        "id": "4",
+        "review_id": "N0672:4",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "7+ years of experience in industrial design, with a strong portfolio in robotics, automation, or hardware.",
+        "quote": "7+ years of experience in industrial design, with a strong portfolio in robotics, automation, or hardware.",
+        "field": "full_description",
+        "start": 1714,
+        "end": 1820
+      },
+      {
+        "id": "5",
+        "review_id": "N0672:5",
+        "codes": [
+          "V2_BLENDER",
+          "V2_RHINO",
+          "V2_KEYSHOT"
+        ],
+        "names": [
+          "Blender",
+          "Rhino",
+          "KeyShot"
+        ],
+        "surface": "Proficiency in CAD software (SolidWorks, Rhino, etc.) and rendering tools (KeyShot, Blender).",
+        "quote": "Proficiency in CAD software (SolidWorks, Rhino, etc.) and rendering tools (KeyShot, Blender).",
+        "field": "full_description",
+        "start": 1821,
+        "end": 1914
+      },
+      {
+        "id": "6",
+        "review_id": "N0672:6",
+        "codes": [
+          "V2_RHINO"
+        ],
+        "names": [
+          "Rhino"
+        ],
+        "surface": "Rhino",
+        "quote": "Rhino",
+        "field": "full_description",
+        "start": 1862,
+        "end": 1867
+      },
+      {
+        "id": "7",
+        "review_id": "N0672:7",
+        "codes": [
+          "V2_KEYSHOT"
+        ],
+        "names": [
+          "KeyShot"
+        ],
+        "surface": "KeyShot",
+        "quote": "KeyShot",
+        "field": "full_description",
+        "start": 1896,
+        "end": 1903
+      },
+      {
+        "id": "8",
+        "review_id": "N0672:8",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "Blender",
+        "quote": "Blender",
+        "field": "full_description",
+        "start": 1905,
+        "end": 1912
+      },
+      {
+        "id": "9",
+        "review_id": "N0672:9",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "Knowledge of rapid prototyping (3D printing, CNC machining).",
+        "quote": "Knowledge of rapid prototyping (3D printing, CNC machining).",
+        "field": "full_description",
+        "start": 2195,
+        "end": 2255
+      },
+      {
+        "id": "10",
+        "review_id": "N0672:10",
+        "codes": [
+          "V2_CNC_PROCESS"
+        ],
+        "names": [
+          "加工与成型工艺"
+        ],
+        "surface": "CNC",
+        "quote": "CNC machining",
+        "field": "full_description",
+        "start": 2240,
+        "end": 2253
+      },
+      {
+        "id": "11",
+        "review_id": "N0672:11",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$300,000 USD",
+        "quote": "$300,000 USD",
+        "field": "full_description",
+        "start": 2353,
+        "end": 2365
+      }
+    ]
+  },
+  {
+    "coding_order": 13,
+    "reading_id": "N0326",
+    "company_id": "CN_PAXINI",
+    "title": "人因工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|e2e885a9-4b67-4a82-beae-e67464ec79c3|20020874603145751d269e51cd2f263b1910b7312f49d646adcd8ca819cc3739",
+    "already_coded": false,
+    "fields": {
+      "duties": "1.参与机器人等概念设计开发:研究设计、技术、材料、人机因素和先进制造方面的新兴趋势,结合机器人产品需求产生突破性和前瞻性的概念设计。\n2.用户研究与技术整合:通过用户研究、开发用户旅程,深入了解用户需求结合技术趋势及材料应用并将其转化为创新的设计解决方案。\n3.原型设计与测试:与内部研发团队合作快速开发和测试原型,根据反馈和可行性不断优化设计；\n4.外观造型与美学: 通过草图绘制、2D/AI效果图、3D建模和渲染 , 创作视觉前瞻、与品牌契合的设计。\n5.趋势分析与预测: 随时了解行业趋势、研究行业竞争产品和技术进步,为概念设计决策提供信息。",
+      "requirements": "1.教育背景:倾向工科生，工业设计、产品设计、交通工具设计或相关领域研究生及以上学历。\n2.工作经验:不限，有智能穿戴、复杂交互背景项目优先；\n3.设计表现能力：能够快速、灵活流畅地用手绘、故事板、原型等充分表达设计意图；",
+      "full_description": "工作职责\n1.参与机器人等概念设计开发:研究设计、技术、材料、人机因素和先进制造方面的新兴趋势,结合机器人产品需求产生突破性和前瞻性的概念设计。\n2.用户研究与技术整合:通过用户研究、开发用户旅程,深入了解用户需求结合技术趋势及材料应用并将其转化为创新的设计解决方案。\n3.原型设计与测试:与内部研发团队合作快速开发和测试原型,根据反馈和可行性不断优化设计；\n4.外观造型与美学: 通过草图绘制、2D/AI效果图、3D建模和渲染 , 创作视觉前瞻、与品牌契合的设计。\n5.趋势分析与预测: 随时了解行业趋势、研究行业竞争产品和技术进步,为概念设计决策提供信息。\n\n任职资格\n1.教育背景:倾向工科生，工业设计、产品设计、交通工具设计或相关领域研究生及以上学历。\n2.工作经验:不限，有智能穿戴、复杂交互背景项目优先；\n3.设计表现能力：能够快速、灵活流畅地用手绘、故事板、原型等充分表达设计意图；"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 135,
+        "end": 179,
+        "quote": "3.原型设计与测试:与内部研发团队合作快速开发和测试原型,根据反馈和可行性不断优化设计；",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0326:1",
+        "codes": [
+          "V2_UX_RESEARCH"
+        ],
+        "names": [
+          "用户研究与体验设计方法"
+        ],
+        "surface": "2.用户研究与技术整合:通过用户研究、开发用户旅程,深入了解用户需求结合技术趋势及材料应用并将其转化为创新的设计解决方案。",
+        "quote": "2.用户研究与技术整合:通过用户研究、开发用户旅程,深入了解用户需求结合技术趋势及材料应用并将其转化为创新的设计解决方案。",
+        "field": "full_description",
+        "start": 73,
+        "end": 134
+      },
+      {
+        "id": "2",
+        "review_id": "N0326:2",
+        "codes": [
+          "V2_MARKETING"
+        ],
+        "names": [
+          "营销内容与传播"
+        ],
+        "surface": "4.外观造型与美学: 通过草图绘制、2D/AI效果图、3D建模和渲染 , 创作视觉前瞻、与品牌契合的设计。",
+        "quote": "4.外观造型与美学: 通过草图绘制、2D/AI效果图、3D建模和渲染 , 创作视觉前瞻、与品牌契合的设计。",
+        "field": "full_description",
+        "start": 180,
+        "end": 233
+      },
+      {
+        "id": "3",
+        "review_id": "N0326:3",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "1.教育背景:倾向工科生，工业设计、产品设计、交通工具设计或相关领域研究生及以上学历。",
+        "quote": "1.教育背景:倾向工科生，工业设计、产品设计、交通工具设计或相关领域研究生及以上学历。",
+        "field": "full_description",
+        "start": 287,
+        "end": 330
+      }
+    ]
+  },
+  {
+    "coding_order": 14,
+    "reading_id": "N0478",
+    "company_id": "CN_FOURIER",
+    "title": "UXUI设计师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|d4b4b97d-fe66-4500-8893-70854bdfd509|fed0a35113520e8242735b7c4e0610a5111e76015a8d2f93d85d2a74665fb24d",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.主导人形机器人操控软件的用户体验设计，完成从用户需求分析、信息架构到交互原型、视觉落地的全流程设计\n\n2.结合机器人运动控制、多模态交互（手势/语音/表情）等特性，设计符合人类直觉的操控界面与交互逻辑\n\n3.针对复杂场景（如多任务并行操控、动态环境反馈）设计可扩展的UI框架与组件系统\n\n4.通过用户测试、数据分析持续优化交互体验，解决操作延迟、误触反馈等特殊场景下的体验问题\n\n  \n\n岗位要求：\n\n1. 本科及以上学历，交互设计、数字媒体、工业设计等相关专业，需提供作品集\n\n2. 熟练使用相关设计软件，掌握动效设计工具\n\n3. 至少2-3年UXUI设计经验，独立负责过完整功能模块设计，有硬件产品项目经验优先  \n\n4. 了解机器人基础技术逻辑，能与工程师讨论设计可行性\n\n5. 学习能力强，适应敏捷开发节奏，能在需求变更时快速调整设计方案\n\n6. 对具身智能行业有热情，主动关注具身智能、AI Agent等领域的设计趋势的优先",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1.主导人形机器人操控软件的用户体验设计，完成从用户需求分析、信息架构到交互原型、视觉落地的全流程设计\n\n2.结合机器人运动控制、多模态交互（手势/语音/表情）等特性，设计符合人类直觉的操控界面与交互逻辑\n\n3.针对复杂场景（如多任务并行操控、动态环境反馈）设计可扩展的UI框架与组件系统\n\n4.通过用户测试、数据分析持续优化交互体验，解决操作延迟、误触反馈等特殊场景下的体验问题\n\n  \n\n岗位要求：\n\n1. 本科及以上学历，交互设计、数字媒体、工业设计等相关专业，需提供作品集\n\n2. 熟练使用相关设计软件，掌握动效设计工具\n\n3. 至少2-3年UXUI设计经验，独立负责过完整功能模块设计，有硬件产品项目经验优先  \n\n4. 了解机器人基础技术逻辑，能与工程师讨论设计可行性\n\n5. 学习能力强，适应敏捷开发节奏，能在需求变更时快速调整设计方案\n\n6. 对具身智能行业有热情，主动关注具身智能、AI Agent等领域的设计趋势的优先"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "PRODUCT_DEFINITION_OBJECT",
+        "field": "full_description",
+        "start": 62,
+        "end": 109,
+        "quote": "结合机器人运动控制、多模态交互（手势/语音/表情）等特性，设计符合人类直觉的操控界面与交互逻辑",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 155,
+        "end": 174,
+        "quote": "通过用户测试、数据分析持续优化交互体验",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0478:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "1. 本科及以上学历，交互设计、数字媒体、工业设计等相关专业，需提供作品集",
+        "quote": "1. 本科及以上学历，交互设计、数字媒体、工业设计等相关专业，需提供作品集",
+        "field": "full_description",
+        "start": 210,
+        "end": 247
+      }
+    ]
+  },
+  {
+    "coding_order": 15,
+    "reading_id": "N0772",
+    "company_id": "US_FIELD_AI",
+    "title": "Industrial Design & HRI Engineer, Robotics Hardware",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|1dd44b9b-e855-4bbc-b6a1-0c36d3954948|1a0c21452469049a2e893ce29aded4c2110352eebbd5f74c3e127fbcf76deef0",
+    "already_coded": false,
+    "fields": {
+      "duties": "About Us\nField AI is transforming how robots interact with the real world. We are building risk-aware, reliable, and field-ready AI systems that address the most complex challenges in robotics, unlocking the full potential of embodied intelligence. We go beyond typical data-driven approaches or pure transformer-based architectures, and are charting a new course, with already-globally-deployed solutions delivering real-world results and rapidly improving models through real-field applications.\n \nHuman-Robot Interaction & Industrial Design Engineer \nIn this role you will develop hardware that shapes how our robotic systems look, feel, and sound. This spans audio and visual systems, industrial design, and robotic expressiveness and motion. Within audio and visual systems, you will select and integrate displays, speakers, and microphones. Within industrial design, you will work on form and CMF (color, material, finish). You will also help define robot motion and expressiveness. As part of the Hardware department this role will involve significant hands-on work bringing up and designing electromechanical elements. \nYou will coordinate with Product and UI/UX to identify what interactions and experiences are needed. Then work with Electrical, Mechanical, and Computing hardware personnel to implement them.  Solutions must balance performance, durability, manufacturability, and SWaP (size, weight, power) constraints across environments ranging from rugged industrial sites to commercial settings with the general public.\n \nWhat You Will Get To Do\n \n1. Form & Interaction\nForm & Aesthetics: Drive form, shape, and CMF (color/material/finish) decisions that define how the robot looks and feels.\nInteraction & Expressiveness: Shape how people see, hear, and interact with the robot across displays, audio, and movement, adapting choices for industrial versus commercial and public settings.\nCross-Team Collaboration: Partner with hardware groups such as Electrical, Mechanical, and Computing, and company-wide groups such as Product, UX, and Field Ops, since many parts are interrelated.\n2. Lighting & Visual Displays Systems\nDisplay & Lighting Selection: Drive selection and programming of screens (OLED, LCD, LED), LED strips, and multicolor lighting elements such as ambient lighting, and expressive displays, including novel concepts like projection interfaces.\nDurability & Readability: Ensure display and lighting durability (drop/impact resistance) and outdoor daylight readability across harsh field conditions.\nSWaP Tradeoffs: Own SWaP tradeoffs for all display and lighting components as they're integrated into the payload.\nFirmware & Validation: Write scripts to validate display boot-up, onboard compute connectivity, and correct rendering, catching crashes before field deployment.\n3. Audio Systems\nSpeaker & Microphone Selection: Select, spec, and program speakers and microphones for target use cases, balancing audio I/O needs with the robot's form factor.\nAcoustic Performance Evaluation: Evaluate loudness, voice pickup, and acoustic performance across environments to ensure clear two-way communication in the field.\nSWaP Tradeoffs: Balance size, weight, and power (SWaP) tradeoffs for audio components against other system constraints and payload budgets.\n \nWhat You Have\n \nEducation: B.S., M.S., or equivalent experience in Human-Robot Interaction, Electrical Engineering, Mechanical/Industrial Design, or a related field.\nExperience Level: Minimum of 3+ years of hands-on experience working on industrial/product design, audio-visual systems, or robotics. We welcome candidates across mid-level to senior and staff levels.\nAV Hardware Selection: Experience selecting and specifying speakers, microphones, displays (OLED/LCD/LED), and lighting elements for hardware products.\nSWaP & Systems Integration: Comfort balancing size, weight, and power tradeoffs across audio-visual and electromechanical system integration.\nFirmware & Validation: Experience writing scripts or tools to validate display boot-up, rendering, and connectivity, catching failures before field deployment.\nIndustrial Design Skillset: Experience with industrial design work, including form, shape, and CMF (color/material/finish) decisions, that shape a product's look and feel.\nRobot Behavior & UI/UX Bridge: Familiarity with how robot movement and behavior contribute to expressiveness, and comfort acting as the hardware bridge to a UI/UX team.\nCross Functional Collaboration: Experience partnering with Electrical and Mechanical teams to deliver integrated hardware.\nHuman-Robot Interaction Knowledge: Familiarity with HRI/HMI concepts such as expressive/multimodal interaction, gaze/attention, and emotion libraries.\nPrototyping Tools: Familiarity with CAD and 3D-print prototyping for rapid iteration on audio-visual hardware concepts.\nSoftware Tools: CAD (Solidworks/Fusion/NX), Python (or related programming language)\n \nWhat Will Set You Apart\n \nAdvanced Industrial Design: Experience owning industrial design end-to-end, including concept sketching, CMF systems, and prototyping, for consumer robotics or wearable hardware.\nUser Research: Experience running or supporting user studies on preferences, such as eye or face design options for expressive robots.\nAnimation & Expression: Experience with animation tools (Blender, Maya) or behavior/emotion libraries for expressive, character-driven robot design.\nFunctional Safety & Compliance: Familiarity with functional safety (SIL) and regulatory compliance (CE, FCC, UL) for audio-visual hardware.\nScaling: Experience taking audio-visual hardware from prototype to volume manufacturing with contract manufacturers (CM) and DFM/DFA practices.",
+      "requirements": "",
+      "full_description": "About Us\nField AI is transforming how robots interact with the real world. We are building risk-aware, reliable, and field-ready AI systems that address the most complex challenges in robotics, unlocking the full potential of embodied intelligence. We go beyond typical data-driven approaches or pure transformer-based architectures, and are charting a new course, with already-globally-deployed solutions delivering real-world results and rapidly improving models through real-field applications.\n \nHuman-Robot Interaction & Industrial Design Engineer \nIn this role you will develop hardware that shapes how our robotic systems look, feel, and sound. This spans audio and visual systems, industrial design, and robotic expressiveness and motion. Within audio and visual systems, you will select and integrate displays, speakers, and microphones. Within industrial design, you will work on form and CMF (color, material, finish). You will also help define robot motion and expressiveness. As part of the Hardware department this role will involve significant hands-on work bringing up and designing electromechanical elements. \nYou will coordinate with Product and UI/UX to identify what interactions and experiences are needed. Then work with Electrical, Mechanical, and Computing hardware personnel to implement them.  Solutions must balance performance, durability, manufacturability, and SWaP (size, weight, power) constraints across environments ranging from rugged industrial sites to commercial settings with the general public.\n \nWhat You Will Get To Do\n \n1. Form & Interaction\nForm & Aesthetics: Drive form, shape, and CMF (color/material/finish) decisions that define how the robot looks and feels.\nInteraction & Expressiveness: Shape how people see, hear, and interact with the robot across displays, audio, and movement, adapting choices for industrial versus commercial and public settings.\nCross-Team Collaboration: Partner with hardware groups such as Electrical, Mechanical, and Computing, and company-wide groups such as Product, UX, and Field Ops, since many parts are interrelated.\n2. Lighting & Visual Displays Systems\nDisplay & Lighting Selection: Drive selection and programming of screens (OLED, LCD, LED), LED strips, and multicolor lighting elements such as ambient lighting, and expressive displays, including novel concepts like projection interfaces.\nDurability & Readability: Ensure display and lighting durability (drop/impact resistance) and outdoor daylight readability across harsh field conditions.\nSWaP Tradeoffs: Own SWaP tradeoffs for all display and lighting components as they're integrated into the payload.\nFirmware & Validation: Write scripts to validate display boot-up, onboard compute connectivity, and correct rendering, catching crashes before field deployment.\n3. Audio Systems\nSpeaker & Microphone Selection: Select, spec, and program speakers and microphones for target use cases, balancing audio I/O needs with the robot's form factor.\nAcoustic Performance Evaluation: Evaluate loudness, voice pickup, and acoustic performance across environments to ensure clear two-way communication in the field.\nSWaP Tradeoffs: Balance size, weight, and power (SWaP) tradeoffs for audio components against other system constraints and payload budgets.\n \nWhat You Have\n \nEducation: B.S., M.S., or equivalent experience in Human-Robot Interaction, Electrical Engineering, Mechanical/Industrial Design, or a related field.\nExperience Level: Minimum of 3+ years of hands-on experience working on industrial/product design, audio-visual systems, or robotics. We welcome candidates across mid-level to senior and staff levels.\nAV Hardware Selection: Experience selecting and specifying speakers, microphones, displays (OLED/LCD/LED), and lighting elements for hardware products.\nSWaP & Systems Integration: Comfort balancing size, weight, and power tradeoffs across audio-visual and electromechanical system integration.\nFirmware & Validation: Experience writing scripts or tools to validate display boot-up, rendering, and connectivity, catching failures before field deployment.\nIndustrial Design Skillset: Experience with industrial design work, including form, shape, and CMF (color/material/finish) decisions, that shape a product's look and feel.\nRobot Behavior & UI/UX Bridge: Familiarity with how robot movement and behavior contribute to expressiveness, and comfort acting as the hardware bridge to a UI/UX team.\nCross Functional Collaboration: Experience partnering with Electrical and Mechanical teams to deliver integrated hardware.\nHuman-Robot Interaction Knowledge: Familiarity with HRI/HMI concepts such as expressive/multimodal interaction, gaze/attention, and emotion libraries.\nPrototyping Tools: Familiarity with CAD and 3D-print prototyping for rapid iteration on audio-visual hardware concepts.\nSoftware Tools: CAD (Solidworks/Fusion/NX), Python (or related programming language)\n \nWhat Will Set You Apart\n \nAdvanced Industrial Design: Experience owning industrial design end-to-end, including concept sketching, CMF systems, and prototyping, for consumer robotics or wearable hardware.\nUser Research: Experience running or supporting user studies on preferences, such as eye or face design options for expressive robots.\nAnimation & Expression: Experience with animation tools (Blender, Maya) or behavior/emotion libraries for expressive, character-driven robot design.\nFunctional Safety & Compliance: Familiarity with functional safety (SIL) and regulatory compliance (CE, FCC, UL) for audio-visual hardware.\nScaling: Experience taking audio-visual hardware from prototype to volume manufacturing with contract manufacturers (CM) and DFM/DFA practices."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4764,
+        "end": 4767,
+        "quote": "CAD",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O2",
+        "code": "SK_CAD",
+        "name": "CAD泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4864,
+        "end": 4867,
+        "quote": "CAD",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O3",
+        "code": "SK_SOLIDWORKS",
+        "name": "SolidWorks",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4869,
+        "end": 4879,
+        "quote": "Solidworks",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O4",
+        "code": "SK_NX",
+        "name": "Siemens NX",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4887,
+        "end": 4889,
+        "quote": "NX",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O5",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4892,
+        "end": 4898,
+        "quote": "Python",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O6",
+        "code": "SK_GENERIC_LANGUAGE",
+        "name": "编程语言泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4903,
+        "end": 4931,
+        "quote": "related programming language",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O7",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 296,
+        "end": 332,
+        "quote": "pure transformer-based architectures",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O8",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 91,
+        "end": 139,
+        "quote": "risk-aware, reliable, and field-ready AI systems",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O9",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1059,
+        "end": 1125,
+        "quote": "hands-on work bringing up and designing electromechanical elements",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O10",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 2405,
+        "end": 2532,
+        "quote": "Ensure display and lighting durability (drop/impact resistance) and outdoor daylight readability across harsh field conditions.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O11",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 2671,
+        "end": 2808,
+        "quote": "Write scripts to validate display boot-up, onboard compute connectivity, and correct rendering, catching crashes before field deployment.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O12",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 3020,
+        "end": 3149,
+        "quote": "Evaluate loudness, voice pickup, and acoustic performance across environments to ensure clear two-way communication in the field.",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O13",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3915,
+        "end": 3951,
+        "quote": "electromechanical system integration",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O14",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4015,
+        "end": 4068,
+        "quote": "validate display boot-up, rendering, and connectivity",
+        "method": "RECOVER_END_FROM_QUOTE"
+      },
+      {
+        "id": "O15",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 5473,
+        "end": 5496,
+        "quote": "functional safety (SIL)",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0772:1",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Human-Robot Interaction & Industrial Design Engineer ",
+        "quote": "Human-Robot Interaction & Industrial Design Engineer ",
+        "field": "full_description",
+        "start": 500,
+        "end": 553
+      },
+      {
+        "id": "2",
+        "review_id": "N0772:2",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "In this role you will develop hardware that shapes how our robotic systems look, feel, and sound. This spans audio and visual systems, industrial design, and robotic expressiveness and motion. Within audio and visual systems, you will select and integrate displays, speakers, and microphones. Within industrial design, you will work on form and CMF (color, material, finish). You will also help define robot motion and expressiveness. As part of the Hardware department this role will involve significant hands-on work bringing up and designing electromechanical elements. ",
+        "quote": "In this role you will develop hardware that shapes how our robotic systems look, feel, and sound. This spans audio and visual systems, industrial design, and robotic expressiveness and motion. Within audio and visual systems, you will select and integrate displays, speakers, and microphones. Within industrial design, you will work on form and CMF (color, material, finish). You will also help define robot motion and expressiveness. As part of the Hardware department this role will involve significant hands-on work bringing up and designing electromechanical elements. ",
+        "field": "full_description",
+        "start": 554,
+        "end": 1127
+      },
+      {
+        "id": "3",
+        "review_id": "N0772:3",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Form & Aesthetics: Drive form, shape, and CMF (color/material/finish) decisions that define how the robot looks and feels.",
+        "quote": "Form & Aesthetics: Drive form, shape, and CMF (color/material/finish) decisions that define how the robot looks and feels.",
+        "field": "full_description",
+        "start": 1586,
+        "end": 1708
+      },
+      {
+        "id": "4",
+        "review_id": "N0772:4",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Education: B.S., M.S., or equivalent experience in Human-Robot Interaction, Electrical Engineering, Mechanical/Industrial Design, or a related field.",
+        "quote": "Education: B.S., M.S., or equivalent experience in Human-Robot Interaction, Electrical Engineering, Mechanical/Industrial Design, or a related field.",
+        "field": "full_description",
+        "start": 3308,
+        "end": 3457
+      },
+      {
+        "id": "5",
+        "review_id": "N0772:5",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Industrial Design Skillset: Experience with industrial design work, including form, shape, and CMF (color/material/finish) decisions, that shape a product's look and feel.",
+        "quote": "Industrial Design Skillset: Experience with industrial design work, including form, shape, and CMF (color/material/finish) decisions, that shape a product's look and feel.",
+        "field": "full_description",
+        "start": 4113,
+        "end": 4284
+      },
+      {
+        "id": "6",
+        "review_id": "N0772:6",
+        "codes": [],
+        "names": [],
+        "surface": "Fusion",
+        "quote": "Fusion",
+        "field": "full_description",
+        "start": 4880,
+        "end": 4886
+      },
+      {
+        "id": "7",
+        "review_id": "N0772:7",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "Advanced Industrial Design: Experience owning industrial design end-to-end, including concept sketching, CMF systems, and prototyping, for consumer robotics or wearable hardware.",
+        "quote": "Advanced Industrial Design: Experience owning industrial design end-to-end, including concept sketching, CMF systems, and prototyping, for consumer robotics or wearable hardware.",
+        "field": "full_description",
+        "start": 4961,
+        "end": 5139
+      },
+      {
+        "id": "8",
+        "review_id": "N0772:8",
+        "codes": [
+          "V2_UX_RESEARCH"
+        ],
+        "names": [
+          "用户研究与体验设计方法"
+        ],
+        "surface": "User Research: Experience running or supporting user studies on preferences, such as eye or face design options for expressive robots.",
+        "quote": "User Research: Experience running or supporting user studies on preferences, such as eye or face design options for expressive robots.",
+        "field": "full_description",
+        "start": 5140,
+        "end": 5274
+      },
+      {
+        "id": "9",
+        "review_id": "N0772:9",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "Animation & Expression: Experience with animation tools (Blender, Maya) or behavior/emotion libraries for expressive, character-driven robot design.",
+        "quote": "Animation & Expression: Experience with animation tools (Blender, Maya) or behavior/emotion libraries for expressive, character-driven robot design.",
+        "field": "full_description",
+        "start": 5275,
+        "end": 5423
+      },
+      {
+        "id": "10",
+        "review_id": "N0772:10",
+        "codes": [
+          "V2_BLENDER"
+        ],
+        "names": [
+          "Blender"
+        ],
+        "surface": "Blender",
+        "quote": "Blender",
+        "field": "full_description",
+        "start": 5332,
+        "end": 5339
+      },
+      {
+        "id": "11",
+        "review_id": "N0772:11",
+        "codes": [],
+        "names": [],
+        "surface": "Maya",
+        "quote": "Maya",
+        "field": "full_description",
+        "start": 5341,
+        "end": 5345
+      },
+      {
+        "id": "12",
+        "review_id": "N0772:12",
+        "codes": [
+          "V2_SAFETY_ANALYSIS",
+          "V2_ENV_COMPLIANCE"
+        ],
+        "names": [
+          "功能安全分析与验证",
+          "产品法规与环境认证知识"
+        ],
+        "surface": "Functional Safety & Compliance: Familiarity with functional safety (SIL) and regulatory compliance (CE, FCC, UL) for audio-visual hardware.",
+        "quote": "Functional Safety & Compliance: Familiarity with functional safety (SIL) and regulatory compliance (CE, FCC, UL) for audio-visual hardware.",
+        "field": "full_description",
+        "start": 5424,
+        "end": 5563
+      },
+      {
+        "id": "13",
+        "review_id": "N0772:13",
+        "codes": [
+          "V2_SAFETY_ANALYSIS"
+        ],
+        "names": [
+          "功能安全分析与验证"
+        ],
+        "surface": "SIL",
+        "quote": "functional safety (SIL)",
+        "field": "full_description",
+        "start": 5473,
+        "end": 5496
+      },
+      {
+        "id": "14",
+        "review_id": "N0772:14",
+        "codes": [
+          "V2_ENV_COMPLIANCE"
+        ],
+        "names": [
+          "产品法规与环境认证知识"
+        ],
+        "surface": "CE",
+        "quote": "CE",
+        "field": "full_description",
+        "start": 5524,
+        "end": 5526
+      },
+      {
+        "id": "15",
+        "review_id": "N0772:15",
+        "codes": [
+          "V2_ENV_COMPLIANCE"
+        ],
+        "names": [
+          "产品法规与环境认证知识"
+        ],
+        "surface": "FCC",
+        "quote": "FCC",
+        "field": "full_description",
+        "start": 5528,
+        "end": 5531
+      },
+      {
+        "id": "16",
+        "review_id": "N0772:16",
+        "codes": [],
+        "names": [],
+        "surface": "UL",
+        "quote": "UL",
+        "field": "full_description",
+        "start": 5533,
+        "end": 5535
+      },
+      {
+        "id": "17",
+        "review_id": "N0772:17",
+        "codes": [
+          "V2_DFM"
+        ],
+        "names": [
+          "可制造与可装配设计"
+        ],
+        "surface": "Scaling: Experience taking audio-visual hardware from prototype to volume manufacturing with contract manufacturers (CM) and DFM/DFA practices.",
+        "quote": "Scaling: Experience taking audio-visual hardware from prototype to volume manufacturing with contract manufacturers (CM) and DFM/DFA practices.",
+        "field": "full_description",
+        "start": 5564,
+        "end": 5707
+      },
+      {
+        "id": "18",
+        "review_id": "N0772:18",
+        "codes": [
+          "V2_DFM"
+        ],
+        "names": [
+          "可制造与可装配设计"
+        ],
+        "surface": "DFM",
+        "quote": "DFM",
+        "field": "full_description",
+        "start": 5689,
+        "end": 5692
+      },
+      {
+        "id": "19",
+        "review_id": "N0772:19",
+        "codes": [
+          "V2_DFM"
+        ],
+        "names": [
+          "可制造与可装配设计"
+        ],
+        "surface": "DFA",
+        "quote": "DFA",
+        "field": "full_description",
+        "start": 5693,
+        "end": 5696
+      }
+    ]
+  },
+  {
+    "coding_order": 16,
+    "reading_id": "N0174",
+    "company_id": "CN_GALBOT",
+    "title": "工业设计师（高级/专家）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|d9274888-50c2-4036-b6e0-f9390dc33353|4134eb67b9503fbec333a90ccbe47783337dc4cdd12462e3cddbd3363c5dedf1",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1.行业信息洞察和前瞻趋势分析，能够独立完成市场研究、趋势分析与整理，并融合品牌、业务用于创新概念设计与实际产品开发；\n\n2.敢于创新，有产品观，全链路参与产品设计研发，对业务场景、交互体验、技术实现有一定了解。\n\n3.良好的纵向专业能力，负责参与产品定义，独立或与团队合作完成外观设计渲染和产品落地推进，对结构机械有一定了解， 精通CMF及量产环节；如：机器人、机械臂、底盘等。\n\n4.良好的横向沟通能力，负责与其他团队沟通、协调设计需求并提出解决方案；\n\n5.制定设计交付物的质量标准和规范，辅助团队共建设计语言体系。\n\n\n\n\n岗位要求：\n\n1、本科及以上学历，工业设计或其他相关专业，3年以上相关经验；\n\n2、有AI智能硬件/消费电子/汽车设计等相关设计经验，获得过IF、红点、Good Design、idea、汽车类设计奖项者优先；\n\n3、草图设计及建模、渲染能力优异，手段不限，如熟练运用主流参数化软件、主流非参数化软件、平面设计软件或AIGC等设计软件；\n\n4、精通工业设计流程，具备完整的从产品定义、创意设计方案到高质量设计交付的能力；\n\n5、有产品创新意识，思维活跃，趋势洞察力强，对产品理念、设计理念、量产工艺有独立思考力和把控力；\n\n6、有责任有担当，胆大心细，工作积极主动、配合意识强、较强的逻辑能力；\n\n7、有创业心态，乐观积极，学习力强，热爱机器人方向或有自己热衷的设计方向或独到的设计理念。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1.行业信息洞察和前瞻趋势分析，能够独立完成市场研究、趋势分析与整理，并融合品牌、业务用于创新概念设计与实际产品开发；\n\n2.敢于创新，有产品观，全链路参与产品设计研发，对业务场景、交互体验、技术实现有一定了解。\n\n3.良好的纵向专业能力，负责参与产品定义，独立或与团队合作完成外观设计渲染和产品落地推进，对结构机械有一定了解， 精通CMF及量产环节；如：机器人、机械臂、底盘等。\n\n4.良好的横向沟通能力，负责与其他团队沟通、协调设计需求并提出解决方案；\n\n5.制定设计交付物的质量标准和规范，辅助团队共建设计语言体系。\n\n\n\n\n岗位要求：\n\n1、本科及以上学历，工业设计或其他相关专业，3年以上相关经验；\n\n2、有AI智能硬件/消费电子/汽车设计等相关设计经验，获得过IF、红点、Good Design、idea、汽车类设计奖项者优先；\n\n3、草图设计及建模、渲染能力优异，手段不限，如熟练运用主流参数化软件、主流非参数化软件、平面设计软件或AIGC等设计软件；\n\n4、精通工业设计流程，具备完整的从产品定义、创意设计方案到高质量设计交付的能力；\n\n5、有产品创新意识，思维活跃，趋势洞察力强，对产品理念、设计理念、量产工艺有独立思考力和把控力；\n\n6、有责任有担当，胆大心细，工作积极主动、配合意识强、较强的逻辑能力；\n\n7、有创业心态，乐观积极，学习力强，热爱机器人方向或有自己热衷的设计方向或独到的设计理念。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_MECHANICAL",
+        "name": "机械结构",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 160,
+        "end": 170,
+        "quote": "对结构机械有一定了解",
+        "method": "RECOVER_END_FROM_QUOTE"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0174:1",
+        "codes": [
+          "V2_MARKETING"
+        ],
+        "names": [
+          "营销内容与传播"
+        ],
+        "surface": "1.行业信息洞察和前瞻趋势分析，能够独立完成市场研究、趋势分析与整理，并融合品牌、业务用于创新概念设计与实际产品开发；",
+        "quote": "1.行业信息洞察和前瞻趋势分析，能够独立完成市场研究、趋势分析与整理，并融合品牌、业务用于创新概念设计与实际产品开发；",
+        "field": "full_description",
+        "start": 7,
+        "end": 66
+      },
+      {
+        "id": "2",
+        "review_id": "N0174:2",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "3.良好的纵向专业能力，负责参与产品定义，独立或与团队合作完成外观设计渲染和产品落地推进，对结构机械有一定了解， 精通CMF及量产环节；如：机器人、机械臂、底盘等。",
+        "quote": "3.良好的纵向专业能力，负责参与产品定义，独立或与团队合作完成外观设计渲染和产品落地推进，对结构机械有一定了解， 精通CMF及量产环节；如：机器人、机械臂、底盘等。",
+        "field": "full_description",
+        "start": 115,
+        "end": 197
+      },
+      {
+        "id": "3",
+        "review_id": "N0174:3",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "CMF",
+        "quote": "精通CMF及量产环节",
+        "field": "full_description",
+        "start": 172,
+        "end": 182
+      },
+      {
+        "id": "4",
+        "review_id": "N0174:4",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "1、本科及以上学历，工业设计或其他相关专业，3年以上相关经验；",
+        "quote": "1、本科及以上学历，工业设计或其他相关专业，3年以上相关经验；",
+        "field": "full_description",
+        "start": 280,
+        "end": 311
+      },
+      {
+        "id": "5",
+        "review_id": "N0174:5",
+        "codes": [],
+        "names": [],
+        "surface": "AIGC",
+        "quote": "如熟练运用主流参数化软件、主流非参数化软件、平面设计软件或AIGC等设计软件",
+        "field": "full_description",
+        "start": 401,
+        "end": 439
+      },
+      {
+        "id": "6",
+        "review_id": "N0174:6",
+        "codes": [
+          "V2_CMF_DESIGN"
+        ],
+        "names": [
+          "工业外观与CMF"
+        ],
+        "surface": "4、精通工业设计流程，具备完整的从产品定义、创意设计方案到高质量设计交付的能力；",
+        "quote": "4、精通工业设计流程，具备完整的从产品定义、创意设计方案到高质量设计交付的能力；",
+        "field": "full_description",
+        "start": 442,
+        "end": 482
+      }
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "scripts": [
+    "current_u_consistency_review.py",
+    "verify_v4_overlay_independent.py",
+    "rebuild_company_comparisons.py",
+    "classification_breakdown.py",
+    "discordant_source_review.py",
+    "verify_paired_independent.py",
+    "verify_scope_independent.py",
+    "verify_paired_breakdown_independent.py",
+    "local_template_sensitivity.py",
+    "bare_parenthetical_review.py",
+    "verify_framework_independent.py",
+    "finalize_empirical_facts.py"
+  ],
+  "script_root": "Path(__file__).resolve().parents[2]",
+  "frozen_inputs": [
+    {
+      "relative_to_source_snapshot": "analysis/ad_technology_current.csv",
+      "bytes": 121715,
+      "sha256": "a515edcae1fc6aec9520feffbdcf3578483995376db4a735e4bb045b95337b37"
+    },
+    {
+      "relative_to_source_snapshot": "analysis/current_firm_pairs.csv",
+      "bytes": 12156,
+      "sha256": "d952f038bafaab0dbd8127acaea81f253ddab3cc774b0128b1bf82825ae383d1"
+    },
+    {
+      "relative_to_source_snapshot": "analysis/current_task_summary.csv",
+      "bytes": 2839,
+      "sha256": "f40721153e9e37c19325cdbcb1eac4a60b610291cf628c3ac2d38c5f12967689"
+    },
+    {
+      "relative_to_source_snapshot": "source_v2/analysis/diagnostic_comparison.csv",
+      "bytes": 62157,
+      "sha256": "3d0e4e7ee39293658802eb69249fc66a40dfa46efbb3b6e025cfab26898ef437"
+    },
+    {
+      "relative_to_source_snapshot": "data/sensitivity_policy.json",
+      "bytes": 2635,
+      "sha256": "221700ea4368ed529e60c38f606252cfac652e924fbf96aa76c8ad6f7a7be84a"
+    },
+    {
+      "relative_to_source_snapshot": "data/analysis_revision_ledger.json",
+      "bytes": 3677,
+      "sha256": "e6e43c2240465eb0d473a4b2b7cef54f492e1668823265a5a6d0471175563ad2"
+    },
+    {
+      "relative_to_source_snapshot": "source_v2/data/inputs/records.json",
+      "bytes": 3476357,
+      "sha256": "c3bf940e3cf39fabeea2d3ae25684577f8cd6fc1e71450b9a5a60a19ab743acb"
+    },
+    {
+      "relative_to_source_snapshot": "source_v2/data/inputs/context_evidence.csv",
+      "bytes": 1370142,
+      "sha256": "37a37d916bcc300eee841a3867403856ccc9cc256b0a5101bf7a538e9f58e649"
+    }
+  ],
+  "fixed_v4_inputs": [
+    {
+      "path": "data/v4_source_corrections.json",
+      "sha256": "e8f4930401c4bee4494bd2bdb922489828d56349d91e9818b148aaf6e796d515"
+    },
+    {
+      "path": "extensions/framework_control/data/source_review_annotations.json",
+      "sha256": "02c50b968e0968dc9482d829c061a46cbca8215a8913590b48006e7eb3a0814c"
+    }
+  ],
+  "archived_review_inputs": [
+    {
+      "path": "data/v4_source_corrections_phase4.json",
+      "sha256": "899cec45b3cbde294b212bcb8f08f62ea92fba9cf8ef546e3f67940c3a117a4e"
+    },
+    {
+      "path": "work/empirical/bare_parenthetical_correction_payload.json",
+      "sha256": "ccfedd1eec39fd7c55751127533c2ef9cd79dfb42bd89085f9f6212eb9980cc7"
+    },
+    {
+      "path": "work/empirical/history/final_empirical_facts_phase4.json",
+      "sha256": "e3068a516f32741c657fe064fcf9eb0a963d334835f7e3e10118c26b93c95842"
+    }
+  ],
+  "support_modules": [
+    "_phase4_review_frame.py"
+  ],
+  "runtime_dependencies": [
+    "Python standard library only"
+  ],
+  "generated_input_dependencies": [
+    "analysis/v4_ad_technology_current.csv",
+    "analysis/paired/paired_advertisements.csv",
+    "analysis/paired/paired_summary.csv",
+    "analysis/paired/leave_one_firm_out.csv",
+    "analysis/paired/semantic_reading_summaries.csv",
+    "analysis/paired/semantic_envelopes.csv",
+    "analysis/paired/qualification_scope_states.csv",
+    "analysis/paired/qualification_scope_contrasts.csv",
+    "analysis/paired/paired_breakdown_readings.csv",
+    "extensions/framework_control/outputs/tensorflow_states_105.csv",
+    "extensions/framework_control/outputs/paired_states_105.csv",
+    "extensions/framework_control/outputs/source_review_26.csv",
+    "extensions/framework_control/outputs/framework_contrasts.csv",
+    "extensions/framework_control/outputs/coupled_reading_diagnostic.csv"
+  ],
+  "notes": [
+    "All scripts require the packaged source_snapshot; no external v3 fallback.",
+    "Root apply_v4_overlay.py precedes consumers of v4_ad_technology_current.csv.",
+    "current_u_consistency_review.py preserves the frozen 46-U review frame and precedes verify_v4_overlay_independent.py.",
+    "rebuild_company_comparisons.py precedes classification_breakdown.py.",
+    "Root paired_analysis.py/qualification_scope.py/paired_breakdown.py must run before their respective verifiers and local_template_sensitivity.py.",
+    "Historical source-review frames are rebuilt from source_snapshot plus data/v4_source_corrections_phase4.json. The bare-parenthetical payload and archived phase4 facts are fixed review-provenance inputs under work/empirical.",
+    "finalize_empirical_facts.py runs last.",
+    "discordant_source_packet.json and current_u_review_packet.json are temporary reading packets, not runtime dependencies; exclude them from release.",
+    "No production analysis module is imported by independent verifiers."
+  ]
+}

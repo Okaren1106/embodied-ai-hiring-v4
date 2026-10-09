@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "arithmetic_feasibility_and_optimality_checks": 22656,
+  "scenario_rows": 2304,
+  "primary_robot_model": [
+    {
+      "task": "ROBOT_MODEL",
+      "subset": "all_ads",
+      "weighting": "ad_equal",
+      "margin_pp": "13.333333333333334",
+      "minimum_pair_state_edits": "14",
+      "minimum_advertisements_edited": "7"
+    },
+    {
+      "task": "ROBOT_MODEL",
+      "subset": "all_ads",
+      "weighting": "firm_equal",
+      "margin_pp": "14.632034632034632",
+      "minimum_pair_state_edits": "4",
+      "minimum_advertisements_edited": "4"
+    },
+    {
+      "task": "ROBOT_MODEL",
+      "subset": "all_ads",
+      "weighting": "firm_template_equal",
+      "margin_pp": "14.594474153297682",
+      "minimum_pair_state_edits": "4",
+      "minimum_advertisements_edited": "4"
+    },
+    {
+      "task": "ROBOT_MODEL",
+      "subset": "both_mentioned",
+      "weighting": "ad_equal",
+      "margin_pp": "21.21212121212121",
+      "minimum_pair_state_edits": "14",
+      "minimum_advertisements_edited": "7"
+    },
+    {
+      "task": "ROBOT_MODEL",
+      "subset": "both_mentioned",
+      "weighting": "firm_equal",
+      "margin_pp": "17.037037037037038",
+      "minimum_pair_state_edits": "4",
+      "minimum_advertisements_edited": "3"
+    },
+    {
+      "task": "ROBOT_MODEL",
+      "subset": "both_mentioned",
+      "weighting": "firm_template_equal",
+      "margin_pp": "17.235449735449734",
+      "minimum_pair_state_edits": "4",
+      "minimum_advertisements_edited": "3"
+    }
+  ],
+  "interpretation": "Minimum corrections to lose the original strict direction; a discrete correction may cross past zero rather than make the interval include zero.",
+  "independent_human_source_validation": false,
+  "advertisement_cost_assumption": "An edited advertisement may change both resolved target Q states without additional ad cost.",
+  "scope": "M, U membership, sample and weights fixed within each reading. No estimated error probability."
+}

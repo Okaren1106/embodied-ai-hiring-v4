@@ -1,0 +1,1331 @@
+{
+  "catalog_version": "Q2-v2.1",
+  "coding_version": "grok4.6-Q2-v2.1-first-pass",
+  "reader": "grok4.6",
+  "contributors": [
+    "grok4.6"
+  ],
+  "queue_sha256": "8815c0e72e571ac260f9a7ff1feb374fb21dab4613dd01ef5b22a32077a134d4",
+  "ads": {
+    "N0698": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_DEMONSTRATION",
+      "fine_task": "TELEOP_PIT",
+      "secondary_task": "",
+      "task_evidence": "Follow established procedures for teleoperation and data collection",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:$20 USD is not Universal Scene Description."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "遥操采集。薪资USD剔除。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5162957008|b3d1b8c7499b7e8ecf175a0c229281f4581337b222b9648cb41af7a3eb57d827",
+      "company_id": "US_SKILD",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1226,
+        "end": 1293,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Follow established procedures for teleoperation and data collection"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "b3d1b8c7499b7e8ecf175a0c229281f4581337b222b9648cb41af7a3eb57d827",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.256034+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0863": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CUSTOMER_OPERATION",
+      "fine_task": "MECH_PILOT",
+      "secondary_task": "",
+      "task_evidence": "you will be the primary engineer to operate our product at the customer site",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "REJECT:English can is not Controller Area Network.",
+        "3": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:they can travel is not CAN.",
+        "5": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_JIRA",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ZENDESK",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0863:8",
+        "10": "DUPLICATE:N0863:8",
+        "11": [
+          [
+            "V2_GRAFANA",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_FOXGLOVE",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_KIBANA",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "12": "DUPLICATE:N0863:11",
+        "13": "DUPLICATE:N0863:11",
+        "14": "DUPLICATE:N0863:11",
+        "15": "OUTSIDE:ArgoCD未单列冻结项。",
+        "16": [
+          [
+            "V2_ETHERCAT",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "17": "DUPLICATE:N0863:16",
+        "18": "OUTSIDE:Beckhoff未单列冻结项。",
+        "19": "OUTSIDE:Elmo未单列冻结项。",
+        "20": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "客户现场操作。排障/Jira/Zendesk/观测/EtherCAT/标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|8af40fe0-e801-4a87-8a81-35c54fdc18f2|5ab855a8a680e326e023c7309b8a39e1313cfe747e294fd786753915d626fc25",
+      "company_id": "US_DEXTERITY",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 20,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1242,
+        "end": 1318,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "you will be the primary engineer to operate our product at the customer site"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "5ab855a8a680e326e023c7309b8a39e1313cfe747e294fd786753915d626fc25",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.257035+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0505": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CUSTOMER_OPERATION",
+      "fine_task": "HUMANOID_OP",
+      "secondary_task": "",
+      "task_evidence": "Be responsible for the humanoid robot operating successfully for the Customer use case",
+      "new": {
+        "1": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:Can stand is not Controller Area Network.",
+        "6": "DUPLICATE:E0505:2"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "人形现场操作。Jira/遥操/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4406268006|fc01a120196f9b0472f9b0158966772fca8ad09beb89b4ac3f4beac84ff7eb24",
+      "company_id": "US_FIGURE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 86,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Be responsible for the humanoid robot operating successfully for the Customer use case"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "fc01a120196f9b0472f9b0158966772fca8ad09beb89b4ac3f4beac84ff7eb24",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.257035+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0580": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_DEMONSTRATION",
+      "fine_task": "ARM_TELEOP",
+      "secondary_task": "",
+      "task_evidence": "Teleoperate robotic arms through a variety of tasks using our intuitive control systems",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:basic office tasks不是Microsoft Office。",
+        "4": "REJECT:You'll be part不是CAN。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "手臂遥操采集。办公事务不记Office。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|eb3ed968-630f-429a-9e44-5508b77d554b|655517eba9adb15957421c98eb2f063aaafdb7aa8fecf0c64a75de73959ea194",
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 28,
+        "end": 115,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Teleoperate robotic arms through a variety of tasks using our intuitive control systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "655517eba9adb15957421c98eb2f063aaafdb7aa8fecf0c64a75de73959ea194",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.258034+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0892": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HOSPITAL_OPERATION",
+      "fine_task": "CLINICAL",
+      "secondary_task": "",
+      "task_evidence": "Clinical Robot Associate - Part Time",
+      "new": {
+        "1": [
+          [
+            "V2_CUSTOMER_SERVICE",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CUSTOMER_SERVICE",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:you can juggle is not CAN.",
+        "5": "REJECT:you can make decisions is not CAN.",
+        "6": "REJECT:neither can our robots is not CAN.",
+        "7": "REJECT:you can strike up is not CAN."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "医院机器人服务。客户服务/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DILIGENT|greenhouse|7734735003|ae1306751a27b30d4bee42f853e3343fa801b316b408fc1451919081d3c58c41",
+      "company_id": "US_DILIGENT",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 1,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 36,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Clinical Robot Associate - Part Time"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "ae1306751a27b30d4bee42f853e3343fa801b316b408fc1451919081d3c58c41",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.258034+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0914": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "FULFILMENT_OPERATION",
+      "fine_task": "SUPPORT",
+      "secondary_task": "",
+      "task_evidence": "Perform basic physical and digital triage to safely clear error states, recover stalled robots",
+      "new": {
+        "1": "REJECT:Series C funding is not the C language.",
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_RCA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0914:3",
+        "5": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_GOOGLE_WORKSPACE",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "DUPLICATE:N0914:6",
+        "8": [
+          [
+            "V2_SAFETY_OPERATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "DUPLICATE:N0914:8"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "履单支持。排障/RCA/Google/OSHA保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4385284009|39b8f883f09f8557501a3bcaedcb8518adedf713818ff030fc9057e00fd3cc04",
+      "company_id": "US_NIMBLE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3147,
+        "end": 3241,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Perform basic physical and digital triage to safely clear error states, recover stalled robots"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "39b8f883f09f8557501a3bcaedcb8518adedf713818ff030fc9057e00fd3cc04",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.259035+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0696": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_DEMONSTRATION",
+      "fine_task": "TELEOP",
+      "secondary_task": "",
+      "task_evidence": "Follow established procedures for teleoperation and data collection",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:$30 USD is not Universal Scene Description."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "遥操采集。薪资USD剔除。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4782103008|dec981e9f4954988b6f0abcb9e3bcc62225fb56ac3fbc9e1a53d8d5e1127a754",
+      "company_id": "US_SKILD",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 4,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1192,
+        "end": 1259,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Follow established procedures for teleoperation and data collection"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "dec981e9f4954988b6f0abcb9e3bcc62225fb56ac3fbc9e1a53d8d5e1127a754",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.259035+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0866": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CUSTOMER_OPERATION",
+      "fine_task": "FIELD_ENG",
+      "secondary_task": "",
+      "task_evidence": "you will be the primary engineer to operate our product at the customer site",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "REJECT:English can is not Controller Area Network.",
+        "3": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_JIRA",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ZENDESK",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "8": "DUPLICATE:N0866:7",
+        "9": "DUPLICATE:N0866:7",
+        "10": [
+          [
+            "V2_GRAFANA",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_FOXGLOVE",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_KIBANA",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "11": "DUPLICATE:N0866:10",
+        "12": "DUPLICATE:N0866:10",
+        "13": "DUPLICATE:N0866:10",
+        "14": "OUTSIDE:ArgoCD未单列冻结项。",
+        "15": [
+          [
+            "V2_ETHERCAT",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "16": "DUPLICATE:N0866:15",
+        "17": "OUTSIDE:Beckhoff未单列冻结项。",
+        "18": "OUTSIDE:Elmo未单列冻结项。",
+        "19": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "现场工程师。排障/工具/EtherCAT/标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|fa93eb17-30a6-444e-b8de-2fe2a9e288bf|846094a8a6558dc6b0236eb6a3a3799544661da0a15183a1f18c9e29e9fef5dd",
+      "company_id": "US_DEXTERITY",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 19,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1242,
+        "end": 1318,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "you will be the primary engineer to operate our product at the customer site"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "846094a8a6558dc6b0236eb6a3a3799544661da0a15183a1f18c9e29e9fef5dd",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.259035+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0499": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_DEMONSTRATION",
+      "fine_task": "HELIX_PT",
+      "secondary_task": "",
+      "task_evidence": "seguir à risca, sem desvios, os protocolos detalhados de movimento",
+      "new": {
+        "1": "REJECT:Ground Truth动作协议不是营销传播。",
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_MOCAP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Helix采集。排障/动捕保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4708450006|3dd4daf514f62a201c0c9e0e6445dcb10b907d9313296532b0e8a4cc3867bef8",
+      "company_id": "US_FIGURE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1432,
+        "end": 1498,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "seguir à risca, sem desvios, os protocolos detalhados de movimento"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "3dd4daf514f62a201c0c9e0e6445dcb10b907d9313296532b0e8a4cc3867bef8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.260035+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0887": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HOSPITAL_OPERATION",
+      "fine_task": "LEAD_CLINICAL",
+      "secondary_task": "",
+      "task_evidence": "overseeing operations at Rochester General and Rochester Unity Hospitals",
+      "new": {
+        "1": "REJECT:Rochester Unity Hospitals不是Unity引擎。",
+        "2": [
+          [
+            "V2_CUSTOMER_SERVICE",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CUSTOMER_SERVICE",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:you can juggle is not CAN.",
+        "6": "REJECT:you can make decisions is not CAN.",
+        "7": "REJECT:neither can our robots is not CAN.",
+        "8": "REJECT:you can strike up is not CAN."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "医院领班。客户服务/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DILIGENT|greenhouse|7796264003|60ef9b0308d256b54afb80fb52cd1bd104a130a7723d921533d5d7b5a1054538",
+      "company_id": "US_DILIGENT",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 1,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1024,
+        "end": 1096,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "overseeing operations at Rochester General and Rochester Unity Hospitals"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "60ef9b0308d256b54afb80fb52cd1bd104a130a7723d921533d5d7b5a1054538",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.260035+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0697": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_DEMONSTRATION",
+      "fine_task": "TELEOP_IN",
+      "secondary_task": "",
+      "task_evidence": "Follow established procedures for teleoperation and data collection",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "印度遥操采集。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|4910792008|b420829eeb2d99f5b2666d635a19f3c90f00cd91598dcedbfe4bcc41fe9492a5",
+      "company_id": "US_SKILD",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1192,
+        "end": 1259,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Follow established procedures for teleoperation and data collection"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "b420829eeb2d99f5b2666d635a19f3c90f00cd91598dcedbfe4bcc41fe9492a5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.260035+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0501": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CUSTOMER_OPERATION",
+      "fine_task": "LAUNCH_OP",
+      "secondary_task": "",
+      "task_evidence": "Ensure successful operations of the robot in the field or on customer sites",
+      "new": {
+        "1": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:Can stand is not Controller Area Network.",
+        "5": "DUPLICATE:E0501:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "商业投放操作。Jira/遥操/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4665205006|fba8d2c0a84f082037adc6bc1ddf3bf2d9f28960ae2538fdaf81b24119074eef",
+      "company_id": "US_FIGURE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 75,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Ensure successful operations of the robot in the field or on customer sites"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "fba8d2c0a84f082037adc6bc1ddf3bf2d9f28960ae2538fdaf81b24119074eef",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.261033+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0894": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HOSPITAL_OPERATION",
+      "fine_task": "SUPPORT",
+      "secondary_task": "",
+      "task_evidence": "Monitoring a fleet of mobile service robots and providing live support",
+      "new": {
+        "1": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:you can quickly learn is not CAN.",
+        "3": "REJECT:you can juggle is not CAN.",
+        "4": "REJECT:you can make data-driven decisions is not CAN.",
+        "5": [
+          [
+            "V2_SAFETY_OPERATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N0894:5",
+        "7": "REJECT:neither can our robots is not CAN."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "医院技术支持。排障/疫苗HIPAA安全操作保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DILIGENT|greenhouse|7822154003|9704f903eaf54c696e8016a443c85e742919020b956e57c60fcee1fc493e30b1",
+      "company_id": "US_DILIGENT",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1119,
+        "end": 1189,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Monitoring a fleet of mobile service robots and providing live support"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "9704f903eaf54c696e8016a443c85e742919020b956e57c60fcee1fc493e30b1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.261033+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0504": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MIXED_DATA_CUSTOMER",
+      "fine_task": "SITE_DATA",
+      "secondary_task": "",
+      "task_evidence": "Wear sensor equipment to collect high-quality motion data used to train AI models",
+      "new": {
+        "1": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Can stand is not Controller Area Network.",
+        "4": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:E0504:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "客户现场操作兼采集。Jira/遥操/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4700899006|edb7f2661554f2047badb73d65c8ff788afaac4a33395954ed18b45af5ac4724",
+      "company_id": "US_FIGURE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 77,
+        "end": 158,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Wear sensor equipment to collect high-quality motion data used to train AI models"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "edb7f2661554f2047badb73d65c8ff788afaac4a33395954ed18b45af5ac4724",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.262075+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0891": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "HOSPITAL_OPERATION",
+      "fine_task": "CLINICAL",
+      "secondary_task": "",
+      "task_evidence": "Clinical Robot Associate - Part Time",
+      "new": {
+        "1": [
+          [
+            "V2_CUSTOMER_SERVICE",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CUSTOMER_SERVICE",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:you can juggle is not CAN.",
+        "5": "REJECT:you can make decisions is not CAN.",
+        "6": "REJECT:neither can our robots is not CAN.",
+        "7": "REJECT:you can strike up is not CAN."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "医院机器人服务。客户服务/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DILIGENT|greenhouse|7854828003|ffeaa7644a61a9a964e615d9db872c6ac0c6a42ebebaef448ef9f13b180dd891",
+      "company_id": "US_DILIGENT",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 1,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 36,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Clinical Robot Associate - Part Time"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "ffeaa7644a61a9a964e615d9db872c6ac0c6a42ebebaef448ef9f13b180dd891",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.262075+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0506": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CUSTOMER_OPERATION",
+      "fine_task": "NIGHT_OP",
+      "secondary_task": "",
+      "task_evidence": "Be responsible for the humanoid robot operating successfully for the Customer use case",
+      "new": {
+        "1": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:Can stand is not Controller Area Network.",
+        "6": "DUPLICATE:E0506:2"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "夜班操作。Jira/遥操/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4644962006|68390486b65b6b4869bb82b57e9e5538a3cdffdd9fba0da6c7c2155206d47250",
+      "company_id": "US_FIGURE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 86,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Be responsible for the humanoid robot operating successfully for the Customer use case"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "68390486b65b6b4869bb82b57e9e5538a3cdffdd9fba0da6c7c2155206d47250",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.262075+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0503": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CUSTOMER_OPERATION",
+      "fine_task": "LA_SITE",
+      "secondary_task": "",
+      "task_evidence": "Ensure successful operations of the robot in the field or on customer sites",
+      "new": {
+        "1": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:Can stand is not Controller Area Network.",
+        "5": "DUPLICATE:E0503:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "洛杉矶现场操作。Jira/遥操/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4698238006|059598924bd56fc67afd58aff5c62a2360b8342f6e639e1d1ea4b5a8cabc9dc4",
+      "company_id": "US_FIGURE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 75,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Ensure successful operations of the robot in the field or on customer sites"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "059598924bd56fc67afd58aff5c62a2360b8342f6e639e1d1ea4b5a8cabc9dc4",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.263075+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0497": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_DEMONSTRATION",
+      "fine_task": "HELIX",
+      "secondary_task": "",
+      "task_evidence": "Wear sensor suits to perform repetitive, precise physical movements",
+      "new": {
+        "1": [
+          [
+            "V2_SOP_OPERATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Helix采集。SOP/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4585080006|42366627f587b0e8a9687158fe53283aa270f3f16d8d95909e464dd6c5f2e89e",
+      "company_id": "US_FIGURE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 17,
+        "end": 84,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Wear sensor suits to perform repetitive, precise physical movements"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "42366627f587b0e8a9687158fe53283aa270f3f16d8d95909e464dd6c5f2e89e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.263075+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0500": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CUSTOMER_OPERATION",
+      "fine_task": "SWING_OP",
+      "secondary_task": "",
+      "task_evidence": "Be responsible for the humanoid robot operating successfully for the Customer use case",
+      "new": {
+        "1": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:Can stand is not Controller Area Network.",
+        "6": "DUPLICATE:E0500:2"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "下午班操作。Jira/遥操/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4644956006|0ccebf6c4659a381c713d1ea4ead12e53d9ef6dda6e699d21620bbd78d206f97",
+      "company_id": "US_FIGURE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 86,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Be responsible for the humanoid robot operating successfully for the Customer use case"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "0ccebf6c4659a381c713d1ea4ead12e53d9ef6dda6e699d21620bbd78d206f97",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.263075+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0498": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_DEMONSTRATION",
+      "fine_task": "HELIX",
+      "secondary_task": "",
+      "task_evidence": "Wear sensor equipment to guide the robot through human-like motions",
+      "new": {
+        "1": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Helix采集。排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4627111006|862fbe7e9c587a10c51835e50a8a50e1ec4436164b2d1d7fe4d2402e72fe358b",
+      "company_id": "US_FIGURE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 67,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Wear sensor equipment to guide the robot through human-like motions"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "862fbe7e9c587a10c51835e50a8a50e1ec4436164b2d1d7fe4d2402e72fe358b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.264075+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0507": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_DEMONSTRATION",
+      "fine_task": "PILOT",
+      "secondary_task": "",
+      "task_evidence": "Wear teleoperation equipment and guide the robot through designated behaviors",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Can stand is not Controller Area Network.",
+        "4": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "人形遥操飞行员。遥操/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4369739006|804c0050fab9b4da469a150302044dad608b4d71aaf63d9b56cdcce18589b819",
+      "company_id": "US_FIGURE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 77,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Wear teleoperation equipment and guide the robot through designated behaviors"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "804c0050fab9b4da469a150302044dad608b4d71aaf63d9b56cdcce18589b819",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.264075+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0502": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CUSTOMER_OPERATION",
+      "fine_task": "SITE_OP",
+      "secondary_task": "",
+      "task_evidence": "Ensure successful operations of the robot in the field or on customer sites",
+      "new": {
+        "1": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:Can stand is not Controller Area Network.",
+        "5": "DUPLICATE:E0502:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "客户现场操作。Jira/遥操/排障保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4674402006|6e9c5481244f9f0f44ba6a1f3f59d730a73657393c11219996538a69f7bcf701",
+      "company_id": "US_FIGURE",
+      "role": "RF_ROBOT_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 75,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Ensure successful operations of the robot in the field or on customer sites"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "6e9c5481244f9f0f44ba6a1f3f59d730a73657393c11219996538a69f7bcf701",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T14:08:03.264682+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    }
+  }
+}

@@ -1,0 +1,235 @@
+"""First-pass adjudication for commercial coding_order 17-32. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+def M(n, extra, duty='DUTY_OWN_USE'):
+ d={str(i):[["V2_MARKETING",duty,"UNCONDITIONAL"]] for i in range(1,n+1)}
+ d.update(extra)
+ return d
+decisions={
+"N0870":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"ENTERPRISE_SALES","secondary_task":"",
+ "task_evidence":"Lead complex, consultative enterprise sales cycles from opportunity development through contract negotiation and close.",
+ "new":{
+  "1":[["V2_WORLD_MODEL","SEPARATE","BACKGROUND"]],
+  "2":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_MARKETING","DUTY_OWN_USE","COLLABORATION_OBJECT"]],
+  "6":[["V2_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "7":"DUPLICATE:N0870:6",
+  "8":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "9":[["V2_SALES_CRM","GENERAL","CHOICE"],["V2_MARKETING","GENERAL","CHOICE"]],
+  "10":"DUPLICATE:N0870:9",
+  "11":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "12":R+"招聘AI声明不是人力资源专业职责。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"企业销售。世界模型为产品背景。合同谈判记法律。"
+},
+"E0574":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"CUSTOMER_SUCCESS","fine_task":"USER_SUPPORT","secondary_task":"",
+ "task_evidence":"Own the full user support function: strategy, day-to-day operations, tooling, and quality",
+ "new":{
+  "1":R+"英语can不是CAN总线协议。",
+  "2":[["V2_AGENT_WORKFLOW","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_INCIDENT_SUPPORT","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_INCIDENT_SUPPORT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_ZENDESK","GENERAL","CHOICE"]],
+  "6":[["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "7":[["V2_JIRA","GENERAL","CHOICE"],["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "8":"DUPLICATE:E0574:5"
+ },
+ "old_overrides":{
+  "O3":{"metric":"DUTY_OWN_USE","branch":"UNCONDITIONAL","relation":"OWN_USE","reason":"原QA短词定位为空，改为用户支持质量职责句。","quote":"Own the full user support function: strategy, day-to-day operations, tooling, and quality"}
+ },
+ "additions":[],"outside_extra":[],
+ "notes":"用户支持负责人。Sierra/Intercom目录外。Zendesk保留。"
+},
+"N0616":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"REGIONAL_GOV","secondary_task":"",
+ "task_evidence":"统筹厦门及福建省内商机挖掘、线索跟进与项目协同",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"厦门政企商务。无新候选。"
+},
+"N0207":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"OVERSEAS_CHANNEL","secondary_task":"",
+ "task_evidence":"负责目标海外区域（如欧洲、北美、日韩、东南亚等）的渠道策略制定与落地，开拓并管理区域代理商、系统集成商、机器人分销商及战略合作伙伴。",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"海外渠道销售。"
+},
+"N0427":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"BRAND_EVENTS","secondary_task":"",
+ "task_evidence":"您将全面负责公司品牌活动的策划与执行，统筹大型展会出展策略",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "6":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "7":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"],["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "8":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "9":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "10":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "11":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "12":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "13":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "14":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "15":[["V2_MARKETING","SEPARATE","BACKGROUND"]],
+  "16":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"品牌营销经理。供应商协调记采购。"
+},
+"N0403":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"CMO_GTM","secondary_task":"STRATEGY",
+ "task_evidence":"负责行业解决方案的规划和GTM，包括但不限于文娱、政府、工业、运营商、能源等行业",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"CMO。GTM与销售协同。"
+},
+"N0398":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ECOSYSTEM","fine_task":"CLOUD_PRODUCT_OPS","secondary_task":"",
+ "task_evidence":"负责平台使用手册及帮助中心的编写与维护，持续完善功能文档、FAQ及操作指南。",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"云平台产品运营。无新候选。"
+},
+"N0377":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"PR_BP","secondary_task":"",
+ "task_evidence":"负责AIMA相关技术、产品、平台及生态进展的日常传播策划，包括新闻稿、公众号文章、媒体选题、采访材料、技术解读等内容。",
+ "new":{str(i):[["V2_MARKETING","DUTY_OWN_USE" if i<=8 else "GENERAL","UNCONDITIONAL"]] for i in range(1,14)},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"品牌公关BP。学历项记一般要求。"
+},
+"N0375":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"EXHIBIT_CONTENT","secondary_task":"",
+ "task_evidence":"负责公司展厅的展示内容策划与物料输出，涵盖演示PPT、展示Demo、讲解话术、宣传物料等全套内容。",
+ "new":{"1":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]]},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"展厅内容营销。"
+},
+"N0365":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"OVERSEAS_TECH_COMMS","secondary_task":"ECOSYSTEM",
+ "task_evidence":"将基座模型、世界模型、真机强化学习、仿真评测等技术成果转化为符合海外语境的英文传播内容",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_WORLD_MODEL","SEPARATE","BACKGROUND"]],
+  "2":"DUPLICATE:N0365:1",
+  "3":O+"X未单列冻结项。","4":O+"LinkedIn未单列冻结项。","5":O+"YouTube未单列冻结项。","6":O+"Reddit未单列冻结项。","7":O+"Discord未单列冻结项。",
+  "8":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"],["V2_HUGGINGFACE","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "9":R+"GitHub开源传播不是Git协作。",
+  "10":"DUPLICATE:N0365:8",
+  "11":"DUPLICATE:N0365:8",
+  "12":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "13":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "14":[["V2_HUGGINGFACE","GENERAL","UNCONDITIONAL"]],
+  "15":[["V2_WORLD_MODEL","GENERAL","UNCONDITIONAL"]],
+  "16":"DUPLICATE:N0365:15"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"海外技术传播。GitHub不记Git。世界模型为传播对象。"
+},
+"N0362":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"PR","secondary_task":"",
+ "task_evidence":"负责机构及核心被投企业重要节点的对外通稿分发、专访策划与选题植入",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","SEPARATE","BACKGROUND"]],
+  "5":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"公关专家。"
+},
+"N0361":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"HK_COMMS","secondary_task":"",
+ "task_evidence":"建立、維護及深化香港本地媒體關係，尤其是財經、商業及主流新聞媒體",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"香港公关传讯。"
+},
+"N0210":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"PRODUCT_MARKETING","secondary_task":"SALES",
+ "task_evidence":"为我们领先的具身机器人产品线制定市场策略，包括定位、定价、推广计划，推动产品商业成功。",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"产品营销经理。"
+},
+"N0189":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"SALES_MANAGER","secondary_task":"",
+ "task_evidence":"执行销售策略，独立负责客户开发、维护与业绩达成。",
+ "new":{"1":[["V2_SALES_CRM","DUTY_OWN_USE","UNCONDITIONAL"]]},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"销售经理。"
+},
+"N0231":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"SALES","fine_task":"RESEARCH_SALES","secondary_task":"",
+ "task_evidence":"了解科研、教育行业需求与趋势，制定并执行销售战略，进行竞争分析挖掘机会与潜在客户伙伴。",
+ "new":{
+  "1":[["V2_SALES_CRM","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","SEPARATE","BACKGROUND"]],
+  "3":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_SALES_CRM","GENERAL","UNCONDITIONAL"],["V2_CUSTOMER_SERVICE","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"大科研销售总监。专业背景记营销背景。"
+},
+"N0212":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"MARKETING","fine_task":"PR","secondary_task":"",
+ "task_evidence":"制定并执行公司整体PR策略，提升品牌在智能机器人领域的知名度与美誉度。",
+ "new":{
+  "1":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_MARKETING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_MARKETING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "6":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]],
+  "7":[["V2_MARKETING","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"媒体公关专家。"
+}
+}
+# fix N0377 last items to GENERAL
+decisions["N0377"]["new"]["9"]=[["V2_MARKETING","SEPARATE","BACKGROUND"]]
+decisions["N0377"]["new"]["10"]=[["V2_MARKETING","GENERAL","UNCONDITIONAL"]]
+decisions["N0377"]["new"]["11"]=[["V2_MARKETING","GENERAL","UNCONDITIONAL"]]
+decisions["N0377"]["new"]["12"]=[["V2_MARKETING","GENERAL","UNCONDITIONAL"]]
+decisions["N0377"]["new"]["13"]=[["V2_MARKETING","PREFERRED","UNCONDITIONAL"]]
+if __name__=='__main__':
+ register('RF_COMMERCIAL_CUSTOMER', decisions, reader='grok4.6')

@@ -1,0 +1,544 @@
+{
+  "isolated_directory": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\analysis_E_english_v4_0\\verification\\v4-isolated-nxvv65v3",
+  "exit_code": 0,
+  "stdout": "PASS apply_v4_overlay.py\nPASS empirical/current_u_consistency_review.py\nPASS empirical/bare_parenthetical_review.py\nPASS empirical/verify_v4_overlay_independent.py\nPASS paired_analysis.py\nPASS paired_context.py\nPASS qualification_scope.py\nPASS paired_breakdown.py\nPASS empirical/rebuild_company_comparisons.py\nPASS empirical/classification_breakdown.py\nPASS empirical/discordant_source_review.py\nPASS empirical/local_template_sensitivity.py\nPASS empirical/verify_paired_independent.py\nPASS empirical/verify_scope_independent.py\nPASS empirical/verify_paired_breakdown_independent.py\nPASS literature_validation/review_example_increments.py\nPASS literature_validation/admission_rule_diagnostics.py\nPASS extensions/framework_control/scripts/run_framework_control.py\nPASS empirical/verify_framework_independent.py\nPASS empirical/finalize_empirical_facts.py\nPASS frozen source snapshot unchanged; all numerical workflows finished.\n",
+  "stderr": "",
+  "comparisons": [
+    {
+      "path": "analysis/empirical/admissible_comparison_envelopes.csv",
+      "expected": "213b001024e6f7f7a70e861fe135260170612695906eff173b43c8205b708312",
+      "actual": "213b001024e6f7f7a70e861fe135260170612695906eff173b43c8205b708312",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/admissible_reading_company_keys.csv",
+      "expected": "779d6f5269872ab50c6500d233822385335ee8302233025b5b5996ddbb8d4ba3",
+      "actual": "779d6f5269872ab50c6500d233822385335ee8302233025b5b5996ddbb8d4ba3",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/admissible_reading_pair_summary.csv",
+      "expected": "f33284cba4ba99fbf5e3b223e62f9528fd02a19ac1f3966f26639dc8b1322c0a",
+      "actual": "f33284cba4ba99fbf5e3b223e62f9528fd02a19ac1f3966f26639dc8b1322c0a",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/admissible_reading_pairs.csv",
+      "expected": "e5ab5b3f4b40f0754540eba6529b6bf95392ddb18e192d8b8ae8784dd4ef7f2e",
+      "actual": "e5ab5b3f4b40f0754540eba6529b6bf95392ddb18e192d8b8ae8784dd4ef7f2e",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/bare_parenthetical_all_field_occurrences.csv",
+      "expected": "8c69cb7bab845552706472dc4ced5a58187a23dc68adc368249d8ae47998a3e5",
+      "actual": "8c69cb7bab845552706472dc4ced5a58187a23dc68adc368249d8ae47998a3e5",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/bare_parenthetical_checks.json",
+      "expected": "872c545a0fa4e363b6764f24ceb275c69adf5ab490489f9efe9b36d5899cadf1",
+      "actual": "872c545a0fa4e363b6764f24ceb275c69adf5ab490489f9efe9b36d5899cadf1",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/bare_parenthetical_correction_payload.json",
+      "expected": "ccfedd1eec39fd7c55751127533c2ef9cd79dfb42bd89085f9f6212eb9980cc7",
+      "actual": "ccfedd1eec39fd7c55751127533c2ef9cd79dfb42bd89085f9f6212eb9980cc7",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/bare_parenthetical_review_frame.csv",
+      "expected": "bbb3f2292903357cff31eaaf0a888c4520c699ce8c9e000170716a628fa62287",
+      "actual": "bbb3f2292903357cff31eaaf0a888c4520c699ce8c9e000170716a628fa62287",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/bare_parenthetical_target_parentheses.csv",
+      "expected": "688abfcb73202337867a101267fba79d4fea64f927485c731d9afab6447989d6",
+      "actual": "688abfcb73202337867a101267fba79d4fea64f927485c731d9afab6447989d6",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/classification_breakdown_checks.json",
+      "expected": "e8c1af1b52e92673f0f13eb5c8fd1fc6fe046c6643eeb4e782f472c5339e4901",
+      "actual": "e8c1af1b52e92673f0f13eb5c8fd1fc6fe046c6643eeb4e782f472c5339e4901",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/classification_breakdown_envelopes.csv",
+      "expected": "d6fe45b310eb0eadedf784ab8fe0b65e0acc599bba7f0d9caa4340a9548231d5",
+      "actual": "d6fe45b310eb0eadedf784ab8fe0b65e0acc599bba7f0d9caa4340a9548231d5",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/classification_breakdown_readings.csv",
+      "expected": "88725cb580bd4bf69619774ea3eb361fa9ce271f22b94604411ad75071f8c3a1",
+      "actual": "88725cb580bd4bf69619774ea3eb361fa9ce271f22b94604411ad75071f8c3a1",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/classification_breakdown_summary.csv",
+      "expected": "64e02a06bbd179c11f8d4c9496a8e801803c0193edc36a4d00f06f052bacc1d7",
+      "actual": "64e02a06bbd179c11f8d4c9496a8e801803c0193edc36a4d00f06f052bacc1d7",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/classification_breakdown_witnesses.csv",
+      "expected": "ed1c339fbaafff0552c32ddeb4c53c029c0f702ed2e346a5ae5b7e62a5dd5cf8",
+      "actual": "ed1c339fbaafff0552c32ddeb4c53c029c0f702ed2e346a5ae5b7e62a5dd5cf8",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/company_eligibility_key_changes.csv",
+      "expected": "bfaca49aa763742eebe5322a0afafbad8656aa392012553e36d4db565fbc6022",
+      "actual": "bfaca49aa763742eebe5322a0afafbad8656aa392012553e36d4db565fbc6022",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/company_rebuild_checks.json",
+      "expected": "70455779a47c8ad27cea11174ba8d0ac3af4d94988e1fed161a59960067db758",
+      "actual": "70455779a47c8ad27cea11174ba8d0ac3af4d94988e1fed161a59960067db758",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/company_v3_v4_comparison_changes.csv",
+      "expected": "c6e1a396c8319338326d806b44eb4437c173e04e875602593b05cfca7446f0d2",
+      "actual": "c6e1a396c8319338326d806b44eb4437c173e04e875602593b05cfca7446f0d2",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/current_firm_cells.csv",
+      "expected": "8e53cf3bc6ed2d1abc4590ec48d09c28d49f413c09655fda8e7bdbdcfccf4292",
+      "actual": "8e53cf3bc6ed2d1abc4590ec48d09c28d49f413c09655fda8e7bdbdcfccf4292",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/current_firm_pairs.csv",
+      "expected": "78efc6f12cf9c9c88d6c6717d69305295a793d069534f26e43d5dc6ae39438bc",
+      "actual": "78efc6f12cf9c9c88d6c6717d69305295a793d069534f26e43d5dc6ae39438bc",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/current_pair_summary.csv",
+      "expected": "c5f0ad644442c5f600b823b8ca140890178a4efce7aa6636ebb13de10d39bd79",
+      "actual": "c5f0ad644442c5f600b823b8ca140890178a4efce7aa6636ebb13de10d39bd79",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/current_u_all_field_occurrences.csv",
+      "expected": "ebee6db76dd9a154851e8e2a02463faa81b88482f0379067cf34e12a49a0e376",
+      "actual": "ebee6db76dd9a154851e8e2a02463faa81b88482f0379067cf34e12a49a0e376",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/current_u_consistency_review_checks.json",
+      "expected": "7af1ed78f0a8624edf047cce1ca060c12abe8f95d61abb5f0457d0d428865b1c",
+      "actual": "7af1ed78f0a8624edf047cce1ca060c12abe8f95d61abb5f0457d0d428865b1c",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/current_u_consistency_review_ledger.csv",
+      "expected": "4b8ce325b998244106b5b81f8b977b42517cf5e3e6480c3229e1a1a2c228f3a8",
+      "actual": "4b8ce325b998244106b5b81f8b977b42517cf5e3e6480c3229e1a1a2c228f3a8",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/current_u_proposed_corrections.csv",
+      "expected": "bf0a89479fa7d3e5bc6ea4838e40187b0761b9df44558d010386be058a4190b1",
+      "actual": "bf0a89479fa7d3e5bc6ea4838e40187b0761b9df44558d010386be058a4190b1",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/current_u_rule_analogues.csv",
+      "expected": "e2890e7bba7a94c01a5a9045bda04e431ecadc951255bfcfab79b9b2c9f966a9",
+      "actual": "e2890e7bba7a94c01a5a9045bda04e431ecadc951255bfcfab79b9b2c9f966a9",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/discordant_source_review_checks.json",
+      "expected": "f7270eb12b8319effb376588ae08ce9b743569aab2c5f0ea7e8d3a1e20b06d38",
+      "actual": "f7270eb12b8319effb376588ae08ce9b743569aab2c5f0ea7e8d3a1e20b06d38",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/discordant_source_review_ledger.csv",
+      "expected": "e71805ac6d15d16e12964d4370daf552656a6327637662631def8e4e805d440f",
+      "actual": "e71805ac6d15d16e12964d4370daf552656a6327637662631def8e4e805d440f",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/final_empirical_facts.json",
+      "expected": "4ee6da1fbe7e1ce79fb1ce7b6100e3113d86bf95c2544eac263391a9742e79e3",
+      "actual": "4ee6da1fbe7e1ce79fb1ce7b6100e3113d86bf95c2544eac263391a9742e79e3",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/final_empirical_facts_phase4.json",
+      "expected": "e3068a516f32741c657fe064fcf9eb0a963d334835f7e3e10118c26b93c95842",
+      "actual": "e3068a516f32741c657fe064fcf9eb0a963d334835f7e3e10118c26b93c95842",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/framework_independent_verification.json",
+      "expected": "622126eec0aa8dcb7e27b2d084442799fae50d71d987ca7d7a6651e54c070447",
+      "actual": "622126eec0aa8dcb7e27b2d084442799fae50d71d987ca7d7a6651e54c070447",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/framework_source_checks_independent.csv",
+      "expected": "c942e83d7852358d4df99965752a1486045403a8ddc83605187d09eee8a22af9",
+      "actual": "c942e83d7852358d4df99965752a1486045403a8ddc83605187d09eee8a22af9",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/local_template_checks.json",
+      "expected": "b8a131bcdb83d1fab1f38c932d0ee86b6187298a2942d507c030f8e0baa3dfaf",
+      "actual": "b8a131bcdb83d1fab1f38c932d0ee86b6187298a2942d507c030f8e0baa3dfaf",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/local_template_construct_contrasts.csv",
+      "expected": "17585f908ce197503e1841fbc06bcff7b5e147b459063a12e58d3ee58079eb69",
+      "actual": "17585f908ce197503e1841fbc06bcff7b5e147b459063a12e58d3ee58079eb69",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/local_template_coverage.csv",
+      "expected": "8b1350a50144049b6cba0ae1d46672d1b0edcb74c6a9d49ac591138d790d0726",
+      "actual": "8b1350a50144049b6cba0ae1d46672d1b0edcb74c6a9d49ac591138d790d0726",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/local_template_groups.csv",
+      "expected": "9b8f571363d9fcd4b7c879d7c160cc43622f8a925c7a4ddb4b75203263f9c8f0",
+      "actual": "9b8f571363d9fcd4b7c879d7c160cc43622f8a925c7a4ddb4b75203263f9c8f0",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/local_template_membership.csv",
+      "expected": "81c711b59ada5c6c049296a0d950702f5e7131cd78f90d16cdd016fc8b75f8dc",
+      "actual": "81c711b59ada5c6c049296a0d950702f5e7131cd78f90d16cdd016fc8b75f8dc",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/local_template_parent_span_audit.csv",
+      "expected": "662d41d80cfe6164228aa2179c05ca1d3430955e0ac724efcf3bdd67050139e5",
+      "actual": "662d41d80cfe6164228aa2179c05ca1d3430955e0ac724efcf3bdd67050139e5",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/local_template_semantic_envelopes.csv",
+      "expected": "6d00b010afab3542139dd02348e204371bf122ec1157400cae1b175f50b5178f",
+      "actual": "6d00b010afab3542139dd02348e204371bf122ec1157400cae1b175f50b5178f",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/local_template_semantic_readings.csv",
+      "expected": "a5b04c736592d72d702242d63dff9ae15bcacecfd342343ebbc89142e5464701",
+      "actual": "a5b04c736592d72d702242d63dff9ae15bcacecfd342343ebbc89142e5464701",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/local_template_weights.csv",
+      "expected": "8cc2c1ac0e5427822458f030e8ae932e6a7b1184a6c614a7c4fbcc4c7a5535c1",
+      "actual": "8cc2c1ac0e5427822458f030e8ae932e6a7b1184a6c614a7c4fbcc4c7a5535c1",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/paired_breakdown_independent_verification.json",
+      "expected": "e12018a4e50839f28bfb161d089e17c4d26ad05dec3f0d76076090b112e02436",
+      "actual": "e12018a4e50839f28bfb161d089e17c4d26ad05dec3f0d76076090b112e02436",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/paired_independent_verification.json",
+      "expected": "62fdcd38a48b8975137f0fdfebe43fe3b4f9d2f8f1e5a7e8e0eb34f89b26ef11",
+      "actual": "62fdcd38a48b8975137f0fdfebe43fe3b4f9d2f8f1e5a7e8e0eb34f89b26ef11",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/qualification_scope_independent_verification.json",
+      "expected": "886647dedcd64da4dc750e563b0bdeddde464ac370517f48dc76b0a70bad7709",
+      "actual": "886647dedcd64da4dc750e563b0bdeddde464ac370517f48dc76b0a70bad7709",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/qualification_scope_transitions_independent.csv",
+      "expected": "b9a40fe0f3a7879fc85a2bfc6efa7de7ae908442e0523b72d885fb663a87bd20",
+      "actual": "b9a40fe0f3a7879fc85a2bfc6efa7de7ae908442e0523b72d885fb663a87bd20",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/v4_overlay_independent_diff.csv",
+      "expected": "0a74231e7d2dadcb5f2da6ad1296ab18f2b3173bd95a414d0db129a65455589d",
+      "actual": "0a74231e7d2dadcb5f2da6ad1296ab18f2b3173bd95a414d0db129a65455589d",
+      "identical": true
+    },
+    {
+      "path": "analysis/empirical/v4_overlay_independent_verification.json",
+      "expected": "8976323007cb297296e054f8719cbeb0eeb391d71bbfdb9193ba7e56e6a0a9a8",
+      "actual": "8976323007cb297296e054f8719cbeb0eeb391d71bbfdb9193ba7e56e6a0a9a8",
+      "identical": true
+    },
+    {
+      "path": "analysis/example_increments/admission_rule_contrasts.csv",
+      "expected": "ee9ad6a5d93efa95baacbb1c1042d162993ca8cd0ce4f534b1873b56afeeb177",
+      "actual": "ee9ad6a5d93efa95baacbb1c1042d162993ca8cd0ce4f534b1873b56afeeb177",
+      "identical": true
+    },
+    {
+      "path": "analysis/example_increments/admission_rule_states.csv",
+      "expected": "6458c4196b0d3fc8e3c959bec43bfde68ddb2c2f90f51325372f93f0611073df",
+      "actual": "6458c4196b0d3fc8e3c959bec43bfde68ddb2c2f90f51325372f93f0611073df",
+      "identical": true
+    },
+    {
+      "path": "analysis/example_increments/admission_rule_summary.json",
+      "expected": "b071bab882f4691e2d14ecee3671de7f62b6da789d1bc72d60fb1b4f907c9aec",
+      "actual": "b071bab882f4691e2d14ecee3671de7f62b6da789d1bc72d60fb1b4f907c9aec",
+      "identical": true
+    },
+    {
+      "path": "analysis/example_increments/example_increment_ledger.csv",
+      "expected": "a1b3cc3547edcf2e0eb2ff50dca1aa6558b38bd98e392895bf8f80d847baebf9",
+      "actual": "a1b3cc3547edcf2e0eb2ff50dca1aa6558b38bd98e392895bf8f80d847baebf9",
+      "identical": true
+    },
+    {
+      "path": "analysis/example_increments/example_increment_packet.json",
+      "expected": "66e61d74c62f648c968e82b277d4097cef08e910fd1f81590b29ebbb04081a59",
+      "actual": "66e61d74c62f648c968e82b277d4097cef08e910fd1f81590b29ebbb04081a59",
+      "identical": true
+    },
+    {
+      "path": "analysis/example_increments/repeated_parent_clauses.csv",
+      "expected": "5d622f796e072aef655776150e85c27c3684cc3817f063c1ee6270d0d8c0034d",
+      "actual": "5d622f796e072aef655776150e85c27c3684cc3817f063c1ee6270d0d8c0034d",
+      "identical": true
+    },
+    {
+      "path": "analysis/example_increments/source_integrity_checks.csv",
+      "expected": "eaa06f3291794a9a2e2fd57000abb275210a4e3f74eb1e172de46cc9fa87a7aa",
+      "actual": "eaa06f3291794a9a2e2fd57000abb275210a4e3f74eb1e172de46cc9fa87a7aa",
+      "identical": true
+    },
+    {
+      "path": "analysis/example_increments/summary.json",
+      "expected": "75a025f29e4922a328d8fdf92869b32304f3648f847ba38d2631970db8041535",
+      "actual": "75a025f29e4922a328d8fdf92869b32304f3648f847ba38d2631970db8041535",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/analysis_weights.csv",
+      "expected": "c090835ce51564d2cbad2240bd361fa445d45738938fd0293b34db98dd129c77",
+      "actual": "c090835ce51564d2cbad2240bd361fa445d45738938fd0293b34db98dd129c77",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/input_manifest.json",
+      "expected": "6618637b5aa5207694768df57382565ceb2a939735126f1681eafe932c54e104",
+      "actual": "6618637b5aa5207694768df57382565ceb2a939735126f1681eafe932c54e104",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/leave_one_firm_out.csv",
+      "expected": "0bbc80634c4f737053377ed96c28c6150bda2014b93ec36b34f3896d381cac31",
+      "actual": "0bbc80634c4f737053377ed96c28c6150bda2014b93ec36b34f3896d381cac31",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/merge_audit.json",
+      "expected": "c7046074c278416687db851c32682cc8719e8d89033cf617b6f0bbc000d9857b",
+      "actual": "c7046074c278416687db851c32682cc8719e8d89033cf617b6f0bbc000d9857b",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/paired_advertisements.csv",
+      "expected": "9a64d200ce7f54f75f34788c238ac37f2c72f3a232518bfbb0fbbbd2311e0947",
+      "actual": "9a64d200ce7f54f75f34788c238ac37f2c72f3a232518bfbb0fbbbd2311e0947",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/paired_breakdown_envelopes.csv",
+      "expected": "8fbf05729c0da0fb797b32cb6cd49a5921a5f2a3f6c537759ba48f20279b697b",
+      "actual": "8fbf05729c0da0fb797b32cb6cd49a5921a5f2a3f6c537759ba48f20279b697b",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/paired_breakdown_readings.csv",
+      "expected": "a63127e7922ca5f978bf89b5615fe95d896f4b722e39b59f18af62856f4be288",
+      "actual": "a63127e7922ca5f978bf89b5615fe95d896f4b722e39b59f18af62856f4be288",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/paired_facts.json",
+      "expected": "c801eb2d656ffc26ba89c5840f953e00a7f72f4c3a73a6ae0c89409e1640d88f",
+      "actual": "c801eb2d656ffc26ba89c5840f953e00a7f72f4c3a73a6ae0c89409e1640d88f",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/paired_firms.csv",
+      "expected": "3dbf8f50b2e4fb3c38699844972dd3b14d229cea123c1c7882331481bbfaade6",
+      "actual": "3dbf8f50b2e4fb3c38699844972dd3b14d229cea123c1c7882331481bbfaade6",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/paired_joint_states.csv",
+      "expected": "f40627fce7d7a90fa700541e59f850e2a502248a1ff2f1dd46b9a0061dbc0648",
+      "actual": "f40627fce7d7a90fa700541e59f850e2a502248a1ff2f1dd46b9a0061dbc0648",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/paired_summary.csv",
+      "expected": "dcba91b0d2695a97bbc5dc021362e4e119c4879108fa6cca3db01026bd038618",
+      "actual": "dcba91b0d2695a97bbc5dc021362e4e119c4879108fa6cca3db01026bd038618",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/qualification_scope_checks.json",
+      "expected": "bba29ffb200aede4977cf2f064147c987e336e92262f8d0483d2daede148df96",
+      "actual": "bba29ffb200aede4977cf2f064147c987e336e92262f8d0483d2daede148df96",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/qualification_scope_contrasts.csv",
+      "expected": "9065d99c1785073addf968b88176e2596f6ad145c9bce00d81e15a7b083a33ad",
+      "actual": "9065d99c1785073addf968b88176e2596f6ad145c9bce00d81e15a7b083a33ad",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/qualification_scope_states.csv",
+      "expected": "44454b9cc4412c073551179e0177dc218716af968b4f1cadc2021418a62ea018",
+      "actual": "44454b9cc4412c073551179e0177dc218716af968b4f1cadc2021418a62ea018",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/qualification_scope_summary.csv",
+      "expected": "0855d49424235bff8f03b7f4291865e05f4af827e1b3477f8723f22d443045c6",
+      "actual": "0855d49424235bff8f03b7f4291865e05f4af827e1b3477f8723f22d443045c6",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/semantic_envelopes.csv",
+      "expected": "7ffd219073a65757ab701a44c4cca7f183ee17dac4983ecccb74247706111d58",
+      "actual": "7ffd219073a65757ab701a44c4cca7f183ee17dac4983ecccb74247706111d58",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/semantic_reading_summaries.csv",
+      "expected": "0cba9c3d7d9bfa544224daf197fbbb1909e7079f4a07416680257179cb70fb20",
+      "actual": "0cba9c3d7d9bfa544224daf197fbbb1909e7079f4a07416680257179cb70fb20",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/source_context_checks.json",
+      "expected": "f53e2bbc32ef669dc78911919d8fe3e66ae8b211184051e6eb4689e6d0f99bbd",
+      "actual": "f53e2bbc32ef669dc78911919d8fe3e66ae8b211184051e6eb4689e6d0f99bbd",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/source_context_linkage.csv",
+      "expected": "8673da67163777b755ff14cfb0c96dcc7f1232fae9a79a0e0232761697c2fdae",
+      "actual": "8673da67163777b755ff14cfb0c96dcc7f1232fae9a79a0e0232761697c2fdae",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/source_context_summary.csv",
+      "expected": "248ed3c5b18022be7c23db174c4e6c341a8a1946f8f05389b8ddcc4ec3f0f850",
+      "actual": "248ed3c5b18022be7c23db174c4e6c341a8a1946f8f05389b8ddcc4ec3f0f850",
+      "identical": true
+    },
+    {
+      "path": "analysis/paired/source_span_verification.csv",
+      "expected": "c5c2baa5a13ea58ae85fda71a501d21a0c9f76c82e7c55f27a8e91e3ba9eec83",
+      "actual": "c5c2baa5a13ea58ae85fda71a501d21a0c9f76c82e7c55f27a8e91e3ba9eec83",
+      "identical": true
+    },
+    {
+      "path": "analysis/v4_ad_technology_current.csv",
+      "expected": "892f9214f477b4df30aaae7a4e62458fc02128642562b9befb0d4ad78d32f4db",
+      "actual": "892f9214f477b4df30aaae7a4e62458fc02128642562b9befb0d4ad78d32f4db",
+      "identical": true
+    },
+    {
+      "path": "analysis/v4_overlay_checks.json",
+      "expected": "655d9e18b30b6ad999236666884ce0b47c6bd54fd352e1456eba5a13ab79e3ed",
+      "actual": "655d9e18b30b6ad999236666884ce0b47c6bd54fd352e1456eba5a13ab79e3ed",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/all_field_literal_checks.csv",
+      "expected": "ef6af7d5956a7e6795e0d201506a246a40f6d9e5604afc867e9232ecbc56d757",
+      "actual": "ef6af7d5956a7e6795e0d201506a246a40f6d9e5604afc867e9232ecbc56d757",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/coupled_reading_diagnostic.csv",
+      "expected": "3e4accc4a9a38635c1c8078bc45b4790c7e83ec56c82c01802f3670feb16d0c3",
+      "actual": "3e4accc4a9a38635c1c8078bc45b4790c7e83ec56c82c01802f3670feb16d0c3",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/framework_contrasts.csv",
+      "expected": "03c412fe51ce52e95bf70f5f22cc5dcf03cf54f19da4618c94214e44ce00925b",
+      "actual": "03c412fe51ce52e95bf70f5f22cc5dcf03cf54f19da4618c94214e44ce00925b",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/literal_inventory_105.csv",
+      "expected": "52e3b74c60754bf3cb9b80e1c645e753ebb1fe7cad9cffb4025fdf448b1f9280",
+      "actual": "52e3b74c60754bf3cb9b80e1c645e753ebb1fe7cad9cffb4025fdf448b1f9280",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/matched_source_packet.json",
+      "expected": "a533dca761397fb3423d1e4c858dae810d1fe8c69dfde3697787b37f9889d892",
+      "actual": "a533dca761397fb3423d1e4c858dae810d1fe8c69dfde3697787b37f9889d892",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/paired_states_105.csv",
+      "expected": "d6ce02b5a4f44d70d2cdc959acf5a9b659dc02c3ec970308e77c8c26eebcafc7",
+      "actual": "d6ce02b5a4f44d70d2cdc959acf5a9b659dc02c3ec970308e77c8c26eebcafc7",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/pytorch_harmonization_differences.csv",
+      "expected": "c7f3648dc1ba71989b430d90fbcf348f89f2f247cdcdf405257c36dfd79e3f5b",
+      "actual": "c7f3648dc1ba71989b430d90fbcf348f89f2f247cdcdf405257c36dfd79e3f5b",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/source_integrity_checks.csv",
+      "expected": "d4a836690dec88b7d7587d2cce75c5189a3d4e72055dbc1f117bdd31433ef8e7",
+      "actual": "d4a836690dec88b7d7587d2cce75c5189a3d4e72055dbc1f117bdd31433ef8e7",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/source_inventory_manifest.json",
+      "expected": "54d626c249306e30cfd7de8f6b0fefbf6d167bbb24c9d7371bb04ce04671a1cc",
+      "actual": "54d626c249306e30cfd7de8f6b0fefbf6d167bbb24c9d7371bb04ce04671a1cc",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/source_review_26.csv",
+      "expected": "30af964ead251291c4760611c0dfcf76849017fbef66fe8a3a7c26261e5f7129",
+      "actual": "30af964ead251291c4760611c0dfcf76849017fbef66fe8a3a7c26261e5f7129",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/summary.json",
+      "expected": "9ee1094743906c1ba7ff0e5e8862705d42e5bdeaf0d098ce8d2790b85fcac1be",
+      "actual": "9ee1094743906c1ba7ff0e5e8862705d42e5bdeaf0d098ce8d2790b85fcac1be",
+      "identical": true
+    },
+    {
+      "path": "extensions/framework_control/outputs/tensorflow_states_105.csv",
+      "expected": "c4dfa4b27ad49bccffcfd30d7fc43d63f7457e189ab0e03636da4532603a1487",
+      "actual": "c4dfa4b27ad49bccffcfd30d7fc43d63f7457e189ab0e03636da4532603a1487",
+      "identical": true
+    }
+  ],
+  "original_project_inputs_used": false,
+  "pass": true
+}

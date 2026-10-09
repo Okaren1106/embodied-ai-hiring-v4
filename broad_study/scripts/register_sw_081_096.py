@@ -1,0 +1,304 @@
+"""First-pass adjudication for software coding_order 81-96. Reader: grok4.6."""
+from register_Q_decisions import register
+
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0289":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"EMBEDDED_LINUX_BSP",
+ "secondary_task":"",
+ "task_evidence":"1. 负责BSP的开发和维护，编写ARM平台各类外设的驱动程序，配合硬件团队完成新平台的评估和调试。",
+ "new":{
+  "1":O+"BSP未单列冻结项。","2":O+"ARM未单列冻结项。",
+  "3":[["V2_C","GENERAL","UNRESOLVED"],["V2_GDB","GENERAL","EXAMPLE"],["V2_GIT","GENERAL","EXAMPLE"]],
+  "4":"DUPLICATE:N0289:3",
+  "5":O+"GCC未单列冻结项。",
+  "6":"DUPLICATE:N0289:3",
+  "7":O+"Makefile未单列冻结项。",
+  "8":"DUPLICATE:N0289:3",
+  "9":O+"SOC未单列冻结项。","10":O+"设备树未单列冻结项。","11":O+"ARM未单列冻结项。",
+  "12":[["V2_BUILDROOT","GENERAL","CHOICE"],["V2_YOCTO","GENERAL","CHOICE"]],
+  "13":"DUPLICATE:N0289:12","14":"DUPLICATE:N0289:12",
+  "15":O+"Openwrt未单列冻结项。","16":O+"PREEMPT_RT未单列冻结项。",
+  "17":[["V2_TENSORRT","PREFERRED","EXAMPLE"],["V2_ONNX_RUNTIME","PREFERRED","EXAMPLE"]],
+  "18":O+"NVIDIA Jetson未单列冻结项。","19":O+"NPU/GPU SoC未单列冻结项。","20":O+"OpenCL未单列冻结项。",
+  "21":"DUPLICATE:N0289:17","22":"DUPLICATE:N0289:17",
+  "23":O+"Systemd未单列冻结项。","24":O+"Fastboot未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"BSP嵌入式。C/C++按C未解。ONNX Runtime不升ONNX。"
+},
+"N0314":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"MOTION_ALGO_ASSIST",
+ "secondary_task":"",
+ "task_evidence":"1. 协助算法工程师完成轮式人形机器人及灵巧手的算法联调与真机测试；",
+ "new":{
+  "1":R+"C++/Python不是C语言。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"运控助理。C++拒收C。"
+},
+"E0071":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"TELEOP_SYSTEM",
+ "secondary_task":"",
+ "task_evidence":"1、负责人形机器人局域和广域远程遥操作相关算法和系统方案开发,包括第一视角遥操作、局域无线传输、一对多远程遥操接管、力反馈、RTC等功能,确保通过远程遥操作可以完成80%以上的任务,同时具备数据采集功能。",
+ "new":{
+  "1":[["V2_TELEOP","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_TELEOP","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_TELEOP","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_TELEOP","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_TELEOP","GENERAL","EXAMPLE"]],
+  "6":[["V2_C","GENERAL","UNRESOLVED"]]
+ },
+ "old_overrides":{
+  "O5":{"metric":"GENERAL","branch":"UNRESOLVED","relation":"EXPERIENCE_REQUIREMENT","reason":"原ROS短词定位为空，改为ROS/ROS2句。","quote":"5、熟练掌握C/C++、MATLAB、Python等编程语言，熟练使用ROS/ROS2系统。"}
+ },
+ "additions":[],
+ "outside_extra":[],
+ "notes":"主责远程遥操。C/C++按C未解。"
+},
+"E0061":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"ROBOT_AGENT_FRAMEWORK",
+ "secondary_task":"",
+ "task_evidence":"1. Agent 架构开发: 设计并实现高并发、可扩展的机器人 Agent 框架,集成长短期记忆模块与 RAG 检索系统,使机器人能在复杂场景下,拆解长程任务到VLA可执行动作。",
+ "new":{
+  "1":[["V2_AGENT_WORKFLOW","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_AGENT_WORKFLOW","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":R+"C++/Python不是C语言。",
+  "4":[["V2_AGENT_WORKFLOW","GENERAL","EXAMPLE"]],
+  "5":[["V2_AGENT_WORKFLOW","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_VLLM","PREFERRED","EXAMPLE"],["V2_TENSORRT","PREFERRED","EXAMPLE"]],
+  "7":"DUPLICATE:E0061:4",
+  "8":O+"Milvus/Pinecone未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"Agent框架。TensorRT-LLM按TensorRT示例。C++拒收C。"
+},
+"E0047":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"HMI_MOBILE_CAPTURE",
+ "secondary_task":"",
+ "task_evidence":"1. 负责机器人 HMI 交互应用和数据采集设备(UMI、ego-centric 等)配套移动端应用(Android & iOS)的全流程开发,覆盖设备连接配对、采集任务配置、多模态数据预览与回传等数据工厂采集闭环能力,并支撑机器人真实落地场景中的数据回流、工作流程管理、导航建图等现场业务需求;",
+ "new":{
+  "1":R+"C++不是C语言。",
+  "2":[["V2_USB","PREFERRED","CHOICE"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"HMI移动采集。C++拒收C。USB为通信任选。"
+},
+"E0039":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"ONBOARD_RUNTIME",
+ "secondary_task":"",
+ "task_evidence":"参与机器人端侧 Runtime 系统的设计、开发和持续优化,包括硬件抽象、端侧通信、可观测、资源治理等方向",
+ "new":{
+  "1":R+"C++不是C语言。",
+  "2":[["V2_DDS","GENERAL","CHOICE"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"端侧Runtime。DDS任选。C++拒收C。"
+},
+"E0031":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"XR_TEACHING_CAPTURE",
+ "secondary_task":"",
+ "task_evidence":"1. 负责面向 Quest、PICO等主流 VR/XR头显的应用开发,重点服务于具身智能本体数据采集、VR示教采集、UMI采集与人机交互数据闭环。",
+ "new":{
+  "1":[["V2_TELEOP","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_UNITY","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_UNITY","GENERAL","UNCONDITIONAL"]],
+  "4":R+"C#与C++不是C语言。",
+  "5":[["V2_TCPIP","PREFERRED","CHOICE"]],
+  "6":[["V2_TELEOP","PREFERRED","UNCONDITIONAL"]],
+  "7":[["V2_UNITY","PREFERRED","UNCONDITIONAL"]],
+  "8":"DUPLICATE:E0031:2"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"VR示教采集。串口不升RS485。C++/C#拒收C。"
+},
+"E0026":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"CICD_TEST_DEV",
+ "secondary_task":"",
+ "task_evidence":"1. 基于GitLab搭建与优化全链路CI/CD流水线,覆盖代码编译、构建打包、自动化测试、部署发布全流程,适配x86/ARM多架构编译构建场景,解决跨架构编译痛点。",
+ "new":{
+  "1":[["V2_CI_CD","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_GITLAB_CI","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_CI_CD","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_CI_CD","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_CI_CD","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_CI_CD","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_GITLAB_CI","GENERAL","UNCONDITIONAL"],["V2_CI_CD","GENERAL","UNCONDITIONAL"]],
+  "7":[["V2_SHELL","GENERAL","CHOICE"]],
+  "8":R+"GitLab Runner不是Git工具项的充分证据。",
+  "9":[["V2_CI_CD","PREFERRED","UNCONDITIONAL"]],
+  "10":R+"GitLab平台不是Git工具项的充分证据。",
+  "11":[["V2_SHELL","GENERAL","CHOICE"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"CI/CD测试开发。GitLab按GitLab CI，不升Git。"
+},
+"E0017":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"EDGE_PERF",
+ "secondary_task":"",
+ "task_evidence":"负责国产化SoC平台整体性能优化,围绕 CPU、DSP、GPU、Memory、Middleware 等核心链路,定位系统性能瓶颈,降低端到端 Latency,提升系统资源利用率和整体运行效率。",
+ "new":{
+  "1":[["V2_C","DUTY_OWN_USE","UNRESOLVED"]],
+  "2":[["V2_PERF","DUTY_OWN_USE","EXAMPLE"],["V2_FTRACE","DUTY_OWN_USE","EXAMPLE"]],
+  "3":[["V2_C","GENERAL","UNRESOLVED"]],
+  "4":[["V2_C","GENERAL","UNRESOLVED"]],
+  "5":"DUPLICATE:E0017:2"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"端侧性能。C/C++按C未解。perf/ftrace成立。"
+},
+"E0094":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DEV_INFRA",
+ "fine_task":"CPP_ARCHITECTURE",
+ "secondary_task":"",
+ "task_evidence":"1. 负责公司软件架构的升级,优化;",
+ "new":{},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"候选队列为空。C++架构升级。"
+},
+"E0091":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"JAVA_MOBILE_BACKEND",
+ "secondary_task":"",
+ "task_evidence":"1.负责移动端产品的后台服务端搭建与编写API开发文档;",
+ "new":{},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"候选队列为空。Java移动后台。"
+},
+"E0080":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"EMBODIED_MODEL_INTEGRATION",
+ "secondary_task":"",
+ "task_evidence":"· 负责具身智能算法和模型在机器人上的开发与集成,将其转化为稳定的产品功能。",
+ "new":{},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"候选队列为空。算法模型上机集成。"
+},
+"E0282":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"APP_SDK_TELEOP",
+ "secondary_task":"",
+ "task_evidence":"1. 负责基础平台建设:设计并实现机器人基础模块,如标准库、升级、日志、监控、SDK 等,推动通用能力沉淀为可复用的技术平台;",
+ "new":{
+  "1":[["V2_CALIBRATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_TELEOP","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_TELEOP","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":R+"C++不是C语言。",
+  "4":[["V2_TCPIP","GENERAL","EXAMPLE"]],
+  "5":[["V2_CI_CD","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{
+  "O3":{"metric":"GENERAL","branch":"UNRESOLVED","relation":"EXPERIENCE_REQUIREMENT","reason":"原ROS短词定位为空，改为ROS/ROS2句。","quote":"2. 编程能力：精通 Linux 环境下 C++ 开发、调试与性能优化；熟悉面向对象设计及常用设计模式；熟悉 ROS/ROS2 框架及其节点通信机制；能熟练使用 AI 辅助编程工具提升研发效率。熟练使用 Python；"}
+ },
+ "additions":[],
+ "outside_extra":[],
+ "notes":"应用SDK。遥操与标定成立。C++拒收C。"
+},
+"E0261":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"AGENT_SYSTEM",
+ "secondary_task":"",
+ "task_evidence":"1. Agent系统架构研发,包括思考规划、记忆管理、技能调用、多智能体协同等核心模块,构建高可用、易扩展的技术底座。",
+ "new":{
+  "1":R+"持续集成机器人能力不是CI/CD流水线的充分证据。",
+  "2":R+"可量化评测不是模型压缩项。",
+  "3":[["V2_AGENT_WORKFLOW","GENERAL","UNCONDITIONAL"]],
+  "4":[["V2_VLLM","GENERAL","EXAMPLE"],["V2_SGLANG","GENERAL","EXAMPLE"]],
+  "5":"DUPLICATE:E0261:4",
+  "6":[["V2_AGENT_WORKFLOW","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{
+  "O9":{"metric":"GENERAL","branch":"UNCONDITIONAL","relation":"EXPERIENCE_REQUIREMENT","reason":"原LLM短词定位为空，改为RAG句。","quote":"3. 深入理解LLM技术原理与应用方法，了解Memory机制、RAG、工具调用、规划执行等关键技术；"},
+  "O12":{"metric":"GENERAL","branch":"EXAMPLE","relation":"EXPERIENCE_REQUIREMENT","reason":"原LLM短词定位为空，改为推理框架句。","quote":"2. 熟悉LLM、VLA等大模型的推理部署流程；熟悉主流的推理框架，如vllm,sglang"}
+ },
+ "additions":[],
+ "outside_extra":[],
+ "notes":"Agent系统。持续集成能力不升CI/CD。可量化不升压缩。"
+},
+"E0239":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_CLOUD_UI",
+ "fine_task":"ONBOARD_WEBUI_BFF",
+ "secondary_task":"",
+ "task_evidence":"1. 负责机器人控制交互平台WebUI及配套服务端的架构设计、核心功能开发和长期维护。",
+ "new":{
+  "1":[["V2_NODEJS","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_CI_CD","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_SQL_MYSQL","PREFERRED","CHOICE"],["V2_POSTGRESQL","PREFERRED","CHOICE"],["V2_REDIS","PREFERRED","UNCONDITIONAL"]],
+  "4":[["V2_JAVASCRIPT","GENERAL","UNCONDITIONAL"],["V2_TYPESCRIPT","GENERAL","UNCONDITIONAL"],["V2_REACT","GENERAL","UNCONDITIONAL"]],
+  "5":[["V2_NODEJS","GENERAL","UNCONDITIONAL"]],
+  "6":[["V2_REACT","GENERAL","UNCONDITIONAL"]],
+  "7":R+"Three.js/WebGL/Canvas不是JavaScript语言项的充分证据。",
+  "8":[["V2_SQL_MYSQL","PREFERRED","CHOICE"],["V2_POSTGRESQL","PREFERRED","CHOICE"],["V2_REDIS","PREFERRED","UNCONDITIONAL"]],
+  "9":"DUPLICATE:E0239:3",
+  "10":"DUPLICATE:E0239:4",
+  "11":O+"NestJS/Express/Fastify未单列冻结项。"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"本体WebUI。Node.js不升JS。Three.js拒收JS。"
+},
+"E0238":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_RUNTIME",
+ "fine_task":"CUSTOM_EMBEDDED_LINUX",
+ "secondary_task":"CUSTOMER_INTEGRATION",
+ "task_evidence":"1、基于系统团队提供的软硬件平台,面向行业客户开展定制化嵌入式软件开发与交付;",
+ "new":{
+  "1":[["V2_C","GENERAL","UNRESOLVED"]],
+  "2":[["V2_CAN","GENERAL","EXAMPLE"],["V2_ETHERNET","GENERAL","EXAMPLE"],["V2_I2C","GENERAL","EXAMPLE"],["V2_USB","GENERAL","EXAMPLE"]]
+ },
+ "old_overrides":{
+  "O4":{"metric":"GENERAL","branch":"UNCONDITIONAL","relation":"EXPERIENCE_REQUIREMENT","reason":"原Linux短词定位为空，改为传感器集成句。","quote":"2、负责在 Linux 平台上集成多种传感器（如毫米波雷达、IMU、相机等）及外设（如 HDMI、Wi-Fi、5G、VR 设备、电机等），完成驱动适配与应用层软件开发；"}
+ },
+ "additions":[],
+ "outside_extra":[],
+ "notes":"客户定制嵌入式。C/C++按C未解。I²C按I2C。"
+}
+}
+if __name__=='__main__':
+ register('RF_ROBOTICS_SOFTWARE', decisions, reader='grok4.6')

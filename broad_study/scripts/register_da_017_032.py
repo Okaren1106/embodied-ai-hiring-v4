@@ -1,0 +1,260 @@
+"""First-pass adjudication for data-infra coding_order 17-32. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+DIST={
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_PIPELINE","fine_task":"EDGE_CLOUD_DATA","secondary_task":"",
+ "task_evidence":"构建从千台级机器人到云端的实时数据回传链路",
+ "new":{
+  "1":R+"C++/Rust不是C语言。",
+  "2":[["V2_TCPIP","GENERAL","UNCONDITIONAL"]],
+  "3":"DUPLICATE:RID:2",
+  "4":[["V2_KAFKA","GENERAL","CHOICE"]],
+  "5":"DUPLICATE:RID:4",
+  "6":O+"RabbitMQ未单列冻结项。",
+  "7":O+"S3未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"分布式数据。TCP/IP与Kafka保留。"
+}
+def dist(rid, extra=None, evidence=None):
+ d=dict(DIST); d['new']=dict(DIST['new'])
+ d['new']['3']='DUPLICATE:%s:2'%rid
+ d['new']['5']='DUPLICATE:%s:4'%rid
+ if extra: d['new'].update(extra)
+ if evidence: d['task_evidence']=evidence
+ return d
+decisions={
+"N0901":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_OPERATIONS","fine_task":"COLLECTION_OPS_HEAD","secondary_task":"",
+ "task_evidence":"you will manage the operational systems and teams responsible for sourcing, collecting, labeling, auditing, and delivering the data",
+ "new":{
+  "1":R+"Series C funding不是C语言。",
+  "2":R+"数据寻源sourcing不是采购职责。",
+  "3":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"数采运营负责人。SOP保留。"
+},
+"N0214":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_PIPELINE","fine_task":"LAKEHOUSE","secondary_task":"",
+ "task_evidence":"构建 PB-EB 级多模态数据基础设施，支撑视频、图片、日志、标签等数据统一管理",
+ "new":{
+  "1":R+"Python / Java / Go / C++不是单独的C语言项。",
+  "2":[["V2_SPARK","GENERAL","CHOICE"],["V2_FLINK","GENERAL","CHOICE"]],
+  "3":"DUPLICATE:N0214:2",
+  "4":"DUPLICATE:N0214:2",
+  "5":O+"Trino未单列冻结项。",
+  "6":O+"Iceberg未单列冻结项。",
+  "7":O+"Paimon未单列冻结项。",
+  "8":O+"Hudi未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"湖仓大数据。Spark/Flink保留。"
+},
+"N0729":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_PIPELINE","fine_task":"FIELD_DATA_PIPELINES","secondary_task":"",
+ "task_evidence":"Develop connectors and APIs (REST/gRPC, webhooks, CDC) so internal teams can feed data in and consume curated datasets reliably.",
+ "new":{
+  "1":R+"English can is not Controller Area Network.",
+  "2":O+"REST/gRPC/webhooks未单列冻结项。",
+  "3":"DUPLICATE:N0729:2",
+  "4":"DUPLICATE:N0729:2",
+  "5":O+"CDC未单列冻结项。",
+  "6":R+"C++ is not the C language.",
+  "7":O+"Scala未单列冻结项。",
+  "8":[["V2_KAFKA","GENERAL","CHOICE"]],
+  "9":"DUPLICATE:N0729:8",
+  "10":O+"Kinesis未单列冻结项。",
+  "11":O+"Pub/Sub未单列冻结项。",
+  "12":[["V2_AIRFLOW","GENERAL","CHOICE"]],
+  "13":"DUPLICATE:N0729:12",
+  "14":O+"Dagster未单列冻结项。",
+  "15":[["V2_SNOWFLAKE","GENERAL","CHOICE"],["V2_DATABRICKS","GENERAL","CHOICE"]],
+  "16":O+"BigQuery未单列冻结项。",
+  "17":"DUPLICATE:N0729:15",
+  "18":"DUPLICATE:N0729:15",
+  "19":O+"Redshift未单列冻结项。",
+  "20":O+"ELT未单列冻结项。",
+  "21":O+"Fivetran未单列冻结项。",
+  "22":O+"Airbyte未单列冻结项。",
+  "23":O+"Debezium未单列冻结项。",
+  "24":[["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "25":[["V2_MCAP","GENERAL","CHOICE"],["V2_ROSBAG","GENERAL","CHOICE"]],
+  "26":"DUPLICATE:N0729:25",
+  "27":"DUPLICATE:N0729:25",
+  "28":[["V2_DBT","GENERAL","UNCONDITIONAL"]],
+  "29":"DUPLICATE:N0729:28",
+  "30":R+"Irvine office不是Microsoft Office。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"FieldAI数据管线。dbt保留。办公地点拒收Office。"
+},
+"N0417":dist("N0417"),
+"N0430":dist("N0430", evidence="将物理分布在不同地点的数千台机器人产生的数据，实时、可靠地回传至云端"),
+"N0407":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ANALYTICS","fine_task":"OPS_METRICS","secondary_task":"",
+ "task_evidence":"制定机器人的运营指标树",
+ "new":{
+  "1":[["V2_SPARK","GENERAL","EXAMPLE"],["V2_PYTEST","GENERAL","EXAMPLE"]],
+  "2":"DUPLICATE:N0407:1",
+  "3":O+"requests未单列冻结项。",
+  "4":"DUPLICATE:N0407:1",
+  "5":O+"ASR/NLU/TTS未单列冻结项。",
+  "6":"DUPLICATE:N0407:5",
+  "7":"DUPLICATE:N0407:5",
+  "8":[["V2_CI_CD","PREFERRED","UNCONDITIONAL"]],
+  "9":"DUPLICATE:N0407:8"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"数据闭环指标。pyspark/pytest/CI/CD保留。"
+},
+"N0215":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_PIPELINE","fine_task":"DATA_LOOP","secondary_task":"",
+ "task_evidence":"负责数据闭环体系的设计，制定数据采集、标注、训练、验证到闭环回流的整体战略和技术路线",
+ "new":{
+  "1":O+"MLOps未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"数据闭环工程师。"
+},
+"N0487":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_PIPELINE","fine_task":"AUTO_LABEL_SIM","secondary_task":"",
+ "task_evidence":"开发操作数据的自动标注算法（关键点检测、动作切片、抓取轨迹提取等）",
+ "new":{
+  "1":[["V2_SIM2REAL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":O+"SD/ControlNet未单列冻结项。",
+  "3":"DUPLICATE:N0487:2",
+  "4":[["V2_UNITY","PREFERRED","CHOICE"],["V2_UNREAL","PREFERRED","CHOICE"],["V2_SIM2REAL","PREFERRED","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0487:4",
+  "6":"DUPLICATE:N0487:4",
+  "7":[["V2_TELEOP","PREFERRED","UNCONDITIONAL"]],
+  "8":[["V2_3D_RECONSTRUCTION","PREFERRED","CHOICE"]],
+  "9":"DUPLICATE:N0487:8",
+  "10":"DUPLICATE:N0487:8"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"具身数据算法。Sim2Real/Unity/Unreal/遥操作/3D重建保留。材质光照不记CMF。"
+},
+"N0513":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_PIPELINE","fine_task":"DATA_ENGINE","secondary_task":"",
+ "task_evidence":"负责具身智能数据平台的数据引擎建设，面向大规模多模态数据场景",
+ "new":{
+  "1":R+"Python、C++、Java并列不是单独C语言项。",
+  "2":[["V2_PARQUET","PREFERRED","CHOICE"],["V2_MCAP","PREFERRED","CHOICE"],["V2_ROSBAG","PREFERRED","CHOICE"]],
+  "3":"DUPLICATE:N0513:2",
+  "4":"DUPLICATE:N0513:2",
+  "5":O+"HDF5未单列冻结项。",
+  "6":"DUPLICATE:N0513:2",
+  "7":O+"Arrow未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"数据引擎。Parquet/MCAP/rosbag保留。"
+},
+"N0507":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_PIPELINE","fine_task":"DATA_PLATFORM_SVC","secondary_task":"",
+ "task_evidence":"参与数据平台服务层的架构设计与核心能力建设",
+ "new":{
+  "1":[["V2_TYPESCRIPT","GENERAL","CHOICE"]],
+  "2":"DUPLICATE:N0507:1"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"数据平台。TypeScript保留。"
+},
+"N0494":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_OPERATIONS","fine_task":"AUTO_LABEL_ALGO","secondary_task":"",
+ "task_evidence":"负责具身导航数据自动标注算法研发，提升标注效率与质量",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"自动标注算法。无新候选。"
+},
+"N0151":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_PIPELINE","fine_task":"COLLECTION_FULLSTACK","secondary_task":"",
+ "task_evidence":"搭建并优化机器人数据采集链路，负责机器人真机数采与无本体数采方案设计与落地",
+ "new":{
+  "1":[["V2_INCIDENT_SUPPORT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_C","GENERAL","UNRESOLVED"],["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "3":"DUPLICATE:N0151:2",
+  "4":R+"薪酬竞争力不是人力资源技能项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"数采全栈。C/C++按C未解。故障排查保留。"
+},
+"N0161":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_OPERATIONS","fine_task":"COLLECTION_MGMT","secondary_task":"",
+ "task_evidence":"负责搭建和验证具身智能数据采集标注工作流程",
+ "new":{
+  "1":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_BLENDER","PREFERRED","CHOICE"],["V2_UNREAL","PREFERRED","CHOICE"]],
+  "4":O+"DCC设计流程未单列冻结项。",
+  "5":"DUPLICATE:N0161:3",
+  "6":"DUPLICATE:N0161:3"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"数采管理。供应商导入记采购。Blender/Unreal保留。"
+},
+"N0037":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_PIPELINE","fine_task":"COLLECTION_FULLSTACK","secondary_task":"",
+ "task_evidence":"搭建并优化机器人数据采集链路，负责机器人真机数采与无本体数采方案设计与落地",
+ "new":{
+  "1":[["V2_INCIDENT_SUPPORT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_C","GENERAL","UNRESOLVED"],["V2_INCIDENT_SUPPORT","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_C","GENERAL","UNRESOLVED"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"基建全栈。C/C++按C未解。"
+},
+"N0131":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_PIPELINE","fine_task":"ANNOTATION_BACKEND","secondary_task":"",
+ "task_evidence":"负责机器人多模态标注平台的后端和数据基础设施建设",
+ "new":{
+  "1":[["V2_MCAP","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":"DUPLICATE:N0131:1",
+  "3":[["V2_MCAP","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_POSTGRESQL","GENERAL","UNCONDITIONAL"]],
+  "5":"DUPLICATE:N0131:4",
+  "6":[["V2_TYPESCRIPT","PREFERRED","CHOICE"],["V2_REACT","PREFERRED","CHOICE"],["V2_VUE","PREFERRED","CHOICE"]],
+  "7":"DUPLICATE:N0131:6",
+  "8":"DUPLICATE:N0131:6",
+  "9":"DUPLICATE:N0131:6"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"标注平台后端。MCAP/PostgreSQL/TS/React/Vue保留。"
+},
+"N0089":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"DATA_OPERATIONS","fine_task":"DATA_QUALITY","secondary_task":"",
+ "task_evidence":"负责机器人多模态数据全生命周期质量管控，覆盖采集、质检、标注、清洗、入库、复用全链路",
+ "new":{
+  "1":O+"PDCA未单列冻结项。",
+  "2":[["V2_MCAP","PREFERRED","CHOICE"],["V2_ROSBAG","PREFERRED","CHOICE"]],
+  "3":O+"UMI未单列冻结项。",
+  "4":O+"Ego未单列冻结项。",
+  "5":"DUPLICATE:N0089:2",
+  "6":"DUPLICATE:N0089:2",
+  "7":O+"GB/T 36344未单列冻结项。",
+  "8":O+"ISO/IEC 5259未单列冻结项。",
+  "9":O+"PDCA未单列冻结项。",
+  "10":[["V2_SHELL","GENERAL","UNCONDITIONAL"]],
+  "11":"DUPLICATE:N0089:10"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"数据质量。rosbag/mcap/Shell保留。C++优先不记C。"
+}
+}
+if __name__=='__main__':
+ register('RF_DATA_INFRA_OPERATIONS', decisions, reader='grok4.6')

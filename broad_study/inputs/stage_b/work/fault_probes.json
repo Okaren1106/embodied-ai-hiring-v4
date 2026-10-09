@@ -1,0 +1,748 @@
+{
+  "method": "每次探针复制完整运行目录，只改一处，再跑 s04_verify、s10_checksums 与 s11_release_gate；正对照必须被接受，负例必须被拒绝且给出具名检查或门禁失败理由",
+  "n_probes": 22,
+  "n_pass": 22,
+  "positive_control_ok": true,
+  "probes": [
+    {
+      "probe": "完整未修改的正对照",
+      "change": "无（完整副本，含全部快照）",
+      "expected": "ACCEPT",
+      "verify_exit": 0,
+      "checksums_exit": null,
+      "gate_exit": 0,
+      "failing_checks": [],
+      "release": {
+        "published": true,
+        "gate": "PUBLISHED",
+        "n_files": null
+      },
+      "result": "PASS"
+    },
+    {
+      "probe": "删除一份研究源文件",
+      "change": "删除 work/pilot_facts_<公司>.json 中的一份原始研究源",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "L2 每个锁定输入的字节哈希与当前文件一致（换行等价除外）",
+        "D8 已发布的表与锁定研究源的重建结果逐字节一致"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "删除必需表",
+      "change": "删除 company_evidence.csv",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\bestl\\\\AppData\\\\Local\\\\Temp\\\\b5_scratch\\\\probe_2\\\\company_evidence.csv'",
+        "         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+        "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\bestl\\\\AppData\\\\Local\\\\Temp\\\\b5_scratch\\\\probe_2\\\\company_evidence.csv'"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\bestl\\\\AppData\\\\Local\\\\Temp\\\\b5_scratch\\\\probe_2\\\\company_evidence.csv'"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "删除一条原缺口",
+      "change": "从 company_gaps.csv 删除一行",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "G1 307 项原缺口逐项保留，无静默丢项",
+        "D8 已发布的表与锁定研究源的重建结果逐字节一致"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "篡改快照实际内容",
+      "change": "向已声明哈希的快照正文追加一行",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "L2 每个锁定输入的字节哈希与当前文件一致（换行等价除外）",
+        "L3 每个证据快照的正文哈希可由磁盘文件复算一致"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "改证据发布日期到 2027",
+      "change": "把 B_CN_XSQUARE_009 的发布日期改为 2027-01-01",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "T2 时间适用性可由证据日期与观察日离线复算一致",
+        "D8 已发布的表与锁定研究源的重建结果逐字节一致"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "改日期后强行保留观察日可用",
+      "change": "把 latest_financing_at_observation 的日期改为 2027 并写 USABLE_AT_OBSERVATION",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "T3 标为观察日可用的事实，其事件日与发布日期都不晚于观察日",
+        "D8 已发布的表与锁定研究源的重建结果逐字节一致"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "把查无写成确定否定",
+      "change": "把自变量上市状态改成 EXPLICITLY_NEGATED 的未上市",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "U2 自变量的上市状态保持未知，未被填成未上市",
+        "D8 已发布的表与锁定研究源的重建结果逐字节一致"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "关闭未研究公司的问题",
+      "change": "把 CN_AGIBOT 的一条缺口改成 RESOLVED",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "D8 已发布的表与锁定研究源的重建结果逐字节一致"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "改写快照哈希声明",
+      "change": "把 ceweekly_0755 的正文哈希声明改成全 0",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "L2 每个锁定输入的字节哈希与当前文件一致（换行等价除外）",
+        "L3 每个证据快照的正文哈希可由磁盘文件复算一致",
+        "D8 已发布的表与锁定研究源的重建结果逐字节一致"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "把母公司规模写进团队字段",
+      "change": "把 FAR 部署值改成母公司 750,000 台口径",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "T1 事实的日期依据只来自 SUPPORTS/REFUTES 关系",
+        "T2 时间适用性可由证据日期与观察日离线复算一致",
+        "D8 已发布的表与锁定研究源的重建结果逐字节一致"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "按前缀把背景证据改成支持",
+      "change": "把 B_US_AMAZON_FTR_007 的关系改成 SUPPORTS",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "E3 背景与访问失败材料不再被标为支持",
+        "E4 支持关系的声明性质与证据性质一致",
+        "D8 已发布的表与锁定研究源的重建结果逐字节一致"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "篡改输入锁一条 sha256",
+      "change": "把 work/input_lock.json 一条 research_source 的 sha256 改成全 f",
+      "expected": "REJECT",
+      "verify_exit": 0,
+      "checksums_exit": null,
+      "gate_exit": 1,
+      "failing_checks": [],
+      "input_refusal": [],
+      "gate_refusal": [
+        "INPUT_ROOT_DIGEST_STALE: {'recorded': '26d6717312241aa6cc01928a4601f4e3037dfebe8020bc4c342ef016fef46d05', 'recomputed': '310ee536d1bc9bf16a3049b4"
+      ],
+      "refusal_evidence": [
+        "  \"failed\": []",
+        "}",
+        "INPUT_ROOT_DIGEST_STALE: {'recorded': '26d6717312241aa6cc01928a4601f4e3037dfebe8020bc4c342ef016fef46d05', 'recomputed': '310ee536d1bc9bf16a3049b4"
+      ],
+      "release": {
+        "published": false,
+        "gate": "FAILED",
+        "failures": [
+          {
+            "gate": "INPUT_ROOT_DIGEST_STALE",
+            "detail": {
+              "recorded": "26d6717312241aa6cc01928a4601f4e3037dfebe8020bc4c342ef016fef46d05",
+              "recomputed": "310ee536d1bc9bf16a3049b4690f4a6f538a69fadee1e63a2f453a78239e7928"
+            }
+          }
+        ]
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [
+        "{",
+        "  \"stage\": \"B-evidence-integrated\",",
+        "  \"release_gate\": \"FAILED\",",
+        "  \"generated_at_from\": \"probe_12\",",
+        "  \"failures\": [",
+        "    {"
+      ],
+      "result": "PASS"
+    },
+    {
+      "probe": "篡改代码摘要 code_digest",
+      "change": "把 work/input_lock.json 的 code_digest 改成全 0",
+      "expected": "REJECT",
+      "verify_exit": 0,
+      "checksums_exit": null,
+      "gate_exit": 1,
+      "failing_checks": [],
+      "input_refusal": [],
+      "gate_refusal": [
+        "CODE_DIGEST_STALE: {'recorded': '0000000000000000000000000000000000000000000000000000000000000000', 'current': 'befc0235eb25befdced66c38dcf",
+        "FAULT_REPORT_NOT_BOUND_TO_CODE: {'report': 'befc0235eb25befdced66c38dcf4310473c0b931070631ef1bb86b7768a8b8ad', 'current': '00000000000000000000000000000"
+      ],
+      "refusal_evidence": [
+        "  \"failed\": []",
+        "}",
+        "CODE_DIGEST_STALE: {'recorded': '0000000000000000000000000000000000000000000000000000000000000000', 'current': 'befc0235eb25befdced66c38dcf",
+        "FAULT_REPORT_NOT_BOUND_TO_CODE: {'report': 'befc0235eb25befdced66c38dcf4310473c0b931070631ef1bb86b7768a8b8ad', 'current': '00000000000000000000000000000"
+      ],
+      "release": {
+        "published": false,
+        "gate": "FAILED",
+        "failures": [
+          {
+            "gate": "CODE_DIGEST_STALE",
+            "detail": {
+              "recorded": "0000000000000000000000000000000000000000000000000000000000000000",
+              "current": "befc0235eb25befdced66c38dcf4310473c0b931070631ef1bb86b7768a8b8ad"
+            }
+          },
+          {
+            "gate": "FAULT_REPORT_NOT_BOUND_TO_CODE",
+            "detail": {
+              "report": "befc0235eb25befdced66c38dcf4310473c0b931070631ef1bb86b7768a8b8ad",
+              "current": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+          }
+        ]
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [
+        "{",
+        "  \"stage\": \"B-evidence-integrated\",",
+        "  \"release_gate\": \"FAILED\",",
+        "  \"generated_at_from\": \"probe_13\",",
+        "  \"failures\": [",
+        "    {"
+      ],
+      "result": "PASS"
+    },
+    {
+      "probe": "改事实值",
+      "change": "把傅利叶付费事实改成已付款",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "D8 已发布的表与锁定研究源的重建结果逐字节一致"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "修改当前副本的研究源文件",
+      "change": "把当前副本 work/research/authored_CN_NOETIX.json 的官网改成错误域名",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "L2 每个锁定输入的字节哈希与当前文件一致（换行等价除外）",
+        "I1 固定样本身份映射成立：CN_NOETIX 为松延/Noetix 且不含非夕/Flexiv，其余公司官网主机与 r3 名称对应"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "核验后替换 index.html",
+      "change": "在当前副本 index.html 末尾追加标记",
+      "expected": "REJECT",
+      "verify_exit": 0,
+      "checksums_exit": null,
+      "gate_exit": 1,
+      "failing_checks": [],
+      "input_refusal": [],
+      "gate_refusal": [
+        "INDEX_HTML_CHANGED_AFTER_CHECK: {'report': '12512e6b83fcbd8eae27351ef00b1a7d70bb19ca67f079f81a98680c729ea50a', 'current': '0c92c77723827f13e6a1a068edb5e"
+      ],
+      "refusal_evidence": [
+        "  \"failed\": []",
+        "}",
+        "INDEX_HTML_CHANGED_AFTER_CHECK: {'report': '12512e6b83fcbd8eae27351ef00b1a7d70bb19ca67f079f81a98680c729ea50a', 'current': '0c92c77723827f13e6a1a068edb5e"
+      ],
+      "release": {
+        "published": false,
+        "gate": "FAILED",
+        "failures": [
+          {
+            "gate": "INDEX_HTML_CHANGED_AFTER_CHECK",
+            "detail": {
+              "report": "12512e6b83fcbd8eae27351ef00b1a7d70bb19ca67f079f81a98680c729ea50a",
+              "current": "0c92c77723827f13e6a1a068edb5ea35a36d3990725744abaf126d15a9321f69"
+            }
+          }
+        ]
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [
+        "{",
+        "  \"stage\": \"B-evidence-integrated\",",
+        "  \"release_gate\": \"FAILED\",",
+        "  \"generated_at_from\": \"probe_16\",",
+        "  \"failures\": [",
+        "    {"
+      ],
+      "result": "PASS"
+    },
+    {
+      "probe": "公司主表广告数改为 999",
+      "change": "把 company_profile.csv 中 CN_NOETIX 的 n_ads_inherited 改为 999",
+      "expected": "REJECT",
+      "verify_exit": 0,
+      "checksums_exit": null,
+      "gate_exit": 1,
+      "failing_checks": [],
+      "input_refusal": [],
+      "gate_refusal": [
+        "COMPANY_PROFILE_N_ADS_DRIFT: [{'company_id': 'CN_NOETIX', 't1': '13', 'profile': '999'}]"
+      ],
+      "refusal_evidence": [
+        "  \"failed\": []",
+        "}",
+        "COMPANY_PROFILE_N_ADS_DRIFT: [{'company_id': 'CN_NOETIX', 't1': '13', 'profile': '999'}]"
+      ],
+      "release": {
+        "published": false,
+        "gate": "FAILED",
+        "failures": [
+          {
+            "gate": "COMPANY_PROFILE_N_ADS_DRIFT",
+            "detail": [
+              {
+                "company_id": "CN_NOETIX",
+                "t1": "13",
+                "profile": "999"
+              }
+            ]
+          }
+        ]
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [
+        "{",
+        "  \"stage\": \"B-evidence-integrated\",",
+        "  \"release_gate\": \"FAILED\",",
+        "  \"generated_at_from\": \"probe_17\",",
+        "  \"failures\": [",
+        "    {"
+      ],
+      "result": "PASS"
+    },
+    {
+      "probe": "必需负例失败但计数写成全绿",
+      "change": "把一条 REJECT 探针标 FAIL，同时把 n_pass 写成与 n_probes 相等",
+      "expected": "REJECT",
+      "verify_exit": 0,
+      "checksums_exit": null,
+      "gate_exit": 1,
+      "failing_checks": [],
+      "input_refusal": [],
+      "gate_refusal": [
+        "FAULT_PROBE_FAILED: ['删除一份研究源文件']",
+        "FAULT_REPORT_INCONSISTENT: {'n_pass': 22, 'actual_pass': 21, 'n_probes': 22, 'actual_probes': 22}",
+        "FAULT_PROBES_INCOMPLETE: 21/22 (required 22)"
+      ],
+      "refusal_evidence": [
+        "  \"failed\": []",
+        "}",
+        "FAULT_PROBE_FAILED: ['删除一份研究源文件']",
+        "FAULT_REPORT_INCONSISTENT: {'n_pass': 22, 'actual_pass': 21, 'n_probes': 22, 'actual_probes': 22}",
+        "FAULT_PROBES_INCOMPLETE: 21/22 (required 22)"
+      ],
+      "release": {
+        "published": false,
+        "gate": "FAILED",
+        "failures": [
+          {
+            "gate": "FAULT_PROBE_FAILED",
+            "detail": [
+              "删除一份研究源文件"
+            ]
+          },
+          {
+            "gate": "FAULT_REPORT_INCONSISTENT",
+            "detail": {
+              "n_pass": 22,
+              "actual_pass": 21,
+              "n_probes": 22,
+              "actual_probes": 22
+            }
+          },
+          {
+            "gate": "FAULT_PROBES_INCOMPLETE",
+            "detail": "21/22 (required 22)"
+          }
+        ]
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [
+        "{",
+        "  \"stage\": \"B-evidence-integrated\",",
+        "  \"release_gate\": \"FAILED\",",
+        "  \"generated_at_from\": \"probe_18\",",
+        "  \"failures\": [",
+        "    {"
+      ],
+      "result": "PASS"
+    },
+    {
+      "probe": "替换 Node 检查脚本并保留原成功报告",
+      "change": "改 s08_html_runtime_check.js，保留 work/html_runtime_checks.json",
+      "expected": "REJECT",
+      "verify_exit": 0,
+      "checksums_exit": null,
+      "gate_exit": 1,
+      "failing_checks": [],
+      "input_refusal": [],
+      "gate_refusal": [
+        "CODE_DIGEST_STALE: {'recorded': 'befc0235eb25befdced66c38dcf4310473c0b931070631ef1bb86b7768a8b8ad', 'current': '0f2acad3db978c86bfc61420876",
+        "NODE_SCRIPT_NOT_BOUND: {'report': '4be3a7eb921349b5ea0cfc3bccf6b51857005bbfa8ab27b34a8b2b773c0ea3cb', 'current': 'cc931c14c0e50cae6cd1e2c1e37cf"
+      ],
+      "refusal_evidence": [
+        "  \"failed\": []",
+        "}",
+        "CODE_DIGEST_STALE: {'recorded': 'befc0235eb25befdced66c38dcf4310473c0b931070631ef1bb86b7768a8b8ad', 'current': '0f2acad3db978c86bfc61420876",
+        "NODE_SCRIPT_NOT_BOUND: {'report': '4be3a7eb921349b5ea0cfc3bccf6b51857005bbfa8ab27b34a8b2b773c0ea3cb', 'current': 'cc931c14c0e50cae6cd1e2c1e37cf"
+      ],
+      "release": {
+        "published": false,
+        "gate": "FAILED",
+        "failures": [
+          {
+            "gate": "CODE_DIGEST_STALE",
+            "detail": {
+              "recorded": "befc0235eb25befdced66c38dcf4310473c0b931070631ef1bb86b7768a8b8ad",
+              "current": "0f2acad3db978c86bfc61420876b05b506e8e62adf1e3c933abfaedc5810e89e"
+            }
+          },
+          {
+            "gate": "NODE_SCRIPT_NOT_BOUND",
+            "detail": {
+              "report": "4be3a7eb921349b5ea0cfc3bccf6b51857005bbfa8ab27b34a8b2b773c0ea3cb",
+              "current": "cc931c14c0e50cae6cd1e2c1e37cfa1664cef025d07582eb80ba1a5137052dcf"
+            }
+          }
+        ]
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [
+        "{",
+        "  \"stage\": \"B-evidence-integrated\",",
+        "  \"release_gate\": \"FAILED\",",
+        "  \"generated_at_from\": \"probe_19\",",
+        "  \"failures\": [",
+        "    {"
+      ],
+      "result": "PASS"
+    },
+    {
+      "probe": "融资证据换成产品页且重建合法哈希",
+      "change": "只替换融资证据所指来源，保留 ID；重新生成事实、表与输入锁",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "B5_IDENTITY 同一证据ID保持同一公司与来源身份",
+        "B5_CAPITAL Figure C日期/承诺资本/估值直接来源与产品来源分离"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    },
+    {
+      "probe": "媒体报道升级成外部确认",
+      "change": "将仅有媒体来源的Figure B轮事实改为外部确认",
+      "expected": "REJECT",
+      "verify_exit": 1,
+      "checksums_exit": null,
+      "gate_exit": null,
+      "failing_checks": [
+        "D8 已发布的表与锁定研究源的重建结果逐字节一致",
+        "B5_MEDIA 仅有媒体报道支持的事实不升级为外部确认"
+      ],
+      "input_refusal": [],
+      "gate_refusal": [],
+      "refusal_evidence": [
+        "  ]",
+        "}"
+      ],
+      "release": {
+        "published": false,
+        "gate": "NO_OUTPUT_DOCUMENT"
+      },
+      "verify_stdout_tail": [
+        "}"
+      ],
+      "checksums_stdout_tail": [],
+      "gate_stdout_tail": [],
+      "result": "PASS"
+    }
+  ],
+  "bound_to": {
+    "run_id": "run_20260915T073556Z",
+    "input_root_digest": "26d6717312241aa6cc01928a4601f4e3037dfebe8020bc4c342ef016fef46d05",
+    "code_digest": "befc0235eb25befdced66c38dcf4310473c0b931070631ef1bb86b7768a8b8ad"
+  }
+}

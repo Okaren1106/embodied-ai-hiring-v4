@@ -1,0 +1,286 @@
+{
+  "status": "PASS",
+  "review_stage": "Final visual review after column-width corrections; all ten pages pass",
+  "reviewed_at_utc": "2026-09-26T04:04:23.855744+00:00",
+  "method": "All ten initial PNG pages were individually shown with tools.view_image in batches of at most three. Corrected Tables page 3 and Supplement page 3 were viewed again. The final Tables page 3 was viewed after the last width change; the other nine final PNGs were verified byte-identical to their latest individually viewed and accepted images. Visual review is separate from CSV/table arithmetic verification.",
+  "documents": [
+    {
+      "name": "IJM_Research_Tables",
+      "pages_reported": 3,
+      "words_reported": 422,
+      "pdf_path": "verification/word_export_3ab4f1dd50bd44eda12f8891407c605e/IJM_Research_Tables.pdf",
+      "pdf_sha256": "4280ba5bcae68b63eb15f37778536c354b5767e6d88d6dedd018eaa7603227c1",
+      "docx_path": "release/IJM_Research_Tables.docx",
+      "docx_sha256": "c0912ef4aea8a20ae1237ea767da88e290e9667e889253ae18eabf15f144b01b",
+      "pdf_modified_ns": 1790395308693687800,
+      "docx_modified_ns": 1790395297629327400
+    },
+    {
+      "name": "IJM_Research_Supplement",
+      "pages_reported": 7,
+      "words_reported": 2624,
+      "pdf_path": "verification/word_export_3ab4f1dd50bd44eda12f8891407c605e/IJM_Research_Supplement.pdf",
+      "pdf_sha256": "0e3e605954c816d4938620702f0cba45ece42106aafbe28a4111f93c7339eec5",
+      "docx_path": "release/IJM_Research_Supplement.docx",
+      "docx_sha256": "12bdf732fe079e08e8ce7da65f071bf5aa4ad3ae175e45efb8d7cc9e82e31791",
+      "pdf_modified_ns": 1790395309641891800,
+      "docx_modified_ns": 1790395297548547500
+    }
+  ],
+  "pages_reviewed": 10,
+  "page_results": [
+    {
+      "document": "IJM_Research_Tables",
+      "page": 1,
+      "rendered_png": "verification/rendered/IJM_Research_Tables/page-01.png",
+      "png_sha256": "41ec848e648b6efe1c6fc57f67d0350b8e60dfb13392f5611220ec5febc246c5",
+      "viewed_with": "tools.view_image",
+      "visually_inspected": true,
+      "status": "PASS",
+      "conclusion": "Table I and notes fit on one page. All columns and signed ranges are readable; task groups are clear. No clipping, glyph corruption, isolated title or overflow.",
+      "current_render_review_basis": "Byte-identical to individually viewed and accepted PNG"
+    },
+    {
+      "document": "IJM_Research_Tables",
+      "page": 2,
+      "rendered_png": "verification/rendered/IJM_Research_Tables/page-02.png",
+      "png_sha256": "cb44a7bd3a947dbfc5261054ae844308aa7368046097e26064089b1405017da5",
+      "viewed_with": "tools.view_image",
+      "visually_inspected": true,
+      "status": "PASS",
+      "conclusion": "Table II and notes fit on one page. Some construct labels and ranges wrap within cells but remain readable and associated with the correct row. No clipping, corruption or overflow.",
+      "current_render_review_basis": "Byte-identical to individually viewed and accepted PNG"
+    },
+    {
+      "document": "IJM_Research_Tables",
+      "page": 3,
+      "rendered_png": "verification/rendered/IJM_Research_Tables/page-03.png",
+      "png_sha256": "456a801d992d692035b6d3240c251174c19eda4795ca213c7476a09cbd26128d",
+      "viewed_with": "tools.view_image",
+      "visually_inspected": true,
+      "status": "PASS",
+      "conclusion": "Table III and note fit on one page. Minimum, Supported and Conditional remain intact; line breaks occur between complete words. All counts, denominators and classification columns are legible. No clipping, glyph corruption or overflow.",
+      "current_render_review_basis": "Viewed final PNG with tools.view_image"
+    },
+    {
+      "document": "IJM_Research_Supplement",
+      "page": 1,
+      "rendered_png": "verification/rendered/IJM_Research_Supplement/page-01.png",
+      "png_sha256": "c34d8c17ccf555cbaed745a0f71a9ea962402a3c44690dc04a14c364491a8a1d",
+      "viewed_with": "tools.view_image",
+      "visually_inspected": true,
+      "status": "PASS",
+      "conclusion": "Title, sections S1-S2 and construct bullets are legible and within margins. Last paragraph continues normally onto page 2; no isolated heading or missing text.",
+      "current_render_review_basis": "Byte-identical to individually viewed and accepted PNG"
+    },
+    {
+      "document": "IJM_Research_Supplement",
+      "page": 2,
+      "rendered_png": "verification/rendered/IJM_Research_Supplement/page-02.png",
+      "png_sha256": "53c265f3546fdb9629cbb4846eff12535676ae4711f9b32f1df5bd0555848f95",
+      "viewed_with": "tools.view_image",
+      "visually_inspected": true,
+      "status": "PASS",
+      "conclusion": "Table S1 is complete and legible. Q superscript P and subset-equality formula render correctly. Paired lower/upper indicator formulas and subscripts are intact. No clipping or corruption.",
+      "current_render_review_basis": "Byte-identical to individually viewed and accepted PNG"
+    },
+    {
+      "document": "IJM_Research_Supplement",
+      "page": 3,
+      "rendered_png": "verification/rendered/IJM_Research_Supplement/page-03.png",
+      "png_sha256": "090318123e114ea4acbe4350a0e792d41a792fcad24e89c9113551453ac8a5f2",
+      "viewed_with": "tools.view_image",
+      "visually_inspected": true,
+      "status": "PASS",
+      "conclusion": "Table S2 headers Firms and Python-PyTorch render without word-internal breaks. Tables S2-S4 fit with legible values and complete rows. S4 explanatory paragraph continues normally on page 4.",
+      "current_render_review_basis": "Byte-identical to individually viewed and accepted PNG"
+    },
+    {
+      "document": "IJM_Research_Supplement",
+      "page": 4,
+      "rendered_png": "verification/rendered/IJM_Research_Supplement/page-04.png",
+      "png_sha256": "efa505909e5c371ecf2673dab83292c3614f940856cd0af64814a22d75f421af",
+      "viewed_with": "tools.view_image",
+      "visually_inspected": true,
+      "status": "PASS",
+      "conclusion": "Section S6 and Chinese cue characters display correctly. Table S5 begins late on the page, with its first three body rows. No row is split or clipped. Optional improvement: keep this four-row table together rather than leaving only its last row for page 5.",
+      "current_render_review_basis": "Byte-identical to individually viewed and accepted PNG"
+    },
+    {
+      "document": "IJM_Research_Supplement",
+      "page": 5,
+      "rendered_png": "verification/rendered/IJM_Research_Supplement/page-05.png",
+      "png_sha256": "8d70186cb2070db15710cafb91e8d7bf9553c76e480f682677da21efb6acdb64",
+      "viewed_with": "tools.view_image",
+      "visually_inspected": true,
+      "status": "PASS",
+      "conclusion": "Table S5 continuation repeats the full header and contains its final row and notes, all legible. Table S6 and section S8 are complete and readable. The split is understandable but keeping S5 together would improve comparison.",
+      "current_render_review_basis": "Byte-identical to individually viewed and accepted PNG"
+    },
+    {
+      "document": "IJM_Research_Supplement",
+      "page": 6,
+      "rendered_png": "verification/rendered/IJM_Research_Supplement/page-06.png",
+      "png_sha256": "b92f94bbef033ace2e964745c3fd11f1946b02a464121bd3cc6c655b8b4935df",
+      "viewed_with": "tools.view_image",
+      "visually_inspected": true,
+      "status": "PASS",
+      "conclusion": "Table S7 fits with readable classification headers. 1/B_H and 1/B_L formulas render with subscripts. Sections S9-S11 have no isolated headings; long source paths stay within margins.",
+      "current_render_review_basis": "Byte-identical to individually viewed and accepted PNG"
+    },
+    {
+      "document": "IJM_Research_Supplement",
+      "page": 7,
+      "rendered_png": "verification/rendered/IJM_Research_Supplement/page-07.png",
+      "png_sha256": "0d28a9f5be5f6546cf988702b2d2c12e154a985919ef0ef170986c6e64df0571",
+      "viewed_with": "tools.view_image",
+      "visually_inspected": true,
+      "status": "PASS",
+      "conclusion": "Continued reproduction paths and final paragraphs are legible, with no clipped or overlong lines, corruption or stray blank page. Substantial lower white space is normal for the final page.",
+      "current_render_review_basis": "Byte-identical to individually viewed and accepted PNG"
+    }
+  ],
+  "word_statistics_path": "verification/word_statistics.json",
+  "word_statistics_sha256": "e8abf369f0868931e4dcdb5f4b6d96e9ab4345a3188c1960a695bb3281a06538",
+  "required_fixes": [],
+  "optional_pagination_improvement": {
+    "document": "IJM_Research_Supplement",
+    "pages": [
+      4,
+      5
+    ],
+    "table": "S5",
+    "issue": "Only the fourth body row continues on page 5, with a correctly repeated header. Keeping all four rows together would be easier to compare.",
+    "disposition": "Accepted as readable: no row split, no clipping, and full repeated header; no blocking revision required."
+  },
+  "not_observed": [
+    "clipped numeric values",
+    "missing or corrupted Chinese cue glyphs",
+    "formula corruption",
+    "page-boundary content overflow",
+    "isolated section headings"
+  ],
+  "changes_made_to_manuscripts_or_documents": false,
+  "issues_reported_to_root": true,
+  "requires_followup_visual_review": false,
+  "final_render_comparison": {
+    "compared_pages": 10,
+    "unchanged_from_previous_inspected_render": 9,
+    "changed_pages": [
+      [
+        "IJM_Research_Tables",
+        3
+      ]
+    ],
+    "all_changed_pages_reinspected": true
+  },
+  "initial_review": {
+    "reviewed_at_utc": "2026-09-26T03:55:26.980798+00:00",
+    "documents": [
+      {
+        "name": "IJM_Research_Tables",
+        "pages_reported": 3,
+        "words_reported": 422,
+        "pdf_path": "verification/word_export_864eb3e140c24acfa9c779c8fe87deee/IJM_Research_Tables.pdf",
+        "pdf_sha256": "b6a33301234e643324c887521e474bfea79e8d245eb484ce9376f7868a763bd2",
+        "docx_path": "release/IJM_Research_Tables.docx",
+        "docx_sha256": "dec88ae18a94be82c55bd9de735d06d7b07a9a68423da5a3532234224df6ae04",
+        "pdf_modified_ns": 1790394607861100600,
+        "docx_modified_ns": 1790394588408719100
+      },
+      {
+        "name": "IJM_Research_Supplement",
+        "pages_reported": 7,
+        "words_reported": 2624,
+        "pdf_path": "verification/word_export_864eb3e140c24acfa9c779c8fe87deee/IJM_Research_Supplement.pdf",
+        "pdf_sha256": "34bfb186e916c3d0a0b4b6cdffbf6b03f99d78b2335533493c8906202b8040af",
+        "docx_path": "release/IJM_Research_Supplement.docx",
+        "docx_sha256": "009fa26278d1c34fd95679fa006eb6bf216a3d288de4b52b3151da4bb38f0e3f",
+        "pdf_modified_ns": 1790394608827230300,
+        "docx_modified_ns": 1790394588328465600
+      }
+    ],
+    "page_hashes": [
+      {
+        "document": "IJM_Research_Tables",
+        "page": 1,
+        "png_sha256": "41ec848e648b6efe1c6fc57f67d0350b8e60dfb13392f5611220ec5febc246c5"
+      },
+      {
+        "document": "IJM_Research_Tables",
+        "page": 2,
+        "png_sha256": "cb44a7bd3a947dbfc5261054ae844308aa7368046097e26064089b1405017da5"
+      },
+      {
+        "document": "IJM_Research_Tables",
+        "page": 3,
+        "png_sha256": "25c7c165b6fa28dc49a8267720aaf454f26a99131db1d82ef865ce8a1669916b"
+      },
+      {
+        "document": "IJM_Research_Supplement",
+        "page": 1,
+        "png_sha256": "c34d8c17ccf555cbaed745a0f71a9ea962402a3c44690dc04a14c364491a8a1d"
+      },
+      {
+        "document": "IJM_Research_Supplement",
+        "page": 2,
+        "png_sha256": "53c265f3546fdb9629cbb4846eff12535676ae4711f9b32f1df5bd0555848f95"
+      },
+      {
+        "document": "IJM_Research_Supplement",
+        "page": 3,
+        "png_sha256": "946737e6700c6d197802bc2f24e9fa12c82b5a53b3bb926ba623e5907e09386b"
+      },
+      {
+        "document": "IJM_Research_Supplement",
+        "page": 4,
+        "png_sha256": "efa505909e5c371ecf2673dab83292c3614f940856cd0af64814a22d75f421af"
+      },
+      {
+        "document": "IJM_Research_Supplement",
+        "page": 5,
+        "png_sha256": "8d70186cb2070db15710cafb91e8d7bf9553c76e480f682677da21efb6acdb64"
+      },
+      {
+        "document": "IJM_Research_Supplement",
+        "page": 6,
+        "png_sha256": "b92f94bbef033ace2e964745c3fd11f1946b02a464121bd3cc6c655b8b4935df"
+      },
+      {
+        "document": "IJM_Research_Supplement",
+        "page": 7,
+        "png_sha256": "0d28a9f5be5f6546cf988702b2d2c12e154a985919ef0ef170986c6e64df0571"
+      }
+    ],
+    "required_fixes": [
+      {
+        "document": "IJM_Research_Tables",
+        "page": 3,
+        "table": "III",
+        "issue": "Hard breaks inside Supported and Conditional caused by header column widths."
+      },
+      {
+        "document": "IJM_Research_Supplement",
+        "page": 3,
+        "table": "S2",
+        "issue": "Hard breaks inside Firms and PyTorch caused by header column widths."
+      }
+    ]
+  },
+  "correction_history": [
+    {
+      "round": "initial",
+      "issue": "Word-internal header breaks in Table III Supported and Conditional, and Table S2 Firms and PyTorch.",
+      "resolution": "Column widths rebalanced."
+    },
+    {
+      "round": "second",
+      "issue": "Table S2 passed; Table III Minimum acquired a word-internal break.",
+      "resolution": "Table III first column widened; final PNG verified all affected words intact."
+    }
+  ],
+  "final_page_status_counts": {
+    "PASS": 10
+  },
+  "optional_note_is_blocking": false
+}

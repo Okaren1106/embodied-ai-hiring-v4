@@ -1,0 +1,4097 @@
+{
+  "catalog_version": "Q2-v2.1",
+  "coding_version": "grok4.6-Q2-v2.1-first-pass",
+  "reader": "grok4.6",
+  "contributors": [
+    "grok4.6"
+  ],
+  "queue_sha256": "8815c0e72e571ac260f9a7ff1feb374fb21dab4613dd01ef5b22a32077a134d4",
+  "ads": {
+    "N0205": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "COLLECTION_SITE_OPS",
+      "secondary_task": "",
+      "task_evidence": "作为数采场经营管理第一责任人，对数采场有效产能、数据质量和项目交付负责",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数采场运营。外包供应商管理记采购优先。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_ASTRIBOT|moka|37119491-3bb1-4be9-8550-e3a6ee8662ff|942e65dfaff76da5224f36081c56fad62a0cc878a5f10a644f088ddc95fc9e9a",
+      "company_id": "CN_ASTRIBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 6,
+        "end": 41,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "作为数采场经营管理第一责任人，对数采场有效产能、数据质量和项目交付负责"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "942e65dfaff76da5224f36081c56fad62a0cc878a5f10a644f088ddc95fc9e9a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.699782+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0728": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "FIELD_DATA_PLATFORM",
+      "secondary_task": "",
+      "task_evidence": "Design and build the data platform, frameworks, and developer tooling that power ingestion across Field AI.",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "OUTSIDE:REST/gRPC/webhooks未单列冻结项。",
+        "3": "OUTSIDE:REST/gRPC/webhooks未单列冻结项。",
+        "4": "OUTSIDE:REST/gRPC/webhooks未单列冻结项。",
+        "5": "OUTSIDE:CDC未单列冻结项。",
+        "6": "REJECT:C++ is not the C language.",
+        "7": "OUTSIDE:Scala未单列冻结项。",
+        "8": [
+          [
+            "V2_KAFKA",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0728:8",
+        "10": "OUTSIDE:Kinesis未单列冻结项。",
+        "11": "OUTSIDE:Pub/Sub未单列冻结项。",
+        "12": [
+          [
+            "V2_AIRFLOW",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "13": "DUPLICATE:N0728:12",
+        "14": "OUTSIDE:Dagster未单列冻结项。",
+        "15": [
+          [
+            "V2_SNOWFLAKE",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_DATABRICKS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "16": "OUTSIDE:BigQuery未单列冻结项。",
+        "17": "DUPLICATE:N0728:15",
+        "18": "DUPLICATE:N0728:15",
+        "19": "OUTSIDE:Redshift未单列冻结项。",
+        "20": "OUTSIDE:ELT未单列冻结项。",
+        "21": "OUTSIDE:Fivetran未单列冻结项。",
+        "22": "OUTSIDE:Airbyte未单列冻结项。",
+        "23": "OUTSIDE:Debezium未单列冻结项。",
+        "24": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "25": [
+          [
+            "V2_MCAP",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ROSBAG",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "26": "DUPLICATE:N0728:25",
+        "27": "DUPLICATE:N0728:25"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "FieldAI数据平台。Kafka/Airflow/Snowflake/Databricks/MCAP/rosbag保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|6b4eb49d-a515-404f-b12e-aeeb0d95ccfd|e0537ea7d0839fc890940687453bbe080430f379e869cb6dfc546d47e479909e",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 27,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 22,
+        "end": 129,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design and build the data platform, frameworks, and developer tooling that power ingestion across Field AI."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "e0537ea7d0839fc890940687453bbe080430f379e869cb6dfc546d47e479909e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.699782+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0571": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "EGO_DATA_ALGO",
+      "secondary_task": "",
+      "task_evidence": "探索 EgoCentric 数据在具身大模型中的应用，推动其在机器人学习、任务理解与策略训练中的落地",
+      "new": {
+        "1": [
+          [
+            "V2_WORLD_MODEL",
+            "SEPARATE",
+            "BACKGROUND"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_WORLD_MODEL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0571:4",
+        "6": [
+          [
+            "V2_WORLD_MODEL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "OUTSIDE:LIBERO未单列冻结项。",
+        "8": "OUTSIDE:RoboCasa未单列冻结项。",
+        "9": "REJECT:LoRA/分布式训练不是模型压缩。",
+        "10": "OUTSIDE:Transformers未单列冻结项。",
+        "11": "REJECT:LoRA不是模型压缩。",
+        "12": "OUTSIDE:FluxVLA开源codebase未单列冻结项。",
+        "13": [
+          [
+            "V2_WORLD_MODEL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Ego数据算法。World Model保留。LoRA不记压缩。Git协作保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7654153980553447706|d3dab4da24312f8a5e7c01b0a8c9563f9181b95fbf64558a1e161a7dfc6dd7d6",
+      "company_id": "CN_LIMX",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 40,
+      "reviewed_candidate_count": 13,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 57,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "探索 EgoCentric 数据在具身大模型中的应用，推动其在机器人学习、任务理解与策略训练中的落地"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "d3dab4da24312f8a5e7c01b0a8c9563f9181b95fbf64558a1e161a7dfc6dd7d6",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.699782+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0404": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "AUTO_LABEL_VLM",
+      "secondary_task": "",
+      "task_evidence": "负责基于 VLM 的具身智能数据预标注体系建设",
+      "new": {
+        "1": [
+          [
+            "V2_POSTTRAINING",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "OUTSIDE:CLIP未单列冻结项。",
+        "3": "OUTSIDE:LLaVA未单列冻结项。",
+        "4": "DUPLICATE:N0404:1",
+        "5": "DUPLICATE:N0404:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据标注。SFT/RLHF保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7611082957214353714|a24d6ecb7997ee71d284ac061ce85c37a4faa77a1c2e4247783ea12f7fdb3384",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 31,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责基于 VLM 的具身智能数据预标注体系建设"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "a24d6ecb7997ee71d284ac061ce85c37a4faa77a1c2e4247783ea12f7fdb3384",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.700780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0364": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "FLEET_DATA_PLATFORM",
+      "secondary_task": "",
+      "task_evidence": "Design and implement scalable data pipelines for ingesting and processing telemetry, logs and sensor data from our fleet of robots",
+      "new": {
+        "1": [
+          [
+            "V2_SPARK",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ],
+          [
+            "V2_KAFKA",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ]
+        ],
+        "2": [
+          [
+            "V2_AWS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_AWS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_GCP",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_AZURE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": [
+          [
+            "V2_SPARK",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_FLINK",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_KAFKA",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": [
+          [
+            "V2_PARQUET",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "6": [
+          [
+            "V2_PROMETHEUS",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "7": [
+          [
+            "V2_DATABRICKS",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_UNITY",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "8": [
+          [
+            "V2_DATABRICKS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": [
+          [
+            "V2_BAZEL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "REJECT:C++ is not the C language.",
+        "11": [
+          [
+            "V2_MCAP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "REJECT:Salary USD is not Universal Scene Description.",
+        "13": "REJECT:第三方招聘免责声明不是人力资源技能项。",
+        "14": "OUTSIDE:fluentbit/OpenTelemetry未单列冻结项。",
+        "15": [
+          [
+            "V2_AWS",
+            "PREFERRED",
+            "EXAMPLE"
+          ]
+        ],
+        "16": "DUPLICATE:E0364:4",
+        "17": "DUPLICATE:E0364:7"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据平台。Spark/Kafka/云/Databricks/MCAP保留。Unity Catalog记Unity。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6144405004|4c459fe5c6a4268122294154a887408b5d628ebc2207846c054fcca555be725a",
+      "company_id": "US_AGILITY",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 17,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 16,
+        "end": 146,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design and implement scalable data pipelines for ingesting and processing telemetry, logs and sensor data from our fleet of robots"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "4c459fe5c6a4268122294154a887408b5d628ebc2207846c054fcca555be725a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.700780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0170": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "UMI_PIPELINE",
+      "secondary_task": "",
+      "task_evidence": "负责开源无本体数据集与真实机器人自采数据的采集、筛选、清洗及规范化处理",
+      "new": {
+        "1": [
+          [
+            "V2_POSTTRAINING",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PANDAS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "UMI数据管线。后训练保留。WAM未写明世界动作模型不记世界模型。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7648939084267096347|c63f9080f6f20d11693c8c478e2205796ba1d5e0bdda2e76cd005b3989bee551",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 19,
+        "end": 54,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责开源无本体数据集与真实机器人自采数据的采集、筛选、清洗及规范化处理"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "c63f9080f6f20d11693c8c478e2205796ba1d5e0bdda2e76cd005b3989bee551",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.700780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0101": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "MM_DATA_LOOP",
+      "secondary_task": "",
+      "task_evidence": "设计并落地从数据清洗、标注、筛选、验证到入库的数据处理体系",
+      "new": {
+        "1": [
+          [
+            "V2_POSTTRAINING",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_POSTTRAINING",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_PANDAS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_SPARK",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": "DUPLICATE:N0101:3",
+        "5": "DUPLICATE:N0101:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "多模态数据算法。SFT/RLHF与Pandas/Spark保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|b2596f48-ae97-42b9-9a9d-ff4088efb1cd|a0a0d47ca38adb0c596419c62cd219c7bdc73914835e8c446c87ada7aa494643",
+      "company_id": "CN_GALBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 26,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 20,
+        "end": 49,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "设计并落地从数据清洗、标注、筛选、验证到入库的数据处理体系"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "a0a0d47ca38adb0c596419c62cd219c7bdc73914835e8c446c87ada7aa494643",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.700780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0073": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "DATA_FACTORY_PLATFORM",
+      "secondary_task": "",
+      "task_evidence": "负责数据工厂平台的业务流程开发,实现数据采集任务派发、人员/设备调度、数据标注、质量监控等全流程管理功能",
+      "new": {
+        "1": [
+          [
+            "V2_SQL_MYSQL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_POSTGRESQL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_MONGODB",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "AI平台。MySQL/PostgreSQL/MongoDB保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7576846335350049034|9b5303c1d5df41eb9c9a8573d215f8cba61c07e999edc4ce4def7b7d3a57eb17",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 54,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责数据工厂平台的业务流程开发,实现数据采集任务派发、人员/设备调度、数据标注、质量监控等全流程管理功能"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "9b5303c1d5df41eb9c9a8573d215f8cba61c07e999edc4ce4def7b7d3a57eb17",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.700780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0556": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "SHIFT_COORD_SP",
+      "secondary_task": "",
+      "task_evidence": "Atuar em parceria com os Project Coordinators e o time de Data Quality para identificar e resolver problemas no momento da criação dos dados.",
+      "new": {
+        "1": "REJECT:Project Coordinators不是Microsoft Project。",
+        "2": [
+          [
+            "V2_MOCAP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数创班次协调。动捕经验保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4701747006|9853fc629912f3960e721b02b1dfa3edb4b593925d69f634bd6879d094b257d3",
+      "company_id": "US_FIGURE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 4,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2116,
+        "end": 2257,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Atuar em parceria com os Project Coordinators e o time de Data Quality para identificar e resolver problemas no momento da criação dos dados."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "9853fc629912f3960e721b02b1dfa3edb4b593925d69f634bd6879d094b257d3",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.701780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0591": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "SHIFT_LEAD",
+      "secondary_task": "",
+      "task_evidence": "Provide daily boots-on-the-ground leadership to drive data collection",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数采班组长。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|e501e135-9407-4b14-a8e8-c131f89be61d|12f7c1741b815dbf5f37cc1f7a35aaf9e4ee969240f9893e4a4690c1baa8350c",
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 27,
+        "end": 96,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Provide daily boots-on-the-ground leadership to drive data collection"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "12f7c1741b815dbf5f37cc1f7a35aaf9e4ee969240f9893e4a4690c1baa8350c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.701780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0510": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "AUTO_LABEL_NAV",
+      "secondary_task": "",
+      "task_evidence": "负责具身导航数据自动标注算法研发与体系建设，提升标注效率，降低标注成本",
+      "new": {
+        "1": [
+          [
+            "V2_MCAP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0510:1",
+        "3": "OUTSIDE:OpenDrive未单列冻结项。",
+        "4": "OUTSIDE:Apollo未单列冻结项。",
+        "5": "OUTSIDE:Autoware未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "自动标注。MCAP保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|6803272d-c533-439a-b44d-b66d7b6a5055|e7a9f297e801b7cbcae5d9b2b3d44fd5a5c47bdded3dd362490a67d0a366af1b",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 10,
+        "end": 45,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责具身导航数据自动标注算法研发与体系建设，提升标注效率，降低标注成本"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "e7a9f297e801b7cbcae5d9b2b3d44fd5a5c47bdded3dd362490a67d0a366af1b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.701780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0991": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DATA_OPS_SUPERVISOR",
+      "secondary_task": "",
+      "task_evidence": "Oversee contractors and internal employees responsible for ML annotation tasks, robot teleoperation, and building data assets.",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "SEPARATE",
+            "BACKGROUND"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_JIRA",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0991:3",
+        "5": "OUTSIDE:VR未单列冻结项。",
+        "6": [
+          [
+            "V2_JIRA",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GOOGLE_WORKSPACE",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "7": "DUPLICATE:N0991:6",
+        "8": "DUPLICATE:N0991:6"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据运营主管。遥操作监管保留。Jira/Google Workspace保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|6935dbabc35c10014b68f3cc53d00000|72f3d2de6f7cb63c4f6a3c68ac2b2ed12767413f5d48dda8e9055c1e2257e296",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1077,
+        "end": 1203,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Oversee contractors and internal employees responsible for ML annotation tasks, robot teleoperation, and building data assets."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "72f3d2de6f7cb63c4f6a3c68ac2b2ed12767413f5d48dda8e9055c1e2257e296",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.701780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0715": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PRODUCT",
+      "fine_task": "ANNOTATION_PM",
+      "secondary_task": "",
+      "task_evidence": "Technical Product Manager - Data Annotation & Labelling",
+      "new": {
+        "1": "REJECT:Salary USD is not Universal Scene Description."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "标注产品经理。标题作任务证据因职责段为公司介绍。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5123735008|0209cf747d8aee83e77dae0a191ba78733404e430a557d2669f39cefbf5c0bca",
+      "company_id": "US_SKILD",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 726,
+        "end": 781,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Technical Product Manager - Data Annotation & Labelling"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "0209cf747d8aee83e77dae0a191ba78733404e430a557d2669f39cefbf5c0bca",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.701780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0956": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PRODUCT",
+      "fine_task": "DATA_STRATEGY_PM",
+      "secondary_task": "",
+      "task_evidence": "Product Manager, Data Strategy & Physical AI to define and execute the long-term product vision",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "OUTSIDE:privacy/legal/security pipelines未单列冻结项。",
+        "3": "OUTSIDE:privacy/legal/security pipelines未单列冻结项。",
+        "4": "REJECT:dataset pruning/token curation不是模型压缩。",
+        "5": "REJECT:English can is not Controller Area Network.",
+        "6": "OUTSIDE:MLOps未单列冻结项。",
+        "7": "REJECT:洛杉矶县安全合作条款不是客服技能项。",
+        "8": "REJECT:招聘联系人不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "FAR数据策略PM。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AMAZON_FTR|amazon|10470408|c15cb035173cd16ed32a1e9ea8748618bcfc282a2ef0df902e45f6f42d45beaa",
+      "company_id": "US_AMAZON_FTR",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 19,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 29,
+        "end": 124,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Product Manager, Data Strategy & Physical AI to define and execute the long-term product vision"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "c15cb035173cd16ed32a1e9ea8748618bcfc282a2ef0df902e45f6f42d45beaa",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.702780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0079": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "ROBOT_DATA_OPS",
+      "secondary_task": "",
+      "task_evidence": "负责机器人数据工程的全流程实施,包括数据采集、清洗、审核、标注、归档、上传等",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机器人数据运营。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|2060189838933491712|1aa448835a2cc54d2fb3906f7993cdbf44fb6f52f90577919d48d104fc40926d",
+      "company_id": "CN_UNITREE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 41,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人数据工程的全流程实施,包括数据采集、清洗、审核、标注、归档、上传等"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "1aa448835a2cc54d2fb3906f7993cdbf44fb6f52f90577919d48d104fc40926d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.702780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0316": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "EMBODIED_DATA_ALGO",
+      "secondary_task": "",
+      "task_evidence": "构建高质量数据获取与管理流程，支撑具身智能模型训练与迭代",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Python / C++不是C语言。",
+        "4": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "具身数据算法。遥操作采集保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|061791dc-3f28-4206-988c-cbbf89d73b57|630928a5007366aa1686317462ef6d21616f71bed6e9218a8d706a6205c470c1",
+      "company_id": "CN_PAXINI",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 35,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 20,
+        "end": 48,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "构建高质量数据获取与管理流程，支撑具身智能模型训练与迭代"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "630928a5007366aa1686317462ef6d21616f71bed6e9218a8d706a6205c470c1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:05.702780+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0901": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "COLLECTION_OPS_HEAD",
+      "secondary_task": "",
+      "task_evidence": "you will manage the operational systems and teams responsible for sourcing, collecting, labeling, auditing, and delivering the data",
+      "new": {
+        "1": "REJECT:Series C funding不是C语言。",
+        "2": "REJECT:数据寻源sourcing不是采购职责。",
+        "3": [
+          [
+            "V2_SOP_OPERATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数采运营负责人。SOP保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4327784009|54f785380e98458b82537976b9e7d11ac07159599c7791db8a4f8cee8d5cddc3",
+      "company_id": "US_NIMBLE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2944,
+        "end": 3075,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "you will manage the operational systems and teams responsible for sourcing, collecting, labeling, auditing, and delivering the data"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "54f785380e98458b82537976b9e7d11ac07159599c7791db8a4f8cee8d5cddc3",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.545025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0214": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "LAKEHOUSE",
+      "secondary_task": "",
+      "task_evidence": "构建 PB-EB 级多模态数据基础设施，支撑视频、图片、日志、标签等数据统一管理",
+      "new": {
+        "1": "REJECT:Python / Java / Go / C++不是单独的C语言项。",
+        "2": [
+          [
+            "V2_SPARK",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_FLINK",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": "DUPLICATE:N0214:2",
+        "4": "DUPLICATE:N0214:2",
+        "5": "OUTSIDE:Trino未单列冻结项。",
+        "6": "OUTSIDE:Iceberg未单列冻结项。",
+        "7": "OUTSIDE:Paimon未单列冻结项。",
+        "8": "OUTSIDE:Hudi未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "湖仓大数据。Spark/Flink保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_ASTRIBOT|moka|afdd217a-5699-4198-ab32-7b584365aa04|2bafdf75ee24186ed516fda6805c4df5a560cb6efe886f307806b1a68aee0c86",
+      "company_id": "CN_ASTRIBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 30,
+        "end": 70,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "构建 PB-EB 级多模态数据基础设施，支撑视频、图片、日志、标签等数据统一管理"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "2bafdf75ee24186ed516fda6805c4df5a560cb6efe886f307806b1a68aee0c86",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.545025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0729": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "FIELD_DATA_PIPELINES",
+      "secondary_task": "",
+      "task_evidence": "Develop connectors and APIs (REST/gRPC, webhooks, CDC) so internal teams can feed data in and consume curated datasets reliably.",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "OUTSIDE:REST/gRPC/webhooks未单列冻结项。",
+        "3": "OUTSIDE:REST/gRPC/webhooks未单列冻结项。",
+        "4": "OUTSIDE:REST/gRPC/webhooks未单列冻结项。",
+        "5": "OUTSIDE:CDC未单列冻结项。",
+        "6": "REJECT:C++ is not the C language.",
+        "7": "OUTSIDE:Scala未单列冻结项。",
+        "8": [
+          [
+            "V2_KAFKA",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0729:8",
+        "10": "OUTSIDE:Kinesis未单列冻结项。",
+        "11": "OUTSIDE:Pub/Sub未单列冻结项。",
+        "12": [
+          [
+            "V2_AIRFLOW",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "13": "DUPLICATE:N0729:12",
+        "14": "OUTSIDE:Dagster未单列冻结项。",
+        "15": [
+          [
+            "V2_SNOWFLAKE",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_DATABRICKS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "16": "OUTSIDE:BigQuery未单列冻结项。",
+        "17": "DUPLICATE:N0729:15",
+        "18": "DUPLICATE:N0729:15",
+        "19": "OUTSIDE:Redshift未单列冻结项。",
+        "20": "OUTSIDE:ELT未单列冻结项。",
+        "21": "OUTSIDE:Fivetran未单列冻结项。",
+        "22": "OUTSIDE:Airbyte未单列冻结项。",
+        "23": "OUTSIDE:Debezium未单列冻结项。",
+        "24": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "25": [
+          [
+            "V2_MCAP",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ROSBAG",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "26": "DUPLICATE:N0729:25",
+        "27": "DUPLICATE:N0729:25",
+        "28": [
+          [
+            "V2_DBT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "29": "DUPLICATE:N0729:28",
+        "30": "REJECT:Irvine office不是Microsoft Office。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "FieldAI数据管线。dbt保留。办公地点拒收Office。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|50714ca7-eb31-47f7-a6b0-a5060765e4ea|89289f406569269318924a424780cc314a518b8cc9e35e07ea5a1e3f7ed79ce1",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 30,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2557,
+        "end": 2685,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Develop connectors and APIs (REST/gRPC, webhooks, CDC) so internal teams can feed data in and consume curated datasets reliably."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "89289f406569269318924a424780cc314a518b8cc9e35e07ea5a1e3f7ed79ce1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.545025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0417": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "EDGE_CLOUD_DATA",
+      "secondary_task": "",
+      "task_evidence": "构建从千台级机器人到云端的实时数据回传链路",
+      "new": {
+        "1": "REJECT:C++/Rust不是C语言。",
+        "2": [
+          [
+            "V2_TCPIP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0417:2",
+        "4": [
+          [
+            "V2_KAFKA",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": "DUPLICATE:N0417:4",
+        "6": "OUTSIDE:RabbitMQ未单列冻结项。",
+        "7": "OUTSIDE:S3未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "分布式数据。TCP/IP与Kafka保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7589154940427356459|46d4f09c385d0cafa80e22f9edd0d84b4391417589c9ff108953ee691cdcd51a",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 18,
+        "end": 39,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "构建从千台级机器人到云端的实时数据回传链路"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "46d4f09c385d0cafa80e22f9edd0d84b4391417589c9ff108953ee691cdcd51a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.545025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0430": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "EDGE_CLOUD_DATA",
+      "secondary_task": "",
+      "task_evidence": "将物理分布在不同地点的数千台机器人产生的数据，实时、可靠地回传至云端",
+      "new": {
+        "1": "REJECT:C++/Rust不是C语言。",
+        "2": [
+          [
+            "V2_TCPIP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0430:2",
+        "4": [
+          [
+            "V2_KAFKA",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": "DUPLICATE:N0430:4",
+        "6": "OUTSIDE:RabbitMQ未单列冻结项。",
+        "7": "OUTSIDE:S3未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "分布式数据。TCP/IP与Kafka保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7572136563711543593|4470645bb01e92568aec3c4ea8e58608cbadcc3bcfcfc6f3123e8e37e6ed1f0e",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 108,
+        "end": 142,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "将物理分布在不同地点的数千台机器人产生的数据，实时、可靠地回传至云端"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "4470645bb01e92568aec3c4ea8e58608cbadcc3bcfcfc6f3123e8e37e6ed1f0e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.545025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0407": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ANALYTICS",
+      "fine_task": "OPS_METRICS",
+      "secondary_task": "",
+      "task_evidence": "制定机器人的运营指标树",
+      "new": {
+        "1": [
+          [
+            "V2_SPARK",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_PYTEST",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "2": "DUPLICATE:N0407:1",
+        "3": "OUTSIDE:requests未单列冻结项。",
+        "4": "DUPLICATE:N0407:1",
+        "5": "OUTSIDE:ASR/NLU/TTS未单列冻结项。",
+        "6": "OUTSIDE:ASR/NLU/TTS未单列冻结项。",
+        "7": "OUTSIDE:ASR/NLU/TTS未单列冻结项。",
+        "8": [
+          [
+            "V2_CI_CD",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "DUPLICATE:N0407:8"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据闭环指标。pyspark/pytest/CI/CD保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7600669099098376457|b7203b6d5faf32a936db7de8518de28a0b3fe525d52654777bff0acb6bfa7955",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 6,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 17,
+        "end": 28,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "制定机器人的运营指标树"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b7203b6d5faf32a936db7de8518de28a0b3fe525d52654777bff0acb6bfa7955",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.546025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0215": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "DATA_LOOP",
+      "secondary_task": "",
+      "task_evidence": "负责数据闭环体系的设计，制定数据采集、标注、训练、验证到闭环回流的整体战略和技术路线",
+      "new": {
+        "1": "OUTSIDE:MLOps未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据闭环工程师。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_ASTRIBOT|moka|5e9d58b4-36a5-4bd8-b1a0-0554de74073f|f005d9212e8a6784ab77cf1d91a1cce6674deddef3d584f67231a06ab96574d0",
+      "company_id": "CN_ASTRIBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 10,
+        "end": 52,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责数据闭环体系的设计，制定数据采集、标注、训练、验证到闭环回流的整体战略和技术路线"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "f005d9212e8a6784ab77cf1d91a1cce6674deddef3d584f67231a06ab96574d0",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.546025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0487": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "AUTO_LABEL_SIM",
+      "secondary_task": "",
+      "task_evidence": "开发操作数据的自动标注算法（关键点检测、动作切片、抓取轨迹提取等）",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "OUTSIDE:SD/ControlNet未单列冻结项。",
+        "3": "OUTSIDE:SD/ControlNet未单列冻结项。",
+        "4": [
+          [
+            "V2_UNITY",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_UNREAL",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0487:4",
+        "6": "DUPLICATE:N0487:4",
+        "7": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": [
+          [
+            "V2_3D_RECONSTRUCTION",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "9": "DUPLICATE:N0487:8",
+        "10": "DUPLICATE:N0487:8"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "具身数据算法。Sim2Real/Unity/Unreal/遥操作/3D重建保留。材质光照不记CMF。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|101a6baf-ca3e-479e-9b46-b3802737b676|697df5ea756e1e4ade13c31b7202457418d93778da641bd44de9b789808deea1",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 31,
+      "reviewed_candidate_count": 10,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 74,
+        "end": 107,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "开发操作数据的自动标注算法（关键点检测、动作切片、抓取轨迹提取等）"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "697df5ea756e1e4ade13c31b7202457418d93778da641bd44de9b789808deea1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.546025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0513": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "DATA_ENGINE",
+      "secondary_task": "",
+      "task_evidence": "负责具身智能数据平台的数据引擎建设，面向大规模多模态数据场景",
+      "new": {
+        "1": "REJECT:Python、C++、Java并列不是单独C语言项。",
+        "2": [
+          [
+            "V2_PARQUET",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_MCAP",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_ROSBAG",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "3": "DUPLICATE:N0513:2",
+        "4": "DUPLICATE:N0513:2",
+        "5": "OUTSIDE:HDF5未单列冻结项。",
+        "6": "DUPLICATE:N0513:2",
+        "7": "OUTSIDE:Arrow未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据引擎。Parquet/MCAP/rosbag保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|44bdbb33-6a8d-4e77-9ff9-240c0346f4b4|94b787185ce441e7b6d1c5c4417c0b79f4f72f02f50bfac8d19deb4a680c3237",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 19,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 6,
+        "end": 36,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责具身智能数据平台的数据引擎建设，面向大规模多模态数据场景"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "94b787185ce441e7b6d1c5c4417c0b79f4f72f02f50bfac8d19deb4a680c3237",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.546025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0507": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "DATA_PLATFORM_SVC",
+      "secondary_task": "",
+      "task_evidence": "参与数据平台服务层的架构设计与核心能力建设",
+      "new": {
+        "1": [
+          [
+            "V2_TYPESCRIPT",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:N0507:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据平台。TypeScript保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|7c8fa862-0e12-4269-95f4-7a0494ee7590|ba54b29d8bcd06a4d8c94c885c74485ae2d8b09ec28ddecb2e4e270badb23379",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 83,
+        "end": 104,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与数据平台服务层的架构设计与核心能力建设"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "ba54b29d8bcd06a4d8c94c885c74485ae2d8b09ec28ddecb2e4e270badb23379",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.546025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0494": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "AUTO_LABEL_ALGO",
+      "secondary_task": "",
+      "task_evidence": "负责具身导航数据自动标注算法研发，提升标注效率与质量",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "自动标注算法。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|bbe10924-f16c-4418-9c65-8afc945e89c0|a3c987c9d96e002f6fd86fc3eb39009705df5831defc63b875bb65d9a107ed68",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 11,
+        "end": 37,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责具身导航数据自动标注算法研发，提升标注效率与质量"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "a3c987c9d96e002f6fd86fc3eb39009705df5831defc63b875bb65d9a107ed68",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.547025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0151": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "COLLECTION_FULLSTACK",
+      "secondary_task": "",
+      "task_evidence": "搭建并优化机器人数据采集链路，负责机器人真机数采与无本体数采方案设计与落地",
+      "new": {
+        "1": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ],
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0151:2",
+        "4": "REJECT:薪酬竞争力不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数采全栈。C/C++按C未解。故障排查保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|09b3eeeb-cf06-44fd-be2a-0f4640c090a1|5146b413bc4304fcc16b056baaa41e85161f167329be74d8d2f12eb5373ae6d3",
+      "company_id": "CN_GALBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 139,
+        "end": 176,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "搭建并优化机器人数据采集链路，负责机器人真机数采与无本体数采方案设计与落地"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "5146b413bc4304fcc16b056baaa41e85161f167329be74d8d2f12eb5373ae6d3",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.547025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0161": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "COLLECTION_MGMT",
+      "secondary_task": "",
+      "task_evidence": "负责搭建和验证具身智能数据采集标注工作流程",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_BLENDER",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_UNREAL",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "4": "OUTSIDE:DCC设计流程未单列冻结项。",
+        "5": "DUPLICATE:N0161:3",
+        "6": "DUPLICATE:N0161:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数采管理。供应商导入记采购。Blender/Unreal保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|2bc25886-6c28-404a-b032-8988c104c664|abcb417f56fefd7e5c1f4536706986b528bf7c946fee47c8c809ca4552992208",
+      "company_id": "CN_GALBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 4,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 30,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责搭建和验证具身智能数据采集标注工作流程"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "abcb417f56fefd7e5c1f4536706986b528bf7c946fee47c8c809ca4552992208",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.547025+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0037": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "COLLECTION_FULLSTACK",
+      "secondary_task": "",
+      "task_evidence": "搭建并优化机器人数据采集链路，负责机器人真机数采与无本体数采方案设计与落地",
+      "new": {
+        "1": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ],
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "基建全栈。C/C++按C未解。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|51e6dbbe-3288-4a41-907a-3d59e64f36e4|d99c499a8d43d40b003b4077cd9978259ad9dfb4c173b0a0495af773a3fa0f71",
+      "company_id": "CN_GALBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 129,
+        "end": 166,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "搭建并优化机器人数据采集链路，负责机器人真机数采与无本体数采方案设计与落地"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "d99c499a8d43d40b003b4077cd9978259ad9dfb4c173b0a0495af773a3fa0f71",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.547535+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0131": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "ANNOTATION_BACKEND",
+      "secondary_task": "",
+      "task_evidence": "负责机器人多模态标注平台的后端和数据基础设施建设",
+      "new": {
+        "1": [
+          [
+            "V2_MCAP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0131:1",
+        "3": [
+          [
+            "V2_MCAP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_POSTGRESQL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0131:4",
+        "6": [
+          [
+            "V2_TYPESCRIPT",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_REACT",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_VUE",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "7": "DUPLICATE:N0131:6",
+        "8": "DUPLICATE:N0131:6",
+        "9": "DUPLICATE:N0131:6"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "标注平台后端。MCAP/PostgreSQL/TS/React/Vue保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|be495c45-5748-4669-b7dc-aff124eedd11|78b3882d30b6c23e596b6aa2f4137775ca37e6f23487aa47f1082dc5069f51c1",
+      "company_id": "CN_GALBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 6,
+        "end": 30,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人多模态标注平台的后端和数据基础设施建设"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "78b3882d30b6c23e596b6aa2f4137775ca37e6f23487aa47f1082dc5069f51c1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.547535+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0089": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DATA_QUALITY",
+      "secondary_task": "",
+      "task_evidence": "负责机器人多模态数据全生命周期质量管控，覆盖采集、质检、标注、清洗、入库、复用全链路",
+      "new": {
+        "1": "OUTSIDE:PDCA未单列冻结项。",
+        "2": [
+          [
+            "V2_MCAP",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_ROSBAG",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "3": "OUTSIDE:UMI未单列冻结项。",
+        "4": "OUTSIDE:Ego未单列冻结项。",
+        "5": "DUPLICATE:N0089:2",
+        "6": "DUPLICATE:N0089:2",
+        "7": "OUTSIDE:GB/T 36344未单列冻结项。",
+        "8": "OUTSIDE:ISO/IEC 5259未单列冻结项。",
+        "9": "OUTSIDE:PDCA未单列冻结项。",
+        "10": [
+          [
+            "V2_SHELL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "DUPLICATE:N0089:10"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据质量。rosbag/mcap/Shell保留。C++优先不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|d8e926a4-b126-4c72-87af-0a4185c8c6a3|3468cf4ca57c550e24666ca0b5b4bafec3aadd2e5102b407aef1f7d2f2ee7a97",
+      "company_id": "CN_GALBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 11,
+        "end": 53,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人多模态数据全生命周期质量管控，覆盖采集、质检、标注、清洗、入库、复用全链路"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "3468cf4ca57c550e24666ca0b5b4bafec3aadd2e5102b407aef1f7d2f2ee7a97",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:14:06.547535+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0135": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "OLAP_MINING",
+      "secondary_task": "ANALYTICS",
+      "task_evidence": "面向AI 模型数据挖掘、样本筛选、特征探查场景，搭建数据挖掘服务平台",
+      "new": {
+        "1": "OUTSIDE:OLAP引擎研发经验未单列冻结项。",
+        "2": [
+          [
+            "V2_CLICKHOUSE",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "3": "OUTSIDE:Apache Doris未单列冻结项。",
+        "4": "OUTSIDE:StarRocks未单列冻结项。",
+        "5": "DUPLICATE:N0135:2",
+        "6": "OUTSIDE:Trino未单列冻结项。",
+        "7": "OUTSIDE:Iceberg未单列冻结项。",
+        "8": "REJECT:Java/go/C++不是单独C语言项。",
+        "9": [
+          [
+            "V2_SPARK",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_FLINK",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "10": "OUTSIDE:湖仓一体架构表述未单列冻结项。",
+        "11": "DUPLICATE:N0135:9",
+        "12": "DUPLICATE:N0135:9"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "OLAP研发。ClickHouse/Spark/Flink保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|da54b680-55b1-4244-8034-392a49659beb|8b438897535ecefe246047c577331e188449a3fc4d831c183418e198c76136bd",
+      "company_id": "CN_GALBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 12,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 6,
+        "end": 40,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "面向AI 模型数据挖掘、样本筛选、特征探查场景，搭建数据挖掘服务平台"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "8b438897535ecefe246047c577331e188449a3fc4d831c183418e198c76136bd",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.146560+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0094": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "DATA_SDK",
+      "secondary_task": "",
+      "task_evidence": "将质量校验、清洗、标注、配比等业务逻辑抽象为单一职责的数据处理算子，集成至 Airflow / Ray 等调度框架",
+      "new": {
+        "1": [
+          [
+            "V2_POSTTRAINING",
+            "SEPARATE",
+            "BACKGROUND"
+          ]
+        ],
+        "2": [
+          [
+            "V2_AWS",
+            "SEPARATE",
+            "BACKGROUND"
+          ]
+        ],
+        "3": "OUTSIDE:类SQL或DSL未单列冻结项。",
+        "4": "DUPLICATE:N0094:2",
+        "5": [
+          [
+            "V2_AIRFLOW",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ]
+        ],
+        "6": "DUPLICATE:N0094:5",
+        "7": [
+          [
+            "V2_MCAP",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ],
+          [
+            "V2_ROSBAG",
+            "DUTY_OWN_USE",
+            "CHOICE"
+          ]
+        ],
+        "8": "DUPLICATE:N0094:7",
+        "9": "DUPLICATE:N0094:7",
+        "10": "OUTSIDE:HDF5未单列冻结项。",
+        "11": "OUTSIDE:DSL未单列冻结项。",
+        "12": [
+          [
+            "V2_MCAP",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ROSBAG",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "13": "DUPLICATE:N0094:12",
+        "14": "DUPLICATE:N0094:12",
+        "15": "OUTSIDE:HDF5未单列冻结项。",
+        "16": "REJECT:C++关键路径不是单独C语言项。",
+        "17": "OUTSIDE:dataclass未单列冻结项。",
+        "18": "OUTSIDE:asyncio未单列冻结项。",
+        "19": [
+          [
+            "V2_AIRFLOW",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "20": "DUPLICATE:N0094:19",
+        "21": "OUTSIDE:Open-X-Embodiment未单列冻结项。",
+        "22": "OUTSIDE:DROID未单列冻结项。",
+        "23": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据SDK。Airflow/MCAP/rosbag/传感器标定保留。AWS ARN为类比对象。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|f2b57e98-3d15-4f91-b7ee-4d88cc5ed3e9|c6b85f090314c916dd0408b77ec8d3d21848b4503ab5d292bb4018af70362d87",
+      "company_id": "CN_GALBOT",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 30,
+      "reviewed_candidate_count": 23,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 487,
+        "end": 544,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "将质量校验、清洗、标注、配比等业务逻辑抽象为单一职责的数据处理算子，集成至 Airflow / Ray 等调度框架"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "c6b85f090314c916dd0408b77ec8d3d21848b4503ab5d292bb4018af70362d87",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.147561+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0309": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "COLLECTION_PLANT",
+      "secondary_task": "",
+      "task_evidence": "全面负责数据采集工厂的日常运营，对数据采集任务的交付质量、效率、成本及安全负最终责任",
+      "new": {
+        "1": [
+          [
+            "V2_RCA",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0309:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数采厂长。RCA保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|20f8de39-639a-468b-8f12-17138504906b|fac0b06f0c5375d1f89bd9846c652142d98fdf455c5b300543741a68a180ceda",
+      "company_id": "CN_PAXINI",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 4,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 44,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "全面负责数据采集工厂的日常运营，对数据采集任务的交付质量、效率、成本及安全负最终责任"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "fac0b06f0c5375d1f89bd9846c652142d98fdf455c5b300543741a68a180ceda",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.147561+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0305": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "SCENE_DESIGN",
+      "secondary_task": "",
+      "task_evidence": "主导多模态具身智能数据采集的场景架构设计",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "场景设计。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|53861bcc-75a3-41da-ae7a-24211177ee90|bde405bbae319cd005a12b4df8c8499e8f5e4f71aa914dd276563fc3c4fa93b1",
+      "company_id": "CN_PAXINI",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 12,
+        "end": 32,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "主导多模态具身智能数据采集的场景架构设计"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "bde405bbae319cd005a12b4df8c8499e8f5e4f71aa914dd276563fc3c4fa93b1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.148065+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0072": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "BIGDATA_ENGINE",
+      "secondary_task": "",
+      "task_evidence": "负责具身智能大数据平台/引擎架构设计与核心组件开发",
+      "new": {
+        "1": [
+          [
+            "V2_SPARK",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_FLINK",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_KAFKA",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CLICKHOUSE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": "DUPLICATE:E0072:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "大数据平台。Spark/Flink/Kafka/ClickHouse保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7577650581163657491|1822ef362f6c8dfe4ed8e190bf807dd8a5be25e917bbe5d51cc95c698db3dcc9",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 27,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责具身智能大数据平台/引擎架构设计与核心组件开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "1822ef362f6c8dfe4ed8e190bf807dd8a5be25e917bbe5d51cc95c698db3dcc9",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.148065+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0065": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "DATA_QC_ALGO",
+      "secondary_task": "",
+      "task_evidence": "负责多模态(视觉、触觉、语言、Action)数据的清洗算法研发",
+      "new": {
+        "1": "REJECT:数据多样性量化分析不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据模型算法。量化分析拒收压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7597315896877680959|d0b49caa2b243da97a1a84ee419447d81b82b28c71aee723cadf2d469e36c457",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 15,
+        "end": 46,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责多模态(视觉、触觉、语言、Action)数据的清洗算法研发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "d0b49caa2b243da97a1a84ee419447d81b82b28c71aee723cadf2d469e36c457",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.148065+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0027": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DATA_QC_TEST",
+      "secondary_task": "",
+      "task_evidence": "搭建具身智能多模态采集数据的质检体系与量化标准",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "质检测试。传感器标定保留。量化标准不记压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7667395072321276211|078446ba6582e4f0081cd441d42e3cdef189e53a0fb69c6c0421a958721c453d",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 26,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "搭建具身智能多模态采集数据的质检体系与量化标准"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "078446ba6582e4f0081cd441d42e3cdef189e53a0fb69c6c0421a958721c453d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.148065+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0081": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "MM_PIPELINE",
+      "secondary_task": "",
+      "task_evidence": "设计高吞吐量数据流水线,用于摄取、验证和转换机器人多模态数据",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据管线。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|2046858311420084224|4ff137f6a79a49f98123e75600ce6ab3f891bad0932c59b64baad03f2c627b44",
+      "company_id": "CN_UNITREE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 2,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 33,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "设计高吞吐量数据流水线,用于摄取、验证和转换机器人多模态数据"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "4ff137f6a79a49f98123e75600ce6ab3f891bad0932c59b64baad03f2c627b44",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.148065+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0083": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ANALYTICS",
+      "fine_task": "DATA_EVAL",
+      "secondary_task": "",
+      "task_evidence": "设计并实现机器人多模态交互数据的分布建模与处理体系,对大规模具身数据进行价值评估",
+      "new": {
+        "1": "REJECT:数据质量与模型性能量化指标不是模型压缩。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据评估。量化指标拒收压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|2046858623123980288|07db847c96a7587d1d969c7457022f474ccabf231bd250eb79fccf35d499f450",
+      "company_id": "CN_UNITREE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 4,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 43,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "设计并实现机器人多模态交互数据的分布建模与处理体系,对大规模具身数据进行价值评估"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "07db847c96a7587d1d969c7457022f474ccabf231bd250eb79fccf35d499f450",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.149067+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0297": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "MM_GT",
+      "secondary_task": "",
+      "task_evidence": "您将深度参与下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作",
+      "new": {
+        "1": "REJECT:数据分布量化不是模型压缩。",
+        "2": [
+          [
+            "V2_PANDAS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "OUTSIDE:PCA/t-SNE未单列冻结项。",
+        "4": "DUPLICATE:E0297:2"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "多模态数据真值。Pandas保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7508596961512458533|db393b22f45abcd07e6fa5b0c243225f6fb024052985103782a3b79529dbc078",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 39,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "您将深度参与下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "db393b22f45abcd07e6fa5b0c243225f6fb024052985103782a3b79529dbc078",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.149067+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0202": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "OUTSOURCE_OPS",
+      "secondary_task": "",
+      "task_evidence": "负责采集团队日常管理:人员排班、任务分配、目标拆解、过程督导与绩效考核",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据运营外包。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7629247332186458387|e06dcf046399272d1d45a4787c3bb55f8104f4207cdf7ebbe9a371b6c7b02328",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 1,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 37,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责采集团队日常管理:人员排班、任务分配、目标拆解、过程督导与绩效考核"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "e06dcf046399272d1d45a4787c3bb55f8104f4207cdf7ebbe9a371b6c7b02328",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.149067+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0201": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "EMBODIED_DATA_OPS",
+      "secondary_task": "",
+      "task_evidence": "负责机器人训练数据的采集、清洗、标注、质检、交付全流程项目管理",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_TELEOP",
+            "SEPARATE",
+            "BACKGROUND"
+          ],
+          [
+            "V2_MOCAP",
+            "SEPARATE",
+            "BACKGROUND"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SOP_OPERATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CURSOR",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_CLAUDE_CODE",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "4": "DUPLICATE:E0201:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "具身数据运营。供应商管理记采购。SOP/Cursor/Claude Code保留。遥操动捕为供应商对象。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7629250005233207598|eefc1313de64a26d21df8ae684ccb4e502ca1c2519a2ee11be3db73a7293e0f3",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 18,
+        "end": 49,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人训练数据的采集、清洗、标注、质检、交付全流程项目管理"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "eefc1313de64a26d21df8ae684ccb4e502ca1c2519a2ee11be3db73a7293e0f3",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.149067+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0171": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "TACTILE_INFRA",
+      "secondary_task": "",
+      "task_evidence": "负责多模态触觉数据采集与推理基础设施建设",
+      "new": {
+        "1": "REJECT:Python / C++不是C语言。"
+      },
+      "old_overrides": {
+        "O3": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS短词定位为空，改为Python/C++与ROS/ROS2句。",
+          "quote": "熟悉 Python / C++，熟悉 ROS / ROS2"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "触觉Infra。ROS继承改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7646764817688758578|545c29d2422f5452003b176ca327da056f9664dbce21e2aa74045464b36ef3aa",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 22,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责多模态触觉数据采集与推理基础设施建设"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "545c29d2422f5452003b176ca327da056f9664dbce21e2aa74045464b36ef3aa",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.149067+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0162": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "LLM_DATA_PLATFORM",
+      "secondary_task": "",
+      "task_evidence": "负责机器人/多模态数据湖仓与高并发数据闭环平台建设",
+      "new": {
+        "1": [
+          [
+            "V2_ROSBAG",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SHELL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_ROSBAG",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_SPARK",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_FLINK",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_CLICKHOUSE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": [
+          [
+            "V2_SQL_MYSQL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_POSTGRESQL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_KAFKA",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CI_CD",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O1": {
+          "metric": "GENERAL",
+          "branch": "CHOICE",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原Python短词定位为空，改为Python或Go句。",
+          "quote": "熟练 Python 或 Go，具备高并发服务、并发编程、异步任务、工程化开发和测试经验"
+        },
+        "O2": {
+          "metric": "GENERAL",
+          "branch": "CHOICE",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原Go短词定位为空，改为同一Python或Go句。",
+          "quote": "熟练 Python 或 Go，具备高并发服务、并发编程、异步任务、工程化开发和测试经验"
+        },
+        "O3": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原Python短词定位为空，改为双栈优先句。",
+          "quote": "Python/Go 双栈优先"
+        },
+        "O4": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原Go短词定位为空，改为双栈优先句。",
+          "quote": "Python/Go 双栈优先"
+        },
+        "O6": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS短词定位为空，改为ROS/ROS2和rosbag句。",
+          "quote": "熟悉 ROS/ROS2 和 rosbag，具备机器人多源数据解析、转换、同步或性能优化经验"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "大模型数据平台。rosbag/Spark/Kafka/CI/标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7654864943757691145|af8cb6488c55a4283f530759450c690a84e58aae0fdf068d2643c041d013dbc5",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 20,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 5,
+        "end": 30,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人/多模态数据湖仓与高并发数据闭环平台建设"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "af8cb6488c55a4283f530759450c690a84e58aae0fdf068d2643c041d013dbc5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.149067+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0118": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "MM_GT",
+      "secondary_task": "",
+      "task_evidence": "您将深度参与下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作",
+      "new": {
+        "1": "REJECT:数据分布量化不是模型压缩。",
+        "2": [
+          [
+            "V2_PANDAS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O7": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原多模态大模型短词定位为空，改为了解范式句。",
+          "quote": "了解多模态大模型范式，熟悉多模态数据的清洗/标注/统计方式"
+        },
+        "O9": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原多模态大模型短词定位为空，改为训练经验加分句。",
+          "quote": "有实际多模态大模型训练经验"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "多模态数据真值。Pandas保留。大模型继承改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7672276158764140809|bce511770d3033f9b5c7bc53b218d932a2647be0ad5745d001159aa9f98896fe",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 5,
+        "end": 44,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "您将深度参与下一代多模态大模型 (语言-视觉-动作) 的数据真值构建与评测工作"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "bce511770d3033f9b5c7bc53b218d932a2647be0ad5745d001159aa9f98896fe",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.150067+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0307": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "ANALYTICS",
+      "fine_task": "CI_ANALYST",
+      "secondary_task": "",
+      "task_evidence": "Own process improvement initiatives end-to-end using a structured, DMAIC style approach",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": [
+          [
+            "V2_LEAN",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:English can is not Controller Area Network.",
+        "4": [
+          [
+            "V2_JIRA",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:English can is not Controller Area Network.",
+        "6": [
+          [
+            "V2_LEAN",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_VISIO",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_MIRO",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "8": "REJECT:English can is not Controller Area Network.",
+        "9": "REJECT:English can is not Controller Area Network.",
+        "10": "REJECT:English can is not Controller Area Network.",
+        "11": [
+          [
+            "V2_JIRA",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_MS_PROJECT",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "12": [
+          [
+            "V2_POWERBI",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "13": "REJECT:Salem office不是Microsoft Office。",
+        "14": "REJECT:Salary USD is not Universal Scene Description.",
+        "15": "REJECT:第三方招聘免责声明不是人力资源技能项。",
+        "16": "DUPLICATE:E0307:6",
+        "17": "DUPLICATE:E0307:7",
+        "18": "DUPLICATE:E0307:11",
+        "19": "DUPLICATE:E0307:12"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "持续改进分析。Lean/Jira/Visio/Miro/PowerBI保留。MS Project未单记。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|5990022004|7ef771bd5efd86c8b1545d6ac88aa3f2918a7ba4ec5fdbdbaf5473d8dea9abf5",
+      "company_id": "US_AGILITY",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 19,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 87,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own process improvement initiatives end-to-end using a structured, DMAIC style approach"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "7ef771bd5efd86c8b1545d6ac88aa3f2918a7ba4ec5fdbdbaf5473d8dea9abf5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.150067+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0344": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "ANALYTICS",
+      "fine_task": "ROBOT_DS",
+      "secondary_task": "",
+      "task_evidence": "Build models that predict MTBF and remaining useful life for specific components",
+      "new": {
+        "1": [
+          [
+            "V2_RCA",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:English can is not Controller Area Network.",
+        "3": "REJECT:Salary USD is not Universal Scene Description.",
+        "4": "REJECT:第三方招聘免责声明不是人力资源技能项。"
+      },
+      "old_overrides": {
+        "O3": {
+          "metric": "PREFERRED",
+          "branch": "CHOICE",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原survival analysis短词定位为空，改为可靠性与生存分析句。",
+          "quote": "PhD and coursework/experience in reliability engineering, survival analysis, or applied statistics preferred"
+        },
+        "O4": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原survival analysis短词定位为空，改为同一可靠性与生存分析句。",
+          "quote": "PhD and coursework/experience in reliability engineering, survival analysis, or applied statistics preferred"
+        },
+        "O17": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "OWN_USE",
+          "reason": "原reliability短词定位为空，改为预测性维护与硬件可靠性句。",
+          "quote": "Predictive maintenance & hardware reliability"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机器人数据科学家。RCA保留。生存分析继承改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6127729004|3b62ce62e2fd18c2bbb4c43403de4f327f26505dbe086856e2a55346af6df731",
+      "company_id": "US_AGILITY",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 48,
+        "end": 128,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Build models that predict MTBF and remaining useful life for specific components"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "3b62ce62e2fd18c2bbb4c43403de4f327f26505dbe086856e2a55346af6df731",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.982986+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0959": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "FAR_DATA_PLATFORM",
+      "secondary_task": "",
+      "task_evidence": "you will build and maintain the data infrastructure that powers our robotics manipulation research",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": [
+          [
+            "V2_TYPESCRIPT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_REACT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_TYPESCRIPT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_REACT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:English can is not Controller Area Network.",
+        "6": "OUTSIDE:ETL processes未单列冻结项。",
+        "7": "REJECT:洛杉矶县安全合作条款不是客服技能项。",
+        "8": "REJECT:招聘联系人不是人力资源技能项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "FAR数据平台。TypeScript/React保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AMAZON_FTR|amazon|10440315|165261494460524df3644827b49f0b3550ec7e0726f720d62b5e2fd24cb9465c",
+      "company_id": "US_AMAZON_FTR",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1238,
+        "end": 1336,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "you will build and maintain the data infrastructure that powers our robotics manipulation research"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "165261494460524df3644827b49f0b3550ec7e0726f720d62b5e2fd24cb9465c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.982986+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N1022": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DATA_OPS_SUPERVISOR",
+      "secondary_task": "",
+      "task_evidence": "Oversee contractors and internal employees responsible for ML annotation tasks, robot teleoperation, and building data assets.",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "SEPARATE",
+            "BACKGROUND"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_JIRA",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N1022:3",
+        "5": "OUTSIDE:VR未单列冻结项。",
+        "6": [
+          [
+            "V2_JIRA",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_GOOGLE_WORKSPACE",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "7": "DUPLICATE:N1022:6",
+        "8": "DUPLICATE:N1022:6"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据运营主管。遥操作监管保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|2ecda71fdddd1001164df69ee2950000|dc3fa97a072c17e633dad071b4c239bb856eaf60ca61b6148b29ae50f09cb802",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1079,
+        "end": 1205,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Oversee contractors and internal employees responsible for ML annotation tasks, robot teleoperation, and building data assets."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "dc3fa97a072c17e633dad071b4c239bb856eaf60ca61b6148b29ae50f09cb802",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.982986+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N1020": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "ATLAS_DATA_TPM",
+      "secondary_task": "",
+      "task_evidence": "to own data quality and annotation operations for Atlas",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Atlas数据运营TPM。无新候选。标题若无法定位将改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|44c34aed4ea21001feb1d43bb98b0000|9cfeb7772185e77b491b3fc78bf11247a90a70a54d44de36697ec5902037f228",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 12,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 485,
+        "end": 540,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "to own data quality and annotation operations for Atlas"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "9cfeb7772185e77b491b3fc78bf11247a90a70a54d44de36697ec5902037f228",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.982986+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0812": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DATA_OPS_ENG",
+      "secondary_task": "",
+      "task_evidence": "Run motion capture, teleoperation, and human-subjects data collection sessions yourself",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_MOCAP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_MOCAP",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "3": "OUTSIDE:Vicon未单列冻结项。",
+        "4": "OUTSIDE:OptiTrack未单列冻结项。",
+        "5": "REJECT:3D scanning and 3D printing不是CNC工艺。",
+        "6": "OUTSIDE:IRB/consent未单列冻结项。",
+        "7": [
+          [
+            "V2_BLENDER",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_UNITY",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "8": "DUPLICATE:N0812:7",
+        "9": "DUPLICATE:N0812:7",
+        "10": "REJECT:English can is not Controller Area Network.",
+        "11": "REJECT:English can is not Controller Area Network.",
+        "12": "REJECT:English can is not Controller Area Network."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据运营工程师。遥操/动捕/Blender/Unity保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|8a92d84f-7512-4d64-8d3a-c29b304358d6|b2a85697c617206d97e474fc56511e2089c74215af7915f0d41080caec7075cc",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 19,
+      "reviewed_candidate_count": 12,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1791,
+        "end": 1878,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Run motion capture, teleoperation, and human-subjects data collection sessions yourself"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b2a85697c617206d97e474fc56511e2089c74215af7915f0d41080caec7075cc",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.983990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0836": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "DATA_ENG",
+      "secondary_task": "",
+      "task_evidence": "Build reliable ingestion, transformation, and orchestration workflows using tools such as Airflow.",
+      "new": {
+        "1": [
+          [
+            "V2_AIRFLOW",
+            "DUTY_OWN_USE",
+            "EXAMPLE"
+          ]
+        ],
+        "2": "DUPLICATE:N0836:1",
+        "3": [
+          [
+            "V2_AWS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0836:3",
+        "5": [
+          [
+            "V2_AIRFLOW",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N0836:5",
+        "7": [
+          [
+            "V2_AWS",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "8": "OUTSIDE:S3未单列冻结项。",
+        "9": "OUTSIDE:Lambda未单列冻结项。",
+        "10": "OUTSIDE:ECS未单列冻结项。",
+        "11": "OUTSIDE:EC2未单列冻结项。",
+        "12": "OUTSIDE:RDS未单列冻结项。",
+        "13": "OUTSIDE:Redshift未单列冻结项。",
+        "14": "OUTSIDE:Glue未单列冻结项。",
+        "15": "OUTSIDE:Athena未单列冻结项。",
+        "16": "OUTSIDE:SQS未单列冻结项。",
+        "17": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "18": [
+          [
+            "V2_AWS",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_TERRAFORM",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "19": "DUPLICATE:N0836:18",
+        "20": "DUPLICATE:N0836:18",
+        "21": "OUTSIDE:CloudFormation未单列冻结项。",
+        "22": [
+          [
+            "V2_SNOWFLAKE",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_DATABRICKS",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "23": "OUTSIDE:Redshift未单列冻结项。",
+        "24": "DUPLICATE:N0836:22",
+        "25": "OUTSIDE:BigQuery未单列冻结项。",
+        "26": "DUPLICATE:N0836:22",
+        "27": "OUTSIDE:Athena未单列冻结项。",
+        "28": [
+          [
+            "V2_CI_CD",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "29": "DUPLICATE:N0836:28"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据工程。Airflow/AWS/Terraform/Snowflake/Databricks/CI保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|e3b7bac7-5410-44bb-964c-02815fbd0c97|fd531746304f3e8edc75a33dcd8b1c8bfed0b148a9bd2493fc70e5b6b5330efd",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 29,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1346,
+        "end": 1444,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Build reliable ingestion, transformation, and orchestration workflows using tools such as Airflow."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "fd531746304f3e8edc75a33dcd8b1c8bfed0b148a9bd2493fc70e5b6b5330efd",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.983990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0486": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "HELIX_DATA_INFRA",
+      "secondary_task": "",
+      "task_evidence": "Design, build, and maintain tools and software components that offload, store, manipulate and provide access to robot data",
+      "new": {
+        "1": "REJECT:公司介绍不是Microsoft Office。",
+        "2": [
+          [
+            "V2_SQL_MYSQL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_POSTGRESQL",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_REDIS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": [
+          [
+            "V2_AWS",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_GCP",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_AZURE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "4": [
+          [
+            "V2_SLURM",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": [
+          [
+            "V2_TERRAFORM",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_ANSIBLE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "6": "DUPLICATE:E0486:2",
+        "7": "DUPLICATE:E0486:4",
+        "8": "DUPLICATE:E0486:5"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Helix数据基建。数据库/云/Slurm/Terraform/Ansible保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4345915006|1acc9bda4975b424f6bd983d77a9a90810aecc03525170adfce928b6178c4313",
+      "company_id": "US_FIGURE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 8,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 122,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design, build, and maintain tools and software components that offload, store, manipulate and provide access to robot data"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "1acc9bda4975b424f6bd983d77a9a90810aecc03525170adfce928b6178c4313",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.983990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0458": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DATA_STRATEGY_ASSOC",
+      "secondary_task": "",
+      "task_evidence": "Own end-to-end execution of running robot data collection in diverse residential homes",
+      "new": {
+        "1": "REJECT:公司介绍不是Microsoft Office。",
+        "2": "REJECT:program/project management不是Microsoft Project。",
+        "3": [
+          [
+            "V2_GOOGLE_WORKSPACE",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:English can is not Controller Area Network.",
+        "5": "DUPLICATE:E0458:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据策略助理。Google Workspace保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4664781006|0ddeeccce7af3dbc303ec70d8ff55282446e2aa0a5f9a8534cc689b629399c09",
+      "company_id": "US_FIGURE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 4,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 35,
+        "end": 121,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own end-to-end execution of running robot data collection in diverse residential homes"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "0ddeeccce7af3dbc303ec70d8ff55282446e2aa0a5f9a8534cc689b629399c09",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.983990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0511": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DQ_PARTNERSHIPS",
+      "secondary_task": "",
+      "task_evidence": "Own the full external vendor portfolio for Data Quality: sourcing, evaluation, onboarding, and offboarding of data labeling and review partners.",
+      "new": {
+        "1": "REJECT:you'll/project/calibration不是MS Project或传感器标定。",
+        "2": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Project Coordinators不是Microsoft Project。",
+        "4": "REJECT:vendor calibration/golden set不是传感器标定。",
+        "5": "REJECT:project timelines不是Microsoft Project。",
+        "6": "REJECT:which projects rotate不是Microsoft Project。",
+        "7": "REJECT:audit or calibration processes不是传感器标定。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据质量合作。供应商组合记采购。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4696347006|7b19ef82740d3de8e4e927df92668104d2b5b79f7045eedef1fef4f6d05db329",
+      "company_id": "US_FIGURE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 144,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own the full external vendor portfolio for Data Quality: sourcing, evaluation, onboarding, and offboarding of data labeling and review partners."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "7b19ef82740d3de8e4e927df92668104d2b5b79f7045eedef1fef4f6d05db329",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.983990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0537": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DATA_CREATORS_PC",
+      "secondary_task": "",
+      "task_evidence": "Own a data collection project end to end, from setup through delivery, against timeline and quality targets.",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network; data collection project不是Microsoft Project。",
+        "2": "REJECT:data collection project不是Microsoft Project。",
+        "3": "REJECT:your project不是Microsoft Project。",
+        "4": "REJECT:your project's data不是Microsoft Project。",
+        "5": [
+          [
+            "V2_SOP_OPERATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "REJECT:your project type不是Microsoft Project。",
+        "7": "REJECT:ownership of a project不是Microsoft Project。",
+        "8": "REJECT:keeping a project on schedule不是Microsoft Project。",
+        "9": "REJECT:contact for a project不是Microsoft Project。",
+        "10": [
+          [
+            "V2_MOCAP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": [
+          [
+            "V2_MOCAP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数创项目协调。动捕保留。项目管理不记MS Project。SOP保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4696349006|89c39fda80d029c52183b076148fd19548e3d483f8ac0d8523b264c1a720246b",
+      "company_id": "US_FIGURE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 4,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 108,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own a data collection project end to end, from setup through delivery, against timeline and quality targets."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "89c39fda80d029c52183b076148fd19548e3d483f8ac0d8523b264c1a720246b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.984990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0538": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DATA_QUALITY_PC",
+      "secondary_task": "",
+      "task_evidence": "Own review guidelines and acceptance criteria for your project; handle escalated edge cases that fall outside existing guidance.",
+      "new": {
+        "1": "REJECT:公司介绍不是Microsoft Office。",
+        "2": "REJECT:English can is not Controller Area Network; project lifecycle不是Microsoft Project。",
+        "3": "REJECT:your project不是Microsoft Project。",
+        "4": "REJECT:your project type不是Microsoft Project。",
+        "5": "REJECT:project-level audit不是Microsoft Project。",
+        "6": [
+          [
+            "V2_SOP_OPERATION",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "REJECT:project-specific training/calibration不是传感器标定或Microsoft Project。",
+        "8": "REJECT:project-level vendor coordination不是Microsoft Project。",
+        "9": "REJECT:project-level clarifications不是Microsoft Project。",
+        "10": "REJECT:ownership of a project不是Microsoft Project。",
+        "11": "REJECT:training or calibration programs不是传感器标定。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据质量项目协调。SOP保留。标注校准拒收传感器标定。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4696350006|b47be189846f330d0c705c40ceaada38d1749d664e809447734fff083bf0d30a",
+      "company_id": "US_FIGURE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 11,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 128,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own review guidelines and acceptance criteria for your project; handle escalated edge cases that fall outside existing guidance."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b47be189846f330d0c705c40ceaada38d1749d664e809447734fff083bf0d30a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.984990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0510": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "GLOBAL_EXPANSION",
+      "secondary_task": "",
+      "task_evidence": "you will own Figure’s data operations expansion: the strategy for where we go next and the team that gets us there",
+      "new": {
+        "1": "REJECT:公司介绍不是Microsoft Office。",
+        "2": "REJECT:project management instincts不是Microsoft Project。",
+        "3": "REJECT:in-office collaboration不是Microsoft Office。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据运营全球拓展。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4696355006|10b294c2a9df9d1c6fa9d8a72a46dc65ea76f7c14e2fa661c44b3da5807b77c2",
+      "company_id": "US_FIGURE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 123,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "you will own Figure’s data operations expansion: the strategy for where we go next and the team that gets us there"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "10b294c2a9df9d1c6fa9d8a72a46dc65ea76f7c14e2fa661c44b3da5807b77c2",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.984990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0457": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "COLLECTION_QC",
+      "secondary_task": "",
+      "task_evidence": "Review data collection sessions against established quality standards",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数采质量支持。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4697420006|69fdcbdbf0bccaf3913eb7fd7335f28f2468c42d1880288025c23bbe4c4ad010",
+      "company_id": "US_FIGURE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 69,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Review data collection sessions against established quality standards"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "69fdcbdbf0bccaf3913eb7fd7335f28f2468c42d1880288025c23bbe4c4ad010",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.984990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0451": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "AI_DATA_OPS_MGR",
+      "secondary_task": "",
+      "task_evidence": "you will own a meaningful piece of Figure's data collection operation",
+      "new": {
+        "1": [
+          [
+            "V2_PROCUREMENT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:project management instincts不是Microsoft Project。",
+        "3": "REJECT:in-office collaboration不是Microsoft Office。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "AI数据运营经理。本地供应商记采购。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4698164006|3ce370115b35def76a35efcadcf46fa2f978a73ea87507cce013b854dcce00ed",
+      "company_id": "US_FIGURE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 78,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "you will own a meaningful piece of Figure's data collection operation"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "3ce370115b35def76a35efcadcf46fa2f978a73ea87507cce013b854dcce00ed",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.984990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0539": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DATA_CREATORS_CDMX",
+      "secondary_task": "",
+      "task_evidence": "Trabajar en conjunto con los Project Coordinators y el equipo de Data Quality para identificar y resolver problemas en el momento de la creación",
+      "new": {
+        "1": "REJECT:construyendo/base de datos不是C语言。",
+        "2": "REJECT:Project Coordinators不是Microsoft Project。",
+        "3": [
+          [
+            "V2_MOCAP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "墨西哥城数创。动捕保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIGURE|greenhouse|4702544006|2d511a2be403566c71f94e5797ec2c7f826bf3088ea966324b25e8fd585912d8",
+      "company_id": "US_FIGURE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 4,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2218,
+        "end": 2362,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Trabajar en conjunto con los Project Coordinators y el equipo de Data Quality para identificar y resolver problemas en el momento de la creación"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "2d511a2be403566c71f94e5797ec2c7f826bf3088ea966324b25e8fd585912d8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.985990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0897": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "COLLECTION_MGR",
+      "secondary_task": "",
+      "task_evidence": "Hire at volume in partnership with recruiting: run working interviews, make offer decisions for operators and supervisors",
+      "new": {
+        "1": "REJECT:Series C funding不是C语言。",
+        "2": [
+          [
+            "V2_HR",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数采经理。与招聘配合招人记人力职责。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4379631009|47e7a4704265a7b76a103bff379801e91ce56b2698c8bd6e39ea6748d72bfebc",
+      "company_id": "US_NIMBLE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3687,
+        "end": 3808,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Hire at volume in partnership with recruiting: run working interviews, make offer decisions for operators and supervisors"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "47e7a4704265a7b76a103bff379801e91ce56b2698c8bd6e39ea6748d72bfebc",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:03.985990+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0899": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "ANNOTATION_MGR",
+      "secondary_task": "",
+      "task_evidence": "3+ years in data operations, annotation/labeling operations, or data collection QA for ML systems",
+      "new": {
+        "1": "REJECT:Series C funding不是C语言。",
+        "2": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "OUTSIDE:BI tools未单列冻结项。",
+        "4": "OUTSIDE:AI-assisted未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据质量标注经理。遥操作数据经验保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4380277009|06a918dbf9b60efa10c76b061f9cadb7fc5c0c0da02891fa4409eadf5873284b",
+      "company_id": "US_NIMBLE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 5247,
+        "end": 5344,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "3+ years in data operations, annotation/labeling operations, or data collection QA for ML systems"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "06a918dbf9b60efa10c76b061f9cadb7fc5c0c0da02891fa4409eadf5873284b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:04.830229+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0898": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "COLLECTION_SUPERVISOR",
+      "secondary_task": "",
+      "task_evidence": "Coordinate with on-site technicians to keep rigs running — triage issues fast, minimize downtime",
+      "new": {
+        "1": "REJECT:Series C funding不是C语言。",
+        "2": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_MOCAP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数采主管。故障排查与动捕保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4380312009|745dfb17c569b6472e84323234952761ae7f514506950ee88414cfbefba6acfd",
+      "company_id": "US_NIMBLE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 4065,
+        "end": 4161,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Coordinate with on-site technicians to keep rigs running — triage issues fast, minimize downtime"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "745dfb17c569b6472e84323234952761ae7f514506950ee88414cfbefba6acfd",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:04.831228+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0578": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_PIPELINE",
+      "fine_task": "ML_DATA_SYSTEMS",
+      "secondary_task": "",
+      "task_evidence": "Design and build high-throughput pipelines that validate, transform, and featurize raw multimodal data",
+      "new": {
+        "1": [
+          [
+            "V2_SPARK",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_FLINK",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_CLICKHOUSE",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "DUPLICATE:E0578:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "ML Infra数据系统。ClickHouse/Flink/Spark保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|1f6cf3eb-f70f-480b-9fff-befd56c7fd07|eab0f06aa6d9659caa0d25d99a6738e1cb73f1fc175e2410683b4f37c11f7e2f",
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 31,
+        "end": 133,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design and build high-throughput pipelines that validate, transform, and featurize raw multimodal data"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "eab0f06aa6d9659caa0d25d99a6738e1cb73f1fc175e2410683b4f37c11f7e2f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:04.831228+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0603": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "ANNOTATION_LEAD",
+      "secondary_task": "",
+      "task_evidence": "Own annotation operations end-to-end: throughput, quality, cost, and on-time delivery across all annotation types.",
+      "new": {
+        "1": "REJECT:annotator calibration不是传感器标定。",
+        "2": "REJECT:project leads不是Microsoft Project。"
+      },
+      "old_overrides": {
+        "O7": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ML短词定位为空，改为自动标注与模型辅助标注句。",
+          "quote": "Experience integrating autolabeling and model-based annotation into human workflows"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "标注负责人。ML继承改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|4180292d-e5d8-4a52-a37b-aceda803e743|a3e67db14597d9520fe00a6197988cc6d7743aaeb5f5b14382d59ca4eaca4150",
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 116,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own annotation operations end-to-end: throughput, quality, cost, and on-time delivery across all annotation types."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "a3e67db14597d9520fe00a6197988cc6d7743aaeb5f5b14382d59ca4eaca4150",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:04.831228+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0608": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DATA_QA_ENG",
+      "secondary_task": "",
+      "task_evidence": "Build and run the end-to-end QA process for multimodal data ingested from third-party vendors and partners",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "数据质量软件。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|c01b0e18-5eb8-4255-a10a-7e9a171676b7|e5affa7570350a49b22f5d3c35365ab8c65d74cd439b3984d6bc1f4ccc261f0e",
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 32,
+        "end": 138,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Build and run the end-to-end QA process for multimodal data ingested from third-party vendors and partners"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "e5affa7570350a49b22f5d3c35365ab8c65d74cd439b3984d6bc1f4ccc261f0e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:04.831228+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0703": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "MASTER_ANNOTATOR",
+      "secondary_task": "",
+      "task_evidence": "This role will act as the gold standard authority for labeling tasks, own Inter-Annotator Agreement (IAA) measurement, train and calibrate annotators",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "REJECT:calibrate annotators不是传感器标定。",
+        "3": "OUTSIDE:Inter-Annotator Agreement/kappa未单列冻结项。",
+        "4": "OUTSIDE:Inter-Annotator Agreement/kappa未单列冻结项。",
+        "5": "OUTSIDE:Cohen’s/Fleiss’ kappa未单列冻结项。",
+        "6": "REJECT:structured calibration sessions不是传感器标定。",
+        "7": "OUTSIDE:Inter-Annotator Agreement methodologies未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "主标注员。标注校准拒收传感器标定。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5135207008|04dcb570404711ea313f0c3c2d2cafda468a50459b9a95c72ea63e5887218d7a",
+      "company_id": "US_SKILD",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1010,
+        "end": 1159,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "This role will act as the gold standard authority for labeling tasks, own Inter-Annotator Agreement (IAA) measurement, train and calibrate annotators"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "04dcb570404711ea313f0c3c2d2cafda468a50459b9a95c72ea63e5887218d7a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:04.832228+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0679": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "DATA_INFRA_PM_IN",
+      "secondary_task": "",
+      "task_evidence": "Operations Program Manager – Data Infrastructure to design and scale operational processes that power our robotics foundation mod",
+      "new": {
+        "1": "REJECT:公司/办公介绍不是Microsoft Office。",
+        "2": [
+          [
+            "V2_LEAN",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0679:2",
+        "4": "DUPLICATE:N0679:2"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "印度数据基建运营PM。Lean/Six Sigma保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5235765008|6aab0df8b4f376fe7b8ce985dd3a555a1110366dc07e859429bb46118cef272d",
+      "company_id": "US_SKILD",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 726,
+        "end": 855,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Operations Program Manager – Data Infrastructure to design and scale operational processes that power our robotics foundation mod"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "6aab0df8b4f376fe7b8ce985dd3a555a1110366dc07e859429bb46118cef272d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:04.832228+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0682": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "DATA_OPERATIONS",
+      "fine_task": "COLLECTION_PM_IN",
+      "secondary_task": "",
+      "task_evidence": "Drive end-to-end program management for egocentric/UMI/teleops data collection and annotation workflows",
+      "new": {
+        "1": "OUTSIDE:egocentric/UMI/teleops program management未把项目管理记为Microsoft Project。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "印度数采标注PM。目录外项目管理表述。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_SKILD|greenhouse|5254601008|daf6090d92784273be15b48c0ad2d18afcf8b2e197892633d8c318e3176c2734",
+      "company_id": "US_SKILD",
+      "role": "RF_DATA_INFRA_OPERATIONS",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 4,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1160,
+        "end": 1263,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Drive end-to-end program management for egocentric/UMI/teleops data collection and annotation workflows"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "daf6090d92784273be15b48c0ad2d18afcf8b2e197892633d8c318e3176c2734",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T13:17:04.832228+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "n_checks": 4,
+  "n_pass": 4,
+  "n_fail": 0,
+  "checks": [
+    {
+      "name": "existing_destination_refused",
+      "passed": true,
+      "exit_code": 1,
+      "output": "Refusing to overwrite existing output: D:\\Embod AI analysis\\embodied-ai-hiring-research\\.b5accept\\rules_reproduced_final\n"
+    },
+    {
+      "name": "input_tamper_no_publication",
+      "passed": true,
+      "exit_code": 1,
+      "output": "Release drift: inputs/stage_a/jobs.csv\n"
+    },
+    {
+      "name": "unlisted_file_no_publication",
+      "passed": true,
+      "exit_code": 1,
+      "output": "Release inventory drift: missing or unlisted files.\n"
+    },
+    {
+      "name": "rehashed_derived_table_must_reproduce_or_not_publish",
+      "passed": true,
+      "exit_code": 1,
+      "output": "Traceback (most recent call last):\n  File \"D:\\Embod AI analysis\\embodied-ai-hiring-research\\.b5accept\\rules_reproduced_final\\scripts\\reproduce.py\", line 41, in <module>\n    if __name__=='__main__':run()\n                            ^^^^^\n  File \"D:\\Embod AI analysis\\embodied-ai-hiring-research\\.b5accept\\rules_reproduced_final\\scripts\\reproduce.py\", line 32, in run\n    if changed:raise RuntimeError('Rebuild differs: '+str(changed))\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Rebuild differs: ['company_classification.csv']\n"
+    }
+  ]
+}

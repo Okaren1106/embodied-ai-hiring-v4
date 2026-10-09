@@ -1,0 +1,547 @@
+{
+  "title": "Independent literature frontier evidence log — internal research support, not submission prose",
+  "accessed_date": "2026-09-26",
+  "private_manuscript_transmitted": false,
+  "coverage_statement": "Six independent search routes; targeted frontier audit, not a PRISMA systematic review or claim of exhaustive coverage. Primary sources only support substantive entries. Abstract-only entries are explicitly restricted.",
+  "routes": [
+    {
+      "id": "R1",
+      "question": "Relational requirement semantics, alternatives, urgency and extraction",
+      "queries": [
+        "GOJA 2025 job advertisements skills requirement optional required dataset",
+        "Skill Extraction survey Senger 2024 ACL",
+        "SkillSpan Hard Soft skill extraction Zhang 2022",
+        "job advertisements requirement strength"
+      ],
+      "outcome": "GOJA is closest, backward route yields benchmarks and terminology."
+    },
+    {
+      "id": "R2",
+      "question": "Employer heterogeneity and economic labor-demand mechanisms",
+      "queries": [
+        "Deming Kahn 2018 Skill requirements across firms labor markets evidence job postings",
+        "Modestino Shoag Ballance 2020 Upskilling",
+        "Artificial Intelligence and Jobs Evidence from Online Vacancies",
+        "job advertisements International Journal of Manpower skills concentration Colombo"
+      ],
+      "outcome": "Within-occupation heterogeneity, supply response and journal precedent found."
+    },
+    {
+      "id": "R3",
+      "question": "Templates, job-title/seniority and advertisement authoring",
+      "queries": [
+        "online job advertisements template skill requirements",
+        "job postings boilerplate skills paper",
+        "job postings 1000 human audit technology",
+        "Opening the Black Box of the Matching Function"
+      ],
+      "outcome": "Economic technology-context audit plus HR interview evidence found; generic recruitment websites excluded."
+    },
+    {
+      "id": "R4",
+      "question": "Validation and external criterion validity",
+      "queries": [
+        "Grimmer Stewart Text as Data validation",
+        "Toward a framework for creating trustworthy measures",
+        "Skill demand versus skill use",
+        "skill categorization wage regressions"
+      ],
+      "outcome": "2025 expert-validation framework and linked employer-worker validation found."
+    },
+    {
+      "id": "R5",
+      "question": "Unknown status versus misclassification identification",
+      "queries": [
+        "Manski Nonparametric Bounds Treatment Effects missing outcomes",
+        "Molinari partial identification probability distributions misclassified data"
+      ],
+      "outcome": "Molinari primary author paper read; Manski remains a foundational lead without primary full-text verification and is not entered as read."
+    },
+    {
+      "id": "R6",
+      "question": "Nonprobability coverage, observed ads vs labor demand",
+      "queries": [
+        "Tsvetkova 2024 online job postings representativeness OECD",
+        "JRC skills intelligence online job advertisements",
+        "Fabo Kurekova Methodological issues online labour market data"
+      ],
+      "outcome": "Official OECD/ILO/JRC sources distinguish sampling, content and interpretation."
+    }
+  ],
+  "sources": [
+    {
+      "id": "goja2025",
+      "title": "Improving Online Job Advertisement Analysis via Compositional Entity Extraction",
+      "authors": [
+        "Kai Krüger",
+        "Johanna Binnewitt",
+        "Kathrin Ehmann",
+        "Stefan Winnige",
+        "Alan Akbik"
+      ],
+      "year": 2025,
+      "venue": "EMNLP 2025, pp. 27047–27065",
+      "doi": "10.18653/v1/2025.emnlp-main.1375",
+      "urls": [
+        "https://aclanthology.org/2025.emnlp-main.1375/",
+        "https://aclanthology.org/2025.emnlp-main.1375.pdf"
+      ],
+      "route": "R1 compositional semantics",
+      "read_scope": "Publisher metadata; targeted full-text reading §§1–4, Table 1, §2.3, §3.2, appendix IAA tables; not a claim to read every appendix.",
+      "supports": "500 German ads, double annotation plus third curation; tools/objects, alternatives and urgency already modeled; AI application uses around 19,000 ads. Table 3 urgency denominator includes only chains with urgency relations.",
+      "difference": "Current fixed-task Q shares and unknown-assignment firm-comparison bounds are a different estimand; relational extraction itself is not novel. GOJA's AI optionality figures cannot be compared directly with Q/B.",
+      "status": "primary_full_text_sections"
+    },
+    {
+      "id": "senger2024",
+      "title": "Deep Learning-based Computational Job Market Analysis: A Survey on Skill Extraction and Classification from Job Postings",
+      "authors": [
+        "Elena Senger",
+        "Mike Zhang",
+        "Rob van der Goot",
+        "Barbara Plank"
+      ],
+      "year": 2024,
+      "venue": "NLP4HR 2024, pp. 1–15",
+      "doi": "10.18653/v1/2024.nlp4hr-1.1",
+      "urls": [
+        "https://aclanthology.org/2024.nlp4hr-1.1/",
+        "https://aclanthology.org/2024.nlp4hr-1.1.pdf"
+      ],
+      "route": "R1",
+      "read_scope": "Publisher metadata/abstract and PDF introduction/search methodology returned by search.",
+      "supports": "Terminology and dataset heterogeneity are established problems; survey covers neural extraction work before November 2023.",
+      "difference": "Useful backward-citation map, not evidence that current labels are valid.",
+      "status": "primary_partial_text"
+    },
+    {
+      "id": "skillspan2022",
+      "title": "SkillSpan: Hard and Soft Skill Extraction from English Job Postings",
+      "authors": [
+        "Mike Zhang",
+        "Kristian Nørgaard Jensen",
+        "Sif Dam Sønniks",
+        "Barbara Plank"
+      ],
+      "year": 2022,
+      "venue": "NAACL 2022",
+      "doi": "10.18653/v1/2022.naacl-main.366",
+      "urls": [
+        "https://aclanthology.org/2022.naacl-main.366/",
+        "https://aclanthology.org/2022.naacl-main.366.pdf"
+      ],
+      "route": "R1",
+      "read_scope": "Publisher metadata and abstract; PDF opening search result. Detailed guideline not read.",
+      "supports": "An established English span-extraction benchmark is available.",
+      "difference": "A baseline for span detection, not a direct validator of unconditional qualification operators.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "nguyen2024",
+      "title": "Rethinking Skill Extraction in the Job Market Domain using Large Language Models",
+      "authors": [
+        "Khanh Nguyen",
+        "Mike Zhang",
+        "Syrielle Montariol",
+        "Antoine Bosselut"
+      ],
+      "year": 2024,
+      "venue": "NLP4HR 2024, pp. 27–42",
+      "doi": "10.18653/v1/2024.nlp4hr-1.3",
+      "urls": [
+        "https://aclanthology.org/2024.nlp4hr-1.3/"
+      ],
+      "route": "R1",
+      "read_scope": "Publisher abstract and metadata only.",
+      "supports": "Six uniformized benchmarks; abstract reports complex-mention advantages without overall superiority to supervised models.",
+      "difference": "Does not justify treating second-model agreement as human gold-standard accuracy.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "demingkahn2018",
+      "title": "Skill Requirements across Firms and Labor Markets: Evidence from Job Postings for Professionals",
+      "authors": [
+        "David Deming",
+        "Lisa B. Kahn"
+      ],
+      "year": 2018,
+      "venue": "Journal of Labor Economics 36(S1), S337–S369",
+      "doi": "10.1086/694106",
+      "urls": [
+        "https://www.nber.org/papers/w23328",
+        "https://doi.org/10.3386/w23328",
+        "https://doi.org/10.1086/694106"
+      ],
+      "route": "R2 employer heterogeneity",
+      "read_scope": "NBER author working-paper metadata/abstract and published-version listing; direct full PDF attempts 403.",
+      "supports": "Within-occupation firm skill heterogeneity and relationships with pay/performance are established.",
+      "difference": "Current project has no matched wage/productivity outcomes and cannot claim those channels from local expression differences.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "modestino2020",
+      "title": "Upskilling: Do Employers Demand Greater Skill When Workers Are Plentiful?",
+      "authors": [
+        "Alicia Sasser Modestino",
+        "Daniel Shoag",
+        "Joshua Ballance"
+      ],
+      "year": 2020,
+      "venue": "Review of Economics and Statistics 102(4)",
+      "doi": "10.1162/rest_a_00835",
+      "urls": [
+        "https://aliciasassermodestino.com/wp-content/uploads/2019/04/2019-RESTAT-Upskilling-Preprint-1.pdf"
+      ],
+      "route": "R2",
+      "read_scope": "Author preprint pp. 1–6, motivation, identification overview, data introduction; final DOI cross-checked bibliographically.",
+      "supports": "Advertised education/experience standards respond to labor availability; within firm×title design and external supply shock distinguish composition from changed standards.",
+      "difference": "One purposive cross-section cannot distinguish supply response, job mix and production demand.",
+      "status": "author_preprint_sections"
+    },
+    {
+      "id": "hershbein2018",
+      "title": "Do Recessions Accelerate Routine-Biased Technological Change? Evidence from Vacancy Postings",
+      "authors": [
+        "Brad Hershbein",
+        "Lisa B. Kahn"
+      ],
+      "year": 2018,
+      "venue": "American Economic Review 108(7), 1737–1772",
+      "doi": "10.1257/aer.20161570",
+      "urls": [
+        "https://www.aeaweb.org/articles?id=10.1257/aer.20161570"
+      ],
+      "route": "R2",
+      "read_scope": "AEA article metadata and abstract.",
+      "supports": "Persistent skill-requirement changes are studied alongside capital investment and economic shocks.",
+      "difference": "Provides a competing economic mechanism; does not validate current text states or a causal firm ranking.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "acemoglu2022",
+      "title": "Artificial Intelligence and Jobs: Evidence from Online Vacancies",
+      "authors": [
+        "Daron Acemoglu",
+        "David Autor",
+        "Jonathon Hazell",
+        "Pascual Restrepo"
+      ],
+      "year": 2022,
+      "venue": "Journal of Labor Economics 40(S1)",
+      "doi": "10.1086/718327",
+      "urls": [
+        "https://www.journals.uchicago.edu/doi/full/10.1086%2F718327",
+        "https://jadhazell.github.io/website/AI_And_Jobs.pdf"
+      ],
+      "route": "R2",
+      "read_scope": "Publisher abstract/metadata and author-PDF search opening only.",
+      "supports": "AI-related establishment demand and aggregate employment effects need distinct scales of analysis.",
+      "difference": "Current snapshot concerns expressed qualifications; cannot be recast as employment displacement or firm adoption effects.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "kalyani2025",
+      "title": "The Diffusion of New Technologies",
+      "authors": [
+        "Aakash Kalyani",
+        "Nicholas Bloom",
+        "Marcela Carvalho",
+        "Tarek Hassan",
+        "Josh Lerner",
+        "Ahmed Tahoun"
+      ],
+      "year": 2025,
+      "venue": "Quarterly Journal of Economics 140(2), 1299–1365",
+      "doi": "10.1093/qje/qjaf002",
+      "urls": [
+        "https://www.aeaweb.org/conference/2025/program/paper/fdQtS7Ha",
+        "https://academic.oup.com/qje/article/140/2/1299/7959830",
+        "https://www.nber.org/system/files/working_papers/w28999/revisions/w28999.rev2.pdf"
+      ],
+      "route": "R3 technology context and templates",
+      "read_scope": "AEA 2024-12-26 author PDF introduction and technology-job data section; human-audit table from NBER revision; publisher issue metadata and final-paper audit excerpt. Versions explicitly distinguished.",
+      "supports": "Human audit distinguishes company description vs task and use vs production; trimming first/last 50 words is tested. Semantic context validation already exists in economics.",
+      "difference": "Current candidate-qualification/operator construct is narrower; use document-zone and trimming baselines without claiming the entire distinction is unprecedented.",
+      "status": "primary_full_text_sections"
+    },
+    {
+      "id": "ao2023",
+      "title": "Skill requirements in job advertisements: A comparison of skill-categorization methods based on wage regressions",
+      "authors": [
+        "Ziqiao Ao",
+        "Gergely Horváth",
+        "Chunyuan Sheng",
+        "Yifan Song",
+        "Yutong Sun"
+      ],
+      "year": 2023,
+      "venue": "Information Processing & Management 60(2), 103185",
+      "doi": "10.1016/j.ipm.2022.103185",
+      "urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0306457322002862",
+        "https://arxiv.org/abs/2207.12834"
+      ],
+      "route": "R4 validation and external criteria",
+      "read_scope": "Publisher metadata, highlights and abstract; preprint abstract differs in model set/results and is not silently substituted.",
+      "supports": "Measures can be compared using external wage-explanatory criteria, with interpretability tradeoffs.",
+      "difference": "Current semantic fidelity needs human/source validation; greater wage R² alone would not prove correct modifier scope.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "daly2025",
+      "title": "Skill demand versus skill use: Comparing job posts with individual skill use on the job",
+      "authors": [
+        "Moira Daly",
+        "Fane Groes",
+        "Mathias Fjællegaard Jensen"
+      ],
+      "year": 2025,
+      "venue": "Labour Economics 92, 102661",
+      "doi": "10.1016/j.labeco.2024.102661",
+      "urls": [
+        "https://doi.org/10.1016/j.labeco.2024.102661",
+        "https://research-api.cbs.dk/ws/portalfiles/portal/111225428/1-s2.0-S092753712400157X-main.pdf"
+      ],
+      "route": "R4",
+      "read_scope": "Publisher introduction/conclusion via search; final published PDF pp. 1–2 plus repository cover metadata. Online 12 Dec 2024; issue Jan 2025.",
+      "supports": "Links Danish job posts to individual survey skill use; reports extensive-margin correspondence but distinct information from intensity.",
+      "difference": "Useful counterweight to overclaiming ads are uninformative. Current GENERAL/REQUIRED wording is not frequency/intensity of actual skill use.",
+      "status": "primary_full_text_sections"
+    },
+    {
+      "id": "marinescu2020",
+      "title": "Opening the Black Box of the Matching Function: The Power of Words",
+      "authors": [
+        "Ioana Marinescu",
+        "Ronald Wolthoff"
+      ],
+      "year": 2020,
+      "venue": "Journal of Labor Economics 38(2), 535–568",
+      "doi": "10.1086/705903",
+      "urls": [
+        "https://doi.org/10.1086/705903",
+        "https://conference.nber.org/confer/2015/SI2015/EFMPL/Marinescu_Wolthoff.pdf"
+      ],
+      "route": "R3 seniority",
+      "read_scope": "Publisher abstract/metadata; older working-paper opening read but final claims use publisher abstract.",
+      "supports": "Job-title heterogeneity matters within detailed occupations; senior/manager titles differ in worker-quality returns.",
+      "difference": "Justifies title/seniority common-support diagnostics, not causal adjustment with sparse cells.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "demingnoray2020",
+      "title": "Earnings Dynamics, Changing Job Skills, and STEM Careers",
+      "authors": [
+        "David J. Deming",
+        "Kadeem Noray"
+      ],
+      "year": 2020,
+      "venue": "Quarterly Journal of Economics 135(4), 1965–2005",
+      "doi": "10.1093/qje/qjaa021",
+      "urls": [
+        "https://academic.oup.com/qje/article-abstract/135/4/1965/5858010"
+      ],
+      "route": "R3 seniority",
+      "read_scope": "Publisher abstract and metadata only.",
+      "supports": "Changing occupational skill content and experience/obsolescence have a developed labor-economics framework.",
+      "difference": "Cross-sectional seniority mix is not a direct measure of obsolescence or career trajectories.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "colombo2023",
+      "title": "Skill demand and labour market concentration: evidence from Italian vacancies",
+      "authors": [
+        "Emilio Colombo",
+        "Alberto Marcato"
+      ],
+      "year": 2023,
+      "venue": "International Journal of Manpower 44(9), 156–198",
+      "doi": "10.1108/IJM-04-2023-0181",
+      "urls": [
+        "https://sites.google.com/site/colomboeml3/research",
+        "https://publires.unicatt.it/it/publications/skill-demand-and-labour-market-concentration-evidence-from-italia/",
+        "https://doi.org/10.1108/IJM-04-2023-0181"
+      ],
+      "route": "R2 journal precedent",
+      "read_scope": "Author research page confirms citation; institutional abstract; publisher DOI open blocked. Third-party mirrored text was not used to infer unread methods.",
+      "supports": "IJM precedent connects advertised skill measures to a labor-market question about concentration and training.",
+      "difference": "Shows why a substantive economic question is needed; present data lack a market frame for concentration estimation.",
+      "status": "author_metadata_institutional_abstract"
+    },
+    {
+      "id": "molinari2008",
+      "title": "Partial identification of probability distributions with misclassified data",
+      "authors": [
+        "Francesca Molinari"
+      ],
+      "year": 2008,
+      "venue": "Journal of Econometrics 144(1), 81–117",
+      "doi": "10.1016/j.jeconom.2007.12.003",
+      "urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0304407607002564",
+        "https://cae.economics.cornell.edu/05-10.pdf"
+      ],
+      "route": "R5 partial identification",
+      "read_scope": "Publisher abstract/metadata; Cornell 2005 working-paper abstract, introduction and equation (1.1); not a claim to verify every theorem or final-version proof.",
+      "supports": "Misclassification restrictions/validation information can define identification regions using the relation between latent and observed distributions.",
+      "difference": "Current unknown-only intervals protect only flagged U. New error budgets for P/Z are sensitivity assumptions unless independently validated.",
+      "status": "primary_preprint_sections"
+    },
+    {
+      "id": "grimmer2013",
+      "title": "Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts",
+      "authors": [
+        "Justin Grimmer",
+        "Brandon M. Stewart"
+      ],
+      "year": 2013,
+      "venue": "Political Analysis 21(3), 267–297",
+      "doi": "10.1093/pan/mps028",
+      "urls": [
+        "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F7AAC8B2909441603FEB25C156448F20/S1047198700013401a.pdf"
+      ],
+      "route": "R4",
+      "read_scope": "Publisher-hosted final PDF pp. 267–269; introduction and validation road map.",
+      "supports": "Automated text methods require problem-specific validation and do not replace close reading.",
+      "difference": "Arithmetic reproducibility and second-LLM agreement are separate from construct validity.",
+      "status": "primary_full_text_sections"
+    },
+    {
+      "id": "park2025",
+      "title": "Toward a framework for creating trustworthy measures with supervised machine learning for text",
+      "authors": [
+        "Ju Yeon Park",
+        "Jacob M. Montgomery"
+      ],
+      "year": 2025,
+      "venue": "Political Science Research and Methods, First View, 1–17",
+      "doi": "10.1017/psrm.2025.10042",
+      "urls": [
+        "https://www.cambridge.org/core/journals/political-science-research-and-methods/article/toward-a-framework-for-creating-trustworthy-measures-with-supervised-machine-learning-for-text/4DECB1072FB983F991BA84ADB01EAFC4"
+      ],
+      "route": "R4",
+      "read_scope": "Publisher HTML §§1,3,5,6, metadata; not all application tables.",
+      "supports": "Separate validation of labels, model and final measure; LLM prompts/settings, held-out expert comparison and confusion matrices matter.",
+      "difference": "Can structure a staged validation plan; recommendations are not evidence existing project passed those checks.",
+      "status": "primary_full_text_sections"
+    },
+    {
+      "id": "tsvetkova2024",
+      "title": "How well do online job postings match national sources in large English speaking countries?: Benchmarking Lightcast data against statistical sources across regions, sectors and occupations",
+      "authors": [
+        "Alexandra Tsvetkova",
+        "Elettra D'Amico",
+        "Alexander Lembcke",
+        "Polina Knutsson",
+        "Wessel Vermeulen"
+      ],
+      "year": 2024,
+      "venue": "OECD LEED Papers 2024/01",
+      "doi": "10.1787/c17cae09-en",
+      "urls": [
+        "https://www.oecd-ilibrary.org/en/publications/how-well-do-online-job-postings-match-national-sources-in-large-english-speaking-countries_c17cae09-en.html"
+      ],
+      "route": "R6 coverage",
+      "read_scope": "OECD abstract and metadata; not country appendix tables.",
+      "supports": "Representativeness varies across country, region, industry and occupation; regional agreement is generally better.",
+      "difference": "A purposive embodied-AI firm sample cannot gain population representativeness just by expanding ad counts.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "goulart2022",
+      "title": "Job descriptions, from conception to recruitment: A qualitative review of hiring processes",
+      "authors": [
+        "Kimberly Seung Goulart",
+        "Jorge Rodríguez-Menés",
+        "Josep Maria Caroz Armayones"
+      ],
+      "year": 2022,
+      "venue": "JRC Working Papers on Labour, Education and Technology 2022/06",
+      "doi": null,
+      "urls": [
+        "https://publications.jrc.ec.europa.eu/repository/handle/JRC131040"
+      ],
+      "route": "R3 production of advertisements",
+      "read_scope": "JRC official abstract and metadata only; interviews not independently read.",
+      "supports": "Fourteen HR-professional interviews report heterogeneity by job profile, seniority and firm size, and tool/method-based articulation of competences.",
+      "difference": "Motivates a testable disclosure/authoring mechanism; cannot assign that mechanism to Galbot or XSquare without evidence.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "sostero2021",
+      "title": "The professional lens: what online job advertisements can say about occupational task profiles",
+      "authors": [
+        "Matteo Sostero",
+        "Enrique Fernández-Macías"
+      ],
+      "year": 2021,
+      "venue": "JRC Working Papers on Labour, Education and Technology 2021/13",
+      "doi": null,
+      "urls": [
+        "https://publications.jrc.ec.europa.eu/repository/handle/JRC125917"
+      ],
+      "route": "R6",
+      "read_scope": "JRC repository abstract/metadata; date follows repository 2021-08-30, while overview page cites 2022.",
+      "supports": "Compares over 60m UK ads with a survey task database and describes occupation/task-content bias.",
+      "difference": "Provides a representativeness diagnostic model; current within-task comparison controls only one source of composition.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "rodrigues2021",
+      "title": "A unified conceptual framework of tasks, skills and competences",
+      "authors": [
+        "Margarida Rodrigues",
+        "Enrique Fernández-Macías",
+        "Matteo Sostero"
+      ],
+      "year": 2021,
+      "venue": "JRC Working Papers on Labour, Education and Technology 2021/02",
+      "doi": null,
+      "urls": [
+        "https://publications.jrc.ec.europa.eu/repository/handle/JRC121897"
+      ],
+      "route": "R1 concepts",
+      "read_scope": "JRC repository abstract/metadata, dated 2021-02-09; overview page cites 2022.",
+      "supports": "Distinguishes tasks as work units, skills as task abilities, and competence across domains.",
+      "difference": "Named technology, task, qualification expression and actual competence must remain distinct.",
+      "status": "primary_abstract_only"
+    },
+    {
+      "id": "fabo2022",
+      "title": "Methodological issues related to the use of online labour market data",
+      "authors": [
+        "Brian Fabo",
+        "Lucia Mýtna Kureková"
+      ],
+      "year": 2022,
+      "venue": "ILO Working Paper 68",
+      "doi": "10.54394/ZZBC8484",
+      "urls": [
+        "https://webapps.ilo.org/static/english/intserv/working-papers/wp068/index.html",
+        "https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Methodological-issues-related-to-the-use/995219478802676"
+      ],
+      "route": "R6",
+      "read_scope": "ILO HTML abstract, introduction, methods, initial online-data section; not whole reference/annex.",
+      "supports": "Question/design adaptation, bias analysis and mixed methods are legitimate responses to nonrepresentative online data.",
+      "difference": "Supports a finite-corpus exploratory design without pretending population inference.",
+      "status": "primary_full_text_sections"
+    }
+  ],
+  "excluded_or_unverified_leads": [
+    {
+      "title": "Preparing Job Posting Data for Management Research: A Reproducible Pipeline for Job Analytics",
+      "url": "https://journals.aom.org/doi/pdf/10.5465/AMPROC.2026.195bp?download=true",
+      "reason": "2026 proceedings abstract found but full author list/methods not verified; not treated as a full substantive benchmark."
+    },
+    {
+      "title": "Artificial Intelligence and Skills: Evidence from Contrastive Learning in Online Job Vacancies",
+      "url": "https://arxiv.org/abs/2601.03558",
+      "reason": "Recent preprint search lead only; no design verification; no causal claims adopted."
+    },
+    {
+      "title": "Nonparametric Bounds on Treatment Effects",
+      "url": "https://ideas.repec.org/a/aea/aecrev/v80y1990i2p319-23.html",
+      "reason": "Foundational bibliographic lead; no primary full text successfully inspected in this audit; no theorem attributed from unread text."
+    }
+  ]
+}

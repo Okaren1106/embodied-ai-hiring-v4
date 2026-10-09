@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "status": "DESIGN_FIXED_BEFORE_GROUP_SKILL_RATE_COMPARISONS",
+  "selection_disclosure": "已知Q1职能总量和公司覆盖；已做资料可用性诊断。不是事前注册或盲选；未以业务组/国家技能差距选择。",
+  "primary_roles": [
+    "RF_ML_AI_ENGINEERING",
+    "RF_ROBOTICS_SOFTWARE"
+  ],
+  "selection_logic": "各取一个学习/模型工程与运行软件/平台锚点，以解释具身系统的软件技术工作组合。二者分别有159/181条、24/23家公司覆盖；优先两个边界可解释且可用资料充分的职能。所有17类均列诊断，其他类不因未入Q2而从Q1/Q3删除。",
+  "role_feasibility_gates": {
+    "min_ads": 100,
+    "min_companies": 18,
+    "min_dimension_source_assessable_share": 0.8,
+    "min_companies_with_5_ads": 5
+  },
+  "gate_note": "本样本的可操作筛选门槛，不是显著性/精度证明，也不唯一决定研究价值。未过时不扩大或混并职能；按锚点减少本轮主题。",
+  "primary_ad_rule": "primary_status=CODED，且primary_code为所选具体职能；不展开复合/多方向主类，不重分类。",
+  "denominator": {
+    "main": "基础范围为该具体职能中目标维度状态CODED/NOT_MENTIONED/UNMAPPED的广告，保留UNMAPPED；随后逐标签×语境×分支判断解释资格。指标为既有目录标签已记录明示覆盖率，不声称完整能力需求率。",
+    "relation_uncertainty": "同广告同标签同指标已有明确正向记录时为PRESENT；否则存在可能影响该指标的未解决关系/语境时为UNKNOWN并退出该指标分母；其余为NO_RECORDED_POSITIVE，不称真实能力需求不存在。不得把关系不明算0，也不整条广告退出所有指标。",
+    "source_unassessable": "退出该维度分母，单列；不因技能不足退出技术维度。",
+    "unknown_dimension_status": "拒绝未知状态，停止构建。",
+    "catalog_sensitivity": "并列仅CODED+NOT_MENTIONED的目录可直接评价子集；不得当作主结果或声称此子集全无目录外内容。",
+    "scope": "24家均保留公司点值；主业务比较仅23个整公司主体，FAR单列。"
+  },
+  "deduplication_key": [
+    "identity_key",
+    "dimension",
+    "label_code",
+    "use",
+    "mention_relation",
+    "branch_bucket"
+  ],
+  "branch_buckets": [
+    "UNCONDITIONAL",
+    "CHOICE",
+    "EXAMPLE",
+    "CHOICE_AND_EXAMPLE",
+    "UNRESOLVED"
+  ],
+  "branch_logic": {
+    "choice_relations": [
+      "OR",
+      "OR_EQUIVALENT",
+      "SOME_OF"
+    ],
+    "example_relations": [
+      "EXAMPLE"
+    ],
+    "unresolved_relations": [
+      "UNRESOLVED"
+    ],
+    "unconditional_relations": [
+      "ITEM",
+      "ALL"
+    ],
+    "missing_requirement_node": "UNRESOLVED, never unconditional",
+    "priority": "任何未解决节点/未知关系优先UNRESOLVED；否则按所有祖先同时判断任选和示例；不限于叶子节点。"
+  },
+  "positive_buckets": {
+    "DUTY_OWN_USE": [
+      "DUTY_USE",
+      "OWN_USE"
+    ],
+    "DUTY_OWN_DEVELOP": [
+      "DUTY_USE",
+      "OWN_DEVELOP"
+    ],
+    "REQUIRED": [
+      "REQUIRED",
+      "EXPERIENCE_REQUIREMENT"
+    ],
+    "GENERAL": [
+      "GENERAL_REQUIREMENT",
+      "EXPERIENCE_REQUIREMENT"
+    ],
+    "PREFERRED": [
+      "PREFERRED",
+      "EXPERIENCE_REQUIREMENT"
+    ]
+  },
+  "separate_not_positive": [
+    "BACKGROUND",
+    "NEGATED",
+    "UNRESOLVED",
+    "COLLABORATION_OBJECT",
+    "PRODUCT_DEFINITION_OBJECT",
+    "PROCUREMENT_OBJECT",
+    "RECRUITMENT_OBJECT",
+    "TEACHING_OBJECT"
+  ],
+  "main_plot": "按职责本人使用/本人开发、硬性/一般/优先要求分别展示；要求的UNCONDITIONAL、CHOICE、EXAMPLE、CHOICE_AND_EXAMPLE分开。无条件与任选不能加成同时必须掌握。",
+  "display_selection": {
+    "skill_limit": 10,
+    "technical_limit": 8,
+    "min_distinct_companies": 5,
+    "min_distinct_ads": 10,
+    "generic_skill_codes_separate": [
+      "SK_GENERIC_ML_FRAMEWORK",
+      "SK_GENERIC_LANGUAGE",
+      "SK_CAD"
+    ],
+    "generic_rule": "泛称保留附表与覆盖说明，主技能图使用具体命名工具；不由泛称推断任何具体工具。",
+    "rank": [
+      "distinct_companies_desc",
+      "distinct_ads_desc",
+      "label_code_asc"
+    ],
+    "rank_scope": "每个已选职能的全部可评价整公司广告合并；使用正向本人职责与要求的标签并集去重，任选/示例可作为明确提及但不当作无条件要求；不读业务组/国家差距。",
+    "insufficient": "够条件的标签不足上限时全部展示，不补凑数量；其余完整附表。"
+  },
+  "group_display": {
+    "min_positive_companies": 3,
+    "min_assessable_role_ads_for_summary": 20,
+    "company_small_n": 10,
+    "dominant_company_share_warning": 0.5,
+    "meaning": "此处positive_companies指分母大于0的公司，不是技能阳性的公司。基础覆盖达门槛仅有条件允许汇总；每个标签×语境×分支须在排除UNKNOWN后再次检查3家公司/20条。任一不足仅公司点值/案例；不构成统计充分性证明。",
+    "weighting": [
+      "company_equal",
+      "ad_weighted"
+    ],
+    "zero_role_company": "角色分母为0显示NA，不以0率进入平均",
+    "overlap": "场景可多属；重叠公司必须列出，不将场景视为独立互斥样本。"
+  },
+  "country_comparison": {
+    "scope": "仅相同供给形态内；每国至少3家该职能可评价公司且20条广告，再标范围/渠道限制。",
+    "prohibited": "跨本体模型组全为美国公司，不能据模型组与系统组差异推断国家差异。"
+  },
+  "sensitivity_checks": [
+    "公司等权/广告加权",
+    "逐一剔除公司并记录阈值跌破",
+    "剔除内部团队（主比较默认）",
+    "剔除已明确多产品公司Fourier/Boston Dynamics",
+    "排除归组仅由媒体支持的公司",
+    "主分母/目录可直接评价子集",
+    "全部场景连接/具名或明确实际使用子集",
+    "不将重叠场景当互斥组"
+  ],
+  "stop_conditions": [
+    "输入哈希不匹配",
+    "身份重复或孤立标签/关系",
+    "不认识的状态或关系类型",
+    "归组缺少事实依据",
+    "不合时点证据进入当前场景",
+    "所选职能不满足已定可行门槛"
+  ],
+  "stage_c_status": "Rules and diagnostics only; full outcome tables/figures and substantive contrasts are next stage."
+}

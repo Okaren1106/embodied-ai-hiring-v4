@@ -1,0 +1,199 @@
+"""First-pass adjudication for corporate-support coding_order 81-96. Reader: grok4.6."""
+from register_Q_decisions import register
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"E0290":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"GOV_AFFAIRS_SZ","secondary_task":"",
+ "task_evidence":"负责各级政府机构及相关组织建立并维护良好的关系,确保公司在政策环境中的有利地位",
+ "new":{
+  "1":O+"办公软件未单列冻结项。"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"政府事务深圳。"
+},
+"E0264":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ADMIN_FACILITIES","fine_task":"ADMIN_MULTI_SITE","secondary_task":"",
+ "task_evidence":"全面负责公司多个城市的办公区日常行政管理",
+ "new":{
+  "1":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_PROCUREMENT","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"行政主管。供应商协调记采购。"
+},
+"E0243":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LEGAL","fine_task":"PATENT_ENGINEER","secondary_task":"",
+ "task_evidence":"负责专利申请的全生命周期管理,包括专利挖掘和布局",
+ "new":{
+  "1":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_LEGAL","GENERAL","UNCONDITIONAL"],["V2_LEGAL_CREDENTIAL","PREFERRED","CHOICE"]],
+  "3":O+"智慧芽/incopat未单列冻结项。",
+  "4":"DUPLICATE:E0243:2"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"专利工程师。代理人资格保留。"
+},
+"E0222":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"HRBP","secondary_task":"",
+ "task_evidence":"作为人力业务伙伴,深度贴合具身智能业务场景,精准匹配人力需求",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"HRBP。无新候选。"
+},
+"E0210":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"AR_ACCOUNTING","secondary_task":"",
+ "task_evidence":"负责公司应收账款全流程管理,包括销售发票开具、审核",
+ "new":{
+  "1":[["V2_SALES_CRM","SEPARATE","BACKGROUND"]],
+  "2":[["V2_ACCOUNTING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_ACCOUNTING","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_SALES_CRM","SEPARATE","COLLABORATION_OBJECT"]],
+  "5":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"],["V2_ACCOUNTING_CREDENTIAL","PREFERRED","UNCONDITIONAL"]],
+  "6":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "7":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "8":[["V2_KINGDEE","PREFERRED","UNCONDITIONAL"]],
+  "9":"DUPLICATE:E0210:8"
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"应收会计。销售发票为核算对象。"
+},
+"E0207":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"HR_SSC","secondary_task":"",
+ "task_evidence":"独立负责北京/上海落户及工作居住证全流程",
+ "new":{
+  "1":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"SSC专员。SOP保留。"
+},
+"E0198":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"HRBP_TECH","secondary_task":"",
+ "task_evidence":"作为业务 HRBP,支持研发、硬件、算法等技术团队,提供全流程 HR 解决方案",
+ "new":{
+  "1":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"HRBP。"
+},
+"E0197":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"TD_TRAINING","secondary_task":"",
+ "task_evidence":"搭建与落地公司人才发展体系,统筹新员工入职培训、在岗培训、管理层培训",
+ "new":{
+  "1":[["V2_HR","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"人才发展培训。"
+},
+"E0193":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LEGAL","fine_task":"LEGAL_BP","secondary_task":"",
+ "task_evidence":"作为公司业务部门的嵌入式法律合作伙伴,深入理解商业目标与运营模式",
+ "new":{
+  "1":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_PROCUREMENT","SEPARATE","BACKGROUND"],["V2_SALES_CRM","SEPARATE","BACKGROUND"]],
+  "3":[["V2_LEGAL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "6":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "7":[["V2_LEGAL","GENERAL","UNCONDITIONAL"],["V2_LEGAL_CREDENTIAL","REQUIRED","UNCONDITIONAL"]],
+  "8":"DUPLICATE:E0193:7",
+  "9":[["V2_LEGAL","GENERAL","UNCONDITIONAL"],["V2_SALES_CRM","SEPARATE","COLLABORATION_OBJECT"]],
+  "10":[["V2_LEGAL","GENERAL","UNCONDITIONAL"]],
+  "11":[["V2_LEGAL","GENERAL","UNCONDITIONAL"]],
+  "12":[["V2_LEGAL","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"法务BP。销售采购合同为审查对象。"
+},
+"E0189":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"FP_A","secondary_task":"",
+ "task_evidence":"负责公司月度、季度、年度财务分析工作,结合财务报表、业务数据",
+ "new":{
+  "1":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "2":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"财务分析专员。"
+},
+"E0186":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"COST_ANALYST","secondary_task":"",
+ "task_evidence":"主导关键物料成本模型搭建,审核关键物料成本合理性",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"成本及数据分析。无新候选。"
+},
+"E0180":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"HR","fine_task":"HR_SSC_HK","secondary_task":"",
+ "task_evidence":"主导飞书人事系统深度运维与优化,搭建标准化人事流程",
+ "new":{
+  "1":[["V2_FEISHU","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_SOP_OPERATION","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_HR","DUTY_OWN_USE","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"HR-SSC。飞书保留。"
+},
+"E0136":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"CURRICULUM_DEV","secondary_task":"",
+ "task_evidence":"协助课程研发团队,围绕具身智能核心内容",
+ "new":{},
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"课程开发。无新候选。"
+},
+"E0128":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"LEGAL","fine_task":"TRADEMARK","secondary_task":"",
+ "task_evidence":"负责公司国内外商标的注册申请、变更、续展、转让等全生命周期管理",
+ "new":{
+  "1":[["V2_MARKETING","SEPARATE","BACKGROUND"]],
+  "2":[["V2_MARKETING","SEPARATE","BACKGROUND"]],
+  "3":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "4":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "5":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "6":[["V2_LEGAL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "7":[["V2_LEGAL","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "8":[["V2_LEGAL","GENERAL","UNCONDITIONAL"]],
+  "9":[["V2_LEGAL","GENERAL","UNCONDITIONAL"]],
+  "10":[["V2_LEGAL","GENERAL","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"商标专家。品牌使用为审查对象。"
+},
+"E0113":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"FINANCE","fine_task":"SUPPLY_FINANCE_BP","secondary_task":"",
+ "task_evidence":"精通算力采购、转售等智算项目的测算逻辑",
+ "new":{
+  "1":[["V2_PROCUREMENT","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_ACCOUNTING","GENERAL","UNCONDITIONAL"]],
+  "3":[["V2_ACCOUNTING","PREFERRED","UNCONDITIONAL"],["V2_ACCOUNTING_CREDENTIAL","PREFERRED","CHOICE"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"财务BP供应链。算力采购测算记采购。"
+},
+"E0112":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"EDUCATION_POLICY","fine_task":"TEACHER_TRAINING","secondary_task":"",
+ "task_evidence":"围绕公司为院校开发的具身智能实训、实践类课程,设计配套的师资培训方案",
+ "new":{
+  "1":[["V2_WORLD_MODEL","SEPARATE","BACKGROUND"]]
+ },
+ "old_overrides":{},"additions":[],"outside_extra":[],
+ "notes":"科教培训。世界模型为教学内容对象。"
+}
+}
+if __name__=='__main__':
+ register('RF_CORPORATE_SUPPORT', decisions, reader='grok4.6')

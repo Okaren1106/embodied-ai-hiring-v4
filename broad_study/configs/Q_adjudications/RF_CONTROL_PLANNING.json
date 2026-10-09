@@ -1,0 +1,4429 @@
+{
+  "catalog_version": "Q2-v2.1",
+  "coding_version": "grok4.6-Q2-v2.1-first-pass",
+  "reader": "grok4.6",
+  "contributors": [
+    "grok4.6"
+  ],
+  "queue_sha256": "8815c0e72e571ac260f9a7ff1feb374fb21dab4613dd01ef5b22a32077a134d4",
+  "ads": {
+    "N0652": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "MOTOR_FOC",
+      "secondary_task": "",
+      "task_evidence": "参与永磁同步电机（PMSM）或无刷直流电机（BLDC）的磁场定向控制（FOC）算法开发",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CAN",
+            "DUTY_OWN_USE",
+            "EXAMPLE"
+          ],
+          [
+            "V2_SPI",
+            "DUTY_OWN_USE",
+            "EXAMPLE"
+          ],
+          [
+            "V2_UART",
+            "DUTY_OWN_USE",
+            "EXAMPLE"
+          ]
+        ],
+        "3": "OUTSIDE:MCU平台未单列冻结项。",
+        "4": "OUTSIDE:MCU平台未单列冻结项。",
+        "5": "OUTSIDE:MCU平台未单列冻结项。",
+        "6": "DUPLICATE:N0652:2",
+        "7": "DUPLICATE:N0652:2",
+        "8": "DUPLICATE:N0652:2",
+        "9": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "10": "DUPLICATE:N0652:9",
+        "11": "OUTSIDE:ARM Cortex-M MCU未单列冻结项。",
+        "12": "OUTSIDE:STM32未单列冻结项。",
+        "13": "OUTSIDE:TI C2000未单列冻结项。",
+        "14": "OUTSIDE:Infineon未单列冻结项。",
+        "15": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "16": [
+          [
+            "V2_FREE_RTOS",
+            "PREFERRED",
+            "CHOICE"
+          ],
+          [
+            "V2_RT_THREAD",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "17": "OUTSIDE:泛称RTOS未单列冻结项。",
+        "18": "DUPLICATE:N0652:16",
+        "19": "DUPLICATE:N0652:16"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "电机控制实习。C/C++按C未解。真CAN/SPI/UART保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|9ad8ed19-aaae-4b76-99fd-e452a1229dca|9e1735815865d9d1baf6a15d6a7fa409b0f3b77e075c52eb49938428f4eea43a",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 19,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 12,
+        "end": 55,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与永磁同步电机（PMSM）或无刷直流电机（BLDC）的磁场定向控制（FOC）算法开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "9e1735815865d9d1baf6a15d6a7fa409b0f3b77e075c52eb49938428f4eea43a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.151622+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0441": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "FORCE_CONTROL",
+      "secondary_task": "",
+      "task_evidence": "负责机器人力控相关算法开发与调试，包括且不仅限于干扰观测器、碰撞检测、虚拟墙、零空间优化、导纳/阻抗控制、力位混合控制",
+      "new": {
+        "1": [
+          [
+            "V2_SYSID",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ],
+          [
+            "V2_BULLET",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "3": "DUPLICATE:N0441:2",
+        "4": "DUPLICATE:N0441:2",
+        "5": "OUTSIDE:Mujoco/Webots/Gazebo/CoppeliaSim/Isaac未在本句单列冻结项。",
+        "6": "OUTSIDE:Mujoco/Webots/Gazebo/CoppeliaSim/Isaac未在本句单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "力控算法专家。C/C++按C未解。Bullet保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_AGIBOT|feishu|7506467694699546907|d2ad012b026b9cc2f7de686fe93d10a7425532980134d55ca44579b61cfeeeb8",
+      "company_id": "CN_AGIBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 23,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 48,
+        "end": 107,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人力控相关算法开发与调试，包括且不仅限于干扰观测器、碰撞检测、虚拟墙、零空间优化、导纳/阻抗控制、力位混合控制"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "d2ad012b026b9cc2f7de686fe93d10a7425532980134d55ca44579b61cfeeeb8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.152618+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0799": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "FIELD_MANIPULATION",
+      "secondary_task": "",
+      "task_evidence": "Experience with manipulation planning and control, such as trajectory optimization or model predictive control (MPC)",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0799:2",
+        "4": "REJECT:Python and/or C++ is not the C language.",
+        "5": [
+          [
+            "V2_TELEOP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_TENSORRT",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_ONNX",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_ONNX_RUNTIME",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "7": "DUPLICATE:N0799:6",
+        "8": "DUPLICATE:N0799:6",
+        "9": [
+          [
+            "V2_SIM2REAL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "FieldAI操作自主。英语can拒收。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|669f149b-a7a9-4f6e-8080-79b8b7903c83|05acff48ae20761d0edacc04df39fb359b2dfb174aeebfeb1151e7132c475fee",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 58,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3269,
+        "end": 3385,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Experience with manipulation planning and control, such as trajectory optimization or model predictive control (MPC)"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "05acff48ae20761d0edacc04df39fb359b2dfb174aeebfeb1151e7132c475fee",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.152618+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0050": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "WHEELED_HUMANOID_RL",
+      "secondary_task": "",
+      "task_evidence": "协同完成RL算法与WBC、MPC等传统运控算法的融合",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:Python/C++不是C语言。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "运控算法工程师。WBC/MPC记经典控制。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7638974344563722539|f3283460e28ffa9dddb3f26b00239d4eba36209ab68d401119d764b76d9e25b4",
+      "company_id": "CN_SPIRITAI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 108,
+        "end": 134,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "协同完成RL算法与WBC、MPC等传统运控算法的融合"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "f3283460e28ffa9dddb3f26b00239d4eba36209ab68d401119d764b76d9e25b4",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.152618+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0495": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "PERCEPTION_FUSED_GAIT",
+      "secondary_task": "NAV_PLANNING",
+      "task_evidence": "通过融合激光雷达、深度相机等外部感知信息生成的高度图/深度图，实时规划与执行步态",
+      "new": {
+        "1": "OUTSIDE:PPO未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "感控融合。PPO目录外。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_DEEPROBOTICS|moka|8eadac9d-5473-4ffa-9070-3d0cc144a790|e3c47fa1144a9d7b453689a11d8ca5a5e3c92700b5f8adc12b121b47cc9ed1e1",
+      "company_id": "CN_DEEPROBOTICS",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 60,
+        "end": 100,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "通过融合激光雷达、深度相机等外部感知信息生成的高度图/深度图，实时规划与执行步态"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "e3c47fa1144a9d7b453689a11d8ca5a5e3c92700b5f8adc12b121b47cc9ed1e1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.152618+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0045": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "MOBILE_MANIP_INTERN",
+      "secondary_task": "",
+      "task_evidence": "协助参与机器人与人工智能算法研发，应用于室内移动操作算法。",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "移动操作实习。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a42fe642-b9f4-4b5c-8ac6-733338f3ae33|0064fd195fb6bf7a1daa6530416eb607c2e830798ec57e4fb2735403e3452d3e",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 38,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "协助参与机器人与人工智能算法研发，应用于室内移动操作算法。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "0064fd195fb6bf7a1daa6530416eb607c2e830798ec57e4fb2735403e3452d3e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.153619+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0447": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "WBC_INTERN",
+      "secondary_task": "",
+      "task_evidence": "参与机器人全身协同运动规划与控制算法开发工作",
+      "new": {
+        "1": "REJECT:Python、C++不是C语言。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "运动控制实习。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|8bfa40ff-618f-4a98-8490-a49c0730880a|92802495435dfff81edffe73cae6c62a4d525480ee3ed4822d2dcdf6ed6179e4",
+      "company_id": "CN_FOURIER",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 25,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与机器人全身协同运动规划与控制算法开发工作"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "92802495435dfff81edffe73cae6c62a4d525480ee3ed4822d2dcdf6ed6179e4",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.153619+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0294": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "HUMANOID_CONTROL_SW",
+      "secondary_task": "",
+      "task_evidence": "负责人形机器人系统级软件开发,构建高实时性、模块化的软件架构",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CAN",
+            "DUTY_OWN_DEVELOP",
+            "EXAMPLE"
+          ],
+          [
+            "V2_ETHERCAT",
+            "DUTY_OWN_DEVELOP",
+            "EXAMPLE"
+          ]
+        ],
+        "3": "REJECT:C++不是C语言。",
+        "4": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "5": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "OUTSIDE:ros2_control未单列冻结项。",
+        "7": "OUTSIDE:SOEM/IgH未单列冻结项。",
+        "8": "DUPLICATE:E0294:5"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "控制系统工程师。GitLab记Git协作。真CAN/EtherCAT保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7508598359985621260|e676f9b3afe279c09edce6616da087e4f431f1f857a45f5d62ba1120afa3a08d",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 32,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责人形机器人系统级软件开发,构建高实时性、模块化的软件架构"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "e676f9b3afe279c09edce6616da087e4f431f1f857a45f5d62ba1120afa3a08d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.153619+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0604": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "WBC_RESEARCH_INTERN",
+      "secondary_task": "",
+      "task_evidence": "研究人形机器人全身控制前沿算法，鼓励探索与创新",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "WBC研究实习。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7520106192783657253|07c1d1a2081b7836fa812728530d7e97c270df69ab97d010718c5c9a1c523cae",
+      "company_id": "CN_LIMX",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 4,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 31,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "研究人形机器人全身控制前沿算法，鼓励探索与创新"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "07c1d1a2081b7836fa812728530d7e97c270df69ab97d010718c5c9a1c523cae",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.153619+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0855": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "WAREHOUSE_CONTROLS",
+      "secondary_task": "",
+      "task_evidence": "Familiarity with communications protocols commonly used in mechatronics and robotic systems (EtherCAT, CAN bus, etc.).",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "REJECT:English can is not Controller Area Network.",
+        "3": [
+          [
+            "V2_INCIDENT_SUPPORT",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "5": "DUPLICATE:N0855:4",
+        "6": "DUPLICATE:N0855:4"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Dexterity Controls Engineer。英语can拒收。真CAN bus保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_DEXTERITY|lever|fc2356ec-35b9-470f-af00-a4286e275161|645d687cdc1b5ace7adef41397062bd9c7e78c9c4ac939d16ca9739001ea3739",
+      "company_id": "US_DEXTERITY",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 23,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3553,
+        "end": 3671,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Familiarity with communications protocols commonly used in mechatronics and robotic systems (EtherCAT, CAN bus, etc.)."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "645d687cdc1b5ace7adef41397062bd9c7e78c9c4ac939d16ca9739001ea3739",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.153619+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0348": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "WHOLE_BODY_MOTION_PLANNING",
+      "secondary_task": "MANIPULATION",
+      "task_evidence": "Design, implement, test, and deploy motion planning and trajectory optimization algorithms for humanoid robots",
+      "new": {
+        "1": [
+          [
+            "V2_PATH_SEARCH",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:C++17/20 is not the C language.",
+        "4": [
+          [
+            "V2_PATH_SEARCH",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_PATH_SEARCH",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "REJECT:Salary USD is not Universal Scene Description.",
+        "7": "REJECT:Third-party recruiting boilerplate is not HR professional duty."
+      },
+      "old_overrides": {
+        "O1": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原C++短词定位为空，改为C++17/20经验句。",
+          "quote": "Expertise in modern C++ (C++17/20) and Python for high-performance, multithreaded, real-time robotics applications"
+        },
+        "O17": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原planning短词定位为空，改为样本规划与轨迹优化句。",
+          "quote": "Proven expertise in sample-based motion planning, trajectory optimization, and model predictive control (MPC) with a track record of shipping these algorithms to production"
+        },
+        "O18": {
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "relation": "OWN_USE",
+          "reason": "原control短词定位为空，改为规划栈与控制集成句。",
+          "quote": "Architect motion planning systems for modularity, observability, and clean integration with perception, state estimation, and control"
+        },
+        "O20": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原manipulation短词定位为空，改为高自由度操作算法经验句。",
+          "quote": "Experience developing and deploying manipulation algorithms on high-DOF robots"
+        },
+        "O26": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原motion planning短词定位为空，改为离线轨迹优化加速在线规划句。",
+          "quote": "Experience leveraging machine learning or offline trajectory optimization to accelerate online planning"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Agility运动规划。继承短词改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6007559004|7464cff85be6d19b144272deec146df50b646bcfa300d6982f3b16178710d041",
+      "company_id": "US_AGILITY",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 26,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 143,
+        "end": 253,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design, implement, test, and deploy motion planning and trajectory optimization algorithms for humanoid robots"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "7464cff85be6d19b144272deec146df50b646bcfa300d6982f3b16178710d041",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.153619+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0583": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "HUMANOID_CONTROLS",
+      "secondary_task": "",
+      "task_evidence": "Design & implement control algorithms: PID, LQR, MPC, inverse dynamics, and feedforward controllers.",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CAN",
+            "DUTY_OWN_USE",
+            "EXAMPLE"
+          ],
+          [
+            "V2_ETHERNET",
+            "DUTY_OWN_USE",
+            "EXAMPLE"
+          ],
+          [
+            "V2_I2C",
+            "DUTY_OWN_USE",
+            "EXAMPLE"
+          ],
+          [
+            "V2_SPI",
+            "DUTY_OWN_USE",
+            "EXAMPLE"
+          ]
+        ],
+        "3": "REJECT:Python and C++ is not the C language.",
+        "4": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_ETHERNET",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_I2C",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_SPI",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Apptronik Controls Engineer。真CAN/SPI/I2C/Ethernet保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|c8f9e9aa-8801-4916-9b1f-2c0bd5f072f9|6c51b914512effaf99ba30294ce0df1f6e4c8b678e478b7d12cfe722ced92333",
+      "company_id": "US_PHYSICAL_INTELLIGENCE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 25,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 102,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design & implement control algorithms: PID, LQR, MPC, inverse dynamics, and feedforward controllers."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "6c51b914512effaf99ba30294ce0df1f6e4c8b678e478b7d12cfe722ced92333",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.154618+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0006": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "ARM_LOWLEVEL",
+      "secondary_task": "",
+      "task_evidence": "负责六轴或七轴机械臂运动规划算法的研发与优化",
+      "new": {
+        "1": [
+          [
+            "V2_DDS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "2": "REJECT:C++不是C语言。",
+        "3": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "OUTSIDE:IF-Fast未单列冻结项。",
+        "5": [
+          [
+            "SK_ZEROMQ",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "SK_LCM",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_DDS",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机械臂底层运控。UDP不记TCP/IP。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_NOETIX|noetix|7|d523f335a4040f21c4533062c44081d90d205220c61e2bb7e1cd7d242ef40450",
+      "company_id": "CN_NOETIX",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 24,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责六轴或七轴机械臂运动规划算法的研发与优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "d523f335a4040f21c4533062c44081d90d205220c61e2bb7e1cd7d242ef40450",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.154618+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0356": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "DUAL_ARM_PLANNING",
+      "secondary_task": "NAV_PLANNING",
+      "task_evidence": "攻克Sim2Real Gap难题，确保算法在真机上的稳定迁移。",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Python/C++不是C语言。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "规控算法。Sim2Real/标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|3f84f29f-1392-414e-9c5b-889a0503f1d8|d01590efcfd9274658a22a74dfc2280c3fa96dd320a85682b09e608a9b4fb67e",
+      "company_id": "CN_PAXINI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 181,
+        "end": 212,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "攻克Sim2Real Gap难题，确保算法在真机上的稳定迁移。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "d01590efcfd9274658a22a74dfc2280c3fa96dd320a85682b09e608a9b4fb67e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.154618+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0378": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "DEXTEROUS_SW",
+      "secondary_task": "",
+      "task_evidence": "The Lead Software Engineer - Dexterous Manipulation is a core contributor to our robot",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:C++/Python is not the C language.",
+        "5": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "灵巧操作软件负责人。英语can未单记CAN。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|5825048004|6dc452c4304cc4d1f9961cd744fec3562bd1f07dc9e75f685d444255c0b863b6",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 34,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 86,
+        "method": "UNIQUE_WHITESPACE_MATCH",
+        "quote": "The\nLead Software Engineer - Dexterous Manipulation\nis a core contributor to our robot"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "6dc452c4304cc4d1f9961cd744fec3562bd1f07dc9e75f685d444255c0b863b6",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.154618+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0926": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "FLEET_PLANNING",
+      "fine_task": "FLEET_OPTIMIZATION",
+      "secondary_task": "",
+      "task_evidence": "Own software infrastructure, continuous integration, production debugging, and on-call support for components you build.",
+      "new": {
+        "1": "REJECT:Company boilerplate is not the C language.",
+        "2": "REJECT:Series C funding is not the C language.",
+        "3": [
+          [
+            "V2_CI_CD",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:C++ as an alternative to Rust is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Nimble车队优化。C轮融资拒收C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_NIMBLE|greenhouse|4136334009|df6b9c775d373b231320de5b1e8908ebe21375674ca92939d0acfa232021a932",
+      "company_id": "US_NIMBLE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 4169,
+        "end": 4289,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Own software infrastructure, continuous integration, production debugging, and on-call support for components you build."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "df6b9c775d373b231320de5b1e8908ebe21375674ca92939d0acfa232021a932",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:43:50.155618+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0983": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "SPOT_MANIPULATION",
+      "secondary_task": "",
+      "task_evidence": "Experience with kinematic path planning and trajectory optimization.",
+      "new": {
+        "1": "REJECT:C++ is not the C language.",
+        "2": "REJECT:C++ is not the C language.",
+        "3": [
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Spot操作。C++拒收C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|7ec4f36fb78a1000c18f5617aad10000|33aacf6e87276127c2563f033151fb1ee27ddf1b7c9c6cfa834a724d0e00a1ee",
+      "company_id": "US_BOSTON_DYNAMICS",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 19,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1706,
+        "end": 1774,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Experience with kinematic path planning and trajectory optimization."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "33aacf6e87276127c2563f033151fb1ee27ddf1b7c9c6cfa834a724d0e00a1ee",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.751129+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0939": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "AMR_NAV",
+      "secondary_task": "",
+      "task_evidence": "Experience with graph search methods for planning, such as A*, RRT, and/or PRM is required.",
+      "new": {
+        "1": "REJECT:C++ is a plus, not the C language.",
+        "2": [
+          [
+            "V2_PATH_SEARCH",
+            "REQUIRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "DUPLICATE:N0939:2",
+        "4": "DUPLICATE:N0939:2",
+        "5": "DUPLICATE:N0939:2",
+        "6": [
+          [
+            "V2_PATH_SEARCH",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "REQUIRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "DUPLICATE:N0939:7",
+        "9": "OUTSIDE:Pure Pursuit未单列冻结项。",
+        "10": "DUPLICATE:N0939:7",
+        "11": [
+          [
+            "V2_PROJECT_METHOD",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "12": "DUPLICATE:N0939:11",
+        "13": "REJECT:Office location is not Microsoft Office."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Pickle导航。A*/RRT/PRM/PID保留。办公室地点拒收Office。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PICKLE|lever|a5628620-50a5-4f65-826f-45ff3b611d40|15851e00d5aedf2b5f20cdf988ed11ceaea8192ed907b0774135e23c03f6f34d",
+      "company_id": "US_PICKLE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 21,
+      "reviewed_candidate_count": 13,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1453,
+        "end": 1544,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Experience with graph search methods for planning, such as A*, RRT, and/or PRM is required."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "15851e00d5aedf2b5f20cdf988ed11ceaea8192ed907b0774135e23c03f6f34d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.752130+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0097": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "LEGGED_CONTROL",
+      "secondary_task": "",
+      "task_evidence": "负责足式机器人的运动控制算法的开发、调试和测试",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "足式运控。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|1526050171207548928|ddede1a9a0e83cd7b4db6ea73976c2317a7aac892c13fb489c4db9674fb9ed38",
+      "company_id": "CN_UNITREE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 3,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 26,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责足式机器人的运动控制算法的开发、调试和测试"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "ddede1a9a0e83cd7b4db6ea73976c2317a7aac892c13fb489c4db9674fb9ed38",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.752130+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0624": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "WHEELED_HUMANOID_WBC",
+      "secondary_task": "MANIPULATION",
+      "task_evidence": "负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:C++不是C语言。",
+        "3": [
+          [
+            "V2_OCS2",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "4": "DUPLICATE:N0624:3",
+        "5": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "全身运控高级。ocs2保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|cf213db3-3c64-4884-a991-967541a19e48|61cff554a918367f83c6cd7da67541afc30fa10c4c0b1cf54ff44aebaf782d48",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 43,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "61cff554a918367f83c6cd7da67541afc30fa10c4c0b1cf54ff44aebaf782d48",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.752130+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0476": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "MOTOR_FOC",
+      "secondary_task": "",
+      "task_evidence": "负责机器人平台电机控制算法（FOC/无感估算）的开发、优化与维护",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "OUTSIDE:ST MCU平台未单列冻结项。",
+        "3": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "4": "DUPLICATE:N0476:3",
+        "5": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "电机控制。C/C++按C未解。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|46e2ceb5-ee53-4312-8edd-c9d208bcee9e|54e552a51b1e81c4dbf5f02ba3957d96e23d5e3574a5aaad2c0a88c85b98fa25",
+      "company_id": "CN_FOURIER",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 41,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人平台电机控制算法（FOC/无感估算）的开发、优化与维护"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "54e552a51b1e81c4dbf5f02ba3957d96e23d5e3574a5aaad2c0a88c85b98fa25",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.752130+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0648": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "WHEELED_HUMANOID_INTERN",
+      "secondary_task": "",
+      "task_evidence": "负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器",
+      "new": {
+        "1": "OUTSIDE:VLA基础模型与EDP开发平台未在本职能作为广告工具项使用。",
+        "2": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:C++不是C语言。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "运控实习。VLA为背景产品。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|19849423-e9fc-4dfe-a2da-58f6894da182|73acb3d1b7034adc7c239a2f50eb858cdf722b7c79724bf2a696d0c22ed33d0d",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 143,
+        "end": 183,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "73acb3d1b7034adc7c239a2f50eb858cdf722b7c79724bf2a696d0c22ed33d0d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.752130+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0623": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "LIDAR_NAV",
+      "secondary_task": "",
+      "task_evidence": "负责基于激光雷达点云的全局路径规划算法（A* / Dijkstra / Hybrid A* / RRT* 等）开发与持续优化",
+      "new": {
+        "1": [
+          [
+            "V2_PATH_SEARCH",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_NAV2",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0623:3",
+        "5": "OUTSIDE:Move Base未单列冻结项。",
+        "6": "REJECT:C++不是C语言。",
+        "7": "OUTSIDE:Cartographer未单列冻结项。",
+        "8": "OUTSIDE:GMapping未单列冻结项。",
+        "9": "OUTSIDE:LIO-SAM未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "导航算法。Nav2保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|ca47e2dd-7f80-4fbb-a7db-b8d33b64120e|f576abd5c7489e0491c6b8ad1f3befa1d06342862e73685ad4e78faeadad1c18",
+      "company_id": "CN_GALAXEA",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 9,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 14,
+        "end": 76,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责基于激光雷达点云的全局路径规划算法（A* / Dijkstra / Hybrid A* / RRT* 等）开发与持续优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "f576abd5c7489e0491c6b8ad1f3befa1d06342862e73685ad4e78faeadad1c18",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.752130+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0167": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "WHOLE_BODY_PLANNING",
+      "secondary_task": "",
+      "task_evidence": "负责机器人整身规划软件的框架设计及开发",
+      "new": {
+        "1": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "2": "DUPLICATE:N0167:1",
+        "3": "OUTSIDE:Webots未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "全身规划。C/C++/Python按C未解。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|2199fc90-aa85-4c5c-878e-a3e73a417287|b870d7791fca9652abfa5e46f3eed5ff7803534ea4f5a2b2bc6747a3f6d7dc8c",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 28,
+        "end": 47,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人整身规划软件的框架设计及开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b870d7791fca9652abfa5e46f3eed5ff7803534ea4f5a2b2bc6747a3f6d7dc8c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.752130+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0146": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "FORCE_INDUSTRIAL",
+      "secondary_task": "",
+      "task_evidence": "实现基于力/触觉的柔顺控制，完成装配、插拔、打磨等精密操作。",
+      "new": {
+        "1": [
+          [
+            "V2_MOVEIT",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_OMPL",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "2": "DUPLICATE:N0146:1",
+        "3": "DUPLICATE:N0146:1",
+        "4": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "力控操作。C++/Python不记C。MoveIt/OMPL保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|23e99c6c-271a-4695-accb-2ef0a875e715|de2b502a3d54073eab2e4c403bee3101e61d487b9e753ef60245639c187c7a00",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 64,
+        "end": 94,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "实现基于力/触觉的柔顺控制，完成装配、插拔、打磨等精密操作。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "de2b502a3d54073eab2e4c403bee3101e61d487b9e753ef60245639c187c7a00",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.752130+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0139": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "WBC_MPC",
+      "secondary_task": "",
+      "task_evidence": "主导或参与基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试。",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0139:1",
+        "3": "DUPLICATE:N0139:1",
+        "4": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "REQUIRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0139:4",
+        "6": "DUPLICATE:N0139:4",
+        "7": "REJECT:C++不是C语言。",
+        "8": "OUTSIDE:Linux开发环境未单列冻结项。",
+        "9": "OUTSIDE:RBDL未单列冻结项。",
+        "10": [
+          [
+            "V2_OSQP",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_QPOASES",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "11": "DUPLICATE:N0139:10",
+        "12": "OUTSIDE:Acados未单列冻结项。",
+        "13": "DUPLICATE:N0139:10",
+        "14": "OUTSIDE:Preempt-RT未单列冻结项。",
+        "15": "OUTSIDE:泛称RTOS未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "双足WBC/MPC。OSQP/qpOASES保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|2e3f96b0-b0b5-4a9f-8e34-41cc999dd749|307cebbbbed3f710420a986164b9b96de5ad054e925d5b7f919358fdaef7273c",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 25,
+      "reviewed_candidate_count": 15,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 16,
+        "end": 54,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "主导或参与基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "307cebbbbed3f710420a986164b9b96de5ad054e925d5b7f919358fdaef7273c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.753634+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0055": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "PLANNING_INTERN",
+      "secondary_task": "CONTROL_RUNTIME",
+      "task_evidence": "参与机器人规划与控制软件的架构设计与代码实现，负责具体模块的开发",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_OSQP",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_QPOASES",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "DUPLICATE:N0055:5",
+        "7": "DUPLICATE:N0055:5",
+        "8": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "9": "DUPLICATE:N0055:8",
+        "10": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_CMAKE",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_GDB",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "11": "DUPLICATE:N0055:10",
+        "12": "DUPLICATE:N0055:10",
+        "13": "DUPLICATE:N0055:10",
+        "14": "OUTSIDE:RBDL未单列冻结项。",
+        "15": [
+          [
+            "V2_BULLET",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "16": "DUPLICATE:N0055:15"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "规控实习。C/C++按C未解。Git/CMake/GDB保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|3c7b0b80-260a-4089-b453-c9eb12f08b6b|19f107db34e2cda6742521b6db20d9262db489c5421aa25252f5f86566f894d5",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 32,
+      "reviewed_candidate_count": 16,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 13,
+        "end": 45,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与机器人规划与控制软件的架构设计与代码实现，负责具体模块的开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "19f107db34e2cda6742521b6db20d9262db489c5421aa25252f5f86566f894d5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.753634+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0129": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "MOTOR_DEV",
+      "secondary_task": "",
+      "task_evidence": "负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0129:1",
+        "3": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "DUPLICATE:N0129:3",
+        "5": "OUTSIDE:TI C2000未单列冻结项。",
+        "6": "OUTSIDE:STM32 MCU未单列冻结项。",
+        "7": "OUTSIDE:PLECS未单列冻结项。",
+        "8": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "DUPLICATE:N0129:8",
+        "10": "OUTSIDE:DTC/SVPWM作为未单列别名出现。",
+        "11": "OUTSIDE:DTC/SVPWM作为未单列别名出现。",
+        "12": [
+          [
+            "V2_CAN",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_ETHERCAT",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "13": "DUPLICATE:N0129:12",
+        "14": "OUTSIDE:485总线未进入本职能冻结目录。",
+        "15": "DUPLICATE:N0129:12"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "电机开发。RS485不在控制职能目录。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|4d1af2cc-b42c-48b2-bf1f-a3d5f2d46d50|ecfe5f2d0574f849c545a6bfd4a0832ca39b6603a5a6ca384719e8d8b9d24d4f",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 7,
+      "reviewed_candidate_count": 15,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 8,
+        "end": 40,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "ecfe5f2d0574f849c545a6bfd4a0832ca39b6603a5a6ca384719e8d8b9d24d4f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.753634+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0043": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "WHOLE_BODY_INTERN",
+      "secondary_task": "",
+      "task_evidence": "参与机器人整身规划软件的框架设计及开发",
+      "new": {
+        "1": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "2": "DUPLICATE:N0043:1",
+        "3": "OUTSIDE:Webots未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "规划控制实习。C/C++/Python按C未解。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|5066ee8c-dd84-4db0-ba5f-b8d855437c7c|2d67d78219514da6695b14730f894e0e9e4eefa8d40f09aa6306489573ffab3d",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 28,
+        "end": 47,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与机器人整身规划软件的框架设计及开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "2d67d78219514da6695b14730f894e0e9e4eefa8d40f09aa6306489573ffab3d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.753634+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0164": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "MOBILE_MANIP",
+      "secondary_task": "NAV_PLANNING",
+      "task_evidence": "参与机器人与人工智能算法研发，应用于室内移动操作平台的决策、规划与控制",
+      "new": {
+        "1": "REJECT:C++不是C语言。",
+        "2": [
+          [
+            "V2_SAPIEN",
+            "PREFERRED",
+            "CHOICE"
+          ]
+        ],
+        "3": "DUPLICATE:N0164:2",
+        "4": "OUTSIDE:iGibson未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "移动操作。Sapien保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|55282b8e-ec8b-4c57-a6a5-eb508addac54|b80e10d42baf54b2c8d939c296b49586fc361811e0c50fd9a41e5bbb82ef21ec",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 25,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 44,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "参与机器人与人工智能算法研发，应用于室内移动操作平台的决策、规划与控制"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b80e10d42baf54b2c8d939c296b49586fc361811e0c50fd9a41e5bbb82ef21ec",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.753634+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0077": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "HRI_MOTION",
+      "secondary_task": "",
+      "task_evidence": "将数字人动作生成逻辑转化为机器人可执行的关节轨迹/行为指令，兼顾运动学约束与交互自然性。",
+      "new": {
+        "1": "REJECT:量化评估交互自然度不是模型压缩量化。",
+        "2": "OUTSIDE:SMPL未单列冻结项。",
+        "3": "OUTSIDE:SMPL-X未单列冻结项。",
+        "4": "OUTSIDE:FLAME未单列冻结项。",
+        "5": [
+          [
+            "V2_BLENDER",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_UNITY",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_UNREAL",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "6": "DUPLICATE:N0077:5",
+        "7": "DUPLICATE:N0077:5",
+        "8": "DUPLICATE:N0077:5",
+        "9": "OUTSIDE:PyTorch3D未单列冻结项。",
+        "10": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "人机交互。量化评估拒收压缩。Unity/Unreal/Blender保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|57c62c9d-f3e8-4ff8-9703-f0b6eb622fb4|395afbe73ef0701e4c45a84865662e7bbf9c6b68c1dcc7cfc0f4b98d486d8eb5",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 20,
+      "reviewed_candidate_count": 10,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 44,
+        "end": 88,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "将数字人动作生成逻辑转化为机器人可执行的关节轨迹/行为指令，兼顾运动学约束与交互自然性。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "395afbe73ef0701e4c45a84865662e7bbf9c6b68c1dcc7cfc0f4b98d486d8eb5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.754639+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0063": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "RETARGETING",
+      "secondary_task": "",
+      "task_evidence": "负责人体/人形机器人动作生成（motion generation）与重定向（retargeting）算法的设计、开发与优化",
+      "new": {
+        "1": [
+          [
+            "V2_MOCAP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "OUTSIDE:GMR未单列冻结项。",
+        "3": "OUTSIDE:omniretarget未单列冻结项。",
+        "4": [
+          [
+            "V2_BLENDER",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_UNITY",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": "DUPLICATE:N0063:4",
+        "6": "DUPLICATE:N0063:4",
+        "7": "REJECT:Python或C++不是C语言。",
+        "8": [
+          [
+            "V2_MOCAP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "9": "OUTSIDE:BVH未单列冻结项。",
+        "10": "OUTSIDE:FBX未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "重定向实习。动捕保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|5c53daa9-38b5-4ef0-9646-0ac65e25b4b7|a58225665ee908f2c12dba6e2964247f6d0dfc38a828c573a40746f645bd8519",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 24,
+      "reviewed_candidate_count": 10,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 70,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责人体/人形机器人动作生成（motion generation）与重定向（retargeting）算法的设计、开发与优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "a58225665ee908f2c12dba6e2964247f6d0dfc38a828c573a40746f645bd8519",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:45:25.754639+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0003": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "LEGGED_RL",
+      "secondary_task": "",
+      "task_evidence": "研发基于深度强化学习的足式机器人运动控制算法",
+      "new": {
+        "1": "REJECT:C++不是C语言。",
+        "2": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "人形强化学习控制。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|896b3bfc-a5b1-42d1-9b25-d30424447cf5|b94272f61508758e414406ec7e7da9cdd59fc8bac10439b180741587135a2af7",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 30,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 10,
+        "end": 32,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "研发基于深度强化学习的足式机器人运动控制算法"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "b94272f61508758e414406ec7e7da9cdd59fc8bac10439b180741587135a2af7",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.226119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0044": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "LEGGED_RL_INTERN",
+      "secondary_task": "",
+      "task_evidence": "研发基于深度强化学习的足式机器人运动控制算法",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "足式强化学习实习。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a1367571-024b-4d61-8731-39d4b170e980|73ba82b4b4452cd391e1a090a61e9159dbc5063a5d1cfa91efcf61e3ff97dbb9",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 10,
+        "end": 32,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "研发基于深度强化学习的足式机器人运动控制算法"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "73ba82b4b4452cd391e1a090a61e9159dbc5063a5d1cfa91efcf61e3ff97dbb9",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.226119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0142": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "DUAL_ARM_PLANNING",
+      "secondary_task": "NAV_PLANNING",
+      "task_evidence": "负责人形机器人的整体运动规划算法应用及测试，包括手臂运动规划、双臂协同、力控等算法的开发与优化",
+      "new": {
+        "1": [
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "2": "DUPLICATE:N0142:1",
+        "3": "DUPLICATE:N0142:1",
+        "4": "DUPLICATE:N0142:1",
+        "5": [
+          [
+            "V2_OMPL",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "6": "DUPLICATE:N0142:5",
+        "7": "OUTSIDE:TrajOpt未单列冻结项。",
+        "8": "OUTSIDE:Chomp未单列冻结项。",
+        "9": "OUTSIDE:Curobo未单列冻结项。",
+        "10": "REJECT:C++不是C语言。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "规控苏州。OMPL/A*/RRT保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a3e3a23b-9613-4654-8ee8-7c9bd7461223|9ef8944fc086648d326740b9e15cb63a6096fe0660c7080ec3d72eb019a99b32",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 21,
+      "reviewed_candidate_count": 10,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 56,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责人形机器人的整体运动规划算法应用及测试，包括手臂运动规划、双臂协同、力控等算法的开发与优化"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "9ef8944fc086648d326740b9e15cb63a6096fe0660c7080ec3d72eb019a99b32",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.226119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0033": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "INDUSTRIAL_PLANNING",
+      "secondary_task": "",
+      "task_evidence": "负责机器人现场实施、调试。",
+      "new": {
+        "1": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "2": "DUPLICATE:N0033:1",
+        "3": "OUTSIDE:Webots未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "C/C++/Python按C未解。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a416fefc-a678-4a3f-9c16-975e6510ec9d|f8f291c137fba2a1cc165fbc415d0d289fd7285df133cd3a05443db1396bbb9b",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 10,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 88,
+        "end": 101,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人现场实施、调试。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "f8f291c137fba2a1cc165fbc415d0d289fd7285df133cd3a05443db1396bbb9b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.227119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0025": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "FORCE_INDUSTRIAL",
+      "secondary_task": "",
+      "task_evidence": "实现基于力/触觉的柔顺控制，完成装配、插拔、打磨等精密操作。",
+      "new": {
+        "1": [
+          [
+            "V2_MOVEIT",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_OMPL",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "2": "DUPLICATE:N0025:1",
+        "3": "DUPLICATE:N0025:1",
+        "4": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "力控操作。C++/Python不记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|bcf76237-f913-4ff4-a387-76363a085da3|79170ec055fa260a4af07601d12c3852a74f61e60f88a6144c131ff0f55bb95d",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 68,
+        "end": 98,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "实现基于力/触觉的柔顺控制，完成装配、插拔、打磨等精密操作。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "79170ec055fa260a4af07601d12c3852a74f61e60f88a6144c131ff0f55bb95d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.227119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0144": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "ARM_PLANNING_APP",
+      "secondary_task": "",
+      "task_evidence": "开发和优化机械臂基础运动规划算法，包括轨迹生成、路径规划、避障与执行稳定性优化。",
+      "new": {
+        "1": [
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "2": "DUPLICATE:N0144:1",
+        "3": "DUPLICATE:N0144:1",
+        "4": "REJECT:C++/Python不是C语言。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "具身应用工程师。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|cbaed516-8503-43d2-ac99-dc728bddb2fb|de9069e41fb4cd66efde1be31e7dabf8b24c60de3c828d0a25de09b430bfea7c",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 60,
+        "end": 100,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "开发和优化机械臂基础运动规划算法，包括轨迹生成、路径规划、避障与执行稳定性优化。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "de9069e41fb4cd66efde1be31e7dabf8b24c60de3c828d0a25de09b430bfea7c",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.227119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0036": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "HRI_MOTION",
+      "secondary_task": "",
+      "task_evidence": "将数字人动作生成逻辑转化为机器人可执行的关节轨迹/行为指令，兼顾运动学约束与交互自然性。",
+      "new": {
+        "1": "REJECT:量化评估交互自然度不是模型压缩量化。",
+        "2": "OUTSIDE:SMPL未单列冻结项。",
+        "3": "OUTSIDE:SMPL-X未单列冻结项。",
+        "4": "OUTSIDE:FLAME未单列冻结项。",
+        "5": [
+          [
+            "V2_BLENDER",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_UNITY",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_UNREAL",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "6": "DUPLICATE:N0036:5",
+        "7": "DUPLICATE:N0036:5",
+        "8": "DUPLICATE:N0036:5",
+        "9": "OUTSIDE:PyTorch3D未单列冻结项。",
+        "10": [
+          [
+            "V2_SIM2REAL",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "人机交互。量化评估拒收压缩。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|d04192dd-f9b8-4bbc-80b9-c2bdc3e19d11|395afbe73ef0701e4c45a84865662e7bbf9c6b68c1dcc7cfc0f4b98d486d8eb5",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 10,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 44,
+        "end": 88,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "将数字人动作生成逻辑转化为机器人可执行的关节轨迹/行为指令，兼顾运动学约束与交互自然性。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "395afbe73ef0701e4c45a84865662e7bbf9c6b68c1dcc7cfc0f4b98d486d8eb5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.227119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0065": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "INSPECT_NAV",
+      "secondary_task": "",
+      "task_evidence": "负责机器人端自主导航系统算法研发、迭代与工程落地，包含全局路径规划、局部轨迹优化、动态避障、轨迹跟踪控制",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:C++不是C语言。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "导航算法。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|dd84b406-b063-4497-8ee9-fa88256b4c04|702da7c5d73d99b365aec5d731a7999a2b74dd01df27b2b634cfa6d5558ebe69",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 20,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 61,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人端自主导航系统算法研发、迭代与工程落地，包含全局路径规划、局部轨迹优化、动态避障、轨迹跟踪控制"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "702da7c5d73d99b365aec5d731a7999a2b74dd01df27b2b634cfa6d5558ebe69",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.227119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0147": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "INDUSTRIAL_FORCE_EXPERT",
+      "secondary_task": "",
+      "task_evidence": "搭建完整控制架构，解决高动态、高负载操作中的稳定性与精准度问题。",
+      "new": {
+        "1": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0147:1",
+        "3": "DUPLICATE:N0147:1"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "具身控制专家。IEC 61508记功能安全。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|f954e8fa-737a-4a1b-81e0-ff80c339fb9b|192741626d025fe7a3b992daa572442798efac369c2e506801fd8dbc5d2b1df2",
+      "company_id": "CN_GALBOT",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 41,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "搭建完整控制架构，解决高动态、高负载操作中的稳定性与精准度问题。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "192741626d025fe7a3b992daa572442798efac369c2e506801fd8dbc5d2b1df2",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.228119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0605": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "MOTION_CONTROL_SDK",
+      "secondary_task": "",
+      "task_evidence": "负责机器人的运动控制算法的开发与实机调试",
+      "new": {
+        "1": "REJECT:C++软件不是C语言。",
+        "2": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "运控算法。C++拒收；C/C++未解。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7512392587950098697|2efdfcbbb82d22d9a5bfe57cd856f5c65faa400f7d3fdc8b86c6e292bc5814cc",
+      "company_id": "CN_LIMX",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 7,
+        "end": 27,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人的运动控制算法的开发与实机调试"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "2efdfcbbb82d22d9a5bfe57cd856f5c65faa400f7d3fdc8b86c6e292bc5814cc",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.228119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0591": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "GLOBAL_LOCAL_PLANNING",
+      "secondary_task": "",
+      "task_evidence": "全局路径规划",
+      "new": {
+        "1": "REJECT:C++不是C语言。",
+        "2": [
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_NAV2",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0591:4",
+        "6": "OUTSIDE:坐标系TF未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "导航与规划。Nav2保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_LIMX|feishu|7610326378155706670|22112c1b562b22304597b800428f5c57df241b39cae53878c7ae3eeefd38d892",
+      "company_id": "CN_LIMX",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 30,
+        "end": 36,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "全局路径规划"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "22112c1b562b22304597b800428f5c57df241b39cae53878c7ae3eeefd38d892",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.228119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0007": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "MOTOR_FOC",
+      "secondary_task": "",
+      "task_evidence": "负责无刷/有刷电机驱动器控制算法软件开发,包括模型仿真、算法设计、功能设计、软件编码和调试",
+      "new": {
+        "1": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CAN",
+            "PREFERRED",
+            "EXAMPLE"
+          ],
+          [
+            "V2_ETHERCAT",
+            "PREFERRED",
+            "EXAMPLE"
+          ]
+        ],
+        "4": "DUPLICATE:E0007:1",
+        "5": "DUPLICATE:E0007:3"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "电机控制。正文写明c语言故记C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_NOETIX|noetix|14|b7fc9e9d9967925387c06dd9aa6731be913d68784872b81f380c703a7ded87a5",
+      "company_id": "CN_NOETIX",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 11,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 47,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责无刷/有刷电机驱动器控制算法软件开发,包括模型仿真、算法设计、功能设计、软件编码和调试"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b7fc9e9d9967925387c06dd9aa6731be913d68784872b81f380c703a7ded87a5",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.228119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0003": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "QUADRUPED_RL",
+      "secondary_task": "",
+      "task_evidence": "负责基于强化学习的四足/轮足运动控制算法研发及落地应用",
+      "new": {},
+      "old_overrides": {
+        "O12": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原强化学习短词定位为空，改为Q-Learning/PPO句。",
+          "quote": "了解强化学习(Q-Learning、PPO)算法"
+        },
+        "O14": {
+          "metric": "PREFERRED",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原强化学习短词定位为空，改为加分项控制任务句。",
+          "quote": "做过基于强化学习、模仿学习的机器人控制任务"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "强化学习运控。继承短词改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_NOETIX|noetix|15|c7102b4af88ad65e9679939a29b17edd0d646cd3256cd67732809d627be4bd38",
+      "company_id": "CN_NOETIX",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 16,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 29,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责基于强化学习的四足/轮足运动控制算法研发及落地应用"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "c7102b4af88ad65e9679939a29b17edd0d646cd3256cd67732809d627be4bd38",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.228119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0005": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "DYNAMICS_ID",
+      "secondary_task": "",
+      "task_evidence": "负责人形机器人本体各部件的动力学建模、参数辨识,核对修正机器人模型文件",
+      "new": {
+        "1": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "运控算法。C/C++按C未解。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_NOETIX|noetix|18|b3e42feee088f878d9f3dfa131207dff4586b20fd9249764e042fe5566ae9168",
+      "company_id": "CN_NOETIX",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 14,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 37,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责人形机器人本体各部件的动力学建模、参数辨识,核对修正机器人模型文件"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b3e42feee088f878d9f3dfa131207dff4586b20fd9249764e042fe5566ae9168",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.228119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0004": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "BIPED_RL",
+      "secondary_task": "",
+      "task_evidence": "负责基于强化学习的双足运动控制算法研发及算法极限性能探索",
+      "new": {
+        "1": "REJECT:变分法不是有限元拓扑优化。",
+        "2": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:C++/Python不是C语言。"
+      },
+      "old_overrides": {
+        "O3": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS短词定位为空，改为ROS/ROS2工具句。",
+          "quote": "了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "强化学习运控。变分法拒收拓扑。ROS继承改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_NOETIX|noetix|6|99ad52d443c5e0aa95876bee49f02a37caac3fb3bcf8fb2d596199a6d2c8a18b",
+      "company_id": "CN_NOETIX",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 19,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 30,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责基于强化学习的双足运动控制算法研发及算法极限性能探索"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "99ad52d443c5e0aa95876bee49f02a37caac3fb3bcf8fb2d596199a6d2c8a18b",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.229119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0296": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "DUAL_ARM_PLANNING",
+      "secondary_task": "NAV_PLANNING",
+      "task_evidence": "攻克Sim2Real Gap难题",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Python/C++不是C语言。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "机器人算法工程师。Sim2Real/标定保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|0b6d1fd7-f0cb-42c2-b938-56a3173f6de8|e617dd79820d489aaa95d4a4bda4ac1c39e65538c84a32ec8dd62cc6fb8fb59f",
+      "company_id": "CN_PAXINI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 24,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 180,
+        "end": 196,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "攻克Sim2Real Gap难题"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "e617dd79820d489aaa95d4a4bda4ac1c39e65538c84a32ec8dd62cc6fb8fb59f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:47:22.229119+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0273": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "DUAL_ARM_PLANNING",
+      "secondary_task": "",
+      "task_evidence": "负责机器人全身和双臂操作规控算法研发和前沿技术的研究",
+      "new": {
+        "1": "REJECT:C++不是C语言。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "规控算法。C++拒收C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|4d16a289-56f4-4c73-bc8d-89b46a051894|7f67f1be6365c08e9d2132f98caf8805e5a6e8c2fb6f43b6df5903530918126d",
+      "company_id": "CN_PAXINI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 1,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 29,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人全身和双臂操作规控算法研发和前沿技术的研究"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "7f67f1be6365c08e9d2132f98caf8805e5a6e8c2fb6f43b6df5903530918126d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.221439+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0346": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "WHEELED_HUMANOID_WBC",
+      "secondary_task": "MANIPULATION",
+      "task_evidence": "负责轮式人形机器人的全身运动控制（WBC）及模型预测控制（MPC）算法的研发与部署",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:C++不是C语言。",
+        "4": [
+          [
+            "V2_OSQP",
+            "GENERAL",
+            "CHOICE"
+          ],
+          [
+            "V2_IPOPT",
+            "GENERAL",
+            "CHOICE"
+          ]
+        ],
+        "5": "OUTSIDE:RBDL未单列冻结项。",
+        "6": "DUPLICATE:N0346:4",
+        "7": "DUPLICATE:N0346:4"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "运控WBC/MPC。OSQP/Ipopt保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|59d88705-019e-4027-9799-748f743a9312|d4ecb2398fd1cc6187bef81a776f2e0442df6a94437cc69fe8aec91ba7a0ab71",
+      "company_id": "CN_PAXINI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 44,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责轮式人形机器人的全身运动控制（WBC）及模型预测控制（MPC）算法的研发与部署"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "d4ecb2398fd1cc6187bef81a776f2e0442df6a94437cc69fe8aec91ba7a0ab71",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.221439+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0329": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "DUAL_ARM_PLANNING",
+      "secondary_task": "NAV_PLANNING",
+      "task_evidence": "攻克Sim2Real Gap难题",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Python/C++不是C语言。",
+        "4": "OUTSIDE:Gbzeao未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "规控。Gbzeao目录外。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|a6d78758-d1eb-47b4-8d9d-66fd8cfa95ff|694ce9a9fdd70523c70d1898ad5f2fa7e357e368b9f258e1fa481582b14d0efc",
+      "company_id": "CN_PAXINI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 21,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 181,
+        "end": 197,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "攻克Sim2Real Gap难题"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "694ce9a9fdd70523c70d1898ad5f2fa7e357e368b9f258e1fa481582b14d0efc",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.221439+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0324": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "DUAL_ARM_PLANNING",
+      "secondary_task": "NAV_PLANNING",
+      "task_evidence": "完成算法在真机上的部署、标定、调试与性能优化。",
+      "new": {
+        "1": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Python/C++不是C语言。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "规控双臂模板。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|c0bfdcd7-2a29-4a52-a079-cef022ec9d3e|ce7c6f727fb714460102f32ceece97088474b126413176ebbf42f5796e2738fa",
+      "company_id": "CN_PAXINI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 237,
+        "end": 260,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "完成算法在真机上的部署、标定、调试与性能优化。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "ce7c6f727fb714460102f32ceece97088474b126413176ebbf42f5796e2738fa",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.222462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0352": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "FORCE_VIBRATION",
+      "secondary_task": "",
+      "task_evidence": "负责机器人力反馈控制、振动抑制等算法的设计和实现",
+      "new": {
+        "1": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "3": "DUPLICATE:N0352:2"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "运动控制。C/C++按C未解。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_PAXINI|zhiye|dea11ae0-8b88-47fa-a98a-3a37be9d808c|1437c0c40003a4ffc8172a2a9b8ec7c928ce990f88adf11071c0744b058c31dc",
+      "company_id": "CN_PAXINI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 13,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 68,
+        "end": 92,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人力反馈控制、振动抑制等算法的设计和实现"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "1437c0c40003a4ffc8172a2a9b8ec7c928ce990f88adf11071c0744b058c31dc",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.222462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0102": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "MECHATRONIC_CONTROL",
+      "secondary_task": "",
+      "task_evidence": "机电控制系统开发,控制相关嵌入式软件开发,控制相关传感器、结构等的开发",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "高级机电控制。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|1570236064524664832|5240722d127cbf8200b3e0ff83f293686f8894ddeeb5861d732d3309d27d9192",
+      "company_id": "CN_UNITREE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 5,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3,
+        "end": 38,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "机电控制系统开发,控制相关嵌入式软件开发,控制相关传感器、结构等的开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "5240722d127cbf8200b3e0ff83f293686f8894ddeeb5861d732d3309d27d9192",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.222462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0090": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "BLDC_EMBEDDED",
+      "secondary_task": "",
+      "task_evidence": "无刷电机(BLDC)、永磁同步电机(PMSM)控制程序的开发",
+      "new": {},
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "嵌入式电机控制。无新候选。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_UNITREE|unitree|1692020901257674752|3b06e323b1b8a7ebe4dd813c046673591866fb80d3d18b6089dbc85a725df5e1",
+      "company_id": "CN_UNITREE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 6,
+      "reviewed_candidate_count": 0,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 9,
+        "end": 39,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "无刷电机(BLDC)、永磁同步电机(PMSM)控制程序的开发"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "3b06e323b1b8a7ebe4dd813c046673591866fb80d3d18b6089dbc85a725df5e1",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.222462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0295": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "WBC_OPTIMAL",
+      "secondary_task": "",
+      "task_evidence": "应用操作空间控制（Operational Space Control）的方法，实现全身控制（Whole-Body Control）",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_SYSID",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:变分法不是有限元拓扑优化。",
+        "6": [
+          [
+            "V2_DDP",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "REJECT:C++/Python不是C语言。"
+      },
+      "old_overrides": {
+        "O3": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS短词定位为空，改为ROS/ROS2工具句。",
+          "quote": "了解 ROS/ROS2、Pinocchio、CasADi 等生态工具"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "运动控制。DDP/WBC保留。变分法拒收拓扑。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7508597530373359913|bf247d0b479bb05959656ec138bd038e8890fb728c366c80860195b4ade84495",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 17,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "full_description",
+        "start": 137,
+        "end": 202,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "应用操作空间控制（Operational Space Control）的方法，实现全身控制（Whole-Body Control）"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "bf247d0b479bb05959656ec138bd038e8890fb728c366c80860195b4ade84495",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.222462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0276": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "JOINT_MOTOR",
+      "secondary_task": "",
+      "task_evidence": "负责机器人关节电机高性能控制器的方案设计、建模仿真",
+      "new": {
+        "1": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O8": {
+          "metric": "DUTY_OWN_USE",
+          "branch": "UNCONDITIONAL",
+          "relation": "OWN_USE",
+          "reason": "原电机短词定位为空，改为关节电机控制器职责句。",
+          "quote": "负责机器人关节电机高性能控制器的方案设计、建模仿真、并于嵌入式合作完成软件开发"
+        },
+        "O10": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原电机控制算法短词定位为空，改为FOC算法经验句。",
+          "quote": "精通PMSM、步进电机等电机控制算法，如有感、无感FOC算法、MTPA、死区补偿/优化等"
+        },
+        "O13": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原无刷电机短词定位为空，改为无刷电机传感器标定句。",
+          "quote": "熟悉无刷电机常用传感器特性及相应的标定标定算法"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "关节电机控制。正文写明C语言。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7529138783712430382|719d2bec3e9a972bb5eca2dfb1e0f265b318af81e9d9bc2eaf9e51cf668bb4b4",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 18,
+      "reviewed_candidate_count": 3,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 2,
+        "end": 27,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责机器人关节电机高性能控制器的方案设计、建模仿真"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "719d2bec3e9a972bb5eca2dfb1e0f265b318af81e9d9bc2eaf9e51cf668bb4b4",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.223462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0274": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "MOBILE_NAV",
+      "secondary_task": "",
+      "task_evidence": "负责优化动态路径规划算法（如改进A*、RRT*、DWA等），解决低矮障碍物、狭窄通道等高难度场景的避障问题",
+      "new": {
+        "1": [
+          [
+            "V2_PATH_SEARCH",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:C++不是C语言。",
+        "3": [
+          [
+            "V2_C",
+            "GENERAL",
+            "UNRESOLVED"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O2": {
+          "metric": "GENERAL",
+          "branch": "EXAMPLE",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS1短词定位为空，改为Linux/ROS1句。",
+          "quote": "熟悉Linux系统，以及ROS1、ROS2、C++、Python等"
+        },
+        "O3": {
+          "metric": "GENERAL",
+          "branch": "EXAMPLE",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS2短词定位为空，改为同一工具句。",
+          "quote": "熟悉Linux系统，以及ROS1、ROS2、C++、Python等"
+        },
+        "O4": {
+          "metric": "GENERAL",
+          "branch": "EXAMPLE",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原C++短词定位为空，改为同一工具句。",
+          "quote": "熟悉Linux系统，以及ROS1、ROS2、C++、Python等"
+        },
+        "O7": {
+          "metric": "GENERAL",
+          "branch": "EXAMPLE",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原C++短词定位为空，改为C/C++/python句。",
+          "quote": "熟练掌握C、C++及python等语言编程开发，有较强的逻辑分析能力及良好的编程习惯"
+        },
+        "O9": {
+          "metric": "GENERAL",
+          "branch": "CHOICE",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS1短词定位为空，改为ROS1或ROS2系统搭建句。",
+          "quote": "熟悉ROS1或ROS2系统搭建，熟悉机器人规划控制相关算法，包括全局规划、局部规划、轨迹优化、障碍处理等"
+        },
+        "O10": {
+          "metric": "GENERAL",
+          "branch": "CHOICE",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS2短词定位为空，改为同一系统搭建句。",
+          "quote": "熟悉ROS1或ROS2系统搭建，熟悉机器人规划控制相关算法，包括全局规划、局部规划、轨迹优化、障碍处理等"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "导航算法。C与C++并列按C未解。ROS继承改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7538012268568168758|b8757690f5ecd5ccf5df6eb6b47156b5104c983801fa792a1debcdeb96f6e374",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "full_description",
+        "start": 96,
+        "end": 149,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责优化动态路径规划算法（如改进A*、RRT*、DWA等），解决低矮障碍物、狭窄通道等高难度场景的避障问题"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "b8757690f5ecd5ccf5df6eb6b47156b5104c983801fa792a1debcdeb96f6e374",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.223462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0236": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "TELEOP_CONTROL",
+      "secondary_task": "",
+      "task_evidence": "负责人形机器人遥操作核心算法的开发与优化，包括轨迹优化与重定向、柔顺控制、力位混合控制与自适应策略等",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:C++/Python不是C语言。",
+        "4": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O5": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS短词定位为空，改为ROS/ROS2仿真句。",
+          "quote": "熟悉C++/Python，有ROS/ROS2、Gazebo、Isaac Sim等机器人仿真与实验经验。"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "遥操作控制。ROS继承改写。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7597263355690518820|d8657d38639f9604f5e020be2d4299096e4de3ec7d398a64c7b6c82ba5f8a678",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 22,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "full_description",
+        "start": 46,
+        "end": 96,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责人形机器人遥操作核心算法的开发与优化，包括轨迹优化与重定向、柔顺控制、力位混合控制与自适应策略等"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "d8657d38639f9604f5e020be2d4299096e4de3ec7d398a64c7b6c82ba5f8a678",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.223462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0183": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "EMBEDDED_FOC",
+      "secondary_task": "",
+      "task_evidence": "负责伺服电机 FOC 参数适配、力矩观测与滤",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:Python与C++不是C语言。",
+        "3": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_URDF",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O3": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS短词定位为空，改为Ubuntu/ROS句。",
+          "quote": "熟练掌握Python与C++编程，精通Ubuntu, ROS/ROS2"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "嵌入式控制。URDF/FOC/卡尔曼保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7641939707057113386|7f6762a158cf2a6f75766aa2a809e48c5ae13203a689a124079a7cc1e694a3eb",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 9,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 65,
+        "end": 87,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责伺服电机 FOC 参数适配、力矩观测与滤"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "7f6762a158cf2a6f75766aa2a809e48c5ae13203a689a124079a7cc1e694a3eb",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.223462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0143": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "FORCE_FEEDBACK",
+      "secondary_task": "",
+      "task_evidence": "负责力反馈控制算法开发与优化,包括阻抗控制、导纳控制、力反射、虚拟墙、接触检测、力限幅及稳定性控制等",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_TELEOP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:C++或Python不是C语言。",
+        "5": [
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {
+        "O4": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS短词定位为空，改为Linux/ROS中间件句。",
+          "quote": "熟练使用 C++ 或 Python，具备 Linux、ROS/ROS2、实时控制或机器人中间件开发经验。"
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "力反馈。遥操作经验保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7659797455664466214|13b3e07ec508331b852997cd0bc571e0cd7467edaffa6d8f124227e8a78d78bd",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 25,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 59,
+        "end": 109,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责力反馈控制算法开发与优化,包括阻抗控制、导纳控制、力反射、虚拟墙、接触检测、力限幅及稳定性控制等"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "13b3e07ec508331b852997cd0bc571e0cd7467edaffa6d8f124227e8a78d78bd",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.223462+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0123": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "FORCE_CONTROL",
+      "secondary_task": "",
+      "task_evidence": "负责阻抗控制、导纳控制、力位混合控制、碰撞检测等力控与柔顺控制算法的开发和优化。",
+      "new": {
+        "1": [
+          [
+            "V2_SYSID",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:C++不是C语言。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "力控算法。系统辨识保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7667529948667857215|e14e4b90056443f04cf7dcb095844deb1ede75c579c16c6dffb3a00220883f6a",
+      "company_id": "CN_XSQUARE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 15,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 37,
+        "end": 77,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "负责阻抗控制、导纳控制、力位混合控制、碰撞检测等力控与柔顺控制算法的开发和优化。"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "e14e4b90056443f04cf7dcb095844deb1ede75c579c16c6dffb3a00220883f6a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.224461+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0342": {
+      "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "LOCOMOTION_NAV",
+      "secondary_task": "LOCOMOTION_WBC",
+      "task_evidence": "Design, implement, and deploy 3D motion planning algorithms for locomotion, with an emphasis on whole-body collision-aware motion execution in real-time.",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:C++17/20 is not the C language.",
+        "3": [
+          [
+            "V2_CERES",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_OSQP",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_IPOPT",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_DDS",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_KALMAN_FACTOR",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "REJECT:Salary USD is not Universal Scene Description.",
+        "7": "REJECT:Third-party recruiting boilerplate is not HR professional duty.",
+        "8": "DUPLICATE:E0342:3"
+      },
+      "old_overrides": {
+        "O4": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原C++短词定位为空，改为C++17/20经验句。",
+          "quote": "Expert proficiency in modern C++ (C++17/20), with a proven track record of writing high-performance, multithreaded code for robotics applications."
+        },
+        "O5": {
+          "metric": "GENERAL",
+          "branch": "UNRESOLVED",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原ROS短词定位为空，改为ROS/ROS2与DDS句。",
+          "quote": "Experience with common robotics frameworks (e.g., ROS/ROS2, DDS) and hands-on experience with modern optimization libraries relevant to motion planning (e.g., Ceres, IPOPT, OSQP)."
+        },
+        "O19": {
+          "metric": "DUTY_OWN_DEVELOP",
+          "branch": "UNCONDITIONAL",
+          "relation": "OWN_DEVELOP",
+          "reason": "原motion planning短词定位为空，改为三维运动规划职责句。",
+          "quote": "Design, implement, and deploy 3D motion planning algorithms for locomotion, with an emphasis on whole-body collision-aware motion execution in real-time."
+        },
+        "O20": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原motion planning短词定位为空，改为采样/优化规划经验句。",
+          "quote": "Deep technical understanding of locomotion-specific path and motion planning algorithms, including sampling-based planners (RRT/PRM), optimization-based methods (MPC/LQR), and hybrid A*."
+        },
+        "O22": {
+          "metric": "GENERAL",
+          "branch": "UNCONDITIONAL",
+          "relation": "EXPERIENCE_REQUIREMENT",
+          "reason": "原perceived environment data短词定位为空，改为感知数据接入规划句。",
+          "quote": "Proven ability to systematically test and debug systems on physical robots, and integrate perceived environment data (LiDAR, camera, depth sensing) into the planner."
+        }
+      },
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Agility导航。Ceres/OSQP/IPOPT/DDS保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|5850335004|560867c54cc85be6b111a51cd29a244dc7b8717c1a6eab72a828efc196f3e8a8",
+      "company_id": "US_AGILITY",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 28,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 0,
+        "end": 153,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design, implement, and deploy 3D motion planning algorithms for locomotion, with an emphasis on whole-body collision-aware motion execution in real-time."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "560867c54cc85be6b111a51cd29a244dc7b8717c1a6eab72a828efc196f3e8a8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.224461+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0322": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "LEARNED_MANIP",
+      "secondary_task": "",
+      "task_evidence": "Familiarity with at least some of the following: grasp planning, imitation learning, reinforcement learning, force control, teleoperation",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": "REJECT:English can is not Controller Area Network.",
+        "3": [
+          [
+            "V2_TELEOP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:Salary USD is not Universal Scene Description.",
+        "5": "REJECT:Third-party recruiting boilerplate is not HR professional duty."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Agility操作软件。英语can拒收。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|6132259004|2145e2333fe6e42cfd19e1b7eb57ab57aba008152d870ffff04ef5c5dc8cd858",
+      "company_id": "US_AGILITY",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 19,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "requirements",
+        "start": 323,
+        "end": 460,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Familiarity with at least some of the following: grasp planning, imitation learning, reinforcement learning, force control, teleoperation"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "2145e2333fe6e42cfd19e1b7eb57ab57aba008152d870ffff04ef5c5dc8cd858",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:32.224461+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0425": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "CONTROL_RUNTIME",
+      "fine_task": "WHEELED_CONTROLS",
+      "secondary_task": "LOCOMOTION_WBC",
+      "task_evidence": "Design, implement, and tune whole-body controllers that coordinate wheeled base motion with upper-body manipulation.",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_KALMAN_FACTOR",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:C++ is not the C language.",
+        "4": "REJECT:C++ is not the C language.",
+        "5": "REJECT:C++14/17/20 is not the C language.",
+        "6": [
+          [
+            "V2_SYSID",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "轮式控制。功能安全速度监控保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|5977981004|65f0fd18bef1f021642ee993edec230f96976e3164d5bcbce1eec53c3fea75a2",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 26,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 961,
+        "end": 1077,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Design, implement, and tune whole-body controllers that coordinate wheeled base motion with upper-body manipulation."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "65f0fd18bef1f021642ee993edec230f96976e3164d5bcbce1eec53c3fea75a2",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:56.133155+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0421": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "DEXTEROUS_SW",
+      "secondary_task": "",
+      "task_evidence": "Translate state-of-the-art methods (RL / imitation policies, human-to-robot motion retargeting) into production-grade C++/Python.",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "REJECT:C++/Python is not the C language.",
+        "3": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_DOMAIN_RANDOMIZATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "REJECT:Python and working C++ is not the C language.",
+        "6": [
+          [
+            "V2_CALIBRATION",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_TELEOP",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "灵巧操作。域随机化/Sim2Real保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6135687004|e7d3c5e65c404d6466a92d8ec2ab3ad0976998c298d5478a9376664c5ed63a5a",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 33,
+      "reviewed_candidate_count": 6,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 919,
+        "end": 1048,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Translate state-of-the-art methods (RL / imitation policies, human-to-robot motion retargeting) into production-grade C++/Python."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "e7d3c5e65c404d6466a92d8ec2ab3ad0976998c298d5478a9376664c5ed63a5a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:56.133155+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0439": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "HUMANOID_CONTROLS_STAFF",
+      "secondary_task": "MANIPULATION",
+      "task_evidence": "Proven expertise in whole-body control (WBC/OSC, QP-based control, or MPC) for floating-base (legged) or mobile (wheeled) systems.",
+      "new": {
+        "1": "REJECT:Company boilerplate is not teleoperation duty.",
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_TELEOP",
+            "SEPARATE",
+            "COLLABORATION_OBJECT"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_TELEOP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "REJECT:C++ and Python is not the C language.",
+        "7": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ]
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Apptronik人形控制。WBC/MPC保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6135714004|4b5f1ccc3f30baae0b6ed4eb944353ab6599fa8d9d4ccf8974981cafde64e03e",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 24,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "requirements",
+        "start": 101,
+        "end": 231,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Proven expertise in whole-body control (WBC/OSC, QP-based control, or MPC) for floating-base (legged) or mobile (wheeled) systems."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "4b5f1ccc3f30baae0b6ed4eb944353ab6599fa8d9d4ccf8974981cafde64e03e",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:56.133155+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0440": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "LOCOMOTION_WBC",
+      "fine_task": "HUMANOID_CONTROLS_STAFF",
+      "secondary_task": "MANIPULATION",
+      "task_evidence": "Proven expertise in whole-body control (WBC/OSC, QP-based control, or MPC) for floating-base (legged) or mobile (wheeled) systems.",
+      "new": {
+        "1": "REJECT:Company boilerplate is not teleoperation duty.",
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_TELEOP",
+            "SEPARATE",
+            "COLLABORATION_OBJECT"
+          ]
+        ],
+        "4": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": [
+          [
+            "V2_TELEOP",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": "REJECT:C++ and Python is not the C language.",
+        "7": [
+          [
+            "V2_SAFETY_STANDARDS",
+            "PREFERRED",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "8": "REJECT:Salary USD is not Universal Scene Description."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Apptronik人形控制。薪酬USD拒收。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6142283004|800db9411ab5749dde6e8a489c4dde733ca000d77b137e68f21df99d36d45ba8",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 24,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "requirements",
+        "start": 101,
+        "end": 231,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Proven expertise in whole-body control (WBC/OSC, QP-based control, or MPC) for floating-base (legged) or mobile (wheeled) systems."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "800db9411ab5749dde6e8a489c4dde733ca000d77b137e68f21df99d36d45ba8",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:56.134155+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "E0379": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "DEXTEROUS_LEAD",
+      "secondary_task": "",
+      "task_evidence": "Experience with the initial calibration and tuning of high-DOF robotic end-effectors.",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_DEVELOP",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_SIM2REAL",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:C++/Python is not the C language.",
+        "5": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "6": [
+          [
+            "V2_CALIBRATION",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "REJECT:Salary USD is not Universal Scene Description."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "灵巧操作负责人。英语can未单记CAN。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_APPTRONIK|greenhouse|6142284004|e1f169acd16fa0fc8a0991b344b7cb9012cd8f94bad8867e4183c7333259f83a",
+      "company_id": "US_APPTRONIK",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 34,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "requirements",
+        "start": 1067,
+        "end": 1152,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Experience with the initial calibration and tuning of high-DOF robotic end-effectors."
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "e1f169acd16fa0fc8a0991b344b7cb9012cd8f94bad8867e4183c7333259f83a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:56.134155+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0771": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "MANIPULATION",
+      "fine_task": "HUMANOID_MANIP",
+      "secondary_task": "",
+      "task_evidence": "Support teleoperation, data collection, and human-in-the-loop workflows for improving manipulation performance",
+      "new": {
+        "1": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": [
+          [
+            "V2_TELEOP",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": [
+          [
+            "V2_CALIBRATION",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "4": "REJECT:C++ is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "FieldAI人形操作。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|0d9c37e2-47ae-45f9-8e5d-cc0eccd499f4|1a5d2e273a593897adf488d7af9b5a7ab70692a3e7f2c5807d60134e70c7ae1d",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 30,
+      "reviewed_candidate_count": 4,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1595,
+        "end": 1705,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Support teleoperation, data collection, and human-in-the-loop workflows for improving manipulation performance"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "1a5d2e273a593897adf488d7af9b5a7ab70692a3e7f2c5807d60134e70c7ae1d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:56.134155+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0800": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "FIELD_PLANNING_CONTROL",
+      "secondary_task": "",
+      "task_evidence": "Experience in classical planning and control, such as path planning, trajectory optimization, and model predictive control (MPC)",
+      "new": {
+        "1": [
+          [
+            "V2_CLASSICAL_CONTROL",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ],
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "2": "DUPLICATE:N0800:1",
+        "3": "REJECT:C++ and Python is not the C language.",
+        "4": [
+          [
+            "V2_TENSORRT",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_ONNX",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_ONNX_RUNTIME",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "5": "DUPLICATE:N0800:4",
+        "6": "DUPLICATE:N0800:4",
+        "7": "REJECT:Onsite role is not Microsoft Office."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "FieldAI规划控制。TensorRT/ONNX保留。办公室拒收Office。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|259708a4-dd2b-4c23-b300-f81fec383541|5b1f7dd7963df52f0d004214b62269c6cd75325119fb4efccdd4c937516fe33a",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 39,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3594,
+        "end": 3722,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Experience in classical planning and control, such as path planning, trajectory optimization, and model predictive control (MPC)"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "5b1f7dd7963df52f0d004214b62269c6cd75325119fb4efccdd4c937516fe33a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:56.134155+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0803": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "FIELD_PLANNING_CONTROL",
+      "secondary_task": "",
+      "task_evidence": "Familiarity with motion planning libraries like OMPL, MoveIt, Nav2 stack etc",
+      "new": {
+        "1": [
+          [
+            "V2_MOVEIT",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_NAV2",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_OMPL",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "2": "DUPLICATE:N0803:1",
+        "3": "DUPLICATE:N0803:1",
+        "4": "DUPLICATE:N0803:1",
+        "5": "REJECT:C++ and Python is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "FieldAI规划控制。OMPL/MoveIt/Nav2保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|ab84f5f7-8c84-4a71-835f-752bffe48de1|0c210f1f58249470490a890e3ddc3de7826e704d9007ae792c8eff8976a3ba0d",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 27,
+      "reviewed_candidate_count": 5,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3318,
+        "end": 3394,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Familiarity with motion planning libraries like OMPL, MoveIt, Nav2 stack etc"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_SEEDED_CONFIRMED",
+      "source_version": "0c210f1f58249470490a890e3ddc3de7826e704d9007ae792c8eff8976a3ba0d",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:56.135156+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0804": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "FIELD_PLANNING_CONTROL",
+      "secondary_task": "",
+      "task_evidence": "Familiarity with motion planning libraries like OMPL, MoveIt, Nav2 stack etc",
+      "new": {
+        "1": [
+          [
+            "V2_MOVEIT",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_NAV2",
+            "GENERAL",
+            "EXAMPLE"
+          ],
+          [
+            "V2_OMPL",
+            "GENERAL",
+            "EXAMPLE"
+          ]
+        ],
+        "2": "DUPLICATE:N0804:1",
+        "3": "DUPLICATE:N0804:1",
+        "4": "DUPLICATE:N0804:1",
+        "5": "REJECT:C++ and Python is not the C language.",
+        "6": "REJECT:US government project is not Microsoft Project.",
+        "7": "REJECT:Company/team boilerplate is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "FieldAI规划控制。OMPL/MoveIt/Nav2保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|e45ef9c1-1a2a-4cb8-b345-0c23aeda962a|2018d268f6e9aacbeebd17ff6de8e62ae2f9537c40fc47286b0299aed59d005f",
+      "company_id": "US_FIELD_AI",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 27,
+      "reviewed_candidate_count": 7,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 3161,
+        "end": 3237,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Familiarity with motion planning libraries like OMPL, MoveIt, Nav2 stack etc"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "2018d268f6e9aacbeebd17ff6de8e62ae2f9537c40fc47286b0299aed59d005f",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:56.135156+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0934": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "MOTION_PLANNING_PRINCIPAL",
+      "secondary_task": "MANIPULATION",
+      "task_evidence": "Take on the hardest algorithmic problems in planning and control",
+      "new": {
+        "1": "REJECT:English can is not Controller Area Network.",
+        "2": [
+          [
+            "V2_PATH_SEARCH",
+            "DUTY_OWN_USE",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "3": "REJECT:Python and C++ is not the C language.",
+        "4": [
+          [
+            "V2_PATH_SEARCH",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "5": "DUPLICATE:N0934:2",
+        "6": [
+          [
+            "V2_GIT",
+            "GENERAL",
+            "UNCONDITIONAL"
+          ]
+        ],
+        "7": "DUPLICATE:N0934:6",
+        "8": "OUTSIDE:testing/CI benchmarking未单列冻结项。"
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Pickle运动规划负责人。Git协作保留。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PICKLE|lever|35306736-7aa6-4fef-959f-23239df5c33c|3808626b2d34ddde93db286e70ecafab04b53c9e810b91e6795aa655b1edfdab",
+      "company_id": "US_PICKLE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 26,
+      "reviewed_candidate_count": 8,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1141,
+        "end": 1205,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Take on the hardest algorithmic problems in planning and control"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_QUEUE_PATTERN_AUDIT",
+      "source_version": "3808626b2d34ddde93db286e70ecafab04b53c9e810b91e6795aa655b1edfdab",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:56.135156+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    },
+    "N0935": {
+      "inherited": "REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+      "task": "NAV_PLANNING",
+      "fine_task": "ROBOT_SW",
+      "secondary_task": "",
+      "task_evidence": "Write production-grade software with Python and C++, meeting strict reliability, latency, and timing requirements for safety-critical operation",
+      "new": {
+        "1": "REJECT:Python and C++ is not the C language.",
+        "2": "REJECT:C++ as a bonus is not the C language."
+      },
+      "old_overrides": {},
+      "additions": [],
+      "outside_extra": [],
+      "notes": "Pickle机器人软件。C++拒收C。",
+      "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PICKLE|lever|42939c0b-de3b-47fa-a661-e9492c71de63|23b29a6595e7de450d588ecada35143f477dc8c76b8dc48d9891fa6eecf3c20a",
+      "company_id": "US_PICKLE",
+      "role": "RF_CONTROL_PLANNING",
+      "status": "CODED_FIRST_PASS",
+      "reviewed_inherited_count": 21,
+      "reviewed_candidate_count": 2,
+      "task_evidence_location": {
+        "field": "duties",
+        "start": 1334,
+        "end": 1477,
+        "method": "UNIQUE_EXACT_QUOTE",
+        "quote": "Write production-grade software with Python and C++, meeting strict reliability, latency, and timing requirements for safety-critical operation"
+      },
+      "reader": "grok4.6",
+      "coding_version": "grok4.6-Q2-v2.1-first-pass",
+      "qc_status": "SECOND_PASS_OUTSIDE_MANDATORY_QUEUE",
+      "source_version": "23b29a6595e7de450d588ecada35143f477dc8c76b8dc48d9891fa6eecf3c20a",
+      "full_text_read": true,
+      "updated_utc": "2026-09-16T12:51:56.135156+00:00",
+      "second_pass_reviewer": "grok4.6",
+      "independent_external_review": false
+    }
+  }
+}

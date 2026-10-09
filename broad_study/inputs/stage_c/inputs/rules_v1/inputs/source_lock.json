@@ -1,0 +1,650 @@
+{
+  "files": {
+    "inputs/stage_a/jobs.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r3\\jobs.csv",
+      "bytes": 1479400,
+      "sha256": "bba10bce4d4ad4a0bcdff3b0e6b397bdfdc543d230a37818f3c9380805e1a6d4"
+    },
+    "inputs/stage_a/primary_roles.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r3\\primary_roles.csv",
+      "bytes": 1590511,
+      "sha256": "53593f9501ba1aefb04248640651e749c8a2ec9c6660b5a1bb0f6c287425cca4"
+    },
+    "inputs/stage_a/dimension_status.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r3\\dimension_status.csv",
+      "bytes": 3472469,
+      "sha256": "467a8454de3d47f0a23ca576933ece35005df30b5c4199d67a6bc34bf975f50d"
+    },
+    "inputs/stage_a/skills.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r3\\skills.csv",
+      "bytes": 3958642,
+      "sha256": "1bd720222b11eb6c6837c0bfdbe91096fcf2c2597d773f878d130a57c5a4981b"
+    },
+    "inputs/stage_a/technical_concepts.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r3\\technical_concepts.csv",
+      "bytes": 11826585,
+      "sha256": "c9a50ff1f045b7fcbdecf3178b0d596d1fc93272d822eafbe2b144613e7d6ff6"
+    },
+    "inputs/stage_a/unmapped_mentions.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r3\\unmapped_mentions.csv",
+      "bytes": 4554213,
+      "sha256": "d8f616eab4e96e37e70d5be1c1440a3225ea34575f7e63f930d9587d75295d77"
+    },
+    "inputs/stage_a/relations.jsonl": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r3\\relations.jsonl",
+      "bytes": 20413677,
+      "sha256": "394d36bf7c11a8afaf19055ae80f87b9e8acea36da5f800c4bf43bfd4a9df48e"
+    },
+    "inputs/stage_a/T2_company_primary_roles.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r3\\T2_company_primary_roles.csv",
+      "bytes": 89504,
+      "sha256": "231179cb7003632f3aa4f870bd446627edd60677578b1eb753d4014cf3a99862"
+    },
+    "inputs/stage_a/T1_sample_company.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r3\\T1_sample_company.csv",
+      "bytes": 9367,
+      "sha256": "67833146c2b40eac251a92cc67c3518721085272a809255a65cb14418e6be312"
+    },
+    "inputs/stage_a/field_mapping.md": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_a_r3\\field_mapping.md",
+      "bytes": 4652,
+      "sha256": "e15de97ddef3a2bcfece3fde6e4724a8bee387a668a08722c9b2bd2b4a324197"
+    },
+    "inputs/stage_b/company_facts.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\company_facts.csv",
+      "bytes": 363566,
+      "sha256": "a7630e3e56a946c1facba33f3921e5e99d5b1fb5de1c6a2599284c6cd22f55d8"
+    },
+    "inputs/stage_b/company_evidence.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\company_evidence.csv",
+      "bytes": 159909,
+      "sha256": "f76a8f341cce58812d6795239e315f84c7c05e6d5c4fe840cde401ec6ff272f5"
+    },
+    "inputs/stage_b/evidence_links.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_links.csv",
+      "bytes": 103597,
+      "sha256": "4425becf16e5ee1d3c5f829e9db45c1c490fbd925d620719f195b2ed002747ed"
+    },
+    "inputs/stage_b/company_profile.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\company_profile.csv",
+      "bytes": 13356,
+      "sha256": "2b141fdb5127c394508de23024d0138c7167c45d0b29d46fb2a6b0c58de17c3d"
+    },
+    "inputs/stage_b/company_group_mapping.csv": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\company_group_mapping.csv",
+      "bytes": 72682,
+      "sha256": "bc655b1a47896b3322cd89985bcff3726f71579dba285c087041ff187db9a1f2"
+    },
+    "inputs/stage_b/field_mapping.md": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\field_mapping.md",
+      "bytes": 7012,
+      "sha256": "aac6544b4e365007359b137b50da989e633dfa47b44183e44f96ed62bc951490"
+    },
+    "inputs/stage_b/grouping_rules.md": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\grouping_rules.md",
+      "bytes": 17727,
+      "sha256": "01a1b3fe29c138fd829dc5717d3b9bb167ffc094cb90ffcf7b6cc2c02b9f1e84"
+    },
+    "inputs/evidence_snapshots/CN_AGIBOT__agibot_news_20260908.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_AGIBOT__agibot_news_20260908.txt",
+      "bytes": 7299,
+      "sha256": "0c4f62d6bb3166c5347682e99eaadf20fce7382ff492de42f782eb20599d535e"
+    },
+    "inputs/evidence_snapshots/CN_AGIBOT__agibot_news_20260908.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_AGIBOT__agibot_news_20260908.html",
+      "bytes": 95419,
+      "sha256": "2dc4eb5649cf68dfa339b613d11ca763349b428f911e5f5fa53068657e58b66b"
+    },
+    "inputs/evidence_snapshots/NEW_AGIBOT_01.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_AGIBOT_01.txt",
+      "bytes": 11722,
+      "sha256": "d7c3ea88e54591d368e09e29eea6bd5249d9ef7d9b352b435232ebff55c1ea5f"
+    },
+    "inputs/evidence_snapshots/NEW_AGIBOT_01.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_AGIBOT_01.html",
+      "bytes": 127391,
+      "sha256": "232bf64824fcc61967df506e0954c5aa362788d796b0298feb4b9fbed208d5ec"
+    },
+    "inputs/evidence_snapshots/NEW_AGIBOT_01.fetch.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_AGIBOT_01.fetch.json",
+      "bytes": 519,
+      "sha256": "d4e6c8e3bb7948fd23445c157ea2c82b9ce03698b3cbf51a94a83e0746830ffc"
+    },
+    "inputs/evidence_snapshots/IR_ASTRIBOT_01.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_ASTRIBOT_01.txt",
+      "bytes": 7185,
+      "sha256": "dacc8cded9a3d4843e3f76b5fe876f55ff059419fb30b16a74549196fe82a40d"
+    },
+    "inputs/evidence_snapshots/IR_ASTRIBOT_01.web.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_ASTRIBOT_01.web.json",
+      "bytes": 7424,
+      "sha256": "861a41b3c635e07ce5d5f370c566a171bf11f662797e7b1c67f5bc62eee14e7e"
+    },
+    "inputs/evidence_snapshots/CN_ASTRIBOT__astribot_series_b2.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_ASTRIBOT__astribot_series_b2.txt",
+      "bytes": 5384,
+      "sha256": "6ba133d3432addbe1567b652ebc55af9852b670a169c8edc662ae06bd0922522"
+    },
+    "inputs/evidence_snapshots/CN_ASTRIBOT__astribot_series_b2.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_ASTRIBOT__astribot_series_b2.html",
+      "bytes": 61987,
+      "sha256": "d0816613e5862d4e29fa0aa48379af2c0c2f5b4f8f0ed8b0738978e8bec2dc1e"
+    },
+    "inputs/evidence_snapshots/CN_DEEPROBOTICS__ysc_ipo_stcn.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_DEEPROBOTICS__ysc_ipo_stcn.txt",
+      "bytes": 6458,
+      "sha256": "3647b1b7d1846a72d520f35998d8d0f8c8c84b4c1ef3b04aa6cf95ef916235f7"
+    },
+    "inputs/evidence_snapshots/CN_DEEPROBOTICS__ysc_ipo_stcn.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_DEEPROBOTICS__ysc_ipo_stcn.html",
+      "bytes": 51621,
+      "sha256": "51c47425e4370b9e9850a4f6775b8c35403bd18cbf8dd146b5672f28c7a3ccd8"
+    },
+    "inputs/evidence_snapshots/CN_DEEPROBOTICS__ysc_official_home.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_DEEPROBOTICS__ysc_official_home.txt",
+      "bytes": 3318,
+      "sha256": "c33ca7c9cca37662f98799b67e8ba2296050307400678b884664650401aad8c9"
+    },
+    "inputs/evidence_snapshots/CN_DEEPROBOTICS__ysc_official_home.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_DEEPROBOTICS__ysc_official_home.html",
+      "bytes": 38284,
+      "sha256": "f75f0d7c0f787a2dc47ee105cbd70b8cc18129435bd4a6e1085517b52289e805"
+    },
+    "inputs/evidence_snapshots/NEW_DEEP_01.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_DEEP_01.txt",
+      "bytes": 6532,
+      "sha256": "c64ad1e02ade9fc7e95cb2bfe29b304a848c30aabca575203d96be8f8b319876"
+    },
+    "inputs/evidence_snapshots/NEW_DEEP_01.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_DEEP_01.html",
+      "bytes": 20954,
+      "sha256": "1bad42661a574e485a644654c39ff7c07d3673d504114986b7e05d8d44d42220"
+    },
+    "inputs/evidence_snapshots/NEW_DEEP_01.fetch.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_DEEP_01.fetch.json",
+      "bytes": 518,
+      "sha256": "8af2b1730bc9ce9c61cc30f08118421e3cd57295174a27346f1f2f3ae4cc5e47"
+    },
+    "inputs/evidence_snapshots/CN_FOURIER__eeo_malaysia.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_FOURIER__eeo_malaysia.txt",
+      "bytes": 5643,
+      "sha256": "5fa13ec01bbd6194e1c9d4f03f8a9f0931075c10e6856b6ad41fdeebe20b649c"
+    },
+    "inputs/evidence_snapshots/CN_FOURIER__eeo_malaysia.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_FOURIER__eeo_malaysia.html",
+      "bytes": 20310,
+      "sha256": "63ce7df54c2bb2e70f9323a75d398ce79a80816a1f1d5729fe373624381e84e7"
+    },
+    "inputs/evidence_snapshots/CN_FOURIER__nhg_official_partnership.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_FOURIER__nhg_official_partnership.txt",
+      "bytes": 5860,
+      "sha256": "2d2d6099ce21c6d7f34096ba1f11623577cdcea0172b3767cc3e05566a9970c0"
+    },
+    "inputs/evidence_snapshots/CN_FOURIER__nhg_official_partnership.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_FOURIER__nhg_official_partnership.html",
+      "bytes": 201350,
+      "sha256": "9c5eb4e4ec118fdafb25da846a003d8116e5a2edf24ef59620be38ebc6f2b7a2"
+    },
+    "inputs/evidence_snapshots/CN_FOURIER__kczg_rehab_port.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_FOURIER__kczg_rehab_port.txt",
+      "bytes": 8927,
+      "sha256": "46403dd1b9f347ae16681a805f0806bfa85f3dcf66396123524baf48671bea8f"
+    },
+    "inputs/evidence_snapshots/CN_FOURIER__kczg_rehab_port.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_FOURIER__kczg_rehab_port.html",
+      "bytes": 69031,
+      "sha256": "caec6f45b96806c96be50f35d0e59a2a27123896c6193fe06d34124f7eb10d8c"
+    },
+    "inputs/evidence_snapshots/IR_FOURIER_02.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_FOURIER_02.txt",
+      "bytes": 13112,
+      "sha256": "7166defc276c7a5a0f7e9c587586577bc1ce00460948f747ec4e5c432439e0f3"
+    },
+    "inputs/evidence_snapshots/IR_FOURIER_02.web.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_FOURIER_02.web.json",
+      "bytes": 13348,
+      "sha256": "4ecdcc5edf7f856bfe8d6638834654e2fe401568ea6e0f9070cb7f0f5383a4d3"
+    },
+    "inputs/evidence_snapshots/CN_GALAXEA__galaxea_series_b_plus.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_GALAXEA__galaxea_series_b_plus.txt",
+      "bytes": 1434,
+      "sha256": "7c0c9d5ef9f9d5b1f68613f9fa0fb02ba0ac9cb703352c3f17a6fd02512e3db5"
+    },
+    "inputs/evidence_snapshots/CN_GALAXEA__galaxea_series_b_plus.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_GALAXEA__galaxea_series_b_plus.html",
+      "bytes": 83127,
+      "sha256": "8f1a1d192d9932d891902444a9e60c904d262ee6c4c15b9ccdf6577993dc2782"
+    },
+    "inputs/evidence_snapshots/NEW_GALAXEA_01.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_GALAXEA_01.txt",
+      "bytes": 2618,
+      "sha256": "a595f206e03cbbf2fd3964bcb2bbab9cdc3f39329cc7e9289d2abbfc06b52fbd"
+    },
+    "inputs/evidence_snapshots/NEW_GALAXEA_01.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_GALAXEA_01.html",
+      "bytes": 63084,
+      "sha256": "9c5d0fd3f646fe10030445301d30d4859969f6b1b3e5b42bca029044d242f9cc"
+    },
+    "inputs/evidence_snapshots/NEW_GALAXEA_01.fetch.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_GALAXEA_01.fetch.json",
+      "bytes": 495,
+      "sha256": "e4d0c7bd998c07fa1e084bb96af290b156e052a8985a455e1100dd73d925fae9"
+    },
+    "inputs/evidence_snapshots/CN_GALBOT__galbot_hk_retail.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_GALBOT__galbot_hk_retail.txt",
+      "bytes": 5739,
+      "sha256": "bb7f012fdc4afcba2772359525b3818ad38470de43b31cea3d2db0a0870a390c"
+    },
+    "inputs/evidence_snapshots/CN_GALBOT__galbot_hk_retail.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_GALBOT__galbot_hk_retail.html",
+      "bytes": 27799,
+      "sha256": "106b65d775e8aa5103365c9a998bd60bd4cb543d010b1f0566540c0673db238e"
+    },
+    "inputs/evidence_snapshots/CN_GALBOT__galbot_home.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_GALBOT__galbot_home.txt",
+      "bytes": 2407,
+      "sha256": "3d4b725f9a5cbae840a6cc086a39069dc6382ea5fc1e9fa4421ab247ee2f9ae2"
+    },
+    "inputs/evidence_snapshots/CN_GALBOT__galbot_home.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_GALBOT__galbot_home.html",
+      "bytes": 109223,
+      "sha256": "2dc35249ea906f53dda5adb27182f1436f88576fdfa21b40b94fb50a2b4d31f8"
+    },
+    "inputs/evidence_snapshots/NEW_GALBOT_01.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_GALBOT_01.txt",
+      "bytes": 8049,
+      "sha256": "2873a83de65e84412bb2f01353c18d38e9731c29cf03ef664e838619056f7ae6"
+    },
+    "inputs/evidence_snapshots/NEW_GALBOT_01.web.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_GALBOT_01.web.json",
+      "bytes": 8298,
+      "sha256": "55dbda80f4960c62be7b2e4af3be5bfd2efd5bcd1fa1834a72cd24a0cd15718e"
+    },
+    "inputs/evidence_snapshots/CN_LIMX__limx_pre_ipo.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_LIMX__limx_pre_ipo.txt",
+      "bytes": 5386,
+      "sha256": "5c9b40677e1970173deeb4c699e012f2fb229a582a28c83122a8be1667de3c4f"
+    },
+    "inputs/evidence_snapshots/CN_LIMX__limx_pre_ipo.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_LIMX__limx_pre_ipo.html",
+      "bytes": 182391,
+      "sha256": "0eb200158702b0060b87149ea998496f89c50f680bc4c23281edea6aa60af8f6"
+    },
+    "inputs/evidence_snapshots/CN_LIMX__limx_pre_ipo_36kr.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_LIMX__limx_pre_ipo_36kr.txt",
+      "bytes": 8986,
+      "sha256": "d10015830d4d1007121b9de369a5b09eb4bcd57d7b1545e116885fad4f8e2ed0"
+    },
+    "inputs/evidence_snapshots/CN_LIMX__limx_pre_ipo_36kr.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_LIMX__limx_pre_ipo_36kr.html",
+      "bytes": 94074,
+      "sha256": "3318bf4f00f9482376cf4258771206fc7b6945f698e04e6dc0645e201485b7db"
+    },
+    "inputs/evidence_snapshots/CN_LIMX__limx_valuation_21.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_LIMX__limx_valuation_21.txt",
+      "bytes": 6982,
+      "sha256": "b3ed140a4ad31760c96e9941a042cbaa6beea70b7f1a0fd906c04316755d36e0"
+    },
+    "inputs/evidence_snapshots/CN_LIMX__limx_valuation_21.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_LIMX__limx_valuation_21.html",
+      "bytes": 15265,
+      "sha256": "381a6c3a0f329ab79d57dcf5e3b3ad3a9ef846eae87566d10c212dc73646cf5a"
+    },
+    "inputs/evidence_snapshots/NEW_LIMX_01.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_LIMX_01.txt",
+      "bytes": 5516,
+      "sha256": "15fe3d10009ea2d05ff9be8e6f7a303e072cb482e93c6ce189b20eb9f2c42860"
+    },
+    "inputs/evidence_snapshots/NEW_LIMX_01.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_LIMX_01.html",
+      "bytes": 210983,
+      "sha256": "66b99aa70ba16f80b2627971847d164f62209b10871571b9a9a4e6bfbcf1a375"
+    },
+    "inputs/evidence_snapshots/NEW_LIMX_01.fetch.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_LIMX_01.fetch.json",
+      "bytes": 501,
+      "sha256": "bc95143af468aa977d94ff6d90e3d0ff38c2677c97ba9a459501abd0e909c0ad"
+    },
+    "inputs/evidence_snapshots/IR_NOETIX_01.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_NOETIX_01.txt",
+      "bytes": 2969,
+      "sha256": "f428f4c5234c34a084e3845bfe7942e4b54be0cebe8647bc206aa8689cd465dc"
+    },
+    "inputs/evidence_snapshots/IR_NOETIX_01.pdf": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_NOETIX_01.pdf",
+      "bytes": 180618,
+      "sha256": "cb46eba8002afd0b27bc3f466794e2fefa024411db82143252bb283db306f75a"
+    },
+    "inputs/evidence_snapshots/IR_NOETIX_01.fetch.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_NOETIX_01.fetch.json",
+      "bytes": 1501,
+      "sha256": "d105dfc62870ff12cef076a585fb3864eef615ec6a32c82e03bbaca03e4262e9"
+    },
+    "inputs/evidence_snapshots/IR_NOETIX_02.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_NOETIX_02.txt",
+      "bytes": 2869,
+      "sha256": "d0fdbc41662db713d5c53534655a2ac93e5778b06654845ee11ca33d66cad06a"
+    },
+    "inputs/evidence_snapshots/IR_NOETIX_02.web.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_NOETIX_02.web.json",
+      "bytes": 3131,
+      "sha256": "1becff4c52b837a385408922bfff532475b246ba07cba2cc3bca657a32f5bd0e"
+    },
+    "inputs/evidence_snapshots/CN_PAXINI__paxini_byd_deal.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_PAXINI__paxini_byd_deal.txt",
+      "bytes": 5893,
+      "sha256": "c7be11b773f7fcbc1dd74413c2f4f778bf4b160eafdd39e9a7c3e47c5d8dfd06"
+    },
+    "inputs/evidence_snapshots/CN_PAXINI__paxini_byd_deal.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_PAXINI__paxini_byd_deal.html",
+      "bytes": 17608,
+      "sha256": "fc91a58b908f35a520bb3981c341a3fd9be2b476f9e082fb900fa3cc6c6f7729"
+    },
+    "inputs/evidence_snapshots/IR_SPIRITAI_02.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_SPIRITAI_02.txt",
+      "bytes": 20496,
+      "sha256": "15ce18ddb50478d68e294c49737ce927e4b8eb6ddbc2856da942ef2fbc064d2e"
+    },
+    "inputs/evidence_snapshots/IR_SPIRITAI_02.web.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_SPIRITAI_02.web.json",
+      "bytes": 20760,
+      "sha256": "d1d07e1e2f8c821b5cce88f3d12b7ec58f96ad6cb65ceac23e4b409894db2dfc"
+    },
+    "inputs/evidence_snapshots/NEW_SPIRIT_01.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_SPIRIT_01.txt",
+      "bytes": 3133,
+      "sha256": "426e08e64a966e6cf1310447b7dbdcb8101931c52151cba64142857b3b8b9a93"
+    },
+    "inputs/evidence_snapshots/NEW_SPIRIT_01.web.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_SPIRIT_01.web.json",
+      "bytes": 3399,
+      "sha256": "81869e958a067fb0ac058099b6e5edf97d968b394cb5d8e70b0f105dd3d6a598"
+    },
+    "inputs/evidence_snapshots/CN_UNITREE__unitree_listing_cq.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_UNITREE__unitree_listing_cq.txt",
+      "bytes": 7180,
+      "sha256": "9cd84eb68322c37c5084aa97cd23b19575a266edf5b76b9898881e2bd5e28ef7"
+    },
+    "inputs/evidence_snapshots/CN_UNITREE__unitree_listing_cq.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_UNITREE__unitree_listing_cq.html",
+      "bytes": 9942,
+      "sha256": "f7078da615a1ef86b7af485e3c098a1eed18626b148463467a8d4136e10a1c75"
+    },
+    "inputs/evidence_snapshots/CN_UNITREE__unitree_ipo_163.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_UNITREE__unitree_ipo_163.txt",
+      "bytes": 19248,
+      "sha256": "7e36810e5e8df588dd7108af2353de6fd06032a3bf42dc74c9c3f82e2b8bd3f9"
+    },
+    "inputs/evidence_snapshots/CN_UNITREE__unitree_ipo_163.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_UNITREE__unitree_ipo_163.html",
+      "bytes": 186502,
+      "sha256": "2281fdc8c611ed7b599de3c01bdc6a34bfdcd1edc38bc319c177c8b3c2b49b5b"
+    },
+    "inputs/evidence_snapshots/NEW_UNITREE_01.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_UNITREE_01.txt",
+      "bytes": 49499,
+      "sha256": "193915e1f67d3323279916349befdb21675d417fda90d62905f75ab2a08ae3cb"
+    },
+    "inputs/evidence_snapshots/NEW_UNITREE_01.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_UNITREE_01.html",
+      "bytes": 165589,
+      "sha256": "535d1b29a6378d400c3e9a40e71e813c4f22dd0715976ac4e58bf66c538cb0cf"
+    },
+    "inputs/evidence_snapshots/NEW_UNITREE_01.fetch.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_UNITREE_01.fetch.json",
+      "bytes": 485,
+      "sha256": "ab0a50b84ad7546940b8750ee7fdf744e7b2f5537fc5eecd0132c1bd3409da84"
+    },
+    "inputs/evidence_snapshots/NEW_UNITREE_02.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_UNITREE_02.txt",
+      "bytes": 6801,
+      "sha256": "6192942dc2d65f1201602423c6d2c6de356d38df4be5601e06c2370977850a03"
+    },
+    "inputs/evidence_snapshots/NEW_UNITREE_02.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_UNITREE_02.html",
+      "bytes": 50776,
+      "sha256": "d0f572dcb4eb8d5c7b2dec30d46ab0cef69333ddd461aaf56b118dea07f3c043"
+    },
+    "inputs/evidence_snapshots/NEW_UNITREE_02.fetch.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\NEW_UNITREE_02.fetch.json",
+      "bytes": 503,
+      "sha256": "a96ee83ae64f2162777d940b8f7e8e4bc755f312046b78c2f5d53f0af247ad2b"
+    },
+    "inputs/evidence_snapshots/CN_XSQUARE__about_retry.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_XSQUARE__about_retry.txt",
+      "bytes": 5785,
+      "sha256": "2e29996bb9a32c95d2de22186fac0befb40839b1418c0bdbf36876f13ab0774e"
+    },
+    "inputs/evidence_snapshots/CN_XSQUARE__about_retry.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_XSQUARE__about_retry.html",
+      "bytes": 242491,
+      "sha256": "36cdec872d68bfef74f14bf2a820cc988885382e77cca625493dd09381fb0e77"
+    },
+    "inputs/evidence_snapshots/CN_XSQUARE__szfgw_nursing_2026.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_XSQUARE__szfgw_nursing_2026.txt",
+      "bytes": 2986,
+      "sha256": "7f0f1e0ef32bbf5760939842c2a827a4281cb27894bf39e285e85366cb98a283"
+    },
+    "inputs/evidence_snapshots/CN_XSQUARE__szfgw_nursing_2026.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_XSQUARE__szfgw_nursing_2026.html",
+      "bytes": 20164,
+      "sha256": "f761863bcc4ae0e2efe377cb5854b76e0e700092752dfc15b87fce312bc93bc3"
+    },
+    "inputs/evidence_snapshots/CN_XSQUARE__cnr_sorting.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_XSQUARE__cnr_sorting.txt",
+      "bytes": 6272,
+      "sha256": "17960465af04e986e753202013ff5cd092dbf8a111f89618c7a3e64cc182fcee"
+    },
+    "inputs/evidence_snapshots/CN_XSQUARE__cnr_sorting.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\CN_XSQUARE__cnr_sorting.html",
+      "bytes": 20859,
+      "sha256": "d6010d02777b8a08ec23dcbde0b4b47ca38d36b5fd17f846bfed33d6ee52f40a"
+    },
+    "inputs/evidence_snapshots/US_AGILITY__gxo_digit_raas_html.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_AGILITY__gxo_digit_raas_html.txt",
+      "bytes": 8561,
+      "sha256": "73b5998a1b2c30c0d99d6800cb125971f94f0b207326f361229561fefb79160e"
+    },
+    "inputs/evidence_snapshots/US_AGILITY__gxo_digit_raas_html.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_AGILITY__gxo_digit_raas_html.html",
+      "bytes": 190050,
+      "sha256": "53dfe66fd5c7e1ce71a7d1f0e6a890e98c0f54b575ee3b79f11bed50d7b43543"
+    },
+    "inputs/evidence_snapshots/IR_FAR_01.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_FAR_01.txt",
+      "bytes": 4424,
+      "sha256": "3d2d5a7524dd2b351ef09c6aa24cfa9fb356654d05293c8ec00e7534fc07c251"
+    },
+    "inputs/evidence_snapshots/IR_FAR_01.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_FAR_01.html",
+      "bytes": 191887,
+      "sha256": "926522973b6d0166842a79500f6bffe406faab276993a3f2c3f7af18bd7273cd"
+    },
+    "inputs/evidence_snapshots/IR_FAR_01.fetch.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_FAR_01.fetch.json",
+      "bytes": 2674,
+      "sha256": "ac6222674dd913cdff270c1d4a7a649cead93933f655ba512e0a27a79e2126ae"
+    },
+    "inputs/evidence_snapshots/IR_FAR_02.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_FAR_02.txt",
+      "bytes": 32911,
+      "sha256": "09138f4a6fcd99edc40813f499ffbc851b4d18f89c23f268b8db5a214ea0b81d"
+    },
+    "inputs/evidence_snapshots/IR_FAR_02.web.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_FAR_02.web.json",
+      "bytes": 33363,
+      "sha256": "e424787972d6b4469e9dbdd2fe34f6268afade5b7543762f4632f7df3884b125"
+    },
+    "inputs/evidence_snapshots/US_APPTRONIK__apptronik_qia.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_APPTRONIK__apptronik_qia.txt",
+      "bytes": 4974,
+      "sha256": "1890d1e085dcc546d505970637d802ca243c30b72e0cd5ac92878016959cff2f"
+    },
+    "inputs/evidence_snapshots/US_APPTRONIK__apptronik_qia.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_APPTRONIK__apptronik_qia.html",
+      "bytes": 45691,
+      "sha256": "cc39258741e1383120d7fde299c96adab64bd07bb68205f8ab35c2044a291c3e"
+    },
+    "inputs/evidence_snapshots/US_APPTRONIK__apptronik_home.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_APPTRONIK__apptronik_home.txt",
+      "bytes": 9428,
+      "sha256": "cba5c3d967d18dac19e0e506f07fb1b2b54b588e4eabb43d3717b2ca51ce9e4e"
+    },
+    "inputs/evidence_snapshots/US_APPTRONIK__apptronik_home.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_APPTRONIK__apptronik_home.html",
+      "bytes": 52389,
+      "sha256": "18ffe7f87baafb479e4ef9207fb5e81bab0ab2abb9b43bfcbd9ab5f3bd1bf1f8"
+    },
+    "inputs/evidence_snapshots/US_BOSTON_DYNAMICS__bd_hyundai_ces.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_BOSTON_DYNAMICS__bd_hyundai_ces.txt",
+      "bytes": 5334,
+      "sha256": "c1174751acf34b3bd3777816b09e68dece61e1c3f1b11289de28d6d4e9a8ed1b"
+    },
+    "inputs/evidence_snapshots/US_BOSTON_DYNAMICS__bd_hyundai_ces.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_BOSTON_DYNAMICS__bd_hyundai_ces.html",
+      "bytes": 221462,
+      "sha256": "7307cab0a4b4935b2ca04a08147133a7bd2834cef238fb694a97a6a700cb685c"
+    },
+    "inputs/evidence_snapshots/US_BOSTON_DYNAMICS__bd_official_atlas.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_BOSTON_DYNAMICS__bd_official_atlas.txt",
+      "bytes": 9826,
+      "sha256": "b647da6809fbc7cbb80934df8b509c2504a78b08f5530f1ff5bba4441d1542fe"
+    },
+    "inputs/evidence_snapshots/US_BOSTON_DYNAMICS__bd_official_atlas.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_BOSTON_DYNAMICS__bd_official_atlas.html",
+      "bytes": 144987,
+      "sha256": "0121b4743ac8c7a1fb40968c56dada708b37d12af2e5f1fe098830d981c9d4b0"
+    },
+    "inputs/evidence_snapshots/US_BOSTON_DYNAMICS__dhl_stretch_ia_20250513.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_BOSTON_DYNAMICS__dhl_stretch_ia_20250513.txt",
+      "bytes": 13469,
+      "sha256": "2cb11286cba0101a3c59879d1ad390fa0ee9fb1eb84212e2c944a34ee8fa4fe5"
+    },
+    "inputs/evidence_snapshots/US_BOSTON_DYNAMICS__dhl_stretch_ia_20250513.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_BOSTON_DYNAMICS__dhl_stretch_ia_20250513.html",
+      "bytes": 343896,
+      "sha256": "9ed555b7340e834bbb0267a1a7f3a344ee64ecae6a417254905717929a327aa3"
+    },
+    "inputs/evidence_snapshots/US_DEXTERITY__dexterity_mech_20250317.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_DEXTERITY__dexterity_mech_20250317.txt",
+      "bytes": 3658,
+      "sha256": "111d7c8bc2c340471eddfe39619561a307a7cbde5c4e75f2c99a11fc4faaaf91"
+    },
+    "inputs/evidence_snapshots/US_DEXTERITY__dexterity_mech_20250317.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_DEXTERITY__dexterity_mech_20250317.html",
+      "bytes": 32607,
+      "sha256": "47ece69ce59e694ef85e5a1325e2c3ecc46a7b77505ff128447aa2f82c19ac77"
+    },
+    "inputs/evidence_snapshots/US_DILIGENT__diligent_acq_yahoo.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_DILIGENT__diligent_acq_yahoo.txt",
+      "bytes": 9147,
+      "sha256": "0581fd2fffa067c5a051dc2d99af64859ffdafbe9f70f08ba9b3c944c158ac20"
+    },
+    "inputs/evidence_snapshots/US_DILIGENT__diligent_acq_yahoo.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_DILIGENT__diligent_acq_yahoo.html",
+      "bytes": 790845,
+      "sha256": "7ff3e0928e422b95ac960fa3a512b1b57a75faed0333f5b488852ba6d9a2f6bb"
+    },
+    "inputs/evidence_snapshots/US_FIELD_AI__fieldai_20250820.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_FIELD_AI__fieldai_20250820.txt",
+      "bytes": 7805,
+      "sha256": "9c989d9ec3d654752f211c70d9fe89e01d5711ffe8529a2ce7dd779d2ea2a5d8"
+    },
+    "inputs/evidence_snapshots/US_FIELD_AI__fieldai_20250820.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_FIELD_AI__fieldai_20250820.html",
+      "bytes": 86090,
+      "sha256": "f4eae94ffe648600642eb0437fdd6dc872177dea21dba4aebda3b38d406f63ef"
+    },
+    "inputs/evidence_snapshots/US_FIGURE__figure_f03_bmw_20260630.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_FIGURE__figure_f03_bmw_20260630.txt",
+      "bytes": 3446,
+      "sha256": "e8513c8ec6f9ee961fcc045e08f22266adee73a49fbe14bb8e40a41461da49b7"
+    },
+    "inputs/evidence_snapshots/US_FIGURE__figure_f03_bmw_20260630.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_FIGURE__figure_f03_bmw_20260630.html",
+      "bytes": 35804,
+      "sha256": "b5676414d1d3c409abf6c5d67c7040abd9027cfdb62360efbc22cdecdd85a61b"
+    },
+    "inputs/evidence_snapshots/US_FIGURE__figure_03_20251009.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_FIGURE__figure_03_20251009.txt",
+      "bytes": 10833,
+      "sha256": "3ade336ae292021c18224cfd7feff67425b9e8a3094ff8cdb14528ef1e472f38"
+    },
+    "inputs/evidence_snapshots/US_FIGURE__figure_03_20251009.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_FIGURE__figure_03_20251009.html",
+      "bytes": 57802,
+      "sha256": "ffeb75b028b6718dd177f8089a15fd26fcef7036a45aa7f4f726e61c1f95708c"
+    },
+    "inputs/evidence_snapshots/IR_FIGURE_02.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_FIGURE_02.txt",
+      "bytes": 10589,
+      "sha256": "be8092f18c156448e0c15e250f205bda4a93a344b7580d9907240ffc5e7c2ec0"
+    },
+    "inputs/evidence_snapshots/IR_FIGURE_02.web.json": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\IR_FIGURE_02.web.json",
+      "bytes": 10939,
+      "sha256": "7611077f4d4b7a81fb884c63df43fff38534d8d577eb58c998d933e2b0b42a0e"
+    },
+    "inputs/evidence_snapshots/US_NIMBLE__nimble_nj_20240926.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_NIMBLE__nimble_nj_20240926.txt",
+      "bytes": 3844,
+      "sha256": "a783d890dc0f85074db2f27dd5470de2ff5d876b947ed5f1c9e852f096d7cd3e"
+    },
+    "inputs/evidence_snapshots/US_NIMBLE__nimble_nj_20240926.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_NIMBLE__nimble_nj_20240926.html",
+      "bytes": 78778,
+      "sha256": "8e50d265b8519e1ad0024ddd3b4dfa582ce090bb9b4aa725508f35199cff1f46"
+    },
+    "inputs/evidence_snapshots/US_PHYSICAL_INTELLIGENCE__pi0_official.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_PHYSICAL_INTELLIGENCE__pi0_official.txt",
+      "bytes": 15944,
+      "sha256": "c95707634c9637254103911306e2958b6fe7e3e581a5580b291c157fe908389a"
+    },
+    "inputs/evidence_snapshots/US_PHYSICAL_INTELLIGENCE__pi0_official.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_PHYSICAL_INTELLIGENCE__pi0_official.html",
+      "bytes": 269024,
+      "sha256": "366c5c87fe16fe22797e659b51cf7769b0ec9017423680fc0bffef2f844cc8d7"
+    },
+    "inputs/evidence_snapshots/US_PICKLE__pickle_series_b.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_PICKLE__pickle_series_b.txt",
+      "bytes": 6367,
+      "sha256": "eeea7bd8761720c72c206dec7c2224b0eb76a9082179aae5b73d21bb0f9cc769"
+    },
+    "inputs/evidence_snapshots/US_PICKLE__pickle_series_b.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_PICKLE__pickle_series_b.html",
+      "bytes": 74661,
+      "sha256": "d3c0a84e523bb75c484c45d543288129598620cf6a9a8a49179bdef6fca42eb9"
+    },
+    "inputs/evidence_snapshots/US_PICKLE__pickle_ups_deal.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_PICKLE__pickle_ups_deal.txt",
+      "bytes": 4262,
+      "sha256": "d8d54b54ef885a7197103662020bb82d5561cede20ff425d4b0051e4f690e548"
+    },
+    "inputs/evidence_snapshots/US_PICKLE__pickle_ups_deal.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_PICKLE__pickle_ups_deal.html",
+      "bytes": 44381,
+      "sha256": "5e8edb4f23db79b136c49781aacca771a9f41d9de9470a63bccbe14a42263be3"
+    },
+    "inputs/evidence_snapshots/US_SKILD__skild_brain_20250729.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_SKILD__skild_brain_20250729.txt",
+      "bytes": 7169,
+      "sha256": "b21d830aa85f8196818069a2875d68c4aab35f042c65828377a26d6820c0e70a"
+    },
+    "inputs/evidence_snapshots/US_SKILD__skild_brain_20250729.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_SKILD__skild_brain_20250729.html",
+      "bytes": 34345,
+      "sha256": "b997a3a6f753eb0aecb23f9daa9ecd632baa63b4835e39783b707ecb5ab2990b"
+    },
+    "inputs/evidence_snapshots/US_SKILD__skild_s1_20260818.txt": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_SKILD__skild_s1_20260818.txt",
+      "bytes": 25063,
+      "sha256": "aed897ee75045bf2de159862fa15bbc6af1bf13fadf92dc3b2ddc097d541ee7e"
+    },
+    "inputs/evidence_snapshots/US_SKILD__skild_s1_20260818.html": {
+      "source": "D:\\Embod AI analysis\\embodied-ai-hiring-research\\reports\\2026-09-14_company_data_analysis\\stage_b_supplemented\\run_20260915T073556Z\\evidence_snapshots\\US_SKILD__skild_s1_20260818.html",
+      "bytes": 172642,
+      "sha256": "38112680fdb5532e4c4cd0e472ede9f8784536abef15f8c7ccc64926b5ed361b"
+    }
+  },
+  "scope": "Frozen stage A advertisements and stage B facts; classification decisions are new analytical overlays."
+}

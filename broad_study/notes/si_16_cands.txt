@@ -1,0 +1,923 @@
+==== 1 E0443 nC=10 nI=34 empty=['O23:TC_ACTUATOR:motor', 'O25:TC_EMBEDDED:firmware']
+TITLE Staff Test Engineer - Actuation
+DUTY We are seeking a Staff Test Engineer – Actuation to own the design validation and NPI test process for Apptronik's custom actuator systems. This is a hands-on, multi-disciplinary role spanning mechanical, electrical, fir
+1 V2_CAN | We are seeking a Staff Test Engineer – Actuation to own the design validation and NPI test process for Apptronik's custom actuator systems. This is a 
+2 V2_CALIBRATION | You will design and execute actuator test campaigns, develop robust bringup and calibration workflows, diagnose hardware issues across the full electr
+3 V2_CALIBRATION | Actuator Bringup & Calibration:
+4 V2_CAN,V2_CALIBRATION | Lead the bringup process for new actuator hardware — including firmware deployment, motor and encoder calibration, and functional verification. Develo
+5 V2_SYSID | System Identification:
+6 V2_SYSID | Apply system identification techniques to characterize actuator dynamics — including inertia, friction, bandwidth, and torque constant — providing dat
+7 V2_CALIBRATION | Experience with motor bringup and calibration workflows, with enough firmware and electrical fluency to diagnose calibration and drive faults independ
+8 V2_SYSID | System identification background: frequency-domain analysis, bandwidth measurement, and dynamic model extraction.
+9 V2_SIM2REAL | Simulation experience (MuJoCo, Isaac Sim/Lab, etc.) and sim-to-real validation workflows.
+10 V2_CAN | Candidates with non-traditional backgrounds who can demonstrate equivalent hands-on experience with actuator testing and robotic hardware bringup are 
+
+==== 2 N0087 nC=23 nI=66 empty=[]
+TITLE 具身智能仿真平台研发工程师
+DUTY 岗位介绍  我们正在建设面向具身智能模型研发的统一仿真与评测基础设施，连接仿真环境、模型训练、标准化评测、合成数据和真机验证，服务于机器人策略模型、强化学习、模仿学习及视觉—语言—动作模型的规模化研发。  你将参与平台核心架构与关键模块建设，将分散的仿真场景、模型接口、评测脚本和数据管线沉淀为稳定、可扩展、可复现的平台能力，推动形成“模型接入—批量评测—失败分析—困难场景生成—数据回流—模型复评”的自动化闭环。  我们希望候选人不仅能够
+1 V2_SIM2REAL,V2_DOMAIN_RANDOMIZATION | 参与合成数据、程序化场景生成、传感器仿真、Domain Randomization、Real2Sim 或 Sim2Real 等相关能力建设，为模型训练、泛化验证和长尾问题分析提供支持。
+2 V2_C | 具备扎实的软件工程和系统设计能力，熟练掌握 Python/C++ 开发、阅读或调试能力；熟悉 Linux 开发环境及常用构建、调试和性能分析工具。
+3 V2_CI_CD | 具备中大型软件系统或平台型项目的开发经验，能够独立负责核心模块设计与交付；熟悉模块化设计、接口抽象、配置管理、自动化测试、持续集成和技术文档编写。
+4 V2_SAPIEN,V2_MANISKILL | 熟练使用至少一种主流机器人仿真平台，如 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、ManiSkill、Gazebo 等。
+5 V2_SAPIEN | SAPIEN
+6 V2_MANISKILL | ManiSkill
+7 V2_MANISKILL | 具有大型具身智能仿真平台、机器人 Benchmark、模型评测平台或合成数据平台的完整建设经验，或深度参与过类似 Genie Sim、RoboDojo、ManiSkill、RoboCasa、LIBERO 等系统的研发、扩展或工程化应用。
+8 - | Genie Sim
+9 - | RoboDojo
+10 V2_MANISKILL | ManiSkill
+11 - | RoboCasa
+12 - | LIBERO
+13 V2_SIM2REAL | 具有完整的机器人评测体系设计经验，熟悉任务成功率、轨迹质量、碰撞与安全性、执行效率、鲁棒性、泛化能力、OOD 表现及 Sim2Real 相关性等指标。
+14 V2_SLURM | 具有大规模并行仿真经验，熟悉 Docker、Kubernetes、Ray、Slurm 等容器化、分布式计算或集群调度技术。
+15 V2_SLURM | Slurm
+16 V2_DOMAIN_RANDOMIZATION | 具有仿真合成数据经验，熟悉场景程序化生成、资产随机化、Domain Randomization、传感器数据生成、自动标注、数据质量检测及数据集版本管理。
+17 V2_USD,V2_URDF,V2_MJCF,V2_SDF,V2_CMF_DESIGN | 熟悉 USD、URDF、MJCF、SDF 等机器人或三维资产格式，具有资产规范化、碰撞建模、材质配置和复杂场景组织经验。
+18 V2_USD | USD
+19 V2_URDF | URDF
+20 V2_MJCF | MJCF
+21 V2_SDF | SDF
+22 V2_SIM2REAL | 具有 Real2Sim、Sim2Real、三维重建、生成式 AI、程序化内容生成或传感器建模相关经验。
+23 V2_TELEOP | 具有机器人真机研发或测试经验，熟悉 ROS/ROS 2、遥操作、数据采集、硬件在环测试及仿真与真机系统对齐。
+
+==== 3 N0372 nC=18 nI=25 empty=[]
+TITLE 物理引擎仿真工程师
+DUTY 岗位职责 - 开发并维护共享仿真软件框架，重点负责物理引擎集成、机器人状态管理及控制层的开发与维护； - 开发并优化并行化（向量化）物理仿真环境，以支持高吞吐量强化学习训练（如 Isaac Lab、MuJoCo）； - 调优物理引擎参数（求解器、摩擦系数、弹性恢复系数），以支持灵巧操作和敏捷运动所需的复杂接触丰富场景； - 实现并验证复杂机器人模型（URDF/MJCF），涵盖精确的执行器与传感器建模； - 与机器人工程师及科学家协作，开
+1 V2_MODEL_COMPRESSION | - 开发并优化并行化（向量化）物理仿真环境，以支持高吞吐量强化学习训练（如 Isaac Lab、MuJoCo）；
+2 V2_URDF,V2_MJCF | - 实现并验证复杂机器人模型（URDF/MJCF），涵盖精确的执行器与传感器建模；
+3 V2_URDF | - 实现并验证复杂机器人模型（URDF/MJCF），涵盖精确的执行器与传感器建模；
+4 V2_MJCF | - 实现并验证复杂机器人模型（URDF/MJCF），涵盖精确的执行器与传感器建模；
+5 V2_SYSID,V2_SIM2REAL | - 与机器人工程师及科学家协作，开展系统辨识（SysID）工作，以最小化仿真到现实（Sim2Real）的差距。
+6 V2_C,V2_GIT | - 精通Linux和Docker开发环境，熟悉C++、Python等编程语言，掌握规范git工作流，具备良好编程规范
+7 V2_GIT | 掌握规范git工作流
+8 V2_PHYSX,V2_BULLET | - 具备主流物理引擎和物理求解器的使用经验（如 MuJoCo、PhysX、Bullet、IPC coupler）；
+9 V2_PHYSX | PhysX
+10 V2_BULLET | Bullet
+11 - | IPC coupler
+12 V2_UNREAL,V2_GENESIS | - 精通lsaac Lab/Mujoco/Genesis World/Unreal Engine等至少一种仿真软件，有相关软件的项目经验；
+13 V2_GENESIS | Genesis World
+14 V2_UNREAL | Unreal Engine
+15 V2_MODEL_COMPRESSION | - 熟悉张量计算框架（如 PyTorch、JAX、TensorFlow），能够编写向量化代码并与学习流水线进行对接；
+16 V2_DDS,V2_AIMRT | - 熟悉ROS/DDS/AimRT等机器人系统通信中间件，对机器人传感器系统、机器人操作、运动控制和路径规划有一定了解。
+17 V2_DDS | DDS
+18 V2_AIMRT | AimRT
+
+==== 4 E0347 nC=21 nI=14 empty=['O10:TC_EVALUATION:calibration']
+TITLE Senior Staff Software Engineer, Calibration
+DUTY Design, implement, and deliver calibration systems end to end, including algorithms, fixtures, on-fixture software, data pipelines, validation, and operator workflow. Own calibration across perception sensors (RGB camera
+1 V2_CALIBRATION | Agility Robotics is scaling production of Digit over the coming years. Reliable, repeatable calibration of every robot -- across perception sensors an
+2 V2_CALIBRATION | This is a player-coach role. The successful candidate will personally design, build, and deliver the calibration systems used in production, leveragin
+3 V2_CALIBRATION | The role demands strong conceptual depth combined with pragmatic, tried-and-true implementation. Calibration at Agility is a practical engineering dis
+4 V2_CALIBRATION | Design, implement, and deliver calibration systems end to end, including algorithms, fixtures, on-fixture software, data pipelines, validation, and op
+5 V2_CALIBRATION | Own calibration across perception sensors (RGB cameras, LiDAR, thermal imagers, and other modalities) and kinematic calibration of the robot, includin
+6 V2_CALIBRATION | Establish the data and metrics infrastructure underpinning calibration, including per-unit records, accuracy and drift metrics, traceability, and flee
+7 V2_CALIBRATION | Own the delivery of calibration fixture software, including operator-facing applications on Linux.
+8 V2_CALIBRATION | Own the delivery of in-field self-check and recalibration capabilities to maintain calibration validity through Digit's service life.
+9 V2_CALIBRATION | Define the requirements that calibration outputs place on downstream manufacturing processes, including cycle time, repeatability, data capture, and o
+10 V2_CALIBRATION | Coordinate with sensor vendors and contract manufacturers on the deployment of calibration processes at their facilities, including process documentat
+11 V2_CALIBRATION | Identify, hire, mentor, and develop other engineers contributing to calibration work.
+12 V2_CALIBRATION | Track record of designing and delivering calibration systems end to end, including algorithms, fixtures, on-fixture software, validation, and operator
+13 V2_CALIBRATION | Deep expertise across multiple sensor modalities (RGB cameras, LiDAR, thermal imagers, IMUs, encoders, etc), with working command of kinematic calibra
+14 V2_CALIBRATION | Demonstrated understanding of what production calibration requires: repeatability, data collection, simplicity, and throughput.
+15 V2_CALIBRATION | Experience building the data and metrics infrastructure that supports calibration at scale.
+16 V2_C | Strong programming skills in C++ and Python.
+17 V2_CALIBRATION | Owned calibration end to end at an autonomous vehicle company, mobile robotics company (humanoid, quadruped, or other dynamically stable robot), or ot
+18 V2_CALIBRATION | Experience with in-field calibration validation and recalibration on deployed fleets.
+19 V2_CALIBRATION | Built the data infrastructure side of production calibration, including traceability databases, per-unit calibration history, and fleet-wide monitorin
+20 V2_USD | $340,000 USD
+21 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+
+==== 5 N0449 nC=0 nI=10 empty=[]
+TITLE VLA实习生
+DUTY 1. 参与VLA前沿算法的复现、实验与性能评测，构建多模态（视觉+语言）到动作的端到端验证框架。  2. 针对机器人指令理解、动作生成、场景泛化等任务，开展算法对比调研与实验分析。  3. 支持实际机器人平台的算法部署与调试工作。     任职要求：  1. 熟悉深度学习、多模态模型、机器人学习等方向，对VLA/VLM相关论文有跟踪兴趣。  2. 熟练使用PyTorch，具备扎实的代码能力，有RL/模仿学习相关项目经验者优先。  3. 
+
+==== 6 E0517 nC=8 nI=11 empty=[]
+TITLE Manufacturing Test Engineer, PCBA
+DUTY Own test coverage strategy for all custom PCBAs across the product Design, validate, and deploy bed-of-nails ICT and FCT test fixtures, working directly with overseas test vendors and fixture houses Collaborate with elec
+1 V2_OFFICE | Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human 
+2 V2_DFT | We are looking for a Manufacturing Test Engineer to own PCBA-level test development and validation across all our custom electronics. In this role, yo
+3 V2_DFT | Design, validate, and deploy bed-of-nails ICT and FCT test fixtures, working directly with overseas test vendors and fixture houses
+4 V2_INCIDENT_SUPPORT | Specify and validate test software, including automated test sequencing, result logging, and failure triage
+5 V2_DFT | Hands-on experience with ICT and FCT system design, bed-of-nails fixture development, and board-level debug
+6 V2_DFT | Strong understanding of DFT (Design for Testability) and how to collaborate with EE/FW teams early in the design cycle
+7 V2_EPLAN | CAD experience (EPLAN, Solidworks Electrical, CATIA, etc)
+8 V2_EPLAN | EPLAN
+
+==== 7 N0843 nC=4 nI=17 empty=[]
+TITLE Software Engineer, Test Infrastructure
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_CI_CD | Integrate testing into CI/CD pipelines and developer workflows
+2 V2_CI_CD | Integrate testing into CI/CD pipelines and developer workflows
+3 V2_CI_CD | Experience with CI/CD systems and large-scale test automation
+4 V2_CI_CD | Experience with CI/CD systems and large-scale test automation
+
+==== 8 N0979 nC=13 nI=23 empty=[]
+TITLE Atlas Senior Controls Reliability Engineer
+DUTY The Mission Boston Dynamics is scaling the Atlas humanoid fleet to push the limits of generalist robotics. As we transition to a large-scale research fleet, the Controls Reliability Team serves as a Technical Force Multi
+1 V2_C,V2_INCIDENT_SUPPORT | Develop automated Python diagnostic scripts and C++ utilities and unit tests to transition the fleet from manual troubleshooting to proactive, automat
+2 V2_C | C++
+3 V2_C | Proficiency in C++ and Python for system analysis and tool development.
+4 V2_PANDAS | Experience with data analysis at-scale, specifically in SQL and Python (Pandas, Numpy).
+5 V2_PANDAS | Pandas
+6 V2_SNOWFLAKE,V2_LOOKER | Familiarity with data visualization tools, like Snowflake and Looker.
+7 V2_SNOWFLAKE | Snowflake
+8 V2_LOOKER | Looker
+9 V2_AIRFLOW,V2_GCP,V2_BAZEL,V2_GTEST | Experience with Bazel, Google Test infrastructure, Google Cloud Platform and Apache Airflow
+10 V2_BAZEL | Bazel
+11 V2_GTEST | Google Test infrastructure
+12 V2_GCP | Google Cloud Platform
+13 V2_AIRFLOW | Apache Airflow
+
+==== 9 N0627 nC=2 nI=14 empty=[]
+TITLE 生产测试高级工程师
+DUTY 1、非标测试设备&测试工具开发统筹：主导人形机器人生产所需各类非标测试设备、专用生产测试工具的全流程开发工作，包括测试工具需求拆解、方案设计、选型开发、方案评审、结构及电控开发对接、软硬件联调、样机测试、迭代优化；统筹内部研发、生产、外协供应商资源，严格把控测试工具、非标设备的开发进度、技术质量、使用稳定性及研发成本，保障适配量产测试场景使用需求。 2、设备落地与量产适配：负责测试设备进场安装、调试、验收，解决设备导入生产过程中的技术问
+1 V2_PROCUREMENT | 1、非标测试设备&测试工具开发统筹：主导人形机器人生产所需各类非标测试设备、专用生产测试工具的全流程开发工作，包括测试工具需求拆解、方案设计、选型开发、方案评审、结构及电控开发对接、软硬件联调、样机测试、迭代优化；统筹内部研发、生产、外协供应商资源，严格把控测试工具、非标设备的开发进度、技术质量、使
+2 V2_INCIDENT_SUPPORT | 4、技能要求：熟练使用CAD/SolidWorks等绘图软件，看懂机械、电气图纸；熟悉自动化测试流程、传感器、伺服控制、数据采集测试原理；具备扎实的测试工具开发、调试及优化能力，精通量产端各类专用测试工具的选型、开发与落地应用，具备较强的问题分析、设备及测试工具故障排查能力。
+
+==== 10 N0707 nC=4 nI=9 empty=[]
+TITLE Simulation Engineer
+DUTY Company Overview At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine lea
+1 V2_C | Proficiency in programming languages such as Python, C++, or similar.
+2 - | inverse rendering
+3 - | photogrammetry
+4 V2_USD | $300,000 USD
+
+==== 11 N0940 nC=4 nI=13 empty=[]
+TITLE Simulation Software Engineer – Robotics Platform
+DUTY About Us At Pickle Robot, we're on a mission to automate global supply chains with Physical AI. Our robots work alongside warehouse teams to unload trucks and containers — one of the toughest, most understaffed jobs in l
+1 V2_CI_CD | Collaborate with software and testing teams to integrate simulation into development pipelines and CI/CD workflows
+2 V2_CI_CD | Collaborate with software and testing teams to integrate simulation into development pipelines and CI/CD workflows
+3 V2_CI_CD | Familiarity with CI/CD pipelines and automated testing workflows
+4 V2_CI_CD | CI/CD pipelines
+
+==== 12 E0045 nC=2 nI=10 empty=['O1:SK_ROS:ROS']
+TITLE 具身智能整机评测工程师
+DUTY 1. 负责机器人整机性能评价体系的设计与搭建,制定多维度评测指标体系(如运动性能、操作精度、续航能力、稳定性等) 2. 主导竞品分析工作,系统性拆解竞品技术方案,输出竞争力对比报告 3. 设计并执行整机功能、性能、可靠性测试方案,输出量化评测结果 4. 基于评测数据,识别产品短板与改进方向,为研发团队提供优化建议 5. 跟踪行业评测标准与最佳实践,持续完善内部评价体系 6. 参与用户场景分析,确保评测指标与实际应用需求对齐
+1 V2_MODEL_COMPRESSION | 3. 设计并执行整机功能、性能、可靠性测试方案，输出量化评测结果
+2 V2_UX_RESEARCH | 5. 有用户研究或人机交互评估经验
+
+==== 13 N0915 nC=8 nI=19 empty=[]
+TITLE Robot SW Test Engineer
+DUTY About Nimble Nimble is an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, 
+1 V2_C | Nimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx
+2 V2_HIL | Owns full robot-stack test case management and regression testing for new software and firmware. Partners with members of Systems Integration team to 
+3 V2_HIL | Design, develop, and maintain the full robot-stack regression suite: happy-path plus fault-injection and recovery testing across SW modules, HIL, and 
+4 V2_HIL,V2_INCIDENT_SUPPORT | Own test case management and traceability; define pass/fail criteria and triage failures with robotics SW, embedded, and HIL owners.
+5 V2_HIL | Partner with members of Systems Integration team on HIL coverage and with deployment teams to reproduce and prevent field-reported regressions.
+6 V2_C | Strong programming in Python and Rust (or C++); experience building automated test frameworks and CI pipelines.
+7 - | experience building automated test frameworks and CI pipelines
+8 V2_REQUIREMENTS_ENGINEERING | Rigorous about requirements traceability and defect management.
+
+==== 14 N0942 nC=23 nI=41 empty=[]
+TITLE Member of Technical Staff , Frontier AI & Robotics
+DUTY Description Join our Frontier AI & Robotics team to support the development of test infrastructure for next-generation robotic systems that will transform how robots perceive and interact with the world. You'll take owne
+1 V2_HIL | - Test Infrastructure Development - Design, develop, and maintain automated test frameworks for engineering validation and manufacturing test of robot
+2 V2_C | - Software Integration & Automation - Develop test automation software in Python, C++, or equivalent languages to exercise actuators, sensors, vision 
+3 V2_INCIDENT_SUPPORT | - Technical Documentation - Author and maintain test plans, test procedures, automation framework documentation, failure analysis reports, and trouble
+4 V2_HIL | Your focus centers on the software test infrastructure and hardware integration that validates our advanced robotic platforms. You'll develop and main
+5 V2_CAN | What sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's computational infrastructure and 
+6 V2_C | - Proficiency in Python, C++, or equivalent programming languages for test automation and data acquisition
+7 V2_DAQ | - Knowledge of test instrumentation and measurement devices (oscilloscope, DAQ systems, logic analyzer, or equivalent)
+8 V2_DAQ | DAQ systems
+9 V2_CAN,V2_ETHERCAT,V2_RS485 | - Understanding of electromechanical systems including power distribution, communication buses (CAN, EtherCAT, RS-485), and sensor integration
+10 V2_CAN | CAN
+11 V2_ETHERCAT | EtherCAT
+12 V2_RS485 | RS-485
+13 V2_GIT,V2_CI_CD | - Experience with version control systems (Git) and CI/CD practices for test software
+14 V2_GIT | Experience with version control systems (Git) and CI/CD practices for test software
+15 V2_CI_CD | Experience with version control systems (Git) and CI/CD practices for test software
+16 V2_HIL | - Experience with hardware-in-the-loop (HIL) test frameworks, robotic system acceptance testing, and automated regression test suites
+17 V2_HIL | Experience with hardware-in-the-loop (HIL) test frameworks, robotic system acceptance testing, and automated regression test suites
+18 V2_GRAFANA,V2_FOXGLOVE | - Familiarity with data analysis and visualization tools (e.g., Foxglove, Grafana, MATLAB, or equivalent)
+19 V2_FOXGLOVE | Foxglove
+20 V2_GRAFANA | Grafana
+21 - | FPGA-based test platforms
+22 V2_CUSTOMER_SERVICE | Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adher
+23 V2_HR | for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.
+
+==== 15 N0854 nC=9 nI=12 empty=[]
+TITLE Contract / Jr. Test Manufacturing Engineer
+DUTY About Dexterity At Dexterity, we believe robots can positively transform the world. Our breakthrough technology frees people to do the creative, inspiring, problem-solving jobs that humans do best by enabling robots to h
+1 V2_CAN | At Dexterity, we believe robots can positively transform the world. Our breakthrough technology frees people to do the creative, inspiring, problem-so
+2 V2_CAN | We’re starting with warehouse automation, where the need for smarter, more resilient supply chains impacts millions of lives and businesses around the
+3 V2_CALIBRATION | Help document test procedures, configuration, and calibration steps.
+4 V2_INCIDENT_SUPPORT | Support deployment and troubleshooting of test stations on the production floor.
+5 V2_C,V2_STRUCTURED_TEXT,V2_LADDER,V2_FBD | Experience with programming languages such as C/C++, Structured Text, Ladder Logic, Function Block Diagrams, etc.
+6 V2_C | C
+7 V2_STRUCTURED_TEXT | Structured Text
+8 V2_LADDER | Ladder Logic
+9 V2_FBD | Function Block Diagrams
+
+==== 16 N0528 nC=28 nI=24 empty=[]
+TITLE 技术美术 Agent实习生
+DUTY 岗位职责 岗位定位：面向机器人操作仿真，结合 AI 编程 Agent 与三维生成工具，将实拍图片及尺寸信息转化为 Isaac Sim 中可交互的场景与物体资产，负责从重建、修复到仿真验证的完整交付。 - 真实场景重建：基于实拍图片与尺寸信息，还原场景布局和可操作物体，保证尺度与关键交互几何准确。 - 仿真资产交付：完成模型、材质与碰撞体处理，输出可直接导入 Isaac Sim 的 Sim-Ready USD 资产。 - 物理属性配置：设
+1 V2_USD,V2_CMF_DESIGN | - 仿真资产交付：完成模型、材质与碰撞体处理，输出可直接导入 Isaac Sim 的 Sim-Ready USD 资产。
+2 V2_BLENDER,V2_CODEX | - AI 工作流建设：利用 GPT-6 等模型与 Codex 等 AI 编程 Agent，编写和调试 Blender 脚本，串联三维重建与资产生成流程，提高制作与修复效率。
+3 - | - AI 工作流建设：利用 GPT-6 等模型与 Codex 等 AI 编程 Agent，编写和调试 Blender 脚本，串联三维重建与资产生成流程，提高制作与修复效率。
+4 V2_CODEX | - AI 工作流建设：利用 GPT-6 等模型与 Codex 等 AI 编程 Agent，编写和调试 Blender 脚本，串联三维重建与资产生成流程，提高制作与修复效率。
+5 V2_BLENDER | - AI 工作流建设：利用 GPT-6 等模型与 Codex 等 AI 编程 Agent，编写和调试 Blender 脚本，串联三维重建与资产生成流程，提高制作与修复效率。
+6 V2_BLENDER,V2_CMF_DESIGN | - 熟练使用 Blender 等 DCC 工具，掌握建模、UV 与材质基础，能独立修复重建或生成资产。
+7 V2_BLENDER | - 熟练使用 Blender 等 DCC 工具，掌握建模、UV 与材质基础，能独立修复重建或生成资产。
+8 - | - 熟练使用 Blender 等 DCC 工具，掌握建模、UV 与材质基础，能独立修复重建或生成资产。
+9 V2_UNITY,V2_UNREAL,V2_OMNIVERSE,V2_USD | - 熟悉 Isaac Sim、Omniverse、Unreal 或 Unity 的资产管线，能完成或快速迁移到 Isaac Sim / USD 的资产导入与验证。
+10 V2_OMNIVERSE | Omniverse
+11 V2_UNREAL | Unreal
+12 V2_UNITY | Unity
+13 V2_USD | USD
+14 V2_BLENDER,V2_CODEX | - 具备 Python 基础，能结合 GPT-6 等模型与 Codex 等 AI 编程 Agent 编写、调试 Blender 脚本，并验证和复现结果。
+15 - | GPT-6
+16 V2_CODEX | Codex
+17 V2_BLENDER | Blender
+18 V2_3D_RECONSTRUCTION | - 有3D GS 或 NeRF 重建经验，能将重建结果整理为可交互的仿真资产。
+19 V2_3D_RECONSTRUCTION | 3D GS
+20 V2_3D_RECONSTRUCTION | NeRF
+21 - | 混元 3D
+22 - | Meshy
+23 - | Tripo
+24 - | Rodin
+25 V2_HOUDINI | - 有 Houdini 程序化建模或场景变体批量生成经验。
+26 V2_HOUDINI | Houdini
+27 V2_OMNIVERSE | - 有 Omniverse Kit、Isaac Sim 扩展或资产自动化工具链开
+28 V2_OMNIVERSE | Omniverse Kit
+
+==== 17 N0281 nC=1 nI=18 empty=[]
+TITLE 机器人算法工程师
+DUTY •跟踪并研究机器⼈领域前沿具⾝智能技术，负责将前沿算法成果转化为可落地的技术⽅案，解决实际业务中的复杂问题。 • 构建快速原型系统，验证新技术在特定场景下的可⾏性，缩短从理论到产品的周期。 • 负责开发⾼保真的机器⼈仿真环境（如基于Isaac Sim, Mujoco,等），⽤于算法的快速迭代、⼤规模训练及策略的验证与测试。 • 与硬件、和其他算法团队紧密合作，完成算法在实体机器⼈上的部署、调试与性能优化，确保算法 的稳定性。
+1 V2_C | • 精通 Python/C++ 及 Linux 开发，熟练掌握Pytorch或TensorFlow，具备扎实的⼯程实现能⼒。
+
+==== 18 E0160 nC=11 nI=42 empty=[]
+TITLE 具身导航仿真工程师
+DUTY 1. 负责具身导航仿真系统搭建与维护,包括机器人模型、场景资产、物理参数、传感器配置、运动控制接口和任务环境配置。 2. 使用并二次开发主流仿真器,例如 Isaac Sim / Isaac Lab、Habitat、MuJoCo、Gazebo / Ignition等,构建适用于导航、避障、探索、目标搜索、移动操作的仿真任务。 3. 搭建仿真数据 pipeline,包括场景采样、任务生成、轨迹采集、传感器数据生成、标注生成、数据清洗、格式转
+1 V2_HABITAT | 2. 使用并二次开发主流仿真器，例如 Isaac Sim / Isaac Lab、Habitat、MuJoCo、Gazebo / Ignition等，构建适用于导航、避障、探索、目标搜索、移动操作的仿真任务。
+2 V2_NAV2,V2_USD,V2_URDF,V2_MJCF | 7. 开发仿真与真实机器人之间的接口，包括 ROS2 topic 、Nav2 接入、TF 坐标系、机器人 URDF / USD / MJCF 模型转换、控制接口和数据回放工具。
+3 V2_CALIBRATION,V2_SIM2REAL,V2_DOMAIN_RANDOMIZATION,V2_CMF_DESIGN | 8. 负责 sim2real 相关工作，包括 domain randomization、传感器噪声建模、动力学参数校准、场景随机化、光照材质随机化、真实数据对齐和仿真误差分析。
+4 V2_UNITY,V2_UNREAL,V2_HABITAT | 2. 熟悉至少一种机器人仿真平台，例如 Isaac Sim、Habitat、MuJoCo、Gazebo / Ignition、Unity、Unreal 等，有实际项目经验。
+5 V2_RVIZ,V2_URDF | 4. 熟悉 ROS2 生态，理解 TF、URDF、sensor topics、rviz 等常用工具和数据格式。
+6 V2_C | 5. 具备较强的 Python / C++ 工程能力，能够开发仿真插件、数据处理工具、评测脚本、自动化 pipeline 和可视化工具。
+7 V2_CALIBRATION | 7. 理解机器人坐标系、相机内外参、传感器标定、时间同步、轨迹格式、地图格式和数据集构建流程。
+8 V2_OMNIVERSE | 1. 有 Isaac Sim / Isaac Lab / Omniverse 深度使用或二次开发经验。
+9 V2_HABITAT,V2_MANISKILL | 2. 有 Habitat / RoboTHOR / iGibson / ManiSkill / MetaWorld / RoboCasa / BEHAVIOR 等具身仿真环境使用经验。
+10 V2_SIM2REAL,V2_DOMAIN_RANDOMIZATION | 4. 有大规模合成数据生成、自动标注、domain randomization、sim2real 经验。
+11 V2_CI_CD | 6. 有多机并行仿真、GPU 仿真加速、Docker / Kubernetes / CI/CD 经验。
+
+==== 19 E0376 nC=5 nI=16 empty=[]
+TITLE Hardware Integration Engineer - Dexterity
+DUTY Apptronik is seeking a Hardware Integration Engineer dedicated to the development and synthesis of our robotic end-effectors. The hands are the primary interface between our humanoid robot, Apollo, and the physical world
+1 V2_CALIBRATION | System Calibration: Develop and execute procedures for hands calibration, including kinematic and dynamic calibration, to ensure the robot's hands mod
+2 V2_HIL | HIL Testbed Ownership: Take full ownership of HIL (Hardware-in-the-Loop) Testbed Development, designing, building, and maintaining sophisticated autom
+3 V2_POWER_SUPPLY | Proven hands-on expertise with hardware bring-up, measurement tools (oscilloscopes, multimeters, power supplies), and debugging interfaces.
+4 V2_CALIBRATION | Understanding of robot kinematics and dynamics necessary for calibration.
+5 V2_POWER_SUPPLY | power supplies
+
+==== 20 N0180 nC=6 nI=5 empty=[]
+TITLE 测试开发工程师（SDK二开+CICD自动化）
+DUTY 岗位职责：  1.负责SDK二开测试开发与需求跟进。  2.负责CICD相关工具链开发与插件配置。  3.负责自动化框架与平台开发。  4.负责接口层自动化代码开发。     岗位要求：  1.3年经验以上。  2.具备shell，python，c++脚本和代码开发能力。  3.熟悉jenkins常规插件配置，以及基础测试工具使用。  4.有SDK调试开发或自动化平台开发经验优先。
+1 V2_CI_CD | 2.负责CICD相关工具链开发与插件配置。
+2 V2_CI_CD | 负责CICD相关工具链开发与插件配置。
+3 V2_C,V2_SHELL | 2.具备shell，python，c++脚本和代码开发能力。
+4 V2_SHELL | shell
+5 V2_JENKINS | 3.熟悉jenkins常规插件配置，以及基础测试工具使用。
+6 V2_JENKINS | 熟悉jenkins常规插件配置，以及基础测试工具使用。
+
+==== 21 N0439 nC=11 nI=19 empty=[]
+TITLE 具身智能仿真工程师
+DUTY 岗位职责 负责研发并优化具身智能仿真工具，支持传感器仿真渲染、物理仿真交互等 负责具身智能基础仿真能力和端到端仿真能力研发 负责机器人本体在仿真中的运动学、动力学模型模拟，以及仿真智能体功能研发 负责仿真场景库和仿真评测指标的建立、维护以及应用 理解算法与系统等团队仿真工具需求，支持相关仿真工具研发 调研具身智能仿真相关的最新算法和技术并落地，突破现有仿真工具的功能瓶颈  任职要求 硕士及以上学历，优先计算机科学、数据科学、机器人、人工
+1 V2_C,V2_GIT | 精通Linux和Docker开发环境，熟悉C++、Python等编程语言，掌握规范git工作流，具备良好编程规范
+2 V2_GIT | 掌握规范git工作流
+3 V2_BLENDER,V2_UNITY,V2_UNREAL | 精通lsaac Sim/Mujoco/Gazebo/PyBullet/CoppeliaSim/Unity/Blender/Unreal等至少一种仿真软件，能够搭建复杂的仿真场景
+4 - | 精通lsaac Sim/Mujoco/Gazebo/PyBullet/CoppeliaSim/Unity/Blender/Unreal等至少一种仿真软件
+5 V2_UNITY | 精通lsaac Sim/Mujoco/Gazebo/PyBullet/CoppeliaSim/Unity/Blender/Unreal等至少一种仿真软件
+6 V2_BLENDER | 精通lsaac Sim/Mujoco/Gazebo/PyBullet/CoppeliaSim/Unity/Blender/Unreal等至少一种仿真软件
+7 V2_UNREAL | 精通lsaac Sim/Mujoco/Gazebo/PyBullet/CoppeliaSim/Unity/Blender/Unreal等至少一种仿真软件
+8 V2_DDS,V2_AIMRT | 熟悉ROS/DDS/AimRT等机器人系统通信中间件，对机器人传感器系统、机器人操作、运动控制和路径规划有一定了解
+9 V2_DDS | 熟悉ROS/DDS/AimRT等机器人系统通信中间件
+10 V2_AIMRT | 熟悉ROS/DDS/AimRT等机器人系统通信中间件
+11 V2_3D_RECONSTRUCTION | 有机器人、自动驾驶、AR/VR从业经历者优先；有NeRF/3DGS等三维重建技术研发和项目落地经验的候选人优先
+
+==== 22 N0410 nC=13 nI=6 empty=[]
+TITLE 【共创】产测开发工程师
+DUTY 岗位职责 岗位职责： 1、开发生产测试、售后维修相关的工具，负责测试工艺、研发协议及售后维修的需求对接 2、机器人生产测试软件的工厂现场技术支持与调试 3、追踪，改进机器人生产测试反馈的问题，并实施改善措施； 4、测试数据采集和分析；测试问题的分析和解决；优化测试序列，提高测试效率； 5、编写、归档和管理测试相关的文档。  任职要求 岗位要求： 1、一年以上工作经验，本科及以上学历，计算机、通信、电子、自动化等相关专业 2、熟练C#、.
+1 V2_C | 2、熟练C#、.NET Framework/.Net 8技术 ,精通WPF,Avalonia UI开发；
+2 - | .NET Framework
+3 - | .Net 8
+4 - | WPF
+5 - | Avalonia UI
+6 - | 3、熟悉MVVM架构，熟悉运用Prism,ReativeUI实现模块化开发;
+7 - | 3、熟悉MVVM架构，熟悉运用Prism,ReativeUI实现模块化开发;
+8 - | 3、熟悉MVVM架构，熟悉运用Prism,ReativeUI实现模块化开发;
+9 V2_POWER_SUPPLY | 5、熟悉常用测试设备的操作与使用（万用表、示波器、程控电源等）；
+10 V2_POWER_SUPPLY | 程控电源
+11 V2_C | 1、有C# Web应用开发经验
+12 V2_AGENT_WORKFLOW | 2、有AI Agent开发经验
+13 V2_AGENT_WORKFLOW | 2、有AI Agent开发经验
+
+==== 23 N0380 nC=7 nI=27 empty=[]
+TITLE 多模态数据评测工程师
+DUTY 岗位职责 1. 建立并维护机器人交互与感知指标体系，支持模型、运行时、系统体验的多层级评估。 2. 开发多模态回放、影子评估和版本回归流水线，实现 Case 的快速定位、复现与对比分析。 3. 负责 Teacher Label 自动化标注闭环，设计面向回应对象、说话人归因、主动触发、打断恢复等任务的标签 Schema。 4. 建立 gold set、hard case 集、回归测试集与数据切片机制，持续支撑模型与系统迭代。 5. 探索合
+1 V2_MODEL_COMPRESSION | 5. 探索合成数据与轻量化仿真手段，提升长尾场景下的数据覆盖与鲁棒性。
+2 - | 3. 有 pyannote、DCASE、active speaker、说话人归因、多模态行为理解等任务经验。
+3 - | 3. 有 pyannote、DCASE、active speaker、说话人归因、多模态行为理解等任务经验。
+4 - | 4. 做过 shadow mode、canary、回归平台、错误分析平台。
+5 - | 4. 做过 shadow mode、canary、回归平台、错误分析平台。
+6 V2_CALIBRATION,V2_SIM2REAL | 5. 熟悉 Replicator、synthetic data、日志回放系统、轻量仿真、阵列参数 sweep、sim2real 校准思路。
+7 - | 5. 熟悉 Replicator、synthetic data、日志回放系统、轻量仿真、阵列参数 sweep、sim2real 校准思路。
+
+==== 24 N0373 nC=13 nI=26 empty=[]
+TITLE 强化学习仿真工程师
+DUTY 岗位职责 - 负责面向强化学习训练的大规模并行仿真能力研发与优化，为具身智能策略训练与评测提供高吞吐、高保真的仿真环境 - 负责仿真引擎与物理、渲染仿真能力的集成、扩展与优化，支撑机器人本体的运动学、动力学建模及操作交互仿真； - 负责打通强化学习训练框架与仿真系统的对接，构建大规模并行采样与训练闭环，支持算法团队高效迭代； - 负责面向强化学习训练的仿真任务库、场景库与评测体系(benchmark)的建立、维护与应用； - 负责 si
+1 V2_SIM2REAL | - 负责 sim-to-real / real-sim-real 相关能力研发，持续提升仿真真实性与策略的 sim-to-real 迁移率；
+2 V2_C,V2_GIT | - 精通 Linux 和 Docker 开发环境，熟悉 C++、Python 等编程语言，掌握规范 git 工作流，具备良好编程规范与系统级调试定位能力；
+3 V2_GIT | 掌握规范 git 工作流
+4 V2_GENESIS | - 精通 Isaac Sim / MuJoCo / Genesis 等至少一种机器人仿真软件，能够搭建复杂的仿真场景，深入理解接触动力学、碰撞检测算法、数值求解器、刚体动力学和数值积分；
+5 V2_GENESIS | Genesis
+6 - | RLinf
+7 - | Stable-Baselines3
+8 - | SERL
+9 - | NVIDIA Warp
+10 V2_DDS,V2_AIMRT | - 熟悉 ROS / DDS / AimRT 等机器人系统通信中间件，对机器人传感器系统、机器人操作、运动控制有一定了解；
+11 V2_DDS | DDS
+12 V2_AIMRT | AimRT
+13 V2_SYSID,V2_DOMAIN_RANDOMIZATION | - 有通过系统辨识、域随机化等方式优化sim to real落地效果经验者优先。
+
+==== 25 N0056 nC=6 nI=14 empty=[]
+TITLE 机器人物理仿真实习生
+DUTY 职位描述：  负责机器人URDF导出和物理参数的准确测量，并构建一套可复用，可验证的物理参数测量与校验体系，提升仿真模型的真实性，缩小real to sim gap。     职位要求：  1、本科及以上学历，机械、机器人、自动化、力学等相关专业，可实习4个月及以上。  2、熟悉 URDF，有机器人模型搭建和调试经验。  3、熟悉刚体动力学基础，理解 质量、质心、惯量、摩擦、阻尼 等参数含义及其对仿真的影响。  4、有机器人部件或常规机
+1 V2_URDF | 负责机器人URDF导出和物理参数的准确测量，并构建一套可复用，可验证的物理参数测量与校验体系，提升仿真模型的真实性，缩小real to sim gap。
+2 V2_URDF | 负责机器人URDF导出和物理参数的准确测量
+3 V2_URDF | 2、熟悉 URDF，有机器人模型搭建和调试经验。
+4 V2_URDF | 熟悉 URDF
+5 - | Newton
+6 V2_C | 7、具备一定 Python 或 C++ 能力，能够处理模型、参数和测试数据。
+
+==== 26 N0182 nC=6 nI=7 empty=[]
+TITLE 仿真系统测试工程师
+DUTY 职位描述  1.负责仿真系统测试支持与需求跟进。  2.负责仿真系统CICD相关工具链开发与配置。  3.负责仿真系统自动化框架与平台开发。      岗位要求：  1.3年经验以上。  2.具备shell，python，c++脚本和代码开发能力。  3.熟悉jenkins常规插件配置，以及基础测试工具使用。  4.有仿真系统测试开发经验优先。
+1 V2_CI_CD | 2.负责仿真系统CICD相关工具链开发与配置。
+2 V2_CI_CD | 负责仿真系统CICD相关工具链开发与配置。
+3 V2_C,V2_SHELL | 2.具备shell，python，c++脚本和代码开发能力。
+4 V2_SHELL | shell
+5 V2_JENKINS | 3.熟悉jenkins常规插件配置，以及基础测试工具使用。
+6 V2_JENKINS | 熟悉jenkins常规插件配置，以及基础测试工具使用。
+
+==== 27 N0076 nC=4 nI=48 empty=[]
+TITLE 机器人仿真与强化学习算法工程师
+DUTY 职位要求：  1. 负责机器人仿真数据生成与训练闭环系统的研发，覆盖任务定义、轨迹生成、仿真验证、策略训练、数据评估与筛选等核心环节。  2. 基于 MuJoCo、Isaac 等仿真平台构建高保真机器人仿真环境，完成机器人模型、传感器及场景资产的建模与调试。  3. 面向人形机器人、机械臂及灵巧手等平台，研发抓取、放置、操作等任务的数据合成与自动化评测能力，支持大规模仿真生成和验证。  4. 设计并优化基于强化学习、模仿学习的运动控制与
+1 V2_CLASSICAL_CONTROL | 5. 结合机器人控制与优化方法，如 IK、WBC、MPC、轨迹优化、PD/阻抗控制等，提升学习策略的可控性、鲁棒性和约束满足能力。
+2 V2_SIM2REAL | 8. 与感知、控制、硬件及应用团队协作，推进仿真训练结果在真实机器人系统中的验证与落地，支持 Sim2Real 和机器人数据闭环能力建设。
+3 V2_CLASSICAL_CONTROL | 4. 熟悉至少一种机器人控制或优化方法，包括但不限于 IK、WBC、MPC、轨迹优化、PD/阻抗控制等。
+4 V2_SIM2REAL | 3. 具备 Sim2Real 项目经验。
+
+==== 28 N0058 nC=4 nI=22 empty=[]
+TITLE 仿真算法开发实习生
+DUTY 岗位职责：  1. 协助搭建和维护机器人仿真平台，参与执行器、传感器以及任务场景的仿真开发与优化工作。  2. 开发并维护仿真接口，撰写规范化的技术文档，为团队提供技术支持。  3. 配合算法与硬件团队，参与实现各部门的仿真需求，构建满足业务要求的仿真环境。  4. 参与机器人仿真测试集群和评估系统的初步设计与开发，支持仿真相关测试任务。  5. 协助分析仿真数据并制作可视化报告，为软硬件优化提供数据支持与技术反馈。  6. 学习并跟进
+1 V2_C,V2_CMAKE | 2. 熟悉 Linux 开发环境，掌握 C++ 或 Python 编程语言，了解 CMake 等构建工具，具备良好的代码规范意识。
+2 V2_CMAKE | CMake
+3 V2_SAPIEN | 5. 熟悉至少一种主流仿真工具（如 Isaac Sim、Mujoco、Gazebo、Sapien 等），对工具的使用与优化有实践经验者优先。
+4 V2_SAPIEN | Sapien
+
+==== 29 N0145 nC=5 nI=12 empty=[]
+TITLE 具身仿真工程师-苏州
+DUTY 职位描述：   1、搭建高保真工业机器人仿真环境（支持物理引擎、传感器模拟、接触动力学），用于算法开发、测试与合成数据生成。   2、实现Sim-to-Real域随机化策略，缩小仿真与现实之间的差距。   3、开发自动化测试脚本，对机器人软件栈进行回归测试与性能评估。   4、集成仿真系统与CI/CD流程，支持大规模并行仿真训练。   任职要求：   1、机器人/计算机本科，2年以上Isaac Sim、Isaac Lab经验。   2、
+1 V2_SIM2REAL,V2_DOMAIN_RANDOMIZATION | 2、实现Sim-to-Real域随机化策略，缩小仿真与现实之间的差距。 
+2 V2_CI_CD | 4、集成仿真系统与CI/CD流程，支持大规模并行仿真训练。 
+3 V2_CI_CD | 集成仿真系统与CI/CD流程，支持大规模并行仿真训练。
+4 V2_C | 3、有C++/Python扩展仿真器能力（插件、自定义传感器）。 
+5 - | OPC UA
+
+==== 30 N0027 nC=28 nI=44 empty=[]
+TITLE 具身仿真研发工程师-27届
+DUTY 团队正在建设面向具身智能模型研发的统一仿真与评测平台，连接仿真环境、模型训练、标准化评测、合成数据和真机验证，服务于强化学习、模仿学习及视觉—语言—动作模型研发。         你将在团队指导下，参与仿真平台、机器人 Benchmark、模型评测系统和合成数据管线建设，推动形成“模型接入—批量评测—失败分析—数据生成—模型复评”的研发闭环。     岗位职责：  参与仿真平台核心模块研发，包括环境与任务管理、模型接入、批量运行、指标计
+1 V2_SAPIEN,V2_MANISKILL | 参与 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、ManiSkill、Gazebo 等仿真平台的接入与二次开发。
+2 V2_SAPIEN | 参与 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、ManiSkill、Gazebo 等仿真平台的接入与二次开发。
+3 V2_MANISKILL | 参与 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、ManiSkill、Gazebo 等仿真平台的接入与二次开发。
+4 V2_SIM2REAL,V2_DOMAIN_RANDOMIZATION | 参与合成数据、程序化场景生成、Domain Randomization、Real2Sim 和 Sim2Real 等相关研发。
+5 V2_C | 具备扎实的编程基础，熟练掌握 Python，具备 C++ 代码阅读、开发或调试能力。
+6 V2_GIT | 熟悉 Linux 开发环境，了解 Git、构建调试、自动化测试等基本软件工程方法。
+7 V2_GIT | Git
+8 V2_SAPIEN,V2_MANISKILL | 使用过至少一种机器人仿真平台或物理引擎，如 Isaac Sim、Isaac Lab、MuJoCo、SAPIEN、ManiSkill、Gazebo 或 PyBullet。
+9 V2_SAPIEN | SAPIEN
+10 V2_MANISKILL | ManiSkill
+11 V2_MANISKILL | 使用过 RoboCasa、LIBERO、RoboTwin、RoboDojo、ManiSkill、Isaac Lab 等平台或 Benchmark。
+12 - | RoboCasa
+13 - | LIBERO
+14 - | RoboTwin
+15 - | RoboDojo
+16 V2_MANISKILL | ManiSkill
+17 V2_SLURM | 了解 Docker、Ray、Slurm、Kubernetes 等容器化或并行计算技术。
+18 V2_SLURM | Slurm
+19 V2_USD,V2_URDF,V2_MJCF,V2_SDF | 熟悉 USD、URDF、MJCF、SDF 等机器人或三维资产格式。
+20 V2_USD | USD
+21 V2_URDF | URDF
+22 V2_MJCF | MJCF
+23 V2_SDF | SDF
+24 V2_TELEOP | 具有 ROS/ROS 2、遥操作、数据采集、真机控制或硬件在环测试经验。
+25 V2_SIM2REAL,V2_DOMAIN_RANDOMIZATION | 了解合成数据、程序化场景生成、Domain Randomization、Real2Sim 或 Sim2Real。
+26 V2_DOMAIN_RANDOMIZATION | Domain Randomization
+27 V2_SIM2REAL | Real2Sim
+28 V2_SIM2REAL | Sim2Real
+
+==== 31 N0034 nC=5 nI=13 empty=[]
+TITLE 具身仿真工程师-工业方向
+DUTY 职位描述：    1.搭建高保真工业机器人仿真环境（支持物理引擎、传感器模拟、接触动力学），用于算法开发、测试与合成数据生成。    2.实现Sim-to-Real域随机化策略，缩小仿真与现实之间的差距。    3.开发自动化测试脚本，对机器人软件栈进行回归测试与性能评估。      任职要求：    1.机器人/计算机硕士，有Isaac Sim、CoppeliaSim或Webots经验优先。    2.熟悉刚体/柔体动力学、碰撞检测及
+1 V2_SIM2REAL,V2_DOMAIN_RANDOMIZATION | 2.实现Sim-to-Real域随机化策略，缩小仿真与现实之间的差距。  
+2 - | CoppeliaSim
+3 - | Webots
+4 V2_C | 3.有C++/Python扩展仿真器能力（插件、自定义传感器）。  
+5 - | OPC UA
+
+==== 32 N0170 nC=18 nI=36 empty=[]
+TITLE 机器人运控仿真与系统专家
+DUTY 岗位职责：  1. 仿真环境构建与校准（Sim2Sim / Real2Sim）  设计并实现机器人仿真平台（基于 MuJoCo、Isaac Sim、Gazebo 等）的物理参数自动校准框架，打通从真实系统到仿真模型的参数映射。  开发 sim2sim 工具链，实现不同仿真器之间的模型一致性转换与复用，提升仿真资产的可迁移性。  建立仿真置信度评估体系，量化仿真与现实之间的动力学、传感器误差，持续迭代模型精度。  2. 动力学与物理参数辨
+1 V2_CALIBRATION,V2_SIM2REAL | 1. 仿真环境构建与校准（Sim2Sim / Real2Sim）
+2 V2_CALIBRATION | 设计并实现机器人仿真平台（基于 MuJoCo、Isaac Sim、Gazebo 等）的物理参数自动校准框架，打通从真实系统到仿真模型的参数映射。
+3 V2_MODEL_COMPRESSION | 建立仿真置信度评估体系，量化仿真与现实之间的动力学、传感器误差，持续迭代模型精度。
+4 V2_CLASSICAL_CONTROL | 构建模型驱动的控制中间件，实现动力学模型、碰撞模型、接触模型的标准化调用，为上层规划与 MPC 提供高性能支撑。
+5 V2_SYSID | 跟踪前沿技术（如可微物理、基于学习的系统辨识），持续引入新技术提升仿真与现实的一致性。
+6 V2_BULLET | 精通至少一种主流物理仿真引擎（MuJoCo、Isaac Sim、Bullet、Gazebo），熟悉其底层物理参数配置与二次开发。
+7 V2_BULLET | Bullet
+8 V2_CALIBRATION | 熟悉机器人动力学建模方法（牛顿-欧拉/拉格朗日），具备丰富的动力学辨识与参数校准实战经验。
+9 V2_SYSID,V2_KALMAN_FACTOR | 熟悉数值优化、滤波算法（卡尔曼滤波、非线性优化）及系统辨识理论。
+10 V2_C | 熟练掌握 C++ 和 Python，具备良好的代码工程化能力，有大型机器人软件框架（如 ROS/ROS2、OpenRTM）开发经验。
+11 - | OpenRTM
+12 V2_EIGEN | 熟悉 Eigen、Pinocchio、RBDL、CasADi 等动力学或优化库。
+13 V2_EIGEN | Eigen
+14 - | RBDL
+15 V2_OCS2 | 了解常见控制框架（如 OCS2、mujoco_mpc）者优先。
+16 V2_OCS2 | OCS2
+17 - | mujoco_mpc
+18 V2_SYSID | 熟悉可微物理仿真或基于学习的系统辨识方法。
+
+==== 33 N0544 nC=6 nI=18 empty=[]
+TITLE 具身智能评测与基准研究实习生
+DUTY 岗位职责 1. 参与机器人操作任务 Benchmark 的设计，包括任务定义、场景划分、成功条件、失败原因和评价指标。 2. 设计可复现的真实场景放样方案，制定测量、摆放、执行和记录 SOP。 3. 分析不同模型在任务成功率、阶段成功率、场景覆盖率、执行时间和失败原因等方面的表现。 4. 参与评测工具与数据管理平台建设，包括试次记录、本地归档、可视化和多模型对比。 5. 整理 Benchmark 文档、实验记录、演示材料和阶段性研究报告
+1 V2_SOP_OPERATION | 2. 设计可复现的真实场景放样方案，制定测量、摆放、执行和记录 SOP。
+2 V2_JAVASCRIPT | 5. 具备基础数据处理能力，能够使用 Python、JavaScript 或常见数据分析工具中的至少一种。
+3 V2_JAVASCRIPT | JavaScript
+4 V2_GIT | 6. 能够熟练使用 Git，并具备良好的技术文档和工作汇报能力。
+5 V2_GIT | 6. 能够熟练使用 Git，并具备良好的技术文档和工作汇报能力。
+6 V2_SOP_OPERATION | - 工作成果可形成标准化 SOP、评测工具和研究报告。
+
+==== 34 N0283 nC=17 nI=11 empty=[]
+TITLE 计算物理工程师
+DUTY ① 负责对传感器的物理原理进行设计，包括对相关的物理场进行模拟； ② 负责对传感器的原理模型进行构建、并进行计算和分析（含逆问题算法开发）； ③ 参与传感器实验和验证工作（对实验数据进行信号分析，获取有意义的见解）； ③ 参与跨团队（如数据科学家）合作，将模型集成到更大系统或原型中； ④ 跟踪传感器物理原理、计算物理、逆方法和信号处理的最新趋势，以推动创新。
+1 V2_C,V2_SCIPY | ③ 精通Python、MATLAB、C++等编程语言，对NumPy、SciPy或TensorFlow等库有经验。
+2 V2_SCIPY | SciPy
+3 - | 逆问题
+4 - | 参数估计
+5 - | 正则化
+6 - | Tikhonov
+7 - | 时间序列处理
+8 - | 谱分析
+9 - | 降噪
+10 V2_FE_TOPOLOGY | ⑥ 扎实的数值方法、偏微分方程（PDE）和有限元/差分方法的理解。
+11 - | 数值方法
+12 V2_FE_TOPOLOGY | 偏微分方程（PDE）
+13 - | 差分方法
+14 V2_GIT | ⑦ 对数据可视化工具（如Matplotlib、ParaView）和版本控制（如Git）的使用经验。
+15 - | Matplotlib
+16 - | ParaView
+17 V2_GIT | Git
+
+==== 35 N0358 nC=9 nI=17 empty=[]
+TITLE 设备开发工程师
+DUTY 岗位职责 1.负责触觉传感器、关节扭矩传感器、多维力 / 压力传感器专用非标检测设备从零研发、结构设计、整机集成与样机制备。 2.负责力控电缸硬件方案设计，独立完成电机选型、电机驱动、电机调试、PID 力控算法、力值测量等核心模块器件选型、硬件搭建与现场联调。 3.制定设备验证方案与测试计划，开展性能、精度、可靠性验证，根据测试数据迭代结构与控制方案，完成设计优化闭环。 4.负责实验室自研 / 新进精密检测设备的技术规格制定、方案评审、
+1 V2_CLASSICAL_CONTROL | 2.负责力控电缸硬件方案设计，独立完成电机选型、电机驱动、电机调试、PID 力控算法、力值测量等核心模块器件选型、硬件搭建与现场联调。
+2 V2_CLASSICAL_CONTROL | 2.负责力控电缸硬件方案设计，独立完成电机选型、电机驱动、电机调试、PID 力控算法、力值测量等核心模块器件选型、硬件搭建与现场联调。
+3 V2_CALIBRATION | 4.负责实验室自研 / 新进精密检测设备的技术规格制定、方案评审、选型评估、进场安装、调试、验收；负责实验室精密仪器日常运维、校准与状态管理。
+4 V2_SOP_OPERATION | 5.负责编制非标检测设备开发方案、设计规范、SOP 操作流程、设备维保手册，保证项目技术资料完整标准化；协助培训测试 / 研发人员，支撑现场技术问题解决。
+5 V2_CALIBRATION | 2.拥有力学传感器、扭矩传感器、压力传感器、多维力检测 / 校准非标设备完整项目落地经验优先。
+6 V2_TCPIP,V2_MODBUS,V2_PLC | 3.熟悉机械传动、精密机构、气动 / 液压基础原理；精通伺服 / 步进电机、力控电缸、传感器、执行器、控制器等元器件选型、方案匹配与应用调试；熟悉 Modbus、TCP/IP 等常用通信协议，具备 PLC 及设备间通讯联调实战能力。
+7 V2_MODBUS | Modbus
+8 V2_TCPIP | TCP/IP
+9 V2_PLC | 具备 PLC 及设备间通讯联调实战能力
+
+==== 36 N0295 nC=13 nI=24 empty=[]
+TITLE 仿真器开发工程师
+DUTY ① 基于 Omniverse Kit 和 USD 标准，设计并开发模块化的 Extension，构建可复用的仿真基础设施。 ② 设计高效的数据通信接口，管理大规模数据流转，确保 Python 扩展在实时循环中的性能稳定性，实现传感器资产管理、参数配置及热加载功能。 ③ 开发仿真系统的前端交互界面，实现触觉数据的实时渲染（包括力矢量箭头、2D 热力图、3D 应力云图）。 ④ 负责插件的工程化，包括编译、打包（.whl）、版本管理，并对接 
+1 V2_OMNIVERSE,V2_USD | ① 基于 Omniverse Kit 和 USD 标准，设计并开发模块化的 Extension，构建可复用的仿真基础设施。
+2 V2_OMNIVERSE | ① 基于 Omniverse Kit 和 USD 标准，设计并开发模块化的 Extension，构建可复用的仿真基础设施。
+3 V2_USD | ① 基于 Omniverse Kit 和 USD 标准，设计并开发模块化的 Extension，构建可复用的仿真基础设施。
+4 V2_C | ⑤ 设计统一的触觉 SDK，确保仿真与真机的 API 调用接口（Python/C++）完全一致。
+5 V2_SIM2REAL | ⑧ 开发 Sim-to-Real 的桥接中间件，实现物理机器人与仿真环境的实时通讯、系统集成与现场部署。
+6 - | ② 具备良好的软件工程素养，熟悉设计模式与敏捷开发流程。
+7 - | ② 具备良好的软件工程素养，熟悉设计模式与敏捷开发流程。
+8 V2_C | ③ 全栈 Python/C++ 能力，精通面向对象编程，能够编写高质量的 SDK 和插件代码。
+9 - | ⑤ 具有计算机图形学基础（Mesh,Shader,UV Mapping），具备 UI 开发能力。
+10 - | ⑤ 具有计算机图形学基础（Mesh,Shader,UV Mapping），具备 UI 开发能力。
+11 - | ⑤ 具有计算机图形学基础（Mesh,Shader,UV Mapping），具备 UI 开发能力。
+12 V2_GIT | ⑦ 加分项：有 NVIDIA Isaac Sim/Lab 深度使用经验；熟悉 ROS2 通信机制或具身智能机器人系统架构；有 github 个人主页
+13 V2_GIT | github 个人主页
+
+==== 37 N0359 nC=21 nI=13 empty=[]
+TITLE 计算力学算法工程师
+DUTY ① 负责自主CAE求解器的架构设计与核心算法开发。 ② 开发与实现有限元核心模块： 单元库（梁/壳/实体/特殊单元）；刚度矩阵组装；非线性求解（Newton-Raphson等）；接触算法。 ③ 负责反有限元（Inverse Finite Element Method, iFEM）算法研发与工程化实现：：基于应变数据重构位移/变形场； 结构状态识别与载荷反演。  ④ 进行正向/反向耦合分析，实现数据驱动与物理模型融合。 ⑤ 开发高性能并行
+1 V2_C | C
+2 - | ⑤ 开发高性能并行计算模块（MPI / OpenMP / GPU）。
+3 - | ⑤ 开发高性能并行计算模块（MPI / OpenMP / GPU）。
+4 - | Newmark
+5 - | HHT
+6 - | 显式中心差分
+7 - | 必须掌握反有限元方法（iFEM）理论基础与实现原理（应变场最小二乘重构、正则化方法、病态问题处理、载荷反演与边界条件识别）
+8 V2_C,V2_EIGEN | ④ 编程能力：精通 C/C++ （必须有求解器开发经验）；熟悉稀疏矩阵存储与求解（CSR、COO）；熟悉线性方程组求解算法（ LU / Cholesky、CG / GMRES）；具备数值算法优化能力；有开源库使用经验优先（PETSc、Eigen、Trilinos 等）。
+9 - | CSR
+10 - | COO
+11 - | LU
+12 - | Cholesky
+13 - | CG
+14 - | GMRES
+15 - | PETSc
+16 V2_EIGEN | Eigen
+17 - | Trilinos
+18 V2_KALMAN_FACTOR | ⑥ 加分项：发表过计算力学或iFEM相关论文；熟悉数据同化方法（Kalman Filter、贝叶斯反演）；熟悉机器学习与物理信息神经网络（PINNs）；有工业软件研发经验；有GPU计算（CUDA）经验。
+19 V2_KALMAN_FACTOR | Kalman Filter
+20 - | 贝叶斯反演
+21 - | 熟悉机器学习与物理信息神经网络（PINNs）
+
+==== 38 E0066 nC=0 nI=11 empty=[]
+TITLE 具身智能模型评测工程师
+DUTY 1、设计并维护具身智能系统的评测体系,覆盖感知、决策、执行及长期任务表现。 2、构建适用于真实机器人场景的评测方式,包括但不限于 offline、online 及长期运行评估。 3、分析模型与系统在不同数据分布、任务设置下的性能变化与失效模式。 4、将评测结果转化为可执行的反馈信号,用于支持模型迭代与数据采集决策。 5、参与定义失败类型及其优先级,支持数据闭环与系统稳定性改进。 6、随系统规模与复杂度变化,持续调整和演进评测方法。
+
+==== 39 E0280 nC=1 nI=22 empty=['O15:TC_DATA_PIPELINE:AI 数据标注']
+TITLE 物理仿真算法工程师
+DUTY 岗位背景 当前团队在生成物理资产及用于 AI 训练的数据标注方面面临以下挑战: 物理参数(如摩擦力、关节驱动)采集耗时长 参数配置数量大,且专业要求高 产出效率低 相关人员需负责: 协助物理数据采集规范化及数据录入工作 针对 3D物理资产属性生成(尤其是刚体及软体部分)展开前沿方向研究 基于 3D 资产生成的特性需求,对现有物理引擎进行二次开发或功能优化 参与日常 Isaac 仿真环境维护、数据集引入及数据清洗工作
+1 V2_C | - 编程能力： 精通C++，具备扎实的软件工程基础和大规模项目开发经验；同时熟练掌握Python，能够进行快速原型开发和脚本编写。
+
+==== 40 E0255 nC=2 nI=13 empty=['O5:SK_LINUX:Linux', 'O10:TC_EVALUATION:产测软件']
+TITLE 产测软件开发
+DUTY 1.负责新品的产测方案设计与产测上位机的开发。 2.承担产测代表的职能,负责跨部门的沟通协助。 3.负责产测相关的新技术预研与落地,逐步完成产测数据平台搭建。 4.负责产测质量的提升与产测软件的风险把控。 5.与测试工艺一起负责产测工位的落地,测试内容闭环。 6.可以独立完成一个复杂产品的全套产测软件开发。
+1 V2_C,V2_SHELL,V2_LABVIEW | 3. 具备良好的编程基础，熟练掌握至少一种编程语言，如 Python, Java, C++, shell, labview等。
+2 V2_SHELL,V2_LABVIEW | Python, Java, C++, shell, labview等
+
+==== 41 E0360 nC=16 nI=29 empty=['O6:SK_LINUX:Linux']
+TITLE Staff HiL SW Infrastructure Engineer
+DUTY Automation Framework Development: Design, implement, and scale test automation frameworks to support continuous firmware and software regression testing. CI/CD Pipeline Engineering: Build and manage automated pipelines u
+1 V2_HIL | Staff HiL Software Infrastructure Engineer
+2 V2_HIL,V2_CI_CD | to join the Systems Engineering, Integration & Test (SEIT) team. This critical role will lead the development of a modular, rack-based Hardware-in-the
+3 V2_CI_CD | CI/CD Pipeline Engineering:
+4 V2_GIT,V2_GITHUB_ACTIONS,V2_HIL | Build and manage automated pipelines using GitHub Actions to trigger firmware flashing and test execution on physical HiL runners.
+5 V2_HIL | Develop high-fidelity RT models for motor, encoder, communication framework and sensor emulation to support sub-system and full-system HiL benches.
+6 V2_CAN,V2_ETHERCAT,V2_I2C,V2_SPI,V2_POWER_SUPPLY | Create and maintain robust software libraries for interfacing with industrial hardware protocols, including EtherCAT, CAN, SPI , I2C , SCPI-controlled
+7 V2_GIT,V2_GITHUB_ACTIONS | Configure and maintain Linux-based workstations as GitHub Actions self-hosted runners, ensuring deterministic and traceable test environments.
+8 V2_HIL | Extensive experience in designing, implementing, and maintaining Hardware-in-the-Loop (HiL) systems, and deep familiarity with Verification & Validati
+9 V2_GIT,V2_GITHUB_ACTIONS | Proven experience with GitHub Actions and test automation framework in a hardware-focused environment.
+10 V2_CAN,V2_ETHERCAT,V2_ETHERNET,V2_I2C,V2_SPI,V2_UART | Deep understanding of EtherCAT, Ethernet, CAN , SPI, I2C, and differential UART.
+11 V2_ETHERCAT | Familiarity with Acontis and other EtherCAT simulation
+12 V2_POWER_SUPPLY | Experience with programmable power supplies, electronic loads, and PXI-based switching hardware.
+13 V2_USD | $247,000 USD
+14 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+15 - | Acontis
+16 V2_GIT,V2_GITHUB_ACTIONS | GitHub Actions
+
+==== 42 E0336 nC=9 nI=18 empty=[]
+TITLE Senior Manufacturing Test Engineer
+DUTY Serve as the technical owner and architect for manufacturing test systems supporting electrical, embedded, and control subsystems across multiple product lines. Define and drive automated production test strategies for e
+1 V2_DFM,V2_DFT | Partner with Design, Systems, Firmware, and Manufacturing teams to embed Design-for-Test (DFT) and Design-for-Manufacturing (DFM) principles early in 
+2 V2_C,V2_CAN,V2_ETHERCAT,V2_I2C,V2_SPI,V2_UART | Deep understanding of embedded systems and communication protocols (I²C, SPI, UART, CAN, EtherCAT).
+3 V2_FREE_RTOS,V2_HIL | Familiarity with Linux- or RTOS-based systems (e.g., FreeRTOS) and hardware-in-the-loop (HIL) testing methodologies.
+4 V2_INCIDENT_SUPPORT | Strong hands-on, builder mindset—you are comfortable troubleshooting hardware and software on the factory floor.
+5 V2_MES | MES, test databases, and SPC frameworks
+6 V2_OFFICE | This is an onsite position at our Salem office.
+7 V2_USD | $163,000 USD
+8 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+9 V2_FREE_RTOS | FreeRTOS
+
+==== 43 E0354 nC=16 nI=19 empty=[]
+TITLE Sr Manager, Manufacturing Test Engineering
+DUTY Strategic Leadership & Team Management Build, lead, and mentor a high-performing Manufacturing Test Engineering team focused on sub-system test strategies for electronics and controls. Define and drive a global PCBA test
+1 V2_CALIBRATION | Manage the fixture lifecycle, including vendor selection, calibration, and spare-parts strategy to minimize line-down risk.
+2 V2_DOE_MSA | Validate new fixtures using Gauge R&R to ensure measurement stability before production release.
+3 V2_INCIDENT_SUPPORT | Mentor engineers in best practices for electronic test hardware design and troubleshooting.
+4 V2_DFT | Expertise in developing mixed-signal (analog + digital) bed-of-nails (ICT) and functional test (FCT) hardware, including custom PCB design for test in
+5 V2_LABVIEW,V2_POWER_SUPPLY | Strong proficiency in test software development (e.g., Python, LabVIEW) and integrating test instruments like oscilloscopes, DMMs, and power supplies.
+6 V2_DFT | Demonstrated experience with DFT tools and standards to guide hardware design for maximum test accessibility.
+7 V2_CAN,V2_ETHERCAT,V2_I2C,V2_SPI,V2_UART | Familiarity with communication protocols such as I2C, SPI, UART, CAN, and EtherCAT.
+8 V2_MES | Experience with MES integration, quality systems, and test data pipelines in production environments.
+9 V2_TESTSTAND | Familiarity with ATE platforms (e.g., NI/TestStand).
+10 V2_LEAN | Background in lean manufacturing, Six Sigma, or other structured quality/process improvement methodologies.
+11 V2_OFFICE | This is an onsite position at our Salem, OR office.
+12 V2_USD | $210,000 USD
+13 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+14 V2_DOE_MSA | Gauge R&R
+15 V2_LABVIEW | LabVIEW
+16 V2_TESTSTAND | NI/TestStand
+
+==== 44 N0962 nC=16 nI=15 empty=[]
+TITLE Member of Technical Staff - Simulation (Synthetic Data Generation), Frontier AI & Robotics (FAR)
+DUTY Description We are seeking a Simulation Engineer to join our AI robotics research team, focusing on high-fidelity synthetic data generation. In this role, you will leverage classic game engine architecture, 3D pipelines,
+1 V2_USD | - Develop and maintain automated asset toolchains that support industry-standard ecosystem formats (e.g., USD, OpenVDB).
+2 V2_USD | Develop and maintain automated asset toolchains that support industry-standard ecosystem formats (e.g., USD, OpenVDB).
+3 - | Develop and maintain automated asset toolchains that support industry-standard ecosystem formats (e.g., USD, OpenVDB).
+4 V2_SIM2REAL | - Collaborate with researchers to define synthetic data requirements and ensure the generated data meets the visual fidelity needed for sim-to-real tr
+5 V2_CAN | What sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's massive computational infrastruct
+6 V2_C | - Proficiency in Python, familiarity with C++.
+7 V2_USD | - Expertise in scalable 3D ecosystem formats (Universal Scene Description (USD), OpenVDB).
+8 V2_USD | Universal Scene Description (USD)
+9 - | OpenVDB
+10 V2_BLENDER,V2_HOUDINI,V2_UNITY,V2_UNREAL | - Experience with 3D content creation and procedural tools (e.g., Blender, Houdini, Unreal Engine, Unity).
+11 V2_BLENDER | Blender
+12 V2_HOUDINI | Houdini
+13 V2_UNREAL | Unreal Engine
+14 V2_UNITY | Unity
+15 V2_CUSTOMER_SERVICE | Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adher
+16 V2_HR | for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.
+
+==== 45 E0417 nC=8 nI=21 empty=[]
+TITLE Senior Simulation Engineer - Core Simulation Platform
+DUTY At the core of every robot policy we ship is a simulation platform that has to be fast enough for RL training, accurate enough for controls validation, and stable enough to be the team’s daily driver. As Staff Simulation
+1 V2_C | At the core of every robot policy we ship is a simulation platform that has to be fast enough for RL training, accurate enough for controls validation
+2 V2_CI_CD | Contribute to the architecture and development of the core simulation platform — high-performance digital twins that serve as the foundation for polic
+3 V2_SIM2REAL | Improve sim-to-real transfer through advanced contact models and actuator dynamics that help policies trained in simulation transfer to physical human
+4 V2_C | Excellent C++ and/or Python programming skills
+5 V2_CI_CD | Familiar with software development best practices: CI/CD, automated testing, and code quality standards
+6 V2_SYSID | Understanding of robotics concepts: kinematics, dynamics, controls, system identification
+7 V2_AWS,V2_GCP,V2_AZURE | Experience with large-scale training workloads — deploying parallel simulations on cloud platforms (AWS, GCP, Azure) with distributed computing framew
+8 V2_AWS,V2_GCP,V2_AZURE | AWS, GCP, Azure
+
+==== 46 E0407 nC=18 nI=14 empty=['O11:TC_PERCEPTION:computer vision']
+TITLE Senior Perception Hardware Engineer
+DUTY As a Senior Perception Hardware Engineer focusing on Sensor Calibration , you will own the critical link between the physical world and our robot's autonomy stack. Apollo relies on a complex, multi-modal perception suite
+1 V2_CALIBRATION | Senior Perception Hardware Engineer focusing on Sensor Calibration
+2 V2_CALIBRATION | Your mission is to ensure these sensors act as a unified, mathematically perfect system. You will design the physical fixtures, write the calibration 
+3 V2_CALIBRATION | Calibration Architecture & Algorithms
+4 V2_CALIBRATION | Extrinsic Calibration:
+5 V2_PTP | Work with electrical and embedded teams to validate hardware-level timing. Ensure sub-microsecond synchronization across all perception streams using 
+6 V2_CALIBRATION | Design the physical calibration targets (e.g., CharuCo boards, custom 3D geometries) and the lighting environments required for high-repeatability fac
+7 V2_CALIBRATION | Collaborate with mechanical engineers to evaluate and optimize sensor mounting rigidity. Characterize calibration drift caused by thermal gradients, m
+8 V2_CALIBRATION | Build the automated calibration pipeline for our manufacturing line, allowing non-engineers to reliably calibrate a multi-sensor humanoid head in minu
+9 V2_CALIBRATION | Online/In-Field Calibration:
+10 V2_CALIBRATION | Develop lightweight "auto-calibration" or self-diagnostic routines that allow Apollo to detect sensor drift in the field and dynamically adjust its ex
+11 V2_CALIBRATION | Establish a data-tracking architecture to monitor fleet-wide calibration health, identifying batch variances or specific hardware degradation over tim
+12 V2_CALIBRATION | 5+ years of industry experience in perception hardware, computer vision, or robotics, with a primary focus on sensor calibration and validation.
+13 V2_LINEAR | Deep understanding of 3D geometry, linear algebra, coordinate frame transformations (quaternions, rotation matrices, SE(3)), and non-linear optimizati
+14 V2_C | Python and C++
+15 V2_CERES,V2_G2O,V2_PCL | . Extensive experience with computer vision libraries (OpenCV, PCL) and optimization frameworks (e.g., Ceres Solver, g2o).
+16 V2_CALIBRATION | Ability to translate abstract autonomy requirements (e.g., "we need 1cm grasping accuracy at 1 meter") into concrete hardware and calibration toleranc
+17 V2_PCL | PCL
+18 V2_CERES,V2_G2O | Ceres Solver, g2o
+
+==== 47 N1012 nC=17 nI=26 empty=[]
+TITLE Senior Staff Manufacturing Test Development Engineer
+DUTY Job Description Join us as a Senior Staff Manufacturing Test Engineer in Technical Operations, where you’ll architect and implement the critical test systems that bring our groundbreaking robots—Spot, Stretch, and Atlas—
+1 V2_CAN | have shown the world what remarkably capable robots can do. Now we are quickly becoming a recognized leader in automation solutions for industrial app
+2 V2_MS_PROJECT | Drive project management and design strategy for outsourced test development, ensuring our robotic systems exceed expectations.
+3 V2_DFT | Champion Design for Test (DFT):
+4 V2_DFT | Partner with cross-functional teams to integrate DFT best practices early, optimizing test coverage, fault isolation, and subassembly reliability.
+5 V2_POWER_SUPPLY | Solid working knowledge of basic electrical equipment, including digital multimeters, oscilloscopes, and power supplies.
+6 V2_POWER_SUPPLY | power supplies
+7 - | Windows
+8 V2_DFM | Knowledge of circuit board manufacturing DfX and best practices.
+9 V2_DFM | circuit board manufacturing DfX and best practices.
+10 V2_C | Comfortable interpreting and/or writing C++ code.
+11 V2_LEAN | Experience with lean manufacturing and/or six sigma.
+12 V2_LEAN | lean manufacturing
+13 V2_LEAN | six sigma
+14 V2_PLM | Familiarity with using a PLM (e.g. Arena).
+15 V2_PLM | PLM
+16 - | Arena
+17 V2_HR | Boston Dynamics will never ask you to divulge your personal financial or account information as part of its recruiting process.
+
+==== 48 N0968 nC=34 nI=18 empty=[]
+TITLE Senior SQA Engineer
+DUTY Summary As an SQA Engineer on the Spot team, your role will be central to ensuring the high quality, reliability, and performance of our integrated robotics ecosystem. You will bridge the gap between web application test
+1 V2_HIL | As an SQA Engineer on the Spot team, your role will be central to ensuring the high quality, reliability, and performance of our integrated robotics e
+2 - | Design, develop, and maintain automated test frameworks for both web applications (Orbit) and embedded robotic systems.
+3 V2_HIL | Implement Hardware-in-the-Loop (HIL) automated testing to rigorously validate robot performance, dynamic stability, environmental perception, and auto
+4 V2_INCIDENT_SUPPORT | Perform complex troubleshooting and root-cause analysis across software and physical hardware boundaries, analyzing system logs, web traffic, and tele
+5 V2_CI_CD | Integrate automated web and system test suites into continuous integration/continuous deployment (CI/CD) pipelines to drive early feedback and continu
+6 V2_CI_CD | Integrate automated web and system test suites into continuous integration/continuous deployment (CI/CD) pipelines
+7 V2_PLAYWRIGHT | Proven expertise in web automation, ideally using Playwright.
+8 V2_PLAYWRIGHT | ideally using Playwright
+9 V2_C,V2_JAVASCRIPT,V2_TYPESCRIPT,V2_PYTEST | Strong proficiency in Python for system test development and test framework integration (e.g., pytest). Familiarity with C++ and/or Typscript/Javascri
+10 V2_PYTEST | pytest
+11 V2_TYPESCRIPT | Typscript
+12 V2_JAVASCRIPT | Javascript
+13 V2_HIL | Hands-on experience with Hardware-in-the-Loop (HIL) automation and testing physical robotics or embedded platforms.
+14 V2_HIL | Hands-on experience with Hardware-in-the-Loop (HIL) automation and testing physical robotics or embedded platforms.
+15 - | Demonstrated systems-thinking approach to software quality, with the capability to analyze end-to-end interactions across web applications, REST APIs,
+16 V2_GIT,V2_JENKINS,V2_CI_CD | Experience with version control, build systems, and CI/CD toolchains (Git/GitHub, BuildKite, Jenkins, or similar).
+17 - | version control
+18 - | build systems
+19 V2_CI_CD | CI/CD toolchains
+20 V2_GIT | Git
+21 V2_GIT | GitHub
+22 - | BuildKite
+23 V2_JENKINS | Jenkins
+24 V2_JAVASCRIPT,V2_REACT | Understanding of modern web frameworks (React.js), HTML, CSS, and RESTful APIs.
+25 V2_JAVASCRIPT,V2_REACT | React.js
+26 - | HTML
+27 - | CSS
+28 - | RESTful APIs
+29 V2_JIRA,V2_TESTRAIL | Experience with Jira, TestRail, or equivalent test management platforms.
+30 V2_JIRA | Jira
+31 V2_TESTRAIL | TestRail
+32 V2_PROJECT_METHOD | Familiarity with Agile/Scrum methodologies in continuous delivery environments.
+33 V2_PROJECT_METHOD | Agile
+34 V2_PROJECT_METHOD | Scrum
+
+==== 49 N0969 nC=11 nI=25 empty=[]
+TITLE Senior Staff Robotics Simulation Engineer - Thermal & Fluids Analysis
+DUTY Boston Dynamics is looking for a Senior Staff Robotics Simulation Engineer to join our Virtual Product Development team. As a Senior Staff Robotics Simulation Engineer focusing on Thermal & Fluids Analysis . You will be 
+1 V2_CAN | You will be responsible for defining the global thermal management strategy and multi-physics simulation roadmap for Boston Dynamics' next-generation 
+2 V2_CAN | have shown the world what remarkably capable robots can do. Now we are quickly becoming a recognized leader in automation solutions for industrial app
+3 - | Create and enforce standardized, practical CFD evaluation processes that transition our capabilities from academic research to high-velocity industria
+4 V2_ANSYS | Unrivaled proficiency in Ansys Fluent/Mechanical, STAR-CCM+, or Simcenter Flotherm, with deep experience in custom UDF (User Defined Function) develop
+5 V2_ANSYS | Ansys Fluent/Mechanical
+6 - | STAR-CCM+
+7 - | Simcenter Flotherm
+8 - | with deep experience in custom UDF (User Defined Function) development
+9 V2_DAQ | Proven ability to lead complex lab setups, utilizing high-end data acquisition (DAQ) and sensing technologies to validate virtual twins.
+10 V2_C | Mastery of Python, C++, or MATLAB to build proprietary simulation tools and automate enterprise-level workflows.
+11 V2_HR | Boston Dynamics will never ask you to divulge your personal financial or account information as part of its recruiting process.
+
+==== 50 N0978 nC=18 nI=22 empty=[]
+TITLE Staff Test Development Engineer - Software and Automation
+DUTY Staff Test Development Engineer - Software & Automation Location: Waltham, MA (Boston Dynamics HQ) Department: Prototype Operation s About Boston Dynamics: Boston Dynamics is a global leader in robotics innovation, renow
+1 V2_CALIBRATION,V2_INCIDENT_SUPPORT | You will own the test software and automation frameworks that drive board flashing, DUT (Device Under Test) calibration, and functional verification o
+2 V2_CALIBRATION | Architect, design, implement, deploy, and maintain new tools for our test framework, automation, and control strategies across all verification test s
+3 V2_C | Proficiency in Python and/or C++ for debugging and scripting automation.
+4 V2_GIT | Experience with Linux-based systems and version control tools (e.g., Git).
+5 V2_GIT | Git
+6 - | Universal Robots
+7 - | FANUC
+8 V2_LABVIEW,V2_TESTSTAND | Experience with test executive frameworks (e.g., LabVIEW, TestStand).
+9 V2_LABVIEW | LabVIEW
+10 V2_TESTSTAND | TestStand
+11 V2_PLM | Experience with PLM systems such as Arena or Enovia for revision control and documentation management.
+12 - | Arena
+13 - | Enovia
+14 V2_MES | Familiarity with SPC, yield tracking, or MES integration.
+15 V2_MES | MES integration
+16 V2_PLC | Familiarity with PLC and Industrial automation programming.
+17 V2_PLC | PLC
+18 V2_CALIBRATION | Familiarity with camera calibration.
+
+==== 51 N1005 nC=18 nI=29 empty=[]
+TITLE Sr. Staff Electrical Manufacturing Test Engineer - Atlas
+DUTY Senior Staff Electrical Manufacturing Test Engineer About Boston Dynamics: Boston Dynamics is a global leader in robotics innovation, renowned for developing highly advanced, dynamic robots that excel in mobility, dexter
+1 V2_DFT | Provide design for test (DFT) recommendations for test coverage, fault isolation capability, and failure trends.
+2 V2_DFT | Provide design for test (DFT) recommendations
+3 V2_MS_PROJECT | Provide project management and design support for outsourced test development.
+4 V2_DFT | Hands-on experience with bed-of-nails or clamshell-style PCBA test fixtures.
+5 V2_DAQ,V2_POWER_SUPPLY | Experience with common test instrumentation: power supplies, DMMs, DAQ hardware.
+6 V2_POWER_SUPPLY | power supplies
+7 V2_DAQ | DAQ hardware
+8 V2_C | Test software development using programming languages such as Python or C++.
+9 V2_LABVIEW,V2_TESTSTAND | Experience with test executive frameworks (e.g., LabVIEW, TestStand).
+10 V2_LABVIEW | LabVIEW
+11 V2_TESTSTAND | TestStand
+12 V2_PLM | Experience with PLM systems such as Arena or Enovia for revision control and documentation management.
+13 V2_PLM | PLM systems
+14 - | Arena
+15 - | Enovia
+16 V2_MES | Familiarity with SPC, yield tracking, or MES integration.
+17 V2_MES | MES integration
+18 - | Windows
+
+==== 52 N0797 nC=19 nI=25 empty=[]
+TITLE Robotics AI Engineer, Sensor Calibration
+DUTY Robotics AI Engineer – Sensor Calibration     About Field AI Field AI is at the forefront of robotic embodied AI, transforming industries like construction, security, mining, and manufacturing. Our autonomous robots oper
+1 V2_CALIBRATION | Robotics AI Engineer – Sensor Calibration
+2 V2_CALIBRATION | Field AI is seeking a Robotics AI Engineer to help advance the sensor calibration systems that power our autonomous robots. As a member of our Calibra
+3 V2_CALIBRATION | Develop and refine sensor calibration workflows for various sensor modalities (e.g., LiDAR, cameras, IMUs), including intrinsic, extrinsic and tempora
+4 V2_CALIBRATION | Design and implement scalable systems to manage and process large sensor datasets for calibration purposes, ensuring high reliability and performance.
+5 V2_C | Implement and optimize algorithms in C++ and Python, maintaining a clean and organized code base.
+6 V2_CALIBRATION | Explore and integrate emerging technologies and tools to enhance sensor calibration workflows.
+7 V2_MS_PROJECT | Collaborate with cross-functional teams to meet project-specific documentation requirements and deliverables.
+8 V2_CALIBRATION | 2+ years of work experience as a robotics software engineer, with expertise in robotics, computer vision and sensor calibration.
+9 V2_C | Proficiency in C++ and Python, with a proven ability to write maintainable and efficient code.
+10 V2_CALIBRATION | Solid understanding of sensor calibration techniques (e.g., camera intrinsic calibration, LiDAR-Camera calibration, multi-sensor extrinsic calibration
+11 V2_PCL,V2_OPEN3D | Hands-on experience with sensor data processing tools and libraries such as PCL, Open3D, OpenCV, Kalibr, etc.
+12 V2_PCL | PCL
+13 V2_OPEN3D | Open3D
+14 - | Kalibr
+15 V2_CERES,V2_G2O,V2_GTSAM | Familiarity with backend optimization tools and libraries such as Ceres, GTSAM, g2o.
+16 V2_CERES | Ceres
+17 V2_GTSAM | GTSAM
+18 V2_G2O | g2o
+19 V2_CALIBRATION | Familiarity with factory-level calibration procedures and tooling for high-volume product lines (e.g., drones, autonomous vehicles, AR/VR devices).
+
+==== 53 N0831 nC=8 nI=26 empty=[]
+TITLE Senior Software Engineer, Multiagent Simulation
+DUTY FieldAI is transforming how robots interact with the real world. Our growing R&D team is based in Boston, where we develop risk-aware, reliable, field-ready AI systems that tackle the hardest problems in robotics and unl
+1 V2_CALIBRATION,V2_SIM2REAL | Calibrate simulation to real-world telemetry with field teams and reduce the sim-to-real gap.
+2 V2_DOMAIN_RANDOMIZATION | Build domain randomization, scenario generation, and automated regression/benchmark gates for fleet orchestration releases.
+3 V2_C | Proficiency in Python and C++; comfort reading and extending large codebases.
+4 V2_GENESIS | Working knowledge of robotics simulation engines (e.g., MuJoCo, NVIDIA Isaac Sim, Genesis).
+5 V2_GENESIS | Genesis
+6 V2_SIM2REAL,V2_DOMAIN_RANDOMIZATION | Experience with domain randomization, synthetic data generation, or sim-to-real transfer at
+7 V2_CAN | FieldAI is tackling one of robotics’ hardest problems: deploying robots in unstructured, previously unknown environments. Our Field Foundational Model
+8 V2_CAN | Solving problems at this scale takes a team as unique as the mission. We are looking for people who push beyond conventional approaches, enjoy tacklin
+
+==== 54 N0826 nC=16 nI=39 empty=[]
+TITLE Senior Robotics Software Engineer, Simulation & Evaluation
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_CAN | This role is for someone who goes beyond simply running simulators. We are looking for an engineer who can maintain and extend simulation systems, imp
+2 V2_C | Strong software engineering skills in C++ and/or Python.
+3 V2_UNITY,V2_UNREAL | Experience with simulation platforms such as Isaac Sim, Gazebo, MuJoCo, Unity, Unreal, or custom robotics simulators.
+4 V2_UNITY | Unity
+5 V2_UNREAL | Unreal
+6 V2_URDF,V2_SDF | Experience with robot or simulation assets such as URDF, SDF, meshes, dynamics, or sensor models.
+7 V2_URDF | URDF
+8 V2_SDF | SDF
+9 V2_HIL | Experience with software-in-the-loop, hardware-in-the-loop, log replay, or simulation correlation.
+10 V2_GIT,V2_GITHUB_ACTIONS,V2_BAZEL,V2_CMAKE,V2_OMNIVERSE,V2_PHYSX,V2_USD | Experience with Isaac Sim, Omniverse, USD, PhysX, ROS2, Docker, CMake, Bazel, or GitHub Actions.
+11 V2_OMNIVERSE | Omniverse
+12 V2_USD | USD
+13 V2_PHYSX | PhysX
+14 V2_CMAKE | CMake
+15 V2_BAZEL | Bazel
+16 V2_GIT,V2_GITHUB_ACTIONS | GitHub Actions
+
+==== 55 E0516 nC=4 nI=7 empty=['O5:TC_ACTUATOR:actuators']
+TITLE Manufacturing Software Test Engineer
+DUTY Implement improvements to our existing end of line automation software Use results from full subassembly validation campaigns to write automation tests for new hardware from scratch Spend time on the manufacturing line u
+1 V2_OFFICE | Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human 
+2 V2_INCIDENT_SUPPORT | Spend time on the manufacturing line understanding and responding to key pain points, including troubleshooting failures, improving visibility and deb
+3 V2_C | Strong proficiency in writing Python and C++ for interfacing with real hardware including actuators, sensors, relays, etc
+4 V2_ETHERNET,V2_SPI,V2_UART,V2_USB | Experience with common embedded stacks: Debian Linux, Ethernet, USB, SPI, UART, SCPI
+
+==== 56 E0513 nC=4 nI=15 empty=[]
+TITLE Manufacturing Electrical Test Engineer
+DUTY Design and validate EOL testers for various systems of the Humanoid like computing, cameras, power distribution, batteries, sensors, radio devices, and actuators. Support the review of design artifacts (drawings, schemat
+1 V2_OFFICE | Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human 
+2 V2_PLC,V2_DAQ,V2_POWER_SUPPLY | Experience with a variety of EOL test station support equipment (PLCs, power supplies, E-loads, DAQs, sensors, pogo-pins, etc.)
+3 V2_CAN,V2_ETHERNET,V2_RS485 | Experience with different communication topologies and protocols (CAN, Ethernet, RS-485, etc.)
+4 V2_EPLAN | CAD experience (EPLAN, SolidWorks Electrical, CATIA, etc.)
+
+==== 57 E0483 nC=6 nI=18 empty=['O14:TC_MECHANICAL:mechanical']
+TITLE Hardware Test Intern [Fall 2026]
+DUTY Design and build custom scalable test stations to perform functional, performance, and reliability testing on key robotic sub-assemblies. Develop mechanical and electrical systems incorporating diverse hardware component
+1 V2_DAQ | Develop mechanical and electrical systems incorporating diverse hardware components including, DAQ, communication modules, actuators, and sensors.
+2 V2_C,V2_GIT | Familiarity version control (Git) and programming (e.g., Python, C++, C, MATLAB)
+3 V2_CNC_PROCESS | Familiarity with rapid prototyping (3D printing, circuit design)
+4 V2_DAQ | DAQ
+5 V2_GIT | Git
+6 V2_C | C
+
+==== 58 E0573 nC=9 nI=24 empty=['O15:TC_ACTUATOR:actuation']
+TITLE Test Development Engineer — Actuation Systems
+DUTY Lead the development and maintenance of highly automated, scalable actuation test systems, collaborating with mechanical, electrical, and build teams Develop scalable dyno software on Speedgoat/Simulink Real-Time — inclu
+1 V2_OFFICE | Figure is an AI robotics company developing autonomous general-purpose humanoid robots. The goal of the company is to ship humanoid robots with human 
+2 V2_CALIBRATION | to own the development and implementation of testing infrastructure for actuation systems — spanning software architecture, hardware integration, cali
+3 V2_CALIBRATION | Develop scalable dyno software on Speedgoat/Simulink Real-Time — including controls, hardware abstraction layer, data acquisition, calibration, and UI
+4 V2_ETHERCAT | Interface and integrate dyno hardware (EtherCAT drives, PM motors, analog torque cells, precision encoders) with Speedgoat, and develop the associated
+5 V2_CALIBRATION | Calibrate dynos, validate measurement accuracy, and troubleshoot issues across the full signal chain from sensor to controller
+6 V2_ETHERCAT | Hands-on experience with EtherCAT-based servo drives (Elmo, Kollmorgen, or equivalent) and PM motor control
+7 V2_C | Experience integrating and calibrating analog torque sensors (HBM or equivalent) and high-resolution absolute encoders (BiSS-C or equivalent)
+8 V2_GIT | High proficiency with Matlab/Simulink, Simulink Real-Time, Speedgoat, Python and git
+9 V2_GIT | Speedgoat, Python and git
+
+==== 59 N0902 nC=18 nI=23 empty=[]
+TITLE HIL Test / Automation Engineer
+DUTY About Nimble Nimble is an AI robotics company building the autonomous supply chain to power fast, efficient and economical commerce. We’re training robot AGI to power a proprietary generalist supply chain superhumanoid, 
+1 V2_C | Nimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx
+2 V2_HIL | Owns one core HIL regression pillar so the team stops context-switching across all of them. Builds and maintains automated HIL frameworks, dashboards,
+3 V2_HIL | Develop and maintain the HIL test environment combining physical hardware (ECUs, sensors, motor controllers) with simulated dynamics for stress and fa
+4 V2_CAN,V2_ETHERNET,V2_I2C,V2_DAQ | Integrate high-speed DAQ and bus tracing (CAN, I2C, Ethernet) for deep hardware and firmware diagnostics.
+5 V2_DAQ | Integrate high-speed DAQ and bus tracing (CAN, I2C, Ethernet) for deep hardware and firmware diagnostics.
+6 V2_CAN | Integrate high-speed DAQ and bus tracing (CAN, I2C, Ethernet) for deep hardware and firmware diagnostics.
+7 V2_I2C | Integrate high-speed DAQ and bus tracing (CAN, I2C, Ethernet) for deep hardware and firmware diagnostics.
+8 V2_ETHERNET | Integrate high-speed DAQ and bus tracing (CAN, I2C, Ethernet) for deep hardware and firmware diagnostics.
+9 V2_HIL | 1-3+ years validating embedded systems, control software, or robotics firmware; HIL experience strongly preferred.
+10 V2_C,V2_JENKINS,V2_CI_CD | Strong Python (and Rust or C++) for automated test scripts and analysis; CI/CD experience (e.g., Jenkins).
+11 V2_CI_CD | CI/CD experience
+12 V2_JENKINS | Jenkins
+13 V2_CAN,V2_ETHERNET,V2_USB | Understanding of digital/analog I/O and robotics comms (CAN, Ethernet, USB, Serial); MATLAB/Simulink a plus.
+14 V2_CAN | CAN
+15 V2_ETHERNET | Ethernet
+16 V2_USB | USB
+17 - | Serial
+18 V2_REQUIREMENTS_ENGINEERING | Comfortable with requirements traceability and defect management.
+
+==== 60 N0680 nC=7 nI=17 empty=[]
+TITLE Physics Simulation Scientist
+DUTY Company Overview At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine lea
+1 V2_SIM2REAL | We are seeking a Physics Simulation Scientist to lead advancements in the simulation and physics-solving backbone behind Skild’s robot foundation mode
+2 V2_SIM2REAL | You’ll partner closely with engineers scaling simulation scene generation and with ML researchers pushing the limits of sim-to-real transfer. The idea
+3 V2_CALIBRATION,V2_SIM2REAL | Partner with ML researchers to improve sim-to-real transfer through better physical modeling, calibration, and training regimes.
+4 V2_SIM2REAL | Contribute to the long-term technical direction of Skild’s physical modeling and sim-to-real strategy.
+5 V2_C | Proficiency in C++ and Python, and experience building reliable systems used by other technical teams.
+6 V2_DOMAIN_RANDOMIZATION | Familiarity with how modern ML/RL pipelines consume simulation (vectorized environments, domain randomization, large-scale rollouts).
+7 V2_USD | $300,000 USD
+
+==== 61 N0714 nC=4 nI=12 empty=[]
+TITLE Technical Animator
+DUTY Company Overview At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine lea
+1 V2_MOCAP | Build high-quality motion capture systems
+2 V2_MOCAP | Build high-quality motion capture systems
+3 V2_MOCAP | Competence in building accurate motion capture systems
+4 V2_MOCAP | Competence in building accurate motion capture systems
+
+==== 62 N0713 nC=11 nI=31 empty=[]
+TITLE System Identification & Controls Engineer
+DUTY Company Overview At Skild AI, we are building the world's first general purpose robotic intelligence that is robust and adapts to unseen scenarios without failing. We believe massive scale through data-driven machine lea
+1 V2_SYSID | We're hiring a System Identification & Controls Engineer to characterize, model, and validate the dynamics of every robot we work with — as accurately
+2 V2_SYSID | Plan and run system identification across all Skild robot platforms — actuators, transmissions, joints, rigid-body dynamics, and sensors.
+3 V2_SYSID | Plan and run system identification across all Skild robot platforms — actuators, transmissions, joints, rigid-body dynamics, and sensors.
+4 V2_HIL | Characterize actuators and motors on dynamometers, test benches, and hardware-in-the-loop setups, alongside the EE, ME, and firmware teams.
+5 V2_SIM2REAL | Fit dynamics models, quantify their accuracy, and close the sim-to-real gap against our simulators.
+6 V2_CALIBRATION | Apply classical controls — state estimation, calibration, stability and bandwidth analysis — to real hardware.
+7 V2_SYSID | Set the standard and tooling for system identification at Skild, and document findings rigorously.
+8 V2_SYSID | A demonstrated, hands-on track record of system identification on real robotic or electromechanical hardware — identified and validated on physical sy
+9 - | Kalman filtering
+10 V2_C | Proficiency in Python and C++ in a Linux environment; MATLAB/Simulink a plus.
+11 V2_CALIBRATION | Experience deploying calibration or controls across a large fleet of robots or vehicles is highly valued.

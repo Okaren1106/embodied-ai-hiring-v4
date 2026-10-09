@@ -1,0 +1,60 @@
+{
+  "version": "v4_source_corrections_including_V4_001",
+  "interpretation": "Admission-rule alternatives, not truth corrections; Q P/U retained.",
+  "explicit_cues_admitted": [
+    "such as",
+    "e.g.",
+    "如"
+  ],
+  "explicit_cues_not_observed_in_increment_set": [
+    "for example",
+    "例如",
+    "including"
+  ],
+  "deng_only_is_separate": true,
+  "n_reviewed_increments": 43,
+  "known_counterexample": "N1044 bare parenthetical framework list lacks explicit example cue.",
+  "classification_changes_made": false,
+  "independent_human_validation": false,
+  "by_company": {
+    "Spirit AI": 1,
+    "X Square": 12,
+    "Agility Robotics": 1,
+    "Apptronik": 3,
+    "Figure": 6,
+    "Galbot": 5,
+    "Astribot": 3,
+    "AgiBot": 1,
+    "Fourier Intelligence": 2,
+    "Deep Robotics": 5,
+    "Galaxea AI": 1,
+    "Field AI": 1,
+    "Boston Dynamics": 2
+  },
+  "by_cue": {
+    "DENG_ONLY_OPEN_LIST": 25,
+    "EXPLICIT_CHINESE_RU": 5,
+    "EN_SUCH_AS": 7,
+    "EN_EG": 5,
+    "BARE_PARENTHETICAL_LIST": 1
+  },
+  "repeated_parent_groups": 8,
+  "inputs": [
+    {
+      "path": "analysis\\paired\\qualification_scope_states.csv",
+      "sha256": "d29821f027a0e57664ad29fe0e33b24ce7c37e2dad5a885ce53d6ce68ff81c5b"
+    },
+    {
+      "path": "analysis\\paired\\paired_advertisements.csv",
+      "sha256": "fb29cb09fea4eea83a5c5763affb33357d9dd6649dc6e7c2c33182be03f2591e"
+    },
+    {
+      "path": "work\\literature_validation\\review_annotations.json",
+      "sha256": "77e4eaf33caa3140ba6efbca8c9cacdf86d5f2421e5d978d1a9ac9f08c48018c"
+    },
+    {
+      "path": "analysis\\example_increments\\example_increment_ledger.csv",
+      "sha256": "80c02d1369f6df60c3d262fe57bc81e3684b36be68e0ab934bb635a4a2033688"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+"""First-pass adjudication for ML coding_order 57-64. Reader: grok4.6."""
+from register_Q_decisions import register
+
+O='OUTSIDE:';R='REJECT:'
+decisions={
+"N0100":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"TRAIN_INFER_INFRA",
+ "fine_task":"TRAINING_PLATFORM_AND_RL_ENGINEERING",
+ "secondary_task":"",
+ "task_evidence":"负责训练基础设施建设与维护，支持模型训练任务稳定高效运行；",
+ "new":{},
+ "old_overrides":{
+  "O5":{"metric":"DUTY_OWN_USE","branch":"UNCONDITIONAL","relation":"OWN_USE","reason":"支持RL训练/推理链路工程，不是本人研发强化学习算法。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"支持低精度训练、训练性能分析和资源利用优化；","description":"低精度训练是性能优化，不自动记模型压缩目录。"}],
+ "notes":"候选队列为空。主责训练基础设施。CUDA为了解项，与Python同句。"
+},
+"N0098":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"INDUSTRIAL_IL_DIFFUSION_SIM2REAL",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"针对工业操作任务，研发和优化基于模仿学习、行为克隆、逆强化学习、Diffusion Policy等算法的精细操作策略",
+ "new":{
+  "1":[["V2_SIM2REAL","DUTY_OWN_DEVELOP","UNCONDITIONAL"],["V2_DOMAIN_RANDOMIZATION","DUTY_OWN_DEVELOP","EXAMPLE"],["V2_SYSID","DUTY_OWN_DEVELOP","EXAMPLE"]],
+  "2":[["V2_TELEOP","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "3":[["V2_SAPIEN","GENERAL","CHOICE_AND_EXAMPLE"]],
+  "4":"DUPLICATE:N0098:3",
+  "5":R+"C++或Python不是C语言；任选斜线保持未解。",
+  "6":[["V2_SIM2REAL","PREFERRED","UNCONDITIONAL"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"使机器人能在运行中根据新场景微调策略","description":"在线微调泛称，不自动记后训练目录。"}],
+ "notes":"主责工业精细操作策略与Sim2Real。VLA操作为探索项。遥操作出现在数据采集闭环。"
+},
+"N0026":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"CAMPUS_EMBODIED_APP_INTERFACE",
+ "secondary_task":"",
+ "task_evidence":"针对零售、工业等真实应用场景，参与具身智能算法方案开发、模型训练、性能调优，推动具身智能机器人商业化落地",
+ "new":{"1":R+"Python和C++并列，不是C语言。"},
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[],
+ "notes":"27届应用工程师。与深圳具身智能算法应用工程师职责相近，按本条独立编码。"
+},
+"N0158":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"HUMANOID_MANIPULATION_RL_POSTTRAIN",
+ "secondary_task":"",
+ "task_evidence":"负责研发和优化用于人形机器人精细操作（如抓取、放置、装配、工具使用等）的强化学习（RL）算法，包括但不限于离线强化学习、真机强化学习等。",
+ "new":{
+  "1":[["V2_POSTTRAINING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_SIM2REAL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":R+"Python/C++不是C语言；斜线保持未解。"
+ },
+ "old_overrides":{
+  "O1":{"metric":"GENERAL","branch":"CHOICE","relation":"EXPERIENCE_REQUIREMENT","reason":"PyTorch/TensorFlow斜线未解。"},
+  "O2":{"metric":"GENERAL","branch":"CHOICE","relation":"EXPERIENCE_REQUIREMENT","reason":"同一斜线。"},
+  "O14":{"metric":"DUTY_OWN_DEVELOP","branch":"EXAMPLE","relation":"OWN_DEVELOP","reason":"感知-决策-控制闭环是探索应用对象。"},
+  "O15":{"metric":"DUTY_OWN_DEVELOP","branch":"EXAMPLE","relation":"OWN_DEVELOP","reason":"同一探索句。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"了解视觉-语言模型的基本原理（如CLIP、BLIP、GPT-4V等）","description":"VLM原理了解及模型名示例，不把GPT-4V写成必须框架。"}],
+ "notes":"主责操作RL；VLA+RL后训练为并列职责。Isaac Gym/Mujoco为工具示例。"
+},
+"N0163":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"OTHER_MODEL",
+ "fine_task":"MULTIMODAL_3D_HUMAN_TRACKING_GENERATION",
+ "secondary_task":"",
+ "task_evidence":"负责研发多模态3D人体Tracking与生成模型，包括姿态泛化及人物动作细节优化。",
+ "new":{
+  "1":[["V2_UNITY","GENERAL","EXAMPLE"],["V2_BLENDER","GENERAL","EXAMPLE"]],
+  "2":O+"PyTorch3D未单列冻结项。",
+  "3":"DUPLICATE:N0163:1",
+  "4":"DUPLICATE:N0163:1"
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"Python/C++编程能力","description":"斜线未解，不记C语言。SMPL/SMPL-X人体模型保留目录外。"}],
+ "notes":"3D人体跟踪与生成，属其他模型应用，不是机器人操作策略。候选1含C但同句C++无独立C表面，C不入码。"
+},
+"N0085":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"HUMANOID_DRL_WBC_MOTION",
+ "secondary_task":"TRAIN_INFER_INFRA",
+ "task_evidence":"研发基于深度强化学习的人形机器人全身运动控制算法，实现站立、行走、跑步、跳跃、转向、下蹲及平衡恢复等能力。",
+ "new":{
+  "1":[["V2_SIM2REAL","DUTY_OWN_USE","UNCONDITIONAL"],["V2_DOMAIN_RANDOMIZATION","DUTY_OWN_USE","UNCONDITIONAL"]],
+  "2":[["V2_CLASSICAL_CONTROL","GENERAL","CHOICE"]],
+  "3":O+"AMASS动作数据集。","4":O+"LAFAN1。","5":O+"BVH。","6":O+"SMPL。","7":O+"SMPL-X。",
+  "8":R+"Python和C++并列，不是C语言。",
+  "9":[["V2_SYSID","GENERAL","UNCONDITIONAL"],["V2_SIM2REAL","GENERAL","UNCONDITIONAL"],["V2_DOMAIN_RANDOMIZATION","GENERAL","UNCONDITIONAL"]],
+  "10":O+"DeepMimic文献示例。","11":O+"PHC。","12":O+"OmniH2O。","13":O+"HumanPlus。",
+  "14":O+"HOVER。","15":O+"ASAP。","16":O+"GMT。","17":O+"TWIST。","18":O+"BeyondMimic。"
+ },
+ "old_overrides":{
+  "O1":{"metric":"DUTY_OWN_USE","branch":"CHOICE_AND_EXAMPLE","relation":"OWN_USE","reason":"MuJoCo、Isaac Gym、Isaac Sim、Isaac Lab等平台并列示例。"},
+  "O2":{"metric":"DUTY_OWN_USE","branch":"CHOICE_AND_EXAMPLE","relation":"OWN_USE","reason":"同一仿真平台等列表。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"掌握PID、LQR、MPC、WBC、QP或阻抗控制等方法。","description":"经典控制为掌握方法任选；阻抗控制未单列冻结项。"}],
+ "notes":"主责人形全身DRL控制。策略蒸馏与Diffusion Policy为并列研究方向。测试时引导不另建目录。"
+},
+"N0071":{
+ "inherited":"REVIEWED_ACCEPT_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"EMBODIED_LLM_RL_POSTTRAIN",
+ "secondary_task":"DATA_EVAL_FOR_ML",
+ "task_evidence":"负责具身智能大模型强化学习（RL）相关算法的研究与开发，探索强化学习在机器人操作、具身决策以及多模态大模型 post-training 中的应用；",
+ "new":{
+  "1":[["V2_POSTTRAINING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_POSTTRAINING","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "3":[["V2_POSTTRAINING","GENERAL","CHOICE"]],
+  "4":[["V2_POSTTRAINING","PREFERRED","CHOICE"]],
+  "5":[["V2_POSTTRAINING","PREFERRED","CHOICE"]]
+ },
+ "old_overrides":{},
+ "additions":[],
+ "outside_extra":[{"quote":"human-in-the-loop RL","description":"人在回路RL是训练框架示例，不是硬件在环HIL。"}],
+ "notes":"主责具身大模型RL与post-training。L3为人在回路等方法列举。仿真到真机迁移仅加分项。"
+},
+"N0149":{
+ "inherited":"REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+ "task":"ROBOT_MODEL",
+ "fine_task":"INDUSTRIAL_VLA_INTERACTIVE_WORLD_MODEL",
+ "secondary_task":"TRAIN_INFER_INFRA",
+ "task_evidence":"研发用于工业具身机器人的视觉-语言-动作（VLA）大模型与可交互世界模型，实现跨任务零样本泛化。",
+ "new":{
+  "1":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "2":[["V2_MODEL_COMPRESSION","DUTY_OWN_DEVELOP","EXAMPLE"]],
+  "3":[["V2_WORLD_MODEL","DUTY_OWN_DEVELOP","UNCONDITIONAL"]],
+  "4":[["V2_TENSORRT","GENERAL","EXAMPLE"],["V2_ONNX","GENERAL","EXAMPLE"]],
+  "5":"DUPLICATE:N0149:4","6":"DUPLICATE:N0149:4",
+  "7":[["V2_WORLD_MODEL","PREFERRED","CHOICE"]],
+  "8":"DUPLICATE:N0149:7"
+ },
+ "old_overrides":{
+  "O1":{"metric":"GENERAL","branch":"CHOICE","relation":"EXPERIENCE_REQUIREMENT","reason":"PyTorch/TensorFlow斜线未解。"},
+  "O2":{"metric":"GENERAL","branch":"CHOICE","relation":"EXPERIENCE_REQUIREMENT","reason":"同一斜线。"}
+ },
+ "additions":[],
+ "outside_extra":[{"quote":"3年以上大模型（如LLaVA、PaLM-E、RT-2系列）研发经验。","description":"大模型家族示例保留目录外。混合专家是轻量化架构括号示例。"}],
+ "notes":"VLA与可交互世界模型并列主责，世界模型无斜线歧义。预训练与微调策略在数据职责中，泛称微调不另记后训练。"
+}
+}
+if __name__=='__main__':
+ register('RF_ML_AI_ENGINEERING', decisions, reader='grok4.6')

@@ -1,0 +1,2629 @@
+[
+  {
+    "coding_order": 9,
+    "reading_id": "E0609",
+    "company_id": "US_PHYSICAL_INTELLIGENCE",
+    "title": "Fullstack Software Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_PHYSICAL_INTELLIGENCE|ashby|031e9b1e-6e58-4c81-b608-3cfda0514082|2ec4b4d8c652c706084c8c0a1a5149c9dcf1e2891006ea7d63330d4f1166c3f0",
+    "already_coded": false,
+    "fields": {
+      "duties": "- Own annotation tooling: Build the platform and workflows for annotation generation, from the interfaces annotators work in to the pipelines behind them, and translate requirements from researchers into an actionable plan and the software to execute it.\n\n - Make annotation legible: Build the systems that track quality, cost, throughput, and coverage so researchers can see what they are getting and decide what to change.\n\n - Own researcher request and planning workflows: Redesign how researchers and prototypers turn ambiguous research needs into executable work, and create the software layer for understanding capacity and making tradeoffs across competing priorities.\n\n - Build research and ops-facing tooling: Dataset browsing, eval dashboards, and the throughput, quality, and progress tracking Production Ops needs across our lab, warehouse, and real-world sites.\n\n - Act as your own PM: Gather requirements, prioritize work, define success metrics, write specs, ship tools, drive adoption, and iterate based on feedback.\n\n - Ship production-quality software: Build reliable frontend interfaces, backend APIs, data models, dashboards, and cloud services. You should be comfortable shipping and supporting production-grade services.",
+      "requirements": "- Strong full stack engineering experience building production web applications and APIs, especially with React, TypeScript, and Python.\n\n - Experience with relational databases (we use Postgres), analytical systems (ClickHouse), and queueing systems.\n\n - Familiarity with cloud and containerized environments such as GCP and Kubernetes.\n\n - Comfort designing workflows where people, models, and software have to function as one system.\n\n - Strong product judgment and attention to detail.\n\n - Experience working directly with users, iterating from feedback, and navigating ambiguous workflows and evolving requirements.\n\n - Ability to start with a practical v0 and build toward scalable, production-quality systems.\n\nBonus Points\n\n - Former founder, early employee, or other demonstration of comfort with ambiguity and solving hard problems end to end.\n\n - Experience building data labeling platforms, human-in-the-loop tools, or other data-centric AI systems.\n\n - Experience building internal tools specifically for research, robotics, or operationally-intensive problems.\n\n - Experience with tasking systems, instruction management, scheduling, resource allocation, or workflow orchestration.\n\n - Experience with our specific stack: React, TypeScript, Python, Postgres, ClickHouse, GCP, and Kubernetes.",
+      "full_description": "Physical Intelligence is bringing general-purpose AI into the physical world. We are a group of engineers, scientists, roboticists, and company builders developing foundation models and learning algorithms to power the robots of today and the physically-actuated devices of the future.\n\nAs a Fullstack Software Engineer, you will build internal products that help Pi's research and operations teams move faster. You will work closely with researchers, prototypers, operators, and other engineers to turn operational workflows into reliable software.\n\nThe Team\n\nFullstack builds the internal software the rest of Pi runs on. Our users span the path from research intent to physical execution: researchers designing experiments and requesting data, Research Ops working across feasibility, task design, environments, prototyping, and instructions, and Production Ops running data collection, evals, and deployments across our lab, warehouse, and real-world deployments.\n\nAnnotation sits at the front of that chain, determining what our models learn from the data we collect, and this is where this role will start.\n\nIn This Role You Will\n\n - Own annotation tooling: Build the platform and workflows for annotation generation, from the interfaces annotators work in to the pipelines behind them, and translate requirements from researchers into an actionable plan and the software to execute it.\n\n - Make annotation legible: Build the systems that track quality, cost, throughput, and coverage so researchers can see what they are getting and decide what to change.\n\n - Own researcher request and planning workflows: Redesign how researchers and prototypers turn ambiguous research needs into executable work, and create the software layer for understanding capacity and making tradeoffs across competing priorities.\n\n - Build research and ops-facing tooling: Dataset browsing, eval dashboards, and the throughput, quality, and progress tracking Production Ops needs across our lab, warehouse, and real-world sites.\n\n - Act as your own PM: Gather requirements, prioritize work, define success metrics, write specs, ship tools, drive adoption, and iterate based on feedback.\n\n - Ship production-quality software: Build reliable frontend interfaces, backend APIs, data models, dashboards, and cloud services. You should be comfortable shipping and supporting production-grade services.\n\nWhat We Hope You'll Bring\n\n - Strong full stack engineering experience building production web applications and APIs, especially with React, TypeScript, and Python.\n\n - Experience with relational databases (we use Postgres), analytical systems (ClickHouse), and queueing systems.\n\n - Familiarity with cloud and containerized environments such as GCP and Kubernetes.\n\n - Comfort designing workflows where people, models, and software have to function as one system.\n\n - Strong product judgment and attention to detail.\n\n - Experience working directly with users, iterating from feedback, and navigating ambiguous workflows and evolving requirements.\n\n - Ability to start with a practical v0 and build toward scalable, production-quality systems.\n\nBonus Points\n\n - Former founder, early employee, or other demonstration of comfort with ambiguity and solving hard problems end to end.\n\n - Experience building data labeling platforms, human-in-the-loop tools, or other data-centric AI systems.\n\n - Experience building internal tools specifically for research, robotics, or operationally-intensive problems.\n\n - Experience with tasking systems, instruction management, scheduling, resource allocation, or workflow orchestration.\n\n - Experience with our specific stack: React, TypeScript, Python, Postgres, ClickHouse, GCP, and Kubernetes.\n\n\n\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "Kubernetes"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "Python"
+      },
+      {
+        "id": "O4",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "Kubernetes"
+      },
+      {
+        "id": "O5",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 153,
+        "end": 205,
+        "quote": "developing foundation models and learning algorithms"
+      },
+      {
+        "id": "O6",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 850,
+        "end": 912,
+        "quote": "Production Ops running data collection, evals, and deployments"
+      },
+      {
+        "id": "O7",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 26,
+        "end": 84,
+        "quote": "Build the platform and workflows for annotation generation"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "PRODUCT_DEFINITION_OBJECT",
+        "field": "duties",
+        "start": 719,
+        "end": 752,
+        "quote": "Dataset browsing, eval dashboards"
+      },
+      {
+        "id": "O9",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 1071,
+        "end": 1105,
+        "quote": "Build reliable frontend interfaces"
+      },
+      {
+        "id": "O10",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 878,
+        "end": 901,
+        "quote": "data labeling platforms"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0609:1",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": " - Make annotation legible: Build the systems that track quality, cost, throughput, and coverage so researchers can see what they are getting and decide what to change.",
+        "quote": " - Make annotation legible: Build the systems that track quality, cost, throughput, and coverage so researchers can see what they are getting and decide what to change.",
+        "field": "full_description",
+        "start": 1394,
+        "end": 1562
+      },
+      {
+        "id": "2",
+        "review_id": "E0609:2",
+        "codes": [
+          "V2_TYPESCRIPT",
+          "V2_REACT"
+        ],
+        "names": [
+          "TypeScript",
+          "React"
+        ],
+        "surface": " - Strong full stack engineering experience building production web applications and APIs, especially with React, TypeScript, and Python.",
+        "quote": " - Strong full stack engineering experience building production web applications and APIs, especially with React, TypeScript, and Python.",
+        "field": "full_description",
+        "start": 2409,
+        "end": 2546
+      },
+      {
+        "id": "3",
+        "review_id": "E0609:3",
+        "codes": [
+          "V2_POSTGRESQL",
+          "V2_CLICKHOUSE"
+        ],
+        "names": [
+          "PostgreSQL",
+          "ClickHouse"
+        ],
+        "surface": " - Experience with relational databases (we use Postgres), analytical systems (ClickHouse), and queueing systems.",
+        "quote": " - Experience with relational databases (we use Postgres), analytical systems (ClickHouse), and queueing systems.",
+        "field": "full_description",
+        "start": 2548,
+        "end": 2661
+      },
+      {
+        "id": "4",
+        "review_id": "E0609:4",
+        "codes": [
+          "V2_GCP"
+        ],
+        "names": [
+          "Google Cloud"
+        ],
+        "surface": " - Familiarity with cloud and containerized environments such as GCP and Kubernetes.",
+        "quote": " - Familiarity with cloud and containerized environments such as GCP and Kubernetes.",
+        "field": "full_description",
+        "start": 2663,
+        "end": 2747
+      },
+      {
+        "id": "5",
+        "review_id": "E0609:5",
+        "codes": [
+          "V2_TYPESCRIPT",
+          "V2_REACT",
+          "V2_POSTGRESQL",
+          "V2_CLICKHOUSE",
+          "V2_GCP"
+        ],
+        "names": [
+          "TypeScript",
+          "React",
+          "PostgreSQL",
+          "ClickHouse",
+          "Google Cloud"
+        ],
+        "surface": " - Experience with our specific stack: React, TypeScript, Python, Postgres, ClickHouse, GCP, and Kubernetes.",
+        "quote": " - Experience with our specific stack: React, TypeScript, Python, Postgres, ClickHouse, GCP, and Kubernetes.",
+        "field": "full_description",
+        "start": 3607,
+        "end": 3715
+      },
+      {
+        "id": "6",
+        "review_id": "E0609:6",
+        "codes": [
+          "V2_TYPESCRIPT",
+          "V2_REACT"
+        ],
+        "names": [
+          "TypeScript",
+          "React"
+        ],
+        "surface": "",
+        "quote": "React, TypeScript",
+        "field": "",
+        "start": "",
+        "end": ""
+      }
+    ]
+  },
+  {
+    "coding_order": 10,
+    "reading_id": "E0018",
+    "company_id": "CN_SPIRITAI",
+    "title": "ROS2中间件开发专家",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_SPIRITAI|feishu|7674881084623079734|117b75c6550337f961609f77e194567179bf47c55354d8100e2d3413e0ccb924",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责:\n1.负责机器人ROS2 中间件体系的建设、优化与量产化落地\n2.深入研究ROS2 核心架构,负责 RMW、ROSIDL、rosidl_typesupport、Fast DDS、rcutils等核心模块的开发与定制\n3.针对机器人长期迭代、跨版本通信及量产需求,推进 ROS2 序列化与通信链路优化\n4.负责 ROS2 Middleware 的性能、稳定性、兼容性及工程化建设\n5.参与 ROS2 与公司自研 IPC / RPC / 通信框架的融合与演进\n\n",
+      "requirements": "任职要求:\n1.计算机、软件工程、机器人等相关专业,本科及以上学历\n2.有非常深入的 ROS2 / DDS / Middleware 开发和使用经验,熟悉 ROS2 核心源码\n3.深入理解 RMW、ROSIDL、rosidl_typesupport、Fast DDS、rcutils 等核心机制\n4.熟悉 Fast DDS、rmw_fastrtps_cpp、Fast CDR 等 ROS2 Middleware 组件\n5.深入理解 Protobuf 序列化机制,对 Protobuf Wire Format / Wire Serialization 有源码级认识\n6.具备较强的 C++ 开发和源码分析能力,对 C++ 对象模型、STL 等有深入理解\n7.对编译、链接及程序运行原理有深入理解,具备扎实的计算机体系结构基础\n8.有ROS2 中间件性能优化、通信框架改造或量产化经验优先\n9.有Protobuf、DDS、共享内存、IPC/RPC 等相关开发经验优先",
+      "full_description": "岗位职责\n岗位职责：\n1.负责机器人ROS2 中间件体系的建设、优化与量产化落地\n2.深入研究ROS2 核心架构，负责 RMW、ROSIDL、rosidl_typesupport、Fast DDS、rcutils等核心模块的开发与定制\n3.针对机器人长期迭代、跨版本通信及量产需求，推进 ROS2 序列化与通信链路优化\n4.负责 ROS2 Middleware 的性能、稳定性、兼容性及工程化建设\n5.参与 ROS2 与公司自研 IPC / RPC / 通信框架的融合与演进\n\n任职要求\n任职要求：\n1.计算机、软件工程、机器人等相关专业，本科及以上学历\n2.有非常深入的 ROS2 / DDS / Middleware 开发和使用经验，熟悉 ROS2 核心源码\n3.深入理解 RMW、ROSIDL、rosidl_typesupport、Fast DDS、rcutils 等核心机制\n4.熟悉 Fast DDS、rmw_fastrtps_cpp、Fast CDR 等 ROS2 Middleware 组件\n5.深入理解 Protobuf 序列化机制，对 Protobuf Wire Format / Wire Serialization 有源码级认识\n6.具备较强的 C++ 开发和源码分析能力，对 C++ 对象模型、STL 等有深入理解\n7.对编译、链接及程序运行原理有深入理解，具备扎实的计算机体系结构基础\n8.有ROS2 中间件性能优化、通信框架改造或量产化经验优先\n9.有Protobuf、DDS、共享内存、IPC/RPC 等相关开发经验优先"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 8,
+        "end": 35,
+        "quote": "负责机器人ROS2 中间件体系的建设、优化与量产化落地"
+      },
+      {
+        "id": "O2",
+        "code": "SK_FAST_DDS",
+        "name": "Fast DDS",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 52,
+        "end": 112,
+        "quote": "负责 RMW、ROSIDL、rosidl_typesupport、Fast DDS、rcutils等核心模块的开发与定制"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 78,
+        "end": 87,
+        "quote": "ROS2 核心源码"
+      },
+      {
+        "id": "O4",
+        "code": "SK_FAST_DDS",
+        "name": "Fast DDS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 85,
+        "end": 93,
+        "quote": "Fast DDS"
+      },
+      {
+        "id": "O5",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "C++"
+      },
+      {
+        "id": "O6",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 365,
+        "end": 377,
+        "quote": "ROS2 中间件性能优化"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0018:1",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "2.深入研究ROS2 核心架构，负责 RMW、ROSIDL、rosidl_typesupport、Fast DDS、rcutils等核心模块的开发与定制",
+        "quote": "2.深入研究ROS2 核心架构，负责 RMW、ROSIDL、rosidl_typesupport、Fast DDS、rcutils等核心模块的开发与定制",
+        "field": "full_description",
+        "start": 41,
+        "end": 117
+      },
+      {
+        "id": "2",
+        "review_id": "E0018:2",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "2.有非常深入的 ROS2 / DDS / Middleware 开发和使用经验，熟悉 ROS2 核心源码",
+        "quote": "2.有非常深入的 ROS2 / DDS / Middleware 开发和使用经验，熟悉 ROS2 核心源码",
+        "field": "full_description",
+        "start": 278,
+        "end": 331
+      },
+      {
+        "id": "3",
+        "review_id": "E0018:3",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "3.深入理解 RMW、ROSIDL、rosidl_typesupport、Fast DDS、rcutils 等核心机制",
+        "quote": "3.深入理解 RMW、ROSIDL、rosidl_typesupport、Fast DDS、rcutils 等核心机制",
+        "field": "full_description",
+        "start": 332,
+        "end": 391
+      },
+      {
+        "id": "4",
+        "review_id": "E0018:4",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "4.熟悉 Fast DDS、rmw_fastrtps_cpp、Fast CDR 等 ROS2 Middleware 组件",
+        "quote": "4.熟悉 Fast DDS、rmw_fastrtps_cpp、Fast CDR 等 ROS2 Middleware 组件",
+        "field": "full_description",
+        "start": 392,
+        "end": 452
+      },
+      {
+        "id": "5",
+        "review_id": "E0018:5",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "6.具备较强的 C++ 开发和源码分析能力，对 C++ 对象模型、STL 等有深入理解",
+        "quote": "6.具备较强的 C++ 开发和源码分析能力，对 C++ 对象模型、STL 等有深入理解",
+        "field": "full_description",
+        "start": 526,
+        "end": 569
+      },
+      {
+        "id": "6",
+        "review_id": "E0018:6",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "9.有Protobuf、DDS、共享内存、IPC/RPC 等相关开发经验优先",
+        "quote": "9.有Protobuf、DDS、共享内存、IPC/RPC 等相关开发经验优先",
+        "field": "full_description",
+        "start": 637,
+        "end": 675
+      }
+    ]
+  },
+  {
+    "coding_order": 11,
+    "reading_id": "E0192",
+    "company_id": "CN_XSQUARE",
+    "title": "端侧 DevOps 工程师（机器人方向）",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7637524270192576819|8b0f5693e2cb444b04408ef5a13c2c6305ef5b2561b234ffd3d5534a0da9cafe",
+    "already_coded": false,
+    "fields": {
+      "duties": "1、搭建和优化机器人研发全流程 CI/CD 流水线,实现算法、控制程序、固件及 ROS/ROS2 代码的自动化构建、测试、打包和端侧部署;\n2、设计、开发并维护自动化工具与脚本,提升研发效率并保证交付稳定性;\n3、整合 CI/CD 工具链(GitLab、Jenkins等)与仿真平台(Isaac Sim、Gazebo),实现端到端流程自动化和工具联动;\n4、负责制品库建设与管理,包括镜像/软件包的版本策略、生命周期管理、清理机制和可回滚方案,确保研发制品可追溯、可靠发布;\n5、监控流水线运行状态,快速定位构建、部署及机器人端问题,确保研发交付顺畅;\n6、推动自动化测试、灰度发布、固件回滚等最佳实践,优化研发流程并提供团队培训与支持;\n7、跟踪前沿 DevOps 技术(云原生 CI/CD、GitOps、DevSecOps),结合多机器人和端云协同场景持续改进交付体系。 ",
+      "requirements": "1、本科及以上学历,计算机、软件工程、电子信息或机器人相关专业,3 年以上 DevOps / CI/CD 或研发效能经验,有机器人研发经验优先;\n2、精通至少一种脚本/编程语言(Shell、Python、Go),能够独立开发自动化脚本与工具;\n3、熟悉主流 CI/CD 工具及流程,能搭建适配复杂研发场景的流水线;\n4、熟悉容器化和云原生技术(Docker、Podman 或 K8s),了解镜像管理、环境编排及端侧部署优化;\n5、熟悉制品库/Registry 管理(Harbor、Nexus、GitLab Registry 等),能够制定版本策略、清理机制和发布规范;\n6、对机器人研发流程(ROS/ROS2、算法、固件、硬件调试)有一定理解,具备问题分析与排查能力;\n7、具备良好沟通、协作能力,能适应快速迭代的研发节奏。",
+      "full_description": "岗位职责\n1、搭建和优化机器人研发全流程 CI/CD 流水线，实现算法、控制程序、固件及 ROS/ROS2 代码的自动化构建、测试、打包和端侧部署；\n2、设计、开发并维护自动化工具与脚本，提升研发效率并保证交付稳定性；\n3、整合 CI/CD 工具链（GitLab、Jenkins等）与仿真平台（Isaac Sim、Gazebo），实现端到端流程自动化和工具联动；\n4、负责制品库建设与管理，包括镜像/软件包的版本策略、生命周期管理、清理机制和可回滚方案，确保研发制品可追溯、可靠发布；\n5、监控流水线运行状态，快速定位构建、部署及机器人端问题，确保研发交付顺畅；\n6、推动自动化测试、灰度发布、固件回滚等最佳实践，优化研发流程并提供团队培训与支持；\n7、跟踪前沿 DevOps 技术（云原生 CI/CD、GitOps、DevSecOps），结合多机器人和端云协同场景持续改进交付体系。\n\n任职要求\n1、本科及以上学历，计算机、软件工程、电子信息或机器人相关专业，3 年以上 DevOps / CI/CD 或研发效能经验，有机器人研发经验优先；\n2、精通至少一种脚本/编程语言（Shell、Python、Go），能够独立开发自动化脚本与工具；\n3、熟悉主流 CI/CD 工具及流程，能搭建适配复杂研发场景的流水线；\n4、熟悉容器化和云原生技术（Docker、Podman 或 K8s），了解镜像管理、环境编排及端侧部署优化；\n5、熟悉制品库/Registry 管理（Harbor、Nexus、GitLab Registry 等），能够制定版本策略、清理机制和发布规范；\n6、对机器人研发流程（ROS/ROS2、算法、固件、硬件调试）有一定理解，具备问题分析与排查能力；\n7、具备良好沟通、协作能力，能适应快速迭代的研发节奏。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "PRODUCT_DEFINITION_OBJECT",
+        "field": "duties",
+        "start": 40,
+        "end": 51,
+        "quote": "ROS/ROS2 代码"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "PRODUCT_DEFINITION_OBJECT",
+        "field": "duties",
+        "start": 40,
+        "end": 51,
+        "quote": "ROS/ROS2 代码"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ISAAC",
+        "name": "Isaac",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 142,
+        "end": 164,
+        "quote": "仿真平台（Isaac Sim、Gazebo）"
+      },
+      {
+        "id": "O4",
+        "code": "SK_GAZEBO",
+        "name": "Gazebo",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 142,
+        "end": 164,
+        "quote": "仿真平台（Isaac Sim、Gazebo）"
+      },
+      {
+        "id": "O5",
+        "code": "SK_GENERIC_LANGUAGE",
+        "name": "编程语言泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 81,
+        "end": 88,
+        "quote": "脚本/编程语言"
+      },
+      {
+        "id": "O6",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 95,
+        "end": 101,
+        "quote": "Python"
+      },
+      {
+        "id": "O7",
+        "code": "SK_GO",
+        "name": "Go",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 102,
+        "end": 104,
+        "quote": "Go"
+      },
+      {
+        "id": "O8",
+        "code": "SK_DOCKER",
+        "name": "Docker",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 172,
+        "end": 178,
+        "quote": "Docker"
+      },
+      {
+        "id": "O9",
+        "code": "SK_KUBERNETES",
+        "name": "Kubernetes",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 188,
+        "end": 191,
+        "quote": "K8s"
+      },
+      {
+        "id": "O10",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "ROS"
+      },
+      {
+        "id": "O11",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "duties",
+        "start": 44,
+        "end": 48,
+        "quote": "ROS2"
+      },
+      {
+        "id": "O12",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "PRODUCT_DEFINITION_OBJECT",
+        "field": "duties",
+        "start": 26,
+        "end": 68,
+        "quote": "实现算法、控制程序、固件及 ROS/ROS2 代码的自动化构建、测试、打包和端侧部署"
+      },
+      {
+        "id": "O13",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "PRODUCT_DEFINITION_OBJECT",
+        "field": "duties",
+        "start": 36,
+        "end": 68,
+        "quote": "固件及 ROS/ROS2 代码的自动化构建、测试、打包和端侧部署"
+      },
+      {
+        "id": "O14",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 279,
+        "end": 301,
+        "quote": "推动自动化测试、灰度发布、固件回滚等最佳实践"
+      },
+      {
+        "id": "O15",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 112,
+        "end": 164,
+        "quote": "整合 CI/CD 工具链（GitLab、Jenkins等）与仿真平台（Isaac Sim、Gazebo）"
+      },
+      {
+        "id": "O16",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 308,
+        "end": 310,
+        "quote": "固件"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0192:1",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "1、搭建和优化机器人研发全流程 CI/CD 流水线，实现算法、控制程序、固件及 ROS/ROS2 代码的自动化构建、测试、打包和端侧部署；",
+        "quote": "1、搭建和优化机器人研发全流程 CI/CD 流水线，实现算法、控制程序、固件及 ROS/ROS2 代码的自动化构建、测试、打包和端侧部署；",
+        "field": "full_description",
+        "start": 5,
+        "end": 74
+      },
+      {
+        "id": "2",
+        "review_id": "E0192:2",
+        "codes": [
+          "V2_GIT",
+          "V2_JENKINS",
+          "V2_CI_CD"
+        ],
+        "names": [
+          "Git",
+          "Jenkins",
+          "持续集成与交付"
+        ],
+        "surface": "3、整合 CI/CD 工具链（GitLab、Jenkins等）与仿真平台（Isaac Sim、Gazebo），实现端到端流程自动化和工具联动；",
+        "quote": "3、整合 CI/CD 工具链（GitLab、Jenkins等）与仿真平台（Isaac Sim、Gazebo），实现端到端流程自动化和工具联动；",
+        "field": "full_description",
+        "start": 110,
+        "end": 181
+      },
+      {
+        "id": "3",
+        "review_id": "E0192:3",
+        "codes": [
+          "V2_GIT",
+          "V2_JENKINS"
+        ],
+        "names": [
+          "Git",
+          "Jenkins"
+        ],
+        "surface": "GitLab、Jenkins",
+        "quote": "CI/CD 工具链（GitLab、Jenkins等）",
+        "field": "full_description",
+        "start": 115,
+        "end": 141
+      },
+      {
+        "id": "4",
+        "review_id": "E0192:4",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "7、跟踪前沿 DevOps 技术（云原生 CI/CD、GitOps、DevSecOps），结合多机器人和端云协同场景持续改进交付体系。",
+        "quote": "7、跟踪前沿 DevOps 技术（云原生 CI/CD、GitOps、DevSecOps），结合多机器人和端云协同场景持续改进交付体系。",
+        "field": "full_description",
+        "start": 325,
+        "end": 392
+      },
+      {
+        "id": "5",
+        "review_id": "E0192:5",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "1、本科及以上学历，计算机、软件工程、电子信息或机器人相关专业，3 年以上 DevOps / CI/CD 或研发效能经验，有机器人研发经验优先；",
+        "quote": "1、本科及以上学历，计算机、软件工程、电子信息或机器人相关专业，3 年以上 DevOps / CI/CD 或研发效能经验，有机器人研发经验优先；",
+        "field": "full_description",
+        "start": 399,
+        "end": 471
+      },
+      {
+        "id": "6",
+        "review_id": "E0192:6",
+        "codes": [
+          "V2_SHELL"
+        ],
+        "names": [
+          "Shell脚本"
+        ],
+        "surface": "2、精通至少一种脚本/编程语言（Shell、Python、Go），能够独立开发自动化脚本与工具；",
+        "quote": "2、精通至少一种脚本/编程语言（Shell、Python、Go），能够独立开发自动化脚本与工具；",
+        "field": "full_description",
+        "start": 472,
+        "end": 520
+      },
+      {
+        "id": "7",
+        "review_id": "E0192:7",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "3、熟悉主流 CI/CD 工具及流程，能搭建适配复杂研发场景的流水线；",
+        "quote": "3、熟悉主流 CI/CD 工具及流程，能搭建适配复杂研发场景的流水线；",
+        "field": "full_description",
+        "start": 521,
+        "end": 556
+      },
+      {
+        "id": "8",
+        "review_id": "E0192:8",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "5、熟悉制品库/Registry 管理（Harbor、Nexus、GitLab Registry 等），能够制定版本策略、清理机制和发布规范；",
+        "quote": "5、熟悉制品库/Registry 管理（Harbor、Nexus、GitLab Registry 等），能够制定版本策略、清理机制和发布规范；",
+        "field": "full_description",
+        "start": 612,
+        "end": 683
+      },
+      {
+        "id": "9",
+        "review_id": "E0192:9",
+        "codes": [
+          "V2_GIT"
+        ],
+        "names": [
+          "Git"
+        ],
+        "surface": "Harbor、Nexus、GitLab Registry",
+        "quote": "熟悉制品库/Registry 管理（Harbor、Nexus、GitLab Registry 等）",
+        "field": "full_description",
+        "start": 614,
+        "end": 663
+      }
+    ]
+  },
+  {
+    "coding_order": 12,
+    "reading_id": "N0143",
+    "company_id": "CN_GALBOT",
+    "title": "机器人业务软件开发工程师",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|179bbebf-f382-4d05-a51c-b58f8e262f32|ee3391f1247e44eac9517d34ec89c51d3ee8a6558e0e8e657ab507720bf5ef0e",
+    "already_coded": false,
+    "fields": {
+      "duties": "岗位职责：\n\n1、参与具身智能机器人本体侧应用软件开发，接入并集成语音识别、语音合成、大模型、多模态模型等 AI 能力，实现机器人对话、主动交互、任务理解、情绪反馈等功能。 \n\n2、基于通用智能体的开发模式，参与机器人 Agent 相关功能实现，包括工具调用、任务拆解、上下文管理、执行反馈、动作触发等模块开发。\n\n 3、根据产品和交互需求，实现语音、文本、动作、表情、灯效、屏幕等多模态交互能力，使机器人在真实场景中具备更自然的交互体验。\n\n 4、参与机器人端应用系统的性能分析和优化，包括响应延迟、启动速度、运行稳定性、CPU / 内存占用、音频链路、模型调用链路、并发任务调度等方面的优化。\n\n 5、参与机器人整机联调，包括传感器接入、音频设备调试、运动控制接口联调、应用 Demo 验证、真实场景测试和问题排查。 \n\n6、参与将原型 Demo 转化为稳定产品功能的过程，包括代码重构、接口规范化、日志完善、异常兜底、配置管理、部署适配和测试验证。 \n\n7、与算法、硬件、产品、测试团队协作，完成需求理解、技术实现、问题复现、缺陷修复和版本迭代。 \n\n\n\n\n任职要求：\n\n1、本科及以上学历，计算机、机器人、自动化、电子信息、人工智能等相关专业。\n\n 2、具备较扎实的机器人或智能硬件开发经验，能够独立完成应用模块开发、调试和问题定位，并配合硬件团队完成联调。\n\n3、熟悉 Linux 开发环境，熟悉常见的软件工程开发流程，具备良好的代码质量意识。\n\n4、熟悉 ROS / ROS2，理解节点通信、Topic、Service、Action、消息机制、状态机等常见开发方式，并有实际项目使用经验。 \n\n5、熟练掌握 Python 和 C++，能够完成机器人应用层逻辑开发、模块封装、接口适配和系统集成。 \n\n6、熟悉大模型应用开发的基本方式，熟悉通用智能体的基本方法论和开发模式，具备一定系统性能优化经验。 \n\n7、对具身智能、服务机器人、陪伴机器人、人机交互或多模态交互方向有兴趣，愿意深入真实机器人系统开发。 \n\n\n\n\n加分项\n\n熟悉 TypeScript，有 Node.js、前端工具、机器人控制台、调试平台、可视化界面或 Agent 应用开发经验者优先。 \n\n熟悉 Rust，有高性能模块、异步任务、系统工具、嵌入式 Linux、通信组件或机器人底层模块开发经验者优先。\n\n熟悉 Linux 音频系统，了解 ALSA / PulseAudio / PipeWire / PCM 设备，有麦克风采集、音频播放、回声消除、降噪、唤醒、ASR / TTS 链路调试经验者优先。 \n\n有机器人、智能硬件、边缘 AI 设备、IoT 设备或嵌入式 Linux 项目经验者优先。 \n\n有从技术 Demo 到可交付产品功能的开发经验者优先。\n\n有大模型应用、AI Agent、多模态交互、语音交互、数字人、情感计算或社交机器人相关项目经验者优先。 \n\n熟悉 Docker、CI/CD、自动化测试、远程日志、性能监控等工程化工具者优先。 \n\n有机器人比赛、科研项目、开源项目或个人机器人项目经验者优先。",
+      "requirements": "",
+      "full_description": "岗位职责：\n\n1、参与具身智能机器人本体侧应用软件开发，接入并集成语音识别、语音合成、大模型、多模态模型等 AI 能力，实现机器人对话、主动交互、任务理解、情绪反馈等功能。 \n\n2、基于通用智能体的开发模式，参与机器人 Agent 相关功能实现，包括工具调用、任务拆解、上下文管理、执行反馈、动作触发等模块开发。\n\n 3、根据产品和交互需求，实现语音、文本、动作、表情、灯效、屏幕等多模态交互能力，使机器人在真实场景中具备更自然的交互体验。\n\n 4、参与机器人端应用系统的性能分析和优化，包括响应延迟、启动速度、运行稳定性、CPU / 内存占用、音频链路、模型调用链路、并发任务调度等方面的优化。\n\n 5、参与机器人整机联调，包括传感器接入、音频设备调试、运动控制接口联调、应用 Demo 验证、真实场景测试和问题排查。 \n\n6、参与将原型 Demo 转化为稳定产品功能的过程，包括代码重构、接口规范化、日志完善、异常兜底、配置管理、部署适配和测试验证。 \n\n7、与算法、硬件、产品、测试团队协作，完成需求理解、技术实现、问题复现、缺陷修复和版本迭代。 \n\n\n\n\n任职要求：\n\n1、本科及以上学历，计算机、机器人、自动化、电子信息、人工智能等相关专业。\n\n 2、具备较扎实的机器人或智能硬件开发经验，能够独立完成应用模块开发、调试和问题定位，并配合硬件团队完成联调。\n\n3、熟悉 Linux 开发环境，熟悉常见的软件工程开发流程，具备良好的代码质量意识。\n\n4、熟悉 ROS / ROS2，理解节点通信、Topic、Service、Action、消息机制、状态机等常见开发方式，并有实际项目使用经验。 \n\n5、熟练掌握 Python 和 C++，能够完成机器人应用层逻辑开发、模块封装、接口适配和系统集成。 \n\n6、熟悉大模型应用开发的基本方式，熟悉通用智能体的基本方法论和开发模式，具备一定系统性能优化经验。 \n\n7、对具身智能、服务机器人、陪伴机器人、人机交互或多模态交互方向有兴趣，愿意深入真实机器人系统开发。 \n\n\n\n\n加分项\n\n熟悉 TypeScript，有 Node.js、前端工具、机器人控制台、调试平台、可视化界面或 Agent 应用开发经验者优先。 \n\n熟悉 Rust，有高性能模块、异步任务、系统工具、嵌入式 Linux、通信组件或机器人底层模块开发经验者优先。\n\n熟悉 Linux 音频系统，了解 ALSA / PulseAudio / PipeWire / PCM 设备，有麦克风采集、音频播放、回声消除、降噪、唤醒、ASR / TTS 链路调试经验者优先。 \n\n有机器人、智能硬件、边缘 AI 设备、IoT 设备或嵌入式 Linux 项目经验者优先。 \n\n有从技术 Demo 到可交付产品功能的开发经验者优先。\n\n有大模型应用、AI Agent、多模态交互、语音交互、数字人、情感计算或社交机器人相关项目经验者优先。 \n\n熟悉 Docker、CI/CD、自动化测试、远程日志、性能监控等工程化工具者优先。 \n\n有机器人比赛、科研项目、开源项目或个人机器人项目经验者优先。"
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 587,
+        "end": 600,
+        "quote": "熟悉 Linux 开发环境"
+      },
+      {
+        "id": "O2",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 634,
+        "end": 637,
+        "quote": "ROS"
+      },
+      {
+        "id": "O3",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 640,
+        "end": 644,
+        "quote": "ROS2"
+      },
+      {
+        "id": "O4",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 705,
+        "end": 722,
+        "quote": "熟练掌握 Python 和 C++"
+      },
+      {
+        "id": "O5",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 705,
+        "end": 722,
+        "quote": "熟练掌握 Python 和 C++"
+      },
+      {
+        "id": "O6",
+        "code": "SK_RUST",
+        "name": "Rust",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 939,
+        "end": 943,
+        "quote": "Rust"
+      },
+      {
+        "id": "O7",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 961,
+        "end": 970,
+        "quote": "嵌入式 Linux"
+      },
+      {
+        "id": "O8",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 996,
+        "end": 1006,
+        "quote": "Linux 音频系统"
+      },
+      {
+        "id": "O9",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1120,
+        "end": 1134,
+        "quote": "嵌入式 Linux 项目经验"
+      },
+      {
+        "id": "O10",
+        "code": "SK_DOCKER",
+        "name": "Docker",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1227,
+        "end": 1233,
+        "quote": "Docker"
+      },
+      {
+        "id": "O11",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 28,
+        "end": 59,
+        "quote": "接入并集成语音识别、语音合成、大模型、多模态模型等 AI 能力"
+      },
+      {
+        "id": "O12",
+        "code": "TC_ML_MODELS",
+        "name": "机器学习模型",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 28,
+        "end": 59,
+        "quote": "接入并集成语音识别、语音合成、大模型、多模态模型等 AI 能力"
+      },
+      {
+        "id": "O13",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 225,
+        "end": 261,
+        "quote": "参与机器人端应用系统的性能分析和优化，包括响应延迟、启动速度、运行稳定性"
+      },
+      {
+        "id": "O14",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 328,
+        "end": 359,
+        "quote": "运动控制接口联调、应用 Demo 验证、真实场景测试和问题排查"
+      },
+      {
+        "id": "O15",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 328,
+        "end": 359,
+        "quote": "运动控制接口联调、应用 Demo 验证、真实场景测试和问题排查"
+      },
+      {
+        "id": "O16",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 758,
+        "end": 772,
+        "quote": "熟悉大模型应用开发的基本方式"
+      },
+      {
+        "id": "O17",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 961,
+        "end": 970,
+        "quote": "嵌入式 Linux"
+      },
+      {
+        "id": "O18",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1120,
+        "end": 1134,
+        "quote": "嵌入式 Linux 项目经验"
+      },
+      {
+        "id": "O19",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1171,
+        "end": 1176,
+        "quote": "大模型应用"
+      },
+      {
+        "id": "O20",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1240,
+        "end": 1245,
+        "quote": "自动化测试"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0143:1",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "5、熟练掌握 Python 和 C++，能够完成机器人应用层逻辑开发、模块封装、接口适配和系统集成。 ",
+        "quote": "5、熟练掌握 Python 和 C++，能够完成机器人应用层逻辑开发、模块封装、接口适配和系统集成。 ",
+        "field": "full_description",
+        "start": 703,
+        "end": 754
+      },
+      {
+        "id": "2",
+        "review_id": "N0143:2",
+        "codes": [
+          "V2_JAVASCRIPT",
+          "V2_TYPESCRIPT",
+          "V2_NODEJS"
+        ],
+        "names": [
+          "JavaScript",
+          "TypeScript",
+          "Node.js"
+        ],
+        "surface": "熟悉 TypeScript，有 Node.js、前端工具、机器人控制台、调试平台、可视化界面或 Agent 应用开发经验者优先。 ",
+        "quote": "熟悉 TypeScript，有 Node.js、前端工具、机器人控制台、调试平台、可视化界面或 Agent 应用开发经验者优先。 ",
+        "field": "full_description",
+        "start": 869,
+        "end": 934
+      },
+      {
+        "id": "3",
+        "review_id": "N0143:3",
+        "codes": [
+          "V2_TYPESCRIPT"
+        ],
+        "names": [
+          "TypeScript"
+        ],
+        "surface": "TypeScript",
+        "quote": "TypeScript",
+        "field": "full_description",
+        "start": 872,
+        "end": 882
+      },
+      {
+        "id": "4",
+        "review_id": "N0143:4",
+        "codes": [
+          "V2_JAVASCRIPT",
+          "V2_NODEJS"
+        ],
+        "names": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "surface": "Node.js",
+        "quote": "Node.js",
+        "field": "full_description",
+        "start": 885,
+        "end": 892
+      },
+      {
+        "id": "5",
+        "review_id": "N0143:5",
+        "codes": [],
+        "names": [],
+        "surface": "ALSA",
+        "quote": "ALSA",
+        "field": "full_description",
+        "start": 1010,
+        "end": 1014
+      },
+      {
+        "id": "6",
+        "review_id": "N0143:6",
+        "codes": [],
+        "names": [],
+        "surface": "PulseAudio",
+        "quote": "PulseAudio",
+        "field": "full_description",
+        "start": 1017,
+        "end": 1027
+      },
+      {
+        "id": "7",
+        "review_id": "N0143:7",
+        "codes": [],
+        "names": [],
+        "surface": "PipeWire",
+        "quote": "PipeWire",
+        "field": "full_description",
+        "start": 1030,
+        "end": 1038
+      },
+      {
+        "id": "8",
+        "review_id": "N0143:8",
+        "codes": [],
+        "names": [],
+        "surface": "PCM",
+        "quote": "PCM",
+        "field": "full_description",
+        "start": 1041,
+        "end": 1044
+      },
+      {
+        "id": "9",
+        "review_id": "N0143:9",
+        "codes": [
+          "V2_AGENT_WORKFLOW"
+        ],
+        "names": [
+          "AI Agent应用与工作流"
+        ],
+        "surface": "有大模型应用、AI Agent、多模态交互、语音交互、数字人、情感计算或社交机器人相关项目经验者优先。 ",
+        "quote": "有大模型应用、AI Agent、多模态交互、语音交互、数字人、情感计算或社交机器人相关项目经验者优先。 ",
+        "field": "full_description",
+        "start": 1170,
+        "end": 1222
+      },
+      {
+        "id": "10",
+        "review_id": "N0143:10",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "熟悉 Docker、CI/CD、自动化测试、远程日志、性能监控等工程化工具者优先。 ",
+        "quote": "熟悉 Docker、CI/CD、自动化测试、远程日志、性能监控等工程化工具者优先。 ",
+        "field": "full_description",
+        "start": 1224,
+        "end": 1266
+      },
+      {
+        "id": "11",
+        "review_id": "N0143:11",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "CI/CD",
+        "quote": "CI/CD",
+        "field": "full_description",
+        "start": 1234,
+        "end": 1239
+      }
+    ]
+  },
+  {
+    "coding_order": 13,
+    "reading_id": "N0946",
+    "company_id": "US_AMAZON_FTR",
+    "title": "Member of Technical Staff - Robotics, Frontier AI Robotics",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AMAZON_FTR|amazon|10450291|1f358127d7f41630e93e2ed14b4f848f5a55114e240b80ff4685d4e920632a6b",
+    "already_coded": false,
+    "fields": {
+      "duties": "Description\nHelp us build the software stack underneath Frontier AI & Robotics: the layer between hardware and the AI policies running on it. You’ll work end-to-end across the stack, from bringing up sensors and actuators at the HW/SW boundary, to hardening the multi-process runtime that ties them together, to shipping the framework changes that let the rest of the team move faster.\nThis is a generalist role with a real systems edge. We need someone equally at home down at the sensor and OS boundary (drivers, IPC, real-time behavior, profiling) and up in robotics application code (most of it Python). You’ll spend stretches of a few days to a few weeks each on things like bringing up a new sensor at the protocol layer, chasing a flaky USB camera at the kernel boundary, generalizing the camera stack, cutting perception latency, porting code onto edge compute, or chasing a DDS/ROS 2 performance regression.\nYou’ll work with sharp, motivated engineers across hardware, ML research, controls, and ops on continuously changing problems at the frontier of AI and robotics. The role rewards engineers who communicate clearly, invest in cross-team relationships, and ship.\nKey job responsibilities\n- Bring up and integrate sensors, actuators, and edge compute across diverse robotics hardware platforms.\n- Build and improve the multi-process Python and ROS 2 runtime: process management, IPC, observability, lifecycle.\n- Diagnose and fix bottlenecks across the stack: middleware performance (DDS, ROS 2), perception pipeline latency, edge inference throughput, system-level resource contention.\n- Generalize one-off solutions into reusable infrastructure (camera stacks, telemetry pipelines, edge deployment tooling) that scales across hardware platforms and use cases.\n- Port code onto the constrained edge-compute platforms our robots run. Make it work, then make it work well.\n- Identify gaps in the team’s velocity, whether that’s a missing piece of infrastructure or a fragile sensor that nobody has time to fix, and close them.\n- Make proper tradeoffs between prototyping and production software.\nAbout the team\nAt Frontier AI & Robotics, we're not just advancing robotics – we're reimagining it from the ground up. Our team is building the future of intelligent robotics through frontier foundation models and end-to-end learned systems. We tackle some of the most challenging problems in AI and robotics, from developing sophisticated perception systems to creating adaptive manipulation strategies that work in complex, real-world scenarios.\nWhat sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's massive computational infrastructure and rich real-world datasets to train and deploy state-of-the-art foundation models. Our work spans the full spectrum of robotics intelligence – from multimodal perception using images, videos, and sensor data, to sophisticated manipulation strategies that can handle diverse real-world scenarios. We're building systems that don't just work in the lab, but scale to meet the demands of Amazon's global operations.\nJoin us if you're excited about pushing the boundaries of what's possible in robotics, working with world-class researchers, and seeing your innovations deployed at unprecedented scale.\nBasic Qualifications\n- Bachelor's degree in computer science or equivalent\n- 5+ years of software development experience\n- Experience with C++/Python interop or other hybrid-language stacks.\n- Experience as a tech lead, mentor, or technical owner of an engineering team or significant component. Experience designing and shipping software systems that run across distributed processes, edge devices, or real-time constraints.\n- Experience working closely with hardware, ML, or controls teams as the software counterpart.\nPreferred Qualifications\n- Experience with low-level driver work and sensor bring-up across protocols (I2C, SPI, USB, MIPI, CAN).\n- Experience optimizing data plane performance: DDS tuning, kernel networking, shared memory IPC, real-time scheduling.\n- Experience with ROS 2 or other robotics middleware in production.\n- Experience deploying ML inference at the edge under latency and memory constraints.\n- Experience with multi-process Python lifecycles and writing performant Python (asyncio, multiprocessing, NumPy/JAX vectorization, GIL-aware design).\n- Web application or full-stack web experience is a bonus.\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\nLos Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit\nhttps://amazon.jobs/content/en/how-we-hire/accommodations\nfor more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.\nOur compensation reflects the cost of labor across several U.S. geographic markets. The base pay for this position ranges from $150,000/year in our lowest geographic market up to $300,000/year in our highest geographic market. Pay is based on a number of factors, including market location, and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. Applicants should apply via our internal or external career site.",
+      "requirements": "",
+      "full_description": "Description\nHelp us build the software stack underneath Frontier AI & Robotics: the layer between hardware and the AI policies running on it. You’ll work end-to-end across the stack, from bringing up sensors and actuators at the HW/SW boundary, to hardening the multi-process runtime that ties them together, to shipping the framework changes that let the rest of the team move faster.\nThis is a generalist role with a real systems edge. We need someone equally at home down at the sensor and OS boundary (drivers, IPC, real-time behavior, profiling) and up in robotics application code (most of it Python). You’ll spend stretches of a few days to a few weeks each on things like bringing up a new sensor at the protocol layer, chasing a flaky USB camera at the kernel boundary, generalizing the camera stack, cutting perception latency, porting code onto edge compute, or chasing a DDS/ROS 2 performance regression.\nYou’ll work with sharp, motivated engineers across hardware, ML research, controls, and ops on continuously changing problems at the frontier of AI and robotics. The role rewards engineers who communicate clearly, invest in cross-team relationships, and ship.\nKey job responsibilities\n- Bring up and integrate sensors, actuators, and edge compute across diverse robotics hardware platforms.\n- Build and improve the multi-process Python and ROS 2 runtime: process management, IPC, observability, lifecycle.\n- Diagnose and fix bottlenecks across the stack: middleware performance (DDS, ROS 2), perception pipeline latency, edge inference throughput, system-level resource contention.\n- Generalize one-off solutions into reusable infrastructure (camera stacks, telemetry pipelines, edge deployment tooling) that scales across hardware platforms and use cases.\n- Port code onto the constrained edge-compute platforms our robots run. Make it work, then make it work well.\n- Identify gaps in the team’s velocity, whether that’s a missing piece of infrastructure or a fragile sensor that nobody has time to fix, and close them.\n- Make proper tradeoffs between prototyping and production software.\nAbout the team\nAt Frontier AI & Robotics, we're not just advancing robotics – we're reimagining it from the ground up. Our team is building the future of intelligent robotics through frontier foundation models and end-to-end learned systems. We tackle some of the most challenging problems in AI and robotics, from developing sophisticated perception systems to creating adaptive manipulation strategies that work in complex, real-world scenarios.\nWhat sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's massive computational infrastructure and rich real-world datasets to train and deploy state-of-the-art foundation models. Our work spans the full spectrum of robotics intelligence – from multimodal perception using images, videos, and sensor data, to sophisticated manipulation strategies that can handle diverse real-world scenarios. We're building systems that don't just work in the lab, but scale to meet the demands of Amazon's global operations.\nJoin us if you're excited about pushing the boundaries of what's possible in robotics, working with world-class researchers, and seeing your innovations deployed at unprecedented scale.\nBasic Qualifications\n- Bachelor's degree in computer science or equivalent\n- 5+ years of software development experience\n- Experience with C++/Python interop or other hybrid-language stacks.\n- Experience as a tech lead, mentor, or technical owner of an engineering team or significant component. Experience designing and shipping software systems that run across distributed processes, edge devices, or real-time constraints.\n- Experience working closely with hardware, ML, or controls teams as the software counterpart.\nPreferred Qualifications\n- Experience with low-level driver work and sensor bring-up across protocols (I2C, SPI, USB, MIPI, CAN).\n- Experience optimizing data plane performance: DDS tuning, kernel networking, shared memory IPC, real-time scheduling.\n- Experience with ROS 2 or other robotics middleware in production.\n- Experience deploying ML inference at the edge under latency and memory constraints.\n- Experience with multi-process Python lifecycles and writing performant Python (asyncio, multiprocessing, NumPy/JAX vectorization, GIL-aware design).\n- Web application or full-stack web experience is a bonus.\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\nLos Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nPursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit\nhttps://amazon.jobs/content/en/how-we-hire/accommodations\nfor more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.\nOur compensation reflects the cost of labor across several U.S. geographic markets. The base pay for this position ranges from $150,000/year in our lowest geographic market up to $300,000/year in our highest geographic market. Pay is based on a number of factors, including market location, and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. Applicants should apply via our internal or external career site."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 1310,
+        "end": 1422,
+        "quote": "Build and improve the multi-process Python and ROS 2 runtime: process management, IPC, observability, lifecycle."
+      },
+      {
+        "id": "O2",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1310,
+        "end": 1422,
+        "quote": "Build and improve the multi-process Python and ROS 2 runtime: process management, IPC, observability, lifecycle."
+      },
+      {
+        "id": "O3",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3449,
+        "end": 3452,
+        "quote": "C++"
+      },
+      {
+        "id": "O4",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3453,
+        "end": 3459,
+        "quote": "Python"
+      },
+      {
+        "id": "O5",
+        "code": "SK_ROS2",
+        "name": "ROS 2",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4099,
+        "end": 4104,
+        "quote": "ROS 2"
+      },
+      {
+        "id": "O6",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4253,
+        "end": 4284,
+        "quote": "multi-process Python lifecycles"
+      },
+      {
+        "id": "O7",
+        "code": "SK_NUMPY",
+        "name": "NumPy",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4342,
+        "end": 4347,
+        "quote": "NumPy"
+      },
+      {
+        "id": "O8",
+        "code": "SK_JAX",
+        "name": "JAX",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4348,
+        "end": 4351,
+        "quote": "JAX"
+      },
+      {
+        "id": "O9",
+        "code": "TC_ACTUATOR",
+        "name": "执行器",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1204,
+        "end": 1307,
+        "quote": "Bring up and integrate sensors, actuators, and edge compute across diverse robotics hardware platforms."
+      },
+      {
+        "id": "O10",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 506,
+        "end": 549,
+        "quote": "drivers, IPC, real-time behavior, profiling"
+      },
+      {
+        "id": "O11",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1425,
+        "end": 1598,
+        "quote": "Diagnose and fix bottlenecks across the stack: middleware performance (DDS, ROS 2), perception pipeline latency, edge inference throughput, system-level resource contention."
+      },
+      {
+        "id": "O12",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1425,
+        "end": 1598,
+        "quote": "Diagnose and fix bottlenecks across the stack: middleware performance (DDS, ROS 2), perception pipeline latency, edge inference throughput, system-level resource contention."
+      },
+      {
+        "id": "O13",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 2290,
+        "end": 2347,
+        "quote": "frontier foundation models and end-to-end learned systems"
+      },
+      {
+        "id": "O14",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 2478,
+        "end": 2510,
+        "quote": "adaptive manipulation strategies"
+      },
+      {
+        "id": "O15",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3713,
+        "end": 3734,
+        "quote": "real-time constraints"
+      },
+      {
+        "id": "O16",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4059,
+        "end": 4079,
+        "quote": "real-time scheduling"
+      },
+      {
+        "id": "O17",
+        "code": "TC_ML_SYSTEMS",
+        "name": "训练推理系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4151,
+        "end": 4234,
+        "quote": "Experience deploying ML inference at the edge under latency and memory constraints."
+      },
+      {
+        "id": "O18",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 142,
+        "end": 385,
+        "quote": "You’ll work end-to-end across the stack, from bringing up sensors and actuators at the HW/SW boundary, to hardening the multi-process runtime that ties them together, to shipping the framework changes that let the rest of the team move faster."
+      },
+      {
+        "id": "O19",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 2713,
+        "end": 2793,
+        "quote": "rich real-world datasets to train and deploy state-of-the-art foundation models."
+      },
+      {
+        "id": "O20",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 2422,
+        "end": 2465,
+        "quote": "developing sophisticated perception systems"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0946:1",
+        "codes": [
+          "V2_DDS",
+          "V2_USB"
+        ],
+        "names": [
+          "DDS",
+          "USB"
+        ],
+        "surface": "This is a generalist role with a real systems edge. We need someone equally at home down at the sensor and OS boundary (drivers, IPC, real-time behavior, profiling) and up in robotics application code (most of it Python). You’ll spend stretches of a few days to a few weeks each on things like bringing up a new sensor at the protocol layer, chasing a flaky USB camera at the kernel boundary, generalizing the camera stack, cutting perception latency, porting code onto edge compute, or chasing a DDS/ROS 2 performance regression.",
+        "quote": "This is a generalist role with a real systems edge. We need someone equally at home down at the sensor and OS boundary (drivers, IPC, real-time behavior, profiling) and up in robotics application code (most of it Python). You’ll spend stretches of a few days to a few weeks each on things like bringing up a new sensor at the protocol layer, chasing a flaky USB camera at the kernel boundary, generalizing the camera stack, cutting perception latency, porting code onto edge compute, or chasing a DDS/ROS 2 performance regression.",
+        "field": "full_description",
+        "start": 386,
+        "end": 916
+      },
+      {
+        "id": "2",
+        "review_id": "N0946:2",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "- Diagnose and fix bottlenecks across the stack: middleware performance (DDS, ROS 2), perception pipeline latency, edge inference throughput, system-level resource contention.",
+        "quote": "- Diagnose and fix bottlenecks across the stack: middleware performance (DDS, ROS 2), perception pipeline latency, edge inference throughput, system-level resource contention.",
+        "field": "full_description",
+        "start": 1423,
+        "end": 1598
+      },
+      {
+        "id": "3",
+        "review_id": "N0946:3",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "DDS",
+        "quote": "middleware performance (DDS, ROS 2)",
+        "field": "full_description",
+        "start": 1472,
+        "end": 1507
+      },
+      {
+        "id": "4",
+        "review_id": "N0946:4",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "What sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's massive computational infrastructure and rich real-world datasets to train and deploy state-of-the-art foundation models. Our work spans the full spectrum of robotics intelligence – from multimodal perception using images, videos, and sensor data, to sophisticated manipulation strategies that can handle diverse real-world scenarios. We're building systems that don't just work in the lab, but scale to meet the demands of Amazon's global operations.",
+        "quote": "What sets us apart is our unique combination of ambitious research vision and practical impact. We leverage Amazon's massive computational infrastructure and rich real-world datasets to train and deploy state-of-the-art foundation models. Our work spans the full spectrum of robotics intelligence – from multimodal perception using images, videos, and sensor data, to sophisticated manipulation strategies that can handle diverse real-world scenarios. We're building systems that don't just work in the lab, but scale to meet the demands of Amazon's global operations.",
+        "field": "full_description",
+        "start": 2555,
+        "end": 3123
+      },
+      {
+        "id": "5",
+        "review_id": "N0946:5",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "- Experience with C++/Python interop or other hybrid-language stacks.",
+        "quote": "- Experience with C++/Python interop or other hybrid-language stacks.",
+        "field": "full_description",
+        "start": 3431,
+        "end": 3500
+      },
+      {
+        "id": "6",
+        "review_id": "N0946:6",
+        "codes": [
+          "V2_CAN",
+          "V2_I2C",
+          "V2_SPI",
+          "V2_USB"
+        ],
+        "names": [
+          "CAN协议族",
+          "I2C",
+          "SPI",
+          "USB"
+        ],
+        "surface": "- Experience with low-level driver work and sensor bring-up across protocols (I2C, SPI, USB, MIPI, CAN).",
+        "quote": "- Experience with low-level driver work and sensor bring-up across protocols (I2C, SPI, USB, MIPI, CAN).",
+        "field": "full_description",
+        "start": 3856,
+        "end": 3960
+      },
+      {
+        "id": "7",
+        "review_id": "N0946:7",
+        "codes": [
+          "V2_I2C"
+        ],
+        "names": [
+          "I2C"
+        ],
+        "surface": "I2C",
+        "quote": "I2C",
+        "field": "full_description",
+        "start": 3934,
+        "end": 3937
+      },
+      {
+        "id": "8",
+        "review_id": "N0946:8",
+        "codes": [
+          "V2_SPI"
+        ],
+        "names": [
+          "SPI"
+        ],
+        "surface": "SPI",
+        "quote": "SPI",
+        "field": "full_description",
+        "start": 3939,
+        "end": 3942
+      },
+      {
+        "id": "9",
+        "review_id": "N0946:9",
+        "codes": [
+          "V2_USB"
+        ],
+        "names": [
+          "USB"
+        ],
+        "surface": "USB",
+        "quote": "USB",
+        "field": "full_description",
+        "start": 3944,
+        "end": 3947
+      },
+      {
+        "id": "10",
+        "review_id": "N0946:10",
+        "codes": [],
+        "names": [],
+        "surface": "MIPI",
+        "quote": "MIPI",
+        "field": "full_description",
+        "start": 3949,
+        "end": 3953
+      },
+      {
+        "id": "11",
+        "review_id": "N0946:11",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "CAN",
+        "quote": "CAN",
+        "field": "full_description",
+        "start": 3955,
+        "end": 3958
+      },
+      {
+        "id": "12",
+        "review_id": "N0946:12",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "- Experience optimizing data plane performance: DDS tuning, kernel networking, shared memory IPC, real-time scheduling.",
+        "quote": "- Experience optimizing data plane performance: DDS tuning, kernel networking, shared memory IPC, real-time scheduling.",
+        "field": "full_description",
+        "start": 3961,
+        "end": 4080
+      },
+      {
+        "id": "13",
+        "review_id": "N0946:13",
+        "codes": [
+          "V2_DDS"
+        ],
+        "names": [
+          "DDS"
+        ],
+        "surface": "DDS",
+        "quote": "DDS tuning",
+        "field": "full_description",
+        "start": 4009,
+        "end": 4019
+      },
+      {
+        "id": "14",
+        "review_id": "N0946:14",
+        "codes": [],
+        "names": [],
+        "surface": "IPC",
+        "quote": "shared memory IPC",
+        "field": "full_description",
+        "start": 4040,
+        "end": 4057
+      },
+      {
+        "id": "15",
+        "review_id": "N0946:15",
+        "codes": [],
+        "names": [],
+        "surface": "asyncio",
+        "quote": "asyncio",
+        "field": "full_description",
+        "start": 4316,
+        "end": 4323
+      },
+      {
+        "id": "16",
+        "review_id": "N0946:16",
+        "codes": [],
+        "names": [],
+        "surface": "multiprocessing",
+        "quote": "multiprocessing",
+        "field": "full_description",
+        "start": 4325,
+        "end": 4340
+      },
+      {
+        "id": "17",
+        "review_id": "N0946:17",
+        "codes": [],
+        "names": [],
+        "surface": "GIL",
+        "quote": "GIL-aware design",
+        "field": "full_description",
+        "start": 4367,
+        "end": 4383
+      },
+      {
+        "id": "18",
+        "review_id": "N0946:18",
+        "codes": [
+          "V2_CUSTOMER_SERVICE"
+        ],
+        "names": [
+          "客户与医院服务流程"
+        ],
+        "surface": "Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+        "quote": "Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+        "field": "full_description",
+        "start": 4600,
+        "end": 5591
+      },
+      {
+        "id": "19",
+        "review_id": "N0946:19",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.",
+        "quote": "for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.",
+        "field": "full_description",
+        "start": 6070,
+        "end": 6186
+      }
+    ]
+  },
+  {
+    "coding_order": 14,
+    "reading_id": "N0999",
+    "company_id": "US_BOSTON_DYNAMICS",
+    "title": "Senior Consultant - Software Engineer",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_BOSTON_DYNAMICS|workday|6ed2c499d4db1001b2d0dbc9c9320000|b3b6f825101afe9aaff369ff6e0109ef140ad3973f3f6e5a0cee37d9f03eeae3",
+    "already_coded": false,
+    "fields": {
+      "duties": "Job Summary\nBoston Dynamics Consulting exists to help make remarkably capable robots commonplace in the physical world. The Senior Consultant – Software Engineering is critical to the growth of our core business and products by working directly with customers and internal teams to develop software solutions that help our Fortune 500 & high value customers do more with our existing robotics products and achieve their automation and data needs using our products. To do this, you will build in-depth knowledge of our robotics & software solutions and demonstrate the ability to think strategically and develop software solutions that achieve our customers’ needs, while also contributing knowledge and code back to our core platforms and architectures.\nThe Senior Consultant works directly with external clients and project leadership on paid engagements to execute the development and delivery of software integrations and tools, and should have experience in projects related to customization of our core platforms, application development, sensor fusion, or other custom software development. They will learn from and synthesize insights from our customers, Consulting leaders, product leaders and external experts to successfully deliver applications and code that unlock robotics systems in the customer environments.\nKey Responsibilities\nSupport Project Directors & Software Leaders to develop and deliver custom software solutions based on our core robot and fleet management products to accelerate the adoption of robotics & intelligent systems in dynamic environments.\nAct as an external-facing technical representative, leveraging deep product knowledge to synthesize customer insights into actionable technical solutions and custom applications\nOwn the design and implementation of software frameworks that scale across autonomous systems, embedded platforms, and cloud-based services.\nDrive resolution of complex, high-risk technical challenges in projects that span perception, planning, controls, safety, and hardware/software integration\nCollaborate with cross-functional teams to gather data and insights in support of strategic initiatives.\nPrepare executive-level presentations and technical documentation that summarize key findings and deliverables.\nAssist in facilitating technical requirements and sprint planning sessions.\nMove fast, but intentionally, to bring new technology tools that help guide our investments in core robotics / software capabilities, tools, and infrastructure\nStay informed on industry developments and share insights with relevant stakeholders.\nCore Competencies\nExecution\nOwns delivery of impactful software solutions & technical planning. Ensures alignment across complex interdependent systems. Analyzes and prioritizes development and uses the most effective and efficient processes to get things done and achieve results, even under tough circumstances.\nCollaboration\nCultivates high-trust relationships with senior technical leaders and executives. Builds consensus across diverse perspectives and functions to move client projects forward on key technical decisions, while creating a feedback loop to our core products.\nInnovation\nSynthesizes trends, theory, and practice to deliver novel software solutions or capabilities that help clients achieve positive impact from deploying robots in complex, real world scenarios.\nAdaptability\nAdapts and pivots in real time to match the shifting demands of different situations, and to move forward productively and optimistically under conditions of change and ambiguity.\nKnowledge, Skills & Abilities\nExpertise in Software development, software tools, and new platforms and tools for physical AI.\nKnowledge or experience in robotics (especially our core platforms), autonomy, embedded systems, perception systems, or related fields.\nStrong grasp of hardware/software trade-offs and cross-disciplinary systems thinking.\nAbility to distill complex information into clear, actionable requirements.\nOrganized and detail-oriented, with strong problem-solving capabilities.\nTypical Qualifications\nBachelor’s, Master’s, or Ph.D. in Computer Science, Robotics, Engineering, or a related field.\n5+ years of experience in robotics or physical systems software engineering or embedded systems development.\nExperience working in cross-functional teams in a matrixed environment preferred.\nWe are interested in every qualified candidate who is eligible to work in the United States. However, we are not able to sponsor visas for this position.\nThe base pay range for this position is between $134,399.00 to $167,998.00 annually. Base pay will depend on multiple individualized factors, including, but not limited to, internal equity, job-related knowledge, skills and experience. This range represents a good faith estimate of compensation at the time of posting. Boston Dynamics offers a generous Benefits package including medical, dental vision, 401(k), paid time off and a annual bonus structure. Additional details regarding these benefit plans will be provided if an employee receives an offer for employment.",
+      "requirements": "",
+      "full_description": "Job Summary\nBoston Dynamics Consulting exists to help make remarkably capable robots commonplace in the physical world. The Senior Consultant – Software Engineering is critical to the growth of our core business and products by working directly with customers and internal teams to develop software solutions that help our Fortune 500 & high value customers do more with our existing robotics products and achieve their automation and data needs using our products. To do this, you will build in-depth knowledge of our robotics & software solutions and demonstrate the ability to think strategically and develop software solutions that achieve our customers’ needs, while also contributing knowledge and code back to our core platforms and architectures.\nThe Senior Consultant works directly with external clients and project leadership on paid engagements to execute the development and delivery of software integrations and tools, and should have experience in projects related to customization of our core platforms, application development, sensor fusion, or other custom software development. They will learn from and synthesize insights from our customers, Consulting leaders, product leaders and external experts to successfully deliver applications and code that unlock robotics systems in the customer environments.\nKey Responsibilities\nSupport Project Directors & Software Leaders to develop and deliver custom software solutions based on our core robot and fleet management products to accelerate the adoption of robotics & intelligent systems in dynamic environments.\nAct as an external-facing technical representative, leveraging deep product knowledge to synthesize customer insights into actionable technical solutions and custom applications\nOwn the design and implementation of software frameworks that scale across autonomous systems, embedded platforms, and cloud-based services.\nDrive resolution of complex, high-risk technical challenges in projects that span perception, planning, controls, safety, and hardware/software integration\nCollaborate with cross-functional teams to gather data and insights in support of strategic initiatives.\nPrepare executive-level presentations and technical documentation that summarize key findings and deliverables.\nAssist in facilitating technical requirements and sprint planning sessions.\nMove fast, but intentionally, to bring new technology tools that help guide our investments in core robotics / software capabilities, tools, and infrastructure\nStay informed on industry developments and share insights with relevant stakeholders.\nCore Competencies\nExecution\nOwns delivery of impactful software solutions & technical planning. Ensures alignment across complex interdependent systems. Analyzes and prioritizes development and uses the most effective and efficient processes to get things done and achieve results, even under tough circumstances.\nCollaboration\nCultivates high-trust relationships with senior technical leaders and executives. Builds consensus across diverse perspectives and functions to move client projects forward on key technical decisions, while creating a feedback loop to our core products.\nInnovation\nSynthesizes trends, theory, and practice to deliver novel software solutions or capabilities that help clients achieve positive impact from deploying robots in complex, real world scenarios.\nAdaptability\nAdapts and pivots in real time to match the shifting demands of different situations, and to move forward productively and optimistically under conditions of change and ambiguity.\nKnowledge, Skills & Abilities\nExpertise in Software development, software tools, and new platforms and tools for physical AI.\nKnowledge or experience in robotics (especially our core platforms), autonomy, embedded systems, perception systems, or related fields.\nStrong grasp of hardware/software trade-offs and cross-disciplinary systems thinking.\nAbility to distill complex information into clear, actionable requirements.\nOrganized and detail-oriented, with strong problem-solving capabilities.\nTypical Qualifications\nBachelor’s, Master’s, or Ph.D. in Computer Science, Robotics, Engineering, or a related field.\n5+ years of experience in robotics or physical systems software engineering or embedded systems development.\nExperience working in cross-functional teams in a matrixed environment preferred.\nWe are interested in every qualified candidate who is eligible to work in the United States. However, we are not able to sponsor visas for this position.\nThe base pay range for this position is between $134,399.00 to $167,998.00 annually. Base pay will depend on multiple individualized factors, including, but not limited to, internal equity, job-related knowledge, skills and experience. This range represents a good faith estimate of compensation at the time of posting. Boston Dynamics offers a generous Benefits package including medical, dental vision, 401(k), paid time off and a annual bonus structure. Additional details regarding these benefit plans will be provided if an employee receives an offer for employment."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1795,
+        "end": 1898,
+        "quote": "software frameworks that scale across autonomous systems, embedded platforms, and cloud-based services."
+      },
+      {
+        "id": "O2",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1899,
+        "end": 2054,
+        "quote": "Drive resolution of complex, high-risk technical challenges in projects that span perception, planning, controls, safety, and hardware/software integration"
+      },
+      {
+        "id": "O3",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1899,
+        "end": 2054,
+        "quote": "Drive resolution of complex, high-risk technical challenges in projects that span perception, planning, controls, safety, and hardware/software integration"
+      },
+      {
+        "id": "O4",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1899,
+        "end": 2054,
+        "quote": "Drive resolution of complex, high-risk technical challenges in projects that span perception, planning, controls, safety, and hardware/software integration"
+      },
+      {
+        "id": "O5",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1045,
+        "end": 1058,
+        "quote": "sensor fusion"
+      },
+      {
+        "id": "O6",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3776,
+        "end": 3792,
+        "quote": "embedded systems"
+      },
+      {
+        "id": "O7",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 3794,
+        "end": 3812,
+        "quote": "perception systems"
+      },
+      {
+        "id": "O8",
+        "code": "TC_EMBEDDED",
+        "name": "嵌入式系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 4265,
+        "end": 4293,
+        "quote": "embedded systems development"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0999:1",
+        "codes": [
+          "V2_MS_PROJECT"
+        ],
+        "names": [
+          "Microsoft Project"
+        ],
+        "surface": "The Senior Consultant works directly with external clients and project leadership on paid engagements to execute the development and delivery of software integrations and tools, and should have experience in projects related to customization of our core platforms, application development, sensor fusion, or other custom software development. They will learn from and synthesize insights from our customers, Consulting leaders, product leaders and external experts to successfully deliver applications and code that unlock robotics systems in the customer environments.",
+        "quote": "The Senior Consultant works directly with external clients and project leadership on paid engagements to execute the development and delivery of software integrations and tools, and should have experience in projects related to customization of our core platforms, application development, sensor fusion, or other custom software development. They will learn from and synthesize insights from our customers, Consulting leaders, product leaders and external experts to successfully deliver applications and code that unlock robotics systems in the customer environments.",
+        "field": "full_description",
+        "start": 755,
+        "end": 1324
+      },
+      {
+        "id": "2",
+        "review_id": "N0999:2",
+        "codes": [
+          "V2_MS_PROJECT"
+        ],
+        "names": [
+          "Microsoft Project"
+        ],
+        "surface": "Support Project Directors & Software Leaders to develop and deliver custom software solutions based on our core robot and fleet management products to accelerate the adoption of robotics & intelligent systems in dynamic environments.",
+        "quote": "Support Project Directors & Software Leaders to develop and deliver custom software solutions based on our core robot and fleet management products to accelerate the adoption of robotics & intelligent systems in dynamic environments.",
+        "field": "full_description",
+        "start": 1346,
+        "end": 1579
+      }
+    ]
+  },
+  {
+    "coding_order": 15,
+    "reading_id": "E0363",
+    "company_id": "US_AGILITY",
+    "title": "Staff Robotics Software Engineer, Teleoperations Architecture",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_AGILITY|greenhouse|5972788004|252062f3997972cf04420985a5f621ea92e2911dc1c99c08c9154129a59f0f6e",
+    "already_coded": false,
+    "fields": {
+      "duties": "Architect from the Ground Up: Own the end-to-end software architecture of our data collection and teleoperation systems, ensuring highly modular, scalable, and predictable behavior with clear system boundaries.\nOptimize for Performance: Build the connective tissue for real-time robot execution by integrating and optimizing real-time control, streaming, and communication paths to meet strict latency and bandwidth targets.\nDesign for the Future: Anticipate upcoming robot hardware, sensing, and end-effector changes. Design resilient software systems that can seamlessly adapt to new interfaces and capabilities without requiring foundational architectural rewrites.\nDrive Validation & Reliability: Develop comprehensive validation strategies across simulation and physical hardware, including performance benchmarks, fault handling, and regression testing.\nData-Driven Iteration: Analyze system telemetry and demonstration data to continuously improve operator efficiency, system responsiveness, and overall task success rates.",
+      "requirements": "7+ years of experience in software engineering for robotics, real-time systems, or highly complex hardware-software integrations.\nExceptional software architecture skills, with a proven ability to design and build scalable, low-latency systems from scratch without foundational missteps.\nDemonstrated track record of operating as a highly autonomous, independent executor capable of delivering reliable, production-quality software.\nExperience designing low-latency communication and streaming systems for real-time applications.\nStrong systems intuition with the ability to trace and debug performance issues across complex software, networking, and hardware boundaries.\nDemonstrated experience in modern C++ or Rust, with a strong track record of building and optimizing low-latency, real-time systems (Python proficiency is a strong plus).\nExcellent communication skills and the ability to partner effectively with internal customers (AI, controls, and hardware teams) to translate requirements into robust software.\nBonus Qualifications\nDomain Knowledge: Familiarity with whole-body kinematics, motion retargeting, rigid body dynamics, or real-time control systems.\nHuman-Machine Interfaces: Hands-on experience integrating human input systems such as Virtual Reality (VR), motion capture, wearable devices, or remote control interfaces.\nXR Frameworks: Experience building applications with real-time rendering or XR frameworks (e.g., Unity, Unreal, Godot, SteamVR, OpenXR).\n3D Visualization: Experience with advanced 3D visualization techniques such as neural radiance fields, Gaussian splatting, or other scene reconstruction methods.\nData Pipelines: Familiarity with large-scale data collection pipelines for learning from demonstration.\nThis a hybrid position based out of one of our Salem, Pittsburgh, or Fremont offices.\nThe final salary offered to a successful candidate will be dependent on several factors that may include but are not limited to: market location, job-related knowledge, skills, and experience. This range may change based on geographical location and may be modified in the future.\nAnticipated Salary Range\n$190,000\n—\n$296,000 USD\nIn addition to base pay, our competitive total rewards package consists of the following for full-time employees:\n401(k) Plan:\nIncludes a 6% company match.\nEquity:\nCompany stock options.\nInsurance Coverage:\n100% company-paid medical, dental, vision, and short/long-term disability insurance for employees.\nBenefit Start Date:\nEligible for benefits on your first day of employment.\nWell-Being Support:\nEmployee Assistance Program (EAP).\nTime Off:\nExempt Employees:\nFlexible, unlimited PTO and 12 company holidays, including a winter shutdown.\nNon-Exempt Employees:\n10 vacation days, paid sick leave, and 12 company holidays, including a winter shutdown, annually.\nOn-Site Perks:\nCatered lunches four times a week and a variety of healthy snacks and refreshments at our Salem and Pittsburgh locations.\nParental Leave:\nGenerous paid parental leave programs.\nWork Environment:\nA culture that supports flexible work arrangements.\nGrowth Opportunities:\nProfessional development and tuition reimbursement programs.\nRelocation Assistance:\nProvided for eligible roles.\nAnnual Discretionary Bonus:\nProvided for eligible roles.\nAll of our roles are U.S.-based. Applicants must have current authorization to work in the United States.\nAgility Robotics is committed to a work environment in which all individuals are treated with respect and dignity. Each individual has the right to work in a professional atmosphere that promotes equal employment opportunities and prohibits unlawful discriminatory practices, including harassment. Therefore, it is the policy of Agility Robotics to ensure equal employment opportunity without discrimination or harassment on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, genetic information, or any other characteristic protected by law. Agility Robotics prohibits any such discrimination or harassment.\nAgility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+      "full_description": "Agility’s commercially deployed humanoids operate alongside teams in warehouses, manufacturing facilities, and distribution centers—tackling physically demanding and repetitive tasks while enabling workers to focus on higher-value work. With industry-leading safety standards and years of proven deployment data, we're pioneering a new era of automation that enhances human potential.\nAbout The Role\nYou will be the architectural force behind the systems that teach Digit how to interact with the physical world. As a Staff Robotics Software Engineer on the AI team, you will architect, build, and scale the production-quality software foundation that enables Digit to execute complex, whole-body manipulation tasks in real-world environments. You will work at the critical intersection of AI, controls, hardware, and operations to create a seamless, low-latency platform for human demonstration data collection. Your software architecture will directly unlock our ability to scale the world's first production humanoid robot fleet and revolutionize the global labor market.\nAbout The Work\nArchitect from the Ground Up: Own the end-to-end software architecture of our data collection and teleoperation systems, ensuring highly modular, scalable, and predictable behavior with clear system boundaries.\nOptimize for Performance: Build the connective tissue for real-time robot execution by integrating and optimizing real-time control, streaming, and communication paths to meet strict latency and bandwidth targets.\nDesign for the Future: Anticipate upcoming robot hardware, sensing, and end-effector changes. Design resilient software systems that can seamlessly adapt to new interfaces and capabilities without requiring foundational architectural rewrites.\nDrive Validation & Reliability: Develop comprehensive validation strategies across simulation and physical hardware, including performance benchmarks, fault handling, and regression testing.\nData-Driven Iteration: Analyze system telemetry and demonstration data to continuously improve operator efficiency, system responsiveness, and overall task success rates.\nAbout You\n7+ years of experience in software engineering for robotics, real-time systems, or highly complex hardware-software integrations.\nExceptional software architecture skills, with a proven ability to design and build scalable, low-latency systems from scratch without foundational missteps.\nDemonstrated track record of operating as a highly autonomous, independent executor capable of delivering reliable, production-quality software.\nExperience designing low-latency communication and streaming systems for real-time applications.\nStrong systems intuition with the ability to trace and debug performance issues across complex software, networking, and hardware boundaries.\nDemonstrated experience in modern C++ or Rust, with a strong track record of building and optimizing low-latency, real-time systems (Python proficiency is a strong plus).\nExcellent communication skills and the ability to partner effectively with internal customers (AI, controls, and hardware teams) to translate requirements into robust software.\nBonus Qualifications\nDomain Knowledge: Familiarity with whole-body kinematics, motion retargeting, rigid body dynamics, or real-time control systems.\nHuman-Machine Interfaces: Hands-on experience integrating human input systems such as Virtual Reality (VR), motion capture, wearable devices, or remote control interfaces.\nXR Frameworks: Experience building applications with real-time rendering or XR frameworks (e.g., Unity, Unreal, Godot, SteamVR, OpenXR).\n3D Visualization: Experience with advanced 3D visualization techniques such as neural radiance fields, Gaussian splatting, or other scene reconstruction methods.\nData Pipelines: Familiarity with large-scale data collection pipelines for learning from demonstration.\nThis a hybrid position based out of one of our Salem, Pittsburgh, or Fremont offices.\nThe final salary offered to a successful candidate will be dependent on several factors that may include but are not limited to: market location, job-related knowledge, skills, and experience. This range may change based on geographical location and may be modified in the future.\nAnticipated Salary Range\n$190,000\n—\n$296,000 USD\nIn addition to base pay, our competitive total rewards package consists of the following for full-time employees:\n401(k) Plan:\nIncludes a 6% company match.\nEquity:\nCompany stock options.\nInsurance Coverage:\n100% company-paid medical, dental, vision, and short/long-term disability insurance for employees.\nBenefit Start Date:\nEligible for benefits on your first day of employment.\nWell-Being Support:\nEmployee Assistance Program (EAP).\nTime Off:\nExempt Employees:\nFlexible, unlimited PTO and 12 company holidays, including a winter shutdown.\nNon-Exempt Employees:\n10 vacation days, paid sick leave, and 12 company holidays, including a winter shutdown, annually.\nOn-Site Perks:\nCatered lunches four times a week and a variety of healthy snacks and refreshments at our Salem and Pittsburgh locations.\nParental Leave:\nGenerous paid parental leave programs.\nWork Environment:\nA culture that supports flexible work arrangements.\nGrowth Opportunities:\nProfessional development and tuition reimbursement programs.\nRelocation Assistance:\nProvided for eligible roles.\nAnnual Discretionary Bonus:\nProvided for eligible roles.\nAll of our roles are U.S.-based. Applicants must have current authorization to work in the United States.\nAgility Robotics is committed to a work environment in which all individuals are treated with respect and dignity. Each individual has the right to work in a professional atmosphere that promotes equal employment opportunities and prohibits unlawful discriminatory practices, including harassment. Therefore, it is the policy of Agility Robotics to ensure equal employment opportunity without discrimination or harassment on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, age, disability, marital status, citizenship, national origin, genetic information, or any other characteristic protected by law. Agility Robotics prohibits any such discrimination or harassment.\nAgility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_CPP",
+        "name": "C++",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 706,
+        "end": 709,
+        "quote": "C++"
+      },
+      {
+        "id": "O2",
+        "code": "SK_RUST",
+        "name": "Rust",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 713,
+        "end": 717,
+        "quote": "Rust"
+      },
+      {
+        "id": "O3",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 805,
+        "end": 811,
+        "quote": "Python"
+      },
+      {
+        "id": "O4",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 242,
+        "end": 275,
+        "quote": "industry-leading safety standards"
+      },
+      {
+        "id": "O5",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 49,
+        "end": 119,
+        "quote": "software architecture of our data collection and teleoperation systems"
+      },
+      {
+        "id": "O6",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "COLLABORATION_OBJECT",
+        "field": "full_description",
+        "start": 627,
+        "end": 715,
+        "quote": "software foundation that enables Digit to execute complex, whole-body manipulation tasks"
+      },
+      {
+        "id": "O7",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 298,
+        "end": 378,
+        "quote": "integrating and optimizing real-time control, streaming, and communication paths"
+      },
+      {
+        "id": "O8",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 298,
+        "end": 342,
+        "quote": "integrating and optimizing real-time control"
+      },
+      {
+        "id": "O9",
+        "code": "TC_EVALUATION",
+        "name": "评测与表征",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "duties",
+        "start": 796,
+        "end": 858,
+        "quote": "performance benchmarks, fault handling, and regression testing"
+      },
+      {
+        "id": "O10",
+        "code": "TC_SIMULATION",
+        "name": "仿真环境",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "duties",
+        "start": 723,
+        "end": 784,
+        "quote": "validation strategies across simulation and physical hardware"
+      },
+      {
+        "id": "O11",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "real-time systems"
+      },
+      {
+        "id": "O12",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "",
+        "start": "",
+        "end": "",
+        "quote": "real-time systems"
+      },
+      {
+        "id": "O13",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1143,
+        "end": 1168,
+        "quote": "real-time control systems"
+      },
+      {
+        "id": "O14",
+        "code": "TC_CONTROL",
+        "name": "控制闭环",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "CHOICE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1143,
+        "end": 1168,
+        "quote": "real-time control systems"
+      },
+      {
+        "id": "O15",
+        "code": "TC_DATA_PIPELINE",
+        "name": "数据管线与资产",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1686,
+        "end": 1711,
+        "quote": "data collection pipelines"
+      },
+      {
+        "id": "O16",
+        "code": "TC_IL",
+        "name": "模仿学习",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "requirements",
+        "start": 1716,
+        "end": 1743,
+        "quote": "learning from demonstration"
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "E0363:1",
+        "codes": [
+          "V2_TELEOP"
+        ],
+        "names": [
+          "遥操作与示教"
+        ],
+        "surface": "Architect from the Ground Up: Own the end-to-end software architecture of our data collection and teleoperation systems, ensuring highly modular, scalable, and predictable behavior with clear system boundaries.",
+        "quote": "Architect from the Ground Up: Own the end-to-end software architecture of our data collection and teleoperation systems, ensuring highly modular, scalable, and predictable behavior with clear system boundaries.",
+        "field": "full_description",
+        "start": 1090,
+        "end": 1300
+      },
+      {
+        "id": "2",
+        "review_id": "E0363:2",
+        "codes": [
+          "V2_CAN"
+        ],
+        "names": [
+          "CAN协议族"
+        ],
+        "surface": "Design for the Future: Anticipate upcoming robot hardware, sensing, and end-effector changes. Design resilient software systems that can seamlessly adapt to new interfaces and capabilities without requiring foundational architectural rewrites.",
+        "quote": "Design for the Future: Anticipate upcoming robot hardware, sensing, and end-effector changes. Design resilient software systems that can seamlessly adapt to new interfaces and capabilities without requiring foundational architectural rewrites.",
+        "field": "full_description",
+        "start": 1515,
+        "end": 1758
+      },
+      {
+        "id": "3",
+        "review_id": "E0363:3",
+        "codes": [
+          "V2_C"
+        ],
+        "names": [
+          "C语言"
+        ],
+        "surface": "Demonstrated experience in modern C++ or Rust, with a strong track record of building and optimizing low-latency, real-time systems (Python proficiency is a strong plus).",
+        "quote": "Demonstrated experience in modern C++ or Rust, with a strong track record of building and optimizing low-latency, real-time systems (Python proficiency is a strong plus).",
+        "field": "full_description",
+        "start": 2803,
+        "end": 2973
+      },
+      {
+        "id": "4",
+        "review_id": "E0363:4",
+        "codes": [
+          "V2_MOCAP"
+        ],
+        "names": [
+          "动作捕捉与演示数据采集"
+        ],
+        "surface": "Human-Machine Interfaces: Hands-on experience integrating human input systems such as Virtual Reality (VR), motion capture, wearable devices, or remote control interfaces.",
+        "quote": "Human-Machine Interfaces: Hands-on experience integrating human input systems such as Virtual Reality (VR), motion capture, wearable devices, or remote control interfaces.",
+        "field": "full_description",
+        "start": 3301,
+        "end": 3472
+      },
+      {
+        "id": "5",
+        "review_id": "E0363:5",
+        "codes": [
+          "V2_UNITY",
+          "V2_UNREAL"
+        ],
+        "names": [
+          "Unity",
+          "Unreal Engine"
+        ],
+        "surface": "XR Frameworks: Experience building applications with real-time rendering or XR frameworks (e.g., Unity, Unreal, Godot, SteamVR, OpenXR).",
+        "quote": "XR Frameworks: Experience building applications with real-time rendering or XR frameworks (e.g., Unity, Unreal, Godot, SteamVR, OpenXR).",
+        "field": "full_description",
+        "start": 3473,
+        "end": 3609
+      },
+      {
+        "id": "6",
+        "review_id": "E0363:6",
+        "codes": [
+          "V2_3D_RECONSTRUCTION"
+        ],
+        "names": [
+          "三维重建表示"
+        ],
+        "surface": "3D Visualization: Experience with advanced 3D visualization techniques such as neural radiance fields, Gaussian splatting, or other scene reconstruction methods.",
+        "quote": "3D Visualization: Experience with advanced 3D visualization techniques such as neural radiance fields, Gaussian splatting, or other scene reconstruction methods.",
+        "field": "full_description",
+        "start": 3610,
+        "end": 3771
+      },
+      {
+        "id": "7",
+        "review_id": "E0363:7",
+        "codes": [
+          "V2_USD"
+        ],
+        "names": [
+          "Universal Scene Description"
+        ],
+        "surface": "$296,000 USD",
+        "quote": "$296,000 USD",
+        "field": "full_description",
+        "start": 4279,
+        "end": 4291
+      },
+      {
+        "id": "8",
+        "review_id": "E0363:8",
+        "codes": [
+          "V2_HR"
+        ],
+        "names": [
+          "招聘与人力流程"
+        ],
+        "surface": "Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+        "quote": "Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualified candidates to apply directly through our careers page.  If you are represented by a third party, your application may not be considered.  To ensure full consideration, please apply directly.",
+        "field": "full_description",
+        "start": 6228,
+        "end": 6572
+      },
+      {
+        "id": "9",
+        "review_id": "E0363:9",
+        "codes": [
+          "V2_UNITY",
+          "V2_UNREAL"
+        ],
+        "names": [
+          "Unity",
+          "Unreal Engine"
+        ],
+        "surface": "Unity, Unreal, Godot, SteamVR, OpenXR",
+        "quote": "Unity, Unreal, Godot, SteamVR, OpenXR",
+        "field": "requirements",
+        "start": 1439,
+        "end": 1476
+      }
+    ]
+  },
+  {
+    "coding_order": 16,
+    "reading_id": "N0840",
+    "company_id": "US_FIELD_AI",
+    "title": "Software Engineer, Infrastructure and Tools",
+    "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|US_FIELD_AI|lever|b5ebd445-3ec1-49b2-a506-8f0a52f5f4cd|995cd539fbc68e899c69bd056ca17091acf669b8875a479a494058374de48cea",
+    "already_coded": false,
+    "fields": {
+      "duties": "FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI systems that solve the hardest problems in robotics and unlock the full potential of embodied intelligence. If you want your work to ship, get tested on hardware, and improve through real deployments, Irvine is the place. We go beyond typical data-driven approaches or pure transformer-only architectures, combining rigorous engineering with learning systems proven in globally deployed solutions that deliver results today and get better every time our robots run in the field.\n\n\nWhat You Will Get To Do\nDesign, build, and maintain core infrastructure components such as CI/CD pipelines, build systems, monitoring tools, and deployment frameworks.\nDevelop and implement scalable solutions for service reliability, observability, and performance.\nCollaborate with development teams to optimize infrastructure for high availability and fault tolerance.\nAutomate infrastructure provisioning and management using tools like Ansible or similar.\nImprove system efficiency by automating recurring tasks and eliminating manual processes.\nMonitor system performance, troubleshoot issues, and ensure optimal uptime and security.\nMaintain and enforce best practices in system design, security, and code quality.\n\nWhat You Have\nBachelor’s degree in Computer Science, Engineering, or a related field (or equivalent work experience).\n3+ years of experience in software engineering, DevOps, or infrastructure roles.\nStrong programming/scripting skills in languages such as Python, TypeScript, or similar.\nExperience with cloud platforms (AWS, GCP, Azure) and container orchestration.\nFamiliarity with infrastructure-as-code tools (AWS CDK, etc.).\nKnowledge of monitoring and logging systems (e.g., Prometheus, Grafana, Sentry).\nSolid understanding of networking, Linux systems, and security best practices.\nExcellent problem-solving skills and the ability to work collaboratively in a team environment.\n\nWhat Will Set You Apart\nFamiliarity with robotics systems or infrastructure to support robotic applications (e.g., ROS, real-time systems, sensor integration).\nExposure to distributed systems and microservices architectures.\nBackground in site reliability engineering (SRE) practices.\n\nOur salary range is generous and we consider each individual’s background and experience when determining final compensation. Base pay may vary based on role scope, job-related knowledge, skills, experience, and the Irvine, California market.\n \nWhy Join FieldAI in Irvine?\nIn Irvine, you will work where the robots are. Our local team builds and tests systems on real hardware with real sensors, then ships them to operate in unstructured, previously unknown environments around the world. We are solving one of robotics’ hardest challenges: reliable deployment outside the lab. Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use.\nYou will collaborate with a world-class team that thrives on creativity, resilience, and bold thinking. We bring deep experience from organizations such as DeepMind, NASA JPL, Boston Dynamics, NVIDIA, Amazon, Tesla Autopilot, Cruise, Zoox, Toyota Research Institute, and SpaceX, along with a track record of field deployments and strong performance in DARPA challenge segments.\n \nBe Part of the Next Robotics Revolution\nWe are looking for builders who want their work to leave the whiteboard and show up on robots. If you enjoy tackling tough, uncharted questions and working across disciplines, you will find your people here. Our teams span AI, software, robotics engineering, product, field deployment, and technical communication, all focused on shipping systems that perform in the real world.\n \nOur headquarters is in Irvine, and we partner closely with teams there as well as colleagues across the US and around the world. Join us in Southern California and help define what dependable, field-ready autonomy looks like.\n \nWe value diverse perspectives and are committed to fostering an inclusive workplace. We evaluate candidates and employees based on merit, qualifications, and performance, and we do not discriminate on the basis of race, color, gender, national origin, ethnicity, veteran status, disability status, age, sexual orientation, gender identity, marital status, or any other legally protected status.",
+      "requirements": "",
+      "full_description": "FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI systems that solve the hardest problems in robotics and unlock the full potential of embodied intelligence. If you want your work to ship, get tested on hardware, and improve through real deployments, Irvine is the place. We go beyond typical data-driven approaches or pure transformer-only architectures, combining rigorous engineering with learning systems proven in globally deployed solutions that deliver results today and get better every time our robots run in the field.\n\n\nWhat You Will Get To Do\nDesign, build, and maintain core infrastructure components such as CI/CD pipelines, build systems, monitoring tools, and deployment frameworks.\nDevelop and implement scalable solutions for service reliability, observability, and performance.\nCollaborate with development teams to optimize infrastructure for high availability and fault tolerance.\nAutomate infrastructure provisioning and management using tools like Ansible or similar.\nImprove system efficiency by automating recurring tasks and eliminating manual processes.\nMonitor system performance, troubleshoot issues, and ensure optimal uptime and security.\nMaintain and enforce best practices in system design, security, and code quality.\n\nWhat You Have\nBachelor’s degree in Computer Science, Engineering, or a related field (or equivalent work experience).\n3+ years of experience in software engineering, DevOps, or infrastructure roles.\nStrong programming/scripting skills in languages such as Python, TypeScript, or similar.\nExperience with cloud platforms (AWS, GCP, Azure) and container orchestration.\nFamiliarity with infrastructure-as-code tools (AWS CDK, etc.).\nKnowledge of monitoring and logging systems (e.g., Prometheus, Grafana, Sentry).\nSolid understanding of networking, Linux systems, and security best practices.\nExcellent problem-solving skills and the ability to work collaboratively in a team environment.\n\nWhat Will Set You Apart\nFamiliarity with robotics systems or infrastructure to support robotic applications (e.g., ROS, real-time systems, sensor integration).\nExposure to distributed systems and microservices architectures.\nBackground in site reliability engineering (SRE) practices.\n\nOur salary range is generous and we consider each individual’s background and experience when determining final compensation. Base pay may vary based on role scope, job-related knowledge, skills, experience, and the Irvine, California market.\n \nWhy Join FieldAI in Irvine?\nIn Irvine, you will work where the robots are. Our local team builds and tests systems on real hardware with real sensors, then ships them to operate in unstructured, previously unknown environments around the world. We are solving one of robotics’ hardest challenges: reliable deployment outside the lab. Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use.\nYou will collaborate with a world-class team that thrives on creativity, resilience, and bold thinking. We bring deep experience from organizations such as DeepMind, NASA JPL, Boston Dynamics, NVIDIA, Amazon, Tesla Autopilot, Cruise, Zoox, Toyota Research Institute, and SpaceX, along with a track record of field deployments and strong performance in DARPA challenge segments.\n \nBe Part of the Next Robotics Revolution\nWe are looking for builders who want their work to leave the whiteboard and show up on robots. If you enjoy tackling tough, uncharted questions and working across disciplines, you will find your people here. Our teams span AI, software, robotics engineering, product, field deployment, and technical communication, all focused on shipping systems that perform in the real world.\n \nOur headquarters is in Irvine, and we partner closely with teams there as well as colleagues across the US and around the world. Join us in Southern California and help define what dependable, field-ready autonomy looks like.\n \nWe value diverse perspectives and are committed to fostering an inclusive workplace. We evaluate candidates and employees based on merit, qualifications, and performance, and we do not discriminate on the basis of race, color, gender, national origin, ethnicity, veteran status, disability status, age, sexual orientation, gender identity, marital status, or any other legally protected status."
+    },
+    "inherited": [
+      {
+        "id": "O1",
+        "code": "SK_PYTHON",
+        "name": "Python",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1673,
+        "end": 1679,
+        "quote": "Python"
+      },
+      {
+        "id": "O2",
+        "code": "SK_GENERIC_LANGUAGE",
+        "name": "编程语言泛称",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "CHOICE_AND_EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1696,
+        "end": 1703,
+        "quote": "similar"
+      },
+      {
+        "id": "O3",
+        "code": "SK_LINUX",
+        "name": "Linux",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1928,
+        "end": 2006,
+        "quote": "Solid understanding of networking, Linux systems, and security best practices."
+      },
+      {
+        "id": "O4",
+        "code": "SK_ROS",
+        "name": "ROS",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2219,
+        "end": 2222,
+        "quote": "ROS"
+      },
+      {
+        "id": "O5",
+        "code": "TC_FOUNDATION_MODEL",
+        "name": "基础模型/VLA",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 2969,
+        "end": 3137,
+        "quote": "Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use."
+      },
+      {
+        "id": "O6",
+        "code": "TC_PERCEPTION",
+        "name": "感知与融合",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 2969,
+        "end": 3137,
+        "quote": "Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use."
+      },
+      {
+        "id": "O7",
+        "code": "TC_SLAM",
+        "name": "定位建图",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 2969,
+        "end": 3137,
+        "quote": "Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use."
+      },
+      {
+        "id": "O8",
+        "code": "TC_MANIPULATION",
+        "name": "操作与灵巧操作",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 2969,
+        "end": 3137,
+        "quote": "Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use."
+      },
+      {
+        "id": "O9",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 2969,
+        "end": 3137,
+        "quote": "Our Field Foundational Models™ raise the bar for perception, planning, localization, and manipulation, with an emphasis on explainability and safety for real-world use."
+      },
+      {
+        "id": "O10",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "SEPARATE",
+        "suggested_branch": "UNRESOLVED",
+        "prior_relation": "BACKGROUND",
+        "field": "full_description",
+        "start": 168,
+        "end": 221,
+        "quote": "we build risk-aware, reliable, field-ready AI systems"
+      },
+      {
+        "id": "O11",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "DUTY_OWN_DEVELOP",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_DEVELOP",
+        "field": "full_description",
+        "start": 863,
+        "end": 960,
+        "quote": "Develop and implement scalable solutions for service reliability, observability, and performance."
+      },
+      {
+        "id": "O12",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "DUTY_OWN_USE",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "OWN_USE",
+        "field": "full_description",
+        "start": 1245,
+        "end": 1333,
+        "quote": "Monitor system performance, troubleshoot issues, and ensure optimal uptime and security."
+      },
+      {
+        "id": "O13",
+        "code": "TC_SAFETY",
+        "name": "安全",
+        "suggested_metric": "GENERAL",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 1928,
+        "end": 2006,
+        "quote": "Solid understanding of networking, Linux systems, and security best practices."
+      },
+      {
+        "id": "O14",
+        "code": "TC_REALTIME",
+        "name": "实时系统",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "EXAMPLE",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2224,
+        "end": 2241,
+        "quote": "real-time systems"
+      },
+      {
+        "id": "O15",
+        "code": "TC_RELIABILITY",
+        "name": "可靠性",
+        "suggested_metric": "PREFERRED",
+        "suggested_branch": "UNCONDITIONAL",
+        "prior_relation": "EXPERIENCE_REQUIREMENT",
+        "field": "full_description",
+        "start": 2329,
+        "end": 2388,
+        "quote": "Background in site reliability engineering (SRE) practices."
+      }
+    ],
+    "candidates": [
+      {
+        "id": "1",
+        "review_id": "N0840:1",
+        "codes": [
+          "V2_CI_CD"
+        ],
+        "names": [
+          "持续集成与交付"
+        ],
+        "surface": "Design, build, and maintain core infrastructure components such as CI/CD pipelines, build systems, monitoring tools, and deployment frameworks.",
+        "quote": "Design, build, and maintain core infrastructure components such as CI/CD pipelines, build systems, monitoring tools, and deployment frameworks.",
+        "field": "full_description",
+        "start": 719,
+        "end": 862
+      },
+      {
+        "id": "2",
+        "review_id": "N0840:2",
+        "codes": [
+          "V2_ANSIBLE"
+        ],
+        "names": [
+          "Ansible"
+        ],
+        "surface": "Automate infrastructure provisioning and management using tools like Ansible or similar.",
+        "quote": "Automate infrastructure provisioning and management using tools like Ansible or similar.",
+        "field": "full_description",
+        "start": 1066,
+        "end": 1154
+      },
+      {
+        "id": "3",
+        "review_id": "N0840:3",
+        "codes": [
+          "V2_ANSIBLE"
+        ],
+        "names": [
+          "Ansible"
+        ],
+        "surface": "Ansible",
+        "quote": "Automate infrastructure provisioning and management using tools like Ansible or similar.",
+        "field": "full_description",
+        "start": 1066,
+        "end": 1154
+      },
+      {
+        "id": "4",
+        "review_id": "N0840:4",
+        "codes": [
+          "V2_TYPESCRIPT"
+        ],
+        "names": [
+          "TypeScript"
+        ],
+        "surface": "Strong programming/scripting skills in languages such as Python, TypeScript, or similar.",
+        "quote": "Strong programming/scripting skills in languages such as Python, TypeScript, or similar.",
+        "field": "full_description",
+        "start": 1616,
+        "end": 1704
+      },
+      {
+        "id": "5",
+        "review_id": "N0840:5",
+        "codes": [
+          "V2_TYPESCRIPT"
+        ],
+        "names": [
+          "TypeScript"
+        ],
+        "surface": "TypeScript",
+        "quote": "TypeScript",
+        "field": "full_description",
+        "start": 1681,
+        "end": 1691
+      },
+      {
+        "id": "6",
+        "review_id": "N0840:6",
+        "codes": [
+          "V2_AWS",
+          "V2_GCP",
+          "V2_AZURE"
+        ],
+        "names": [
+          "Amazon Web Services",
+          "Google Cloud",
+          "Azure"
+        ],
+        "surface": "Experience with cloud platforms (AWS, GCP, Azure) and container orchestration.",
+        "quote": "Experience with cloud platforms (AWS, GCP, Azure) and container orchestration.",
+        "field": "full_description",
+        "start": 1705,
+        "end": 1783
+      },
+      {
+        "id": "7",
+        "review_id": "N0840:7",
+        "codes": [
+          "V2_AWS"
+        ],
+        "names": [
+          "Amazon Web Services"
+        ],
+        "surface": "AWS",
+        "quote": "AWS",
+        "field": "full_description",
+        "start": 1738,
+        "end": 1741
+      },
+      {
+        "id": "8",
+        "review_id": "N0840:8",
+        "codes": [
+          "V2_GCP"
+        ],
+        "names": [
+          "Google Cloud"
+        ],
+        "surface": "GCP",
+        "quote": "GCP",
+        "field": "full_description",
+        "start": 1743,
+        "end": 1746
+      },
+      {
+        "id": "9",
+        "review_id": "N0840:9",
+        "codes": [
+          "V2_AZURE"
+        ],
+        "names": [
+          "Azure"
+        ],
+        "surface": "Azure",
+        "quote": "Azure",
+        "field": "full_description",
+        "start": 1748,
+        "end": 1753
+      },
+      {
+        "id": "10",
+        "review_id": "N0840:10",
+        "codes": [
+          "V2_AWS"
+        ],
+        "names": [
+          "Amazon Web Services"
+        ],
+        "surface": "Familiarity with infrastructure-as-code tools (AWS CDK, etc.).",
+        "quote": "Familiarity with infrastructure-as-code tools (AWS CDK, etc.).",
+        "field": "full_description",
+        "start": 1784,
+        "end": 1846
+      },
+      {
+        "id": "11",
+        "review_id": "N0840:11",
+        "codes": [
+          "V2_AWS"
+        ],
+        "names": [
+          "Amazon Web Services"
+        ],
+        "surface": "AWS CDK",
+        "quote": "AWS CDK",
+        "field": "full_description",
+        "start": 1831,
+        "end": 1838
+      },
+      {
+        "id": "12",
+        "review_id": "N0840:12",
+        "codes": [
+          "V2_GRAFANA",
+          "V2_PROMETHEUS"
+        ],
+        "names": [
+          "Grafana",
+          "Prometheus"
+        ],
+        "surface": "Knowledge of monitoring and logging systems (e.g., Prometheus, Grafana, Sentry).",
+        "quote": "Knowledge of monitoring and logging systems (e.g., Prometheus, Grafana, Sentry).",
+        "field": "full_description",
+        "start": 1847,
+        "end": 1927
+      },
+      {
+        "id": "13",
+        "review_id": "N0840:13",
+        "codes": [
+          "V2_PROMETHEUS"
+        ],
+        "names": [
+          "Prometheus"
+        ],
+        "surface": "Prometheus",
+        "quote": "Prometheus",
+        "field": "full_description",
+        "start": 1898,
+        "end": 1908
+      },
+      {
+        "id": "14",
+        "review_id": "N0840:14",
+        "codes": [
+          "V2_GRAFANA"
+        ],
+        "names": [
+          "Grafana"
+        ],
+        "surface": "Grafana",
+        "quote": "Grafana",
+        "field": "full_description",
+        "start": 1910,
+        "end": 1917
+      },
+      {
+        "id": "15",
+        "review_id": "N0840:15",
+        "codes": [],
+        "names": [],
+        "surface": "Sentry",
+        "quote": "Sentry",
+        "field": "full_description",
+        "start": 1919,
+        "end": 1925
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "engine": "stage-b-repair-normalizer-v2",
+  "n_snapshots": 50,
+  "n_redeclared": 0,
+  "changes": [],
+  "previous_versions_kept": [],
+  "note": "Every declared hash is now recomputed from bytes on disk by a single documented normalizer, so comparing the declaration against the file detects an actual content change and no longer fails an untouched file."
+}

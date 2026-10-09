@@ -1,0 +1,3005 @@
+{
+  "revision_id": "Q-M5-FROZEN-DEFINITION-20260916-08",
+  "reviewer": "Astra",
+  "created_utc": "2026-09-16T07:09:33.447252+00:00",
+  "coded_ads_at_review": 271,
+  "scope": "All currently coded serial-surface candidate decisions; all model-compression and teleoperation candidates/additions; two hardware procurement positives. This is not full second-pass QC.",
+  "changed_ads": {
+    "N0465": {
+      "before": {
+        "task": "FIRMWARE",
+        "fine_task": "JUNIOR_EMBEDDED_PLATFORM_COMMUNICATION",
+        "task_evidence": "1.参与机器人控制器、通信模块、电源模块、传感器及执行器相关的嵌入式软件开发；",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_CAN",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_ETHERCAT",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_ETHERNET",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_RS485",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_I2C",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_SPI",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_UART",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_USB",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "2": "DUPLICATE:N0465:1",
+          "3": "DUPLICATE:N0465:1",
+          "4": "DUPLICATE:N0465:1",
+          "5": "DUPLICATE:N0465:1",
+          "6": "DUPLICATE:N0465:1",
+          "7": "DUPLICATE:N0465:1",
+          "8": "DUPLICATE:N0465:1",
+          "9": "DUPLICATE:N0465:1",
+          "10": "OUTSIDE:Bootloader未设独立目录项，参与建设不当本人独立开发",
+          "11": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNRESOLVED"
+            ]
+          ],
+          "12": "DUPLICATE:N0465:11",
+          "13": [
+            [
+              "V2_FREE_RTOS",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "14": "OUTSIDE:MCU/SoC平台厂商或型号未设冻结工具项",
+          "15": "OUTSIDE:MCU/SoC平台厂商或型号未设冻结工具项",
+          "16": "OUTSIDE:MCU/SoC平台厂商或型号未设冻结工具项",
+          "17": "OUTSIDE:MCU/SoC平台厂商或型号未设冻结工具项",
+          "18": "OUTSIDE:MCU/SoC平台厂商或型号未设冻结工具项",
+          "19": "DUPLICATE:N0465:13",
+          "20": "OUTSIDE:ThreadX未设冻结系统项",
+          "21": [
+            [
+              "V2_GIT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "22": "DUPLICATE:N0465:21",
+          "23": [
+            [
+              "V2_CAN",
+              "PREFERRED",
+              "CHOICE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "PREFERRED",
+              "CHOICE"
+            ],
+            [
+              "V2_TCPIP",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "24": "DUPLICATE:N0465:23",
+          "25": "DUPLICATE:N0465:23",
+          "26": "DUPLICATE:N0465:23",
+          "27": "DUPLICATE:N0465:23",
+          "28": "OUTSIDE:Bootloader未设独立目录项",
+          "29": "OUTSIDE:OTA未设独立目录项"
+        },
+        "old_overrides": {
+          "O15": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "至少有一项完整嵌入式项目经历为独立最低要求，不受下一条方向任选支配"
+          },
+          "O20": {
+            "metric": "PREFERRED",
+            "branch": "CHOICE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "测试、数据分析或自动化调试脚本为任选，不能独立硬化测试"
+          },
+          "O1": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O9": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O10": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O11": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O12": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O13": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O14": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          }
+        },
+        "additions": [],
+        "notes": "全文已读。多处参与保留协作，但Git基本代码管理要求明确。I²C中的C不等于C语言，泛称串口协议不自动映射RS485。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|d25059b6-b0f9-4951-9a5a-8314d6bada08|5bca70aca58567ae76eda58f6e14fe19641c6bf882a19d14c932d0e84e63e649",
+        "company_id": "CN_FOURIER",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 20,
+        "reviewed_candidate_count": 29,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 110,
+          "end": 149,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1.参与机器人控制器、通信模块、电源模块、传感器及执行器相关的嵌入式软件开发；"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5bca70aca58567ae76eda58f6e14fe19641c6bf882a19d14c932d0e84e63e649",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T06:56:18.548209+00:00"
+      },
+      "reasons": [
+        "冻结V2_RS485别名明示包含串口；按宽串口组计入，原词不改，不解释为确定RS485协议。"
+      ],
+      "after": {
+        "task": "FIRMWARE",
+        "fine_task": "JUNIOR_EMBEDDED_PLATFORM_COMMUNICATION",
+        "task_evidence": "1.参与机器人控制器、通信模块、电源模块、传感器及执行器相关的嵌入式软件开发；",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_CAN",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_ETHERCAT",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_ETHERNET",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_RS485",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_I2C",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_SPI",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_UART",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ],
+            [
+              "V2_USB",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "2": "DUPLICATE:N0465:1",
+          "3": "DUPLICATE:N0465:1",
+          "4": "DUPLICATE:N0465:1",
+          "5": "DUPLICATE:N0465:1",
+          "6": "DUPLICATE:N0465:1",
+          "7": "DUPLICATE:N0465:1",
+          "8": "DUPLICATE:N0465:1",
+          "9": "DUPLICATE:N0465:1",
+          "10": "OUTSIDE:Bootloader未设独立目录项，参与建设不当本人独立开发",
+          "11": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNRESOLVED"
+            ]
+          ],
+          "12": "DUPLICATE:N0465:11",
+          "13": [
+            [
+              "V2_FREE_RTOS",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "14": "OUTSIDE:MCU/SoC平台厂商或型号未设冻结工具项",
+          "15": "OUTSIDE:MCU/SoC平台厂商或型号未设冻结工具项",
+          "16": "OUTSIDE:MCU/SoC平台厂商或型号未设冻结工具项",
+          "17": "OUTSIDE:MCU/SoC平台厂商或型号未设冻结工具项",
+          "18": "OUTSIDE:MCU/SoC平台厂商或型号未设冻结工具项",
+          "19": "DUPLICATE:N0465:13",
+          "20": "OUTSIDE:ThreadX未设冻结系统项",
+          "21": [
+            [
+              "V2_GIT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "22": "DUPLICATE:N0465:21",
+          "23": [
+            [
+              "V2_CAN",
+              "PREFERRED",
+              "CHOICE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "PREFERRED",
+              "CHOICE"
+            ],
+            [
+              "V2_TCPIP",
+              "PREFERRED",
+              "CHOICE"
+            ],
+            [
+              "V2_RS485",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "24": "DUPLICATE:N0465:23",
+          "25": "DUPLICATE:N0465:23",
+          "26": "DUPLICATE:N0465:23",
+          "27": "DUPLICATE:N0465:23",
+          "28": "OUTSIDE:Bootloader未设独立目录项",
+          "29": "OUTSIDE:OTA未设独立目录项"
+        },
+        "old_overrides": {
+          "O15": {
+            "metric": "REQUIRED",
+            "branch": "UNCONDITIONAL",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "至少有一项完整嵌入式项目经历为独立最低要求，不受下一条方向任选支配"
+          },
+          "O20": {
+            "metric": "PREFERRED",
+            "branch": "CHOICE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "测试、数据分析或自动化调试脚本为任选，不能独立硬化测试"
+          },
+          "O1": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O9": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O10": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O11": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O12": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O13": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          },
+          "O14": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "该证据在参与嵌入式开发/基础能力建设条款内，保留参与责任"
+          }
+        },
+        "additions": [],
+        "notes": "全文已读。多处参与保留协作，但Git基本代码管理要求明确。I²C中的C不等于C语言， 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：冻结V2_RS485别名明示包含串口；按宽串口组计入，原词不改，不解释为确定RS485协议。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_FOURIER|moka|d25059b6-b0f9-4951-9a5a-8314d6bada08|5bca70aca58567ae76eda58f6e14fe19641c6bf882a19d14c932d0e84e63e649",
+        "company_id": "CN_FOURIER",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 20,
+        "reviewed_candidate_count": 29,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 110,
+          "end": 149,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1.参与机器人控制器、通信模块、电源模块、传感器及执行器相关的嵌入式软件开发；"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5bca70aca58567ae76eda58f6e14fe19641c6bf882a19d14c932d0e84e63e649",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00"
+      }
+    },
+    "N0644": {
+      "before": {
+        "task": "FIRMWARE",
+        "fine_task": "ROBOT_MCU_DRIVER_INTERNSHIP",
+        "task_evidence": "2. 基于单片机/ARM平台进行底层驱动开发、调试与优化，包括串口、CAN、SPI、I2C等通信接口；",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": "OUTSIDE:EDP公司平台宣传未设条目",
+          "2": [
+            [
+              "V2_CAN",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_I2C",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_SPI",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "3": "OUTSIDE:ARM平台未设冻结条目",
+          "4": "DUPLICATE:N0644:2",
+          "5": "DUPLICATE:N0644:2",
+          "6": "DUPLICATE:N0644:2",
+          "7": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "8": "DUPLICATE:N0644:7",
+          "9": "OUTSIDE:STM32未设冻结条目"
+        },
+        "old_overrides": {
+          "O2": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "明确参与、协助或配合团队，保留协作语境"
+          },
+          "O3": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "明确参与、协助或配合团队，保留协作语境"
+          },
+          "O4": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "明确参与、协助或配合团队，保留协作语境"
+          },
+          "O5": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "明确参与、协助或配合团队，保留协作语境"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "明确参与、协助或配合团队，保留协作语境"
+          }
+        },
+        "additions": [
+          {
+            "code": "TC_EMBEDDED",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "2. 基于单片机/ARM平台进行底层驱动开发、调试与优化，包括串口、CAN、SPI、I2C等通信接口；",
+            "reason": "本条本人底层驱动开发动作明确，区别首句协助固件模块"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "4. 协助编写调试日志、测试用例、版本说明及相关研发文档，完成BOM与代码规范整理；",
+            "reason": "协助编写测试用例保留协作"
+          }
+        ],
+        "notes": "全文已读。明确本人驱动开发与参与模块、联调及测试分开；串口泛称不补RS485或UART。任职资格第3句接触真实项目更接近工作机会，不强行作既有经验要求。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|19df14d4-9451-47f7-a3d9-d4f846856896|2baf20d9a6a5e0f49264f7a1ce078586c4676d9e7cdfcde4e4ef75486e76275c",
+        "company_id": "CN_GALAXEA",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 8,
+        "reviewed_candidate_count": 9,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 192,
+          "end": 243,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "2. 基于单片机/ARM平台进行底层驱动开发、调试与优化，包括串口、CAN、SPI、I2C等通信接口；"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "2baf20d9a6a5e0f49264f7a1ce078586c4676d9e7cdfcde4e4ef75486e76275c",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T06:56:18.549208+00:00"
+      },
+      "reasons": [
+        "冻结V2_RS485别名明示包含串口；按宽串口组计入，原词不改，不解释为确定RS485协议。"
+      ],
+      "after": {
+        "task": "FIRMWARE",
+        "fine_task": "ROBOT_MCU_DRIVER_INTERNSHIP",
+        "task_evidence": "2. 基于单片机/ARM平台进行底层驱动开发、调试与优化，包括串口、CAN、SPI、I2C等通信接口；",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": "OUTSIDE:EDP公司平台宣传未设条目",
+          "2": [
+            [
+              "V2_CAN",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_I2C",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_SPI",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "3": "OUTSIDE:ARM平台未设冻结条目",
+          "4": "DUPLICATE:N0644:2",
+          "5": "DUPLICATE:N0644:2",
+          "6": "DUPLICATE:N0644:2",
+          "7": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "8": "DUPLICATE:N0644:7",
+          "9": "OUTSIDE:STM32未设冻结条目"
+        },
+        "old_overrides": {
+          "O2": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "明确参与、协助或配合团队，保留协作语境"
+          },
+          "O3": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "明确参与、协助或配合团队，保留协作语境"
+          },
+          "O4": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "明确参与、协助或配合团队，保留协作语境"
+          },
+          "O5": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "明确参与、协助或配合团队，保留协作语境"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "明确参与、协助或配合团队，保留协作语境"
+          }
+        },
+        "additions": [
+          {
+            "code": "TC_EMBEDDED",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "2. 基于单片机/ARM平台进行底层驱动开发、调试与优化，包括串口、CAN、SPI、I2C等通信接口；",
+            "reason": "本条本人底层驱动开发动作明确，区别首句协助固件模块"
+          },
+          {
+            "code": "TC_EVALUATION",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "4. 协助编写调试日志、测试用例、版本说明及相关研发文档，完成BOM与代码规范整理；",
+            "reason": "协助编写测试用例保留协作"
+          }
+        ],
+        "notes": "全文已读。明确本人驱动开发与参与模块、联调及测试分开；任职资格第3句接触真实项目更接近工作机会，不强行作既有经验要求。 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：冻结V2_RS485别名明示包含串口；按宽串口组计入，原词不改，不解释为确定RS485协议。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|19df14d4-9451-47f7-a3d9-d4f846856896|2baf20d9a6a5e0f49264f7a1ce078586c4676d9e7cdfcde4e4ef75486e76275c",
+        "company_id": "CN_GALAXEA",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 8,
+        "reviewed_candidate_count": 9,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 192,
+          "end": 243,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "2. 基于单片机/ARM平台进行底层驱动开发、调试与优化，包括串口、CAN、SPI、I2C等通信接口；"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "2baf20d9a6a5e0f49264f7a1ce078586c4676d9e7cdfcde4e4ef75486e76275c",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00"
+      }
+    },
+    "N0196": {
+      "before": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "SOFTWARE_FLASHING_PRODUCTION_TEST",
+        "secondary_task": "HARDWARE_TEST_QUALITY",
+        "task_evidence": "1.负责机器人整机及部件的软件生产导入，包括系统镜像部署、固件烧录、软件安装、参数配置及产测工具联调。",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "old_overrides": {
+          "O10": {
+            "metric": "GENERAL",
+            "branch": "CHOICE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "嵌入式产品产测、调试或NPI导入经验，测试为明确任选分支。"
+          },
+          "O12": {
+            "metric": "PREFERRED",
+            "branch": "CHOICE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "机器人整机或关节模组调试，关节模组为明确或分支。"
+          }
+        },
+        "new": {
+          "1": [
+            [
+              "V2_SOP_OPERATION",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": "OUTSIDE:MCU架构泛项未单列工具，已有嵌入式技术标签",
+          "3": "OUTSIDE:ARM架构泛项未单列工具",
+          "4": [
+            [
+              "V2_SHELL",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_SHELL",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "5": "DUPLICATE:N0196:4",
+          "6": "REJECT:泛称串口不能确定RS485标准",
+          "7": "OUTSIDE:SSH未单列目录",
+          "8": "DUPLICATE:N0196:4",
+          "9": [
+            [
+              "V2_CAN",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "10": "DUPLICATE:N0196:9",
+          "11": "DUPLICATE:N0196:9",
+          "12": "DUPLICATE:N0196:9",
+          "13": "DUPLICATE:N0196:9",
+          "14": [
+            [
+              "V2_MES",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "15": "DUPLICATE:N0196:14",
+          "16": [
+            [
+              "V2_YOCTO",
+              "PREFERRED",
+              "CHOICE"
+            ],
+            [
+              "V2_BUILDROOT",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "17": "DUPLICATE:N0196:16",
+          "18": "DUPLICATE:N0196:16",
+          "19": "OUTSIDE:设备树未单列",
+          "20": "OUTSIDE:内核模块未单列",
+          "21": "OUTSIDE:systemd未单列"
+        },
+        "additions": [
+          {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "4.负责产测异常定位、日志分析与问题闭环推动。参与产测工装、治具和自动化产测方案的需求定义、联调及验收，保障量产可行性。",
+            "reason": "本人生产现场异常诊断，非客户运维。"
+          }
+        ],
+        "notes": "软件烧录与产线导入，非互联网软件研发；Shell两处分别一般未知分支/示例，不相互替代。串口不指定RS485。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_ASTRIBOT|moka|a8882fa3-3139-4fda-acfa-d688943db458|d14632e2b1e3fc7ea3d5587f3d9a9229845ae7567b91431c1c458fbe8604f891",
+        "company_id": "CN_ASTRIBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 13,
+        "reviewed_candidate_count": 21,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 68,
+          "end": 119,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1.负责机器人整机及部件的软件生产导入，包括系统镜像部署、固件烧录、软件安装、参数配置及产测工具联调。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "d14632e2b1e3fc7ea3d5587f3d9a9229845ae7567b91431c1c458fbe8604f891",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:47:09.079045+00:00"
+      },
+      "reasons": [
+        "冻结V2_RS485别名明示包含串口；按宽串口组计入，原词不改，不解释为确定RS485协议。"
+      ],
+      "after": {
+        "task": "PROCESS_BUILD",
+        "fine_task": "SOFTWARE_FLASHING_PRODUCTION_TEST",
+        "secondary_task": "HARDWARE_TEST_QUALITY",
+        "task_evidence": "1.负责机器人整机及部件的软件生产导入，包括系统镜像部署、固件烧录、软件安装、参数配置及产测工具联调。",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "old_overrides": {
+          "O10": {
+            "metric": "GENERAL",
+            "branch": "CHOICE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "嵌入式产品产测、调试或NPI导入经验，测试为明确任选分支。"
+          },
+          "O12": {
+            "metric": "PREFERRED",
+            "branch": "CHOICE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "机器人整机或关节模组调试，关节模组为明确或分支。"
+          }
+        },
+        "new": {
+          "1": [
+            [
+              "V2_SOP_OPERATION",
+              "DUTY_OWN_DEVELOP",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "2": "OUTSIDE:MCU架构泛项未单列工具，已有嵌入式技术标签",
+          "3": "OUTSIDE:ARM架构泛项未单列工具",
+          "4": [
+            [
+              "V2_SHELL",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_SHELL",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "5": "DUPLICATE:N0196:4",
+          "6": "DUPLICATE:N0196:4",
+          "7": "OUTSIDE:SSH未单列目录",
+          "8": "DUPLICATE:N0196:4",
+          "9": [
+            [
+              "V2_CAN",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "PREFERRED",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "PREFERRED",
+              "EXAMPLE"
+            ]
+          ],
+          "10": "DUPLICATE:N0196:9",
+          "11": "DUPLICATE:N0196:9",
+          "12": "DUPLICATE:N0196:9",
+          "13": "DUPLICATE:N0196:9",
+          "14": [
+            [
+              "V2_MES",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "15": "DUPLICATE:N0196:14",
+          "16": [
+            [
+              "V2_YOCTO",
+              "PREFERRED",
+              "CHOICE"
+            ],
+            [
+              "V2_BUILDROOT",
+              "PREFERRED",
+              "CHOICE"
+            ]
+          ],
+          "17": "DUPLICATE:N0196:16",
+          "18": "DUPLICATE:N0196:16",
+          "19": "OUTSIDE:设备树未单列",
+          "20": "OUTSIDE:内核模块未单列",
+          "21": "OUTSIDE:systemd未单列"
+        },
+        "additions": [
+          {
+            "code": "V2_INCIDENT_SUPPORT",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "4.负责产测异常定位、日志分析与问题闭环推动。参与产测工装、治具和自动化产测方案的需求定义、联调及验收，保障量产可行性。",
+            "reason": "本人生产现场异常诊断，非客户运维。"
+          }
+        ],
+        "notes": "软件烧录与产线导入，非互联网软件研发；Shell两处分别一般未知分支/示例，不相互替代。 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：冻结V2_RS485别名明示包含串口；按宽串口组计入，原词不改，不解释为确定RS485协议。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_ASTRIBOT|moka|a8882fa3-3139-4fda-acfa-d688943db458|d14632e2b1e3fc7ea3d5587f3d9a9229845ae7567b91431c1c458fbe8604f891",
+        "company_id": "CN_ASTRIBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 13,
+        "reviewed_candidate_count": 21,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 68,
+          "end": 119,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1.负责机器人整机及部件的软件生产导入，包括系统镜像部署、固件烧录、软件安装、参数配置及产测工具联调。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "d14632e2b1e3fc7ea3d5587f3d9a9229845ae7567b91431c1c458fbe8604f891",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00"
+      }
+    },
+    "N0006": {
+      "before": {
+        "task": "SOFTWARE_DATA_TEST",
+        "fine_task": "EMBEDDED_FIRMWARE_AUTOMATION_TEST",
+        "task_evidence": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "old_overrides": {
+          "O6": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试设计执行；本人责任由其他明确交付语句另列。"
+          },
+          "O7": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试设计执行；本人责任由其他明确交付语句另列。"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试设计执行；本人责任由其他明确交付语句另列。"
+          },
+          "O9": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试设计执行；本人责任由其他明确交付语句另列。"
+          },
+          "O4": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "万用表/示波器等硬件工具明确开放示例。"
+          },
+          "O5": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "万用表/示波器等硬件工具明确开放示例。"
+          },
+          "O10": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "稳定性等为固件验证维度示例。"
+          }
+        },
+        "new": {
+          "1": [
+            [
+              "V2_CAN",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "2": "DUPLICATE:N0006:1",
+          "3": "DUPLICATE:N0006:1",
+          "4": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_FREE_RTOS",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ],
+            [
+              "V2_RT_THREAD",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "5": "DUPLICATE:N0006:4",
+          "6": "DUPLICATE:N0006:4",
+          "7": "DUPLICATE:N0006:4",
+          "8": [
+            [
+              "V2_SHELL",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "9": "DUPLICATE:N0006:8",
+          "10": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_I2C",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_SPI",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_UART",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "11": "DUPLICATE:N0006:10",
+          "12": "DUPLICATE:N0006:10",
+          "13": "DUPLICATE:N0006:10",
+          "14": "DUPLICATE:N0006:10"
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+            "reason": "明确本人设计测试用例和自动化脚本。"
+          },
+          {
+            "code": "TC_EMBEDDED",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+            "reason": "本人固件验证明确，区别首条参与总体测试。"
+          }
+        ],
+        "notes": "实习但有明确本人测试工具交付；串口未明RS485不编码。MCU和具体系统要求区分。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|360e71b4-ba7e-45ac-9a79-d80a7879bc69|b1b99df0383d3d2a65758842d880df7433baeabba74048e6933dc5e2b254cb71",
+        "company_id": "CN_GALBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 16,
+        "reviewed_candidate_count": 14,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 62,
+          "end": 106,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "b1b99df0383d3d2a65758842d880df7433baeabba74048e6933dc5e2b254cb71",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:54:03.907418+00:00"
+      },
+      "reasons": [
+        "冻结V2_RS485别名明示包含串口；按宽串口组计入，原词不改，不解释为确定RS485协议。"
+      ],
+      "after": {
+        "task": "SOFTWARE_DATA_TEST",
+        "fine_task": "EMBEDDED_FIRMWARE_AUTOMATION_TEST",
+        "task_evidence": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "old_overrides": {
+          "O6": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试设计执行；本人责任由其他明确交付语句另列。"
+          },
+          "O7": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试设计执行；本人责任由其他明确交付语句另列。"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试设计执行；本人责任由其他明确交付语句另列。"
+          },
+          "O9": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试设计执行；本人责任由其他明确交付语句另列。"
+          },
+          "O4": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "万用表/示波器等硬件工具明确开放示例。"
+          },
+          "O5": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "万用表/示波器等硬件工具明确开放示例。"
+          },
+          "O10": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "稳定性等为固件验证维度示例。"
+          }
+        },
+        "new": {
+          "1": [
+            [
+              "V2_CAN",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "2": "DUPLICATE:N0006:1",
+          "3": "DUPLICATE:N0006:1",
+          "4": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_FREE_RTOS",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ],
+            [
+              "V2_RT_THREAD",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "5": "DUPLICATE:N0006:4",
+          "6": "DUPLICATE:N0006:4",
+          "7": "DUPLICATE:N0006:4",
+          "8": [
+            [
+              "V2_SHELL",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "9": "DUPLICATE:N0006:8",
+          "10": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_I2C",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_SPI",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_UART",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "11": "DUPLICATE:N0006:10",
+          "12": "DUPLICATE:N0006:10",
+          "13": "DUPLICATE:N0006:10",
+          "14": "DUPLICATE:N0006:10"
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+            "reason": "明确本人设计测试用例和自动化脚本。"
+          },
+          {
+            "code": "TC_EMBEDDED",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+            "reason": "本人固件验证明确，区别首条参与总体测试。"
+          }
+        ],
+        "notes": "实习但有明确本人测试工具交付；MCU和具体系统要求区分。 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：冻结V2_RS485别名明示包含串口；按宽串口组计入，原词不改，不解释为确定RS485协议。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|360e71b4-ba7e-45ac-9a79-d80a7879bc69|b1b99df0383d3d2a65758842d880df7433baeabba74048e6933dc5e2b254cb71",
+        "company_id": "CN_GALBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 16,
+        "reviewed_candidate_count": 14,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 62,
+          "end": 106,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "b1b99df0383d3d2a65758842d880df7433baeabba74048e6933dc5e2b254cb71",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00"
+      }
+    },
+    "N0017": {
+      "before": {
+        "task": "SOFTWARE_DATA_TEST",
+        "fine_task": "EMBEDDED_FIRMWARE_AUTOMATION_TEST",
+        "task_evidence": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_CAN",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "2": "DUPLICATE:N0017:1",
+          "3": "DUPLICATE:N0017:1",
+          "4": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_FREE_RTOS",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ],
+            [
+              "V2_RT_THREAD",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "5": "DUPLICATE:N0017:4",
+          "6": "DUPLICATE:N0017:4",
+          "7": "DUPLICATE:N0017:4",
+          "8": [
+            [
+              "V2_SHELL",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "9": "DUPLICATE:N0017:8",
+          "10": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_I2C",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_SPI",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_UART",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "11": "DUPLICATE:N0017:10",
+          "12": "DUPLICATE:N0017:10",
+          "13": "DUPLICATE:N0017:10",
+          "14": "DUPLICATE:N0017:10",
+          "15": "OUTSIDE:STM32芯片系列或厂商未单列；MCU实践经验示例",
+          "16": "OUTSIDE:ESP32芯片系列或厂商未单列；MCU实践经验示例",
+          "17": "OUTSIDE:NXP芯片系列或厂商未单列；MCU实践经验示例",
+          "18": "OUTSIDE:TI芯片系列或厂商未单列；MCU实践经验示例"
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+            "reason": "明确本人设计测试用例和自动化脚本。"
+          },
+          {
+            "code": "TC_EMBEDDED",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+            "reason": "本人固件验证明确，区别首条参与总体测试。"
+          }
+        ],
+        "old_overrides": {
+          "O5": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试；第二条明确本人交付另列。"
+          },
+          "O6": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试；第二条明确本人交付另列。"
+          },
+          "O7": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试；第二条明确本人交付另列。"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试；第二条明确本人交付另列。"
+          },
+          "O3": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "万用表/示波器等为工具示例。"
+          },
+          "O4": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "万用表/示波器等为工具示例。"
+          },
+          "O9": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "稳定性等为测试维度示例。"
+          }
+        },
+        "notes": "逐条对照N0006；本广告系统备选为裸机系统，没有Linux；优先MCU列表有STM32/ESP32/NXP/TI，原数据独立保留。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a6e77f6c-e740-4de4-a02d-e28510bc0c42|187d3f0f08e3d0c930a82a5e4b4d8edba4fc10694a0b1fd302ff53e2a58298bc",
+        "company_id": "CN_GALBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 16,
+        "reviewed_candidate_count": 18,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 62,
+          "end": 106,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "187d3f0f08e3d0c930a82a5e4b4d8edba4fc10694a0b1fd302ff53e2a58298bc",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:56:48.077857+00:00"
+      },
+      "reasons": [
+        "冻结V2_RS485别名明示包含串口；按宽串口组计入，原词不改，不解释为确定RS485协议。"
+      ],
+      "after": {
+        "task": "SOFTWARE_DATA_TEST",
+        "fine_task": "EMBEDDED_FIRMWARE_AUTOMATION_TEST",
+        "task_evidence": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_CAN",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "2": "DUPLICATE:N0017:1",
+          "3": "DUPLICATE:N0017:1",
+          "4": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_FREE_RTOS",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ],
+            [
+              "V2_RT_THREAD",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "5": "DUPLICATE:N0017:4",
+          "6": "DUPLICATE:N0017:4",
+          "7": "DUPLICATE:N0017:4",
+          "8": [
+            [
+              "V2_SHELL",
+              "GENERAL",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "9": "DUPLICATE:N0017:8",
+          "10": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_I2C",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_SPI",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_UART",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "11": "DUPLICATE:N0017:10",
+          "12": "DUPLICATE:N0017:10",
+          "13": "DUPLICATE:N0017:10",
+          "14": "DUPLICATE:N0017:10",
+          "15": "OUTSIDE:STM32芯片系列或厂商未单列；MCU实践经验示例",
+          "16": "OUTSIDE:ESP32芯片系列或厂商未单列；MCU实践经验示例",
+          "17": "OUTSIDE:NXP芯片系列或厂商未单列；MCU实践经验示例",
+          "18": "OUTSIDE:TI芯片系列或厂商未单列；MCU实践经验示例"
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+            "reason": "明确本人设计测试用例和自动化脚本。"
+          },
+          {
+            "code": "TC_EMBEDDED",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；",
+            "reason": "本人固件验证明确，区别首条参与总体测试。"
+          }
+        ],
+        "old_overrides": {
+          "O5": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试；第二条明确本人交付另列。"
+          },
+          "O6": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试；第二条明确本人交付另列。"
+          },
+          "O7": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试；第二条明确本人交付另列。"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "首条参与测试；第二条明确本人交付另列。"
+          },
+          "O3": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "万用表/示波器等为工具示例。"
+          },
+          "O4": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "万用表/示波器等为工具示例。"
+          },
+          "O9": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "稳定性等为测试维度示例。"
+          }
+        },
+        "notes": "逐条对照N0006；本广告系统备选为裸机系统，没有Linux；优先MCU列表有STM32/ESP32/NXP/TI，原数据独立保留。 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：冻结V2_RS485别名明示包含串口；按宽串口组计入，原词不改，不解释为确定RS485协议。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|a6e77f6c-e740-4de4-a02d-e28510bc0c42|187d3f0f08e3d0c930a82a5e4b4d8edba4fc10694a0b1fd302ff53e2a58298bc",
+        "company_id": "CN_GALBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 16,
+        "reviewed_candidate_count": 18,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 62,
+          "end": 106,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "2.设计并维护测试用例和自动化脚本，实现对 MCU 固件的功能、性能、稳定性等全面验证；"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "187d3f0f08e3d0c930a82a5e4b4d8edba4fc10694a0b1fd302ff53e2a58298bc",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00"
+      }
+    },
+    "N0005": {
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "CAMERA_LIDAR_IMU_ACCEPTANCE_TEST",
+        "task_evidence": "传感器验收协助：参与人形机器人核心传感器（相机，激光雷达、IMU）的到货验收、供应商样机评测，执行功能/性能测试（如相机的深度精度、帧率、视场角；IMU的零偏漂移、响应延迟；雷达的测距精准度等），输出验收报告。",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "old_overrides": {
+          "O4": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "如ROS/ROS2为中间件示例。"
+          },
+          "O5": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "如ROS/ROS2为中间件示例。"
+          }
+        },
+        "new": {
+          "1": "REJECT:传感器来料评测不证明采购供货管理",
+          "2": "REJECT:供应商测试问题协同不证明采购能力",
+          "3": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNRESOLVED"
+            ]
+          ],
+          "4": "DUPLICATE:N0005:3",
+          "5": "OUTSIDE:STM32未单列；嵌入式开发如示例",
+          "6": "OUTSIDE:树莓派未单列；嵌入式开发如示例",
+          "7": "REJECT:串口/SSH未明确RS485协议",
+          "8": "OUTSIDE:SSH未单列",
+          "9": "REJECT:供应商现场验收是出差情境，不是采购能力",
+          "10": [
+            [
+              "V2_OPEN3D",
+              "PREFERRED",
+              "CHOICE_AND_EXAMPLE"
+            ],
+            [
+              "V2_PCL",
+              "PREFERRED",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "11": "DUPLICATE:N0005:10",
+          "12": "DUPLICATE:N0005:10",
+          "13": "REJECT:传感器供应商评测项目经验不等于采购专业"
+        },
+        "notes": "传感器验收/测试；C/C++内部关系未明但Python为明确外层或，分别保留。Open3D/PCL为点云分支示例。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|9e84e905-1c81-4382-88e2-3788909b0307|358ca7e24426da36496985e348b30c0f543a9ce262cd28e18a06e02c2207aced",
+        "company_id": "CN_GALBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 14,
+        "reviewed_candidate_count": 13,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 9,
+          "end": 114,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "传感器验收协助：参与人形机器人核心传感器（相机，激光雷达、IMU）的到货验收、供应商样机评测，执行功能/性能测试（如相机的深度精度、帧率、视场角；IMU的零偏漂移、响应延迟；雷达的测距精准度等），输出验收报告。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "358ca7e24426da36496985e348b30c0f543a9ce262cd28e18a06e02c2207aced",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:56:48.076857+00:00"
+      },
+      "reasons": [
+        "串口/SSH中的泛称串口属于冻结宽串口组，但斜线关系未决。"
+      ],
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "CAMERA_LIDAR_IMU_ACCEPTANCE_TEST",
+        "task_evidence": "传感器验收协助：参与人形机器人核心传感器（相机，激光雷达、IMU）的到货验收、供应商样机评测，执行功能/性能测试（如相机的深度精度、帧率、视场角；IMU的零偏漂移、响应延迟；雷达的测距精准度等），输出验收报告。",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "old_overrides": {
+          "O4": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "如ROS/ROS2为中间件示例。"
+          },
+          "O5": {
+            "metric": "PREFERRED",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "如ROS/ROS2为中间件示例。"
+          }
+        },
+        "new": {
+          "1": "REJECT:传感器来料评测不证明采购供货管理",
+          "2": "REJECT:供应商测试问题协同不证明采购能力",
+          "3": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNRESOLVED"
+            ]
+          ],
+          "4": "DUPLICATE:N0005:3",
+          "5": "OUTSIDE:STM32未单列；嵌入式开发如示例",
+          "6": "OUTSIDE:树莓派未单列；嵌入式开发如示例",
+          "7": [
+            [
+              "V2_RS485",
+              "GENERAL",
+              "UNRESOLVED"
+            ]
+          ],
+          "8": "OUTSIDE:SSH未单列",
+          "9": "REJECT:供应商现场验收是出差情境，不是采购能力",
+          "10": [
+            [
+              "V2_OPEN3D",
+              "PREFERRED",
+              "CHOICE_AND_EXAMPLE"
+            ],
+            [
+              "V2_PCL",
+              "PREFERRED",
+              "CHOICE_AND_EXAMPLE"
+            ]
+          ],
+          "11": "DUPLICATE:N0005:10",
+          "12": "DUPLICATE:N0005:10",
+          "13": "REJECT:传感器供应商评测项目经验不等于采购专业"
+        },
+        "notes": "传感器验收/测试；C/C++内部关系未明但Python为明确外层或，分别保留。Open3D/PCL为点云分支示例。 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：串口/SSH中的泛称串口属于冻结宽串口组，但斜线关系未决。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|9e84e905-1c81-4382-88e2-3788909b0307|358ca7e24426da36496985e348b30c0f543a9ce262cd28e18a06e02c2207aced",
+        "company_id": "CN_GALBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 14,
+        "reviewed_candidate_count": 13,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 9,
+          "end": 114,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "传感器验收协助：参与人形机器人核心传感器（相机，激光雷达、IMU）的到货验收、供应商样机评测，执行功能/性能测试（如相机的深度精度、帧率、视场角；IMU的零偏漂移、响应延迟；雷达的测距精准度等），输出验收报告。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "358ca7e24426da36496985e348b30c0f543a9ce262cd28e18a06e02c2207aced",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00"
+      }
+    },
+    "N0125": {
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "BOARD_POWER_SIGNAL_VALIDATION",
+        "task_evidence": "负责电源、信号测试方面的技术难题攻关，故障分析，测试方法改进",
+        "inherited": "REVIEWED_ACCEPT",
+        "new": {
+          "1": "OUTSIDE:电烙铁未单列；职责段本人焊样，不沿用候选一般要求默认",
+          "2": "OUTSIDE:IPD流程未单列",
+          "3": [
+            [
+              "V2_EMC_SIPI",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "4": [
+            [
+              "V2_SPECTRUM_ANALYZER",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_POWER_SUPPLY",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_USB",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "5": "DUPLICATE:N0125:4",
+          "6": "DUPLICATE:N0125:4",
+          "7": "DUPLICATE:N0125:4",
+          "8": "OUTSIDE:LCR测量仪未单列",
+          "9": "DUPLICATE:N0125:4",
+          "10": "DUPLICATE:N0125:4",
+          "11": "DUPLICATE:N0125:4",
+          "12": "DUPLICATE:N0125:4"
+        },
+        "additions": [
+          {
+            "code": "V2_PROJECT_METHOD",
+            "metric": "PREFERRED",
+            "branch": "UNCONDITIONAL",
+            "quote": "有测试项目管理 ，熟悉IPD流程优先",
+            "reason": "明确测试项目管理优先；IPD单项另保留。"
+          }
+        ],
+        "notes": "EtherCATt按明确通信接口上下文归一末尾拼写冗字；负载仪属于测试电源与负载现有类别；未将电源信号泛称补为职责EMC具体方法。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|08c352f9-8c3b-4100-894d-86425a619c10|07da5f8cfb885cac7077703d04e6827b589e05c71095b3179a63d6979145fc9a",
+        "company_id": "CN_GALBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 9,
+        "reviewed_candidate_count": 12,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 97,
+          "end": 127,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "负责电源、信号测试方面的技术难题攻关，故障分析，测试方法改进"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "07da5f8cfb885cac7077703d04e6827b589e05c71095b3179a63d6979145fc9a",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:52:51.561924+00:00"
+      },
+      "reasons": [
+        "局部RS232/485斜线关系未决，其他逗号分隔协议仍为等示例。"
+      ],
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "BOARD_POWER_SIGNAL_VALIDATION",
+        "task_evidence": "负责电源、信号测试方面的技术难题攻关，故障分析，测试方法改进",
+        "inherited": "REVIEWED_ACCEPT",
+        "new": {
+          "1": "OUTSIDE:电烙铁未单列；职责段本人焊样，不沿用候选一般要求默认",
+          "2": "OUTSIDE:IPD流程未单列",
+          "3": [
+            [
+              "V2_EMC_SIPI",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "4": [
+            [
+              "V2_SPECTRUM_ANALYZER",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_POWER_SUPPLY",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_USB",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "5": "DUPLICATE:N0125:4",
+          "6": "DUPLICATE:N0125:4",
+          "7": "DUPLICATE:N0125:4",
+          "8": "OUTSIDE:LCR测量仪未单列",
+          "9": "DUPLICATE:N0125:4",
+          "10": "DUPLICATE:N0125:4",
+          "11": "DUPLICATE:N0125:4",
+          "12": "DUPLICATE:N0125:4"
+        },
+        "additions": [
+          {
+            "code": "V2_PROJECT_METHOD",
+            "metric": "PREFERRED",
+            "branch": "UNCONDITIONAL",
+            "quote": "有测试项目管理 ，熟悉IPD流程优先",
+            "reason": "明确测试项目管理优先；IPD单项另保留。"
+          }
+        ],
+        "notes": "EtherCATt按明确通信接口上下文归一末尾拼写冗字；负载仪属于测试电源与负载现有类别；未将电源信号泛称补为职责EMC具体方法。 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：局部RS232/485斜线关系未决，其他逗号分隔协议仍为等示例。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|08c352f9-8c3b-4100-894d-86425a619c10|07da5f8cfb885cac7077703d04e6827b589e05c71095b3179a63d6979145fc9a",
+        "company_id": "CN_GALBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 9,
+        "reviewed_candidate_count": 12,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 97,
+          "end": 127,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "负责电源、信号测试方面的技术难题攻关，故障分析，测试方法改进"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "07da5f8cfb885cac7077703d04e6827b589e05c71095b3179a63d6979145fc9a",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00"
+      }
+    },
+    "E0182": {
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "HARDWARE_WHITE_BOX_VALIDATION",
+        "task_evidence": "负责机器人硬件单板及整机硬件集成白盒测试，制定测试策略与方案",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_CAN",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_I2C",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_SPI",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "2": [
+            [
+              "V2_SPECTRUM_ANALYZER",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_POWER_SUPPLY",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "3": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_I2C",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_SPI",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_USB",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "4": [
+            [
+              "V2_EMC_SIPI",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ]
+        },
+        "notes": "CE在RE/CE/ESD中为传导发射，不是产品CE认证。测试执行与方案开发均明确；PCB评审及可靠性风险意见是参与关系。",
+        "old_overrides": {
+          "O1": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "参与PCB评审不能直接算本人设计/使用PCB。"
+          },
+          "O4": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "涵盖测试项目以等列举。"
+          },
+          "O5": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "电机驱动单板测试等为示例。"
+          },
+          "O6": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "原句参与评审提出风险意见，未独立开发可靠性方案。"
+          },
+          "O8": {
+            "metric": "GENERAL",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "常用器件以等示例。"
+          }
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "执行边界测试、极限测试、异常注入测试，分析定位到元器件/电路层级",
+            "reason": "全文复核补充明确表达"
+          },
+          {
+            "code": "V2_EMC_SIPI",
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "quote": "涵盖信号完整性测试（IIC/SPI/MIPI/DDR/CAN等）、电源完整性及纹波时序测试、电机驱动单板测试等",
+            "reason": "全文复核补充明确表达"
+          },
+          {
+            "code": "V2_RCA",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "与研发协作完成根因排查与闭环验证",
+            "reason": "全文复核补充明确表达"
+          }
+        ],
+        "outside_extra": [
+          {
+            "quote": "RS232/485/CAN/SPI/IIC/USB等",
+            "description": "485按RS485规范别名；RS232保留目录外。"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7642551319508977930|e6b1fad15449c4b638dec1863cf391df57fe23b66be7f421d9b810fe392e1897",
+        "company_id": "CN_XSQUARE",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 10,
+        "reviewed_candidate_count": 4,
+        "task_evidence_location": {
+          "field": "full_description",
+          "start": 7,
+          "end": 37,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "负责机器人硬件单板及整机硬件集成白盒测试，制定测试策略与方案"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "e6b1fad15449c4b638dec1863cf391df57fe23b66be7f421d9b810fe392e1897",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T05:19:26.661051+00:00"
+      },
+      "reasons": [
+        "不同协议由斜线并列，未明示全部或任选；未决优先于等示例。"
+      ],
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "HARDWARE_WHITE_BOX_VALIDATION",
+        "task_evidence": "负责机器人硬件单板及整机硬件集成白盒测试，制定测试策略与方案",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_CAN",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_I2C",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ],
+            [
+              "V2_SPI",
+              "DUTY_OWN_USE",
+              "EXAMPLE"
+            ]
+          ],
+          "2": [
+            [
+              "V2_SPECTRUM_ANALYZER",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_POWER_SUPPLY",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "3": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_RS485",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_I2C",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_SPI",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_USB",
+              "GENERAL",
+              "UNRESOLVED"
+            ]
+          ],
+          "4": [
+            [
+              "V2_EMC_SIPI",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ]
+        },
+        "notes": "CE在RE/CE/ESD中为传导发射，不是产品CE认证。测试执行与方案开发均明确；PCB评审及可靠性风险意见是参与关系。 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：不同协议由斜线并列，未明示全部或任选；未决优先于等示例。",
+        "old_overrides": {
+          "O1": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "参与PCB评审不能直接算本人设计/使用PCB。"
+          },
+          "O4": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "涵盖测试项目以等列举。"
+          },
+          "O5": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "电机驱动单板测试等为示例。"
+          },
+          "O6": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "原句参与评审提出风险意见，未独立开发可靠性方案。"
+          },
+          "O8": {
+            "metric": "GENERAL",
+            "branch": "EXAMPLE",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "常用器件以等示例。"
+          }
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "执行边界测试、极限测试、异常注入测试，分析定位到元器件/电路层级",
+            "reason": "全文复核补充明确表达"
+          },
+          {
+            "code": "V2_EMC_SIPI",
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "quote": "涵盖信号完整性测试（IIC/SPI/MIPI/DDR/CAN等）、电源完整性及纹波时序测试、电机驱动单板测试等",
+            "reason": "全文复核补充明确表达"
+          },
+          {
+            "code": "V2_RCA",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "与研发协作完成根因排查与闭环验证",
+            "reason": "全文复核补充明确表达"
+          }
+        ],
+        "outside_extra": [
+          {
+            "quote": "RS232/485/CAN/SPI/IIC/USB等",
+            "description": "485按RS485规范别名；RS232保留目录外。"
+          }
+        ],
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_XSQUARE|feishu|7642551319508977930|e6b1fad15449c4b638dec1863cf391df57fe23b66be7f421d9b810fe392e1897",
+        "company_id": "CN_XSQUARE",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 10,
+        "reviewed_candidate_count": 4,
+        "task_evidence_location": {
+          "field": "full_description",
+          "start": 7,
+          "end": 37,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "负责机器人硬件单板及整机硬件集成白盒测试，制定测试策略与方案"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "e6b1fad15449c4b638dec1863cf391df57fe23b66be7f421d9b810fe392e1897",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00"
+      }
+    },
+    "N0124": {
+      "before": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "ACTUATOR_COMPONENT_VALIDATION",
+        "task_evidence": "1. 负责关节模组系统测试：机械性能测试，电气性能测试，控制性能测试；以及集成测试，老化测试等。",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES",
+        "old_overrides": {
+          "O7": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "分号后集成、老化测试等为示例；前半机械/控制性能测试列项保留。"
+          }
+        },
+        "new": {
+          "1": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "2": "OUTSIDE:功率分析仪未单列",
+          "3": "OUTSIDE:扭矩测试仪未单列",
+          "4": "OUTSIDE:角度编码器未单列工具",
+          "5": "OUTSIDE:振动台未单列",
+          "6": "DUPLICATE:N0124:1",
+          "7": "DUPLICATE:N0124:1"
+        },
+        "notes": "485协议明确可映射RS485；串口泛称自身不作同义证据。职责段内对电驱系统需求有深入理解能力是要求表达，保留GENERAL语义。可靠性加速机理未明确具体加速寿命试验方法，不补HALT。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|051f9454-fad7-4795-8ef2-8b0a1e8ceb54|60dfb6b1887ff6756294a14abae260e7fea44c9279a1458dda503f43e407355b",
+        "company_id": "CN_GALBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 12,
+        "reviewed_candidate_count": 7,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 7,
+          "end": 55,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1. 负责关节模组系统测试：机械性能测试，电气性能测试，控制性能测试；以及集成测试，老化测试等。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "60dfb6b1887ff6756294a14abae260e7fea44c9279a1458dda503f43e407355b",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T04:52:51.561924+00:00"
+      },
+      "reasons": [
+        "本广告已因明确485协议有串口组正例；补充说明泛称串口也在冻结别名内，不增加计数。"
+      ],
+      "after": {
+        "task": "HARDWARE_TEST_QUALITY",
+        "fine_task": "ACTUATOR_COMPONENT_VALIDATION",
+        "task_evidence": "1. 负责关节模组系统测试：机械性能测试，电气性能测试，控制性能测试；以及集成测试，老化测试等。",
+        "inherited": "REVIEWED_WITH_DERIVED_OVERRIDES",
+        "old_overrides": {
+          "O7": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "EXAMPLE",
+            "relation": "OWN_USE",
+            "reason": "分号后集成、老化测试等为示例；前半机械/控制性能测试列项保留。"
+          }
+        },
+        "new": {
+          "1": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "2": "OUTSIDE:功率分析仪未单列",
+          "3": "OUTSIDE:扭矩测试仪未单列",
+          "4": "OUTSIDE:角度编码器未单列工具",
+          "5": "OUTSIDE:振动台未单列",
+          "6": "DUPLICATE:N0124:1",
+          "7": "DUPLICATE:N0124:1"
+        },
+        "notes": "485协议明确可映射RS485；职责段内对电驱系统需求有深入理解能力是要求表达，保留GENERAL语义。可靠性加速机理未明确具体加速寿命试验方法，不补HALT。 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：本广告已因明确485协议有串口组正例；补充说明泛称串口也在冻结别名内，不增加计数。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|051f9454-fad7-4795-8ef2-8b0a1e8ceb54|60dfb6b1887ff6756294a14abae260e7fea44c9279a1458dda503f43e407355b",
+        "company_id": "CN_GALBOT",
+        "role": "RF_MANUFACTURING_QUALITY_SUPPLY",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 12,
+        "reviewed_candidate_count": 7,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 7,
+          "end": 55,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1. 负责关节模组系统测试：机械性能测试，电气性能测试，控制性能测试；以及集成测试，老化测试等。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "60dfb6b1887ff6756294a14abae260e7fea44c9279a1458dda503f43e407355b",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00"
+      }
+    },
+    "N0630": {
+      "before": {
+        "task": "FIRMWARE",
+        "fine_task": "DRIVEOS_SENSOR_PIPELINE_EDGE_INFERENCE",
+        "task_evidence": "1、基于 NVIDIA DriveOS 完成域控 BSP 适配、多路相机驱动与 NVSIPL 视频采集链路开发，优化低时延数据流",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": "OUTSIDE:NVIDIA DriveOS未设冻结系统项",
+          "2": "OUTSIDE:NVSIPL未设冻结工具项",
+          "3": [
+            [
+              "V2_ETHERNET",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_PTP",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": "OUTSIDE:DriveWorks未设冻结工具项",
+          "5": [
+            [
+              "V2_TENSORRT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "6": "DUPLICATE:N0630:5",
+          "7": [
+            [
+              "V2_CI_CD",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "8": [
+            [
+              "V2_QNX",
+              "GENERAL",
+              "UNRESOLVED"
+            ]
+          ],
+          "9": "DUPLICATE:N0630:8",
+          "10": "OUTSIDE:DriveOS未设冻结系统项",
+          "11": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_TENSORRT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_ETHERNET",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_PTP",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "12": "OUTSIDE:NVMedia未设冻结工具项",
+          "13": "OUTSIDE:NVStream未设冻结工具项",
+          "14": "DUPLICATE:N0630:11",
+          "15": [
+            [
+              "V2_PERF",
+              "PREFERRED",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_MODEL_COMPRESSION",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "16": "DUPLICATE:N0630:15",
+          "17": "OUTSIDE:nvprof未设冻结工具项"
+        },
+        "old_overrides": {
+          "O3": {
+            "metric": "GENERAL",
+            "branch": "UNRESOLVED",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "C/C++斜线关系未解析，不将C++独立硬化"
+          },
+          "O8": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNRESOLVED",
+            "relation": "OWN_USE",
+            "reason": "VLA/WAM斜线关系未解析；系统部署工作本身仍明确"
+          }
+        },
+        "additions": [
+          {
+            "code": "V2_MODEL_COMPRESSION",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "4、负责 VLA/WAM 模型在 Drive Orin/Thor 平台 TensorRT 部署、算子适配、推理时延与并发算力调优",
+            "reason": "明确推理优化工作，记录调优子型，不推定已用量化"
+          }
+        ],
+        "outside_extra": [
+          {
+            "quote": "懂多传感器时空对齐方案",
+            "description": "多传感器时空对齐方法未直接明示标定，保留方法原词，不从相近主题补标定"
+          }
+        ],
+        "notes": "完整正文。保持原认可硬件主职能，任务细分为系统固件与推理集成，不改主类。DriveOS平台家族与已具名TensorRT/CUDA分开。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|bfac5bc1-c400-4f14-bf61-fba2718778ec|5198266d4908dfec52b7fa140a55e13efc78dce75d3d4b8147f47f8ba175588b",
+        "company_id": "CN_GALAXEA",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 16,
+        "reviewed_candidate_count": 17,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 0,
+          "end": 64,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1、基于 NVIDIA DriveOS 完成域控 BSP 适配、多路相机驱动与 NVSIPL 视频采集链路开发，优化低时延数据流"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5198266d4908dfec52b7fa140a55e13efc78dce75d3d4b8147f47f8ba175588b",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T06:58:32.472278+00:00"
+      },
+      "reasons": [
+        "V2_MODEL_COMPRESSION名称含推理优化，但冻结定义限定量化/蒸馏/裁剪/低秩适配；职责只明示时延调优，不能当模型压缩开发。明确模型量化GENERAL保留。"
+      ],
+      "after": {
+        "task": "FIRMWARE",
+        "fine_task": "DRIVEOS_SENSOR_PIPELINE_EDGE_INFERENCE",
+        "task_evidence": "1、基于 NVIDIA DriveOS 完成域控 BSP 适配、多路相机驱动与 NVSIPL 视频采集链路开发，优化低时延数据流",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": "OUTSIDE:NVIDIA DriveOS未设冻结系统项",
+          "2": "OUTSIDE:NVSIPL未设冻结工具项",
+          "3": [
+            [
+              "V2_ETHERNET",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_PTP",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "4": "OUTSIDE:DriveWorks未设冻结工具项",
+          "5": [
+            [
+              "V2_TENSORRT",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "6": "DUPLICATE:N0630:5",
+          "7": [
+            [
+              "V2_CI_CD",
+              "DUTY_OWN_USE",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "8": [
+            [
+              "V2_QNX",
+              "GENERAL",
+              "UNRESOLVED"
+            ]
+          ],
+          "9": "DUPLICATE:N0630:8",
+          "10": "OUTSIDE:DriveOS未设冻结系统项",
+          "11": [
+            [
+              "V2_C",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_TENSORRT",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_ETHERNET",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ],
+            [
+              "V2_PTP",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "12": "OUTSIDE:NVMedia未设冻结工具项",
+          "13": "OUTSIDE:NVStream未设冻结工具项",
+          "14": "DUPLICATE:N0630:11",
+          "15": [
+            [
+              "V2_PERF",
+              "PREFERRED",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_MODEL_COMPRESSION",
+              "GENERAL",
+              "UNCONDITIONAL"
+            ]
+          ],
+          "16": "DUPLICATE:N0630:15",
+          "17": "OUTSIDE:nvprof未设冻结工具项"
+        },
+        "old_overrides": {
+          "O3": {
+            "metric": "GENERAL",
+            "branch": "UNRESOLVED",
+            "relation": "EXPERIENCE_REQUIREMENT",
+            "reason": "C/C++斜线关系未解析，不将C++独立硬化"
+          },
+          "O8": {
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNRESOLVED",
+            "relation": "OWN_USE",
+            "reason": "VLA/WAM斜线关系未解析；系统部署工作本身仍明确"
+          }
+        },
+        "additions": [],
+        "outside_extra": [
+          {
+            "quote": "懂多传感器时空对齐方案",
+            "description": "多传感器时空对齐方法未直接明示标定，保留方法原词，不从相近主题补标定"
+          },
+          {
+            "quote": "4、负责 VLA/WAM 模型在 Drive Orin/Thor 平台 TensorRT 部署、算子适配、推理时延与并发算力调优",
+            "description": "推理调优职责本身没有明示压缩方法，V2_MODEL_COMPRESSION不作职责正例；保留TC_ML_SYSTEMS与工具。"
+          }
+        ],
+        "notes": "完整正文。保持原认可硬件主职能，任务细分为系统固件与推理集成，不改主类。DriveOS平台家族与已具名TensorRT/CUDA分开。 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：V2_MODEL_COMPRESSION名称含推理优化，但冻结定义限定量化/蒸馏/裁剪/低秩适配；职责只明示时延调优，不能当模型压缩开发。明确模型量化GENERAL保留。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|bfac5bc1-c400-4f14-bf61-fba2718778ec|5198266d4908dfec52b7fa140a55e13efc78dce75d3d4b8147f47f8ba175588b",
+        "company_id": "CN_GALAXEA",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 16,
+        "reviewed_candidate_count": 17,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 0,
+          "end": 64,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1、基于 NVIDIA DriveOS 完成域控 BSP 适配、多路相机驱动与 NVSIPL 视频采集链路开发，优化低时延数据流"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "5198266d4908dfec52b7fa140a55e13efc78dce75d3d4b8147f47f8ba175588b",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00"
+      }
+    },
+    "N0168": {
+      "before": {
+        "task": "BOARD_CIRCUIT",
+        "fine_task": "ROBOT_END_EFFECTOR_TELEOP_DEVICE_ELECTRONICS",
+        "task_evidence": "1）负责机器人及末端执行器、遥操数采设备相关产品的硬件架构设计、方案选型及技术论证，覆盖驱动系统、感知系统（精通摄像头、力传感、编码器、触觉传感器）、控制系统等核心模块。",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_EMC_SIPI",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "2": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "3": "DUPLICATE:N0168:2",
+          "4": "DUPLICATE:N0168:2",
+          "5": "DUPLICATE:N0168:2",
+          "6": [
+            [
+              "V2_ORCAD",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ALLEGRO",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "7": "DUPLICATE:N0168:6",
+          "8": "DUPLICATE:N0168:6"
+        },
+        "old_overrides": {
+          "O4": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "EXAMPLE",
+            "relation": "OWN_DEVELOP",
+            "reason": "驱动系统在覆盖…等模块示例列表内"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "完整句明确配合硬件测试，保存协作责任"
+          },
+          "O9": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "完整句明确配合硬件测试，保存协作责任"
+          },
+          "O10": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "完整句明确配合硬件测试，保存协作责任"
+          }
+        },
+        "additions": [
+          {
+            "code": "V2_TELEOP",
+            "metric": "SEPARATE",
+            "branch": "BACKGROUND",
+            "quote": "1）负责机器人及末端执行器、遥操数采设备相关产品的硬件架构设计、方案选型及技术论证，覆盖驱动系统、感知系统（精通摄像头、力传感、编码器、触觉传感器）、控制系统等核心模块。",
+            "reason": "遥操数采设备是硬件设计对象，不说明本人实施遥操作/示教采集"
+          },
+          {
+            "code": "V2_SAFETY_STANDARDS",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "4）配合硬件测试完成机器人整机可靠性、寿命、EMC、认证、安规等并分析解决其中出现的问题；",
+            "reason": "安规验证为配合硬件测试"
+          }
+        ],
+        "outside_extra": [
+          {
+            "quote": "完成原理图设计、PCB Layout、BOM、SMT、硬件调试、单元测试以及整机问题分析解决；",
+            "description": "SMT装配流程未设冻结独立方法项，不补IPC规范"
+          }
+        ],
+        "notes": "全文已读。硬件方案中的遥操设备对象与示教数据采集方法分开。自身单元测试保留，配合其他测试责任另列。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|98f8e4ed-5628-4243-a8cd-8afdb635d6f1|a4ce5e4657b5971ec5a616262cf3a8dc5400dc22b2082b88399bd230dcc74d1b",
+        "company_id": "CN_GALBOT",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 12,
+        "reviewed_candidate_count": 8,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 7,
+          "end": 92,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1）负责机器人及末端执行器、遥操数采设备相关产品的硬件架构设计、方案选型及技术论证，覆盖驱动系统、感知系统（精通摄像头、力传感、编码器、触觉传感器）、控制系统等核心模块。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "a4ce5e4657b5971ec5a616262cf3a8dc5400dc22b2082b88399bd230dcc74d1b",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:04:10.709471+00:00"
+      },
+      "reasons": [
+        "冻结V2_TELEOP允许遥操系统开发另判开发关系；明确遥操数采设备硬件架构设计属于开发，不是本人遥操作采集。"
+      ],
+      "after": {
+        "task": "BOARD_CIRCUIT",
+        "fine_task": "ROBOT_END_EFFECTOR_TELEOP_DEVICE_ELECTRONICS",
+        "task_evidence": "1）负责机器人及末端执行器、遥操数采设备相关产品的硬件架构设计、方案选型及技术论证，覆盖驱动系统、感知系统（精通摄像头、力传感、编码器、触觉传感器）、控制系统等核心模块。",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": [
+            [
+              "V2_EMC_SIPI",
+              "SEPARATE",
+              "COLLABORATION_OBJECT"
+            ]
+          ],
+          "2": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ETHERCAT",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_RS485",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "3": "DUPLICATE:N0168:2",
+          "4": "DUPLICATE:N0168:2",
+          "5": "DUPLICATE:N0168:2",
+          "6": [
+            [
+              "V2_ORCAD",
+              "GENERAL",
+              "EXAMPLE"
+            ],
+            [
+              "V2_ALLEGRO",
+              "GENERAL",
+              "EXAMPLE"
+            ]
+          ],
+          "7": "DUPLICATE:N0168:6",
+          "8": "DUPLICATE:N0168:6"
+        },
+        "old_overrides": {
+          "O4": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "EXAMPLE",
+            "relation": "OWN_DEVELOP",
+            "reason": "驱动系统在覆盖…等模块示例列表内"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "完整句明确配合硬件测试，保存协作责任"
+          },
+          "O9": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "完整句明确配合硬件测试，保存协作责任"
+          },
+          "O10": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "完整句明确配合硬件测试，保存协作责任"
+          }
+        },
+        "additions": [
+          {
+            "code": "V2_TELEOP",
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "UNCONDITIONAL",
+            "quote": "1）负责机器人及末端执行器、遥操数采设备相关产品的硬件架构设计、方案选型及技术论证，覆盖驱动系统、感知系统（精通摄像头、力传感、编码器、触觉传感器）、控制系统等核心模块。",
+            "reason": "明确遥操数采设备相关硬件架构设计，按冻结定义记录开发；不计本人操作/示教使用。"
+          },
+          {
+            "code": "V2_SAFETY_STANDARDS",
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "quote": "4）配合硬件测试完成机器人整机可靠性、寿命、EMC、认证、安规等并分析解决其中出现的问题；",
+            "reason": "安规验证为配合硬件测试"
+          }
+        ],
+        "outside_extra": [
+          {
+            "quote": "完成原理图设计、PCB Layout、BOM、SMT、硬件调试、单元测试以及整机问题分析解决；",
+            "description": "SMT装配流程未设冻结独立方法项，不补IPC规范"
+          }
+        ],
+        "notes": "全文已读。硬件方案中的遥操设备对象与示教数据采集方法分开。自身单元测试保留，配合其他测试责任另列。 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：冻结V2_TELEOP允许遥操系统开发另判开发关系；明确遥操数采设备硬件架构设计属于开发，不是本人遥操作采集。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALBOT|moka|98f8e4ed-5628-4243-a8cd-8afdb635d6f1|a4ce5e4657b5971ec5a616262cf3a8dc5400dc22b2082b88399bd230dcc74d1b",
+        "company_id": "CN_GALBOT",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 12,
+        "reviewed_candidate_count": 8,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 7,
+          "end": 92,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1）负责机器人及末端执行器、遥操数采设备相关产品的硬件架构设计、方案选型及技术论证，覆盖驱动系统、感知系统（精通摄像头、力传感、编码器、触觉传感器）、控制系统等核心模块。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "a4ce5e4657b5971ec5a616262cf3a8dc5400dc22b2082b88399bd230dcc74d1b",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00"
+      }
+    },
+    "N0642": {
+      "before": {
+        "task": "BOARD_CIRCUIT",
+        "fine_task": "HUMANOID_JOINT_DRIVE_POWER_BOARD",
+        "task_evidence": "1. 负责人形机器人关节模组驱动硬件开发，覆盖150W–1500W功率等级，完成方案设计、原理图、PCB Layout、工程文件输出及PCBA测试。",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": "OUTSIDE:EDP公司平台宣传未设条目",
+          "2": [
+            [
+              "V2_CAN",
+              "DUTY_OWN_USE",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_ETHERCAT",
+              "DUTY_OWN_USE",
+              "UNRESOLVED"
+            ]
+          ],
+          "3": "DUPLICATE:N0642:2",
+          "4": "DUPLICATE:N0642:2",
+          "5": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_ETHERCAT",
+              "GENERAL",
+              "UNRESOLVED"
+            ]
+          ],
+          "6": "DUPLICATE:N0642:5",
+          "7": "DUPLICATE:N0642:5"
+        },
+        "old_overrides": {
+          "O5": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "EXAMPLE",
+            "relation": "OWN_DEVELOP",
+            "reason": "含散热与温升优化为主控硬件子任务列举，明确散热符合热管理定义"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "完整句为与结构软件测试协同完成验证"
+          },
+          "O14": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "与团队协同验证温升，非本人无条件使用热管理"
+          },
+          "O15": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "与团队协同可靠性验证，非本人无条件执行"
+          }
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "1. 负责人形机器人关节模组驱动硬件开发，覆盖150W–1500W功率等级，完成方案设计、原理图、PCB Layout、工程文件输出及PCBA测试。",
+            "reason": "本条明确本人完成PCBA测试，不依赖协同验证证据"
+          },
+          {
+            "code": "V2_PROCUREMENT",
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "quote": "4. 了解硬件国产化选型、供应链导入与量产质量管控流程。",
+            "reason": "要求供应链导入流程知识，不解作已本人采购或谈判"
+          },
+          {
+            "code": "V2_SOP_OPERATION",
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "quote": "4. 了解硬件国产化选型、供应链导入与量产质量管控流程。",
+            "reason": "明确量产质量管控流程知识"
+          }
+        ],
+        "notes": "全文已读。散热明确，温升协同测试另列。通信用CAN/EtherCAT斜线保留未知。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|8520347f-1050-4bbb-858a-2a7df1ae784c|01bb1b540db8a245def94469320ea090ae3706fc3da689d06b01ecbd8580b28c",
+        "company_id": "CN_GALAXEA",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 15,
+        "reviewed_candidate_count": 7,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 149,
+          "end": 223,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1. 负责人形机器人关节模组驱动硬件开发，覆盖150W–1500W功率等级，完成方案设计、原理图、PCB Layout、工程文件输出及PCBA测试。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "01bb1b540db8a245def94469320ea090ae3706fc3da689d06b01ecbd8580b28c",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T06:58:32.471772+00:00"
+      },
+      "reasons": [
+        "供应链导入流程不明示询报价、寻源、谈判或供货管理，删除过宽采购能力推断；质量流程知识另保留。"
+      ],
+      "after": {
+        "task": "BOARD_CIRCUIT",
+        "fine_task": "HUMANOID_JOINT_DRIVE_POWER_BOARD",
+        "task_evidence": "1. 负责人形机器人关节模组驱动硬件开发，覆盖150W–1500W功率等级，完成方案设计、原理图、PCB Layout、工程文件输出及PCBA测试。",
+        "inherited": "REVIEWED_ACCEPT_WITH_DERIVED_OVERRIDES_RETAINED_UNKNOWN",
+        "new": {
+          "1": "OUTSIDE:EDP公司平台宣传未设条目",
+          "2": [
+            [
+              "V2_CAN",
+              "DUTY_OWN_USE",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_ETHERCAT",
+              "DUTY_OWN_USE",
+              "UNRESOLVED"
+            ]
+          ],
+          "3": "DUPLICATE:N0642:2",
+          "4": "DUPLICATE:N0642:2",
+          "5": [
+            [
+              "V2_CAN",
+              "GENERAL",
+              "UNRESOLVED"
+            ],
+            [
+              "V2_ETHERCAT",
+              "GENERAL",
+              "UNRESOLVED"
+            ]
+          ],
+          "6": "DUPLICATE:N0642:5",
+          "7": "DUPLICATE:N0642:5"
+        },
+        "old_overrides": {
+          "O5": {
+            "metric": "DUTY_OWN_DEVELOP",
+            "branch": "EXAMPLE",
+            "relation": "OWN_DEVELOP",
+            "reason": "含散热与温升优化为主控硬件子任务列举，明确散热符合热管理定义"
+          },
+          "O8": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "完整句为与结构软件测试协同完成验证"
+          },
+          "O14": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "与团队协同验证温升，非本人无条件使用热管理"
+          },
+          "O15": {
+            "metric": "SEPARATE",
+            "branch": "COLLABORATION_OBJECT",
+            "relation": "COLLABORATION_OBJECT",
+            "reason": "与团队协同可靠性验证，非本人无条件执行"
+          }
+        },
+        "additions": [
+          {
+            "code": "TC_EVALUATION",
+            "metric": "DUTY_OWN_USE",
+            "branch": "UNCONDITIONAL",
+            "quote": "1. 负责人形机器人关节模组驱动硬件开发，覆盖150W–1500W功率等级，完成方案设计、原理图、PCB Layout、工程文件输出及PCBA测试。",
+            "reason": "本条明确本人完成PCBA测试，不依赖协同验证证据"
+          },
+          {
+            "code": "V2_SOP_OPERATION",
+            "metric": "GENERAL",
+            "branch": "UNCONDITIONAL",
+            "quote": "4. 了解硬件国产化选型、供应链导入与量产质量管控流程。",
+            "reason": "明确量产质量管控流程知识"
+          }
+        ],
+        "notes": "全文已读。散热明确，温升协同测试另列。通信用CAN/EtherCAT斜线保留未知。 定向定义回查Q-M5-FROZEN-DEFINITION-20260916-08：供应链导入流程不明示询报价、寻源、谈判或供货管理，删除过宽采购能力推断；质量流程知识另保留。",
+        "identity_key": "REFERENCE1654_USER_ACCEPTED_2026_09_14_V1|CN_GALAXEA|zhiye|8520347f-1050-4bbb-858a-2a7df1ae784c|01bb1b540db8a245def94469320ea090ae3706fc3da689d06b01ecbd8580b28c",
+        "company_id": "CN_GALAXEA",
+        "role": "RF_HARDWARE_ELECTRICAL",
+        "status": "CODED_FIRST_PASS",
+        "reviewed_inherited_count": 15,
+        "reviewed_candidate_count": 7,
+        "task_evidence_location": {
+          "field": "duties",
+          "start": 149,
+          "end": 223,
+          "method": "UNIQUE_EXACT_QUOTE",
+          "quote": "1. 负责人形机器人关节模组驱动硬件开发，覆盖150W–1500W功率等级，完成方案设计、原理图、PCB Layout、工程文件输出及PCBA测试。"
+        },
+        "reader": "Astra",
+        "qc_status": "PENDING_SECOND_PASS",
+        "source_version": "01bb1b540db8a245def94469320ea090ae3706fc3da689d06b01ecbd8580b28c",
+        "full_text_read": true,
+        "updated_utc": "2026-09-16T07:09:33.446250+00:00",
+        "outside_extra": [
+          {
+            "quote": "4. 了解硬件国产化选型、供应链导入与量产质量管控流程。",
+            "description": "供应链导入流程未具体到冻结采购/供货管理方法，不据此补采购能力。"
+          }
+        ]
+      }
+    }
+  },
+  "reviewed_kept": {
+    "N0515": "供应商管理能力明确，保留供货管理宽方法GENERAL，不解释为询报价谈判。",
+    "N0480": "硬件轻量化排除模型压缩。",
+    "N0274_N0263_N0268_E0059_E0025": "量化报告/指标/批量化生产不是模型量化，维持排除。",
+    "E0530": "分拣遥操工具包是对象处理，不是本人遥操作或开发，维持背景。"
+  },
+  "frozen_catalog_changed": false,
+  "original_reference_changed": false
+}

@@ -1,0 +1,154 @@
+{
+  "n_ads": 1654,
+  "n_assessable_all24": 1623,
+  "n_assessable_whole23": 1599,
+  "n_whole_companies": 23,
+  "far": [
+    "US_AMAZON_FTR"
+  ],
+  "headline_cross": {
+    "ACT_RESEARCH": {
+      "owned_all24": 75,
+      "expected": 75,
+      "matches": true,
+      "top": [
+        [
+          "RF_ML_AI_ENGINEERING",
+          36
+        ],
+        [
+          "RF_RESEARCH_SCIENCE",
+          27
+        ],
+        [
+          "RF_PERCEPTION",
+          5
+        ],
+        [
+          "RF_CONTROL_PLANNING",
+          2
+        ],
+        [
+          "RF_ROBOTICS_SOFTWARE",
+          2
+        ],
+        [
+          "RF_SIMULATION_EVALUATION",
+          2
+        ]
+      ],
+      "sum_of_primary_rows": 75,
+      "ambiguous_in_pos": 0,
+      "source_unassessable_in_pos": 0
+    },
+    "ACT_DEPLOYMENT": {
+      "owned_all24": 351,
+      "expected": 351,
+      "matches": true,
+      "top": [
+        [
+          "RF_DEPLOYMENT_FIELD_SERVICE",
+          80
+        ],
+        [
+          "RF_ML_AI_ENGINEERING",
+          59
+        ],
+        [
+          "RF_ROBOTICS_SOFTWARE",
+          55
+        ],
+        [
+          "RF_CONTROL_PLANNING",
+          29
+        ],
+        [
+          "RF_MANUFACTURING_QUALITY_SUPPLY",
+          29
+        ],
+        [
+          "RF_PERCEPTION",
+          21
+        ]
+      ],
+      "sum_of_primary_rows": 351,
+      "ambiguous_in_pos": 0,
+      "source_unassessable_in_pos": 0
+    },
+    "ACT_QUALITY": {
+      "owned_all24": 466,
+      "expected": 466,
+      "matches": true,
+      "top": [
+        [
+          "RF_MANUFACTURING_QUALITY_SUPPLY",
+          160
+        ],
+        [
+          "RF_HARDWARE_ELECTRICAL",
+          56
+        ],
+        [
+          "RF_MECHANICAL_MECHATRONICS",
+          38
+        ],
+        [
+          "RF_DEPLOYMENT_FIELD_SERVICE",
+          34
+        ],
+        [
+          "RF_ML_AI_ENGINEERING",
+          32
+        ],
+        [
+          "RF_SIMULATION_EVALUATION",
+          26
+        ]
+      ],
+      "sum_of_primary_rows": 466,
+      "ambiguous_in_pos": 0,
+      "source_unassessable_in_pos": 0
+    }
+  },
+  "pair_summary": [
+    {
+      "scope": "ALL24",
+      "pair_id": "P1_RESEARCH_ENGINEERING",
+      "n_assessable": 1623,
+      "n_both_owned_raw": 71,
+      "n_unconditional": 71,
+      "n_conditional": 0,
+      "n_alternative_only": 0,
+      "n_unresolved": 0,
+      "share_unconditional_of_assessable": 0.0437461491,
+      "n_companies_in_both": 14
+    },
+    {
+      "scope": "ALL24",
+      "pair_id": "P2_ENGINEERING_QUALITY",
+      "n_assessable": 1623,
+      "n_both_owned_raw": 308,
+      "n_unconditional": 300,
+      "n_conditional": 0,
+      "n_alternative_only": 0,
+      "n_unresolved": 8,
+      "share_unconditional_of_assessable": 0.1848428835,
+      "n_companies_in_both": 23
+    },
+    {
+      "scope": "ALL24",
+      "pair_id": "P3_ENGINEERING_DEPLOYMENT",
+      "n_assessable": 1623,
+      "n_both_owned_raw": 243,
+      "n_unconditional": 231,
+      "n_conditional": 0,
+      "n_alternative_only": 0,
+      "n_unresolved": 12,
+      "share_unconditional_of_assessable": 0.1423290203,
+      "n_companies_in_both": 22
+    }
+  ],
+  "n_structured_ads": 30,
+  "d3_vs_published_t4_mismatches": [],
+  "d3_cells_compared": 168
+}

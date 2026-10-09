@@ -1,0 +1,442 @@
+{
+  "version": "Q2-v2.1",
+  "assignment": "研究者全文判断；可多值，主任务无法确定记UNRESOLVED。不可由关键词或原主职能自动赋任务。",
+  "comparison": "主结果按职能描述组合；同任务子层另算，不把宽泛子层等同完全相同工作，细任务和对象均保留。",
+  "new_tasks": "目录未覆盖记OTHER并留证；统一变更后回看受影响全部广告。",
+  "roles": {
+    "RF_MANUFACTURING_QUALITY_SUPPLY": [
+      {
+        "task_code": "PROCESS_BUILD",
+        "name": "生产工艺、装配和原型制造",
+        "definition": "本人交付制造工艺、实物装配或试制；供应商采购、检验结论和软件测试分列。"
+      },
+      {
+        "task_code": "HARDWARE_TEST_QUALITY",
+        "name": "硬件与整机测试质量",
+        "definition": "本人交付硬件/整机验证、检验或质量闭环；可复用工具链仍保留原主职能。"
+      },
+      {
+        "task_code": "SOFTWARE_DATA_TEST",
+        "name": "软件和数据测试",
+        "definition": "软件接口、性能、数据平台测试与质量；不与硬件良率直接比较。"
+      },
+      {
+        "task_code": "PROCUREMENT_SUPPLY",
+        "name": "采购与供应链",
+        "definition": "寻源、供应商、采购、交付或物流流程；库存实操另列。"
+      },
+      {
+        "task_code": "MATERIAL_INVENTORY",
+        "name": "物料与库存操作",
+        "definition": "物料准备、库存、搬运及内部交付；不推断采购决策。"
+      }
+    ],
+    "RF_HARDWARE_ELECTRICAL": [
+      {
+        "task_code": "BOARD_CIRCUIT",
+        "name": "电路板与器件设计",
+        "definition": "板卡、PCB、电源和驱动电路；保留具体板卡对象。"
+      },
+      {
+        "task_code": "FIRMWARE",
+        "name": "嵌入式固件与驱动",
+        "definition": "底层驱动、MCU、RTOS、ISP或电机固件；不等同电路设计。"
+      },
+      {
+        "task_code": "HARNESS_SYSTEM",
+        "name": "电气互连与系统架构",
+        "definition": "线束、连接器、电气系统架构与接口。"
+      },
+      {
+        "task_code": "FPGA",
+        "name": "FPGA与数字逻辑",
+        "definition": "可编程逻辑设计、验证及与板卡集成。"
+      }
+    ],
+    "RF_ML_AI_ENGINEERING": [
+      {
+        "task_code": "ROBOT_MODEL",
+        "name": "机器人模型与策略",
+        "definition": "直接训练/优化机器人策略或具身基础模型；保留预训练/后训练等细项。"
+      },
+      {
+        "task_code": "TRAIN_INFER_INFRA",
+        "name": "训练推理基础设施",
+        "definition": "训练编排、算力性能、部署推理服务；不把所有软件平台算模型研究。"
+      },
+      {
+        "task_code": "DATA_EVAL_FOR_ML",
+        "name": "学习数据与评测管线",
+        "definition": "服务模型研发的数据/评测工程；按主交付保持既有分类。"
+      },
+      {
+        "task_code": "OTHER_MODEL",
+        "name": "其他模型应用",
+        "definition": "语音、业务分析等明确模型任务，与机器人动作策略区分。"
+      }
+    ],
+    "RF_ROBOTICS_SOFTWARE": [
+      {
+        "task_code": "ROBOT_RUNTIME",
+        "name": "机器人运行软件",
+        "definition": "中间件、运行时、嵌入式上层、机器人应用与遥操软件；保留子对象。"
+      },
+      {
+        "task_code": "ROBOT_CLOUD_UI",
+        "name": "机器人云端与交互",
+        "definition": "机器人云平台、控制界面、移动终端与车队服务。"
+      },
+      {
+        "task_code": "DEV_INFRA",
+        "name": "开发与数据平台",
+        "definition": "通用开发、测试、运维、数据及工程管理系统。"
+      },
+      {
+        "task_code": "BUSINESS_APP",
+        "name": "业务应用系统",
+        "definition": "支付、身份、履单、CRM等业务系统；不解释为机器人控制栈。"
+      },
+      {
+        "task_code": "CUSTOMER_INTEGRATION",
+        "name": "客户软件集成",
+        "definition": "客户系统接口与软件集成应用；与内部运行平台分列。"
+      }
+    ],
+    "RF_COMMERCIAL_CUSTOMER": [
+      {
+        "task_code": "SALES",
+        "name": "销售与渠道经营",
+        "definition": "企业/区域/渠道销售、商务拓展及销售支持。"
+      },
+      {
+        "task_code": "CUSTOMER_SUCCESS",
+        "name": "客户成功与用户支持",
+        "definition": "客户体验、续约、服务运营与用户问题闭环。"
+      },
+      {
+        "task_code": "MARKETING",
+        "name": "品牌营销与传播",
+        "definition": "市场活动、内容、视频、公关与技术传播。"
+      },
+      {
+        "task_code": "ECOSYSTEM",
+        "name": "开发者与合作生态",
+        "definition": "开发者社区、伙伴计划和生态经营。"
+      },
+      {
+        "task_code": "STRATEGY",
+        "name": "商业战略分析",
+        "definition": "市场、竞争、金融与商业策略分析。"
+      }
+    ],
+    "RF_CONTROL_PLANNING": [
+      {
+        "task_code": "LOCOMOTION_WBC",
+        "name": "运动与全身控制",
+        "definition": "腿足运动、平衡和全身控制；不与车队调度合并。"
+      },
+      {
+        "task_code": "MANIPULATION",
+        "name": "机械臂与灵巧手控制",
+        "definition": "手臂、末端、双臂操作与力控。"
+      },
+      {
+        "task_code": "NAV_PLANNING",
+        "name": "导航与运动规划",
+        "definition": "单机路径、轨迹或移动操作规划。"
+      },
+      {
+        "task_code": "FLEET_PLANNING",
+        "name": "多机与车队规划",
+        "definition": "多机器人协调、调度和车队路径。"
+      },
+      {
+        "task_code": "CONTROL_RUNTIME",
+        "name": "控制运行实现",
+        "definition": "电机固件、嵌入式安全与控制运行基础设施。"
+      }
+    ],
+    "RF_CORPORATE_SUPPORT": [
+      {
+        "task_code": "HR",
+        "name": "招聘与人力",
+        "definition": "人才获取、人员运营、薪酬与组织流程。"
+      },
+      {
+        "task_code": "FINANCE",
+        "name": "财务与资本沟通",
+        "definition": "会计财税、审计、预算、资本与投资者沟通，保留子类。"
+      },
+      {
+        "task_code": "LEGAL",
+        "name": "法务与治理",
+        "definition": "合同、公司治理、知识产权与合规。"
+      },
+      {
+        "task_code": "ADMIN_FACILITIES",
+        "name": "行政与设施",
+        "definition": "办公室、前台、高管支持、物业与楼宇维护。"
+      },
+      {
+        "task_code": "IT_SECURITY",
+        "name": "内部IT与安全",
+        "definition": "公司信息系统、安全和信息治理。"
+      },
+      {
+        "task_code": "EDUCATION_POLICY",
+        "name": "教育或政策支持",
+        "definition": "课程教育、政策分析、政府项目及其他专业支持。"
+      }
+    ],
+    "RF_DATA_INFRA_OPERATIONS": [
+      {
+        "task_code": "DATA_PIPELINE",
+        "name": "数据平台与管线",
+        "definition": "数据基础设施、处理、存储和数据集/模型管线。"
+      },
+      {
+        "task_code": "DATA_OPERATIONS",
+        "name": "采集与标注运营",
+        "definition": "采集场地、班组、质量、流程或自动标注运营。"
+      },
+      {
+        "task_code": "DATA_PRODUCT",
+        "name": "数据产品与策略",
+        "definition": "数据需求、策略、产品和数据生产规划。"
+      },
+      {
+        "task_code": "ANALYTICS",
+        "name": "统计与业务分析",
+        "definition": "统计建模、分析服务与业务决策支持。"
+      }
+    ],
+    "RF_DEPLOYMENT_FIELD_SERVICE": [
+      {
+        "task_code": "CUSTOMER_INTEGRATION",
+        "name": "客户安装与集成",
+        "definition": "客户现场安装、调试、集成与技术应用。"
+      },
+      {
+        "task_code": "ROBOT_SERVICE",
+        "name": "机器人维修与服务",
+        "definition": "机器人故障诊断、修复、保养和客户技术支持。"
+      },
+      {
+        "task_code": "LAB_DEMO",
+        "name": "实验室与演示服务",
+        "definition": "内部试验设备、研究车队、演示或数据场地保障。"
+      },
+      {
+        "task_code": "FACILITY",
+        "name": "设施维护",
+        "definition": "仓储或楼宇设施维修；不能算全部机器人维修。"
+      },
+      {
+        "task_code": "SERVICE_LEADERSHIP",
+        "name": "服务运营管理",
+        "definition": "区域、全球服务及现场运营团队管理。"
+      }
+    ],
+    "RF_INDUSTRIAL_EXPERIENCE_DESIGN": [
+      {
+        "task_code": "INDUSTRIAL_CMF",
+        "name": "工业外观与CMF",
+        "definition": "外观形态、色彩材料、可穿戴工业设计。"
+      },
+      {
+        "task_code": "DIGITAL_UX",
+        "name": "数字界面与交互",
+        "definition": "机器人/软件界面、设计系统、数字体验原型。"
+      },
+      {
+        "task_code": "SERVICE_HUMAN_FACTORS",
+        "name": "服务体验与人因",
+        "definition": "服务流程、用户研究、人因与使用概念。"
+      },
+      {
+        "task_code": "HRI_HARDWARE",
+        "name": "人机交互硬件",
+        "definition": "声音灯光等交互硬件方案与体验。"
+      }
+    ],
+    "RF_MECHANICAL_MECHATRONICS": [
+      {
+        "task_code": "ROBOT_STRUCTURE",
+        "name": "机器人结构与机构",
+        "definition": "机体、底盘、传动与机械架构设计。"
+      },
+      {
+        "task_code": "ACTUATOR_GEAR",
+        "name": "关节与传动部件",
+        "definition": "关节、减速器、电机机电集成和传动。"
+      },
+      {
+        "task_code": "COMPONENT_PROCESS",
+        "name": "部件设计与制造转化",
+        "definition": "机械零件、连接器、工艺适配、原型及量产设计。"
+      },
+      {
+        "task_code": "THERMAL",
+        "name": "机械热管理",
+        "definition": "热结构、载荷与散热设计。"
+      },
+      {
+        "task_code": "SOFT_GOODS",
+        "name": "柔性材料与纺织部件",
+        "definition": "织物、弹性材料、抓取接触材料设计。"
+      }
+    ],
+    "RF_PERCEPTION": [
+      {
+        "task_code": "OBJECT_VISION",
+        "name": "物体与场景视觉",
+        "definition": "物体识别跟踪、场景理解和学习感知。"
+      },
+      {
+        "task_code": "LOCALIZATION",
+        "name": "定位建图与融合",
+        "definition": "SLAM、定位、导航状态估计与多传感融合。"
+      },
+      {
+        "task_code": "RECONSTRUCTION",
+        "name": "三维重建表示",
+        "definition": "几何、点云、神经重建与空间表示。"
+      },
+      {
+        "task_code": "TACTILE_AUDIO",
+        "name": "触觉与音视频交互感知",
+        "definition": "触觉、力觉、音频或多模态交互感知。"
+      }
+    ],
+    "RF_PRODUCT_PROGRAM": [
+      {
+        "task_code": "ROBOT_PRODUCT",
+        "name": "机器人产品定义",
+        "definition": "本体、导航、自主能力、交互或遥操产品路线图与需求。"
+      },
+      {
+        "task_code": "SOFTWARE_DATA_PRODUCT",
+        "name": "软件与数据产品",
+        "definition": "内部平台、数据/研究运营、客户体验软件产品。"
+      },
+      {
+        "task_code": "RND_PROGRAM",
+        "name": "研发与量产项目",
+        "definition": "研发、新品导入、生产运营项目及里程碑。"
+      },
+      {
+        "task_code": "CUSTOMER_PROGRAM",
+        "name": "客户项目交付",
+        "definition": "客户计划、交付、技术运营与项目协调。"
+      },
+      {
+        "task_code": "OTHER_DOMAIN",
+        "name": "设施或教育等专项产品",
+        "definition": "设施施工、课程教育等不同工作对象。"
+      }
+    ],
+    "RF_RESEARCH_SCIENCE": [
+      {
+        "task_code": "ROBOT_LEARNING",
+        "name": "机器人学习研究",
+        "definition": "模型/策略、灵巧操作、全身控制、基础模型或世界模型研究。"
+      },
+      {
+        "task_code": "HARDWARE_NUMERICAL",
+        "name": "硬件与数值方法研究",
+        "definition": "结构拓扑、材料、传感器、数值算法等研究。"
+      },
+      {
+        "task_code": "MULTIAREA",
+        "name": "多方向研究",
+        "definition": "原文允许多个研究方向或对象无法进一步确定；不强分单一方向。"
+      }
+    ],
+    "RF_ROBOT_OPERATIONS": [
+      {
+        "task_code": "DATA_DEMONSTRATION",
+        "name": "示范与动作数据采集",
+        "definition": "本人遥操、穿戴动捕或示教采集。"
+      },
+      {
+        "task_code": "CUSTOMER_OPERATION",
+        "name": "客户现场机器人运行",
+        "definition": "本人运行机器人、异常处理及服务支持。"
+      },
+      {
+        "task_code": "HOSPITAL_OPERATION",
+        "name": "医院机器人服务",
+        "definition": "临床环境机器人监控、服务沟通与支持。"
+      },
+      {
+        "task_code": "FULFILMENT_OPERATION",
+        "name": "履单机器人运行",
+        "definition": "仓内车队监控、故障恢复及吞吐保障。"
+      },
+      {
+        "task_code": "MIXED_DATA_CUSTOMER",
+        "name": "采集和客户运行双任务",
+        "definition": "原文明示两者均承担；不强行归入单一比较层。"
+      }
+    ],
+    "RF_SIMULATION_EVALUATION": [
+      {
+        "task_code": "SIM_PLATFORM",
+        "name": "仿真环境与平台",
+        "definition": "物理引擎、场景、资产、导航仿真与平台研发。"
+      },
+      {
+        "task_code": "MODEL_EVAL",
+        "name": "模型评测",
+        "definition": "算法复现、模型基准与真机验证方法。"
+      },
+      {
+        "task_code": "HARDWARE_TEST_INFRA",
+        "name": "硬件产测与表征工具链",
+        "definition": "电路/执行器/整机测试工具、测量设备和产测平台。"
+      },
+      {
+        "task_code": "CALIBRATION",
+        "name": "标定与系统辨识工具链",
+        "definition": "标定、辨识、HIL及校准平台；具体对象保留。"
+      },
+      {
+        "task_code": "SOFTWARE_TEST_INFRA",
+        "name": "软件测试与诊断基础设施",
+        "definition": "测试框架、自动化、CI、故障诊断与回归工具。"
+      },
+      {
+        "task_code": "SYSTEM_EVAL",
+        "name": "整机评价体系",
+        "definition": "整机性能、竞品及用户场景评价方法。"
+      }
+    ],
+    "RF_SYSTEMS_ENGINEERING_INTEGRATION": [
+      {
+        "task_code": "WHOLE_ROBOT",
+        "name": "整机架构与集成",
+        "definition": "跨机械、电气、软件的整机系统架构和集成。"
+      },
+      {
+        "task_code": "SUBSYSTEM",
+        "name": "子系统跨域集成",
+        "definition": "关节、传感、计算、电源、声学或灵巧手系统集成。"
+      },
+      {
+        "task_code": "FUNCTIONAL_SAFETY",
+        "name": "安全架构与验证",
+        "definition": "产品安全/功能安全要求、架构和验证。"
+      },
+      {
+        "task_code": "DIAGNOSTICS",
+        "name": "系统诊断与持续运行",
+        "definition": "跨域故障定位、可靠性与运行诊断体系。"
+      },
+      {
+        "task_code": "TECHNICAL_LEADERSHIP",
+        "name": "跨产品研发统筹",
+        "definition": "多产品、多专业技术决策与研发规范。"
+      }
+    ]
+  }
+}

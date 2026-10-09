@@ -1,0 +1,689 @@
+==== 1 N0652 nC=19 nI=13 empty=[]
+TITLE 嵌入式软件工程师（27届实习）
+DUTY 1. 电机控制软件开发：参与永磁同步电机（PMSM）或无刷直流电机（BLDC）的磁场定向控制（FOC）算法开发、调试与优化，提升扭矩响应、速度精度与能效。 2. 嵌入式底层驱动开发：基于ARM Cortex-M/R系列等MCU平台，完成外设驱动（PWM、ADC、SPI、CAN、UART等）及中断服务程序开发，保障控制实时性。 3. 电机控制软件方案设计：参与伺服驱动器的软件框架设计，实现电流环、速度环、位置环的闭环控制及参数整定。 4.
+1 V2_CLASSICAL_CONTROL | 1. 电机控制软件开发：参与永磁同步电机（PMSM）或无刷直流电机（BLDC）的磁场定向控制（FOC）算法开发、调试与优化，提升扭矩响应、速度精度与能效。
+2 V2_CAN,V2_SPI,V2_UART | 2. 嵌入式底层驱动开发：基于ARM Cortex-M/R系列等MCU平台，完成外设驱动（PWM、ADC、SPI、CAN、UART等）及中断服务程序开发，保障控制实时性。
+3 - | 基于ARM Cortex-M/R系列等MCU平台，完成外设驱动（PWM、ADC、SPI、CAN、UART等）及中断服务程序开发
+4 - | 基于ARM Cortex-M/R系列等MCU平台，完成外设驱动（PWM、ADC、SPI、CAN、UART等）及中断服务程序开发
+5 - | 基于ARM Cortex-M/R系列等MCU平台，完成外设驱动（PWM、ADC、SPI、CAN、UART等）及中断服务程序开发
+6 V2_SPI | 基于ARM Cortex-M/R系列等MCU平台，完成外设驱动（PWM、ADC、SPI、CAN、UART等）及中断服务程序开发
+7 V2_CAN | 基于ARM Cortex-M/R系列等MCU平台，完成外设驱动（PWM、ADC、SPI、CAN、UART等）及中断服务程序开发
+8 V2_UART | 基于ARM Cortex-M/R系列等MCU平台，完成外设驱动（PWM、ADC、SPI、CAN、UART等）及中断服务程序开发
+9 V2_C | 3. 技术能力：熟悉C/C++，熟悉ARM Cortex-M系列MCU开发（如STM32、TI C2000、Infineon等）。
+10 V2_C | C
+11 - | ARM Cortex-M系列MCU开发
+12 - | STM32
+13 - | TI C2000
+14 - | Infineon
+15 V2_CLASSICAL_CONTROL | 4. 理解FOC、SVPWM、PID控制、无感观测器（滑模、磁链）等算法。
+16 V2_FREE_RTOS,V2_RT_THREAD | 5. 熟悉RTOS（FreeRTOS、RT-Thread）者优先。
+17 - | RTOS
+18 V2_FREE_RTOS | FreeRTOS
+19 V2_RT_THREAD | RT-Thread
+
+==== 2 N0441 nC=6 nI=23 empty=[]
+TITLE 力控算法专家
+DUTY 岗位职责 1. 负责多关节机器人运动学及动力学建模、辨识、仿真以及相关控制算法开发调试； 2. 负责机器人力控相关算法开发与调试，包括且不仅限于干扰观测器、碰撞检测、虚拟墙、零空间优化、导纳/阻抗控制、力位混合控制、全闭环控制等功能开发； 3. 负责双臂以及多冗余自由度形态的机器人全身力控算法开发，使机器人具备与环境接触时具备柔顺交互能力，并将传统力控和RL相结合，以获得更好的力控性能，最终实际场景进行应用开发完成产品化落地； 4. 负
+1 V2_SYSID | 2. 具备扎实的控制理论、数学基础，熟练掌握多刚体动力学建模、单关节及整机系统辨识；
+2 V2_C,V2_BULLET | 4. 具备较强的编程能力（Linux、C/C++、Python、matlab）及算法仿真能力，熟悉常见仿真器如Mujoco/Bullet/Webots/Gazebo/CoppeliaSim/Isaac中一种或多种;
+3 V2_C | 编程能力（Linux、C/C++、Python、matlab）
+4 V2_BULLET | Mujoco/Bullet/Webots/Gazebo/CoppeliaSim/Isaac中一种或多种
+5 - | Mujoco/Bullet/Webots/Gazebo/CoppeliaSim/Isaac中一种或多种
+6 - | Mujoco/Bullet/Webots/Gazebo/CoppeliaSim/Isaac中一种或多种
+
+==== 3 N0799 nC=9 nI=58 empty=[]
+TITLE Robotics Autonomy Engineer - Manipulation
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_CAN | Field AI is building the future of autonomy—from rugged terrain to real-world deployment. We’re on a mission to develop intelligent, adaptable robotic
+2 V2_CLASSICAL_CONTROL,V2_PATH_SEARCH | Experience with manipulation planning and control, such as trajectory optimization or model predictive control (MPC)
+3 V2_CLASSICAL_CONTROL | model predictive control (MPC)
+4 V2_C | Strong Python and/or C++ development skills in Linux-based development environments
+5 V2_TELEOP | Experience building teleoperation and demonstration data collection pipelines at scale
+6 V2_TENSORRT,V2_ONNX,V2_ONNX_RUNTIME | Experience optimizing and deploying learning based controllers on resource constrained robotic platforms (ONNX Runtime, NVIDIA TensorRT, real time onb
+7 V2_ONNX,V2_ONNX_RUNTIME | ONNX Runtime
+8 V2_TENSORRT | NVIDIA TensorRT
+9 V2_SIM2REAL | Experience debugging sim-to-real issues at scale
+
+==== 4 E0050 nC=2 nI=13 empty=[]
+TITLE 运控算法工程师
+DUTY 岗位职责: 1. RL算法研发落地:负责轮式人形机器人强化学习(RL)算法设计、开发与真机落地,聚焦 locomotion、动态平衡等核心需求,结合运动学/动力学模型优化算法性能,适配产品要求。 2. 算法融合集成:协同完成RL算法与WBC、MPC等传统运控算法的融合,参与搭建“开发-仿真-调试-迭代”标准化闭环,提升机器人运动稳定性。 3. 算法迭代优化:跟踪前沿技术,针对运控痛点迭代RL算法,优化实时性与鲁棒性,支撑产品升级。 4.
+1 V2_CLASSICAL_CONTROL | 2. 算法融合集成：协同完成RL算法与WBC、MPC等传统运控算法的融合，参与搭建“开发-仿真-调试-迭代”标准化闭环，提升机器人运动稳定性。
+2 V2_C | 2. 核心能力：扎实的数学与控制理论基础；熟练Python/C++及TensorFlow/PyTorch框架；精通DQN、PPO等RL核心算法，可独立完成设计优化。
+
+==== 5 N0495 nC=1 nI=17 empty=[]
+TITLE 算法工程师（感控融合）
+DUTY 【岗位职责】  针对仅凭本体感知（如IMU、关节编码器）难以安全通过的场景（包括楼梯、高台、沟渠、低矮隧道及挡鼠板等），通过融合激光雷达、深度相机等外部感知信息生成的高度图/深度图，实时规划与执行步态，实现对上述地形与障碍物的稳健跨越和通过。确保算法能够在实际环境中稳定运行和实施。  【任职要求】  1. 计算机、人工智能、自动化等相关领域的硕士，博士优先；  2. 具有扎实的深度强化学习及模仿学习相关领域的知识，熟悉计算机视觉优先； 
+1 - | PPO
+
+==== 6 N0045 nC=0 nI=7 empty=[]
+TITLE 具身智能算法实习生-移动操作方向
+DUTY 岗位职责：  1.协助参与机器人与人工智能算法研发，应用于室内移动操作算法。  2.协助对所开发算法进行仿真测试、性能测试、集成测试，积极推动产品落地，并及时解决算法缺陷、优化算法性能。  3.跟踪最新的机器人与人工智能技术，独立进行技术研究和创新。  4.协同团队合作，与工程师、研究员和其他相关团队合作，将算法集成到实际应用中。     任职要求：  1. 国内外知名高校机器人相关专业（含计算机、自动化等）在校硕士/博士生。  2. 
+
+==== 7 N0447 nC=1 nI=15 empty=[]
+TITLE 运动控制算法实习生
+DUTY 1. 参与机器人全身协同运动规划与控制算法开发工作，并进行系统集成以及仿真调试工作；  2. 发现和解决算法开发过程中出现的技术问题，根据机器人运动特性为本体/算法协同设计提出建设性意见和改进方向；  3. 参与机器人前沿控制技术预研，对相关技术成果资料进行查阅、整理及归纳。     职位要求  1. 计算机科学、机器人、自动化、控制工程、机械工程或相关领域的在读硕士及以上学历；  2. 熟悉机器人学、刚体运动学，掌握常用的运动学与逆运
+1 V2_C | 5. 熟练掌握 Python、C++等编程语言，有ROS2的开发经验；
+
+==== 8 E0294 nC=8 nI=16 empty=[]
+TITLE 机器人控制系统工程师
+DUTY 1.负责人形机器人系统级软件开发,构建高实时性、模块化的软件架构,支持机械臂、灵巧手、多关节驱动单元等硬件的高效集成; 2.推进 model-based 的运控算法工程化落地,并负责高阶运控算法的集成与对接;具备离线规划能力(轨迹生成、约束校验、与控制侧衔接); 3.负责关节/末端相关的位置控制、力控制软件开发与维护,完成控制算法与硬件侧的协同部署; 4.参与控制系统安全策略与异常处理相关开发,保障联调与运行过程的稳定性与可控性; 5.
+1 V2_CALIBRATION | 6.主导系统联调与性能测试，聚焦抖动、实时性、安全性、精度、响应特性，以及为控制落地服务的动力学辨识与动力学参数标定/验证，制定调优策略；
+2 V2_CAN,V2_ETHERCAT | 7.开发基于 CAN、EtherCAT 等工业总线的上位机（主站）通信层，确保电机驱动、关节控制的低延迟与高可靠性；
+3 V2_C | 2.精通 Linux 环境下的 C++ 开发、调试与性能优化，熟悉面向对象分析与设计；Python 可作为辅助工具熟练使用；
+4 V2_CAN,V2_ETHERCAT | 5.掌握实时控制系统开发，熟悉 EtherCAT 主站配置（如 SOEM、IgH）及 CANopen 协议栈；
+5 V2_GIT | 7.熟悉软件开发流程，熟练使用 GitLab 等协作工具，具备规范化代码习惯与良好的技术文档能力；
+6 - | ros2_control
+7 - | SOEM、IgH
+8 V2_GIT | 熟练使用 GitLab 等协作工具
+
+==== 9 N0604 nC=1 nI=4 empty=[]
+TITLE 人形机器人全身控制（WBC）算法研究实习生
+DUTY 岗位职责 1. 研究人形机器人全身控制前沿算法，鼓励探索与创新； 2. 将相关算法部署到人形机器人系统中测试。  任职要求 1. 实习时间不少于6个月； 2. 在读硕士或博士，博士优先； 3. 有强化学习基础者优先； 4. 有人形机器人WBC相关经验者优先； 5. 在顶级会议（如NeurIPS，ICLR，CVPR, ICRA, IROS, RSS，CoRL等）和期刊发表过学术论文者优先。
+1 V2_CLASSICAL_CONTROL | 4. 有人形机器人WBC相关经验者优先；
+
+==== 10 N0855 nC=6 nI=23 empty=[]
+TITLE Controls Engineer
+DUTY About Dexterity At Dexterity, we believe robots can positively transform the world.  Our breakthrough technology frees people to do the creative, inspiring, problem-solving jobs that humans do best by enabling robots to 
+1 V2_CAN | At Dexterity, we believe robots can positively transform the world.  Our breakthrough technology frees people to do the creative, inspiring, problem-s
+2 V2_CAN | We’re starting with warehouse automation, where the need for smarter, more resilient supply chains impacts millions of lives and businesses around the
+3 V2_INCIDENT_SUPPORT | Document system architectures, control algorithms, communications protocols, and troubleshooting results, collaborating across disciplines to ensure c
+4 V2_CAN,V2_ETHERCAT | Familiarity with communications protocols commonly used in mechatronics and robotic systems (EtherCAT, CAN bus, etc.).
+5 V2_ETHERCAT | EtherCAT
+6 V2_CAN | CAN bus
+
+==== 11 E0348 nC=7 nI=26 empty=['O1:SK_CPP:C++', 'O17:TC_MOTION_PLANNING:planning', 'O18:TC_CONTROL:control', 'O20:TC_MANIPULATION:manipulation', 'O26:TC_MOTION_PLANNING:motion planning']
+TITLE Senior Staff Software Engineer, Motion Planning
+DUTY Own and drive the technical roadmap for collision-free motion planning across whole-body motion, manipulation, grasping, and loco-manipulation Design, implement, test, and deploy motion planning and trajectory optimizati
+1 V2_PATH_SEARCH | Design, implement, test, and deploy motion planning and trajectory optimization algorithms for humanoid robots
+2 V2_CLASSICAL_CONTROL,V2_PATH_SEARCH | Proven expertise in sample-based motion planning, trajectory optimization, and model predictive control (MPC) with a track record of shipping these al
+3 V2_C | Expertise in modern C++ (C++17/20) and Python for high-performance, multithreaded, real-time robotics applications
+4 V2_PATH_SEARCH | Experience with whole-body model predictive control or whole-body trajectory optimization
+5 V2_PATH_SEARCH | Experience leveraging machine learning or offline trajectory optimization to accelerate online planning
+6 V2_USD | $337,000 USD
+7 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+
+==== 12 E0583 nC=4 nI=25 empty=[]
+TITLE Controls Engineer
+DUTY - Design & implement control algorithms: PID, LQR, MPC, inverse dynamics, and feedforward controllers.   - Build & validate models: Create and refine physical and inverse dynamics models for simulation and control design
+1 V2_CLASSICAL_CONTROL |  - Design & implement control algorithms: PID, LQR, MPC, inverse dynamics, and feedforward controllers.
+2 V2_CAN,V2_ETHERNET,V2_I2C,V2_SPI |  - Build sensor/actuator subsystems: Work with embedded systems, drivers, and communication protocols (CAN, SPI, I2C, Ethernet).
+3 V2_C |  - Proficiency in Python and C++, including firmware-adjacent development
+4 V2_CAN,V2_ETHERNET,V2_I2C,V2_SPI |  - Familiarity with embedded communication protocols (CAN, SPI, I2C, Ethernet)
+
+==== 13 E0006 nC=5 nI=13 empty=[]
+TITLE 机械臂底层运控算法工程师
+DUTY 1、负责六轴或七轴机械臂运动规划算法的研发与优化; 2、发现和解决算法开发过程中出现的技术问题,根据机械臂运动特性为本体/算法协同设计提出建设性意见和改进方向。
+1 V2_DDS,V2_TCPIP | 4、熟悉机械臂常用的通讯方式，如udp、zmq、lcm、dds等至少一种；
+2 V2_C | 5、熟练掌握C++、ROS1/2框架；
+3 V2_CLASSICAL_CONTROL,V2_KALMAN_FACTOR | 6、熟悉机械臂电机控制原理，熟悉轨迹规划、卡尔曼滤波、PID控制、重力补偿等技术，熟悉参数辨识、震动抑制技术为加分项；
+4 - | IF-Fast
+5 SK_ZEROMQ,SK_LCM,V2_DDS,V2_TCPIP | udp、zmq、lcm、dds
+
+==== 14 N0356 nC=3 nI=22 empty=[]
+TITLE 机器人规控算法工程师
+DUTY • 跟踪前沿具⾝智能技术，推动前沿算法在机器⼈上的落地应⽤，持续提升复杂任务的执⾏能⼒与稳 定性。 • 负责机器⼈⾏为决策与运动规划算法研发，实现⾮结构化环境下的智能决策与稳定控制。 • 负责具⾝智能双臂操作算法研发，结合感知与决策，提升复杂任务的⾃主操作能⼒。 • 负责规控软件架构设计与优化，保障算法的⾼实时性与鲁棒性。 • 负责仿真环境搭建与算法迭代验证，攻克Sim2Real Gap难题，确保算法在真机上的稳定迁移。 • 与硬件、嵌
+1 V2_SIM2REAL | • 负责仿真环境搭建与算法迭代验证，攻克Sim2Real Gap难题，确保算法在真机上的稳定迁移。
+2 V2_CALIBRATION | • 与硬件、嵌⼊式、感知团队紧密协作，完成算法在真机上的部署、标定、调试与性能优化。
+3 V2_C | • 精通 Python/C++ 及 Linux 开发，熟练掌握Pytorch或TensorFlow，具备扎实的⼯程实现能⼒。
+
+==== 15 E0378 nC=6 nI=34 empty=[]
+TITLE Lead Software Engineer - Dexterous Manipulation
+DUTY The Lead Software Engineer - Dexterous Manipulation is a core contributor to our robot’s ability to interact with the world with human-like precision. This role is responsible for leading the development of learning-base
+1 V2_CAN,V2_TELEOP | This role will bridge the gap between cutting-edge research and scalable, reliable production software. Whether leveraging reinforcement learning, imi
+2 V2_TELEOP | Design and enforce the foundational software frameworks for manipulation. Own the decision-making process for balancing autonomous logic with high-fid
+3 V2_SIM2REAL | Sim-to-Real Ownership:
+4 V2_C | Oversee the transition from experimental research to fleet-wide deployment. Ensure performance and reliability of C++/Python code running on productio
+5 V2_TELEOP | Teleoperation:
+6 V2_CALIBRATION | Experience with the initial calibration and tuning of high-DOF robotic end-effectors.
+
+==== 16 N0926 nC=4 nI=11 empty=[]
+TITLE Software Engineer, Robotics Fleet Optimization
+DUTY About Nimble Nimble is an AI robotics company building the autonomous supply chain to enable fast, efficient, and sustainable commerce. We’re developing a general-purpose robot AI and a warehouse generalist superhumanoid
+1 V2_C | is an AI robotics company building the autonomous supply chain to enable fast, efficient, and sustainable commerce. We’re developing a general-purpose
+2 V2_C | Nimble Closes $106 Million Series C Funding Round, Scales Fully Autonomous Fulfillment with FedEx
+3 V2_CI_CD | - Own software infrastructure, continuous integration, production debugging, and on-call support for components you build.
+4 V2_C | - Proficiency with at least one systems programming language (Rust preferred; C++)
+
+==== 17 N0983 nC=3 nI=19 empty=[]
+TITLE Staff Robotics Engineer- Spot Manipulation
+DUTY Do you have a passion for applying state-of-the-art controls and kinematic planning to solve real-world manipulation problems? As a Staff Robotics Engineer on the Spot Manipulation team, you will play a pivotal role in t
+1 V2_C | Produce highly reliable, maintainable, and easily testable production C++ code.
+2 V2_C | High proficiency in C++ programming.
+3 V2_PATH_SEARCH | Experience with kinematic path planning and trajectory optimization.
+
+==== 18 N0939 nC=13 nI=21 empty=[]
+TITLE Senior Robotic Software Engineer, Navigation
+DUTY About this role: Pickle is seeking a dynamic, driven Senior Software Engineer, Navigation, to enhance the speed and safety of our autonomous mobile robots. If you are experienced with and passionate about navigation and 
+1 V2_C | Proficient in Python. Experience with C++ is a strong plus.
+2 V2_PATH_SEARCH | Experience with graph search methods for planning, such as A*, RRT, and/or PRM is required.
+3 V2_PATH_SEARCH | A*
+4 V2_PATH_SEARCH | RRT
+5 V2_PATH_SEARCH | PRM
+6 V2_PATH_SEARCH | Experience with trajectory optimization and/or model-predictive control is a strong plus.
+7 V2_CLASSICAL_CONTROL | Experience with control algorithms for mobile robots, such as PID, Pure Pursuit, and/or LQR is required
+8 V2_CLASSICAL_CONTROL | PID
+9 - | Pure Pursuit
+10 V2_CLASSICAL_CONTROL | LQR
+11 V2_PROJECT_METHOD | Experienced in leading a team of engineers through a Scrum process is preferred.
+12 V2_PROJECT_METHOD | Experienced in leading a team of engineers through a Scrum process is preferred.
+13 V2_OFFICE | Willing to work in the office from our Charlestown, MA location at least three days per week.
+
+==== 19 E0097 nC=0 nI=3 empty=[]
+TITLE 机器人运动控制算法工程师
+DUTY 1. 负责足式机器人的运动控制算法的开发、调试和测试; 2. 构造编写机器人控制相关的SDK,给内部同事或客户使用; 3. 辅助参与产品的规划设计,给机械、电子等硬件出设计意见; 4. 机器人相关测试、生产用程序的编写。
+
+==== 20 N0624 nC=5 nI=18 empty=[]
+TITLE 机器人运动控制算法高级工程师
+DUTY 1. 负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器（夹爪/灵巧手）。 2. 开发并优化机器人运动学、动力学建模工具，进行动力学参数辨识，保法在实机上的准确性与稳定性。 3. 实现逆运动学（IK）、优化控制（QP/MPC）等核心算法，并在机器人平台上验证、调优。 4. 针对实际任务场景（操作、搬运、协作），实现运动/力控的闭环控制方案。 5. 与硬件、模型和系统工程团队紧密合作，推动算法从仿真快速迁移到
+1 V2_CLASSICAL_CONTROL | 3. 实现逆运动学（IK）、优化控制（QP/MPC）等核心算法，并在机器人平台上验证、调优。
+2 V2_C | 3.熟练掌握 C++ 编程，具备良好的代码风格与工程习惯；熟悉 ROS / ROS 2 开发。
+3 V2_OCS2 | 5.熟悉机器人运控算法工具链（kdl, ocs2, pinocchio, mujoco），能够独立完成算法实现与调优。
+4 V2_OCS2 | ocs2
+5 V2_CLASSICAL_CONTROL | 1.在实际机器人平台上实现过 QP/MPC 控制器 或 全身协调控制。
+
+==== 21 N0476 nC=6 nI=14 empty=[]
+TITLE 电机控制算法工程师
+DUTY 岗位职责：  1.负责机器人平台电机控制算法（FOC/无感估算）的开发、优化与维护；  2.开发并调试嵌入式底层驱动(编码器、力矩传感器等),实现 PMSM 的高性能控制；  3.各控制环路参数调试与整定，性能分析等；  4.优化控制性能，包括效率、动态响应、噪声、温升等；  5.参与硬件方案评审与系统联调，分析并解决电机控制相关问题（过流、摩擦力、采样噪声等）；  6.与硬件、结构、算法、测试等多团队协作，推动产品从样机到量产落地。 
+1 V2_CLASSICAL_CONTROL | 1.负责机器人平台电机控制算法（FOC/无感估算）的开发、优化与维护；
+2 - | 精通ST MCU平台的底层驱动开发；
+3 V2_C | 3.精通 C/C++编程，具备良好的代码规范与文档编写习惯；
+4 V2_C | 精通 C/C++编程
+5 V2_CLASSICAL_CONTROL | 4.深入理解 FOC（磁场定向控制）理论与实现；
+6 V2_CLASSICAL_CONTROL | 6.熟悉常见 有感 /无感控制、PID、滤波算法；
+
+==== 22 N0648 nC=3 nI=11 empty=[]
+TITLE 运控算法工程师（27届实习）
+DUTY 星海图，作为具身智能赛道百亿级独角兽，以全栈自研筑牢技术壁垒——从核心模组、机器人本体，到VLA基础模型、EDP开发平台实现全链路自主研发，稳居行业技术前沿。现诚邀优秀的27届同学加入，以专业之力赋能智能机器人研发，与我们并肩，一起开启机器人新时代，共筑具身智能的星辰大海。 1.   负责轮式仿人型机器人全身运动控制算法研发与落地，包括底盘、躯干、双臂和末端执行器（夹爪/灵巧手）。 2.   开发并优化机器人运动学、动力学建模工具，进行
+1 - | 到VLA基础模型、EDP开发平台实现全链路自主研发
+2 V2_CLASSICAL_CONTROL | 3.   实现逆运动学（IK）、优化控制（QP/MPC）等核心算法，并在机器人平台上验证、调优。
+3 V2_C | 3. 熟练掌握 C++ 编程，具备良好的代码风格与工程习惯；熟悉 ROS / ROS 2 开发。
+
+==== 23 N0623 nC=9 nI=22 empty=[]
+TITLE 机器人导航算法工程师
+DUTY 1.全局与局部路径规划 - 负责基于激光雷达点云的全局路径规划算法（A* / Dijkstra / Hybrid A* / RRT* 等）开发与持续优化 - 设计并落地局部轨迹规划与动态避障算法（DWA / TEB / MPC / MPPI 等），满足轮式底盘运动学约束 - 解决狭窄通道、动态障碍物、未知区域等复杂场景下的路径可行性、平滑性与实时性 - 构建分层代价地图（Costmap）机制，支持行人、AGV、机械臂等动态/静态障碍物分
+1 V2_PATH_SEARCH | - 负责基于激光雷达点云的全局路径规划算法（A* / Dijkstra / Hybrid A* / RRT* 等）开发与持续优化
+2 V2_CLASSICAL_CONTROL | - 设计并落地局部轨迹规划与动态避障算法（DWA / TEB / MPC / MPPI 等），满足轮式底盘运动学约束
+3 V2_NAV2 | 3. 精通 ROS/ROS2 导航框架（Nav2 / Move Base），熟悉 Costmap、Planner、Controller、Behavior Tree 全链路
+4 V2_NAV2 | Nav2
+5 - | Move Base
+6 V2_C | 4. 扎实的 C++ 编程功底，熟悉实时系统开发，具备算法性能 profiling 与优化经验
+7 - | Cartographer
+8 - | GMapping
+9 - | LIO-SAM
+
+==== 24 N0167 nC=3 nI=11 empty=[]
+TITLE 机器人全身规划算法工程师
+DUTY 职位描述  1、负责机器人动作通过性的方向研究；  2、负责机器人整身规划软件的框架设计及开发；  3、负责机器人姿态最优相关算法的设计及开发；  4、负责learning-base相关算法的应用；  5、编写相关规范或技术文档；     职位要求  1、机器人、人工智能、自动驾驶等专业，硕士及以上学历，至少 5年工作经验（含研究经历）；  2、熟悉多自由度刚体机器人的运动学及现代控制；  3、熟练掌握主流的规划类算法，熟悉主流避障类方
+1 V2_C | 5、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；
+2 V2_C | C
+3 - | Webots
+
+==== 25 N0146 nC=4 nI=13 empty=[]
+TITLE 具身操作算法工程师（力控方向）-苏州
+DUTY 职位描述：    开发工业场景下的机器人自主抓取与操作算法，支持稀疏/杂乱/半结构化物体的位姿估计、抓点生成及轨迹规划。    实现基于力/触觉的柔顺控制，完成装配、插拔、打磨等精密操作。  融合视觉与触觉反馈，提升操作成功率与鲁棒性。    在仿真与实际机器人上完成算法部署与性能调优。       任职要求：    机器人/控制/计算机硕士，3年以上机械臂操作算法经验。    精通C++/Python，熟悉MoveIt、OMPL、Tr
+1 V2_C,V2_MOVEIT,V2_OMPL | 精通C++/Python，熟悉MoveIt、OMPL、TracIK等规划库。  
+2 V2_MOVEIT | MoveIt
+3 V2_OMPL | OMPL
+4 V2_TELEOP | 熟悉力控（阻抗/导纳）或遥操作者优先。
+
+==== 26 N0139 nC=15 nI=25 empty=[]
+TITLE 双足人形机器人控制算法工程师（WBC/MPC方向）
+DUTY 岗位职责  算法设计与开发：  主导或参与基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试。  深入研究机器人动力学模型，构建高保真、高实时性的控制优化问题。  优化控制算法的性能，包括稳定性、鲁棒性、能量效率和对不确定性的适应能力。     仿真与验证：  利用MuJoCo, Isaac Sim, Gazebo等物理仿真环境，进行控制算法的快速迭代与验证。  设计并执行全面的仿真测试用例，覆盖各种步态、地形及外部扰动场
+1 V2_CLASSICAL_CONTROL | 主导或参与基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试。
+2 V2_CLASSICAL_CONTROL | 基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试
+3 V2_CLASSICAL_CONTROL | 基于MPC的步态生成器和基于WBC的全身控制器的设计、实现与调试
+4 V2_CLASSICAL_CONTROL | 必须精通全身动力学控制（WBC） 和 模型预测控制（MPC） 的原理与实现。
+5 V2_CLASSICAL_CONTROL | 必须精通全身动力学控制（WBC） 和 模型预测控制（MPC） 的原理与实现。
+6 V2_CLASSICAL_CONTROL | 必须精通全身动力学控制（WBC） 和 模型预测控制（MPC） 的原理与实现。
+7 V2_C | 必须精通 C++ 和 Python，并在 Linux (Ubuntu) 环境下有丰富的开发经验。
+8 - | 必须精通 C++ 和 Python，并在 Linux (Ubuntu) 环境下有丰富的开发经验。
+9 - | RBDL
+10 V2_OSQP,V2_QPOASES | 拥有至少一种优化求解器（如 OSQP, Acados, qpOASES）的使用经验。
+11 V2_OSQP | OSQP
+12 - | Acados
+13 V2_QPOASES | qpOASES
+14 - | Preempt-RT
+15 - | RTOS
+
+==== 27 N0055 nC=16 nI=32 empty=[]
+TITLE 机器人规控算法实习生
+DUTY 职位描述  核心算法落地：参与机器人规划与控制软件的架构设计与代码实现，负责具体模块的开发，并将算法部署于实际机器人平台，解决从仿真到现实（Sim-to-Real）的工程问题。  系统建模与仿真验证：构建和调试机器人的运动学/动力学模型，在仿真环境（Mujoco、Isaac Sim）中进行算法验证，并配合硬件团队完成真机调试与性能标定。  复杂任务求解与优化：针对实际业务需求，设计鲁棒的规划控制策略，并在真实场景下迭代算法，提升机器人的
+1 V2_SIM2REAL | 核心算法落地：参与机器人规划与控制软件的架构设计与代码实现，负责具体模块的开发，并将算法部署于实际机器人平台，解决从仿真到现实（Sim-to-Real）的工程问题。
+2 V2_CALIBRATION | 系统建模与仿真验证：构建和调试机器人的运动学/动力学模型，在仿真环境（Mujoco、Isaac Sim）中进行算法验证，并配合硬件团队完成真机调试与性能标定。
+3 V2_CLASSICAL_CONTROL | 控制理论：掌握经典/现代控制理论，了解预测控制（MPC）、鲁棒控制、阻抗控制或智能控制算法，有实际调参或应用经验者优先。
+4 V2_PATH_SEARCH | 规划算法：熟悉主流路径规划算法（如 A、RRT、DWA）及轨迹优化方法，了解其适用场景及局限性。
+5 V2_OSQP,V2_QPOASES,V2_CLASSICAL_CONTROL | 数值优化：了解最优化理论与数值优化方法，熟悉二次规划（QP）求解器（如 OSQP、qpOASES）的使用。
+6 V2_OSQP | OSQP
+7 V2_QPOASES | qpOASES
+8 V2_C | 扎实的 C/C++ 编程基础，熟悉现代 C++（C++11/14/17）特性，具备良好的代码风格和文档习惯；
+9 V2_C | C
+10 V2_GIT,V2_CMAKE,V2_GDB | 熟悉 Linux 开发环境，掌握 Git、CMake、GDB 等常用工具；
+11 V2_GIT | Git
+12 V2_CMAKE | CMake
+13 V2_GDB | GDB
+14 - | RBDL
+15 V2_BULLET | 熟悉至少一种物理仿真环境（Mujoco、Bullet、PyBullet 或 Isaac Gym）；
+16 V2_BULLET | Bullet
+
+==== 28 N0129 nC=15 nI=7 empty=[]
+TITLE 电机开发工程师
+DUTY 岗位职责  - 负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试，需完成技术文档编写。   - 制定测试方案，整定PID参数，提升电机性能，配合硬件优化驱动电路。   - 配合完成电机在产品中的落地使用。   - 探索新型电机技术（如直驱电机、空心杯电机）在机器人中的应用。  任职要求  - 本科及以上学历，电机工程、自动化、电力电子等相关专业。     - 熟练使用电机驱动开发工具（如TI C2000、STM32 MC
+1 V2_CLASSICAL_CONTROL | - 负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试，需完成技术文档编写。
+2 V2_CLASSICAL_CONTROL | 负责电机控制器软件开发，包括FOC/无感算法实现、代码编写及调试
+3 V2_CLASSICAL_CONTROL |  - 制定测试方案，整定PID参数，提升电机性能，配合硬件优化驱动电路。
+4 V2_CLASSICAL_CONTROL | 整定PID参数
+5 - | TI C2000
+6 - | STM32 MCU
+7 - | PLECS
+8 V2_CLASSICAL_CONTROL |  - 了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。  
+9 V2_CLASSICAL_CONTROL | 了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。
+10 - | 了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。
+11 - | 了解电机控制理论（FOC、DTC、SVPWM）先进控制算法，掌握编码器/霍尔传感器应用。
+12 V2_CAN,V2_ETHERCAT |  - 熟练掌握电机对外的接口协议(CAN，485，ethercat等)。
+13 V2_CAN | CAN
+14 - | 485
+15 V2_ETHERCAT | ethercat
+
+==== 29 N0043 nC=3 nI=10 empty=[]
+TITLE 机器人规划控制算法实习生
+DUTY 职位描述  1、参与机器人动作通过性的方向研究；  2、参与机器人整身规划软件的框架设计及开发；  3、参与机器人姿态最优相关算法的设计及开发；  4、负责机器人现场实施、调试。     职位要求  1、机器人、人工智能、自动驾驶等专业；  2、熟练掌握主流的规划类算法，熟悉主流避障类方法；  3、熟悉最优化理论，熟练使用相关求解器及开源库；  4、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；  5、熟练掌握至少一种
+1 V2_C | 4、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；
+2 V2_C | C/C++/Python
+3 - | Webots
+
+==== 30 N0164 nC=4 nI=25 empty=[]
+TITLE 具身智能算法工程师-操作方向
+DUTY 岗位职责：  1.参与机器人与人工智能算法研发，应用于室内移动操作平台的决策、规划与控制；  2.对所开发算法进行仿真测试、性能测试、集成测试，积极推动产品落地，并及时解决算法缺陷、优化算法性能。  3.跟踪最新的机器人与人工智能技术，独立进行技术研究和创新。  4.协同团队合作，与工程师、研究员和其他相关团队合作，将算法集成到实际应用中。     岗位要求：  1、计算机科学、自动化或相关专业，硕士及以上学历；  2、具备扎实的数学基
+1 V2_C | 3、熟练掌握C++和Python等编程语言，能够进行算法开发和实现，有边缘设备开发经验者优先；熟悉机器人和人工智能相关的开发和调试工具，如ROS、OpenCV、PyTorch等；
+2 V2_SAPIEN | 4、熟悉机器人学习及最优控制，以及Gazebo、Isaac Sim/Gym/Orbit、Sapien、PyBullet、iGibson、Mujoco等相关仿真工具者优先；
+3 V2_SAPIEN | Sapien
+4 - | iGibson
+
+==== 31 N0077 nC=10 nI=20 empty=[]
+TITLE 人机交互算法工程师
+DUTY 职位描述：  1、构建面向机器人的多模态交互Pipeline：融合视觉/语音/语言输入，将数字人动作生成逻辑转化为机器人可执行的关节轨迹/行为指令，兼顾运动学约束与交互自然性。  2、将2D/3D数字人领域的成熟技术适配到机器人平台，解决机器人在人机交互中的肢体表达、手势协同、非语言反馈等关键问题。  3、针对机器人物理限制（自由度、运动范围、延迟、安全性），对源自数字人的动作序列进行重定向（Retargeting）、平滑优化与可行性校
+1 V2_MODEL_COMPRESSION | 4、独立设计迁移验证方案，在Isaac Sim/MuJoCo等仿真环境及真实机器人平台上完成算法闭环测试，量化评估交互自然度、响应延迟与用户接受度。
+2 - | SMPL
+3 - | SMPL-X
+4 - | FLAME
+5 V2_C,V2_BLENDER,V2_UNITY,V2_UNREAL | 4、熟练使用PyTorch，了解机器人基础概念（如正/逆运动学）；掌握3D工具链（Unity/Unreal/Blender/PyTorch3D）与Python/C++工程能力。
+6 V2_UNITY | Unity
+7 V2_UNREAL | Unreal
+8 V2_BLENDER | Blender
+9 - | PyTorch3D
+10 V2_SIM2REAL | 5、有具身智能、机器人仿真（Isaac Gym/MuJoCo）、sim2real迁移经验，或在CVPR/ICCV/SIGGRAPH/ACM MM/IROS等顶会发表论文者优先。
+
+==== 32 N0063 nC=10 nI=24 empty=[]
+TITLE 重定向算法实习生
+DUTY 岗位职责：  1、负责人体/人形机器人动作生成（motion generation）与重定向（retargeting）算法的设计、开发与优化，实现从人类动作到机器人动作的高质量映射。  2、 负责多源动作数据处理与建模，包括动捕数据（mocap）、视频提取动作、仿真数据等，完成清洗、对齐、标注及标准化流程建设。  3、设计并实现跨骨骼结构（human → humanoid）的动作重定向算法，解决关节自由度不一致、比例差异、约束冲突等问题
+1 V2_MOCAP | 2、 负责多源动作数据处理与建模，包括动捕数据（mocap）、视频提取动作、仿真数据等，完成清洗、对齐、标注及标准化流程建设。
+2 - | GMR
+3 - | omniretarget
+4 V2_BLENDER,V2_UNITY | 5、熟悉至少一种仿真或动画工具链，如MuJoCo / Isaac Gym, Blender / Unity 或其他物理引擎/动画系统
+5 V2_BLENDER | Blender
+6 V2_UNITY | Unity
+7 V2_C | 6、精通 Python 或 C++，具备良好的数据处理与算法实现能力，熟悉 NumPy / PyTorch 等工具优先。
+8 V2_MOCAP | 7、熟悉动捕数据格式与处理流程（如 BVH、FBX 等），具备动作数据清洗与调优经验。
+9 - | BVH
+10 - | FBX
+
+==== 33 N0003 nC=2 nI=30 empty=[]
+TITLE 人形强化学习控制算法工程师-27届
+DUTY 岗位职责：  1. 研发基于深度强化学习的足式机器人运动控制算法，提升机器人在复杂环境下的稳定性与自适应能力。  2. 设计并优化不同环境和任务下的步态规划算法，涵盖静态步态（如爬行、行走）和动态步态（如跑步、跳跃）。  3. 开发实时控制算法，使机器人能够响应传感器数据，快速调整姿态并进行平衡控制。  4. 设计并实现路径规划与导航算法，确保机器人在多变地形中稳定前行，避开障碍物。  5. 在仿真平台（如MuJoCo、Isaac Gy
+1 V2_C |   - 精通C++、Python编程，熟悉机器人开发中的主流工具和库（如MuJoCo、IsaacGym/Sim/Lab等仿真平台）。
+2 V2_CLASSICAL_CONTROL |   - 具备机器人运动控制经验，熟悉运动控制算法（如PID控制、LQR、MPC）及传感器数据融合技术。
+
+==== 34 N0044 nC=0 nI=11 empty=[]
+TITLE 足式强化学习控制算法实习生
+DUTY 岗位职责：  1. 研发基于深度强化学习的足式机器人运动控制算法，提升机器人在复杂环境下的稳定性与自适应能力。  2. 设计并优化不同环境和任务下的步态规划算法，涵盖静态步态（如爬行、行走）和动态步态（如跑步、跳跃）。  3. 开发实时控制算法，使机器人能够响应传感器数据，快速调整姿态并进行平衡控制。  4. 设计并实现路径规划与导航算法，确保机器人在多变地形中稳定前行，避开障碍物。  5. 在仿真平台（如MuJoCo、Isaac Gy
+
+==== 35 N0142 nC=10 nI=21 empty=[]
+TITLE 机器人规控算法工程师-苏州
+DUTY 职位描述  1. 负责人形机器人的整体运动规划算法应用及测试，包括手臂运动规划、双臂协同、力控等算法的开发与优化，确保机器人运动的高效性和稳定性。  2. 负责双臂机器人的正逆运动学求解、动力学建模，以及机器人强化学习/模仿学习算法的开发、追踪与优化，提升机器人的运动精度和智能化水平。  3. 实现机器人双臂操作任务，包括双臂协同抓取、搬运等复杂操作任务的算法开发与优化，确保机器人能够完成复杂的操作任务。  4. 将前沿的规划与控制算法
+1 V2_PATH_SEARCH | 2. 熟悉机器人学、刚体运动学，掌握常用的路径规划算法（如RRT*、A*、PRM）及其优化方法。
+2 V2_PATH_SEARCH | RRT*
+3 V2_PATH_SEARCH | A*
+4 V2_PATH_SEARCH | PRM
+5 V2_OMPL | 3. 至少熟悉一种常用的路径规划与轨迹优化开源框架，如OMPL、TrajOpt、Chomp、Curobo等，具备相关算法的开发与优化经验。
+6 V2_OMPL | OMPL
+7 - | TrajOpt
+8 - | Chomp
+9 - | Curobo
+10 V2_C | 5. 熟练掌握C++、Python等编程语言，具备良好的代码编写与调试能力。熟悉ROS（机器人操作系统）者优先。
+
+==== 36 N0033 nC=3 nI=10 empty=[]
+TITLE 机器人规控算法工程师-工业方向
+DUTY 机器人规控算法工程师  职位描述  1、参与机器人动作通过性的方向研究；  2、参与机器人整身规划软件的框架设计及开发；  3、参与机器人姿态最优相关算法的设计及开发；  4、负责机器人现场实施、调试。     职位要求  1、机器人、人工智能、自动驾驶等专业；  2、熟练掌握主流的规划类算法，熟悉主流避障类方法；  3、熟悉最优化理论，熟练使用相关求解器及开源库；  4、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；
+1 V2_C | 4、熟练掌握C/C++/Python等编程语言，具备算法工程化经验；
+2 V2_C | C/C++/Python
+3 - | Webots
+
+==== 37 N0025 nC=4 nI=13 empty=[]
+TITLE 具身操作算法工程师（力控）-工业方向
+DUTY 职位描述：    1、开发工业场景下的机器人自主抓取与操作算法，支持稀疏/杂乱/半结构化物体的位姿估计、抓点生成及轨迹规划。    2、实现基于力/触觉的柔顺控制，完成装配、插拔、打磨等精密操作。    3、融合视觉与触觉反馈，提升操作成功率与鲁棒性。    4、在仿真与实际机器人上完成算法部署与性能调优。       任职要求：    1、机器人/控制/计算机硕士。  2、熟悉C++/Python，熟悉MoveIt、OMPL、Trac
+1 V2_C,V2_MOVEIT,V2_OMPL | 2、熟悉C++/Python，熟悉MoveIt、OMPL、TracIK等规划库。  
+2 V2_MOVEIT | MoveIt
+3 V2_OMPL | OMPL
+4 V2_TELEOP | 4、熟悉力控（阻抗/导纳）或遥操作者优先。
+
+==== 38 N0144 nC=4 nI=14 empty=[]
+TITLE 具身智能应用工程师-苏州
+DUTY 职位描述：   负责具体业务场景下机器人感知-规划-控制链路的整体设计与实现，包括模块拆分、数据流设计及系统集成。   开发和优化机械臂基础运动规划算法，包括轨迹生成、路径规划、避障与执行稳定性优化。  基于 ROS2 或类似中间件，搭建高效、稳定的机器人软件架构（非顶层系统架构）。  参与多模块联调，解决感知、规划与控制之间的接口与时序问题。  优化系统实时性与鲁棒性（延迟、抖动、任务成功率）。  支持机器人在真实场景中的部署与调试，
+1 V2_PATH_SEARCH | 掌握至少一种运动规划方法（如A*/RRT/轨迹优化/采样规划等），理解基础运动学与动力学。
+2 V2_PATH_SEARCH | A*
+3 V2_PATH_SEARCH | RRT
+4 V2_C | 具备良好的工程能力（C++/Python），能独立完成模块开发与调试。
+
+==== 39 N0036 nC=10 nI=18 empty=[]
+TITLE 人机交互算法工程师-27届
+DUTY 职位描述：  1、构建面向机器人的多模态交互Pipeline：融合视觉/语音/语言输入，将数字人动作生成逻辑转化为机器人可执行的关节轨迹/行为指令，兼顾运动学约束与交互自然性。  2、将2D/3D数字人领域的成熟技术适配到机器人平台，解决机器人在人机交互中的肢体表达、手势协同、非语言反馈等关键问题。  3、针对机器人物理限制（自由度、运动范围、延迟、安全性），对源自数字人的动作序列进行重定向（Retargeting）、平滑优化与可行性校
+1 V2_MODEL_COMPRESSION | 4、独立设计迁移验证方案，在Isaac Sim/MuJoCo等仿真环境及真实机器人平台上完成算法闭环测试，量化评估交互自然度、响应延迟与用户接受度。
+2 - | SMPL
+3 - | SMPL-X
+4 - | FLAME
+5 V2_C,V2_BLENDER,V2_UNITY,V2_UNREAL | 4、熟练使用PyTorch，了解机器人基础概念（如正/逆运动学）；掌握3D工具链（Unity/Unreal/Blender/PyTorch3D）与Python/C++工程能力。
+6 V2_UNITY | Unity
+7 V2_UNREAL | Unreal
+8 V2_BLENDER | Blender
+9 - | PyTorch3D
+10 V2_SIM2REAL | 5、有具身智能、机器人仿真（Isaac Gym/MuJoCo）、sim2real迁移经验，或在CVPR/ICCV/SIGGRAPH/ACM MM/IROS等顶会发表论文者优先。
+
+==== 40 N0065 nC=2 nI=20 empty=[]
+TITLE 机器人导航算法工程师
+DUTY 岗位职责：  1、负责机器人端自主导航系统算法研发、迭代与工程落地，包含全局路径规划、局部轨迹优化、动态避障、轨迹跟踪控制，支撑室内外全场景自主行走与巡检作业。  2、基于SLAM定位位姿与环境感知结果，搭建并优化导航决策体系，针对动态人群、狭窄通道、复杂障碍物、重复场景，解决路径卡顿、绕行不合理、跟踪偏差、避障失效等核心问题。  3、结合人形机器人运动学特性，适配机体运动约束，优化轨迹平滑性与运动稳定性，实现机器人低速精准对位、高速平
+1 V2_CLASSICAL_CONTROL,V2_PATH_SEARCH | 2、精通机器人导航核心算法，熟练掌握 A*、Dijkstra 全局规划，DWA、TEB、MPC 局部轨迹规划与动态避障算法，熟悉轨迹平滑与运动约束优化。
+2 V2_C | 3、熟练 C++ 开发，熟悉 Linux 开发环境、ROS/ROS2 生态，熟练使用导航开源模块，具备独立算法改造和调优能力。
+
+==== 41 N0147 nC=3 nI=9 empty=[]
+TITLE 具身控制算法专家-苏州
+DUTY 职位描述：    搭建完整控制架构，解决高动态、高负载操作中的稳定性与精准度问题。    研究先进控制理论（自适应控制、学习控制、阻抗/导纳控制高级变体）在工业具身机器人的应用。    设计整机辨识与参数自整定工具链，提升不同负载条件下的控制性能。    与机械设计、力学仿真团队合作优化关节驱动与结构动力学特性。       任职要求：    博士，控制工程/机器人学，5年以上工业机械臂或移动机器人控制算法研发经验。    在自动控制或
+1 V2_SAFETY_STANDARDS | 熟悉功能安全标准（IEC 61508，ISO 13849）下的控制软件设计方法。
+2 V2_SAFETY_STANDARDS | 熟悉功能安全标准（IEC 61508，ISO 13849）下的控制软件设计方法。
+3 V2_SAFETY_STANDARDS | 熟悉功能安全标准（IEC 61508，ISO 13849）下的控制软件设计方法。
+
+==== 42 N0605 nC=3 nI=14 empty=[]
+TITLE 机器人运动控制算法工程师
+DUTY 岗位职责 1、负责机器人的运动控制算法的开发与实机调试； 2、负责编写机器人控制相关的SDK； 3、负责机器人控制软件及代码开发，创建高可靠性、可维护和可测试的C++软件； 4、负责提升算法的质量、性能，及科研代码重构与优化。  任职要求 1、具有多关节机器人规划控制算法软件系统性开发和落地经验； 2、熟悉多关节机器人运动学、动力学建模等； 3、熟悉现代控制理论与算法（如LQR、MPC等）、凸优化、二次规划等，数学功底强，具有较强的逻辑
+1 V2_C | 3、负责机器人控制软件及代码开发，创建高可靠性、可维护和可测试的C++软件；
+2 V2_CLASSICAL_CONTROL | 3、熟悉现代控制理论与算法（如LQR、MPC等）、凸优化、二次规划等，数学功底强，具有较强的逻辑分析能力；
+3 V2_C | 5、有扎实的编程基础，熟练掌握C/C++，具有良好的编程风格；
+
+==== 43 N0591 nC=6 nI=22 empty=[]
+TITLE 导航与规划算法工程师
+DUTY 岗位职责 工作职责（Responsibilities） - 全局路径规划 - 局部路径/轨迹规划与跟踪 - 避障与动态障碍处理 - 重规划与状态机 - 工程化交付与评测  任职要求 - 基础能力 - 计算机/自动化/机器人/控制相关本科及以上；3 年及以上相关经验（可按级别调整）。 - 扎实的算法与数学基础：图搜索、最优化、概率/几何、数值计算、工程调试能力强。 - 熟练 C++（优先）/Python，具备良好代码规范、单元测试与工程架
+1 V2_C | - 熟练 C++（优先）/Python，具备良好代码规范、单元测试与工程架构能力。
+2 V2_PATH_SEARCH | - 熟悉至少一类全局规划：A*/D* 系列、Hybrid A*、PRM/RRT* 等，并能在 costmap 上工程落地。
+3 V2_CLASSICAL_CONTROL | - 熟悉至少一类局部规划/轨迹优化：DWA、TEB、MPC、采样-优化混合方案等，理解优劣与适用边界。
+4 V2_NAV2 | - 熟悉 ROS/ROS2（Nav2 更佳）、坐标系 TF、消息与参数体系、传感器数据链路（LiDAR/深度相机/IMU）。
+5 V2_NAV2 | 熟悉 ROS/ROS2（Nav2 更佳）
+6 - | 坐标系 TF
+
+==== 44 E0007 nC=5 nI=11 empty=[]
+TITLE 电机控制算法工程师
+DUTY 1、负责无刷/有刷电机驱动器控制算法软件开发,包括模型仿真、算法设计、功能设计、软件编码和调试; 2、制定测试计划和测试说明文档,并完成测试工作; 3、分析解决新产品在研发,测试,生产,售后阶段反馈的问题,并优化。
+1 V2_C | 2、熟悉c语言、Stm32单片机，了解Cortex M内核的ARM架构；
+2 V2_CLASSICAL_CONTROL | 3、熟悉电机控制理论及方法，包括PID控制、矢量控制、直接转矩控制等理论；
+3 V2_CAN,V2_ETHERCAT | 6、熟悉EtherCat、Can等工业总线协议者优先；
+4 V2_C | c语言
+5 V2_CAN,V2_ETHERCAT | EtherCat、Can
+
+==== 45 E0003 nC=0 nI=16 empty=['O12:TC_RL:强化学习', 'O14:TC_RL:强化学习']
+TITLE 强化学习算法工程师
+DUTY 1、负责基于强化学习的四足/轮足运动控制算法研发及落地应用; 2、根据实际项目需求实现、改造和优化算法,解决实际问题; 3、研究前沿机器人强化学习、模仿学习算法。
+
+==== 46 E0005 nC=1 nI=14 empty=[]
+TITLE 机器人运控算法工程师
+DUTY 1、负责人形机器人本体各部件的动力学建模、参数辨识,核对修正机器人模型文件;  2、基于修正后的机器人模型,对机器人进行动力学建模与最优控制求解,配合其他同事的机器人运动控制算法在实机平台进行模型验证; 3、构造编写机器人控制相关sdk,给内部同事或者客户使用; 4、根据动力学模型验证结果对机器人的机械和电气设计提出改进意见并配合调优。 
+1 V2_C | 5、熟练掌握经典控制理论和现代控制理论，熟悉基于ROS的C/C++编程、Python编程；
+
+==== 47 E0004 nC=3 nI=19 empty=['O3:SK_ROS:ROS']
+TITLE 强化学习运控算法工程师
+DUTY 1、负责基于强化学习的双足运动控制算法研发及算法极限性能探索(可0到1培养); 2、负责通过机器人运动学、动力学、控制理论知识分析机器人结构并提出改进意见; 3、根据实际项目需求实现、改造和优化算法; 4、持续研究最新强化学习、模仿学习算法。
+1 V2_FE_TOPOLOGY | 2、掌握机器人动力学、优化理论、凸优化、变分法、数值计算等相关知识;
+2 V2_CLASSICAL_CONTROL | 3、熟悉传统控制(PID、LQR、阻抗控制等)、最优控制(MPC 等)；
+3 V2_C | 4、熟练使用C++/Python，了解 ROS/ ROS2、Pinocchio、CasADi 等生态工具;
+
+==== 48 N0296 nC=3 nI=24 empty=[]
+TITLE 机器人算法工程师
+DUTY • 跟踪前沿具身智能技术，推动前沿算法在机器人上的落地应用，持续提升复杂任务的执行能力与稳定性。 • 负责机器人行为决策与运动规划算法研发，实现非结构化环境下的智能决策与稳定控制。 • 负责具身智能双臂操作算法研发，结合感知与决策，提升复杂任务的自主操作能力。 • 负责规控软件架构设计与优化，保障算法的高实时性与鲁棒性。 • 负责仿真环境搭建与算法迭代验证，攻克Sim2Real Gap难题，确保算法在真机上的稳定迁移。 • 与硬件、嵌入
+1 V2_SIM2REAL | • 负责仿真环境搭建与算法迭代验证，攻克Sim2Real Gap难题，确保算法在真机上的稳定迁移。
+2 V2_CALIBRATION | • 与硬件、嵌入式、感知团队紧密协作，完成算法在真机上的部署、标定、调试与性能优化。
+3 V2_C | • 精通 Python/C++ 及 Linux 开发，熟练掌握Pytorch或TensorFlow，具备扎实的工程实现能力。
+
+==== 49 N0273 nC=1 nI=9 empty=[]
+TITLE 机器人规控算法工程师
+DUTY 1. 负责机器人全身和双臂操作规控算法研发和前沿技术的研究，包括但不限于运动控制、轨迹规划、正逆运动学、动力学、力控等模块 2. 针对特定问题进行算法调研和快速验证，提出算法优化方案，并参与算法模型的开发和优化工作。 3. 负责将算法部署至实际的系统中，并保持对算法性能的持续跟踪和优化。
+1 V2_C | 2. 精通C++，python，ROS, 且有实际的算法实践经验。
+
+==== 50 N0346 nC=7 nI=15 empty=[]
+TITLE 运控算法工程师
+DUTY 1. 负责轮式人形机器人的全身运动控制（WBC）及模型预测控制（MPC）算法的研发与部署； 2. 负责轮式底盘的平衡控制、全身协调运动规划及避障算法开发； 3. 负责多指灵巧手的运动学/动力学建模、抓取规划及力控算法研发； 4. 负责算法在仿真环境（MuJoCo/Isaac Sim等）的验证及 Sim-to-Real 的真机迁移； 5. 跟踪具身智能、强化学习或传统优化算法在机器人领域的最新前沿技术。
+1 V2_CLASSICAL_CONTROL | 1. 负责轮式人形机器人的全身运动控制（WBC）及模型预测控制（MPC）算法的研发与部署；
+2 V2_SIM2REAL | 4. 负责算法在仿真环境（MuJoCo/Isaac Sim等）的验证及 Sim-to-Real 的真机迁移；
+3 V2_C | 2. 精通 C++，具备优秀的现代 C++ 编程习惯，熟悉 Linux 平台开发；
+4 V2_OSQP,V2_IPOPT | 4. 熟悉 Pinocchio, RBDL, Drake 等至少一种动力学库，有非线性优化（如 OSQP, Ipopt）经验；
+5 - | RBDL
+6 V2_OSQP | OSQP
+7 V2_IPOPT | Ipopt
+
+==== 51 N0329 nC=4 nI=21 empty=[]
+TITLE 机器人规控算法工程师
+DUTY 1.跟踪前沿具身智能技术，推动前沿算法在机器人上的落地应用，持续提升复杂任务的执行能力与稳定性。 2.负责机器人行为决策与运动规划算法研发，实现非结构化环境下的智能决策与稳定控制。 3.负责具身智能双臂操作算法研发，结合感知与决策，提升复杂任务的 自主操作能力。 4.负责规控软件架构设计与优化，保障算法的高实时性与鲁棒性。 5.负责仿真环境搭建与算法迭代验证，攻克Sim2Real Gap难题，确保算法在真机上的稳定迁移。 6.与硬件、嵌
+1 V2_SIM2REAL | 5.负责仿真环境搭建与算法迭代验证，攻克Sim2Real Gap难题，确保算法在真机上的稳定迁移。
+2 V2_CALIBRATION | 6.与硬件、嵌入式、感知团队紧密协作，完成算法在真机上的部署、标定、调试与性能优化。
+3 V2_C | 2.精通 Python/C++及Linux 开发，熟练掌握Pytorch或TensorFlow，具备扎实的工程实现能力。
+4 - | Gbzeao
+
+==== 52 N0324 nC=3 nI=22 empty=[]
+TITLE 机器人规控算法工程师
+DUTY 岗位职责: 1.跟踪前沿具身智能技术，推动前沿算法在机器人上的落地应用，持续提升复杂任务的执行能力与稳定性。 2.负责机器人行为决策与运动规划算法研发，实现非结构化环境下的智能决策与稳定控制。 3.负责具身智能双臂操作算法研发，结合感知与决策，提升复杂任务的自主操作能力。 4.负责规控软件架构设计与优化，保障算法的高实时性与鲁棒性。 5.负责仿真环境搭建与算法迭代验证，攻克Sim2RealGap难题，确保算法在真机上的稳定迁移。 6.
+1 V2_SIM2REAL | 5.负责仿真环境搭建与算法迭代验证，攻克Sim2RealGap难题，确保算法在真机上的稳定迁移。
+2 V2_CALIBRATION | 6.与硬件、嵌入式、感知团队紧密协作，完成算法在真机上的部署、标定、调试与性能优化。
+3 V2_C | 2.精通Python/C++及Linux开发，熟练掌握Pytorch或TensorFlow，具备扎实的工程实现能力。
+
+==== 53 N0352 nC=3 nI=13 empty=[]
+TITLE 运动控制算法工程师
+DUTY 1 负责机器人控制软件开发，包括运动学与动力学建模、运动轨迹规划、关键参数标定和辨识； 2、负责机器人控制模型分析和控制方案设计； 3、负责机器人力反馈控制、振动抑制等算法的设计和实现； 4、参与系统软件集成开发和机器人系统调试； 5、相关技术文件的编制。
+1 V2_CALIBRATION | 1 负责机器人控制软件开发，包括运动学与动力学建模、运动轨迹规划、关键参数标定和辨识；
+2 V2_C | 5. 熟练掌握C/C++, Python, MATLAB等编程语言，熟悉机器人操作系统者(ROS)优先。
+3 V2_C | C
+
+==== 54 E0102 nC=0 nI=5 empty=[]
+TITLE 高级机电控制工程师
+DUTY 1. 机电控制系统开发,控制相关嵌入式软件开发,控制相关传感器、结构等的开发; 2. 产品可靠性测试、研发及生产用测试台、治具等的开发; 3. 负责相关产品的售前、生产、售后等环节的技术支持工作。
+
+==== 55 E0090 nC=0 nI=6 empty=[]
+TITLE 嵌入式软件开发工程师
+DUTY 岗位职责: 1. 无刷电机(BLDC)、永磁同步电机(PMSM)控制程序的开发, 2. 机电控制系统开发,嵌入式软件开发,相关传感器、结构等的开发; 3. 电机相关可靠性测试、研发及生产用测试台、治具等的开发; 
+
+==== 56 E0295 nC=7 nI=17 empty=['O3:SK_ROS:ROS']
+TITLE 运动控制算法工程师
+DUTY 负责运动控制算法的研发与优化,包括但不限于以下方向: 1、传统控制优化:设计并优化 PID、反馈线性化、阻抗控制等算法,以提升运动精度和鲁棒性; 2、最优控制与轨迹优化:应用轨迹优化和MPC等方法,实现优化轨迹跟踪、约束控制等功能; 3、基于动力学模型的全身控制:应用操作空间控制(Operational Space Control)的方法,实现全身控制(Whole-Body Control),并利用系统辨识来实现高性能控制; 4、全身控
+1 V2_CLASSICAL_CONTROL | 1、传统控制优化：设计并优化 PID、反馈线性化、阻抗控制等算法，以提升运动精度和鲁棒性；
+2 V2_CLASSICAL_CONTROL | 2、最优控制与轨迹优化：应用轨迹优化和MPC等方法，实现优化轨迹跟踪、约束控制等功能；
+3 V2_SYSID | 3、基于动力学模型的全身控制：应用操作空间控制（Operational Space Control）的方法，实现全身控制（Whole-Body Control），并利用系统辨识来实现高性能控制；
+4 V2_CLASSICAL_CONTROL | 5、多约束优化与实时控制：结合动力学约束、接触建模、力/位置混合控制，运用数值优化（QP、SQP、iLQR 等）实现高效实时控制。
+5 V2_FE_TOPOLOGY | 2、数学基础扎实：掌握机器人动力学、优化理论、凸优化、变分法、数值计算等相关知识；
+6 V2_DDP,V2_CLASSICAL_CONTROL | 3、控制算法：熟悉传统控制（PID、LQR、阻抗控制、反馈线性化等）、最优控制（MPC、iLQR、DDP 等）、操作空间控制（OSC，WBC），有 QP-based WBC 经验者优先；
+7 V2_C | 4、编程与工具：熟练使用 C++/Python，了解 ROS/ROS2、Pinocchio、CasADi 等生态工具；
+
+==== 57 E0276 nC=3 nI=18 empty=['O8:TC_ACTUATOR:电机', 'O10:TC_CONTROL:电机控制算法', 'O13:TC_ACTUATOR:无刷电机']
+TITLE 电机控制算法工程师
+DUTY 1、负责机器人关节电机高性能控制器的方案设计、建模仿真、并于嵌入式合作完成软件开发; 2、设计、开发电机高精度状态反馈算法,如位置、速度、力矩等; 3、协同硬件、结构工程师设计机电系统方案。如硬件参与硬件选型、电机传感器布置方案等; 4、优化电机控制器电流环响应及探索提高电流环带宽的算法; 5、开发实现电机在线、离线参数辨识算法; 6、负责相关领域的先进技术探究和积累,并进行产品化应用。
+1 V2_C | 2、具有丰富的编程经验，熟悉C语言/matlab，熟悉使用simulink进行电机建模和仿真；
+2 V2_CLASSICAL_CONTROL | 3、具有良好的电机理论知识，精通PMSM、步进电机等电机控制算法，如有感、无感FOC算法、MTPA、死区补偿/优化等；
+3 V2_CALIBRATION | 6、熟悉无刷电机常用传感器特性及相应的标定标定算法。如线性霍尔、磁编码器；
+
+==== 58 E0274 nC=4 nI=15 empty=['O2:SK_ROS:ROS1', 'O3:SK_ROS2:ROS2', 'O4:SK_CPP:C++', 'O7:SK_CPP:C++', 'O9:SK_ROS:ROS1', 'O10:SK_ROS2:ROS2']
+TITLE 导航算法工程师
+DUTY 1、负责移动机器人导航算法开发,包含但不局限于全局路径规划、局部规划算法优化; 2、负责高性能和高精度的规划调度模块开发和优化,负责与移动机器人其他各模块的系统集成和调试工作; 3、负责优化动态路径规划算法(如改进A*、RRT*、DWA等),解决低矮障碍物、狭窄通道等高难度场景的避障问题,解决机器人贴边清扫问题; 4、负责探索前沿规划方向,包含基于拓扑图的全局路径规划,基于动态障碍的规划等; 5、负责基于栅格地图、高程地图、OCC、BE
+1 V2_PATH_SEARCH | 3、负责优化动态路径规划算法（如改进A*、RRT*、DWA等），解决低矮障碍物、狭窄通道等高难度场景的避障问题，解决机器人贴边清扫问题；
+2 V2_C | 1、熟悉Linux系统，以及ROS1、ROS2、C++、Python等；
+3 V2_C | 2、熟练掌握C、C++及python等语言编程开发，有较强的逻辑分析能力及良好的编程习惯；
+4 V2_CLASSICAL_CONTROL | 4、熟悉DWA、TEB、MPC、PID等常用的运动控制算法至少1~2个以上；
+
+==== 59 E0236 nC=6 nI=22 empty=['O5:SK_ROS:ROS']
+TITLE 机器人控制工程师
+DUTY - 主导从算法设计 → 仿真验证 → 真机联调 → 工程落地的完整研发流程。 - 负责人形机器人遥操作核心算法的开发与优化,包括轨迹优化与重定向、柔顺控制、力位混合控制与自适应策略等,支撑机械臂、人形机器人等设备的精准灵巧操作。 - 基于Gazebo、Mujoco等仿真工具搭建仿真测试环境,完成算法的仿真验证、性能评估与迭代优化。 - 分析并解决机器人实际操作中出现的噪声、抖动、延迟、误差等问题,优化实时性、稳定性与控制精度。 - 参与
+1 V2_TELEOP | - 负责人形机器人遥操作核心算法的开发与优化，包括轨迹优化与重定向、柔顺控制、力位混合控制与自适应策略等，支撑机械臂、人形机器人等设备的精准灵巧操作。
+2 V2_TELEOP | - 跟踪并探索领域前沿技术在遥操作中的融合与应用，撰写相关技术文档与报告，推动团队技术积累与成果转化。
+3 V2_C | - 熟悉C++/Python，有ROS/ROS2、Gazebo、Isaac Sim等机器人仿真与实验经验。
+4 V2_CLASSICAL_CONTROL | - 掌握机器人运动学与动力学基础，熟悉PID、MPC等控制策略，具备扎实的数学与系统建模基础。
+5 V2_TELEOP | - 具备遥操作系统、力控算法设计、动态建模与参数辨识、传感器融合与实时系统开发等经验者优先。
+6 V2_TELEOP | - 加分项：有VR设备/力反馈设备开发经验；参与过工业/医疗遥操作项目落地；在ICRA/IROS等顶会发表论文。
+
+==== 60 E0183 nC=5 nI=9 empty=['O3:SK_ROS:ROS']
+TITLE 嵌入式软件工程师（控制）
+DUTY 1.负责机器人控制算法的开发,调试,部署; 2.负责机器人执行器的驱动开发; 3.负责开发对控制命令,进行逆运动学转换开发; 4.负责伺服电机 FOC 参数适配、力矩观测与滤; 5.负责关节柔顺控制、碰撞检测、被动柔顺防磕碰。
+1 V2_CLASSICAL_CONTROL | 4.负责伺服电机 FOC 参数适配、力矩观测与滤；
+2 V2_C | 2.熟练掌握Python与C++编程，精通Ubuntu, ROS/ROS2；
+3 V2_CLASSICAL_CONTROL,V2_KALMAN_FACTOR | 4.熟练掌握 LQR 最优控制、极点配置、卡尔曼滤波 EKF/UKF、姿态滤波、噪声抑制；
+4 V2_CLASSICAL_CONTROL | 5.熟练掌握模型预测控制 MPC；
+5 V2_URDF | 6.熟悉前沿的机器人数据结构，如URDF等；
+
+==== 61 E0143 nC=5 nI=25 empty=['O4:SK_ROS:ROS']
+TITLE 力反馈控制算法工程师
+DUTY 1、主导力反馈系统整体技术链路,包括主端力反馈臂控制、主从交互、力/位置信号处理、反馈算法、安全约束及系统联调。 2、负责力反馈控制算法开发与优化,包括阻抗控制、导纳控制、力反射、虚拟墙、接触检测、力限幅及稳定性控制等。 3、针对力反馈过程中的振荡、反弹、接触不稳定和高频抖动等问题,设计并实现稳定化方法。 4、负责力反馈机械臂的运动控制相关问题,包括奇异点规避、关节限位、速度/加速度约束、轨迹平滑及安全控制。 5、搭建力反馈性能测试体系
+1 V2_TELEOP | 1、机器人、机械、控制、机械电子、自动化或相关专业本科及以上学历，5年以上机器人控制、力反馈、遥操作或相关研发经验。
+2 V2_TELEOP | 2、有主导完成力反馈控制系统或遥操作控制系统开发、部署和调试的实际经验。
+3 V2_TELEOP | 4、熟悉机器人运动学、动力学、雅可比矩阵、奇异点分析与冗余度控制。熟悉阻抗/导纳控制、双边遥操作、力反射、接触控制、虚拟环境或虚拟墙等相关方法。
+4 V2_C | 6、熟练使用 C++ 或 Python，具备 Linux、ROS/ROS2、实时控制或机器人中间件开发经验。
+5 V2_TELEOP | 2、有医疗机器人、工业遥操作、人形机器人、VR 交互或高精度机械臂的力反馈控制经验。
+
+==== 62 E0123 nC=2 nI=15 empty=[]
+TITLE 机器人力控算法工程师
+DUTY 1、负责机器人动力学建模、参数辨识及重力、摩擦、负载等补偿算法开发。 2、负责阻抗控制、导纳控制、力位混合控制、碰撞检测等力控与柔顺控制算法的开发和优化。 3、负责六维力传感器、关节力矩传感器及外力观测器的应用,实现接触力感知与外力估计。 4、解决机器人与环境交互中的柔顺性、稳定性与安全性问题。 5、完成力控算法的仿真验证、真机部署、系统调试及性能优化。 6、负责调研和探索前沿的力控算法,例如智能力控,触觉反馈与视觉/力觉的跨模态融合力
+1 V2_SYSID | 2、具备扎实的控制理论、数学基础，熟练掌握多刚体动力学建模、单关节及整机系统辨识。
+2 V2_C | 5、具备较强的编程能力及算法实现能力，熟练使用C++，熟悉Linux开发环境，熟悉常见仿真器如Mujoco/Gazebo/Isaac中的一种或多种，具备机器人算法真机部署与调试经验。
+
+==== 63 E0342 nC=8 nI=28 empty=['O4:SK_CPP:C++', 'O5:SK_ROS:ROS', 'O19:TC_MOTION_PLANNING:motion planning', 'O20:TC_MOTION_PLANNING:motion planning', 'O22:TC_PERCEPTION:perceived environment data']
+TITLE Senior Software Engineer, Navigation
+DUTY Design, implement, and deploy 3D motion planning algorithms for locomotion, with an emphasis on whole-body collision-aware motion execution in real-time. Own the core components of our navigation stack, specifically the 
+1 V2_CLASSICAL_CONTROL,V2_PATH_SEARCH | Deep technical understanding of locomotion-specific path and motion planning algorithms, including sampling-based planners (RRT/PRM), optimization-bas
+2 V2_C | Expert proficiency in modern C++ (C++17/20), with a proven track record of writing high-performance, multithreaded code for robotics applications.
+3 V2_CERES,V2_OSQP,V2_IPOPT,V2_DDS | Experience with common robotics frameworks (e.g., ROS/ROS2, DDS) and hands-on experience with modern optimization libraries relevant to motion plannin
+4 V2_CLASSICAL_CONTROL | Hands-on experience implementing Model Predictive Control (MPC) or similar optimization-based control techniques for dynamic robot locomotion.
+5 V2_KALMAN_FACTOR | Strong foundational knowledge of robot kinematics, dynamics, controls, and state estimation (e.g., EKF, particle filters).
+6 V2_USD | $241,000 USD
+7 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+8 V2_CERES,V2_OSQP,V2_IPOPT | Ceres, IPOPT, OSQP
+
+==== 64 E0322 nC=5 nI=19 empty=[]
+TITLE Robotics Software Engineer III, Manipulation
+DUTY Own a task vertical from definition through reliable on-robot execution Work across learned and classical manipulation methods Run iterative policy improvements across data collection, annotation, training, evaluation, a
+1 V2_CAN | This role is well suited for an engineer who enjoys working close to the robot and being methodical about failure analysis. You will replay logs, iden
+2 V2_CAN | Integrate learned policies with higher-level skills so they can execute inside complete robot workflows
+3 V2_TELEOP | Familiarity with at least some of the following: grasp planning, imitation learning, reinforcement learning, force control, teleoperation, robot senso
+4 V2_USD | $241,000 USD
+5 V2_HR | Agility Robotics does not accept unsolicited referrals from third-party recruiting agencies.  We prioritize direct applicants and encourage all qualif
+
+==== 65 E0425 nC=6 nI=26 empty=[]
+TITLE Sr. Software Engineer - Wheeled Controls
+DUTY The Senior Software Engineer – Wheeled Controls is responsible for developing and deploying the high-performance motion control systems that power our robotic mobility. This role focuses on the critical software layer th
+1 V2_CLASSICAL_CONTROL,V2_KALMAN_FACTOR | Design, implement, and tune whole-body controllers that coordinate wheeled base motion with upper-body manipulation. This includes state-estimation (E
+2 V2_SAFETY_STANDARDS | Drive the transition of wheeled platforms to market-ready status. This includes implementing safety-rated speed monitoring, emergency stop logic, and 
+3 V2_C | C++
+4 V2_C | Expert C++:
+5 V2_C | High proficiency in modern C++ (14/17/20) for real-time systems, with a focus on memory management and performance optimization.
+6 V2_SYSID | System Identification:
+
+==== 66 E0421 nC=6 nI=33 empty=[]
+TITLE Software Engineer - Dexterous Manipulation
+DUTY The Software Engineer – Dexterous Manipulation is a core contributor to our robots' ability to interact with the world with human-like precision. You will implement, tune, and deploy reinforcement learning and related le
+1 V2_TELEOP | The Software Engineer – Dexterous Manipulation is a core contributor to our robots' ability to interact with the world with human-like precision. You 
+2 V2_C | Translate state-of-the-art methods (RL / imitation policies, human-to-robot motion retargeting) into production-grade C++/Python.
+3 V2_SIM2REAL,V2_DOMAIN_RANDOMIZATION | Build and refine sim-to-real pipelines—hand models, domain randomization, and validation in IsaacSim / MuJoCo / Drake.
+4 V2_CALIBRATION | Deploy and debug manipulation capabilities on physical robots; diagnose sensor-noise, latency, and calibration issues.
+5 V2_C | Strong Python and working C++ for real-time robotic software.
+6 V2_CALIBRATION,V2_TELEOP | Nice to have: teleoperation (VR/haptic) and retargeting, tactile-sensing integration, computer vision (6D pose / point clouds), and end-effector bring
+
+==== 67 E0439 nC=7 nI=24 empty=[]
+TITLE Staff Software Engineer - Humanoid Controls
+DUTY Apptronik is building robots for the real world — to improve human quality of life and help solve the ever-increasing labor shortage. As a Staff Software Engineer – Humanoid Controls, you will be a senior technical force
+1 V2_TELEOP | Apptronik is building robots for the real world — to improve human quality of life and help solve the ever-increasing labor shortage. As a Staff Softw
+2 V2_TELEOP | Flex across the stack to the highest-impact problems — e.g. learning-based hand control (RL in simulation), mobile manipulation, teleoperation, and es
+3 V2_TELEOP | Set technical direction across the controls stack, influencing the roadmap and bringing adjacent teams (locomotion, manipulation, teleoperation, RL, e
+4 V2_CLASSICAL_CONTROL | Proven expertise in whole-body control (WBC/OSC, QP-based control, or MPC) for floating-base (legged) or mobile (wheeled) systems.
+5 V2_TELEOP | Breadth across robot control problems — mobile manipulation, dexterity / hand control, and teleoperation — and the versatility to move between them.
+6 V2_C | Strong software engineering: real-time C++ and Python for robotic systems.
+7 V2_SAFETY_STANDARDS | Preferred: shipping controllers to a production fleet or to market at scale; dexterous / in-hand manipulation; legged locomotion; or safety-critical /
+
+==== 68 E0440 nC=8 nI=24 empty=[]
+TITLE Staff Software Engineer - Humanoid Controls
+DUTY Apptronik is building robots for the real world — to improve human quality of life and help solve the ever-increasing labor shortage. As a Staff Software Engineer – Humanoid Controls, you will be a senior technical force
+1 V2_TELEOP | Apptronik is building robots for the real world — to improve human quality of life and help solve the ever-increasing labor shortage. As a Staff Softw
+2 V2_TELEOP | Flex across the stack to the highest-impact problems — e.g. learning-based hand control (RL in simulation), mobile manipulation, teleoperation, and es
+3 V2_TELEOP | Set technical direction across the controls stack, influencing the roadmap and bringing adjacent teams (locomotion, manipulation, teleoperation, RL, e
+4 V2_CLASSICAL_CONTROL | Proven expertise in whole-body control (WBC/OSC, QP-based control, or MPC) for floating-base (legged) or mobile (wheeled) systems.
+5 V2_TELEOP | Breadth across robot control problems — mobile manipulation, dexterity / hand control, and teleoperation — and the versatility to move between them.
+6 V2_C | Strong software engineering: real-time C++ and Python for robotic systems.
+7 V2_SAFETY_STANDARDS | Preferred: shipping controllers to a production fleet or to market at scale; dexterous / in-hand manipulation; legged locomotion; or safety-critical /
+8 V2_USD | The annual compensation for this position is $300,000 - $350,000 (USD)
+
+==== 69 E0379 nC=7 nI=34 empty=[]
+TITLE Lead Software Engineer - Dexterous Manipulation
+DUTY The Lead Software Engineer - Dexterous Manipulation is a core contributor to our robot’s ability to interact with the world with human-like precision. This role is responsible for leading the development of learning-base
+1 V2_CAN,V2_TELEOP | This role will bridge the gap between cutting-edge research and scalable, reliable production software. Whether leveraging reinforcement learning, imi
+2 V2_TELEOP | Design and enforce the foundational software frameworks for manipulation. Own the decision-making process for balancing autonomous logic with high-fid
+3 V2_SIM2REAL | Sim-to-Real Ownership:
+4 V2_C | Oversee the transition from experimental research to fleet-wide deployment. Ensure performance and reliability of C++/Python code running on productio
+5 V2_TELEOP | Teleoperation:
+6 V2_CALIBRATION | Experience with the initial calibration and tuning of high-DOF robotic end-effectors.
+7 V2_USD | The annual compensation for this position is $300,000 - $350,000 (USD)
+
+==== 70 N0771 nC=4 nI=30 empty=[]
+TITLE Humanoid Engineer, Manipulation
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_TELEOP | The Humanoid Engineer, Manipulation will develop, integrate, test, and improve manipulation capabilities on humanoid robots. This role sits at the int
+2 V2_TELEOP | Support teleoperation, data collection, and human-in-the-loop workflows for improving manipulation performance
+3 V2_CALIBRATION | Debug cross-domain issues spanning software, sensors, actuators, end-effectors, calibration, timing, and field conditions
+4 V2_C | Experience with C++, Python, ROS/ROS2, and Linux in a real robotics codebase
+
+==== 71 N0800 nC=7 nI=39 empty=[]
+TITLE Robotics Autonomy Engineer - Planning and Control
+DUTY FieldAI’s Irvine team is where embodied AI meets real robots, real sensors, and real field deployments. Based in the heart of Southern California’s robotics ecosystem, we build risk-aware, reliable, field-ready AI system
+1 V2_CLASSICAL_CONTROL,V2_PATH_SEARCH | Experience in classical planning and control, such as path planning, trajectory optimization, and model predictive control (MPC)
+2 V2_CLASSICAL_CONTROL | Experience in classical planning and control, such as path planning, trajectory optimization, and model predictive control (MPC)
+3 V2_C | Solid programming skills in C++ and Python on Linux-based systems
+4 V2_TENSORRT,V2_ONNX,V2_ONNX_RUNTIME | Experience deploying planning or navigation stacks with real time onboard inference (ONNX Runtime, NVIDIA TensorRT)
+5 V2_ONNX,V2_ONNX_RUNTIME | ONNX Runtime
+6 V2_TENSORRT | NVIDIA TensorRT
+7 V2_OFFICE | At Field AI, we believe the most effective way to collaborate and solve complex challenges is by working together in person. This is a fully onsite ro
+
+==== 72 N0803 nC=5 nI=27 empty=[]
+TITLE Robotics Autonomy Engineer-Planning and Control - Federal
+DUTY Who are We? Field AIis transforming how robots interact with the real world. We are building risk-aware, reliable, and field-ready AI systems that address the most complex challenges in robotics, unlocking the full poten
+1 V2_MOVEIT,V2_NAV2,V2_OMPL | Familiarity with motion planning libraries like OMPL, MoveIt, Nav2 stack etc
+2 V2_OMPL | OMPL
+3 V2_MOVEIT | MoveIt
+4 V2_NAV2 | Nav2
+5 V2_C | Solid programming skills in C++ and Python on Linux-based systems.
+
+==== 73 N0804 nC=7 nI=27 empty=[]
+TITLE Robotics Autonomy Engineer, Planning and Control - Federal
+DUTY Who are We? Field AIis transforming how robots interact with the real world. We are building risk-aware, reliable, and field-ready AI systems that address the most complex challenges in robotics, unlocking the full poten
+1 V2_MOVEIT,V2_NAV2,V2_OMPL | Familiarity with motion planning libraries like OMPL, MoveIt, Nav2 stack etc
+2 V2_OMPL | OMPL
+3 V2_MOVEIT | MoveIt
+4 V2_NAV2 | Nav2
+5 V2_C | Solid programming skills in C++ and Python on Linux-based systems.
+6 V2_MS_PROJECT | Ability to work on US government project
+7 V2_C | This position is for our FieldAI Federal Team.  This team works on projects connected to the U.S. government which requires U.S. Person eligibility.  
+
+==== 74 N0934 nC=8 nI=26 empty=[]
+TITLE Principal Motion Planning Engineer
+DUTY About Us At Pickle Robot, we're on a mission to automate global supply chains with Physical AI. Our robots work alongside warehouse teams to unload trucks and containers — one of the toughest, most understaffed jobs in l
+1 V2_CAN | Own the technical vision, architecture, interfaces, and system documentation for Pickle's motion planning and controls stack — manipulation, navigatio
+2 V2_PATH_SEARCH | Take on the hardest algorithmic problems in planning and control — sample-based planning (e.g., RRT), path and trajectory optimization, numerical/nonl
+3 V2_C | Write production-grade Python and C++ for real-time, safety-critical robotics — personally shipping the highest-leverage and highest-risk components
+4 V2_C,V2_PATH_SEARCH | Expert-level mastery of motion planning and control for real-world robots — manipulation, navigation, or locomotion — including sample-based planning 
+5 V2_PATH_SEARCH | sample-based planning (e.g., RRT)
+6 V2_GIT | Proficiency with ROS/ROS2, Git, Linux, and numerical optimization libraries; experience architecting testing/CI and benchmarking for robotics
+7 V2_GIT | Git
+8 - | experience architecting testing/CI and benchmarking for robotics
+
+==== 75 N0935 nC=2 nI=21 empty=[]
+TITLE Robotics Software Engineer
+DUTY About Us At Pickle Robot, we're on a mission to automate global supply chains with Physical AI. Our robots work alongside warehouse teams to unload trucks and containers — one of the toughest, most understaffed jobs in l
+1 V2_C | Write production-grade software with Python and C++, meeting strict reliability, latency, and timing requirements for safety-critical operation
+2 V2_C | Proficiency in Python; experience with C++ is a bonus

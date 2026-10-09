@@ -1,0 +1,52 @@
+{
+  "n_ads": 105,
+  "n_joint_mentions": 26,
+  "n_literal_absent_ads_checked": 79,
+  "n_reviewed_full_sources": 26,
+  "full_source_same_predicate_count": 26,
+  "separate_target_qualification_occurrences_found": 0,
+  "tensorflow_Q_states": {
+    "Z": 103,
+    "U": 2
+  },
+  "tensorflow_H": 22,
+  "tensorflow_example_P": 17,
+  "tensorflow_choice_example_P": 21,
+  "reviewed_branch_counts": {
+    "EXAMPLE": 16,
+    "UNRESOLVED": 1,
+    "CHOICE": 2,
+    "CHOICE_AND_EXAMPLE": 6,
+    "UNCONDITIONAL_OR_EXAMPLE": 1
+  },
+  "reviewed_metric_counts": {
+    "GENERAL": 22,
+    "PREFERRED": 4
+  },
+  "pytorch_harmonization_differences": [],
+  "original_496_state_rows_modified": false,
+  "independent_human_validation": false,
+  "inherited_comparison_is_diagnostic_only": true,
+  "harmonized_primary_scope": "Both frameworks reviewed in 26 co-mention ads; PyTorch in other 79 remains inherited.",
+  "source_occurrence_checks": 53,
+  "all_target_and_parent_span_checks_pass": true,
+  "annotation_sha256": "02c50b968e0968dc9482d829c061a46cbca8215a8913590b48006e7eb3a0814c",
+  "inputs": [
+    {
+      "path": "source_snapshot\\source_v2\\data\\inputs\\records.json",
+      "sha256": "c3bf940e3cf39fabeea2d3ae25684577f8cd6fc1e71450b9a5a60a19ab743acb"
+    },
+    {
+      "path": "analysis\\paired\\qualification_scope_states.csv",
+      "sha256": "44454b9cc4412c073551179e0177dc218716af968b4f1cadc2021418a62ea018"
+    },
+    {
+      "path": "data\\v4_source_corrections.json",
+      "sha256": "e8f4930401c4bee4494bd2bdb922489828d56349d91e9818b148aaf6e796d515"
+    },
+    {
+      "path": "extensions\\framework_control\\data\\source_review_annotations.json",
+      "sha256": "02c50b968e0968dc9482d829c061a46cbca8215a8913590b48006e7eb3a0814c"
+    }
+  ]
+}
